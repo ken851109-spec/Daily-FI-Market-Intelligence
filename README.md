@@ -10,7 +10,7 @@ Public GitHub Pages archive for Daily FI Tape reports.
 - `data/tapes/<date>.json`: sanitized public report data.
 - `archive/<date>-close/index.html`: original published HTML fallback for each close date.
 
-The repository is display-only. Public JSON is generated from local Daily FI Tape artifacts and excludes email recipients, Gmail/source ids, ledger state, transport state, and local filesystem paths.
+The repository is display-only. Public JSON is generated from local Daily FI Tape artifacts and keeps only reader-facing report content.
 
 ## Publish From Local Artifacts
 

@@ -3,95 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daily FI Tape</title>
+  <title>Daily FI Market Tape</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <span class="brand-mark">FI</span>
+  <header class="reader-bar">
+    <div class="reader-brand">
+      <span class="reader-mark">FI</span>
       <div>
-        <h1>Daily FI Tape</h1>
-        <p>Public fixed-income market tape archive</p>
+        <h1>Daily FI Market Tape</h1>
+        <p id="activeTapeLabel">載入報告中</p>
       </div>
     </div>
-    <div class="top-actions" aria-label="Report controls">
-      <label class="select-label" for="tapeSelect">Report</label>
-      <select id="tapeSelect" class="select-control"></select>
-      <label class="search-label" for="searchInput">Search</label>
-      <input id="searchInput" class="search-control" type="search" placeholder="Search report text or tables">
+    <div class="reader-controls" aria-label="Report controls">
+      <select id="tapeSelect" class="control control-select" aria-label="選擇歷史報告"></select>
+      <input id="searchInput" class="control control-search" type="search" placeholder="搜尋本篇內容">
+      <a id="openArchiveLink" class="archive-link" href="#" target="_blank" rel="noopener">原始版</a>
     </div>
   </header>
 
-  <main class="workspace">
-    <aside class="rail" aria-label="Archive">
-      <div class="rail-section">
-        <h2>Archive</h2>
+  <main class="reader-layout">
+    <aside class="reader-side" aria-label="歷史報告與章節">
+      <section class="side-block">
+        <h2>歷史報告</h2>
         <div id="archiveList" class="archive-list"></div>
-      </div>
-      <div class="rail-section">
-        <h2>Sections</h2>
+      </section>
+      <section class="side-block">
+        <h2>章節</h2>
         <nav id="sectionNav" class="section-nav"></nav>
-      </div>
+      </section>
     </aside>
 
-    <article class="report" aria-live="polite">
-      <section class="status-panel" id="statusPanel">
-        <h2>Loading Daily FI Tape</h2>
-        <p>Fetching the latest published report.</p>
-      </section>
-
-      <section class="hero hidden" id="heroPanel">
-        <div class="eyebrow" id="reportDate"></div>
-        <h2 id="reportTitle"></h2>
-        <p id="headlinePrimary" class="headline-primary"></p>
-        <p id="headlineSecondary" class="headline-secondary"></p>
-        <div class="meta-row" id="metaRow"></div>
-        <div class="summary-grid" id="summaryGrid"></div>
-      </section>
-
-      <section class="dashboard hidden" id="dashboardPanel">
-        <div class="panel-header">
-          <h2>Market Regime</h2>
-          <p>Decision layer distilled from the full report.</p>
-        </div>
-        <div class="regime-strip" id="regimeStrip"></div>
-        <div class="positioning-grid" id="positioningGrid"></div>
-      </section>
-
-      <section class="dashboard hidden" id="driversPanel">
-        <div class="panel-header">
-          <h2>Driver Decomposition</h2>
-          <p>Tap a driver to focus related sections and tables.</p>
-        </div>
-        <div class="driver-table" id="driverTable"></div>
-      </section>
-
-      <section class="dashboard hidden" id="monitorPanel">
-        <div class="panel-header">
-          <h2>Key Levels & Event Risk</h2>
-          <p>Levels, event risk, and Taipei pre-market checks.</p>
-        </div>
-        <div class="monitor-grid" id="monitorGrid"></div>
-      </section>
-
-      <section class="dashboard hidden" id="tablesPanel">
-        <div class="panel-header">
-          <h2>Market Tables</h2>
-          <p>Reference data from the published tape.</p>
-        </div>
-        <div class="tabs" id="tableTabs"></div>
-        <div id="tableContent"></div>
-      </section>
-
-      <section class="longform hidden" id="longformPanel">
-        <div class="panel-header">
-          <h2>Analysis</h2>
-          <p>Full institutional read, preserved for desk review.</p>
-        </div>
-        <div id="sectionsContainer"></div>
-      </section>
-    </article>
+    <section class="report-frame-wrap" aria-live="polite">
+      <div id="statusPanel" class="status-panel">
+        <h2>載入報告中</h2>
+      </div>
+      <iframe id="reportFrame" class="report-frame" title="Daily FI Market Tape report"></iframe>
+    </section>
   </main>
 
   <script src="assets/app.js"></script>

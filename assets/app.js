@@ -2,84 +2,27 @@ const state = {
   manifest: [],
   note: null,
   activeDate: null,
-  activeTable: null,
-  activeDriver: null,
   search: "",
 };
 
 const el = {
   tapeSelect: document.getElementById("tapeSelect"),
   searchInput: document.getElementById("searchInput"),
+  activeTapeLabel: document.getElementById("activeTapeLabel"),
+  openArchiveLink: document.getElementById("openArchiveLink"),
   archiveList: document.getElementById("archiveList"),
   sectionNav: document.getElementById("sectionNav"),
   statusPanel: document.getElementById("statusPanel"),
-  heroPanel: document.getElementById("heroPanel"),
-  dashboardPanel: document.getElementById("dashboardPanel"),
-  driversPanel: document.getElementById("driversPanel"),
-  monitorPanel: document.getElementById("monitorPanel"),
-  tablesPanel: document.getElementById("tablesPanel"),
-  longformPanel: document.getElementById("longformPanel"),
-  reportDate: document.getElementById("reportDate"),
-  reportTitle: document.getElementById("reportTitle"),
-  headlinePrimary: document.getElementById("headlinePrimary"),
-  headlineSecondary: document.getElementById("headlineSecondary"),
-  metaRow: document.getElementById("metaRow"),
-  summaryGrid: document.getElementById("summaryGrid"),
-  regimeStrip: document.getElementById("regimeStrip"),
-  positioningGrid: document.getElementById("positioningGrid"),
-  driverTable: document.getElementById("driverTable"),
-  monitorGrid: document.getElementById("monitorGrid"),
-  tableTabs: document.getElementById("tableTabs"),
-  tableContent: document.getElementById("tableContent"),
-  sectionsContainer: document.getElementById("sectionsContainer"),
+  reportFrame: document.getElementById("reportFrame"),
 };
 
-function text(value) {
-  return value == null ? "" : String(value);
-}
-
 function escapeHtml(value) {
-  return text(value)
+  return String(value ?? "")
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
-}
-
-function normalize(value) {
-  return text(value).toLowerCase();
-}
-
-function slug(value) {
-  return text(value)
-    .toLowerCase()
-    .replace(/[^\w\u4e00-\u9fff]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
-
-function highlight(value) {
-  const safe = escapeHtml(value);
-  if (!state.search) return safe;
-  const escapedSearch = state.search.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return safe.replace(new RegExp(`(${escapedSearch})`, "gi"), '<mark class="highlight">$1</mark>');
-}
-
-function showAppPanels() {
-  [
-    el.heroPanel,
-    el.dashboardPanel,
-    el.driversPanel,
-    el.monitorPanel,
-    el.tablesPanel,
-    el.longformPanel,
-  ].forEach((panel) => panel.classList.remove("hidden"));
-  el.statusPanel.classList.add("hidden");
-}
-
-function setStatus(title, body) {
-  el.statusPanel.classList.remove("hidden");
-  el.statusPanel.innerHTML = `<h2>${escapeHtml(title)}</h2><p>${escapeHtml(body)}</p>`;
 }
 
 async function fetchJson(path) {
@@ -88,7 +31,7 @@ async function fetchJson(path) {
   return response.json();
 }
 
-function currentManifestItem() {
+function activeManifestItem() {
   return state.manifest.find((item) => item.date === state.activeDate) || state.manifest[0];
 }
 
@@ -96,279 +39,209 @@ function updateUrl(sectionId) {
   const params = new URLSearchParams(window.location.search);
   if (state.activeDate) params.set("tape", state.activeDate);
   if (sectionId) params.set("section", sectionId);
+  else params.delete("section");
   window.history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
 }
 
-function renderArchive() {
+function setStatus(message) {
+  el.statusPanel.classList.remove("hidden");
+  el.statusPanel.innerHTML = `<h2>${escapeHtml(message)}</h2>`;
+}
+
+function renderControls() {
   el.tapeSelect.innerHTML = state.manifest
     .map((item) => `<option value="${escapeHtml(item.date)}">${escapeHtml(item.label)}</option>`)
     .join("");
   el.tapeSelect.value = state.activeDate;
+  const item = activeManifestItem();
+  el.activeTapeLabel.textContent = item?.label || "Daily FI Market Tape";
+  el.openArchiveLink.href = item?.path || "#";
+
   el.archiveList.innerHTML = state.manifest
     .map(
-      (item) => `
-        <button class="archive-button ${item.date === state.activeDate ? "active" : ""}" data-date="${escapeHtml(item.date)}">
-          <strong>${escapeHtml(item.label)}</strong><br>
-          <span>${escapeHtml(item.coverageLabel || item.title)}</span>
-        </button>
-      `
-    )
-    .join("");
-}
-
-function renderHero(note) {
-  el.reportDate.textContent = note.label || `${note.date} close`;
-  el.reportTitle.textContent = note.title || "Daily FI Market Tape";
-  el.headlinePrimary.textContent = note.headline?.primary || "";
-  el.headlineSecondary.textContent = note.headline?.secondary || "";
-
-  const meta = [
-    note.coverage?.range_label ? `Coverage ${note.coverage.range_label}` : "",
-    note.generated_at ? `Generated ${note.generated_at}` : "",
-    note.timezone || "",
-  ].filter(Boolean);
-  el.metaRow.innerHTML = meta.map((item) => `<span class="meta-chip">${escapeHtml(item)}</span>`).join("");
-  el.summaryGrid.innerHTML = (note.summary || [])
-    .map((item) => `<div class="summary-card">${highlight(item)}</div>`)
-    .join("");
-}
-
-function renderRegimeAndPositioning(note) {
-  el.regimeStrip.innerHTML = (note.regime_strip || [])
-    .map(
-      (item) => `
-        <button class="driver-button regime-chip" data-driver="${escapeHtml(item.label || "")}">
-          <strong>${escapeHtml(item.label || "")}</strong> ${highlight(item.value || "")}
+      (entry) => `
+        <button class="archive-button ${entry.date === state.activeDate ? "active" : ""}" data-date="${escapeHtml(entry.date)}">
+          <strong>${escapeHtml(entry.label)}</strong>
+          <span>${escapeHtml(entry.title)}</span>
         </button>
       `
     )
     .join("");
 
-  el.positioningGrid.innerHTML = (note.positioning || [])
-    .map(
-      (item) => `
-        <div class="positioning-card" data-driver-text="${escapeHtml(JSON.stringify(item))}">
-          <h3>${escapeHtml(item.label || "")} <span class="meta-chip">${escapeHtml(item.view || item.stance || "")}</span></h3>
-          <p>${highlight(item.best_expression || "")}</p>
-          <p><strong>Risk:</strong> ${highlight(item.risk_trigger || "")}</p>
-        </div>
-      `
-    )
-    .join("");
-}
-
-function renderDrivers(note) {
-  const rows = note.driver_decomposition || [];
-  if (!rows.length) {
-    el.driverTable.innerHTML = "";
-    return;
-  }
-  el.driverTable.innerHTML = `
-    <table class="driver-grid">
-      <thead><tr><th>Driver</th><th>Signal</th><th>FI Impact</th></tr></thead>
-      <tbody>
-        ${rows
-          .map(
-            (row) => `
-              <tr data-driver-text="${escapeHtml(JSON.stringify(row))}">
-                <td><button class="driver-button" data-driver="${escapeHtml(row.driver || "")}">${escapeHtml(row.driver || "")}</button></td>
-                <td>${highlight(row.signal || "")}</td>
-                <td>${highlight(row.fi_impact || row.impact || "")}</td>
-              </tr>
-            `
-          )
-          .join("")}
-      </tbody>
-    </table>
-  `;
-}
-
-function renderMonitor(note) {
-  const blocks = note.monitor_blocks || {};
-  const labels = {
-    key_levels: "Key Levels",
-    event_risks: "Event Risk",
-    asia_update: "Asia Update",
-  };
-  el.monitorGrid.innerHTML = Object.entries(labels)
-    .map(([key, title]) => {
-      const rows = blocks[key] || [];
-      return `
-        <div class="monitor-card">
-          <h3>${title}</h3>
-          ${rows
-            .map(
-              (row) => `
-                <p><strong>${escapeHtml(row.label || "")}</strong> ${highlight(row.value || "")}</p>
-                <p>${highlight(row.detail || row.change || "")}</p>
-              `
-            )
-            .join("")}
-        </div>
-      `;
-    })
-    .join("");
-}
-
-function rowChangeClass(value) {
-  const raw = text(value).trim();
-  if (raw.startsWith("+")) return "pos";
-  if (raw.startsWith("-")) return "neg";
-  return "";
-}
-
-function renderTables(note) {
-  const tables = note.market_tables || [];
-  if (!state.activeTable && tables.length) state.activeTable = tables[0].id || tables[0].title;
-  el.tableTabs.innerHTML = tables
-    .map((table) => {
-      const id = table.id || table.title;
-      return `<button class="tab-button ${id === state.activeTable ? "active" : ""}" data-table="${escapeHtml(id)}">${escapeHtml(table.title || id)}</button>`;
-    })
-    .join("");
-
-  const table = tables.find((item) => (item.id || item.title) === state.activeTable) || tables[0];
-  if (!table) {
-    el.tableContent.innerHTML = "";
-    return;
-  }
-  const columns = table.columns || [];
-  const rows = table.rows || [];
-  el.tableContent.innerHTML = `
-    <table class="market-table">
-      <thead><tr>${columns.map((column) => `<th>${escapeHtml(column)}</th>`).join("")}</tr></thead>
-      <tbody>
-        ${rows
-          .map((row) => {
-            const values = [
-              row.label,
-              row.value ?? row.status,
-              row.change ?? row.result,
-              row.week_change ?? row.expected ?? row.note,
-              row.month_change ?? row.implication ?? row.detail,
-            ].slice(0, columns.length);
-            return `<tr data-driver-text="${escapeHtml(JSON.stringify(row))}">${values
-              .map((value, index) => `<td class="${index >= 2 ? rowChangeClass(value) : ""}">${highlight(value || "")}</td>`)
-              .join("")}</tr>`;
-          })
-          .join("")}
-      </tbody>
-    </table>
-  `;
-}
-
-function renderSections(note) {
-  const sections = note.sections || [];
+  const sections = state.note?.sections || [];
   el.sectionNav.innerHTML = sections
     .map((section, index) => {
-      const id = section.id || slug(section.title || `section-${index + 1}`);
-      return `<button class="section-link" data-section="${escapeHtml(id)}">${escapeHtml(section.title || `Section ${index + 1}`)}</button>`;
-    })
-    .join("");
-  el.sectionsContainer.innerHTML = sections
-    .map((section, index) => {
-      const id = section.id || slug(section.title || `section-${index + 1}`);
-      const paragraphs = section.paragraphs || [];
-      return `
-        <section class="section-block" id="${escapeHtml(id)}" data-driver-text="${escapeHtml(JSON.stringify(section))}">
-          <h3>${escapeHtml(section.title || `Section ${index + 1}`)}</h3>
-          ${section.takeaway ? `<p><strong>${highlight(section.takeaway)}</strong></p>` : ""}
-          ${paragraphs.map((paragraph) => `<p>${highlight(paragraph)}</p>`).join("")}
-        </section>
-      `;
+      const label = section.title || `Section ${index + 1}`;
+      return `<button class="section-button" data-section-title="${escapeHtml(label)}">${escapeHtml(label)}</button>`;
     })
     .join("");
 }
 
-function applyFilters() {
-  const query = normalize(state.search);
-  const driver = normalize(state.activeDriver);
-  document.querySelectorAll("[data-driver-text]").forEach((node) => {
-    const haystack = normalize(node.getAttribute("data-driver-text"));
-    const queryMatch = !query || haystack.includes(query);
-    const driverMatch = !driver || haystack.includes(driver);
-    node.classList.toggle("filtered-out", !(queryMatch && driverMatch));
-  });
-  document.querySelectorAll(".driver-button").forEach((button) => {
-    button.classList.toggle("active", state.activeDriver && normalize(button.dataset.driver) === normalize(state.activeDriver));
+function resizeFrame() {
+  const doc = el.reportFrame.contentDocument;
+  if (!doc) return;
+  const height = Math.max(
+    doc.body?.scrollHeight || 0,
+    doc.documentElement?.scrollHeight || 0,
+    window.innerHeight - 92
+  );
+  el.reportFrame.style.height = `${height}px`;
+  el.reportFrame.classList.add("ready");
+}
+
+function injectViewerStyles() {
+  const doc = el.reportFrame.contentDocument;
+  if (!doc?.head || doc.getElementById("daily-fi-viewer-style")) return;
+  const style = doc.createElement("style");
+  style.id = "daily-fi-viewer-style";
+  style.textContent = `
+    @media only screen and (max-width: 640px) {
+      html, body { overflow-x: hidden !important; }
+      body > table > tbody > tr > td[align="center"] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      table.daily-fi-shell {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      .daily-fi-pad {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+      h1 {
+        font-size: 27px !important;
+      }
+    }
+  `;
+  doc.head.appendChild(style);
+}
+
+function clearSearchMarks() {
+  const doc = el.reportFrame.contentDocument;
+  if (!doc) return;
+  doc.querySelectorAll("mark.daily-fi-search-hit").forEach((mark) => {
+    const textNode = doc.createTextNode(mark.textContent || "");
+    mark.replaceWith(textNode);
   });
 }
 
-function renderNote() {
-  const note = state.note;
-  renderArchive();
-  renderHero(note);
-  renderRegimeAndPositioning(note);
-  renderDrivers(note);
-  renderMonitor(note);
-  renderTables(note);
-  renderSections(note);
-  applyFilters();
-  showAppPanels();
+function markSearchHits(query) {
+  clearSearchMarks();
+  const trimmed = query.trim();
+  if (!trimmed) return 0;
+
+  const doc = el.reportFrame.contentDocument;
+  if (!doc?.body) return 0;
+  const escaped = trimmed.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const testPattern = new RegExp(escaped, "i");
+  const pattern = new RegExp(escaped, "gi");
+  const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!parent || ["SCRIPT", "STYLE", "MARK"].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+      return testPattern.test(node.nodeValue || "") ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+    },
+  });
+
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  let hits = 0;
+  nodes.forEach((node) => {
+    const fragment = doc.createDocumentFragment();
+    const text = node.nodeValue || "";
+    let lastIndex = 0;
+    text.replace(pattern, (match, offset) => {
+      if (offset > lastIndex) fragment.appendChild(doc.createTextNode(text.slice(lastIndex, offset)));
+      const mark = doc.createElement("mark");
+      mark.className = "daily-fi-search-hit";
+      mark.textContent = match;
+      fragment.appendChild(mark);
+      hits += 1;
+      lastIndex = offset + match.length;
+      return match;
+    });
+    if (lastIndex < text.length) fragment.appendChild(doc.createTextNode(text.slice(lastIndex)));
+    node.replaceWith(fragment);
+  });
+
+  const styleId = "daily-fi-search-style";
+  if (!doc.getElementById(styleId)) {
+    const style = doc.createElement("style");
+    style.id = styleId;
+    style.textContent = ".daily-fi-search-hit{background:#fff1b8;color:#8a5a00;font-weight:700;}";
+    doc.head.appendChild(style);
+  }
+  doc.querySelector("mark.daily-fi-search-hit")?.scrollIntoView({ block: "center" });
+  resizeFrame();
+  return hits;
+}
+
+function findElementByText(doc, label) {
+  const candidates = [...doc.querySelectorAll("h1,h2,h3,h4,td,p,div,span,strong")];
+  return candidates.find((node) => (node.textContent || "").trim().includes(label));
+}
+
+function scrollToSection(title) {
+  const doc = el.reportFrame.contentDocument;
+  if (!doc) return;
+  const target = findElementByText(doc, title);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
+    updateUrl(title);
+  }
 }
 
 async function loadTape(date) {
   const item = state.manifest.find((entry) => entry.date === date) || state.manifest[0];
   if (!item) return;
   state.activeDate = item.date;
-  state.activeTable = null;
-  setStatus("Loading Daily FI Tape", `Fetching ${item.label}.`);
+  setStatus("載入報告中");
   state.note = await fetchJson(item.dataPath);
-  renderNote();
+  renderControls();
+
+  await new Promise((resolve) => {
+    el.reportFrame.onload = resolve;
+    el.reportFrame.src = item.path;
+  });
+  el.statusPanel.classList.add("hidden");
+  injectViewerStyles();
+  resizeFrame();
+  if (state.search) markSearchHits(state.search);
   updateUrl();
 }
 
 function bindEvents() {
   el.tapeSelect.addEventListener("change", (event) => loadTape(event.target.value).catch(showError));
   el.searchInput.addEventListener("input", (event) => {
-    state.search = event.target.value.trim();
-    renderNote();
+    state.search = event.target.value;
+    markSearchHits(state.search);
   });
+  window.addEventListener("resize", resizeFrame);
   document.addEventListener("click", (event) => {
     const archiveButton = event.target.closest("[data-date]");
     if (archiveButton) {
       loadTape(archiveButton.dataset.date).catch(showError);
       return;
     }
-    const tableButton = event.target.closest("[data-table]");
-    if (tableButton) {
-      state.activeTable = tableButton.dataset.table;
-      renderTables(state.note);
-      applyFilters();
-      return;
-    }
-    const driverButton = event.target.closest("[data-driver]");
-    if (driverButton) {
-      const driver = driverButton.dataset.driver;
-      state.activeDriver = state.activeDriver === driver ? null : driver;
-      applyFilters();
-      return;
-    }
-    const sectionButton = event.target.closest("[data-section]");
+    const sectionButton = event.target.closest("[data-section-title]");
     if (sectionButton) {
-      const target = document.getElementById(sectionButton.dataset.section);
-      if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-        updateUrl(sectionButton.dataset.section);
-      }
+      scrollToSection(sectionButton.dataset.sectionTitle);
     }
   });
 }
 
 function showError(error) {
-  setStatus("Unable to load report", error.message || "The report archive could not be loaded.");
+  setStatus(error.message || "報告載入失敗");
 }
 
 async function boot() {
   bindEvents();
-  const params = new URLSearchParams(window.location.search);
   state.manifest = await fetchJson("tapes.json");
-  const requestedTape = params.get("tape");
-  await loadTape(requestedTape || state.manifest[0]?.date);
+  const params = new URLSearchParams(window.location.search);
+  await loadTape(params.get("tape") || state.manifest[0]?.date);
   const section = params.get("section");
-  if (section) {
-    setTimeout(() => document.getElementById(section)?.scrollIntoView({ block: "start" }), 100);
-  }
+  if (section) setTimeout(() => scrollToSection(section), 200);
 }
 
 boot().catch(showError);
