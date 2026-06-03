@@ -62,10 +62,9 @@ table { width: 100%; border-collapse: collapse; }
 th, td { padding: 8px 9px; border-bottom: 1px solid #e1e8ef; text-align: left; vertical-align: top; font-size: 12.5px; line-height: 1.42; }
 thead th { color: var(--muted); background: #eef3f7; font-size: 11.5px; font-weight: 800; }
 .ust-heatmap th, .ust-heatmap td { white-space: nowrap; }
-.heatmap-cues { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding: 12px 14px 4px; background: #fff; }
-.heatmap-cues article { border: 1px solid #dfe7ee; background: #f7fafc; padding: 9px 10px; }
-.heatmap-cues span { display: block; color: var(--orange); font-size: 11.5px; line-height: 1.25; font-weight: 800; text-transform: uppercase; }
-.heatmap-cues strong { display: block; margin-top: 4px; color: var(--ink); font-size: 13px; line-height: 1.35; }
+.heatmap-readout { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 9px 14px; background: #f7fafc; border-bottom: 1px solid #dfe7ee; }
+.heatmap-readout span { color: var(--orange); font-size: 11.5px; line-height: 1.25; font-weight: 800; }
+.heatmap-readout strong { color: var(--text); font-size: 12.5px; line-height: 1.35; font-weight: 800; }
 .yield-row + .curve-row th, .yield-row + .curve-row td { border-top: 2px solid #cad6e1; }
 .num { text-align: right; font-variant-numeric: tabular-nums; }
 .level { color: var(--ink); font-weight: 800; }
@@ -115,7 +114,7 @@ thead th { color: var(--muted); background: #eef3f7; font-size: 11.5px; font-wei
 .driver-grid, .asset-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding: 12px; background: var(--surface-evidence); }
 .driver-card { border-left: 4px solid var(--navy-2); }
 .driver-card p, .asset-card p, .asia-card p, .event-card p, .trigger-card p { margin: 8px 0 0; font-size: 12.5px; line-height: 1.52; }
-.driver-card span, .fi-read span { display: block; color: var(--muted); font-size: 11.5px; font-weight: 800; text-transform: uppercase; }
+.driver-card span, .fi-read span, .asset-move span { display: block; color: var(--muted); font-size: 11.5px; font-weight: 800; }
 .asset-level { color: var(--ink); font-size: 16px !important; font-weight: 800; }
 .asset-move { font-size: 13px !important; }
 .fi-read { border-top: 1px solid #e5ebf1; padding-top: 8px; }
@@ -176,7 +175,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .headline-primary { font-size: 15.5px; }
   .regime-strip, .position-grid, .driver-grid, .asset-grid, .mobile-monitor { grid-template-columns: 1fr; }
   .block, .regime-strip, .mobile-monitor { margin-top: 10px; border-left: 0; border-right: 0; }
-  .heatmap-cues { grid-template-columns: 1fr; padding: 10px 10px 2px; }
+  .heatmap-readout { display: grid; gap: 5px; padding: 9px 10px; }
   th, td { font-size: 12px; padding: 7px 7px; }
   .curve-chart-wrap { padding: 9px 10px 12px; }
   .move-row { grid-template-columns: 72px minmax(0, 1fr) 50px; gap: 8px; }
