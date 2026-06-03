@@ -1,0 +1,282 @@
+{
+  "date": "2026-05-29",
+  "label": "2026-05-29 close",
+  "title": "Daily FI Market Tape | 2026-05-29 close",
+  "generated_at": "2026-06-01T08:37:26+08:00",
+  "timezone": "Asia/Taipei",
+  "coverage": {
+    "start_node": "2026-05-29T08:04:00+08:00",
+    "end_node": "2026-06-01T07:58:00+08:00",
+    "range_label": "2026-05-29 08:04 - 2026-06-01 07:58"
+  },
+  "summary": [
+    "美債週五以 bull-flattening 色彩收盤：2Y 收在 3.98%、10Y 4.45%、30Y 4.99%，2s10s 擴至 47bp，短端一週回落 15bp 但長端仍被 term premium 限制。",
+    "油價的月線壓力先壓低通膨溢價，Brent 週五約 92 美元、五月跌幅超過 16%；但週一亞洲時段回到約 93 美元，代表 geopolitics 仍會限制 duration rally 的外推。",
+    "風險資產維持偏多，美股週五創高、S&P 500 連九週上漲，credit beta 與 EM debt 同步受惠；這讓美債 rally 更像 tactical relief，而非成長衝擊。",
+    "政策面核心變數轉向勞動市場與第二輪通膨：五月非農市場預估約 +89k、失業率 4.3%，Fed、ECB、BOE 與印度央行都在避免過早宣告通膨勝利。"
+  ],
+  "headline": {},
+  "regime_strip": [],
+  "positioning": [],
+  "driver_decomposition": [],
+  "monitor_blocks": {},
+  "market_tables": [
+    {
+      "id": "rates_and_curves",
+      "title": "美債與曲線",
+      "columns": [
+        "項目",
+        "收盤",
+        "日變動",
+        "周變動",
+        "月變動"
+      ],
+      "rows": [
+        {
+          "label": "2Y",
+          "value": "3.98%",
+          "change": "-1bp",
+          "week_change": "-15bp",
+          "month_change": "+6bp"
+        },
+        {
+          "label": "5Y",
+          "value": "4.13%",
+          "change": "-2bp",
+          "week_change": "-14bp",
+          "month_change": "+8bp"
+        },
+        {
+          "label": "10Y",
+          "value": "4.45%",
+          "change": "0bp",
+          "week_change": "-11bp",
+          "month_change": "+3bp"
+        },
+        {
+          "label": "20Y",
+          "value": "4.98%",
+          "change": "0bp",
+          "week_change": "-8bp",
+          "month_change": "+1bp"
+        },
+        {
+          "label": "30Y",
+          "value": "4.99%",
+          "change": "+1bp",
+          "week_change": "-8bp",
+          "month_change": "+1bp"
+        },
+        {
+          "label": "2s10s",
+          "value": "47bp",
+          "change": "+1bp",
+          "week_change": "+4bp",
+          "month_change": "-3bp"
+        },
+        {
+          "label": "5s30s",
+          "value": "86bp",
+          "change": "+3bp",
+          "week_change": "+6bp",
+          "month_change": "-7bp"
+        },
+        {
+          "label": "10s30s",
+          "value": "54bp",
+          "change": "+1bp",
+          "week_change": "+3bp",
+          "month_change": "-2bp"
+        }
+      ]
+    },
+    {
+      "id": "cross_asset",
+      "title": "跨資產",
+      "columns": [
+        "項目",
+        "收盤 / 狀態",
+        "日變動",
+        "重點"
+      ],
+      "rows": [
+        {
+          "label": "S&P 500",
+          "value": "Record high",
+          "change": "+0.1% futures tone",
+          "note": "週五美股創高且連九週上漲，risk-on 抑制美債 rally 轉成 recession trade。",
+          "implication": "風險偏多"
+        },
+        {
+          "label": "Nasdaq 100",
+          "value": "Futures +0.2% early Asia",
+          "change": "+0.2%",
+          "note": "AI 與大型科技股 beta 續強，chipmakers 自四月初以來接近 +70%。",
+          "implication": "duration 需求偏戰術"
+        },
+        {
+          "label": "DXY",
+          "value": "98.91",
+          "change": "-0.11%",
+          "note": "DXY 5/29 收 98.91，較前日小跌；週一亞洲盤若有局部反彈，仍應和正式收盤分開解讀。",
+          "implication": "美元走弱"
+        },
+        {
+          "label": "Brent",
+          "value": "$92 Fri / $93 early Asia",
+          "change": "May >-16%; early rebound",
+          "note": "油價月線大跌壓低 headline inflation premium，但談判停滯使週一早盤回補，通膨溢價交易不宜線性外推。",
+          "implication": "通膨風險雙向"
+        },
+        {
+          "label": "WTI",
+          "value": "$88-$90 area",
+          "change": "rebounded with Brent",
+          "note": "能源曲線的方向比單日收盤更重要；若回到 90 / 95 觸發區，front-end breakeven 與 Fed optionality 會再被重估。",
+          "implication": "通膨溢價觀察"
+        },
+        {
+          "label": "Credit beta",
+          "value": "HY / loans supported",
+          "change": "spread tone firmer",
+          "note": "大額媒體融資案涵蓋 IG、HY 與 leveraged loans，投資人仍接受具資產與 rating 支撐的融資風險。",
+          "implication": "quality carry 優先"
+        },
+        {
+          "label": "EM debt",
+          "value": "record rally / capacity limits",
+          "change": "inflows strong",
+          "note": "部分策略因小型與 distressed 市場容量受限而控管資金，顯示 beta 已不便宜但 carry 仍有需求。",
+          "implication": "避免 crowded beta"
+        },
+        {
+          "label": "China data",
+          "value": "factory tone softer",
+          "change": "growth check",
+          "note": "中國製造業訊號偏弱，對 commodity demand 與亞洲 FX 形成反向檢驗，但短線未改變全球風險偏多。",
+          "implication": "亞洲利率偏中性"
+        }
+      ]
+    },
+    {
+      "id": "events_and_data",
+      "title": "事件與經濟數據",
+      "columns": [
+        "項目",
+        "公布 / 狀態",
+        "預期",
+        "重點"
+      ],
+      "rows": [
+        {
+          "label": "Labor",
+          "value": "May payrolls due this week",
+          "expected": "+89k jobs; unemployment 4.3%",
+          "note": "若就業低於預估且失業率上行，5Y-10Y belly relief 可延續；若薪資或服務業就業韌性偏強，前端降息定價會被壓回。"
+        },
+        {
+          "label": "Fed",
+          "value": "inflation persistence in focus",
+          "expected": "policy patience with hike optionality",
+          "note": "第二輪通膨與能源風險讓 Fed reaction function 偏不急於放鬆，2Y 已反映較多 relief，進一步 rally 需要勞動數據確認。"
+        },
+        {
+          "label": "Inflation",
+          "value": "energy relief partly reversed",
+          "expected": "oil below 95 remains helpful",
+          "note": "Brent 月跌幅超過 16% 有利 headline path，但週一反彈提醒 front-end breakeven 對 geopolitics 仍敏感。"
+        },
+        {
+          "label": "ECB",
+          "value": "June 10-11 meeting watched",
+          "expected": "risk of earlier action",
+          "note": "歐洲政策官員偏向及早處理通膨預期，Bund / UST relative value 會把全球 duration relief 的空間壓窄。"
+        },
+        {
+          "label": "BOE",
+          "value": "Mann flags end of low-inflation luck",
+          "expected": "gilts term premium sticky",
+          "note": "英國訊號強化全球央行不願過早轉鴿的共通點，long-end 對 fiscal 與 inflation risk 的風險溢價不易快速消失。"
+        },
+        {
+          "label": "Asia policy",
+          "value": "India inflation vigilance",
+          "expected": "energy / rupee / wholesale costs watched",
+          "note": "印度央行前的財政部訊號偏謹慎，亞洲 front-end 不易完全跟隨美債 rally，TWD ETF 的 FX 與 rates 貢獻需分開看。"
+        },
+        {
+          "label": "Supply",
+          "value": "month-end coupon cycle complete",
+          "expected": "watch next refunding and tails",
+          "note": "5Y-30Y 一週下行 8-14bp 後，長端仍接近 5%，任何 tail 或 indirect demand 轉弱都會重新把供給溢價帶回 20Y-30Y。"
+        },
+        {
+          "label": "Primary credit",
+          "value": "$50B media financing package",
+          "expected": "IG / HY / loan demand test",
+          "note": "大額併購融資能否維持 rating support，是檢驗 credit carry 與 low-quality beta 分化的實際供給測試。"
+        },
+        {
+          "label": "EM",
+          "value": "rally creates capacity constraints",
+          "expected": "liquidity and crowding risk",
+          "note": "資金回流推升 EM debt，但小型市場容量限制使 selection 比 beta exposure 更重要。"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "rates_close",
+      "title": "一、美債收盤與曲線變化",
+      "paragraphs": [
+        "週五美債收盤呈現短端帶動的 bull-flattening relief，但不是長端全面重估。Treasury CMT 顯示 2Y 收 3.98%、日降 1bp，5Y 收 4.13%、日降 2bp，10Y 收 4.45% 持平，30Y 反而小升 1bp 至 4.99%；2s10s 擴至 47bp、5s30s 擴至 86bp，說明 rally 主要集中在前中段，超長端仍被 term premium 與供給風險牽制。",
+        "從週線看，2Y 回落 15bp、5Y 回落 14bp、10Y 回落 11bp，30Y 僅回落 8bp，這種結構通常代表市場先降低短期政策風險，而不是買進完整 duration curve。月線則更清楚：2Y 仍高於月前 6bp、5Y 高 8bp、10Y 高 3bp、30Y 高 1bp，代表五月以來的 higher-for-longer 與 long-end reset 並未被週五走勢完全抹去。",
+        "宏觀驅動來自兩個相反力量。第一，油價在五月跌幅超過 16%，Brent 週五約 92 美元，降低 headline inflation premium 與 front-end breakeven 壓力；第二，週一亞洲時段 Brent 回到約 93 美元且美元跌幅收斂，反映 geopolitics 尚未解除。因此週五的利率下行更像油價 relief 帶來的 tactical trade，而非通膨風險的結構性下降。",
+        "跨資產確認並不支持成長衰退敘事。美股週五創高、S&P 500 連九週上漲，Nasdaq 100 期貨在週一亞洲時段仍約 +0.2%，junk bonds 與 Treasuries 同步受惠。當 equity beta、credit beta 與 EM debt 同時偏強，10Y 停在 4.45% 附近比較像風險環境允許 duration relief，而非市場在定價硬著陸。",
+        "供給面仍是長端的上限約束。5Y-30Y 一週已下行 8-14bp，但 20Y 仍在 4.98%、30Y 仍在 4.99%，顯示投資人需要更明確的 auction demand 或 inflation data 才願意把長端壓到 5% 下方更深的位置。月末 coupon cycle 完成後，下一輪 refunding、tail、indirect demand 與 dealer balance-sheet 將決定 30Y 是否能離開 5.00%-5.10% pressure zone。"
+      ]
+    },
+    {
+      "id": "rates_interpretation",
+      "title": "二、美債走勢解讀",
+      "paragraphs": [
+        "本輪 rally 的性質應定義為 tactical bull flattening，而不是 structural long-end reset。2Y 與 5Y 的週線下行幅度大於 10Y 與 30Y，反映市場先降低 immediate policy premium；但 10s30s 仍在 54bp、30Y 接近 5%，表示 term premium、財政供給與全球長端 spillover 還沒有被重新定價到偏低區間。",
+        "Fed reaction function 的關鍵在於勞動市場是否替油價 relief 背書。五月非農市場預估約 +89k、失業率 4.3%，若結果低於預估且失業率上行，5Y-10Y 可延續 rally，因為市場會把 growth softening 轉化為降息時間表；若就業、薪資或服務業職缺韌性仍強，2Y 在 3.98% 的 relief 會被視為過早。",
+        "通膨路徑仍由能源與第二輪效果共同控制。油價月線大跌有利 headline CPI / PCE 的近月路徑，但央行官員仍把 wage-setting、服務業價格與進口成本視為慢變數；這使前端無法單靠 Brent 一日或一週走弱就重啟 aggressive easing trade。對曲線而言，油價低於 90-95 美元區間有利 belly，重新回到該區間則會讓 front-end breakeven 與 hike optionality 一起回來。",
+        "全球 duration spillover 也限制美債長端。ECB 6 月 10-11 會議前的鷹派訊號、BOE 對低通膨時代結束的提醒、以及亞洲央行對能源與匯率的謹慎，都讓非美長端不容易跟著美債同步放鬆。若 Bunds、gilts 或 JGB 超長端重新承壓，UST 30Y 即使短線守在 5% 附近，也很難單獨展開深度 rally。"
+      ]
+    },
+    {
+      "id": "other_markets",
+      "title": "三、其他市場動向",
+      "paragraphs": [
+        "歐洲政策線索偏向 inflation credibility，而非立即轉鴿。ECB 會議前，市場關注官員是否傾向 sooner rather than later 的政策調整；若通膨預期或 wage data 不配合，Bund curve 對美債的 spillover 會集中在 5Y-10Y relative value，壓縮 UST belly rally 的空間。",
+        "英國訊號同樣指向 term premium 黏性。BOE 官員指出低通膨好運時期已結束，這不是單一國家的表述，而是全球央行面對能源、供應鏈與 wage inertia 時的共同語言。對 fixed income 而言，這代表 long-end rally 需要更高門檻，單靠風險偏多或油價回落不足以讓 30Y 快速遠離 5%。",
+        "亞洲方面，印度在央行會議前強調 inflation vigilance，核心傳導來自能源、rupee 與 wholesale price pressure。這提醒 TWD-denominated overseas-bond ETF 的短線 NAV 不能只看美債 yield，還要拆成 rates carry、USD/TWD、亞洲央行風險與油價四個部分；若美元反彈，FX contribution 對台幣投資人可能短線有利，但不是穩定 alpha。",
+        "Credit 市場維持分化但尚未轉弱。大型媒體併購相關融資規模約 500 億美元，橫跨 IG、HY 與 leveraged loans，投資人仍願意承接具 rating support 或資產覆蓋的 supply。這種環境支持 quality carry，但不代表應該追逐所有 low-quality beta，因為 financing package 的定價會把 issuer quality 差異放大。",
+        "EM debt 的強勢開始碰到 capacity 約束。部分策略因小型、distressed 或流動性較差市場容量有限而控制資金，這通常出現在 carry trade 已變擁擠、而非剛起步的階段。對配置而言，record rally 可維持 coupon carry，但 sovereign selection、IMF program risk 與二級流動性要比單純買 beta 更重要。"
+      ]
+    },
+    {
+      "id": "allocation",
+      "title": "四、配置含義",
+      "paragraphs": [
+        "Duration stance 維持 neutral-to-slight long，但集中在 5Y-10Y，不追 20Y+。10Y 4.45% 是 tactical pivot，若能跌破 4.45% 並守住，代表 payrolls 或通膨數據支持 belly relief；若回到 4.55% 上方，則說明油價 relief 被政策與供給風險抵消，應降低 long duration beta。",
+        "Curve 上偏好 tactical bull flattening，而非押注長端 structural rally。2s10s 在 47bp、5s30s 在 86bp，前中段仍有受益空間；但 30Y 4.99% 與 20Y 4.98% 仍貼近 5%，若 30Y 重新站回 5.10% 或 auction tails 擴大，應把曲線 view 從 belly long 轉為少量 steepener protection。",
+        "Credit / ETF 配置以 quality carry 優先。IG、金融與具 rating support 的 primary supply 可維持選擇性 exposure；HY 與 loans 若只靠 equity beta 支撐，風險報酬已不如五月中旬。對台幣海外債 ETF，5Y-10Y 美債 rally 可支撐 NAV，但若美元反彈帶來 FX contribution，仍應視為 tactical，不宜過度外推。",
+        "FX 與 commodity 是 View 重估條件的第一層觸發。若 DXY 繼續走強而 Brent / WTI 回到 90 / 95 上方，市場會同時面臨輸入型通膨與美元融資壓力，front-end relief 會先受壓；若油價守在低位、美元漲勢放緩，則 5Y-10Y carry plus roll-down 仍是較乾淨的表達。"
+      ]
+    },
+    {
+      "id": "watchlist",
+      "title": "五、後續觀察重點",
+      "paragraphs": [
+        "第一個觀察點是 10Y 4.45% / 4.55% 區間。若 10Y 明確跌破 4.45% 且 2Y 同步下行，代表市場把 payrolls softening 轉成政策預期；若 10Y 站回 4.55%，則週五 rally 會被定義為 month-end 與油價 relief，而非可追的 duration trend。",
+        "第二個觀察點是 30Y 5.00%-5.10% pressure zone。若 30Y 重新站回 5.10%，表示 term premium、auction demand 或全球長端 spillover 重新主導，20Y-30Y exposure 應降到 benchmark 附近；若 30Y 能連續守在 5% 下方，quality long duration ETF 才有更好的 convexity payoff。",
+        "第三個觀察點是能源與美元的組合。WTI / Brent 若回到 90 / 95 觸發區，同時 DXY 延續走強，front-end breakeven、EM FX 與亞洲央行反應會一起變得不友善；若油價停在低位且美元回軟，credit carry 與 TWD bond ETF NAV 的短線環境會改善。",
+        "第四個觀察點是五月 payrolls 的構成，而不只是 headline +89k 與失業率 4.3%。healthcare、construction、leisure-hospitality 若仍吸收就業，Fed 對服務業通膨會保持耐心；若製造、construction 或 data-center investment 同步轉弱，belly rally 的基本面支撐會更強。"
+      ]
+    }
+  ]
+}
