@@ -85,8 +85,8 @@ dd { margin: 0; color: var(--text); font-size: 14.5px; line-height: 1.56; }
 table { width: 100%; border-collapse: collapse; }
 th, td { padding: 9px 10px; border-bottom: 1px solid #e1e8ef; text-align: left; vertical-align: top; font-size: 14px; line-height: 1.48; }
 thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-weight: 800; }
-.ust-heatmap th, .ust-heatmap td { white-space: nowrap; }
-.heatmap-group-row th { white-space: normal; background: #f8fbfd; color: var(--text); border-bottom: 1px solid #d7e0ea; padding: 10px 12px; }
+.ust-heatmap th, .ust-heatmap td { white-space: nowrap; text-align: center; vertical-align: middle; }
+.heatmap-group-row th { white-space: normal; text-align: center; background: #f8fbfd; color: var(--text); border-bottom: 1px solid #d7e0ea; padding: 10px 12px; }
 .heatmap-group-row span { color: var(--orange); font-size: 12.25px; line-height: 1.25; font-weight: 800; }
 .heatmap-group-row strong { color: var(--ink); font-size: 14px; line-height: 1.38; font-weight: 800; }
 .heatmap-curve-group th { border-top: 2px solid #cad6e1; }
