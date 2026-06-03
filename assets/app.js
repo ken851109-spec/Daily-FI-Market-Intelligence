@@ -62,7 +62,6 @@ function renderControls() {
       (entry) => `
         <button class="archive-button ${entry.date === state.activeDate ? "active" : ""}" data-date="${escapeHtml(entry.date)}">
           <strong>${escapeHtml(entry.label)}</strong>
-          <span>${escapeHtml(entry.title)}</span>
         </button>
       `
     )
