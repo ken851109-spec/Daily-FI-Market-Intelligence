@@ -4,7 +4,9 @@
   const input = document.querySelector("[data-search-input]");
   const clearButton = document.querySelector("[data-clear-search]");
   const resultsEl = document.querySelector("[data-search-results]");
-  const dateSelect = document.querySelector("[data-date-select]");
+  const dateSelects = Array.from(document.querySelectorAll("[data-date-select]"));
+  const dateSelect = dateSelects[0];
+  const mobileDateMenu = document.querySelector("[data-mobile-date-menu]");
   const toolsEl = document.querySelector(".task-nav");
   if (!rootEl || !bar || !input || !resultsEl || !dateSelect) return;
 
@@ -165,12 +167,15 @@
   };
 
   const hydrateDateSelect = () => {
-    dateSelect.innerHTML = state.manifest.map((item) => {
+    const options = state.manifest.map((item) => {
       const selected = item.date === currentDate ? " selected" : "";
       return `<option value="${escapeHtml(item.date)}"${selected}>${escapeHtml(item.label || item.date)}</option>`;
     }).join("");
-    dateSelect.addEventListener("change", () => {
-      if (dateSelect.value) location.href = hrefForDate(dateSelect.value);
+    dateSelects.forEach((select) => {
+      select.innerHTML = options;
+      select.addEventListener("change", () => {
+        if (select.value) location.href = hrefForDate(select.value);
+      });
     });
   };
 
@@ -269,6 +274,9 @@
     renderResults("");
     syncQuery("");
     input.focus();
+  });
+  document.addEventListener("click", (event) => {
+    if (mobileDateMenu && !mobileDateMenu.contains(event.target)) mobileDateMenu.open = false;
   });
   setupMobileTools();
   init();
