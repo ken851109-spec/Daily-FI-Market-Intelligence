@@ -147,15 +147,27 @@ select {
 }
 
 .side-history {
-  flex: 1 1 auto;
-  min-height: 160px;
+  display: flex;
+  flex: 1 1 220px;
+  flex-direction: column;
+  min-height: 0;
   overflow: hidden;
 }
 
+.side-history h2 {
+  flex: 0 0 auto;
+}
+
 .archive-scroll {
-  max-height: min(38vh, 370px);
-  overflow: auto;
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding-right: 2px;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
 }
 
 .side-sections {
@@ -255,6 +267,7 @@ select {
   }
 
   .archive-scroll {
+    flex: 0 1 auto;
     max-height: 220px;
   }
 
