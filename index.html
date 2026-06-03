@@ -7,28 +7,25 @@
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header class="reader-bar">
-    <div class="reader-brand">
-      <span class="reader-mark">FI</span>
-      <div>
-        <h1>Daily FI Market Tape</h1>
-        <p id="activeTapeLabel">載入報告中</p>
-      </div>
-    </div>
-    <div class="reader-controls" aria-label="Report controls">
-      <select id="tapeSelect" class="control control-select" aria-label="選擇歷史報告"></select>
-      <input id="searchInput" class="control control-search" type="search" placeholder="搜尋本篇內容">
-      <a id="openArchiveLink" class="archive-link" href="#" target="_blank" rel="noopener">原始版</a>
-    </div>
-  </header>
-
   <main class="reader-layout">
-    <aside class="reader-side" aria-label="歷史報告與章節">
-      <section class="side-block">
-        <h2>歷史報告</h2>
-        <div id="archiveList" class="archive-list"></div>
+    <aside class="reader-side" aria-label="報告工具列">
+      <div class="reader-brand side-brand">
+        <span class="reader-mark">FI</span>
+        <div>
+          <h1>Daily FI Market Tape</h1>
+          <p id="activeTapeLabel">載入報告中</p>
+        </div>
+      </div>
+      <section class="side-block side-controls" aria-label="Report controls">
+        <select id="tapeSelect" class="control control-select" aria-label="選擇歷史報告"></select>
+        <input id="searchInput" class="control control-search" type="search" placeholder="搜尋本篇內容">
+        <a id="openArchiveLink" class="archive-link" href="#" target="_blank" rel="noopener">原始版</a>
       </section>
-      <section class="side-block">
+      <section class="side-block side-history">
+        <h2>歷史報告</h2>
+        <div id="archiveList" class="archive-list archive-scroll"></div>
+      </section>
+      <section class="side-block side-sections">
         <h2>章節</h2>
         <nav id="sectionNav" class="section-nav"></nav>
       </section>

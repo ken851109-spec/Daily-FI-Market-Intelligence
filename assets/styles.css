@@ -29,22 +29,6 @@ select {
   font: inherit;
 }
 
-.reader-bar {
-  position: sticky;
-  top: 0;
-  z-index: 30;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  min-height: 64px;
-  padding: 10px 22px;
-  background: rgba(255, 255, 255, 0.97);
-  border-bottom: 1px solid var(--line);
-  box-shadow: 0 8px 22px rgba(28, 42, 58, 0.08);
-  backdrop-filter: blur(10px);
-}
-
 .reader-brand {
   display: flex;
   align-items: center;
@@ -75,12 +59,13 @@ select {
   font-size: 12px;
 }
 
-.reader-controls {
+.reader-controls,
+.side-controls {
   display: grid;
-  grid-template-columns: minmax(190px, 260px) minmax(190px, 320px) auto;
+  grid-template-columns: 1fr;
   align-items: center;
   gap: 8px;
-  width: min(100%, 780px);
+  width: 100%;
 }
 
 .control,
@@ -111,25 +96,36 @@ select {
 
 .reader-layout {
   display: grid;
-  grid-template-columns: 248px minmax(0, 1fr);
+  grid-template-columns: 300px minmax(0, 1fr);
   gap: 14px;
-  width: min(1280px, 100%);
+  width: min(1340px, 100%);
   margin: 0 auto;
   padding: 14px;
 }
 
 .reader-side {
   position: sticky;
-  top: 78px;
+  top: 14px;
   align-self: start;
-  max-height: calc(100vh - 92px);
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 28px);
+  overflow: hidden;
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.94);
   box-shadow: 0 12px 26px rgba(28, 42, 58, 0.08);
 }
 
+.side-brand {
+  flex: 0 0 auto;
+  min-width: 0;
+  padding: 14px;
+  border-bottom: 1px solid #e2e8ef;
+  background: rgba(255, 255, 255, 0.96);
+}
+
 .side-block {
+  flex: 0 0 auto;
   padding: 14px;
   border-bottom: 1px solid #e2e8ef;
 }
@@ -148,6 +144,22 @@ select {
 .section-nav {
   display: grid;
   gap: 8px;
+}
+
+.side-history {
+  flex: 1 1 auto;
+  min-height: 160px;
+  overflow: hidden;
+}
+
+.archive-scroll {
+  max-height: min(38vh, 370px);
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.side-sections {
+  flex: 0 0 auto;
 }
 
 .archive-button,
@@ -208,7 +220,7 @@ select {
 .report-frame {
   display: block;
   width: 100%;
-  min-height: calc(100vh - 92px);
+  min-height: calc(100vh - 28px);
   border: 0;
   background: var(--page);
 }
@@ -222,13 +234,6 @@ select {
 }
 
 @media (max-width: 900px) {
-  .reader-bar {
-    position: static;
-    align-items: stretch;
-    flex-direction: column;
-    padding: 12px 14px;
-  }
-
   .reader-brand {
     min-width: 0;
   }
@@ -238,21 +243,19 @@ select {
     width: 100%;
   }
 
-  .archive-link {
-    display: none;
-  }
-
   .reader-layout {
     grid-template-columns: 1fr;
-    padding: 0;
+    padding: 10px;
   }
 
   .reader-side {
     position: static;
     max-height: none;
-    border-left: 0;
-    border-right: 0;
     box-shadow: none;
+  }
+
+  .archive-scroll {
+    max-height: 220px;
   }
 
   .report-frame-wrap {
@@ -260,6 +263,6 @@ select {
   }
 
   .reader-side {
-    order: 2;
+    order: 0;
   }
 }
