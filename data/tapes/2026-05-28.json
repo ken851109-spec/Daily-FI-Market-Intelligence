@@ -3,16 +3,167 @@
   "label": "2026-05-28 close",
   "title": "Daily FI Market Tape | 2026-05-28 close",
   "summary": [
-    "美債在 5/28 收盤呈現溫和 bull flattening，10Y CMT 由 4.48% 降至 4.45%，30Y 由 5.01% 降至 4.98%，油價與 Hormuz 風險降溫是主要驅動。",
-    "股市續創高、美元回落、油價走弱、黃金反彈，顯示市場在降低能源尾端風險，同時仍保留對通膨與政策不確定性的保險。",
-    "Fed 敘事仍未轉向寬鬆：PCE 與 Fed 官員訊號使前端受限，但 Q1 GDP 下修與現金充裕的 funding environment 支撐中長端回落。",
-    "信用與 EM 題材分化加深，資料中心 HY、AT1、private credit、Brazil、South Africa 與 Senegal 都指向同一件事：資金窗口仍在，但政策可信度與發行人品質變得更重要。"
+    "5/28 美債以中長端帶動的 bull-flattening 收盤：2Y 3.99%、10Y 4.45%、30Y 4.98%，2s10s 收斂至 46bp。",
+    "WTI 回落至約 88.90 美元、DXY 99.02，能源尾端風險與美元避險需求同步降溫，支撐中段久期修復。",
+    "S&P 500 與 Nasdaq 續創高，黃金也反彈，代表市場不是單純風險追逐，而是在降低油價衝擊同時保留政策保險。",
+    "PCE 仍高、GDP 下修、7Y 標售消化尚可，配置上偏好 5Y-10Y 與高品質收益，不追低品質槓桿 beta。"
   ],
-  "headline": {},
-  "regime_strip": [],
-  "positioning": [],
-  "driver_decomposition": [],
-  "monitor_blocks": {},
+  "headline": {
+    "primary": "能源尾端風險降溫推動中長端修復，但 Fed 與信用品質仍限制追多",
+    "secondary": "5/28 的 bull-flattening 屬戰術性 relief；10Y 4.45% 可承接，30Y 4.98% 仍需供給消化。"
+  },
+  "regime_strip": [
+    {
+      "label": "Rates",
+      "value": "10Y 4.45%，日降 3bp"
+    },
+    {
+      "label": "Curve",
+      "value": "2s10s 46bp，日收斂 2bp"
+    },
+    {
+      "label": "Oil",
+      "value": "WTI 88.90，能源風險降溫"
+    },
+    {
+      "label": "USD",
+      "value": "DXY 99.02，日跌 0.3%"
+    },
+    {
+      "label": "Risk",
+      "value": "S&P +0.6%、Nasdaq +0.9%"
+    },
+    {
+      "label": "ETF Lens",
+      "value": "中段修復優於追長端"
+    }
+  ],
+  "positioning": [
+    {
+      "label": "Duration",
+      "view": "中性偏多，集中中段",
+      "best_expression": "5Y-10Y 可承接油價 relief，20Y+ 等 30Y 站穩 5% 下方再加。",
+      "risk_trigger": "WTI 重回 95 或 10Y 站回 4.55%。"
+    },
+    {
+      "label": "Curve",
+      "view": "溫和 bull flattening",
+      "best_expression": "用 2s10s 46bp 與 10s30s 53bp 判斷 rally 是否轉成長端重估。",
+      "risk_trigger": "30Y 回到 5.10% 或 2s10s 重新轉陡。"
+    },
+    {
+      "label": "Credit / ETF",
+      "view": "高品質收益優先",
+      "best_expression": "IG、金融 AT1 與具長約支撐的資料中心信用優於弱質軟體再融資。",
+      "risk_trigger": "私募信貸拒貸、併購槓桿上升或 HY concession 擴大。"
+    },
+    {
+      "label": "FX / NAV",
+      "view": "美元回落有利台幣 NAV",
+      "best_expression": "匯率貢獻視為短線加分，核心仍看 5Y-10Y 利率修復。",
+      "risk_trigger": "DXY 重回 100 或美元與油價同步上行。"
+    },
+    {
+      "label": "Conviction / Horizon",
+      "view": "短線 relief，中期仍待通膨確認",
+      "best_expression": "先小幅提高中段久期，避免在 PCE 與就業前過度押注降息。",
+      "risk_trigger": "核心通膨或薪資未降溫。"
+    },
+    {
+      "label": "View 重估條件",
+      "view": "供給與油價共同決定追多空間",
+      "best_expression": "7Y 標售消化後仍看 6 月 reopening 與油價是否維持低位。",
+      "risk_trigger": "auction tail 擴大、WTI 95、30Y 5.10%。"
+    }
+  ],
+  "driver_decomposition": [
+    {
+      "driver": "能源與地緣風險",
+      "signal": "WTI 回落至 88.90，Brent 低於 94，停火延長壓低 Hormuz 風險溢價。",
+      "fi_impact": "通膨尾端風險下降，10Y 與 30Y 各下行 3bp。"
+    },
+    {
+      "driver": "Fed 與通膨黏性",
+      "signal": "PCE 仍在 3.8%，核心月增 0.2%，Fed 官員仍偏等待。",
+      "fi_impact": "前端只小幅下行，2Y 3.99% 顯示降息定價仍受限。"
+    },
+    {
+      "driver": "供給與資金面",
+      "signal": "7Y 標售 high yield 4.290%、bid-to-cover 2.52，repo / fed funds 偏軟。",
+      "fi_impact": "供給事件沒有破壞中段 rally，前端流動性支撐 carry。"
+    },
+    {
+      "driver": "信用品質分化",
+      "signal": "資料中心 HY 與 AT1 需求強，但 Sophos、Caesars 與 esoteric credit 壓力升高。",
+      "fi_impact": "信用 beta 不宜無差別追，應集中高品質收益與強抵押資產。"
+    }
+  ],
+  "monitor_blocks": {
+    "key_levels": [
+      {
+        "label": "10Y",
+        "value": "4.45%",
+        "detail": "跌破並守住才支持中段加碼；4.55% 是降風險門檻。"
+      },
+      {
+        "label": "30Y",
+        "value": "4.98%",
+        "detail": "5.00%-5.10% 仍是長端期限溢價壓力區。"
+      },
+      {
+        "label": "2s10s",
+        "value": "46bp",
+        "detail": "收斂反映中長端修復；若重新轉陡需檢查供給與通膨。"
+      },
+      {
+        "label": "WTI",
+        "value": "88.90",
+        "detail": "90 / 95 是通膨溢價回補的觸發區間。"
+      }
+    ],
+    "event_risks": [
+      {
+        "label": "PCE / Fed",
+        "value": "PCE 3.8%",
+        "detail": "前端降息定價需要通膨與薪資同步降溫。"
+      },
+      {
+        "label": "7Y Auction",
+        "value": "4.290% / BTC 2.52",
+        "detail": "標售已過關，但 6 月 reopening 仍是長端測試。"
+      },
+      {
+        "label": "Funding",
+        "value": "repo / fed funds 偏軟",
+        "detail": "支撐短端 carry，但不能解讀成政策轉向。"
+      },
+      {
+        "label": "Credit",
+        "value": "data center / AT1 / Sophos",
+        "detail": "需求仍在，但品質分層正在擴大。"
+      }
+    ],
+    "asia_update": [
+      {
+        "label": "台幣 ETF",
+        "value": "利率與匯率需拆分",
+        "change": "短線 NAV 改善",
+        "detail": "美元回落與利率 rally 同向時才較可留存。"
+      },
+      {
+        "label": "EM",
+        "value": "政策可信度分化",
+        "change": "Brazil / South Africa / Senegal",
+        "detail": "高 carry 不能取代通膨與外部融資紀律。"
+      },
+      {
+        "label": "能源進口國",
+        "value": "油價回落有利",
+        "change": "front-end pressure 暫降",
+        "detail": "若油價回到 95，亞洲央行壓力會回升。"
+      }
+    ]
+  },
   "market_tables": [
     {
       "id": "rates_and_curves",
@@ -20,54 +171,72 @@
       "columns": [
         "項目",
         "收盤",
-        "日變動"
+        "日變動",
+        "周變動",
+        "月變動"
       ],
       "rows": [
         {
           "label": "2Y",
           "value": "3.99%",
-          "change": "-1bp"
+          "change": "-1bp",
+          "week_change": "-5bp",
+          "month_change": "+15bp"
         },
         {
           "label": "5Y",
           "value": "4.15%",
-          "change": "-2bp"
+          "change": "-2bp",
+          "week_change": "-7bp",
+          "month_change": "+18bp"
         },
         {
           "label": "10Y",
           "value": "4.45%",
-          "change": "-3bp"
+          "change": "-3bp",
+          "week_change": "-12bp",
+          "month_change": "+9bp"
         },
         {
           "label": "20Y",
           "value": "4.98%",
-          "change": "-3bp"
+          "change": "-3bp",
+          "week_change": "-12bp",
+          "month_change": "+6bp"
         },
         {
           "label": "30Y",
           "value": "4.98%",
-          "change": "-3bp"
+          "change": "-3bp",
+          "week_change": "-13bp",
+          "month_change": "+4bp"
         },
         {
           "label": "2s10s",
           "value": "46bp",
-          "change": "-2bp"
+          "change": "-2bp",
+          "week_change": "-7bp",
+          "month_change": "-6bp"
         },
         {
           "label": "5s30s",
           "value": "83bp",
-          "change": "-1bp"
+          "change": "-1bp",
+          "week_change": "-6bp",
+          "month_change": "-14bp"
         },
         {
           "label": "10s30s",
           "value": "53bp",
-          "change": "0bp"
+          "change": "0bp",
+          "week_change": "-1bp",
+          "month_change": "-5bp"
         }
       ]
     },
     {
       "id": "cross_asset",
-      "title": "跨資產與事件",
+      "title": "跨資產",
       "columns": [
         "項目",
         "收盤 / 狀態",
@@ -78,126 +247,203 @@
         {
           "label": "DXY",
           "value": "99.02",
-          "change": "-0.3%",
-          "note": "美元回落，避險需求與政策溢價同步降溫"
+          "change": "-0.30%",
+          "note": "美元回落，避險需求與政策溢價同步降溫。"
         },
         {
           "label": "WTI",
-          "value": "$88.90",
-          "change": "由 >$92.5 回落",
-          "note": "停火延長與談判預期壓低能源尾端風險"
+          "value": "88.90",
+          "change": "回落",
+          "note": "停火延長與談判預期壓低能源尾端風險。"
         },
         {
           "label": "Brent",
-          "value": "低於 $94",
+          "value": "低於 94",
           "change": "漲勢回吐",
-          "note": "Hormuz 通行恢復可能性降低供給風險溢價"
+          "note": "Hormuz 通行恢復可能性降低供給風險溢價。"
         },
         {
           "label": "S&P 500",
           "value": "7,563.63",
-          "change": "+0.6%",
-          "note": "風險資產續創高，企業財報與 AI 題材支撐"
+          "change": "+0.60%",
+          "note": "風險資產續創高，企業財報與 AI 題材支撐。"
         },
         {
           "label": "Nasdaq",
           "value": "26,917.47",
-          "change": "+0.9%",
-          "note": "成長股領漲，AI capex 敘事維持強度"
+          "change": "+0.90%",
+          "note": "成長股領漲，AI 資本支出敘事維持強度。"
         },
         {
           "label": "Dow",
           "value": "50,668.97",
-          "change": "+0.0%",
-          "note": "景氣股持穩，盤面不是單純避險交易"
+          "change": "0.00%",
+          "note": "景氣股持穩，盤面不是單純避險交易。"
         },
         {
           "label": "Gold",
-          "value": "$4,504.07",
-          "change": "+1.1%",
-          "note": "美元與油價回落下仍反彈，顯示避險保險未完全消失"
+          "value": "4,504.07",
+          "change": "+1.10%",
+          "note": "美元與油價回落下仍反彈，顯示避險保險未完全消失。"
         },
         {
-          "label": "Fed / PCE",
-          "value": "PCE 3.8%, core +0.2% m/m",
-          "change": "n/a",
-          "note": "通膨仍高，前端降息定價受限"
-        },
-        {
-          "label": "US GDP",
-          "value": "Q1 年化 1.6%",
-          "change": "較前值下修 0.4ppt",
-          "note": "成長下修支撐中長端利率回落"
-        },
-        {
-          "label": "UST Supply",
-          "value": "5Y / 7Y 已完成",
-          "change": "7Y 已清標",
-          "note": "7Y high yield 4.290%、BTC 2.52，供給消化尚可"
-        },
-        {
-          "label": "Credit Primary",
+          "label": "Credit proxy",
           "value": "選擇性開放",
           "change": "品質分化",
-          "note": "AT1 與優質資產仍有需求，弱質再融資壓力升高"
+          "note": "AT1 與優質資產仍有需求，弱質再融資壓力升高。"
+        }
+      ]
+    },
+    {
+      "id": "events_and_data",
+      "title": "事件與經濟數據",
+      "columns": [
+        "項目",
+        "公布 / 狀態",
+        "預期",
+        "重點"
+      ],
+      "rows": [
+        {
+          "label": "PCE / Fed",
+          "value": "PCE 3.8%；core +0.2% m/m",
+          "expected": "Fed 官員仍偏等待",
+          "note": "通膨仍高，前端降息定價受限。"
+        },
+        {
+          "label": "GDP",
+          "value": "Q1 年化 1.6%",
+          "expected": "較前值下修 0.4ppt",
+          "note": "成長下修支撐中長端利率回落。"
+        },
+        {
+          "label": "7Y Auction",
+          "value": "High yield 4.290%; BTC 2.52",
+          "expected": "約 440 億美元供給消化",
+          "note": "標售結果未形成新的 belly supply shock。"
         },
         {
           "label": "Funding",
           "value": "前端現金充裕",
-          "change": "repo / fed funds 偏軟",
-          "note": "短端流動性支撐 carry，但不等於 Fed 轉向寬鬆"
+          "expected": "repo / fed funds 偏軟",
+          "note": "短端流動性支撐 carry，但不等於 Fed 轉向寬鬆。"
+        },
+        {
+          "label": "ECB",
+          "value": "4 月紀要偏鷹",
+          "expected": "多位官員不排斥升息",
+          "note": "歐洲前端重新定價會限制全球長端 rally。"
+        },
+        {
+          "label": "Brazil",
+          "value": "4 月就業 85,888",
+          "expected": "216,500 中位數",
+          "note": "活動降溫但央行仍防守 2028 通膨期待。"
+        },
+        {
+          "label": "South Africa",
+          "value": "升息 25bp 至 7%",
+          "expected": "四票支持升息",
+          "note": "能源衝擊使 EM 央行重新偏向抗通膨。"
+        },
+        {
+          "label": "Data-center HY",
+          "value": "約 4% HY 市場，兩年可達 10%",
+          "expected": "全球借款潮逾 2,500 億美元",
+          "note": "AI 基礎設施支撐供給，但 issuer dispersion 擴大。"
+        },
+        {
+          "label": "Private credit",
+          "value": "Sophos 25 億美元 refinancing 受阻",
+          "expected": "S&P outlook negative",
+          "note": "直接貸款人提高門檻，弱質軟體 borrower 壓力升高。"
+        },
+        {
+          "label": "EM",
+          "value": "Senegal coupons / Argentine provinces",
+          "expected": "IMF 與外部融資可信度測試",
+          "note": "高 carry 不足以取代政策執行力與外匯緩衝。"
         }
       ]
     }
   ],
   "sections": [
     {
-      "id": "ust_close_curve",
+      "id": "rates_close",
       "title": "一、美債收盤與曲線變化",
+      "takeaway": "5/28 的美債 rally 是能源尾端風險降溫帶來的中長端修復，不是 Fed 轉鴿。",
       "paragraphs": [
         "美債在 5/28 收盤呈現溫和 bull flattening。以美國財政部 Treasury CMT 為準，2Y 收在 3.99%、5Y 4.15%、10Y 4.45%、20Y 4.98%、30Y 4.98%，較前一日分別下行 1bp、2bp、3bp、3bp、3bp；曲線方面，2s10s 收斂至 46bp、5s30s 約 83bp、10s30s 維持 53bp，代表本輪回落主要發生在中長端通膨與風險溢價，而不是前端降息路徑的全面重定價。",
+        "週線訊號更支持中長端 relief：10Y 較 5/20 低 12bp，30Y 低 13bp，2s10s 也較一週前收斂 7bp；但月線仍顯示 higher-for-longer 沒有解除，2Y 比 4/28 高 15bp、5Y 高 18bp、10Y 高 9bp。這表示五月以來的政策與供給壓力只是被油價降溫暫時壓住，還沒有被完全反轉。",
         "主驅動是美伊停火延長與後續談判預期，使市場下修 Strait of Hormuz 長時間受阻的機率。WTI 回落至每桶 88.90 美元，Brent 低於 94 美元，能源供給尾端風險從價格中被部分移除。這種油價回落直接壓低短期通膨風險溢價，也讓 10Y 與 30Y 能夠跟隨下行。",
-        "跨資產訊號支持這個判讀，但不是極端單向 risk-on。S&P 500 收 7,563.63、Nasdaq 收 26,917.47，雙雙續創高，Dow 也守在 50,668.97 高位；美元指數回落至 99.02，但黃金反而反彈至約 4,504 美元，顯示投資人一方面降低能源衝擊部位，另一方面仍保留對政策與地緣風險的保險。這使美債 rally 更像 inflation-risk relief，而不是典型 recession trade。",
-        "供給面已從 5Y / 7Y 標售事件風險轉為結果吸收與後續 reopening 風險。5/28 的 7Y note 已完成，TreasuryDirect 結果顯示 high yield 4.290%、bid-to-cover 2.52，未形成新的 belly supply shock；但 10Y 已回到 4.45%、30Y 回到 4.98%後，6 月 10Y、30Y reopening 與 20Y 供給仍會決定長端 term premium 是否重新升溫。"
+        "跨資產訊號支持這個判讀，但不是極端單向 risk-on。S&P 500 收 7,563.63、Nasdaq 收 26,917.47，雙雙續創高，Dow 也守在 50,668.97 高位；美元指數回落至 99.02，但黃金反而反彈至約 4,504 美元，顯示投資人一方面降低能源衝擊部位，另一方面仍保留對政策與地緣風險的保險。",
+        "供給面已從 5Y / 7Y 標售事件風險轉為結果吸收與後續 reopening 風險。5/28 的 7Y note 已完成，TreasuryDirect 結果顯示 high yield 4.290%、bid-to-cover 2.52，未形成新的 belly supply shock；但 10Y 已回到 4.45%、30Y 回到 4.98% 後，6 月 10Y、30Y reopening 與 20Y 供給仍會決定長端期限溢價是否重新升溫。",
+        "從週線與月線一起看，5/28 的 rally 仍屬修復而非趨勢反轉。10Y 較一週前低 12bp，但比 4/28 仍高 9bp；30Y 較一週前低 13bp，但比月前仍高 4bp。這表示市場移除了部分油價尾端風險，卻還沒有否定五月以來的 higher-for-longer 與長端供給壓力。",
+        "曲線訊號也支持這個判斷。2s10s 收 46bp、日收斂 2bp，顯示中長端受益較多；但 10s30s 仍在 53bp，長端沒有形成獨立加速 rally。對組合而言，這代表中段久期可承接，超長端則需要看 30Y 是否連續守在 5% 下方。",
+        "黃金反彈到約 4,504 美元與美股創高同時出現，說明市場降低能源風險後沒有完全撤掉避險保險。這種組合對美債是友善但不極端：它支撐價格修復，卻不代表投資人已經願意無條件買入所有久期與所有信用 beta。"
       ]
     },
     {
-      "id": "ust_interpretation",
+      "id": "rates_interpretation",
       "title": "二、美債走勢解讀",
+      "takeaway": "前端受通膨與 Fed 訊號限制，真正可交易的是 5Y-10Y 的戰術性喘息。",
       "paragraphs": [
-        "這次美債上漲較適合定義為 tactical relief rally，而不是結構性多頭重啟。10Y 回到 4.45%、30Y 回到 5%下方，反映市場拆除部分能源尾端風險；但 10s30s 仍在 53bp，長端期限溢價只是部分收斂。若停火延長沒有轉化為可持續的能源運輸恢復，油價、通膨預期與長端供給仍會把 term premium 拉回交易核心。",
-        "Fed 反應函數仍限制前端 rally 的深度。4 月整體 PCE 年增 3.8%，核心 PCE 月增 0.2%，同時 Q1 GDP 年化增速下修至 1.6%。這組合對 rates 的含義是，成長下修足以支撐中長端利率回落，但通膨仍高使前端難以快速轉向降息交易；因此 2Y 只下行 1bp，而 10Y 與 30Y 各下行 3bp，曲線只呈現溫和 flattening。",
-        "根據 Bloomberg，政策與資金面也支持「前端受限、長端暫獲喘息」的框架。Musalem 與 Williams 的訊號都不是明確降息敘事，South Africa 升息、Brazil 對 2028 通膨預期升溫保持警戒、ECB 紀要偏鷹，均指向全球央行仍優先防守通膨可信度；但美國前端 cash surplus、repo 與 fed funds 偏軟，又降低了短端 funding accident 的風險。"
+        "這次美債上漲較適合定義為 tactical relief rally，而不是結構性多頭重啟。10Y 回到 4.45%、30Y 回到 5% 下方，反映市場拆除部分能源尾端風險；但 10s30s 仍在 53bp，長端期限溢價只是部分收斂。若停火延長沒有轉化為可持續的能源運輸恢復，油價、通膨期待與長端供給仍會把期限溢價拉回交易核心。",
+        "Fed 反應函數仍限制前端 rally 的深度。4 月整體 PCE 年增 3.8%，核心 PCE 月增 0.2%，同時 Q1 GDP 年化增速下修至 1.6%。這組合對 rates 的含義是，成長下修足以支撐中長端利率回落，但通膨仍高使前端難以快速轉向降息交易；因此 2Y 只下行 1bp，而 10Y 與 30Y 各下行 3bp。",
+        "政策與資金面共同支持「前端受限、長端暫獲喘息」的框架。Fed 官員的訊號不是明確降息敘事，South Africa 升息、Brazil 對 2028 通膨預期升溫保持警戒、ECB 紀要偏鷹，均指向全球央行仍優先防守通膨可信度。",
+        "美國前端 cash surplus、repo 與 fed funds 偏軟，則降低了短端 funding accident 的風險。這讓 bills、repo 與短端 carry 的技術面偏穩，但它不是 Fed 已準備寬鬆的證據；市場若把 funding softness 和政策轉向混在一起，2Y 端會容易出現錯價。",
+        "因此，5Y-10Y 是比 20Y+ 更乾淨的表達。中段同時受成長下修、油價降溫與標售消化支撐；超長端則仍受財政供給、期限溢價與全球長端 spillover 約束。這也是為什麼 10Y 4.45% 可以作為 tactical pivot，但 30Y 4.98% 不能直接外推成長端全面重估。",
+        "PCE 與 GDP 的組合讓 Fed 路徑仍偏複雜。Q1 GDP 年化 1.6% 下修支持中長端下行，但 PCE 3.8% 與核心月增 0.2% 又限制前端降息交易。這就是為什麼 2Y 只降 1bp，而 10Y 與 30Y 各降 3bp；市場交易的是成長與能源風險緩和，而不是 Fed 即將寬鬆。",
+        "全球央行背景沒有跟著轉鴿。South Africa 升息 25bp 至 7%，Brazil 即使就業低於預期仍關注 2028 通膨期待，ECB 4 月紀要也顯示多位官員不排斥更緊政策。這些訊號會限制前端 rally，也讓非美長端對 UST 的支撐不夠乾淨。",
+        "資金面偏鬆是技術支撐，但不是政策訊號。money-market fund 流入、repo rate 偏軟與 fed funds 下移，會改善短端 carry 與 funding risk；但通膨若仍高，Fed 可以在 funding 不緊的環境中維持更久的等待。因此投資上要把流動性友善與政策放鬆分開。"
       ]
     },
     {
       "id": "other_markets",
       "title": "三、其他市場動向",
+      "takeaway": "風險窗口仍開，但信用、EM 與央行路徑都開始要求更細的品質篩選。",
       "paragraphs": [
-        "跨資產風險情緒仍由停火延長能否轉化為能源流恢復所主導。亞洲股市期貨偏正向，美股創高，AI 題材延續，說明市場沒有把中東風險視為立即衝擊企業獲利的尾端事件；但黃金反彈與美元雖弱仍未失速，也說明避險保險沒有完全撤出。對固定收益而言，這種組合有利 duration 短線修復，但不支持無條件追逐高 beta credit。",
+        "跨資產風險情緒仍由停火延長能否轉化為能源流恢復所主導。美股創高、AI 題材延續，說明市場沒有把中東風險視為立即衝擊企業獲利的尾端事件；但黃金反彈與美元雖弱仍未失速，也說明避險保險沒有完全撤出。對固定收益而言，這種組合有利 duration 短線修復，但不支持無條件追逐高 beta credit。",
         "歐洲與全球央行訊號偏向抗通膨可信度。ECB 4 月會議紀錄顯示，多位官員對升息並非排斥，反映能源衝擊與第二輪通膨風險仍在政策討論中；South Africa 已升息 25bp 至 7%，Brazil 即使就業數據轉弱，央行官員仍把較遠期通膨預期惡化放在前面。這些訊號代表全球 rates 不是單純跟著油價回落全面轉鴿。",
-        "信用市場仍開放，但發行人品質分層更明顯。資料中心 HY 已成為市場增量供給，較高品質、有長約支撐的資產仍能吸引資金，但 weaker collateral 或 residual-value risk 較高的 issuer 需要更高 spread；歐洲 AT1 需求強勁，銀行能鎖定更長 non-call 期限，顯示高品質金融信用仍受歡迎。",
+        "信用市場仍開放，但發行人品質分層更明顯。資料中心 HY 已成為市場增量供給，較高品質、有長約支撐的資產仍能吸引資金，但 weaker 抵押品 或 residual-value risk 較高的 issuer 需要更高 spread；歐洲 AT1 需求強勁，銀行能鎖定更長 non-call 期限，顯示高品質金融信用仍受歡迎。",
         "相對地，private credit 與 sponsor-owned software 的融資條件正在變得更嚴。Sophos refinancing 遇到直接貸款投資人更高門檻，Caesars take-private 也使債券投資人重新要求槓桿與資本結構補償。這些案例不是系統性 credit shock，但顯示表面 risk-on 下，底層融資條件已開始區分現金流品質、資產抵押與 AI disruption 風險。",
-        "EM sovereign 與本幣利率仍以政策可信度分層。Argentina provinces 能較 sovereign 更順利進入外債市場，反映投資人願意買更明確的 ring-fenced credit story；Senegal 6 月 coupon 與 IMF 談判是短期 program credibility 測試；Brazil 與 South Africa 則凸顯能源衝擊下央行不願讓通膨預期脫錨。EM 不適合只看高 carry，仍要區分外部融資、匯率防守與政策執行力。"
+        "EM sovereign 與本幣利率仍以政策可信度分層。Argentina provinces 能較 sovereign 更順利進入外債市場，反映投資人願意買更明確的 ring-fenced credit story；Senegal 6 月 coupon 與 IMF 談判是短期 program credibility 測試；Brazil 與 South Africa 則凸顯能源衝擊下央行不願讓通膨預期脫錨。",
+        "這些市場訊號合在一起，對台北盤前的含義是：油價回落有利利率與 NAV，但信用與 EM 不能只因股市創高就同步放大曝險。比較穩的做法是把高品質金融、短中天期美元債與有現金流覆蓋的專案信用分開看，避免把單日 risk-on 當成低品質 beta 的入場理由。",
+        "資料中心 HY 已成為信用市場的新供給核心，部分 paper 仍能在約 6% spread 附近交易，但弱質部分接近 10% 或更高。這種分化說明 AI 基礎設施不是單一高成長題材，而是要看租約、counterparty、殘值、電力供應與完工風險。",
+        "AT1 市場的熱度則代表高品質金融仍有資金需求。Santander、NatWest 等銀行能延長 non-call 期限，說明投資人願意接受較長 subordinated exposure；但這也增加 extension risk，一旦宏觀波動回來，AT1 的流動性與重定價速度會比普通 senior financials 更敏感。",
+        "私募信貸的訊號偏分化。Sophos refinancing 遇到直接貸款投資人提高門檻，反映 sponsor-owned software 在 AI disruption、槓桿與現金流可見度上被重新評分。這不是系統性壓力，但它告訴投資人：收益率本身不足以補償弱質 borrower 的再融資不確定性。",
+        "事件型信用也需要提高資本結構敏感度。Caesars take-private 讓無擔保債下跌，因為市場需要先看到最終槓桿和融資方案；Jefferies 相關訴訟則提醒 esoteric structured credit 要重新檢查 抵押品 verification 與 manager governance。這些事件會影響信用風險溢價，即使大盤 equity beta 仍強。"
       ]
     },
     {
       "id": "allocation",
       "title": "四、配置含義",
+      "takeaway": "可小幅提高中段久期，但信用與 EM 仍應守品質，不追超長端。",
       "paragraphs": [
-        "對 TWD 計價海外債 ETF 與美元債配置而言，這次市場改善可支撐短線 NAV，但不應直接解讀成全面拉長 duration 的訊號。10Y 回到 4.45%、30Y 回到 4.98%，carry 與價格修復都有吸引力；但 long-end term premium 尚未消失，若油價或供給重新升溫，20Y+ bucket 的回吐風險仍會高於中段曲線。",
+        "對 TWD 計價海外債 ETF 與美元債配置而言，這次市場改善可支撐短線 NAV，但不應直接解讀成全面拉長 duration 的訊號。10Y 回到 4.45%、30Y 回到 4.98%，carry 與價格修復都有吸引力；但長端期限溢價尚未消失，若油價或供給重新升溫，20Y+ bucket 的回吐風險仍會高於中段曲線。",
         "曲線配置上，5Y-10Y 仍是較乾淨的 duration 表達。2s10s 已收斂至 46bp，而 5s30s 仍在 83bp，說明市場尚未真正放棄 long-end fiscal premium；若油價續弱、Fed 官員沒有進一步轉鷹、6 月 reopening 消化平順，belly 與 intermediate duration 的風險報酬優於直接追逐超長債。",
         "信用配置應維持 IG 優於 HY、金融債與高品質資產優於弱質槓桿再融資。AT1 與優質 data-center credit 仍顯示收益型資金需求存在，但 private credit 對軟體 borrower 的選擇性提高，代表 credit beta 不能只看股市創高。對 ETF 或委外組合而言，應避免因 equity strength 而同步放寬信用篩選。",
-        "EM 與亞洲 rates 需要維持國別分層。油價回落有利能源進口國的前端壓力暫時緩和，但匯率防守、補貼成本與財政可信度仍決定 duration beta 是否能修復。對台幣投資人而言，美元回落與 UST rally 有利短線表現，但匯率貢獻不宜過度外推。"
+        "EM 與亞洲 rates 需要維持國別分層。油價回落有利能源進口國的前端壓力暫時緩和，但匯率防守、補貼成本與財政可信度仍決定 duration beta 是否能修復。對台幣投資人而言，美元回落與 UST rally 有利短線表現，但匯率貢獻不宜過度外推。",
+        "執行上可以把新增風險分成兩段：第一段是 5Y-10Y 高評等美元債與高品質金融，利用利率回落與 carry；第二段才是長端或較低評等信用，必須等油價穩住、標售需求確認、以及 Fed 官員沒有把 PCE 重新推成前端風險。",
+        "若要把 5/28 close 轉成部位，最合理的是先提高中段高評等 exposure，而不是追長端 convexity。10Y 4.45% 提供入場點，但 30Y 4.98% 還在壓力區下緣；一旦油價回升或供給 tail 擴大，超長端回吐會快於 5Y-10Y。",
+        "信用配置可以保留收益，但要把 AI 資料中心、AT1、私募信貸與 事件型信用 分開。前兩者有資金需求與資產故事，後兩者則要更嚴格檢查 抵押品、贊助方支持、槓桿與再融資期限。這樣可以參與收益窗口，同時降低尾端損失。",
+        "對台幣海外債 ETF，5/28 的利率與美元走勢短線有利，但不是全面加碼訊號。若 DXY 99.02 後續繼續走弱且 UST 保持 rally，NAV 改善較健康；若美元反彈來自避險，而 UST 長端也同時回升，ETF 的匯率貢獻可能只是抵銷利率損失。"
       ]
     },
     {
       "id": "watchlist",
       "title": "五、後續觀察重點",
+      "takeaway": "接下來先看油價、供給、PCE / 就業與信用再融資是否同向支持 rally。",
       "paragraphs": [
         "第一組觸發點是美伊談判、Hormuz 通行與油價。若 WTI 能穩定在 90 美元下方，且 Brent 維持在 94 美元下方，能源通膨尾端風險可繼續下降；若停火條件反覆或航運保險成本重新上升，市場會先反映在油價、美元與通膨 breakeven，再回到 UST 長端。",
         "第二組觸發點是供給與政策。5/28 7Y note 已以 4.290% high yield、2.52 bid-to-cover 完成，後續焦點轉向二級市場吸收、6 月 10Y / 30Y reopening 與 20Y 供給；Fed 方面，PCE、jobless claims、薪資與服務通膨仍是判斷 higher-for-longer 能否鬆動的核心。",
-        "第三組觸發點是信用與 EM funding。資料中心 HY、AT1、Sophos refinancing、Caesars event credit、Senegal coupon、Brazil 通膨預期與 South Africa 政策路徑，都會影響 fixed-income risk appetite。若市場出現油升、美元升、長端殖利率升的三重共振，這波 bull flattening 會被快速測試。"
+        "第三組觸發點是信用與 EM funding。資料中心 HY、AT1、Sophos refinancing、Caesars event credit、Senegal coupon、Brazil 通膨預期與 South Africa 政策路徑，都會影響 fixed-income risk appetite。若市場出現油升、美元升、長端殖利率升的三重共振，這波 bull flattening 會被快速測試。",
+        "第四組觸發點是台幣投資人的 NAV 來源。若 NAV 改善主要來自美元走弱與利率下行同步，短中天期產品可延續；若美元回升只是抵銷利率損失，或信用利差開始讓利擴大，表面 NAV 改善就不應被視為可留存報酬。",
+        "第五組觸發點是央行訊號是否一致。若 Fed、ECB 與 EM 央行都把能源降溫視為暫時，不願放鬆通膨防守，前端會限制 rally；若通膨與勞動數據同時降溫，5Y-10Y 才有機會從戰術性修復轉成更穩定的配置機會。",
+        "若 WTI 重新站上 95 美元，能源通膨尾端風險會回到前端定價，2Y 與 5Y 會比 30Y 更快反應。這時候 5/28 的 bull-flattening 就會被重新定義為短線 squeeze，而不是可延續的配置訊號。",
+        "若 6 月 reopening 的 10Y 或 30Y 出現明顯 tail，長端期限溢價會回到主導地位。這不只影響 UST，也會影響高評等長天期 ETF 的折現率與台幣 NAV，應把 30Y 5.10% 當成風險升級門檻。",
+        "若 PCE、claims 與 payrolls 給出一致降溫，5Y-10Y 可以從戰術性修復升級為核心配置；若只有 GDP 下修但通膨與薪資仍黏，市場會回到 higher-for-longer，前端與美元都會重新限制 rally。",
+        "若信用一級市場出現高品質新券仍強、弱質 borrower 讓利擴大的分化，應維持品質 barbell；若連高品質 borrower 也需要大幅 concession，則代表風險預算開始收縮，ETF 與 HY beta 都要同步降風險。"
       ]
     }
   ]
