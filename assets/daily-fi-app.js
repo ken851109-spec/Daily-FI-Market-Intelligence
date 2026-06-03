@@ -137,7 +137,7 @@
     clearHighlights();
     if (!query) return;
     const needle = normalize(query);
-    const targets = document.querySelectorAll(".task-section");
+    const targets = document.querySelectorAll(".task-section, .right-rail");
     for (const target of targets) {
       const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT, {
         acceptNode(node) {
