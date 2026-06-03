@@ -5,6 +5,7 @@
   const clearButton = document.querySelector("[data-clear-search]");
   const resultsEl = document.querySelector("[data-search-results]");
   const dateSelect = document.querySelector("[data-date-select]");
+  const toolsEl = document.querySelector(".task-nav");
   if (!rootEl || !bar || !input || !resultsEl || !dateSelect) return;
 
   const siteRoot = rootEl.dataset.siteRoot || "";
@@ -186,6 +187,52 @@
     syncQuery(value.trim());
   });
 
+  const setupMobileTools = () => {
+    if (!toolsEl) return;
+    const mobileQuery = window.matchMedia("(max-width: 767px)");
+    let lastY = window.scrollY;
+    let ticking = false;
+    const isUsingTools = () => {
+      const active = document.activeElement;
+      return bar.contains(active) || !resultsEl.hidden;
+    };
+    const showTools = () => toolsEl.classList.remove("is-hidden");
+    const hideTools = () => {
+      if (window.scrollY > 96 && !isUsingTools()) toolsEl.classList.add("is-hidden");
+    };
+    const sync = () => {
+      if (!mobileQuery.matches) {
+        showTools();
+        lastY = window.scrollY;
+        return;
+      }
+      const y = window.scrollY;
+      const delta = y - lastY;
+      if (y < 72) showTools();
+      else if (delta > 14) hideTools();
+      else if (delta < -18) showTools();
+      lastY = y;
+    };
+    window.addEventListener("scroll", () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        sync();
+        ticking = false;
+      });
+    }, { passive: true });
+    window.addEventListener("resize", sync);
+    bar.addEventListener("focusin", showTools);
+    resultsEl.addEventListener("click", showTools);
+    document.querySelectorAll(".section-nav a").forEach((link) => {
+      link.addEventListener("click", () => {
+        showTools();
+        setTimeout(hideTools, 260);
+      });
+    });
+    sync();
+  };
+
   const init = async () => {
     try {
       const manifest = await fetch(manifestUrl).then((response) => response.json());
@@ -223,5 +270,6 @@
     syncQuery("");
     input.focus();
   });
+  setupMobileTools();
   init();
 })();
