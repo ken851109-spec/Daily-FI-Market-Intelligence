@@ -94,6 +94,10 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
 .analysis-card { margin-top: 12px; }
 .analysis-card .takeaway { border-left: 3px solid var(--orange); padding-left: 10px; color: var(--text); font-weight: 800; }
 .analysis-card p { font-size: 15px; line-height: 1.72; }
+.archive-entry-grid { display: grid; gap: 10px; padding: 12px; background: var(--surface-soft); }
+.archive-entry { display: grid; gap: 4px; border: 1px solid var(--line); background: #fff; padding: 13px 14px; }
+.archive-entry strong { color: var(--ink); font-size: 16px; line-height: 1.3; }
+.archive-entry span { color: var(--muted); font-size: 12.5px; line-height: 1.4; }
 
 @media (max-width: 1023px) {
   .page-shell { max-width: 860px; }
