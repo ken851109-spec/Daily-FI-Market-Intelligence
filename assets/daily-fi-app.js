@@ -8,22 +8,28 @@
   const dateSelect = dateSelects[0];
   const mobileDateMenu = document.querySelector("[data-mobile-date-menu]");
   const toolsEl = document.querySelector(".task-nav");
+  const langButtons = Array.from(document.querySelectorAll("[data-lang-button]"));
+  const langPanels = Array.from(document.querySelectorAll("[data-lang-panel]"));
+  const navLinks = Array.from(document.querySelectorAll("[data-nav-link]"));
   if (!rootEl || !bar || !input || !resultsEl || !dateSelect) return;
 
   const siteRoot = rootEl.dataset.siteRoot || "";
   const currentDate = rootEl.dataset.currentDate || dateSelect.dataset.currentDate || "";
   const manifestUrl = siteRoot + "tapes.json";
-  const state = { manifest: [], notes: new Map(), index: [], query: "" };
+  const paramsAtLoad = new URLSearchParams(location.search);
+  const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
+  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh" };
   const escapeHtml = (value) => String(value ?? "")
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   const normalize = (value) => String(value ?? "").toLocaleLowerCase();
   const slug = (value) => String(value || "section").replace(/[^a-zA-Z0-9_-]+/g, "-").replace(/^-|-$/g, "");
   const latestDate = () => state.manifest[0]?.date || "";
-  const hrefForDate = (date) => {
+  const hrefForDate = (date, lang = state.language) => {
     const item = state.manifest.find((entry) => entry.date === date);
     if (!item) return siteRoot || "./";
-    return date === latestDate() ? (siteRoot || "./") : siteRoot + item.path;
+    const base = date === latestDate() ? (siteRoot || "./") : siteRoot + item.path;
+    return lang === "en" ? `${base}?lang=en` : base;
   };
   const debounce = (fn, wait = 140) => {
     let timer = 0;
@@ -46,7 +52,7 @@
     }
     if (typeof value === "object") {
       const title = value.title || value.label || value.driver || value.id || fallbackTitle;
-      const section = value.id ? sectionForId(value.id) : fallbackSection;
+      const section = value.id ? sectionForId(value.id, fallbackSection) : fallbackSection;
       Object.entries(value).forEach(([key, item]) => {
         if (["id", "title", "label", "date", "path", "dataPath"].includes(key)) return;
         flatten(item, section, title, out);
@@ -55,13 +61,37 @@
     return out;
   };
 
-  const sectionForId = (id) => {
+  const sectionForId = (id, fallbackSection = "investment-read") => {
     const value = String(id || "");
-    if (value.includes("rates") || value.includes("curve")) return "rates";
-    if (value.includes("cross")) return "cross-asset";
-    if (value.includes("event") || value.includes("risk") || value.includes("asia")) return "risk-monitor";
-    if (value.includes("driver")) return "drivers";
-    return "investment-read";
+    const prefix = String(fallbackSection || "").startsWith("en-") ? "en-" : "";
+    if (value.includes("rates") || value.includes("curve")) return prefix + "rates";
+    if (value.includes("cross")) return prefix + "cross-asset";
+    if (value.includes("event") || value.includes("risk") || value.includes("asia")) return prefix + "risk-monitor";
+    if (value.includes("driver")) return prefix + "drivers";
+    return fallbackSection || prefix + "investment-read";
+  };
+
+  const addNoteRows = (rows, item, note, lang) => {
+    const before = rows.length;
+    const prefix = lang === "en" ? "en-" : "";
+    const headline = note.headline || {};
+    flatten([headline.primary, headline.secondary, note.summary], prefix + "overview", lang === "en" ? "Overview" : "今日盤勢", rows);
+    flatten(note.regime_strip, prefix + "overview", "Regime", rows);
+    flatten(note.positioning, prefix + "overview", lang === "en" ? "Positioning" : "配置重點", rows);
+    flatten(note.driver_decomposition, prefix + "drivers", lang === "en" ? "Market Drivers" : "市場驅動", rows);
+    flatten(note.monitor_blocks, prefix + "risk-monitor", lang === "en" ? "Risk Monitor" : "風險監控", rows);
+    flatten(note.market_tables, prefix + "rates", lang === "en" ? "Reference Data" : "參考數據", rows);
+    for (const section of note.sections || []) {
+      const sectionId = prefix + "analysis-" + slug(section.id || "section");
+      flatten([section.title, section.takeaway, section.paragraphs], sectionId, section.title || (lang === "en" ? "Investment Read" : "投資解讀"), rows);
+    }
+    rows.slice(before).forEach((row) => {
+      row.date = item.date;
+      row.label = item.label;
+      row.path = item.path;
+      row.dataPath = item.dataPath;
+      row.lang = lang;
+    });
   };
 
   const buildIndex = () => {
@@ -69,25 +99,10 @@
     for (const item of state.manifest) {
       const note = state.notes.get(item.date);
       if (!note) continue;
-      const headline = note.headline || {};
-      flatten([headline.primary, headline.secondary, note.summary], "overview", "今日盤勢", rows);
-      flatten(note.regime_strip, "overview", "Regime", rows);
-      flatten(note.positioning, "overview", "配置重點", rows);
-      flatten(note.driver_decomposition, "drivers", "市場驅動", rows);
-      flatten(note.monitor_blocks, "risk-monitor", "風險監控", rows);
-      flatten(note.market_tables, "rates", "參考數據", rows);
-      for (const section of note.sections || []) {
-        const sectionId = "analysis-" + slug(section.id || "section");
-        flatten([section.title, section.takeaway, section.paragraphs], sectionId, section.title || "投資解讀", rows);
-      }
-      rows.filter((row) => !row.date).forEach((row) => {
-        row.date = item.date;
-        row.label = item.label;
-        row.path = item.path;
-        row.dataPath = item.dataPath;
-      });
+      addNoteRows(rows, item, note, "zh");
+      if (note.translations && note.translations.en) addNoteRows(rows, item, note.translations.en, "en");
     }
-    state.index = rows.map((row) => ({ ...row, haystack: normalize(`${row.date} ${row.title} ${row.text}`) }));
+    state.index = rows.map((row) => ({ ...row, haystack: normalize(`${row.date} ${row.lang} ${row.title} ${row.text}`) }));
   };
 
   const excerpt = (text, query) => {
@@ -118,9 +133,12 @@
     resultsEl.innerHTML = [
       `<div class="search-count">${matches.length} 個相關段落</div>`,
       ...matches.map((row) => {
-        const href = `${hrefForDate(row.date)}?q=${encodeURIComponent(state.query)}#${encodeURIComponent(row.section || "overview")}`;
+        const baseHref = hrefForDate(row.date, row.lang || "zh");
+        const joiner = baseHref.includes("?") ? "&" : "?";
+        const href = `${baseHref}${joiner}q=${encodeURIComponent(state.query)}#${encodeURIComponent(row.section || "overview")}`;
+        const langLabel = row.lang === "en" ? "EN" : "中文";
         return `<a class="search-result" href="${escapeHtml(href)}">` +
-          `<span>${escapeHtml(row.date)} / ${escapeHtml(row.title || "段落")}</span>` +
+          `<span>${escapeHtml(row.date)} / ${escapeHtml(langLabel)} / ${escapeHtml(row.title || "段落")}</span>` +
           `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
           "</a>";
       })
@@ -137,7 +155,8 @@
     clearHighlights();
     if (!query) return;
     const needle = normalize(query);
-    const targets = document.querySelectorAll(".task-section, .right-rail");
+    const activePanel = document.querySelector(`[data-lang-panel="${state.language}"]`);
+    const targets = activePanel ? activePanel.querySelectorAll(".task-section, .right-rail") : document.querySelectorAll(".task-section, .right-rail");
     for (const target of targets) {
       const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT, {
         acceptNode(node) {
@@ -174,7 +193,7 @@
     dateSelects.forEach((select) => {
       select.innerHTML = options;
       select.addEventListener("change", () => {
-        if (select.value) location.href = hrefForDate(select.value);
+        if (select.value) location.href = hrefForDate(select.value, state.language);
       });
     });
   };
@@ -182,8 +201,39 @@
   const syncQuery = (query) => {
     const params = new URLSearchParams(location.search);
     if (query) params.set("q", query); else params.delete("q");
+    if (state.language === "en") params.set("lang", "en"); else params.delete("lang");
     const next = `${location.pathname}${params.toString() ? `?${params}` : ""}${location.hash}`;
     history.replaceState(null, "", next);
+  };
+
+  const syncNavForLanguage = () => {
+    const lang = state.language;
+    navLinks.forEach((link) => {
+      const base = link.dataset.sectionBase || "overview";
+      const section = lang === "en" ? `en-${base}` : base;
+      link.setAttribute("href", `#${section}`);
+      const strong = link.querySelector("strong");
+      const span = link.querySelector("span");
+      if (strong) strong.textContent = link.dataset[`label${lang === "en" ? "En" : "Zh"}`] || strong.textContent;
+      if (span) span.textContent = link.dataset[`caption${lang === "en" ? "En" : "Zh"}`] || span.textContent;
+    });
+  };
+
+  const setLanguage = (lang, { updateUrl = true } = {}) => {
+    state.language = lang === "en" ? "en" : "zh";
+    rootEl.dataset.language = state.language;
+    document.documentElement.lang = state.language === "en" ? "en" : "zh-Hant";
+    langPanels.forEach((panel) => { panel.hidden = panel.dataset.langPanel !== state.language; });
+    langButtons.forEach((button) => {
+      const active = button.dataset.langButton === state.language;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    input.placeholder = state.language === "en" ? "Search JOLTS, WTI, 2s10s, AI..." : "搜尋 JOLTS、WTI、2s10s、AI...";
+    localStorage.setItem("daily-fi-language", state.language);
+    syncNavForLanguage();
+    if (updateUrl) syncQuery(state.query || input.value.trim());
+    highlightPage(state.query || input.value.trim());
   };
 
   const runSearch = debounce((value) => {
@@ -275,9 +325,13 @@
     syncQuery("");
     input.focus();
   });
+  langButtons.forEach((button) => {
+    button.addEventListener("click", () => setLanguage(button.dataset.langButton || "zh"));
+  });
   document.addEventListener("click", (event) => {
     if (mobileDateMenu && !mobileDateMenu.contains(event.target)) mobileDateMenu.open = false;
   });
+  setLanguage(state.language, { updateUrl: false });
   setupMobileTools();
   init();
 })();

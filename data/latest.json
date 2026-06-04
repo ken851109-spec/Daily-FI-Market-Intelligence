@@ -438,5 +438,447 @@
         "第八個 trigger 是供給與標售尾端。若後續 10Y 或 30Y 標售出現明顯 tail，且 bid-to-cover 低於近期均值，市場會把 20Y 5.00%、30Y 4.99% 解讀為仍不足以吸引長線資金，Curve 要防 long-end reset；若標售需求穩、油價回落，長端才可能重新成為 portfolio hedge。"
       ]
     }
-  ]
+  ],
+  "translations": {
+    "en": {
+      "title": "Daily FI Market Tape | 2026-06-03 close",
+      "summary": [
+        "UST curve以 bear flattening 收盤: 2Y 4.08% / 10Y 4.49% / 30Y 4.99%, 2s10s 維持 41bp, 5s30s 收斂至 78bp.",
+        "ADP labor market +122k / ISM Services 54.5 高於預期, 把 Fed swaps 年底hike機率推到 85%, oil與dollar同時拉高政策溢價.",
+        "S&P 500 -0.7% / Nasdaq -0.9% / Dow -1.2%, WTI 收在 95.23 dollar附近 / gold -1.2%, risk assets開始驗證利率與能源壓力.",
+        "allocation上維持 short-to-neutral Duration / prefer 5Y-10Y 相對 30Y, credit採high-qualityyield, TWD 海外債 ETF 等待 10Y 回到 4.45% 下方再加碼."
+      ],
+      "headline": {
+        "primary": "oil與labor market把 Fed 尾端風險推回前台",
+        "secondary": "UST bear flattening; 10Y 4.49% / WTI 95.23 / Fed swaps 年底hike機率約 85%."
+      },
+      "regime_strip": [
+        {
+          "label": "Rates",
+          "value": "2Y +3bp / 10Y +3bp"
+        },
+        {
+          "label": "Curve",
+          "value": "5s30s -2bp 至 78bp"
+        },
+        {
+          "label": "Risk",
+          "value": "S&P 500 -0.7%"
+        },
+        {
+          "label": "Oil",
+          "value": "WTI 95.23"
+        },
+        {
+          "label": "USD",
+          "value": "DXY 99.54"
+        },
+        {
+          "label": "ETF Lens",
+          "value": "NAV 防守優先"
+        }
+      ],
+      "positioning": [
+        {
+          "label": "Duration",
+          "view": "short-to-neutral",
+          "best_expression": "5Y-10Y 分批承接, 不追long end 5% 附近.",
+          "risk_trigger": "10Y 站上 4.55% 或非農高於 +125k 就降風險."
+        },
+        {
+          "label": "Curve",
+          "view": "preferbelly相對long end",
+          "best_expression": "5s30s 已收至 78bp, 避免單買 30Y.",
+          "risk_trigger": "30Y 突破 5.05% 時long endallocation降槓桿."
+        },
+        {
+          "label": "Credit / ETF",
+          "view": "IG 優先 / HY beta 克制",
+          "best_expression": "high-qualityyield與短中天期dollar債優先.",
+          "risk_trigger": "HY 新券讓利擴大或軟體再融資壓力升高即減碼."
+        },
+        {
+          "label": "FX / NAV",
+          "view": "dollarsupports未退",
+          "best_expression": "TWD 海外債 ETF 以分批與避險成本控管為主.",
+          "risk_trigger": "DXY 突破 100 或 USD/JPY 高於 160 時暫緩加碼."
+        },
+        {
+          "label": "加碼條件",
+          "view": "等待二項確認",
+          "best_expression": "10Y <4.45% / WTI <92 / DXY 不創高, 至少兩項成立再加碼.",
+          "risk_trigger": "WTI >98 且 Fed officials保留hike語言時維持防守."
+        }
+      ],
+      "driver_decomposition": [
+        {
+          "driver": "oil / 地緣",
+          "signal": "WTI 95.23 / 日升約 1.8%, Brent 盤中仍高於 98.",
+          "fi_impact": "通膨風險先傳導至 2Y-5Y, limits 10Y 跌破 4.45%."
+        },
+        {
+          "driver": "labor market / 服務業",
+          "signal": "ADP +122k; ISM Services 54.5, 高於約 53.7 共識.",
+          "fi_impact": "Fed swaps 年底hike機率約 85%, 政策敏感段承壓."
+        },
+        {
+          "driver": "risk assets",
+          "signal": "S&P 500 -0.7% / Nasdaq -0.9% / Dow -1.2%.",
+          "fi_impact": "股市回檔未帶動債券避險買盤, Duration 防守功能下降."
+        },
+        {
+          "driver": "全球 Duration",
+          "signal": "BOE 今年料按兵不動, yennear 160, EM 多家central bank偏緊.",
+          "fi_impact": "海外利率難以同步轉多, 30Y 在 5% 附近仍需 term premium."
+        },
+        {
+          "driver": "credit funding",
+          "signal": "Bahrain 10Y 7.125% / 訂單逾 32 億dollar; Alphabet 10 億dollar免稅能源融資.",
+          "fi_impact": "yield需求仍在, 但市場把品質與再融資壓力分開定價."
+        }
+      ],
+      "monitor_blocks": {
+        "key_levels": [
+          {
+            "label": "10Y UST",
+            "value": "4.45% / 4.55%",
+            "detail": "下破才確認belly買盤; 上破則降 Duration."
+          },
+          {
+            "label": "30Y UST",
+            "value": "5.05%",
+            "detail": "突破indicateslong end term premium 重新主導."
+          },
+          {
+            "label": "WTI",
+            "value": "92 / 98",
+            "detail": "低於 92 才減弱inflation premium; 高於 98 加大前端壓力."
+          },
+          {
+            "label": "DXY",
+            "value": "100",
+            "detail": "突破時 TWD 海外債 ETF NAV 風險升高."
+          }
+        ],
+        "event_risks": [
+          {
+            "label": "非農",
+            "value": "+85k 共識",
+            "detail": "高於 +125k 將強化hike尾端風險."
+          },
+          {
+            "label": "初領失業金",
+            "value": "周四",
+            "detail": "若顯著上升, 10Y 才有下破 4.45% 的基本面理由."
+          },
+          {
+            "label": "FOMC",
+            "value": "6/16-17",
+            "detail": "聲明文字是否移除cut暗示是前端定價核心."
+          }
+        ],
+        "asia_update": [
+          {
+            "label": "S&P 500 futures",
+            "value": "偏弱",
+            "change": "-0.5%",
+            "detail": "台北盤前風險承接延續U.S. equities收盤壓力."
+          },
+          {
+            "label": "Oil Asia",
+            "value": "高位震盪",
+            "change": "小幅fell back",
+            "detail": "95 dollar附近仍足以維持通膨風險溢價."
+          },
+          {
+            "label": "JPY Asia",
+            "value": "near 160",
+            "change": "偏弱",
+            "detail": "BOJ 與財務省訊號牽動Asia利率."
+          }
+        ]
+      },
+      "market_tables": [
+        {
+          "id": "rates_and_curves",
+          "title": "UST / Curve",
+          "columns": [
+            "Tenor",
+            "Close",
+            "1D",
+            "1W",
+            "1M"
+          ],
+          "rows": [
+            {
+              "label": "2Y",
+              "value": "4.08%",
+              "change": "+3bp",
+              "week_change": "+9bp",
+              "month_change": "+13bp"
+            },
+            {
+              "label": "5Y",
+              "value": "4.21%",
+              "change": "+4bp",
+              "week_change": "+6bp",
+              "month_change": "+13bp"
+            },
+            {
+              "label": "10Y",
+              "value": "4.49%",
+              "change": "+3bp",
+              "week_change": "+4bp",
+              "month_change": "+4bp"
+            },
+            {
+              "label": "20Y",
+              "value": "5.00%",
+              "change": "+3bp",
+              "week_change": "+2bp",
+              "month_change": "-1bp"
+            },
+            {
+              "label": "30Y",
+              "value": "4.99%",
+              "change": "+2bp",
+              "week_change": "+1bp",
+              "month_change": "-3bp"
+            },
+            {
+              "label": "2s10s",
+              "value": "41bp",
+              "change": "0bp",
+              "week_change": "-5bp",
+              "month_change": "-9bp"
+            },
+            {
+              "label": "5s30s",
+              "value": "78bp",
+              "change": "-2bp",
+              "week_change": "-5bp",
+              "month_change": "-16bp"
+            },
+            {
+              "label": "10s30s",
+              "value": "50bp",
+              "change": "-1bp",
+              "week_change": "-3bp",
+              "month_change": "-7bp"
+            }
+          ]
+        },
+        {
+          "id": "cross_asset",
+          "title": "Cross Asset",
+          "columns": [
+            "Asset",
+            "Close / Status",
+            "1D",
+            "Read"
+          ],
+          "rows": [
+            {
+              "label": "S&P 500",
+              "value": "7,553.68",
+              "change": "-0.7%",
+              "note": "九日漲勢中斷, 利率與oil同時壓縮風險承接."
+            },
+            {
+              "label": "Nasdaq",
+              "value": "26,853.98",
+              "change": "-0.9%",
+              "note": "AI 相關持股動能降溫, 軟體股拖累growth股估值."
+            },
+            {
+              "label": "Dow",
+              "value": "50,687.07",
+              "change": "-1.2%",
+              "note": "循環與價值股同步fell back, shows壓力不限於高估值科技."
+            },
+            {
+              "label": "DXY",
+              "value": "99.54",
+              "change": "+0.4%",
+              "note": "dollar受 Fed repricingsupports, 對非美 Duration 與 FX NAV 形成壓力."
+            },
+            {
+              "label": "WTI",
+              "value": "$95.23",
+              "change": "+1.8%",
+              "note": "oil仍處高位, 通膨風險溢價維持在前端定價."
+            },
+            {
+              "label": "Gold",
+              "value": "$4,434",
+              "change": "-1.2%",
+              "note": "dollar走強壓抑避險資產, 通膨交易未全面轉成避險買盤."
+            },
+            {
+              "label": "Credit proxy",
+              "value": "IG 穩 / HY 轉分化",
+              "change": "mixed",
+              "note": "一級市場high-quality需求仍可承接, 但軟體與 private credit 壓力升高."
+            },
+            {
+              "label": "USD/JPY",
+              "value": "near 160",
+              "change": "+0.5%",
+              "note": "yen疲弱提高 BOJ 溝通成本, long end JGB 與dollar債避險成本需同看."
+            }
+          ]
+        },
+        {
+          "id": "events_and_data",
+          "title": "Events and Data",
+          "columns": [
+            "Item",
+            "Release / Status",
+            "Expected",
+            "Read"
+          ],
+          "rows": [
+            {
+              "label": "Labor",
+              "value": "ADP +122k; wages +4.4% YoY",
+              "expected": "高於市場預期; 非農共識 +85k / 失業率 4.3%",
+              "note": "labor marketresilience把cut敘事轉成hike選擇權, 前端最敏感."
+            },
+            {
+              "label": "ISM Services",
+              "value": "54.5; 新訂單 57.3; labor market 47.9",
+              "expected": "共識約 53.7; 前值 53.6",
+              "note": "服務業growth高於預期, 但labor market分項低於 50, curve呈現前端壓力與growthresilience並存."
+            },
+            {
+              "label": "Fed pricing",
+              "value": "Fed swaps 年底hike機率約 85%",
+              "expected": "上周約 60%",
+              "note": "政策反應函數從等待cut轉向保留hike, 2Y 與 5Y 承壓."
+            },
+            {
+              "label": "Fed speakers",
+              "value": "Williams 稱政策位置剛好; Logan 保留今年hike可能",
+              "expected": "6/16-17 FOMC 聚焦聲明文字",
+              "note": "officials未給單向承諾, 市場需為oil與關稅的二階效應付溢價."
+            },
+            {
+              "label": "Beige Book",
+              "value": "10/12 地區活動小幅至溫和擴張",
+              "expected": "調查截至 5/27",
+              "note": "能源 / 運輸 / 包材與食品成本仍推升價格敘事, limits bull flattening."
+            },
+            {
+              "label": "BOE / OECD",
+              "value": "BOE 今年料按兵不動; 2027 降至 3.5%",
+              "expected": "英國 CPI 2026 3.7% / 2027 2.4%",
+              "note": "英國通膨與債務路徑使 gilts 難以帶動全球 Duration 明顯轉多."
+            },
+            {
+              "label": "Japan",
+              "value": "USD/JPY near 160; 追加預算 3.1 兆yen",
+              "expected": "市場仍評估 BOJ 6 月hike訊號",
+              "note": "匯率與補貼組合提高政策溝通難度, JGB 對 UST long end形成外溢."
+            },
+            {
+              "label": "Funding / credit",
+              "value": "Alphabet 10 億dollar預付能源免稅債; Bahrain 10Y 7.125%",
+              "expected": "Bahrain 訂單逾 32 億dollar",
+              "note": "high-quality與主權yield仍有需求, 但資金成本已直接區分發行品質."
+            },
+            {
+              "label": "EM / Asia",
+              "value": "印度銀行貸款 +16.2%; 地方債銷售 -11% 至 10.9 兆盧比",
+              "expected": "印度 10Y 升至 7.04%",
+              "note": "本地資金從債市轉向銀行信貸, Asia利率 beta 對oil與dollar更敏感."
+            },
+            {
+              "label": "Sovereign stress",
+              "value": "Zambia 債券約 81c; Ghana CPI 3.7%",
+              "expected": "Ghana CPI 低於 4.3% 預估",
+              "note": "IMF 條款 / 票息階梯與商品收入仍主導 EM 硬通貨表現."
+            }
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "rates_close",
+          "title": "I. UST Close and Curve Changes",
+          "takeaway": "UST 是前端與belly共同上移 / long end相對黏著的 bear flattening.",
+          "paragraphs": [
+            "美債收盤把盤面定義成 bear flattening, 而不是避險式 bull flattening: 2Y 收 4.08% / 日升 3bp, 5Y 收 4.21% / 日升 4bp, 10Y 收 4.49% / 日升 3bp, 30Y 收 4.99% / 日升 2bp. 2s10s 維持 41bp / 5s30s 收斂 2bp 至 78bp, indicates市場把oil / 服務業與labor marketresilience先灌進政策路徑, long end雖仍貼近 5%, 但相對沒有再明顯失控.",
+            "官方 CMT 的周變化也確認這不是單日雜訊: 2Y 一周升 9bp / 5Y 升 6bp / 10Y 升 4bp, 30Y 只升 1bp; 月變化則是 2Y 與 5Y 各升 13bp, 10Y 只升 4bp, 30Y 反而低 3bp. 這種結構indicates市場正在把cut尾端拿掉, 前端與belly Duration 的 carry 保護下降, curve交易should not只押long end單向走低.",
+            "labor market數據是前端repricing的第一個催化. ADP shows 5 月民間labor market +122k, wages年增 4.4%, 高於市場期待且是 2025 年 1 月以來最強的企業增員訊號; 周五非農共識仍只有 +85k / 失業率 4.3% / 平均時薪 +0.3% m/m. 若正式labor market報告沒有顯著轉弱, 2Y 與 5Y 對 Fed hike選擇權的折價會繼續減少, 10Y 下方 4.45% 的supports也會變硬.",
+            "服務業數據把growthresilience與通膨壓力放在同一張curve上. ISM Services 5 月為 54.5, 高於約 53.7 的市場共識與 53.6 前值; 新訂單升至 57.3, 商業活動 57.7, 但labor market分項仍在 47.9. 這個組合對利率的含義不是單純growth利多或衰退利多, 而是需求尚未足以讓 Fed 放鬆 / labor market分項又提醒long end不能無限承受更高實質利率, 因此 5Y 對 30Y 的相對壓力更清楚.",
+            "oil是第二個催化, WTI 收在 95.23 dollar附近 / 日升約 1.8%, Brent 盤中仍在 98 dollar上方. 能源衝擊會先推升 CPI 預期與企業成本, 再透過 Fed swaps 傳導到front end; 同日gold下跌 1.2% 至 4,434 dollar, shows盤面不是單純地緣避險, 而是dollar與實質利率重新抬頭. 對 UST 而言, oil高位使 2Y-5Y 的風險補償比 20Y-30Y 更快調整.",
+            "跨資產收盤也驗證利率壓力開始影響風險承接. S&P 500 收 7,553.68 / 跌 0.7%, Nasdaq 收 26,853.98 / 跌 0.9%, Dow 收 50,687.07 / 跌 1.2%, 九日漲勢中斷; DXY 升至 99.54 / 日升 0.4%. U.S. equities下跌沒有換來明顯 UST 買盤, indicatesrisk assets回檔仍被oil與政策溢價抵消, Duration 的防守功能短線下降.",
+            "supply沒有成為主線, 但long endnear 5% 仍是allocation必須尊重的價格訊號. 20Y 收 5.00% / 30Y 收 4.99%, 10s30s 收斂至 50bp, 說明long end term premium 沒有被risk assets下跌完全沖掉; 當 30Y 在 5% 附近仍只能小幅跟跌或小幅跟升, 保險 / 退休金與海外買盤的承接力會決定curve能否從 bear flattening 轉向更可交易的belly bull flattening."
+          ]
+        },
+        {
+          "id": "rates_interpretation",
+          "title": "II. UST Move Interpretation",
+          "takeaway": "定價邏輯從cut時程後移, 轉成oil與labor market共同維持 Fed hike選擇權.",
+          "paragraphs": [
+            "這輪上行的核心不是growth恐慌, 而是政策反應函數被迫變寬. Fed swaps 把年底 25bp hike機率推到約 85%, 一周前約 60%; 這種變化會直接壓縮 2Y 與 5Y 的cut保費, 使curve前端不再把risk assets小跌視為買債理由. 只要市場相信 Fed 需要保留hike語言, 2s10s 即使沒有再倒掛擴大, 也很難快速 steepen.",
+            "Williams 表示政策位置current合適 / 沒有明顯升cut方向, Logan 則提醒若通膨與需求不降溫, 今年仍可能需要hike. 這兩種訊號合在一起, 等於把 Fed 從單一路徑改成條件式反應: oil / 關稅與 AI 投資若使金融條件維持寬鬆, 前端要付更高保險; 若labor market資料轉弱, long end才有足夠理由把 10Y 拉回 4.45% 下方.",
+            "Beige Book 的訊息支持這個條件式定價. 12 個地區中有 10 個shows活動小幅至溫和擴張, 能源 / 運輸 / 包材 / 食品與肥料成本仍被企業提到, 製造業招聘也受到國防與資料中心需求supports. 這讓服務業 54.5 的growth訊號更難被解讀成短暫反彈, 因為成本傳導與投資需求仍在, 使 Fed 不容易以一次弱labor market分項就轉鴿.",
+            "oil與地緣衝突對curve的傳導主要在通膨風險, 而不是立即的流動性壓力. 美伊互有軍事行動 / 海灣主權風險升溫, WTI 即使自盤中高位fell back仍在 95 dollar上方; 若企業把能源成本傳給服務價格, Fed 對二階效應的容忍度會下降. 這使 5Y 成為最不舒服的 bucket, 因為它同時reflects未來幾次 FOMC 與中期通膨風險.",
+            "long end的黏著來自財政與全球 Duration 的共同約束. 30Y 收在 4.99% / 20Y 收在 5.00%, 並未因U.S. equitiesfell back而明顯下行; 英國通膨 / 歐洲貿易摩擦 / Japan匯率壓力與 EM hike潮都limits了全球債券的同步牛市. 對美債而言, 這indicates 10Y near 4.50% 時should not只看risk assets, 還要看海外long end是否能提供 real-money 承接.",
+            "curve交易應把這次視為前端政策溢價抬升後的短期壓縮, 而非完整的long end重估. 2s10s 月內收斂 9bp / 5s30s 月內收斂 16bp, 說明curve已reflects不少政策重定價; 若周五非農只是符合 +85k 共識 / wages +0.3% 且失業率 4.3%, curve可能先在 10Y 4.45%-4.55% 區間消化, 而不是立刻打開新一輪大幅 selloff.",
+            "相反地, 若非農與初領失業金確認勞動市場沒有降溫, Fed swaps 85% 的hike機率就可能從尾端風險變成主場景, 2Y 會比 30Y 更快repricing. 這會讓 carry book 承受負凸性: 票息仍在, 但價格波動集中在政策敏感段, 單純拉長 Duration 等待避險買盤的勝率下降.",
+            "另一個需要拆開看的因素是dollar與gold的背離. DXY 升至 99.54, gold反而跌 1.2% 至 4,434 dollar, 表示市場沒有把地緣風險完全轉成傳統safe-haven demand, 而是把它放進dollar / 實質利率與前端政策溢價. 這對curve的含義是, 若dollar維持強勢, 海外買盤即使看到 10Y 4.49% 的絕對yield, 也可能因匯率避險成本而放慢進場速度."
+          ]
+        },
+        {
+          "id": "other_markets",
+          "title": "III. Other Market Developments",
+          "takeaway": "跨市驗證集中在central bank / credit一級市場 / private credit 與 EM 資金條件的分化.",
+          "paragraphs": [
+            "英國與歐洲的訊號偏向limits全球 Duration 多頭. OECD 預估 BOE 今年按兵不動 / 2027 年才降至 3.5%, 同時把英國 CPI 看在 2026 年 3.7% / 2027 年 2.4%, 失業率 2026 年 5.5% / 2027 年 5.3%, 債務占 GDP 可能自 2023 年 98.8% 升至 2027 年 105.4%. 這組數字意味 gilts 難以提供明確的全球領漲, UST long end也少了一個外部 bull flattening 錨.",
+            "歐中與美國關稅議題則透過商品 / 供應鏈與投資成本影響利率. 歐盟準備對家庭與企業提示更強硬的中國貿易措施, 美國也討論對多個貿易夥伴至少 10% 的進口關稅; 這些不是單日 CPI 數字, 卻會提高企業投入成本與庫存策略的不確定性. 對債市而言, 供應鏈再定價越像成本推動, 前端越難因growth疑慮而快速轉鴿.",
+            "Japan是Asia利率與 FX 風險的核心. USD/JPY near 160, 財務省officials保留干預語言, 政府追加預算約 3.1 兆yen, 其中 2.5 兆yen預留補貼與物價措施, 且年度債券發行日曆暫不變. BOJ 溝通若比市場期待保守, yen疲弱會提高進口通膨壓力; 若轉向更明確hike, JGB long end與海外避險成本又會壓縮日系資金allocationdollar債的空間.",
+            "澳洲與印度showsAsia本地資金條件並不一致. 澳洲 7Y A$1bn auction bid-to-cover 超過 4 倍, reflects RBA 暫停訊號與 Q1 GDP 只增 0.3% supportsbelly債需求; 但印度銀行貸款年增 16.2%, 地方債銷售年減 11% 至 10.9 兆盧比, 主權yield升至 7.04%. 這indicatesAsia Duration 不是整體買盤, 資金會在growth放緩市場與高oil壓力市場之間重新分配.",
+            "credit一級市場仍有窗口, 但品質區分非常明顯. Alphabet 透過 California Community Choice Financing Authority 進行 10 億dollar預付能源免稅債, Bahrain 10Y dollar債在逾 32 億dollar訂單下定價 7.125% / 較初始指引收窄 37.5bp; 同時海灣主權收入受油運與安全風險牽動. 這說明high-quality / 稅務效率或主權yield仍能吸引資金, 但credit買盤要求更清楚的yield補償.",
+            "AI 與資料中心相關融資持續supports投資需求, 卻也加劇credit分化. 美國企業股權與債務供給被市場吸收, 資料中心投資在澳洲 GDP 中也有明顯貢獻; 但if AI 資本支出讓金融條件保持寬鬆, Fed 的通膨與需求風險會更難解除. 對 credit 與 rates 的交集來說, AI 相關high-quality發行可承接, 不indicates HY 或軟體再融資可以用同樣利差通過.",
+            "private credit 與軟體貸款是風險端最需要區分的區域. 部分軟體借款人面臨到期牆 / AI 替代壓力與直接貸款人更挑剔的承作條件, 老經濟中型企業反而被部分 distressed credit 投資人視為更可分析的yield來源. 這個分化對債券 ETF 的含義是, 投資級現金流與抵押品質仍可收yield, 但 HY 軟體與槓桿貸款 beta should not只因指數利差尚穩就放大部位.",
+            "EM 主權風險呈現oil / IMF 條款與本幣政策的三重差異. Zambia 債券約 81c, 高於 78c 回購價, 且超過 25% 的持有人群組足以影響回購條款; 若 IMF 指標達成, 票息可能自 0.5% 階梯升至 7.5%. Ghana CPI 5 月為 3.7% / 低於 4.3% 預估, 且外匯存底自 107 億dollar升至 140 億dollar, 但食品與燃料仍會影響後續通膨. EM 硬通貨allocation要看條款與商品收入, should not只買高名目yield.",
+            "波蘭 / 南非 / 印尼 / 斯里蘭卡與其他 EM central bank的hike或偏緊訊號, 說明地緣與oil已讓新興市場優先保護通膨可信度. 波蘭central bank在政策利率 3.75% 附近暫停, 市場卻已reflects不少收緊風險; 這類本地市場的政策溢價會透過dollar / oil與避險資金影響 UST 需求. 若 EM 為守匯率而提高實質利率, dollar債的相對吸引力會提高, 但本幣債的匯率風險也會同步放大.",
+            "FX 風險不只在yen. Morgan Stanley 提醒 6 月 FOMC 可能衝擊低波動與共識 carry, EUR / JPY / AUD / NZD 都在風險清單; DXY 日升 0.4% 已先把dollar beta 拉回盤面. 對Asia投資人而言, dollar走強短線保護 USD 資產報酬, 但 TWD 計價海外債 ETF 的 NAV 仍會同時受到美債價格與匯率避險成本牽動."
+          ]
+        },
+        {
+          "id": "allocation",
+          "title": "IV. Allocation Implications",
+          "takeaway": "allocation重點是降低追價 / 保留 5Y-10Y 相對價值, credit以high-qualityyield為主.",
+          "paragraphs": [
+            "Duration 建議維持 short-to-neutral, 而不是在 10Y 4.49% 立即大幅加碼. 理由是 ADP +122k / ISM Services 54.5 與 WTI 95 dollar共同supports Fed hike選擇權, 且 2Y 與 5Y 一周已升 9bp / 6bp, 政策敏感段尚未確認釋放壓力. 若 10Y 重新跌破 4.45% 且 DXY 未續升, 才把belly Duration 從中性拉回偏多.",
+            "Curve 上prefer 5Y-10Y 的相對價值, 避免單純買 30Y. 30Y near 4.99% / 20Y 5.00%, 看似yield吸引, 但 5s30s 已收斂至 78bp / 月內收斂 16bp, long end term premium 未被完全壓下. 若 30Y 站上 5.05% 且 10Y 未同步破 4.55%, 才考慮分批增加long end; 否則以 5Y-10Y 做主要 Duration 表達, 降低 fiscal 與供給風險.",
+            "creditallocation維持 IG 與high-quality金融 / 基建 / 能源效率相關yield, HY beta 暫不追. Alphabet 免稅能源融資與 Bahrain 7.125% 主權債shows一級市場仍能承接清楚故事, 但軟體 private credit / Zambia 條款與 EM oil壓力提醒市場正在重估弱資產負債表. 若 HY ETF 利差未給足oil與再融資風險, 應把yield留在 IG / 短中天期與有現金流抵押的結構.",
+            "EM 與Asia利率allocation要把oil與dollar放在同一個 trigger. 印度銀行貸款 +16.2% 與主權yield 7.04% 說明本地資金成本正在上行; Ghana CPI 3.7% 低於預期則提供特定主權利多. allocation上可以保留 EM 硬通貨小部位, 但避免在dollar升破 100 / WTI 站回 98 dollar上方時加碼本幣債, 因為匯率防線會先吃掉 carry.",
+            "TWD 計價海外債 ETF 的操作應以 NAV 防守為主. 美債價格端受 10Y 4.45%-4.55% 區間牽動, 匯率端受 DXY 99.54 與yennear 160 的避險成本影響; 若美債yield只是在高位盤整, TWD 投資人看到的yield未必完整留存. 加碼條件應設在 10Y 低於 4.45% / WTI 低於 92 dollar / DXY 不再創高, 三者至少兩項成立.",
+            "若需要維持yield曝險, 較好的方式是用 barbell 降低單點政策風險: front end保留現金與短票的再投資彈性, belly用 5Y-10Y UST 或高評級dollar債承接yield, long end只用小比例做 convexity. 這樣可以在 Fed swaps 85% hike機率fell back時參與 bull flattening, 也能在非農強於 +85k / wages高於 +0.3% 時避免前端與belly部位過度受損.",
+            "風險預算上, 今天should not把U.S. equitiesfell back解讀成買債保證. S&P 500 -0.7% / Nasdaq -0.9% 仍不足以抵消oil與labor market數據; 若 Broadcom 或 AI 鏈進一步拖累科技股, 但 WTI 與 DXY 同步維持高位, 債券反而可能承受風險平價去槓桿. allocation上應把 equity drawdown / oil shock / Fed repricing 分開管理, 不用單一股債負相關假設.",
+            "對帳戶層級的風險控管, 建議把觸發條件寫成可執行的三段式. 第一段是 10Y 4.45% 下方才把 Duration 從中性調成偏多; 第二段是 WTI 92 dollar下方才放寬對前端政策溢價的警戒; 第三段是 DXY 不破 100 才讓 TWD NAV 有足夠緩衝. 若三段只成立一段, allocation維持防守; 若成立兩段以上, 才把現金轉入belly債與 IG ETF."
+          ]
+        },
+        {
+          "id": "watchlist",
+          "title": "V. Watch Items",
+          "takeaway": "交易觸發集中在非農 / oil / Fed 文字 / 10Y/30Y 關鍵位與credit發行品質.",
+          "paragraphs": [
+            "第一個 trigger 是周五非農與周四初領失業金. 若非農高於 +125k / 失業率低於 4.3% 或平均時薪高於 +0.3% m/m, Fed swaps 的hike尾端風險會更像主場景, 2Y 可能重新測試 4.15% 附近, 5Y 也會壓回 4.25% 上方; 若非農低於 +50k 且初領明顯上升, 10Y 才有條件跌破 4.45%.",
+            "第二個 trigger 是oil. WTI 若重新站上 98 dollar, 市場會把能源成本轉嫁與通膨二階效應放回 6 月 FOMC, 2s10s 可能再度收斂; 若 WTI 跌回 92 dollar以下且 Brent 回到 95 dollar下方, Fed officials關於oil的防守語言會減弱, 5Y-10Y 的 Duration 才有較乾淨的反彈空間.",
+            "第三個 trigger 是 10Y 4.45% / 4.55% 與 30Y 5.05%. 10Y 站穩 4.55% indicates服務業與labor market資料正在壓倒risk assets回檔, 應降低belly追價; 10Y 跌破 4.45% 且 30Y 沒有守在 5% 上方, 才表示 real-money 買盤重新控制curve. 30Y 若突破 5.05%, long end供給與 fiscal premium 會迫使 Curve 部位降槓桿.",
+            "第四個 trigger 是 6/16-17 FOMC 聲明文字與officials發言. 若聲明移除偏向cut的暗示 / 點陣圖或記者會保留hike條件, 前端會重新付保費; 若 Williams 類似的中性語言占上風且 Logan 的hike風險被淡化, 市場可把 85% hike機率視為過度定價. 此時 2Y 低於 4.00% 才能確認cut保費回來.",
+            "第五個 trigger 是credit一級市場品質. 若 IG / 金融與公用事業新券仍能縮窄定價, 而 HY 軟體 / private credit 相關借款人需要更高讓利, allocation應維持high-quality barbell; 若 Bahrain 類主權與 AI 相關融資同時需要明顯 concession, indicates高利率開始穿透一級市場, credit beta 要比 Duration 更早降風險.",
+            "第六個 trigger 是dollar與Asia政策. DXY 若突破 100 / USD/JPY 穩定高於 160, BOJ 與財務省的反應會影響 JGB / dollar避險成本與 TWD 海外債 ETF NAV; 若yen回到 158 下方且 DXY fell back, Asia投資人可重新評估dollar債未避險yield. 這個條件成立前, 海外債 ETF 加碼以分批和中天期為主.",
+            "第七個 trigger 是市場能否把risk assets下跌重新轉成債券safe-haven demand. 若 S&P 500 再跌但 10Y 仍守在 4.50% 附近, indicatesoil與 Fed 定價仍壓過避險買盤, Duration 不應追高; 若股市續弱 / WTI fell back且 DXY 失去上行動能, 才是較乾淨的 risk-off rates rally. 這個條件會決定 TWD 海外債 ETF 的加碼節奏.",
+            "第八個 trigger 是供給與auction尾端. 若後續 10Y 或 30Y auction出現明顯 tail, 且 bid-to-cover 低於近期均值, 市場會把 20Y 5.00% / 30Y 4.99% 解讀為仍不足以吸引長線資金, Curve 要防 long-end reset; 若auction需求穩 / oil moved lower, long end才可能重新成為 portfolio hedge."
+          ]
+        }
+      ]
+    }
+  }
 }

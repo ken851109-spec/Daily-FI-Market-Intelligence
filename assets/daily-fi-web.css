@@ -28,6 +28,9 @@ a { color: inherit; text-decoration: none; }
 .command-bar select, .command-bar input { width: 100%; min-height: 38px; border: 1px solid #d2dce5; background: #fff; color: var(--ink); padding: 8px 10px; border-radius: 4px; font: inherit; font-size: 13.5px; }
 .search-box { display: grid; grid-template-columns: minmax(0, 1fr); gap: 7px; }
 .search-box button { min-height: 38px; border: 1px solid #cfd9e3; background: var(--navy); color: #fff; padding: 8px 12px; border-radius: 4px; font: inherit; font-size: 12.75px; font-weight: 800; cursor: pointer; }
+.language-toggle { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.language-toggle button { min-height: 34px; border: 1px solid #d2dce5; background: #fafcfd; color: var(--navy); padding: 7px 9px; border-radius: 4px; font: inherit; font-size: 12.75px; font-weight: 800; cursor: pointer; }
+.language-toggle button.is-active { background: var(--navy); border-color: var(--navy); color: #fff; }
 .command-links { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; align-items: end; }
 .command-links a { display: inline-flex; min-height: 38px; align-items: center; justify-content: center; border: 1px solid #d2dce5; background: #fafcfd; color: var(--navy); padding: 8px 11px; border-radius: 4px; font-size: 12.75px; font-weight: 800; }
 .mobile-date-menu { display: none; position: relative; }
@@ -44,6 +47,8 @@ a { color: inherit; text-decoration: none; }
 .search-result strong { color: var(--ink); font-size: 13.5px; line-height: 1.46; }
 .search-hit { background: #fff0b8; color: var(--ink); padding: 0 2px; border-radius: 2px; }
 .report-layout { display: grid; grid-template-columns: clamp(200px, 15vw, 250px) minmax(0, 1fr); gap: clamp(16px, 1.4vw, 28px); align-items: start; }
+.language-panels { min-width: 0; }
+.report-lang[hidden] { display: none !important; }
 .dashboard-grid { display: grid; grid-template-columns: minmax(0, 1fr) clamp(300px, 24vw, 380px); gap: clamp(18px, 1.5vw, 28px); align-items: start; min-width: 0; }
 .main-column { min-width: 0; }
 .task-section { min-width: 0; scroll-margin-top: 18px; }
@@ -197,6 +202,8 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .command-bar select, .command-bar input { min-height: 32px; padding: 6px 8px; font-size: 12.75px; }
   .command-date { display: none; }
   .command-search { grid-column: 1; min-width: 0; }
+  .language-toggle { grid-column: 1 / -1; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
+  .language-toggle button { min-height: 28px; padding: 4px 7px; font-size: 11.75px; }
   .command-links { grid-column: 2; grid-template-columns: repeat(2, auto); align-self: stretch; gap: 6px; }
   .command-links a, .mobile-date-menu summary { min-height: 32px; padding: 6px 8px; font-size: 12.25px; min-width: 42px; }
   .desktop-history-link { display: none !important; }
