@@ -132,7 +132,7 @@
     }
     const sameLanguageFirst = (row) => row.lang === state.language ? 0 : 1;
     const matches = state.index
-      .filter((row) => row.haystack.includes(normalize(state.query)))
+      .filter((row) => row.lang === state.language && row.haystack.includes(normalize(state.query)))
       .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b))
       .slice(0, 24);
     resultsEl.hidden = false;
