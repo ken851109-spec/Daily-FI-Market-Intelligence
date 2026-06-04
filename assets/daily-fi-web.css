@@ -194,6 +194,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
 @media (max-width: 767px) {
   .page-shell { padding: 0 0 28px; }
   .report-layout { grid-template-columns: 1fr; }
+  .report-layout, .language-panels, .report-lang, .dashboard-grid, .main-column, .task-section, .block, .regime-strip, .task-nav, .task-nav-inner { width: 100%; min-width: 0; max-width: 100vw; }
   .task-nav { position: sticky; top: 0; z-index: 50; transition: transform .22s ease, box-shadow .22s ease; will-change: transform; }
   .task-nav.is-hidden { transform: translateY(calc(-100% - 8px)); }
   .task-nav-inner { border-left: 0; border-right: 0; border-radius: 0; padding: 6px 9px; }
@@ -234,6 +235,9 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   dt { font-size: 11.75px; }
   dd { font-size: 13px; line-height: 1.52; }
   th, td { font-size: 12.5px; padding: 7px 7px; }
+  .table-scroll { min-width: 0; max-width: 100%; }
+  .ust-heatmap { table-layout: fixed; min-width: 0; }
+  .ust-heatmap th, .ust-heatmap td { white-space: normal; overflow-wrap: anywhere; }
   .heatmap-group-row th { padding: 8px 9px; }
   .heatmap-group-row span { font-size: 11.75px; }
   .heatmap-group-row strong { font-size: 13px; }
