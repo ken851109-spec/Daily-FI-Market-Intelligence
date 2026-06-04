@@ -133,15 +133,16 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .right-rail { position: sticky; top: 16px; display: flex; flex-direction: column; gap: 14px; max-height: calc(100vh - 32px); overflow: auto; padding-bottom: 2px; }
 .rail-block { border: 1px solid var(--line); background: var(--surface); padding: 12px; border-radius: 6px; box-shadow: var(--shadow-soft); }
 .rail-block h2 { font-size: 16.5px; color: var(--navy); margin-bottom: 10px; }
-.trigger-grid, .event-grid { display: grid; gap: 8px; }
-.trigger-card, .event-card { padding: 10px; background: #fbfcfd; }
-.trigger-card span, .event-card span { color: var(--muted); font-size: 11.75px; font-weight: 800; }
-.trigger-card strong, .event-card strong { display: block; margin-top: 3px; color: var(--ink); font-size: 15.25px; line-height: 1.28; }
+.trigger-grid, .event-grid { display: grid; gap: 8px; align-items: start; }
+.trigger-card, .event-card { padding: 10px; background: #fbfcfd; display: grid; align-content: start; overflow: visible; }
+.trigger-card span, .event-card span { color: var(--muted); font-size: 11.75px; font-weight: 800; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: normal; }
+.trigger-card strong, .event-card strong { display: block; margin-top: 3px; color: var(--ink); font-size: 15.25px; line-height: 1.28; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: normal; }
+.trigger-card p, .event-card p { min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: normal; }
 .right-rail { gap: 10px; }
 .right-rail .rail-block { padding: 10px; }
 .right-rail .rail-block h2 { margin-bottom: 8px; }
 .right-rail .trigger-grid, .right-rail .event-grid { grid-template-columns: 1fr; gap: 8px; }
-.right-rail .trigger-card, .right-rail .event-card { padding: 10px; min-height: auto; }
+.right-rail .trigger-card, .right-rail .event-card { padding: 10px; min-height: 0; height: auto; }
 .right-rail .trigger-card span, .right-rail .event-card span { font-size: 11.75px; }
 .right-rail .trigger-card strong, .right-rail .event-card strong { font-size: 14.75px; line-height: 1.26; }
 .right-rail .trigger-card p, .right-rail .event-card p { margin-top: 6px; font-size: 13.2px; line-height: 1.48; }
@@ -169,7 +170,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .right-rail .rail-block { padding: 12px; }
   .right-rail .rail-block h2 { font-size: 18.5px; margin-bottom: 10px; }
   .right-rail .trigger-grid, .right-rail .event-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-  .right-rail .trigger-card, .right-rail .event-card { padding: 12px; min-height: 116px; }
+  .right-rail .trigger-card, .right-rail .event-card { padding: 12px; min-height: 0; height: auto; }
   .right-rail .trigger-card span, .right-rail .event-card span { font-size: 12.25px; }
   .right-rail .trigger-card strong, .right-rail .event-card strong { font-size: 16.25px; line-height: 1.28; }
   .right-rail .trigger-card p, .right-rail .event-card p { font-size: 13.75px; line-height: 1.5; }
