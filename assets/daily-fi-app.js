@@ -130,7 +130,11 @@
       clearHighlights();
       return;
     }
-    const matches = state.index.filter((row) => row.haystack.includes(normalize(state.query))).slice(0, 24);
+    const sameLanguageFirst = (row) => row.lang === state.language ? 0 : 1;
+    const matches = state.index
+      .filter((row) => row.haystack.includes(normalize(state.query)))
+      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b))
+      .slice(0, 24);
     resultsEl.hidden = false;
     if (!matches.length) {
       resultsEl.innerHTML = `<div class="search-empty">${state.language === "en" ? "No matching report passages" : "沒有找到符合的報告段落"}</div>`;
@@ -228,6 +232,8 @@
 
   const syncStaticTextForLanguage = () => {
     const lang = state.language;
+    const titleKey = lang === "en" ? "titleEn" : "titleZh";
+    if (rootEl.dataset[titleKey]) document.title = rootEl.dataset[titleKey];
     document.querySelectorAll("[data-text-zh][data-text-en]").forEach((el) => {
       el.textContent = el.dataset[lang === "en" ? "textEn" : "textZh"] || el.textContent;
     });
