@@ -25,11 +25,17 @@
   const normalize = (value) => String(value ?? "").toLocaleLowerCase();
   const slug = (value) => String(value || "section").replace(/[^a-zA-Z0-9_-]+/g, "-").replace(/^-|-$/g, "");
   const latestDate = () => state.manifest[0]?.date || "";
+  const localizedHref = (href, lang = state.language) => {
+    const base = String(href || "./");
+    if (lang !== "en") return base.replace(/[?&]lang=en\b/, "").replace(/\?$/, "");
+    if (base.includes("lang=en")) return base;
+    return `${base}${base.includes("?") ? "&" : "?"}lang=en`;
+  };
   const hrefForDate = (date, lang = state.language) => {
     const item = state.manifest.find((entry) => entry.date === date);
     if (!item) return siteRoot || "./";
     const base = date === latestDate() ? (siteRoot || "./") : siteRoot + item.path;
-    return lang === "en" ? `${base}?lang=en` : base;
+    return localizedHref(base, lang);
   };
   const debounce = (fn, wait = 140) => {
     let timer = 0;
@@ -127,11 +133,11 @@
     const matches = state.index.filter((row) => row.haystack.includes(normalize(state.query))).slice(0, 24);
     resultsEl.hidden = false;
     if (!matches.length) {
-      resultsEl.innerHTML = '<div class="search-empty">沒有找到符合的報告段落</div>';
+      resultsEl.innerHTML = `<div class="search-empty">${state.language === "en" ? "No matching report passages" : "沒有找到符合的報告段落"}</div>`;
       return;
     }
     resultsEl.innerHTML = [
-      `<div class="search-count">${matches.length} 個相關段落</div>`,
+      `<div class="search-count">${state.language === "en" ? `${matches.length} matching passages` : `${matches.length} 個相關段落`}</div>`,
       ...matches.map((row) => {
         const baseHref = hrefForDate(row.date, row.lang || "zh");
         const joiner = baseHref.includes("?") ? "&" : "?";
@@ -220,6 +226,20 @@
     });
   };
 
+  const syncStaticTextForLanguage = () => {
+    const lang = state.language;
+    document.querySelectorAll("[data-text-zh][data-text-en]").forEach((el) => {
+      el.textContent = el.dataset[lang === "en" ? "textEn" : "textZh"] || el.textContent;
+    });
+    document.querySelectorAll("[data-language-href]").forEach((el) => {
+      el.setAttribute("href", localizedHref(el.dataset.languageHref || el.getAttribute("href") || "./", lang));
+    });
+    document.querySelectorAll("[data-report-date]").forEach((el) => {
+      const href = hrefForDate(el.dataset.reportDate || "", lang);
+      if (href) el.setAttribute("href", href);
+    });
+  };
+
   const setLanguage = (lang, { updateUrl = true } = {}) => {
     state.language = lang === "en" ? "en" : "zh";
     rootEl.dataset.language = state.language;
@@ -233,6 +253,8 @@
     input.placeholder = state.language === "en" ? "Search JOLTS, WTI, 2s10s, AI..." : "搜尋 JOLTS、WTI、2s10s、AI...";
     localStorage.setItem("daily-fi-language", state.language);
     syncNavForLanguage();
+    syncStaticTextForLanguage();
+    if (state.query || input.value.trim()) renderResults(state.query || input.value.trim());
     if (updateUrl) syncQuery(state.query || input.value.trim());
     highlightPage(state.query || input.value.trim());
   };
@@ -294,6 +316,7 @@
       const manifest = await fetch(manifestUrl).then((response) => response.json());
       state.manifest = Array.isArray(manifest) ? manifest : [];
       hydrateDateSelect();
+      syncStaticTextForLanguage();
       const notes = await Promise.all(state.manifest.map(async (item) => {
         try {
           const note = await fetch(siteRoot + item.dataPath).then((response) => response.json());
