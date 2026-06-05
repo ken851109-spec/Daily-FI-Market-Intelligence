@@ -61,7 +61,7 @@
       "label": "FX / NAV",
       "view": "DXY 回落有利",
       "best_expression": "TWD 海外債 ETF 可小步分批。",
-      "risk_trigger": "DXY 上 100 或 USD/JPY 高於 160 暫停加碼。"
+      "risk_trigger": "DXY 上 100 提供 FX 助益；加碼仍看利率與利差是否抵銷。"
     },
     {
       "label": "加碼條件",
@@ -117,7 +117,7 @@
       {
         "label": "DXY",
         "value": "99 / 100",
-        "detail": "低於 99 有利 NAV；高於 100 壓亞洲 FX。"
+        "detail": "高於 100 提供 TWD NAV FX 助益；低於 99 則需更多依賴 UST rally。"
       }
     ],
     "event_risks": [
@@ -260,7 +260,7 @@
           "label": "DXY",
           "value": "99.22",
           "change": "-0.3%",
-          "note": "美元回落降低非美 Duration 與 FX NAV 壓力。"
+          "note": "美元回落會減少 TWD NAV 的匯率換算助益。非美 Duration 與亞洲政策壓力則同步降低。"
         },
         {
           "label": "WTI",
@@ -396,10 +396,10 @@
       "takeaway": "跨市驗證顯示央行分化、亞洲 FX 防守、信用供給與 AI funding 同時重塑風險定價。",
       "paragraphs": [
         "日本是全球央行分化的核心。實質薪資年增 1.9%、高於 1.7% 預期並連續第四個月為正，名目薪資 +3.5%、基本薪資 +3.4%，都支持 BOJ 6/15-16 升息 25bp 的討論；但 household spending 實質年減 0.5%，連五個月下降。這個組合讓 JGB 與日圓很難單向交易，因為 wage-price loop 變強，但家計需求仍限制 BOJ 追趕油價的速度。",
-        "日本政策還有財政與補貼層。政府準備 3.1 兆日圓追加預算，可能延長汽油與電力補貼；食品與飲料業者 6 月漲價產品超過 1,000 項，遠高於 5 月的 84 項。補貼可壓低 headline，但也延後相對價格調整，對 BOJ 而言反而增加判斷 underlying inflation 的難度；對美元債投資人而言，JPY 接近 160 仍是 FX / NAV 的核心風險。",
+        "日本政策還有財政與補貼層。政府準備 3.1 兆日圓追加預算，可能延長汽油與電力補貼；食品與飲料業者 6 月漲價產品超過 1,000 項，遠高於 5 月的 84 項。補貼可壓低 headline，但也延後相對價格調整，對 BOJ 而言反而增加判斷 underlying inflation 的難度；對美元債投資人而言，JPY 接近 160 代表 FX 換算助益、避險成本與利率報酬必須分開檢查。",
         "澳洲與紐西蘭提供另一種 Duration 訊號。RBA 現金利率已回到 4.35%，Bullock 表示升息正在透過住房市場發揮作用，Q1 GDP 只增 0.3%、4 月 household spending -1.1%、失業率升至四年半高點；紐西蘭 2031 債標售 bid-to-cover 達 6.22，為該券 2020 年以來最高。這些市場顯示，若成長放緩與供給削減同時出現，中段 Duration 仍能吸引真實需求。",
         "歐洲不是同步升息。Czech CPI 5 月 2.1%，低於 2.3% 預期且符合央行預測，服務價格 4.7% 仍高但降低立即升息壓力；Sweden CPIF ex-energy +0.5%，高於市場 0.3% 但低於 Riksbank 0.9% 預測，headline 1.5% 接近央行路徑。這代表歐洲 rates trade 會更依賴各國核心、服務與 FX，而不是只跟著 ECB 或油價走。",
-        "亞洲 FX 防守仍是區域資產的主線。韓元跌到 2009 年以來低點，印尼盾觸及紀錄低位，印度盧比在 95-96 區間、接近 97 的紀錄低點；韓國、印尼、菲律賓與印度都用口頭警告、干預或資本流入措施守匯率。這會讓本地債牛市被匯率風險打斷，也使美元走勢成為 TWD 海外債 ETF 的主要跨市風險。",
+        "亞洲匯率政策防線仍是區域資產的主線。韓元跌到 2009 年以來低點，印尼盾觸及紀錄低位，印度盧比在 95-96 區間、接近 97 的紀錄低點；韓國、印尼、菲律賓與印度都用口頭警告、干預或資本流入措施守匯率。這會讓本地債牛市被匯率風險打斷；對 TWD 海外債 ETF 而言，美元走強是 NAV 換算助益。避險成本與亞洲政策壓力則需另外拆分。",
         "信用一級市場仍能開啟，但需要清楚故事與保護。Schneider Electric 以 AI data-center power / cooling narrative 發行 8 億歐元可轉債，coupon 0.25%-0.75%、轉換溢價 35%-40%，並回購 6.5 億歐元 2030 年債；Coastal GasLink 準備 C$1bn 兩段式高評級債，短段約政府債 +100bp、長段 +115bp。這些例子支持 IG 與 infrastructure carry，但不代表所有 credit beta 都可追。",
         "AI funding 的供需兩面都在放大。Whale Rock 看好 Anthropic 使用者與 enterprise 市場，SpaceX 擬籌 750 億美元並可能以 1.77 兆美元估值上市；同時 DoubleLine 提醒 AI debt 最終幾乎一定會形成 bubble，去年以來相關高級、HY、loan 與其他 debt 銷售超過 3,700 億美元。對 FI 來說，AI 是盈利與 capex 支撐，也是長端供給與信用槓桿來源。",
         "特殊信用風險更分散。Nassau County tobacco settlement bonds 未付 3,600 萬美元 principal，成為 800 億美元 tobacco sector 的首例 default，因 2025 settlement distributions 年減 19%、美國成人吸菸率降至 9.9%；Sleep Number 可能準備 bankruptcy loan，2025 revenue 14 億美元、年減 16%，股價四個月跌約 90%。這些不是宏觀 beta，而是收入池收縮與資本結構壓力。",
@@ -416,7 +416,7 @@
         "Curve 部位偏好 mild steepening 的防守表達，而不是 aggressively long long-end。2s10s 42bp、5s30s 79bp，日內各轉陡 1bp，但周/月仍大幅收斂，代表政策風險尚未完全退場。若非農弱於 +50k 且薪資低於 +0.2%，可把 5Y-10Y bull steepener 放大；若非農高於 +125k，應把前端 relief 視為賣點。",
         "Credit / ETF 仍偏高品質收益。IG 一級市場達 1 兆美元且高評級 AI / infrastructure 名稱能清盤，支持 short/intermediate IG；但 tobacco default、Sleep Number bankruptcy risk、Reno de Medici 債券約 26c、software / private credit stress 都提醒 HY beta 不能用 index spread 一筆帶過。配置上保留 IG、金融、utility、data-center picks-and-shovels，避免弱零售與單一收入池結構。",
         "EM 配置可做 selective carry，但不應放大本幣匯率風險。South Africa 有 5% carry 回報與 372.9 億 rand 債券流入，Zambia 有 tender catalyst，Congo 受銅鈷與 AI infrastructure narrative 支撐；相對地 Chile fiscal slippage、Asia FX intervention 與印度盧比壓力仍會放大本地債波動。EM 硬通貨優先於未避險本幣，且要避開油價再上 98 美元的情境。",
-        "TWD 計價海外債 ETF 的加碼條件比昨日起更接近，但仍需確認。10Y 4.47% 已回到可分批區間，DXY 99.22 有助 NAV，但 USD/JPY 接近 160 與亞洲 FX 防守顯示匯率成本未完全釋放。若 DXY 跌破 99、WTI 低於 92、10Y 守在 4.45%-4.50%，可把加碼從觀察轉成執行；若 DXY 重新上 100，維持小步分批。",
+        "TWD 計價海外債 ETF 的加碼條件比昨日起更接近，但仍需確認。10Y 4.47% 已回到可分批區間，DXY 99.22 對 NAV 有換算助益；USD/JPY 接近 160 與亞洲匯率政策防線顯示避險成本未完全釋放。若 WTI 低於 92、10Y 守在 4.45%-4.50%，且利差穩定，可把加碼從觀察轉成執行；若 DXY 重新上 100，視為 FX 換算助益增強，但仍維持小步分批並檢查利率與利差是否抵銷。",
         "長端配置只適合用 convexity 小比例表達。若 30Y 上破 5.05%，MBS hedging、Treasury funding 與 AI debt crowding-out 會使 selloff 放大；若 30Y 跌破 4.90% 且 10Y 同步跌破 4.45%，才代表 real-money demand 重新接管。退休金或保險帳戶可以保留長端 convexity，但 total-return 帳戶應把主要風險放在 5Y-10Y。",
         "現金與短票仍有配置價值。Fed path 雖被 claims 降溫，但 Daly、Logan 與 Warsh 首次 FOMC 都要求保留 optionality；若周五 payrolls 是 Goldilocks，短端收益會慢慢被再投資壓力吃掉，若數據太強，短票反而提供保護。因此 barbell 仍合理：短端留流動性，中段收 rally，長端小比例做 hedge。"
       ]
@@ -429,7 +429,7 @@
         "第一個 trigger 是周五非農。若 payrolls 高於 +125k、失業率低於 4.3% 或 AHE 高於 +0.3% m/m，2Y 4.05% 的 relief 會很快消失，10Y 可能回測 4.55%；若 payrolls 低於 +50k、claims 四周均值續升，10Y 跌破 4.45% 的機率上升，5Y-10Y Duration 可以再加一段。",
         "第二個 trigger 是 WTI 92 / 98。WTI 低於 92 美元且外交進展延續，前端通膨溢價會繼續下降；WTI 重新站上 98 美元，Fed 對 energy pass-through 的防守會回來，2s10s 可能再收斂。這也是 TWD 海外債 ETF 加碼或暫緩的直接門檻。",
         "第三個 trigger 是 10Y 4.45% / 4.55% 與 30Y 5.05%。10Y 跌破 4.45% 且 30Y 不守在 5% 上方，代表 rally 已從前端傳到長端；10Y 上破 4.55% 或 30Y 上破 5.05%，則說明 payrolls、MBS hedge 或供給壓力重新主導，Duration 要降回中性。",
-        "第四個 trigger 是 DXY 99 / 100。DXY 低於 99，亞洲 FX 防守壓力會下降，TWD 計價海外債 NAV 更容易保留 UST rally；DXY 重新上 100，韓元、印尼盾、盧比與日圓都可能再承壓，未避險海外債與 EM 本幣債需同步降風險。",
+        "第四個 trigger 是 DXY 99 / 100。DXY 重新上 100，TWD 計價海外債 NAV 會得到 FX 換算助益，但韓元、印尼盾、盧比與日圓都可能再承壓，需同步檢查避險成本、亞洲政策反應與 EM 本幣債風險；DXY 低於 99 則 FX 助益減弱，海外債 ETF 更需要依賴 UST rally 與信用利差穩定。",
         "第五個 trigger 是 BOJ 6/15-16。若日本薪資資料促成 25bp hike 且 Ueda 提示 2026 還有加息空間，JGB 長端與避險成本會限制亞洲買美元債；若 BOJ 只小幅升息且強調 household spending 疲弱，日圓可能先反彈、JGB selloff 可控，對 USD Duration 反而是穩定因子。",
         "第六個 trigger 是信用供給品質。若 IG 新券仍能縮窄、Schneider 類 AI infrastructure paper 被快速吸收、Coastal GasLink 高評級 supply 順利，credit carry 可保留；若 tobacco、retail、software 或 private credit 相關壓力擴散到新券 concessions，Credit / ETF beta 要比 Duration 更早降風險。",
         "第七個 trigger 是 MBS convexity。若 10Y 接近 4.55% 時 MBS OAS 擴大、mortgage hedgers 增加 receiver-to-payer adjustment，selloff 可能被放大；若 10Y 回到 4.40%-4.45% 且 MBS 穩定，convexity flow 會反過來支撐 rally。這個 trigger 決定長端能否加入中段 relief。"
@@ -833,7 +833,7 @@
           "takeaway": "Central-bank divergence, Asian FX defense, credit supply and AI funding are all reshaping risk pricing.",
           "paragraphs": [
             "Japan is the center of global central-bank divergence. Real wages rose 1.9%, beating 1.7% expectations and marking a fourth positive month, while nominal wages rose 3.5% and base pay 3.4%. These numbers support a June 15-16 BOJ hike debate. But real household spending fell 0.5%, the fifth monthly decline, so JGBs and the yen are not a one-way trade: the wage-price loop is stronger, but household demand limits how aggressively the BOJ can chase oil.",
-            "Japanese policy also has a fiscal and subsidy layer. The government is preparing a JPY3.1tn extra budget and may extend gasoline and electricity subsidies. Food and beverage companies plan to raise prices on more than 1,000 products in June, versus 84 in May. Subsidies can restrain headline inflation while delaying relative-price adjustment, which complicates the BOJ's read of underlying inflation. For dollar-bond investors, USD/JPY near 160 remains the key FX/NAV risk.",
+            "Japanese policy also has a fiscal and subsidy layer. The government is preparing a JPY3.1tn extra budget and may extend gasoline and electricity subsidies. Food and beverage companies plan to raise prices on more than 1,000 products in June, versus 84 in May. Subsidies can restrain headline inflation while delaying relative-price adjustment, which complicates the BOJ's read of underlying inflation. For dollar-bond investors, USD/JPY near 160 means FX translation, hedge costs, and rates returns need to be separated.",
             "Australia and New Zealand offer a different duration signal. The RBA cash rate is back at 4.35%, Bullock said hikes are working through housing, Q1 GDP rose only 0.3%, April household spending fell 1.1%, and unemployment reached a four-and-a-half-year high. New Zealand's 2031 auction drew a 6.22 bid-to-cover, the highest since that bond was first sold in 2020. Where slower growth meets lower supply, belly duration can still attract real demand.",
             "Europe is not a synchronized hiking block. Czech CPI slowed to 2.1%, below the 2.3% estimate and in line with the central bank's forecast, while services inflation at 4.7% is still high but reduces imminent-hike pressure. Sweden's CPIF ex-energy rose 0.5%, above the 0.3% market estimate but below the Riksbank's 0.9% projection, with headline CPIF at 1.5%. European rates trades will depend on local core, services and FX stability, not simply on ECB or oil direction.",
             "Asian FX defense remains a regional asset theme. The won fell to its weakest level since 2009, the rupiah hit a record low, and the rupee traded around 95-96, near the 97 record level. Korea, Indonesia, the Philippines and India are using warnings, intervention or capital-inflow measures to defend exchange rates. That can interrupt local-bond rallies and makes dollar direction the main cross-market risk for TWD overseas-bond ETFs.",
@@ -853,7 +853,7 @@
             "Curve positions should favor a defensive mild-steepening expression, not an aggressive long-end long. The 2s10s at 42bp and 5s30s at 79bp each steepened 1bp on the day, but both remain materially flatter over the week and month. If payrolls are below +50k and wages below +0.2%, a 5Y-10Y bull steepener can be increased. If payrolls exceed +125k, treat front-end relief as a selling opportunity.",
             "Credit and ETF allocation should remain in high-quality carry. The IG primary market is at $1tn and high-grade AI/infrastructure names are clearing, which supports short and intermediate IG. But tobacco default, Sleep Number bankruptcy risk, Reno de Medici bonds near 26c, and software/private-credit stress show that HY beta cannot be bought from index spreads alone. Stay in IG, financials, utilities and data-center picks-and-shovels; avoid weak retail and single-revenue-pool structures.",
             "EM can be used for selective carry, but unhedged local FX risk should stay limited. South Africa has a 5% carry return and ZAR37.29bn of bond inflows, Zambia has a tender catalyst, and Congo has copper/cobalt and AI-infrastructure exposure. But Chile fiscal slippage, Asian FX intervention and rupee pressure can still amplify local debt volatility. Prefer EM hard currency over unhedged local debt, and avoid adding if oil returns above $98.",
-            "TWD overseas-bond ETF conditions are closer to actionable, but still need confirmation. The 10Y at 4.47% is back in a staged-entry zone and DXY at 99.22 helps NAV, but USD/JPY near 160 and Asian FX defense show hedge costs have not cleared. If DXY breaks below 99, WTI falls below 92, and 10Y holds 4.45%-4.50%, move from watch to execution. If DXY returns above 100, keep adds small and staged.",
+            "TWD overseas-bond ETF conditions are closer to actionable, but still need confirmation. The 10Y at 4.47% is back in a staged-entry zone and DXY at 99.22 helps NAV through FX translation, but USD/JPY near 160 and Asian FX defense show hedge costs have not cleared. If WTI falls below 92, 10Y holds 4.45%-4.50%, and spreads stay stable, move from watch to execution. If DXY returns above 100, treat FX translation as supportive but keep adds small and staged while checking whether rates and spreads offset the benefit.",
             "Long-end allocation should only be a small convexity expression. If the 30Y breaks above 5.05%, MBS hedging, Treasury funding and AI-debt crowding-out can amplify the selloff. If the 30Y falls below 4.90% while 10Y breaks below 4.45%, real-money demand is back in control. Pension and insurance books can retain long-end convexity, but total-return accounts should concentrate risk in the 5Y-10Y sector.",
             "Cash and bills still have value. Fed path risk cooled with claims, but Daly, Logan and Warsh's first FOMC all require optionality. If payrolls are Goldilocks, short-end income will gradually face reinvestment pressure; if payrolls are too strong, bills protect the book. A barbell remains reasonable: keep liquidity in the front end, harvest the belly rally, and use only a small long-end hedge."
           ]

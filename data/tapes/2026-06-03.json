@@ -35,7 +35,7 @@
     },
     {
       "label": "ETF Lens",
-      "value": "NAV 防守優先"
+      "value": "拆分 FX / 利率"
     }
   ],
   "positioning": [
@@ -61,7 +61,7 @@
       "label": "FX / NAV",
       "view": "美元支撐未退",
       "best_expression": "TWD 海外債 ETF 以分批與避險成本控管為主。",
-      "risk_trigger": "DXY 突破 100 或 USD/JPY 高於 160 時暫緩加碼。"
+      "risk_trigger": "DXY 突破 100 提供 FX 助益；加碼仍看利率與利差是否抵銷。"
     },
     {
       "label": "加碼條件",
@@ -260,7 +260,7 @@
           "label": "DXY",
           "value": "99.54",
           "change": "+0.4%",
-          "note": "美元受 Fed 重新定價支撐，對非美 Duration 與 FX NAV 形成壓力。"
+          "note": "美元受 Fed 重新定價支撐，對 TWD NAV 有匯率換算助益。非美 Duration 壓力則需另外拆分。"
         },
         {
           "label": "WTI",
@@ -405,7 +405,7 @@
         "private credit 與軟體貸款是風險端最需要區分的區域。部分軟體借款人面臨到期牆、AI 替代壓力與直接貸款人更挑剔的承作條件，老經濟中型企業反而被部分 distressed credit 投資人視為更可分析的收益來源。這個分化對債券 ETF 的含義是，投資級現金流與抵押品質仍可收收益，但 HY 軟體與槓桿貸款 beta 不宜只因指數利差尚穩就放大部位。",
         "EM 主權風險呈現油價、IMF 條款與本幣政策的三重差異。Zambia 債券約 81c，高於 78c 回購價，且超過 25% 的持有人群組足以影響回購條款；若 IMF 指標達成，票息可能自 0.5% 階梯升至 7.5%。Ghana CPI 5 月為 3.7%、低於 4.3% 預估，且外匯存底自 107 億美元升至 140 億美元，但食品與燃料仍會影響後續通膨。EM 硬通貨配置要看條款與商品收入，不宜只買高名目收益。",
         "波蘭、南非、印尼、斯里蘭卡與其他 EM 央行的升息或偏緊訊號，說明地緣與油價已讓新興市場優先保護通膨可信度。波蘭央行在政策利率 3.75% 附近暫停，市場卻已反映不少收緊風險；這類本地市場的政策溢價會透過美元、油價與避險資金影響 UST 需求。若 EM 為守匯率而提高實質利率，美元債的相對吸引力會提高，但本幣債的匯率風險也會同步放大。",
-        "FX 風險不只在日圓。Morgan Stanley 提醒 6 月 FOMC 可能衝擊低波動與共識 carry，EUR、JPY、AUD、NZD 都在風險清單；DXY 日升 0.4% 已先把美元 beta 拉回盤面。對亞洲投資人而言，美元走強短線保護 USD 資產報酬，但 TWD 計價海外債 ETF 的 NAV 仍會同時受到美債價格與匯率避險成本牽動。"
+        "FX 風險不只在日圓。Morgan Stanley 提醒 6 月 FOMC 可能衝擊低波動與共識 carry，EUR、JPY、AUD、NZD 都在風險清單；DXY 日升 0.4% 已先把美元 beta 拉回盤面。對亞洲投資人而言，美元走強短線保護 USD 資產報酬，也對 TWD 計價海外債 ETF 提供 NAV 換算助益，但實際報酬仍會同時受到美債價格與匯率避險成本牽動。"
       ]
     },
     {
@@ -417,10 +417,10 @@
         "Curve 上偏好 5Y-10Y 的相對價值，避免單純買 30Y。30Y 接近 4.99%、20Y 5.00%，看似收益吸引，但 5s30s 已收斂至 78bp、月內收斂 16bp，長端 term premium 未被完全壓下。若 30Y 站上 5.05% 且 10Y 未同步破 4.55%，才考慮分批增加長端；否則以 5Y-10Y 做主要 Duration 表達，降低 fiscal 與供給風險。",
         "信用配置維持 IG 與高品質金融、基建、能源效率相關收益，HY beta 暫不追。Alphabet 免稅能源融資與 Bahrain 7.125% 主權債顯示一級市場仍能承接清楚故事，但軟體 private credit、Zambia 條款與 EM 油價壓力提醒市場正在重估弱資產負債表。若 HY ETF 利差未給足油價與再融資風險，應把收益留在 IG、短中天期與有現金流抵押的結構。",
         "EM 與亞洲利率配置要把油價與美元放在同一個 trigger。印度銀行貸款 +16.2% 與主權殖利率 7.04% 說明本地資金成本正在上行；Ghana CPI 3.7% 低於預期則提供特定主權利多。配置上可以保留 EM 硬通貨小部位，但避免在美元升破 100、WTI 站回 98 美元上方時加碼本幣債，因為匯率防線會先吃掉 carry。",
-        "TWD 計價海外債 ETF 的操作應以 NAV 防守為主。美債價格端受 10Y 4.45%-4.55% 區間牽動，匯率端受 DXY 99.54 與日圓接近 160 的避險成本影響；若美債殖利率只是在高位盤整，TWD 投資人看到的收益未必完整留存。加碼條件應設在 10Y 低於 4.45%、WTI 低於 92 美元、DXY 不再創高，三者至少兩項成立。",
+        "TWD 計價海外債 ETF 的操作應先拆 FX 換算、利率與利差。美債價格端受 10Y 4.45%-4.55% 區間牽動，美元走強通常提供 TWD NAV 換算助益，但若美債殖利率仍在高位盤整，利率損失可能抵銷該助益。加碼條件應設在 10Y 低於 4.45%、WTI 低於 92 美元、且利差穩定，三者至少兩項成立。",
         "若需要維持收益曝險，較好的方式是用 barbell 降低單點政策風險：短端保留現金與短票的再投資彈性，中段用 5Y-10Y UST 或高評級美元債承接收益，長端只用小比例做 convexity。這樣可以在 Fed swaps 85% 升息機率回落時參與 bull flattening，也能在非農強於 +85k、薪資高於 +0.3% 時避免前端與中段部位過度受損。",
         "風險預算上，今天不宜把美股回落解讀成買債保證。S&P 500 -0.7%、Nasdaq -0.9% 仍不足以抵消油價與就業數據；若 Broadcom 或 AI 鏈進一步拖累科技股，但 WTI 與 DXY 同步維持高位，債券反而可能承受風險平價去槓桿。配置上應把 equity drawdown、oil shock、Fed repricing 分開管理，不用單一股債負相關假設。",
-        "對帳戶層級的風險控管，建議把觸發條件寫成可執行的三段式。第一段是 10Y 4.45% 下方才把 Duration 從中性調成偏多；第二段是 WTI 92 美元下方才放寬對前端政策溢價的警戒；第三段是 DXY 不破 100 才讓 TWD NAV 有足夠緩衝。若三段只成立一段，配置維持防守；若成立兩段以上，才把現金轉入中段債與 IG ETF。"
+        "對帳戶層級的風險控管，建議把觸發條件寫成可執行的三段式。第一段是 10Y 4.45% 下方才把 Duration 從中性調成偏多；第二段是 WTI 92 美元下方才放寬對前端政策溢價的警戒；第三段是 DXY 若突破 100，視為 TWD NAV 的 FX 換算助益增強；但必須確認利率與利差未抵銷。若三段只成立一段，配置維持防守；若成立兩段以上，才把現金轉入中段債與 IG ETF。"
       ]
     },
     {
@@ -433,7 +433,7 @@
         "第三個 trigger 是 10Y 4.45% / 4.55% 與 30Y 5.05%。10Y 站穩 4.55% 代表服務業與就業資料正在壓倒風險資產回檔，應降低中段追價；10Y 跌破 4.45% 且 30Y 沒有守在 5% 上方，才表示 real-money 買盤重新控制曲線。30Y 若突破 5.05%，長端供給與 fiscal premium 會迫使 Curve 部位降槓桿。",
         "第四個 trigger 是 6/16-17 FOMC 聲明文字與官員發言。若聲明移除偏向降息的暗示、點陣圖或記者會保留升息條件，前端會重新付保費；若 Williams 類似的中性語言占上風且 Logan 的升息風險被淡化，市場可把 85% 升息機率視為過度定價。此時 2Y 低於 4.00% 才能確認降息保費回來。",
         "第五個 trigger 是信用一級市場品質。若 IG、金融與公用事業新券仍能縮窄定價，而 HY 軟體、private credit 相關借款人需要更高讓利，配置應維持高品質 barbell；若 Bahrain 類主權與 AI 相關融資同時需要明顯 concession，代表高利率開始穿透一級市場，信用 beta 要比 Duration 更早降風險。",
-        "第六個 trigger 是美元與亞洲政策。DXY 若突破 100、USD/JPY 穩定高於 160，BOJ 與財務省的反應會影響 JGB、美元避險成本與 TWD 海外債 ETF NAV；若日圓回到 158 下方且 DXY 回落，亞洲投資人可重新評估美元債未避險收益。這個條件成立前，海外債 ETF 加碼以分批和中天期為主。",
+        "第六個 trigger 是美元與亞洲政策。DXY 若突破 100、USD/JPY 穩定高於 160，TWD 海外債 ETF 會有 FX 換算助益，但 BOJ 與財務省的反應仍會影響 JGB、美元避險成本與利率報酬；若日圓回到 158 下方且 DXY 回落，亞洲投資人需重新評估未避險美元債的 FX 助益是否減弱。這個條件成立前，海外債 ETF 加碼以分批和中天期為主。",
         "第七個 trigger 是市場能否把風險資產下跌重新轉成債券避險需求。若 S&P 500 再跌但 10Y 仍守在 4.50% 附近，代表油價與 Fed 定價仍壓過避險買盤，Duration 不應追高；若股市續弱、WTI 回落且 DXY 失去上行動能，才是較乾淨的 risk-off rates rally。這個條件會決定 TWD 海外債 ETF 的加碼節奏。",
         "第八個 trigger 是供給與標售尾端。若後續 10Y 或 30Y 標售出現明顯 tail，且 bid-to-cover 低於近期均值，市場會把 20Y 5.00%、30Y 4.99% 解讀為仍不足以吸引長線資金，Curve 要防 long-end reset；若標售需求穩、油價回落，長端才可能重新成為 portfolio hedge。"
       ]
@@ -501,7 +501,7 @@
           "label": "FX / NAV",
           "view": "Dollar support has not faded",
           "best_expression": "For TWD overseas bond ETFs, focus on scaling and hedging-cost control.",
-          "risk_trigger": "Pause additions if DXY breaks above 100 or USD/JPY rises above 160."
+          "risk_trigger": "A DXY break above 100 supports TWD NAV translation; add only if rates and spreads do not offset the FX benefit."
         },
         {
           "label": "Add conditions",
@@ -567,7 +567,7 @@
             "label": "DXY",
             "value": "100",
             "change": null,
-            "detail": "A break higher would raise NAV risk for TWD overseas bond ETFs.",
+            "detail": "A break higher is FX-translation positive for TWD overseas bond ETFs; confirm rates and spreads do not offset it.",
             "note": null,
             "caption": null
           }
@@ -994,7 +994,7 @@
             "Private credit and software loans are the areas of the risk complex that require the most differentiation. Some software borrowers face maturity walls, AI substitution pressure, and more selective underwriting standards from direct lenders, while parts of the old-economy middle market are being viewed by some distressed credit investors as more analyzable sources of yield. For bond ETFs, the implication is that investment-grade cash flows and collateral quality can still harvest yield, but HY software and leveraged-loan beta should not be scaled up simply because index spreads remain stable.",
             "EM sovereign risk shows a three-way divergence across oil prices, IMF terms, and local policy. Zambia bonds are around 81c, above the 78c buyback price, and a holder group with more than 25% is enough to influence buyback terms. If IMF metrics are met, coupons could step up from 0.5% to 7.5%. Ghana CPI was 3.7% in May, below the 4.3% estimate, and FX reserves rose from $10.7bn to $14.0bn, but food and fuel will still affect future inflation. EM hard-currency allocation should focus on terms and commodity revenues, rather than simply buying high nominal yield.",
             "Hike or hawkish signals from Poland, South Africa, Indonesia, Sri Lanka, and other EM central banks show that geopolitics and oil prices have pushed emerging markets to prioritize protection of inflation credibility. Poland’s central bank paused with the policy rate near 3.75%, but the market has already reflected considerable tightening risk. This type of local-market policy premium affects UST demand through the dollar, oil, and risk capital. If EM raises real rates to defend currencies, the relative appeal of USD bonds rises, but FX risk in local-currency bonds increases at the same time.",
-            "FX risk is not only about the yen. Morgan Stanley warned that the June FOMC could disrupt low-volatility and consensus carry trades, with EUR, JPY, AUD, and NZD all on the risk list. DXY’s 0.4% daily rise has already brought dollar beta back onto the tape. For Asian investors, a stronger dollar protects USD-asset returns in the short term, but NAV for TWD-denominated overseas bond ETFs will still be driven simultaneously by UST prices and FX hedging costs."
+            "FX risk is not only about the yen. Morgan Stanley warned that the June FOMC could disrupt low-volatility and consensus carry trades, with EUR, JPY, AUD, and NZD all on the risk list. DXY’s 0.4% daily rise has already brought dollar beta back onto the tape. For Asian investors, a stronger dollar protects USD-asset returns in the short term and supports TWD-denominated overseas bond ETF NAV via translation, but actual returns will still be driven simultaneously by UST prices and FX hedging costs."
           ]
         },
         {
@@ -1009,7 +1009,7 @@
             "For TWD-denominated overseas bond ETFs, NAV defense should lead the operation. The UST price side is driven by the 10Y 4.45%-4.55% range, while the FX side is affected by DXY at 99.54 and hedging costs with the yen near 160. If UST yields are merely consolidating at elevated levels, the income seen by TWD investors may not be fully retained. Conditions for adding should be set at 10Y below 4.45%, WTI below $92, and DXY no longer making new highs, with at least two of the three satisfied.",
             "If yield exposure must be maintained, the better approach is to use a barbell to reduce single-point policy risk: keep cash and short bills at the front end for reinvestment flexibility, use 5Y-10Y USTs or high-grade USD bonds in the belly to harvest yield, and use only a small allocation to the long end for convexity. This allows participation in bull flattening if the 85% hike probability in Fed swaps falls back, while avoiding excessive damage in front-end and belly positions if nonfarm payrolls beat +85k and wages exceed +0.3%.",
             "In risk budgeting, today’s equity decline should not be read as a guaranteed bond-buying signal. S&P 500 -0.7% and Nasdaq -0.9% were still not enough to offset oil and employment data. If Broadcom or the AI chain further weighs on technology shares while WTI and DXY remain elevated together, bonds may instead face risk-parity deleveraging. Allocation should manage equity drawdown, oil shock, and Fed repricing separately, without relying on a single negative stock-bond correlation assumption.",
-            "At the account level, risk controls should be written as an executable three-stage framework. The first stage is to move Duration from neutral to overweight only below 4.45% in 10Y; the second is to relax caution on front-end policy premium only below $92 in WTI; and the third is to allow enough buffer for TWD NAV only if DXY does not break 100. If only one of the three stages is met, keep allocations defensive. If two or more are met, then rotate cash into belly bonds and IG ETFs."
+            "At the account level, risk controls should be written as an executable three-stage framework. The first stage is to move Duration from neutral to overweight only below 4.45% in 10Y; the second is to relax caution on front-end policy premium only below $92 in WTI; and the third is to treat a DXY break above 100 as stronger FX support for TWD NAV while confirming rates and spreads do not offset it. If only one of the three stages is met, keep allocations defensive. If two or more are met, then rotate cash into belly bonds and IG ETFs."
           ]
         },
         {
@@ -1022,7 +1022,7 @@
             "The third trigger is 10Y 4.45% / 4.55% and 30Y 5.05%. If 10Y holds above 4.55%, services and employment data are overpowering the risk-asset pullback, and investors should reduce chasing in the belly. Only if 10Y breaks below 4.45% and 30Y does not stay above 5% would it indicate real-money demand has regained control of the curve. If 30Y breaks above 5.05%, long-end supply and fiscal premium will force curve positions to reduce leverage.",
             "The fourth trigger is the 6/16-17 FOMC statement language and official commentary. If the statement removes rate-cut-leaning hints, or the dot plot or press conference retains hike conditions, the front end will reprice premium. If neutral language similar to Williams dominates and Logan’s hike risk is downplayed, the market can treat the 85% hike probability as overpricing. At that point, 2Y below 4.00% would be needed to confirm that rate-cut premium has returned.",
             "The fifth trigger is credit primary-market quality. If IG, financials, and utilities new issues can still price tighter while HY software and private-credit-related borrowers require larger concessions, allocation should maintain a high-quality barbell. If Bahrain-like sovereigns and AI-related financing both require meaningful concession, that would mean high rates are starting to penetrate the primary market, and credit beta should be de-risked earlier than Duration.",
-            "The sixth trigger is the dollar and Asian policy. If DXY breaks above 100 and USD/JPY stabilizes above 160, the BOJ and Ministry of Finance response will affect JGBs, USD hedging costs, and TWD overseas bond ETF NAV. If the yen returns below 158 and DXY retreats, Asian investors can reassess unhedged USD bond income. Before that condition holds, additions to overseas bond ETFs should be phased and concentrated in intermediate maturities.",
+            "The sixth trigger is the dollar and Asian policy. If DXY breaks above 100 and USD/JPY stabilizes above 160, TWD overseas bond ETFs get FX translation support, but the BOJ and Ministry of Finance response will still affect JGBs, USD hedging costs, and rates returns. If the yen returns below 158 and DXY retreats, Asian investors should reassess whether the FX benefit to unhedged USD bond income is fading. Before that condition holds, additions to overseas bond ETFs should be phased and concentrated in intermediate maturities.",
             "The seventh trigger is whether the market can convert risk-asset weakness back into bond haven demand. If the S&P 500 falls further but 10Y still holds near 4.50%, oil and Fed pricing are still overpowering haven demand, and investors should not chase Duration. If equities weaken further, WTI retreats, and DXY loses upward momentum, that would be a cleaner risk-off rates rally. This condition will determine the pace of adding to TWD overseas bond ETFs.",
             "The eighth trigger is supply and auction tails. If upcoming 10Y or 30Y auctions show a clear tail and bid-to-cover falls below recent averages, the market will read 20Y at 5.00% and 30Y at 4.99% as still insufficient to attract long-term capital, and the curve needs to guard against a long-end reset. If auction demand is stable and oil falls, the long end can become a portfolio hedge again."
           ]
