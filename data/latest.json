@@ -6,7 +6,7 @@
     "UST 走出 front-end / belly relief：2Y 4.05%、10Y 4.47%、30Y 4.97%，2s10s 小幅轉陡至 42bp，5s30s 至 79bp。",
     "Jobless claims 升至 225k、高於 211k 預期，油價回落近 3%，使前端升息溢價降溫，但 Fed 官員仍保留雙向反應。",
     "S&P 500 +0.4%、Dow +1.7% 創高、Nasdaq -0.1%，Broadcom 牽動 AI rotation，市場不是全面 risk-off，而是 leadership broadening。",
-    "配置上以 5Y-10Y 中段逐步回補、長端不追；Credit 偏 IG 與結構清楚收益，TWD 海外債 ETF 等待 DXY 低於 99 與 WTI 低於 92 的確認。"
+    "配置上以 5Y-10Y 中段逐步回補、長端不追；Credit 偏 IG 與結構清楚收益，TWD 海外債 ETF 把美元支撐視為 FX 助益，等待 WTI 低於 92 與利率 / 利差確認。"
   ],
   "headline": {
     "primary": "Claims 與油價讓前端降溫，長端 premium 仍黏著",
@@ -59,14 +59,14 @@
     },
     {
       "label": "FX / NAV",
-      "view": "DXY 回落有利",
+      "view": "美元支撐提供換算助益",
       "best_expression": "TWD 海外債 ETF 可小步分批。",
       "risk_trigger": "DXY 上 100 提供 FX 助益；加碼仍看利率與利差是否抵銷。"
     },
     {
       "label": "加碼條件",
       "view": "需要兩項確認",
-      "best_expression": "10Y 4.45-4.50、WTI 低於 92、DXY 低於 99。",
+      "best_expression": "10Y 4.45-4.50、WTI 低於 92、利差穩定；美元支撐是 FX 助益但不是單一加碼條件。",
       "risk_trigger": "WTI 上 98 會恢復前端通膨壓力。"
     }
   ],
@@ -443,7 +443,7 @@
         "USTs delivered front-end and belly relief: 2Y at 4.05%, 10Y at 4.47%, 30Y at 4.97%, with 2s10s mildly steeper at 42bp and 5s30s at 79bp.",
         "Initial claims rose to 225k versus 211k expected and oil fell nearly 3%, cooling front-end hike premium while Fed officials kept two-way optionality alive.",
         "The S&P 500 gained 0.4%, the Dow rose 1.7% to a record, and the Nasdaq slipped 0.1%; Broadcom drove AI rotation, but the tape was leadership broadening rather than outright risk-off.",
-        "Allocation favors staged 5Y-10Y rebuilding, not chasing the long end; credit stays in IG and protected carry, while TWD overseas-bond ETFs wait for DXY below 99 and WTI below 92."
+        "Allocation favors staged 5Y-10Y rebuilding, not chasing the long end; credit stays in IG and protected carry, while TWD overseas-bond ETFs treat USD strength as FX-translation support and wait for rates/spreads confirmation, with WTI below 92 as an add trigger."
       ],
       "headline": {
         "primary": "Claims and lower oil cool the front-end, but long-end premium stays sticky",
@@ -496,14 +496,14 @@
         },
         {
           "label": "FX / NAV",
-          "view": "DXY easing helps",
+          "view": "USD support aids translation",
           "best_expression": "TWD overseas-bond ETF adds can be staged.",
-          "risk_trigger": "DXY above 100 or USD/JPY above 160 pauses additions."
+          "risk_trigger": "DXY above 100 supports FX translation; add only if rates and spreads do not offset it."
         },
         {
           "label": "Add Condition",
           "view": "Need two confirmations",
-          "best_expression": "10Y 4.45-4.50, WTI below 92, DXY below 99.",
+          "best_expression": "10Y 4.45-4.50, WTI below 92, spreads stable; USD strength is FX support, not a standalone add trigger.",
           "risk_trigger": "WTI above 98 revives front-end inflation pressure."
         }
       ],
@@ -554,7 +554,7 @@
           {
             "label": "DXY",
             "value": "99 / 100",
-            "detail": "Below 99 helps NAV; above 100 pressures Asian FX."
+            "detail": "Above 100 supports TWD NAV translation; below 99 reduces the FX cushion."
           }
         ],
         "event_risks": [
@@ -866,7 +866,7 @@
             "The first trigger is Friday payrolls. If payrolls exceed +125k, unemployment falls below 4.3% or AHE exceeds +0.3% m/m, the 2Y relief around 4.05% can disappear quickly and 10Y can retest 4.55%. If payrolls are below +50k and the claims average keeps rising, the odds of a 10Y break below 4.45% increase and 5Y-10Y duration can be added again.",
             "The second trigger is WTI at 92/98. WTI below $92 with continued diplomacy would further reduce front-end inflation premium. WTI back above $98 would revive Fed caution on energy pass-through and could flatten 2s10s again. This is also a direct add-or-pause threshold for TWD overseas-bond ETFs.",
             "The third trigger is 10Y at 4.45%/4.55% and 30Y at 5.05%. A 10Y break below 4.45% while the 30Y does not stay above 5% would show the rally moving from the front end into the long end. A 10Y break above 4.55% or a 30Y break above 5.05% would mean payrolls, MBS hedging or supply pressure is back in control, and duration should be cut to neutral.",
-            "The fourth trigger is DXY at 99/100. DXY below 99 reduces Asian FX-defense pressure and allows TWD portfolios to retain more of the UST rally. DXY back above 100 would pressure the won, rupiah, rupee and yen again, requiring risk reduction in unhedged overseas bonds and EM local debt.",
+            "The fourth trigger is DXY at 99/100. DXY below 99 reduces Asian FX-defense pressure but also reduces the FX translation cushion for TWD NAV. DXY back above 100 supports TWD NAV translation, while still requiring checks on hedge costs, rates, spreads, and EM local-debt risk.",
             "The fifth trigger is the June 15-16 BOJ meeting. If wage data lead to a 25bp hike and Ueda signals more 2026 tightening space, JGB long-end yields and hedge costs will limit Asian demand for dollar bonds. If the BOJ hikes only modestly and emphasizes weak household spending, yen relief may arrive while the JGB selloff stays contained, which would stabilize USD duration.",
             "The sixth trigger is credit supply quality. If IG deals still tighten, Schneider-like AI infrastructure paper is absorbed quickly, and Coastal GasLink high-grade supply clears well, credit carry can stay on. If tobacco, retail, software or private-credit stress spreads into new-issue concessions, Credit / ETF beta should be cut before duration risk.",
             "The seventh trigger is MBS convexity. If 10Y approaches 4.55%, MBS OAS widens and mortgage hedgers increase payer adjustments, the selloff can be amplified. If 10Y returns to 4.40%-4.45% and MBS stabilizes, convexity flows can instead support the rally. This trigger determines whether the long end can join belly relief."
