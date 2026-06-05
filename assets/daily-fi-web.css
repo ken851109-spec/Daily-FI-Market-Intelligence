@@ -65,7 +65,7 @@ a { color: inherit; text-decoration: none; }
 .task-chips a { flex: 0 0 auto; border: 1px solid var(--line); background: #fff; color: var(--navy); padding: 8px 10px; font-size: 12.25px; font-weight: 800; border-radius: 4px; }
 .site-header { background: #10283d; color: #fff; padding: 28px 30px; border-top: 4px solid var(--orange); display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; align-items: start; box-shadow: var(--shadow-soft); }
 .eyebrow, .section-head p, .card-kicker, .chip-label { margin: 0; color: var(--orange); font-size: 12.25px; line-height: 1.3; font-weight: 800; text-transform: uppercase; }
-h1 { margin: 7px 0 0; font-size: 34px; line-height: 1.12; letter-spacing: 0; text-wrap: balance; }
+h1 { margin: 7px 0 0; font-size: clamp(28px, 2.25vw, 32px); line-height: 1.12; letter-spacing: 0; text-wrap: balance; }
 h1 .title-main, h1 .title-date { display: inline; }
 h1 .title-separator { display: inline-block; margin: 0 .28em; }
 h2 { margin: 0; color: var(--ink); font-size: 23px; line-height: 1.24; letter-spacing: 0; }
@@ -81,10 +81,11 @@ h3 { margin: 0; color: var(--ink); font-size: 17.5px; line-height: 1.32; letter-
 .chip-meta { display: inline-block; margin-top: 7px; padding: 4px 7px; border: 1px solid var(--line); background: #ebf1f6; color: var(--text); font-size: 12px; font-weight: 800; }
 .position-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 10px; padding: 12px; background: #f2f6f9; align-items: stretch; }
 .thesis-map { background: #fbfcfd; }
-.thesis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 1px; padding: 1px; background: var(--line); }
+.thesis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 10px; padding: 12px; background: #f2f6f9; }
 .position-card, .driver-card, .asset-card, .asia-card, .analysis-card, .trigger-card, .event-card, .thesis-card { border: 1px solid #e1e8ef; background: #fff; padding: 14px; min-width: 0; border-radius: 4px; box-shadow: 0 1px 0 rgba(17,41,61,.022); }
-.thesis-card { border: 0; border-radius: 0; padding: 0; box-shadow: none; }
+.thesis-card { padding: 0; box-shadow: none; }
 .thesis-card a { display: flex; flex-direction: column; height: 100%; min-height: 112px; padding: 13px 14px; color: inherit; background: #fff; }
+.thesis-card:first-child { border-left: 4px solid var(--navy-2); }
 .thesis-card a:hover { background: #f7fafc; }
 .thesis-card h3 { margin-top: 6px; color: var(--ink); font-size: 16px; line-height: 1.42; }
 .position-card { border-top: 3px solid var(--orange); display: grid; align-content: start; }
@@ -129,8 +130,9 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .move-value { text-align: right; font-size: 12.75px; font-weight: 800; }
 .move-value.positive { color: var(--red); }
 .move-value.negative { color: var(--green); }
-.driver-grid, .asset-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 10px; padding: 12px; background: var(--surface-evidence); }
-.driver-card { border-left: 4px solid var(--navy-2); }
+.driver-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 10px; padding: 12px; background: var(--surface-evidence); }
+.asset-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 10px; padding: 12px; background: var(--surface-evidence); }
+.driver-card { border-left: 3px solid var(--navy-2); }
 .driver-card p, .asset-card p, .asia-card p, .event-card p, .trigger-card p { margin: 8px 0 0; font-size: 14.5px; line-height: 1.58; }
 .driver-card span, .fi-read span, .asset-move span { display: block; color: var(--muted); font-size: 12.25px; font-weight: 800; }
 .asset-level { color: var(--ink); font-size: 17.5px !important; font-weight: 800; }
@@ -199,6 +201,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .section-nav a strong { font-size: 13px; }
   .section-nav a span { display: none; }
   .dashboard-grid { grid-template-columns: 1fr; }
+  .task-section { scroll-margin-top: 172px; }
   .right-rail { display: none; }
   .mobile-monitor { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 }
@@ -219,14 +222,14 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .task-nav { position: sticky; top: 0; z-index: 50; transition: transform .22s ease, box-shadow .22s ease; will-change: transform; }
   .task-nav.is-hidden { transform: translateY(calc(-100% - 8px)); }
   .task-nav-inner { border-left: 0; border-right: 0; border-radius: 0; padding: 6px 9px; }
-  .command-bar { grid-template-columns: minmax(0, 1fr) auto auto; gap: 6px; padding-bottom: 6px; align-items: stretch; }
+  .command-bar { grid-template-columns: minmax(0, 1fr) 124px 60px; gap: 6px; padding-bottom: 6px; align-items: stretch; }
   .command-group label { display: none; }
   .command-bar select, .command-bar input { min-height: 36px; padding: 7px 8px; font-size: 12.75px; }
   .command-date { display: none; }
-  .command-search { grid-column: 1; min-width: 0; align-self: stretch; }
-  .language-toggle { grid-column: 3; grid-template-columns: repeat(2, auto); align-self: stretch; gap: 4px; }
-  .language-toggle button { min-width: 34px; min-height: 36px; padding: 5px 7px; font-size: 11.75px; }
-  .command-links { grid-column: 2; grid-template-columns: repeat(2, auto); align-self: stretch; gap: 6px; }
+  .command-search { grid-column: 1; grid-row: 1; min-width: 0; align-self: stretch; }
+  .language-toggle { grid-column: 3; grid-row: 1; grid-template-columns: repeat(2, minmax(0, 1fr)); align-self: stretch; gap: 4px; }
+  .language-toggle button { min-width: 0; min-height: 36px; padding: 5px 6px; font-size: 11.5px; }
+  .command-links { grid-column: 2; grid-row: 1; grid-template-columns: repeat(2, minmax(0, 1fr)); align-self: stretch; gap: 6px; }
   .command-links a, .mobile-date-menu summary { min-height: 36px; padding: 7px 8px; font-size: 12.25px; min-width: 44px; }
   .desktop-history-link { display: none !important; }
   .mobile-date-menu { display: block; }
@@ -242,7 +245,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .section-nav a span { display: none; }
   .search-results { grid-column: 1 / -1; max-height: 240px; }
   .site-header { padding: 22px 18px; }
-  h1 { font-size: 26px; }
+  h1 { font-size: 24px; }
   h1 .title-main, h1 .title-date { display: block; }
   h1 .title-separator { display: none; }
   h2 { font-size: 20.5px; }
@@ -250,11 +253,16 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .eyebrow, .section-head p, .card-kicker, .chip-label { font-size: 11.75px; }
   .headline-primary { font-size: 16px; }
   .regime-strip, .position-grid, .driver-grid, .asset-grid, .mobile-monitor { grid-template-columns: 1fr; }
+  .task-section { scroll-margin-top: 156px; }
   .block, .regime-strip, .mobile-monitor { margin-top: 10px; border-left: 0; border-right: 0; }
+  .regime-strip { gap: 8px; padding: 8px; background: var(--surface-soft); }
+  .regime-chip { border: 1px solid var(--line); border-radius: 4px; background: #fff; padding: 10px 12px; }
+  .thesis-grid { gap: 8px; padding: 10px; }
+  .thesis-card a { min-height: 0; padding: 12px; }
   .position-card, .driver-card, .asset-card, .asia-card, .analysis-card, .trigger-card, .event-card { padding: 12px; }
-  dl { grid-template-columns: 92px minmax(0, 1fr); gap: 7px 10px; }
+  dl { grid-template-columns: 1fr; gap: 4px; }
   dt { font-size: 11.75px; }
-  dd { font-size: 13px; line-height: 1.52; }
+  dd { font-size: 13.25px; line-height: 1.52; }
   th, td { font-size: 12.5px; padding: 8px 7px; }
   .table-scroll { min-width: 0; max-width: 100%; }
   .ust-heatmap { table-layout: fixed; min-width: 0; }
