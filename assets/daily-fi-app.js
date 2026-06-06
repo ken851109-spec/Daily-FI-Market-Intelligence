@@ -18,11 +18,12 @@
 
   const siteRoot = rootEl.dataset.siteRoot || "";
   const currentDate = rootEl.dataset.currentDate || dateSelect.dataset.currentDate || "";
-  const manifestUrl = siteRoot + "tapes.json";
-  const paramsAtLoad = new URLSearchParams(location.search);
-  const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
-  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh", searchExpanded: false, resultsCollapsed: false };
-  const escapeHtml = (value) => String(value ?? "")
+	  const manifestUrl = siteRoot + "tapes.json";
+	  const paramsAtLoad = new URLSearchParams(location.search);
+	  const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
+	  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh", searchExpanded: false, resultsCollapsed: false };
+	  const MIN_SEARCH_CHARS = 2;
+	  const escapeHtml = (value) => String(value ?? "")
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   const normalize = (value) => String(value ?? "").toLocaleLowerCase();
@@ -237,7 +238,7 @@
     state.index = rows.map((row) => ({ ...row, haystack: normalize(`${row.date} ${row.lang} ${row.title} ${row.text}`) }));
   };
 
-  const excerpt = (text, query) => {
+	  const excerpt = (text, query) => {
     const source = String(text || "").replace(/\s+/g, " ").trim();
     const idx = normalize(source).indexOf(normalize(query));
     if (idx < 0) return source.slice(0, 120);
@@ -246,15 +247,26 @@
     const prefix = start > 0 ? "..." : "";
     const suffix = end < source.length ? "..." : "";
     return prefix + source.slice(start, end) + suffix;
-  };
+	  };
+	  const effectiveSearchQuery = (value) => {
+	    const query = String(value || "").trim();
+	    return query.length >= MIN_SEARCH_CHARS ? query : "";
+	  };
+	  const updateSearchUiState = (value) => {
+	    const rawQuery = String(value || "").trim();
+	    const effectiveQuery = effectiveSearchQuery(rawQuery);
+	    bar.dataset.searchActive = rawQuery ? "true" : "false";
+	    bar.dataset.searchResultsActive = effectiveQuery ? "true" : "false";
+	    if (clearButton) clearButton.hidden = !rawQuery;
+	  };
 
-  const renderResults = (query) => {
-    state.query = query.trim();
-    resultsEl.classList.remove("is-collapsed");
-    if (!state.query) {
-      resultsEl.hidden = true;
-      resultsEl.innerHTML = "";
-      clearHighlights();
+	  const renderResults = (query) => {
+	    state.query = query.trim();
+	    resultsEl.classList.remove("is-collapsed");
+	    if (!effectiveSearchQuery(state.query)) {
+	      resultsEl.hidden = true;
+	      resultsEl.innerHTML = "";
+	      clearHighlights();
       return;
     }
     const sameLanguageFirst = (row) => row.lang === state.language ? 0 : 1;
@@ -534,26 +546,28 @@
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", active ? "true" : "false");
     });
-    input.placeholder = state.language === "en" ? "Search JOLTS, WTI, 2s10s, AI..." : "搜尋 JOLTS、WTI、2s10s、AI...";
+	    input.placeholder = state.language === "en" ? "Search keywords" : "搜尋關鍵字";
     localStorage.setItem("daily-fi-language", state.language);
     syncNavForLanguage();
     syncStaticTextForLanguage();
     if (state.manifest.length) hydrateDateSelect();
-    if (state.query || input.value.trim()) renderResults(state.query || input.value.trim());
-    if (updateUrl) syncQuery(state.query || input.value.trim());
-    normalizeLocationHashForLanguage();
-    highlightPage(state.query || input.value.trim());
+	    updateSearchUiState(state.query || input.value.trim());
+	    if (state.query || input.value.trim()) renderResults(state.query || input.value.trim());
+	    if (updateUrl) syncQuery(effectiveSearchQuery(state.query || input.value.trim()));
+	    normalizeLocationHashForLanguage();
+	    highlightPage(effectiveSearchQuery(state.query || input.value.trim()));
     syncActiveNavFromHash();
     syncActiveNavFromScroll();
   };
 
-  const runSearch = debounce((value) => {
-    state.searchExpanded = false;
-    state.resultsCollapsed = false;
-    renderResults(value);
-    highlightPage(value.trim());
-    syncQuery(value.trim());
-  });
+	  const runSearch = debounce((value) => {
+	    state.searchExpanded = false;
+	    state.resultsCollapsed = false;
+	    updateSearchUiState(value);
+	    renderResults(value);
+	    highlightPage(effectiveSearchQuery(value));
+	    syncQuery(effectiveSearchQuery(value));
+	  });
 
 	  const setupMobileTools = () => {
 	    if (!toolsEl) return;
@@ -699,15 +713,17 @@
       notes.forEach(([date, note]) => { if (note) state.notes.set(date, note); });
       buildIndex();
       const initialQuery = new URLSearchParams(location.search).get("q") || "";
-      if (initialQuery) {
-        state.resultsCollapsed = Boolean(location.hash && sessionStorage.getItem("daily-fi-collapse-search") === "1");
-        sessionStorage.removeItem("daily-fi-collapse-search");
-        input.value = initialQuery;
-        renderResults(initialQuery);
-        highlightPage(initialQuery);
-      } else {
-        resultsEl.hidden = true;
-      }
+	      if (initialQuery) {
+	        state.resultsCollapsed = Boolean(location.hash && sessionStorage.getItem("daily-fi-collapse-search") === "1");
+	        sessionStorage.removeItem("daily-fi-collapse-search");
+	        input.value = initialQuery;
+	        updateSearchUiState(initialQuery);
+	        renderResults(initialQuery);
+	        highlightPage(effectiveSearchQuery(initialQuery));
+	      } else {
+	        updateSearchUiState("");
+	        resultsEl.hidden = true;
+	      }
       setupActiveNav();
       if (!initialQuery && location.hash) window.setTimeout(scrollToHashTarget, 0);
     } catch {
@@ -717,7 +733,10 @@
     }
   };
 
-  input.addEventListener("input", () => runSearch(input.value));
+	  input.addEventListener("input", () => {
+	    updateSearchUiState(input.value);
+	    runSearch(input.value);
+	  });
   resultsEl.addEventListener("click", (event) => {
     const expand = event.target.closest("[data-show-all-results], [data-expand-search-results]");
     if (expand) {
@@ -733,12 +752,13 @@
       sessionStorage.setItem("daily-fi-collapse-search", "1");
     }
   });
-  clearButton.addEventListener("click", () => {
-    input.value = "";
-    state.searchExpanded = false;
-    state.resultsCollapsed = false;
-    renderResults("");
-    syncQuery("");
+	  clearButton.addEventListener("click", () => {
+	    input.value = "";
+	    state.searchExpanded = false;
+	    state.resultsCollapsed = false;
+	    updateSearchUiState("");
+	    renderResults("");
+	    syncQuery("");
     input.focus();
   });
   langButtons.forEach((button) => {
