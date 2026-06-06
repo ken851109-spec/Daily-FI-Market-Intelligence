@@ -204,7 +204,7 @@
     if (!text || !tokens.length) return 0;
     return tokens.reduce((score, token) => {
       if (!text.includes(token)) return score;
-      return score + (/\\d|usd\\/twd|2s10s|5s30s|10s30s|wti|dxy|boj|fomc|jolts|hyg|非農|初領/i.test(token) ? 3 : 1);
+      return score + (/\d|usd\/twd|2s10s|5s30s|10s30s|wti|dxy|boj|fomc|jolts|hyg|非農|初領/i.test(token) ? 3 : 1);
     }, 0);
   };
   const contextualAnalysisTarget = (note, contextText, fallbackSection) => {
