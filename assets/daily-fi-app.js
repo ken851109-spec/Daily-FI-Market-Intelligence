@@ -6,6 +6,9 @@
   const resultsEl = document.querySelector("[data-search-results]");
   const dateSelects = Array.from(document.querySelectorAll("[data-date-select]"));
   const dateSelect = dateSelects[0];
+  const dateGridHosts = Array.from(document.querySelectorAll("[data-date-grid]"));
+  const dateCurrentLabels = Array.from(document.querySelectorAll("[data-date-current-label]"));
+  const dateMenus = Array.from(document.querySelectorAll("[data-date-menu], [data-mobile-date-menu]"));
   const mobileDateMenu = document.querySelector("[data-mobile-date-menu]");
   const toolsEl = document.querySelector(".task-nav");
   const langButtons = Array.from(document.querySelectorAll("[data-lang-button]"));
@@ -79,6 +82,46 @@
     if (!item) return siteRoot || "./";
     const base = date === latestDate() ? (siteRoot || "./") : siteRoot + item.path;
     return localizedHref(base, lang);
+  };
+  const reportLabelForDate = (date) => {
+    const item = state.manifest.find((entry) => entry.date === date);
+    return item?.label || (date ? `${date} close` : "");
+  };
+  const monthLabel = (monthKey) => {
+    const [year, month] = monthKey.split("-").map((part) => Number(part));
+    const date = new Date(year, month - 1, 1);
+    if (state.language === "en") {
+      return date.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+    }
+    return `${year}-${String(month).padStart(2, "0")}`;
+  };
+  const dateDayTitle = (item) => {
+    if (!item) return "";
+    const headline = state.language === "en" ? item.headlinePrimaryEn || item.headlinePrimary : item.headlinePrimary;
+    return [item.label || item.date, headline].filter(Boolean).join(" - ");
+  };
+  const buildDateGridHtml = () => {
+    const byDate = new Map(state.manifest.map((item) => [item.date, item]));
+    const months = Array.from(new Set(state.manifest.map((item) => item.date.slice(0, 7)))).sort().reverse();
+    const weekdays = state.language === "en" ? ["M", "T", "W", "T", "F", "S", "S"] : ["一", "二", "三", "四", "五", "六", "日"];
+    return months.map((monthKey) => {
+      const [year, month] = monthKey.split("-").map((part) => Number(part));
+      const first = new Date(year, month - 1, 1);
+      const leading = (first.getDay() + 6) % 7;
+      const daysInMonth = new Date(year, month, 0).getDate();
+      const blanks = Array.from({ length: leading }, () => '<span class="date-day is-pad" aria-hidden="true"></span>');
+      const days = Array.from({ length: daysInMonth }, (_unused, index) => {
+        const day = index + 1;
+        const date = `${monthKey}-${String(day).padStart(2, "0")}`;
+        const item = byDate.get(date);
+        if (!item) return `<span class="date-day is-disabled" aria-disabled="true">${day}</span>`;
+        const current = date === currentDate ? " is-current" : "";
+        return `<a class="date-day${current}" href="${escapeHtml(hrefForDate(date, state.language))}" data-report-date="${escapeHtml(date)}" title="${escapeHtml(dateDayTitle(item))}">${day}</a>`;
+      });
+      return `<section class="date-month"><h3 class="date-month-title">${escapeHtml(monthLabel(monthKey))}</h3>` +
+        `<div class="date-weekdays">${weekdays.map((day) => `<span>${escapeHtml(day)}</span>`).join("")}</div>` +
+        `<div class="date-days">${blanks.concat(days).join("")}</div></section>`;
+    }).join("");
   };
   const cssEscape = (value) => {
     const raw = String(value || "");
@@ -246,8 +289,9 @@
         const langParam = baseHref.includes("lang=") ? "" : `&lang=${encodeURIComponent(row.lang || "zh")}`;
         const href = `${baseHref}${joiner}q=${encodeURIComponent(state.query)}${langParam}#${encodeURIComponent(row.section || "overview")}`;
         const langLabel = row.lang === "en" ? "EN" : "中文";
+        const titleLabel = row.title || (state.language === "en" ? "Passage" : "段落");
         return `<a class="search-result" href="${escapeHtml(href)}">` +
-          `<span>${escapeHtml(row.date)} / ${escapeHtml(langLabel)} / ${escapeHtml(row.title || "段落")}</span>\n` +
+          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span></span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
           "</a>";
       })
@@ -281,11 +325,16 @@
   const highlightHashTarget = (target) => {
     clearJumpHighlight();
     if (!target) return;
+    const isParagraphTarget = target.classList.contains("analysis-paragraph") || /-p\d+(?:-mobile)?$/.test(target.id || target.dataset.searchSection || "");
     const highlightTarget =
-      target.closest(".analysis-card") ||
-      target.closest("details") ||
-      target.closest(".reference-table") ||
-      target;
+      isParagraphTarget
+        ? target
+        : (
+          target.closest(".analysis-card") ||
+          target.closest("details") ||
+          target.closest(".reference-table") ||
+          target
+        );
     highlightTarget.dataset.currentMatchLabel = state.language === "en" ? "Current match" : "目前命中段落";
     highlightTarget.classList.add("jump-highlight");
     if (!highlightTarget.hasAttribute("tabindex")) {
@@ -316,11 +365,21 @@
     const candidates = [];
     const byId = document.getElementById(hash);
     if (byId) candidates.push(byId);
+    const byMobileId = document.getElementById(`${hash}-mobile`);
+    if (byMobileId) candidates.push(byMobileId);
     scope.querySelectorAll("[data-search-section], [data-search-parent]").forEach((el) => {
       if (el.tagName === "A") return;
       if (el.dataset.searchSection === hash || el.dataset.searchParent === hash) candidates.push(el);
     });
-    const target = candidates.find(isVisibleElement);
+    let target = candidates.find(isVisibleElement);
+    if (!target) {
+      const hiddenInDetails = candidates.find((el) => el.closest("details"));
+      const details = hiddenInDetails?.closest("details");
+      if (details) {
+        details.open = true;
+        target = candidates.find(isVisibleElement) || hiddenInDetails;
+      }
+    }
     if (!target) return;
     const details = target.closest("details");
     if (details) details.open = true;
@@ -369,10 +428,15 @@
     }).join("");
     dateSelects.forEach((select) => {
       select.innerHTML = options;
-      select.addEventListener("change", () => {
+      select.onchange = () => {
         if (select.value) location.href = hrefForDate(select.value, state.language);
-      });
+      };
     });
+    dateCurrentLabels.forEach((label) => {
+      label.textContent = reportLabelForDate(currentDate) || (state.language === "en" ? "Choose date" : "選擇日期");
+    });
+    const gridHtml = buildDateGridHtml();
+    dateGridHosts.forEach((host) => { host.innerHTML = gridHtml; });
   };
 
   const syncQuery = (query) => {
@@ -474,6 +538,7 @@
     localStorage.setItem("daily-fi-language", state.language);
     syncNavForLanguage();
     syncStaticTextForLanguage();
+    if (state.manifest.length) hydrateDateSelect();
     if (state.query || input.value.trim()) renderResults(state.query || input.value.trim());
     if (updateUrl) syncQuery(state.query || input.value.trim());
     normalizeLocationHashForLanguage();
@@ -490,22 +555,33 @@
     syncQuery(value.trim());
   });
 
-  const setupMobileTools = () => {
-    if (!toolsEl) return;
-    const mobileQuery = window.matchMedia("(max-width: 767px)");
-    let lastY = window.scrollY;
-    let ticking = false;
-    const isUsingTools = () => {
-      const active = document.activeElement;
-      return bar.contains(active) || !resultsEl.hidden;
-    };
-    const showTools = () => toolsEl.classList.remove("is-hidden");
-    const hideTools = () => {
-      if (window.scrollY > 96 && !isUsingTools()) toolsEl.classList.add("is-hidden");
-    };
-    const sync = () => {
-      if (!mobileQuery.matches) {
-        showTools();
+	  const setupMobileTools = () => {
+	    if (!toolsEl) return;
+	    const mobileQuery = window.matchMedia("(max-width: 767px)");
+	    let lastY = window.scrollY;
+	    let ticking = false;
+	    let syncTimer = null;
+	    const isUsingTools = () => {
+	      const active = document.activeElement;
+	      const activeInput = active && bar.contains(active) && (
+	        active.matches("input, textarea, select") || active.isContentEditable
+	      );
+	      const openDateMenu = dateMenus.some((menu) => menu.open);
+	      return activeInput || openDateMenu || !resultsEl.hidden;
+	    };
+	    const showTools = () => {
+	      toolsEl.classList.remove("is-hidden");
+	      toolsEl.removeAttribute("data-tools-hidden");
+	    };
+	    const hideTools = () => {
+	      if (window.scrollY > 96 && !isUsingTools()) {
+	        toolsEl.classList.add("is-hidden");
+	        toolsEl.setAttribute("data-tools-hidden", "true");
+	      }
+	    };
+	    const sync = () => {
+	      if (!mobileQuery.matches) {
+	        showTools();
         lastY = window.scrollY;
         return;
       }
@@ -521,23 +597,35 @@
       ticking = true;
       requestAnimationFrame(() => {
         sync();
-        ticking = false;
-      });
-    }, { passive: true });
-    window.addEventListener("resize", () => {
-      syncNavForLanguage();
-      sync();
-    });
-    bar.addEventListener("focusin", showTools);
-    resultsEl.addEventListener("click", showTools);
-    document.querySelectorAll(".section-nav a").forEach((link) => {
-      link.addEventListener("click", () => {
-        showTools();
-        setTimeout(hideTools, 260);
-      });
-    });
-    sync();
-  };
+	        ticking = false;
+	      });
+	    }, { passive: true });
+	    window.addEventListener("resize", () => {
+	      syncNavForLanguage();
+	      sync();
+	    });
+	    const syncPolling = () => {
+	      if (mobileQuery.matches && syncTimer === null) {
+	        syncTimer = window.setInterval(sync, 180);
+	      } else if (!mobileQuery.matches && syncTimer !== null) {
+	        window.clearInterval(syncTimer);
+	        syncTimer = null;
+	      }
+	    };
+	    if (typeof mobileQuery.addEventListener === "function") {
+	      mobileQuery.addEventListener("change", syncPolling);
+	    }
+	    bar.addEventListener("focusin", showTools);
+	    resultsEl.addEventListener("click", showTools);
+	    document.querySelectorAll(".section-nav a").forEach((link) => {
+	      link.addEventListener("click", () => {
+	        showTools();
+	        setTimeout(hideTools, 260);
+	      });
+	    });
+	    syncPolling();
+	    sync();
+	  };
 
   const setupContextLinks = () => {
     const navigateHash = (href) => {
@@ -657,7 +745,9 @@
     button.addEventListener("click", () => setLanguage(button.dataset.langButton || "zh"));
   });
   document.addEventListener("click", (event) => {
-    if (mobileDateMenu && !mobileDateMenu.contains(event.target)) mobileDateMenu.open = false;
+    dateMenus.forEach((menu) => {
+      if (!menu.contains(event.target)) menu.open = false;
+    });
   });
   setLanguage(state.language, { updateUrl: false });
   setupMobileTools();
