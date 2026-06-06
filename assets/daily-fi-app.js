@@ -287,14 +287,19 @@
       resultsEl.innerHTML = `<div class="search-count">${escapeHtml(label)}<button type="button" data-expand-search-results>${escapeHtml(action)}</button></div>`;
       return;
     }
-    const limit = state.searchExpanded || window.innerWidth >= 768 ? 24 : 5;
+    const compactLimit = window.innerWidth < 768 ? 4 : window.innerWidth < 1200 ? 5 : 24;
+    const expandedLimit = window.innerWidth < 768 ? 8 : window.innerWidth < 1200 ? 10 : matches.length;
+    const limit = state.searchExpanded ? expandedLimit : compactLimit;
     const visibleMatches = matches.slice(0, limit);
     const countLabel = state.language === "en"
       ? `${matches.length} matching passages${visibleMatches.length < matches.length ? `, showing ${visibleMatches.length}` : ""}`
       : `${matches.length} 個相關段落${visibleMatches.length < matches.length ? `，顯示前 ${visibleMatches.length} 筆` : ""}`;
-    const moreLabel = state.language === "en" ? "Show all" : "全部顯示";
+    const moreLabel = state.language === "en"
+      ? (window.innerWidth < 1200 ? "Show more" : "Show all")
+      : (window.innerWidth < 1200 ? "顯示更多" : "全部顯示");
+    const canShowMore = visibleMatches.length < matches.length && !state.searchExpanded;
     resultsEl.innerHTML = [
-      `<div class="search-count"><span>${escapeHtml(countLabel)}</span>${visibleMatches.length < matches.length ? `<button type="button" data-show-all-results>${escapeHtml(moreLabel)}</button>` : ""}</div>`,
+      `<div class="search-count"><span>${escapeHtml(countLabel)}</span>${canShowMore ? `<button type="button" data-show-all-results>${escapeHtml(moreLabel)}</button>` : ""}</div>`,
       ...visibleMatches.map((row) => {
         const baseHref = hrefForDate(row.date, row.lang || "zh");
         const joiner = baseHref.includes("?") ? "&" : "?";
@@ -571,30 +576,31 @@
 
 	  const setupMobileTools = () => {
 	    if (!toolsEl) return;
-	    const mobileQuery = window.matchMedia("(max-width: 767px)");
+	    const compactToolsQuery = window.matchMedia("(max-width: 1199px)");
 	    let lastY = window.scrollY;
 	    let ticking = false;
 	    let syncTimer = null;
-	    const isUsingTools = () => {
+	    const isDateMenuOpen = () => dateMenus.some((menu) => menu.open);
+	    const activeField = () => {
 	      const active = document.activeElement;
-	      const activeInput = active && bar.contains(active) && (
-	        active.matches("input, textarea, select") || active.isContentEditable
-	      );
-	      const openDateMenu = dateMenus.some((menu) => menu.open);
-	      return activeInput || openDateMenu || !resultsEl.hidden;
+	      if (!active || !bar.contains(active)) return null;
+	      return active.matches("input, textarea, select") || active.isContentEditable ? active : null;
+	    };
+	    const isUsingTools = () => {
+	      return Boolean(activeField()) || isDateMenuOpen();
 	    };
 	    const showTools = () => {
 	      toolsEl.classList.remove("is-hidden");
 	      toolsEl.removeAttribute("data-tools-hidden");
 	    };
-	    const hideTools = () => {
-	      if (window.scrollY > 96 && !isUsingTools()) {
+	    const hideTools = ({ force = false } = {}) => {
+	      if (window.scrollY > 96 && (force || !isUsingTools())) {
 	        toolsEl.classList.add("is-hidden");
 	        toolsEl.setAttribute("data-tools-hidden", "true");
 	      }
 	    };
 	    const sync = () => {
-	      if (!mobileQuery.matches) {
+	      if (!compactToolsQuery.matches) {
 	        showTools();
         lastY = window.scrollY;
         return;
@@ -602,7 +608,11 @@
       const y = window.scrollY;
       const delta = y - lastY;
       if (y < 72) showTools();
-      else if (delta > 14) hideTools();
+      else if (delta > 14 && !isDateMenuOpen()) {
+        const field = activeField();
+        if (field) field.blur();
+        hideTools({ force: true });
+      }
       else if (delta < -18) showTools();
       lastY = y;
     };
@@ -619,15 +629,15 @@
 	      sync();
 	    });
 	    const syncPolling = () => {
-	      if (mobileQuery.matches && syncTimer === null) {
+	      if (compactToolsQuery.matches && syncTimer === null) {
 	        syncTimer = window.setInterval(sync, 180);
-	      } else if (!mobileQuery.matches && syncTimer !== null) {
+	      } else if (!compactToolsQuery.matches && syncTimer !== null) {
 	        window.clearInterval(syncTimer);
 	        syncTimer = null;
 	      }
 	    };
-	    if (typeof mobileQuery.addEventListener === "function") {
-	      mobileQuery.addEventListener("change", syncPolling);
+	    if (typeof compactToolsQuery.addEventListener === "function") {
+	      compactToolsQuery.addEventListener("change", syncPolling);
 	    }
 	    bar.addEventListener("focusin", showTools);
 	    resultsEl.addEventListener("click", showTools);
