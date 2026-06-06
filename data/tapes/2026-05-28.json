@@ -15,11 +15,11 @@
   "regime_strip": [
     {
       "label": "Rates",
-      "value": "10Y 4.45%，日降 3bp"
+      "value": "核心利率同步回落"
     },
     {
       "label": "Curve",
-      "value": "2s10s 46bp，日收斂 2bp"
+      "value": "Curve 收斂"
     },
     {
       "label": "Oil",
@@ -27,11 +27,11 @@
     },
     {
       "label": "USD",
-      "value": "DXY 99.02，日跌 0.3%"
+      "value": "美元回落、FX 助益減弱"
     },
     {
       "label": "Risk",
-      "value": "S&P +0.6%、Nasdaq +0.9%"
+      "value": "風險資產承接改善"
     },
     {
       "label": "ETF Lens",
@@ -59,9 +59,9 @@
     },
     {
       "label": "FX / NAV",
-      "view": "美元回落有利台幣 NAV",
-      "best_expression": "匯率貢獻視為短線加分，核心仍看 5Y-10Y 利率修復。",
-      "risk_trigger": "DXY 重回 100 或美元與油價同步上行。"
+      "view": "美元支撐提供台幣 NAV 換算助益",
+      "best_expression": "匯率貢獻視為短線加分，核心仍看 5Y-10Y 利率修復；美元回落時 FX 換算助益會減弱。",
+      "risk_trigger": "DXY 跌破 99 則 FX 助益減弱；若美元與油價同步上行，需分拆 FX 助益與利率壓力。"
     },
     {
       "label": "Conviction / Horizon",
@@ -147,8 +147,8 @@
       {
         "label": "台幣 ETF",
         "value": "利率與匯率需拆分",
-        "change": "短線 NAV 改善",
-        "detail": "美元回落與利率 rally 同向時才較可留存。"
+        "change": "短線 NAV 仍需拆分來源",
+        "detail": "美元支撐提供換算助益；若美元回落，NAV 需靠利率 rally 與利差穩定留存。"
       },
       {
         "label": "EM",
@@ -463,11 +463,11 @@
       "regime_strip": [
         {
           "label": "Rates",
-          "value": "10Y 4.45%, down 3bp on the day"
+          "value": "Rates rallied across the core curve"
         },
         {
           "label": "Curve",
-          "value": "2s10s 46bp, 2bp narrower on the day"
+          "value": "Curve compressed"
         },
         {
           "label": "Oil",
@@ -475,11 +475,11 @@
         },
         {
           "label": "USD",
-          "value": "DXY 99.02, down 0.3% on the day"
+          "value": "USD pullback reduces FX translation support"
         },
         {
           "label": "Risk",
-          "value": "S&P +0.6%, Nasdaq +0.9%"
+          "value": "Risk assets held a bid"
         },
         {
           "label": "ETF Lens",
@@ -508,8 +508,8 @@
         {
           "label": "FX / NAV",
           "view": "A stronger dollar supports TWD NAV translation",
-          "best_expression": "Treat FX contribution as a near-term positive; the core driver remains the 5Y-10Y rate repair.",
-          "risk_trigger": "DXY back to 100 or the dollar and oil rising together."
+          "best_expression": "Treat FX translation as a near-term positive; the core driver remains the 5Y-10Y rate repair. If the dollar softens, the FX cushion fades.",
+          "risk_trigger": "Below 99 weakens the FX cushion; if the dollar and oil rise together, separate FX support from rates pressure."
         },
         {
           "label": "Conviction / Horizon",
@@ -619,8 +619,8 @@
           {
             "label": "TWD ETF",
             "value": "Rates and FX need to be separated",
-            "change": "Near-term NAV improvement",
-            "detail": "It is more durable only when dollar weakness and a rates rally move in the same direction.",
+            "change": "Near-term NAV attribution must be split",
+            "detail": "Dollar support helps translation; if the dollar softens, NAV needs a UST rally and stable spreads to be retained.",
             "note": null,
             "caption": null
           },
@@ -1023,7 +1023,7 @@
             "For TWD-denominated overseas bond ETFs and USD bond allocation, this market improvement can support near-term NAV, but should not be read directly as a signal to extend duration across the board. 10Y returning to 4.45% and 30Y to 4.98% make carry and price repair attractive. But long-end term premium has not disappeared; if oil prices or supply pressure heat up again, the giveback risk in the 20Y+ bucket will still be higher than in the intermediate curve.",
             "On curve allocation, 5Y-10Y remains the cleaner duration expression. 2s10s has narrowed to 46bp while 5s30s is still at 83bp, showing the market has not truly abandoned the long-end fiscal premium. If oil prices continue to weaken, Fed officials do not turn more hawkish, and June reopenings are smoothly absorbed, belly and intermediate duration offer better risk-reward than chasing ultra-long bonds directly.",
             "Credit allocation should keep IG ahead of HY, and financials and high-quality assets ahead of weaker leveraged refinancing. AT1s and quality data-center credit still show that demand for income exists, but private credit's increased selectivity toward software borrowers means credit beta cannot be judged only by new highs in equities. For ETFs or outsourced portfolios, stronger equities should not become a reason to loosen credit screening at the same time.",
-            "EM and Asian rates need to maintain country-level differentiation. Lower oil prices help temporarily ease front-end pressure for energy importers, but FX defense, subsidy costs, and fiscal credibility still determine whether duration beta can repair. For TWD investors, a softer dollar and a UST rally are favorable for near-term performance, but the FX contribution should not be over-extrapolated.",
+            "EM and Asian rates need to maintain country-level differentiation. Lower oil prices help temporarily ease front-end pressure for energy importers, but FX defense, subsidy costs, and fiscal credibility still determine whether duration beta can repair. For TWD investors, dollar support helps FX translation; if the dollar softens, near-term performance needs a stronger UST rally or tighter spreads to offset the weaker FX cushion.",
             "Execution can split new risk into two stages. The first stage is 5Y-10Y high-grade USD bonds and high-quality financials, using the rate decline and carry. The second stage is the long end or lower-rated credit, which should wait for oil to stabilize, auction demand to be confirmed, and Fed officials not to turn PCE back into a front-end risk.",
             "If the 5/28 close is to be translated into positioning, the most reasonable approach is to raise intermediate high-grade exposure first, not chase long-end convexity. 10Y at 4.45% offers an entry point, but 30Y at 4.98% is still at the lower edge of the pressure zone. If oil rebounds or the supply tail widens, the ultra-long end will give back faster than 5Y-10Y.",
             "Credit allocation can retain income exposure, but AI data centers, AT1s, private credit, and event-driven credit need to be separated. The first two have demand and asset stories; the latter two require stricter checks on collateral, sponsor support, leverage, and refinancing maturities. This allows participation in the income window while reducing tail losses.",

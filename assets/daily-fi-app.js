@@ -18,12 +18,55 @@
   const manifestUrl = siteRoot + "tapes.json";
   const paramsAtLoad = new URLSearchParams(location.search);
   const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
-  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh" };
+  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh", searchExpanded: false, resultsCollapsed: false };
   const escapeHtml = (value) => String(value ?? "")
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   const normalize = (value) => String(value ?? "").toLocaleLowerCase();
   const slug = (value) => String(value || "section").replace(/[^a-zA-Z0-9_-]+/g, "-").replace(/^-|-$/g, "");
+  const parseSignedMove = (value) => {
+    const raw = String(value ?? "").trim();
+    const match = raw.match(/[-+]?\d[\d,]*(?:\.\d+)?/);
+    if (!match) return null;
+    const parsed = Number(match[0].replace(/,/g, ""));
+    if (!Number.isFinite(parsed)) return null;
+    if (raw.startsWith("-")) return -Math.abs(parsed);
+    if (raw.startsWith("+")) return Math.abs(parsed);
+    return parsed;
+  };
+  const displayMove = (value) => {
+    const raw = String(value ?? "").trim();
+    const match = raw.match(/[-+]?\d[\d,]*(?:\.\d+)?\s*(?:bp|%)/i);
+    return match ? match[0].replace(/\s+/g, "") : raw;
+  };
+  const tableRows = (note, id) => {
+    const table = (note.market_tables || []).find((item) => item && item.id === id);
+    return Array.isArray(table?.rows) ? table.rows : [];
+  };
+  const rowByLabel = (note, tableId, label) => {
+    const target = normalize(label);
+    return tableRows(note, tableId).find((row) => normalize(row?.label) === target);
+  };
+  const fxNavPositionView = (note, lang) => {
+    let label = "DXY";
+    let row = rowByLabel(note, "cross_asset", label);
+    let move = parseSignedMove(row?.change);
+    if (move == null) {
+      label = "USD/TWD";
+      row = rowByLabel(note, "cross_asset", label);
+      move = parseSignedMove(row?.change);
+    }
+    if (move == null) return lang === "en" ? "FX / NAV split" : "FX / NAV 拆分";
+    const marker = `${label} ${displayMove(row?.change)}`.trim();
+    if (move >= 0.1) return lang === "en" ? `${marker} supports NAV FX` : `${marker} 支撐 NAV FX`;
+    if (move <= -0.1) return lang === "en" ? `${marker} trims NAV FX` : `${marker} 削弱 NAV FX`;
+    return lang === "en" ? `${marker} leaves FX neutral` : `${marker} 使 FX 中性`;
+  };
+  const normalizedPositioningForSearch = (note, lang) => (note.positioning || []).map((row) => {
+    const label = normalize(row?.label);
+    if (!["fx / nav", "fx/nav", "fx"].includes(label)) return row;
+    return { ...row, view: fxNavPositionView(note, lang) };
+  });
   const latestDate = () => state.manifest[0]?.date || "";
   const localizedHref = (href, lang = state.language) => {
     const base = String(href || "./");
@@ -36,6 +79,36 @@
     if (!item) return siteRoot || "./";
     const base = date === latestDate() ? (siteRoot || "./") : siteRoot + item.path;
     return localizedHref(base, lang);
+  };
+  const cssEscape = (value) => {
+    const raw = String(value || "");
+    if (window.CSS && typeof CSS.escape === "function") return CSS.escape(raw);
+    return raw.replace(/["\\]/g, "\\$&");
+  };
+  const hashElementExists = (id) => Boolean(
+    document.getElementById(id) ||
+    document.querySelector(`[data-search-section="${cssEscape(id)}"], [data-search-parent="${cssEscape(id)}"]`)
+  );
+  const normalizedHashForLanguage = (hash, lang = state.language) => {
+    const clean = String(hash || "").replace(/^#/, "");
+    if (!clean) return "";
+    if (lang === "en") {
+      if (clean.startsWith("en-")) return clean;
+      const candidate = `en-${clean}`;
+      return hashElementExists(candidate) ? candidate : clean;
+    }
+    if (clean.startsWith("en-")) {
+      const candidate = clean.replace(/^en-/, "");
+      return hashElementExists(candidate) ? candidate : clean;
+    }
+    return clean;
+  };
+  const normalizeLocationHashForLanguage = () => {
+    const clean = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    const normalized = normalizedHashForLanguage(clean, state.language);
+    if (clean && normalized && normalized !== clean) {
+      history.replaceState(null, "", `${location.pathname}${location.search}#${encodeURIComponent(normalized)}`);
+    }
   };
   const debounce = (fn, wait = 140) => {
     let timer = 0;
@@ -61,6 +134,7 @@
       const section = value.id ? sectionForId(value.id, fallbackSection) : fallbackSection;
       Object.entries(value).forEach(([key, item]) => {
         if (["id", "title", "label", "date", "path", "dataPath"].includes(key)) return;
+        if (key === "driver" && String(item || "").trim() === String(title || "").trim()) return;
         flatten(item, section, title, out);
       });
     }
@@ -83,13 +157,22 @@
     const headline = note.headline || {};
     flatten([headline.primary, headline.secondary, note.summary], prefix + "overview", lang === "en" ? "Overview" : "今日盤勢", rows);
     flatten(note.regime_strip, prefix + "overview", "Regime", rows);
-    flatten(note.positioning, prefix + "overview", lang === "en" ? "Positioning" : "配置重點", rows);
+    flatten(normalizedPositioningForSearch(note, lang), prefix + "overview", lang === "en" ? "Positioning" : "配置重點", rows);
     flatten(note.driver_decomposition, prefix + "drivers", lang === "en" ? "Market Drivers" : "市場驅動", rows);
     flatten(note.monitor_blocks, prefix + "risk-monitor", lang === "en" ? "Risk Monitor" : "風險監控", rows);
     flatten(note.market_tables, prefix + "rates", lang === "en" ? "Reference Data" : "參考數據", rows);
     for (const section of note.sections || []) {
       const sectionId = prefix + "analysis-" + slug(section.id || "section");
-      flatten([section.title, section.takeaway, section.paragraphs], sectionId, section.title || (lang === "en" ? "Investment Read" : "投資解讀"), rows);
+      const sectionTitle = section.title || (lang === "en" ? "Investment Read" : "投資解讀");
+      flatten([section.title, section.takeaway], sectionId, sectionTitle, rows);
+      (section.paragraphs || []).forEach((paragraph, index) => {
+        flatten(
+          paragraph,
+          `${sectionId}-p${index + 1}`,
+          `${sectionTitle} #${index + 1}`,
+          rows
+        );
+      });
     }
     rows.slice(before).forEach((row) => {
       row.date = item.date;
@@ -124,6 +207,7 @@
 
   const renderResults = (query) => {
     state.query = query.trim();
+    resultsEl.classList.remove("is-collapsed");
     if (!state.query) {
       resultsEl.hidden = true;
       resultsEl.innerHTML = "";
@@ -133,23 +217,37 @@
     const sameLanguageFirst = (row) => row.lang === state.language ? 0 : 1;
     const matches = state.index
       .filter((row) => row.lang === state.language && row.haystack.includes(normalize(state.query)))
-      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b))
-      .slice(0, 24);
+      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b));
     resultsEl.hidden = false;
     if (!matches.length) {
       resultsEl.innerHTML = `<div class="search-empty">${state.language === "en" ? "No matching report passages" : "沒有找到符合的報告段落"}</div>`;
       return;
     }
+    if (state.resultsCollapsed) {
+      resultsEl.classList.add("is-collapsed");
+      const label = state.language === "en"
+        ? `${matches.length} matches for ${state.query}`
+        : `${matches.length} 個「${state.query}」相關段落`;
+      const action = state.language === "en" ? "Show" : "顯示";
+      resultsEl.innerHTML = `<div class="search-count">${escapeHtml(label)}<button type="button" data-expand-search-results>${escapeHtml(action)}</button></div>`;
+      return;
+    }
+    const limit = state.searchExpanded || window.innerWidth >= 768 ? 24 : 5;
+    const visibleMatches = matches.slice(0, limit);
+    const countLabel = state.language === "en"
+      ? `${matches.length} matching passages${visibleMatches.length < matches.length ? `, showing ${visibleMatches.length}` : ""}`
+      : `${matches.length} 個相關段落${visibleMatches.length < matches.length ? `，顯示前 ${visibleMatches.length} 筆` : ""}`;
+    const moreLabel = state.language === "en" ? "Show all" : "全部顯示";
     resultsEl.innerHTML = [
-      `<div class="search-count">${state.language === "en" ? `${matches.length} matching passages` : `${matches.length} 個相關段落`}</div>`,
-      ...matches.map((row) => {
+      `<div class="search-count"><span>${escapeHtml(countLabel)}</span>${visibleMatches.length < matches.length ? `<button type="button" data-show-all-results>${escapeHtml(moreLabel)}</button>` : ""}</div>`,
+      ...visibleMatches.map((row) => {
         const baseHref = hrefForDate(row.date, row.lang || "zh");
         const joiner = baseHref.includes("?") ? "&" : "?";
         const langParam = baseHref.includes("lang=") ? "" : `&lang=${encodeURIComponent(row.lang || "zh")}`;
         const href = `${baseHref}${joiner}q=${encodeURIComponent(state.query)}${langParam}#${encodeURIComponent(row.section || "overview")}`;
         const langLabel = row.lang === "en" ? "EN" : "中文";
         return `<a class="search-result" href="${escapeHtml(href)}">` +
-          `<span>${escapeHtml(row.date)} / ${escapeHtml(langLabel)} / ${escapeHtml(row.title || "段落")}</span>` +
+          `<span>${escapeHtml(row.date)} / ${escapeHtml(langLabel)} / ${escapeHtml(row.title || "段落")}</span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
           "</a>";
       })
@@ -160,6 +258,75 @@
     document.querySelectorAll("mark.search-hit").forEach((mark) => {
       mark.replaceWith(document.createTextNode(mark.textContent || ""));
     });
+  };
+
+  const isVisibleElement = (el) => {
+    if (!el) return false;
+    const rect = el.getBoundingClientRect();
+    const style = getComputedStyle(el);
+    return rect.width > 0 && rect.height > 0 && style.display !== "none" && style.visibility !== "hidden";
+  };
+
+  const clearJumpHighlight = () => {
+    document.querySelectorAll(".jump-highlight").forEach((el) => {
+      el.classList.remove("jump-highlight");
+      delete el.dataset.currentMatchLabel;
+      if (el.dataset.jumpTabindex === "temporary") {
+        el.removeAttribute("tabindex");
+        delete el.dataset.jumpTabindex;
+      }
+    });
+  };
+
+  const highlightHashTarget = (target) => {
+    clearJumpHighlight();
+    if (!target) return;
+    const highlightTarget =
+      target.closest(".analysis-card") ||
+      target.closest("details") ||
+      target.closest(".reference-table") ||
+      target;
+    highlightTarget.dataset.currentMatchLabel = state.language === "en" ? "Current match" : "目前命中段落";
+    highlightTarget.classList.add("jump-highlight");
+    if (!highlightTarget.hasAttribute("tabindex")) {
+      highlightTarget.setAttribute("tabindex", "-1");
+      highlightTarget.dataset.jumpTabindex = "temporary";
+    }
+    try {
+      highlightTarget.focus({ preventScroll: true });
+    } catch {}
+  };
+
+  const stickyOffset = () => {
+    if (window.innerWidth >= 1400) return 88;
+    if (!toolsEl) return window.innerWidth < 768 ? 156 : 132;
+    const rect = toolsEl.getBoundingClientRect();
+    const hidden = toolsEl.classList.contains("is-hidden") || rect.bottom <= 0;
+    if (window.innerWidth < 768) return hidden ? 18 : Math.ceil(rect.height + 12);
+    if (window.innerWidth < 1200) return Math.ceil(rect.height + 18);
+    return 24;
+  };
+
+  const scrollToHashTarget = () => {
+    normalizeLocationHashForLanguage();
+    const hash = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    if (!hash) return;
+    const activePanel = document.querySelector(`[data-lang-panel="${state.language}"]`);
+    const scope = activePanel || document;
+    const candidates = [];
+    const byId = document.getElementById(hash);
+    if (byId) candidates.push(byId);
+    scope.querySelectorAll("[data-search-section], [data-search-parent]").forEach((el) => {
+      if (el.tagName === "A") return;
+      if (el.dataset.searchSection === hash || el.dataset.searchParent === hash) candidates.push(el);
+    });
+    const target = candidates.find(isVisibleElement);
+    if (!target) return;
+    const details = target.closest("details");
+    if (details) details.open = true;
+    const y = target.getBoundingClientRect().top + window.scrollY - stickyOffset();
+    window.scrollTo(0, Math.max(0, y));
+    highlightHashTarget(target);
   };
 
   const highlightPage = (query) => {
@@ -188,12 +355,11 @@
         const frag = document.createDocumentFragment();
         frag.append(text.slice(0, idx), mark, text.slice(idx + query.length));
         node.replaceWith(frag);
-        const details = mark.closest("details");
-        if (details) details.open = true;
       }
     }
     const first = document.querySelector("mark.search-hit");
     if (first && !location.hash) first.scrollIntoView({ block: "center" });
+    if (location.hash) scrollToHashTarget();
   };
 
   const hydrateDateSelect = () => {
@@ -217,17 +383,65 @@
     history.replaceState(null, "", next);
   };
 
+  const navTargetForBase = (base, lang) => {
+    const clean = base || "overview";
+    if (clean === "risk-monitor" && window.matchMedia("(min-width: 1400px)").matches) {
+      return lang === "en" ? "en-risk-monitor-rail" : "risk-monitor-rail";
+    }
+    return lang === "en" ? `en-${clean}` : clean;
+  };
+
   const syncNavForLanguage = () => {
     const lang = state.language;
     navLinks.forEach((link) => {
       const base = link.dataset.sectionBase || "overview";
-      const section = lang === "en" ? `en-${base}` : base;
+      const section = navTargetForBase(base, lang);
       link.setAttribute("href", `#${section}`);
       const strong = link.querySelector("strong");
       const span = link.querySelector("span");
       if (strong) strong.textContent = link.dataset[`label${lang === "en" ? "En" : "Zh"}`] || strong.textContent;
       if (span) span.textContent = link.dataset[`caption${lang === "en" ? "En" : "Zh"}`] || span.textContent;
     });
+  };
+
+  const navBaseFromId = (id) => {
+    const clean = String(id || "").replace(/^en-/, "");
+    if (!clean) return "";
+    if (clean.startsWith("analysis-")) return "investment-read";
+    if (clean === "risk-monitor-rail") return "risk-monitor";
+    if (["overview", "positioning", "rates", "drivers", "risk-monitor", "cross-asset", "investment-read"].includes(clean)) return clean;
+    return "";
+  };
+
+  const setActiveNav = (base) => {
+    if (!base) return;
+    navLinks.forEach((link) => {
+      link.classList.toggle("is-current", link.dataset.sectionBase === base);
+    });
+    const active = navLinks.find((link) => link.dataset.sectionBase === base);
+    if (active && window.innerWidth < 1200) {
+      active.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+    }
+  };
+
+  const syncActiveNavFromHash = () => {
+    const hash = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+    setActiveNav(navBaseFromId(hash));
+  };
+
+  const syncActiveNavFromScroll = () => {
+    const activePanel = document.querySelector(`[data-lang-panel="${state.language}"]`);
+    if (!activePanel) return;
+    const offset = window.innerWidth < 768 ? 168 : window.innerWidth < 1200 ? 142 : 92;
+    const sections = Array.from(activePanel.querySelectorAll(".task-section"))
+      .filter((section) => section.getBoundingClientRect().height > 20);
+    let current = "";
+    for (const section of sections) {
+      if (section.getBoundingClientRect().top - offset <= 0) {
+        current = section.dataset.sectionBase || navBaseFromId(section.id);
+      }
+    }
+    setActiveNav(current || navBaseFromId(sections[0]?.id));
   };
 
   const syncStaticTextForLanguage = () => {
@@ -262,10 +476,15 @@
     syncStaticTextForLanguage();
     if (state.query || input.value.trim()) renderResults(state.query || input.value.trim());
     if (updateUrl) syncQuery(state.query || input.value.trim());
+    normalizeLocationHashForLanguage();
     highlightPage(state.query || input.value.trim());
+    syncActiveNavFromHash();
+    syncActiveNavFromScroll();
   };
 
   const runSearch = debounce((value) => {
+    state.searchExpanded = false;
+    state.resultsCollapsed = false;
     renderResults(value);
     highlightPage(value.trim());
     syncQuery(value.trim());
@@ -305,7 +524,10 @@
         ticking = false;
       });
     }, { passive: true });
-    window.addEventListener("resize", sync);
+    window.addEventListener("resize", () => {
+      syncNavForLanguage();
+      sync();
+    });
     bar.addEventListener("focusin", showTools);
     resultsEl.addEventListener("click", showTools);
     document.querySelectorAll(".section-nav a").forEach((link) => {
@@ -315,6 +537,61 @@
       });
     });
     sync();
+  };
+
+  const setupContextLinks = () => {
+    const navigateHash = (href) => {
+      if (!href || !href.startsWith("#")) return;
+      const activeBase = navBaseFromId(decodeURIComponent(href.replace(/^#/, "")));
+      history.pushState(null, "", href);
+      syncActiveNavFromHash();
+      scrollToHashTarget();
+      if (activeBase) window.setTimeout(() => setActiveNav(activeBase), 80);
+    };
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest('a[href^="#"][data-search-section], a[href^="#"][data-nav-link]');
+      if (link) {
+        const href = link.getAttribute("href") || "";
+        if (!href.startsWith("#")) return;
+        event.preventDefault();
+        navigateHash(href);
+        return;
+      }
+      const card = event.target.closest("[data-card-href]");
+      if (!card) return;
+      event.preventDefault();
+      navigateHash(card.dataset.cardHref || "");
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" && event.key !== " ") return;
+      const card = event.target.closest("[data-card-href]");
+      if (!card || event.target.closest("input, select, textarea, button, a")) return;
+      event.preventDefault();
+      navigateHash(card.dataset.cardHref || "");
+    });
+  };
+
+  const setupActiveNav = () => {
+    let ticking = false;
+    const sync = () => syncActiveNavFromScroll();
+    window.addEventListener("scroll", () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        sync();
+        ticking = false;
+      });
+    }, { passive: true });
+    window.addEventListener("resize", () => {
+      syncNavForLanguage();
+      sync();
+    });
+    window.addEventListener("hashchange", () => {
+      syncActiveNavFromHash();
+      scrollToHashTarget();
+    });
+    if (location.hash) syncActiveNavFromHash();
+    else sync();
   };
 
   const init = async () => {
@@ -335,12 +612,16 @@
       buildIndex();
       const initialQuery = new URLSearchParams(location.search).get("q") || "";
       if (initialQuery) {
+        state.resultsCollapsed = Boolean(location.hash && sessionStorage.getItem("daily-fi-collapse-search") === "1");
+        sessionStorage.removeItem("daily-fi-collapse-search");
         input.value = initialQuery;
         renderResults(initialQuery);
         highlightPage(initialQuery);
       } else {
         resultsEl.hidden = true;
       }
+      setupActiveNav();
+      if (!initialQuery && location.hash) window.setTimeout(scrollToHashTarget, 0);
     } catch {
       dateSelect.innerHTML = '<option value="">日期載入失敗</option>';
       resultsEl.hidden = false;
@@ -349,8 +630,25 @@
   };
 
   input.addEventListener("input", () => runSearch(input.value));
+  resultsEl.addEventListener("click", (event) => {
+    const expand = event.target.closest("[data-show-all-results], [data-expand-search-results]");
+    if (expand) {
+      event.preventDefault();
+      state.searchExpanded = true;
+      state.resultsCollapsed = false;
+      renderResults(state.query || input.value.trim());
+      return;
+    }
+    const resultLink = event.target.closest(".search-result");
+    if (resultLink) {
+      state.resultsCollapsed = true;
+      sessionStorage.setItem("daily-fi-collapse-search", "1");
+    }
+  });
   clearButton.addEventListener("click", () => {
     input.value = "";
+    state.searchExpanded = false;
+    state.resultsCollapsed = false;
     renderResults("");
     syncQuery("");
     input.focus();
@@ -363,5 +661,6 @@
   });
   setLanguage(state.language, { updateUrl: false });
   setupMobileTools();
+  setupContextLinks();
   init();
 })();
