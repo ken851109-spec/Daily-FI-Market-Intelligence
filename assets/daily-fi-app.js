@@ -194,12 +194,62 @@
     if (value.includes("driver")) return prefix + "drivers";
     return fallbackSection || prefix + "investment-read";
   };
+  const contextTokens = (text) => {
+    const source = String(text || "").toLowerCase();
+    const matches = source.match(/[a-z][a-z0-9/&.-]*|\\d+(?:\\.\\d+)?%?|[\\u4e00-\\u9fff]{2,}/g) || [];
+    return Array.from(new Set(matches.filter((token) => token.length >= 2)));
+  };
+  const paragraphScore = (tokens, paragraph) => {
+    const text = String(paragraph || "").toLowerCase();
+    if (!text || !tokens.length) return 0;
+    return tokens.reduce((score, token) => {
+      if (!text.includes(token)) return score;
+      return score + (/\\d|usd\\/twd|2s10s|5s30s|10s30s|wti|dxy|boj|fomc|jolts|hyg|非農|初領/i.test(token) ? 3 : 1);
+    }, 0);
+  };
+  const contextualAnalysisTarget = (note, contextText, fallbackSection) => {
+    const tokens = contextTokens(contextText);
+    let bestSection = "";
+    let bestIndex = 0;
+    let bestScore = 0;
+    for (const section of note.sections || []) {
+      const sectionId = `${String(fallbackSection || "").startsWith("en-") ? "en-" : ""}analysis-${slug(section.id || "section")}`;
+      (section.paragraphs || []).forEach((paragraph, index) => {
+        const score = paragraphScore(tokens, paragraph);
+        if (score > bestScore) {
+          bestSection = sectionId;
+          bestIndex = index + 1;
+          bestScore = score;
+        }
+      });
+    }
+    return bestScore >= 3 && bestSection ? `${bestSection}-p${bestIndex}` : fallbackSection;
+  };
+  const flattenSummarySignals = (values, note, fallbackSection, fallbackTitle, rows) => {
+    const items = Array.isArray(values) ? values.flat(Infinity) : [values];
+    items.forEach((value) => {
+      if (typeof value !== "string" && typeof value !== "number") {
+        flatten(value, fallbackSection, fallbackTitle, rows);
+        return;
+      }
+      const text = String(value || "").trim();
+      if (!text) return;
+      const target = contextualAnalysisTarget(note, text, fallbackSection);
+      rows.push({ section: target, title: fallbackTitle, text });
+    });
+  };
 
   const addNoteRows = (rows, item, note, lang) => {
     const before = rows.length;
     const prefix = lang === "en" ? "en-" : "";
     const headline = note.headline || {};
-    flatten([headline.primary, headline.secondary, note.summary], prefix + "overview", lang === "en" ? "Overview" : "今日盤勢", rows);
+    flattenSummarySignals(
+      [headline.primary, headline.secondary, note.summary],
+      note,
+      prefix + "overview",
+      lang === "en" ? "Overview" : "今日盤勢",
+      rows
+    );
     flatten(note.regime_strip, prefix + "overview", "Regime", rows);
     flatten(normalizedPositioningForSearch(note, lang), prefix + "overview", lang === "en" ? "Positioning" : "配置重點", rows);
     flatten(note.driver_decomposition, prefix + "drivers", lang === "en" ? "Market Drivers" : "市場驅動", rows);
