@@ -287,8 +287,8 @@
       resultsEl.innerHTML = `<div class="search-count">${escapeHtml(label)}<button type="button" data-expand-search-results>${escapeHtml(action)}</button></div>`;
       return;
     }
-    const compactLimit = window.innerWidth < 768 ? 4 : window.innerWidth < 1200 ? 5 : 24;
-    const expandedLimit = window.innerWidth < 768 ? 8 : window.innerWidth < 1200 ? 10 : matches.length;
+    const compactLimit = window.innerWidth < 768 ? 2 : window.innerWidth < 1200 ? 3 : 24;
+    const expandedLimit = window.innerWidth < 768 ? 4 : window.innerWidth < 1200 ? 5 : matches.length;
     const limit = state.searchExpanded ? expandedLimit : compactLimit;
     const visibleMatches = matches.slice(0, limit);
     const countLabel = state.language === "en"
@@ -494,20 +494,28 @@
     return "";
   };
 
-  const setActiveNav = (base) => {
+  const centerActiveNavChip = (active) => {
+    if (!active || window.innerWidth >= 1200) return;
+    const nav = active.closest(".section-nav");
+    if (!nav) return;
+    const navRect = nav.getBoundingClientRect();
+    const activeRect = active.getBoundingClientRect();
+    const nextLeft = nav.scrollLeft + (activeRect.left - navRect.left) - ((nav.clientWidth - activeRect.width) / 2);
+    nav.scrollTo({ left: Math.max(0, nextLeft), behavior: "auto" });
+  };
+
+  const setActiveNav = (base, { centerChip = false } = {}) => {
     if (!base) return;
     navLinks.forEach((link) => {
       link.classList.toggle("is-current", link.dataset.sectionBase === base);
     });
     const active = navLinks.find((link) => link.dataset.sectionBase === base);
-    if (active && window.innerWidth < 1200) {
-      active.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
-    }
+    if (centerChip) centerActiveNavChip(active);
   };
 
   const syncActiveNavFromHash = () => {
     const hash = decodeURIComponent((location.hash || "").replace(/^#/, ""));
-    setActiveNav(navBaseFromId(hash));
+    setActiveNav(navBaseFromId(hash), { centerChip: true });
   };
 
   const syncActiveNavFromScroll = () => {
@@ -579,7 +587,6 @@
 	    const compactToolsQuery = window.matchMedia("(max-width: 1199px)");
 	    let lastY = window.scrollY;
 	    let ticking = false;
-	    let syncTimer = null;
 	    const isDateMenuOpen = () => dateMenus.some((menu) => menu.open);
 	    const activeField = () => {
 	      const active = document.activeElement;
@@ -593,8 +600,8 @@
 	      toolsEl.classList.remove("is-hidden");
 	      toolsEl.removeAttribute("data-tools-hidden");
 	    };
-	    const hideTools = ({ force = false } = {}) => {
-	      if (window.scrollY > 96 && (force || !isUsingTools())) {
+	    const hideTools = () => {
+	      if (window.scrollY > 96 && !isUsingTools()) {
 	        toolsEl.classList.add("is-hidden");
 	        toolsEl.setAttribute("data-tools-hidden", "true");
 	      }
@@ -608,11 +615,7 @@
       const y = window.scrollY;
       const delta = y - lastY;
       if (y < 72) showTools();
-      else if (delta > 14 && !isDateMenuOpen()) {
-        const field = activeField();
-        if (field) field.blur();
-        hideTools({ force: true });
-      }
+      else if (delta > 14) hideTools();
       else if (delta < -18) showTools();
       lastY = y;
     };
@@ -628,17 +631,6 @@
 	      syncNavForLanguage();
 	      sync();
 	    });
-	    const syncPolling = () => {
-	      if (compactToolsQuery.matches && syncTimer === null) {
-	        syncTimer = window.setInterval(sync, 180);
-	      } else if (!compactToolsQuery.matches && syncTimer !== null) {
-	        window.clearInterval(syncTimer);
-	        syncTimer = null;
-	      }
-	    };
-	    if (typeof compactToolsQuery.addEventListener === "function") {
-	      compactToolsQuery.addEventListener("change", syncPolling);
-	    }
 	    bar.addEventListener("focusin", showTools);
 	    resultsEl.addEventListener("click", showTools);
 	    document.querySelectorAll(".section-nav a").forEach((link) => {
@@ -647,7 +639,6 @@
 	        setTimeout(hideTools, 260);
 	      });
 	    });
-	    syncPolling();
 	    sync();
 	  };
 
@@ -658,7 +649,7 @@
       history.pushState(null, "", href);
       syncActiveNavFromHash();
       scrollToHashTarget();
-      if (activeBase) window.setTimeout(() => setActiveNav(activeBase), 80);
+      if (activeBase) window.setTimeout(() => setActiveNav(activeBase, { centerChip: true }), 80);
     };
     document.addEventListener("click", (event) => {
       const link = event.target.closest('a[href^="#"][data-search-section], a[href^="#"][data-nav-link]');

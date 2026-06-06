@@ -306,7 +306,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
 	  .task-nav-inner { position: relative; border-left: 0; border-right: 0; border-top: 0; border-radius: 0 0 6px 6px; padding: 10px 12px; }
 	  .command-bar { grid-template-columns: 148px minmax(240px, 1fr) 94px 138px; gap: 8px; align-items: end; padding-bottom: 8px; }
 	  .search-box button { min-width: 56px; }
-	  .search-results { position: absolute; left: 12px; right: 12px; top: calc(100% + 6px); z-index: 90; grid-column: auto; max-height: min(38vh, 280px); overflow: auto; border: 1px solid var(--line); border-top: 1px solid var(--line); padding: 9px; background: #fff; border-radius: 4px; box-shadow: var(--shadow-panel); }
+	  .search-results { position: absolute; left: 12px; right: 12px; top: calc(100% + 6px); z-index: 90; grid-column: auto; max-height: none; overflow: visible; border: 1px solid var(--line); border-top: 1px solid var(--line); padding: 9px; background: #fff; border-radius: 4px; box-shadow: var(--shadow-panel); }
 	  .command-bar[data-search-results-active="true"] + .section-nav { display: none; }
 	  .language-toggle, .command-links { align-self: end; }
   .section-nav { display: flex; gap: 7px; overflow-x: auto; padding-top: 8px; border-top: 1px solid #e1e8ef; scrollbar-width: thin; scrollbar-color: #cbd8e3 transparent; }
@@ -379,7 +379,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .section-nav a { flex: 0 0 auto; display: inline-flex; align-items: center; min-height: 40px; border: 1px solid #d7e0ea; background: #f7fafc; padding: 9px 10px; border-radius: 4px; }
   .section-nav a strong { font-size: 12.25px; line-height: 1.24; }
   .section-nav a span { display: none; }
-	  .search-results { position: absolute; left: 9px; right: 9px; top: calc(100% + 6px); z-index: 90; grid-column: auto; max-height: min(34vh, 210px); overflow: auto; border: 1px solid var(--line); padding: 8px; background: #fff; box-shadow: var(--shadow-panel); }
+	  .search-results { position: absolute; left: 9px; right: 9px; top: calc(100% + 6px); z-index: 90; grid-column: auto; max-height: none; overflow: visible; border: 1px solid var(--line); padding: 8px; background: #fff; box-shadow: var(--shadow-panel); }
 	  .search-result { gap: 4px; padding: 8px 9px; }
 	  .search-result strong { -webkit-line-clamp: 2; font-size: 12.75px; line-height: 1.42; }
 	  .search-result-meta { gap: 4px; }
