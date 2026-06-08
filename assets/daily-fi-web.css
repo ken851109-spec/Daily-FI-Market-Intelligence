@@ -215,7 +215,7 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .pulse-card-global_cb, .pulse-card-credit { border-left-color: #95a5b5; }
 .pulse-head { display: grid; gap: 4px; min-width: 0; max-width: 100%; }
 .pulse-channel { margin-bottom: 0; }
-.pulse-card h3 { color: #667587; font-size: 14.25px; line-height: 1.3; font-weight: 760; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: break-word; }
+.pulse-card h3 { color: var(--ink); font-size: 17.5px; line-height: 1.25; font-weight: 860; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: break-word; text-wrap: balance; }
 .pulse-facts { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 7px; margin-top: 0; min-width: 0; max-width: 100%; overflow: visible; }
 .pulse-value { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: clamp(22.5px, 1.45vw, 25px); line-height: 1.15; font-weight: 940; overflow-wrap: anywhere; word-break: break-word; text-wrap: balance; }
 .pulse-source { display: block; flex: 1 1 100%; width: 100%; min-width: 0; max-width: 100%; box-sizing: border-box; padding: 3px 6px; border: 1px solid #d8e1e9; background: #f7fafc; color: var(--text); font-size: 12.25px; line-height: 1.34; font-weight: 720; white-space: normal; overflow-wrap: anywhere; word-break: break-word; }
@@ -481,7 +481,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .card-detail summary { min-height: 44px; font-size: 12.5px; }
   .card-detail summary::after { width: 24px; height: 24px; font-size: 16px; }
   .driver-card > p, .asset-card p, .asia-card p, .event-card p, .trigger-card p { font-size: 14.75px; line-height: 1.58; }
-  .driver-card h3, .pulse-card h3 { font-size: 13.5px; }
+  .pulse-card h3 { font-size: 16.5px; line-height: 1.25; }
   .driver-card .driver-signal { font-size: 21.75px; line-height: 1.18; }
   .pulse-value { font-size: 21.75px; line-height: 1.17; }
   .pulse-source { font-size: 12.25px; }
