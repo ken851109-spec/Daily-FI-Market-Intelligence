@@ -444,6 +444,7 @@
 
   const isVisibleElement = (el) => {
     if (!el) return false;
+    if (el.closest("[hidden], [inert]")) return false;
     const rect = el.getBoundingClientRect();
     const style = getComputedStyle(el);
     return rect.width > 0 && rect.height > 0 && style.display !== "none" && style.visibility !== "hidden";
@@ -512,9 +513,10 @@
     const activePanel = document.querySelector(`[data-lang-panel="${state.language}"]`);
     const scope = activePanel || document;
     const candidates = [];
-    const byId = document.getElementById(hash);
+    const scopedElementById = (id) => scope.querySelector(`[id="${cssEscape(id)}"]`);
+    const byId = scopedElementById(hash);
     if (byId) candidates.push(byId);
-    const byMobileId = document.getElementById(`${hash}-mobile`);
+    const byMobileId = scopedElementById(`${hash}-mobile`);
     if (byMobileId) candidates.push(byMobileId);
     scope.querySelectorAll("[data-search-section], [data-search-parent]").forEach((el) => {
       if (el.tagName === "A") return;
@@ -558,12 +560,16 @@
     if (!query) return;
     const needle = normalize(query);
     const activePanel = document.querySelector(`[data-lang-panel="${state.language}"]`);
-    const targets = activePanel ? activePanel.querySelectorAll(".task-section, .right-rail") : document.querySelectorAll(".task-section, .right-rail");
+    const searchScope = activePanel || document;
+    const targets = Array.from(searchScope.querySelectorAll(".task-section, .right-rail"))
+      .filter(isVisibleElement);
     for (const target of targets) {
       const walker = document.createTreeWalker(target, NodeFilter.SHOW_TEXT, {
         acceptNode(node) {
           const parent = node.parentElement;
-          if (!parent || parent.closest("script, style, mark, .command-bar")) return NodeFilter.FILTER_REJECT;
+          if (!parent || parent.closest("script, style, mark, .command-bar, [hidden], [inert]")) return NodeFilter.FILTER_REJECT;
+          const closedDetails = parent.closest("details:not([open])");
+          if (closedDetails && !parent.closest("summary")) return NodeFilter.FILTER_REJECT;
           return normalize(node.nodeValue).includes(needle) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
         }
       });
@@ -589,7 +595,7 @@
         node.replaceWith(frag);
       }
     }
-    const first = document.querySelector("mark.search-hit");
+    const first = searchScope.querySelector("mark.search-hit");
     if (first && !location.hash) first.scrollIntoView({ block: "center" });
     if (location.hash) scrollToHashTarget();
   };
