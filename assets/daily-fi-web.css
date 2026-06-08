@@ -152,12 +152,14 @@ html.has-scroll-reveal [data-animate-card].is-revealed.is-card-active { transfor
 .position-card { border-left: 3px solid var(--orange); display: grid; align-content: start; }
 .position-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; min-width: 0; }
 .position-card-head .card-kicker { min-width: 0; padding-top: 3px; }
-.position-meta-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 8px; }
-.position-card .marker, .position-stance { display: inline-flex; align-items: center; gap: 5px; min-width: 0; max-width: 100%; padding: 5px 8px; background: #eaf0f5; border: 1px solid var(--line); color: var(--ink); font-size: 12.25px; line-height: 1.2; font-weight: 800; overflow-wrap: anywhere; }
+.position-card .marker, .position-action-detail span { display: inline-flex; align-items: center; gap: 5px; min-width: 0; max-width: 100%; padding: 5px 8px; background: #eaf0f5; border: 1px solid var(--line); color: var(--ink); font-size: 12.25px; line-height: 1.2; font-weight: 800; overflow-wrap: anywhere; }
 .position-card .marker { flex: 0 1 auto; justify-content: center; text-align: center; }
-.position-decision-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); gap: 8px; margin-top: 10px; padding-top: 10px; border-top: 1px solid #e4ebf2; }
-.position-evidence, .position-trigger { margin: 0; color: var(--text); font-size: 12.65px; line-height: 1.44; font-weight: 640; overflow-wrap: anywhere; }
+.position-decision-grid { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; padding-top: 9px; border-top: 1px solid #e4ebf2; }
+.position-evidence, .position-trigger, .position-action-detail { margin: 0; color: var(--text); font-size: 12.65px; line-height: 1.44; font-weight: 640; overflow-wrap: anywhere; }
+.position-evidence { display: inline-flex; align-items: center; width: fit-content; max-width: 100%; padding: 4px 7px; border: 1px solid #dbe5ee; background: #f5f8fb; color: var(--ink); font-weight: 800; }
 .position-evidence strong, .position-trigger strong { display: block; color: var(--text); font-size: 12.85px; line-height: 1.45; font-weight: 650; }
+.position-detail-body { display: grid; gap: 8px; padding-top: 6px; }
+.position-action-detail { display: grid; gap: 6px; }
 .position-trigger { border-left: 2px solid #d7ad82; padding-left: 8px; }
 dl { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 8px 12px; margin: 13px 0 0; }
 dt { color: var(--muted); font-size: 12.25px; font-weight: 800; }
@@ -216,6 +218,7 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .card-detail summary::-webkit-details-marker { display: none; }
 .card-detail summary::after { content: "+"; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 18px; height: 18px; border: 1px solid #cfdbe5; color: var(--muted); background: #f7fafc; font-size: 14px; line-height: 1; font-weight: 850; transition: transform .18s ease, background .18s ease, color .18s ease; }
 .card-detail[open] summary::after { content: "−"; background: #eef4f8; color: var(--navy); transform: rotate(180deg); }
+.card-detail:not([open]) > :not(summary) { display: none !important; }
 .card-detail summary:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }
 .pulse-detail { margin: 6px 0 0; padding-top: 6px; border-top: 1px solid #edf2f6; color: var(--text); font-size: 12.9px; line-height: 1.5; opacity: .9; overflow-wrap: anywhere; word-break: break-word; animation: detailFade .18s ease; }
 .asset-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; }
