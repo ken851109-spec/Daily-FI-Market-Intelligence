@@ -122,13 +122,13 @@ h3 { margin: 0; color: var(--ink); font-size: 17.75px; line-height: 1.3; font-we
 .section-head { padding: 7px 13px; border-bottom: 1px solid var(--line); background: #fbfcfd; }
 .section-head h2 { padding-left: 7px; border-left: 2px solid #d7e0e8; color: #728190; font-size: 10.75px; line-height: 1.22; font-weight: 680; }
 .section-head .section-takeaway { margin: 4px 0 0 9px; color: #596d80; font-size: 12.75px; line-height: 1.44; font-weight: 590; text-transform: none; max-width: 860px; overflow-wrap: anywhere; }
-.regime-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: #fff; }
+.regime-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); background: #fff; }
 .regime-chip { display: block; min-width: 0; padding: 13px 14px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); color: inherit; text-decoration: none; transition: border-color .16s ease, background .16s ease, box-shadow .16s ease, transform .16s ease; }
 .regime-chip:hover { background: #f7fafc; box-shadow: 0 5px 14px rgba(17,41,61,.06); transform: translateY(-1px); }
 .regime-chip:focus-visible { outline: 2px solid var(--orange); outline-offset: -2px; }
-.regime-chip strong { display: block; margin-top: 5px; color: var(--ink); font-size: 31px; line-height: 1.08; font-weight: 950; overflow-wrap: break-word; word-break: normal; }
-.regime-chip[data-executive-role="trigger"] strong { font-size: 28.5px; line-height: 1.12; }
-.chip-marker { display: inline-block; width: fit-content; max-width: 100%; margin-top: 8px; padding: 4px 8px; border: 1px solid #d9e3eb; background: #f4f8fb; color: var(--text); font-size: 18.25px; line-height: 1.28; font-weight: 880; overflow-wrap: anywhere; }
+.regime-chip strong { display: block; max-width: 100%; margin-top: 5px; color: var(--ink); font-size: 28px; line-height: 1.1; font-weight: 950; overflow-wrap: anywhere; word-break: normal; text-wrap: balance; }
+.regime-chip[data-executive-role="trigger"] strong { font-size: 26px; line-height: 1.14; }
+.chip-marker { display: inline-block; width: fit-content; max-width: 100%; margin-top: 8px; padding: 4px 8px; border: 1px solid #d9e3eb; background: #f4f8fb; color: var(--text); font-size: 16px; line-height: 1.28; font-weight: 840; overflow-wrap: anywhere; word-break: normal; }
 .chip-meta { display: block; margin-top: 7px; color: var(--text); font-size: 14.5px; line-height: 1.42; font-weight: 720; }
 .position-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; align-items: stretch; }
 .thesis-map { background: #fff; }
@@ -162,7 +162,7 @@ html.has-scroll-reveal [data-animate-card].is-revealed.is-card-active { transfor
 .position-card { border-left: 3px solid var(--orange); display: grid; align-content: start; }
 .position-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; min-width: 0; }
 .position-card-head .card-kicker { min-width: 0; padding-top: 3px; }
-.position-card h3 { margin-top: 6px; font-size: 24.5px; line-height: 1.17; font-weight: 940; }
+.position-card h3 { margin-top: 6px; max-width: 100%; font-size: 23.5px; line-height: 1.18; font-weight: 940; overflow-wrap: anywhere; text-wrap: balance; }
 .position-trigger { margin: 0; color: var(--ink); font-size: 19.25px; line-height: 1.42; font-weight: 800; overflow-wrap: anywhere; }
 .position-trigger strong { display: block; color: var(--ink); font-size: 19.25px; line-height: 1.4; font-weight: 850; }
 .position-detail-body { display: grid; gap: 8px; padding-top: 6px; }
@@ -217,7 +217,7 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .pulse-channel { margin-bottom: 0; }
 .pulse-card h3 { color: #435465; font-size: 13px; line-height: 1.28; font-weight: 720; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: break-word; }
 .pulse-facts { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 7px; margin-top: 0; min-width: 0; max-width: 100%; overflow: visible; }
-.pulse-value { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: 27px; line-height: 1.13; font-weight: 950; overflow-wrap: anywhere; word-break: break-word; }
+.pulse-value { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: 25.5px; line-height: 1.15; font-weight: 950; overflow-wrap: anywhere; word-break: normal; text-wrap: balance; }
 .pulse-source { display: block; flex: 1 1 100%; width: 100%; min-width: 0; max-width: 100%; box-sizing: border-box; padding: 3px 6px; border: 1px solid #d8e1e9; background: #f3f7fa; color: var(--text); font-size: 13px; line-height: 1.3; font-weight: 780; white-space: normal; overflow-wrap: anywhere; word-break: break-word; }
 .card-detail { margin-top: 2px; min-width: 0; max-width: 100%; border-top: 1px solid #e6edf3; }
 .card-detail summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 42px; padding: 9px 0 0; color: var(--navy-2); font-size: 12.75px; line-height: 1.25; font-weight: 850; cursor: pointer; }
@@ -242,7 +242,7 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .driver-card h3 { margin: 0; color: #435465; font-size: 13px; line-height: 1.3; font-weight: 720; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: break-word; }
 .driver-evidence-grid { display: grid; gap: 5px; margin-top: 2px; min-width: 0; max-width: 100%; }
 .driver-source, .driver-signal { margin: 0; color: var(--text); font-size: 12.5px; line-height: 1.44; font-weight: 740; overflow-wrap: anywhere; }
-.driver-card .driver-signal { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: 27px; line-height: 1.16; font-weight: 950; text-transform: none; overflow-wrap: anywhere; word-break: break-word; }
+.driver-card .driver-signal { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: 25.5px; line-height: 1.17; font-weight: 950; text-transform: none; overflow-wrap: anywhere; word-break: normal; text-wrap: balance; }
 .driver-topic { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.35; font-weight: 740; overflow-wrap: anywhere; word-break: break-word; }
 .driver-read { margin: 6px 0 0; padding-top: 6px; border-top: 1px solid #edf2f6; color: var(--text); font-size: 16px; line-height: 1.56; font-weight: 750; opacity: .96; overflow-wrap: anywhere; word-break: break-word; animation: detailFade .18s ease; }
 @keyframes detailFade { from { opacity: 0; transform: translateY(-2px); } to { opacity: .9; transform: translateY(0); } }
@@ -448,9 +448,9 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .regime-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; padding: 8px; background: var(--surface-soft); }
   .regime-chip { border: 1px solid var(--line); border-radius: 4px; background: #fff; padding: 9px 10px; }
   .regime-chip[data-executive-role="trigger"] { grid-column: 1 / -1; }
-  .regime-chip strong { font-size: 25.5px; line-height: 1.12; overflow-wrap: normal; word-break: keep-all; }
-  .regime-chip[data-executive-role="trigger"] strong { font-size: 24px; line-height: 1.14; }
-  .chip-marker { margin-top: 6px; padding: 4px 6px; font-size: 17px; line-height: 1.28; }
+  .regime-chip strong { font-size: 23.5px; line-height: 1.12; overflow-wrap: anywhere; word-break: normal; }
+  .regime-chip[data-executive-role="trigger"] strong { font-size: 22.5px; line-height: 1.14; }
+  .chip-marker { margin-top: 6px; padding: 4px 6px; font-size: 15.25px; line-height: 1.28; font-weight: 830; }
   .chip-meta { display: none; }
   .thesis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; overflow: visible; scroll-snap-type: none; scrollbar-width: auto; padding: 8px; }
   .thesis-card { min-width: 0; flex: initial; scroll-snap-align: none; }
@@ -462,7 +462,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .thesis-card h3 { font-size: 16.75px; line-height: 1.24; }
   .position-card dl { grid-template-columns: 72px minmax(0, 1fr); gap: 4px 8px; }
   .position-card, .driver-card, .asset-card, .asia-card, .analysis-card, .trigger-card, .event-card, .pulse-card { padding: 12px; }
-  .position-card h3 { font-size: 22.5px; line-height: 1.2; }
+  .position-card h3 { font-size: 21.5px; line-height: 1.2; }
   dl { grid-template-columns: 1fr; gap: 4px; }
   dt { font-size: 11.75px; }
   dd { font-size: 13.25px; line-height: 1.52; }
@@ -480,8 +480,8 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .card-detail summary::after { width: 24px; height: 24px; font-size: 16px; }
   .driver-card > p, .asset-card p, .asia-card p, .event-card p, .trigger-card p { font-size: 14.25px; line-height: 1.58; }
   .driver-card h3, .pulse-card h3 { font-size: 12.75px; }
-  .driver-card .driver-signal { font-size: 24px; line-height: 1.18; }
-  .pulse-value { font-size: 24.5px; line-height: 1.15; }
+  .driver-card .driver-signal { font-size: 23px; line-height: 1.2; }
+  .pulse-value { font-size: 23px; line-height: 1.18; }
   .pulse-source { font-size: 12.25px; }
   .driver-read, .pulse-detail { font-size: 15.25px; line-height: 1.54; }
   .asset-level { font-size: 17.75px !important; }
@@ -500,6 +500,8 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
 }
 
 @media (max-width: 430px) {
+  .regime-strip { grid-template-columns: 1fr; }
+  .regime-chip[data-executive-role="trigger"] { grid-column: auto; }
   .thesis-grid { grid-template-columns: 1fr; }
 }
 
