@@ -772,6 +772,7 @@
         navigateHash(href);
         return;
       }
+      if (event.target.closest(".card-detail, summary")) return;
       const card = event.target.closest("[data-card-href]");
       if (!card) return;
       event.preventDefault();
@@ -781,7 +782,7 @@
     document.addEventListener("keydown", (event) => {
       if (event.key !== "Enter" && event.key !== " ") return;
       const card = event.target.closest("[data-card-href]");
-      if (!card || event.target.closest("input, select, textarea, button, a")) return;
+      if (!card || event.target.closest("input, select, textarea, button, a, summary, .card-detail")) return;
       event.preventDefault();
       activateCard(card);
       navigateHash(card.dataset.cardHref || "");
