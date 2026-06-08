@@ -298,6 +298,28 @@
     const suffix = end < source.length ? "..." : "";
     return prefix + source.slice(start, end) + suffix;
 	  };
+  const sectionFamilyLabel = (section, lang) => {
+    const clean = navBaseFromId(String(section || ""));
+    const zh = {
+      overview: "總覽",
+      positioning: "配置",
+      rates: "利率",
+      drivers: "驅動",
+      "risk-monitor": "風險",
+      "cross-asset": "跨資產",
+      "investment-read": "正文",
+    };
+    const en = {
+      overview: "Overview",
+      positioning: "Positioning",
+      rates: "Rates",
+      drivers: "Drivers",
+      "risk-monitor": "Risk",
+      "cross-asset": "Cross Asset",
+      "investment-read": "Read",
+    };
+    return (lang === "en" ? en : zh)[clean] || (lang === "en" ? "Report" : "報告");
+  };
 	  const effectiveSearchQuery = (value) => {
 	    const query = String(value || "").trim();
 	    return query.length >= MIN_SEARCH_CHARS ? query : "";
@@ -357,8 +379,9 @@
         const href = `${baseHref}${joiner}q=${encodeURIComponent(state.query)}${langParam}#${encodeURIComponent(row.section || "overview")}`;
         const langLabel = row.lang === "en" ? "EN" : "中文";
         const titleLabel = row.title || (state.language === "en" ? "Passage" : "段落");
+        const familyLabel = sectionFamilyLabel(row.section, row.lang || "zh");
         return `<a class="search-result" href="${escapeHtml(href)}">` +
-          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span></span>\n` +
+          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span></span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
           "</a>";
       })
@@ -455,6 +478,22 @@
     highlightHashTarget(target);
   };
 
+  const escapeRegExp = (value) => String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const exactMatchRanges = (text, query) => {
+    const ranges = [];
+    const regex = new RegExp(escapeRegExp(query), "gi");
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+      ranges.push([match.index, match.index + match[0].length]);
+      if (match[0].length === 0) regex.lastIndex += 1;
+    }
+    return ranges;
+  };
+  const normalizedFallbackRange = (text, query) => {
+    const idx = normalize(text).indexOf(normalize(query));
+    return idx >= 0 ? [[idx, Math.min(text.length, idx + query.length)]] : [];
+  };
+
   const highlightPage = (query) => {
     clearHighlights();
     if (!query) return;
@@ -473,13 +512,21 @@
       while (walker.nextNode()) nodes.push(walker.currentNode);
       for (const node of nodes) {
         const text = node.nodeValue || "";
-        const idx = normalize(text).indexOf(needle);
-        if (idx < 0) continue;
-        const mark = document.createElement("mark");
-        mark.className = "search-hit";
-        mark.textContent = text.slice(idx, idx + query.length);
+        const exactRanges = exactMatchRanges(text, query);
+        const ranges = exactRanges.length ? exactRanges : normalizedFallbackRange(text, query);
+        if (!ranges.length) continue;
         const frag = document.createDocumentFragment();
-        frag.append(text.slice(0, idx), mark, text.slice(idx + query.length));
+        let cursor = 0;
+        for (const [start, end] of ranges) {
+          if (start < cursor) continue;
+          frag.append(text.slice(cursor, start));
+          const mark = document.createElement("mark");
+          mark.className = "search-hit";
+          mark.textContent = text.slice(start, end);
+          frag.append(mark);
+          cursor = end;
+        }
+        frag.append(text.slice(cursor));
         node.replaceWith(frag);
       }
     }
