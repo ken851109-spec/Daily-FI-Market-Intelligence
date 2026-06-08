@@ -1004,6 +1004,17 @@
       }
     }
   });
+  document.addEventListener("click", (event) => {
+    if (!effectiveSearchQuery(input.value) || resultsEl.hidden) return;
+    const target = event.target;
+    if (bar.contains(target) || resultsEl.contains(target)) return;
+    hideSearchForReading();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !effectiveSearchQuery(input.value) || resultsEl.hidden) return;
+    event.preventDefault();
+    hideSearchForReading();
+  });
 	  clearButton.addEventListener("click", () => {
 	    input.value = "";
 	    state.searchExpanded = false;
