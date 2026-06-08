@@ -3,9 +3,9 @@
   "label": "2026-06-04 close",
   "title": "Daily FI Market Tape | 2026-06-04 close",
   "summary": [
-    "UST 走出 front-end / belly relief：2Y 4.05%、10Y 4.47%、30Y 4.97%，2s10s 小幅轉陡至 42bp，5s30s 至 79bp。",
+    "UST 走出 前端 / 中段修復：2Y 4.05%、10Y 4.47%、30Y 4.97%，2s10s 小幅轉陡至 42bp，5s30s 至 79bp。",
     "Jobless claims 升至 225k、高於 211k 預期，油價回落近 3%，使前端升息溢價降溫，但 Fed 官員仍保留雙向反應。",
-    "S&P 500 +0.4%、Dow +1.7% 創高、Nasdaq -0.1%，Broadcom 牽動 AI rotation，市場不是全面 risk-off，而是 leadership broadening。",
+    "S&P 500 +0.4%、Dow +1.7% 創高、Nasdaq -0.1%，Broadcom 牽動 AI rotation，市場不是全面 傳統避險，而是 leadership broadening。",
     "配置上以 5Y-10Y 中段逐步回補、長端不追；Credit 偏 IG 與結構清楚收益，TWD 海外債 ETF 把美元支撐視為 FX 助益，等待 WTI 低於 92 與利率 / 利差確認。"
   ],
   "headline": {
@@ -18,7 +18,7 @@
       "value": "2Y/5Y -3bp，前端壓力降溫"
     },
     {
-      "label": "Curve",
+      "label": "曲線",
       "value": "2s10s 回到 42bp，rally 轉陡"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "label": "Oil",
-      "value": "油價跌離 95 trigger，前端通膨壓力降溫"
+      "value": "油價跌離 95 觸發門檻，前端通膨壓力降溫"
     },
     {
       "label": "USD",
@@ -40,22 +40,22 @@
   ],
   "positioning": [
     {
-      "label": "Duration",
-      "view": "neutral-to-slight-long",
+      "label": "久期",
+      "view": "中性偏多",
       "best_expression": "分批加 5Y-10Y，不追長端。",
       "risk_trigger": "10Y 上破 4.55% 或非農高於 +125k 停止加碼。"
     },
     {
-      "label": "Curve",
+      "label": "曲線",
       "view": "mild steepening bias",
       "best_expression": "用 5Y-10Y relief，30Y 小比例。",
-      "risk_trigger": "30Y 上破 5.05% 代表 term premium 回來。"
+      "risk_trigger": "30Y 上破 5.05% 代表 期限溢價 回來。"
     },
     {
       "label": "Credit / ETF",
-      "view": "IG carry、selective beta",
-      "best_expression": "偏好 IG、utility、financials、infrastructure paper。",
-      "risk_trigger": "HY 或 private credit 新券讓利擴大即降 beta。"
+      "view": "IG carry、selective 曝險",
+      "best_expression": "偏好 IG、utility、financials、infrastructure 券種。",
+      "risk_trigger": "HY 或 私募信貸 新券讓利擴大即降 曝險。"
     },
     {
       "label": "FX / NAV",
@@ -87,14 +87,14 @@
       "fi_impact": "風險廣度改善，UST rally 不是衰退避險。"
     },
     {
-      "driver": "全球 Duration",
+      "driver": "全球 久期",
       "signal": "日本薪資轉強；RBA 看到升息生效；紐西蘭標售需求強。",
       "fi_impact": "中段可承接，但全球長端供給與政策正常化限制 30Y。"
     },
     {
       "driver": "Credit funding",
       "signal": "美國 IG 供給 1 兆美元；Schneider 8 億歐元 CB；AI debt 超過 3,700 億美元。",
-      "fi_impact": "高品質供給可清盤，但長天期資本需求使 term premium 黏著。"
+      "fi_impact": "高品質供給可清盤，但長天期資本需求使 期限溢價 黏著。"
     }
   ],
   "monitor_blocks": {
@@ -102,12 +102,12 @@
       {
         "label": "10Y UST",
         "value": "4.45% / 4.55%",
-        "detail": "下破確認中段 rally；上破停止加 Duration。"
+        "detail": "下破確認中段 rally；上破停止加 久期。"
       },
       {
         "label": "30Y UST",
         "value": "5.05%",
-        "detail": "上破代表 long-end reset 風險回來。"
+        "detail": "上破代表 長端 reset 風險回來。"
       },
       {
         "label": "WTI",
@@ -129,7 +129,7 @@
       {
         "label": "BOJ",
         "value": "6/15-16",
-        "detail": "薪資數據使 25bp hike 成為 live event。"
+        "detail": "薪資數據使 25bp hike 成為 即時事件。"
       },
       {
         "label": "FOMC",
@@ -161,7 +161,7 @@
   "market_tables": [
     {
       "id": "rates_and_curves",
-      "title": "UST / Curve",
+      "title": "UST / 曲線",
       "columns": [
         "項目",
         "收盤",
@@ -260,7 +260,7 @@
           "label": "DXY",
           "value": "99.22",
           "change": "-0.3%",
-          "note": "美元回落會減少 TWD NAV 的匯率換算助益。非美 Duration 與亞洲政策壓力則同步降低。"
+          "note": "美元回落會減少 TWD NAV 的匯率換算助益。非美 久期 與亞洲政策壓力則同步降低。"
         },
         {
           "label": "WTI",
@@ -275,7 +275,7 @@
           "note": "美元走弱與地緣不確定支撐避險，但未阻止風險廣度改善。"
         },
         {
-          "label": "Credit proxy",
+          "label": "Credit 代理指標",
           "value": "LQD 108.85",
           "change": "+0.21%",
           "note": "IG 量化訊號改善：rates relief 與穩定 spread 可支持高品質收益，但仍要看新券 concession。"
@@ -308,13 +308,13 @@
           "label": "Payrolls",
           "value": "周五待公布",
           "expected": "+85k、失業率 4.3%、AHE +0.3% m/m",
-          "note": "若就業未放緩，Fed optionality 會重新壓回 2Y-5Y。"
+          "note": "若就業未放緩，Fed 政策選擇權 會重新壓回 2Y-5Y。"
         },
         {
           "label": "Fed",
           "value": "Daly 稱可雙向反應；Logan 保留今年升息可能",
           "expected": "6/16-17 FOMC",
-          "note": "官員未把油價視為單一路徑，聲明文字仍是前端 trigger。"
+          "note": "官員未把油價視為單一路徑，聲明文字仍是前端 觸發門檻。"
         },
         {
           "label": "Japan wages",
@@ -332,7 +332,7 @@
           "label": "Europe CB",
           "value": "Czech CPI 2.1%；Sweden CPIF ex-energy +0.5%",
           "expected": "Czech 2.3%；Riksbank 0.9% projection",
-          "note": "歐洲不是同步升息，核心/服務與 FX 穩定度決定各國 Duration。"
+          "note": "歐洲不是同步升息，核心/服務與 FX 穩定度決定各國 久期。"
         },
         {
           "label": "Asia FX",
@@ -350,7 +350,7 @@
           "label": "Sovereign / muni",
           "value": "Zambia 2053 債約 82.14c；Nassau tobacco 2046 約 58.5c",
           "expected": "Zambia 或提高至 85c；coupon 0.5% 可能升至 7.5%",
-          "note": "主權條款與結構性收入下滑使 credit beta 分化。"
+          "note": "主權條款與結構性收入下滑使 信用曝險 分化。"
         },
         {
           "label": "MBS convexity",
@@ -367,13 +367,13 @@
       "title": "一、美債收盤與曲線變化",
       "takeaway": "UST 是前端與中段 relief、長端仍黏著的 mild steepening。",
       "paragraphs": [
-        "美債收盤的盤面定義是 front-end / belly relief，而不是乾淨的長端 bull flattening。2Y 收 4.05%、日降 3bp，5Y 收 4.18%、日降 3bp，10Y 收 4.47%、日降 2bp，20Y 收 4.98%、30Y 收 4.97%，兩端都回落但前端與中段更明顯。2s10s 小幅轉陡至 42bp、5s30s 至 79bp，代表市場先把申請失業救濟與油價回落反映到政策敏感段，長端 term premium 仍沒有完全退場。",
-        "官方 CMT 的周/月變化顯示，這次回落只是把前一日的升息溢價修正一部分，尚未改變整個月的高利率背景。2Y 一周仍升 7bp、月升 12bp，5Y 一周升 5bp、月升 10bp，10Y 一周升 2bp、月升 4bp；30Y 一周低 2bp、月低 1bp。Curve 上 2s10s 一周仍收斂 5bp、月內收斂 8bp，配置不宜把一天的 relief 誤解成 Fed 已重新回到降息路徑。",
+        "美債收盤的盤面定義是 前端 / 中段修復，而不是乾淨的長端 多頭壓平。2Y 收 4.05%、日降 3bp，5Y 收 4.18%、日降 3bp，10Y 收 4.47%、日降 2bp，20Y 收 4.98%、30Y 收 4.97%，兩端都回落但前端與中段更明顯。2s10s 小幅轉陡至 42bp、5s30s 至 79bp，代表市場先把申請失業救濟與油價回落反映到政策敏感段，長端 期限溢價 仍沒有完全退場。",
+        "官方 CMT 的周/月變化顯示，這次回落只是把前一日的升息溢價修正一部分，尚未改變整個月的高利率背景。2Y 一周仍升 7bp、月升 12bp，5Y 一周升 5bp、月升 10bp，10Y 一周升 2bp、月升 4bp；30Y 一周低 2bp、月低 1bp。曲線 上 2s10s 一周仍收斂 5bp、月內收斂 8bp，配置不宜把一天的 relief 誤解成 Fed 已重新回到降息路徑。",
         "Jobless claims 是本次利率回落的第一個數據觸發。上周初領失業救濟升 13k 至 225k，高於 211k 預期與 212k 前值，為 2 月以來高點；四周均值升至 214.75k，續領降至 178 萬。這組數字沒有顯示 layoffs 失控，但足以提醒市場勞動市場正在低招聘、低裁員狀態中鬆動，前端不再能只依 ADP +122k 與 ISM Services 54.5 來定價升息。",
         "油價回落是第二個觸發。WTI 估計收在 92.50 美元附近、日跌約 2.9%，Brent 盤中回到 96.40 美元附近，因投資人押注美伊談判與以黎停火仍有進展。能源風險溢價下降會先壓低 CPI pass-through 與 Fed 的二階效應擔憂，因此 2Y-5Y 比 30Y 更容易反彈；但只要 Strait 相關不確定未完全消除，10Y 下方 4.45% 仍不應視為無風險突破。",
         "跨資產收盤支持這個解讀。S&P 500 上漲 0.4% 至 7,584.31，Dow 上漲 1.7% 至 51,561.93 並創高，Nasdaq 小跌 0.1% 至 26,830.96，反映市場從晶片股轉向金融、小型股與傳統景氣股。股市廣度改善同時伴隨 UST rally，代表今天不是衰退恐慌買債，而是油價與前端政策溢價降溫後的跨資產 rebalancing。",
         "長端的訊號仍偏黏著。20Y 4.98%、30Y 4.97%，10s30s 維持 50bp，說明長端沒有隨 2Y 與 5Y 同幅下行；MBS convexity、AI 資本支出、IG 供給與財政赤字仍壓在長端。若 10Y 要有效跌破 4.45%，需要非農與工資共同確認需求降溫，而不只是初領失業救濟單週高於預期。",
-        "供給與 microstructure 也開始進入利率判讀。美國 IG 發行今年已達 1 兆美元、速度為 2020 年以來最快，Apollo 認為全年 IG 銷售可能超過美債淨供給；同時 5% 以上 coupon 的 MBS 存量超過 2 兆美元，約三分之一 outstanding MBS 接近 par。這些因素不一定主導每日收盤，但會讓 30Y 對每次 selloff 更敏感，並限制 Curve relief 的延展性。"
+        "供給與 microstructure 也開始進入利率判讀。美國 IG 發行今年已達 1 兆美元、速度為 2020 年以來最快，Apollo 認為全年 IG 銷售可能超過美債淨供給；同時 5% 以上 coupon 的 MBS 存量超過 2 兆美元，約三分之一 outstanding MBS 接近 par。這些因素不一定主導每日收盤，但會讓 30Y 對每次 selloff 更敏感，並限制 曲線 relief 的延展性。"
       ]
     },
     {
@@ -381,13 +381,13 @@
       "title": "二、美債走勢解讀",
       "takeaway": "定價邏輯從升息尾端過熱修正，轉為等待非農確認的雙向 Fed path。",
       "paragraphs": [
-        "這次美債 rally 的本質是升息尾端風險降溫，而不是 Fed reaction function 完全轉鴿。Daly 表示政策位置合適但需要保留雙向反應，Logan 仍提醒今年可能需要升息，Morgan Stanley 則認為 Fed 若思考升息，可能不會只因戰爭推高能源價格就行動，而會更重視核心通膨、財政、銀行貸款與 AI spending。這使前端從單向 hawkish repricing 回到 data-dependent range。",
-        "Claims 225k 高於預期，直接打開市場對周五非農的疑問。若非農接近 +85k 共識、失業率維持 4.3%、平均時薪 +0.3% m/m，2Y 4.05% 可能短線守住；若就業大幅高於 +125k 或薪資重新升溫，今天降下來的 2Y-5Y 會被快速重定價。Curve 因此不宜稱作持久 bull steepening，而是 payrolls 前的風險降低。",
+        "這次美債 rally 的本質是升息尾端風險降溫，而不是 Fed 反應函數 完全轉鴿。Daly 表示政策位置合適但需要保留雙向反應，Logan 仍提醒今年可能需要升息，Morgan Stanley 則認為 Fed 若思考升息，可能不會只因戰爭推高能源價格就行動，而會更重視核心通膨、財政、銀行貸款與 AI spending。這使前端從單向 hawkish 重新定價 回到 data-dependent 區間。",
+        "Claims 225k 高於預期，直接打開市場對周五非農的疑問。若非農接近 +85k 共識、失業率維持 4.3%、平均時薪 +0.3% m/m，2Y 4.05% 可能短線守住；若就業大幅高於 +125k 或薪資重新升溫，今天降下來的 2Y-5Y 會被快速重定價。曲線 因此不宜稱作持久 多頭陡峭化，而是 payrolls 前的風險降低。",
         "油價傳導也變得更細緻。WTI 跌近 3% 確實降低了 immediate inflation premium，但 Fed 官員仍需面對 April PCE / CPI 一類價格指標在 3.8% 附近、能源成本仍比戰前高、企業包材與運輸成本尚未完全回落。只要油價停在 90 美元上方，Fed 就很難把所有衝擊視為一次性供給事件；前端可以 rally，但不應把年底升息可能性歸零。",
-        "長端壓力來自 funding，而不是單純 macro。Apollo 指出 AI、國防、公用事業與資料中心需要龐大長天期資本，美國 IG 供給已達 1 兆美元；Schneider Electric 借 AI data-center story 發行 8 億歐元 convertible，同時回購 2030 年債。當企業資本需求與 Treasury cash need 同時偏高，30Y 4.97% 的絕對收益會吸引買盤，但 term premium 很難快速壓回低位。",
+        "長端壓力來自 funding，而不是單純 macro。Apollo 指出 AI、國防、公用事業與資料中心需要龐大長天期資本，美國 IG 供給已達 1 兆美元；Schneider Electric 借 AI data-center story 發行 8 億歐元 convertible，同時回購 2030 年債。當企業資本需求與 Treasury cash need 同時偏高，30Y 4.97% 的絕對收益會吸引買盤，但 期限溢價 很難快速壓回低位。",
         "MBS convexity 是長端波動的放大器。高 coupon MBS 重新接近 par，使投資人需要更頻繁調整 hedge；Goldman 估算近期 selloff 使 active mortgage hedgers 的利率曝險變化相當於 400 億美元 10Y Treasury。這代表若 10Y 重新上破 4.55%，selloff 可能被 mortgage rebalancing 放大；若 10Y 跌破 4.45%，同一機制也可能短線放大 rally。",
         "美元與黃金的組合顯示市場尚未切換到全面避險。DXY 回落至 99.22、黃金升至 4,470 美元，但 S&P 500 與 Dow 同時上漲，表示投資人把油價回落與利率下行視為 risk broadening，而不是 recession hedge。對 FI 來說，這種組合對 5Y-10Y 有利，卻不一定利多超長端，因為風險資產仍吸收資金。",
-        "因此本次定價邏輯應被描述為 mild steepening with sticky long-end premium。前端與 belly 受益於 claims 與油價，長端受限於供給、MBS convexity、BOJ normalization 與 AI funding。若未來幾日 2s10s 只在 40-45bp 區間震盪，代表市場仍在等待非農與 6 月 FOMC；若 Curve 快速打開，才表示 Fed cut tail 或 term premium 有一方明顯改變。"
+        "因此本次定價邏輯應被描述為 mild steepening with sticky 長端 premium。前端與 belly 受益於 claims 與油價，長端受限於供給、MBS convexity、BOJ normalization 與 AI funding。若未來幾日 2s10s 只在 40-45bp 區間震盪，代表市場仍在等待非農與 6 月 FOMC；若 曲線 快速打開，才表示 Fed cut tail 或 期限溢價 有一方明顯改變。"
       ]
     },
     {
@@ -397,28 +397,28 @@
       "paragraphs": [
         "日本是全球央行分化的核心。實質薪資年增 1.9%、高於 1.7% 預期並連續第四個月為正，名目薪資 +3.5%、基本薪資 +3.4%，都支持 BOJ 6/15-16 升息 25bp 的討論；但 household spending 實質年減 0.5%，連五個月下降。這個組合讓 JGB 與日圓很難單向交易，因為 wage-price loop 變強，但家計需求仍限制 BOJ 追趕油價的速度。",
         "日本政策還有財政與補貼層。政府準備 3.1 兆日圓追加預算，可能延長汽油與電力補貼；食品與飲料業者 6 月漲價產品超過 1,000 項，遠高於 5 月的 84 項。補貼可壓低 headline，但也延後相對價格調整，對 BOJ 而言反而增加判斷 underlying inflation 的難度；對美元債投資人而言，JPY 接近 160 代表 FX 換算助益、避險成本與利率報酬必須分開檢查。",
-        "澳洲與紐西蘭提供另一種 Duration 訊號。RBA 現金利率已回到 4.35%，Bullock 表示升息正在透過住房市場發揮作用，Q1 GDP 只增 0.3%、4 月 household spending -1.1%、失業率升至四年半高點；紐西蘭 2031 債標售 bid-to-cover 達 6.22，為該券 2020 年以來最高。這些市場顯示，若成長放緩與供給削減同時出現，中段 Duration 仍能吸引真實需求。",
+        "澳洲與紐西蘭提供另一種 久期 訊號。RBA 現金利率已回到 4.35%，Bullock 表示升息正在透過住房市場發揮作用，Q1 GDP 只增 0.3%、4 月 household spending -1.1%、失業率升至四年半高點；紐西蘭 2031 債標售 bid-to-cover 達 6.22，為該券 2020 年以來最高。這些市場顯示，若成長放緩與供給削減同時出現，中段 久期 仍能吸引真實需求。",
         "歐洲不是同步升息。Czech CPI 5 月 2.1%，低於 2.3% 預期且符合央行預測，服務價格 4.7% 仍高但降低立即升息壓力；Sweden CPIF ex-energy +0.5%，高於市場 0.3% 但低於 Riksbank 0.9% 預測，headline 1.5% 接近央行路徑。這代表歐洲 rates trade 會更依賴各國核心、服務與 FX，而不是只跟著 ECB 或油價走。",
         "亞洲匯率政策防線仍是區域資產的主線。韓元跌到 2009 年以來低點，印尼盾觸及紀錄低位，印度盧比在 95-96 區間、接近 97 的紀錄低點；韓國、印尼、菲律賓與印度都用口頭警告、干預或資本流入措施守匯率。這會讓本地債牛市被匯率風險打斷；對 TWD 海外債 ETF 而言，美元走強是 NAV 換算助益。避險成本與亞洲政策壓力則需另外拆分。",
-        "信用一級市場仍能開啟，但需要清楚故事與保護。Schneider Electric 以 AI data-center power / cooling narrative 發行 8 億歐元可轉債，coupon 0.25%-0.75%、轉換溢價 35%-40%，並回購 6.5 億歐元 2030 年債；Coastal GasLink 準備 C$1bn 兩段式高評級債，短段約政府債 +100bp、長段 +115bp。這些例子支持 IG 與 infrastructure carry，但不代表所有 credit beta 都可追。",
-        "AI funding 的供需兩面都在放大。Whale Rock 看好 Anthropic 使用者與 enterprise 市場，SpaceX 擬籌 750 億美元並可能以 1.77 兆美元估值上市；同時 DoubleLine 提醒 AI debt 最終幾乎一定會形成 bubble，去年以來相關高級、HY、loan 與其他 debt 銷售超過 3,700 億美元。對 FI 來說，AI 是盈利與 capex 支撐，也是長端供給與信用槓桿來源。",
-        "特殊信用風險更分散。Nassau County tobacco settlement bonds 未付 3,600 萬美元 principal，成為 800 億美元 tobacco sector 的首例 default，因 2025 settlement distributions 年減 19%、美國成人吸菸率降至 9.9%；Sleep Number 可能準備 bankruptcy loan，2025 revenue 14 億美元、年減 16%，股價四個月跌約 90%。這些不是宏觀 beta，而是收入池收縮與資本結構壓力。",
+        "信用一級市場仍能開啟，但需要清楚故事與保護。Schneider Electric 以 AI data-center power / cooling narrative 發行 8 億歐元可轉債，coupon 0.25%-0.75%、轉換溢價 35%-40%，並回購 6.5 億歐元 2030 年債；Coastal GasLink 準備 C$1bn 兩段式高評級債，短段約政府債 +100bp、長段 +115bp。這些例子支持 IG 與 infrastructure carry，但不代表所有 信用曝險 都可追。",
+        "AI funding 的供需兩面都在放大。Whale Rock 看好 Anthropic 用戶與 enterprise 市場，SpaceX 擬籌 750 億美元並可能以 1.77 兆美元估值上市；同時 DoubleLine 提醒 AI debt 最終幾乎一定會形成 bubble，去年以來相關高級、HY、loan 與其他 debt 銷售超過 3,700 億美元。對 FI 來說，AI 是盈利與 capex 支撐，也是長端供給與信用槓桿來源。",
+        "特殊信用風險更分散。Nassau County tobacco settlement bonds 未付 3,600 萬美元 principal，成為 800 億美元 tobacco sector 的首例 default，因 2025 settlement distributions 年減 19%、美國成人吸菸率降至 9.9%；Sleep Number 可能準備 bankruptcy loan，2025 revenue 14 億美元、年減 16%，股價四個月跌約 90%。這些不是宏觀 曝險，而是收入池收縮與資本結構壓力。",
         "EM 主權仍由條款、商品與資本流主導。Zambia 可能把 2053 bond buyback 提高到 85c，債券約 82.14c，若 IMF 指標達成 coupon 將由 0.5% 升至 7.5%；Chile 追加 62 億美元借款，另有 174 億美元原授權，2032 peso bond 標售比二級市場高 12bp，2056 高 10bp。投資人會買收益，但 fiscal credibility 與 restructuring mechanics 決定利差。",
-        "South Africa rand carry 顯示高 real yield 仍能吸引資金。Rand 自 4 月以來美元 funded carry 回報約 5%，非居民買入 372.9 億 rand 政府債，10Y yield 降 67bp 至約 8.65%；但 SARB 上周升息 25bp 至 7%，仍提示若油價衝突持續可能再緊。這說明 EM carry 可以恢復，但需要美元回落、vol 下降與政策可信度同時支撐。"
+        "South Africa rand carry 顯示高 實質殖利率 仍能吸引資金。Rand 自 4 月以來美元 funded carry 回報約 5%，非居民買入 372.9 億 rand 政府債，10Y yield 降 67bp 至約 8.65%；但 SARB 上周升息 25bp 至 7%，仍提示若油價衝突持續可能再緊。這說明 EM carry 可以恢復，但需要美元回落、vol 下降與政策可信度同時支撐。"
       ]
     },
     {
       "id": "allocation",
       "title": "四、配置含義",
-      "takeaway": "配置可回補中段 Duration，但長端、HY beta 與亞洲未避險 NAV 仍需門檻。",
+      "takeaway": "配置可回補中段 久期，但長端、HY 曝險 與亞洲未避險 NAV 仍需門檻。",
       "paragraphs": [
-        "Duration 建議從 short-to-neutral 調回 neutral-to-slight-long，但只集中在 5Y-10Y，不追 20Y-30Y。2Y 與 5Y 日降 3bp、claims 225k 高於預期、WTI 跌近 3%，使中段有基本面 relief；但 30Y 仍在 4.97%，IG 供給、MBS convexity 與 AI capex 仍在。實作上，10Y 4.45% 附近才分批加碼，4.55% 上方則停止追價。",
-        "Curve 部位偏好 mild steepening 的防守表達，而不是 aggressively long long-end。2s10s 42bp、5s30s 79bp，日內各轉陡 1bp，但周/月仍大幅收斂，代表政策風險尚未完全退場。若非農弱於 +50k 且薪資低於 +0.2%，可把 5Y-10Y bull steepener 放大；若非農高於 +125k，應把前端 relief 視為賣點。",
-        "Credit / ETF 仍偏高品質收益。IG 一級市場達 1 兆美元且高評級 AI / infrastructure 名稱能清盤，支持 short/intermediate IG；但 tobacco default、Sleep Number bankruptcy risk、Reno de Medici 債券約 26c、software / private credit stress 都提醒 HY beta 不能用 index spread 一筆帶過。配置上保留 IG、金融、utility、data-center picks-and-shovels，避免弱零售與單一收入池結構。",
+        "久期 建議從 中性偏短 調回 中性偏多，但只集中在 5Y-10Y，不追 20Y-30Y。2Y 與 5Y 日降 3bp、claims 225k 高於預期、WTI 跌近 3%，使中段有基本面 relief；但 30Y 仍在 4.97%，IG 供給、MBS convexity 與 AI capex 仍在。實作上，10Y 4.45% 附近才分批加碼，4.55% 上方則停止追價。",
+        "曲線 部位偏好 mild steepening 的防守表達，而不是 aggressively long 長端。2s10s 42bp、5s30s 79bp，日內各轉陡 1bp，但周/月仍大幅收斂，代表政策風險尚未完全退場。若非農弱於 +50k 且薪資低於 +0.2%，可把 5Y-10Y bull steepener 放大；若非農高於 +125k，應把前端 relief 視為賣點。",
+        "Credit / ETF 仍偏高品質收益。IG 一級市場達 1 兆美元且高評級 AI / infrastructure 名稱能清盤，支持 short/intermediate IG；但 tobacco default、Sleep Number bankruptcy risk、Reno de Medici 債券約 26c、software / 私募信貸 stress 都提醒 HY 曝險 不能用 index spread 一筆帶過。配置上保留 IG、金融、utility、data-center picks-and-shovels，避免弱零售與單一收入池結構。",
         "EM 配置可做 selective carry，但不應放大本幣匯率風險。South Africa 有 5% carry 回報與 372.9 億 rand 債券流入，Zambia 有 tender catalyst，Congo 受銅鈷與 AI infrastructure narrative 支撐；相對地 Chile fiscal slippage、Asia FX intervention 與印度盧比壓力仍會放大本地債波動。EM 硬通貨優先於未避險本幣，且要避開油價再上 98 美元的情境。",
         "TWD 計價海外債 ETF 的加碼條件比昨日起更接近，但仍需確認。10Y 4.47% 已回到可分批區間，DXY 99.22 對 NAV 有換算助益；USD/JPY 接近 160 與亞洲匯率政策防線顯示避險成本未完全釋放。若 WTI 低於 92、10Y 守在 4.45%-4.50%，且利差穩定，可把加碼從觀察轉成執行；若 DXY 重新上 100，視為 FX 換算助益增強，但仍維持小步分批並檢查利率與利差是否抵銷。",
-        "長端配置只適合用 convexity 小比例表達。若 30Y 上破 5.05%，MBS hedging、Treasury funding 與 AI debt crowding-out 會使 selloff 放大；若 30Y 跌破 4.90% 且 10Y 同步跌破 4.45%，才代表 real-money demand 重新接管。退休金或保險帳戶可以保留長端 convexity，但 total-return 帳戶應把主要風險放在 5Y-10Y。",
-        "現金與短票仍有配置價值。Fed path 雖被 claims 降溫，但 Daly、Logan 與 Warsh 首次 FOMC 都要求保留 optionality；若周五 payrolls 是 Goldilocks，短端收益會慢慢被再投資壓力吃掉，若數據太強，短票反而提供保護。因此 barbell 仍合理：短端留流動性，中段收 rally，長端小比例做 hedge。"
+        "長端配置只適合用 convexity 小比例表達。若 30Y 上破 5.05%，MBS hedging、Treasury funding 與 AI debt crowding-out 會使 selloff 放大；若 30Y 跌破 4.90% 且 10Y 同步跌破 4.45%，才代表 長線資金 demand 重新接管。退休金或保險帳戶可以保留長端 convexity，但 total-return 帳戶應把主要風險放在 5Y-10Y。",
+        "現金與短票仍有配置價值。Fed path 雖被 claims 降溫，但 Daly、Logan 與 Warsh 首次 FOMC 都要求保留 政策選擇權；若周五 payrolls 是 Goldilocks，短端收益會慢慢被再投資壓力吃掉，若數據太強，短票反而提供保護。因此 barbell 仍合理：短端留流動性，中段收 rally，長端小比例做 hedge。"
       ]
     },
     {
@@ -426,13 +426,13 @@
       "title": "五、後續觀察重點",
       "takeaway": "交易觸發集中在非農、10Y/30Y 關鍵位、WTI、DXY、BOJ 與信用供給。",
       "paragraphs": [
-        "第一個 trigger 是周五非農。若 payrolls 高於 +125k、失業率低於 4.3% 或 AHE 高於 +0.3% m/m，2Y 4.05% 的 relief 會很快消失，10Y 可能回測 4.55%；若 payrolls 低於 +50k、claims 四周均值續升，10Y 跌破 4.45% 的機率上升，5Y-10Y Duration 可以再加一段。",
-        "第二個 trigger 是 WTI 92 / 98。WTI 低於 92 美元且外交進展延續，前端通膨溢價會繼續下降；WTI 重新站上 98 美元，Fed 對 energy pass-through 的防守會回來，2s10s 可能再收斂。這也是 TWD 海外債 ETF 加碼或暫緩的直接門檻。",
-        "第三個 trigger 是 10Y 4.45% / 4.55% 與 30Y 5.05%。10Y 跌破 4.45% 且 30Y 不守在 5% 上方，代表 rally 已從前端傳到長端；10Y 上破 4.55% 或 30Y 上破 5.05%，則說明 payrolls、MBS hedge 或供給壓力重新主導，Duration 要降回中性。",
-        "第四個 trigger 是 DXY 99 / 100。DXY 重新上 100，TWD 計價海外債 NAV 會得到 FX 換算助益，但韓元、印尼盾、盧比與日圓都可能再承壓，需同步檢查避險成本、亞洲政策反應與 EM 本幣債風險；DXY 低於 99 則 FX 助益減弱，海外債 ETF 更需要依賴 UST rally 與信用利差穩定。",
-        "第五個 trigger 是 BOJ 6/15-16。若日本薪資資料促成 25bp hike 且 Ueda 提示 2026 還有加息空間，JGB 長端與避險成本會限制亞洲買美元債；若 BOJ 只小幅升息且強調 household spending 疲弱，日圓可能先反彈、JGB selloff 可控，對 USD Duration 反而是穩定因子。",
-        "第六個 trigger 是信用供給品質。若 IG 新券仍能縮窄、Schneider 類 AI infrastructure paper 被快速吸收、Coastal GasLink 高評級 supply 順利，credit carry 可保留；若 tobacco、retail、software 或 private credit 相關壓力擴散到新券 concessions，Credit / ETF beta 要比 Duration 更早降風險。",
-        "第七個 trigger 是 MBS convexity。若 10Y 接近 4.55% 時 MBS OAS 擴大、mortgage hedgers 增加 receiver-to-payer adjustment，selloff 可能被放大；若 10Y 回到 4.40%-4.45% 且 MBS 穩定，convexity flow 會反過來支撐 rally。這個 trigger 決定長端能否加入中段 relief。"
+        "第一個 觸發門檻 是周五非農。若 payrolls 高於 +125k、失業率低於 4.3% 或 AHE 高於 +0.3% m/m，2Y 4.05% 的 relief 會很快消失，10Y 可能回測 4.55%；若 payrolls 低於 +50k、claims 四周均值續升，10Y 跌破 4.45% 的機率上升，5Y-10Y 久期 可以再加一段。",
+        "第二個 觸發門檻 是 WTI 92 / 98。WTI 低於 92 美元且外交進展延續，前端通膨溢價會繼續下降；WTI 重新站上 98 美元，Fed 對 energy pass-through 的防守會回來，2s10s 可能再收斂。這也是 TWD 海外債 ETF 加碼或暫緩的直接門檻。",
+        "第三個 觸發門檻 是 10Y 4.45% / 4.55% 與 30Y 5.05%。10Y 跌破 4.45% 且 30Y 不守在 5% 上方，代表 rally 已從前端傳到長端；10Y 上破 4.55% 或 30Y 上破 5.05%，則說明 payrolls、MBS hedge 或供給壓力重新主導，久期 要降回中性。",
+        "第四個 觸發門檻 是 DXY 99 / 100。DXY 重新上 100，TWD 計價海外債 NAV 會得到 FX 換算助益，但韓元、印尼盾、盧比與日圓都可能再承壓，需同步檢查避險成本、亞洲政策反應與 EM 本幣債風險；DXY 低於 99 則 FX 助益減弱，海外債 ETF 更需要依賴 UST rally 與信用利差穩定。",
+        "第五個 觸發門檻 是 BOJ 6/15-16。若日本薪資資料促成 25bp hike 且 Ueda 提示 2026 還有加息空間，JGB 長端與避險成本會限制亞洲買美元債；若 BOJ 只小幅升息且強調 household spending 疲弱，日圓可能先反彈、JGB selloff 可控，對 USD 久期 反而是穩定因子。",
+        "第六個 觸發門檻 是信用供給品質。若 IG 新券仍能縮窄、Schneider 類 AI infrastructure 券種 被快速吸收、Coastal GasLink 高評級 supply 順利，credit carry 可保留；若 tobacco、retail、software 或 私募信貸 相關壓力擴散到新券 concessions，Credit / ETF 曝險 要比 久期 更早降風險。",
+        "第七個 觸發門檻 是 MBS convexity。若 10Y 接近 4.55% 時 MBS OAS 擴大、mortgage hedgers 增加 receiver-to-payer adjustment，selloff 可能被放大；若 10Y 回到 4.40%-4.45% 且 MBS 穩定，convexity flow 會反過來支撐 rally。這個 觸發門檻 決定長端能否加入中段 relief。"
       ]
     }
   ],

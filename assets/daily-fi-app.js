@@ -427,7 +427,12 @@
           target.closest(".reference-table") ||
           target
         );
-    highlightTarget.dataset.currentMatchLabel = state.language === "en" ? "Current match" : "目前命中段落";
+    const hasSearchQuery = Boolean(effectiveSearchQuery(state.query || input.value.trim()));
+    if (hasSearchQuery) {
+      highlightTarget.dataset.currentMatchLabel = state.language === "en" ? "Current match" : "目前命中段落";
+    } else {
+      delete highlightTarget.dataset.currentMatchLabel;
+    }
     highlightTarget.classList.add("jump-highlight");
     if (!highlightTarget.hasAttribute("tabindex")) {
       highlightTarget.setAttribute("tabindex", "-1");
@@ -663,7 +668,7 @@
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", active ? "true" : "false");
     });
-	    input.placeholder = state.language === "en" ? "Search keywords" : "搜尋關鍵字";
+	    input.placeholder = state.language === "en" ? input.dataset.placeholderEn : input.dataset.placeholderZh;
     localStorage.setItem("daily-fi-language", state.language);
     syncNavForLanguage();
     syncStaticTextForLanguage();
