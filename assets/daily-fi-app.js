@@ -753,7 +753,7 @@
     const activateCard = (card) => {
       if (!card) return;
       card.classList.add("is-card-active");
-      window.setTimeout(() => card.classList.remove("is-card-active"), 900);
+      window.setTimeout(() => card.classList.remove("is-card-active"), 1600);
     };
     const navigateHash = (href) => {
       if (!href || !href.startsWith("#")) return;

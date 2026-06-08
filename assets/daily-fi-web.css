@@ -140,14 +140,14 @@ h3 { margin: 0; color: var(--ink); font-size: 17.5px; line-height: 1.32; letter-
 .thesis-cue { display: grid; gap: 3px; margin: 5px 0 0; color: var(--text); font-size: 11.35px; line-height: 1.34; font-weight: 750; }
 .thesis-cue-text { display: block; }
 [data-card-href] { cursor: pointer; transition: border-color .16s ease, background .16s ease, box-shadow .16s ease, transform .16s ease; }
-[data-card-href].is-card-active { border-color: #c8d6e1; background: #f8fbfd; box-shadow: 0 5px 14px rgba(17,41,61,.07); transform: translateY(-1px) scale(1.006); }
+[data-card-href].is-card-active { border-color: #bdcfdd; background: #f8fbfd; box-shadow: 0 8px 18px rgba(17,41,61,.1); transform: translateY(-1px) scale(1.01); }
 [data-card-href]:focus-visible { outline: 2px solid var(--orange); outline-offset: -2px; }
 html.has-scroll-reveal [data-animate-card] { opacity: 0; transform: translateY(10px); transition: opacity .32s ease, transform .32s ease, border-color .16s ease, background .16s ease, box-shadow .16s ease; }
 html.has-scroll-reveal [data-animate-card].is-revealed { opacity: 1; transform: translateY(0); }
-html.has-scroll-reveal [data-animate-card].is-revealed.is-card-active { transform: translateY(-1px) scale(1.006); }
+html.has-scroll-reveal [data-animate-card].is-revealed.is-card-active { transform: translateY(-1px) scale(1.01); }
 @media (hover: hover) and (pointer: fine) {
-  [data-card-href]:hover { border-color: #c8d6e1; background: #f8fbfd; box-shadow: 0 5px 14px rgba(17,41,61,.07); transform: translateY(-1px) scale(1.006); }
-  html.has-scroll-reveal [data-animate-card].is-revealed:hover { transform: translateY(-1px) scale(1.006); }
+  [data-card-href]:hover { border-color: #bdcfdd; background: #f8fbfd; box-shadow: 0 8px 18px rgba(17,41,61,.1); transform: translateY(-1px) scale(1.01); }
+  html.has-scroll-reveal [data-animate-card].is-revealed:hover { transform: translateY(-1px) scale(1.01); }
 }
 .position-card { border-left: 3px solid var(--orange); display: grid; align-content: start; }
 .position-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; min-width: 0; }
