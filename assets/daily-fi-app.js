@@ -254,7 +254,7 @@
     flatten(normalizedPositioningForSearch(note, lang), prefix + "overview", lang === "en" ? "Positioning" : "配置重點", rows);
     flatten(note.driver_decomposition, prefix + "drivers", lang === "en" ? "Market Drivers" : "市場驅動", rows);
     flatten(note.monitor_blocks, prefix + "risk-monitor", lang === "en" ? "Risk Monitor" : "風險監控", rows);
-    flatten(note.market_tables, prefix + "rates", lang === "en" ? "Reference Data" : "參考數據", rows);
+    flatten(note.market_tables, prefix + "appendix", lang === "en" ? "Reference Data" : "參考數據", rows);
     for (const section of note.sections || []) {
       const sectionId = prefix + "analysis-" + slug(section.id || "section");
       const sectionTitle = section.title || (lang === "en" ? "Investment Read" : "投資解讀");
@@ -308,6 +308,7 @@
       "risk-monitor": "風險",
       "cross-asset": "跨資產",
       "investment-read": "正文",
+      appendix: "附錄",
     };
     const en = {
       overview: "Overview",
@@ -317,6 +318,7 @@
       "risk-monitor": "Risk",
       "cross-asset": "Cross Asset",
       "investment-read": "Read",
+      appendix: "Appendix",
     };
     return (lang === "en" ? en : zh)[clean] || (lang === "en" ? "Report" : "報告");
   };
@@ -587,7 +589,7 @@
     if (!clean) return "";
     if (clean.startsWith("analysis-")) return "investment-read";
     if (clean === "risk-monitor-rail") return "risk-monitor";
-    if (["overview", "positioning", "rates", "drivers", "risk-monitor", "cross-asset", "investment-read"].includes(clean)) return clean;
+    if (["overview", "positioning", "rates", "drivers", "risk-monitor", "cross-asset", "investment-read", "appendix"].includes(clean)) return clean;
     return "";
   };
 

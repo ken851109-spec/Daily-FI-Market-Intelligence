@@ -299,10 +299,11 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   #overview, #en-overview { order: 1; }
   #positioning, #en-positioning { order: 2; }
   #rates, #en-rates { order: 3; }
-  #risk-monitor, #en-risk-monitor { order: 4; }
-  #drivers, #en-drivers { order: 5; }
-  #cross-asset, #en-cross-asset { order: 6; }
+  #drivers, #en-drivers { order: 4; }
+  #cross-asset, #en-cross-asset { order: 5; }
+  #risk-monitor, #en-risk-monitor { order: 6; }
   #investment-read, #en-investment-read { order: 7; }
+  #appendix, #en-appendix { order: 8; }
 	  .task-nav { position: sticky; top: 0; z-index: 45; }
 	  .task-nav.is-hidden, .task-nav[data-tools-hidden="true"] { transform: translateY(calc(-100% - 8px)); }
 	  .task-nav.is-hidden .search-results, .task-nav[data-tools-hidden="true"] .search-results { display: none; }
