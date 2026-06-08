@@ -129,7 +129,7 @@ h3 { margin: 0; color: var(--ink); font-size: 17.5px; line-height: 1.32; letter-
 .chip-meta { display: block; margin-top: 7px; color: var(--text); font-size: 12.75px; line-height: 1.38; font-weight: 700; }
 .position-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; align-items: stretch; }
 .thesis-map { background: #fff; }
-.thesis-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 7px; padding: 10px; background: #fff; border-top: 1px solid var(--line); }
+.thesis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: 7px; padding: 10px; background: #fff; border-top: 1px solid var(--line); }
 .position-card, .driver-card, .asset-card, .asia-card, .analysis-card, .trigger-card, .event-card, .thesis-card, .pulse-card { border: 1px solid #dde6ee; background: #fff; padding: 14px; min-width: 0; border-radius: 4px; box-shadow: 0 1px 0 rgba(17,41,61,.018); }
 .thesis-card { padding: 0; box-shadow: none; }
 .thesis-card a { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 7px; align-items: start; height: 100%; min-height: 0; padding: 9px 10px; color: inherit; background: #fff; }
