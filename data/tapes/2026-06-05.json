@@ -3,98 +3,98 @@
   "label": "2026-06-05 close",
   "title": "Daily FI Market Tape | 2026-06-05 收盤",
   "summary": [
-    "非農 +172k 明顯高於約 +80k 共識，2Y 升至 4.17%、5Y 升至 4.29%，Fed 升息尾端風險重新壓回前端與中段。",
-    "10Y 收 4.55%、30Y 收 5.01%，2s10s 與 5s30s 同步壓平，顯示這不是單純風險趨避買債，而是政策路徑與期限溢價一起重估。",
-    "NDX -4.8%、SOX -10.3%、LQD -0.6%，AI 融資與長天期信用同時被折現率上修牽動，信用配置需偏向 IG 與短中天期。",
-    "CBC USD/TWD 收 31.475，台幣計價海外債 ETF 有匯率換算助益，但利率上行與信用代理指標下跌使加碼節奏必須分批。"
+    "非農 +172k 明顯高於約 +80k 共識，2Y 升至 4.17%、5Y 升至 4.29%，Fed 保留升息選項的定價重新壓回前端與中段。",
+    "10Y 收 4.55%、30Y 收 5.01%，2s10s 與 5s30s 同步壓平，顯示長端買盤仍受期限溢價與供給壓力約束。",
+    "NDX -4.8%、SOX -10.3%、LQD -0.6%，跨資產壓力主要反映折現率與資金成本上修，信用部位需偏向 IG 與短中天期。",
+    "CBC USD/TWD 收 31.475，台幣計價海外債 ETF 有匯率換算支撐，但利率上行與信用代理指標下跌會抵銷部分 NAV 助益。"
   ],
   "headline": {
-    "primary": "非農重熱推回 Fed 升息尾端，UST 熊平壓住長天期 ETF",
-    "secondary": "2Y 4.17%、10Y 4.55%、2s10s 38bp；FX 支撐台幣 NAV，但利率與 LQD 下跌要求分批而非追價。"
+    "primary": "強非農推升前端利率，熊平壓住長天期 ETF",
+    "secondary": "2Y 4.17%、10Y 4.55%、2s10s 38bp；中段先觀察，20Y+ 等 CPI、30Y 與油價確認。"
   },
   "regime_strip": [
     {
       "label": "Rates",
-      "value": "前端與中段重估升息尾端"
+      "value": "前端與中段先重估 Fed 路徑"
     },
     {
       "label": "Curve",
-      "value": "2s10s / 5s30s 同步熊平"
+      "value": "熊平集中在 2s10s 與 5s30s"
     },
     {
       "label": "Risk",
-      "value": "AI 長久期資產去槓桿"
+      "value": "成長股壓力來自折現率上修"
     },
     {
       "label": "Oil",
-      "value": "油價反彈限制長端修復"
+      "value": "Brent 反彈讓通膨溢價未退"
     },
     {
       "label": "FX / NAV",
-      "value": "USD/TWD 對台幣 NAV 有支撐"
+      "value": "USD/TWD 小升支撐台幣換算"
     },
     {
       "label": "Credit",
-      "value": "IG 收益優於追高風險曝險"
+      "value": "LQD 走弱限制 IG 總報酬"
     }
   ],
   "positioning": [
     {
       "label": "Duration",
-      "view": "中性偏多，優先觀察 5Y-10Y",
-      "best_expression": "10Y 4.55%-4.60% 屬於較有吸引力區間，但 CPI 前不拉長到 20Y+。",
+      "view": "中性偏多，先看 5Y-10Y",
+      "best_expression": "10Y 4.55%-4.60% 提供較好進場殖利率，但 CPI 前不延伸到 20Y+。",
       "risk_trigger": "10Y 上破 4.65% 或 CPI 接近 4.3% 時維持等待。"
     },
     {
       "label": "Curve",
-      "view": "不追壓平，保留中段優先",
-      "best_expression": "2s10s 38bp 後先守中段收益，長端維持小幅低配。",
+      "view": "不追壓平，保留中段收益",
+      "best_expression": "2s10s 38bp 後以中段 income 與 roll-down 為主，長端小幅低配。",
       "risk_trigger": "30Y 站上 5.05% 代表期限溢價重新主導。"
     },
     {
       "label": "Credit / ETF",
-      "view": "IG 與短中天期優於 HY 風險曝險",
-      "best_expression": "以 LQD 作 IG 代理，保留收益來源，但避免用 HY 承擔景氣曝險。",
+      "view": "IG 與短中天期優於 HY 景氣曝險",
+      "best_expression": "LQD 作為 IG 代理，保留高品質收益，不用 HY 承擔景氣曝險。",
       "risk_trigger": "LQD 跌破 108 或 HYG 跌破 79 時降低信用曝險。"
     },
     {
       "label": "TWD ETF",
-      "view": "FX 有助益，但需拆利率與利差",
-      "best_expression": "台幣計價海外債 ETF 先歸因 FX、UST、信用三段，不用單一匯率判斷。",
+      "view": "FX 支撐需與利率損失拆開",
+      "best_expression": "台幣計價海外債 ETF 先拆 FX 換算、UST 價格與信用利差。",
       "risk_trigger": "USD/TWD 回到 31.40 下方或 10Y 上破 4.65% 時降低勝率假設。"
     },
     {
-      "label": "確認條件",
-      "view": "等 CPI 與長端確認",
-      "best_expression": "CPI 低於 4.1%、Brent 回落 92 下方、10Y 回到 4.45%-4.50% 才提高部位。",
-      "risk_trigger": "油價重回 98、SOX 失守 12,000 或信用代理續跌時改防守。"
+      "label": "加碼條件",
+      "view": "等待 CPI、30Y 與 Brent 同向改善",
+      "best_expression": "CPI 低於 4.1%、Brent 回落 92 下方、10Y 回到 4.45%-4.50% 再提高部位。",
+      "risk_trigger": "Brent 重回 98、SOX 失守 12,000 或信用代理續跌時轉向防守。"
     }
   ],
   "driver_decomposition": [
     {
       "driver": "就業 / Fed 定價",
       "signal": "非農 +172k 對約 +80k 共識；失業率 4.3%。",
-      "fi_impact": "前端先反映升息尾端風險，2Y-5Y 比長端更直接承壓。"
+      "fi_impact": "前端與中段先反映 Fed 保留升息選項，2Y-5Y 比長端更直接承壓。"
     },
     {
       "driver": "CPI / 通膨溢價",
       "signal": "本周 CPI swap 隱含約 4.3% y/y。",
-      "fi_impact": "若接近該水準，10Y 4.55% 不是高點，Duration 加碼需延後。"
+      "fi_impact": "若接近該水準，10Y 4.55% 仍可能只是重新定價的中繼點。"
     },
     {
       "driver": "長端供給 / 期限溢價",
-      "signal": "30Y 仍在 5.01%，20Y 5.03%；5s30s 日內壓平 7bp。",
-      "fi_impact": "長端未跟隨風險資產下跌轉強，表示供給與期限溢價仍限制 20Y+ ETF。"
+      "signal": "30Y 5.01%、20Y 5.03%；5s30s 日內壓平 7bp。",
+      "fi_impact": "長端買盤未取得主導，20Y+ ETF 的價格彈性仍受限制。"
     },
     {
       "driver": "AI 融資 / IG 信用",
       "signal": "NDX -4.8%、SOX -10.3%；LQD 108.17、日跌 0.62%。",
-      "fi_impact": "折現率上修同時壓縮成長股與長天期信用，IG 可收收益但不宜追高。"
+      "fi_impact": "折現率上修同時壓縮成長股與長天期信用，IG 收益需搭配價格風險控管。"
     },
     {
       "driver": "油價 / 地緣",
-      "signal": "Brent 周五 93.09，周末亞洲盤反彈至約 95.60。",
-      "fi_impact": "能源反彈會拖慢通膨風險降溫，讓長端與損益平衡通膨較難同步修復。"
+      "signal": "Brent 周五 93.09，亞洲盤反彈至約 95.60。",
+      "fi_impact": "能源反彈會拖慢通膨溢價降溫，使長端修復條件更嚴格。"
     },
     {
       "driver": "USD/TWD / NAV",
@@ -107,34 +107,34 @@
       {
         "label": "10Y UST",
         "value": "4.45% / 4.65%",
-        "detail": "4.45% 下方才代表中段買盤重新接手；4.65% 上方則需暫停 Duration 加碼。"
+        "detail": "4.45% 下方代表中段買盤回來；4.65% 上方暫停 Duration 加碼。"
       },
       {
         "label": "30Y UST",
         "value": "5.05%",
-        "detail": "若明確站上，表示期限溢價與供給壓力重新主導 20Y+ ETF 風險。"
+        "detail": "明確站上後，期限溢價與供給壓力會重新主導 20Y+ ETF 風險。"
       },
       {
         "label": "LQD",
         "value": "108",
-        "detail": "跌破 108 代表 IG 信用與利率損失同步擴大，需降低信用風險曝險。"
+        "detail": "跌破 108 代表 IG 信用與利率損失同步擴大，信用曝險需降速。"
       },
       {
         "label": "USD/TWD",
         "value": "31.40 / 31.55",
-        "detail": "31.40 下方 FX 助益減弱；31.55 上方則需拆分 FX 利多與利率虧損。"
+        "detail": "31.40 下方 FX 助益減弱；31.55 上方仍要拆分 FX 利多與債券價格損失。"
       }
     ],
     "event_risks": [
       {
         "label": "U.S. CPI",
         "value": "6/10；swap 約 4.3%",
-        "detail": "接近 4.3% 會強化升息尾端風險；低於 4.1% 才有利中段修復。"
+        "detail": "接近 4.3% 會強化 Fed 保留升息選項；低於 4.1% 才有利中段修復。"
       },
       {
         "label": "FOMC",
         "value": "6/16-17",
-        "detail": "若聲明移除降息傾向，2Y-5Y 仍會比長端更敏感。"
+        "detail": "若聲明移除偏降息語氣，2Y-5Y 仍會比長端更敏感。"
       },
       {
         "label": "Oil",
@@ -144,7 +144,7 @@
       {
         "label": "Credit",
         "value": "LQD 108 / HYG 79",
-        "detail": "兩者同時跌破代表信用與利率雙重壓力，不宜只看 FX 換算加碼。"
+        "detail": "兩者同時跌破代表信用與利率雙重壓力，不宜只靠 FX 換算提高部位。"
       }
     ],
     "asia_update": [
@@ -156,7 +156,7 @@
       {
         "label": "Indonesia",
         "value": "FX 防守仍是焦點",
-        "note": "印尼政策風險放在 EM/Asia 風險監控，不作為核心 UST driver。"
+        "note": "印尼政策風險用來觀察 EM/Asia 傳導，不主導 UST 收盤解讀。"
       },
       {
         "label": "Taiwan FX",
@@ -249,25 +249,25 @@
           "label": "S&P 500",
           "value": "7,383.74",
           "change": "-2.6%",
-          "note": "就業強於預期後估值折現率上修，未能完成第十周連漲。"
+          "note": "就業強於預期後估值折現率上修，廣泛股市壓力未轉化為長端美債強勢。"
         },
         {
           "label": "Nasdaq Composite",
           "value": "25,709.43",
           "change": "-4.2%",
-          "note": "AI 與長久期成長股被前端利率重定價放大下跌。"
+          "note": "AI 與長久期成長股對前端利率重定價最敏感，跌幅大於傳統價值股。"
         },
         {
           "label": "Nasdaq 100",
           "value": "28,957.60",
           "change": "-4.8%",
-          "note": "創 2025 年 4 月以來最大跌幅，成為風險資產去槓桿主通道。"
+          "note": "創 2025 年 4 月以來最大跌幅，顯示折現率上修集中壓縮高成長現金流。"
         },
         {
           "label": "SOX",
           "value": "12,220.76",
           "change": "-10.3%",
-          "note": "晶片股對利率與 AI 資本開支疑慮最敏感，拖累亞洲科技開盤。"
+          "note": "晶片股同時反映利率、AI 資本開支與融資成本疑慮，會影響亞洲科技開盤。"
         },
         {
           "label": "Dow",
@@ -291,19 +291,19 @@
           "label": "Brent",
           "value": "$93.09",
           "change": "-2.0%",
-          "note": "周五收盤仍回落，但周末伊朗飛彈使亞洲盤反彈至約 $95.60。"
+          "note": "周五收盤仍回落，但亞洲盤反彈至約 $95.60，能源通膨溢價尚未解除。"
         },
         {
           "label": "Gold",
           "value": "$4,337.10",
           "change": "-3.1%",
-          "note": "實質利率與美元同步上行壓過避險需求。"
+          "note": "實質利率與美元同步上行，壓過黃金避險需求。"
         },
         {
           "label": "LQD / IG 信用",
           "value": "108.17",
           "change": "-0.62%",
-          "note": "IG 信用與 Duration 同時承壓；信用論述以利差、發行品質與 ETF 流動性分開判斷。"
+          "note": "IG 信用與 Duration 同時承壓；判讀重點是利差補償、發行品質與 ETF 流動性。"
         }
       ]
     },
@@ -321,55 +321,55 @@
           "label": "U.S. 非農",
           "value": "+172k；失業率 4.3%",
           "expected": "+80k；失業率 4.3%；4 月上修至 +179k",
-          "note": "就業 優於預期 把 Fed 由降息敘事推回升息 政策彈性，2Y-5Y 承壓最大。"
+          "note": "就業優於預期，使 Fed 降息敘事轉為保留升息政策彈性，2Y-5Y 承壓最大。"
         },
         {
           "label": "U.S. wages",
           "value": "平均時薪年增 3.4%",
           "expected": "接近前值；市場更關注通膨是否重新超過薪資",
-          "note": "薪資未失控但油價推升實質所得壓力，前端需看 CPI 是否二次確認。"
+          "note": "薪資未失控，但仍不足以抵銷就業驚喜與油價反彈帶來的通膨風險。"
         },
         {
           "label": "U.S. CPI",
           "value": "6/10 待公布；swap 隱含約 4.3% y/y",
           "expected": "將是 2023 年以來最高附近；前值低於本次隱含",
-          "note": "若 CPI 接近 4.3%，10Y 4.55% 不是高點，Fed 6/16-17 聲明需移除降息傾向。"
+          "note": "若 CPI 接近 4.3%，10Y 4.55% 可能不是高點，FOMC 語句需更偏抗通膨。"
         },
         {
           "label": "Fed 定價",
           "value": "年底 25bp 升息被完全定價；10 月約 60%",
           "expected": "6 月會議大概率按兵不動",
-          "note": "Warsh 首場會議的任務是重建抗通膨可信度，前端 對措辭極敏感。"
+          "note": "年底升息被納入定價後，2Y 對 6 月聲明措辭的敏感度高於長端。"
         },
         {
           "label": "Canada jobs",
           "value": "+87.8k；失業率 6.6%",
           "expected": "+10k；失業率 6.9%",
-          "note": "加拿大 2Y 日內約 +10bp，全球前端同步檢驗「需求未冷」風險。"
+          "note": "加拿大就業強於預期，補強北美需求韌性與全球前端利率壓力。"
         },
         {
           "label": "Indonesia policy",
           "value": "股指距高點約 -39%；印尼盾年內約 -8%、曾破 18,000",
           "expected": "BI 6/18；市場討論需 >50bp，部分預期 75bp",
-          "note": "EM 本地債需要更高 實質殖利率 吸引資金，亞洲美元債需控管主權與 FX 風險曝險。"
+          "note": "EM 本地債需要更高實質殖利率與可信政策組合，亞洲美元債需控管主權與 FX 曝險。"
         },
         {
           "label": "Japan policy",
           "value": "Nikkei 期貨 63,865 vs 現貨 66,588；BOJ 升息押注升高",
           "expected": "下周 BOJ 會議",
-          "note": "美債 賣壓 加 JGB 波動，使日企債偏短天期發行，全球長端利率買盤更挑剔。"
+          "note": "美債賣壓加 JGB 波動，使日企債偏短天期發行，全球長端買盤更挑剔。"
         },
         {
           "label": "AI / credit supply",
           "value": "Anthropic 晶片融資 $35bn；SpaceX IPO 目標 $75bn",
           "expected": "AI 資本需求與大型 IPO 供給持續吸收資金",
-          "note": "AI 不是單純股票題材，私募信用、IG 替代供給與長端 期限溢價 都受牽動。"
+          "note": "AI 資本需求與大型 IPO 供給吸收資金，影響私募信用、IG 替代供給與長端期限溢價。"
         },
         {
           "label": "美債供給 / Funding",
           "value": "30Y 5.01%、20Y 5.03%",
           "expected": "長端需吸收供給、發債與避險調整壓力",
-          "note": "若 30Y 站上 5.05%，代表期限溢價與融資壓力重新壓過風險趨避買盤。"
+          "note": "若 30Y 站上 5.05%，代表期限溢價與融資壓力重新壓過避險需求。"
         }
       ]
     }
@@ -378,76 +378,71 @@
     {
       "id": "rates_close",
       "title": "一、美債收盤與曲線變化",
-      "takeaway": "美債曲線是就業與通膨尾端風險重新定價，不是單純股市下跌帶來避險買債。",
+      "takeaway": "強非農推高前端與中段，長端買盤仍受期限溢價約束。",
       "paragraphs": [
-        "6 月 5 日美債收盤的核心不是「風險資產大跌所以買債」，而是就業數據把 Fed 政策路徑重新往右推。官方 CMT 顯示 2Y 收 4.17%、日升 12bp，5Y 收 4.29%、日升 11bp，10Y 收 4.55%、日升 8bp，20Y 與 30Y 分別在 5.03%、5.01%。這種前端與中段升幅大於長端的形狀，表示市場先重新定價升息尾端風險，再要求長端維持更高期限溢價；對台灣債券型 ETF 而言，這比單看 10Y 絕對殖利率更重要。因此，前端政策溢價回到盤面本身就是配置訊號；若只看價格變化，容易把較高殖利率誤判成已經具備足夠補償。",
-        "曲線型態確認這是熊平而非單純長端拋售。2s10s 收 38bp、日內壓平 4bp，5s30s 收 72bp、日內壓平 7bp，10s30s 收 46bp、日內壓平 4bp。若只是風險資產下跌帶來避險需求，長端應該更容易下行；但實際上長端仍守在 5% 附近，說明長端買盤沒有取得主導權。這會讓 20Y+ ETF 的價格彈性受限，也讓中段 Duration 的風險報酬比相對更乾淨。因此熱圖裡的曲線列要被解讀為風險來源，而不是單純的數字摘要；壓平來自政策路徑，不是長端便宜後自動反彈。",
-        "非農 +172k 明顯高於約 +80k 共識，失業率維持 4.3%，4 月就業還上修到 +179k。這組數字讓市場很難繼續用「勞動市場快速轉弱」來定價降息，尤其 2Y 與 5Y 對 Fed 路徑最敏感。平均時薪年增 3.4% 本身不是失控，但它不足以抵銷就業驚喜與油價風險，因此前端重新定價不是單一資料點反應，而是把降息假設重新交給 CPI 與 FOMC 語句驗證。這也是市場驅動需要把就業與 Fed 定價放在同一群組、而不是和其他央行混在一起的原因，因為這一組才是當天 UST 的主因。",
-        "從一周與一個月變化看，這不是一天噪音。2Y 周升 19bp、月升 24bp，5Y 周升 16bp、月升 21bp，10Y 周升 10bp、月升 12bp；曲線 2s10s 月內壓平 12bp，5s30s 月內壓平 18bp。這些累積變化代表市場已從「何時降息」轉向「是否需要保留升息選項」。如果後續 CPI 接近 swap 隱含的 4.3%，這條重新定價鏈會延伸；若 CPI 低於 4.1%，才比較有條件把這次前端 selloff 視為過度反應。對 ETF 決策而言，這代表今天的關鍵不是找最低點，而是確認下一個資料是否推翻升息尾端風險，讓收益率提高轉成可承擔的風險補償。",
-        "長端沒有真正受惠於股市下跌，這是本日盤面的重要訊號。30Y 收 5.01%，20Y 收 5.03%，即使 Nasdaq 100 與 SOX 大跌，長端仍未出現乾淨的避險買盤。對台灣長天期美債 ETF 來說，這意味著「股市跌」不等於「長債 NAV 會修復」；長端需要同時看到供給壓力緩和、油價回落、CPI 不再上衝，以及 30Y 重新跌回 5% 下方，價格彈性才會回到比較有利的位置。換句話說，長端評估不能只看 5% 附近的殖利率，還要同步觀察 30Y 是否跌回 5% 下方，才有辦法判斷避險買盤是否有效。",
-        "油價與地緣風險是長端不能快速修復的第二條線。Brent 周五收 93.09、日跌 2.0%，WTI 收 90.54、日跌 2.7%，表面上有助通膨溢價降溫；但周末亞洲盤 Brent 反彈到約 95.60，表示市場還不能把能源風險從 Fed 反應函數裡移除。油價若再回 98 上方，長端損益平衡通膨與實質所得壓力會同時上升，Duration 部位就需要更嚴格的停損與分層。這條能源線也解釋為什麼油價應留在風險監控和市場驅動之間：它不是配置主軸，但會決定 Fed 與長端能否接受較低風險補償。",
-        "跨資產收盤也支持「折現率重估」而非單純風險偏好切換。S&P 500 跌 2.6%，Nasdaq Composite 跌 4.2%，Nasdaq 100 跌 4.8%，SOX 跌 10.3%，但 DXY 升 0.66%、黃金跌 3.1%。如果這是一場傳統避險交易，美元與黃金通常會更一致地反映避險需求；本次更像是實質利率和美元利差上升，壓縮長久期現金流估值，並同步壓住 IG credit 的 總報酬。這種組合對台灣投資人特別重要，因為海外債 ETF 的損益會同時承受美元資產價格、信用代理和台幣換算，不能只看單一市場。",
-        "因此，06/05 close 對台灣債券型 ETF 的第一層解讀是：中短天期利率風險重新升高，長天期仍受期限溢價約束，信用與股市長久期資產同步承壓。若只看 10Y 4.55% 的絕對殖利率，會低估 CPI 與 Fed 語句帶來的前端風險；若只看 USD/TWD 31.475 對台幣 NAV 有利，會低估 UST 價格和 LQD 下跌可能抵銷匯兌助益。所以第一層結論應是「收益率更高但確認不足」：殖利率改善提供觀察價值，但 CPI、長端與信用仍未形成同向確認。"
+        "6 月 5 日美債收盤的主線是勞動市場強於預期後，Fed 政策路徑重新往較高利率區間定價。官方 CMT 顯示 2Y 收 4.17%、日升 12bp，5Y 收 4.29%、日升 11bp，10Y 收 4.55%、日升 8bp，20Y 與 30Y 分別在 5.03% 與 5.01%。升幅由前端與中段領先，代表市場先處理政策利率路徑，再把長端風險補償重新調高。 這對中短天期 ETF 的意義是進場殖利率改善，但利率波動也會更快反映在價格；若沒有通膨降溫配合，carry 的吸引力不足以單獨抵銷前端再上行風險。",
+        "曲線訊號同樣偏向熊平。2s10s 收 38bp、日內壓平 4bp，5s30s 收 72bp、日內壓平 7bp，10s30s 收 46bp、日內壓平 4bp。這種型態表示 2Y-5Y 對 Fed 定價反應最直接，30Y 則仍受期限溢價、供給吸收與油價通膨溢價約束。對 ETF 來說，中段 Duration 的波動來源較清楚，20Y+ 的價格彈性仍較不乾淨。 這也使不同天期 ETF 的歸因差異變大：5Y-10Y 主要看 Fed 與 CPI，20Y+ 則同時承擔供給、期限溢價與長端買盤不足。",
+        "從一周與一個月變化看，這不是單日噪音。2Y 周升 19bp、月升 24bp，5Y 周升 16bp、月升 21bp，10Y 周升 10bp、月升 12bp；曲線 2s10s 月內壓平 12bp，5s30s 月內壓平 18bp。累積變化顯示市場已從等待降息時點，轉向檢查 Fed 是否需要保留升息選項。若 CPI 再確認通膨黏性，前端與中段仍有再上修空間。 對配置節奏而言，周/月變化比單日收盤更重要，因為它顯示市場已經連續調整政策路徑假設；短線反彈若沒有資料確認，容易只是部位修正。",
+        "長端沒有在股市大跌時出現乾淨的避險買盤，是本日最重要的交叉訊號。30Y 收在 5.01%，20Y 收在 5.03%，即使 Nasdaq 100 與 SOX 大跌，長端殖利率仍維持高位。這代表長天期美債 ETF 不能只靠股市壓力期待 NAV 修復；價格回升需要同時看到 CPI 不再上衝、油價回落、供給壓力緩和，以及 30Y 重新跌回 5% 下方。 因此長端 ETF 的勝率不只取決於股市風險情緒，也取決於長端投資人是否願意接受低於 5% 的 30Y；這個條件目前還沒有被確認。",
+        "資料本身提供了前端重新定價的直接理由。非農 +172k 明顯高於約 +80k 共識，失業率維持 4.3%，4 月就業還上修到 +179k；平均時薪年增 3.4% 雖然不是失控，但不足以抵銷就業驚喜。這組組合使市場很難沿用「勞動市場快速轉弱」的降息敘事，2Y 與 5Y 因此承受最大壓力。 對短中天期 ETF，這意味著勞動市場仍是第一階敏感因子；若初領失業金或薪資沒有同步轉弱，前端利率回落的持續性會受到限制。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "油價是長端修復的第二個約束。Brent 周五收 93.09、日跌 2.0%，WTI 收 90.54、日跌 2.7%，表面上有助通膨溢價降溫；但亞洲盤 Brent 反彈到約 95.60，表示地緣與能源風險仍未完全退出 Fed 反應函數。若 Brent 回到 98 上方，損益平衡通膨與實質所得壓力會重新升高，長端 Duration 部位需要更嚴格的停損與分批節奏。 這條線會直接影響 10Y 與 30Y 的風險補償，也會影響高配息債券 ETF 的本金波動，因為能源壓力會先透過殖利率而非配息率反映。",
+        "因此，06/05 close 對台灣債券型 ETF 的第一層訊息是中短天期利率風險升高，長天期仍受期限溢價約束，信用與成長股長久期資產同步承壓。10Y 4.55% 已提供較高 carry，但它仍需 CPI 與 FOMC 語句確認；30Y 5.01% 則提醒 20Y+ ETF 的短期價格風險仍大於單純殖利率吸引力。 因此當天較合理的部位語氣是保留觀察與分批，而不是把高殖利率直接視為全面加碼訊號；確認點仍在 CPI、FOMC、30Y 與 Brent。"
       ]
     },
     {
       "id": "rates_interpretation",
       "title": "二、美債走勢解讀",
-      "takeaway": "Fed 定價已從等降息轉為測試抗通膨可信度，中段比長端更適合作為主要觀察區。",
+      "takeaway": "CPI 與 FOMC 語句決定 10Y 4.55% 是進場區還是中繼壓力。",
       "paragraphs": [
-        "利率定價的核心變化，是 Fed 反應函數從「等待降息條件」轉成「維持抗通膨可信度」。就業公布後，市場已把年底前 25bp 升息納入定價，10 月升息機率也被推到約六成。這種變化不代表 Fed 一定會升息，而是代表前端不能再把降息當作單向路徑；台灣 ETF 投資人若持有 5Y-10Y 或更長天期商品，必須把收益率提高與價格波動重新放在同一個框架評估。因此政策路徑必須拆成前端與中段兩條線：前端反映 Fed 尾端風險，中段承受重新定價，長端則另受供給和期限溢價牽制。",
-        "CPI 是下一個真正分水嶺。swap 隱含本周 CPI 約 4.3% y/y，若數字接近這個水準，10Y 4.55% 只是中繼點，市場會重新測試 4.65%，同時要求 Fed 在 6 月 16-17 日聲明中移除偏降息語氣。反過來說，若 CPI 低於 4.1%，非農衝擊缺乏通膨確認，前端與中段才有較高機率修復；這也是為什麼配置結論不應寫成全面買進，而應保留明確的確認條件。這個條件式寫法可以避免報告變得過度主觀；它不是預測單一 CPI 數字，而是說明不同結果如何改變 ETF 的風險報酬。",
-        "政策溝通的重要性也上升。Warsh 首場會議面對的是強就業、油價反彈、股市去槓桿與賣方預測分歧：Goldman 已移除今年降息預期，Citi 仍維持降息但變成少數派。當機構預測分散，市場會把每一句官方措辭轉成機率分布；2Y 是否站穩 4.15%、5Y 是否守住 4.30%，會比單日股市跌幅更能反映政策尾端風險。因此，Fed 定價與就業應被視為同一條政策機制：就業韌性抬高升息尾端風險，前端與中段才會比長端更快反映。",
-        "曲線交易上，追空前端與追買長端都不乾淨。2s10s 已壓到 38bp，5s30s 已壓到 72bp，壓平交易已有一段利潤；但 30Y 還在 5.01%，若長端供給與期限溢價繼續黏著，過早買入 20Y+ 等於承擔另一種風險。較合理的做法是把 5Y-10Y 視為主要觀察區，長端只有在 30Y 重新跌破 4.95% 且油價回落時才提高信心。曲線資訊需要直接連到配置含義：中段承擔的是政策尾端風險，長端承擔的是期限溢價與供給風險。",
-        "長端的問題不是單一事件，而是多個風險補償同時存在。財政供給、長天期發行吸收能力、MBS 避險調整、油價通膨溢價，以及 AI 融資需求都會影響 30Y 是否能穩定回到 5% 下方。這些因素不一定每天都主導價格，但當科技股大跌仍無法拉低 30Y 時，就表示長端投資人仍要求很高的讓利；長天期 ETF 的 NAV 修復速度因此會慢於直覺。這些來源不一定每天成為主因，但會決定長天期 ETF 的左尾風險；若被壓縮成一句「長端承壓」，就會低估供給、油價與融資需求的共同壓力。",
-        "加拿大就業 +87.8k、失業率降至 6.6% 是輔助證據。它不是 UST 的核心 driver，但說明北美需求韌性不是美國單點故事，全球前端利率都在重新檢查「需求尚未冷卻」的風險。對台灣投資人而言，這會影響美元債 ETF 的兩個層面：一是全球投資級債的折現率，二是央行政策敘事是否能快速回到降息主軸。這條輔助證據應降階處理：它強化全球利率背景，但不應搶走美國就業與 CPI 的主導位置。",
-        "美元走強與黃金下跌也支持實質利率重新上行的解讀。DXY 升 0.66%，黃金跌 3.1%，代表市場不是單純買避險，而是在重新評估美元利差與實質收益。這對台幣計價海外債 ETF 有兩面效果：美元偏強有利台幣 NAV 換算，但實質利率上行會壓住 UST 與 IG bond 的美元價格；兩者不能互相抵銷後就直接得出正面結論，必須分別監控。因此 FX 對 NAV 的正向換算只能改善台幣報酬的一部分，不能被寫成抵銷所有利率風險，這是本輪報告必須修正的核心邏輯。",
-        "因此，利率策略不應把 06/05 close 解讀成「殖利率高了就全面提高曝險」。更好的框架是：先承認 Fed 尾端風險回來，承認長端期限溢價尚未解除，再用事件條件決定節奏。CPI 低於 4.1%、10Y 回到 4.45%-4.50%、Brent 低於 92，才是中段 Duration 風險報酬改善的組合；CPI 接近 4.3% 或 30Y 站上 5.05% 則要優先保留流動性。這種條件化策略能保持中立：不把單日高殖利率直接轉成強烈方向押注，而是把可驗證門檻列清楚，讓配置節奏可追蹤。"
+        "利率定價的核心變化，是 Fed 反應函數從等待降息條件，轉為重新證明抗通膨可信度。就業公布後，市場已把年底前 25bp 升息納入定價，10 月升息機率也被推到約六成。這不代表 Fed 一定升息，而是代表前端不能再把降息當成單向路徑；持有 5Y-10Y 或更長天期 ETF 時，收益率提高與價格波動必須一起評估。 這種環境下，ETF 投資人要先決定承擔哪一段曲線風險，而不是只比較票面殖利率；前端路徑不穩時，長天期商品的 NAV 會被放大波動。",
+        "CPI 是下一個分水嶺。swap 隱含本周 CPI 約 4.3% y/y，若公布值接近這個水準，10Y 4.55% 可能只是中繼壓力，市場會重新測試 4.65%，並要求 6 月 16-17 日 FOMC 聲明移除偏降息語氣。若 CPI 低於 4.1%，非農衝擊缺乏通膨確認，前端與中段才有較高機率修復。 這也是 5Y-10Y 比 20Y+ 更適合作為第一觀察區的原因：中段可以較快反映政策預期修復，長端則還要等待期限溢價與供給訊號轉弱。",
+        "政策溝通的重要性同步上升。當 Goldman 已移除今年降息預期，而 Citi 仍維持較偏降息的路徑，機構預測分歧本身就會放大每一句官方措辭的市場敏感度。2Y 是否站穩 4.15%、5Y 是否守住 4.30%，會比單日股市跌幅更能反映政策尾端風險；就業與 Fed 定價應被視為同一條政策機制。 若這些價位繼續守高，代表市場仍要求政策不確定性的補償；若它們回落，才代表投資人重新接受降息路徑與中段 Duration。",
+        "曲線交易上，追空前端與追買長端都不乾淨。2s10s 已壓到 38bp，5s30s 已壓到 72bp，壓平交易已走出一段；但 30Y 還在 5.01%，若供給與期限溢價繼續黏著，過早買入 20Y+ 等於承擔另一種風險。較合理的觀察區是 5Y-10Y，長端只有在 30Y 重新跌破 4.95% 且油價回落時才提高信心。 對 ETF 實作而言，曲線斜率不是獨立交易標籤，而是決定中段與長端哪一段更適合承擔風險；當 30Y 未確認時，長端比例不宜擴太快。",
+        "長端的壓力不是單一事件，而是多個風險補償同時存在。財政供給、長天期發行吸收能力、MBS 避險調整、油價通膨溢價，以及大型 AI 融資需求，都會影響 30Y 是否能穩定回到 5% 下方。這些因素未必每天都是主因，但科技股大跌仍無法拉低 30Y，表示長端投資人仍要求較高讓利。 台灣投資人若持有 20Y+ ETF，這段風險會透過價格波動直接反映在台幣 NAV；若同時持有高配息產品，更要拆開 income 與本金損益。",
+        "加拿大就業 +87.8k、失業率降至 6.6% 是輔助證據。它不是 UST 的核心 driver，但說明北美需求韌性不是美國單點故事，全球前端利率都在重新檢查需求尚未冷卻的風險。對台灣投資人而言，這會影響美元債 ETF 的折現率，也會影響央行政策敘事能否快速回到降息主軸。 這種輔助證據可以提高對前端利率黏著的信心，但仍不應凌駕美國 CPI 與 FOMC；配置上只把它當作降低過早加碼勝率的背景條件。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "美元走強與黃金下跌也支持實質利率重新上行的解讀。DXY 升 0.66%，黃金跌 3.1%，代表市場重估美元利差與實質收益。對台幣計價海外債 ETF，美元偏強有利台幣 NAV 換算，但實質利率上行會壓住 UST 與 IG bond 的美元價格；兩條損益來源必須分開看，不能互相抵銷後直接得出正面結論。 因此 FX 對 NAV 的正貢獻只能放在歸因的一條線，不能覆蓋利率和信用價格的負貢獻；這點對未避險或低避險比率產品尤其重要。"
       ]
     },
     {
       "id": "other_markets",
       "title": "三、其他市場動向",
-      "takeaway": "AI 融資、IG credit、亞洲 FX 與油價都在驗證同一件事：資金成本被重新抬高。",
+      "takeaway": "跨資產壓力指向折現率與資金成本上修，亞洲/EM 先作傳導觀察。",
       "paragraphs": [
-        "風險資產的訊號不是單純「股市跌」，而是長久期現金流被折現率重新定價。Nasdaq 100 跌 4.8%、SOX 跌 10.3%，跌幅遠大於 Dow 的 1.3%，顯示市場先賣對利率最敏感的 AI 與半導體現金流。這種跌法對 FI 的含義不是「風險偏好消失所以買債」，而是高成長資產和長天期債券同時被較高折現率壓住，兩者不能被視為天然對沖。因此跨資產訊號應服務於 FI 判讀，而不是成為另一個股市摘要；重點是哪些資產正在驗證折現率上行。",
-        "AI 融資與 IPO 供給讓這個股市訊號延伸到信用市場。Apollo/Anthropic 350 億美元晶片融資、SpaceX 750 億美元 IPO 需求，以及大型資料中心與電力投資，都顯示 AI 題材需要持續吸收外部資本。當 5Y-10Y 殖利率重新上行，AI 不只是 股市長久期 題材，也會變成 私募信用、IG 替代供給與長端資金需求題材；這也是為什麼信用判讀不能只停在 LQD 漲跌；目前更關心 IG 美元債對台灣 ETF 的映射，而不是用 HY 或股市來代表整體信用。",
-        "LQD 是這次信用代理的關鍵觀察。LQD 收 108.17、日跌 0.62%，HYG 收 79.43、日跌 0.50%，代表 IG Duration 與 HY 風險曝險都承壓。IG 本身仍有收益吸引力，但當 LQD 與 UST 同跌時，不能把信用市場簡化成「穩定」或「不穩定」；真正要拆的是 Duration 損失、spread compensation、primary quality 與 ETF liquidity，尤其台灣投資人買到的是 總報酬。LQD 的單日變化應連到信用量化條件，包括收益緩衝、利差、供給與流動性，而不是被解讀成單一方向訊號。",
-        "信用事件也提醒市場不要只看指數。Raizen 債務重組、AI 相關融資、以及日本企業槓桿上升，都是資金成本上升後的微觀壓力。這些事件不必然代表系統性信用風險，但會讓低品質或長天期信用在利率上行時缺乏保護。對美元債 ETF 配置而言，IG 可保留收益來源，但 HY 和弱主權需要更高風險補償，而不是跟著股市反彈就回到高 曝險。這些微觀例子提供的是風險分布的尾端資訊，重點在於深化信用分層，而不是把單一事件誤讀成整體市場方向。",
-        "亞洲與日本訊號應放在跨市場驗證，而不是混入 Fed driver。Nikkei 期貨低於現貨、科技股承壓、BOJ 升息押注升高，會影響亞洲開盤風險承接與 JGB 對全球長端的外溢；但它不是 06/05 美債熊平的主因。正確排序是：美國就業和 CPI 決定 UST 第一層，油價和長端供給決定期限溢價，亞洲政策與 JGB 波動決定隔日是否形成第二波全球 Duration 壓力。因此這項訊號應被定位為隔日風險濾網，而不是取代美國就業、CPI 與 Fed 定價的核心利率邏輯。",
-        "Indonesia 與亞洲 FX 也是風險監控，而不是核心 利率驅動。印尼股指距高點約 -39%、印尼盾年內約 -8% 並曾破 18,000，說明 EM 本地債需要更高實質殖利率與更可信的政策組合。這對台灣投資人有兩個用途：一是提醒 EM local 與亞洲信用不能只看收益率，二是當美元走強時，弱 FX 國家的信用 曝險 會放大，應與 UST 中段配置分開判斷。這也讓亞洲政策訊號的定位更清楚：它是隔日盤前的風險濾網，不是 06/05 美債收盤的主因，避免市場驅動再次混亂。",
-        "油價把跨資產與利率重新連在一起。周五 Brent 與 WTI 收低，理論上有利通膨溢價下降；但周末亞洲盤 Brent 反彈到約 95.60，表示地緣風險還沒有解除。對利率而言，油價不是只有商品題材，而會傳導到 CPI、實質所得、Fed 語句和長端 breakeven。若 Brent 回 98 上方，即使股市偏弱，長端債券也未必能得到避險買盤。如果油價高於 98，同樣的 10Y 殖利率會變得比較危險；如果油價低於 92，則高殖利率比較像補償充分後的觀察機會。",
-        "美元與台幣則必須用產品角度拆解。CBC USD/TWD 收 31.475，較前一交易日升 0.015，對台幣計價美元債 ETF 的 NAV 換算是正向，因為底層資產是美元債券但基金用台幣計價；台幣越弱，換算後 NAV 越有支撐。不過同一天 10Y 上升 8bp、LQD 下跌 0.62%，代表匯兌助益可能被債券美元價格損失抵銷，不能把 DXY 或 USD/TWD 單獨當成配置結論。這段必須放在跨資產後半，因為它直接修正匯率與 NAV 的方向：台幣走弱有利換算，但不保證總報酬為正。"
+        "風險資產的訊號集中在長久期現金流被較高折現率壓縮。Nasdaq 100 跌 4.8%、SOX 跌 10.3%，跌幅遠大於 Dow 的 1.3%，顯示市場先賣對利率最敏感的 AI 與半導體現金流。這對 FI 的含義是成長股與長天期債券同時面對較高折現率，而不是形成天然對沖。 這會削弱長債作為股票風險對沖的直覺判斷，尤其在實質利率上行時，兩者可能同時承壓，台灣 ETF 投資人必須把相關性假設降階。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "AI 融資與 IPO 供給把股市訊號延伸到信用市場。Apollo/Anthropic 350 億美元晶片融資、SpaceX 750 億美元 IPO 需求，以及大型資料中心與電力投資，都顯示 AI 題材需要持續吸收外部資本。當 5Y-10Y 殖利率重新上行，AI 不只是股票長久期題材，也會影響私募信用、IG 替代供給與長端資金需求。 這些資金需求未必立即推高 UST 殖利率，但會提高長端資本的競爭度，並讓 IG 與私募信用在高利率環境下面對更挑剔的定價。",
+        "LQD 是這次信用代理的重要觀察。LQD 收 108.17、日跌 0.62%，HYG 收 79.43、日跌 0.50%，代表 IG Duration 與 HY 風險曝險都承壓。IG 本身仍有收益吸引力，但當 LQD 與 UST 同跌時，信用市場不能只用穩定或不穩定概括；真正要拆的是 Duration 損失、利差補償、發行品質與 ETF 流動性。 如果後續 LQD 穩住而 UST 繼續弱，問題偏 Duration；若 LQD 與 HYG 同跌，信用利差與流動性壓力就需要更高權重。",
+        "信用事件補充的是尾端風險分布。Raizen 債務重組、AI 相關融資、以及日本企業槓桿上升，都反映資金成本上升後的微觀壓力。這些事件不代表系統性信用風險已經發生，但會讓低品質或長天期信用在利率上行時缺乏保護。美元債 ETF 可保留 IG 收益來源，HY 與弱主權則需要更高風險補償。 對 ETF 分類而言，高品質 IG 可以保留為收益來源，但低品質信用與 EM 主權不能只因票息高就提高權重；資產負債表與再融資能力更重要。",
+        "油價與地緣風險同時影響通膨與成長。周五 Brent 回落至 93.09，但亞洲盤反彈到約 95.60，代表能源風險仍會干擾 CPI 與 Fed 語句。對債券 ETF 而言，油價不是單純商品變數；Brent 92 下方會改善通膨溢價，Brent 98 上方則會提高實質所得壓力與長端損益平衡通膨。 若油價下行與 CPI 降溫同時出現，Duration 的勝率會改善；若油價反彈與就業強勢並存，市場會把高殖利率視為風險補償而非便宜。",
+        "Indonesia 與日本訊號屬於亞洲盤傳導風險。印尼股指距高點約 -39%、印尼盾年內約 -8% 並曾破 18,000，說明 EM 本地債需要更高實質殖利率與更可信政策組合；日本科技股與 JGB 波動則影響全球長端風險承接。這些訊號不主導 06/05 UST 收盤，但會影響隔日亞洲信用、FX 與主權利差。 因此 Asia/EM 訊號適合作為隔日風險承接的檢查點：若美元與美債同時施壓，弱 FX 國家的信用與本地債會先反映流動性折價。",
+        "美元與台幣必須用產品角度拆解。CBC USD/TWD 收 31.475，較前一交易日升 0.015，對台幣計價美元債 ETF 的 NAV 換算是正向，因為底層資產是美元債券但基金以台幣計價。不過同一天 10Y 上升 8bp、LQD 下跌 0.62%，匯兌助益可能被債券美元價格損失抵銷，總報酬仍需拆成 FX、UST 與信用三條線。 這個拆分能避免把台幣走弱誤讀成無條件利多：FX 換算支撐 NAV，但若 UST 與 IG 價格同時下跌，最終台幣總報酬仍可能偏弱。"
       ]
     },
     {
       "id": "allocation",
       "title": "四、配置含義",
-      "takeaway": "配置重點應從單一結論改成三段歸因：UST、credit、USD/TWD，並讓每個觸發連到具體 ETF 風險。",
+      "takeaway": "配置以中段 Duration、IG 收益與分段歸因為主，長端等待確認。",
       "paragraphs": [
-        "Duration 配置的結論是中性偏多，但主要觀察區應放在 5Y-10Y。10Y 4.55% 已比前一周高，提供較好的進場殖利率；可是非農驚喜、CPI swap 4.3% 與 Fed 語句風險都表示現在不是一次拉滿部位的環境。若投資人用台灣上市美債 ETF 表達，應先確認商品實際存續期間與追蹤指數，避免用看似中天期的收益率承擔接近長天期的價格波動。這比單純說「中性偏多」更可執行，因為它把產品存續期間、事件風險和進場區間連在同一個風險報酬框架。",
-        "長天期美債 ETF 仍不適合追價。30Y 5.01% 看似提供高收益，但它沒有在股市大跌時明顯修復，代表長端買盤尚未完全回來。若 30Y 站上 5.05%，20Y+ ETF 的價格風險會再度放大；若 30Y 回到 4.95% 下方並且 Brent 低於 92，才比較能說期限溢價和通膨溢價同時降溫。這是價格風險管理，不是對長債長期收益率的否定。長端的核心不是收益率絕對高低，而是它有沒有在該反彈的時候反彈；若沒有，代表市場仍在要求額外補償。",
-        "Curve 配置要避免追逐已經走了一段的壓平。2s10s 38bp、5s30s 72bp 已反映相當多前端重定價，繼續追壓平需要 CPI 或 Fed 語句再給確認。比較好的做法是中段超配、長端小幅低配，保留 income 與 roll-down，同時降低 30Y 受供給與期限溢價重新上行的傷害。若後續 CPI 轉弱，曲線反而可能先出現中段修復，而不是長端立即大幅走強。配置結論與機制應分層處理：先給出部位方向，再解釋曲線位置為什麼會改變風險來源。",
-        "信用配置應偏向 IG 收益與短中天期，不宜用 HY 追風險。LQD -0.62% 顯示 IG 也受 Duration 影響，但 IG 的票息與品質仍優於低品質信用；HYG -0.50% 則提醒 HY 不是 safe asset。對台灣美元債 ETF 投資人而言，重點不是硬解釋單日 LQD 下跌，而是確認 credit quantitative 條件：spread cushion 是否足夠、primary supply 是否壓價格、ETF discount/liquidity 是否穩定。因此 LQD 應作為 IG 量化觀察指標，不應被硬解釋成單日漲跌故事；真正重要的是它是否和 UST 同跌。",
-        "台幣計價海外債 ETF 要把 FX 換算、UST 價格與信用利差拆開。USD/TWD 31.475 表示匯率換算助益增加；因底層持有美元債，台幣走弱時，換算後的台幣 NAV 通常得到支撐。同一天仍要另外扣除 UST 價格與 LQD 表現，因為債券美元價格下跌可能吃掉一部分匯兌利益。這也是先前邏輯必須修正的地方：台幣越弱通常有利台幣計價海外債 NAV，但它不是總報酬的全部，不能用匯率掩蓋利率與信用損失。這個三段歸因是台灣債券型 ETF 報告的基本框架，之後生成也應固定檢查，避免未來生成時再次寫錯匯率方向。",
-        "若投資人持有高配息或長天期 ETF，這次盤面要求降低「配息等於總報酬」的想像。殖利率提高確實改善未來收益，但短期價格損失會先反映在 NAV；若利率上行速度快於收益累積，高配息也無法立即保護本金。比較務實的評估方式是把配息率、存續期間、指數殖利率、匯率換算與信用 曝險 同時列出，不把單一高配息當作防守訊號。這個拆解比單純列配息率更有用，因為它說明哪一些收益看得到、哪一些價格損失會先發生，避免被表面殖利率誤導。",
-        "EM 與亞洲美元債要以政策可信度篩選。Indonesia 的 FX 防守、日本企業槓桿與亞洲科技股壓力，都不是 UST 主軸，但會影響隔日亞洲信用與主權利差。若 USD/IDR 仍在 18,000 上方且政策回應低於市場期待，EM local 與弱信用需要更高收益補償；若政策能穩定 FX，才有助於亞洲 信用曝險。這部分應留在風險監控，不應和 Fed/CPI 放在同一張驅動卡。這樣安排也能降低報告噪音：EM 政策只在影響亞洲盤風險承接時才進入決策，不再和美國核心利率驅動混在一起。",
-        "整體配置語氣應是準備與條件確認，而不是全面提高風險。資料支持中段殖利率較有吸引力，也支持 FX 對台幣 NAV 的短線助益；但 CPI、油價、30Y 與 LQD 都還沒有給出同一方向的確認。若四者同時改善，可以把 5Y-10Y 從觀察轉成較積極配置；若任一項惡化，優先保留流動性與高品質收益，避免用單一便宜殖利率解釋所有 ETF。最終，配置重點應該像風險預案而不是結論堆疊；每一個判斷都要能連到可驗證條件與具體資產部位。"
+        "Duration 配置維持中性偏多，但主要觀察區應放在 5Y-10Y。10Y 4.55% 已比前一周高，提供較好的進場殖利率；可是非農驚喜、CPI swap 4.3% 與 FOMC 語句風險都表示現在不適合一次拉滿部位。若用台灣上市美債 ETF 表達，必須確認商品實際 Duration 與追蹤指數，避免用看似中天期的收益率承擔接近長天期的價格波動。 若 CPI 前要建立部位，較穩健的方式是小額分批並保留現金彈性，讓資料公布後仍有空間調整，而不是在單日高殖利率出現後一次買滿。",
+        "長天期美債 ETF 仍不適合追價。30Y 5.01% 看似提供高收益，但它沒有在股市大跌時明顯修復，代表長端買盤尚未完全回來。若 30Y 站上 5.05%，20Y+ ETF 的價格風險會再度放大；若 30Y 回到 4.95% 下方並且 Brent 低於 92，期限溢價和通膨溢價才比較像同時降溫。 對 20Y+ ETF，這表示高殖利率只是補償，不是風險解除；若投資人以長端商品追求配息，仍需承擔更大的利率 convexity 與 NAV drawdown。",
+        "Curve 配置要避免追逐已經走了一段的壓平。2s10s 38bp、5s30s 72bp 已反映相當多前端重定價，繼續追壓平需要 CPI 或 FOMC 語句再給確認。比較好的做法是中段超配、長端小幅低配，保留 income 與 roll-down，同時降低 30Y 受供給與期限溢價重新上行的傷害。 這個配置也讓 ETF 組合在兩種情境下都有彈性：若 CPI 降溫，中段先修復；若 CPI 偏高，長端低配可降低 30Y 再上行的損失。",
+        "信用配置偏向 IG 收益與短中天期，不宜用 HY 追風險。LQD -0.62% 顯示 IG 也受 Duration 影響，但 IG 的票息與品質仍優於低品質信用；HYG -0.50% 則提醒 HY 並不是避險資產。對台灣美元債 ETF 投資人而言，LQD 是 IG 總報酬代理指標，後續更重要的是利差補償、一級市場品質、ETF 流動性與折溢價，而不是單日漲跌。 若沒有直接利差資料，LQD 與 HYG 只能作為總報酬代理指標；正式配置仍要看指數 Duration、信用評級、產業集中度與 ETF 流動性。",
+        "台幣計價海外債 ETF 要把 FX 換算、UST 價格與信用利差拆開。USD/TWD 31.475 表示匯率換算助益增加；因底層持有美元債，台幣走弱時，換算後的台幣 NAV 通常得到支撐。同一天仍要另外扣除 UST 價格與 LQD 表現，因為債券美元價格下跌可能吃掉一部分匯兌利益。 這種分解對台灣產品特別重要，因為同一天可能出現 FX 支撐、利率拖累與信用拖累並存；只看 NAV 單日變化容易錯判真正來源。",
+        "高配息或長天期 ETF 仍要用總報酬衡量。殖利率提高確實改善未來收益，但短期價格損失會先反映在 NAV；若利率上行速度快於收益累積，高配息也無法立即保護本金。比較務實的評估方式是把配息率、Duration、指數殖利率、匯率換算與信用曝險同時列出，不把單一高配息當作防守訊號。 對零售與 PM 都一樣，配息率只是現金流呈現方式，總報酬仍取決於價格、匯率、利差與費用；高配息不能取代風險預算。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "實作上，5Y-10Y 可用小部位等待 CPI 驗證，20Y+ 則等 30Y 回到 4.95% 下方或 Brent 跌破 92 再提高信心。信用部位以 IG 與短中天期為核心，HY 與弱主權只在利差補償明顯擴大時才重新評估。若 CPI 接近 4.3%、10Y 上破 4.65%、30Y 站上 5.05%、LQD 跌破 108，配置重心應轉回流動性與高品質收益。 這組條件讓配置語氣保持中立而具操作性：有殖利率可以準備，但還沒有足夠證據把中段觀察升級成長端全面加碼。"
       ]
     },
     {
       "id": "watchlist",
       "title": "五、後續觀察重點",
-      "takeaway": "後續觀察不只是事件清單，而是每個觸發都對應一個部位決策。",
+      "takeaway": "觀察順序為 CPI/Fed、10Y/30Y、Brent、LQD、USD/TWD 與亞洲傳導。",
       "paragraphs": [
-        "第一個觸發是 CPI。若 6 月 10 日 CPI 接近 swap 隱含的 4.3%，前端會重新測試升息尾端風險，10Y 可能往 4.65% 靠近，5Y-10Y 部位應維持觀望；若 CPI 低於 4.1%，非農衝擊缺乏通膨確認，中段 Duration 才有更好的修復條件。這個觸發對所有美債 ETF 都重要，但對存續期間集中在 5Y-10Y 的商品最直接。因此，CPI 不是孤立事件，而是直接決定 5Y-10Y 與長天期 ETF 風險分層的核心觸發。",
-        "第二個觸發是 FOMC 語句。6 月 16-17 日會議若移除降息傾向或強調抗通膨可信度，2Y 與 5Y 仍會比 30Y 更敏感，曲線可能繼續維持熊平；若聲明保留雙向風險並淡化升息選項，市場才會重新給中段 Duration 修復空間。這裡要看的是措辭如何改變市場對下一步政策的分布，而不是單純看會議是否按兵不動。單列會議日期不足以形成交易判斷；真正需要追蹤的是語句變化如何傳導到 2Y、5Y 與曲線。",
-        "第三個觸發是 10Y 與 30Y 價位。10Y 下破 4.45% 才代表買盤真正接手，4.55%-4.65% 則是風險管理區；30Y 若站上 5.05%，代表期限溢價和供給壓力重新主導，20Y+ ETF 需降低價格彈性假設。若 10Y 回落但 30Y 仍高於 5%，表示市場只修復中段，長端仍不適合被視為乾淨的避險資產。這個價位框架能避免只看 10Y 一個數字；長端是否同步確認，才是判斷 20Y+ ETF 能不能修復的關鍵。",
-        "第四個觸發是油價。Brent 92 下方有助通膨溢價降溫，也能讓 Fed 語句比較容易保持彈性；Brent 98 上方則會重新推升能源通膨、實質所得壓力與長端損益平衡通膨。油價不是獨立商品訊號，而是決定 CPI 與長端修復勝率的前置變數。對 ETF 配置而言，油價走低才會讓高殖利率更像機會，油價上衝則讓高殖利率更像風險補償。因此油價訊號不應只被當作商品價格，而要說清楚它如何影響 CPI、Fed 溝通與長端 breakeven。",
-        "第五個觸發是 LQD 與 HYG。LQD 守住 108 且 HYG 守住 79，表示信用代理雖受利率壓力但沒有失控，可以保留 IG 收益；若兩者同步跌破，代表利率與利差同時傷害美元債 ETF，應降低信用 曝險。LQD 的用途不是預測每一天 信用利差，而是提供 IG 總報酬 是否能承受高利率環境的量化檢查。若未來有更完整 spread 或 CDX 資料，可優先取代 ETF 代理指標；在目前資料條件下，LQD 是較貼近 IG 需求的可交易檢查點。",
-        "第六個觸發是 USD/TWD。31.40 下方代表台幣走強、FX 換算助益減弱，台幣計價海外債 ETF 會更依賴 UST 與信用表現；31.55 上方則表示匯率換算助益增加。若台幣走弱同時伴隨油價與 Fed 壓力，底層債券美元價格仍可能下跌，所以需要分開看 FX、UST 與信用三條損益。這裡必須使用台灣央行銀行間收盤或台北外匯經紀公司境內收盤匯率，離岸報價只能當盤中參考。這一點也要寫進未來生成規則：USD/TWD 優先使用台灣央行銀行間收盤或台北外匯經紀境內收盤匯率，避免被離岸報價帶偏。",
-        "第七個觸發是亞洲政策防守。Indonesia 若能讓 USD/IDR 回到 18,000 下方並提供可信政策組合，EM 風險可穩定；若政策低於市場期待，EM 本地債與亞洲信用利差會需要更高補償。這一項不應取代美國 CPI 與 Fed 的主軸，但可以幫助判斷隔日亞洲盤是否把 UST 壓力擴散成 EM、FX 與 credit 的連鎖反應。這樣亞洲訊號能保留資訊價值，同時避免把所有央行事件混成同一條利率驅動。",
-        "最後要看 AI 融資與科技股是否止血。若 SOX 回到 12,800 上方、NDX 反彈且 10Y 同時低於 4.50%，代表折現率壓力緩和，可以降低對信用與成長股去槓桿的擔憂；若 SOX 失守 12,000 且 LQD 續跌，AI 就不只是 growth story，而是資金需求、信用供給與長端資金吸收的共同壓力點。這能把股市訊號重新映射到 FI 配置，而不是只當跨資產摘要。這條傳導能區分兩種情境：科技股壓力若只是股市波動，對 FI 的影響有限；若同時伴隨 LQD 下跌與 10Y 高位，則會變成信用與資金成本問題。"
+        "第一個觸發是 CPI。若 6 月 10 日 CPI 接近 swap 隱含的 4.3%，前端會重新測試 Fed 保留升息選項，10Y 可能往 4.65% 靠近，5Y-10Y 部位維持觀望；若 CPI 低於 4.1%，非農衝擊缺乏通膨確認，中段 Duration 才有更好的修復條件。 對 ETF 操作而言，這是一個先後順序明確的資料點：CPI 先決定前端路徑，才輪到 10Y 是否突破區間與長端是否能修復。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "第二個觸發是 FOMC 語句。6 月 16-17 日聲明若移除偏降息語氣，或重新強調通膨韌性，2Y 與 5Y 對政策尾端風險會更敏感；若聲明保留雙向彈性且承認就業之外的成長放緩，市場才有機會把升息定價降回風險情境。這會直接影響短中天期 ETF 的再配置節奏。 若 2Y-5Y 對聲明反應過大，短中天期 ETF 可能先承壓；若反應溫和而 10Y 回落，才代表政策風險被重新壓回可承受範圍。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "第三個觸發是 10Y 與 30Y 價位。10Y 下破 4.45% 才代表中段買盤真正接手，4.55%-4.65% 則是風險管理區；30Y 若站上 5.05%，代表期限溢價和供給壓力重新主導，20Y+ ETF 需降低價格彈性假設。若 10Y 回落但 30Y 仍高於 5%，修復主要集中在中段。 這兩個價位要一起看，因為 10Y 回落只能說明中段買盤改善，30Y 回落才代表長端期限溢價也被壓住；兩者缺一時不宜追長端。",
+        "第四個觸發是油價。Brent 92 下方有助通膨溢價降溫，也能讓 Fed 語句比較容易保持彈性；Brent 98 上方則會重新推升能源通膨、實質所得壓力與長端損益平衡通膨。對 ETF 配置而言，油價走低會讓高殖利率更像機會，油價上衝則讓高殖利率更像風險補償。 油價還會影響台灣投資人對美元債的匯率與利率歸因，因為能源上行通常同時推升美元、通膨溢價與亞洲 FX 壓力。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "第五個觸發是信用代理。LQD 108 是 IG 總報酬代理指標 的近端支撐，HYG 79 是 HY 景氣曝險 的風險線；若 LQD 跌破 108 且 HYG 跌破 79，代表利率與信用同時轉弱，不宜用高配息或 FX 換算掩蓋總報酬壓力。若 LQD 穩住、HYG 不再破底，IG 收益部位才比較能保留。 這組信用觸發可以把 IG 與 HY 分開處理：IG 穩定代表收益仍可留存，HY 失守則代表市場已要求景氣與流動性折價。",
+        "第六個觸發是 USD/TWD。31.40 下方代表台幣走強、FX 換算助益減弱，台幣計價海外債 ETF 會更依賴 UST 與信用表現；31.55 上方則表示匯率換算助益增加。判讀必須使用台灣央行銀行間收盤或台北外匯經紀公司境內收盤匯率，離岸報價只能作為參考。 若境內收盤與離岸報價分歧，ETF 歸因仍以境內收盤為主，因為台幣計價產品的 NAV 換算最接近本地收盤匯率。 這也是本次部位管理要優先拆分利率、信用與匯率來源的原因。",
+        "最後觀察亞洲與 AI 傳導。Indonesia 若能讓 USD/IDR 回到 18,000 下方並提出可信政策組合，EM 風險可穩定；SOX 若回到 12,800 上方且 10Y 同時低於 4.50%，折現率壓力才算緩和。若 SOX 失守 12,000 且 LQD 續跌，AI 會同時牽動資金需求、信用供給與長端資金吸收。 這些檢查不改變美國利率主軸，但能判斷壓力是否從 UST 擴散到亞洲信用、科技融資與 EM 主權風險。"
       ]
     }
   ],
@@ -455,103 +450,103 @@
     "en": {
       "title": "Daily FI Market Tape | 2026-06-05 close",
       "summary": [
-        "Payrolls of +172k versus roughly +80k consensus pushed the 2Y to 4.17% and the 5Y to 4.29%, putting Fed hike-tail risk back into the front end and belly.",
-        "The 10Y closed at 4.55% and the 30Y at 5.01%; 2s10s and 5s30s both flattened, so this was policy-path repricing rather than a clean risk-off bond rally.",
-        "NDX -4.8%, SOX -10.3% and LQD -0.6% show that AI funding, IG credit duration and equity-duration assets were all hit by the higher discount-rate channel.",
-        "CBC USD/TWD closed at 31.475, helping TWD NAV translation, but higher rates and weaker credit proxies mean overseas-bond ETF adds should be staged."
+        "Payrolls rose +172k versus roughly +80k consensus, pushing the 2Y to 4.17% and the 5Y to 4.29%; the market repriced the possibility that the Fed keeps a hike option alive.",
+        "The 10Y closed at 4.55% and the 30Y at 5.01%, with 2s10s and 5s30s both flattening; long-end buying is still constrained by term premium and supply absorption.",
+        "NDX -4.8%, SOX -10.3% and LQD -0.6% show that cross-asset pressure came mainly through higher discount rates and funding costs; credit exposure should stay IG and short/intermediate biased.",
+        "CBC USD/TWD closed at 31.475, giving TWD-denominated overseas-bond ETFs FX translation support, but higher rates and weaker credit proxies can offset part of the NAV benefit."
       ],
       "headline": {
-        "primary": "Hot payrolls revive Fed hike-tail risk and keep long-duration ETFs under pressure",
-        "secondary": "2Y 4.17%, 10Y 4.55%, 2s10s 38bp; FX helps TWD NAV, but rates and LQD losses argue for staged adds only."
+        "primary": "Strong payrolls lift front-end yields; bear flattening keeps long-duration ETFs under pressure",
+        "secondary": "2Y 4.17%, 10Y 4.55%, 2s10s 38bp; watch the belly first and wait for CPI, the 30Y and oil before extending into 20Y+."
       },
       "regime_strip": [
         {
           "label": "Rates",
-          "value": "Front end and belly reprice hike-tail risk"
+          "value": "Front end and belly reprice the Fed path"
         },
         {
           "label": "Curve",
-          "value": "2s10s and 5s30s bear-flatten"
+          "value": "Bear flattening sits in 2s10s and 5s30s"
         },
         {
           "label": "Risk",
-          "value": "AI duration assets delever"
+          "value": "Growth-equity pressure comes from discount rates"
         },
         {
           "label": "Oil",
-          "value": "Oil rebound limits long-end repair"
+          "value": "Brent rebound keeps inflation premium alive"
         },
         {
           "label": "FX / NAV",
-          "value": "USD/TWD supports TWD NAV translation"
+          "value": "USD/TWD uptick supports TWD translation"
         },
         {
           "label": "Credit",
-          "value": "IG income beats chasing beta"
+          "value": "LQD weakness limits IG total return"
         }
       ],
       "positioning": [
         {
           "label": "Duration",
           "view": "Neutral to slightly long; watch 5Y-10Y first",
-          "best_expression": "10Y 4.55%-4.60% is attractive, but CPI risk argues against extending into 20Y+ yet.",
+          "best_expression": "10Y at 4.55%-4.60% offers better entry yield, but do not extend into 20Y+ before CPI.",
           "risk_trigger": "Stay patient if 10Y breaks 4.65% or CPI comes near 4.3%."
         },
         {
           "label": "Curve",
-          "view": "Do not chase flattening; keep the belly first",
-          "best_expression": "After 2s10s at 38bp, keep belly income and only a small long-end underweight.",
+          "view": "Do not chase flattening; keep belly income",
+          "best_expression": "After 2s10s at 38bp, focus on belly income and roll-down with a small long-end underweight.",
           "risk_trigger": "30Y above 5.05% means term premium is back in control."
         },
         {
           "label": "Credit / ETF",
           "view": "IG and short/intermediate maturity beat HY beta",
-          "best_expression": "Use LQD as the IG proxy: keep income quality but avoid chasing high-risk credit.",
-          "risk_trigger": "Reduce credit beta if LQD breaks 108 or HYG breaks 79."
+          "best_expression": "Use LQD as the IG proxy: keep quality income, not cyclical HY beta.",
+          "risk_trigger": "Reduce credit exposure if LQD breaks 108 or HYG breaks 79."
         },
         {
           "label": "TWD ETF",
-          "view": "FX helps, but split rates and spreads",
-          "best_expression": "TWD overseas-bond ETFs need separate attribution for FX, UST and credit.",
+          "view": "FX support must be separated from rates losses",
+          "best_expression": "For TWD overseas-bond ETFs, split FX translation, UST price return and credit spread return.",
           "risk_trigger": "Lower confidence if USD/TWD falls below 31.40 or 10Y breaks 4.65%."
         },
         {
-          "label": "Confirmation",
-          "view": "Wait for CPI and the long end",
-          "best_expression": "CPI below 4.1%, Brent below 92 and 10Y back to 4.45%-4.50% would improve risk/reward.",
-          "risk_trigger": "Turn defensive if oil returns to 98, SOX loses 12,000 or credit proxies keep falling."
+          "label": "Add Conditions",
+          "view": "Wait for CPI, the 30Y and Brent to improve together",
+          "best_expression": "Add more only with CPI below 4.1%, Brent below 92 and 10Y back to 4.45%-4.50%.",
+          "risk_trigger": "Turn defensive if Brent returns to 98, SOX loses 12,000 or credit proxies keep falling."
         }
       ],
       "driver_decomposition": [
         {
           "driver": "Labor / Fed pricing",
-          "signal": "Payrolls +172k vs about +80k consensus; unemployment 4.3%.",
-          "fi_impact": "Hike-tail risk reprices first in the front end and belly, pressuring 2Y-5Y most directly."
+          "signal": "Payrolls +172k vs roughly +80k consensus; unemployment 4.3%.",
+          "fi_impact": "The front end and belly first price the Fed keeping a hike option alive; 2Y-5Y remain the most direct pressure points."
         },
         {
           "driver": "CPI / Inflation premium",
-          "signal": "CPI swaps imply roughly 4.3% y/y for this week.",
-          "fi_impact": "A print near that level would make 10Y 4.55% a staging point, not a ceiling."
+          "signal": "This week’s CPI swaps imply roughly 4.3% y/y.",
+          "fi_impact": "A print near that level would make 10Y 4.55% a staging point rather than a ceiling."
         },
         {
           "driver": "Long-end supply / Term premium",
-          "signal": "30Y remains at 5.01% and 20Y at 5.03%; 5s30s flattened 7bp.",
-          "fi_impact": "The long end failed to rally with equities down, keeping pressure on 20Y+ ETF exposure."
+          "signal": "30Y 5.01%, 20Y 5.03%; 5s30s flattened 7bp on the day.",
+          "fi_impact": "Long-end buying has not taken control, limiting price convexity in 20Y+ ETFs."
         },
         {
           "driver": "AI funding / IG credit",
           "signal": "NDX -4.8%, SOX -10.3%; LQD 108.17, down 0.62%.",
-          "fi_impact": "Higher discount rates pressure both growth equities and long-duration credit; keep IG income but avoid chasing."
+          "fi_impact": "Higher discount rates pressure both growth equities and long-duration credit; IG income needs price-risk control."
         },
         {
           "driver": "Oil / Geopolitics",
-          "signal": "Brent closed at 93.09 and rebounded toward 95.60 in early Asia.",
-          "fi_impact": "Energy pressure delays inflation relief and makes long-end repair harder to sustain."
+          "signal": "Brent closed Friday at 93.09 and rebounded toward 95.60 in Asia.",
+          "fi_impact": "Energy rebound slows inflation-premium relief and raises the bar for long-end repair."
         },
         {
           "driver": "USD/TWD / NAV",
           "signal": "DXY 100.07; CBC USD/TWD 31.475, up 0.015.",
-          "fi_impact": "Dollar strength helps TWD NAV translation, but Treasury and credit losses can offset the benefit."
+          "fi_impact": "Dollar strength supports TWD NAV translation, but UST and credit price losses can offset part of the benefit."
         }
       ],
       "monitor_blocks": {
@@ -559,29 +554,29 @@
           {
             "label": "10Y UST",
             "value": "4.45% / 4.65%",
-            "detail": "Below 4.45% would show belly buyers are back; above 4.65% pauses duration adds."
+            "detail": "Below 4.45% shows belly buyers are back; above 4.65% pauses duration adds."
           },
           {
             "label": "30Y UST",
             "value": "5.05%",
-            "detail": "A break higher means term premium and supply are back in control of 20Y+ ETF risk."
+            "detail": "A clear break higher means term premium and supply pressure again dominate 20Y+ ETF risk."
           },
           {
             "label": "LQD",
             "value": "108",
-            "detail": "A break below 108 means IG credit and rates losses are moving together."
+            "detail": "A break below 108 means IG credit and rates losses are widening together."
           },
           {
             "label": "USD/TWD",
             "value": "31.40 / 31.55",
-            "detail": "Below 31.40 weakens FX support; above 31.55 requires separating FX gains from bond-price losses."
+            "detail": "Below 31.40 weakens FX support; above 31.55 still requires separating FX gains from bond-price losses."
           }
         ],
         "event_risks": [
           {
             "label": "U.S. CPI",
             "value": "6/10; swaps near 4.3%",
-            "detail": "Near 4.3% reinforces hike-tail risk; below 4.1% supports belly repair."
+            "detail": "Near 4.3% reinforces the Fed hike-option risk; below 4.1% supports belly repair."
           },
           {
             "label": "FOMC",
@@ -596,7 +591,7 @@
           {
             "label": "Credit",
             "value": "LQD 108 / HYG 79",
-            "detail": "Both breaking lower would argue against treating FX translation as total-return support."
+            "detail": "Both breaking lower would signal rates and credit stress together; do not rely only on FX translation."
           }
         ],
         "asia_update": [
@@ -608,7 +603,7 @@
           {
             "label": "Indonesia",
             "value": "FX defense remains the focus",
-            "note": "Indonesia policy risk belongs in EM/Asia monitoring, not the core UST driver board."
+            "note": "Indonesia policy risk is useful for EM/Asia transmission, not for the core UST close read."
           },
           {
             "label": "Taiwan FX",
@@ -701,61 +696,61 @@
               "label": "S&P 500",
               "value": "7,383.74",
               "change": "-2.6%",
-              "note": "A higher discount rate after stronger payrolls prevented the index from extending its winning streak."
+              "note": "Higher discount rates after stronger jobs data pressured broad equities but did not produce a strong long-end Treasury rally."
             },
             {
               "label": "Nasdaq Composite",
               "value": "25,709.43",
               "change": "-4.2%",
-              "note": "AI and long-duration growth equities amplified the front-end rate repricing."
+              "note": "AI and long-duration growth equities were most sensitive to front-end repricing, falling more than value stocks."
             },
             {
               "label": "Nasdaq 100",
               "value": "28,957.60",
               "change": "-4.8%",
-              "note": "The largest drop since April 2025 made risk deleveraging the main cross-asset channel."
+              "note": "The sharpest drop since April 2025 shows higher discount rates compressed high-growth cash flows."
             },
             {
               "label": "SOX",
               "value": "12,220.76",
               "change": "-10.3%",
-              "note": "Semiconductors were the most sensitive to rates and AI capex concerns, pressuring Asia tech open."
+              "note": "Chip shares reflected rates, AI capex and funding-cost concerns, with spillover risk for Asia tech."
             },
             {
               "label": "Dow",
               "value": "50,866.78",
               "change": "-1.3%",
-              "note": "Defensive and old-economy equities outperformed but did not offset the rates shock."
+              "note": "Defensive and value shares held up better but could not offset the rates shock."
             },
             {
               "label": "DXY",
               "value": "100.07",
               "change": "+0.7%",
-              "note": "Dollar yield advantage increased, raising Asia FX and EM funding pressure."
+              "note": "Dollar-rate advantage rose again, lifting pressure on Asia FX and EM funding."
             },
             {
               "label": "USD/TWD",
               "value": "31.475",
               "change": "+0.015",
-              "note": "The onshore Taiwan close shows FX translation support for TWD overseas-bond ETFs, but rates and credit must be separated."
+              "note": "The Taipei close showed a small USD gain; TWD overseas-bond ETFs get FX translation support, but rates and credit need separate attribution."
             },
             {
               "label": "Brent",
               "value": "$93.09",
               "change": "-2.0%",
-              "note": "The U.S. close was lower, but early Asia rebound toward 95.60 kept the inflation-risk channel alive."
+              "note": "Friday’s close was lower, but Asia trading rebounded toward $95.60, so energy inflation premium has not cleared."
             },
             {
               "label": "Gold",
               "value": "$4,337.10",
               "change": "-3.1%",
-              "note": "Higher real yields and a stronger dollar outweighed haven demand."
+              "note": "Higher real yields and the stronger dollar outweighed haven demand."
             },
             {
               "label": "LQD / IG Credit",
               "value": "108.17",
               "change": "-0.62%",
-              "note": "IG credit and duration were both under pressure; assess spreads, primary quality and ETF liquidity separately."
+              "note": "IG credit and duration weakened together; focus on spread compensation, primary quality and ETF liquidity."
             }
           ]
         },
@@ -785,7 +780,7 @@
               "label": "U.S. CPI",
               "value": "6/10 pending; swaps imply about 4.3% y/y",
               "expected": "Near the highest since 2023; prior was below the implied level",
-              "note": "Near 4.3% would make 10Y 4.55% a staging level and force the Fed statement to drop easing bias."
+              "note": "If CPI is near 4.3%, 10Y 4.55% may not be the peak and the FOMC statement would need a tougher inflation tone."
             },
             {
               "label": "Fed pricing",
@@ -830,76 +825,71 @@
         {
           "id": "rates_close",
           "title": "1. Treasury Close and Curve Move",
-          "takeaway": "Payrolls pushed hike-tail risk back into the front end; the curve bear-flattened rather than rallying on risk aversion.",
+          "takeaway": "Strong payrolls lifted Treasury front-end yields and flattened the curve while long-end buying stayed constrained.",
           "paragraphs": [
-            "The June 5 Treasury close was not a simple equities-down, bonds-up session. Payrolls pushed the Fed path to the right. Official CMT marks put the 2Y at 4.17%, up 12bp, the 5Y at 4.29%, up 11bp, the 10Y at 4.55%, up 8bp, and the 20Y/30Y at 5.03% and 5.01%. The front end and belly rose more than the long end, showing that the market repriced hike-tail risk first and then kept long-end compensation elevated through supply and inflation risk.",
-            "The curve confirms bear flattening rather than a clean long-end selloff. The 2s10s closed at 38bp, 4bp flatter on the day; the 5s30s closed at 72bp, 7bp flatter; and the 10s30s closed at 46bp, 4bp flatter. If this had been only a risk-off bond rally, the 10Y and 30Y should have fallen more easily. Instead, the 30Y stayed above 5%, which means inflation, supply and long-end risk premium still matter for long-duration assets.",
-            "Payrolls were the first-order shock. Nonfarm payrolls rose 172k versus roughly 80k consensus, unemployment held at 4.3%, and April payrolls were revised up to 179k. That makes it hard for the market to keep pricing rapid labor-market deterioration as the basis for cuts. Wage growth at 3.4% y/y was not disorderly, but with oil and CPI risk still open, it is not enough to let the Fed move back to an explicitly dovish stance.",
-            "The move is not one-day noise when viewed over a week and a month. The 2Y is up 19bp on the week and 24bp on the month, while the 5Y is up 16bp and 21bp. The 2s10s has flattened 12bp over the month, and the 5s30s has flattened 18bp. That structure says the market has moved from debating the timing of cuts to debating whether the Fed needs to preserve optionality to hike again.",
-            "The long end did not receive much protection from the equity selloff, and that is the key signal. The 30Y at 5.01% and the 20Y at 5.03% failed to rally cleanly even as the Nasdaq 100 and SOX sold off heavily. For Taiwan-listed long Treasury ETFs, that means a weaker equity tape alone is not enough to assume NAV repair. The long end needs a break below 5%, lower oil, and less supply pressure.",
-            "Oil is the second constraint on long-end repair. Brent and WTI fell on the U.S. close, but Brent rebounded toward 95.60 in early Asia trading after renewed geopolitical stress. That keeps the inflation-premium channel alive. The 10Y at 4.55% should not be treated as a safe high if CPI comes in near the roughly 4.3% level implied by swaps.",
-            "Cross-asset closes also point to discount-rate repricing rather than a plain risk-off rotation. The S&P 500 fell 2.6%, the Nasdaq Composite fell 4.2%, the Nasdaq 100 fell 4.8%, and the SOX fell 10.3%, while DXY rose to 100.07 and gold fell 3.1%. The market was not only hiding in safe assets; it was demanding a higher discount rate for long-duration cash flows.",
-            "The first read for Taiwan bond ETF allocation is therefore clear: front-end and belly rates risk is back, the long end is still constrained by term-premium and supply pressure, and credit plus equity-duration assets are under pressure at the same time. Looking only at the absolute 10Y yield would miss the CPI/Fed risk in the 2Y-5Y area; looking only at the tech selloff would overstate the protection for 20Y-plus exposure."
+            "The June 5 Treasury close was led by a stronger labor print that pushed the Fed path back toward a higher-rate distribution. Official CMT levels put the 2Y at 4.17%, up 12bp on the day, the 5Y at 4.29%, up 11bp, and the 10Y at 4.55%, up 8bp, while the 20Y and 30Y closed at 5.03% and 5.01%. The move was front-end and belly-led, so the market first repriced policy-rate risk and then demanded more compensation further out the curve. For short/intermediate ETF exposure, that means better entry yield comes with faster price transmission; without inflation relief, carry alone is not enough to offset another move higher in front-end rates.",
+            "The curve message was bear flattening. 2s10s closed at 38bp, 4bp flatter on the day; 5s30s closed at 72bp, 7bp flatter; and 10s30s closed at 46bp, 4bp flatter. That shape says 2Y-5Y reacted most directly to Fed pricing, while the 30Y stayed constrained by term premium, supply absorption and oil-linked inflation risk. For ETFs, the belly has the cleaner source of volatility; 20Y+ price convexity is still less clean. It also widens attribution differences across ETF tenors: 5Y-10Y is mainly about Fed and CPI pricing, while 20Y+ also carries supply, term premium and weak long-end demand.",
+            "The one-week and one-month changes show this was not one-day noise. The 2Y is up 19bp on the week and 24bp on the month; the 5Y is up 16bp and 21bp; the 10Y is up 10bp and 12bp. 2s10s has flattened 12bp over the month and 5s30s has flattened 18bp. The market has moved from asking when cuts arrive to checking whether the Fed needs to keep a hike option alive. If CPI confirms sticky inflation, the front end and belly can still cheapen further. For positioning, the weekly and monthly changes matter more than the cash close because they show a sustained repricing of the policy path; without data confirmation, short rallies can be only position adjustment.",
+            "The most important cross-check is that the long end did not rally cleanly despite the equity selloff. The 30Y stayed at 5.01% and the 20Y at 5.03%, even with Nasdaq 100 and SOX down sharply. Long-duration Treasury ETFs therefore cannot rely on equity weakness alone for NAV repair. Price recovery requires CPI not to accelerate, oil to settle lower, supply pressure to ease and the 30Y to move back below 5%. Long-end ETF success therefore depends not just on equity risk tone but on whether long-end investors will accept a 30Y below 5%; that condition has not been confirmed yet.",
+            "The data gave the front end a direct reason to reprice. Payrolls were +172k versus roughly +80k consensus, unemployment held at 4.3%, and April payrolls were revised up to +179k. Average hourly earnings at 3.4% y/y were not runaway, but they did not neutralize the jobs surprise. The package made it difficult to keep pricing a rapid labor-market deterioration, which is why the 2Y and 5Y carried the largest pressure. For short/intermediate ETFs, labor data remain the first-order sensitivity; if jobless claims or wages do not soften alongside payrolls, front-end rally durability is limited. This is why position management should first separate rates, credit and FX attribution.",
+            "Oil is the second constraint on long-end repair. Brent closed Friday at 93.09, down 2.0%, and WTI at 90.54, down 2.7%, which looked helpful for inflation premium at the cash close. But Brent rebounded toward 95.60 in Asia, showing that geopolitics and energy risk have not fully left the Fed reaction function. If Brent returns above 98, breakeven inflation and real-income pressure rise again, and duration exposure needs tighter stops and staging. This channel feeds directly into 10Y and 30Y risk compensation and into principal volatility for high-distribution bond ETFs, because energy pressure first hits yields rather than distribution rates.",
+            "The first read for Taiwan bond ETFs is therefore higher short/intermediate rate risk, a long end still constrained by term premium, and simultaneous pressure on credit and equity-duration assets. The 10Y at 4.55% offers better carry, but it still needs CPI and FOMC language confirmation. The 30Y at 5.01% says near-term price risk in 20Y+ ETFs remains larger than the simple appeal of higher yield. The appropriate stance for the day is preparation and staging, not treating higher yield as a blanket add signal; the confirmation points remain CPI, the FOMC, the 30Y and Brent."
           ]
         },
         {
           "id": "rates_interpretation",
           "title": "2. Rates Interpretation",
-          "takeaway": "Fed pricing has shifted from waiting for cuts to testing anti-inflation credibility; the belly is more actionable than the long end.",
+          "takeaway": "CPI and FOMC language decide whether 10Y 4.55% is an entry zone or an interim pressure point.",
           "paragraphs": [
-            "The key change in rates pricing is the Fed reaction function. The market has moved from waiting for cut conditions to testing whether the Fed must defend inflation credibility. After payrolls, year-end hike optionality was priced back in, with October hike odds pushed toward roughly 60%. That does not mean a hike is certain, but it means the front end can no longer price a one-way path toward cuts.",
-            "CPI is the next dividing line. CPI swaps imply roughly 4.3% y/y for the upcoming release. If the print is close to that level, the 10Y at 4.55% is not a ceiling and the market can test 4.65%, while the June FOMC statement would likely need to remove cut-friendly language. If CPI is below 4.1%, the payroll shock can be treated as an overreaction in the front end and the belly can repair more cleanly.",
-            "Policy communication is now more important. Warsh’s first meeting has to face strong payrolls, an oil rebound, equity deleveraging and a split economist community: Goldman has removed cuts for this year while Citi remains a dovish outlier. When forecasts are dispersed, every official phrase becomes an input to the probability distribution. That is why the 2Y break above 4.15% matters more than the 30Y day move.",
-            "Curve trades are not clean on either side. The 2s10s at 38bp and 5s30s at 72bp already reflect a lot of flattening. Chasing that flattening requires another CPI or Fed-language confirmation. At the same time, buying a long-end steepener too early is risky because the 30Y remains above 5%. The cleaner expression is staged 5Y-10Y exposure while keeping a small underweight in the long end.",
-            "The long-end issue is not one event. Fiscal supply, long-dated issuance absorption, mortgage hedging, oil-linked inflation premium and AI funding demand all affect whether the 30Y can stay below 5%. These channels do not dominate every day, but when a major equity selloff fails to pull the 30Y lower, it shows that long-end buyers still require a high yield to step in.",
-            "Canada employment is supporting evidence, not the main driver. Canada added 87.8k jobs and the unemployment rate fell to 6.6%, reinforcing that North American demand resilience is not purely a U.S. data point. For Taiwan investors, this lowers the probability of a quick-cut narrative and makes short-to-intermediate income more attractive than simply extending duration.",
-            "The dollar and gold also support the real-yield interpretation. DXY rose 0.66% and gold fell 3.1%, which means the market was repricing real returns and dollar yield advantage, not only buying havens. For TWD-denominated overseas bond ETFs, the stronger dollar helps FX translation, but higher real yields and weaker credit proxies pressure the underlying USD bond prices.",
-            "The strategy conclusion is not to add broadly just because yields are higher. The correct framework is to acknowledge that Fed-tail risk is back, that long-end term premium has not disappeared, and that exposure should be conditional. CPI below 4.1%, the 10Y back toward 4.45%-4.50%, and Brent below 92 would support adding belly duration; CPI near 4.3% or the 30Y above 5.05% would argue for pausing."
+            "The core rates change is that the Fed reaction function has moved from waiting for cut conditions to re-establishing inflation credibility. After the jobs release, the market priced a 25bp hike by year-end and took October hike probability toward roughly 60%. That does not mean the Fed must hike, but it means the front end can no longer price cuts as a one-way path. Investors holding 5Y-10Y or longer ETFs need to weigh higher yield against price volatility. In this setup, ETF investors first need to choose which part of the curve to underwrite, not simply compare headline yields; an unstable front-end path amplifies NAV volatility in long-duration funds.",
+            "CPI is the next divider. Swaps imply roughly 4.3% y/y for this week. If the print is near that level, 10Y at 4.55% may be an interim pressure point and the market can retest 4.65%, while the June 16-17 FOMC statement would need to remove cut-friendly language. If CPI is below 4.1%, the payroll shock lacks inflation confirmation and the front end and belly have a better chance to repair. That is why 5Y-10Y is the better first observation zone than 20Y+: the belly can respond faster to policy-expectation repair, while the long end still needs term premium and supply signals to improve.",
+            "Policy communication also matters more now. Goldman has removed its expected Fed cut for this year, while Citi remains on a more dovish path, so forecast dispersion itself raises sensitivity to official wording. Whether the 2Y holds 4.15% and the 5Y holds 4.30% will say more about policy-end risk than a single equity move. Jobs data and Fed pricing should be treated as one policy mechanism. If those levels stay high, the market is still demanding compensation for policy uncertainty; if they fall, investors are again accepting the cut path and belly duration.",
+            "For curve trades, chasing front-end shorts and buying the long end are both imperfect. 2s10s is already at 38bp and 5s30s at 72bp, so flatteners have already moved. At the same time, the 30Y remains at 5.01%, and sticky supply or term premium would make early 20Y+ buying a different risk. The cleaner observation zone is 5Y-10Y; confidence in the long end rises only if the 30Y breaks back below 4.95% and oil eases. For ETF implementation, curve slope is not just a trade label; it decides whether the belly or the long end is the better place to take risk. Without 30Y confirmation, long-end weight should not rise quickly.",
+            "Long-end pressure is not one event; several risk premia are present at once. Fiscal supply, long-dated issuance absorption, MBS hedging, oil-linked inflation premium and large AI funding needs all influence whether the 30Y can stabilize below 5%. These are not always the daily driver, but the inability of a tech selloff to pull down the 30Y shows that long-end investors still require a meaningful concession. Taiwan investors holding 20Y+ ETFs experience this risk directly through TWD NAV volatility; investors in high-distribution products also need to separate income from principal return.",
+            "Canada jobs at +87.8k and unemployment at 6.6% are secondary evidence. They are not the core UST driver, but they show North American demand resilience is not just a U.S. story. For Taiwan investors, that matters through the discount rate on dollar bond ETFs and through whether central-bank narratives can quickly return to cuts. This secondary evidence can increase confidence that front-end rates are sticky, but it should not outrank U.S. CPI and the FOMC. It mainly lowers the odds of adding too early. This is why position management should first separate rates, credit and FX attribution.",
+            "The stronger dollar and weaker gold also fit a higher real-rate interpretation. DXY rose 0.66% and gold fell 3.1%, so the market was repricing dollar-rate advantage and real yield. For TWD-denominated overseas-bond ETFs, a stronger dollar helps TWD NAV translation, but higher real rates pressure UST and IG bond prices in dollars. Those return channels must be separated before drawing a total-return conclusion. FX contribution to NAV is only one attribution line and cannot cover negative rates and credit price returns, especially for unhedged or lightly hedged products."
           ]
         },
         {
           "id": "other_markets",
           "title": "3. Cross-Market Read",
-          "takeaway": "AI, IG credit, Asia FX and oil all confirm the same message: the cost of capital has repriced higher.",
+          "takeaway": "Cross-asset pressure points to higher discount rates and funding costs; Asia and EM are transmission checks.",
           "paragraphs": [
-            "The equity signal is not simply that stocks fell. The long-duration equity complex was repriced. The Nasdaq 100 fell 4.8% and the SOX fell 10.3%, far worse than the Dow’s 1.3% decline, showing that AI and semiconductors were the first assets hit by a higher discount rate. That lines up with the move in the Treasury front end.",
-            "AI funding turns this from an equity story into a credit story. Apollo/Anthropic chip financing, SpaceX IPO demand and large data-center or power investments all show that the AI narrative needs large pools of external capital. When 5Y-10Y yields move higher, that affects not only equity multiples but also IG substitute supply, private-credit structures and long-dated credit spreads.",
-            "LQD is the important credit proxy for this tape. LQD closed at 108.17, down 0.62%, while HYG fell 0.50% to 79.43. IG duration and HY beta were both under pressure. IG still offers income, but when it falls together with Treasuries, credit cannot be summarized as stable risk appetite. It has to be decomposed into duration, spread compensation, primary quality and ETF liquidity.",
-            "Credit events also argue against reading only the index. Raizen restructuring, AI-linked financing and rising leverage in corporate Japan are micro examples of what higher funding costs can do. These do not imply systemic credit stress, but they reduce the cushion for weak or long-duration credit. Taiwan bond ETF allocation should preserve IG income while demanding more compensation for HY and EM exposure.",
-            "Japan and Asia belong in cross-market validation rather than the core Fed driver. Weak Nikkei futures, pressure on tech shares and higher BOJ-hike expectations affect Asia open risk and potential JGB spillover into global duration. They are not the main reason USTs bear-flattened on June 5. The correct read is that U.S. front-end repricing is the primary driver, while Japan and Asia determine whether a second global-duration wave follows.",
-            "Indonesia and Asia FX are risk-monitor items, not core rates drivers. Indonesian equities are far below their highs and the rupiah is down around 8% year to date after breaching 18,000. That matters for EM and Asia credit exposure because local bonds need higher real yields and stronger policy credibility. It should be watched for EM beta, not treated as the same driver as U.S. payrolls and CPI.",
-            "Oil reconnects cross-asset and rates. The U.S. close showed lower Brent and WTI, which would normally help inflation premium. But Brent’s rebound toward 95.60 in early Asia means geopolitics is still active. For rates, oil is not a separate commodity theme; it feeds CPI, real incomes, Fed language and long-end breakeven pressure. Brent back above 98 would make duration repair harder.",
-            "USD/TWD must be interpreted through product mechanics. The CBC USD/TWD close at 31.475 is positive for the TWD NAV translation of USD bond ETFs. But the same day also saw the 10Y up 8bp and LQD down 0.62%. The cross-asset conclusion is therefore not that a stronger dollar is automatically bullish for ETFs; FX helps, while rates and credit can offset it."
+            "The risk-asset message is concentrated in long-duration cash flows being compressed by higher discount rates. Nasdaq 100 fell 4.8% and SOX fell 10.3%, far more than the Dow at -1.3%, showing that the market sold the AI and semiconductor cash flows most sensitive to rates. The FI implication is that growth equities and long-duration bonds can face the same discount-rate pressure rather than acting as automatic hedges. That weakens the intuitive use of long bonds as an equity hedge, especially when real yields are rising; Taiwan ETF investors should downgrade simple correlation assumptions. This is why position management should first separate rates, credit and FX attribution.",
+            "AI financing and IPO supply extend that equity signal into credit. Apollo/Anthropic chip financing of $35bn, SpaceX IPO demand around $75bn, and large data-center and power investment all point to sustained external capital absorption. When 5Y-10Y yields rise again, AI is not only an equity-duration theme; it also affects private credit, IG substitute supply and demand for long-end capital. These funding needs may not immediately lift UST yields, but they raise competition for long-end capital and make IG and private credit pricing more selective in a high-rate environment.",
+            "LQD is the important credit proxy for this tape. LQD closed at 108.17, down 0.62%, while HYG closed at 79.43, down 0.50%, so IG duration and HY beta were both under pressure. IG still has income appeal, but when LQD and UST weaken together, credit cannot be summarized as stable or unstable. The useful split is duration loss, spread compensation, primary quality and ETF liquidity. If LQD stabilizes while USTs keep weakening, the issue is mostly duration; if LQD and HYG both fall, spread and liquidity stress need more weight.",
+            "Credit events add information about tail distribution. Raizen restructuring, AI-related financing and rising Japanese corporate leverage all reflect micro pressure from higher funding costs. They do not mean systemic credit stress has arrived, but they reduce protection for lower-quality or long-duration credit when rates rise. Dollar bond ETFs can retain IG income exposure, while HY and weak sovereign risk need more compensation. For ETF classification, high-quality IG can remain an income source, but low-quality credit and EM sovereigns should not get more weight just because coupons are high; balance-sheet and refinancing capacity matter more.",
+            "Oil and geopolitics affect both inflation and growth. Brent fell to 93.09 at Friday’s close but rebounded toward 95.60 in Asia, so energy risk can still interfere with CPI and Fed language. For bond ETFs, oil is not just a commodity variable. Brent below 92 improves inflation premium, while Brent above 98 raises real-income pressure and long-end breakeven inflation. If lower oil and softer CPI arrive together, duration odds improve; if oil rebounds while labor stays strong, the market will treat high yield as risk compensation rather than cheap carry.",
+            "Indonesia and Japan are Asia-session transmission risks. Indonesian equities are roughly 39% below their high, and the rupiah is down about 8% year to date after breaking 18,000; EM local bonds need higher real yields and more credible policy. Japan tech pressure and JGB volatility affect global long-end risk absorption. These signals do not drive the June 5 UST close, but they matter for next-session Asia credit, FX and sovereign spreads. Asia and EM signals are therefore next-session transmission checks: when the dollar and Treasuries pressure markets together, weak-FX countries first show liquidity discounts in credit and local bonds.",
+            "The dollar and Taiwan dollar need product-level attribution. CBC USD/TWD closed at 31.475, up 0.015 from the prior trading day, which is positive for TWD NAV translation because the underlying assets are dollar bonds reported in TWD. On the same day, however, the 10Y rose 8bp and LQD fell 0.62%, so FX gains can be offset by dollar bond price losses. Total return must be split into FX, UST and credit legs. This split avoids reading TWD weakness as an unconditional positive: FX translation supports NAV, but final TWD total return can still be weak if UST and IG prices fall together."
           ]
         },
         {
           "id": "allocation",
           "title": "4. Allocation Read",
-          "takeaway": "Allocation should separate belly duration, IG income and FX translation instead of forcing one broad risk call.",
+          "takeaway": "Keep the bias in belly duration, IG income and segmented attribution; wait for confirmation before adding long-end risk.",
           "paragraphs": [
-            "The duration stance is neutral-to-slightly long, but only through staged 5Y-10Y exposure. The 10Y at 4.55% is more attractive than a week ago, but payrolls, a 4.3% CPI-swap setup and Fed statement risk argue against buying the full position at once. The first tranche can be observed around 4.55%-4.60%; the second requires CPI below 4.1% or a move back toward 4.45%-4.50%.",
-            "Long Treasury ETFs should not be chased. The 30Y at 5.01% offers yield, but it did not rally meaningfully during the equity selloff. If the 30Y breaks above 5.05%, price risk in 20Y-plus ETFs rises again. A move below 4.95% alongside Brent below 92 would be a cleaner sign that term premium and inflation premium are both cooling.",
-            "Curve allocation should avoid chasing a move that has already happened. The 2s10s at 38bp and 5s30s at 72bp already reflect a significant amount of front-end repricing. Further flattening needs CPI or Fed confirmation. A better expression is belly overweight, small long-end underweight, preserving income and roll-down while limiting damage if long-end term premium expands again.",
-            "Credit should lean toward IG income and shorter-to-intermediate maturity, not HY beta. LQD’s 0.62% decline shows that IG is still exposed to duration, but its income and quality remain better than lower-quality credit. HYG’s decline reminds investors that HY is not a safe asset. If LQD holds 108 and HYG holds 79, IG exposure can be retained; if both break, reduce credit beta.",
-            "TWD-denominated overseas bond ETFs require three-way attribution: FX translation, UST price return and credit spread return. USD/TWD at 31.475 helps TWD NAV because the underlying USD bonds translate into more TWD. But Treasury and LQD losses can offset part of that benefit. The decision cannot rely only on DXY or TWD depreciation; it must separate the three return channels.",
-            "High-distribution and long-duration ETFs should not be treated as free carry. Higher yields improve future income, but price losses hit NAV first when yields rise quickly. If the speed of rate adjustment exceeds income accrual, distribution yield will not protect principal in the short run. The more practical stance is to keep existing income exposure, avoid chasing, and use levels to decide staged adds.",
-            "EM and Asia USD bonds should be filtered by policy credibility. Indonesia FX defense, corporate Japan leverage and Asia tech pressure are not the core UST story, but they affect Asia credit and sovereign spreads. If USD/IDR stays above 18,000 and policy delivery disappoints, EM local and weaker Asia credit require more compensation. Taiwan investors should prefer short maturity and quasi-sovereign quality.",
-            "The overall stance is prepare and conditional exposure, not broad risk expansion. The data support better belly yields and a short-term FX translation benefit for TWD NAV, but CPI, oil, the 30Y and LQD still need confirmation. If all four improve, belly duration can be moved from watch to higher confidence. If any worsens, prioritize liquidity and high-quality income."
+            "Duration remains neutral to slightly long, but the main observation zone is 5Y-10Y. The 10Y at 4.55% is cheaper than last week and offers a better entry yield, but the payroll beat, CPI swaps near 4.3% and FOMC language risk argue against filling the position all at once. For Taiwan-listed Treasury ETFs, verify the actual duration and index exposure so a seemingly intermediate yield does not carry near long-end price volatility. If exposure is built before CPI, the steadier method is small staging with cash flexibility so the portfolio can still adjust after the data instead of filling the whole position on one high-yield day.",
+            "Long-duration Treasury ETFs should not be chased. The 30Y at 5.01% offers high yield, but it did not repair materially during the equity selloff, so long-end buyers have not fully returned. If the 30Y breaks 5.05%, 20Y+ ETF price risk rises again. If the 30Y falls below 4.95% while Brent is below 92, term premium and inflation premium would look more clearly improved together. For 20Y+ ETFs, high yield is compensation, not proof that risk has cleared; investors using long-end products for distribution still carry larger rate convexity and NAV drawdown.",
+            "Curve positioning should avoid chasing a move that has already travelled. 2s10s at 38bp and 5s30s at 72bp already reflect significant front-end repricing. More flattening needs confirmation from CPI or the FOMC statement. A better expression is belly overweight and small long-end underweight: keep income and roll-down while reducing exposure to another term-premium or supply-driven selloff in the 30Y. This allocation also leaves room in both scenarios: if CPI cools, the belly repairs first; if CPI is hot, the long-end underweight reduces losses from another 30Y move higher.",
+            "Credit exposure should favor IG income and short/intermediate maturity rather than HY risk. LQD -0.62% shows IG is still affected by duration, but IG coupon and quality remain better than low-quality credit. HYG -0.50% reminds that HY is not a safe asset. For Taiwan dollar-bond ETF investors, LQD is an IG total-return proxy; the follow-up checks are spread compensation, primary-market quality, ETF liquidity and premium/discount, not the single-day price move alone. Without direct spread data, LQD and HYG are only total-return proxies; formal allocation still needs index duration, ratings mix, sector concentration and ETF liquidity.",
+            "TWD-denominated overseas-bond ETFs need FX translation, UST price return and credit spread return separated. USD/TWD at 31.475 means FX translation support increased. Because the funds hold dollar bonds but report in TWD, TWD depreciation usually supports translated NAV. The same day still requires deducting UST and LQD price performance because dollar bond losses can absorb part of the FX benefit. This decomposition matters especially for Taiwan products because FX support, rates drag and credit drag can coexist on the same day; looking only at one-day NAV can misidentify the real driver.",
+            "High-distribution or long-duration ETFs still need total-return discipline. Higher yields improve future income, but near-term price losses show up in NAV first. If yields rise faster than income accrues, distribution yield does not immediately protect principal. A practical review should list distribution rate, duration, index yield, FX translation and credit exposure together rather than treating high distribution as a defensive signal. For retail investors and PMs alike, distribution rate is only a cash-flow presentation; total return still comes from price, FX, spreads and fees. High distribution cannot replace risk budgeting. This is why position management should first separate rates, credit and FX attribution.",
+            "Implementation can stay staged. A small 5Y-10Y position can wait for CPI validation, while 20Y+ should wait for the 30Y below 4.95% or Brent below 92 before confidence rises. Credit should center on IG and short/intermediate maturity; HY and weaker sovereign risk only deserve reconsideration when spread compensation has clearly widened. If CPI is near 4.3%, 10Y breaks 4.65%, 30Y breaks 5.05% or LQD loses 108, the allocation center should return to liquidity and quality income. The condition set keeps the stance neutral but actionable: yield is high enough to prepare, but evidence is not strong enough to upgrade belly observation into broad long-end adding."
           ]
         },
         {
           "id": "watchlist",
           "title": "5. Watchlist",
-          "takeaway": "This week is about CPI, FOMC language, Brent, the 30Y and LQD; each trigger maps to a position change.",
+          "takeaway": "Watch CPI/Fed, 10Y/30Y, Brent, LQD, USD/TWD and Asia transmission in that order.",
           "paragraphs": [
-            "The first trigger is CPI. If the June 10 print is near the roughly 4.3% implied by swaps, the front end will test hike-tail risk again, the 10Y can move toward 4.65%, and 5Y-10Y adds should pause. If CPI is below 4.1%, the payroll shock lacks inflation confirmation and belly duration can be moved from watch to staged add.",
-            "The second trigger is FOMC language. If the June 16-17 statement removes cut-friendly language or stresses inflation credibility, the 2Y and 5Y remain more sensitive than the 30Y and bear flattening can persist. If the statement preserves two-sided risk and downplays hike optionality, the belly can attract buyers again.",
-            "The third trigger is the 10Y and 30Y level board. A 10Y break below 4.45% would show that buyers are taking control; 4.55%-4.65% is the risk-management zone. A 30Y break above 5.05% means term premium and supply are back in control, so 20Y-plus ETF risk should be cut. Below 4.95% would be a more credible long-end repair signal.",
-            "The fourth trigger is oil. Brent below 92 helps cool inflation premium and gives the Fed more communication flexibility. Brent above 98 would lift energy inflation, real-income pressure and long-end breakeven pressure. Oil is not a standalone commodity input here; it is a lead indicator for CPI risk and long-end repair.",
-            "The fifth trigger is LQD and HYG. LQD above 108 and HYG above 79 would show that credit proxies are absorbing the rates shock, allowing IG income exposure to remain. If both break lower, rates and spreads are hurting USD bond ETFs at the same time, and investors should not mistake FX translation support for total-return support.",
-            "The sixth trigger is USD/TWD. Below 31.40, TWD strength reduces the FX translation cushion and overseas bond ETFs rely more on UST and credit performance. Above 31.55, FX support improves, but if it comes with oil and Fed stress, underlying bond losses can still offset it.",
-            "The seventh trigger is Asia policy defense. Indonesia stabilizing USD/IDR below 18,000 with credible policy delivery would help EM beta. If policy falls short, EM local debt and Asia credit spreads need more compensation. This is an EM/Asia risk monitor, not a replacement for U.S. CPI or the Fed as the main rates driver.",
-            "The final trigger is whether AI financing pressure stabilizes. SOX back above 12,800 with the 10Y below 4.50% would reduce concern about equity-duration and credit deleveraging. SOX below 12,000 with LQD falling would turn AI from a growth story into a funding-demand and credit-supply pressure point."
+            "The first trigger is CPI. If the June 10 print is near the roughly 4.3% swap-implied level, the front end will retest the Fed hike-option risk, the 10Y can move toward 4.65%, and 5Y-10Y positions should stay patient. If CPI is below 4.1%, the payroll shock lacks inflation confirmation and belly duration has a better repair setup. For ETF execution, this is a clear sequencing point: CPI first sets the front-end path, then the 10Y range and the long-end repair test matter. This is why position management should first separate rates, credit and FX attribution.",
+            "The second trigger is FOMC language. If the June 16-17 statement removes cut-friendly language or stresses inflation resilience again, the 2Y and 5Y remain more sensitive to policy-end risk than the long end. If the statement keeps two-way flexibility and acknowledges growth cooling beyond employment, the market can mark the hike pricing back into a risk scenario. If 2Y-5Y react too sharply to the statement, short/intermediate ETFs can weaken first; if the reaction is mild and the 10Y falls, policy risk is moving back into an acceptable range. This is why position management should first separate rates, credit and FX attribution.",
+            "The third trigger is the 10Y and 30Y. A 10Y break below 4.45% would show that belly buyers are taking control, while 4.55%-4.65% remains the risk-management zone. A 30Y break above 5.05% would signal that term premium and supply pressure dominate again, so 20Y+ ETF price-convexity assumptions should be reduced. If the 10Y rallies but the 30Y stays above 5%, the repair is mostly in the belly. The two levels must be read together: a lower 10Y only says belly demand improved, while a lower 30Y says long-end term premium is also contained. Without both, do not chase the long end.",
+            "The fourth trigger is oil. Brent below 92 helps inflation premium cool and gives the Fed more room to keep language flexible. Brent above 98 would lift energy inflation, real-income pressure and long-end breakeven inflation. For ETF allocation, lower oil makes high yield look more like opportunity; higher oil makes high yield look more like required risk compensation. Oil also affects Taiwan investors’ FX and rates attribution, because rising energy prices often lift the dollar, inflation premium and Asia FX pressure at the same time. This is why position management should first separate rates, credit and FX attribution.",
+            "The fifth trigger is credit proxies. LQD 108 is the near support level for the IG total-return proxy, and HYG 79 is the HY beta risk line. If both break lower, rates and credit are weakening together, so high distribution or FX translation should not hide total-return pressure. If LQD stabilizes and HYG stops making new lows, IG income exposure can be retained more comfortably. These credit triggers separate IG from HY: stable IG means income can be retained, while weaker HY means markets are demanding cyclical and liquidity discounts.",
+            "The sixth trigger is USD/TWD. Below 31.40 means TWD strength and weaker FX translation support, leaving TWD overseas-bond ETFs more dependent on UST and credit performance. Above 31.55 means FX translation support is stronger. The reference must be the Taiwan central-bank interbank close or Taipei Forex Inc onshore close; offshore quotes should only be treated as reference. If the onshore close and offshore quote diverge, ETF attribution should still use the onshore close because TWD product NAV translation is closest to the local closing rate. This is why position management should first separate rates, credit and FX attribution.",
+            "The last checks are Asia and AI transmission. If Indonesia can pull USD/IDR back below 18,000 with a credible policy mix, EM risk can stabilize. If SOX returns above 12,800 while the 10Y is below 4.50%, discount-rate pressure has eased. If SOX loses 12,000 and LQD keeps falling, AI is simultaneously affecting funding demand, credit supply and long-end capital absorption. These checks do not change the U.S. rates core, but they show whether pressure is spreading from USTs into Asia credit, tech financing and EM sovereign risk."
           ]
         }
       ]
