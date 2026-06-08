@@ -750,6 +750,11 @@
 	  };
 
   const setupContextLinks = () => {
+    const activateCard = (card) => {
+      if (!card) return;
+      card.classList.add("is-card-active");
+      window.setTimeout(() => card.classList.remove("is-card-active"), 900);
+    };
     const navigateHash = (href) => {
       if (!href || !href.startsWith("#")) return;
       const activeBase = navBaseFromId(decodeURIComponent(href.replace(/^#/, "")));
@@ -770,6 +775,7 @@
       const card = event.target.closest("[data-card-href]");
       if (!card) return;
       event.preventDefault();
+      activateCard(card);
       navigateHash(card.dataset.cardHref || "");
     });
     document.addEventListener("keydown", (event) => {
@@ -777,7 +783,30 @@
       const card = event.target.closest("[data-card-href]");
       if (!card || event.target.closest("input, select, textarea, button, a")) return;
       event.preventDefault();
+      activateCard(card);
       navigateHash(card.dataset.cardHref || "");
+    });
+  };
+
+  const setupScrollReveal = () => {
+    const cards = Array.from(document.querySelectorAll("[data-animate-card]"));
+    if (!cards.length) return;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (reduceMotion.matches || !("IntersectionObserver" in window)) {
+      cards.forEach((card) => card.classList.add("is-revealed"));
+      return;
+    }
+    document.documentElement.classList.add("has-scroll-reveal");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-revealed");
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    cards.forEach((card, index) => {
+      card.style.transitionDelay = `${Math.min(index % 6, 5) * 24}ms`;
+      observer.observe(card);
     });
   };
 
@@ -880,5 +909,6 @@
   setLanguage(state.language, { updateUrl: false });
   setupMobileTools();
   setupContextLinks();
+  setupScrollReveal();
   init();
 })();
