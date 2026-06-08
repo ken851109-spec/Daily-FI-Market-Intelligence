@@ -70,7 +70,7 @@ a { color: inherit; text-decoration: none; }
 .search-results.is-collapsed { max-height: 330px; overflow: auto; }
 .search-count, .search-empty { color: var(--muted); font-size: 12.75px; font-weight: 800; }
 .search-count { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
-.search-count button, .search-more { border: 1px solid #cfd9e3; background: #fff; color: var(--navy); border-radius: 4px; padding: 5px 8px; font: inherit; font-size: 12px; font-weight: 800; cursor: pointer; }
+.search-count button, .search-more { min-height: 44px; border: 1px solid #cfd9e3; background: #fff; color: var(--navy); border-radius: 4px; padding: 8px 10px; font: inherit; font-size: 12px; font-weight: 800; cursor: pointer; }
 .search-result { display: grid; gap: 6px; border: 1px solid #e1e8ef; background: #fbfcfd; padding: 10px 11px; border-radius: 4px; }
 .search-result strong { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .search-result:hover { background: #f1f6fa; }
@@ -134,9 +134,14 @@ h3 { margin: 0; color: var(--ink); font-size: 17.75px; line-height: 1.3; font-we
 .position-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; align-items: stretch; }
 .thesis-map { background: #fff; }
 .thesis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); gap: 6px; padding: 9px; background: #f7fafc; border-top: 1px solid var(--line); }
+.thesis-map .section-head { background: #fff; border-bottom: 0; padding-bottom: 3px; }
+.thesis-map .thesis-grid { gap: 0; padding: 8px 12px 12px; background: #fff; border-top: 1px solid #edf2f6; }
 .position-card, .driver-card, .asset-card, .asia-card, .analysis-card, .trigger-card, .event-card, .thesis-card, .pulse-card { border: 1px solid #dde6ee; background: #fff; padding: 14px; min-width: 0; border-radius: 4px; box-shadow: 0 1px 0 rgba(17,41,61,.018); }
 .thesis-card { padding: 0; box-shadow: none; }
+.thesis-map .thesis-card { border-color: #e6edf3; border-top: 0; border-bottom: 0; border-left: 0; border-radius: 0; box-shadow: none; }
+.thesis-map .thesis-card:last-child { border-right: 0; }
 .thesis-card a { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 8px; align-items: start; height: 100%; min-height: 0; padding: 10px 11px; color: inherit; background: #fff; }
+.thesis-map .thesis-card a { min-height: 74px; padding: 10px 12px; }
 .thesis-card a:hover { background: #f7fafc; }
 .thesis-step { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border: 1px solid #d7e1ea; background: #f1f5f8; color: var(--muted); font-size: 9.75px; line-height: 1; font-weight: 800; font-variant-numeric: tabular-nums; }
 .thesis-copy { min-width: 0; }
@@ -351,6 +356,8 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .right-rail { display: none; }
   .mobile-monitor { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; }
   .mobile-monitor > .section-head { grid-column: 1 / -1; }
+  .regime-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .regime-chip[data-executive-role="trigger"] { grid-column: 1 / -1; }
   .thesis-map { display: block; }
   .thesis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; scroll-snap-type: none; }
   .thesis-card { min-width: 0; }
@@ -441,6 +448,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .block, .regime-strip, .mobile-monitor { margin-top: 10px; border-left: 0; border-right: 0; }
   .regime-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; padding: 8px; background: var(--surface-soft); }
   .regime-chip { border: 1px solid var(--line); border-radius: 4px; background: #fff; padding: 9px 10px; }
+  .regime-chip[data-executive-role="trigger"] { grid-column: 1 / -1; }
   .regime-chip strong { font-size: 24px; line-height: 1.13; overflow-wrap: normal; word-break: keep-all; }
   .regime-chip[data-executive-role="trigger"] strong { font-size: 22.5px; line-height: 1.15; }
   .chip-marker { margin-top: 6px; padding: 4px 6px; font-size: 16.25px; line-height: 1.28; }
