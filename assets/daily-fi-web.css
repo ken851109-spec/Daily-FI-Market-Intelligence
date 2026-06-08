@@ -177,7 +177,7 @@ tbody tr:nth-child(even):not(.heatmap-group-row) { background: #fbfdfe; }
 thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-weight: 800; }
 .ust-heatmap th, .ust-heatmap td { white-space: nowrap; text-align: center; vertical-align: middle; }
 .heatmap-group-row th { white-space: normal; text-align: center; background: #f8fbfd; color: var(--text); border-bottom: 1px solid #d7e0ea; padding: 10px 12px; }
-.heatmap-group-row span { color: var(--orange); font-size: 12.25px; line-height: 1.25; font-weight: 800; }
+.heatmap-group-row span { display: inline-block; margin-right: 4px; color: var(--orange); font-size: 12.25px; line-height: 1.25; font-weight: 800; }
 .heatmap-group-row strong { color: var(--ink); font-size: 14px; line-height: 1.38; font-weight: 800; }
 .heatmap-curve-group th { border-top: 2px solid #cad6e1; }
 .num { text-align: right; font-variant-numeric: tabular-nums; }
@@ -210,17 +210,17 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .driver-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(290px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; }
 .pulse-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(290px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; }
 .policy-pulse { background: var(--surface-evidence); }
-.pulse-card { border-left: 3px solid var(--navy-2); display: grid; align-content: start; gap: 8px; padding: 12px; min-width: 0; overflow: hidden; }
+.pulse-card { border-left: 3px solid var(--navy-2); display: grid; grid-template-rows: auto auto 1fr; align-content: start; gap: 8px; padding: 12px; min-width: 0; overflow: hidden; }
 .pulse-card-policy, .pulse-card-labor, .pulse-card-supply, .pulse-card-inflation_growth { border-left-color: var(--orange); }
 .pulse-card-global_cb, .pulse-card-credit { border-left-color: #95a5b5; }
 .pulse-head { display: grid; gap: 4px; min-width: 0; max-width: 100%; }
 .pulse-channel { margin-bottom: 0; }
 .pulse-card h3 { color: #596a7c; font-size: 12px; line-height: 1.28; font-weight: 640; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: break-word; }
 .pulse-facts { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 7px; margin-top: 0; min-width: 0; max-width: 100%; overflow: visible; }
-.pulse-value { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: clamp(23.5px, 1.75vw, 26px); line-height: 1.15; font-weight: 940; overflow-wrap: anywhere; word-break: break-word; text-wrap: balance; }
+.pulse-value { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: clamp(20.5px, 1.45vw, 23px); line-height: 1.18; font-weight: 920; overflow-wrap: anywhere; word-break: break-word; text-wrap: balance; }
 .pulse-source { display: block; flex: 1 1 100%; width: 100%; min-width: 0; max-width: 100%; box-sizing: border-box; padding: 3px 6px; border: 1px solid #d8e1e9; background: #f7fafc; color: var(--text); font-size: 12.25px; line-height: 1.32; font-weight: 730; white-space: normal; overflow-wrap: anywhere; word-break: break-word; }
-.card-detail { margin-top: 2px; min-width: 0; max-width: 100%; border-top: 1px solid #e6edf3; }
-.card-detail summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 42px; padding: 9px 0 0; color: var(--navy-2); font-size: 12.75px; line-height: 1.25; font-weight: 850; cursor: pointer; }
+.card-detail { margin-top: auto; min-width: 0; max-width: 100%; border-top: 1px solid #e6edf3; }
+.card-detail summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 40px; padding: 8px 0 0; color: var(--muted); font-size: 12.25px; line-height: 1.25; font-weight: 780; cursor: pointer; }
 .card-detail summary::-webkit-details-marker { display: none; }
 .card-detail summary::after { content: "+"; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 22px; height: 22px; border: 1px solid #cfdbe5; color: var(--muted); background: #f7fafc; font-size: 15px; line-height: 1; font-weight: 850; transition: transform .18s ease, background .18s ease, color .18s ease; }
 .card-detail[open] summary::after { content: "−"; background: #eef4f8; color: var(--navy); transform: rotate(180deg); }
@@ -234,7 +234,7 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .reference-context-block .asset-grid { background: #f7fafc; }
 .reference-context-block .asset-card, .reference-context-block .asia-card { background: #fbfcfd; border-color: #e4ebf1; box-shadow: none; }
 .reference-context-block .asset-card h3, .reference-context-block .asia-card h3 { color: var(--muted); font-size: 15.25px; }
-.driver-card { border-left: 3px solid var(--navy-2); display: grid; align-content: start; padding: 12px; min-width: 0; overflow: hidden; }
+.driver-card { border-left: 3px solid var(--navy-2); display: grid; grid-template-rows: auto 1fr; align-content: start; padding: 12px; min-width: 0; overflow: hidden; }
 .driver-card-policy, .driver-card-labor, .driver-card-inflation-oil, .driver-card-supply { border-left-color: var(--orange); }
 .driver-card-risk, .driver-card-fx-nav { border-left-color: #95a5b5; }
 .driver-head { display: grid; gap: 3px; min-width: 0; max-width: 100%; }
@@ -242,7 +242,7 @@ thead th { color: var(--muted); background: #eef4f8; font-size: 12.25px; font-we
 .driver-card h3 { margin: 0; color: #596a7c; font-size: 12px; line-height: 1.3; font-weight: 640; min-width: 0; max-width: 100%; overflow-wrap: anywhere; word-break: break-word; }
 .driver-evidence-grid { display: grid; gap: 5px; margin-top: 2px; min-width: 0; max-width: 100%; }
 .driver-source, .driver-signal { margin: 0; color: var(--text); font-size: 12.5px; line-height: 1.44; font-weight: 740; overflow-wrap: anywhere; }
-.driver-card .driver-signal { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: clamp(23.5px, 1.75vw, 26px); line-height: 1.18; font-weight: 940; text-transform: none; overflow-wrap: anywhere; word-break: break-word; text-wrap: balance; }
+.driver-card .driver-signal { display: block; min-width: 0; max-width: 100%; color: var(--ink); font-size: clamp(20.5px, 1.45vw, 23px); line-height: 1.2; font-weight: 920; text-transform: none; overflow-wrap: anywhere; word-break: break-word; text-wrap: balance; }
 .driver-topic { margin: 0; color: var(--muted); font-size: 11.75px; line-height: 1.35; font-weight: 700; overflow-wrap: anywhere; word-break: break-word; }
 .driver-read { margin: 6px 0 0; padding-top: 6px; border-top: 1px solid #edf2f6; color: var(--text); font-size: 16.25px; line-height: 1.56; font-weight: 760; opacity: .96; overflow-wrap: anywhere; word-break: break-word; animation: detailFade .18s ease; }
 @keyframes detailFade { from { opacity: 0; transform: translateY(-2px); } to { opacity: .9; transform: translateY(0); } }
@@ -480,8 +480,8 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .card-detail summary::after { width: 24px; height: 24px; font-size: 16px; }
   .driver-card > p, .asset-card p, .asia-card p, .event-card p, .trigger-card p { font-size: 14.75px; line-height: 1.58; }
   .driver-card h3, .pulse-card h3 { font-size: 11.75px; }
-  .driver-card .driver-signal { font-size: 23.25px; line-height: 1.18; }
-  .pulse-value { font-size: 23.25px; line-height: 1.17; }
+  .driver-card .driver-signal { font-size: 20.75px; line-height: 1.2; }
+  .pulse-value { font-size: 20.75px; line-height: 1.18; }
   .pulse-source { font-size: 12px; }
   .driver-read, .pulse-detail { font-size: 15.75px; line-height: 1.54; }
   .asset-level { font-size: 17.75px !important; }
