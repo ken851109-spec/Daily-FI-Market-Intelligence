@@ -361,9 +361,9 @@
 	    if (clearButton) clearButton.hidden = !rawQuery;
 	  };
 
-	  const renderResults = (query) => {
-	    state.query = query.trim();
-	    resultsEl.classList.remove("is-collapsed");
+  const renderResults = (query) => {
+    state.query = query.trim();
+    resultsEl.classList.remove("is-collapsed");
 	    if (!effectiveSearchQuery(state.query)) {
 	      resultsEl.hidden = true;
 	      resultsEl.innerHTML = "";
@@ -410,9 +410,25 @@
         return `<a class="search-result" href="${escapeHtml(href)}">` +
           `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span></span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
-          "</a>";
+      "</a>";
       })
     ].join("");
+  };
+
+  const hideSearchForReading = () => {
+    state.searchExpanded = false;
+    state.resultsCollapsed = true;
+    resultsEl.hidden = true;
+    resultsEl.classList.remove("is-collapsed");
+    bar.dataset.searchResultsActive = "false";
+    bar.dataset.searchActive = input.value.trim() ? "true" : "false";
+    const active = document.activeElement;
+    if (active && bar.contains(active) && typeof active.blur === "function") active.blur();
+    if (window.innerWidth < 1200 && toolsEl && window.scrollY > 96) {
+      toolsEl.classList.add("is-hidden");
+      toolsEl.setAttribute("data-tools-hidden", "true");
+      updateToolMetrics();
+    }
   };
 
   const clearHighlights = () => {
@@ -890,12 +906,19 @@
       buildIndex();
       const initialQuery = new URLSearchParams(location.search).get("q") || "";
 	      if (initialQuery) {
-	        state.resultsCollapsed = Boolean(location.hash && sessionStorage.getItem("daily-fi-collapse-search") === "1");
+	        const shouldReadTarget = Boolean(location.hash);
+	        state.resultsCollapsed = shouldReadTarget || Boolean(location.hash && sessionStorage.getItem("daily-fi-collapse-search") === "1");
 	        sessionStorage.removeItem("daily-fi-collapse-search");
 	        input.value = initialQuery;
 	        updateSearchUiState(initialQuery);
 	        renderResults(initialQuery);
 	        highlightPage(effectiveSearchQuery(initialQuery));
+	        if (shouldReadTarget) {
+	          window.setTimeout(() => {
+	            hideSearchForReading();
+	            scrollToHashTarget();
+	          }, 80);
+	        }
 	      } else {
 	        updateSearchUiState("");
 	        resultsEl.hidden = true;
@@ -926,6 +949,10 @@
     if (resultLink) {
       state.resultsCollapsed = true;
       sessionStorage.setItem("daily-fi-collapse-search", "1");
+      window.setTimeout(() => {
+        hideSearchForReading();
+        scrollToHashTarget();
+      }, 0);
     }
   });
 	  clearButton.addEventListener("click", () => {
