@@ -125,16 +125,6 @@ h3 { margin: 0; color: var(--ink); font-size: 17.5px; line-height: 1.32; letter-
 .regime-chip strong { display: block; margin-top: 4px; color: var(--ink); font-size: 16.25px; line-height: 1.32; }
 .chip-marker { display: inline-block; width: max-content; max-width: 100%; margin-top: 8px; padding: 4px 7px; border: 1px solid #cbd8e3; background: #eef3f7; color: var(--ink); font-size: 12.35px; line-height: 1.25; font-weight: 900; overflow-wrap: anywhere; }
 .chip-meta { display: block; margin-top: 7px; color: var(--text); font-size: 12.75px; line-height: 1.38; font-weight: 700; }
-.position-ladder { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); gap: 10px; padding: 12px 12px 0; background: #fff; }
-.position-ladder-card { min-width: 0; padding: 12px; border: 1px solid #dbe5ec; border-top: 3px solid var(--navy-2); border-radius: 4px; background: #f8fbfd; box-shadow: 0 1px 0 rgba(17,41,61,.018); }
-.position-ladder-add { border-top-color: var(--orange); }
-.position-ladder-confirm { border-top-color: #2f6f8f; }
-.position-ladder-cut { border-top-color: var(--red); }
-.position-ladder-attribution { border-top-color: #8a99a8; }
-.ladder-label { margin: 0 0 6px; color: var(--muted); font-size: 11.25px; line-height: 1.2; font-weight: 900; text-transform: uppercase; }
-.position-ladder-card strong { display: block; color: var(--ink); font-size: 15px; line-height: 1.42; font-weight: 850; overflow-wrap: anywhere; }
-.position-ladder-card p:not(.ladder-label) { margin: 8px 0 0; color: var(--text); font-size: 12.85px; line-height: 1.42; font-weight: 760; overflow-wrap: anywhere; }
-.position-ladder-card p:not(.ladder-label) span { display: block; margin-bottom: 3px; color: var(--muted); font-size: 10.9px; line-height: 1.2; font-weight: 900; text-transform: uppercase; }
 .position-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; align-items: stretch; }
 .thesis-map { background: #fff; }
 .thesis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 10px; background: #fff; border-top: 1px solid var(--line); }
@@ -145,8 +135,7 @@ h3 { margin: 0; color: var(--ink); font-size: 17.5px; line-height: 1.32; letter-
 .thesis-step { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border: 1px solid #cfdbe6; background: #eef3f7; color: var(--muted); font-size: 11.5px; line-height: 1; font-weight: 900; font-variant-numeric: tabular-nums; }
 .thesis-copy { min-width: 0; }
 .thesis-card h3 { margin-top: 2px; color: var(--ink); font-size: 13.8px; line-height: 1.36; }
-.thesis-cue, .thesis-gate { display: grid; gap: 3px; margin: 7px 0 0; color: var(--text); font-size: 11.8px; line-height: 1.38; font-weight: 750; }
-.thesis-gate { padding-top: 7px; border-top: 1px solid #e5ebf1; }
+.thesis-cue { display: grid; gap: 3px; margin: 7px 0 0; color: var(--text); font-size: 11.8px; line-height: 1.38; font-weight: 750; }
 .thesis-cue-text { display: block; }
 [data-card-href] { cursor: pointer; transition: border-color .16s ease, background .16s ease, box-shadow .16s ease; }
 [data-card-href]:hover { border-color: #c8d6e1; background: #f8fbfd; box-shadow: 0 2px 8px rgba(17,41,61,.045); }
@@ -326,7 +315,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .right-rail { display: none; }
   .mobile-monitor { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; }
   .mobile-monitor > .section-head { grid-column: 1 / -1; }
-  .thesis-map, .position-ladder { display: none; }
+  .thesis-map { display: none; }
   .thesis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; scroll-snap-type: none; }
   .thesis-card { min-width: 0; }
   .position-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; scroll-snap-type: none; }
@@ -410,8 +399,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .thesis-card a { grid-template-columns: 22px minmax(0, 1fr); gap: 7px; min-height: 0; padding: 8px 10px; }
   .thesis-step { width: 22px; height: 22px; font-size: 11px; }
   .thesis-card h3 { font-size: 13px; line-height: 1.34; }
-  .thesis-cue, .thesis-gate { font-size: 11.55px; margin-top: 5px; }
-  .thesis-gate { padding-top: 6px; }
+  .thesis-cue { font-size: 11.55px; margin-top: 5px; }
   .position-card dl { grid-template-columns: 72px minmax(0, 1fr); gap: 4px 8px; }
   .position-card, .driver-card, .asset-card, .asia-card, .analysis-card, .trigger-card, .event-card, .pulse-card { padding: 12px; }
   dl { grid-template-columns: 1fr; gap: 4px; }
