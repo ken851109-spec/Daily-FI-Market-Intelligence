@@ -23,6 +23,32 @@
 	  const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
 	  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh", searchExpanded: false, resultsCollapsed: false };
 	  const MIN_SEARCH_CHARS = 2;
+  const updateToolMetrics = () => {
+    const root = document.documentElement;
+    if (!toolsEl) {
+      root.style.setProperty("--task-nav-bottom", "0px");
+      root.style.setProperty("--sticky-offset", window.innerWidth >= 1400 ? "88px" : "18px");
+      return;
+    }
+    const rect = toolsEl.getBoundingClientRect();
+    const visibleBottom = Math.max(0, Math.ceil(rect.bottom));
+    const compact = window.innerWidth < 1200;
+    const baseOffset =
+      window.innerWidth >= 1400
+        ? 88
+        : window.innerWidth >= 1200
+          ? 24
+          : Math.max(18, visibleBottom + (window.innerWidth < 768 ? 10 : 14));
+    root.style.setProperty("--task-nav-bottom", `${visibleBottom}px`);
+    root.style.setProperty("--sticky-offset", `${baseOffset}px`);
+    if (!compact) toolsEl.classList.remove("is-hidden");
+  };
+  const revealTools = () => {
+    if (!toolsEl) return;
+    toolsEl.classList.remove("is-hidden");
+    toolsEl.removeAttribute("data-tools-hidden");
+    updateToolMetrics();
+  };
 	  const escapeHtml = (value) => String(value ?? "")
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
@@ -329,6 +355,7 @@
 	  const updateSearchUiState = (value) => {
 	    const rawQuery = String(value || "").trim();
 	    const effectiveQuery = effectiveSearchQuery(rawQuery);
+	    if (rawQuery) revealTools();
 	    bar.dataset.searchActive = rawQuery ? "true" : "false";
 	    bar.dataset.searchResultsActive = effectiveQuery ? "true" : "false";
 	    if (clearButton) clearButton.hidden = !rawQuery;
@@ -442,6 +469,9 @@
   };
 
   const stickyOffset = () => {
+    updateToolMetrics();
+    const cssOffset = Number(getComputedStyle(document.documentElement).getPropertyValue("--sticky-offset").replace("px", "").trim());
+    if (Number.isFinite(cssOffset) && cssOffset > 0) return cssOffset;
     if (window.innerWidth >= 1400) return 88;
     if (!toolsEl) return window.innerWidth < 768 ? 156 : 132;
     const rect = toolsEl.getBoundingClientRect();
@@ -695,22 +725,23 @@
 	    let lastY = window.scrollY;
 	    let ticking = false;
 	    const isDateMenuOpen = () => dateMenus.some((menu) => menu.open);
+	    const isSearchOpen = () => Boolean(effectiveSearchQuery(input.value) && !resultsEl.hidden);
 	    const activeField = () => {
 	      const active = document.activeElement;
 	      if (!active || !bar.contains(active)) return null;
 	      return active.matches("input, textarea, select") || active.isContentEditable ? active : null;
 	    };
 	    const isUsingTools = () => {
-	      return Boolean(activeField()) || isDateMenuOpen();
+	      return Boolean(activeField()) || isDateMenuOpen() || isSearchOpen();
 	    };
 	    const showTools = () => {
-	      toolsEl.classList.remove("is-hidden");
-	      toolsEl.removeAttribute("data-tools-hidden");
+	      revealTools();
 	    };
 	    const hideTools = () => {
 	      if (window.scrollY > 96 && !isUsingTools()) {
 	        toolsEl.classList.add("is-hidden");
 	        toolsEl.setAttribute("data-tools-hidden", "true");
+	        updateToolMetrics();
 	      }
 	    };
 	    const sync = () => {
@@ -736,9 +767,15 @@
 	    }, { passive: true });
 	    window.addEventListener("resize", () => {
 	      syncNavForLanguage();
+	      updateToolMetrics();
 	      sync();
 	    });
 	    bar.addEventListener("focusin", showTools);
+	    if ("ResizeObserver" in window) {
+	      const observer = new ResizeObserver(updateToolMetrics);
+	      observer.observe(toolsEl);
+	      observer.observe(bar);
+	    }
 	    resultsEl.addEventListener("click", showTools);
 	    document.querySelectorAll(".section-nav a").forEach((link) => {
 	      link.addEventListener("click", () => {
@@ -747,6 +784,7 @@
 	      });
 	    });
 	    sync();
+	    updateToolMetrics();
 	  };
 
   const setupContextLinks = () => {
