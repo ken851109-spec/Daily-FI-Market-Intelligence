@@ -419,7 +419,7 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
 	  .command-links a, .mobile-date-menu summary { min-height: 42px; padding: 7px 8px; font-size: 12.25px; min-width: 42px; }
   .desktop-history-link { display: none !important; }
   .mobile-date-menu { display: block; }
-  .mobile-date-panel { width: min(300px, calc(100vw - 18px)); }
+  .mobile-date-panel { position: fixed; left: 9px; right: 9px; top: calc(var(--task-nav-bottom) + 6px); z-index: 92; width: auto; max-height: min(54vh, calc(100dvh - var(--task-nav-bottom) - 14px)); }
 	  .search-box button { min-width: 42px; min-height: 42px; padding: 7px 8px; font-size: 0; }
 	  .search-box button::before { content: "X"; font-size: 12px; line-height: 1; }
   .section-nav { display: flex; gap: 5px; overflow-x: auto; padding-top: 5px; border-top: 1px solid #e1e8ef; scrollbar-width: thin; scrollbar-color: #cbd8e3 transparent; }
