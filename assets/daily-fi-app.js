@@ -407,7 +407,12 @@
         const langLabel = row.lang === "en" ? "EN" : "中文";
         const titleLabel = row.title || (state.language === "en" ? "Passage" : "段落");
         const familyLabel = sectionFamilyLabel(row.section, row.lang || "zh");
-        return `<a class="search-result" href="${escapeHtml(href)}">` +
+        const sectionLabel = `${familyLabel} / ${titleLabel}`;
+        const focusLabel = state.language === "en"
+          ? `Search: ${state.query} / ${sectionLabel}`
+          : `搜尋：${state.query} / ${sectionLabel}`;
+        const ariaLabel = `${row.date} · ${sectionLabel} · ${langLabel}`;
+        return `<a class="search-result" href="${escapeHtml(href)}" data-focus-label="${escapeHtml(focusLabel)}" aria-label="${escapeHtml(ariaLabel)}">` +
           `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span></span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
       "</a>";
@@ -933,6 +938,8 @@
 	        const shouldReadTarget = Boolean(location.hash);
 	        state.resultsCollapsed = shouldReadTarget || Boolean(location.hash && sessionStorage.getItem("daily-fi-collapse-search") === "1");
 	        sessionStorage.removeItem("daily-fi-collapse-search");
+	        const initialFocusLabel = sessionStorage.getItem("daily-fi-focus-label") || "";
+	        sessionStorage.removeItem("daily-fi-focus-label");
 	        input.value = initialQuery;
 	        updateSearchUiState(initialQuery);
 	        renderResults(initialQuery);
@@ -940,7 +947,7 @@
 	        if (shouldReadTarget) {
 	          window.setTimeout(() => {
 	            hideSearchForReading();
-	            scrollToHashTarget();
+	            scrollToHashTarget(initialFocusLabel);
 	          }, 80);
 	        }
 	      } else {
@@ -971,12 +978,24 @@
     }
     const resultLink = event.target.closest(".search-result");
     if (resultLink) {
+      event.preventDefault();
       state.resultsCollapsed = true;
-      sessionStorage.setItem("daily-fi-collapse-search", "1");
-      window.setTimeout(() => {
+      const focusLabel = String(resultLink.dataset.focusLabel || "").trim();
+      const resultUrl = new URL(resultLink.getAttribute("href") || "", location.href);
+      const nextQuery = new URLSearchParams(resultUrl.search).get("q") || state.query || input.value.trim();
+      if (resultUrl.origin === location.origin && resultUrl.pathname === location.pathname) {
+        history.pushState(null, "", `${resultUrl.pathname}${resultUrl.search}${resultUrl.hash}`);
+        state.query = nextQuery;
+        input.value = nextQuery;
+        updateSearchUiState(nextQuery);
+        highlightPage(effectiveSearchQuery(nextQuery));
         hideSearchForReading();
-        scrollToHashTarget();
-      }, 0);
+        scrollToHashTarget(focusLabel);
+      } else {
+        sessionStorage.setItem("daily-fi-collapse-search", "1");
+        if (focusLabel) sessionStorage.setItem("daily-fi-focus-label", focusLabel);
+        location.href = resultUrl.href;
+      }
     }
   });
 	  clearButton.addEventListener("click", () => {
