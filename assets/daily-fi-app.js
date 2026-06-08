@@ -402,7 +402,7 @@
       ...visibleMatches.map((row) => {
         const baseHref = hrefForDate(row.date, row.lang || "zh");
         const joiner = baseHref.includes("?") ? "&" : "?";
-        const langParam = baseHref.includes("lang=") ? "" : `&lang=${encodeURIComponent(row.lang || "zh")}`;
+        const langParam = row.lang === "en" && !baseHref.includes("lang=") ? "&lang=en" : "";
         const href = `${baseHref}${joiner}q=${encodeURIComponent(state.query)}${langParam}#${encodeURIComponent(row.section || "overview")}`;
         const langLabel = row.lang === "en" ? "EN" : "中文";
         const titleLabel = row.title || (state.language === "en" ? "Passage" : "段落");
