@@ -361,16 +361,14 @@
       resultsEl.innerHTML = `<div class="search-count">${escapeHtml(label)}<button type="button" data-expand-search-results>${escapeHtml(action)}</button></div>`;
       return;
     }
-    const compactLimit = window.innerWidth < 768 ? 2 : window.innerWidth < 1200 ? 3 : 24;
-    const expandedLimit = window.innerWidth < 768 ? 4 : window.innerWidth < 1200 ? 5 : matches.length;
+    const compactLimit = window.innerWidth < 768 ? 2 : window.innerWidth < 1200 ? 3 : 6;
+    const expandedLimit = window.innerWidth < 768 ? 4 : window.innerWidth < 1200 ? 5 : 10;
     const limit = state.searchExpanded ? expandedLimit : compactLimit;
     const visibleMatches = matches.slice(0, limit);
     const countLabel = state.language === "en"
       ? `${matches.length} matching passages${visibleMatches.length < matches.length ? `, showing ${visibleMatches.length}` : ""}`
       : `${matches.length} 個相關段落${visibleMatches.length < matches.length ? `，顯示前 ${visibleMatches.length} 筆` : ""}`;
-    const moreLabel = state.language === "en"
-      ? (window.innerWidth < 1200 ? "Show more" : "Show all")
-      : (window.innerWidth < 1200 ? "顯示更多" : "全部顯示");
+    const moreLabel = state.language === "en" ? "Show more" : "顯示更多";
     const canShowMore = visibleMatches.length < matches.length && !state.searchExpanded;
     resultsEl.innerHTML = [
       `<div class="search-count"><span>${escapeHtml(countLabel)}</span>${canShowMore ? `<button type="button" data-show-all-results>${escapeHtml(moreLabel)}</button>` : ""}</div>`,
