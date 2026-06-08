@@ -455,7 +455,7 @@
     });
   };
 
-  const highlightHashTarget = (target) => {
+  const highlightHashTarget = (target, focusLabel = "") => {
     clearJumpHighlight();
     if (!target) return;
     const isParagraphTarget = target.classList.contains("analysis-paragraph") || /-p\d+(?:-mobile)?$/.test(target.id || target.dataset.searchSection || "");
@@ -469,7 +469,10 @@
           target
         );
     const hasSearchQuery = Boolean(effectiveSearchQuery(state.query || input.value.trim()));
-    if (hasSearchQuery) {
+    const normalizedFocusLabel = String(focusLabel || "").replace(/\s+/g, " ").trim();
+    if (normalizedFocusLabel) {
+      highlightTarget.dataset.currentMatchLabel = normalizedFocusLabel.slice(0, 96);
+    } else if (hasSearchQuery) {
       highlightTarget.dataset.currentMatchLabel = state.language === "en" ? "Current match" : "目前命中段落";
     } else {
       delete highlightTarget.dataset.currentMatchLabel;
@@ -497,7 +500,7 @@
     return 24;
   };
 
-  const scrollToHashTarget = () => {
+  const scrollToHashTarget = (focusLabel = "") => {
     normalizeLocationHashForLanguage();
     const hash = decodeURIComponent((location.hash || "").replace(/^#/, ""));
     if (!hash) return;
@@ -526,7 +529,7 @@
     if (details) details.open = true;
     const y = target.getBoundingClientRect().top + window.scrollY - stickyOffset();
     window.scrollTo(0, Math.max(0, y));
-    highlightHashTarget(target);
+    highlightHashTarget(target, focusLabel);
   };
 
   const escapeRegExp = (value) => String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -804,17 +807,37 @@
 	  };
 
   const setupContextLinks = () => {
+    const cardFocusLabel = (card) => {
+      if (!card) return "";
+      const roleLabel =
+        card.querySelector(".chip-label") ||
+        card.querySelector(".card-kicker") ||
+        card.querySelector(".pulse-channel") ||
+        card.querySelector(".driver-topic") ||
+        card.querySelector(".trigger-card span, .event-card span");
+      const primary =
+        card.querySelector("strong") ||
+        card.querySelector("h3") ||
+        card.querySelector(".pulse-value") ||
+        card.querySelector(".driver-signal") ||
+        card.querySelector(".asset-move") ||
+        card.querySelector(".asset-level");
+      const parts = [roleLabel, primary]
+        .map((el) => (el?.textContent || "").replace(/\s+/g, " ").trim())
+        .filter(Boolean);
+      return Array.from(new Set(parts)).join(" / ");
+    };
     const activateCard = (card) => {
       if (!card) return;
       card.classList.add("is-card-active");
       window.setTimeout(() => card.classList.remove("is-card-active"), 1600);
     };
-    const navigateHash = (href) => {
+    const navigateHash = (href, focusLabel = "") => {
       if (!href || !href.startsWith("#")) return;
       const activeBase = navBaseFromId(decodeURIComponent(href.replace(/^#/, "")));
       history.pushState(null, "", href);
       syncActiveNavFromHash();
-      scrollToHashTarget();
+      scrollToHashTarget(focusLabel);
       if (activeBase) window.setTimeout(() => setActiveNav(activeBase, { centerChip: true }), 80);
     };
     document.addEventListener("click", (event) => {
@@ -823,7 +846,8 @@
         const href = link.getAttribute("href") || "";
         if (!href.startsWith("#")) return;
         event.preventDefault();
-        navigateHash(href);
+        const linkCard = link.closest(".regime-chip, .thesis-card, [data-card-href]");
+        navigateHash(href, cardFocusLabel(linkCard));
         return;
       }
       if (event.target.closest(".card-detail, summary")) return;
@@ -831,7 +855,7 @@
       if (!card) return;
       event.preventDefault();
       activateCard(card);
-      navigateHash(card.dataset.cardHref || "");
+      navigateHash(card.dataset.cardHref || "", cardFocusLabel(card));
     });
     document.addEventListener("keydown", (event) => {
       if (event.key !== "Enter" && event.key !== " ") return;
@@ -839,7 +863,7 @@
       if (!card || event.target.closest("input, select, textarea, button, a, summary, .card-detail")) return;
       event.preventDefault();
       activateCard(card);
-      navigateHash(card.dataset.cardHref || "");
+      navigateHash(card.dataset.cardHref || "", cardFocusLabel(card));
     });
   };
 
