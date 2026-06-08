@@ -43,7 +43,7 @@
       "label": "Duration / 5Y-10Y UST",
       "view": "觀察 / 小幅建立",
       "best_expression": "10Y 4.55%-4.60% 是 watch zone；小部位觀察，不等於全面加碼。",
-      "risk_trigger": "加碼: CPI < 4.1%、Brent < 92 且 10Y 回到 4.45%-4.50%；降風險: 10Y > 4.65。"
+      "risk_trigger": "初始加碼: CPI < 4.1%、Brent < 92 且 10Y 回到 4.45%-4.50%；確認加碼: 10Y < 4.45 且 30Y < 5.00；降風險: 10Y > 4.65 或 30Y > 5.05。"
     },
     {
       "label": "Curve / 20Y+ UST",
@@ -60,7 +60,7 @@
     {
       "label": "Credit / HY 景氣曝險",
       "view": "避免追高",
-      "best_expression": "HYG > 79 且 SOX 企穩前，不用高票息追景氣曝險。",
+      "best_expression": "只有 HYG > 79 且 SOX 企穩，才重新評估 HY 景氣曝險；否則維持高品質優先。",
       "risk_trigger": "HYG < 79 或 LQD/HYG 同跌時，優先回到高品質與流動性。"
     },
     {
@@ -112,7 +112,7 @@
       {
         "label": "10Y UST",
         "value": "4.45% / 4.65%",
-        "detail": "4.45% 下方代表中段買盤回來；4.65% 上方暫停 Duration 加碼。"
+        "detail": "4.45%-4.50 是初始加碼區；4.45 下方才確認中段買盤，4.65 上方降 Duration。"
       },
       {
         "label": "30Y UST",
@@ -461,7 +461,7 @@
       "paragraphs": [
         "第一個觸發是 CPI。若 6 月 10 日 CPI 接近 swap 隱含的 4.3%，前端會重新測試 Fed 保留升息選項，10Y 可能往 4.65% 靠近，5Y-10Y 部位維持觀望；若 CPI 低於 4.1%，非農衝擊缺乏通膨確認，中段 Duration 才有更好的修復條件。 對 ETF 操作而言，這是一個先後順序明確的資料點：CPI 先決定前端路徑，才輪到 10Y 是否突破區間與長端是否能修復；低於 4.1% 是 add 條件，接近 4.3% 是等待條件。",
         "第二個觸發是 FOMC 語句。6 月 16-17 日聲明若移除偏降息語氣，或重新強調通膨韌性，2Y 與 5Y 對政策尾端風險會更敏感；若聲明保留雙向彈性且承認就業之外的成長放緩，市場才有機會把升息定價降回風險情境。這會直接影響短中天期 ETF 的再配置節奏。 若 2Y-5Y 對聲明反應過大，短中天期 ETF 可能先承壓；若反應溫和而 10Y 回落，才代表政策風險被重新壓回可承受範圍。這裡的角色是政策確認，不是新的獨立配置結論。",
-        "第三個觸發是 10Y 與 30Y 價位。10Y 下破 4.45% 才代表中段買盤真正接手，4.55%-4.65% 則是風險管理區；30Y 若站上 5.05%，代表期限溢價和供給壓力重新主導，20Y+ ETF 需降低價格彈性假設。若 10Y 回落但 30Y 仍高於 5%，修復主要集中在中段。 這兩個價位要一起看，因為 10Y 回落只能說明中段買盤改善，30Y 回落才代表長端期限溢價也被壓住；兩者缺一時不宜追長端。",
+        "第三個觸發是 10Y 與 30Y 價位。若 CPI 與油價配合，10Y 回到 4.45%-4.50 可作為 5Y-10Y 的初始加碼區；10Y 明確低於 4.45 且 30Y 回到 5% 下方，才是確認加碼。相反地，10Y 高於 4.65 或 30Y 站上 5.05，代表政策路徑、期限溢價和供給壓力重新主導，20Y+ ETF 需降低價格彈性假設。這兩個價位要一起看，因為 10Y 回落只能說明中段買盤改善，30Y 回落才代表長端期限溢價也被壓住；兩者缺一時不宜追長端。",
         "第四個觸發是油價。Brent 92 下方有助通膨溢價降溫，也能讓 Fed 語句比較容易保持彈性；Brent 98 上方則會重新推升能源通膨、實質所得壓力與長端損益平衡通膨。對 ETF 配置而言，油價走低會讓高殖利率更像機會，油價上衝則讓高殖利率更像風險補償。 油價的角色應固定為長端修復與 Fed 語氣的外生約束：92 下方增加加碼勝率，98 上方把高殖利率重新定義成風險補償。",
         "第五個觸發是信用代理。LQD 108 是 IG 總報酬代理指標 的近端支撐，HYG 79 是 HY 景氣曝險 的風險線；若 LQD 跌破 108 且 HYG 跌破 79，代表利率與信用同時轉弱，不宜用高配息或 FX 換算掩蓋總報酬壓力。若 LQD 穩住、HYG 不再破底，IG 收益部位才比較能保留。 這組信用觸發可以把 IG 與 HY 分開處理：IG 穩定代表收益仍可留存，HY 失守則代表市場已要求景氣與流動性折價。",
         "第六個觸發是 USD/TWD。31.40 下方代表台幣走強、FX 換算助益減弱，台幣計價海外債 ETF 會更依賴 UST 與信用表現；31.55 上方則表示匯率換算助益增加。判讀必須使用台灣央行銀行間收盤或台北外匯經紀公司境內收盤匯率，離岸報價只能作為參考。 若境內收盤與離岸報價分歧，ETF 歸因仍以境內收盤為主，因為台幣計價產品的 NAV 換算最接近本地收盤匯率。USD/TWD 是歸因觀察點，不是單獨加碼觸發。",
@@ -513,7 +513,7 @@
           "label": "Duration / 5Y-10Y UST",
           "view": "Watch / small add",
           "best_expression": "10Y at 4.55%-4.60% is a watch zone; small staging is different from a full add.",
-          "risk_trigger": "Add: CPI < 4.1%, Brent < 92 and 10Y back to 4.45%-4.50%; stop: 10Y > 4.65."
+          "risk_trigger": "Initial add: CPI < 4.1%, Brent < 92 and 10Y back to 4.45%-4.50%; confirmation add: 10Y < 4.45 and 30Y < 5.00; cut: 10Y > 4.65 or 30Y > 5.05."
         },
         {
           "label": "Curve / 20Y+ UST",
@@ -530,7 +530,7 @@
         {
           "label": "Credit / HY beta",
           "view": "Avoid chase",
-          "best_expression": "Do not chase cyclical beta through high coupon until HYG is above 79 and SOX stabilizes.",
+          "best_expression": "Only reassess HY beta if HYG is above 79 and SOX stabilizes; otherwise keep quality first.",
           "risk_trigger": "If HYG < 79 or LQD/HYG fall together, return first to quality and liquidity."
         },
         {
@@ -582,7 +582,7 @@
           {
             "label": "10Y UST",
             "value": "4.45% / 4.65%",
-            "detail": "Below 4.45% shows belly buyers are back; above 4.65% pauses duration adds."
+            "detail": "4.45%-4.50 is the initial add zone; below 4.45 confirms belly buyers, while above 4.65 cuts duration."
           },
           {
             "label": "30Y UST",
@@ -931,7 +931,7 @@
           "paragraphs": [
             "The first trigger is CPI. If the June 10 print is near the roughly 4.3% swap-implied level, the front end will retest the Fed hike-option risk, the 10Y can move toward 4.65%, and 5Y-10Y positions should stay patient. If CPI is below 4.1%, the payroll shock lacks inflation confirmation and belly duration has a better repair setup. For ETF execution, this is a clear sequencing point: CPI first sets the front-end path, then the 10Y range and the long-end repair test matter. Below 4.1% is an add condition; near 4.3% is a wait condition.",
             "The second trigger is FOMC language. If the June 16-17 statement removes cut-friendly language or stresses inflation resilience again, the 2Y and 5Y remain more sensitive to policy-end risk than the long end. If the statement keeps two-way flexibility and acknowledges growth cooling beyond employment, the market can mark the hike pricing back into a risk scenario. If 2Y-5Y react too sharply to the statement, short/intermediate ETFs can weaken first; if the reaction is mild and the 10Y falls, policy risk is moving back into an acceptable range. This is policy confirmation, not a separate allocation conclusion.",
-            "The third trigger is the 10Y and 30Y. A 10Y break below 4.45% would show that belly buyers are taking control, while 4.55%-4.65% remains the risk-management zone. A 30Y break above 5.05% would signal that term premium and supply pressure dominate again, so 20Y+ ETF price-convexity assumptions should be reduced. If the 10Y rallies but the 30Y stays above 5%, the repair is mostly in the belly. The two levels must be read together: a lower 10Y only says belly demand improved, while a lower 30Y says long-end term premium is also contained. Without both, do not chase the long end.",
+            "The third trigger is the 10Y and 30Y. If CPI and oil cooperate, a 10Y move back to 4.45%-4.50 can be the initial add zone for 5Y-10Y. A clear 10Y break below 4.45 plus a 30Y move back below 5% is the confirmation add. In the other direction, 10Y above 4.65 or 30Y above 5.05 means policy-path, term-premium and supply pressure dominate again, so 20Y+ ETF price-convexity assumptions should be reduced. The two levels must be read together: a lower 10Y only says belly demand improved, while a lower 30Y says long-end term premium is also contained. Without both, do not chase the long end.",
             "The fourth trigger is oil. Brent below 92 helps inflation premium cool and gives the Fed more room to keep language flexible. Brent above 98 would lift energy inflation, real-income pressure and long-end breakeven inflation. For ETF allocation, lower oil makes high yield look more like opportunity; higher oil makes high yield look more like required risk compensation. Oil should keep one role: the external constraint on long-end repair and Fed language. Below 92 raises add confidence; above 98 turns high yield back into required risk compensation.",
             "The fifth trigger is credit proxies. LQD 108 is the near support level for the IG total-return proxy, and HYG 79 is the HY beta risk line. If both break lower, rates and credit are weakening together, so high distribution or FX translation should not hide total-return pressure. If LQD stabilizes and HYG stops making new lows, IG income exposure can be retained more comfortably. These credit triggers separate IG from HY: stable IG means income can be retained, while weaker HY means markets are demanding cyclical and liquidity discounts.",
             "The sixth trigger is USD/TWD. Below 31.40 means TWD strength and weaker FX translation support, leaving TWD overseas-bond ETFs more dependent on UST and credit performance. Above 31.55 means FX translation support is stronger. The reference must be the Taiwan central-bank interbank close or Taipei Forex Inc onshore close; offshore quotes should only be treated as reference. If the onshore close and offshore quote diverge, ETF attribution should still use the onshore close because TWD product NAV translation is closest to the local closing rate. USD/TWD is an attribution trigger, not a standalone add trigger.",

@@ -652,7 +652,12 @@
     state.language = lang === "en" ? "en" : "zh";
     rootEl.dataset.language = state.language;
     document.documentElement.lang = state.language === "en" ? "en" : "zh-Hant";
-    langPanels.forEach((panel) => { panel.hidden = panel.dataset.langPanel !== state.language; });
+    langPanels.forEach((panel) => {
+      const active = panel.dataset.langPanel === state.language;
+      panel.hidden = !active;
+      panel.toggleAttribute("inert", !active);
+      panel.setAttribute("aria-hidden", active ? "false" : "true");
+    });
     langButtons.forEach((button) => {
       const active = button.dataset.langButton === state.language;
       button.classList.toggle("is-active", active);
