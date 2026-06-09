@@ -78,11 +78,11 @@
     return tableRows(note, tableId).find((row) => normalize(row?.label) === target);
   };
   const fxNavPositionView = (note, lang) => {
-    let label = "DXY";
+    let label = "USD/TWD";
     let row = rowByLabel(note, "cross_asset", label);
     let move = parseSignedMove(row?.change);
     if (move == null) {
-      label = "USD/TWD";
+      label = "DXY";
       row = rowByLabel(note, "cross_asset", label);
       move = parseSignedMove(row?.change);
     }

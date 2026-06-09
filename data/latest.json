@@ -462,11 +462,11 @@
         "USTs paused at the front end but remained sticky at the long end: 2Y 4.15%, 10Y 4.56%, 30Y 5.03%, and 2s10s at 41bp.",
         "AI dip-buying lifted SOX 5.6%, Nasdaq 100 1.6%, and S&P 500 0.3%, but Dow fell 0.2% and breadth was weaker than the headline.",
         "The next macro gate is June 10 CPI, with headline expected near 4.2% y/y; year-end Fed hike risk is back in the price.",
-        "Taipei positioning must split FX translation from rates price return: USD/TWD 31.58 helps TWD NAV translation, while 30Y 5.03%, Brent 94.37, and LQD softness limit full adds."
+        "Taipei positioning must split FX translation from rates price return: USD/TWD 31.58 helps TWD NAV translation, while 30Y 5.03%, Brent 94.37, and LQD softness limit broad adds."
       ],
       "headline": {
-        "primary": "Front-end pause does not clear rates risk; the long end near 5% remains the main pressure point before CPI",
-        "secondary": "2Y 4.15%, 10Y 4.56%, 30Y 5.03%; SOX +5.6% repaired sentiment, but duration adds still need CPI below 4.1%."
+        "primary": "Front-end yields paused, but 30Y near 5% keeps rates risk alive before CPI",
+        "secondary": "2Y 4.15%, 10Y 4.56%, 30Y 5.03%; SOX +5.6% improved risk tone, but duration adds still need softer CPI and lower oil."
       },
       "regime_strip": [
         {
@@ -498,32 +498,32 @@
         {
           "label": "Duration",
           "view": "slightly constructive, belly only",
-          "best_expression": "Stage 5Y-10Y only; confirmation needs CPI below 4.1%.",
-          "risk_trigger": "Stop adds if 10Y breaks 4.65% or 30Y breaks 5.08%."
+          "best_expression": "Stage 5Y-10Y only; add only if CPI is below 4.1% and Brent falls below $92.",
+          "risk_trigger": "Cut duration if 10Y breaks 4.65% or 30Y breaks 5.08%."
         },
         {
           "label": "Curve",
-          "view": "do not chase the front end",
-          "best_expression": "Keep 5Y-10Y overweight, avoid chasing 2Y, keep 30Y small.",
-          "risk_trigger": "2s10s back below 35bp means Fed pressure returned."
+          "view": "long end still needs confirmation",
+          "best_expression": "Keep 30Y exposure small until 30Y moves back below 5.00%.",
+          "risk_trigger": "A return of 2s10s below 35bp would signal renewed front-end pressure."
         },
         {
           "label": "Credit / ETF",
           "view": "quality IG carry first",
-          "best_expression": "Prefer short-to-intermediate IG and liquid ETFs; keep HY beta under review.",
-          "risk_trigger": "Reduce credit beta if LQD <108 or HYG <79."
+          "best_expression": "Prefer short-to-intermediate IG and liquid ETFs; HY beta needs better equity breadth.",
+          "risk_trigger": "Reduce credit beta if LQD breaks 108 or HYG breaks 79."
         },
         {
           "label": "FX / NAV",
           "view": "attribution only",
-          "best_expression": "USD/TWD 31.58 supports TWD NAV translation but is not a standalone add signal.",
-          "risk_trigger": "If USD/TWD >31.65 and LQD breaks 108, check rates and credit offsets first."
+          "best_expression": "USD/TWD 31.58 supports TWD NAV translation, but rates and credit still decide total return.",
+          "risk_trigger": "If USD/TWD is above 31.65 while LQD breaks 108, check rates and spread losses before adding."
         },
         {
           "label": "Add condition",
           "view": "needs two confirmations",
-          "best_expression": "Need at least two of CPI below 4.1%, Brent below 92, and 10Y below 4.50.",
-          "risk_trigger": "Cancel adds if CPI >4.2%, Brent >98, or SOX returns to 12,000."
+          "best_expression": "Need at least two of CPI below 4.1%, Brent below $92, and 10Y below 4.50%.",
+          "risk_trigger": "Cancel duration adds if CPI is above 4.2%, Brent is above $98, or SOX falls back to 12,000."
         }
       ],
       "driver_decomposition": [
@@ -590,12 +590,12 @@
           {
             "label": "U.S. CPI June 10",
             "value": "headline about +4.2% y/y",
-            "note": "Above 4.2% pressures the front end; below 4.1% helps the belly."
+            "note": "Sticky core near 4.2% would keep 10Y in the 4.55%-4.65% pressure zone."
           },
           {
             "label": "FOMC June 16-17",
-            "value": "Warsh first meeting",
-            "note": "Easing-bias language drives 2Y pressure."
+            "value": "6/16-17",
+            "note": "Removing easing-bias language would pressure 2Y; keeping it would help front-end relief."
           },
           {
             "label": "BOJ June 15-16",
@@ -738,7 +738,7 @@
               "label": "SOX",
               "value": "12,906.69",
               "change": "+5.6%",
-              "note": "The chip bounce was risk absorption after a sharp reset, not macro clearance."
+              "note": "The chip bounce repaired positioning stress, but it did not clear macro rates risk."
             },
             {
               "label": "Dow",
@@ -774,7 +774,7 @@
               "label": "Credit Proxy",
               "value": "LQD 108.06 / HYG 79.54",
               "change": "LQD -0.1% / HYG +0.1%",
-              "note": "IG duration lagged while HY beta stabilized; credit favors carry, not full risk-on."
+              "note": "IG duration lagged while HY beta stabilized; keep the read on carry and liquidity, not broad risk-on."
             }
           ]
         },
@@ -804,7 +804,7 @@
               "label": "U.S. payrolls aftershock",
               "value": "May NFP +172k; unemployment 4.3%",
               "expected": "about +80k to +85k; unemployment 4.3%",
-              "note": "Jobs still affects the Fed path, while slower wages allowed dip-buying."
+              "note": "Jobs data still shapes the Fed path, while slower wages allowed some dip-buying."
             },
             {
               "label": "ECB",
@@ -843,71 +843,71 @@
         {
           "id": "rates_close",
           "title": "UST close and curve moves",
-          "takeaway": "USTs were not a clean relief trade: the front end eased slightly, the long end rose, and the curve shifted toward sticky long-end pressure.",
+          "takeaway": "Front-end relief is not enough while the 30Y sector stays near 5%.",
           "paragraphs": [
-            "The June 8 close was not a clean relief trade. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move.",
-            "The weekly and monthly anchors still describe a high-rate regime. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move.",
-            "The curve signal was a long-end pressure episode rather than a growth scare. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move.",
-            "Payrolls remain the first layer behind the rate backdrop. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move.",
-            "Oil keeps the long end from rallying cleanly. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move.",
-            "The cash close and Asia session tell the same story. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move.",
-            "The investment read is to treat 10Y 4.55%-4.65% as a pressure zone. USTs had 2Y at 4.15%, 10Y at 4.56%, 30Y at 5.03%, and 2s10s at 41bp. The front-end pause helps carry psychology, but the long end still prices inflation, supply, and term-premium risk, so duration adds need CPI confirmation rather than a one-day move."
+            "The June 8 close was not a clean relief trade. 2Y finished at 4.15%, 10Y at 4.56%, and 30Y at 5.03%; the front end paused, but the long end stayed near the level that hurts high-duration ETF price return.",
+            "The weekly and monthly anchors still describe a high-rate regime: 2Y is up about 10bp on the week and 25bp on the month, while 5Y and 10Y remain above the levels needed for a clean duration reset. One quiet front-end session is not enough to declare a Fed pivot.",
+            "The curve message is long-end pressure, not a growth-scare rally. 2s10s widened to about 41bp and 5s30s to about 78bp because the front end stopped selling first, while 20Y and 30Y yields still sat around 5%.",
+            "Payrolls remain the key background for the rate level: May NFP at +172k versus roughly +80k to +85k expected kept the Fed tail alive even though the unemployment rate was 4.3% and wage momentum was not explosive.",
+            "Oil prevents a simple bullish duration read. Brent near $94 and WTI above $91 are not a fresh energy shock, but they keep the inflation premium high enough that CPI needs to do real work before 10Y can sustain a break lower.",
+            "The cash close and Asia session point to the same portfolio conclusion: demand can stabilize the belly, but the 30Y sector has not shown enough buying interest below 5% to support a broad 20Y+ ETF add.",
+            "The investment implication is to treat 10Y 4.55%-4.65% as a pressure zone. A move below 4.50% after softer CPI can justify a staged 5Y-10Y add; a move above 4.65% or a 30Y break above 5.08% should reduce duration risk."
           ]
         },
         {
           "id": "rates_interpretation",
           "title": "UST interpretation",
-          "takeaway": "Fed-path dispersion widened as equities focused on slower wages while bonds still require CPI proof that inflation is not re-accelerating.",
+          "takeaway": "CPI and FOMC wording decide whether the front-end pause becomes a belly add.",
           "paragraphs": [
-            "The key point is that the front end could not rally with conviction. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium.",
-            "The Fed reaction function is now a credibility test. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium.",
-            "The 4.70% year-end 10Y discussion matters for portfolio risk. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium.",
-            "Japanese foreign-bond demand is a cushion, not an immediate reversal signal. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium.",
-            "Other central banks complicate the UST read. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium.",
-            "Credit was calmer than equities. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium.",
-            "TWD overseas-bond ETFs require a three-channel return split. Payrolls at 172k versus roughly 80k-85k expected, CPI expected near 4.2% y/y, and the June FOMC language keep the Fed path as an event-risk trade. The portfolio implication is to separate front-end policy risk, belly price return, and long-end term premium."
+            "The front end could not rally with conviction because the market is still pricing policy optionality. The better question is not whether 2Y dipped by a few basis points, but whether CPI and the FOMC statement let the market remove the renewed hike tail.",
+            "The Fed reaction function should be read through language discipline. If the statement removes easing-bias language or stresses inflation persistence, 2Y can retest 4.20%; if it acknowledges wage cooling and treats oil as contained, front-end relief can extend.",
+            "The 10Y discussion around 4.65%-4.70% matters because it defines the stop zone for staged duration. A break below 4.45% would show real belly demand; staying between 4.55% and 4.65% keeps the trade tactical rather than strategic.",
+            "Japanese foreign-bond demand is a cushion, not a reversal signal. Weekly buying can soften selloffs, but it does not erase the supply, term-premium, and oil constraints keeping the 30Y sector near 5%.",
+            "Other central banks complicate the UST read because they raise the global cost of owning duration. ECB, BOJ, and Asia policy risk make long-end rallies harder to trust unless U.S. inflation data also turns lower.",
+            "Credit was calmer than equities but not cleanly bullish. LQD at 108.06 with a small loss means IG still carries duration drag, while HYG near 79.54 shows HY beta stabilized but has not become the main source of return.",
+            "For TWD-denominated overseas-bond ETFs, USD/TWD 31.58 supports FX translation, but the return still needs to be split into FX, UST price return, and credit spread return. FX alone should not be treated as an add signal."
           ]
         },
         {
           "id": "other_markets",
           "title": "Other market moves",
-          "takeaway": "The AI rebound repaired sentiment, but weak breadth, oil, and Asia FX pressure argue against broad FI re-risking.",
+          "takeaway": "The equity rebound lowers stress but does not clear duration or credit risk.",
           "paragraphs": [
-            "The cross-asset close was a narrow rebound. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases.",
-            "The chip bounce was position repair after Friday, not proof that rates pressure vanished. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases.",
-            "Oil sat between relief and risk premium. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases.",
-            "Asia FX became a credit screen. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases.",
-            "Indonesia remains an EM policy-credibility pressure point. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases.",
-            "Korea shows that an AI boom can hurt bonds. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases.",
-            "Japan delivered mixed signals for global FI. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent closed at 94.37, and Asia FX pressure persisted. That combination supports selective risk absorption, not broad duration or credit beta increases."
+            "The cross-asset close was a narrow rebound rather than broad risk clearance. SOX rose 5.6% and Nasdaq 100 rose 1.6%, but Dow fell 0.2%, Brent stayed near $94, and Asia FX pressure remained visible.",
+            "The chip bounce repaired part of Friday’s positioning damage, but it did not clear rates risk. For FI, the useful signal is that forced risk reduction eased; it is not evidence that CPI, the Fed, or long-end supply have turned benign.",
+            "Oil sits between relief and risk premium. Brent below $98 avoids an immediate stagflation alarm, but a sustained move above that level would raise the hurdle for both front-end relief and long-end ETF price repair.",
+            "Asia FX is a credit screen because weaker local currencies raise the cost of USD liabilities and hedges. Philippine external funding pressure and peso weakness are relevant for EM spread discipline, not for the core UST close.",
+            "Indonesia remains an EM credibility check. Danantara’s dollar roadshow and the absence of an explicit sovereign guarantee mean new-issue concession and policy credibility matter more than headline yield pickup.",
+            "Korea shows why an AI boom can still be difficult for bonds. Strong equity demand can coexist with higher inflation, more funding needs, and a local curve that prices additional BOK tightening.",
+            "Japan gives a mixed global-duration signal: GDP was firm enough to keep BOJ normalization alive, while capex softness slows the urgency. For U.S. duration, that means foreign demand can cushion volatility but should not be the only reason to add long-end exposure."
           ]
         },
         {
           "id": "allocation",
           "title": "Allocation implications",
-          "takeaway": "Keep short-to-intermediate carry and quality IG; the AI rebound improves confidence but is not enough for broad risk increases.",
+          "takeaway": "Stage 5Y-10Y duration only after CPI/oil confirmation; keep 20Y+ and HY beta restrained.",
           "paragraphs": [
-            "Duration stays neutral to slightly constructive, but only in the 5Y-10Y area. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit.",
-            "Curve exposure should avoid chasing the front end. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit.",
-            "Credit and ETF exposure should favor quality and short-to-intermediate carry. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit.",
-            "The Taiwan ETF line is attribution, not a standalone buy signal. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit.",
-            "EM and Asia exposure should reduce policy beta. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit.",
-            "The equity rebound improves risk absorption but does not change FI sequencing. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit.",
-            "Liquidity buffers should stay in place before the event window. Allocation should keep staged 5Y-10Y duration, curve restraint, quality IG carry, Taiwan ETF attribution discipline, and liquidity for CPI, BOJ, FOMC, and BI. A weaker TWD supports TWD NAV translation, but rates and spreads can offset that benefit."
+            "Duration should stay neutral to slightly constructive, concentrated in 5Y-10Y. The yield level is more attractive, but the add trigger still needs softer CPI, lower oil, or a 10Y move back below 4.50%.",
+            "Curve exposure should avoid chasing the front end. If CPI is soft, the belly offers a cleaner price-return setup; the 30Y sector should remain small until it trades back below 5.00% with confirmation from oil and supply conditions.",
+            "Credit and ETF exposure should favor quality and liquidity. IG income can be held, but LQD has not repaired enough to call it a total-return green light; HY beta should be reassessed only if HYG holds above 79 and SOX remains stable.",
+            "The Taiwan ETF line is attribution, not a standalone buy signal. A weaker TWD helps the TWD NAV translation, but higher UST yields and weaker credit prices can offset the FX benefit in total return.",
+            "EM and Asia exposure should reduce policy beta before major events. Indonesia funding, Philippine USD maturities, Korea rate pressure, and BOJ risk all argue for higher liquidity and less reliance on spread carry alone.",
+            "The equity rebound improves risk absorption but does not change the FI sequence. It can stop forced de-risking in credit beta, but duration adds still need CPI, FOMC language, oil, and 30Y confirmation.",
+            "Liquidity buffers should stay in place before CPI, BOJ, FOMC, and BI. Useful redeployment levels are 10Y below 4.50%, 30Y below 5.00%, Brent below $92, and LQD/HYG holding 108/79."
           ]
         },
         {
           "id": "watchlist",
           "title": "Watchlist",
-          "takeaway": "Trading triggers are CPI, FOMC language, the 30Y 5% area, Brent 98, and Asia FX defense.",
+          "takeaway": "CPI, 30Y, FOMC language, Brent, Asia FX, and LQD/HYG are the action map.",
           "paragraphs": [
-            "The first trigger is the June 10 CPI report. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control.",
-            "The second trigger is the 30Y 5.00%-5.08% zone. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control.",
-            "The third trigger is the June 16-17 FOMC statement. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control.",
-            "The fourth trigger is Brent at 98 dollars. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control.",
-            "The fifth trigger is Asia FX. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control.",
-            "The sixth trigger is the credit proxy. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control.",
-            "The seventh trigger is AI funding supply. The actionable thresholds are CPI around 4.1%-4.2%, 30Y around 5.00%-5.08%, FOMC language, Brent near 98, Asia FX pressure, LQD/HYG proxy levels, and AI funding supply. Each threshold maps to duration, credit, FX translation, or beta risk control."
+            "CPI on June 10 is the first decision point. A print near or above 4.2% with sticky core keeps 2Y near 4.20% and 10Y in the 4.55%-4.65% pressure zone; a print below 4.1% can move 5Y-10Y from watch to staged add.",
+            "The 30Y 5.00%-5.08% zone is the long-end test. Above 5.08%, reduce long-duration IG and 20Y+ ETF risk; below 5.00%, long-end exposure can become an income-plus-price-return candidate again.",
+            "The June 16-17 FOMC statement matters through wording. Removing easing-bias language or emphasizing inflation persistence pressures the front end; keeping two-sided language allows the 2Y sector to extend relief.",
+            "Brent at $98 and $92 sets the inflation-risk band. Above $98, duration and Asia credit need more protection; below $92, inflation premium and central-bank pressure ease enough to support staged belly exposure.",
+            "Asia FX should be monitored through attribution, not used as the only trade signal. USD/TWD above 31.65 can support TWD NAV translation, but it can also indicate outflow pressure that hurts spreads and risk appetite.",
+            "Credit proxy levels should decide beta risk. LQD below 108 signals IG duration drag; HYG below 79 signals weaker HY appetite. If both weaken, cut credit beta before relying on FX translation to support NAV.",
+            "AI funding supply remains a market-liquidity check. If large deals are absorbed and SOX holds above 12,900, forced selling risk falls; if supply drains cash and SOX returns toward 12,000, reduce beta and keep duration adds on hold."
           ]
         }
       ]
