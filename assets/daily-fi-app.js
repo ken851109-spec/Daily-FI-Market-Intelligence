@@ -350,7 +350,7 @@
   };
 	  const effectiveSearchQuery = (value) => {
 	    const query = String(value || "").trim();
-	    return query.length >= MIN_SEARCH_CHARS ? query : "";
+	    return query.length >= MIN_SEARCH_CHARS || /[\u4e00-\u9fff]/.test(query) ? query : "";
 	  };
 	  const updateSearchUiState = (value) => {
 	    const rawQuery = String(value || "").trim();
@@ -434,6 +434,15 @@
       toolsEl.setAttribute("data-tools-hidden", "true");
       updateToolMetrics();
     }
+  };
+
+  const restoreSearchResults = () => {
+    const query = effectiveSearchQuery(state.query || input.value.trim());
+    if (!query || !resultsEl.hidden) return;
+    state.searchExpanded = false;
+    state.resultsCollapsed = true;
+    updateSearchUiState(query);
+    renderResults(query);
   };
 
   const clearHighlights = () => {
@@ -529,6 +538,17 @@
       if (details) {
         details.open = true;
         target = candidates.find(isVisibleElement) || hiddenInDetails;
+      }
+    }
+    if (!target && /risk-monitor-rail$/.test(hash)) {
+      const fallbackHash = hash.replace(/risk-monitor-rail$/, "risk-monitor");
+      const fallbackById = scopedElementById(fallbackHash);
+      if (fallbackById && isVisibleElement(fallbackById)) target = fallbackById;
+      if (!target) {
+        scope.querySelectorAll("[data-search-section], [data-search-parent]").forEach((el) => {
+          if (el.tagName === "A") return;
+          if ((el.dataset.searchSection === fallbackHash || el.dataset.searchParent === fallbackHash) && isVisibleElement(el)) target = target || el;
+        });
       }
     }
     if (!target) return;
@@ -705,7 +725,7 @@
     document.querySelectorAll("[data-language-href]").forEach((el) => {
       el.setAttribute("href", localizedHref(el.dataset.languageHref || el.getAttribute("href") || "./", lang));
     });
-    document.querySelectorAll("[data-report-date]").forEach((el) => {
+    document.querySelectorAll("[data-report-date]:not([data-preserve-report-href])").forEach((el) => {
       const href = hrefForDate(el.dataset.reportDate || "", lang);
       if (href) el.setAttribute("href", href);
     });
@@ -801,6 +821,8 @@
 	      sync();
 	    });
 	    bar.addEventListener("focusin", showTools);
+	    input.addEventListener("focus", restoreSearchResults);
+	    input.addEventListener("click", restoreSearchResults);
 	    if ("ResizeObserver" in window) {
 	      const observer = new ResizeObserver(updateToolMetrics);
 	      observer.observe(toolsEl);
