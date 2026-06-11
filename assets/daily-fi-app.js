@@ -15,6 +15,7 @@
   const toolsSheetBackdrop = document.querySelector("[data-tools-sheet-backdrop]");
   const toolsSheetTriggers = Array.from(document.querySelectorAll("[data-tools-sheet-trigger]"));
   const toolsSheetClosers = Array.from(document.querySelectorAll("[data-tools-sheet-close]"));
+  let lastToolsSheetTrigger = null;
   const langButtons = Array.from(document.querySelectorAll("[data-lang-button]"));
   const langPanels = Array.from(document.querySelectorAll("[data-lang-panel]"));
   const navLinks = Array.from(document.querySelectorAll("[data-nav-link]"));
@@ -56,20 +57,30 @@
     updateToolMetrics();
   };
   const isToolsSheetOpen = () => Boolean(toolsSheet && !toolsSheet.hidden);
-  const setToolsSheetOpen = (open) => {
+  const getToolsSheetFocusables = () => {
+    if (!toolsSheet || toolsSheet.hidden) return [];
+    return Array.from(toolsSheet.querySelectorAll("a[href], button:not([disabled]), select:not([disabled]), input:not([disabled]), textarea:not([disabled]), summary, [tabindex]:not([tabindex='-1'])"))
+      .filter((element) => element.offsetParent !== null || element === document.activeElement);
+  };
+  const setToolsSheetOpen = (open, options = {}) => {
     if (!toolsSheet) return;
+    const restoreFocus = options.restoreFocus !== false;
     toolsSheet.hidden = !open;
     if (toolsSheetBackdrop) toolsSheetBackdrop.hidden = !open;
     toolsSheetTriggers.forEach((button) => button.setAttribute("aria-expanded", open ? "true" : "false"));
+    document.documentElement.classList.toggle("has-modal-open", Boolean(open));
     if (toolsEl) toolsEl.dataset.sheetOpen = open ? "true" : "false";
     if (open) {
       revealTools();
-      const firstFocusable = toolsSheet.querySelector("a, button, select, [tabindex]:not([tabindex='-1'])");
+      const firstFocusable = getToolsSheetFocusables()[0];
       if (firstFocusable && typeof firstFocusable.focus === "function") {
         window.setTimeout(() => firstFocusable.focus({ preventScroll: true }), 0);
       }
     } else if (toolsEl) {
       toolsEl.removeAttribute("data-sheet-open");
+      if (restoreFocus && lastToolsSheetTrigger && typeof lastToolsSheetTrigger.focus === "function") {
+        window.setTimeout(() => lastToolsSheetTrigger.focus({ preventScroll: true }), 0);
+      }
     }
     updateToolMetrics();
   };
@@ -997,7 +1008,10 @@
 	    input.addEventListener("focus", restoreSearchResults);
 	    input.addEventListener("click", restoreSearchResults);
     toolsSheetTriggers.forEach((button) => {
-      button.addEventListener("click", () => setToolsSheetOpen(!isToolsSheetOpen()));
+      button.addEventListener("click", () => {
+        lastToolsSheetTrigger = button;
+        setToolsSheetOpen(!isToolsSheetOpen());
+      });
     });
     toolsSheetClosers.forEach((button) => {
       button.addEventListener("click", () => setToolsSheetOpen(false));
@@ -1008,7 +1022,21 @@
     if (toolsSheet) {
       toolsSheet.addEventListener("click", (event) => {
         const link = event.target.closest("a[href]");
-        if (link) setToolsSheetOpen(false);
+        if (link) setToolsSheetOpen(false, { restoreFocus: false });
+      });
+      toolsSheet.addEventListener("keydown", (event) => {
+        if (event.key !== "Tab") return;
+        const focusables = getToolsSheetFocusables();
+        if (!focusables.length) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
       });
     }
 	    if ("ResizeObserver" in window) {
