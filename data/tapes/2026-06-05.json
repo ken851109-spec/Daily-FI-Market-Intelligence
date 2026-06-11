@@ -118,6 +118,17 @@
         "label": "Credit",
         "value": "LQD 108 / HYG 79"
       }
+    ],
+    "asia_update": [
+      {
+        "label": "Japan",
+        "value": "JGB / 科技股傳導觀察",
+        "note": "日本科技股與 JGB 波動影響亞洲長端風險承接，但不主導 06/05 UST 收盤。"
+      },
+      {
+        "label": "Indonesia",
+        "note": "印尼政策風險用來觀察 EM 與亞洲資金傳導，不應放在 Fed 主線之前。"
+      }
     ]
   },
   "market_tables": [
@@ -354,8 +365,7 @@
       "paragraphs": [
         "CPI 是下一個分水嶺。swap 隱含本周 CPI 約 4.3% y/y，若公布值接近這個水準，10Y 4.55% 可能只是中繼壓力，市場會重新測試 4.65%，並要求 6 月 16-17 日 FOMC 聲明移除偏降息語氣。若 CPI 低於 4.1%，非農衝擊缺乏通膨確認，前端與中段才有較高機率修復。這也是 5Y-10Y 比 20Y+ 更適合作為第一觀察區的原因：中段可以較快反映政策預期修復，長端則還要等待期限溢價與供給訊號轉弱。",
         "政策溝通的重要性同步上升。當 Goldman 已移除今年降息預期，而 Citi 仍維持較偏降息的路徑，機構預測分歧本身就會放大每一句官方措辭的市場敏感度。2Y 是否站穩 4.15%、5Y 是否守住 4.30%，會比單日股市跌幅更能反映政策尾端風險；就業與 Fed 定價應被視為同一條政策機制。若這些價位繼續守高，代表市場仍要求政策不確定性的補償；若它們回落，才代表投資人重新接受降息路徑與中段 Duration。",
-        "曲線交易上，追空前端與追買長端都不乾淨。2s10s 已壓到 38bp，5s30s 已壓到 72bp，壓平交易已走出一段；但 30Y 還在 5.01%，若供給與期限溢價繼續黏著，過早買入 20Y+ 等於承擔另一種風險。較合理的觀察區是 5Y-10Y，長端只有在 30Y 重新跌破 4.95% 且油價回落時才提高信心。對 ETF 實作而言，曲線斜率不是獨立交易標籤，而是決定中段與長端哪一段更適合承擔風險；當 30Y 未確認時，長端比例不宜擴太快。",
-        "加拿大就業 +87.8k、失業率降至 6.6% 是輔助證據。它不是 UST 的核心定價來源，但說明北美需求韌性不是美國單點故事，全球前端利率都在重新檢查需求尚未冷卻的風險。對台灣投資人而言，這會影響美元債 ETF 的折現率，也會影響央行政策敘事能否快速回到降息主軸。這種輔助證據可以提高對前端利率黏著的信心，但仍不應凌駕美國 CPI 與 FOMC；配置上只把它當作降低過早加碼勝率的背景條件。"
+        "曲線交易上，追空前端與追買長端都不乾淨。2s10s 已壓到 38bp，5s30s 已壓到 72bp，壓平交易已走出一段；但 30Y 還在 5.01%，若供給與期限溢價繼續黏著，過早買入 20Y+ 等於承擔另一種風險。較合理的觀察區是 5Y-10Y，長端只有在 30Y 重新跌破 4.95% 且油價回落時才提高信心。對 ETF 實作而言，曲線斜率不是獨立交易標籤，而是決定中段與長端哪一段更適合承擔風險；當 30Y 未確認時，長端比例不宜擴太快。"
       ]
     },
     {
@@ -366,7 +376,6 @@
         "風險資產的訊號集中在 長久期 現金流被較高折現率壓縮。Nasdaq 100 跌 4.8%、SOX 跌 10.3%，跌幅遠大於 Dow 的 1.3%，顯示市場先賣對利率最敏感的 AI 與半導體現金流。這對 FI 的含義是成長股與長天期債券同時面對較高折現率，而不是形成天然對沖。這會削弱長債作為股票風險對沖的直覺判斷，尤其在實質利率上行時，兩者可能同時承壓；因此風險代表應看 SOX/NDX 的折現率衝擊，而不是只看 S&P 500。",
         "AI 融資與 IPO 供給把股市訊號延伸到信用市場。Apollo/Anthropic 350 億美元晶片融資、SpaceX 750 億美元 IPO 需求，以及大型資料中心與電力投資，都顯示 AI 題材需要持續吸收外部資本。當 5Y-10Y 殖利率重新上行，AI 不只是 長久期 equity 題材，也會影響私募信用、IG 替代供給與長端資金需求。這些資金需求未必立即推高 UST 殖利率，但會提高長端資本的競爭度，並讓 IG 與私募信用在高利率環境下面對更挑剔的定價。",
         "LQD 是這次 信用代理指標 的重要觀察。LQD 收 108.17、日跌 0.62%，HYG 收 79.43、日跌 0.50%，代表 IG 久期 與 高收益風險曝險 都承壓。IG 本身仍有收益吸引力，但當 LQD 與 UST 同跌時，信用市場不能只用穩定或不穩定概括；真正要拆的是 Duration 損失、利差補償、發行品質與 ETF 流動性。如果後續 LQD 穩住而 UST 繼續弱，問題偏 Duration；若 LQD 與 HYG 同跌，信用利差與流動性壓力就需要更高權重。",
-        "信用事件補充的是尾端風險分布。Raizen 債務重組、AI 相關融資、以及日本企業槓桿上升，都反映資金成本上升後的微觀壓力。這些事件不代表系統性信用風險已經發生，但會讓低品質或長天期信用在利率上行時缺乏保護。美元債 ETF 可保留 IG 收益來源，HY 與弱主權則需要更高風險補償。對 ETF 分類而言，高品質 IG 可以保留為收益來源，但低品質信用與 EM 主權不能只因票息高就提高權重；資產負債表與再融資能力更重要。",
         "油價與地緣風險同時影響通膨與成長。周五 Brent 回落至 93.09，但亞洲盤反彈到約 95.60，代表能源風險仍會干擾 CPI 與 Fed 語句。對債券 ETF 而言，油價不是單純商品變數；Brent 92 下方會改善通膨溢價，Brent 98 上方則會提高實質所得壓力與長端損益平衡通膨。若油價下行與 CPI 降溫同時出現，Duration 的勝率會改善；若油價反彈與就業強勢並存，市場會把高殖利率視為風險補償而非便宜。"
       ]
     },
@@ -522,6 +531,17 @@
             "label": "Credit",
             "value": "LQD 108 / HYG 79",
             "detail": "Both breaking lower would signal rates and credit stress together;"
+          }
+        ],
+        "asia_update": [
+          {
+            "label": "Japan",
+            "value": "JGB / tech spillover watch",
+            "note": "Japan tech and JGB volatility affect Asia long-end risk absorption, but do not drive the June 5 UST close."
+          },
+          {
+            "label": "Indonesia",
+            "note": "Indonesia policy risk is useful for EM/Asia transmission and should not sit ahead of the U. S. Fed/labor line."
           }
         ]
       },
@@ -782,9 +802,7 @@
           "title": "4. Allocation Read",
           "takeaway": "Keep the bias in belly duration, IG income and segmented attribution; wait for confirmation before adding long-end risk.",
           "paragraphs": [
-            "Duration remains neutral to slightly long, but the main observation zone is 5Y-10Y. The 10Y at 4. 55% is cheaper than last week and offers a better entry yield, but the payroll beat, CPI swaps near 4. 3% and FOMC language risk argue against filling the position all at once. For Taiwan-listed Treasury ETFs, verify the actual duration and index exposure so a seemingly intermediate yield does not carry near long-end price volatility. If exposure is built before CPI, the steadier method is small staging with cash flexibility so the portfolio can still adjust after the data instead of filling the whole position on one high-yield day.",
             "Curve positioning should avoid chasing a move that has already travelled. 2s10s at 38bp and 5s30s at 72bp already reflect significant front-end repricing. More flattening needs confirmation from CPI or the FOMC statement. A better expression is belly overweight and small long-end underweight: keep income and roll-down while reducing exposure to another term-premium or supply-driven selloff in the 30Y. This allocation also leaves room in both scenarios: if CPI cools, the belly repairs first; if CPI is hot, the long-end underweight reduces losses from another 30Y move higher.",
-            "Credit exposure should favor IG income and short/intermediate maturity rather than HY risk. LQD -0. 62% shows IG is still affected by duration, but IG coupon and quality remain better than low-quality credit. HYG -0. 50% reminds that HY is not a safe asset. For Taiwan dollar-bond ETF investors, LQD is an IG total-return proxy; the follow-up checks are spread compensation, primary-market quality, ETF liquidity and premium/discount, not the single-day price move alone. Without direct spread data, LQD and HYG are only total-return proxies; formal allocation still needs index duration, ratings mix, sector concentration and ETF liquidity.",
             "Implementation can stay staged. A small 5Y-10Y position can wait for CPI validation, while 20Y+ should wait for the 30Y below 4. 95% or Brent below 92 before confidence rises. Credit should center on IG and short/intermediate maturity; HY and weaker sovereign risk only deserve reconsideration when spread compensation has clearly widened. If CPI is near 4. 3%, 10Y breaks 4. 65%, 30Y breaks 5. 05% or LQD loses 108, the allocation center should return to liquidity and quality income. The condition set keeps the stance neutral but actionable: yield is high enough to prepare, but evidence is not strong enough to upgrade belly observation into broad long-end adding."
           ]
         },
