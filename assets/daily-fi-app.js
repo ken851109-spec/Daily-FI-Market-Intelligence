@@ -4,6 +4,7 @@
   const input = document.querySelector("[data-search-input]");
   const clearButton = document.querySelector("[data-clear-search]");
   const resultsEl = document.querySelector("[data-search-results]");
+  const searchShortcutButtons = Array.from(document.querySelectorAll("[data-search-chip]"));
   const dateSelects = Array.from(document.querySelectorAll("[data-date-select]"));
   const dateSelect = dateSelects[0];
   const dateGridHosts = Array.from(document.querySelectorAll("[data-date-grid]"));
@@ -401,6 +402,32 @@
     };
     return (lang === "en" ? en : zh)[clean] || (lang === "en" ? "Report" : "報告");
   };
+  const searchGroupLabel = (date, lang) => {
+    if (date === currentDate) return lang === "en" ? "Current Report" : "本篇報告";
+    return lang === "en" ? "Archive" : "歷史報告";
+  };
+  const groupedSearchMatches = (rows) => {
+    const current = [];
+    const archive = [];
+    rows.forEach((row) => {
+      if (row.date === currentDate) current.push(row);
+      else archive.push(row);
+    });
+    return [
+      { key: "current", label: searchGroupLabel(currentDate, state.language), rows: current },
+      { key: "archive", label: searchGroupLabel("", state.language), rows: archive },
+    ].filter((group) => group.rows.length);
+  };
+  const focusSearchResult = (delta) => {
+    if (resultsEl.hidden) return false;
+    const links = Array.from(resultsEl.querySelectorAll(".search-result"));
+    if (!links.length) return false;
+    const currentIndex = links.indexOf(document.activeElement);
+    const nextIndex = currentIndex < 0 ? (delta > 0 ? 0 : links.length - 1) : (currentIndex + delta + links.length) % links.length;
+    links.forEach((link, index) => link.classList.toggle("is-active", index === nextIndex));
+    links[nextIndex].focus();
+    return true;
+  };
 	  const effectiveSearchQuery = (value) => {
 	    const query = parseSearchInput(value).query;
 	    return query.length >= MIN_SEARCH_CHARS || /[\u4e00-\u9fff]/.test(query) ? query : "";
@@ -453,9 +480,7 @@
       : `${matches.length} 個相關段落${versionLabel ? ` · ${versionLabel}` : ""}${visibleMatches.length < matches.length ? `，顯示前 ${visibleMatches.length} 筆` : ""}`;
     const moreLabel = state.language === "en" ? "Show more" : "顯示更多";
     const canShowMore = visibleMatches.length < matches.length && !state.searchExpanded;
-    resultsEl.innerHTML = [
-      `<div class="search-count"><span>${escapeHtml(countLabel)}</span>${canShowMore ? `<button type="button" data-show-all-results>${escapeHtml(moreLabel)}</button>` : ""}</div>`,
-      ...visibleMatches.map((row) => {
+    const renderResult = (row) => {
         const baseHref = hrefForDate(row.date, row.lang || "zh");
         const joiner = baseHref.includes("?") ? "&" : "?";
         const langParam = row.lang === "en" && !baseHref.includes("lang=") ? "&lang=en" : "";
@@ -473,7 +498,16 @@
           `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span><span class="search-version">${escapeHtml(versionBadge)}</span></span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, searchNeedle))}</strong>` +
       "</a>";
-      })
+      };
+    const groups = groupedSearchMatches(visibleMatches).map((group) => (
+      `<section class="search-group" data-search-group="${escapeHtml(group.key)}">` +
+      `<p class="search-group-label">${escapeHtml(group.label)}</p>` +
+      group.rows.map(renderResult).join("") +
+      "</section>"
+    ));
+    resultsEl.innerHTML = [
+      `<div class="search-count"><span>${escapeHtml(countLabel)}</span>${canShowMore ? `<button type="button" data-show-all-results>${escapeHtml(moreLabel)}</button>` : ""}</div>`,
+      ...groups
     ].join("");
   };
 
@@ -1055,6 +1089,47 @@
 	    updateSearchUiState(input.value);
 	    runSearch(input.value);
 	  });
+  searchShortcutButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const value = String(button.dataset.searchChip || button.textContent || "").trim();
+      if (!value) return;
+      input.value = value;
+      state.searchExpanded = false;
+      state.resultsCollapsed = false;
+      updateSearchUiState(value);
+      runSearch(value);
+      input.focus();
+    });
+  });
+  input.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      if (resultsEl.hidden) renderResults(input.value);
+      focusSearchResult(1);
+      return;
+    }
+    if (event.key === "ArrowUp") {
+      event.preventDefault();
+      focusSearchResult(-1);
+      return;
+    }
+    if (event.key === "Enter" && !resultsEl.hidden) {
+      const firstResult = resultsEl.querySelector(".search-result");
+      if (firstResult) {
+        event.preventDefault();
+        firstResult.click();
+      }
+    }
+  });
+  resultsEl.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      focusSearchResult(1);
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      focusSearchResult(-1);
+    }
+  });
   resultsEl.addEventListener("click", (event) => {
     const expand = event.target.closest("[data-show-all-results], [data-expand-search-results]");
     if (expand) {
