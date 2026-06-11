@@ -336,6 +336,10 @@
           reportVersion: row.report_version || row.reportVersion || "legacy",
           sourceContract: row.source_contract || row.sourceContract || "",
           tags: Array.isArray(row.tags) ? row.tags : [],
+          evidenceIds: Array.isArray(row.evidence_ids) ? row.evidence_ids : (Array.isArray(row.evidenceIds) ? row.evidenceIds : []),
+          traceParagraphId: row.trace_paragraph_id || row.traceParagraphId || "",
+          mechanismTags: Array.isArray(row.mechanism_tags) ? row.mechanism_tags : (Array.isArray(row.mechanismTags) ? row.mechanismTags : []),
+          portfolioTags: Array.isArray(row.portfolio_tags) ? row.portfolio_tags : (Array.isArray(row.portfolioTags) ? row.portfolioTags : []),
         };
         return {
           ...normalizedRow,
