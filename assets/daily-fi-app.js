@@ -153,6 +153,25 @@
     const headline = state.language === "en" ? item.headlinePrimaryEn || item.headlinePrimary : item.headlinePrimary;
     return [item.label || item.date, headline].filter(Boolean).join(" - ");
   };
+  const dateDayPreviewHtml = (item) => {
+    if (!item) return "";
+    const headline = state.language === "en" ? item.headlinePrimaryEn || item.headlinePrimary : item.headlinePrimary;
+    const summary = state.language === "en" ? item.summaryPreviewEn || item.summaryPreview || [] : item.summaryPreview || [];
+    const regime = state.language === "en" ? item.regimePreviewEn || item.regimePreview || [] : item.regimePreview || [];
+    const version = item.reportVersion === "v2" ? "v2" : "legacy";
+    const tags = (Array.isArray(regime) ? regime.slice(0, 2) : [])
+      .map((text) => `<b>${escapeHtml(text)}</b>`)
+      .join("");
+    const bullets = (Array.isArray(summary) ? summary.slice(0, 2) : [])
+      .map((text) => `<span>${escapeHtml(text)}</span>`)
+      .join("");
+    return '<span class="date-day-preview" role="tooltip">' +
+      `<strong>${escapeHtml(headline || item.label || item.date)}</strong>` +
+      `<em>${escapeHtml(version)}</em>` +
+      (tags ? `<span class="date-day-preview-tags">${tags}</span>` : "") +
+      bullets +
+      '</span>';
+  };
   const buildDateGridHtml = () => {
     const byDate = new Map(state.manifest.map((item) => [item.date, item]));
     const months = Array.from(new Set(state.manifest.map((item) => item.date.slice(0, 7)))).sort().reverse();
@@ -169,7 +188,7 @@
         const item = byDate.get(date);
         if (!item) return `<span class="date-day is-disabled" aria-disabled="true">${day}</span>`;
         const current = date === currentDate ? " is-current" : "";
-        return `<a class="date-day${current}" href="${escapeHtml(hrefForDate(date, state.language))}" data-report-date="${escapeHtml(date)}" title="${escapeHtml(dateDayTitle(item))}">${day}</a>`;
+        return `<a class="date-day${current}" href="${escapeHtml(hrefForDate(date, state.language))}" data-report-date="${escapeHtml(date)}" title="${escapeHtml(dateDayTitle(item))}"><span class="date-day-number">${day}</span>${dateDayPreviewHtml(item)}</a>`;
       });
       return `<section class="date-month"><h3 class="date-month-title">${escapeHtml(monthLabel(monthKey))}</h3>` +
         `<div class="date-weekdays">${weekdays.map((day) => `<span>${escapeHtml(day)}</span>`).join("")}</div>` +
@@ -424,21 +443,63 @@
     };
     return (lang === "en" ? en : zh)[clean] || (lang === "en" ? "Report" : "報告");
   };
-  const searchGroupLabel = (date, lang) => {
-    if (date === currentDate) return lang === "en" ? "Current Report" : "本篇報告";
-    return lang === "en" ? "Archive" : "歷史報告";
+  const searchHitTypeLabel = (row) => {
+    const base = navBaseFromId(row.section);
+    if (base === "appendix") return state.language === "en" ? "Table" : "表格";
+    if (row.paragraphId || /-p\d+$/.test(String(row.section || ""))) return state.language === "en" ? "Paragraph" : "段落";
+    if (base === "overview" || base === "positioning") return state.language === "en" ? "Decision" : "決策";
+    if (base === "drivers" || base === "rates" || base === "cross-asset") return state.language === "en" ? "Evidence" : "證據";
+    return state.language === "en" ? "Section" : "區塊";
+  };
+  const searchGroupLabel = (key, lang) => {
+    const zh = {
+      current: "本篇報告",
+      sections: "段落與導覽",
+      tables: "表格與附錄",
+      archive: "歷史報告",
+    };
+    const en = {
+      current: "Current Report",
+      sections: "Sections",
+      tables: "Tables",
+      archive: "Archive",
+    };
+    return (lang === "en" ? en : zh)[key] || (lang === "en" ? "Results" : "搜尋結果");
+  };
+  const searchGroupKey = (row) => {
+    if (row.date !== currentDate) return "archive";
+    const base = navBaseFromId(row.section);
+    const title = normalize(row.title || "");
+    if (
+      base === "appendix" ||
+      title.includes("reference") ||
+      title.includes("data") ||
+      title.includes("table") ||
+      title.includes("參考") ||
+      title.includes("數據")
+    ) return "tables";
+    if (
+      base === "investment-read" ||
+      base === "rates" ||
+      base === "drivers" ||
+      base === "risk-monitor" ||
+      base === "cross-asset"
+    ) return "sections";
+    return "current";
   };
   const groupedSearchMatches = (rows) => {
-    const current = [];
-    const archive = [];
+    const groupsByKey = {
+      current: [],
+      sections: [],
+      tables: [],
+      archive: [],
+    };
     rows.forEach((row) => {
-      if (row.date === currentDate) current.push(row);
-      else archive.push(row);
+      groupsByKey[searchGroupKey(row)].push(row);
     });
-    return [
-      { key: "current", label: searchGroupLabel(currentDate, state.language), rows: current },
-      { key: "archive", label: searchGroupLabel("", state.language), rows: archive },
-    ].filter((group) => group.rows.length);
+    return ["current", "sections", "tables", "archive"]
+      .map((key) => ({ key, label: searchGroupLabel(key, state.language), rows: groupsByKey[key] }))
+      .filter((group) => group.rows.length);
   };
   const focusSearchResult = (delta) => {
     if (resultsEl.hidden) return false;
@@ -517,7 +578,7 @@
           : `搜尋：${searchNeedle} / ${sectionLabel}`;
         const ariaLabel = `${row.date} · ${sectionLabel} · ${langLabel}`;
         return `<a class="search-result" href="${escapeHtml(href)}" data-focus-label="${escapeHtml(focusLabel)}" aria-label="${escapeHtml(ariaLabel)}">` +
-          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span><span class="search-version">${escapeHtml(versionBadge)}</span></span>\n` +
+          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-hit-type">${escapeHtml(searchHitTypeLabel(row))}</span><span class="search-lang">${escapeHtml(langLabel)}</span><span class="search-version">${escapeHtml(versionBadge)}</span></span>\n` +
           `<strong>${escapeHtml(excerpt(row.text, searchNeedle))}</strong>` +
       "</a>";
       };
@@ -1205,6 +1266,15 @@
     hideSearchForReading();
   });
   document.addEventListener("keydown", (event) => {
+    if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+      event.preventDefault();
+      revealTools();
+      state.resultsCollapsed = false;
+      input.focus();
+      input.select();
+      if (effectiveSearchQuery(input.value)) renderResults(input.value);
+      return;
+    }
     if (event.key === "Escape" && isToolsSheetOpen()) {
       event.preventDefault();
       setToolsSheetOpen(false);
