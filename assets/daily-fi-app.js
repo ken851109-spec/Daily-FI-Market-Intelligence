@@ -19,6 +19,7 @@
   const siteRoot = rootEl.dataset.siteRoot || "";
   const currentDate = rootEl.dataset.currentDate || dateSelect.dataset.currentDate || "";
 	  const manifestUrl = siteRoot + "tapes.json";
+	  const searchIndexV2Url = siteRoot + "data/search-index-v2.json";
 	  const searchIndexUrl = siteRoot + "data/search-index.json";
 	  const paramsAtLoad = new URLSearchParams(location.search);
 	  const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
@@ -54,6 +55,19 @@
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   const normalize = (value) => String(value ?? "").toLocaleLowerCase();
+  const parseSearchInput = (value) => {
+    const raw = String(value || "").trim();
+    let version = "";
+    let query = raw.replace(/(?:^|\s)(?:version|contract):(v2|legacy|v1)(?=\s|$)/ig, (_match, token) => {
+      version = token.toLowerCase() === "v1" ? "legacy" : token.toLowerCase();
+      return " ";
+    });
+    query = query.replace(/^(v2|legacy|v1):\s*/i, (_match, token) => {
+      version = token.toLowerCase() === "v1" ? "legacy" : token.toLowerCase();
+      return "";
+    });
+    return { raw, query: query.replace(/\s+/g, " ").trim(), version };
+  };
   const slug = (value) => String(value || "section").replace(/[^a-zA-Z0-9_-]+/g, "-").replace(/^-|-$/g, "");
   const parseSignedMove = (value) => {
     const raw = String(value ?? "").trim();
@@ -307,28 +321,40 @@
     if (!Array.isArray(rows)) return [];
     return rows
       .map((row) => {
+        const sectionId = row.section_id || row.section || row.s || "";
+        const paragraphId = row.paragraph_id || "";
+        const targetSection = paragraphId && /-p\d+$/.test(paragraphId) ? paragraphId : sectionId;
         const normalizedRow = {
-          date: row.date || row.d || "",
+          date: row.report_date || row.date || row.d || "",
           lang: row.lang || row.l || "zh",
-          section: row.section || row.s || "",
+          section: targetSection,
+          sectionId,
+          paragraphId,
           title: row.title || row.t || "",
           text: row.text || row.x || "",
           weight: Number.isFinite(Number(row.weight ?? row.w)) ? Number(row.weight ?? row.w) : 1,
+          reportVersion: row.report_version || row.reportVersion || "legacy",
+          sourceContract: row.source_contract || row.sourceContract || "",
+          tags: Array.isArray(row.tags) ? row.tags : [],
         };
         return {
           ...normalizedRow,
-          haystack: normalize(`${normalizedRow.date} ${normalizedRow.lang} ${normalizedRow.title} ${normalizedRow.text}`)
+          haystack: normalize(`${normalizedRow.date} ${normalizedRow.lang} ${normalizedRow.title} ${normalizedRow.text} ${normalizedRow.reportVersion} ${normalizedRow.tags.join(" ")}`)
         };
       })
       .filter((row) => row.date && row.section && row.text);
   };
 
   const loadPublishedSearchIndex = async () => {
-    try {
-      const response = await fetch(searchIndexUrl);
-      if (!response.ok) return false;
+    const loadRows = async (url) => {
+      const response = await fetch(url);
+      if (!response.ok) return [];
       const rows = await response.json();
-      const index = normalizeSearchIndexRows(rows);
+      return normalizeSearchIndexRows(rows);
+    };
+    try {
+      let index = await loadRows(searchIndexV2Url);
+      if (!index.length) index = await loadRows(searchIndexUrl);
       if (!index.length) return false;
       state.index = index;
       return true;
@@ -372,7 +398,7 @@
     return (lang === "en" ? en : zh)[clean] || (lang === "en" ? "Report" : "報告");
   };
 	  const effectiveSearchQuery = (value) => {
-	    const query = String(value || "").trim();
+	    const query = parseSearchInput(value).query;
 	    return query.length >= MIN_SEARCH_CHARS || /[\u4e00-\u9fff]/.test(query) ? query : "";
 	  };
 	  const updateSearchUiState = (value) => {
@@ -387,7 +413,9 @@
   const renderResults = (query) => {
     state.query = query.trim();
     resultsEl.classList.remove("is-collapsed");
-	    if (!effectiveSearchQuery(state.query)) {
+    const parsedSearch = parseSearchInput(state.query);
+    const searchNeedle = effectiveSearchQuery(state.query);
+	    if (!searchNeedle) {
 	      resultsEl.hidden = true;
 	      resultsEl.innerHTML = "";
 	      clearHighlights();
@@ -395,8 +423,8 @@
     }
     const sameLanguageFirst = (row) => row.lang === state.language ? 0 : 1;
     const matches = state.index
-      .filter((row) => row.lang === state.language && row.haystack.includes(normalize(state.query)))
-      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b) || (b.weight || 1) - (a.weight || 1));
+      .filter((row) => row.lang === state.language && row.haystack.includes(normalize(searchNeedle)) && (!parsedSearch.version || row.reportVersion === parsedSearch.version))
+      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b) || (b.weight || 1) - (a.weight || 1) || String(b.date).localeCompare(String(a.date)));
     resultsEl.hidden = false;
     if (!matches.length) {
       resultsEl.innerHTML = `<div class="search-empty">${state.language === "en" ? "No matching report passages" : "沒有找到符合的報告段落"}</div>`;
@@ -405,8 +433,8 @@
     if (state.resultsCollapsed) {
       resultsEl.classList.add("is-collapsed");
       const label = state.language === "en"
-        ? `${matches.length} matches for ${state.query}`
-        : `${matches.length} 個「${state.query}」相關段落`;
+        ? `${matches.length} matches for ${searchNeedle}`
+        : `${matches.length} 個「${searchNeedle}」相關段落`;
       const action = state.language === "en" ? "Show" : "顯示";
       resultsEl.innerHTML = `<div class="search-count">${escapeHtml(label)}<button type="button" data-expand-search-results>${escapeHtml(action)}</button></div>`;
       return;
@@ -415,9 +443,10 @@
     const expandedLimit = window.innerWidth < 768 ? 4 : window.innerWidth < 1200 ? 5 : 10;
     const limit = state.searchExpanded ? expandedLimit : compactLimit;
     const visibleMatches = matches.slice(0, limit);
+    const versionLabel = parsedSearch.version ? (parsedSearch.version === "v2" ? "v2" : "legacy") : "";
     const countLabel = state.language === "en"
-      ? `${matches.length} matching passages${visibleMatches.length < matches.length ? `, showing ${visibleMatches.length}` : ""}`
-      : `${matches.length} 個相關段落${visibleMatches.length < matches.length ? `，顯示前 ${visibleMatches.length} 筆` : ""}`;
+      ? `${matches.length} matching passages${versionLabel ? ` · ${versionLabel}` : ""}${visibleMatches.length < matches.length ? `, showing ${visibleMatches.length}` : ""}`
+      : `${matches.length} 個相關段落${versionLabel ? ` · ${versionLabel}` : ""}${visibleMatches.length < matches.length ? `，顯示前 ${visibleMatches.length} 筆` : ""}`;
     const moreLabel = state.language === "en" ? "Show more" : "顯示更多";
     const canShowMore = visibleMatches.length < matches.length && !state.searchExpanded;
     resultsEl.innerHTML = [
@@ -428,16 +457,17 @@
         const langParam = row.lang === "en" && !baseHref.includes("lang=") ? "&lang=en" : "";
         const href = `${baseHref}${joiner}q=${encodeURIComponent(state.query)}${langParam}#${encodeURIComponent(row.section || "overview")}`;
         const langLabel = row.lang === "en" ? "EN" : "中文";
+        const versionBadge = row.reportVersion === "v2" ? "v2" : "legacy";
         const titleLabel = row.title || (state.language === "en" ? "Passage" : "段落");
         const familyLabel = sectionFamilyLabel(row.section, row.lang || "zh");
         const sectionLabel = `${familyLabel} / ${titleLabel}`;
         const focusLabel = state.language === "en"
-          ? `Search: ${state.query} / ${sectionLabel}`
-          : `搜尋：${state.query} / ${sectionLabel}`;
+          ? `Search: ${searchNeedle} / ${sectionLabel}`
+          : `搜尋：${searchNeedle} / ${sectionLabel}`;
         const ariaLabel = `${row.date} · ${sectionLabel} · ${langLabel}`;
         return `<a class="search-result" href="${escapeHtml(href)}" data-focus-label="${escapeHtml(focusLabel)}" aria-label="${escapeHtml(ariaLabel)}">` +
-          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span></span>\n` +
-          `<strong>${escapeHtml(excerpt(row.text, state.query))}</strong>` +
+          `<span class="search-result-meta"><span class="search-date">${escapeHtml(row.date)}</span><span class="search-section">${escapeHtml(familyLabel)} / ${escapeHtml(titleLabel)}</span><span class="search-lang">${escapeHtml(langLabel)}</span><span class="search-version">${escapeHtml(versionBadge)}</span></span>\n` +
+          `<strong>${escapeHtml(excerpt(row.text, searchNeedle))}</strong>` +
       "</a>";
       })
     ].join("");
@@ -776,7 +806,7 @@
     if (state.manifest.length) hydrateDateSelect();
 	    updateSearchUiState(state.query || input.value.trim());
 	    if (state.query || input.value.trim()) renderResults(state.query || input.value.trim());
-	    if (updateUrl) syncQuery(effectiveSearchQuery(state.query || input.value.trim()));
+	    if (updateUrl) syncQuery(effectiveSearchQuery(state.query || input.value.trim()) ? String(state.query || input.value.trim()).trim() : "");
 	    normalizeLocationHashForLanguage();
 	    highlightPage(effectiveSearchQuery(state.query || input.value.trim()));
     syncActiveNavFromHash();
@@ -789,7 +819,7 @@
 	    updateSearchUiState(value);
 	    renderResults(value);
 	    highlightPage(effectiveSearchQuery(value));
-	    syncQuery(effectiveSearchQuery(value));
+	    syncQuery(effectiveSearchQuery(value) ? String(value || "").trim() : "");
 	  });
 
 	  const setupMobileTools = () => {
