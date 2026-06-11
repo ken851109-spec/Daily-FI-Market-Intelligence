@@ -78,21 +78,9 @@
     const target = normalize(label);
     return tableRows(note, tableId).find((row) => normalize(row?.label) === target);
   };
-  const fxNavPositionView = (note, lang) => {
-    let label = "USD/TWD";
-    let row = rowByLabel(note, "cross_asset", label);
-    let move = parseSignedMove(row?.change);
-    if (move == null) {
-      label = "DXY";
-      row = rowByLabel(note, "cross_asset", label);
-      move = parseSignedMove(row?.change);
-    }
-    if (move == null) return lang === "en" ? "FX / NAV split" : "FX / NAV 拆分";
-    const marker = `${label} ${displayMove(row?.change)}`.trim();
-    if (move >= 0.1) return lang === "en" ? `${marker} supports NAV FX` : `${marker} 支撐 NAV FX`;
-    if (move <= -0.1) return lang === "en" ? `${marker} trims NAV FX` : `${marker} 削弱 NAV FX`;
-    return lang === "en" ? `${marker} leaves FX neutral` : `${marker} 使 FX 中性`;
-  };
+  const fxNavPositionView = (note, lang) => (
+    lang === "en" ? "Rates / curve / credit split" : "拆分利率、曲線與信用 beta"
+  );
   const normalizedPositioningForSearch = (note, lang) => (note.positioning || []).map((row) => {
     const label = normalize(row?.label);
     if (!["fx / nav", "fx/nav", "fx"].includes(label)) return row;

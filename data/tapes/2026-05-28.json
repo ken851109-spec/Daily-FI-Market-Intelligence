@@ -4,7 +4,6 @@
   "title": "Daily FI Market Tape | 2026-05-28 close",
   "summary": [
     "5/28 美債以中長端帶動的 bull-flattening 收盤：2Y 3.99%、10Y 4.45%、30Y 4.98%，2s10s 收斂至 46bp。",
-    "WTI 回落至約 88.90 美元、DXY 99.02，能源尾端風險與美元避險需求同步降溫，支撐中段久期修復。",
     "S&P 500 與 Nasdaq 續創高，黃金也反彈，代表市場不是單純風險追逐，而是在降低油價衝擊同時保留政策保險。",
     "PCE 仍高、GDP 下修、7Y 標售消化尚可，配置上偏好 5Y-10Y 與高品質收益，不追低品質槓桿 曝險。"
   ],
@@ -22,16 +21,8 @@
       "value": "2s10s 收至 46bp，belly demand 回來"
     },
     {
-      "label": "Risk",
-      "value": "股市創高，不是衰退避險盤"
-    },
-    {
       "label": "Oil",
       "value": "WTI 88.90，通膨尾端降溫"
-    },
-    {
-      "label": "USD",
-      "value": "TWD 小貶支撐 NAV，DXY 同步回落"
     },
     {
       "label": "ETF Lens",
@@ -56,12 +47,6 @@
       "view": "高品質收益優先",
       "best_expression": "IG、金融 AT1 與具長約支撐的資料中心信用優於弱質軟體再融資。",
       "risk_trigger": "私募信貸拒貸、併購槓桿上升或 HY 讓利 擴大。"
-    },
-    {
-      "label": "FX / NAV",
-      "view": "美元支撐提供台幣 NAV 換算助益",
-      "best_expression": "匯率貢獻視為短線加分，核心仍看 5Y-10Y 利率修復；美元回落時 FX 換算助益會減弱。",
-      "risk_trigger": "DXY 跌破 99 則 FX 助益減弱；若美元與油價同步上行，需分拆 FX 助益與利率壓力。"
     },
     {
       "label": "Conviction / Horizon",
@@ -124,12 +109,12 @@
     "event_risks": [
       {
         "label": "PCE / Fed",
-        "value": "PCE 3.8%",
+        "value": "PCE 3. 8%",
         "detail": "前端降息定價需要通膨與薪資同步降溫。"
       },
       {
         "label": "7Y Auction",
-        "value": "4.290% / BTC 2.52",
+        "value": "4. 290% / BTC 2. 52",
         "detail": "標售已過關，但 6 月 reopening 仍是長端測試。"
       },
       {
@@ -141,26 +126,6 @@
         "label": "Credit",
         "value": "data center / AT1 / Sophos",
         "detail": "需求仍在，但品質分層正在擴大。"
-      }
-    ],
-    "asia_update": [
-      {
-        "label": "台幣 ETF",
-        "value": "利率與匯率需拆分",
-        "change": "短線 NAV 仍需拆分來源",
-        "detail": "美元支撐提供換算助益；若美元回落，NAV 需靠利率 rally 與利差穩定留存。"
-      },
-      {
-        "label": "EM",
-        "value": "政策可信度分化",
-        "change": "巴西 / 南非 / 塞內加爾",
-        "detail": "高 carry 不能取代通膨與外部融資紀律。"
-      },
-      {
-        "label": "能源進口國",
-        "value": "油價回落有利",
-        "change": "前端壓力暫降",
-        "detail": "若油價回到 95，亞洲央行壓力會回升。"
       }
     ]
   },
@@ -245,22 +210,10 @@
       ],
       "rows": [
         {
-          "label": "DXY",
-          "value": "99.02",
-          "change": "-0.30%",
-          "note": "美元回落，避險需求與政策溢價同步降溫。"
-        },
-        {
           "label": "WTI",
           "value": "88.90",
           "change": "回落",
           "note": "停火延長與談判預期壓低能源尾端風險。"
-        },
-        {
-          "label": "USD/TWD",
-          "value": "31.428",
-          "change": "+0.03%",
-          "note": "台幣走弱提供 TWD NAV 匯率換算助益；仍需拆利率、利差與避險成本。"
         },
         {
           "label": "S&P 500",
@@ -277,18 +230,16 @@
         {
           "label": "Dow",
           "value": "50,668.97",
-          "change": "0.00%",
-          "note": "景氣股持穩，盤面不是單純避險交易。"
+          "change": "0.00%"
         },
         {
           "label": "Gold",
           "value": "4,504.07",
-          "change": "+1.10%",
-          "note": "美元與油價回落下仍反彈，顯示避險保險未完全消失。"
+          "change": "+1.10%"
         },
         {
           "label": "Credit Proxy",
-          "value": "LQD 109.26",
+          "value": "LQD 109. 26",
           "change": "+0.30%",
           "note": "IG 量化讀法偏正：利率修復支撐 久期曝險，但 spread carry 應以高評級為主。"
         }
@@ -306,7 +257,7 @@
       "rows": [
         {
           "label": "PCE / Fed",
-          "value": "PCE 3.8%；core +0.2% m/m",
+          "value": "PCE 3. 8%； core +0. 2% m/m",
           "expected": "Fed 官員仍偏等待",
           "note": "通膨仍高，前端降息定價受限。"
         },
@@ -318,7 +269,7 @@
         },
         {
           "label": "7Y Auction",
-          "value": "High yield 4.290%; BTC 2.52",
+          "value": "High yield 4. 290%; BTC 2. 52",
           "expected": "約 440 億美元供給消化",
           "note": "標售結果未形成新的 belly supply shock。"
         },
@@ -361,8 +312,7 @@
         {
           "label": "EM",
           "value": "塞內加爾票息 / 阿根廷省債",
-          "expected": "IMF 與外部融資可信度測試",
-          "note": "高 carry 不足以取代政策執行力與外匯緩衝。"
+          "expected": "IMF 與外部融資可信度測試"
         }
       ]
     }
@@ -379,8 +329,7 @@
         "跨資產訊號支持這個判讀，但不是極端單向 風險偏好。S&P 500 收 7,563.63、Nasdaq 收 26,917.47，雙雙續創高，Dow 也守在 50,668.97 高位；美元指數回落至 99.02，但黃金反而反彈至約 4,504 美元，顯示投資人一方面降低能源衝擊部位，另一方面仍保留對政策與地緣風險的保險。",
         "供給面已從 5Y / 7Y 標售事件風險轉為結果吸收與後續 reopening 風險。5/28 的 7Y note 已完成，TreasuryDirect 結果顯示 high yield 4.290%、bid-to-cover 2.52，未形成新的 belly supply shock；但 10Y 已回到 4.45%、30Y 回到 4.98% 後，6 月 10Y、30Y reopening 與 20Y 供給仍會決定長端期限溢價是否重新升溫。",
         "從週線與月線一起看，5/28 的 rally 仍屬修復而非趨勢反轉。10Y 較一週前低 12bp，但比 4/28 仍高 9bp；30Y 較一週前低 13bp，但比月前仍高 4bp。這表示市場移除了部分油價尾端風險，卻還沒有否定五月以來的 高利率維持更久 與長端供給壓力。",
-        "曲線訊號也支持這個判斷。2s10s 收 46bp、日收斂 2bp，顯示中長端受益較多；但 10s30s 仍在 53bp，長端沒有形成獨立加速 rally。對組合而言，這代表中段久期可承接，超長端則需要看 30Y 是否連續守在 5% 下方。",
-        "黃金反彈到約 4,504 美元與美股創高同時出現，說明市場降低能源風險後沒有完全撤掉避險保險。這種組合對美債是友善但不極端：它支撐價格修復，卻不代表投資人已經願意無條件買入所有久期與所有信用 曝險。"
+        "曲線訊號也支持這個判斷。2s10s 收 46bp、日收斂 2bp，顯示中長端受益較多；但 10s30s 仍在 53bp，長端沒有形成獨立加速 rally。對組合而言，這代表中段久期可承接，超長端則需要看 30Y 是否連續守在 5% 下方。"
       ]
     },
     {
@@ -403,12 +352,10 @@
       "title": "三、其他市場動向",
       "takeaway": "風險窗口仍開，但信用、EM 與央行路徑都開始要求更細的品質篩選。",
       "paragraphs": [
-        "跨資產風險情緒仍由停火延長能否轉化為能源流恢復所主導。美股創高、AI 題材延續，說明市場沒有把中東風險視為立即衝擊企業獲利的尾端事件；但黃金反彈與美元雖弱仍未失速，也說明避險保險沒有完全撤出。對固定收益而言，這種組合有利 久期 短線修復，但不支持無條件追逐高 曝險 credit。",
         "歐洲與全球央行訊號偏向抗通膨可信度。ECB 4 月會議紀錄顯示，多位官員對升息並非排斥，反映能源衝擊與第二輪通膨風險仍在政策討論中；South Africa 已升息 25bp 至 7%，Brazil 即使就業數據轉弱，央行官員仍把較遠期通膨預期惡化放在前面。這些訊號代表全球 rates 不是單純跟著油價回落全面轉鴿。",
         "信用市場仍開放，但發行人品質分層更明顯。資料中心 HY 已成為市場增量供給，較高品質、有長約支撐的資產仍能吸引資金，但 weaker 抵押品 或 residual-value risk 較高的 issuer 需要更高 spread；歐洲 AT1 需求強勁，銀行能鎖定更長 non-call 期限，顯示高品質金融信用仍受歡迎。",
         "相對地，私募信貸 與 sponsor-owned software 的融資條件正在變得更嚴。Sophos refinancing 遇到直接貸款投資人更高門檻，Caesars take-private 也使債券投資人重新要求槓桿與資本結構補償。這些案例不是系統性 credit shock，但顯示表面 風險偏好 下，底層融資條件已開始區分現金流品質、資產抵押與 AI disruption 風險。",
         "EM sovereign 與本幣利率仍以政策可信度分層。Argentina provinces 能較 sovereign 更順利進入外債市場，反映投資人願意買更明確的 ring-fenced credit story；Senegal 6 月 coupon 與 IMF 談判是短期 program credibility 測試；Brazil 與 South Africa 則凸顯能源衝擊下央行不願讓通膨預期脫錨。",
-        "這些市場訊號合在一起，對台北盤前的含義是：油價回落有利利率與 NAV，但信用與 EM 不能只因股市創高就同步放大曝險。比較穩的做法是把高品質金融、短中天期美元債與有現金流覆蓋的專案信用分開看，避免把單日 風險偏好 當成低品質 曝險 的入場理由。",
         "資料中心 HY 已成為信用市場的新供給核心，部分 券種 仍能在約 6% spread 附近交易，但弱質部分接近 10% 或更高。這種分化說明 AI 基礎設施不是單一高成長題材，而是要看租約、counterparty、殘值、電力供應與完工風險。",
         "AT1 市場的熱度則代表高品質金融仍有資金需求。Santander、NatWest 等銀行能延長 non-call 期限，說明投資人願意接受較長 subordinated exposure；但這也增加 extension risk，一旦宏觀波動回來，AT1 的流動性與重定價速度會比普通 senior financials 更敏感。",
         "私募信貸的訊號偏分化。Sophos refinancing 遇到直接貸款投資人提高門檻，反映 sponsor-owned software 在 AI disruption、槓桿與現金流可見度上被重新評分。這不是系統性壓力，但它告訴投資人：收益率本身不足以補償弱質 借款人 的再融資不確定性。",
@@ -420,16 +367,11 @@
       "title": "四、配置含義",
       "takeaway": "可小幅提高中段久期，但信用與 EM 仍應守品質，不追超長端。",
       "paragraphs": [
-        "對 TWD 計價海外債 ETF 與美元債配置而言，這次市場改善可支撐短線 NAV，但不應直接解讀成全面拉長 久期 的訊號。10Y 回到 4.45%、30Y 回到 4.98%，carry 與價格修復都有吸引力；但長端期限溢價尚未消失，若油價或供給重新升溫，20Y+ bucket 的回吐風險仍會高於中段曲線。",
         "曲線配置上，5Y-10Y 仍是較乾淨的 久期 表達。2s10s 已收斂至 46bp，而 5s30s 仍在 83bp，說明市場尚未真正放棄 長端 fiscal premium；若油價續弱、Fed 官員沒有進一步轉鷹、6 月 reopening 消化平順，belly 與 intermediate 久期 的風險報酬優於直接追逐超長債。",
         "信用配置應維持 IG 優於 HY、金融債與高品質資產優於弱質槓桿再融資。AT1 與優質 資料中心信用 仍顯示收益型資金需求存在，但 私募信貸 對軟體 借款人 的選擇性提高，代表 信用曝險 不能只看股市創高。對 ETF 或委外組合而言，應避免因 股市強勢 而同步放寬信用篩選。",
-        "EM 與亞洲 rates 需要維持國別分層。油價回落有利能源進口國的前端壓力暫時緩和，但匯率防守、補貼成本與財政可信度仍決定 久期曝險 是否能修復。對台幣投資人而言，美元回落與 UST rally 有利短線表現，但匯率貢獻不宜過度外推。",
         "執行上可以把新增風險分成兩段：第一段是 5Y-10Y 高評等美元債與高品質金融，利用利率回落與 carry；第二段才是長端或較低評等信用，必須等油價穩住、標售需求確認、以及 Fed 官員沒有把 PCE 重新推成前端風險。",
         "若要把 5/28 close 轉成部位，最合理的是先提高中段高評等 exposure，而不是追長端 convexity。10Y 4.45% 提供入場點，但 30Y 4.98% 還在壓力區下緣；一旦油價回升或供給 tail 擴大，超長端回吐會快於 5Y-10Y。",
-        "信用配置可以保留收益，但要把 AI 資料中心、AT1、私募信貸與 事件型信用 分開。前兩者有資金需求與資產故事，後兩者則要更嚴格檢查 抵押品、贊助方支持、槓桿與再融資期限。這樣可以參與收益窗口，同時降低尾端損失。",
-        "對台幣海外債 ETF，5/28 的利率與美元走勢短線有利，但不是全面加碼訊號。若 UST 保持 rally 且信用利差穩定，NAV 改善較健康；美元反彈或台幣走弱會提供 FX 換算助益，但若 UST 長端也同時回升，該貢獻可能只是抵銷利率損失。",
-        "這一天對台灣債券 ETF 的重點，是不要把風險資產創高和美債 rally 解讀成同一個無風險訊號。S&P 500 與 Nasdaq 同步走高，代表風險預算仍在，信用市場也仍有承接；但 DXY 回落與油價下修同時發生，顯示利率修復主要來自通膨尾端風險下降，而不是市場急著買衰退避險。配置上，中段 UST ETF 可以承接，IG credit 可留高品質收益，但 HY / EM 曝險 必須等信用事件沒有外溢，才適合跟著增加。",
-        "FX / NAV 的處理也要更精細。CBC / Taipei Forex 的 USD/TWD onshore close 顯示 5/28 台幣較前一交易日小幅走弱，這對未避險的 TWD 計價美元債 ETF 有換算助益；但同一天 DXY 下跌，說明這不是 broad-dollar strength 驅動的單向美元多頭。若後續美元反彈但 UST 長端也回升，投資人看到的 NAV 改善可能只是匯率抵銷利率損失，而不是底層債券價格真的改善。"
+        "信用配置可以保留收益，但要把 AI 資料中心、AT1、私募信貸與 事件型信用 分開。前兩者有資金需求與資產故事，後兩者則要更嚴格檢查 抵押品、贊助方支持、槓桿與再融資期限。這樣可以參與收益窗口，同時降低尾端損失。"
       ]
     },
     {
@@ -440,14 +382,10 @@
         "第一組觸發點是美伊談判、Hormuz 通行與油價。若 WTI 能穩定在 90 美元下方，且 Brent 維持在 94 美元下方，能源通膨尾端風險可繼續下降；若停火條件反覆或航運保險成本重新上升，市場會先反映在油價、美元與通膨 breakeven，再回到 UST 長端。",
         "第二組觸發點是供給與政策。5/28 7Y note 已以 4.290% high yield、2.52 bid-to-cover 完成，後續焦點轉向二級市場吸收、6 月 10Y / 30Y reopening 與 20Y 供給；Fed 方面，PCE、jobless claims、薪資與服務通膨仍是判斷 高利率維持更久 能否鬆動的核心。",
         "第三組觸發點是信用與 EM funding。資料中心 HY、AT1、Sophos refinancing、Caesars event credit、Senegal coupon、Brazil 通膨預期與 South Africa 政策路徑，都會影響 fixed-income risk appetite。若市場出現油升、美元升、長端殖利率升的三重共振，這波 多頭壓平 會被快速測試。",
-        "第四組觸發點是台幣投資人的 NAV 來源。若 NAV 改善來自美元走強的 FX 助益、利率下行與信用利差穩定同步，短中天期產品可延續；若美元走強只是抵銷利率損失，或信用利差開始讓利擴大，表面 NAV 改善就不應被視為可留存報酬。",
         "第五組觸發點是央行訊號是否一致。若 Fed、ECB 與 EM 央行都把能源降溫視為暫時，不願放鬆通膨防守，前端會限制 rally；若通膨與勞動數據同時降溫，5Y-10Y 才有機會從戰術性修復轉成更穩定的配置機會。",
         "若 WTI 重新站上 95 美元，能源通膨尾端風險會回到前端定價，2Y 與 5Y 會比 30Y 更快反應。這時候 5/28 的 bull-flattening 就會被重新定義為短線 squeeze，而不是可延續的配置訊號。",
-        "若 6 月 reopening 的 10Y 或 30Y 出現明顯 tail，長端期限溢價會回到主導地位。這不只影響 UST，也會影響高評等長天期 ETF 的折現率與台幣 NAV，應把 30Y 5.10% 當成風險升級門檻。",
         "若 PCE、claims 與 payrolls 給出一致降溫，5Y-10Y 可以從戰術性修復升級為核心配置；若只有 GDP 下修但通膨與薪資仍黏，市場會回到 高利率維持更久，前端與美元都會重新限制 rally。",
-        "若信用一級市場出現高品質新券仍強、弱質 借款人 讓利擴大的分化，應維持品質 barbell；若連高品質 借款人 也需要大幅 讓利，則代表風險預算開始收縮，ETF 與 HY 曝險 都要同步降風險。",
-        "實務上，5/28 close 的下一步應拆成三個確認點。第一，10Y 能否留在 4.45% 附近且 30Y 不再回到 5% 上方，決定中段 rally 能否延伸到長端。第二，WTI 若重新站回 90 / 95 區間，前端通膨溢價會先回來，2Y 和 5Y 可能比 10Y 更快受壓。第三，信用 代理指標 若從穩定轉成明顯下跌，就表示 ETF NAV 的利率貢獻正在被 spread 曝險 抵銷。",
-        "另一個實務檢查是本地交易時差。台灣 ETF 開盤時，海外債券與 FX 的最新價格常常已經和美國收盤不同；因此 5/28 的 onshore USD/TWD close 應作為正式 NAV anchor，亞洲早盤的美元或油價反彈只能作為風險監控，不應覆寫收盤報告的核心判斷。"
+        "若信用一級市場出現高品質新券仍強、弱質 借款人 讓利擴大的分化，應維持品質 barbell；若連高品質 借款人 也需要大幅 讓利，則代表風險預算開始收縮，ETF 與 HY 曝險 都要同步降風險。"
       ]
     }
   ],
@@ -455,19 +393,18 @@
     "en": {
       "title": "Daily FI Market Tape",
       "summary": [
-        "On 5/28, USTs closed in a bull-flattening move led by the intermediate and long end: 2Y 3.99%, 10Y 4.45%, 30Y 4.98%, with 2s10s narrowing to 46bp.",
-        "WTI fell back to around USD 88.90 and DXY to 99.02, as energy tail risk and dollar safe-haven demand cooled at the same time, supporting a repair in intermediate duration.",
+        "On 5/28, USTs closed in a bull-flattening move led by the intermediate and long end: 2Y 3. 99%, 10Y 4. 45%, 30Y 4. 98%, with 2s10s narrowing to 46bp.",
         "The S&P 500 and Nasdaq continued to make new highs while gold also rebounded, indicating the market was not simply chasing risk, but reducing oil-shock exposure while retaining policy insurance.",
         "PCE remains elevated, GDP was revised lower, and the 7Y auction was absorbed reasonably well. In allocation, we prefer 5Y-10Y and high-quality income, without chasing lower-quality leveraged beta."
       ],
       "headline": {
         "primary": "Cooling energy tail risk drives intermediate and long-end repair, but the Fed and credit quality still cap upside chasing",
-        "secondary": "The 5/28 bull-flattening was a tactical relief move; 10Y at 4.45% is buyable, while 30Y at 4.98% still needs supply absorption."
+        "secondary": "The 5/28 bull-flattening was a tactical relief move; 10Y at 4. 45% is buyable, while 30Y at 4. 98% still needs supply absorption."
       },
       "regime_strip": [
         {
           "label": "Rates",
-          "value": "10Y back to 4.45%; belly-led rally"
+          "value": "10Y back to 4. 45%; belly-led rally"
         },
         {
           "label": "Curve",
@@ -479,11 +416,7 @@
         },
         {
           "label": "Oil",
-          "value": "WTI 88.90; inflation-tail risk cooled"
-        },
-        {
-          "label": "USD",
-          "value": "TWD softer helps NAV while DXY fell"
+          "value": "WTI 88. 90; inflation-tail risk cooled"
         },
         {
           "label": "ETF Lens",
@@ -495,25 +428,19 @@
           "label": "Duration",
           "view": "Neutral to modestly long, concentrated in the intermediate sector",
           "best_expression": "5Y-10Y can absorb the oil-price relief; wait for 30Y to hold below 5% before adding 20Y+.",
-          "risk_trigger": "WTI back to 95 or 10Y back above 4.55%."
+          "risk_trigger": "WTI back to 95 or 10Y back above 4. 55%."
         },
         {
           "label": "Curve",
           "view": "Mild bull flattening",
           "best_expression": "Use 2s10s at 46bp and 10s30s at 53bp to judge whether the rally is turning into a long-end revaluation.",
-          "risk_trigger": "30Y back to 5.10% or 2s10s re-steepening."
+          "risk_trigger": "30Y back to 5. 10% or 2s10s re-steepening."
         },
         {
           "label": "Credit / ETF",
           "view": "Prioritize high-quality income",
           "best_expression": "IG, financial AT1s, and data-center credit backed by long-term contracts are preferable to weaker software refinancing risk.",
           "risk_trigger": "Private-credit loan refusal, rising M&A leverage, or wider HY concessions."
-        },
-        {
-          "label": "FX / NAV",
-          "view": "A stronger dollar supports TWD NAV translation",
-          "best_expression": "Treat FX translation as a near-term positive; the core driver remains the 5Y-10Y rate repair. If the dollar softens, the FX cushion fades.",
-          "risk_trigger": "Below 99 weakens the FX cushion; if the dollar and oil rise together, separate FX support from rates pressure."
         },
         {
           "label": "Conviction / Horizon",
@@ -525,23 +452,23 @@
           "label": "View Reassessment Conditions",
           "view": "Supply and oil prices jointly determine room to chase the rally",
           "best_expression": "After the 7Y auction absorption, still watch June reopenings and whether oil stays low.",
-          "risk_trigger": "A wider auction tail, WTI 95, or 30Y 5.10%."
+          "risk_trigger": "A wider auction tail, WTI 95, or 30Y 5. 10%."
         }
       ],
       "driver_decomposition": [
         {
           "driver": "Energy and geopolitical risk",
-          "signal": "WTI fell back to 88.90, Brent was below 94, and the ceasefire extension compressed the Hormuz risk premium.",
+          "signal": "WTI fell back to 88. 90, Brent was below 94, and the ceasefire extension compressed the Hormuz risk premium.",
           "fi_impact": "Inflation tail risk declined, with both 10Y and 30Y yields down 3bp."
         },
         {
           "driver": "Fed and inflation stickiness",
-          "signal": "PCE remains at 3.8%, core rose 0.2% m/m, and Fed officials are still inclined to wait.",
-          "fi_impact": "The front end fell only modestly; 2Y at 3.99% shows rate-cut pricing remains constrained."
+          "signal": "PCE remains at 3. 8%, core rose 0. 2% m/m, and Fed officials are still inclined to wait.",
+          "fi_impact": "The front end fell only modestly; 2Y at 3. 99% shows rate-cut pricing remains constrained."
         },
         {
           "driver": "Supply and funding",
-          "signal": "The 7Y auction high yield was 4.290%, bid-to-cover was 2.52, and repo / fed funds were soft.",
+          "signal": "The 7Y auction high yield was 4. 290%, bid-to-cover was 2. 52, and repo / fed funds were soft.",
           "fi_impact": "The supply event did not disrupt the belly rally, while front-end liquidity supports carry."
         },
         {
@@ -555,94 +482,44 @@
           {
             "label": "10Y",
             "value": "4.45%",
-            "change": null,
-            "detail": "A break below and hold there would support adding intermediate exposure; 4.55% is the risk-reduction threshold.",
-            "note": null,
-            "caption": null
+            "detail": "A break below and hold there would support adding intermediate exposure; 4. 55% is the risk-reduction threshold."
           },
           {
             "label": "30Y",
             "value": "4.98%",
-            "change": null,
-            "detail": "5.00%-5.10% remains the pressure zone for long-end term premium.",
-            "note": null,
-            "caption": null
+            "detail": "5. 00%-5. 10% remains the pressure zone for long-end term premium."
           },
           {
             "label": "2s10s",
             "value": "46bp",
-            "change": null,
-            "detail": "The narrowing reflects intermediate and long-end repair; if it re-steepens, supply and inflation need to be checked.",
-            "note": null,
-            "caption": null
+            "detail": "The narrowing reflects intermediate and long-end repair; if it re-steepens, supply and inflation need to be checked."
           },
           {
             "label": "WTI",
             "value": "88.90",
-            "change": null,
-            "detail": "90 / 95 is the trigger zone for rebuilding inflation premium.",
-            "note": null,
-            "caption": null
+            "detail": "90 / 95 is the trigger zone for rebuilding inflation premium."
           }
         ],
         "event_risks": [
           {
             "label": "PCE / Fed",
-            "value": "PCE 3.8%",
-            "change": null,
-            "detail": "Front-end rate-cut pricing needs inflation and wages to cool together.",
-            "note": null,
-            "caption": null
+            "value": "PCE 3. 8%",
+            "detail": "Front-end rate-cut pricing needs inflation and wages to cool together."
           },
           {
             "label": "7Y Auction",
-            "value": "4.290% / BTC 2.52",
-            "change": null,
-            "detail": "The auction passed, but the June reopening remains a long-end test.",
-            "note": null,
-            "caption": null
+            "value": "4. 290% / BTC 2. 52",
+            "detail": "The auction passed, but the June reopening remains a long-end test."
           },
           {
             "label": "Funding",
             "value": "repo / fed funds soft",
-            "change": null,
-            "detail": "Supports short-end carry, but should not be read as a policy pivot.",
-            "note": null,
-            "caption": null
+            "detail": "Supports short-end carry, but should not be read as a policy pivot."
           },
           {
             "label": "Credit",
             "value": "data center / AT1 / Sophos",
-            "change": null,
-            "detail": "Demand remains, but quality tiering is widening.",
-            "note": null,
-            "caption": null
-          }
-        ],
-        "asia_update": [
-          {
-            "label": "TWD ETF",
-            "value": "Rates and FX need to be separated",
-            "change": "Near-term NAV attribution must be split",
-            "detail": "Dollar support helps translation; if the dollar softens, NAV needs a UST rally and stable spreads to be retained.",
-            "note": null,
-            "caption": null
-          },
-          {
-            "label": "EM",
-            "value": "Policy credibility is diverging",
-            "change": "Brazil / South Africa / Senegal",
-            "detail": "High carry cannot replace inflation discipline and external financing discipline.",
-            "note": null,
-            "caption": null
-          },
-          {
-            "label": "Energy Importers",
-            "value": "Lower oil prices are supportive",
-            "change": "front-end pressure temporarily lower",
-            "detail": "If oil returns to 95, pressure on Asian central banks will rise again.",
-            "note": null,
-            "caption": null
+            "detail": "Demand remains, but quality tiering is widening."
           }
         ]
       },
@@ -663,88 +540,56 @@
               "value": "3.99%",
               "change": "-1bp",
               "week_change": "-5bp",
-              "month_change": "+15bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "+15bp"
             },
             {
               "label": "5Y",
               "value": "4.15%",
               "change": "-2bp",
               "week_change": "-7bp",
-              "month_change": "+18bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "+18bp"
             },
             {
               "label": "10Y",
               "value": "4.45%",
               "change": "-3bp",
               "week_change": "-12bp",
-              "month_change": "+9bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "+9bp"
             },
             {
               "label": "20Y",
               "value": "4.98%",
               "change": "-3bp",
               "week_change": "-12bp",
-              "month_change": "+6bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "+6bp"
             },
             {
               "label": "30Y",
               "value": "4.98%",
               "change": "-3bp",
               "week_change": "-13bp",
-              "month_change": "+4bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "+4bp"
             },
             {
               "label": "2s10s",
               "value": "46bp",
               "change": "-2bp",
               "week_change": "-7bp",
-              "month_change": "-6bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "-6bp"
             },
             {
               "label": "5s30s",
               "value": "83bp",
               "change": "-1bp",
               "week_change": "-6bp",
-              "month_change": "-14bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "-14bp"
             },
             {
               "label": "10s30s",
               "value": "53bp",
               "change": "0bp",
               "week_change": "-1bp",
-              "month_change": "-5bp",
-              "expected": null,
-              "note": null,
-              "detail": null,
-              "caption": null
+              "month_change": "-5bp"
             }
           ]
         },
@@ -759,80 +604,38 @@
           ],
           "rows": [
             {
-              "label": "DXY",
-              "value": "99.02",
-              "change": "-0.30%",
-              "week_change": null,
-              "month_change": null,
-              "expected": null,
-              "note": "The dollar fell back as safe-haven demand and policy premium cooled together.",
-              "detail": null,
-              "caption": null
-            },
-            {
               "label": "WTI",
               "value": "88.90",
               "change": "fell back",
-              "week_change": null,
-              "month_change": null,
-              "expected": null,
-              "note": "The ceasefire extension and expectations for talks compressed energy tail risk.",
-              "detail": null,
-              "caption": null
-            },
-            {
-              "label": "USD/TWD",
-              "value": "31.428",
-              "change": "+0.03%",
-              "note": "TWD weakness adds FX translation support for TWD NAV; still separate rates, spreads, and hedge costs."
+              "note": "The ceasefire extension and expectations for talks compressed energy tail risk."
             },
             {
               "label": "S&P 500",
               "value": "7,563.63",
               "change": "+0.60%",
-              "week_change": null,
-              "month_change": null,
-              "expected": null,
-              "note": "Risk assets continued to make new highs, supported by earnings and the AI theme.",
-              "detail": null,
-              "caption": null
+              "note": "Risk assets continued to make new highs, supported by earnings and the AI theme."
             },
             {
               "label": "Nasdaq",
               "value": "26,917.47",
               "change": "+0.90%",
-              "week_change": null,
-              "month_change": null,
-              "expected": null,
-              "note": "Growth stocks led, with the AI capex narrative retaining strength.",
-              "detail": null,
-              "caption": null
+              "note": "Growth stocks led, with the AI capex narrative retaining strength."
             },
             {
               "label": "Dow",
               "value": "50,668.97",
               "change": "0.00%",
-              "week_change": null,
-              "month_change": null,
-              "expected": null,
-              "note": "Cyclicals held firm, so the session was not a pure safe-haven trade.",
-              "detail": null,
-              "caption": null
+              "note": "Cyclicals held firm, so the session was not a pure safe-haven trade."
             },
             {
               "label": "Gold",
               "value": "4,504.07",
               "change": "+1.10%",
-              "week_change": null,
-              "month_change": null,
-              "expected": null,
-              "note": "Gold still rebounded as the dollar and oil fell, showing that safe-haven insurance had not fully disappeared.",
-              "detail": null,
-              "caption": null
+              "note": "Gold still rebounded as the dollar and oil fell, showing that safe-haven insurance had not fully disappeared."
             },
             {
               "label": "Credit Proxy",
-              "value": "LQD 109.26",
+              "value": "LQD 109. 26",
               "change": "+0.30%",
               "note": "The IG quantitative read is constructive: rates repair supports duration beta, but spread carry should stay in higher-quality paper."
             }
@@ -850,113 +653,62 @@
           "rows": [
             {
               "label": "PCE / Fed",
-              "value": "PCE 3.8%; core +0.2% m/m",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
+              "value": "PCE 3. 8%; core +0. 2% m/m",
               "expected": "Fed officials remain inclined to wait",
-              "note": "Inflation remains high, limiting front-end rate-cut pricing.",
-              "detail": null,
-              "caption": null
+              "note": "Inflation remains high, limiting front-end rate-cut pricing."
             },
             {
               "label": "GDP",
-              "value": "Q1 annualized 1.6%",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
-              "expected": "Revised down 0.4ppt from the prior reading",
-              "note": "The growth downgrade supports lower intermediate and long-end rates.",
-              "detail": null,
-              "caption": null
+              "value": "Q1 annualized 1. 6%",
+              "expected": "Revised down 0. 4ppt from the prior reading",
+              "note": "The growth downgrade supports lower intermediate and long-end rates."
             },
             {
               "label": "7Y Auction",
-              "value": "High yield 4.290%; BTC 2.52",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
+              "value": "High yield 4. 290%; BTC 2. 52",
               "expected": "Around USD 44bn of supply absorbed",
-              "note": "The auction result did not create a new belly supply shock.",
-              "detail": null,
-              "caption": null
+              "note": "The auction result did not create a new belly supply shock."
             },
             {
               "label": "Funding",
               "value": "Ample front-end cash",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
               "expected": "repo / fed funds soft",
-              "note": "Short-end liquidity supports carry, but does not mean the Fed is pivoting to easing.",
-              "detail": null,
-              "caption": null
+              "note": "Short-end liquidity supports carry, but does not mean the Fed is pivoting to easing."
             },
             {
               "label": "ECB",
               "value": "April minutes leaned hawkish",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
               "expected": "Several officials did not rule out rate hikes",
-              "note": "European front-end repricing will cap the global long-end rally.",
-              "detail": null,
-              "caption": null
+              "note": "European front-end repricing will cap the global long-end rally."
             },
             {
               "label": "Brazil",
               "value": "April employment 85,888",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
               "expected": "216,500 median",
-              "note": "Activity is cooling, but the central bank is still defending 2028 inflation expectations.",
-              "detail": null,
-              "caption": null
+              "note": "Activity is cooling, but the central bank is still defending 2028 inflation expectations."
             },
             {
               "label": "South Africa",
               "value": "Raised rates 25bp to 7%",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
               "expected": "Four votes supported a hike",
-              "note": "The energy shock is pushing EM central banks back toward inflation-fighting mode.",
-              "detail": null,
-              "caption": null
+              "note": "The energy shock is pushing EM central banks back toward inflation-fighting mode."
             },
             {
               "label": "Data-center HY",
               "value": "Around 4% of the HY market, potentially 10% in two years",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
               "expected": "Global borrowing wave above USD 250bn",
-              "note": "AI infrastructure supports supply, but issuer dispersion is widening.",
-              "detail": null,
-              "caption": null
+              "note": "AI infrastructure supports supply, but issuer dispersion is widening."
             },
             {
               "label": "Private credit",
-              "value": "Sophos USD 2.5bn refinancing blocked",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
+              "value": "Sophos USD 2. 5bn refinancing blocked",
               "expected": "S&P outlook negative",
-              "note": "Direct lenders are raising the bar, increasing pressure on weaker software borrowers.",
-              "detail": null,
-              "caption": null
+              "note": "Direct lenders are raising the bar, increasing pressure on weaker software borrowers."
             },
             {
               "label": "EM",
               "value": "Senegal coupons / Argentine provinces",
-              "change": null,
-              "week_change": null,
-              "month_change": null,
-              "expected": "IMF and external-financing credibility test",
-              "note": "High carry is not enough to replace policy execution and FX buffers.",
-              "detail": null,
-              "caption": null
+              "expected": "IMF and external-financing credibility test"
             }
           ]
         }
@@ -967,11 +719,11 @@
           "title": "1. UST Close and Curve Moves",
           "takeaway": "The 5/28 UST rally was an intermediate and long-end repair driven by cooling energy tail risk, not a Fed dovish pivot.",
           "paragraphs": [
-            "USTs closed on 5/28 in a mild bull-flattening move. Based on U.S. Treasury CMTs, 2Y closed at 3.99%, 5Y at 4.15%, 10Y at 4.45%, 20Y at 4.98%, and 30Y at 4.98%, down 1bp, 2bp, 3bp, 3bp, and 3bp from the prior day, respectively. On the curve, 2s10s narrowed to 46bp, 5s30s was around 83bp, and 10s30s stayed at 53bp, indicating that the decline was mainly in intermediate and long-end inflation and risk premium rather than a broad repricing of the front-end rate-cut path.",
+            "USTs closed on 5/28 in a mild bull-flattening move. Based on U. S. Treasury CMTs, 2Y closed at 3. 99%, 5Y at 4. 15%, 10Y at 4. 45%, 20Y at 4. 98%, and 30Y at 4. 98%, down 1bp, 2bp, 3bp, 3bp, and 3bp from the prior day, respectively. On the curve, 2s10s narrowed to 46bp, 5s30s was around 83bp, and 10s30s stayed at 53bp, indicating that the decline was mainly in intermediate and long-end inflation and risk premium rather than a broad repricing of the front-end rate-cut path.",
             "The weekly signal further supports intermediate and long-end relief: 10Y is 12bp lower than on 5/20, 30Y is 13bp lower, and 2s10s is 7bp narrower than a week earlier. But the monthly line still shows that higher-for-longer has not been removed, with 2Y 15bp above 4/28, 5Y 18bp higher, and 10Y 9bp higher. This means the policy and supply pressure seen since May has only been temporarily capped by lower oil prices, not fully reversed.",
-            "The main driver was the extension of the U.S.-Iran ceasefire and expectations for subsequent talks, which led the market to mark down the probability of a prolonged disruption in the Strait of Hormuz. WTI fell back to USD 88.90 per barrel and Brent moved below USD 94, partly removing energy-supply tail risk from prices. This decline in oil directly compressed near-term inflation risk premium and allowed both 10Y and 30Y yields to follow lower.",
-            "Cross-asset signals support this reading, but they do not point to an extreme one-way risk-on move. The S&P 500 closed at 7,563.63 and Nasdaq at 26,917.47, both making new highs, while the Dow also held at an elevated 50,668.97. The dollar index fell to 99.02, but gold instead rebounded to around USD 4,504, showing that investors reduced energy-shock exposure while still retaining insurance against policy and geopolitical risk.",
-            "The supply backdrop has shifted from 5Y / 7Y auction event risk to result absorption and subsequent reopening risk. The 5/28 7Y note auction is complete, with TreasuryDirect results showing a 4.290% high yield and 2.52 bid-to-cover, without creating a new belly supply shock. But after 10Y has returned to 4.45% and 30Y to 4.98%, the June 10Y and 30Y reopenings and 20Y supply will still determine whether long-end term premium re-accelerates.",
+            "The main driver was the extension of the U. S. -Iran ceasefire and expectations for subsequent talks, which led the market to mark down the probability of a prolonged disruption in the Strait of Hormuz. WTI fell back to USD 88. 90 per barrel and Brent moved below USD 94, partly removing energy-supply tail risk from prices. This decline in oil directly compressed near-term inflation risk premium and allowed both 10Y and 30Y yields to follow lower.",
+            "Cross-asset signals support this reading, but they do not point to an extreme one-way risk-on move. The S&P 500 closed at 7,563. 63 and Nasdaq at 26,917. 47, both making new highs, while the Dow also held at an elevated 50,668. 97. The dollar index fell to 99. 02, but gold instead rebounded to around USD 4,504, showing that investors reduced energy-shock exposure while still retaining insurance against policy and geopolitical risk.",
+            "The supply backdrop has shifted from 5Y / 7Y auction event risk to result absorption and subsequent reopening risk. The 5/28 7Y note auction is complete, with TreasuryDirect results showing a 4. 290% high yield and 2. 52 bid-to-cover, without creating a new belly supply shock. But after 10Y has returned to 4. 45% and 30Y to 4. 98%, the June 10Y and 30Y reopenings and 20Y supply will still determine whether long-end term premium re-accelerates.",
             "Looking at the weekly and monthly lines together, the 5/28 rally remains a repair move rather than a trend reversal. 10Y is 12bp lower than a week earlier but still 9bp above 4/28; 30Y is 13bp lower than a week earlier but still 4bp higher than a month earlier. This means the market has removed some oil-price tail risk, but has not rejected the higher-for-longer and long-end supply pressure seen since May.",
             "The curve signal also supports this judgment. 2s10s closed at 46bp, 2bp narrower on the day, showing greater benefit for the intermediate and long end; however, 10s30s remains at 53bp, with no standalone acceleration in the long-end rally. For portfolios, this means intermediate duration can be bought, while the ultra-long end needs confirmation that 30Y can hold below 5% on consecutive sessions.",
             "Gold rebounding to around USD 4,504 while equities made new highs shows that the market did not fully remove safe-haven insurance after reducing energy risk. This mix is friendly to USTs but not extreme: it supports price repair, but does not mean investors are willing to buy all duration and all credit beta unconditionally."
@@ -982,13 +734,13 @@
           "title": "2. Interpreting the UST Move",
           "takeaway": "The front end is constrained by inflation and Fed signals; the truly tradable pocket is the tactical respite in 5Y-10Y.",
           "paragraphs": [
-            "This UST rally is better defined as a tactical relief rally rather than the restart of a structural bull market. 10Y returning to 4.45% and 30Y moving back below 5% reflect the market removing part of the energy tail risk. But 10s30s is still at 53bp, meaning long-end term premium has only partly compressed. If the ceasefire extension does not translate into a sustained recovery in energy transportation, oil prices, inflation expectations, and long-end supply will pull term premium back to the center of the trade.",
-            "The Fed reaction function still limits the depth of the front-end rally. April headline PCE was 3.8% y/y, core PCE rose 0.2% m/m, and Q1 GDP growth was revised down to a 1.6% annualized rate. For rates, this combination means the growth downgrade is sufficient to support lower intermediate and long-end yields, but inflation remains high enough to make it difficult for the front end to pivot quickly into a rate-cut trade. As a result, 2Y fell only 1bp, while 10Y and 30Y each fell 3bp.",
+            "This UST rally is better defined as a tactical relief rally rather than the restart of a structural bull market. 10Y returning to 4. 45% and 30Y moving back below 5% reflect the market removing part of the energy tail risk. But 10s30s is still at 53bp, meaning long-end term premium has only partly compressed. If the ceasefire extension does not translate into a sustained recovery in energy transportation, oil prices, inflation expectations, and long-end supply will pull term premium back to the center of the trade.",
+            "The Fed reaction function still limits the depth of the front-end rally. April headline PCE was 3. 8% y/y, core PCE rose 0. 2% m/m, and Q1 GDP growth was revised down to a 1. 6% annualized rate. For rates, this combination means the growth downgrade is sufficient to support lower intermediate and long-end yields, but inflation remains high enough to make it difficult for the front end to pivot quickly into a rate-cut trade. As a result, 2Y fell only 1bp, while 10Y and 30Y each fell 3bp.",
             "Policy and funding together support a framework of a constrained front end and temporary relief at the long end. Fed officials' signals are not a clear rate-cut narrative. South Africa's rate hike, Brazil's vigilance over rising 2028 inflation expectations, and hawkish ECB minutes all point to global central banks still prioritizing the defense of inflation credibility.",
-            "U.S. front-end cash surplus and softer repo and fed funds reduce the risk of a short-end funding accident. That keeps the technical backdrop for bills, repo, and short-end carry relatively stable, but it is not evidence that the Fed is ready to ease. If the market conflates funding softness with a policy pivot, the 2Y sector will be vulnerable to mispricing.",
-            "Therefore, 5Y-10Y is a cleaner expression than 20Y+. The intermediate sector is supported by the growth downgrade, lower oil prices, and auction absorption. The ultra-long end is still constrained by fiscal supply, term premium, and global long-end spillover. This is why 10Y at 4.45% can serve as a tactical pivot, while 30Y at 4.98% cannot be directly extrapolated into a full long-end revaluation.",
-            "The combination of PCE and GDP keeps the Fed path complicated. The Q1 GDP downgrade to 1.6% annualized supports lower intermediate and long-end yields, but PCE at 3.8% and core up 0.2% m/m still limit the front-end rate-cut trade. That is why 2Y fell only 1bp, while 10Y and 30Y each fell 3bp; the market is trading softer growth and energy risk, not imminent Fed easing.",
-            "The global central-bank backdrop has not turned dovish in tandem. South Africa raised rates 25bp to 7%, Brazil remains focused on 2028 inflation expectations even though employment missed expectations, and the ECB April minutes also showed several officials did not rule out tighter policy. These signals will cap the front-end rally and make non-U.S. long-end support for USTs less clean.",
+            "U. S. front-end cash surplus and softer repo and fed funds reduce the risk of a short-end funding accident. That keeps the technical backdrop for bills, repo, and short-end carry relatively stable, but it is not evidence that the Fed is ready to ease. If the market conflates funding softness with a policy pivot, the 2Y sector will be vulnerable to mispricing.",
+            "Therefore, 5Y-10Y is a cleaner expression than 20Y+. The intermediate sector is supported by the growth downgrade, lower oil prices, and auction absorption. The ultra-long end is still constrained by fiscal supply, term premium, and global long-end spillover. This is why 10Y at 4. 45% can serve as a tactical pivot, while 30Y at 4. 98% cannot be directly extrapolated into a full long-end revaluation.",
+            "The combination of PCE and GDP keeps the Fed path complicated. The Q1 GDP downgrade to 1. 6% annualized supports lower intermediate and long-end yields, but PCE at 3. 8% and core up 0. 2% m/m still limit the front-end rate-cut trade. That is why 2Y fell only 1bp, while 10Y and 30Y each fell 3bp; the market is trading softer growth and energy risk, not imminent Fed easing.",
+            "The global central-bank backdrop has not turned dovish in tandem. South Africa raised rates 25bp to 7%, Brazil remains focused on 2028 inflation expectations even though employment missed expectations, and the ECB April minutes also showed several officials did not rule out tighter policy. These signals will cap the front-end rally and make non-U. S. long-end support for USTs less clean.",
             "Easier funding is technical support, not a policy signal. Money-market fund inflows, softer repo rates, and lower fed funds improve short-end carry and funding risk, but if inflation stays high, the Fed can keep waiting for longer even in a funding environment that is not tight. In investment terms, liquidity friendliness needs to be separated from policy easing."
           ]
         },
@@ -997,12 +749,11 @@
           "title": "3. Other Market Developments",
           "takeaway": "The risk window remains open, but credit, EM, and central-bank paths are all starting to require more granular quality selection.",
           "paragraphs": [
-            "Cross-asset risk sentiment is still driven by whether the ceasefire extension can translate into restored energy flows. New highs in U.S. equities and the continuation of the AI theme show that the market does not view Middle East risk as an immediate tail event for corporate earnings. But the rebound in gold and the dollar's weakness without a disorderly selloff also show that safe-haven insurance has not fully exited. For fixed income, this combination helps near-term duration repair, but does not support unconditional chasing of high-beta credit.",
+            "Cross-asset risk sentiment is still driven by whether the ceasefire extension can translate into restored energy flows. New highs in U. S. equities and the continuation of the AI theme show that the market does not view Middle East risk as an immediate tail event for corporate earnings. But the rebound in gold and the dollar's weakness without a disorderly selloff also show that safe-haven insurance has not fully exited. For fixed income, this combination helps near-term duration repair, but does not support unconditional chasing of high-beta credit.",
             "European and global central-bank signals lean toward protecting inflation credibility. The ECB April meeting minutes showed that several officials were not opposed to rate hikes, reflecting that energy shocks and second-round inflation risks remain part of the policy debate. South Africa has raised rates 25bp to 7%, and even as Brazil's employment data weakened, central-bank officials still put the deterioration in longer-dated inflation expectations first. These signals mean global rates are not simply turning dovish across the board as oil falls.",
             "Credit markets remain open, but issuer-quality tiering is more obvious. Data-center HY has become a source of incremental market supply, and higher-quality assets backed by long-term contracts can still attract capital, but issuers with weaker collateral or higher residual-value risk need higher spreads. Strong demand for European AT1s and banks' ability to lock in longer non-call periods show that high-quality financial credit remains favored.",
             "By contrast, financing conditions for private credit and sponsor-owned software are tightening. Sophos refinancing met higher hurdles from direct-lending investors, while the Caesars take-private also led bond investors to demand renewed compensation for leverage and capital structure. These cases are not a systemic credit shock, but they show that beneath the surface risk-on tone, underlying financing conditions have started to differentiate on cash-flow quality, asset collateral, and AI disruption risk.",
             "EM sovereign and local-currency rates are still tiered by policy credibility. Argentina provinces' smoother access to external bond markets versus the sovereign reflects investors' willingness to buy clearer ring-fenced credit stories. Senegal's June coupon and IMF talks are a near-term test of program credibility. Brazil and South Africa highlight that central banks are unwilling to let inflation expectations de-anchor under an energy shock.",
-            "Taken together, these market signals imply the following for the Taipei pre-open: lower oil prices are supportive for rates and NAV, but credit and EM exposure should not be increased simply because equities are making new highs. The more stable approach is to separate high-quality financials, short-to-intermediate USD bonds, and project credit with cash-flow coverage, and to avoid treating a one-day risk-on move as an entry point for lower-quality beta.",
             "Data-center HY has become the new supply core in credit markets. Some paper can still trade around 6% spreads, while weaker segments are near 10% or higher. This dispersion shows that AI infrastructure is not a single high-growth theme; leases, counterparty, residual value, power supply, and completion risk all need to be assessed.",
             "The strength in AT1s shows that capital still wants high-quality financial credit. Banks such as Santander and NatWest can extend non-call periods, indicating that investors are willing to accept longer subordinated exposure. But this also increases extension risk; if macro volatility returns, AT1 liquidity and repricing speed will be more sensitive than for ordinary senior financials.",
             "Private-credit signals are more mixed. Sophos refinancing ran into higher hurdles from direct-lending investors, reflecting that sponsor-owned software is being repriced around AI disruption, leverage, and cash-flow visibility. This is not systemic stress, but it tells investors that yield alone is not enough compensation for refinancing uncertainty in weaker borrowers.",
@@ -1014,16 +765,11 @@
           "title": "4. Allocation Implications",
           "takeaway": "Intermediate duration can be raised modestly, but credit and EM should still maintain a quality bias, and the ultra-long end should not be chased.",
           "paragraphs": [
-            "For TWD-denominated overseas bond ETFs and USD bond allocation, this market improvement can support near-term NAV, but should not be read directly as a signal to extend duration across the board. 10Y returning to 4.45% and 30Y to 4.98% make carry and price repair attractive. But long-end term premium has not disappeared; if oil prices or supply pressure heat up again, the giveback risk in the 20Y+ bucket will still be higher than in the intermediate curve.",
             "On curve allocation, 5Y-10Y remains the cleaner duration expression. 2s10s has narrowed to 46bp while 5s30s is still at 83bp, showing the market has not truly abandoned the long-end fiscal premium. If oil prices continue to weaken, Fed officials do not turn more hawkish, and June reopenings are smoothly absorbed, belly and intermediate duration offer better risk-reward than chasing ultra-long bonds directly.",
             "Credit allocation should keep IG ahead of HY, and financials and high-quality assets ahead of weaker leveraged refinancing. AT1s and quality data-center credit still show that demand for income exists, but private credit's increased selectivity toward software borrowers means credit beta cannot be judged only by new highs in equities. For ETFs or outsourced portfolios, stronger equities should not become a reason to loosen credit screening at the same time.",
-            "EM and Asian rates need to maintain country-level differentiation. Lower oil prices help temporarily ease front-end pressure for energy importers, but FX defense, subsidy costs, and fiscal credibility still determine whether duration beta can repair. For TWD investors, dollar support helps FX translation; if the dollar softens, near-term performance needs a stronger UST rally or tighter spreads to offset the weaker FX cushion.",
             "Execution can split new risk into two stages. The first stage is 5Y-10Y high-grade USD bonds and high-quality financials, using the rate decline and carry. The second stage is the long end or lower-rated credit, which should wait for oil to stabilize, auction demand to be confirmed, and Fed officials not to turn PCE back into a front-end risk.",
-            "If the 5/28 close is to be translated into positioning, the most reasonable approach is to raise intermediate high-grade exposure first, not chase long-end convexity. 10Y at 4.45% offers an entry point, but 30Y at 4.98% is still at the lower edge of the pressure zone. If oil rebounds or the supply tail widens, the ultra-long end will give back faster than 5Y-10Y.",
-            "Credit allocation can retain income exposure, but AI data centers, AT1s, private credit, and event-driven credit need to be separated. The first two have demand and asset stories; the latter two require stricter checks on collateral, sponsor support, leverage, and refinancing maturities. This allows participation in the income window while reducing tail losses.",
-            "For TWD overseas bond ETFs, the 5/28 rate and dollar moves are supportive in the near term, but not a broad add signal. If USTs keep rallying and credit spreads stay stable, NAV improvement is healthier. A dollar rebound or weaker TWD provides FX translation support, but if the UST long end also rises, the ETF's FX contribution may merely offset rate losses.",
-            "For Taiwan bond ETFs, the key point is not to read record equities and a Treasury rally as one risk-free signal. The S&P 500 and Nasdaq both advanced, so risk budgets were still open and credit still had demand. But DXY fell while oil moved lower, meaning the rates repair came mainly from lower inflation-tail risk, not from a recession hedge. Intermediate UST ETFs can be held or rebuilt, IG credit can keep quality carry, but HY and EM beta should wait until credit events do not spill over.",
-            "The FX / NAV channel also needs precision. The CBC / Taipei Forex USD/TWD onshore close shows TWD weakened slightly versus the prior trading day, which helps unhedged TWD-denominated USD bond ETFs through translation. At the same time, DXY fell, so this was not a clean broad-dollar-strength signal. If the dollar later rebounds while the UST long end also sells off, the visible NAV improvement may only offset rates losses rather than signal a healthier underlying bond return."
+            "If the 5/28 close is to be translated into positioning, the most reasonable approach is to raise intermediate high-grade exposure first, not chase long-end convexity. 10Y at 4. 45% offers an entry point, but 30Y at 4. 98% is still at the lower edge of the pressure zone. If oil rebounds or the supply tail widens, the ultra-long end will give back faster than 5Y-10Y.",
+            "Credit allocation can retain income exposure, but AI data centers, AT1s, private credit, and event-driven credit need to be separated. The first two have demand and asset stories; the latter two require stricter checks on collateral, sponsor support, leverage, and refinancing maturities. This allows participation in the income window while reducing tail losses."
           ]
         },
         {
@@ -1031,17 +777,13 @@
           "title": "5. What to Watch Next",
           "takeaway": "Next, watch whether oil prices, supply, PCE / employment, and credit refinancing all support the rally in the same direction.",
           "paragraphs": [
-            "The first set of triggers is U.S.-Iran talks, Hormuz passage, and oil prices. If WTI can stabilize below USD 90 and Brent remains below USD 94, energy-inflation tail risk can continue to decline. If ceasefire conditions become volatile again or shipping insurance costs rise again, the market will first reflect this in oil prices, the dollar, and inflation breakevens, before it returns to the long end of USTs.",
-            "The second set of triggers is supply and policy. The 5/28 7Y note was completed with a 4.290% high yield and 2.52 bid-to-cover, shifting the focus to secondary-market absorption, June 10Y / 30Y reopenings, and 20Y supply. On the Fed side, PCE, jobless claims, wages, and services inflation remain the core inputs for judging whether higher-for-longer can loosen.",
+            "The first set of triggers is U. S. -Iran talks, Hormuz passage, and oil prices. If WTI can stabilize below USD 90 and Brent remains below USD 94, energy-inflation tail risk can continue to decline. If ceasefire conditions become volatile again or shipping insurance costs rise again, the market will first reflect this in oil prices, the dollar, and inflation breakevens, before it returns to the long end of USTs.",
+            "The second set of triggers is supply and policy. The 5/28 7Y note was completed with a 4. 290% high yield and 2. 52 bid-to-cover, shifting the focus to secondary-market absorption, June 10Y / 30Y reopenings, and 20Y supply. On the Fed side, PCE, jobless claims, wages, and services inflation remain the core inputs for judging whether higher-for-longer can loosen.",
             "The third set of triggers is credit and EM funding. Data-center HY, AT1s, Sophos refinancing, Caesars event credit, Senegal coupons, Brazil inflation expectations, and South Africa's policy path will all affect fixed-income risk appetite. If the market sees a triple resonance of higher oil, a stronger dollar, and higher long-end yields, this bull-flattening move will be tested quickly.",
-            "The fourth set of triggers is the source of NAV for TWD investors. If NAV improvement mainly comes from dollar weakness and lower rates moving together, short-to-intermediate products can continue. If dollar strength merely offsets rate losses, or if credit spreads start widening concessions, surface-level NAV improvement should not be treated as retained return.",
             "The fifth set of triggers is whether central-bank signals are aligned. If the Fed, ECB, and EM central banks all treat the cooling in energy as temporary and are unwilling to relax their inflation defense, the front end will cap the rally. If inflation and labor data cool at the same time, 5Y-10Y can move from tactical repair to a more stable allocation opportunity.",
             "If WTI moves back above USD 95, energy-inflation tail risk will return to front-end pricing, and 2Y and 5Y will react faster than 30Y. At that point, the 5/28 bull-flattening would be redefined as a near-term squeeze rather than a durable allocation signal.",
-            "If the June 10Y or 30Y reopenings show a clear tail, long-end term premium will return as the dominant driver. This will affect UST prices and can offset FX translation support for TWD NAV in high-grade long-duration ETFs. 30Y at 5.10% should be treated as the risk-upgrade threshold.",
             "If PCE, claims, and payrolls deliver a consistent cooling signal, 5Y-10Y can be upgraded from tactical repair to core allocation. If GDP is revised lower but inflation and wages remain sticky, the market will return to higher-for-longer, and both the front end and the dollar will again constrain the rally.",
-            "If the credit primary market shows strong new issues from high-quality borrowers alongside wider concessions for weaker borrowers, maintain a quality barbell. If even high-quality borrowers need materially larger concessions, that would indicate risk budgets are starting to contract, and both ETFs and HY beta should be de-risked together.",
-            "Operationally, the next step after the 5/28 close has three checks. First, 10Y must hold around 4.45% while 30Y avoids a return above 5% for the belly rally to extend into the long end. Second, WTI back in the 90 / 95 zone would bring front-end inflation premium back, pressuring 2Y and 5Y before 10Y. Third, if the credit proxy turns from stable to clearly lower, ETF NAV gains from rates are being offset by spread beta.",
-            "The other practical check is the local trading-time gap. When Taiwan ETFs open, overseas bond prices and currency spot may already differ from the U.S. close. The 5/28 onshore USD/TWD close should therefore anchor the close report, while any Asia-morning dollar or oil rebound is an intraday monitor item rather than a reason to overwrite the close-note thesis."
+            "If the credit primary market shows strong new issues from high-quality borrowers alongside wider concessions for weaker borrowers, maintain a quality barbell. If even high-quality borrowers need materially larger concessions, that would indicate risk budgets are starting to contract, and both ETFs and HY beta should be de-risked together."
           ]
         }
       ]
