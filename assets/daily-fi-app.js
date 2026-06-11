@@ -12,6 +12,10 @@
   const dateMenus = Array.from(document.querySelectorAll("[data-date-menu], [data-mobile-date-menu]"));
   const mobileDateMenu = document.querySelector("[data-mobile-date-menu]");
   const toolsEl = document.querySelector(".task-nav");
+  const toolsDrawer = document.querySelector("[data-tools-sheet]");
+  const toolsDrawerBackdrop = document.querySelector("[data-tools-sheet-backdrop]");
+  const toolsDrawerTriggers = Array.from(document.querySelectorAll("[data-tools-sheet-trigger]"));
+  const toolsDrawerClosers = Array.from(document.querySelectorAll("[data-tools-sheet-close]"));
   const langButtons = Array.from(document.querySelectorAll("[data-lang-button]"));
   const langPanels = Array.from(document.querySelectorAll("[data-lang-panel]"));
   const navLinks = Array.from(document.querySelectorAll("[data-nav-link]"));
@@ -50,6 +54,24 @@
     if (!toolsEl) return;
     toolsEl.classList.remove("is-hidden");
     toolsEl.removeAttribute("data-tools-hidden");
+    updateToolMetrics();
+  };
+  const isToolsDrawerOpen = () => Boolean(toolsDrawer && !toolsDrawer.hidden);
+  const setToolsDrawerOpen = (open) => {
+    if (!toolsDrawer) return;
+    toolsDrawer.hidden = !open;
+    if (toolsDrawerBackdrop) toolsDrawerBackdrop.hidden = !open;
+    toolsDrawerTriggers.forEach((button) => button.setAttribute("aria-expanded", open ? "true" : "false"));
+    if (toolsEl) toolsEl.dataset.sheetOpen = open ? "true" : "false";
+    if (open) {
+      revealTools();
+      const firstFocusable = toolsDrawer.querySelector("a, button, select, [tabindex]:not([tabindex='-1'])");
+      if (firstFocusable && typeof firstFocusable.focus === "function") {
+        window.setTimeout(() => firstFocusable.focus({ preventScroll: true }), 0);
+      }
+    } else if (toolsEl) {
+      toolsEl.removeAttribute("data-sheet-open");
+    }
     updateToolMetrics();
   };
 	  const escapeHtml = (value) => String(value ?? "")
@@ -873,7 +895,7 @@
 	      return active.matches("input, textarea, select") || active.isContentEditable ? active : null;
 	    };
 	    const isUsingTools = () => {
-	      return Boolean(activeField()) || isDateMenuOpen() || isSearchOpen();
+	      return Boolean(activeField()) || isDateMenuOpen() || isSearchOpen() || isToolsDrawerOpen();
 	    };
 	    const showTools = () => {
 	      revealTools();
@@ -914,6 +936,21 @@
 	    bar.addEventListener("focusin", showTools);
 	    input.addEventListener("focus", restoreSearchResults);
 	    input.addEventListener("click", restoreSearchResults);
+    toolsDrawerTriggers.forEach((button) => {
+      button.addEventListener("click", () => setToolsDrawerOpen(!isToolsDrawerOpen()));
+    });
+    toolsDrawerClosers.forEach((button) => {
+      button.addEventListener("click", () => setToolsDrawerOpen(false));
+    });
+    if (toolsDrawerBackdrop) {
+      toolsDrawerBackdrop.addEventListener("click", () => setToolsDrawerOpen(false));
+    }
+    if (toolsDrawer) {
+      toolsDrawer.addEventListener("click", (event) => {
+        const link = event.target.closest("a[href]");
+        if (link) setToolsDrawerOpen(false);
+      });
+    }
 	    if ("ResizeObserver" in window) {
 	      const observer = new ResizeObserver(updateToolMetrics);
 	      observer.observe(toolsEl);
@@ -1168,6 +1205,11 @@
     hideSearchForReading();
   });
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && isToolsDrawerOpen()) {
+      event.preventDefault();
+      setToolsDrawerOpen(false);
+      return;
+    }
     if (event.key !== "Escape" || !effectiveSearchQuery(input.value) || resultsEl.hidden) return;
     event.preventDefault();
     hideSearchForReading();
