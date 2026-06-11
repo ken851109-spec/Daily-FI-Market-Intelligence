@@ -12,10 +12,10 @@
   const dateMenus = Array.from(document.querySelectorAll("[data-date-menu], [data-mobile-date-menu]"));
   const mobileDateMenu = document.querySelector("[data-mobile-date-menu]");
   const toolsEl = document.querySelector(".task-nav");
-  const toolsDrawer = document.querySelector("[data-tools-sheet]");
-  const toolsDrawerBackdrop = document.querySelector("[data-tools-sheet-backdrop]");
-  const toolsDrawerTriggers = Array.from(document.querySelectorAll("[data-tools-sheet-trigger]"));
-  const toolsDrawerClosers = Array.from(document.querySelectorAll("[data-tools-sheet-close]"));
+  const toolsSheet = document.querySelector("[data-tools-sheet]");
+  const toolsSheetBackdrop = document.querySelector("[data-tools-sheet-backdrop]");
+  const toolsSheetTriggers = Array.from(document.querySelectorAll("[data-tools-sheet-trigger]"));
+  const toolsSheetClosers = Array.from(document.querySelectorAll("[data-tools-sheet-close]"));
   const langButtons = Array.from(document.querySelectorAll("[data-lang-button]"));
   const langPanels = Array.from(document.querySelectorAll("[data-lang-panel]"));
   const navLinks = Array.from(document.querySelectorAll("[data-nav-link]"));
@@ -56,16 +56,16 @@
     toolsEl.removeAttribute("data-tools-hidden");
     updateToolMetrics();
   };
-  const isToolsDrawerOpen = () => Boolean(toolsDrawer && !toolsDrawer.hidden);
-  const setToolsDrawerOpen = (open) => {
-    if (!toolsDrawer) return;
-    toolsDrawer.hidden = !open;
-    if (toolsDrawerBackdrop) toolsDrawerBackdrop.hidden = !open;
-    toolsDrawerTriggers.forEach((button) => button.setAttribute("aria-expanded", open ? "true" : "false"));
+  const isToolsSheetOpen = () => Boolean(toolsSheet && !toolsSheet.hidden);
+  const setToolsSheetOpen = (open) => {
+    if (!toolsSheet) return;
+    toolsSheet.hidden = !open;
+    if (toolsSheetBackdrop) toolsSheetBackdrop.hidden = !open;
+    toolsSheetTriggers.forEach((button) => button.setAttribute("aria-expanded", open ? "true" : "false"));
     if (toolsEl) toolsEl.dataset.sheetOpen = open ? "true" : "false";
     if (open) {
       revealTools();
-      const firstFocusable = toolsDrawer.querySelector("a, button, select, [tabindex]:not([tabindex='-1'])");
+      const firstFocusable = toolsSheet.querySelector("a, button, select, [tabindex]:not([tabindex='-1'])");
       if (firstFocusable && typeof firstFocusable.focus === "function") {
         window.setTimeout(() => firstFocusable.focus({ preventScroll: true }), 0);
       }
@@ -895,7 +895,7 @@
 	      return active.matches("input, textarea, select") || active.isContentEditable ? active : null;
 	    };
 	    const isUsingTools = () => {
-	      return Boolean(activeField()) || isDateMenuOpen() || isSearchOpen() || isToolsDrawerOpen();
+	      return Boolean(activeField()) || isDateMenuOpen() || isSearchOpen() || isToolsSheetOpen();
 	    };
 	    const showTools = () => {
 	      revealTools();
@@ -936,19 +936,19 @@
 	    bar.addEventListener("focusin", showTools);
 	    input.addEventListener("focus", restoreSearchResults);
 	    input.addEventListener("click", restoreSearchResults);
-    toolsDrawerTriggers.forEach((button) => {
-      button.addEventListener("click", () => setToolsDrawerOpen(!isToolsDrawerOpen()));
+    toolsSheetTriggers.forEach((button) => {
+      button.addEventListener("click", () => setToolsSheetOpen(!isToolsSheetOpen()));
     });
-    toolsDrawerClosers.forEach((button) => {
-      button.addEventListener("click", () => setToolsDrawerOpen(false));
+    toolsSheetClosers.forEach((button) => {
+      button.addEventListener("click", () => setToolsSheetOpen(false));
     });
-    if (toolsDrawerBackdrop) {
-      toolsDrawerBackdrop.addEventListener("click", () => setToolsDrawerOpen(false));
+    if (toolsSheetBackdrop) {
+      toolsSheetBackdrop.addEventListener("click", () => setToolsSheetOpen(false));
     }
-    if (toolsDrawer) {
-      toolsDrawer.addEventListener("click", (event) => {
+    if (toolsSheet) {
+      toolsSheet.addEventListener("click", (event) => {
         const link = event.target.closest("a[href]");
-        if (link) setToolsDrawerOpen(false);
+        if (link) setToolsSheetOpen(false);
       });
     }
 	    if ("ResizeObserver" in window) {
@@ -1205,9 +1205,9 @@
     hideSearchForReading();
   });
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && isToolsDrawerOpen()) {
+    if (event.key === "Escape" && isToolsSheetOpen()) {
       event.preventDefault();
-      setToolsDrawerOpen(false);
+      setToolsSheetOpen(false);
       return;
     }
     if (event.key !== "Escape" || !effectiveSearchQuery(input.value) || resultsEl.hidden) return;
