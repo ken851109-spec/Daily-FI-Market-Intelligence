@@ -399,6 +399,7 @@ tbody tr:hover:not(.heatmap-group-row) { background: #f7fbff; }
 .right-rail .trigger-card span, .right-rail .event-card span { font-size: 11.25px; }
 .right-rail .trigger-card strong, .right-rail .event-card strong { font-size: 20.5px; line-height: 1.24; }
 .right-rail .trigger-card p, .right-rail .event-card p { margin-top: 6px; font-size: 16.25px; line-height: 1.52; }
+.right-rail .rail-block + .rail-block { margin-top: 58px; }
 .rail-actions { display: grid; gap: 8px; }
 .rail-actions a { border-color: var(--line); color: var(--navy); justify-content: center; }
 .mobile-monitor { display: none; margin-top: 14px; }
