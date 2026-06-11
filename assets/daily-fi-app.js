@@ -19,6 +19,7 @@
   const siteRoot = rootEl.dataset.siteRoot || "";
   const currentDate = rootEl.dataset.currentDate || dateSelect.dataset.currentDate || "";
 	  const manifestUrl = siteRoot + "tapes.json";
+	  const searchIndexUrl = siteRoot + "data/search-index.json";
 	  const paramsAtLoad = new URLSearchParams(location.search);
 	  const initialLang = paramsAtLoad.get("lang") || (location.hash.startsWith("#en-") ? "en" : "") || localStorage.getItem("daily-fi-language") || "zh";
 	  const state = { manifest: [], notes: new Map(), index: [], query: "", language: initialLang === "en" ? "en" : "zh", searchExpanded: false, resultsCollapsed: false };
@@ -311,7 +312,41 @@
       addNoteRows(rows, item, note, "zh");
       if (note.translations && note.translations.en) addNoteRows(rows, item, note.translations.en, "en");
     }
-    state.index = rows.map((row) => ({ ...row, haystack: normalize(`${row.date} ${row.lang} ${row.title} ${row.text}`) }));
+    state.index = normalizeSearchIndexRows(rows);
+  };
+
+  const normalizeSearchIndexRows = (rows) => {
+    if (!Array.isArray(rows)) return [];
+    return rows
+      .map((row) => {
+        const normalizedRow = {
+          date: row.date || row.d || "",
+          lang: row.lang || row.l || "zh",
+          section: row.section || row.s || "",
+          title: row.title || row.t || "",
+          text: row.text || row.x || "",
+          weight: Number.isFinite(Number(row.weight ?? row.w)) ? Number(row.weight ?? row.w) : 1,
+        };
+        return {
+          ...normalizedRow,
+          haystack: normalize(`${normalizedRow.date} ${normalizedRow.lang} ${normalizedRow.title} ${normalizedRow.text}`)
+        };
+      })
+      .filter((row) => row.date && row.section && row.text);
+  };
+
+  const loadPublishedSearchIndex = async () => {
+    try {
+      const response = await fetch(searchIndexUrl);
+      if (!response.ok) return false;
+      const rows = await response.json();
+      const index = normalizeSearchIndexRows(rows);
+      if (!index.length) return false;
+      state.index = index;
+      return true;
+    } catch {
+      return false;
+    }
   };
 
 	  const excerpt = (text, query) => {
@@ -373,7 +408,7 @@
     const sameLanguageFirst = (row) => row.lang === state.language ? 0 : 1;
     const matches = state.index
       .filter((row) => row.lang === state.language && row.haystack.includes(normalize(state.query)))
-      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b));
+      .sort((a, b) => sameLanguageFirst(a) - sameLanguageFirst(b) || (b.weight || 1) - (a.weight || 1));
     resultsEl.hidden = false;
     if (!matches.length) {
       resultsEl.innerHTML = `<div class="search-empty">${state.language === "en" ? "No matching report passages" : "沒有找到符合的報告段落"}</div>`;
@@ -951,16 +986,19 @@
       state.manifest = Array.isArray(manifest) ? manifest : [];
       hydrateDateSelect();
       syncStaticTextForLanguage();
-      const notes = await Promise.all(state.manifest.map(async (item) => {
-        try {
-          const note = await fetch(siteRoot + item.dataPath).then((response) => response.json());
-          return [item.date, note];
-        } catch {
-          return [item.date, null];
-        }
-      }));
-      notes.forEach(([date, note]) => { if (note) state.notes.set(date, note); });
-      buildIndex();
+      const loadedCompactIndex = await loadPublishedSearchIndex();
+      if (!loadedCompactIndex) {
+        const notes = await Promise.all(state.manifest.map(async (item) => {
+          try {
+            const note = await fetch(siteRoot + item.dataPath).then((response) => response.json());
+            return [item.date, note];
+          } catch {
+            return [item.date, null];
+          }
+        }));
+        notes.forEach(([date, note]) => { if (note) state.notes.set(date, note); });
+        buildIndex();
+      }
       const initialQuery = new URLSearchParams(location.search).get("q") || "";
 	      if (initialQuery) {
 	        const shouldReadTarget = Boolean(location.hash);
