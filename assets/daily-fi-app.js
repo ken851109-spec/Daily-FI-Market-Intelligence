@@ -9,8 +9,7 @@
   const dateSelect = dateSelects[0];
   const dateGridHosts = Array.from(document.querySelectorAll("[data-date-grid]"));
   const dateCurrentLabels = Array.from(document.querySelectorAll("[data-date-current-label]"));
-  const dateMenus = Array.from(document.querySelectorAll("[data-date-menu], [data-mobile-date-menu]"));
-  const mobileDateMenu = document.querySelector("[data-mobile-date-menu]");
+  const dateMenus = Array.from(document.querySelectorAll("[data-date-menu]"));
   const toolsEl = document.querySelector(".task-nav");
   const toolsSheet = document.querySelector("[data-tools-sheet]");
   const toolsSheetBackdrop = document.querySelector("[data-tools-sheet-backdrop]");

@@ -44,7 +44,7 @@ button, input, select, summary, a { -webkit-tap-highlight-color: transparent; }
 .command-bar select:focus, .command-bar input:focus { outline: none; border-color: var(--blue); box-shadow: var(--ring); }
 .command-bar input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; display: none; }
 .date-browser { position: relative; }
-.date-select-fallback, .mobile-date-panel select { position: absolute; width: 1px !important; height: 1px !important; opacity: 0; pointer-events: none; overflow: hidden; font-size: 0; }
+.date-select-fallback { position: absolute; width: 1px !important; height: 1px !important; opacity: 0; pointer-events: none; overflow: hidden; font-size: 0; }
 .date-browser-menu { position: relative; }
 .date-browser-menu summary { list-style: none; display: flex; min-height: var(--control-h); align-items: center; justify-content: space-between; gap: 8px; border: 1px solid #cfd9e3; background: #fff; color: var(--ink); padding: 8px 11px; border-radius: var(--radius-sm); font-size: 13.5px; font-weight: 760; cursor: pointer; transition: border-color .16s ease, box-shadow .16s ease, background .16s ease; }
 .date-browser-menu summary:hover { border-color: #b7c6d5; background: #fbfdff; }
@@ -104,14 +104,6 @@ button, input, select, summary, a { -webkit-tap-highlight-color: transparent; }
 .mobile-tools-nav a strong { font-size: 12.5px; line-height: 1.2; }
 .mobile-tools-nav a span { display: none; }
 .mobile-tools-calendar select { position: absolute; width: 1px !important; height: 1px !important; opacity: 0; pointer-events: none; overflow: hidden; font-size: 0; }
-.mobile-date-menu { display: none; position: relative; }
-.mobile-date-menu summary { list-style: none; display: inline-flex; min-height: 40px; align-items: center; justify-content: center; border: 1px solid #d2dce5; background: #fafcfd; color: var(--navy); padding: 8px 11px; border-radius: 4px; font-size: 12.75px; font-weight: 800; cursor: pointer; }
-.mobile-date-menu summary::-webkit-details-marker { display: none; }
-.mobile-date-panel { position: absolute; right: 0; top: calc(100% + 7px); z-index: 80; width: min(300px, calc(100vw - 18px)); max-height: min(68vh, 560px); overflow: auto; display: grid; gap: 8px; padding: 10px; border: 1px solid var(--line); background: #fff; border-radius: 4px; box-shadow: var(--shadow-panel); }
-.mobile-date-menu:not([open]) .mobile-date-panel { display: none; }
-.mobile-date-panel label { color: var(--muted); font-size: 11.75px; font-weight: 800; }
-.mobile-date-panel > a { border: 1px solid var(--line); background: #fafcfd; min-height: 40px; padding: 7px 10px; font-size: 12.75px; }
-.mobile-date-panel .date-day { min-height: 30px; padding: 0; font-size: 11.75px; }
 .search-results { max-height: 330px; overflow: auto; border-top: 1px solid #e1e8ef; padding-top: 10px; display: grid; gap: 8px; }
 .search-results[hidden] { display: none !important; }
 .search-results.is-collapsed { max-height: 330px; overflow: auto; }
@@ -574,14 +566,13 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .command-bar { grid-template-columns: minmax(0, 1fr) 104px 128px; gap: 6px; padding-bottom: 0; }
   .command-date { display: none; }
   .desktop-history-link { display: none !important; }
-  .mobile-date-menu { display: block; }
   .command-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .search-shortcuts { display: none; }
   .archive-browser { grid-template-columns: 1fr; }
   .section-nav { display: flex; gap: 5px; overflow-x: auto; max-width: 100%; padding-top: 5px; padding-right: 8px; border-top: 1px solid #e1e8ef; scrollbar-width: thin; scrollbar-color: #cbd8e3 transparent; overscroll-behavior-x: contain; }
   .section-nav a { min-height: 32px; padding: 6px 8px; }
   .section-nav a strong { font-size: 12px; line-height: 1.2; }
-  .command-bar input, .search-box button, .command-links a, .mobile-date-menu summary, .language-toggle button { min-height: 38px; }
+  .command-bar input, .search-box button, .command-links a, .language-toggle button { min-height: 38px; }
 }
 
 @media (max-width: 767px) {
@@ -604,10 +595,8 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
 	  .mobile-tools-trigger { display: inline-flex; grid-column: 3; grid-row: 1; min-height: 42px; padding: 6px 4px; font-size: 11.5px; align-self: stretch; }
 	  .command-links { display: none; }
 	  .command-bar[data-search-active="true"] .command-links { display: none; }
-	  .command-links a, .mobile-date-menu summary { min-height: 42px; padding: 7px 8px; font-size: 12.25px; min-width: 42px; }
+	  .command-links a { min-height: 42px; padding: 7px 8px; font-size: 12.25px; min-width: 42px; }
   .desktop-history-link { display: none !important; }
-  .mobile-date-menu { display: block; }
-  .mobile-date-panel { position: fixed; left: 9px; right: 9px; top: calc(var(--task-nav-bottom) + 6px); z-index: 92; width: auto; max-height: min(54vh, calc(100dvh - var(--task-nav-bottom) - 14px)); }
 	  .search-box button { min-width: 42px; min-height: 42px; padding: 7px 8px; font-size: 0; }
 	  .search-box button::before { content: "X"; font-size: 12px; line-height: 1; }
   .search-shortcuts { display: none; }
