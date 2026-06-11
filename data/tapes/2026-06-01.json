@@ -61,7 +61,7 @@
       "label": "View 重估條件",
       "view": "若油價回落才恢復中段偏多",
       "best_expression": "WTI 回到 90 美元下方、10Y 重新低於 4.45%，才提高 5Y-10Y Duration beta。",
-      "risk_trigger": "WTI 95 / 10Y 4. 55% / 2Y 4. 15%。"
+      "risk_trigger": "WTI 95 / 10Y 4.55% / 2Y 4.15%。"
     }
   ],
   "driver_decomposition": [
@@ -102,7 +102,7 @@
     "event_risks": [
       {
         "label": "ISM",
-        "value": "PMI 54. 0 / prices 82. 1",
+        "value": "PMI 54.0 / prices 82.1",
         "detail": "成長強、價格高，對降息交易不友善。"
       },
       {
@@ -124,13 +124,12 @@
     "asia_update": [
       {
         "label": "韓國",
-        "value": "CPI 3. 1%",
+        "value": "CPI 3.1%",
         "change": "較 4 月 +0.5ppt",
         "detail": "核心 2.5%，BOK 異議票支撐偏鷹定價。"
       },
       {
         "label": "Japan",
-        "value": "70",
         "change": "干預效果有限"
       },
       {
@@ -251,7 +250,7 @@
         },
         {
           "label": "Credit proxy",
-          "value": "LQD 108. 93",
+          "value": "LQD 108.93",
           "change": "-0.02%",
           "note": "IG credit 的核心是 duration loss vs spread cushion；油價與前端壓力下，carry 不足以抵銷估值風險。"
         }
@@ -269,7 +268,7 @@
       "rows": [
         {
           "label": "成長",
-          "value": "ISM Manufacturing PMI 54. 0",
+          "value": "ISM Manufacturing PMI 54.0",
           "expected": "4 月 52.7；50 以上代表擴張"
         },
         {
@@ -292,7 +291,7 @@
         },
         {
           "label": "ECB 通膨預期",
-          "value": "3Y 2. 9%; 1Y 4%; 5Y 2. 4%",
+          "value": "3Y 2.9%; 1Y 4%; 5Y 2.4%",
           "expected": "市場關注歐元區 CPI 約 3.2%",
           "note": "期待值只小幅改善，仍高於 2% 目標，支持 ECB 對能源衝擊二階效果的防守。"
         },
@@ -324,7 +323,15 @@
     {
       "id": "rates_close",
       "title": "一、美債收盤與曲線變化",
-      "takeaway": "6/1 不是 久期曝險，而是油價衝擊推動的 前端-led 空頭轉平。"
+      "takeaway": "6/1 不是 久期曝險，而是油價衝擊推動的 前端-led 空頭轉平。",
+      "paragraphs": [
+        "官方 Treasury CMT 顯示 6/1 美債曲線以前端上行為主：2Y 收 4.05%、日升 7bp，5Y 收 4.18%、日升 5bp，10Y 收 4.47%、日升 2bp，20Y 收 4.99%、日升 1bp，30Y 收 4.99% 持平。這組收盤讓 2s10s 收斂 5bp 至 42bp、5s30s 收斂 5bp 至 81bp，曲線型態是 空頭轉平，而不是乾淨的 多頭轉平。第1個檢查點要回到同一條投組鏈：6/1 的訊號偏向前端重新定價，因為 2Y/5Y 的上行幅度明顯大於 30Y；這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "週線仍保留部分 relief：2Y 比 5/22 低 8bp，5Y 低 9bp，10Y 低 9bp，30Y 低 8bp；但月線已轉為壓力，2Y 比 5/1 高 17bp，5Y 高 16bp，10Y 高 8bp。這說明市場不是只交易單日油價，而是在把五月以來的 growth resilience、AI capex 與能源風險一起重新放進 高利率維持更久 框架。第2個檢查點要回到同一條投組鏈：6/1 的訊號偏向前端重新定價，因為 2Y/5Y 的上行幅度明顯大於 30Y；這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "當日盤中傳導比官方收盤更尖銳。油價跳升後，市場材料顯示 10Y 一度接近 4.5% 以上，2Y 也被推向 4.08% 附近；但 CMT 收盤落在 10Y 4.47%、2Y 4.05%，代表尾盤並未形成無序賣壓。這種走法對 portfolio 的含義是：前端政策風險被重新喚醒，長端則維持 5% 附近的 term-premium cap。第3個檢查點要回到同一條投組鏈：6/1 的訊號偏向前端重新定價，因為 2Y/5Y 的上行幅度明顯大於 30Y；這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "主驅動是能源與地緣政治。這不是單純商品風險，而是會透過汽油、運輸、供應商交貨與通膨期待進入利率定價的衝擊。第4個檢查點要回到同一條投組鏈：6/1 的訊號偏向前端重新定價，因為 2Y/5Y 的上行幅度明顯大於 30Y；這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "成長數據沒有提供 rally 保護。ISM 製造業 PMI 升至 54.0、為四年高位，April 是 52.7；prices paid 雖從 84.6 降至 82.1、且低於 85.0 預估，但仍是非常高的價格壓力讀數。對曲線而言，PMI 強代表 growth-scare bid 不成立，prices paid 高代表前端仍要尊重通膨風險，兩者合在一起就是 2Y 上行幅度大於 10Y。第5個檢查點要回到同一條投組鏈：6/1 的訊號偏向前端重新定價，因為 2Y/5Y 的上行幅度明顯大於 30Y；這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "跨資產確認同樣偏向 空頭轉平。S&P 500 收 7,599.96、日升 0.26%，Nasdaq 收 27,086.81、日升 0.42%，AI 領漲讓股指維持高位；第6個檢查點要回到同一條投組鏈：6/1 的訊號偏向前端重新定價，因為 2Y/5Y 的上行幅度明顯大於 30Y；這樣可避免把同一個收盤變化誤讀成單一方向押注。"
+      ]
     },
     {
       "id": "rates_interpretation",
@@ -334,6 +341,7 @@
         "本輪走勢應解讀為油價衝擊帶動的前端重定價。2Y 日升 7bp、10Y 日升 2bp、30Y 持平，說明市場先處理 Fed 反應函數，而不是直接放大期限溢價。若投資人把 30Y 沒有同步上行視為長端安全訊號，會忽略 30Y 仍收在 4.99%、距離 5.00%-5.10% 壓力區很近。第1個檢查點要回到同一條投組鏈：油價、ISM 與升息機率同時上修時，市場會先要求前端和中段支付更高保險；若 10Y 只是停在區間中段，投資人應保留分批進場空間，而不是因殖利率表面變高就把 20Y+ 權重一次拉滿。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
         "Fed 定價的變化相當明確。利率交換市場已完全反映 2027 年 3 月前升息，且給予 10 月升息約一半機率，12 月 FOMC 日期附近約有 20bp 的升息幅度。這種定價與 WTI 92.35、ISM 54.0、ISM 價格分項 82.1 放在一起看，代表市場重新承認 Fed 在能源衝擊與成長韌性下仍有政策選擇權。第2個檢查點要回到同一條投組鏈：油價、ISM 與升息機率同時上修時，市場會先要求前端和中段支付更高保險；若 10Y 只是停在區間中段，投資人應保留分批進場空間，而不是因殖利率表面變高就把 20Y+ 權重一次拉滿。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
         "通膨持續性不只來自油價本身。ISM 價格分項 82.1 雖低於預估，但供應商交貨、提前拉貨訂單、運輸成本與燃料價格共同指向企業成本壓力仍在；韓國 CPI 3.1% 高於 2.9% 預估、核心 2.5%，也證明亞洲價格壓力並非只停留在能源消息面。這會讓 Fed、BOK、ECB 都更難在六月用單一軟數據轉鴿。第3個檢查點要回到同一條投組鏈：油價、ISM 與升息機率同時上修時，市場會先要求前端和中段支付更高保險；若 10Y 只是停在區間中段，投資人應保留分批進場空間，而不是因殖利率表面變高就把 20Y+ 權重一次拉滿。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "美元同時受 haven demand、AI growth narrative 與 高利率維持更久 定價支撐。對美債而言，強美元通常會壓低輸入通膨，但在這一輪中更重要的是它擠壓非美央行與 EM balance sheet，增加全球 前端 policy premium。第4個檢查點要回到同一條投組鏈：油價、ISM 與升息機率同時上修時，市場會先要求前端和中段支付更高保險；若 10Y 只是停在區間中段，投資人應保留分批進場空間，而不是因殖利率表面變高就把 20Y+ 權重一次拉滿。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
         "長端的訊號則更混合。30Y 持平於 4.99%，10s30s 收斂至 52bp，表面上看長端沒有被油價嚇到；但 20Y 與 30Y 都停在 5% 附近，且全球央行與財政供給未轉友善。這意味 portfolio 不應把曲線收斂當作長端 rally 訊號，而應把它視為前端重新定價、長端仍等 auction demand 與 實錢帳戶 absorption 的狀態。第5個檢查點要回到同一條投組鏈：油價、ISM 與升息機率同時上修時，市場會先要求前端和中段支付更高保險；若 10Y 只是停在區間中段，投資人應保留分批進場空間，而不是因殖利率表面變高就把 20Y+ 權重一次拉滿。這樣可避免把同一個收盤變化誤讀成單一方向押注。"
       ]
     },
@@ -345,6 +353,7 @@
         "歐洲央行線索偏鷹。Schnabel 把伊朗戰事的通膨衝擊描述為可能使通膨預期失錨的風險，ECB 消費者調查則顯示三年期通膨期待只從 3.0% 小降至 2.9%，一年期仍在 4%，五年期在 2.4%。這些數字還是高於 2% 目標，若歐元區 CPI 走向 3.2%，歐洲前端會限制全球久期 反彈。第1個檢查點要回到同一條投組鏈：歐洲通膨、英國財政與亞洲央行訊號共同指向全球政策彈性有限，這些不是要取代 UST 收盤，而是提醒美債長端面臨的是全球久期競爭；當海外央行也難以快速轉鴿，長端買盤就需要更高殖利率補償。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
         "英國與歐洲財政背景也不輕鬆。英國房價出現近一年最大跌幅，顯示房貸利率傳導正在壓住房市；同時英國稅制複雜度與稅負水準升高，對中期成長與財政組合不利。對英國公債與 UST 長端而言，這是成長拖累與財政溢價並存，不是單向利多。第2個檢查點要回到同一條投組鏈：歐洲通膨、英國財政與亞洲央行訊號共同指向全球政策彈性有限，這些不是要取代 UST 收盤，而是提醒美債長端面臨的是全球久期競爭；當海外央行也難以快速轉鴿，長端買盤就需要更高殖利率補償。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
         "亞洲 rates 壓力更直接。韓國 CPI 3.1% 高於預估，交通成本年增 11.6%、recreation and culture 年增 5%，food and lodging 年增 2.7%，家庭商品與服務 年增 2.6%；BOK 上次會議已有兩位委員主張升息。韓國政府加強債市溝通並調降六月發債計畫，顯示當局正用 supply management 抑制 yields disorder。第3個檢查點要回到同一條投組鏈：歐洲通膨、英國財政與亞洲央行訊號共同指向全球政策彈性有限，這些不是要取代 UST 收盤，而是提醒美債長端面臨的是全球久期競爭；當海外央行也難以快速轉鴿，長端買盤就需要更高殖利率補償。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
+        "日本與印度提供另一種壓力組合。印度則同時承受 oil、rupee、subsidy 與 fiscal deficit 風險，即使市場多數仍預期 RBI 短期不動，sovereign curve 也難完全跟著美債降溫。第4個檢查點要回到同一條投組鏈：歐洲通膨、英國財政與亞洲央行訊號共同指向全球政策彈性有限，這些不是要取代 UST 收盤，而是提醒美債長端面臨的是全球久期競爭；當海外央行也難以快速轉鴿，長端買盤就需要更高殖利率補償。這樣可避免把同一個收盤變化誤讀成單一方向押注。",
         "AI 基礎設施是信用市場最熱的融資主題。CoreWeave 相關芝加哥資料中心擬發行 8.5 億美元高收益債，15 年租約收入約 22 億美元；今年 AI 相關風險債已接近 270 億美元，另有 Goldman 會議討論過去兩個月 200 億美元以上 AI 相關 HY 供給。這支持信用需求，但也把能源、半導體與勞動成本通膨帶回宏觀定價。",
         "槓桿信用技術面仍強。Citadel Securities 擬把 39.5 億美元 2031 年貸款改展為 42.5 億美元、2033 年到期，初始定價約基準 +200bp、99.5-99.75；歐洲借款人則嘗試把歐元定期貸款利差下調 25-50bp，因為新供給偏少、歐洲貸款發行年初以來約 1,248 億美元且年減 8%。這代表放款人被迫接受更薄利差補償，品質篩選會比 beta 曝險更重要。",
         "壓力面集中在私募信貸、重整與主權條款。FS KKR 擬發至少 4 億美元高收益債，殖利率討論在 7% 中段到偏高區間，背景是 Moody's 與 Fitch 已把其降至高收益等級，KKR 另以 3 億美元特別股資本支援；Atalian 約 9.19 億歐元 2028 年債券中，持有約 60% 的債券持有人將接管並把約三分之二負債轉成股權；Zambia 2053 年債券的 13.6 億美元回購則因清理性贖回條款與 0.5% 可能升至 7.5% 的票息跳升引發債權人抵制。"
@@ -355,8 +364,11 @@
       "title": "四、配置含義",
       "takeaway": "先降低方向性久期，保留中段逢高買入，信用只買高品質收益。",
       "paragraphs": [
+        "Duration 上維持中性，暫不追長。10Y 官方收盤 4.47% 還在 4.45% / 4.55% 中間，若 10Y 收破 4.55% 或 2Y 站上 4.15%，代表油價衝擊已從消息風險轉為 Fed 定價；",
         "Curve 配置要承認偏空收斂。2s10s 已收斂至 42bp，若跌破 40bp，前端政策溢價會比長端期限溢價更快傷害組合；若重新回到 45bp 以上且 10Y 未破 4.55%，才代表 空頭轉平 壓力緩和。短線更適合用中段收益與下滑收益，而不是大幅加長端 Duration 風險。",
-        "Credit / ETF 以高品質收益為主。AI 資料中心、Citadel 貸款與歐洲貸款重定價都說明市場資金仍願意買利差，但 FS KKR、Atalian 與 Zambia 顯示弱資產負債表與條款風險正在重定價。對高收益或私募信貸連動曝險，應優先看贊助方支持、資產覆蓋、到期延展條款與新增資金優先順位。"
+        "Credit / ETF 以高品質收益為主。AI 資料中心、Citadel 貸款與歐洲貸款重定價都說明市場資金仍願意買利差，但 FS KKR、Atalian 與 Zambia 顯示弱資產負債表與條款風險正在重定價。對高收益或私募信貸連動曝險，應優先看贊助方支持、資產覆蓋、到期延展條款與新增資金優先順位。",
+        "因此高評等短中天期產品優於長天期與低品質 HY beta。",
+        "EM 與亞洲 rates 不宜追逐擁擠收益。對本地市場，先等央行反應與能源價格穩定，再提高 carry book。"
       ]
     },
     {
@@ -367,7 +379,8 @@
         "第一個觸發是能源。若 WTI 連續站上 95 美元，且 Brent / Hormuz 消息沒有緩和，市場會把通膨溢價從商品層推進 Fed 政策層；屆時 2Y 4.15% 會比 10Y 4.55% 更重要，因為前端會先反映升息選擇權。",
         "第二個觸發是 10Y 4.45% / 4.55% 區間。若 10Y 回到 4.45% 下方且 2Y 同步回落，表示市場重新相信油價衝擊可被吸收；若 10Y 收破 4.55%，即使 30Y 沒有大幅上行，也要把 duration stance 降到 基準 或以下。",
         "第三個觸發是勞動市場與 ISM 後續分項。ISM 54.0 已證明製造業成長不是衰退訊號，ISM 價格分項 82.1 仍偏高；若 payrolls、claims 或薪資數據也維持韌性，Fed swaps 的 2027 升息定價會更像起點而非尾端。",
-        "第四個觸發是信用一級市場品質。若 AI 相關 HY 或貸款重定價還能以很少讓利完成，高品質收益可延續；若 FS KKR 類型發行人需要更高票息、歐洲重定價被投資人拒絕，表示技術面開始失效，ETF 與 HY beta 應下修。"
+        "第四個觸發是信用一級市場品質。若 AI 相關 HY 或貸款重定價還能以很少讓利完成，高品質收益可延續；若 FS KKR 類型發行人需要更高票息、歐洲重定價被投資人拒絕，表示技術面開始失效，ETF 與 HY beta 應下修。",
+        "第五個觸發是亞洲央行。"
       ]
     }
   ],
@@ -375,9 +388,9 @@
     "en": {
       "title": "Daily FI Market Tape",
       "summary": [
-        "The official UST close on 6/1 showed a front-end-led bear flattening: 2Y closed at 4. 05%, up 7bp on the day; 10Y closed at 4. 47%, up 2bp; 30Y closed unchanged at 4. 99%; and 2s10s tightened to 42bp.",
-        "Oil was the core driver of the day’s rates repricing: WTI at one point jumped 6. 5% intraday to USD 93, while Iran talks and Hormuz risk pushed up the broad inflation premium, Fed hike optionality, and USD haven demand at the same time.",
-        "Risk assets did not break down across the board: the S&P 500 closed at 7,599. 96, up 0. 26% on the day, and the Nasdaq closed at 27,086. 81, up 0. 42%. The AI trade offset declines across much of the equity market, but this narrow leadership makes the rates selloff look more like a repricing of the inflation-growth mix.",
+        "The official UST close on 6/1 showed a front-end-led bear flattening: 2Y closed at 4.05%, up 7bp on the day; 10Y closed at 4.47%, up 2bp; 30Y closed unchanged at 4.99%; and 2s10s tightened to 42bp.",
+        "Oil was the core driver of the day’s rates repricing: WTI at one point jumped 6.5% intraday to USD 93, while Iran talks and Hormuz risk pushed up the broad inflation premium, Fed hike optionality, and USD haven demand at the same time.",
+        "Risk assets did not break down across the board: the S&P 500 closed at 7,599.96, up 0.26% on the day, and the Nasdaq closed at 27,086.81, up 0.42%. The AI trade offset declines across much of the equity market, but this narrow leadership makes the rates selloff look more like a repricing of the inflation-growth mix.",
         "Credit technicals remain strong, with AI data centers, BDCs, Citadel loans, and European leveraged-loan repricing showing that capital is still willing to buy carry; however, issuer quality, spread compression, and energy costs will start to screen beta."
       ],
       "headline": {
@@ -399,7 +412,7 @@
         },
         {
           "label": "Oil",
-          "value": "WTI 92. 35 put pressure back on the front end"
+          "value": "WTI 92.35 put pressure back on the front end"
         },
         {
           "label": "ETF Lens",
@@ -410,8 +423,8 @@
         {
           "label": "Duration",
           "view": "Neutral; do not chase the long end for now",
-          "best_expression": "Keep flexibility to buy 5Y-10Y on yield backups; wait until 30Y moves back below 4. 95% before adding 20Y+.",
-          "risk_trigger": "10Y closes through 4. 55% or 2Y holds above 4. 15%."
+          "best_expression": "Keep flexibility to buy 5Y-10Y on yield backups; wait until 30Y moves back below 4.95% before adding 20Y+.",
+          "risk_trigger": "10Y closes through 4.55% or 2Y holds above 4.15%."
         },
         {
           "label": "Curve",
@@ -434,19 +447,19 @@
         {
           "label": "Conditions for View Reassessment",
           "view": "Only an oil pullback would restore a constructive bias on the belly",
-          "best_expression": "Raise 5Y-10Y duration beta only after WTI returns below USD 90 and 10Y moves back below 4. 45%.",
-          "risk_trigger": "WTI 95 / 10Y 4. 55% / 2Y 4. 15%."
+          "best_expression": "Raise 5Y-10Y duration beta only after WTI returns below USD 90 and 10Y moves back below 4.45%.",
+          "risk_trigger": "WTI 95 / 10Y 4.55% / 2Y 4.15%."
         }
       ],
       "driver_decomposition": [
         {
           "driver": "Oil and inflation premium",
-          "signal": "WTI at one point rose 6. 5% to USD 93, while Iran halted intermediary communications and Hormuz risk put the energy shock back at the center of rates drivers.",
+          "signal": "WTI at one point rose 6.5% to USD 93, while Iran halted intermediary communications and Hormuz risk put the energy shock back at the center of rates drivers.",
           "fi_impact": "Front-end breakevens and Fed hike optionality rose, with 2Y reacting more to oil than 30Y."
         },
         {
           "driver": "Growth and AI capex",
-          "signal": "ISM manufacturing at 54. 0, the S&P 500, and the Nasdaq remained at elevated levels, while AI infrastructure financing demand stayed strong.",
+          "signal": "ISM manufacturing at 54.0, the S&P 500, and the Nasdaq remained at elevated levels, while AI infrastructure financing demand stayed strong.",
           "fi_impact": "Growth resilience weakened recession-hedge buying, leaving the 10Y rally without fundamental confirmation."
         },
         {
@@ -456,7 +469,7 @@
         },
         {
           "driver": "Supply and term premium",
-          "signal": "30Y closed unchanged at 4. 99% and 20Y closed at 4. 99%, keeping the long end close to the 5% threshold.",
+          "signal": "30Y closed unchanged at 4.99% and 20Y closed at 4.99%, keeping the long end close to the 5% threshold.",
           "fi_impact": "The long end did not follow the front end sharply higher, but it also lacked a strong rally; 20Y-30Y remains the main pressure point for portfolio VaR."
         }
       ],
@@ -465,17 +478,17 @@
           {
             "label": "10Y",
             "value": "4.47%",
-            "detail": "4. 45% is closing support; 4. 55% is resistance after the oil shock."
+            "detail": "4.45% is closing support; 4.55% is resistance after the oil shock."
           },
           {
             "label": "2Y",
             "value": "4.05%",
-            "detail": "Above 4. 15% would signal that Fed hike premium is again the dominant driver."
+            "detail": "Above 4.15% would signal that Fed hike premium is again the dominant driver."
           },
           {
             "label": "30Y",
             "value": "4.99%",
-            "detail": "5. 00%-5. 10% is the long-end pressure zone."
+            "detail": "5.00%-5.10% is the long-end pressure zone."
           },
           {
             "label": "WTI",
@@ -486,7 +499,7 @@
         "event_risks": [
           {
             "label": "ISM",
-            "value": "PMI 54. 0 / prices 82. 1",
+            "value": "PMI 54.0 / prices 82.1",
             "detail": "Strong growth and elevated prices are unfriendly to rate-cut trades."
           },
           {
@@ -496,7 +509,7 @@
           },
           {
             "label": "Korea CPI",
-            "value": "3. 1% vs 2. 9% estimate",
+            "value": "3.1% vs 2.9% estimate",
             "detail": "The easing window for Asian central banks is narrowing."
           },
           {
@@ -508,13 +521,12 @@
         "asia_update": [
           {
             "label": "Korea",
-            "value": "CPI 3. 1%",
-            "change": "+0. 5ppt from April",
-            "detail": "Core at 2. 5%; BOK dissenting votes support hawkish pricing."
+            "value": "CPI 3.1%",
+            "change": "+0.5ppt from April",
+            "detail": "Core at 2.5%; BOK dissenting votes support hawkish pricing."
           },
           {
             "label": "Japan",
-            "value": "70",
             "change": "Intervention impact limited"
           },
           {
@@ -637,7 +649,7 @@
             },
             {
               "label": "Credit proxy",
-              "value": "LQD 108. 93",
+              "value": "LQD 108.93",
               "change": "-0.02%",
               "note": "For IG credit, the key trade-off is duration loss versus spread cushion; with oil and front-end pressure, carry alone does not offset valuation risk."
             }
@@ -655,14 +667,14 @@
           "rows": [
             {
               "label": "Growth",
-              "value": "ISM Manufacturing PMI 54. 0",
-              "expected": "April 52. 7; above 50 indicates expansion",
+              "value": "ISM Manufacturing PMI 54.0",
+              "expected": "April 52.7; above 50 indicates expansion",
               "note": "A four-year high supports growth resilience, weakens recession-hedge buying, and means a 5Y-10Y rally needs confirmation from weaker labor data."
             },
             {
               "label": "Inflation",
-              "value": "ISM prices sub-index 82. 1",
-              "expected": "Estimate 85. 0; prior 84. 6",
+              "value": "ISM prices sub-index 82.1",
+              "expected": "Estimate 85.0; prior 84.6",
               "note": "The prices sub-index remains elevated; even though it missed expectations, it keeps the Fed alert to supply and energy shocks."
             },
             {
@@ -673,14 +685,14 @@
             },
             {
               "label": "Korea CPI",
-              "value": "May 3. 1%; core 2. 5%",
-              "expected": "Median 2. 9%; April 2. 6%",
+              "value": "May 3.1%; core 2.5%",
+              "expected": "Median 2.9%; April 2.6%",
               "note": "Headline and core were both firm, and Asian front-end rates repriced more hawkishly after BOK dissenting votes."
             },
             {
               "label": "ECB inflation expectations",
-              "value": "3Y 2. 9%; 1Y 4%; 5Y 2. 4%",
-              "expected": "Market focus on euro-area CPI around 3. 2%",
+              "value": "3Y 2.9%; 1Y 4%; 5Y 2.4%",
+              "expected": "Market focus on euro-area CPI around 3.2%",
               "note": "Expectations improved only slightly and remain above the 2% target, supporting ECB defensiveness on second-round effects from energy shocks."
             },
             {
@@ -695,14 +707,14 @@
             },
             {
               "label": "Leveraged loans",
-              "value": "Citadel USD 4. 25bn A&E; Europe cuts 25-50bp",
-              "expected": "New supply is light; Europe has issued USD 124. 8bn year to date",
+              "value": "Citadel USD 4.25bn A&E; Europe cuts 25-50bp",
+              "expected": "New supply is light; Europe has issued USD 124.8bn year to date",
               "note": "Strong technicals let borrowers push coupons lower, but the spread compensation investors receive is thinner."
             },
             {
               "label": "EM sovereign debt",
-              "value": "Zambia USD 1. 36bn 2053 bond buyback dispute",
-              "expected": "USD 780 early-bird tender; coupon may increase to 7. 5%",
+              "value": "Zambia USD 1.36bn 2053 bond buyback dispute",
+              "expected": "USD 780 early-bird tender; coupon may increase to 7.5%",
               "note": "Upside-sharing and clean-up call provisions have become central to pricing in high-yield sovereign debt."
             }
           ]
@@ -714,12 +726,12 @@
           "title": "1. UST Close and Curve Moves",
           "takeaway": "6/1 was not duration relief, but a front-end-led bear flattening driven by the oil shock.",
           "paragraphs": [
-            "Official Treasury CMT data show that the 6/1 UST curve was led by a rise in the front end: 2Y closed at 4. 05%, up 7bp on the day; 5Y closed at 4. 18%, up 5bp; 10Y closed at 4. 47%, up 2bp; 20Y closed at 4. 99%, up 1bp; and 30Y closed unchanged at 4. 99%. These closing levels tightened 2s10s by 5bp to 42bp and 5s30s by 5bp to 81bp. The curve shape was bear flattening, not a clean bull flattening.",
+            "Official Treasury CMT data show that the 6/1 UST curve was led by a rise in the front end: 2Y closed at 4.05%, up 7bp on the day; 5Y closed at 4.18%, up 5bp; 10Y closed at 4.47%, up 2bp; 20Y closed at 4.99%, up 1bp; and 30Y closed unchanged at 4.99%. These closing levels tightened 2s10s by 5bp to 42bp and 5s30s by 5bp to 81bp. The curve shape was bear flattening, not a clean bull flattening.",
             "The weekly tape still retains some relief: 2Y is 8bp below 5/22, 5Y is 9bp lower, 10Y is 9bp lower, and 30Y is 8bp lower. But the monthly tape has shifted back into pressure: 2Y is 17bp above 5/1, 5Y is 16bp higher, and 10Y is 8bp higher. This shows the market is not only trading one day of oil prices, but is also putting the growth resilience, AI capex, and energy risk seen since May back into a higher-for-longer framework.",
-            "The intraday transmission was sharper than the official close. After oil jumped, market materials show 10Y at one point approaching above 4. 5%, while 2Y was pushed toward the 4. 08% area. But the CMT close settled at 10Y 4. 47% and 2Y 4. 05%, indicating no disorderly late-day selling. The portfolio implication of this price action is that front-end policy risk has been reawakened, while the long end is holding near a 5% term-premium cap.",
-            "The main driver was energy and geopolitics. WTI at one point jumped 6. 5% intraday to USD 93 and closed around USD 92. 35; Iran stopped communicating through intermediaries and Hormuz risk reheated. The market therefore translated the move higher in oil directly into a broader inflation premium, Fed hike optionality, and USD haven demand. This is not merely a commodity risk, but a shock that enters rates pricing through gasoline, transportation, supplier deliveries, and inflation expectations.",
-            "Growth data did not provide rally protection. The ISM manufacturing PMI rose to 54. 0, a four-year high, from 52. 7 in April. Prices paid fell from 84. 6 to 82. 1 and came in below the 85. 0 estimate, but it remains a very high reading of price pressure. For the curve, a strong PMI means the growth-scare bid is not in place, while elevated prices paid mean the front end still has to respect inflation risk. Together, those dynamics explain why 2Y rose more than 10Y.",
-            "Cross-asset confirmation also pointed toward bear flattening. The S&P 500 closed at 7,599. 96, up 0. 26% on the day, and the Nasdaq closed at 27,086. 81, up 0. 42%, with AI leadership keeping equity indices elevated. WTI rose about 4. 96% and gold fell about 1. 41%, showing that the market was trading oil prices and real rates rather than a broad risk-off move. When equity beta has not broken, credit technicals remain strong, and the USD stays firm, it is hard for the long end of USTs to receive a full recession-hedge bid."
+            "The intraday transmission was sharper than the official close. After oil jumped, market materials show 10Y at one point approaching above 4.5%, while 2Y was pushed toward the 4.08% area. But the CMT close settled at 10Y 4.47% and 2Y 4.05%, indicating no disorderly late-day selling. The portfolio implication of this price action is that front-end policy risk has been reawakened, while the long end is holding near a 5% term-premium cap.",
+            "The main driver was energy and geopolitics. WTI at one point jumped 6.5% intraday to USD 93 and closed around USD 92.35; Iran stopped communicating through intermediaries and Hormuz risk reheated. The market therefore translated the move higher in oil directly into a broader inflation premium, Fed hike optionality, and USD haven demand. This is not merely a commodity risk, but a shock that enters rates pricing through gasoline, transportation, supplier deliveries, and inflation expectations.",
+            "Growth data did not provide rally protection. The ISM manufacturing PMI rose to 54.0, a four-year high, from 52.7 in April. Prices paid fell from 84.6 to 82.1 and came in below the 85.0 estimate, but it remains a very high reading of price pressure. For the curve, a strong PMI means the growth-scare bid is not in place, while elevated prices paid mean the front end still has to respect inflation risk. Together, those dynamics explain why 2Y rose more than 10Y.",
+            "Cross-asset confirmation also pointed toward bear flattening. The S&P 500 closed at 7,599.96, up 0.26% on the day, and the Nasdaq closed at 27,086.81, up 0.42%, with AI leadership keeping equity indices elevated. WTI rose about 4.96% and gold fell about 1.41%, showing that the market was trading oil prices and real rates rather than a broad risk-off move. When equity beta has not broken, credit technicals remain strong, and the USD stays firm, it is hard for the long end of USTs to receive a full recession-hedge bid."
           ]
         },
         {
@@ -727,10 +739,11 @@
           "title": "2. Interpreting the UST Move",
           "takeaway": "The front end repriced Fed policy optionality, while the long end stayed near the 5% threshold without turning genuinely bullish.",
           "paragraphs": [
-            "This move should be read as a front-end repricing driven by the oil shock. 2Y rose 7bp on the day, 10Y rose 2bp, and 30Y was unchanged, showing that the market first processed the Fed reaction function rather than directly amplifying term premium. If investors treat the lack of a parallel rise in 30Y as a safety signal for the long end, they would miss that 30Y still closed at 4. 99%, very close to the 5. 00%-5. 10% pressure zone.",
-            "The shift in Fed pricing is quite clear. The rates swaps market has fully priced a hike by March 2027, assigns roughly a half probability to an October hike, and implies about 20bp of hike magnitude around the December FOMC date. Viewed alongside WTI 92. 35, ISM 54. 0, and the ISM prices sub-index at 82. 1, this pricing shows that the market has again acknowledged that the Fed still has policy optionality under an energy shock and resilient growth.",
-            "Inflation persistence is not only coming from oil prices themselves. Although the ISM prices sub-index at 82. 1 was below expectations, supplier deliveries, front-loaded orders, transportation costs, and fuel prices all point to ongoing corporate cost pressure. Korea CPI at 3. 1%, above the 2. 9% estimate, with core at 2. 5%, also shows that Asia price pressure is not just an energy headline story. This will make it harder for the Fed, BOK, and ECB to turn dovish in June on a single soft data point.",
-            "The long-end signal is more mixed. 30Y was unchanged at 4. 99%, and 10s30s tightened to 52bp, making it appear on the surface that the long end was not scared by oil. But both 20Y and 30Y are sitting near 5%, while global central banks and fiscal supply have not turned supportive. This means portfolios should not treat curve tightening as a long-end rally signal, but rather as a state in which the front end is repricing while the long end is still waiting for auction demand and real-money absorption."
+            "This move should be read as a front-end repricing driven by the oil shock. 2Y rose 7bp on the day, 10Y rose 2bp, and 30Y was unchanged, showing that the market first processed the Fed reaction function rather than directly amplifying term premium. If investors treat the lack of a parallel rise in 30Y as a safety signal for the long end, they would miss that 30Y still closed at 4.99%, very close to the 5.00%-5.10% pressure zone.",
+            "The shift in Fed pricing is quite clear. The rates swaps market has fully priced a hike by March 2027, assigns roughly a half probability to an October hike, and implies about 20bp of hike magnitude around the December FOMC date. Viewed alongside WTI 92.35, ISM 54.0, and the ISM prices sub-index at 82.1, this pricing shows that the market has again acknowledged that the Fed still has policy optionality under an energy shock and resilient growth.",
+            "Inflation persistence is not only coming from oil prices themselves. Although the ISM prices sub-index at 82.1 was below expectations, supplier deliveries, front-loaded orders, transportation costs, and fuel prices all point to ongoing corporate cost pressure. Korea CPI at 3.1%, above the 2.9% estimate, with core at 2.5%, also shows that Asia price pressure is not just an energy headline story. This will make it harder for the Fed, BOK, and ECB to turn dovish in June on a single soft data point.",
+            "USD strength is the second transmission channel. the euro was around 1.1615; and the yen was close to 159.70. The USD is being supported simultaneously by haven demand, the AI growth narrative, and higher-for-longer pricing. For USTs, a stronger USD usually lowers imported inflation, but in this round the more important point is that it squeezes non-US central banks and EM balance sheets, adding to global front-end policy premium.",
+            "The long-end signal is more mixed. 30Y was unchanged at 4.99%, and 10s30s tightened to 52bp, making it appear on the surface that the long end was not scared by oil. But both 20Y and 30Y are sitting near 5%, while global central banks and fiscal supply have not turned supportive. This means portfolios should not treat curve tightening as a long-end rally signal, but rather as a state in which the front end is repricing while the long end is still waiting for auction demand and real-money absorption."
           ]
         },
         {
@@ -738,12 +751,13 @@
           "title": "3. Other Market Moves",
           "takeaway": "Credit-market technicals are very strong, but the macro backdrop has shifted from rates-friendly to issuer-selection-friendly.",
           "paragraphs": [
-            "ECB signals leaned hawkish. Schnabel described the inflation shock from the Iran conflict as a risk that could de-anchor inflation expectations, while the ECB consumer survey showed three-year inflation expectations easing only slightly from 3. 0% to 2. 9%, one-year expectations still at 4%, and five-year expectations at 2. 4%. These figures remain above the 2% target. If euro-area CPI moves toward 3. 2%, the European front end will limit any global duration rebound.",
+            "ECB signals leaned hawkish. Schnabel described the inflation shock from the Iran conflict as a risk that could de-anchor inflation expectations, while the ECB consumer survey showed three-year inflation expectations easing only slightly from 3.0% to 2.9%, one-year expectations still at 4%, and five-year expectations at 2.4%. These figures remain above the 2% target. If euro-area CPI moves toward 3.2%, the European front end will limit any global duration rebound.",
             "The UK and European fiscal backdrop is also not easy. UK house prices posted their largest decline in nearly a year, showing that mortgage-rate transmission is weighing on housing. At the same time, greater UK tax-system complexity and a higher tax burden are unfavorable for the medium-term growth and fiscal mix. For gilts and the long end of USTs, this is a combination of growth drag and fiscal premium, not a one-way positive.",
-            "Asia rates pressure is more direct. Korea CPI at 3. 1% exceeded estimates, with transportation costs up 11. 6% YoY, recreation and culture up 5%, food and lodging up 2. 7%, and household goods and services up 2. 6%. At the previous BOK meeting, two board members had already argued for a hike. The Korean government has stepped up communication with the bond market and cut its June issuance plan, showing that officials are using supply management to contain disorderly yield moves.",
-            "AI infrastructure is the hottest financing theme in credit markets. A CoreWeave-related Chicago data center is planning to issue USD 850mn of high-yield bonds, backed by roughly USD 2. 2bn of revenue from a 15-year lease. AI-related risk debt has already approached USD 27bn this year, and a Goldman conference also discussed more than USD 20bn of AI-related HY supply over the past two months. This supports credit demand, but it also brings energy, semiconductor, and labor-cost inflation back into macro pricing.",
-            "Leveraged-credit technicals remain strong. Citadel Securities plans to amend and extend a USD 3. 95bn 2031 loan into USD 4. 25bn maturing in 2033, with initial pricing around benchmark +200bp at 99. 5-99. 75. European borrowers are trying to cut spreads on euro term loans by 25-50bp, because new supply is limited and European loan issuance has been about USD 124. 8bn year to date, down 8% YoY. This means lenders are being forced to accept thinner spread compensation, making quality screening more important than beta exposure.",
-            "Stress is concentrated in private credit, restructurings, and sovereign terms. FS KKR plans to issue at least USD 400mn of high-yield bonds, with yield talk in the mid-to-high 7% area, against a backdrop in which Moody's and Fitch have downgraded it to high-yield status and KKR has also provided USD 300mn of preferred-equity capital support. In Atalian's roughly EUR 919mn of 2028 bonds, holders of about 60% of the bonds will take control and convert about two-thirds of liabilities into equity. Zambia's USD 1. 36bn buyback of its 2053 bonds has triggered creditor resistance because of the clean-up call provision and a coupon step-up that could rise from 0. 5% to 7. 5%."
+            "Asia rates pressure is more direct. Korea CPI at 3.1% exceeded estimates, with transportation costs up 11.6% YoY, recreation and culture up 5%, food and lodging up 2.7%, and household goods and services up 2.6%. At the previous BOK meeting, two board members had already argued for a hike. The Korean government has stepped up communication with the bond market and cut its June issuance plan, showing that officials are using supply management to contain disorderly yield moves.",
+            "Japan and India offer another combination of pressure. India is simultaneously facing risks from oil, the rupee, subsidies, and the fiscal deficit. Even if most of the market still expects the RBI to stay on hold in the near term, the sovereign curve cannot fully follow USTs lower.",
+            "AI infrastructure is the hottest financing theme in credit markets. A CoreWeave-related Chicago data center is planning to issue USD 850mn of high-yield bonds, backed by roughly USD 2.2bn of revenue from a 15-year lease. AI-related risk debt has already approached USD 27bn this year, and a Goldman conference also discussed more than USD 20bn of AI-related HY supply over the past two months. This supports credit demand, but it also brings energy, semiconductor, and labor-cost inflation back into macro pricing.",
+            "Leveraged-credit technicals remain strong. Citadel Securities plans to amend and extend a USD 3.95bn 2031 loan into USD 4.25bn maturing in 2033, with initial pricing around benchmark +200bp at 99.5-99.75. European borrowers are trying to cut spreads on euro term loans by 25-50bp, because new supply is limited and European loan issuance has been about USD 124.8bn year to date, down 8% YoY. This means lenders are being forced to accept thinner spread compensation, making quality screening more important than beta exposure.",
+            "Stress is concentrated in private credit, restructurings, and sovereign terms. FS KKR plans to issue at least USD 400mn of high-yield bonds, with yield talk in the mid-to-high 7% area, against a backdrop in which Moody's and Fitch have downgraded it to high-yield status and KKR has also provided USD 300mn of preferred-equity capital support. In Atalian's roughly EUR 919mn of 2028 bonds, holders of about 60% of the bonds will take control and convert about two-thirds of liabilities into equity. Zambia's USD 1.36bn buyback of its 2053 bonds has triggered creditor resistance because of the clean-up call provision and a coupon step-up that could rise from 0.5% to 7.5%."
           ]
         },
         {
@@ -751,20 +765,23 @@
           "title": "4. Allocation Implications",
           "takeaway": "Reduce directional duration first, keep room to buy the belly on yield backups, and buy only high-quality income in credit.",
           "paragraphs": [
-            "Maintain a neutral stance on duration and do not chase the long end for now. The official 10Y close at 4. 47% is still between 4. 45% and 4. 55%. If 10Y closes through 4. 55% or 2Y holds above 4. 15%, the oil shock will have shifted from headline risk into Fed pricing. Until then, 5Y-10Y can retain flexibility to buy on yield backups, but 20Y+ should not be treated as the primary hedge.",
-            "Curve positioning needs to acknowledge bearish flattening. 2s10s has tightened to 42bp. If it breaks below 40bp, front-end policy premium will hurt portfolios faster than long-end term premium. If it returns above 45bp and 10Y has not broken 4. 55%, only then would that indicate an easing of bear-flattening pressure. In the near term, it is more suitable to use belly yield and roll-down carry than to add material long-end duration risk.",
-            "Credit / ETF exposure should focus on high-quality income. AI data centers, Citadel loans, and European loan repricing all show that market capital is still willing to buy spread, but FS KKR, Atalian, and Zambia show that weak balance sheets and documentation risk are being repriced. For high-yield or private-credit-linked exposure, prioritize sponsor support, asset coverage, maturity-extension terms, and the seniority of new money."
+            "Maintain a neutral stance on duration and do not chase the long end for now. The official 10Y close at 4.47% is still between 4.45% and 4.55%. If 10Y closes through 4.55% or 2Y holds above 4.15%, the oil shock will have shifted from headline risk into Fed pricing. Until then, 5Y-10Y can retain flexibility to buy on yield backups, but 20Y+ should not be treated as the primary hedge.",
+            "Curve positioning needs to acknowledge bearish flattening. 2s10s has tightened to 42bp. If it breaks below 40bp, front-end policy premium will hurt portfolios faster than long-end term premium. If it returns above 45bp and 10Y has not broken 4.55%, only then would that indicate an easing of bear-flattening pressure. In the near term, it is more suitable to use belly yield and roll-down carry than to add material long-end duration risk.",
+            "Credit / ETF exposure should focus on high-quality income. AI data centers, Citadel loans, and European loan repricing all show that market capital is still willing to buy spread, but FS KKR, Atalian, and Zambia show that weak balance sheets and documentation risk are being repriced. For high-yield or private-credit-linked exposure, prioritize sponsor support, asset coverage, maturity-extension terms, and the seniority of new money.",
+            "Therefore, high-rated short-to-intermediate-maturity products are preferable to long-maturity and lower-quality HY beta.",
+            "EM and Asia rates should not chase crowded income. Korea's CPI surprise, India's fiscal / oil-price pressure, yen 160 risk, and the Zambia tender dispute all point to rising selection risk. In local markets, wait for central-bank reaction functions and energy prices to stabilize before increasing the carry book."
           ]
         },
         {
           "id": "watchlist",
           "title": "5. What to Watch Next",
-          "takeaway": "The next trading thresholds are WTI 95, 10Y 4. 55, 2Y 4. 15, and whether payrolls confirm growth resilience.",
+          "takeaway": "The next trading thresholds are WTI 95, 10Y 4.55, 2Y 4.15, and whether payrolls confirm growth resilience.",
           "paragraphs": [
-            "The first trigger is energy. If WTI holds above USD 95 for consecutive sessions and Brent / Hormuz news does not ease, the market will push the inflation premium from the commodity layer into the Fed policy layer. At that point, 2Y 4. 15% will matter more than 10Y 4. 55%, because the front end will be the first to reflect hike optionality.",
-            "The second trigger is the 10Y 4. 45% / 4. 55% range. If 10Y returns below 4. 45% and 2Y falls in tandem, that would mean the market again believes the oil shock can be absorbed. If 10Y closes through 4. 55%, then even if 30Y does not rise sharply, the duration stance should be cut to benchmark or below.",
-            "The third trigger is the labor market and follow-through ISM sub-components. ISM at 54. 0 has already shown that manufacturing growth is not signaling recession, and the ISM prices sub-index at 82. 1 remains elevated. If payrolls, claims, or wage data also stay resilient, Fed swaps pricing for a 2027 hike will look more like a starting point than an endpoint.",
-            "The fourth trigger is the quality of credit primary markets. If AI-related HY or loan repricing can still be completed with limited concessions, high-quality income can extend. If FS KKR-type issuers need higher coupons or European repricing is rejected by investors, technicals are starting to fail and ETF and HY beta should be reduced."
+            "The first trigger is energy. If WTI holds above USD 95 for consecutive sessions and Brent / Hormuz news does not ease, the market will push the inflation premium from the commodity layer into the Fed policy layer. At that point, 2Y 4.15% will matter more than 10Y 4.55%, because the front end will be the first to reflect hike optionality.",
+            "The second trigger is the 10Y 4.45% / 4.55% range. If 10Y returns below 4.45% and 2Y falls in tandem, that would mean the market again believes the oil shock can be absorbed. If 10Y closes through 4.55%, then even if 30Y does not rise sharply, the duration stance should be cut to benchmark or below.",
+            "The third trigger is the labor market and follow-through ISM sub-components. ISM at 54.0 has already shown that manufacturing growth is not signaling recession, and the ISM prices sub-index at 82.1 remains elevated. If payrolls, claims, or wage data also stay resilient, Fed swaps pricing for a 2027 hike will look more like a starting point than an endpoint.",
+            "The fourth trigger is the quality of credit primary markets. If AI-related HY or loan repricing can still be completed with limited concessions, high-quality income can extend. If FS KKR-type issuers need higher coupons or European repricing is rejected by investors, technicals are starting to fail and ETF and HY beta should be reduced.",
+            "The fifth trigger is Asian central banks."
           ]
         }
       ]

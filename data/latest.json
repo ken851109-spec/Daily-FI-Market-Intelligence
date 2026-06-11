@@ -12,7 +12,7 @@
   ],
   "headline": {
     "primary": "核心 CPI 給 Fed 等待空間，但油價與長端壓力讓 Duration 只能分批",
-    "secondary": "10Y 4.55%、30Y 5.03%；"
+    "secondary": "10Y 4.55%、30Y 5.03%；SOX 與 credit proxy 同步偏弱，配置偏 5Y-10Y 與高品質 credit。"
   },
   "regime_strip": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "driver": "Credit proxy",
-      "signal": "LQD -0. 23%、HYG -0. 19%、EMB -0. 33%",
+      "signal": "LQD -0.23%、HYG -0.19%、EMB -0.33%",
       "fi_impact": "ETF proxy 偏弱，先視為 rates drag 加 beta 降溫，不直譯為當日 OAS。"
     }
   ],
@@ -93,17 +93,17 @@
     "key_levels": [
       {
         "label": "10Y UST",
-        "value": "4. 55% close",
+        "value": "4.55% close",
         "detail": "<4.50 可提高 5Y-10Y；>4.65 降低 Duration"
       },
       {
         "label": "30Y UST",
-        "value": "5. 03% close",
+        "value": "5.03% close",
         "detail": "<4.95 才提高 20Y+；>5.08 代表長端壓力回來"
       },
       {
         "label": "Brent",
-        "value": "$94. 27 close",
+        "value": "$94.27 close",
         "detail": "<92 支持 relief；>98 重新推升通膨與 Fed 風險"
       },
       {
@@ -263,8 +263,8 @@
         },
         {
           "label": "Credit Proxy",
-          "value": "LQD 108. 16 / HYG 79. 47 / EMB 95. 35",
-          "change": "LQD -0. 23% / HYG -0. 19% / EMB -0. 33%",
+          "value": "LQD 108.16 / HYG 79.47 / EMB 95.35",
+          "change": "LQD -0.23% / HYG -0.19% / EMB -0.33%",
           "note": "ETF proxy 顯示 rates drag 與 beta 同步偏弱；不等於當日 OAS 走闊"
         }
       ]
@@ -280,9 +280,9 @@
       ],
       "rows": [
         {
-          "label": "U. S. CPI",
-          "value": "headline +4. 2% y/y； core +0. 2% m/m",
-          "expected": "headline +4. 2% y/y； core +0. 3% m/m",
+          "label": "U.S. CPI",
+          "value": "headline +4.2% y/y； core +0.2% m/m",
+          "expected": "headline +4.2% y/y； core +0.3% m/m",
           "note": "核心低於預期給 Fed 等待空間，但 headline 四字頭與油價反彈使降息敘事仍缺乏支撐"
         },
         {
@@ -336,9 +336,11 @@
       "title": "一、美債收盤與曲線變化",
       "takeaway": "核心 CPI 低於預期只帶來短暫 relief；10Y 回到 4.55%、30Y 仍在 5.03%，曲線訊號偏向長端壓力未解除。",
       "paragraphs": [
+        "06/10 close 的 UST tape 不是乾淨 bull rally。2Y 收 4.13% 持平、5Y 收 4.27% 上 1bp、10Y 收 4.55% 上 2bp、30Y 收 5.03% 上 2bp，核心 CPI 低於預期後的利率下行沒有守到收盤。對固定收益部位來說，這代表 5Y-10Y 可保留小幅承接，但 20Y+ 仍要用 30Y 是否離開 5% 區來確認。這一段的配置含義是，若隔日 30Y 標售無法帶動長端降溫，今天的利率回升會被視為供給週與油價共同壓力，而不是單純技術雜訊。",
         "曲線變化顯示壓力不在單一前端。2s10s 收 42bp、日變動 +2bp，5s30s 收 76bp、日變動 +1bp，10s30s 維持 48bp；這不是前端單獨降溫後的完整風險修復，而是長端跟著油價與供給週重新抬頭。配置上，中段比超長端更容易控制 drawdown，因為 30Y 的 convexity 仍會放大 20Y+ ETF price return。對 ETF 交易而言，曲線訊號比單一 10Y close 更重要；若 5s30s 重新擴大，長端基金的價格波動會比中段基金更快放大。",
         "與一週前相比，2Y 上升 5bp、5Y 上升 6bp、10Y 上升 6bp、30Y 上升 4bp，顯示本周的 CPI relief 沒有扭轉上周非農後的整體利率上移。與一個月前相比，2Y +13bp、5Y +15bp、10Y +9bp，30Y 幾乎持平，代表市場重新定價主要還是政策路徑與 belly，長端則一直被 5% 附近的 期限溢價與供給吸收約束。這也讓月度比較有用：它說明現在不是低位重新定價，而是在高位區間中等待下一個觸發，部位管理必須比 headline CPI 更細。",
-        "CPI 細節本身給 Fed 一點等待空間：headline 年增 4.2% 符合市場預期，core 月增 0.2% 低於 0.3% 預期。問題是當日 Brent +3.1%、WTI +3.8%，美軍再度打擊伊朗又把能源風險推回前台，所以收盤後的利率訊號更像「核心通膨暫緩、能源尾端續壓」，而不是 Fed 可以轉向降息的確認。因此，盤面定義應把通膨資料、油價與供給週放在同一張圖上看；只取 core CPI 一個數字會高估今日的利率修復品質。"
+        "CPI 細節本身給 Fed 一點等待空間：headline 年增 4.2% 符合市場預期，core 月增 0.2% 低於 0.3% 預期。問題是當日 Brent +3.1%、WTI +3.8%，美軍再度打擊伊朗又把能源風險推回前台，所以收盤後的利率訊號更像「核心通膨暫緩、能源尾端續壓」，而不是 Fed 可以轉向降息的確認。因此，盤面定義應把通膨資料、油價與供給週放在同一張圖上看；只取 core CPI 一個數字會高估今日的利率修復品質。",
+        "今日重點回到美元債本身的 price return。UST price return 對長天期產品偏負，中段產品只算輕微壓力；若 30Y 維持在 5% 上方，長久期 ETF 的 convexity 仍會放大日內小幅殖利率變化。這也是為什麼本日只支持 5Y-10Y 分批，而不是直接追 20Y+。"
       ]
     },
     {
@@ -346,8 +348,10 @@
       "title": "二、美債走勢解讀",
       "takeaway": "市場把 CPI 當成等待訊號而非轉鴿訊號；年底升息仍被定價，油價與供給讓 2Y-5Y relief 無法延伸成長端買盤。",
       "paragraphs": [
+        "政策反應函數的重點是「不急著升息」與「沒有理由降息」同時存在。市場利率訊息顯示，核心 CPI 低於預期讓 Fed 有等待空間，但 利率交換市場仍完整定價年底前升息，JPMorgan 的判讀也是 Fed 下周大概率按兵不動而非轉向寬鬆。這對 2Y-5Y 是雙向訊號：短線壓力減輕，但政策尾端還在。",
         "油價使這個 CPI relief 變得不完整。WTI 收 91.58、盤後一度到 92.45，Brent 收 94.27，已接近先前設定的 95/98 壓力區；如果能源價格停在高位，headline CPI 的四字頭會延長 Fed 對通膨預期的防守。對中段利率部位而言，真正的加碼條件不是 核心項目單月低一點，而是油價同步降回 92 下方。若能源價格繼續維持高位，CPI 的核心項目低於預期只能降低立即升息壓力，不能替 20Y+ 或低品質 credit 建立足夠安全邊際。",
         "長端還有供給與資本吸收問題。10Y 增發與 30Y 標售同周消化，30Y 收 5.03% 表示長端買盤沒有把殖利率推回 4.95% 下方；同時 Amazon 175 億美元貸款、SpaceX 約 750 億美元 IPO 需求與 AI 資本支出融資 都提醒市場，資本需求仍會與長天期需求 競爭。這不是把 AI 融資 當成當日 UST 主因，而是用來檢查 期限溢價是否容易消退。30Y 是否跌破 4.95% 是這裡的實務檢查點；若沒有跌破，新增資本需求與政府供給都仍會使長端買盤保持挑剔。",
+        "全球央行訊號也偏同一方向。BoC 維持 2.25%，但明確說油價造成政策兩難；SARB 與 BOJ 相關訊息都指向能源與通膨使央行不易快速轉鴿。對固定收益部位而言，這意味著美國前端即使因 CPI 小幅修復，也很難單靠一個月核心數據把全球 duration 重新推成 risk-on。全球央行的共同語氣會影響亞洲盤後續反應；若加拿大、日本與新興市場央行都因油價保留緊縮選項，外部利率壓力也會維持。",
         "因此，今天的 rates read 是中性偏防守：5Y-10Y 可以用分批方式觀察，因為 CPI 沒有再度惡化；但 10Y 需要回到 4.50% 下方、30Y 需要低於 4.95%，才有較完整的價格修復訊號。若 10Y 重新站上 4.65% 或 30Y 上破 5.08%，應把今日 CPI relief 視為失效。所以配置語言必須維持條件式：資料降低一部分風險，但市場還沒有給出足以全面提高長端或 credit beta 的價格確認。"
       ]
     },
@@ -358,16 +362,20 @@
       "paragraphs": [
         "Equity tape 不支持全面 re-risk。S&P 500 收 7,266.99、跌 1.62%，Nasdaq Composite 跌 1.98%，Dow 跌 1.87%，SOX 跌 3.57%；這不是只有 AI 單一股票修正，而是 oil shock、AI supply、CPI 後 Fed pricing 與資金吸收共同壓住風險資產。對 credit beta 來說，SOX 仍是最敏感的折現率與流動性溫度計。",
         "AI 與科技資本需求仍是重要背景。市場訊息顯示 Nvidia、Broadcom 轉弱，Super Micro 因 70 億美元增資大跌，Oracle 盤後也受資本支出壓力影響；信用與資金訊息則補上 Amazon 175 億美元貸款與 AI 相關借款需求。這些不是立刻推高 UST 的單一因素，但會讓投資人對長現金流股票、IG 供給與資本吸收能力更敏感。對 FI 而言，這條線索的用途是檢查長端買盤是否足以吸收新增 duration 與高品質信用供給，而不是把科技融資直接當成當日殖利率上行的主因。",
-        "Credit proxy 偏弱但要精準解讀。LQD 收 108.16、跌 0.23%，HYG 收 79.47、跌 0.19%，EMB 收 95.35、跌 0.33%；這組 ETF proxy 顯示 rates drag 與 beta 風險同時偏負，但不能寫成當日 OAS 走闊。只有當 HYG / JNK / EMB 延續弱於 LQD，且信用新聞出現讓利擴大、再融資壓力或低品質 default cycle，才升級成 spread beta 降風險。"
+        "油價是今日跨資產最直接的固收傳導。Brent +3.08%、WTI +3.83%，加上中東風險升溫，讓市場不能只看 core CPI 低於預期。若油價守在 95 附近，通膨平衡率會抬高長端風險補償，Fed 語氣也較難快速轉鴿，前端與中段因此難以形成乾淨的 bull rally。配置上，油價不是單獨的商品訊號，而是決定 CPI relief 能否轉成利率修復的外生門檻；Brent 低於 92 才支持加碼中段，站上 98 則取消 5Y-10Y re-risk。",
+        "Credit proxy 偏弱但要精準解讀。LQD 收 108.16、跌 0.23%，HYG 收 79.47、跌 0.19%，EMB 收 95.35、跌 0.33%；這組 ETF proxy 顯示 rates drag 與 beta 風險同時偏負，但不能寫成當日 OAS 走闊。只有當 HYG / JNK / EMB 延續弱於 LQD，且信用新聞出現讓利擴大、再融資壓力或低品質 default cycle，才升級成 spread beta 降風險。",
+        "跨資產壓力主要來自油價、長端供給與風險資產降權共同壓住 Duration。這會透過兩條管道影響債券 ETF：第一是 UST duration 對殖利率上行的價格敏感度，第二是 LQD/HYG/EMB 反映的 credit beta 與流動性折價。若兩條管道同時偏弱，配置應回到中段利率與高品質 credit，而不是追逐長端或低品質 beta。"
       ]
     },
     {
       "id": "allocation",
       "title": "四、配置含義",
-      "takeaway": "Base case 是 5Y-10Y 小幅承接、20Y+ 低配、IG carry 保留、HY beta 降權；",
+      "takeaway": "Base case 是 5Y-10Y 小幅承接、20Y+ 低配、IG carry 保留、HY beta 降權。",
       "paragraphs": [
+        "Duration 基準維持 5Y-10Y 優於 20Y+。10Y 4.55% 已有入場殖利率，但不是確認加碼；初步加碼需要 10Y 回到 4.50% 下方且油價不再推升通膨平衡率。30Y 5.03% 仍貼近壓力區，20Y+ ETF 的 price return 對 30Y 上破 5.08% 很敏感，因此不應只因核心 CPI 低於預期就追長端。若 30Y 無法在標售後回到 4.95% 下方，長端 convexity 仍會把小幅殖利率上行放大成較大的價格波動。",
         "Curve 上，5s30s 76bp、10s30s 48bp 代表長端沒有給出足夠確認。若 2Y 維持 4.10%-4.15% 而 30Y 不能跌破 4.95%，曲線交易應偏向中段 carry / roll-down，而不是用槓桿放大 30Y beta。若 CPI relief 延伸、Brent 回到 92 下方且 30Y 低於 4.95%，才把 20Y+ 從低配調回中性。",
         "Credit 配置 要先分品質。LQD/HYG/EMB 同跌，加上 Pimco 對低品質 borrower default cycle 的警告，支持 IG 與高流動性 ETF 優先；Amazon loan 與 AI funding 顯示高品質 borrower 仍有融資管道，但也會增加市場對供給吸收的要求。HY beta 只有在 HYG 重新站上 79.80、SOX 止跌、油價不再衝高時才重新評估。",
+        "ETF 配置的歸因改以利率與信用為核心。今日 LQD -0.23%、EMB -0.33%、30Y +2bp，代表美元債 price return 的壓力仍在；若 LQD/HYG 同跌而 SOX 續弱，應先降低低品質 beta，而不是用高票息補償價格風險。投組檢查的順序應是 UST duration、credit beta、流動性與事件觸發；只有在 30Y 回到 4.95% 下方且 LQD/HYG 穩住時，才把風險預算從中段利率延伸到更長 duration 或較高 beta。",
         "情境上，Base 是小幅中段 Duration、IG carry 與現金緩衝；risk-on 條件是 10Y <4.50%、30Y <4.95%、Brent <92 且 LQD/HYG 穩住；risk-off 條件是 10Y >4.65%、30Y >5.08%、Brent >98 或 HYG <79 且 SOX 繼續下破。這些條件未滿前，策略應是分批與歸因，不是單日 CPI 後全面 re-risk。"
       ]
     },
@@ -377,6 +385,7 @@
       "takeaway": "後續觸發集中在 10Y 4.50/4.65、30Y 4.95/5.08、Brent 92/98、LQD 108/HYG 79，以及 30Y auction 與 FOMC 語句。",
       "paragraphs": [
         "若 10Y 明確低於 4.50% 且 30Y 同步低於 4.95%，可把 5Y-10Y 從小幅承接升級為較完整的中段 Duration；若 10Y 回到 4.65% 以上，代表 core CPI relief 被油價、Fed pricing 或供給壓力抵銷，應降低中長天期部位。這是 rates bucket 的第一個 if/then。",
+        "若 Brent 回到 92 下方並維持，headline CPI 的能源尾端會降溫，Fed 下周語句可較偏等待；若 Brent 站上 98，市場會重新檢查油價 pass-through，2Y-5Y 會先反映升息尾端，5Y-10Y 加碼條件取消。",
         "若 30Y auction 後 30Y 仍守在 5.05%-5.08% 上方，20Y+ ETF 不宜加碼，因為供給與 期限溢價仍主導長端；若 30Y 回到 4.95% 下方且 5s30s 沒有重新 steepen，才表示長端買盤開始接手，可以把長端從低配調回中性。",
         "若 LQD 跌破 108 且 HYG 跌破 79，同時 SOX 延續弱勢，credit beta 應從「rates drag」升級為「信用與流動性同步降風險」；若 LQD 穩住、HYG 回到 79.80 上方且 EMB 不再下跌，IG carry 可以保留，HY beta 仍以小比例與高流動性為限。",
         "若 FOMC 前 Fed speakers 把 core CPI 低於預期描述成可等待，同時油價不再創高，市場可延長 5Y-10Y 的修復窗口；若 Fed 語句把 headline CPI、油價與薪資放在同一個通膨風險框架，2Y/5Y 的升息保護會重新變貴，所有長天期與低品質 credit add 都應延後。"
@@ -387,18 +396,18 @@
     "en": {
       "title": "Daily FI Market Tape | 2026-06-10 close",
       "summary": [
-        "Core CPI was softer than expected, but oil and Middle East risk pushed the 10Y back to 4. 55% and kept the 30Y at 5. 03%.",
-        "S&P 500 -1. 62%, SOX -3. 57% and Brent +3. 08% point to discount-rate and energy-tail pressure.",
+        "Core CPI was softer than expected, but oil and Middle East risk pushed the 10Y back to 4.55% and kept the 30Y at 5.03%.",
+        "S&P 500 -1.62%, SOX -3.57% and Brent +3.08% point to discount-rate and energy-tail pressure.",
         "LQD/HYG/EMB were all softer; treat them as credit proxies and rates-drag/beta signals, not direct OAS moves."
       ],
       "headline": {
         "primary": "Softer core CPI gives the Fed room to wait, but oil and long-end pressure keep duration staged",
-        "secondary": "10Y 4. 55%, 30Y 5. 03%;"
+        "secondary": "10Y at 4.55%, 30Y at 5.03%; SOX and credit proxies both weakened, favoring 5Y-10Y exposure and quality credit."
       },
       "regime_strip": [
         {
           "label": "Rates",
-          "value": "10Y 4. 55%; CPI relief faded by the close"
+          "value": "10Y 4.55%; CPI relief faded by the close"
         },
         {
           "label": "Curve",
@@ -406,15 +415,15 @@
         },
         {
           "label": "Risk",
-          "value": "SOX -3. 57%; AI beta still being reduced"
+          "value": "SOX -3.57%; AI beta still being reduced"
         },
         {
           "label": "Oil",
-          "value": "Brent 94. 27 keeps the Fed tail constrained"
+          "value": "Brent 94.27 keeps the Fed tail constrained"
         },
         {
           "label": "ETF Lens",
-          "value": "Modest 5Y-10Y; wait for 30Y <4. 95% before 20Y+"
+          "value": "Modest 5Y-10Y; wait for 30Y <4.95% before 20Y+"
         }
       ],
       "positioning": [
@@ -422,13 +431,13 @@
           "label": "Duration",
           "view": "Stage belly duration; underweight long end",
           "best_expression": "Modest 5Y-10Y exposure",
-          "risk_trigger": "Cut duration if 10Y >4. 65% or 30Y >5. 08%"
+          "risk_trigger": "Cut duration if 10Y >4.65% or 30Y >5.08%"
         },
         {
           "label": "Curve",
           "view": "Favor belly carry / roll-down",
           "best_expression": "Avoid chasing 30Y beta",
-          "risk_trigger": "Move 20Y+ back to neutral only if 30Y <4. 95%"
+          "risk_trigger": "Move 20Y+ back to neutral only if 30Y <4.95%"
         },
         {
           "label": "Credit / ETF",
@@ -439,34 +448,34 @@
         {
           "label": "Re-risk",
           "view": "Wait for at least two confirmations",
-          "best_expression": "10Y <4. 50, 30Y <4. 95, Brent <92, stable LQD/HYG",
+          "best_expression": "10Y <4.50, 30Y <4.95, Brent <92, stable LQD/HYG",
           "risk_trigger": "Delay re-risk if Brent >98 or SOX keeps breaking lower"
         }
       ],
       "driver_decomposition": [
         {
           "driver": "CPI / Fed",
-          "signal": "Headline +4. 2% y/y; core +0. 2% m/m below consensus",
+          "signal": "Headline +4.2% y/y; core +0.2% m/m below consensus",
           "fi_impact": "The Fed can wait, but the 2Y-5Y still needs hike-tail protection."
         },
         {
           "driver": "Oil / geopolitics",
-          "signal": "Brent 94. 27, WTI 91. 58; WTI reached 92. 45 after the close",
+          "signal": "Brent 94.27, WTI 91.58; WTI reached 92.45 after the close",
           "fi_impact": "Energy-tail risk constrains breakevens and Fed language; long-end rally needs oil relief."
         },
         {
           "driver": "UST supply",
           "signal": "$39B 10Y reopening followed by 30Y supply",
-          "fi_impact": "30Y 5. 03% shows supply-week term premium pressure, limiting 20Y+ ETF upside."
+          "fi_impact": "30Y 5.03% shows supply-week term premium pressure, limiting 20Y+ ETF upside."
         },
         {
           "driver": "AI / funding",
-          "signal": "Amazon $17. 5B loan and roughly $75B SpaceX IPO demand",
+          "signal": "Amazon $17.5B loan and roughly $75B SpaceX IPO demand",
           "fi_impact": "Capital absorption and IG supply keep risk premia sticky across long-end and tech beta."
         },
         {
           "driver": "Credit proxy",
-          "signal": "LQD -0. 23%, HYG -0. 19%, EMB -0. 33%",
+          "signal": "LQD -0.23%, HYG -0.19%, EMB -0.33%",
           "fi_impact": "ETF proxies are softer; read as rates drag plus beta cooling, not same-day OAS."
         }
       ],
@@ -474,17 +483,17 @@
         "key_levels": [
           {
             "label": "10Y UST",
-            "value": "4. 55% close",
-            "detail": "<4. 50 supports 5Y-10Y; >4. 65 cuts duration"
+            "value": "4.55% close",
+            "detail": "<4.50 supports 5Y-10Y; >4.65 cuts duration"
           },
           {
             "label": "30Y UST",
-            "value": "5. 03% close",
-            "detail": "<4. 95 supports 20Y+; >5. 08 revives long-end pressure"
+            "value": "5.03% close",
+            "detail": "<4.95 supports 20Y+; >5.08 revives long-end pressure"
           },
           {
             "label": "Brent",
-            "value": "$94. 27 close",
+            "value": "$94.27 close",
             "detail": "<92 supports relief; >98 revives inflation/Fed risk"
           },
           {
@@ -645,8 +654,8 @@
             },
             {
               "label": "Credit Proxy",
-              "value": "LQD 108. 16 / HYG 79. 47 / EMB 95. 35",
-              "change": "LQD -0. 23% / HYG -0. 19% / EMB -0. 33%",
+              "value": "LQD 108.16 / HYG 79.47 / EMB 95.35",
+              "change": "LQD -0.23% / HYG -0.19% / EMB -0.33%",
               "note": "ETF proxies point to rates drag and softer beta together; this is not a direct same-day OAS move."
             }
           ]
@@ -662,9 +671,9 @@
           ],
           "rows": [
             {
-              "label": "U. S. CPI",
-              "value": "Headline +4. 2% y/y; core +0. 2% m/m",
-              "expected": "Headline +4. 2% y/y; core +0. 3% m/m",
+              "label": "U.S. CPI",
+              "value": "Headline +4.2% y/y; core +0.2% m/m",
+              "expected": "Headline +4.2% y/y; core +0.3% m/m",
               "note": "Softer core gives the Fed room to wait, but four-handle headline inflation and oil keep rate-cut hopes weak."
             },
             {
@@ -681,13 +690,13 @@
             },
             {
               "label": "Middle East / oil",
-              "value": "Renewed U. S. strikes on Iran; WTI reached $92. 45 intraday",
+              "value": "Renewed U.S. strikes on Iran; WTI reached $92.45 intraday",
               "expected": "Watch Brent 95/98",
               "note": "If oil stays high, softer core CPI will not automatically translate into long-end adds."
             },
             {
               "label": "AI financing",
-              "value": "Amazon $17. 5B loan; SpaceX roughly $75B IPO demand",
+              "value": "Amazon $17.5B loan; SpaceX roughly $75B IPO demand",
               "expected": "AI capex / equity supply continues",
               "note": "Not the immediate UST driver, but it keeps capital absorption and IG supply sticky."
             },
@@ -699,14 +708,14 @@
             },
             {
               "label": "BoC",
-              "value": "Held at 2. 25%; oil shock creates a policy dilemma",
+              "value": "Held at 2.25%; oil shock creates a policy dilemma",
               "expected": "Market expected hold",
               "note": "Global central banks are treating oil as a constraint on dovish policy language."
             },
             {
               "label": "BOJ / JGB",
               "value": "Ueda absent but 6/15-16 hike expectations remain high; weak JGB 30Y demand",
-              "expected": "BOJ hike to 1. 00% still expected",
+              "expected": "BOJ hike to 1.00% still expected",
               "note": "Global long-end supply and weak super-long JGB demand limit confirmation for 20Y+ UST ETFs."
             }
           ]
@@ -716,11 +725,13 @@
         {
           "id": "rates_close",
           "title": "1. UST Close and Curve",
-          "takeaway": "Softer core CPI delivered only brief relief; the 10Y returned to 4. 55% and the 30Y stayed at 5. 03%, so long-end risk is not cleared.",
+          "takeaway": "Softer core CPI delivered only brief relief; the 10Y returned to 4.55% and the 30Y stayed at 5.03%, so long-end risk is not cleared.",
           "paragraphs": [
+            "The June 10 UST tape was not a clean bull rally. The 2Y closed unchanged at 4.13%, the 5Y rose 1bp to 4.27%, the 10Y rose 2bp to 4.55%, and the 30Y rose 2bp to 5.03%; the initial rate decline after softer core CPI did not survive into the close. For USDD bond ETFs, that supports only modest 5Y-10Y exposure while 20Y+ still needs the 30Y to move away from the 5% area.",
             "The curve signal was not a simple front-end relief story. 2s10s ended at 42bp, 2bp wider on the day, 5s30s ended at 76bp, 1bp wider, and 10s30s stayed at 48bp. Long-end pressure reappeared with oil and supply-week risk, so intermediate duration still offers a cleaner drawdown profile than super-long Treasury ETF beta.",
             "Compared with one week earlier, the 2Y is +5bp, the 5Y +6bp, the 10Y +6bp and the 30Y +4bp, so the CPI relief has not reversed the post-payroll rise in yields. Compared with one month earlier, the repricing remains concentrated in the 2Y-10Y sector, while the 30Y is roughly unchanged around 5%, showing that term premium and absorption constraints have stayed sticky.",
-            "The CPI details gave the Fed some room to wait: headline CPI was +4. 2% y/y, in line with expectations, and core CPI rose 0. 2% m/m versus 0. 3% expected. But Brent rose 3. 1%, WTI rose 3. 8%, and renewed U. S. strikes on Iran pushed energy risk back to the front, so the close looked like softer core inflation plus persistent oil-tail pressure, not a confirmation of Fed easing."
+            "The CPI details gave the Fed some room to wait: headline CPI was +4.2% y/y, in line with expectations, and core CPI rose 0.2% m/m versus 0.3% expected. But Brent rose 3.1%, WTI rose 3.8%, and renewed U.S. strikes on Iran pushed energy risk back to the front, so the close looked like softer core inflation plus persistent oil-tail pressure, not a confirmation of Fed easing.",
+            "ETF allocation no longer uses translation effects as a portfolio lens; the focus returns to USD bond price return. UST price return was negative for long-duration funds and only mildly negative for intermediate funds. If the 30Y stays above 5%, convexity can still amplify small yield increases in long-duration ETFs, which is why the tape supports staged 5Y-10Y exposure rather than chasing 20Y+ duration."
           ]
         },
         {
@@ -729,10 +740,10 @@
           "takeaway": "The market treated CPI as a waiting signal, not a dovish turn; a year-end hike remains priced and oil plus supply keep long-end confirmation weak.",
           "paragraphs": [
             "The policy reaction function is now a mix of no urgent hike and no reason to ease. Bloomberg sources said softer core CPI gives the Fed breathing room, but swaps still price a year-end hike, and JPMorgan framed the data as consistent with a hold rather than a dovish pivot. That leaves the 2Y-5Y sector two-way: less immediate pressure, but the policy tail remains alive.",
-            "Oil makes the CPI relief incomplete. WTI closed at 91. 58 and traded as high as 92. 45 after the close, while Brent closed at 94. 27, close to the 95/98 pressure zone. If energy stays elevated, the four-handle headline CPI reading will keep the Fed defending inflation expectations; for belly duration, the stronger add signal would be oil back below 92, not core CPI alone.",
-            "The long end still faces supply and capital-absorption checks. The $39 billion 10Y reopening and the 30Y sale sit in the same supply week, while the 30Y close at 5. 03% shows buyers have not pulled the long end below 4. 95%. Amazon’s $17. 5 billion loan, SpaceX IPO demand and AI capex financing are not the first cause of the UST move, but they keep the capital-demand backdrop relevant for term premium.",
-            "Global central banks point in the same direction. The BoC held at 2. 25% but described the oil shock as a policy dilemma, while SARB and BOJ-related headlines also show energy and inflation limiting dovish flexibility. For USD bond ETFs, that means one softer U. S. core CPI print is not enough to turn global duration into a broad risk-on trade.",
-            "The rates read is therefore neutral but defensive. 5Y-10Y can be accumulated gradually because CPI did not deteriorate, but the 10Y needs to move below 4. 50% and the 30Y below 4. 95% for a fuller price-repair signal. If the 10Y returns above 4. 65% or the 30Y breaks 5. 08%, the CPI relief should be treated as invalidated."
+            "Oil makes the CPI relief incomplete. WTI closed at 91.58 and traded as high as 92.45 after the close, while Brent closed at 94.27, close to the 95/98 pressure zone. If energy stays elevated, the four-handle headline CPI reading will keep the Fed defending inflation expectations; for belly duration, the stronger add signal would be oil back below 92, not core CPI alone.",
+            "The long end still faces supply and capital-absorption checks. The $39 billion 10Y reopening and the 30Y sale sit in the same supply week, while the 30Y close at 5.03% shows buyers have not pulled the long end below 4.95%. Amazon’s $17.5 billion loan, SpaceX IPO demand and AI capex financing are not the first cause of the UST move, but they keep the capital-demand backdrop relevant for term premium.",
+            "Global central banks point in the same direction. The BoC held at 2.25% but described the oil shock as a policy dilemma, while SARB and BOJ-related headlines also show energy and inflation limiting dovish flexibility. For USD bond ETFs, that means one softer U.S. core CPI print is not enough to turn global duration into a broad risk-on trade.",
+            "The rates read is therefore neutral but defensive. 5Y-10Y can be accumulated gradually because CPI did not deteriorate, but the 10Y needs to move below 4.50% and the 30Y below 4.95% for a fuller price-repair signal. If the 10Y returns above 4.65% or the 30Y breaks 5.08%, the CPI relief should be treated as invalidated."
           ]
         },
         {
@@ -740,29 +751,34 @@
           "title": "3. Cross-Market Context",
           "takeaway": "Cross-assets validate caution: S&P, Nasdaq and SOX fell, oil jumped, and LQD/HYG/EMB were all softer.",
           "paragraphs": [
-            "The equity tape does not support a broad re-risking call. The S&P 500 fell 1. 62% to 7,266. 99, the Nasdaq Composite fell 1. 98%, the Dow fell 1. 87%, and the SOX fell 3. 57%. This was not only a single-stock AI correction; oil shock, AI supply, post-CPI Fed pricing and funding absorption all weighed on risk assets, making SOX the cleanest discount-rate and liquidity thermometer.",
-            "AI and tech capital demand remain important context. Market sources flagged weakness in Nvidia and Broadcom, Super Micro’s selloff after a $7 billion equity raise, and Oracle’s capex pressure after hours; Credit and funding sources added Amazon’s $17. 5 billion loan and broader AI borrowing demand. These headlines do not mechanically drive the UST close, but they increase sensitivity to long-duration equity, IG supply and capital absorption.",
-            "Credit proxy evidence is softer but must be interpreted precisely. LQD closed at 108. 16, down 0. 23%, HYG at 79. 47, down 0. 19%, and EMB at 95. 35, down 0. 33%. This ETF proxy mix points to rates drag and weaker beta, but it is not a direct same-day OAS move. Only sustained HYG/JNK/EMB underperformance plus credit news about concessions, refinancing pressure or lower-quality defaults would upgrade the signal to spread-beta de-risking."
+            "The equity tape does not support a broad re-risking call. The S&P 500 fell 1.62% to 7,266.99, the Nasdaq Composite fell 1.98%, the Dow fell 1.87%, and the SOX fell 3.57%. This was not only a single-stock AI correction; oil shock, AI supply, post-CPI Fed pricing and funding absorption all weighed on risk assets, making SOX the cleanest discount-rate and liquidity thermometer.",
+            "AI and tech capital demand remain important context. Market sources flagged weakness in Nvidia and Broadcom, Super Micro’s selloff after a $7 billion equity raise, and Oracle’s capex pressure after hours; Credit and funding sources added Amazon’s $17.5 billion loan and broader AI borrowing demand. These headlines do not mechanically drive the UST close, but they increase sensitivity to long-duration equity, IG supply and capital absorption.",
+            "Oil is the most direct FI channel in cross-assets. Brent rose 3.08% and WTI rose 3.83%, while Middle East risk kept the market from focusing only on softer core CPI. If oil holds near 95, breakevens can lift long-end risk compensation and Fed language cannot quickly turn dovish, so the front end and belly cannot form a clean bull rally. For allocation, oil is not a standalone commodity signal; it is the external gate for whether CPI relief can become rates relief. Brent below 92 supports adding the belly; Brent above 98 cancels 5Y-10Y re-risk.",
+            "Credit proxy evidence is softer but must be interpreted precisely. LQD closed at 108.16, down 0.23%, HYG at 79.47, down 0.19%, and EMB at 95.35, down 0.33%. This ETF proxy mix points to rates drag and weaker beta, but it is not a direct same-day OAS move. Only sustained HYG/JNK/EMB underperformance plus credit news about concessions, refinancing pressure or lower-quality defaults would upgrade the signal to spread-beta de-risking.",
+            "Cross-asset pressure came mainly from oil, long-end supply and risk-asset de-risking capping duration. That matters for bond ETFs through two channels: UST duration sensitivity to higher yields, and the credit beta and liquidity discount reflected in LQD/HYG/EMB. If both channels weaken together, allocation should return to intermediate rates and quality credit rather than chasing long-end or lower-quality beta."
           ]
         },
         {
           "id": "allocation",
           "title": "4. Allocation Implications",
+          "takeaway": "The base case is modest 5Y-10Y exposure, underweight 20Y+, retained IG carry and lower HY beta.",
           "paragraphs": [
-            "The duration base case remains 5Y-10Y over 20Y+. A 10Y yield of 4. 55% is an attractive observation level, not a confirmation add; the first add signal needs the 10Y below 4. 50% and oil no longer pushing breakeven risk. With the 30Y at 5. 03%, 20Y+ ETFs remain sensitive to a 5. 08% break, so one softer core CPI print is not enough to chase the long end.",
-            "For the curve, 5s30s at 76bp and 10s30s at 48bp do not yet confirm a long-end rally. If the 2Y stays around 4. 10%-4. 15% while the 30Y cannot fall below 4. 95%, curve exposure should favor belly carry and roll-down rather than leveraged 30Y beta. A move in Brent below 92 plus a 30Y close below 4. 95% would allow 20Y+ to move from underweight back toward neutral.",
-            "Credit allocation should start with quality. LQD, HYG and EMB all fell, and Pimco’s warning on a lower-quality borrower default cycle supports IG and liquid ETF preference. Amazon’s loan and AI funding show high-quality borrowers still have access, but they also raise the bar for market absorption. HY beta should be reconsidered only if HYG regains 79. 80, SOX stabilizes and oil stops rising.",
-            "Scenario framing stays conditional. Base case is modest belly duration, IG carry and a cash buffer. Risk-on requires at least a 10Y below 4. 50%, 30Y below 4. 95%, Brent below 92 and stable LQD/HYG. Risk-off is a 10Y above 4. 65%, 30Y above 5. 08%, Brent above 98 or HYG below 79 with SOX still breaking lower. Until those conditions resolve, this is staged attribution, not a full re-risk."
+            "The duration base case remains 5Y-10Y over 20Y+. A 10Y yield at 4.55% offers entry yield, but not confirmation for a broad add. Initial adds require the 10Y to move below 4.50% and oil to stop pushing breakevens higher. The 30Y at 5.03% remains close to the pressure zone, and 20Y+ ETF price return is highly sensitive to a break above 5.08%. Unless the 30Y returns below 4.95% after supply, long-end convexity can still magnify small yield increases into larger price moves.",
+            "For the curve, 5s30s at 76bp and 10s30s at 48bp do not yet confirm a long-end rally. If the 2Y stays around 4.10%-4.15% while the 30Y cannot fall below 4.95%, curve exposure should favor belly carry and roll-down rather than leveraged 30Y beta. A move in Brent below 92 plus a 30Y close below 4.95% would allow 20Y+ to move from underweight back toward neutral.",
+            "Credit allocation should start with quality. LQD, HYG and EMB all fell, and Pimco’s warning on a lower-quality borrower default cycle supports IG and liquid ETF preference. Amazon’s loan and AI funding show high-quality borrowers still have access, but they also raise the bar for market absorption. HY beta should be reconsidered only if HYG regains 79.80, SOX stabilizes and oil stops rising.",
+            "ETF allocation should now be attributed through rates and credit. LQD -0.23%, EMB -0.33% and a 2bp rise in the 30Y show that USD bond price pressure remains in place. If LQD and HYG fall together while SOX remains weak, the first response should be to cut lower-quality beta rather than rely on coupon income to offset price risk. The portfolio checklist is UST duration, credit beta, liquidity and event triggers. Only when the 30Y returns below 4.95% and LQD/HYG stabilize should risk budget extend from belly rates into longer duration or higher beta.",
+            "Scenario framing stays conditional. Base case is modest belly duration, IG carry and a cash buffer. Risk-on requires at least a 10Y below 4.50%, 30Y below 4.95%, Brent below 92 and stable LQD/HYG. Risk-off is a 10Y above 4.65%, 30Y above 5.08%, Brent above 98 or HYG below 79 with SOX still breaking lower. Until those conditions resolve, this is staged attribution, not a full re-risk."
           ]
         },
         {
           "id": "watchlist",
           "title": "5. Watchlist",
-          "takeaway": "Key triggers are 10Y 4. 50/4. 65, 30Y 4. 95/5. 08, Brent 92/98, LQD 108/HYG 79, the 30Y auction and FOMC language.",
+          "takeaway": "Key triggers are 10Y 4.50/4.65, 30Y 4.95/5.08, Brent 92/98, LQD 108/HYG 79, the 30Y auction and FOMC language.",
           "paragraphs": [
-            "If the 10Y clearly falls below 4. 50% and the 30Y also drops below 4. 95%, 5Y-10Y can move from modest exposure to a fuller intermediate-duration position. If the 10Y returns above 4. 65%, the market is saying oil, Fed pricing or supply has offset the CPI relief, and intermediate plus long-duration risk should be reduced.",
-            "If the 30Y auction leaves the 30Y yield above 5. 05%-5. 08%, 20Y+ ETFs should not be added because supply and term premium remain dominant. If the 30Y falls below 4. 95% and 5s30s does not re-steepen, long-end demand is taking over and the long-end allocation can move back toward neutral.",
-            "If LQD breaks below 108 and HYG breaks below 79 while SOX keeps weakening, credit beta should be upgraded from rates drag to credit and liquidity de-risking. If LQD stabilizes, HYG returns above 79. 80 and EMB stops falling, IG carry can stay in place while HY beta remains limited to liquid, small positions.",
+            "If the 10Y clearly falls below 4.50% and the 30Y also drops below 4.95%, 5Y-10Y can move from modest exposure to a fuller intermediate-duration position. If the 10Y returns above 4.65%, the market is saying oil, Fed pricing or supply has offset the CPI relief, and intermediate plus long-duration risk should be reduced.",
+            "If Brent returns below 92 and holds, the energy tail in headline CPI should cool and next week’s Fed language can stay more patient. If Brent moves above 98, oil pass-through risk returns to the front end, and 2Y-5Y would be the first part of the curve to reprice the hike tail. In that case, 5Y-10Y add conditions are canceled.",
+            "If the 30Y auction leaves the 30Y yield above 5.05%-5.08%, 20Y+ ETFs should not be added because supply and term premium remain dominant. If the 30Y falls below 4.95% and 5s30s does not re-steepen, long-end demand is taking over and the long-end allocation can move back toward neutral.",
+            "If LQD breaks below 108 and HYG breaks below 79 while SOX keeps weakening, credit beta should be upgraded from rates drag to credit and liquidity de-risking. If LQD stabilizes, HYG returns above 79.80 and EMB stops falling, IG carry can stay in place while HY beta remains limited to liquid, small positions.",
             "If Fed speakers frame softer core CPI as room to wait and oil stops making new highs, the 5Y-10Y repair window can extend. If Fed language links headline CPI, oil and wages into one inflation-risk framework, 2Y/5Y hike protection becomes expensive again and long-duration plus lower-quality credit adds should be delayed."
           ]
         }
