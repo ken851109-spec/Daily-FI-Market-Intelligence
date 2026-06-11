@@ -173,6 +173,16 @@ h3 { margin: 0; color: var(--ink); font-size: 17.75px; line-height: 1.3; font-we
 .evidence-review > summary::after { content: "+"; display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 24px; height: 24px; border: 1px solid #cfdbe5; color: var(--muted); background: #f7fafc; border-radius: 999px; font-size: 15px; line-height: 1; font-weight: 850; }
 .evidence-review[open] > summary::after { content: "−"; background: #eef4f8; color: var(--navy); }
 .evidence-review-body { display: grid; gap: 12px; padding: 12px; }
+.evidence-chain { background: #fff; box-shadow: none; }
+.evidence-chain .section-head { background: #fbfcfd; }
+.evidence-chain-list { display: grid; gap: 0; padding: 0; background: #fff; }
+.evidence-chain-row { display: grid; grid-template-columns: minmax(120px, .62fr) minmax(220px, 1fr) minmax(260px, 1.14fr); gap: 14px; align-items: start; padding: 13px 15px; border-top: 1px solid #e5edf3; border-left: 3px solid #9baebf; color: inherit; cursor: pointer; transition: background .16s ease, border-color .16s ease; }
+.evidence-chain-row:first-child { border-top: 0; }
+.evidence-chain-row:hover, .evidence-chain-row:focus-visible { background: #f7fafc; border-left-color: var(--orange); outline: none; }
+.chain-channel { color: #8a5d2b; font-size: 12.25px; line-height: 1.28; font-weight: 850; text-transform: uppercase; letter-spacing: 0; }
+.chain-main h3 { margin: 0; color: var(--ink); font-size: clamp(17px, 1.05vw, 20px); line-height: 1.28; font-weight: 860; overflow-wrap: anywhere; text-wrap: balance; }
+.chain-topic { margin-top: 4px; color: #617386; font-size: 13.5px; line-height: 1.36; font-weight: 680; overflow-wrap: anywhere; }
+.chain-impact { color: #33485b; font-size: clamp(15px, .94vw, 17px); line-height: 1.52; font-weight: 620; overflow-wrap: anywhere; }
 [data-card-href], .thesis-card a { position: relative; }
 [data-card-href] { cursor: pointer; transition: border-color .16s ease, background .16s ease, box-shadow .16s ease, transform .16s ease; }
 [data-card-href]::before, .thesis-card a::before { content: "看分析"; position: absolute; top: 7px; right: 22px; z-index: 1; max-width: 76px; padding: 2px 5px; border: 1px solid #dde6ee; background: rgba(255,255,255,.9); color: #718295; border-radius: 3px; font-size: 10.5px; line-height: 1.15; font-weight: 760; white-space: nowrap; pointer-events: none; opacity: 0; transform: translateY(-1px); transition: opacity .16s ease, color .16s ease, border-color .16s ease, background .16s ease; }
@@ -492,6 +502,9 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .headline-primary { font-size: 14.75px; line-height: 1.38; }
   .headline-secondary { font-size: 13.75px; line-height: 1.44; }
   .driver-grid, .asset-grid, .pulse-grid, .mobile-monitor { grid-template-columns: 1fr; }
+  .evidence-chain-row { grid-template-columns: 1fr; gap: 6px; padding: 12px; }
+  .chain-main h3 { font-size: 17px; }
+  .chain-impact { font-size: 14.75px; line-height: 1.5; }
   .task-section { scroll-margin-top: var(--sticky-offset); }
   .block, .regime-strip, .mobile-monitor { margin-top: 10px; border-left: 0; border-right: 0; }
   .regime-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 7px; background: var(--surface-soft); }
