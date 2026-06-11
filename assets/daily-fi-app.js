@@ -268,7 +268,7 @@
     flatten(note.regime_strip, prefix + "overview", "Regime", rows);
     flatten(normalizedPositioningForSearch(note, lang), prefix + "overview", lang === "en" ? "Positioning" : "配置重點", rows);
     flatten(note.driver_decomposition, prefix + "drivers", lang === "en" ? "Market Drivers" : "市場驅動", rows);
-    flatten(note.monitor_blocks, prefix + "risk-monitor", lang === "en" ? "Risk Monitor" : "風險監控", rows);
+    flatten(note.monitor_blocks, prefix + "risk-monitor", lang === "en" ? "Trigger Map" : "觸發地圖", rows);
     flatten(note.market_tables, prefix + "appendix", lang === "en" ? "Reference Data" : "參考數據", rows);
     for (const section of note.sections || []) {
       const sectionId = prefix + "analysis-" + slug(section.id || "section");
@@ -354,7 +354,7 @@
       positioning: "配置",
       rates: "利率",
       drivers: "驅動",
-      "risk-monitor": "風險",
+      "risk-monitor": "觸發",
       "cross-asset": "跨資產",
       "investment-read": "正文",
       appendix: "附錄",
@@ -364,7 +364,7 @@
       positioning: "Positioning",
       rates: "Rates",
       drivers: "Drivers",
-      "risk-monitor": "Risk",
+      "risk-monitor": "Triggers",
       "cross-asset": "Cross Asset",
       "investment-read": "Read",
       appendix: "Appendix",

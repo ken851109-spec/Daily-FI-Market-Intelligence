@@ -379,9 +379,9 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   #positioning, #en-positioning { order: 2; }
   #rates, #en-rates { order: 3; }
   #drivers, #en-drivers { order: 4; }
-  #risk-monitor, #en-risk-monitor { order: 5; }
-  #cross-asset, #en-cross-asset { order: 6; }
-  #investment-read, #en-investment-read { order: 7; }
+  #cross-asset, #en-cross-asset { order: 5; }
+  #investment-read, #en-investment-read { order: 6; }
+  #risk-monitor, #en-risk-monitor { order: 7; }
   #appendix, #en-appendix { order: 8; }
 	  .task-nav { position: sticky; top: 0; z-index: 45; }
 	  .task-nav.is-hidden, .task-nav[data-tools-hidden="true"] { transform: translateY(calc(-100% - 8px)); }
@@ -556,7 +556,6 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .cross-asset-block .asset-level { display: block; margin-top: 5px; }
   .cross-asset-block .asset-move { margin-top: 5px; font-size: 15px !important; }
   .cross-asset-block .fi-read { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-top: 6px; padding-top: 6px; font-size: 14px; line-height: 1.44; }
-  .cross-asset-block { order: 7; }
   .asia-update { order: 8; }
   .analysis-stack { padding: 0 12px 14px; }
   .analysis-card > .card-kicker { font-size: 10px; }
