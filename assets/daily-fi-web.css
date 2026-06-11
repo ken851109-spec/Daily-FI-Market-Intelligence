@@ -153,12 +153,24 @@ h3 { margin: 0; color: var(--ink); font-size: 17.75px; line-height: 1.3; font-we
 .pm-decision-board { background: #fff; }
 .pm-decision-board .section-head { background: #fbfcfd; border-bottom: 1px solid #e3ebf2; }
 .pm-board-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 0; padding: 0; background: #fff; border-top: 1px solid #edf2f6; }
-.pm-board-card { min-width: 0; min-height: 128px; padding: 15px 16px 16px; border: 0; border-right: 1px solid #e3ebf2; border-bottom: 1px solid #e3ebf2; background: #fff; box-shadow: none; }
+.pm-summary-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.pm-board-card { min-width: 0; min-height: 118px; padding: 15px 16px 16px; border: 0; border-right: 1px solid #e3ebf2; border-bottom: 1px solid #e3ebf2; background: #fff; box-shadow: none; }
 .pm-board-card:nth-child(3n) { border-right: 0; }
 .pm-board-card.pm-board-regime, .pm-board-card.pm-board-action, .pm-board-card.pm-board-trigger { background: #f7fafc; }
 .pm-board-label { margin: 0; color: #8a5d2b; font-size: 11.75px; line-height: 1.24; font-weight: 850; text-transform: uppercase; letter-spacing: 0; }
-.pm-board-card h3 { margin: 7px 0 0; color: var(--ink); font-size: clamp(20px, 1.22vw, 24px); line-height: 1.25; font-weight: 880; overflow-wrap: anywhere; text-wrap: balance; }
+.pm-board-card h3 { margin: 7px 0 0; color: var(--ink); font-size: clamp(19px, 1.14vw, 22px); line-height: 1.25; font-weight: 880; overflow-wrap: anywhere; text-wrap: balance; }
 .pm-board-marker { margin: 8px 0 0; color: #43576a; font-size: clamp(14px, .86vw, 16px); line-height: 1.42; font-weight: 690; overflow-wrap: anywhere; }
+.portfolio-stance { display: grid; border-top: 1px solid #edf2f6; background: #fff; }
+.portfolio-stance-title { padding: 10px 15px 8px; color: #6b7887; font-size: 11.75px; line-height: 1.2; font-weight: 900; text-transform: uppercase; border-bottom: 1px solid #edf2f6; background: #fbfcfd; }
+.portfolio-stance-head, .portfolio-stance-row { display: grid; grid-template-columns: minmax(105px, .72fr) minmax(160px, 1.15fr) minmax(180px, 1.25fr) minmax(200px, 1.35fr); gap: 12px; align-items: start; min-width: 0; }
+.portfolio-stance-head { padding: 8px 15px; color: #748596; font-size: 11px; line-height: 1.2; font-weight: 850; text-transform: uppercase; background: #f8fafc; border-bottom: 1px solid #edf2f6; }
+.portfolio-stance-row { padding: 11px 15px; border-bottom: 1px solid #edf2f6; background: #fff; }
+.portfolio-stance-row:last-child { border-bottom: 0; }
+.portfolio-stance-row p { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.portfolio-bucket { color: #8a5d2b; font-size: 12px; line-height: 1.3; font-weight: 900; text-transform: uppercase; }
+.portfolio-view { color: var(--ink); font-size: clamp(15.5px, .95vw, 17px); line-height: 1.4; font-weight: 820; }
+.portfolio-action, .portfolio-trigger { color: #3f5163; font-size: 13.75px; line-height: 1.43; font-weight: 650; }
+.portfolio-action:empty, .portfolio-trigger:empty { display: none; }
 .position-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr)); gap: 10px; padding: 12px; background: #fff; align-items: start; }
 .thesis-map { background: #fff; }
 .thesis-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); gap: 6px; padding: 9px; background: #f7fafc; border-top: 1px solid var(--line); }
@@ -426,9 +438,12 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .thesis-map { display: block; }
   .thesis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; scroll-snap-type: none; }
   .thesis-card { min-width: 0; }
-  .pm-board-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .pm-board-card:nth-child(3n) { border-right: 1px solid #e3ebf2; }
-  .pm-board-card:nth-child(2n) { border-right: 0; }
+  .pm-summary-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .pm-board-card:nth-child(3n) { border-right: 0; }
+  .pm-board-card:nth-child(2n) { border-right: 1px solid #e3ebf2; }
+  .portfolio-stance-head, .portfolio-stance-row { grid-template-columns: minmax(96px, .72fr) minmax(140px, 1fr) minmax(140px, 1fr) minmax(160px, 1fr); gap: 9px; }
+  .portfolio-stance-row { padding: 10px 12px; }
+  .portfolio-action, .portfolio-trigger { font-size: 13px; line-height: 1.42; }
   .position-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: visible; scroll-snap-type: none; }
   .position-card { min-width: 0; }
   .position-card dl { grid-template-columns: 78px minmax(0, 1fr); gap: 5px 9px; margin-top: 10px; }
@@ -529,10 +544,20 @@ summary { cursor: pointer; color: var(--navy); font-weight: 800; padding: 13px 1
   .chip-meta { display: none; }
   .thesis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; overflow: visible; scroll-snap-type: none; scrollbar-width: auto; padding: 8px; }
   .thesis-card { min-width: 0; flex: initial; scroll-snap-align: none; }
-  .pm-board-grid { grid-template-columns: 1fr; }
+  .pm-summary-grid { grid-template-columns: 1fr; }
   .pm-board-card { min-height: 0; border-right: 0; padding: 13px 14px; }
   .pm-board-card h3 { font-size: 19px; line-height: 1.28; }
   .pm-board-marker { font-size: 13.5px; line-height: 1.4; }
+  .portfolio-stance-title { padding: 8px 12px 7px; }
+  .portfolio-stance-head { display: none; }
+  .portfolio-stance-row { grid-template-columns: 1fr; gap: 4px; padding: 10px 12px; }
+  .portfolio-bucket { font-size: 11.25px; }
+  .portfolio-view { font-size: 16px; line-height: 1.34; }
+  .portfolio-action, .portfolio-trigger { font-size: 13.25px; line-height: 1.42; }
+  .portfolio-action:not(:empty)::before { content: "Action: "; color: #738294; font-weight: 850; }
+  [data-lang-panel="zh"] .portfolio-action:not(:empty)::before { content: "動作: "; }
+  .portfolio-trigger:not(:empty)::before { content: "Trigger: "; color: #738294; font-weight: 850; }
+  [data-lang-panel="zh"] .portfolio-trigger:not(:empty)::before { content: "門檻: "; }
   .position-grid { display: grid; grid-template-columns: 1fr; gap: 8px; overflow: visible; scroll-snap-type: none; padding: 8px; }
   .position-card { min-width: 0; }
   .thesis-card a { grid-template-columns: 22px minmax(0, 1fr); gap: 8px; min-height: 0; padding: 10px 11px; }
