@@ -3,500 +3,139 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily FI Market Tape | 2026-06-11 close</title>
-<link rel="stylesheet" href="../../assets/daily-fi-web.css?v=f4088de59b">
-<link rel="alternate" type="application/json" href="../../data/tapes/2026-06-11.json">
-<script src="../../assets/daily-fi-app.js?v=f4088de59b" defer></script>
+<meta name="robots" content="noindex,nofollow">
+<title>Daily FI Tape | Under Maintenance</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #eef3f6;
+  --panel: #ffffff;
+  --ink: #102235;
+  --muted: #5f7183;
+  --line: #d7e1ea;
+  --accent: #9a612c;
+  --accent-soft: #f4e6d8;
+  font-family: Inter, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Segoe UI", Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 28px;
+  background:
+    linear-gradient(135deg, rgba(16, 34, 53, 0.08), transparent 42%),
+    var(--bg);
+  color: var(--ink);
+}
+main {
+  width: min(820px, 100%);
+  padding: clamp(28px, 5vw, 56px);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--panel);
+  box-shadow: 0 22px 60px rgba(16, 34, 53, 0.10);
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 22px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.eyebrow::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 8px var(--accent-soft);
+}
+h1 {
+  margin: 0;
+  max-width: 13ch;
+  font-size: clamp(42px, 8vw, 74px);
+  line-height: .96;
+  letter-spacing: 0;
+}
+.lead {
+  margin: 24px 0 0;
+  max-width: 660px;
+  color: var(--muted);
+  font-size: clamp(18px, 2.4vw, 23px);
+  line-height: 1.55;
+  font-weight: 600;
+}
+.status {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin: 34px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--line);
+}
+.status div {
+  min-height: 92px;
+  padding: 18px;
+  background: #f9fbfc;
+}
+.status strong {
+  display: block;
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.25;
+}
+.status span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+.note {
+  margin: 28px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+@media (max-width: 640px) {
+  body { padding: 16px; place-items: stretch; align-items: center; }
+  main { border-radius: 14px; }
+  h1 { max-width: 10ch; }
+  .status { grid-template-columns: 1fr; }
+}
+</style>
 </head>
 <body>
-<main class="page-shell" data-site-root="../../" data-current-date="2026-06-11" data-language="zh"><div class="report-layout"><aside class="task-nav" data-sider="collapsed" aria-label="Daily FI Tape tools"><div class="task-nav-inner"><section class="command-bar" data-command-bar data-command-palette><div class="command-group command-date date-browser" data-date-browser><label for="daily-fi-date" data-text-zh="日期" data-text-en="Date">日期</label><details class="date-browser-menu" data-date-menu><summary><span data-date-current-label>2026-06-11 close</span></summary><div class="date-panel"><div class="date-grid-host" data-date-grid></div><a class="date-all-link" href="../" data-language-href="../" data-text-zh="全部報告" data-text-en="All Reports">全部報告</a></div></details><select id="daily-fi-date" class="date-select-fallback" data-date-select data-current-date="2026-06-11" aria-label="日期"><option value="" data-text-zh="載入中" data-text-en="Loading">載入中</option></select></div><div class="command-group command-search"><label for="daily-fi-search" data-text-zh="搜尋報告" data-text-en="Search">搜尋報告</label><div class="search-box"><input id="daily-fi-search" type="search" data-search-input placeholder="搜尋報告" data-placeholder-zh="搜尋報告" data-placeholder-en="Search reports" autocomplete="off"><button type="button" data-clear-search aria-label="清除搜尋" data-text-zh="清除" data-text-en="Clear" hidden>清除</button></div><div class="search-shortcuts" data-search-shortcuts aria-label="Search shortcuts"><button type="button" data-search-chip="CPI">CPI</button><button type="button" data-search-chip="10Y">10Y</button><button type="button" data-search-chip="30Y">30Y</button><button type="button" data-search-chip="Brent">Brent</button><button type="button" data-search-chip="HYG">HYG</button><button type="button" data-search-chip="auction">Auction</button></div></div><div class="language-toggle" data-language-toggle aria-label="Language"><button type="button" data-lang-button="zh" class="is-active" aria-pressed="true">ZH</button><button type="button" data-lang-button="en" aria-pressed="false">EN</button></div><button type="button" class="mobile-tools-trigger" data-tools-sheet-trigger aria-expanded="false" data-text-zh="工具" data-text-en="Tools">工具</button><nav class="command-links" aria-label="Daily FI Tape links"><a href="../../" data-language-href="../../" data-text-zh="最新" data-text-en="Latest">最新</a><a class="desktop-history-link" href="../" data-language-href="../" data-text-zh="歷史" data-text-en="Archive">歷史</a></nav><div class="search-results" data-search-results data-root-href="../../" hidden></div></section><div class="section-nav"><p class="eyebrow" data-text-zh="導覽" data-text-en="Navigate">導覽</p><a href="#overview" data-nav-link data-section-base="overview" data-label-zh="總覽" data-caption-zh="盤勢" data-label-en="Overview" data-caption-en="Tape"><strong>總覽</strong><span>盤勢</span></a><a href="#positioning" data-nav-link data-section-base="positioning" data-label-zh="配置" data-caption-zh="交易" data-label-en="Positioning" data-caption-en="Trades"><strong>配置</strong><span>交易</span></a><a href="#investment-read" data-nav-link data-section-base="investment-read" data-label-zh="正文" data-caption-zh="投資解讀" data-label-en="Read" data-caption-en="Analysis"><strong>正文</strong><span>投資解讀</span></a><a href="#rates" data-nav-link data-section-base="rates" data-label-zh="利率" data-caption-zh="美債" data-label-en="Rates" data-caption-en="UST"><strong>利率</strong><span>美債</span></a><a href="#drivers" data-nav-link data-section-base="drivers" data-label-zh="驅動" data-caption-zh="Fed / 油價" data-label-en="Drivers" data-caption-en="Fed / Oil"><strong>驅動</strong><span>Fed / 油價</span></a><a href="#cross-asset" data-nav-link data-section-base="cross-asset" data-label-zh="跨資產" data-caption-zh="參考" data-label-en="Cross Asset" data-caption-en="Context"><strong>跨資產</strong><span>參考</span></a><a href="#risk-monitor" data-nav-link data-section-base="risk-monitor" data-label-zh="觸發" data-caption-zh="價位 / 事件" data-label-en="Triggers" data-caption-en="Levels / Events"><strong>觸發</strong><span>價位 / 事件</span></a><a href="#appendix" data-nav-link data-section-base="appendix" data-label-zh="附錄" data-caption-zh="參考數據" data-label-en="Appendix" data-caption-en="Data"><strong>附錄</strong><span>參考數據</span></a></div><div class="mobile-tools-backdrop" data-tools-sheet-backdrop hidden></div><section class="mobile-tools-sheet" data-tools-sheet hidden aria-label="Mobile tools" role="dialog" aria-modal="true"><div class="mobile-tools-sheet-head"><strong data-text-zh="工具" data-text-en="Tools">工具</strong><button type="button" data-tools-sheet-close aria-label="Close" data-text-zh="關閉" data-text-en="Close">關閉</button></div><div class="mobile-tools-section mobile-tools-links"><p class="eyebrow" data-text-zh="快速連結" data-text-en="Quick Links">快速連結</p><a href="../../" data-language-href="../../" data-text-zh="最新" data-text-en="Latest">最新</a><a href="../" data-language-href="../" data-text-zh="全部報告" data-text-en="All Reports">全部報告</a></div><details class="mobile-tools-section mobile-tools-calendar mobile-tools-calendar-shell"><summary data-text-zh="選日期" data-text-en="Choose date">選日期</summary><div class="mobile-tools-calendar-body"><p class="eyebrow" data-text-zh="日期" data-text-en="Date">日期</p><div class="date-grid-host" data-date-grid></div><select data-date-select data-current-date="2026-06-11" aria-label="日期"><option value="" data-text-zh="載入中" data-text-en="Loading">載入中</option></select></div></details><div class="mobile-tools-section mobile-tools-nav"><p class="eyebrow" data-text-zh="導覽" data-text-en="Navigate">導覽</p><a href="#overview" data-nav-link data-section-base="overview" data-label-zh="總覽" data-caption-zh="盤勢" data-label-en="Overview" data-caption-en="Tape"><strong>總覽</strong><span>盤勢</span></a><a href="#positioning" data-nav-link data-section-base="positioning" data-label-zh="配置" data-caption-zh="交易" data-label-en="Positioning" data-caption-en="Trades"><strong>配置</strong><span>交易</span></a><a href="#investment-read" data-nav-link data-section-base="investment-read" data-label-zh="正文" data-caption-zh="投資解讀" data-label-en="Read" data-caption-en="Analysis"><strong>正文</strong><span>投資解讀</span></a><a href="#rates" data-nav-link data-section-base="rates" data-label-zh="利率" data-caption-zh="美債" data-label-en="Rates" data-caption-en="UST"><strong>利率</strong><span>美債</span></a><a href="#drivers" data-nav-link data-section-base="drivers" data-label-zh="驅動" data-caption-zh="Fed / 油價" data-label-en="Drivers" data-caption-en="Fed / Oil"><strong>驅動</strong><span>Fed / 油價</span></a><a href="#cross-asset" data-nav-link data-section-base="cross-asset" data-label-zh="跨資產" data-caption-zh="參考" data-label-en="Cross Asset" data-caption-en="Context"><strong>跨資產</strong><span>參考</span></a><a href="#risk-monitor" data-nav-link data-section-base="risk-monitor" data-label-zh="觸發" data-caption-zh="價位 / 事件" data-label-en="Triggers" data-caption-en="Levels / Events"><strong>觸發</strong><span>價位 / 事件</span></a><a href="#appendix" data-nav-link data-section-base="appendix" data-label-zh="附錄" data-caption-zh="參考數據" data-label-en="Appendix" data-caption-en="Data"><strong>附錄</strong><span>參考數據</span></a></div></section></div></aside><div class="language-panels"><div class="report-lang" data-lang-panel="zh"><div class="dashboard-grid"><div class="main-column"><section id="overview" class="task-section overview-section"><header class="site-header decision-layer"><div class="masthead-copy"><p class="eyebrow">前一美國交易日收盤</p><h1><span class="title-main">Daily FI Market Tape</span><span class="title-separator">|</span><span class="title-date">2026-06-11 close</span></h1><p class="headline-primary">UST 反彈回到中段，但 30Y 仍要供給確認</p><p class="headline-secondary">2Y -8bp、10Y -10bp、30Y -8bp；Brent -4.63%、信用β 全線反彈。</p></div></header></section><section id="positioning" class="task-section positioning-decision-section"><section class="block decision-layer pm-decision-board" aria-labelledby="pm-decision-board"><div class="section-head"><h2 id="pm-decision-board">今日決策</h2></div><div class="pm-board-grid pm-summary-grid"><article class="pm-board-card pm-board-regime" data-card-href="#analysis-rates_close-p2" data-animate-card role="link" tabindex="0" data-decision-unit="executive" aria-label="盤勢 - 2s10s 收斂、5s30s 轉陡">
-<p class="pm-board-label">盤勢</p>
-<h3>2s10s 收斂、5s30s 轉陡</h3>
-<p class="pm-board-marker">2Y -8bp / 10Y -10bp | 2s10s 40bp / -2bp / 5s30s +1bp</p>
-</article><article class="pm-board-card pm-board-action" data-card-href="#analysis-allocation-p1" data-animate-card role="link" tabindex="0" data-decision-unit="executive" aria-label="配置 - 分批承接中段 Duration">
-<p class="pm-board-label">配置</p>
-<h3>分批承接中段 Duration</h3>
-<p class="pm-board-marker">10Y -10bp | WTI -4.37%</p>
-</article><article class="pm-board-card pm-board-trigger" data-card-href="#analysis-watchlist-p1" data-animate-card role="link" tabindex="0" data-decision-unit="executive" aria-label="觸發 - 等待 10Y / 30Y / WTI 確認">
-<p class="pm-board-label">觸發</p>
-<h3>等待 10Y / 30Y / WTI 確認</h3>
-<p class="pm-board-marker">降風險: 10Y &gt; 4.55%。</p>
-</article></div><div class="portfolio-stance"><div class="portfolio-stance-title">配置動作</div><div class="portfolio-stance-head" aria-hidden="true"><span></span><span>判斷</span><span>門檻</span></div><div class="portfolio-stance-row" data-card-href="#analysis-allocation-p1" data-animate-card role="link" tabindex="0" aria-label="Duration - 5Y-10Y 小幅超配">
-<p class="portfolio-bucket">Duration</p>
-<div class="portfolio-stance-copy">
-<p class="portfolio-view">5Y-10Y 小幅超配</p>
-<p class="portfolio-action">分批承接中段久期</p>
-</div>
-<p class="portfolio-trigger">10Y &gt;4.55% 降回中性</p>
-</div><div class="portfolio-stance-row" data-card-href="#analysis-allocation-p2" data-animate-card role="link" tabindex="0" aria-label="Curve - 中段收益優先">
-<p class="portfolio-bucket">Curve</p>
-<div class="portfolio-stance-copy">
-<p class="portfolio-view">中段收益優先</p>
-<p class="portfolio-action">5Y-10Y over 20Y+</p>
-</div>
-<p class="portfolio-trigger">30Y &lt;4.90% 才提高長端 beta</p>
-</div><div class="portfolio-stance-row" data-card-href="#analysis-allocation-p3" data-animate-card role="link" tabindex="0" aria-label="Credit - IG liquidity 優先於 HY beta">
-<p class="portfolio-bucket">Credit</p>
-<div class="portfolio-stance-copy">
-<p class="portfolio-view">IG liquidity 優先於 HY beta</p>
-<p class="portfolio-action">LQD / 高品質 信用β</p>
-</div>
-<p class="portfolio-trigger">HYG &lt;79.50 或 LQD &lt;108 降低信用 beta</p>
-</div></div></section></section><section id="investment-read" class="task-section"><section class="block analysis-layer" aria-labelledby="analysis-sections"><div class="section-head"><h2 id="analysis-sections">投資解讀</h2></div><div class="analysis-stack"><article class="analysis-card" id="analysis-rates_close" data-search-section="analysis-rates_close"><h3>一、UST 收盤與曲線變化</h3><p class="takeaway">UST 反彈先看 5Y-10Y，30Y 仍要等 4.90% 下方確認。</p><p id="analysis-rates_close-p1" class="analysis-paragraph" data-search-section="analysis-rates_close-p1" data-search-parent="analysis-rates_close">美債在 2026-06-11 close 重新取得 bid：2Y CMT 收 4.05%、日降 8bp，5Y 收 4.18%、日降 9bp，10Y 收 4.45%、日降 10bp，30Y 收 4.95%、日降 8bp。因為 core CPI 意外降溫與油價回落同時削弱前端通膨風險，久期可以從防守轉為分批承接，但優先仍是 5Y-10Y。這個組合把配置訊號分成兩層：中段可用下行利率捕捉價格報酬，長端則要等 supply premium 確認收斂，否則反彈容易在下一次供給或能源 headline 中被回吐。</p><p id="analysis-rates_close-p2" class="analysis-paragraph" data-search-section="analysis-rates_close-p2" data-search-parent="analysis-rates_close">曲線沒有全面 bull steepen：2s10s 收 40bp、日收窄 2bp，10s30s 收 50bp、日走陡 2bp，5s30s 收 77bp、日走陡 1bp。這代表反彈主要來自中段與基準 10Y，長端仍被標售 supply 與期限溢酬限制，所以曲線表達應偏中段收益。投資含義是曲線 beta 不宜過度集中在 30Y，因為 10s30s 仍在 50bp，長端對標售讓利的敏感度高於中段收益。</p><p id="analysis-rates_close-p3" class="analysis-paragraph" data-search-section="analysis-rates_close-p3" data-search-parent="analysis-rates_close">月度脈絡仍不是純多頭：2Y 比一個月前高 15bp，5Y 高 16bp，10Y 高 7bp，30Y 則大致持平。這種中段仍高、長端沒有明顯下行的結構，意味著市場只是修正能源衝擊，不是確認 Fed 已回到快速寬鬆路徑。對帳月度變化時，5Y 與 2Y 仍明顯高於一個月前，表示組合的久期調整應是修復式加碼，不是趨勢式滿倉。對投資組合而言，這代表加碼幅度要用收益率門檻管理：10Y 未跌破 4.40% 前只做小幅超配，避免把短線修復當成長線趨勢。</p><p id="analysis-rates_close-p4" class="analysis-paragraph" data-search-section="analysis-rates_close-p4" data-search-parent="analysis-rates_close">30Y Treasury 再發行的最高得標利率為 5.020%、投標倍數 2.33，10Y 標售最高得標利率 4.538%、投標倍數 2.57。供給結果沒有失序，但 30Y 得標利率仍高於 5% 區，代表長端買盤需要補償；若 30Y 不能站穩 4.90% 下方，長端只適合中性。這使 30Y 標售區 5.02% 成為風險管理線；若收益率回到該區，長端價格 beta 應降回低配，而不是用 CPI 降溫抵銷供給訊號。若下一次長端供給再需要 5% 以上才吸收，20Y+ 的價格波動會高於中段久期，配置應先用 5Y-10Y 承接。</p></article><article class="analysis-card" id="analysis-rates_interpretation" data-search-section="analysis-rates_interpretation"><h3>二、美債走勢解讀</h3><p class="takeaway">核心 CPI、油價與供給三者同時決定下一段 rates beta。</p><p id="analysis-rates_interpretation-p1" class="analysis-paragraph" data-search-section="analysis-rates_interpretation-p1" data-search-parent="analysis-rates_interpretation">美國 May CPI 的 headline CPI 為 +4.2% y/y，core CPI 為 +0.2% m/m，核心月增低於 +0.3% 市場預期。前端反應最直接，因為通膨降溫降低 Fed 以更高政策利率壓制二次通膨的必要性；2Y 下行 8bp 後，下一步要看 PCE 與初領失業金是否延續同方向。Fed 定價的重點尚未轉向寬鬆，而是能否壓住下次會議的上行風險，這對 2Y 與 5Y 比對 30Y 更有價值。</p><p id="analysis-rates_interpretation-p2" class="analysis-paragraph" data-search-section="analysis-rates_interpretation-p2" data-search-parent="analysis-rates_interpretation">CPI 降溫沒有單獨主導全曲線，Brent 收 $88.79、日跌 4.63%，WTI 收 $86.10、日跌 4.37%，能源風險同步退潮才讓 10Y 下行 10bp。若 Brent 重新站上 $95，通膨尾端與通膨預期會再壓抑中段反彈。油價是本次 rates 反彈的確認因子：只要 Brent 保持在 90 附近以下，通膨風險貼水就比較難回到前一日的高壓狀態，Fed 也不需要用更高前端利率補償能源風險。</p><p id="analysis-rates_interpretation-p3" class="analysis-paragraph" data-search-section="analysis-rates_interpretation-p3" data-search-parent="analysis-rates_interpretation">Fed 反應函數仍偏等待，尤其市場正在觀察 Warsh 主導下的 FOMC 溝通是否降低前瞻指引。較少 guidance 代表利率波動可能高於過去，同樣是久期 add，也應分批而非一次性進場；10Y &gt;4.55% 是降低 beta 的第一道門檻。看多 rates 不宜只用最長端表達，因為溝通風險上升時，中段 downside convexity 比長端更容易管理；10Y 回到 4.55% 已足以說明中段利率多頭訊號失效。</p><p id="analysis-rates_interpretation-p4" class="analysis-paragraph" data-search-section="analysis-rates_interpretation-p4" data-search-parent="analysis-rates_interpretation">ECB 已把存款利率提到 2.25%，並把能源衝擊對通膨路徑的影響放進政策語言，IMF 也指向今年還可能需要額外緊縮。全球久期不能只交易美國核心 CPI；歐洲政策再上修會推高全球期限溢酬，也會把美國長端放進同一個 policy basket。若歐洲通膨預期再上修，UST 20Y+ 會承受外部期限溢酬的再定價；外部政策壓力通常先反映在期限溢酬，而不是前端利率。</p><p id="analysis-rates_interpretation-p5" class="analysis-paragraph" data-search-section="analysis-rates_interpretation-p5" data-search-parent="analysis-rates_interpretation">BOJ 方面，Ueda 缺席 6/15-6/16 meeting 使記者會溝通風險上升，而升息預期已接近完全反映。若 JGB 期限溢酬因訊息不清而擴大，海外長端買盤會要求更高補償；10s30s 只有在 30Y &lt;4.90% 且 10Y &lt;4.40% 時才值得加速轉多。配置上，BOJ 應視為後續觸發條件而非已實現利多；會後 JGB volatility 上升，會削弱 30Y 跌破 4.90% 的確認力道。</p></article><article class="analysis-card" id="analysis-other_markets" data-search-section="analysis-other_markets"><h3>三、其他市場動向</h3><p id="analysis-other_markets-p1" class="analysis-paragraph" data-search-section="analysis-other_markets-p1" data-search-parent="analysis-other_markets">風險資產提供了 rates 反彈的驗證：S&amp;P 500 +1.75%、Nasdaq 100 +3.29%、SOX +7.91%，但黃金同日 +3.19%。這組合代表市場同時交易通膨降溫與地緣不確定，並非單純 risk-on；對 FI 來說，這支持承接 IG 收益，但不支持無條件追 HY。這對債券配置的含義是可以恢復收益，但要保留防守久期，因為黃金與股市同漲通常代表不確定性仍未完全出清。這使信用配置不能只看股指上漲，還要確認 LQD 與 HYG 是否同步守住關鍵價格。</p><p id="analysis-other_markets-p2" class="analysis-paragraph" data-search-section="analysis-other_markets-p2" data-search-parent="analysis-other_markets">信用β 同步改善，LQD +0.85%、HYG +0.59%、JNK +0.57%、EMB +0.96%。這些是 ETF 價格 proxy，。機制上，利率下行先改善 LQD 久期收益，風險資產反彈再支撐 HYG / EMB beta，因此配置優先順序應是 IG liquidity，然後才是 HY beta。因此 信用β 的正面訊號應被分解為 rates return 與信用 beta 兩部分；LQD 強於 HYG 時，最先受益的是高品質長天期信用，而不是低品質利差 compression。</p><p id="analysis-other_markets-p3" class="analysis-paragraph" data-search-section="analysis-other_markets-p3" data-search-parent="analysis-other_markets">AI 融資仍是信用供給的主線：大型 AI 基礎建設融資、CoreWeave 歐元高收益債交易、Oracle 債券反彈與 SpaceX 潛在融資，都顯示資本需求仍大。這會吸收投資人資產負債表，若新發行讓利擴大，次級市場信用 beta 可能被擠壓。這使 primary market 讓利成為下一個信用觀察點；若新發行需要更高讓利，secondary HY ETF 的上漲就比較像 beta 反彈，而不是基本面改善。因此信用市場的下一個壓力點不是單一公司，而是整體新發行供給是否迫使投資人要求更高讓利。</p><p id="analysis-other_markets-p4" class="analysis-paragraph" data-search-section="analysis-other_markets-p4" data-search-parent="analysis-other_markets">美國政策端出現 AI 曝險揭露提案，焦點在金融機構對晶片商、資料中心、雲端供應商與大型雲端平台的曝險。這不會立刻改變利差，但會提高槓桿透明度要求；若揭露壓力升高，私募信用與 AI infra 貸款的流動性溢酬可能擴大。因此政策透明度壓力會先影響私募信用流動性溢酬，再傳導到公開市場 HY beta；配置不應把 AI equity 反彈直接等同於信用風險下降。對 HY 而言，揭露壓力若提高，槓桿與流動性折價會先上升，beta 加碼需要更高補償。</p><p id="analysis-other_markets-p5" class="analysis-paragraph" data-search-section="analysis-other_markets-p5" data-search-parent="analysis-other_markets">EM local rates 仍提醒油價與政策可信度的尾端風險：Indonesia 10Y 殖利率曾上到 7.45%，央行可能還要 25-50bp 緊縮；這些不是 UST 的直接 driver，但代表高能源價格會快速傳導到資本外流與本地久期，對 EMB proxy 不能只看美股情緒。這也是 EMB 雖然日內反彈仍需設停損的原因；若油價或政策 credibility 再度惡化，local 利率壓力會比美股 beta 更快反映在價格上。</p></article><article class="analysis-card" id="analysis-allocation" data-search-section="analysis-allocation"><h3>四、配置含義</h3><p class="takeaway">配置可以提高風險，但要把 Duration、Curve、Credit 分層。</p><p id="analysis-allocation-p1" class="analysis-paragraph" data-search-section="analysis-allocation-p1" data-search-parent="analysis-allocation">久期：把 5Y-10Y 從低配調回小幅超配，因為 10Y 收 4.45%、日降 10bp，且 core CPI 低於市場預期。最佳表達是分批承接中段，而不是追 30Y；若 10Y 重新站上 4.55%，代表 CPI 降溫被油價或 Fed 溝通抵消，應把久期降回中性。這個調整保留了 CPI 意外降溫的 upside，同時用 4.55% 作為明確停損，避免在 Fed 溝通或油價反彈時把修復行情誤判成趨勢行情。</p><p id="analysis-allocation-p2" class="analysis-paragraph" data-search-section="analysis-allocation-p2" data-search-parent="analysis-allocation">曲線：2s10s 收 40bp、10s30s 收 50bp，代表前端回落與長端 supply 同時存在。偏好 5Y-10Y 收益 / 下滑收益，避免純粹長端 bull steepener；若 30Y 跌破 4.90% 且標售讓利沒有擴大，再把 20Y+ 從低配調到中性。曲線上，中段收益的好處是同時受益於前端通膨降溫與中段下滑收益；長端則更容易被標售、TGA rebuild 與全球期限溢酬打斷。</p><p id="analysis-allocation-p3" class="analysis-paragraph" data-search-section="analysis-allocation-p3" data-search-parent="analysis-allocation">Credit：LQD +0.85% 比 HYG +0.59% 更能反映 rates 反彈對高品質債的幫助。IG ETF 與短中天期 credit 收益可逐步提高風險，但 HY beta 仍需等 HYG &gt;80 且 SOX 反彈不被 AI 融資 headline 反轉；若 HYG &lt;79.50，應先降 beta。信用上，若 LQD 續站 109 而 HYG 未能站穩 80，代表市場願意買高品質收益，但還不願意全面承接低品質 beta。</p><p id="analysis-allocation-p4" class="analysis-paragraph" data-search-section="analysis-allocation-p4" data-search-parent="analysis-allocation">Supply / 期限溢酬：30Y 標售最高得標利率 5.020%、投標倍數 2.33，Fed 短票購買維持約 $10bn 到 7/13，TGA rebuild 仍可能吸收準備金。這代表長端與 funding 市場還需要流動性溢酬，配置上以 cash + 中段久期取代單邊拉長到 30Y。這種 barbell 讓組合同時保留 liquidity 與 rate 反彈曝險；若 funding 壓力升高，cash 端可以吸收波動，中段端則保留防守收益。</p><p id="analysis-allocation-p5" class="analysis-paragraph" data-search-section="analysis-allocation-p5" data-search-parent="analysis-allocation">提高風險門檻：同時看到 10Y &lt;4.40、30Y &lt;4.90、Brent &lt;90、LQD &gt;109 且 HYG &gt;80，才把信用 beta 與長端久期一起加碼。若只有股票上漲但 Brent 回到 $95 或 30Y 回到 5.02%，那是風險資產修復，不是 FI 全面加碼訊號。這些門檻要求 rates、oil、信用β 同時確認，目的不是等到所有風險消失，而是避免只因股市反彈就把信用 beta 與長端 beta 同時拉高。</p></article><article class="analysis-card" id="analysis-watchlist" data-search-section="analysis-watchlist"><h3>五、後續觀察重點</h3><p class="takeaway">下一步看 10Y 4.40/4.55、30Y 4.90/5.02 與 Brent 90/95。</p><p id="analysis-watchlist-p1" class="analysis-paragraph" data-search-section="analysis-watchlist-p1" data-search-parent="analysis-watchlist">利率門檻：10Y 若跌破 4.40% 並守住，代表 CPI 降溫被實質買盤接受，可把 5Y-10Y 久期再加一檔；若重新站上 4.55%，表示市場回到通膨與供給溢酬，應降低中段 beta。30Y 的有效多頭確認是 &lt;4.90%，失敗門檻是回到 5.02% 標售 area。這兩個收益率區間可直接轉成交易規則：10Y 下破 4.40 加中段，30Y 回到 5.02 撤出長端 beta。</p><p id="analysis-watchlist-p2" class="analysis-paragraph" data-search-section="analysis-watchlist-p2" data-search-parent="analysis-watchlist">通膨與油價門檻：Brent &lt;90 支持 Fed 維持利率與中段反彈，Brent &gt;95 會重新打開通膨預期與期限溢酬，Brent &gt;98 則要停止信用 beta 加碼。WTI $86.10 的回落是正面訊號，但它必須延續到下個 close 才能把能源衝擊從 rates narrative 中移除。能源門檻的意義在於通膨預期再定價速度很快；Brent 回到 95 以上，即使 CPI 已公布，市場仍會重新要求期限溢酬。</p><p id="analysis-watchlist-p3" class="analysis-paragraph" data-search-section="analysis-watchlist-p3" data-search-parent="analysis-watchlist">政策門檻：FOMC 6/16-6/17 若淡化前瞻指引，利率波動可能上升；BOJ 6/15-6/16 因 Ueda 缺席，任何 JGB 購債或升息溝通偏差都可能傳導到全球久期。ECB 若暗示 July/September 再 hike，20Y+ UST 的期限溢酬會比前端更敏感。政策事件是波動率來源；FOMC、BOJ、ECB 任一端釋出更少 guidance 或更鷹派路徑，都會讓長端風險補償上升。</p><p id="analysis-watchlist-p4" class="analysis-paragraph" data-search-section="analysis-watchlist-p4" data-search-parent="analysis-watchlist">信用門檻：LQD &gt;109 且 HYG &gt;80 是提高風險的最低確認；若 LQD 跌回 108 或 HYG 跌破 79.50，代表 ETF 價格無法承接新發行供給。AI 融資、私募信用貸款與 refinancing headline 要看折價與 tail concession，不只看 headline 規模；讓利擴大時應先降信用 beta。若新融資 concession 擴大，HYG 即使短線守住，也可能只是流動性反彈而非基本面改善。</p><p id="analysis-watchlist-p5" class="analysis-paragraph" data-search-section="analysis-watchlist-p5" data-search-parent="analysis-watchlist">流動性門檻：Fed 短票準備金購買約 $10bn 延續到 7/13，但 Treasury 現金部位重建仍可能吸收準備金。若融資成本上升同時 LQD 跌破 108，代表信用 beta 同時面臨資產負債表與流動性溢酬收緊；此時應先減 HY beta，再評估是否保留 5Y-10Y 久期作為防守。現金部位可吸收 credit drawdown，也保留後續買入高品質利差的彈性。</p></article></div></section></section><section id="rates" class="task-section rates-evidence-section" data-section-base="rates"><section class="block evidence-layer" aria-labelledby="ust-heatmap"><div class="section-head"><h2 id="ust-heatmap">美債殖利率熱圖</h2><p class="section-takeaway">UST 全段回落，以中段表現較佳；2s10s 收斂，偏空收斂訊號延續；色階代表 FI 影響。</p></div><div class="table-scroll heatmap-wrap" data-component="MetricTable"><table class="ust-heatmap metric-table" data-density="compact"><thead><tr><th>天期</th><th>收盤</th><th>1D</th><th>1W</th><th>1M</th></tr></thead><tbody><tr class="heatmap-group-row heatmap-yield-group"><th scope="rowgroup" colspan="5"><span>殖利率：</span><strong>UST 全段回落，以中段表現較佳</strong></th></tr><tr class="yield-row"><th scope="row">2Y</th><td class="num level">4.05%</td><td class="num is-supportive heat-light heat-high">-8bp</td><td class="num is-neutral heat-light heat-medium">0bp</td><td class="num is-adverse heat-medium heat-low">+15bp</td></tr><tr class="yield-row"><th scope="row">5Y</th><td class="num level">4.18%</td><td class="num is-supportive heat-light heat-high">-9bp</td><td class="num is-neutral heat-light heat-medium">0bp</td><td class="num is-adverse heat-medium heat-low">+16bp</td></tr><tr class="yield-row"><th scope="row">10Y</th><td class="num level">4.45%</td><td class="num is-supportive heat-medium heat-high">-10bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-adverse heat-light heat-low">+7bp</td></tr><tr class="yield-row"><th scope="row">20Y</th><td class="num level">4.96%</td><td class="num is-supportive heat-light heat-high">-8bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-adverse heat-light heat-low">+3bp</td></tr><tr class="yield-row"><th scope="row">30Y</th><td class="num level">4.95%</td><td class="num is-supportive heat-light heat-high">-8bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-neutral heat-light heat-low">0bp</td></tr><tr class="heatmap-group-row heatmap-curve-group"><th scope="rowgroup" colspan="5"><span>曲線：</span><strong>2s10s 收斂，偏空收斂訊號延續</strong></th></tr><tr class="curve-row"><th scope="row">2s10s</th><td class="num level">40bp</td><td class="num is-supportive heat-light heat-high">-2bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-supportive heat-light heat-low">-8bp</td></tr><tr class="curve-row"><th scope="row">5s30s</th><td class="num level">77bp</td><td class="num is-adverse heat-light heat-high">+1bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-supportive heat-medium heat-low">-16bp</td></tr><tr class="curve-row"><th scope="row">10s30s</th><td class="num level">50bp</td><td class="num is-adverse heat-light heat-high">+2bp</td><td class="num is-neutral heat-light heat-medium">0bp</td><td class="num is-supportive heat-light heat-low">-7bp</td></tr></tbody></table></div></section></section><section id="drivers" class="task-section"><section class="block evidence-chain evidence-layer" aria-labelledby="evidence-chain"><div class="section-head"><h2 id="evidence-chain">論點鏈</h2></div><div class="evidence-chain-list"><article class="evidence-chain-row evidence-chain-inflation-oil" data-card-href="#analysis-rates_interpretation-p1" data-driver-channel="inflation_oil" role="link" tabindex="0" aria-label="油價 / 通膨約束 - core CPI +0.2% m/m，低於 +0.3% 市場預期">
-<p class="chain-channel">油價 / 通膨約束</p>
-<div class="chain-main">
-<h3>core CPI +0.2% m/m，低於 +0.3% 市場預期</h3>
-<p class="chain-topic">Core CPI</p>
-</div>
-<p class="chain-impact">因為前端通膨壓力下降，5Y-10Y Duration 可以分批增加</p>
-</article><article class="evidence-chain-row evidence-chain-supply" data-card-href="#analysis-rates_close-p4" data-driver-channel="supply" role="link" tabindex="0" aria-label="美債供給 - 30Y 標售最高得標利率 5.020%，投標倍數 2.33">
-<p class="chain-channel">美債供給</p>
-<div class="chain-main">
-<h3>30Y 標售最高得標利率 5.020%，投標倍數 2.33</h3>
-<p class="chain-topic">Treasury supply</p>
-</div>
-<p class="chain-impact">因為長端供給仍需折價，30Y 低於 4.90% 前維持 20Y+ 低於中性</p>
-</article><article class="evidence-chain-row evidence-chain-global-duration" data-card-href="#analysis-other_markets-p2" data-driver-channel="global_duration" role="link" tabindex="0" aria-label="全球 Duration - ECB 存款利率 2.25%">
-<p class="chain-channel">全球 Duration</p>
-<div class="chain-main">
-<h3>ECB 存款利率 2.25%</h3>
-<p class="chain-topic">Global central banks</p>
-</div>
-<p class="chain-impact">因為全球期限溢酬可能上升，配置優先中段Duration而不是長端 beta</p>
-</article><article class="evidence-chain-row evidence-chain-credit" data-card-href="#analysis-other_markets-p1" data-driver-channel="credit" role="link" tabindex="0" aria-label="信用β / ETF 價格 - AI infra 與私募信用 funding headline 仍活躍">
-<p class="chain-channel">信用β / ETF 價格</p>
-<div class="chain-main">
-<h3>AI infra 與私募信用 funding headline 仍活躍</h3>
-<p class="chain-topic">AI 與私募信用 funding</p>
-</div>
-<p class="chain-impact">因為新發行供給會吸收資產負債表，HYG &gt;80 前限制 HY beta</p>
-</article></div></section><details class="block evidence-review" id="evidence-review"><summary><span>證據檢查</span><em>事件脈衝補充</em></summary><div class="evidence-review-body"><section class="block evidence-layer policy-pulse" aria-labelledby="policy-pulse"><div class="section-head"><h2 id="policy-pulse">政策事件脈衝</h2></div><div class="event-list" data-component="EventList"><article class="event-list-row event-list-row-policy" data-event-channel="policy" data-card-href="#analysis-rates_close-p3" data-animate-card role="link" tabindex="0" aria-label="Fed 政策 - Fed reserve management">
-<p class="event-list-channel">Fed 政策</p>
-<div class="event-list-main">
-<h3>Fed reserve management</h3>
-<strong class="event-list-value">約 $10bn 短票購買延續至 7/13</strong>
-<p class="event-list-meta">TGA rebuild 可能吸收準備金</p>
-</div>
-<p class="event-list-read">融資成本是 信用 beta 的隱性風險。</p>
-</article><article class="event-list-row event-list-row-inflation_growth" data-event-channel="inflation_growth" data-card-href="#analysis-rates_interpretation-p1" data-animate-card role="link" tabindex="0" aria-label="通膨 / 成長 - US May CPI">
-<p class="event-list-channel">通膨 / 成長</p>
-<div class="event-list-main">
-<h3>US May CPI</h3>
-<strong class="event-list-value">headline CPI +4.2% y/y； core CPI +0.2% m/m</strong>
-<p class="event-list-meta">headline in line；core 市場預期 +0.3% m/m</p>
-</div>
-<p class="event-list-read">核心意外降溫對前端友善，讓 2Y 下行 8bp。</p>
-</article><article class="event-list-row event-list-row-supply" data-event-channel="supply" data-card-href="#analysis-rates_close-p4" data-animate-card role="link" tabindex="0" aria-label="美債供給 - 30Y Treasury 標售">
-<p class="event-list-channel">美債供給</p>
-<div class="event-list-main">
-<h3>30Y Treasury 標售</h3>
-<strong class="event-list-value">29Y11M 再發行最高得標利率 5.020%；投標倍數 2.33</strong>
-<p class="event-list-meta">長端供給吸收測試</p>
-</div>
-<p class="event-list-read">30Y 低於 4.90% 前不追長端。</p>
-</article><article class="event-list-row event-list-row-global_cb" data-event-channel="global_cb" data-card-href="#analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="全球央行 - ECB policy">
-<p class="event-list-channel">全球央行</p>
-<div class="event-list-main">
-<h3>ECB policy</h3>
-<strong class="event-list-value">存款利率 +25bp 至 2.25%</strong>
-<p class="event-list-meta">poll expected +25bp</p>
-</div>
-<p class="event-list-read">全球久期不能只看美國 CPI。</p>
-</article><article class="event-list-row event-list-row-supply" data-event-channel="supply" data-card-href="#analysis-rates_close-p4" data-animate-card role="link" tabindex="0" aria-label="美債供給 - 10Y Treasury 標售">
-<p class="event-list-channel">美債供給</p>
-<div class="event-list-main">
-<h3>10Y Treasury 標售</h3>
-<strong class="event-list-value">最高得標利率 4.538%；投標倍數 2.57</strong>
-<p class="event-list-meta">中段供給測試</p>
-</div>
-<p class="event-list-read">支持 5Y-10Y 優先於 20Y+。</p>
-</article><article class="event-list-row event-list-row-supply" data-event-channel="supply" data-card-href="#analysis-rates_close" data-animate-card role="link" tabindex="0" aria-label="美債供給 - AI / 私募信用 funding">
-<p class="event-list-channel">美債供給</p>
-<div class="event-list-main">
-<h3>AI / 私募信用 funding</h3>
-<strong class="event-list-value">AI infra、CoreWeave、SpaceX 相關融資仍活躍</strong>
-<p class="event-list-meta">投資人檢驗 funding quality</p>
-</div>
-<p class="event-list-read">資本吸收與槓桿品質決定 HY beta 能否延續。</p>
-</article></div></section></div></details></section><section id="cross-asset" class="task-section"><section class="block reference-context-block cross-asset-block" aria-labelledby="cross-asset-dashboard"><div class="section-head"><h2 id="cross-asset-dashboard">跨資產參考</h2><p class="section-takeaway">半導體急彈降低 AI 資金鏈壓力，短線有利 HY beta 情緒。</p></div><div class="validation-list" data-component="ValidationList"><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#analysis-other_markets-p1" data-animate-card role="link" tabindex="0" aria-label="S&amp;P 500">
-<p class="validation-type">股市久期</p>
-<div class="validation-market">
-<h3>S&amp;P 500</h3>
-<p class="asset-level">7,394.30</p>
-</div>
-<p class="asset-move is-adverse">+1.75%</p>
-<p class="fi-read">風險資產反彈，但對 FI 的重點是通膨與油價壓力同步降溫。</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#analysis-allocation" data-animate-card role="link" tabindex="0" aria-label="Nasdaq Composite">
-<p class="validation-type">股市久期</p>
-<div class="validation-market">
-<h3>Nasdaq Composite</h3>
-<p class="asset-level">25,809.66</p>
-</div>
-<p class="asset-move is-adverse">+2.54%</p>
-<p class="fi-read">科技股修復支撐信用 beta，但仍受 AI 融資與資本開支檢驗。</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#analysis-allocation" data-animate-card role="link" tabindex="0" aria-label="Nasdaq 100">
-<p class="validation-type">股市久期</p>
-<div class="validation-market">
-<h3>Nasdaq 100</h3>
-<p class="asset-level">29,446.18</p>
-</div>
-<p class="asset-move is-adverse">+3.29%</p>
-<p class="fi-read">高 beta 反彈提高提高風險空間，但。</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#analysis-allocation-p4" data-animate-card role="link" tabindex="0" aria-label="SOX">
-<p class="validation-type">股市久期</p>
-<div class="validation-market">
-<h3>SOX</h3>
-<p class="asset-level">13,171.44</p>
-</div>
-<p class="asset-move is-adverse">+7.91%</p>
-<p class="fi-read">半導體急彈降低 AI 資金鏈壓力，短線有利 HY beta 情緒。</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#analysis-allocation-p3" data-animate-card role="link" tabindex="0" aria-label="Dow">
-<p class="validation-type">股市久期</p>
-<div class="validation-market">
-<h3>Dow</h3>
-<p class="asset-level">50,848.75</p>
-</div>
-<p class="asset-move is-adverse">+1.86%</p>
-<p class="fi-read">廣度改善，支持 IG 收益，但不改變長端供給風險。</p>
-</article><article class="validation-row validation-row-energy" data-signal-type="energy" data-card-href="#analysis-rates_close-p1" data-animate-card role="link" tabindex="0" aria-label="Brent">
-<p class="validation-type">能源</p>
-<div class="validation-market">
-<h3>Brent</h3>
-<p class="asset-level">$88.79</p>
-</div>
-<p class="asset-move is-supportive">-4.63%</p>
-<p class="fi-read">油價回落降低通膨尾端風險，是 UST 反彈的關鍵確認。</p>
-</article><article class="validation-row validation-row-energy" data-signal-type="energy" data-card-href="#analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="WTI">
-<p class="validation-type">能源</p>
-<div class="validation-market">
-<h3>WTI</h3>
-<p class="asset-level">$86.10</p>
-</div>
-<p class="asset-move is-supportive">-4.37%</p>
-<p class="fi-read">能源衝擊退潮讓 Fed 維持利率路徑更容易被市場接受。</p>
-</article><article class="validation-row validation-row-macro-hedge" data-signal-type="macro-hedge" data-card-href="#analysis-other_markets-p1" data-animate-card role="link" tabindex="0" aria-label="黃金">
-<p class="validation-type">宏觀避險</p>
-<div class="validation-market">
-<h3>黃金</h3>
-<p class="asset-level">$4,239.30</p>
-</div>
-<p class="asset-move is-adverse">+3.19%</p>
-<p class="fi-read"></p>
-</article><article class="validation-row validation-row-credit-proxy" data-signal-type="credit-proxy" data-card-href="#analysis-allocation-p3" data-animate-card role="link" tabindex="0" aria-label="信用β">
-<p class="validation-type">信用β</p>
-<div class="validation-market">
-<h3>信用β</h3>
-<p class="asset-level">LQD 109.08 / HYG 79.94 / EMB 96.27</p>
-</div>
-<p class="asset-move is-adverse">+0.85% / +0.59% / +0.96%</p>
-<p class="fi-read">信用 ETF 價格 proxy 改善。</p>
-</article></div></section></section><section id="risk-monitor" class="task-section"><section class="block decision-layer trigger-map" aria-labelledby="trigger-map"><div class="section-head"><h2 id="trigger-map">觸發地圖</h2></div><div class="trigger-map-list"><article class="trigger-map-row trigger-map-level" data-card-href="#analysis-watchlist-p1" role="link" tabindex="0" aria-label="10Y UST">
-<p class="trigger-map-kind">價位</p>
-<div class="trigger-map-main">
-<h3>10Y UST</h3>
-<strong>4.40% / 4.55%</strong>
-</div>
-<p class="trigger-map-detail">低於 4.40% 加中段 Duration；高於 4.55% 降低 beta</p>
-</article><article class="trigger-map-row trigger-map-level" data-card-href="#analysis-watchlist-p1" role="link" tabindex="0" aria-label="30Y UST">
-<p class="trigger-map-kind">價位</p>
-<div class="trigger-map-main">
-<h3>30Y UST</h3>
-<strong>4.90% / 5.02%</strong>
-</div>
-<p class="trigger-map-detail">低於 4.90% 才把長端調回中性；高於 5.02% 避免 20Y+</p>
-</article><article class="trigger-map-row trigger-map-level" data-card-href="#analysis-watchlist-p2" role="link" tabindex="0" aria-label="Brent">
-<p class="trigger-map-kind">價位</p>
-<div class="trigger-map-main">
-<h3>Brent</h3>
-<strong>$90 / $95 / $98</strong>
-</div>
-<p class="trigger-map-detail">低於 90 支持提高風險；高於 95 暫停信用 beta</p>
-</article><article class="trigger-map-row trigger-map-level" data-card-href="#analysis-watchlist-p4" role="link" tabindex="0" aria-label="Credit Proxy">
-<p class="trigger-map-kind">價位</p>
-<div class="trigger-map-main">
-<h3>Credit Proxy</h3>
-<strong>LQD 109 / HYG 80</strong>
-</div>
-<p class="trigger-map-detail">兩者同時站上才確認信用再加碼</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#analysis-watchlist-p3" role="link" tabindex="0" aria-label="FOMC Jun 16-17">
-<p class="trigger-map-kind">事件</p>
-<div class="trigger-map-main">
-<h3>FOMC Jun 16-17</h3>
-<strong>溝通密度與前瞻指引</strong>
-</div>
-<p class="trigger-map-detail">利率波動升高時分批建立 Duration</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#analysis-watchlist-p3" role="link" tabindex="0" aria-label="BOJ Jun 15-16">
-<p class="trigger-map-kind">事件</p>
-<div class="trigger-map-main">
-<h3>BOJ Jun 15-16</h3>
-<strong>Ueda 缺席與 JGB 指引</strong>
-</div>
-<p class="trigger-map-detail">觀察全球期限溢酬外溢</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#analysis-watchlist" role="link" tabindex="0" aria-label="ECB July/September path">
-<p class="trigger-map-kind">事件</p>
-<div class="trigger-map-main">
-<h3>ECB July/September path</h3>
-<strong>能源衝擊與通膨傳導</strong>
-</div>
-<p class="trigger-map-detail">若升息路徑提前，避免增加長端</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#analysis-watchlist" role="link" tabindex="0" aria-label="Treasury funding">
-<p class="trigger-map-kind">事件</p>
-<div class="trigger-map-main">
-<h3>Treasury funding</h3>
-<strong>TGA 重建與短票準備金購買</strong>
-</div>
-<p class="trigger-map-detail">加信用 beta 前先確認融資壓力</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#analysis-watchlist" role="link" tabindex="0" aria-label="AI / 私募信用 calendar">
-<p class="trigger-map-kind">事件</p>
-<div class="trigger-map-main">
-<h3>AI / 私募信用 calendar</h3>
-<strong>新發行讓利與揭露壓力</strong>
-</div>
-<p class="trigger-map-detail">若融資讓利擴大，降低 HY beta</p>
-</article></div></section></section><section id="appendix" class="task-section"><details class="block reference-layer reference-details"><summary>參考數據</summary><section class="reference-table"><h3>UST / 曲線</h3><div class="table-scroll"><table class="compact-table appendix-table"><thead><tr><th>項目</th><th>收盤</th><th>日變動</th><th>周變動</th><th>月變動</th></tr></thead><tbody><tr><td>2Y</td><td class="num">4.05%</td><td class="num">-8bp</td><td class="num">0bp</td><td class="num">+15bp</td></tr><tr><td>5Y</td><td class="num">4.18%</td><td class="num">-9bp</td><td class="num">0bp</td><td class="num">+16bp</td></tr><tr><td>10Y</td><td class="num">4.45%</td><td class="num">-10bp</td><td class="num">-2bp</td><td class="num">+7bp</td></tr><tr><td>20Y</td><td class="num">4.96%</td><td class="num">-8bp</td><td class="num">-2bp</td><td class="num">+3bp</td></tr><tr><td>30Y</td><td class="num">4.95%</td><td class="num">-8bp</td><td class="num">-2bp</td><td class="num">0bp</td></tr><tr><td>2s10s</td><td class="num">40bp</td><td class="num">-2bp</td><td class="num">-2bp</td><td class="num">-8bp</td></tr><tr><td>5s30s</td><td class="num">77bp</td><td class="num">+1bp</td><td class="num">-2bp</td><td class="num">-16bp</td></tr><tr><td>10s30s</td><td class="num">50bp</td><td class="num">+2bp</td><td class="num">0bp</td><td class="num">-7bp</td></tr></tbody></table></div></section><section class="reference-table"><h3>跨資產</h3><div class="table-scroll"><table class="compact-table appendix-table"><thead><tr><th>項目</th><th>收盤 / 狀態</th><th>日變動</th><th>重點</th></tr></thead><tbody><tr><td>S&amp;P 500</td><td class="num">7,394.30</td><td class="num">+1.75%</td><td>風險資產反彈，但對 FI 的重點是通膨與油價壓力同步降溫。</td></tr><tr><td>Nasdaq Composite</td><td class="num">25,809.66</td><td class="num">+2.54%</td><td>科技股修復支撐信用 beta，但仍受 AI 融資與資本開支檢驗。</td></tr><tr><td>Nasdaq 100</td><td class="num">29,446.18</td><td class="num">+3.29%</td><td>高 beta 反彈提高提高風險空間，但。</td></tr><tr><td>SOX</td><td class="num">13,171.44</td><td class="num">+7.91%</td><td>半導體急彈降低 AI 資金鏈壓力，短線有利 HY beta 情緒。</td></tr><tr><td>Dow</td><td class="num">50,848.75</td><td class="num">+1.86%</td><td>廣度改善，支持 IG 收益，但不改變長端供給風險。</td></tr><tr><td>Brent</td><td class="num">$88.79</td><td class="num">-4.63%</td><td>油價回落降低通膨尾端風險，是 UST 反彈的關鍵確認。</td></tr><tr><td>WTI</td><td class="num">$86.10</td><td class="num">-4.37%</td><td>能源衝擊退潮讓 Fed 維持利率路徑更容易被市場接受。</td></tr><tr><td>黃金</td><td class="num">$4,239.30</td><td class="num">+3.19%</td><td></td></tr><tr><td>信用β</td><td class="num">LQD 109.08 / HYG 79.94 / EMB 96.27</td><td class="num">+0.85%</td><td>信用 ETF 價格 proxy 改善。</td></tr></tbody></table></div></section><section class="reference-table"><h3>事件與經濟數據</h3><div class="table-scroll"><table class="compact-table appendix-table"><thead><tr><th>項目</th><th>公布 / 狀態</th><th>預期</th><th>重點</th></tr></thead><tbody><tr><td>US May CPI</td><td class="num">headline CPI +4.2% y/y； core CPI +0.2% m/m</td><td class="num">headline in line；core 市場預期 +0.3% m/m</td><td>核心意外降溫對前端友善，讓 2Y 下行 8bp。</td></tr><tr><td>30Y Treasury 標售</td><td class="num">29Y11M 再發行最高得標利率 5.020%；投標倍數 2.33</td><td class="num">長端供給吸收測試</td><td>30Y 低於 4.90% 前不追長端。</td></tr><tr><td>10Y Treasury 標售</td><td class="num">最高得標利率 4.538%；投標倍數 2.57</td><td class="num">中段供給測試</td><td>支持 5Y-10Y 優先於 20Y+。</td></tr><tr><td>ECB policy</td><td class="num">存款利率 +25bp 至 2.25%</td><td class="num">poll expected +25bp</td><td>全球久期不能只看美國 CPI。</td></tr><tr><td>Fed reserve management</td><td class="num">約 $10bn 短票購買延續至 7/13</td><td class="num">TGA rebuild 可能吸收準備金</td><td>融資成本是信用 beta 的隱性風險。</td></tr><tr><td>BOJ Jun 15-16</td><td class="num">Ueda 缺席，Himino acting chair</td><td class="num">hike probability remains high</td><td>JGB 溝通風險會影響全球期限溢酬。</td></tr><tr><td>AI / 私募信用 funding</td><td class="num">AI infra、CoreWeave、SpaceX 相關融資仍活躍</td><td class="num">投資人檢驗 funding quality</td><td>資本吸收與槓桿品質決定 HY beta 能否延續。</td></tr></tbody></table></div></section></details></section></div></div></div><div class="report-lang" data-lang-panel="en" hidden aria-hidden="true" inert><div class="dashboard-grid"><div class="main-column"><section id="en-overview" class="task-section overview-section"><header class="site-header decision-layer"><div class="masthead-copy"><p class="eyebrow">Prior U.S. close</p><h1><span class="title-main">Daily FI Market Tape</span><span class="title-separator">|</span><span class="title-date">2026-06-11 close</span></h1><p class="headline-primary">UST rally returns to the belly, but 30Y still needs supply confirmation</p><p class="headline-secondary">2Y -8bp, 10Y -10bp, 30Y -8bp; Brent -4.63% and credit proxies rallied.</p></div></header></section><section id="en-positioning" class="task-section positioning-decision-section"><section class="block decision-layer pm-decision-board" aria-labelledby="en-pm-decision-board"><div class="section-head"><h2 id="en-pm-decision-board">Today&#x27;s Call</h2></div><div class="pm-board-grid pm-summary-grid"><article class="pm-board-card pm-board-regime" data-card-href="#en-analysis-rates_close-p1" data-animate-card role="link" tabindex="0" data-decision-unit="executive" aria-label="Regime - 2s10s flattens, 5s30s steepens">
-<p class="pm-board-label">Regime</p>
-<h3>2s10s flattens, 5s30s steepens</h3>
-<p class="pm-board-marker">2Y -8bp / 10Y -10bp | 2s10s 40bp / -2bp / 5s30s +1bp</p>
-</article><article class="pm-board-card pm-board-action" data-card-href="#en-analysis-allocation-p1" data-animate-card role="link" tabindex="0" data-decision-unit="executive" aria-label="Action - staged belly duration.">
-<p class="pm-board-label">Action</p>
-<h3>staged belly duration.</h3>
-<p class="pm-board-marker">10Y -10bp | WTI -4.37%</p>
-</article><article class="pm-board-card pm-board-trigger" data-card-href="#en-analysis-watchlist-p1" data-animate-card role="link" tabindex="0" data-decision-unit="executive" aria-label="Trigger - Wait for 10Y / 30Y / WTI confirmation">
-<p class="pm-board-label">Trigger</p>
-<h3>Wait for 10Y / 30Y / WTI confirmation</h3>
-<p class="pm-board-marker">Cut: 10Y &gt; 4.55%.</p>
-</article></div><div class="portfolio-stance"><div class="portfolio-stance-title">Portfolio Stance</div><div class="portfolio-stance-head" aria-hidden="true"><span></span><span>Stance</span><span>Trigger</span></div><div class="portfolio-stance-row" data-card-href="#en-analysis-allocation-p1" data-animate-card role="link" tabindex="0" aria-label="Duration - small 5Y-10Y overweight">
-<p class="portfolio-bucket">Duration</p>
-<div class="portfolio-stance-copy">
-<p class="portfolio-view">small 5Y-10Y overweight</p>
-<p class="portfolio-action">staged belly duration</p>
-</div>
-<p class="portfolio-trigger">cut to neutral if 10Y &gt;4.55%</p>
-</div><div class="portfolio-stance-row" data-card-href="#en-analysis-allocation-p1" data-animate-card role="link" tabindex="0" aria-label="Curve - belly carry first">
-<p class="portfolio-bucket">Curve</p>
-<div class="portfolio-stance-copy">
-<p class="portfolio-view">belly carry first</p>
-<p class="portfolio-action">5Y-10Y over 20Y+</p>
-</div>
-<p class="portfolio-trigger">raise long-end beta only below 4.90% 30Y</p>
-</div><div class="portfolio-stance-row" data-card-href="#en-analysis-allocation-p3" data-animate-card role="link" tabindex="0" aria-label="Credit - IG liquidity before HY beta">
-<p class="portfolio-bucket">Credit</p>
-<div class="portfolio-stance-copy">
-<p class="portfolio-view">IG liquidity before HY beta</p>
-<p class="portfolio-action">LQD and high-quality credit proxies</p>
-</div>
-<p class="portfolio-trigger">cut credit beta if HYG &lt;79.50 or LQD &lt;108</p>
-</div></div></section></section><section id="en-investment-read" class="task-section"><section class="block analysis-layer" aria-labelledby="en-analysis-sections"><div class="section-head"><h2 id="en-analysis-sections">Investment Read</h2></div><div class="analysis-stack"><article class="analysis-card" id="en-analysis-rates_close" data-search-section="en-analysis-rates_close"><h3>Rates Close</h3><p class="takeaway">Add 5Y-10Y duration first; wait for 30Y below 4.90%.</p><p id="en-analysis-rates_close-p1" class="analysis-paragraph" data-search-section="en-analysis-rates_close-p1" data-search-parent="en-analysis-rates_close">USTs rallied as 2Y fell 8bp to 4.05%, 10Y fell 10bp to 4.45%, and 30Y fell 8bp to 4.95%; the clean trade is staged 5Y-10Y duration.</p><p id="en-analysis-rates_close-p2" class="analysis-paragraph" data-search-section="en-analysis-rates_close-p2" data-search-parent="en-analysis-rates_close">The curve was mixed: 2s10s narrowed to 40bp while 10s30s steepened to 50bp, showing belly leadership and supply pressure at the long end.</p><p id="en-analysis-rates_close-p3" class="analysis-paragraph" data-search-section="en-analysis-rates_close-p3" data-search-parent="en-analysis-rates_close">Month-to-date context remains less bullish because 2Y and 5Y are still materially above one month ago, so this is a repair trade rather than a full duration signal.</p><p id="en-analysis-rates_close-p4" class="analysis-paragraph" data-search-section="en-analysis-rates_close-p4" data-search-parent="en-analysis-rates_close">The 30Y reopening cleared at 5.020% with bid-to-cover of 2.33, making 5.02% a risk line for long-end beta.</p></article><article class="analysis-card" id="en-analysis-rates_interpretation" data-search-section="en-analysis-rates_interpretation"><h3>Rates Interpretation</h3><p class="takeaway">Core CPI and oil support the belly while supply caps the long end.</p><p id="en-analysis-rates_interpretation-p1" class="analysis-paragraph" data-search-section="en-analysis-rates_interpretation-p1" data-search-parent="en-analysis-rates_interpretation">Core CPI rose 0.2% month over month versus 0.3% consensus, which supports the front end and belly through lower policy-rate pressure.</p><p id="en-analysis-rates_interpretation-p2" class="analysis-paragraph" data-search-section="en-analysis-rates_interpretation-p2" data-search-parent="en-analysis-rates_interpretation">Brent fell 4.63% and WTI fell 4.37%, confirming that the rates move was helped by lower energy inflation risk.</p><p id="en-analysis-rates_interpretation-p3" class="analysis-paragraph" data-search-section="en-analysis-rates_interpretation-p3" data-search-parent="en-analysis-rates_interpretation">Fed communication risk argues for staged entries because lower forward guidance can raise rate volatility even if policy is unchanged.</p><p id="en-analysis-rates_interpretation-p4" class="analysis-paragraph" data-search-section="en-analysis-rates_interpretation-p4" data-search-parent="en-analysis-rates_interpretation">The ECB hike to a 2.25% deposit rate keeps global inflation pressure relevant for U.S. long-end term premium.</p><p id="en-analysis-rates_interpretation-p5" class="analysis-paragraph" data-search-section="en-analysis-rates_interpretation-p5" data-search-parent="en-analysis-rates_interpretation">BOJ communication risk around the Jun 15-16 meeting can spill into global duration if JGB volatility rises.</p></article><article class="analysis-card" id="en-analysis-other_markets" data-search-section="en-analysis-other_markets"><h3>Other Markets</h3><p class="takeaway">Risk recovery supports IG credit, but funding supply caps HY beta.</p><p id="en-analysis-other_markets-p1" class="analysis-paragraph" data-search-section="en-analysis-other_markets-p1" data-search-parent="en-analysis-other_markets">S&amp;P 500, Nasdaq 100, and SOX rallied while gold rose, signaling risk recovery with haven demand still present.</p><p id="en-analysis-other_markets-p2" class="analysis-paragraph" data-search-section="en-analysis-other_markets-p2" data-search-parent="en-analysis-other_markets">LQD, HYG, JNK, and EMB all rose, but these are ETF price proxies and should not be read as daily OAS moves.</p><p id="en-analysis-other_markets-p3" class="analysis-paragraph" data-search-section="en-analysis-other_markets-p3" data-search-parent="en-analysis-other_markets">AI infrastructure financing and CoreWeave, Oracle, and SpaceX funding stories keep balance-sheet absorption in focus.</p><p id="en-analysis-other_markets-p4" class="analysis-paragraph" data-search-section="en-analysis-other_markets-p4" data-search-parent="en-analysis-other_markets">AI exposure disclosure pressure can raise liquidity premia in private credit before it shows up in public spreads.</p><p id="en-analysis-other_markets-p5" class="analysis-paragraph" data-search-section="en-analysis-other_markets-p5" data-search-parent="en-analysis-other_markets">EM local rate stress warns that oil and policy credibility can still hit EMB even when U.S. equities rebound.</p></article><article class="analysis-card" id="en-analysis-allocation" data-search-section="en-analysis-allocation"><h3>Allocation</h3><p class="takeaway">Use staged duration and IG credit, with 10Y 4.55% as the first stop.</p><p id="en-analysis-allocation-p1" class="analysis-paragraph" data-search-section="en-analysis-allocation-p1" data-search-parent="en-analysis-allocation">Move 5Y-10Y duration to a small overweight, with 10Y above 4.55% as the stop.</p><p id="en-analysis-allocation-p2" class="analysis-paragraph" data-search-section="en-analysis-allocation-p2" data-search-parent="en-analysis-allocation">Favor belly carry over a pure long-end trade until 30Y breaks below 4.90% and auction concession fades.</p><p id="en-analysis-allocation-p3" class="analysis-paragraph" data-search-section="en-analysis-allocation-p3" data-search-parent="en-analysis-allocation">Add IG credit before HY beta because LQD benefited more from the rates rally than HYG.</p><p id="en-analysis-allocation-p4" class="analysis-paragraph" data-search-section="en-analysis-allocation-p4" data-search-parent="en-analysis-allocation">Use a cash plus belly barbell while TGA rebuilding and bill purchases keep funding pressure relevant.</p><p id="en-analysis-allocation-p5" class="analysis-paragraph" data-search-section="en-analysis-allocation-p5" data-search-parent="en-analysis-allocation">Raise both credit beta and long-end duration only when rates, oil, and credit proxies confirm together.</p></article><article class="analysis-card" id="en-analysis-watchlist" data-search-section="en-analysis-watchlist"><h3>Watchlist</h3><p class="takeaway">Watch 10Y 4.40/4.55, 30Y 4.90/5.02, and Brent 90/95.</p><p id="en-analysis-watchlist-p1" class="analysis-paragraph" data-search-section="en-analysis-watchlist-p1" data-search-parent="en-analysis-watchlist">For rates, 10Y below 4.40% confirms add, while 10Y above 4.55% cuts belly beta.</p><p id="en-analysis-watchlist-p2" class="analysis-paragraph" data-search-section="en-analysis-watchlist-p2" data-search-parent="en-analysis-watchlist">For oil, Brent below 90 supports the trade, while Brent above 95 pauses credit beta.</p><p id="en-analysis-watchlist-p3" class="analysis-paragraph" data-search-section="en-analysis-watchlist-p3" data-search-parent="en-analysis-watchlist">For policy, FOMC, BOJ, and ECB communication can all lift volatility and term premium.</p><p id="en-analysis-watchlist-p4" class="analysis-paragraph" data-search-section="en-analysis-watchlist-p4" data-search-parent="en-analysis-watchlist">For credit, LQD above 109 and HYG above 80 are the minimum re-risk confirmation.</p><p id="en-analysis-watchlist-p5" class="analysis-paragraph" data-search-section="en-analysis-watchlist-p5" data-search-parent="en-analysis-watchlist">For funding, rising cash-market pressure plus LQD below 108 means reduce HY beta first.</p></article></div></section></section><section id="en-rates" class="task-section rates-evidence-section" data-section-base="rates"><section class="block evidence-layer" aria-labelledby="en-ust-heatmap"><div class="section-head"><h2 id="en-ust-heatmap">UST Yield Heatmap</h2><p class="section-takeaway">Lower across the core curve; Spreads mixed; Colors indicate FI impact.</p></div><div class="table-scroll heatmap-wrap" data-component="MetricTable"><table class="ust-heatmap metric-table" data-density="compact"><thead><tr><th>Tenor</th><th>Close</th><th>1D</th><th>1W</th><th>1M</th></tr></thead><tbody><tr class="heatmap-group-row heatmap-yield-group"><th scope="rowgroup" colspan="5"><span>Yields:</span><strong>Lower across the core curve</strong></th></tr><tr class="yield-row"><th scope="row">2Y</th><td class="num level">4.05%</td><td class="num is-supportive heat-light heat-high">-8bp</td><td class="num is-neutral heat-light heat-medium">0bp</td><td class="num is-adverse heat-medium heat-low">+15bp</td></tr><tr class="yield-row"><th scope="row">5Y</th><td class="num level">4.18%</td><td class="num is-supportive heat-light heat-high">-9bp</td><td class="num is-neutral heat-light heat-medium">0bp</td><td class="num is-adverse heat-medium heat-low">+16bp</td></tr><tr class="yield-row"><th scope="row">10Y</th><td class="num level">4.45%</td><td class="num is-supportive heat-medium heat-high">-10bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-adverse heat-light heat-low">+7bp</td></tr><tr class="yield-row"><th scope="row">20Y</th><td class="num level">4.96%</td><td class="num is-supportive heat-light heat-high">-8bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-adverse heat-light heat-low">+3bp</td></tr><tr class="yield-row"><th scope="row">30Y</th><td class="num level">4.95%</td><td class="num is-supportive heat-light heat-high">-8bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-neutral heat-light heat-low">0bp</td></tr><tr class="heatmap-group-row heatmap-curve-group"><th scope="rowgroup" colspan="5"><span>Curve:</span><strong>Spreads mixed</strong></th></tr><tr class="curve-row"><th scope="row">2s10s</th><td class="num level">40bp</td><td class="num is-supportive heat-light heat-high">-2bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-supportive heat-light heat-low">-8bp</td></tr><tr class="curve-row"><th scope="row">5s30s</th><td class="num level">77bp</td><td class="num is-adverse heat-light heat-high">+1bp</td><td class="num is-supportive heat-light heat-medium">-2bp</td><td class="num is-supportive heat-medium heat-low">-16bp</td></tr><tr class="curve-row"><th scope="row">10s30s</th><td class="num level">50bp</td><td class="num is-adverse heat-light heat-high">+2bp</td><td class="num is-neutral heat-light heat-medium">0bp</td><td class="num is-supportive heat-light heat-low">-7bp</td></tr></tbody></table></div></section></section><section id="en-drivers" class="task-section"><section class="block evidence-chain evidence-layer" aria-labelledby="en-evidence-chain"><div class="section-head"><h2 id="en-evidence-chain">Thesis Chain</h2></div><div class="evidence-chain-list"><article class="evidence-chain-row evidence-chain-inflation-oil" data-card-href="#en-analysis-rates_interpretation" data-driver-channel="inflation_oil" role="link" tabindex="0" aria-label="Oil / Inflation Constraint - core CPI +0.2% m/m versus +0.3% consensus; 2Y fell 8bp">
-<p class="chain-channel">Oil / Inflation Constraint</p>
-<div class="chain-main">
-<h3>core CPI +0.2% m/m versus +0.3% consensus; 2Y fell 8bp</h3>
-<p class="chain-topic">Core CPI</p>
-</div>
-<p class="chain-impact">Front-end inflation pressure eased, so 5Y-10Y duration can be added in stages.</p>
-</article><article class="evidence-chain-row evidence-chain-supply" data-card-href="#en-analysis-rates_close-p4" data-driver-channel="supply" role="link" tabindex="0" aria-label="Treasury Supply - 30Y auction high yield 5.020% with bid-to-cover 2.33">
-<p class="chain-channel">Treasury Supply</p>
-<div class="chain-main">
-<h3>30Y auction high yield 5.020% with bid-to-cover 2.33</h3>
-<p class="chain-topic">Treasury supply</p>
-</div>
-<p class="chain-impact">Long-end supply still needs concession, so keep 20Y+ below neutral until 30Y &lt;4.90%.</p>
-</article><article class="evidence-chain-row evidence-chain-global-duration" data-card-href="#en-analysis-other_markets" data-driver-channel="global_duration" role="link" tabindex="0" aria-label="Global Duration - ECB deposit rate 2.25% and BOJ communication risk around Jun 15-16">
-<p class="chain-channel">Global Duration</p>
-<div class="chain-main">
-<h3>ECB deposit rate 2.25% and BOJ communication risk around Jun 15-16</h3>
-<p class="chain-topic">Global central banks</p>
-</div>
-<p class="chain-impact">Global term premium can rise, so prefer belly duration over long-end beta.</p>
-</article><article class="evidence-chain-row evidence-chain-credit" data-card-href="#en-analysis-other_markets-p2" data-driver-channel="credit" role="link" tabindex="0" aria-label="Credit beta / ETF prices - AI infrastructure and private-credit funding headlines remained active">
-<p class="chain-channel">Credit beta / ETF prices</p>
-<div class="chain-main">
-<h3>AI infrastructure and private-credit funding headlines remained active</h3>
-<p class="chain-topic">AI and private credit funding</p>
-</div>
-<p class="chain-impact">Primary supply can absorb balance sheet, so cap HY beta until HYG &gt;80.</p>
-</article></div></section><details class="block evidence-review" id="en-evidence-review"><summary><span>Evidence Review</span><em>Event pulse</em></summary><div class="evidence-review-body"><section class="block evidence-layer policy-pulse" aria-labelledby="en-policy-pulse"><div class="section-head"><h2 id="en-policy-pulse">Policy / Event Pulse</h2></div><div class="event-list" data-component="EventList"><article class="event-list-row event-list-row-policy" data-event-channel="policy" data-card-href="#en-analysis-rates_interpretation" data-animate-card role="link" tabindex="0" aria-label="Fed / Policy - Fed reserve management">
-<p class="event-list-channel">Fed / Policy</p>
-<div class="event-list-main">
-<h3>Fed reserve management</h3>
-<strong class="event-list-value">about $10bn T-bill purchases through Jul 13</strong>
-<p class="event-list-meta">TGA rebuild may drain reserves</p>
-</div>
-<p class="event-list-read">Event used for rates and credit allocation.</p>
-</article><article class="event-list-row event-list-row-inflation_growth" data-event-channel="inflation_growth" data-card-href="#en-analysis-rates_interpretation" data-animate-card role="link" tabindex="0" aria-label="Macro / Inflation - US May CPI">
-<p class="event-list-channel">Macro / Inflation</p>
-<div class="event-list-main">
-<h3>US May CPI</h3>
-<strong class="event-list-value">headline CPI +4.2% y/y; core CPI +0.2% m/m</strong>
-<p class="event-list-meta">headline in line; core consensus +0.3% m/m</p>
-</div>
-<p class="event-list-read">Event used for rates and credit allocation.</p>
-</article><article class="event-list-row event-list-row-supply" data-event-channel="supply" data-card-href="#en-analysis-rates_close-p4" data-animate-card role="link" tabindex="0" aria-label="Treasury Supply - 30Y Treasury auction">
-<p class="event-list-channel">Treasury Supply</p>
-<div class="event-list-main">
-<h3>30Y Treasury auction</h3>
-<strong class="event-list-value">29Y11M reopening high yield 5.020%; bid-to-cover 2.33</strong>
-<p class="event-list-meta">long-end supply absorption test</p>
-</div>
-<p class="event-list-read">Event used for rates and credit allocation.</p>
-</article><article class="event-list-row event-list-row-global_cb" data-event-channel="global_cb" data-card-href="#en-analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="Global CB - ECB policy">
-<p class="event-list-channel">Global CB</p>
-<div class="event-list-main">
-<h3>ECB policy</h3>
-<strong class="event-list-value">deposit rate +25bp to 2.25%</strong>
-<p class="event-list-meta">poll expected +25bp</p>
-</div>
-<p class="event-list-read">Event used for rates and credit allocation.</p>
-</article><article class="event-list-row event-list-row-supply" data-event-channel="supply" data-card-href="#en-analysis-rates_close-p1" data-animate-card role="link" tabindex="0" aria-label="Treasury Supply - 10Y Treasury auction">
-<p class="event-list-channel">Treasury Supply</p>
-<div class="event-list-main">
-<h3>10Y Treasury auction</h3>
-<strong class="event-list-value">high yield 4.538%; bid-to-cover 2.57</strong>
-<p class="event-list-meta">belly supply test</p>
-</div>
-<p class="event-list-read">Event used for rates and credit allocation.</p>
-</article><article class="event-list-row event-list-row-supply" data-event-channel="supply" data-card-href="#en-analysis-rates_close" data-animate-card role="link" tabindex="0" aria-label="Treasury Supply - AI / private credit funding">
-<p class="event-list-channel">Treasury Supply</p>
-<div class="event-list-main">
-<h3>AI / private credit funding</h3>
-<strong class="event-list-value">AI infrastructure, CoreWeave, and SpaceX-related funding active</strong>
-<p class="event-list-meta">investors test funding quality</p>
-</div>
-<p class="event-list-read">Event used for rates and credit allocation.</p>
-</article></div></section></div></details></section><section id="en-cross-asset" class="task-section"><section class="block reference-context-block cross-asset-block" aria-labelledby="en-cross-asset-dashboard"><div class="section-head"><h2 id="en-cross-asset-dashboard">Cross-Asset Context</h2><p class="section-takeaway">Public close used for fixed-income risk interpretation.</p></div><div class="validation-list" data-component="ValidationList"><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#en-analysis-other_markets-p1" data-animate-card role="link" tabindex="0" aria-label="S&amp;P 500">
-<p class="validation-type">Equity duration</p>
-<div class="validation-market">
-<h3>S&amp;P 500</h3>
-<p class="asset-level">7,394.30</p>
-</div>
-<p class="asset-move is-adverse">+1.75%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#en-analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="Nasdaq Composite">
-<p class="validation-type">Equity duration</p>
-<div class="validation-market">
-<h3>Nasdaq Composite</h3>
-<p class="asset-level">25,809.66</p>
-</div>
-<p class="asset-move is-adverse">+2.54%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#en-analysis-other_markets-p1" data-animate-card role="link" tabindex="0" aria-label="Nasdaq 100">
-<p class="validation-type">Equity duration</p>
-<div class="validation-market">
-<h3>Nasdaq 100</h3>
-<p class="asset-level">29,446.18</p>
-</div>
-<p class="asset-move is-adverse">+3.29%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#en-analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="SOX">
-<p class="validation-type">Equity duration</p>
-<div class="validation-market">
-<h3>SOX</h3>
-<p class="asset-level">13,171.44</p>
-</div>
-<p class="asset-move is-adverse">+7.91%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-equity-duration" data-signal-type="equity-duration" data-card-href="#en-analysis-other_markets-p1" data-animate-card role="link" tabindex="0" aria-label="Dow">
-<p class="validation-type">Equity duration</p>
-<div class="validation-market">
-<h3>Dow</h3>
-<p class="asset-level">50,848.75</p>
-</div>
-<p class="asset-move is-adverse">+1.86%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-energy" data-signal-type="energy" data-card-href="#en-analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="Brent">
-<p class="validation-type">Energy</p>
-<div class="validation-market">
-<h3>Brent</h3>
-<p class="asset-level">$88.79</p>
-</div>
-<p class="asset-move is-supportive">-4.63%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-energy" data-signal-type="energy" data-card-href="#en-analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="WTI">
-<p class="validation-type">Energy</p>
-<div class="validation-market">
-<h3>WTI</h3>
-<p class="asset-level">$86.10</p>
-</div>
-<p class="asset-move is-supportive">-4.37%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-macro-hedge" data-signal-type="macro-hedge" data-card-href="#en-analysis-other_markets" data-animate-card role="link" tabindex="0" aria-label="Gold">
-<p class="validation-type">Macro hedge</p>
-<div class="validation-market">
-<h3>Gold</h3>
-<p class="asset-level">$4,239.30</p>
-</div>
-<p class="asset-move is-adverse">+3.19%</p>
-<p class="fi-read">Public close used for fixed-income risk interpretation.</p>
-</article><article class="validation-row validation-row-credit-proxy" data-signal-type="credit-proxy" data-card-href="#en-analysis-allocation-p3" data-animate-card role="link" tabindex="0" aria-label="Credit beta">
-<p class="validation-type">Credit beta</p>
-<div class="validation-market">
-<h3>Credit beta</h3>
-<p class="asset-level">LQD 109.08 / HYG 79.94 / EMB 96.27</p>
-</div>
-<p class="asset-move is-adverse">+0.85% / +0.59% / +0.96%</p>
-<p class="fi-read">Credit ETF price signals improved; IG carry is preferred before HY beta.</p>
-</article></div></section></section><section id="en-risk-monitor" class="task-section"><section class="block decision-layer trigger-map" aria-labelledby="en-trigger-map"><div class="section-head"><h2 id="en-trigger-map">Trigger Map</h2></div><div class="trigger-map-list"><article class="trigger-map-row trigger-map-level" data-card-href="#en-analysis-watchlist-p1" role="link" tabindex="0" aria-label="10Y UST">
-<p class="trigger-map-kind">Level</p>
-<div class="trigger-map-main">
-<h3>10Y UST</h3>
-<strong>4.40% / 4.55%</strong>
-</div>
-<p class="trigger-map-detail">Below 4.40% adds belly duration; above 4.55% cuts beta.</p>
-</article><article class="trigger-map-row trigger-map-level" data-card-href="#en-analysis-watchlist" role="link" tabindex="0" aria-label="30Y UST">
-<p class="trigger-map-kind">Level</p>
-<div class="trigger-map-main">
-<h3>30Y UST</h3>
-<strong>4.90% / 5.02%</strong>
-</div>
-<p class="trigger-map-detail">Below 4.90% moves long-end duration to neutral; above 5.02% avoids 20Y+.</p>
-</article><article class="trigger-map-row trigger-map-level" data-card-href="#en-analysis-watchlist-p2" role="link" tabindex="0" aria-label="Brent">
-<p class="trigger-map-kind">Level</p>
-<div class="trigger-map-main">
-<h3>Brent</h3>
-<strong>$90 / $95 / $98</strong>
-</div>
-<p class="trigger-map-detail">Below 90 supports re-risking; above 95 pauses credit beta.</p>
-</article><article class="trigger-map-row trigger-map-level" data-card-href="#en-analysis-watchlist-p4" role="link" tabindex="0" aria-label="Credit Proxy">
-<p class="trigger-map-kind">Level</p>
-<div class="trigger-map-main">
-<h3>Credit Proxy</h3>
-<strong>LQD 109 / HYG 80</strong>
-</div>
-<p class="trigger-map-detail">Both levels must hold to confirm credit re-risking.</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#en-analysis-watchlist-p3" role="link" tabindex="0" aria-label="FOMC Jun 16-17">
-<p class="trigger-map-kind">Event</p>
-<div class="trigger-map-main">
-<h3>FOMC Jun 16-17</h3>
-<strong>communication density and guidance</strong>
-</div>
-<p class="trigger-map-detail">Stage duration if rate volatility rises.</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#en-analysis-watchlist-p3" role="link" tabindex="0" aria-label="BOJ Jun 15-16">
-<p class="trigger-map-kind">Event</p>
-<div class="trigger-map-main">
-<h3>BOJ Jun 15-16</h3>
-<strong>Ueda absence and JGB guidance</strong>
-</div>
-<p class="trigger-map-detail">Watch spillover into global term premium.</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#en-analysis-watchlist" role="link" tabindex="0" aria-label="ECB July/September path">
-<p class="trigger-map-kind">Event</p>
-<div class="trigger-map-main">
-<h3>ECB July/September path</h3>
-<strong>energy shock and inflation pass-through</strong>
-</div>
-<p class="trigger-map-detail">Avoid adding long-end risk if hikes are pulled forward.</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#en-analysis-watchlist" role="link" tabindex="0" aria-label="Treasury funding">
-<p class="trigger-map-kind">Event</p>
-<div class="trigger-map-main">
-<h3>Treasury funding</h3>
-<strong>TGA rebuild and bill purchases</strong>
-</div>
-<p class="trigger-map-detail">Confirm funding pressure before adding credit beta.</p>
-</article><article class="trigger-map-row trigger-map-event" data-card-href="#en-analysis-watchlist" role="link" tabindex="0" aria-label="AI / private credit calendar">
-<p class="trigger-map-kind">Event</p>
-<div class="trigger-map-main">
-<h3>AI / private credit calendar</h3>
-<strong>primary concession and disclosure pressure</strong>
-</div>
-<p class="trigger-map-detail">Cut HY beta if funding concessions widen.</p>
-</article></div></section></section><section id="en-appendix" class="task-section"><details class="block reference-layer reference-details"><summary>Reference Data</summary><section class="reference-table"><h3>UST / Curve</h3><div class="table-scroll"><table class="compact-table appendix-table"><thead><tr><th>Item</th><th>Close</th><th>Day Change</th><th>Week Change</th><th>Month Change</th></tr></thead><tbody><tr><td>2Y</td><td class="num">4.05%</td><td class="num">-8bp</td><td class="num">0bp</td><td class="num">+15bp</td></tr><tr><td>5Y</td><td class="num">4.18%</td><td class="num">-9bp</td><td class="num">0bp</td><td class="num">+16bp</td></tr><tr><td>10Y</td><td class="num">4.45%</td><td class="num">-10bp</td><td class="num">-2bp</td><td class="num">+7bp</td></tr><tr><td>20Y</td><td class="num">4.96%</td><td class="num">-8bp</td><td class="num">-2bp</td><td class="num">+3bp</td></tr><tr><td>30Y</td><td class="num">4.95%</td><td class="num">-8bp</td><td class="num">-2bp</td><td class="num">0bp</td></tr><tr><td>2s10s</td><td class="num">40bp</td><td class="num">-2bp</td><td class="num">-2bp</td><td class="num">-8bp</td></tr><tr><td>5s30s</td><td class="num">77bp</td><td class="num">+1bp</td><td class="num">-2bp</td><td class="num">-16bp</td></tr><tr><td>10s30s</td><td class="num">50bp</td><td class="num">+2bp</td><td class="num">0bp</td><td class="num">-7bp</td></tr></tbody></table></div></section><section class="reference-table"><h3>Cross-Asset / Credit Proxy</h3><div class="table-scroll"><table class="compact-table appendix-table"><thead><tr><th>Item</th><th>Close / Status</th><th>Day Change</th><th>Desk Read</th></tr></thead><tbody><tr><td>S&amp;P 500</td><td class="num">7,394.30</td><td class="num">+1.75%</td><td></td></tr><tr><td>Nasdaq Composite</td><td class="num">25,809.66</td><td class="num">+2.54%</td><td></td></tr><tr><td>Nasdaq 100</td><td class="num">29,446.18</td><td class="num">+3.29%</td><td></td></tr><tr><td>SOX</td><td class="num">13,171.44</td><td class="num">+7.91%</td><td></td></tr><tr><td>Dow</td><td class="num">50,848.75</td><td class="num">+1.86%</td><td></td></tr><tr><td>Brent</td><td class="num">$88.79</td><td class="num">-4.63%</td><td></td></tr><tr><td>WTI</td><td class="num">$86.10</td><td class="num">-4.37%</td><td></td></tr><tr><td>Gold</td><td class="num">$4,239.30</td><td class="num">+3.19%</td><td></td></tr><tr><td>Credit beta</td><td class="num">LQD 109.08 / HYG 79.94 / EMB 96.27</td><td class="num">+0.85% / +0.59% / +0.96%</td><td></td></tr></tbody></table></div></section><section class="reference-table"><h3>Events / Data</h3><div class="table-scroll"><table class="compact-table appendix-table"><thead><tr><th>Item</th><th>Release / Status</th><th>Expected</th><th>Desk Read</th></tr></thead><tbody><tr><td>US May CPI</td><td class="num">headline CPI +4.2% y/y; core CPI +0.2% m/m</td><td class="num">headline in line; core consensus +0.3% m/m</td><td>headline in line; core consensus +0.3% m/m</td></tr><tr><td>30Y Treasury auction</td><td class="num">29Y11M reopening high yield 5.020%; bid-to-cover 2.33</td><td class="num">long-end supply absorption test</td><td>long-end supply absorption test</td></tr><tr><td>10Y Treasury auction</td><td class="num">high yield 4.538%; bid-to-cover 2.57</td><td class="num">belly supply test</td><td>belly supply test</td></tr><tr><td>ECB policy</td><td class="num">deposit rate +25bp to 2.25%</td><td class="num">poll expected +25bp</td><td>poll expected +25bp</td></tr><tr><td>Fed reserve management</td><td class="num">about $10bn T-bill purchases through Jul 13</td><td class="num">TGA rebuild may drain reserves</td><td>TGA rebuild may drain reserves</td></tr><tr><td>BOJ Jun 15-16</td><td class="num">Ueda absent; Himino acting chair</td><td class="num">hike probability remains high</td><td>hike probability remains high</td></tr><tr><td>AI / private credit funding</td><td class="num">AI infrastructure, CoreWeave, and SpaceX-related funding active</td><td class="num">investors test funding quality</td><td>investors test funding quality</td></tr></tbody></table></div></section></details></section></div></div></div></div></div></main>
+<main aria-labelledby="title">
+  <p class="eyebrow">Daily FI Tape</p>
+  <h1 id="title">Under Maintenance</h1>
+  <p class="lead">Daily FI Tape 正在進行內容生成架構與 UI/UX overhaul。正式版完成前，公開頁面先暫停顯示，避免半成品被誤用。</p>
+  <section class="status" aria-label="Maintenance status">
+    <div>
+      <strong>內容重構</strong>
+      <span>拆分 source synthesis、long-form analysis 與 presentation layer。</span>
+    </div>
+    <div>
+      <strong>介面整理</strong>
+      <span>重新收斂 first screen、歷史瀏覽、搜尋與互動層級。</span>
+    </div>
+    <div>
+      <strong>資料稽核</strong>
+      <span>改以 local news store 為優先來源，強化可回溯與重建能力。</span>
+    </div>
+  </section>
+  <p class="note">The public Daily FI Tape archive is temporarily unavailable while the report engine is being rebuilt. Please check back after the maintenance window.</p>
+</main>
 </body>
 </html>
