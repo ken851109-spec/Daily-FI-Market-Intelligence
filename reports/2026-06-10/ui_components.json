@@ -1,0 +1,285 @@
+{
+  "report_date": "2026-06-10",
+  "run_id": "2026-06-10T08-00-00+08-00_live-local",
+  "mode": "full",
+  "anchor": "ny_close",
+  "header": {
+    "title": "Daily FI Tape",
+    "as_of_note": "NY close briefing; Asia and pre-market update remains separate.",
+    "latest_update_cutoff": "2026-06-11T08:00:00+08:00"
+  },
+  "overall_summary": {
+    "bullets": [
+      "Fed hike pricing survived a softer core CPI print while oil and risk assets kept the close defensive: the curve bear-steepened modestly, breakevens did not fall, equities sold off, and credit was weaker after adjusting for rates."
+    ],
+    "ny_close_causal_narrative": "Fed hike pricing survived a softer core CPI print while oil and risk assets kept the close defensive: the curve bear-steepened modestly, breakevens did not fall, equities sold off, and credit was weaker after adjusting for rates."
+  },
+  "top_drivers": [
+    {
+      "rank": 1,
+      "title": "Fed hike pricing survived softer CPI",
+      "short_summary": "Core CPI gave the Fed some breathing room, but swaps still kept a year-end hike in play and the front end did not rally.",
+      "detail": "UST2Y held near 4.13% while UST10Y rose to 4.55%; the day was a modest bear steepening, not a clean disinflation rally.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    },
+    {
+      "rank": 2,
+      "title": "Oil risk premium kept inflation compensation alive",
+      "short_summary": "WTI and Brent rose even as prior-week oil losses remained large, keeping energy pass-through in the policy discussion.",
+      "detail": "BE10Y rose to 234 bp and 10Y TIPS rose to 2.21%, so the nominal selloff had a real-rate and inflation-compensation mix.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    },
+    {
+      "rank": 3,
+      "title": "Credit tiering widened beneath still-tight spreads",
+      "short_summary": "Pimco's loss-cycle warning, weak lower-quality borrowers, and AI financing needs mattered more than the level of high-grade spreads.",
+      "detail": "LQD, HYG, JNK, and EMB all posted negative total returns while equities and semiconductors sold off; the ETF moves alone do not prove spread widening, but they fit a weaker risk tape.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    }
+  ],
+  "latest_asia_premarket": {
+    "summary": "Separately, checked Asia/pre-market pricing before the Taipei handoff shows 10Y Treasury note futures 108.97 (-0.4%); 30Y Treasury bond futures 111.25 (-0.72%); S&P 500 futures 7,248 (-0.42%); Nasdaq 100 futures 28,345 (-0.73%); WTI crude futures 92.6 (+2.85%).",
+    "items": [
+      {
+        "title": "10Y Treasury note futures",
+        "detail": "108.97, -0.4% from the prior close. Treasury futures give the cleanest early read on whether the duration bid held after the NY close",
+        "timestamp": "2026-06-11T08:00:00+08:00"
+      },
+      {
+        "title": "30Y Treasury bond futures",
+        "detail": "111.25, -0.72% from the prior close. Long-bond futures help separate a persistent long-end bid from a one-session cash-market move",
+        "timestamp": "2026-06-11T08:00:00+08:00"
+      },
+      {
+        "title": "S&P 500 futures",
+        "detail": "7,248, -0.42% from the prior close. Equity futures show whether the overnight handoff confirmed or faded the NY risk tone",
+        "timestamp": "2026-06-11T08:00:00+08:00"
+      },
+      {
+        "title": "Nasdaq 100 futures",
+        "detail": "28,345, -0.73% from the prior close. Nasdaq futures are the early check on whether growth and technology beta stabilized",
+        "timestamp": "2026-06-11T08:00:00+08:00"
+      },
+      {
+        "title": "WTI crude futures",
+        "detail": "92.6, +2.85% from the prior close. WTI futures test whether the oil channel was still easing inflation pressure by the Taipei handoff",
+        "timestamp": "2026-06-11T08:00:00+08:00"
+      }
+    ]
+  },
+  "watch_events": [
+    {
+      "title": "Fed communication after CPI",
+      "date": "2026-06-11",
+      "category": "market",
+      "why_it_matters": "Whether policymakers treat the soft core print as a pause signal or keep emphasizing oil-driven upside inflation risk."
+    },
+    {
+      "title": "Oil and breakeven follow-through",
+      "date": "2026-06-11",
+      "category": "market",
+      "why_it_matters": "A further crude rise would keep the Fed path asymmetric even if core inflation cools."
+    },
+    {
+      "title": "Credit primary access",
+      "date": "2026-06-11",
+      "category": "market",
+      "why_it_matters": "High-grade and AI-linked borrowers still had market access, but lower-quality refinancing risk was becoming more visible."
+    }
+  ],
+  "yield_heat_map": {
+    "rows": [
+      {
+        "tenor": "2Y",
+        "last": "4.13%",
+        "change_1d": "0 bp",
+        "change_1w": "+5 bp",
+        "change_1m": "+23 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "5Y",
+        "last": "4.27%",
+        "change_1d": "+1 bp",
+        "change_1w": "+6 bp",
+        "change_1m": "+25 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "10Y",
+        "last": "4.55%",
+        "change_1d": "+2 bp",
+        "change_1w": "+6 bp",
+        "change_1m": "+17 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "30Y",
+        "last": "5.03%",
+        "change_1d": "+2 bp",
+        "change_1w": "+4 bp",
+        "change_1m": "+8 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S10S",
+        "last": "42 bp",
+        "change_1d": "+2 bp",
+        "change_1w": "+1 bp",
+        "change_1m": "-6 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S30S",
+        "last": "90 bp",
+        "change_1d": "+2 bp",
+        "change_1w": "-1 bp",
+        "change_1m": "-15 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S5S10S",
+        "last": "-14 bp",
+        "change_1d": "0 bp",
+        "change_1w": "+1 bp",
+        "change_1m": "+10 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S10S30S",
+        "last": "-6 bp",
+        "change_1d": "+2 bp",
+        "change_1w": "+3 bp",
+        "change_1m": "+3 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "10TIPS",
+        "last": "2.21%",
+        "change_1d": "+1 bp",
+        "change_1w": "+10 bp",
+        "change_1m": "+28 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      },
+      {
+        "tenor": "10BE",
+        "last": "2.34%",
+        "change_1d": "+1 bp",
+        "change_1w": "-4 bp",
+        "change_1m": "-11 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-10T17:00:00-04:00"
+      }
+    ]
+  },
+  "cross_asset_cards": [
+    {
+      "title": "Oil",
+      "value": "WTI 90.03 (+2.07%) / BRENT 93.1 (+1.8%)",
+      "summary": "WTI was +2.07% on the day and -6.24% over one week; Brent moved in the same direction, pulling inflation compensation lower and reinforcing Treasury demand.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Equities",
+      "value": "SPX 7,267 (-1.62%) / NDX 28,508 (-1.98%) / SOX 12,206 (-3.57%) / VIX 22.22 (+11.8%)",
+      "summary": "SPX was -1.62%, NDX -1.98%, and SOX -3.57%; the equity tape leaned tech-beta downside rather than broad risk-appetite confirmation.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Credit",
+      "value": "LQD 108.16 (-0.23%) / HYG 79.47 (-0.19%) / JNK 95.73 (-0.2%) / EMB 95.35 (-0.33%)",
+      "summary": "LQD was -0.23%, HYG -0.19%, and EMB -0.33%; these are ETF total returns, not direct OAS or CDX. With Treasury yields lower, duration should have helped bond ETF prices, so flat or negative HY/EM returns argue for weak spread confirmation rather than a broad credit rally.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Dollar / gold",
+      "value": "DXY 99.95 (+0.04%) / GOLD 4,108 (-3.56%)",
+      "summary": "DXY was +0.04% while gold was -3.56%, consistent with lower yields and limited haven stress.",
+      "reference_type": "ny_close"
+    }
+  ],
+  "long_thesis": {
+    "english_markdown": "## Opening fixed-income thesis\n\nThe June 10 close was a rates and credit tape caught between softer core inflation and an energy shock that still mattered for central-bank reaction functions. Treasuries did not trade like the market had received an all-clear on inflation. UST2Y ended near 4.13%, essentially unchanged on the day, while UST5Y rose to 4.27%, UST10Y to 4.55%, and UST30Y to 5.03%. The curve therefore bear-steepened at the margin: 2s10s widened to about 42 bp and 2s30s to about 90 bp. That is the first clue. A genuinely dovish CPI day would normally put more pressure on the front end. Instead, the market treated the softer core print as breathing room for the Fed, not as a reason to remove the possibility of a later hike.\n\nThe second clue was cross-asset. WTI rose to about 90.03, up 2.07% on the day, while Brent rose to about 93.10, up 1.80%. BE10Y rose to about 234 bp and 10Y TIPS rose to about 2.21%, so inflation compensation and real yields both contributed to the nominal Treasury move. Equities did not validate a broad risk-on interpretation: the S&P 500 fell 1.62%, the Nasdaq 100 fell 1.98%, and the semiconductor index dropped 3.57%. VIX rose almost 12%. Credit ETF total returns were also negative, but those returns combine rates and spread; the better reading is that the equity and volatility tape made it difficult to call the day constructive for lower-quality credit.\n\nThe day's news flow gave that price action a coherent explanation. Bond traders kept a rate-hike outcome by year-end in play even after a softer core CPI reading. One portfolio manager framed the CPI data as just soft enough to let the Fed wait, not soft enough to remove the inflation issue. JPMorgan Asset Management's David Kelly argued that May might prove to be the inflation high-water mark, but the same discussion still left the Fed uncomfortable. The Warsh Fed had not yet established its communication regime, and the oil shock kept the reaction function asymmetric. That is why the opening thesis cannot be only about Treasury yields. It has to include oil, breakevens, credit tiering, and non-US policy stress.\n\nThe credit side was mixed but not benign. High-grade spreads were still near very tight long-run levels and demand for yield had not disappeared, yet Pimco's warning that the credit loss cycle was reasserting itself cut against the idea that tight spreads alone were a clean signal of health. The concern was not that the market had shut. It was that high-quality borrowers could still raise money while leveraged borrowers, direct-lending structures, and AI-linked funding needs were becoming more sensitive to rates and cash-flow disappointments. The day therefore reads as a late-cycle, inflation-sensitive tape: policy uncertainty stayed in the front end, energy kept breakevens supported, equities weakened, and credit selection mattered more than headline spread levels.\n\n## Rates, curve, and Fed pricing\n\nThe rates section begins with the curve shape. UST2Y held near 4.13%, UST5Y rose 1 bp to 4.27%, UST10Y rose 2 bp to 4.55%, and UST30Y rose 2 bp to 5.03%. The move was not large, but the direction mattered because it came after a CPI print that could have given the market permission to rally. The 2s10s curve widened by about 2 bp to 42 bp and 2s30s widened by about 2 bp to 90 bp. That combination says investors were not removing the possibility of tighter policy later. Instead, they were asking whether the Fed could wait in June while still retaining the option to respond if oil-driven inflation broadened.\n\nThe front-end reaction fits the policy headlines. The softer core CPI reading eased immediate pressure on Chair Kevin Warsh, but short-rate pricing still kept a year-end hike in view. The day's rates coverage showed that traders saw virtually no chance of a move at the next meeting, while the probability of a later hike had grown sharply because the Iran conflict was roiling oil and gas markets. That is a subtle but important distinction. The market was not pricing an immediate Fed reaction to one CPI report. It was pricing an uncomfortable inflation reaction function in which the Fed could pause now and still tighten later if energy passed through.\n\nReal rates and breakevens reinforced the point. TIPS10Y was near 2.21%, up 1 bp, and BE10Y was near 234 bp, also up 1 bp. A softer core CPI print would normally pressure breakevens if the market believed the inflation impulse was fading. Instead, oil rose and the breakeven complex did not deliver relief. That puts the policy path above the level of nominal yields. The risk was that underlying inflation might be cooling but headline and expectations channels were still being pulled around by energy. That is why the day could show soft CPI language and still leave a higher-for-longer skew in front-end pricing.\n\nNon-US rates added a second layer. The Bank of Canada held at 2.25% and called the economy weak, triggering a rally in Canadian government bonds, yet Macklem also warned that higher energy prices could force consecutive hikes if inflation broadened. The BOJ was expected to raise policy to the highest level since 1995 even with Governor Ueda hospitalized and likely absent from the meeting. South Africa had already moved to protect inflation expectations, and the same oil shock was flowing through other central banks. In other words, the Fed was not isolated. June 10 was part of a global rates repricing in which central banks were trying to distinguish one-off energy pressure from second-round inflation.\n\nFor the Treasury curve, that meant the intermediate and long end could not simply rally on softer core CPI. UST5Y and UST10Y still carried the burden of an inflation path that was not yet resolved. The month-to-date changes also show how much tightening risk had already accumulated: UST2Y was up 23 bp on the month, UST5Y up 25 bp, and UST10Y up 17 bp. The one-day move was modest, but it sat on top of a meaningful monthly bear move. That context makes the rates conclusion sharper: the market gave the Fed time, not a dovish pivot.\n\n## Supply, term premium, and liquidity\n\nThe supply story on June 10 sat outside the U.S. auction calendar. Sovereign issuers globally had sold about $504 billion of syndicated debt so far in the year, a record pace driven by public spending, defense, infrastructure, energy-transition outlays, and the cost of protecting households from price shocks. That is relevant for term premium because it describes a global duration backdrop, but it is not evidence that the UST30Y move itself was caused by auction absorption. The UST curve moved only a few basis points on the day; the stronger claim is that investors were operating in a world where public-sector borrowing needs were becoming harder to ignore.\n\nJapan provided the clearer auction signal. The 30-year JGB sale drew the weakest demand since June 2025 after a decline in yields reduced investor appetite. That mattered because Japanese super-long bonds had already been under pressure from inflation concerns, fiscal debate, and the approaching BOJ decision. The point for a US fixed-income tape is not that Japanese auction weakness mechanically drove Treasuries. It is that global long-duration investors were being asked to absorb more supply at the same time central banks were becoming less tolerant of inflation. That is a term-premium backdrop, not a one-day UST causality claim.\n\nIndonesia added a liquidity and policy-functioning angle. Officials had been trying to reassure foreign investors after a sharp selloff. Bank Indonesia signaled it would allow bond yields to rise to stabilize the currency, would refrain from buying bonds with maturities of 10 years or longer, and would reopen repurchase facilities to manage bank liquidity. The 10-year Indonesian yield had fallen 15 bp after policy reassurance, but investors still wanted clarity after foreign outflows from local equities and bonds. This is an example of policy using yields as an adjustment valve. It belongs in supply and liquidity because it shows central-bank balance-sheet choices, not just price moves.\n\nIssuer supply was active but belongs mainly in credit. Nippon Steel raised yen debt after the US Steel acquisition, with the 10-year tranche carrying the highest coupon for the company in about three decades and a spread over Japanese government bonds that was the widest since 1998. Amazon's Canadian-dollar transaction was also large enough to force fund managers to sell high-quality bonds to make room. Those examples show that corporate issuance could crowd local markets at the margin. Still, they should not be converted into a broad Treasury-liquidity claim. The narrow conclusion is that supply conditions were less friendly than the small Treasury move alone suggested: sovereign issuance was heavy, super-long auction demand in Japan was weak, and large corporate financings were competing for duration balance sheets.\n\nThe sovereign issuance number also mattered because it was not only a volume statistic. Governments were borrowing to fund defense, infrastructure, cleaner-energy transition, and household support against price shocks. Those uses are duration intensive and politically difficult to reverse quickly. A bond investor therefore had to distinguish between one day's Treasury move and the background supply regime. The June 10 curve did not prove a new term-premium shock, but the record sovereign borrowing pace made long-end rallies more fragile if inflation or fiscal headlines deteriorated.\n\nLarge corporate transactions also competed for balance-sheet capacity in local markets. Amazon's Canadian-dollar deal was large enough that managers sold high-quality bonds to make room for it, and Nippon Steel's yen issue after the US Steel acquisition came with unusually high coupon and spread levels for the borrower. Those are not Treasury supply facts, but they show how credit issuance can crowd duration demand at the margin. When the same session has firm oil, higher real yields, and active primary markets, investors need more compensation for adding duration unless the macro signal turns decisively dovish.\n\nIndonesia made that term-premium pressure concrete. Bank Indonesia was willing to let bond yields rise as part of the price of stabilizing the rupiah, and analysts argued that the 10-year yield might need to move toward 8% to bring foreign buyers back. Officials were trying to defend the fiscal-deficit cap and reassure investors, but the market still demanded compensation for governance, currency, and policy uncertainty. That matters for a U.S. fixed-income reader because it shows why global duration demand was not only a yield-level question. When one large EM market needs higher local yields to restore credibility, the global bid for duration becomes more conditional.\n\nThe same lesson applied to Japan. The weakest demand for a 30-year JGB auction since June 2025 showed that lower yields can damage long-end sponsorship when inflation, fiscal policy, and BOJ normalization are still live risks. Japan's bond futures sold off after the auction, and Governor Ueda's hospitalization added communication uncertainty before the policy meeting. That does not explain the U.S. 30-year move, but it does set the global clearing environment: long-end duration was being asked to absorb more fiscal and inflation risk in multiple markets at the same time.\n\n## Credit conditions\n\nCredit was the most important non-rates section because it separated market access from borrower quality. High-grade spreads remained near their tightest levels in almost three decades and demand for riskier debt had held up despite the earlier bond selloff. That is the positive side. The negative side was Pimco's warning that the credit loss cycle had begun and that lower-quality credit, leveraged lending, nonbank direct lending, maturity extensions, and payment-in-kind structures were becoming more exposed. The day therefore was not a simple credit-risk-off story. It was a tiering story: strong borrowers could still find money, while the weakest borrowers were becoming more vulnerable to elevated refinancing costs.\n\nETF returns should be read carefully. LQD fell 0.23%, HYG fell 0.19%, JNK fell 0.20%, and EMB fell 0.33%. Because Treasury yields rose, those total returns combine rates duration with credit risk. They do not by themselves prove that OAS widened. But the surrounding tape supports a cautious credit interpretation. SPX, NDX, and SOX all fell, VIX rose sharply, and the oil shock kept inflation uncertainty alive. A high-quality corporate borrower might still be able to issue into yield demand; a leveraged borrower with floating-rate debt, weaker margins, or cyclical cash flow had a much less forgiving backdrop.\n\nThe AI financing theme sharpened that point. Amazon had arranged a $17.5 billion delayed-draw term loan linked to its AI investment plans, while other AI infrastructure financings were expanding through public bonds, direct lending, and project-style debt. Citi analysts were warning that data-center bonds could trade on project-specific structure rather than simply the tenant's credit. That is a real fixed-income issue: AI capex is not just an equity-growth story. It creates debt supply, collateral questions, tenant-performance questions, and future refinancing risk. In a world where the Fed path can still shift hawkishly, those structures require more discrimination than the equity market's AI enthusiasm implies.\n\nEM hard-currency credit was more nuanced. Argentina's dollar bonds rallied after S&P upgraded the sovereign to B-, with longer-dated bonds gaining more than 2 cents and the 2035 benchmark reaching a record high for the 2020 issuance. That was a country-specific access story: the upgrade brought Argentina closer to international market re-entry and made spread tightening plausible for that sovereign. It did not offset the broader caution in lower-quality global credit. Florida local debt, Travelodge-style refinancing pressure, and direct-lending stress all pointed to the same distinction. The market was still open, but it was open on terms that rewarded quality and punished fragile funding models.\n\nSpaceX added a separate high-quality-access example. The company was marketing investment-grade ratings around a large equity-market event and had a sizeable bridge loan maturing in 2027. That is very different from weaker direct-lending or leveraged borrowers, but it still matters for the credit tape because it shows how capital-intensive growth companies were planning to use both equity and debt markets. If the Fed path stays restrictive, the strongest issuers can refinance opportunistically while marginal borrowers face much less forgiving terms.\n\nAltice, Florida local-government debt, and data-center project bonds filled out the lower-quality side of the map. The SFR transaction could improve recovery value for a sophisticated creditor because of collateral and change-of-control features, but that is a special-situation outcome rather than broad spread strength. Florida's proposed property-tax changes raised revenue uncertainty for local issuers. Data-center bonds tied to large technology tenants still required analysis of amortization, collateral, and project structure. The common theme was underwriting detail: tight high-grade spreads did not mean the market could ignore covenant, collateral, or revenue durability.\n\nThe corporate financing details reinforced the same tiering. Amazon secured a $17.5 billion bank loan, a reminder that top-quality borrowers could still command large pools of capital. CoreWeave-linked data-center funding became cheaper as the AI-credit rebound continued, while Citi analysts warned that investors were becoming more selective on data-center bonds. Oracle was the other side of that trade: the stock was under pressure because the market was questioning whether heavy AI spending would convert quickly enough into cash flow. The point for credit was not that AI financing was closed. It was that lenders were increasingly sorting between scale, collateral, cash-flow timing, and dependence on future capital markets.\n\nSpaceX also showed how equity enthusiasm and credit discipline could coexist. Investment-grade ratings helped frame the company's planned public-market debut, but the broader AI and aerospace excitement did not remove the need to price maturity, leverage, and funding flexibility. That is why the June 10 credit tape should be described as open but selective. Buyers were still present, yet their preference was for large, strategically important issuers or structures with clearer protection.\n\n## Global duration, EM hard-currency credit, and cross-market confirmation\n\nGlobal duration confirmed that the June 10 tape was about policy reaction functions as much as US data. Canada rallied after the Bank of Canada held rates and described the economy as weak, but the statement still warned that higher energy prices could force tighter policy if inflation broadened. Japan faced a BOJ meeting at which a hike was widely expected despite Governor Ueda's hospitalization. South Africa had warned about further rate pressure after the Iran conflict lifted inflation forecasts. These are not identical economies, but they shared one problem: an energy shock was making it harder for central banks to treat softer domestic data as a clean easing signal.\n\nEM duration was bifurcated. Indonesia's local markets were trying to stabilize after heavy outflows and policy reassurance. The rupiah bounced and the 10-year yield fell after officials emphasized fiscal discipline and allowed yields to do more of the adjustment work, but analysts still argued that 10-year yields might need to rise toward 8% to lure back global funds. India was using overseas deposit tools to stabilize external funding, with smaller banks offering higher non-resident deposit rates. Those details matter because they show the dollar and oil shock transmitting through funding channels rather than just through headline inflation.\n\nThe cross-asset close was not supportive enough to call the day a broad relief rally. Oil rose, the dollar was slightly firmer, equities fell, and VIX rose. Gold fell sharply, which means the safe-haven message was not one-directional, but the risk-asset tape was clearly weaker. The semiconductor index was down more than 3.5%, and the Nasdaq 100 was down almost 2%. That made the Fed-sensitive rates move harder for credit to absorb. If equities are falling while front-end pricing keeps a later hike alive, the credit market cannot rely on tight high-grade spreads alone as proof of resilience.\n\nEM hard-currency credit still had positive idiosyncratic cases. Argentina's upgrade was a real improvement in sovereign market access. Ghana's growth and reform story, Zambia's local-bond returns, and Indonesia's policy engagement each showed that EM was not uniformly closed. But the common filter was policy credibility. Countries that could demonstrate fiscal discipline, external funding access, or credible inflation control had room to perform. Countries where fiscal plans, currency pressure, or oil import costs were uncertain had to pay higher yields. That is why the global section reinforces the opening thesis: June 10 was not a UST-only day. It was a policy-credibility day across rates, FX, oil, and credit.\n\nIndia's non-resident deposit channel was another external-funding signal. Some lenders were offering higher five-year deposit rates to attract overseas inflows, while the central bank had created room for banks to compete for those deposits without letting funding costs run completely loose. The historical memory of attracting tens of billions of dollars during earlier stress was relevant because June 10 was again a day when oil, the dollar, and EM external balances mattered. Countries that could mobilize stable foreign-currency funding had more room to absorb the shock than countries relying only on higher local yields.\n\nTurkey and South Africa showed how the same energy shock could harden policy even when growth was weak. Turkey held the one-week repo rate at a very high level while continuing to use a costlier overnight funding channel, and South Africa had already lifted rates as inflation forecasts moved higher. These were not direct Treasury drivers, but they confirmed the global direction of travel: central banks were reluctant to promise relief while energy and currency risks were still live. That made the US front end less willing to celebrate one softer core inflation print.\n\n## Market implications and watchpoints\n\nThe first watchpoint was whether the Fed would frame softer core CPI as sufficient patience or insufficient progress. The market's answer on June 10 was patience, not relief. A June move was not priced, but a later hike remained plausible. That makes upcoming Fed communication more important than the CPI print alone. If Warsh emphasizes the soft core data and diminishing gasoline pressure, the front end can stabilize. If he emphasizes oil pass-through, resilient activity, and expectations risk, the market can rebuild hike premium quickly.\n\nThe second watchpoint was oil. WTI near 90 and Brent above 93 kept energy at the center of the tape. BE10Y at 234 bp was not extreme, but it rose on the day even after the softer core CPI message. A sustained crude retreat would challenge the hawkish skew and support duration. Another oil spike would make central banks less willing to look through the shock, especially because Canada, the ECB, South Africa, and Japan were already facing their own inflation credibility tests.\n\nThe third watchpoint was credit primary access. The market could still absorb high-quality issuance and attractive sovereign stories, but lower-quality credit was no longer trading with the same margin for error. AI financing, direct lending, leveraged loans, and weaker municipal or project-backed borrowers were the areas where higher rates could migrate from valuation pressure into cash-flow pressure. The practical implication for the next session was to separate strong demand for yield from true improvement in borrower fundamentals.\n\nThe final watchpoint was global duration. Japan's super-long auction weakness, Indonesia's policy-driven yield adjustment, and the global sovereign issuance record made long-end term premium more sensitive to any renewed inflation shock. Treasuries were still the benchmark, but the marginal information was coming from how other markets handled supply, currency pressure, and central-bank credibility. If those markets stabilized while oil fell, June 10 would look like a late-cycle pause. If they deteriorated, the modest bear steepening would look like the start of a broader repricing.\n\nA fourth market test was whether high-grade spread tightness would remain compatible with Pimco's warning about lower-quality losses. If the next sessions showed strong issuance only for high-grade borrowers and special sovereign stories such as Argentina, the market would be confirming tiering rather than broad strength. If CCC, direct-lending, and leveraged-loan stress began to bleed into liquid HY spreads, the negative equity and VIX signal from June 10 would become more important than the still-tight high-grade spread level.\n\nA fifth test was Japan's long end and BOJ communication. Governor Ueda's expected absence was not supposed to change the hike decision, but it could affect how investors interpreted the bank's guidance after the meeting. Weak demand for super-long JGBs already showed that lower yields could reduce appetite when inflation and fiscal risk were unresolved. If Japanese long-end volatility persisted, global duration managers would have one more reason to demand term premium outside the US as well.\n\nThe third watchpoint was whether global duration strains would remain isolated. Indonesia, Japan, Canada, South Africa, and Turkey were not telling one story, but each showed a version of the same problem: oil and inflation risk were forcing central banks or investors to demand more compensation even when growth data were not strong. If those markets stabilized, the U.S. long end could trade more on domestic inflation and Fed communication. If they stayed under pressure, U.S. duration would have to clear in a world where non-U.S. buyers had more local alternatives and more policy uncertainty to price.\n"
+  },
+  "methodology_note": "Original market synthesis from checked prices and fixed-income news developments.",
+  "archive_dates": [
+    {
+      "date": "2026-06-16",
+      "label": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "active": false
+    },
+    {
+      "date": "2026-06-10",
+      "label": "2026-06-10",
+      "href": "?date=2026-06-10",
+      "active": true
+    },
+    {
+      "date": "2026-06-09",
+      "label": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "active": false
+    },
+    {
+      "date": "2026-06-08",
+      "label": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "active": false
+    },
+    {
+      "date": "2026-06-05",
+      "label": "2026-06-05",
+      "href": "?date=2026-06-05",
+      "active": false
+    },
+    {
+      "date": "2026-06-04",
+      "label": "2026-06-04",
+      "href": "?date=2026-06-04",
+      "active": false
+    },
+    {
+      "date": "2026-06-03",
+      "label": "2026-06-03",
+      "href": "?date=2026-06-03",
+      "active": false
+    },
+    {
+      "date": "2026-06-02",
+      "label": "2026-06-02",
+      "href": "?date=2026-06-02",
+      "active": false
+    },
+    {
+      "date": "2026-06-01",
+      "label": "2026-06-01",
+      "href": "?date=2026-06-01",
+      "active": false
+    },
+    {
+      "date": "2026-05-29",
+      "label": "2026-05-29",
+      "href": "?date=2026-05-29",
+      "active": false
+    },
+    {
+      "date": "2026-05-28",
+      "label": "2026-05-28",
+      "href": "?date=2026-05-28",
+      "active": false
+    }
+  ]
+}
