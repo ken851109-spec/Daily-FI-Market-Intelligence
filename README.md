@@ -6,20 +6,13 @@ Public GitHub Pages archive for Daily FI Tape reports.
 
 - `index.html`: interactive archive reader.
 - `assets/`: static CSS and JavaScript for the reader.
-- `tapes.json`: manifest of published reports, latest first.
-- `data/tapes/<date>.json`: sanitized public report data.
-- `archive/<date>-close/index.html`: original published HTML fallback for each close date.
+- `reports/latest.json`: latest public report pointer.
+- `reports/<date>/ui_components.json`: sanitized public report data for each published close date.
 
-The repository is display-only. Public JSON is generated from local Daily FI Tape artifacts and keeps only reader-facing report content.
+The repository is display-only. Public JSON keeps only reader-facing report content.
 
-## Publish From Local Artifacts
+## GitHub Pages
 
-From `/Users/kenhung/News Collect`:
-
-```bash
-python3 automation/publish_daily_fi_pages.py --pages-root "/Users/kenhung/Daily-FI-Tape"
-```
-
-Then commit and push this repository. GitHub Pages serves from `main` at:
+GitHub Pages serves from `main` at:
 
 https://ken851109-spec.github.io/Daily-FI-Tape/
