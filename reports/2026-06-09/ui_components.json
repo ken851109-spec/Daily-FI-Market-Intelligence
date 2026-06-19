@@ -61,7 +61,7 @@
     }
   ],
   "latest_asia_premarket": {
-    "summary": "Separately, Asia/pre-market pricing before the Taipei morning update shows 10Y Treasury note futures 109.17 (-0.29%); 30Y Treasury bond futures 111.75 (-0.47%); S&P 500 futures 7,388 (-0.07%); Nasdaq 100 futures 29,127 (+0.03%); WTI crude futures 88.95 (+0.85%).",
+    "summary": "Separately, the early tape was mixed before the Taipei morning update.",
     "items": [
       {
         "title": "10Y Treasury note futures",
@@ -236,6 +236,12 @@
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
   "archive_dates": [
     {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
       "date": "2026-06-16",
       "label": "2026-06-16",
       "href": "?date=2026-06-16",
@@ -319,5 +325,108 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ]
+  ],
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "2Y 4.13% / 5Y 4.26%",
+        "emphasis": "ny_close",
+        "signals": [
+          {
+            "label": "2Y",
+            "value": "4.13%",
+            "change": "-2 bp"
+          },
+          {
+            "label": "5Y",
+            "value": "4.26%",
+            "change": "-3 bp"
+          },
+          {
+            "label": "10Y",
+            "value": "4.53%",
+            "change": "-3 bp"
+          },
+          {
+            "label": "30Y",
+            "value": "5.01%",
+            "change": "-2 bp"
+          }
+        ]
+      },
+      {
+        "id": "primary_driver",
+        "label": "Primary driver",
+        "headline": "Rates relief did not erase Fed risk",
+        "detail": "Yields fell, but the two-year remained well above the policy band and SOFR positioning kept the market focused on possible Fed tightening.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "risk_map",
+        "label": "Risk map",
+        "headline": "Defensive confirmation",
+        "signals": [
+          {
+            "label": "WTI",
+            "value": "88.2",
+            "change": "-3.4%"
+          },
+          {
+            "label": "SPX",
+            "value": "7,387",
+            "change": "-0.26%"
+          },
+          {
+            "label": "VIX",
+            "value": "19.87",
+            "change": "+5.02%"
+          },
+          {
+            "label": "LQD",
+            "value": "108.41",
+            "change": "+0.32%"
+          },
+          {
+            "label": "HYG",
+            "value": "79.62",
+            "change": "+0.1%"
+          }
+        ],
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "latest",
+        "label": "Pre-market snapshot",
+        "headline": "Pre-market update",
+        "detail": "10Y note fut 109.17 -0.29%; 30Y bond fut 111.75 -0.47%; S&P fut 7,388 -0.07%",
+        "signals": [
+          {
+            "label": "10Y note fut",
+            "value": "109.17",
+            "change": "-0.29%"
+          },
+          {
+            "label": "30Y bond fut",
+            "value": "111.75",
+            "change": "-0.47%"
+          },
+          {
+            "label": "S&P fut",
+            "value": "7,388",
+            "change": "-0.07%"
+          }
+        ],
+        "emphasis": "latest"
+      },
+      {
+        "id": "next_watch",
+        "label": "Next watch",
+        "headline": "U.S. inflation data",
+        "detail": "2026-06-10: A softer print would validate the rates rally; sticky inflation would revive the SOFR and Fed-hike positioning.",
+        "emphasis": "watch"
+      }
+    ]
+  }
 }

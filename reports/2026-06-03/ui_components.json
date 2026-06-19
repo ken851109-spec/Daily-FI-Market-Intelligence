@@ -67,7 +67,7 @@
     }
   ],
   "latest_asia_premarket": {
-    "summary": "Separately, Asia/pre-market pricing before the Taipei morning update shows 10Y Treasury note futures 109.53 (-0.17%); 30Y Treasury bond futures 112.22 (-0.33%); S&P 500 futures 7,542 (-0.4%); Nasdaq 100 futures 30,438 (-0.64%); WTI crude futures 95.36 (-0.69%).",
+    "summary": "Separately, the early tape was softer before the Taipei morning update.",
     "items": [
       {
         "title": "10Y Treasury note futures",
@@ -242,6 +242,12 @@
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
   "archive_dates": [
     {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
       "date": "2026-06-16",
       "label": "2026-06-16",
       "href": "?date=2026-06-16",
@@ -325,5 +331,108 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ]
+  ],
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "2Y 4.08% / 5Y 4.21%",
+        "emphasis": "ny_close",
+        "signals": [
+          {
+            "label": "2Y",
+            "value": "4.08%",
+            "change": "+3 bp"
+          },
+          {
+            "label": "5Y",
+            "value": "4.21%",
+            "change": "+4 bp"
+          },
+          {
+            "label": "10Y",
+            "value": "4.49%",
+            "change": "+3 bp"
+          },
+          {
+            "label": "30Y",
+            "value": "4.99%",
+            "change": "+2 bp"
+          }
+        ]
+      },
+      {
+        "id": "primary_driver",
+        "label": "Primary driver",
+        "headline": "Real yields drove the Treasury selloff",
+        "detail": "UST10Y rose 3 bp to 4.49%, UST5Y rose 4 bp to 4.21%, and 10Y TIPS rose 4 bp while 10Y breakevens slipped 1 bp.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "risk_map",
+        "label": "Risk map",
+        "headline": "Defensive confirmation",
+        "signals": [
+          {
+            "label": "WTI",
+            "value": "96.02",
+            "change": "+2.41%"
+          },
+          {
+            "label": "SPX",
+            "value": "7,554",
+            "change": "-0.74%"
+          },
+          {
+            "label": "VIX",
+            "value": "16.06",
+            "change": "+1.84%"
+          },
+          {
+            "label": "LQD",
+            "value": "108.62",
+            "change": "-0.28%"
+          },
+          {
+            "label": "HYG",
+            "value": "79.68",
+            "change": "-0.28%"
+          }
+        ],
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "latest",
+        "label": "Pre-market snapshot",
+        "headline": "Pre-market update",
+        "detail": "10Y note fut 109.53 -0.17%; 30Y bond fut 112.22 -0.33%; S&P fut 7,542 -0.4%",
+        "signals": [
+          {
+            "label": "10Y note fut",
+            "value": "109.53",
+            "change": "-0.17%"
+          },
+          {
+            "label": "30Y bond fut",
+            "value": "112.22",
+            "change": "-0.33%"
+          },
+          {
+            "label": "S&P fut",
+            "value": "7,542",
+            "change": "-0.4%"
+          }
+        ],
+        "emphasis": "latest"
+      },
+      {
+        "id": "next_watch",
+        "label": "Next watch",
+        "headline": "US payroll and wage mix",
+        "detail": "2026-06-05: The close priced inflation sensitivity more than labor weakness; payrolls and wages will test whether that hierarchy holds.",
+        "emphasis": "watch"
+      }
+    ]
+  }
 }

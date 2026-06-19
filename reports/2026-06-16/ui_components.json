@@ -65,7 +65,7 @@
     }
   ],
   "latest_asia_premarket": {
-    "summary": "Separately, Asia/pre-market pricing before the Taipei morning update shows 10Y Treasury note futures 109.88 (+0.03%); 30Y Treasury bond futures 113.03 (+0.03%); S&P 500 futures 7,597 (+0.18%); Nasdaq 100 futures 30,371 (+0.23%); WTI crude futures 75.76 (-0.09%).",
+    "summary": "Separately, the early tape was mixed before the Taipei morning update.",
     "items": [
       {
         "title": "10Y Treasury note futures",
@@ -258,6 +258,12 @@
   },
   "archive_dates": [
     {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
       "date": "2026-06-16",
       "label": "2026-06-16",
       "href": "?date=2026-06-16",
@@ -341,5 +347,108 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ]
+  ],
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "2Y 4.05% / 5Y 4.16%",
+        "emphasis": "ny_close",
+        "signals": [
+          {
+            "label": "2Y",
+            "value": "4.05%",
+            "change": "-2 bp"
+          },
+          {
+            "label": "5Y",
+            "value": "4.16%",
+            "change": "-2 bp"
+          },
+          {
+            "label": "10Y",
+            "value": "4.43%",
+            "change": "-4 bp"
+          },
+          {
+            "label": "30Y",
+            "value": "4.93%",
+            "change": "-4 bp"
+          }
+        ]
+      },
+      {
+        "id": "primary_driver",
+        "label": "Primary driver",
+        "headline": "Oil-risk premium eased",
+        "detail": "Lower crude prices reduced the acute inflation-risk premium in rates.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "risk_map",
+        "label": "Risk map",
+        "headline": "Defensive confirmation",
+        "signals": [
+          {
+            "label": "WTI",
+            "value": "76.05",
+            "change": "-5.82%"
+          },
+          {
+            "label": "SPX",
+            "value": "7,511",
+            "change": "-0.57%"
+          },
+          {
+            "label": "VIX",
+            "value": "16.41",
+            "change": "+1.3%"
+          },
+          {
+            "label": "LQD",
+            "value": "109.12",
+            "change": "+0.12%"
+          },
+          {
+            "label": "HYG",
+            "value": "80.03",
+            "change": "-0.01%"
+          }
+        ],
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "latest",
+        "label": "Pre-market snapshot",
+        "headline": "Pre-market update",
+        "detail": "10Y note fut 109.88 +0.03%; 30Y bond fut 113.03 +0.03%; S&P fut 7,597 +0.18%",
+        "signals": [
+          {
+            "label": "10Y note fut",
+            "value": "109.88",
+            "change": "+0.03%"
+          },
+          {
+            "label": "30Y bond fut",
+            "value": "113.03",
+            "change": "+0.03%"
+          },
+          {
+            "label": "S&P fut",
+            "value": "7,597",
+            "change": "+0.18%"
+          }
+        ],
+        "emphasis": "latest"
+      },
+      {
+        "id": "next_watch",
+        "label": "Next watch",
+        "headline": "FOMC decision and Warsh press conference",
+        "detail": "2026-06-17: The meeting can reset the front end, dots, and curve risk after June 16.",
+        "emphasis": "watch"
+      }
+    ]
+  }
 }

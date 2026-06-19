@@ -41,7 +41,7 @@
     }
   ],
   "latest_asia_premarket": {
-    "summary": "Separately, Asia/pre-market pricing before the Taipei morning update shows 10Y Treasury note futures 109.62 (-0.26%); 30Y Treasury bond futures 112.44 (-0.55%); S&P 500 futures 7,618 (+0.76%); Nasdaq 100 futures 30,812 (+0.83%); WTI crude futures 81.42 (+0.83%).",
+    "summary": "Separately, the early tape was mixed before the Taipei morning update.",
     "items": [
       {
         "title": "10Y Treasury note futures",
@@ -216,6 +216,12 @@
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
   "archive_dates": [
     {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
       "date": "2026-06-16",
       "label": "2026-06-16",
       "href": "?date=2026-06-16",
@@ -299,5 +305,108 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ]
+  ],
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "2Y 4.07% / 5Y 4.18%",
+        "emphasis": "ny_close",
+        "signals": [
+          {
+            "label": "2Y",
+            "value": "4.07%",
+            "change": "-2 bp"
+          },
+          {
+            "label": "5Y",
+            "value": "4.18%",
+            "change": "-3 bp"
+          },
+          {
+            "label": "10Y",
+            "value": "4.47%",
+            "change": "-1 bp"
+          },
+          {
+            "label": "30Y",
+            "value": "4.97%",
+            "change": "0 bp"
+          }
+        ]
+      },
+      {
+        "id": "primary_driver",
+        "label": "Primary driver",
+        "headline": "Oil deal relief pushed Fed hikes later",
+        "detail": "WTI and Brent fell almost 5%, and swaps priced less than an 80% chance of a December Fed hike.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "risk_map",
+        "label": "Risk map",
+        "headline": "Risk softer",
+        "signals": [
+          {
+            "label": "WTI",
+            "value": "80.75",
+            "change": "-4.87%"
+          },
+          {
+            "label": "SPX",
+            "value": "7,554",
+            "change": "+1.65%"
+          },
+          {
+            "label": "VIX",
+            "value": "16.2",
+            "change": "-8.37%"
+          },
+          {
+            "label": "LQD",
+            "value": "108.99",
+            "change": "-0.02%"
+          },
+          {
+            "label": "HYG",
+            "value": "80.04",
+            "change": "+0.13%"
+          }
+        ],
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "latest",
+        "label": "Pre-market snapshot",
+        "headline": "Pre-market update",
+        "detail": "10Y note fut 109.62 -0.26%; 30Y bond fut 112.44 -0.55%; S&P fut 7,618 +0.76%",
+        "signals": [
+          {
+            "label": "10Y note fut",
+            "value": "109.62",
+            "change": "-0.26%"
+          },
+          {
+            "label": "30Y bond fut",
+            "value": "112.44",
+            "change": "-0.55%"
+          },
+          {
+            "label": "S&P fut",
+            "value": "7,618",
+            "change": "+0.76%"
+          }
+        ],
+        "emphasis": "latest"
+      },
+      {
+        "id": "next_watch",
+        "label": "Next watch",
+        "headline": "US-Iran deal details",
+        "detail": "2026-06-16: The market needs confirmation that Hormuz stays open and oil relief persists.",
+        "emphasis": "watch"
+      }
+    ]
+  }
 }

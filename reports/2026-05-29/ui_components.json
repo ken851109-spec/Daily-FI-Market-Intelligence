@@ -45,7 +45,7 @@
     }
   ],
   "latest_asia_premarket": {
-    "summary": "Separately, Asia/pre-market pricing before the Taipei morning update shows 10Y Treasury note futures 109.83 (-0.23%); 30Y Treasury bond futures 112.22 (-0.44%); S&P 500 futures 7,596 (0%); Nasdaq 100 futures 30,405 (0%); WTI crude futures 87.36 (-0%).",
+    "summary": "Separately, the early tape was softer before the Taipei morning update.",
     "items": [
       {
         "title": "10Y Treasury note futures",
@@ -220,6 +220,12 @@
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
   "archive_dates": [
     {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
       "date": "2026-06-16",
       "label": "2026-06-16",
       "href": "?date=2026-06-16",
@@ -303,5 +309,108 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ]
+  ],
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "2Y 3.98% / 5Y 4.13%",
+        "emphasis": "ny_close",
+        "signals": [
+          {
+            "label": "2Y",
+            "value": "3.98%",
+            "change": "-1 bp"
+          },
+          {
+            "label": "5Y",
+            "value": "4.13%",
+            "change": "-2 bp"
+          },
+          {
+            "label": "10Y",
+            "value": "4.45%",
+            "change": "0 bp"
+          },
+          {
+            "label": "30Y",
+            "value": "4.99%",
+            "change": "+1 bp"
+          }
+        ]
+      },
+      {
+        "id": "primary_driver",
+        "label": "Primary driver",
+        "headline": "Oil relief stabilized Treasury duration",
+        "detail": "WTI and Brent fell, helping Treasuries preserve a strong weekly advance even as Fed hike risk stayed alive.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "risk_map",
+        "label": "Risk map",
+        "headline": "Risk firmer",
+        "signals": [
+          {
+            "label": "WTI",
+            "value": "87.36",
+            "change": "-1.73%"
+          },
+          {
+            "label": "SPX",
+            "value": "7,580",
+            "change": "+0.22%"
+          },
+          {
+            "label": "VIX",
+            "value": "15.32",
+            "change": "-2.67%"
+          },
+          {
+            "label": "LQD",
+            "value": "109.36",
+            "change": "+0.09%"
+          },
+          {
+            "label": "HYG",
+            "value": "80.31",
+            "change": "+0.1%"
+          }
+        ],
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "latest",
+        "label": "Pre-market snapshot",
+        "headline": "Pre-market update",
+        "detail": "10Y note fut 109.83 -0.23%; 30Y bond fut 112.22 -0.44%; WTI 87.36 -0%",
+        "signals": [
+          {
+            "label": "10Y note fut",
+            "value": "109.83",
+            "change": "-0.23%"
+          },
+          {
+            "label": "30Y bond fut",
+            "value": "112.22",
+            "change": "-0.44%"
+          },
+          {
+            "label": "WTI",
+            "value": "87.36",
+            "change": "-0%"
+          }
+        ],
+        "emphasis": "latest"
+      },
+      {
+        "id": "next_watch",
+        "label": "Next watch",
+        "headline": "Oil and breakeven follow-through",
+        "detail": "Next session: The rates thesis depends on whether crude and inflation compensation confirm or reverse the close.",
+        "emphasis": "watch"
+      }
+    ]
+  }
 }
