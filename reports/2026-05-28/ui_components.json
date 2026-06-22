@@ -5,18 +5,41 @@
   "anchor": "ny_close",
   "header": {
     "title": "Daily FI Tape",
-    "as_of_note": "NY close for 2026-05-28",
-    "latest_update_cutoff": "Asia/Taipei 08:00 update"
+    "as_of_note": "May 28 NY close; separate Taipei 08:00 pre-market check.",
+    "latest_update_cutoff": "2026-05-29T08:00:00+08:00"
   },
   "overall_summary": {
-    "headline": "The May 28 close was a duration-positive session, but the rally did not mark a dovish Fed pivot because inflation and oil-linked policy risks remained central.",
+    "headline": "Duration rallied, but policy credibility and credit tiering kept the close conditional.",
     "bullets": [
-      "The May 28 close was a duration-positive session, but the rally did not mark a dovish Fed pivot because inflation and oil-linked policy risks remained central.",
-      "The Treasury move was broad but moderate: UST2Y -1 bp, UST5Y -2 bp, UST10Y -3 bp, and UST30Y -3 bp, while 10Y breakevens were essentially flat.",
-      "Credit stayed open in total-return terms, yet the local evidence pointed to strong tiering between bank capital, EM borrowers, AI-linked financings, and stressed software risk.",
-      "Cross-asset tone was constructive in equities and volatility, but gold strength and Middle East inflation risk kept the tape from becoming a simple risk-on close."
+      "UST10Y fell 3 bp to 4.45%; 10Y real yields fell 3 bp to 2.06%.",
+      "UST2Y fell only 1 bp, keeping the Fed reaction function alive.",
+      "LQD, HYG, JNK, and EMB rose; issuer access and concessions supplied the credit test.",
+      "SPX and Nasdaq rose while gold also rallied, leaving cross-asset confirmation incomplete."
     ],
-    "ny_close_causal_narrative": "The May 28 close was a duration-positive session, but the rally did not mark a dovish Fed pivot because inflation and oil-linked policy risks remained central. The Treasury move was broad but moderate: UST2Y -1 bp, UST5Y -2 bp, UST10Y -3 bp, and UST30Y -3 bp, while 10Y breakevens were essentially flat. Credit stayed open in total-return terms, yet the local evidence pointed to strong tiering between bank capital, EM borrowers, AI-linked financings, and stressed software risk. Cross-asset tone was constructive in equities and volatility, but gold strength and Middle East inflation risk kept the tape from becoming a simple risk-on close."
+    "reader_takeaways": [
+      {
+        "label": "NY Close",
+        "title": "Duration Bid",
+        "summary": "Lower yields helped fixed income without proving a Fed pivot.",
+        "id": "close_read",
+        "tone": "supportive"
+      },
+      {
+        "label": "Credit",
+        "title": "Selective Credit",
+        "summary": "Borrower evidence showed access, tiering, and refinancing discipline.",
+        "id": "transmission",
+        "tone": "selective"
+      },
+      {
+        "label": "Validation",
+        "title": "Next Proof",
+        "summary": "Treasury futures, oil, and primary credit decide follow-through.",
+        "id": "confirmation",
+        "tone": "watch"
+      }
+    ],
+    "ny_close_causal_narrative": "The close combined a modest real-yield-led Treasury rally, cash-rich funding conditions, and constructive risk beta, but the front end, energy risk, and issuer-specific credit evidence kept the fixed-income read conditional."
   },
   "top_drivers": [
     {
@@ -25,7 +48,10 @@
       "short_summary": "Treasuries rallied, but the move sat beside hawkish inflation language from Warsh, Williams, and Musalem rather than a clean easing story.",
       "detail": "UST2Y closed at 3.99%, UST10Y at 4.45%, and UST30Y at 4.98%, with 10Y TIPS also lower. The day's news flow emphasized PCE inflation at 3.8%, the Iran-driven energy shock, Williams calling policy well positioned, and Musalem warning that AI productivity should not be used as an inflation cure. That made the close a duration bid with a hawkish reaction-function constraint.",
       "driver_window": "ny_close",
-      "is_future_watch_event": false
+      "is_future_watch_event": false,
+      "market_move": "UST2Y -1 bp, UST10Y -3 bp, UST30Y -3 bp.",
+      "transmission": "Real-yield relief lowered discount rates while policy-sensitive rates stayed constrained.",
+      "confirmation": "A cleaner extension needs Treasury futures to stabilize without oil-led inflation pressure."
     },
     {
       "rank": 2,
@@ -33,7 +59,10 @@
       "short_summary": "Money-market inflows and easier repo conditions gave the rates rally a liquidity channel without proving that Treasury supply was easy to absorb.",
       "detail": "The strongest liquidity fact was the roughly $120 billion month-to-date inflow into money-market funds, alongside cash-rich funding markets and repo rates pushed below the bottom of the Fed target range. That supports the front-end and belly bid, but it is distinct from auction demand or dealer balance-sheet capacity.",
       "driver_window": "ny_close",
-      "is_future_watch_event": false
+      "is_future_watch_event": false,
+      "market_move": "Money-market inflows and soft repo supported front-end liquidity.",
+      "transmission": "Cash-rich funding reduced liquidity premia without proving auction or supply absorption.",
+      "confirmation": "Funding calm must persist if oil or Fed pricing moves against the rally."
     },
     {
       "rank": 3,
@@ -41,57 +70,138 @@
       "short_summary": "ETF total returns were positive, while single-name and primary-market evidence showed access depended heavily on borrower quality.",
       "detail": "LQD, HYG, JNK, and EMB were all positive on the day, but duration helped those prints. The more useful credit evidence was selective: bank AT1 buyers accepted longer non-call risk, Argentine provinces found demand, Senegal faced coupon and IMF timing risk, and direct lenders hesitated over Sophos despite higher yields.",
       "driver_window": "ny_close",
-      "is_future_watch_event": false
+      "is_future_watch_event": false,
+      "market_move": "Credit ETFs rose, helped by lower yields and constructive risk tone.",
+      "transmission": "Borrower-level evidence showed selective access rather than blanket spread compression.",
+      "confirmation": "Issuer demand, concessions, and order-book quality need to confirm the listed-fund beta."
     }
   ],
   "latest_asia_premarket": {
-    "summary": "Separately, the early tape was mixed before the Taipei morning update.",
+    "summary": "Separately, latest Asia/pre-market was mixed versus the NY close.",
+    "readout": "Mixed early tape: 10Y note fut -0.2%, S&P fut +0.02%, WTI -0.64%.",
+    "market_implication": "10Y note fut -0.2% fades duration; S&P fut +0.02% extends risk.",
+    "signals": [
+      {
+        "label": "10Y note fut",
+        "value": "109.83",
+        "tone": "down",
+        "change": "-0.2%",
+        "read": "Treasury futures give the cleanest early read on whether the duration bid held after the NY close"
+      },
+      {
+        "label": "S&P fut",
+        "value": "7,583",
+        "tone": "up",
+        "change": "+0.02%",
+        "read": "Stock-index futures show whether the overnight handoff confirmed or faded the NY risk tone"
+      },
+      {
+        "label": "WTI",
+        "value": "88.33",
+        "tone": "down",
+        "change": "-0.64%",
+        "read": "WTI futures test whether the oil channel was still easing inflation pressure by the morning update"
+      }
+    ],
     "items": [
       {
         "title": "10Y Treasury note futures",
-        "detail": "109.83, -0.2% from the prior close. Treasury futures give the cleanest early read on whether the duration bid held after the NY close",
+        "detail": "109.83, -0.2%. Treasury futures give the cleanest early read on whether the duration bid held after the NY close",
         "timestamp": "2026-05-29T08:00:00+08:00"
       },
       {
         "title": "30Y Treasury bond futures",
-        "detail": "112.44, -0.33% from the prior close. Long-bond futures help separate a persistent long-end bid from a one-session cash-market move",
+        "detail": "112.44, -0.33%. Long-bond futures help separate a persistent long-end bid from a one-session cash-market move",
         "timestamp": "2026-05-29T08:00:00+08:00"
       },
       {
         "title": "S&P 500 futures",
-        "detail": "7,583, +0.02% from the prior close. Equity futures show whether the overnight update confirmed or faded the NY risk tone",
+        "detail": "7,583, +0.02%. Stock-index futures show whether the overnight handoff confirmed or faded the NY risk tone",
         "timestamp": "2026-05-29T08:00:00+08:00"
       },
       {
         "title": "Nasdaq 100 futures",
-        "detail": "30,278, -0.09% from the prior close. Nasdaq futures are the early check on whether growth and technology beta stabilized",
+        "detail": "30,278, -0.09%. Nasdaq futures are the early check on whether growth and technology beta stabilized",
         "timestamp": "2026-05-29T08:00:00+08:00"
       },
       {
         "title": "WTI crude futures",
-        "detail": "88.33, -0.64% from the prior close. WTI futures test whether the oil channel was still easing inflation pressure by the Taipei morning update",
+        "detail": "88.33, -0.64%. WTI futures test whether the oil channel was still easing inflation pressure by the morning update",
         "timestamp": "2026-05-29T08:00:00+08:00"
       }
-    ]
+    ],
+    "as_of": "2026-05-29T08:00:00+08:00",
+    "status": "mixed",
+    "headline": "Pre-market is mixed versus the NY close",
+    "key_moves": [
+      {
+        "asset": "10Y note fut",
+        "level": "109.83",
+        "change": "-0.2%",
+        "interpretation": "10Y note fut -0.2% makes the duration bid fade"
+      },
+      {
+        "asset": "S&P fut",
+        "level": "7,583",
+        "change": "+0.02%",
+        "interpretation": "S&P fut +0.02% keeps risk appetite extending"
+      },
+      {
+        "asset": "WTI",
+        "level": "88.33",
+        "change": "-0.64%",
+        "interpretation": "WTI -0.64% extends energy relief"
+      }
+    ],
+    "changed_since_ny_close": "After NY close: 10Y note fut -0.2%, S&P fut +0.02%, WTI -0.64%.",
+    "read_through": "Mixed: 10Y note fut -0.2% fades duration; S&P fut +0.02% extends risk.",
+    "what_would_matter_next": "Treasury futures / Stock-index futures / oil decide extension or fade."
   },
   "watch_events": [
     {
+      "id": "oil-breakeven",
       "title": "Oil and breakeven follow-through",
+      "category": "Inflation",
       "date": "Next session",
+      "date_or_window": "Next session",
+      "channel": "breakevens",
+      "watch_line": "Oil and breakevens test the inflation-relief tone.",
+      "market_trigger": "WTI, Brent, or 10Y breakevens move enough to reverse the inflation-relief tone.",
+      "market_implication": "Stable oil and breakevens would confirm the duration rally; a rebound would pressure real yields.",
       "why_it_matters": "The rates thesis depends on whether crude and inflation compensation confirm or reverse the close.",
-      "category": "Inflation"
+      "confirms_if": "Oil stays contained and breakevens do not rebuild inflation premium.",
+      "challenges_if": "Oil rebounds or breakevens rise enough to pull front-end rates higher.",
+      "sensitive_channel": "breakevens"
     },
     {
+      "id": "fed-pricing",
       "title": "Fed reaction-function repricing",
+      "category": "Policy",
       "date": "Next Fed communication",
+      "date_or_window": "Next Fed communication",
+      "channel": "front-end rates",
+      "watch_line": "Fed reaction-function repricing: Fed communication or SOFR pricing changes the front-end policy path.",
+      "market_trigger": "Fed communication or SOFR pricing changes the front-end policy path.",
+      "market_implication": "Benign pricing would let the rally extend; hawkish repricing would narrow the duration read.",
       "why_it_matters": "Front-end risk depends on whether policymakers validate hike optionality or allow relief pricing to extend.",
-      "category": "Policy"
+      "confirms_if": "Fed pricing stays contained while the front end avoids a selloff.",
+      "challenges_if": "Hike optionality re-enters the front end and pulls 2Y yields higher.",
+      "sensitive_channel": "front-end rates"
     },
     {
+      "id": "credit-clearing",
       "title": "Credit primary-market clearing",
+      "category": "Credit",
       "date": "Next issuance window",
+      "date_or_window": "Next issuance window",
+      "channel": "credit spreads",
+      "watch_line": "New issues must clear with quality-aligned concessions.",
+      "market_trigger": "New issues clear with concessions and order books consistent with borrower quality.",
+      "market_implication": "Clean clearing would confirm selective access; weak books would expose the ETF signal as rates beta.",
       "why_it_matters": "Order-book quality and concessions will show whether lower or higher rates are changing borrower access.",
-      "category": "Credit"
+      "confirms_if": "Order books hold and concessions stay disciplined across quality tiers.",
+      "challenges_if": "Spread weakness or poor issuance quality overwhelms the rates tailwind.",
+      "sensitive_channel": "credit spreads"
     }
   ],
   "yield_heat_map": {
@@ -192,33 +302,242 @@
     {
       "title": "Oil",
       "value": "WTI 88.9 (+0.25%) / BRENT 93.71 (-0.62%)",
-      "summary": "WTI rose 0.25% on the day and was -7.73% over one week; Brent fell 0.62%. Crude confirmation was mixed, so it did not provide a clean inflation-compensation signal.",
+      "summary": "WTI +0.25% day, -7.73% week; Brent -0.62%. Crude did not give a clean inflation signal.",
       "reference_type": "ny_close"
     },
     {
       "title": "Equities",
       "value": "SPX 7,564 (+0.58%) / NDX 30,224 (+0.84%) / SOX 12,829 (+1%) / VIX 15.74 (-3.38%)",
-      "summary": "SPX was +0.58%, NDX +0.84%, and SOX +1%; the equity tape was risk-on, technology beta led, while VIX fell 3.38%.",
+      "summary": "SPX +0.58%, NDX +0.84%, SOX +1%; VIX -3.38%; risk-on, technology beta led.",
       "reference_type": "ny_close"
     },
     {
       "title": "Credit",
-      "value": "LQD 109.26 (+0.3%) / HYG 80.23 (+0.12%) / JNK 96.62 (+0.1%) / EMB 96.23 (+0.26%)",
-      "summary": "LQD was +0.3%, HYG +0.12%, JNK +0.1%, and EMB +0.26%; these are ETF total returns, not direct OAS or CDX. Falling Treasury yields gave duration a tailwind and credit ETFs rose broadly, so total-return confirmation was constructive, while spread confirmation still needs OAS, CDX, or new-issue evidence.",
+      "summary": "Bank AT1 and selected EM borrowers could still raise money, but direct-lending and data-center debt showed sharper borrower screening.",
       "reference_type": "ny_close"
     },
     {
       "title": "Dollar / gold",
       "value": "DXY 99.02 (-0.19%) / GOLD 4,499 (+1.16%)",
-      "summary": "DXY fell 0.19% while gold rose 1.16%; Treasury yields were lower, and the softer dollar plus firmer gold fit a lower-rate or residual-haven backdrop.",
+      "summary": "DXY fell 0.19% while gold rose 1.16%; Treasury yields were lower; lower-rate or residual hedging.",
       "reference_type": "ny_close"
     }
   ],
   "long_thesis": {
-    "english_markdown": "## Opening fixed-income thesis\n\nThe May 28 close was a duration-positive fixed-income session, but the better reading is not that markets had simply moved back to an easing cycle. Treasuries rallied across the main points of the curve, with UST2Y at 3.99% after falling 1 bp, UST5Y at 4.15% after falling 2 bp, UST10Y at 4.45% after falling 3 bp, and UST30Y at 4.98% after falling 3 bp. That was enough to improve the discount-rate backdrop, but it was not large enough, and not distributed in the right way, to erase the hawkish inflation reaction function that dominated the day's rates news.\n\nThe strongest policy facts pointed in the opposite direction from a clean dovish interpretation. The news flow centered on Kevin Warsh facing a market that had started to price higher rates rather than easier policy, with the Fed's preferred inflation gauge reported at 3.8% over the year through April. John Williams said policy was well positioned and slightly restrictive, while Alberto Musalem argued that officials could not rely on an AI-driven productivity boom to solve the inflation problem. Those facts made the Treasury rally a relief move inside a constrained policy regime, not a fresh endorsement of near-term cuts.\n\nThe curve and inflation data support that reading. The 2s10s spread narrowed to 46 bp, down 2 bp on the day, and 2s30s narrowed to 99 bp, also down 2 bp. The 10Y breakeven was around 239 bp and essentially unchanged, while 10Y TIPS fell 3 bp to 2.06%. In other words, the session leaned toward a real-yield led rally with stable inflation compensation. That is a different message from a broad disinflation trade, and it fits a market willing to buy duration while still demanding proof that the energy shock would not become persistent inflation.\n\nCross-asset confirmation was constructive but not one-dimensional. SPX gained 0.58%, NDX rose 0.84%, SOX rose 1.00%, and VIX fell 3.38%, while DXY slipped 0.19%. Credit ETFs also posted positive total returns, with LQD up 0.30%, HYG up 0.12%, JNK up 0.10%, and EMB up 0.26%. Those numbers say risk assets were not fighting the Treasury rally. But gold rose 1.16%, WTI was still near 88.90, and Middle East energy risk remained a live inflation input. The close therefore looked like a rates-led stabilization day, not a full relaxation of macro risk.\n\nThe best summary is that May 28 gave fixed-income investors lower nominal yields, easier funding optics, and a still-open credit market, while leaving the policy question unresolved. The rates rally could help credit and equities at the margin, but the news flow's center of gravity was still inflation credibility: whether the Fed could hold a restrictive stance long enough to contain an energy-driven price shock without needing to validate the market's pricing of higher rates.\n\n## Rates, curve, and Fed pricing\n\nThe cash Treasury curve did most of the visible work. UST2Y fell only 1 bp, while UST10Y and UST30Y each fell 3 bp. The move was therefore not a classic front-end capitulation into easier Fed pricing. It was closer to a modest bull-flattening impulse in which duration buyers took advantage of lower real yields while the front end stayed pinned by the inflation reaction function. The 2s10s curve at 46 bp, 2s30s at 99 bp, and 10s30s at 52 bp left the curve still positively sloped, but less generous in the belly-to-long-end relationship than it had been a day earlier.\n\nFed communication kept the rally from becoming an all-clear. The Warsh item in the news flow made the policy problem explicit: markets had shifted toward expectations for higher rates as inflation warnings accumulated. Williams provided a more measured tone by saying policy was well positioned, but that did not amount to a rate-cut signal. Musalem added another constraint by warning against leaning on future AI productivity as a near-term inflation remedy. Together, those facts tell a reader that the rally was allowed by positioning and real-yield demand, but the policy bar for easier rates remained high.\n\nInflation compensation was the most important cross-check. The 10Y breakeven held near 239 bp and was flat on the day; the 5Y breakeven was near 242 bp and slightly lower. If the close had been a decisive disinflationary repricing, breakevens would have done more of the work. Instead, the nominal rally came with a 3 bp fall in 10Y TIPS. That pushes the interpretation toward real-rate relief, not inflation-risk disappearance. It also explains why gold could rally even as equities and credit improved.\n\nThe oil channel remained central. WTI was near 88.90 and up 0.25% on the day, while Brent was lower at 93.71 but still embedded in a large negative weekly and monthly move. The news flow repeatedly tied the Fed debate to the Iran war and the risk that energy prices would keep inflation above target. That means lower yields could not be read as a market dismissing the oil shock. They were more consistent with a market marking down the immediate stress while keeping the inflation premium alive.\n\nThe curve also matters for credit. A modest long-end rally lowers all-in borrowing costs for duration-sensitive issuers, but the unchanged breakeven backdrop and the front-end policy risk mean refinancing relief is conditional. Borrowers with high-quality collateral or strong market access could benefit quickly; borrowers already facing cash-flow doubts or event risk would not be rescued by a 2 bp to 3 bp Treasury move.\n\nThe Fed funds range in the news flow, 3.50% to 3.75%, also matters because officials were not debating policy from a neutral starting point. They had already left rates unchanged while several policymakers wanted language that made a hike as plausible as a cut. That means a lower UST10Y close can coexist with a still-restrictive stance: the market can buy duration when real yields look attractive, but it still has to price the possibility that the Fed will resist any loosening of financial conditions if inflation does not cool.\n\nThe interaction between short rates and money markets is important here. Cash moving into money-market funds and repo rates trading soft against the target range can dampen near-term funding stress, but it also gives the Fed more room to keep policy restrictive because funding markets are not forcing a rapid easing response. In that sense, the May 28 rates rally was helped by plumbing calm and real-yield demand, while the policy message remained hawkish enough to keep the front end from leading the move.\n\n## Supply, term premium, and liquidity\n\nThe direct liquidity evidence was stronger than the direct Treasury-supply evidence. The news flow pointed to roughly $120 billion flowing into money-market funds during the month and to cash-rich funding markets that had pushed repo rates below the bottom of the Fed's target range. That is a meaningful front-end fact. It says the system had cash available and that short-term collateralized funding was not under the kind of strain that would normally force investors to demand a bigger liquidity premium.\n\nThat funding backdrop helps explain why a modest Treasury rally could coexist with hawkish inflation language. When cash is abundant, investors can absorb bills, repo collateral, and short-duration risk without requiring every policy signal to be dovish. It also gives dealers and cash investors more room to intermediate near-term financing needs. The right conclusion is not that Treasury issuance had become effortless; the news flow did not supply auction-demand or dealer-inventory evidence for that. The conclusion is narrower and more useful: funding conditions were not the pressure point at this close.\n\nEurope supplied a separate sovereign-funding theme. The joint-debt discussion showed governments debating how to fund common priorities as aging populations, weak growth, and repeated inflation waves lifted borrowing costs. That is not a Treasury-market supply fact, but it matters for global duration because it highlights a larger public-sector financing problem. A world in which Europe considers more common borrowing, emerging-market central banks fight imported inflation, and the Fed remains restrictive is not one in which term premium can be permanently ignored.\n\nLiquidity also linked back to the Fed. Repo softness and money-fund inflows ease the plumbing side of the market, while Williams and Musalem kept the policy side restrictive. That combination can produce a rally in nominal yields without creating a durable decline in risk premia. For the next session, the important test was whether funding calm would continue to support the curve if oil or Fed pricing moved against the rally.\n\n## Credit conditions\n\nCredit looked firm on the surface, but the news flow argued for tiering rather than blanket spread compression. LQD rose 0.30%, HYG 0.12%, JNK 0.10%, and EMB 0.26%. Those are total-return prices, so a rates rally mechanically helps them. The better credit read came from the borrower-level evidence: capital was available, but it was being allocated according to structure, seniority, collateral, and sector risk rather than indiscriminately.\n\nBank capital was the cleanest example of strong demand. European lenders were able to sell Additional Tier 1 securities with 10-year non-call periods, extending refinancing risk further into the future. That is a sign of investor comfort with higher-yielding bank capital and with the idea that stronger issuers can term out liabilities when risk premia are tight. It also shows why lower Treasury yields can support credit even when the Fed has not turned dovish: absolute yield remains attractive enough for buyers to take structure risk.\n\nEmerging-market credit was more mixed. Buenos Aires achieved a 7.4% borrowing cost after drawing about USD 3 billion of orders for a USD 500 million 10-year sale, and Argentine provinces were issuing at the fastest pace in years. At the same time, Senegal faced foreign-currency coupon payments around an IMF visit, making program credibility and political timing the real credit issue. The difference between those two cases is the heart of the May 28 credit story: market access was open for issuers that could present a credible policy or structural story, but refinancing calendars still mattered.\n\nDirect-lending and leveraged-finance stories added a more cautious layer. The Sophos refinancing showed lenders hesitating even after a higher yield was offered, because AI disruption had damaged confidence in software cash-flow durability. Data-center debt showed a similar split: AI infrastructure financing could attract very large pools of capital, including the Anthropic chip-financing transaction backed by Broadcom's credit profile, but high-yield investors were already separating stronger data-center collateral from weaker projects. Caesars debt weakness after a takeover agreement made the same point in event-risk form.\n\nThe credit conclusion is therefore not that spreads were uniformly tighter. It is that lower rates and strong liquidity kept the market open while borrower selection became more important. A rates-led rally can improve the carry environment, but it cannot erase concerns around coupon timing, sector obsolescence, leverage, or event risk.\n\nThe high-yield data-center theme was especially useful because it separated AI financing enthusiasm from credit quality. Pimco's leveraged-finance commentary described data-center debt splitting into two markets, with the stronger part trading at much tighter spreads and the weaker part requiring far more compensation. That is exactly the kind of distinction a fixed-income report needs: AI capex may create enormous borrowing demand, but investors are already asking whether power access, tenant quality, construction risk, and refinancing schedules justify the spread.\n\nThe Anthropic chip-financing transaction pushed that theme into the high-grade and structured-credit conversation. A roughly USD 36 billion financing backed by Broadcom's credit profile is not the same risk as a speculative data-center borrower with uncertain utilization. It shows that the market can fund AI infrastructure at scale when the collateral, counterparty, and payment chain are strong. The same theme made the Sophos refinancing weakness more important, because software borrowers without AI resilience or hard-asset collateral faced a very different lender response.\n\nEvent risk added another layer. Caesars debt traded weaker after the takeover agreement, showing that even in a constructive rates session, credit holders remained sensitive to transaction structure and leverage outcomes. This mattered because equity premia and bondholder outcomes can diverge in takeover situations. A risk-asset rally does not protect bondholders if the transaction increases leverage, shortens the runway, or changes recovery assumptions.\n\nArgentine provincial issuance added a useful positive counterweight to the stressed stories. Chubut, Cordoba, other provinces, and Buenos Aires City had issued about USD 2.3 billion in the first five months of the year, the fastest pace for that window since 2017. Buenos Aires City's USD 500 million 10-year bond drew about USD 3 billion of orders and cleared at 7.4%, its lowest borrowing cost. That evidence matters because it shows that investors were still willing to underwrite reform-linked or locally differentiated credit even while the global rates backdrop was uncertain.\n\nThe data-center credit split was not just qualitative. The news flow cited a leveraged-finance view that data-center debt had grown quickly from effectively zero to a meaningful share of high yield, with expectations that it could become much larger over the next two years. Stronger deals were described as clearing around much tighter spreads, while the weaker segment required substantially higher compensation. That is the credit lesson of the day: the AI buildout supported issuance volume, but it also created a new underwriting problem around power, tenant concentration, construction completion, and technology obsolescence.\n\n## Global duration, EM hard-currency credit, and cross-market confirmation\n\nNon-US duration confirmed that the Fed was not the only central bank facing an inflation problem. The news flow included ECB officials who would not have objected to an April hike, with inflation around 3% and concerns that expectations could become less anchored. South Africa raised rates by 25 bp to 7% and suggested more tightening could be needed if the Iran war persisted. Brazil's policy director warned that longer-horizon inflation expectations were becoming a concern. These were not background anecdotes; they described a global reaction function that was turning less tolerant of energy-driven inflation.\n\nJapan also mattered for global duration. Rising Japanese yields were reshaping domestic markets, with higher bond income, pressure on corporate borrowing costs, and a yen that could still weaken despite higher yields. Tokyo inflation later cooled, but the May 28 news flow still framed Japan as a market moving away from the old low-yield equilibrium. That competes with US duration because Japanese investors no longer face the same home-market yield scarcity.\n\nCross-asset pricing mostly supported the Treasury rally. Equities rose, semiconductor shares were strong, volatility fell, and the dollar softened. This combination made it easier to call the close a stabilization day. Yet gold rose 1.16%, and Middle East inflation risk stayed prominent in the news. The mixed commodity signal matters: WTI was firmer, Brent was lower, and both were still connected to a larger conflict-driven inflation story. A fixed-income reader should therefore treat cross-asset confirmation as positive for risk appetite but incomplete for inflation.\n\nEM hard-currency credit was similarly differentiated. Senegal's coupon calendar, South Africa's policy tightening, Brazil's inflation concern, and Argentine provincial issuance all sat inside the same global tape. Some issuers could still access markets; others had to manage policy credibility and external financing tests. EMB's positive total return was useful, but not enough by itself to claim a clean improvement in sovereign spread risk.\n\nThe EM policy facts made the global inflation channel more concrete. South Africa raised rates for the first time since 2023 and signaled that additional tightening could follow if the Iran war persisted. Brazil's central bank highlighted rising 2028 inflation expectations, while Brazil's formal job creation undershot forecasts, creating a difficult mix of slower hiring and still-uncomfortable inflation expectations. Those facts fit the broader close: the world was not trading a synchronized growth scare; it was trading the tension between energy inflation, policy credibility, and uneven activity.\n\nEurope's joint-debt debate belonged in this global section rather than in the US supply discussion. It showed governments facing higher borrowing costs, weak growth, aging-related spending needs, and pressure to fund common priorities. That does not explain a 3 bp move in UST30Y, but it does help explain why long-end duration cannot rely on one domestic story. Sovereign financing needs across regions were part of the global term-premium backdrop.\n\nJapan added a third channel. Rising Japanese yields had moved from healthy normalization to a possible inflation and funding concern, while the yen remained vulnerable. If Japanese investors can earn higher domestic yields and Japanese borrowers face higher costs, US Treasuries lose some of the automatic foreign-demand support that defined the old low-rate period. That makes the May 28 Treasury rally more dependent on US real-yield value and oil relief than on a global shortage of yield.\n\nBrazil gave the EM section a domestic-demand complication. Formal job creation slowed to 85,888 in April, far below the surveyed median near 216,500, while annual inflation had accelerated to 4.64% in early May. That mix is awkward for duration because weaker hiring would normally support cuts, but inflation expectations and energy sensitivity limited the central bank's room. It reinforced the idea that EM policy was being constrained by imported inflation rather than only by domestic cycle weakness.\n\nSouth Africa was more direct. The central bank lifted its benchmark rate by 25 bp to 7% and warned that overlapping shocks could trigger second-round effects if the Iran war dragged on. That made the global rates message cleaner: several central banks were facing the same policy tradeoff as the Fed, even though their domestic economies were different. The May 28 Treasury rally therefore sat inside a global environment where inflation credibility was still being defended actively.\n\n## Market implications and watchpoints\n\nThe first watchpoint after the May 28 close was whether Fed speakers could keep rate-hike pricing from tightening further. Warsh's challenge, Williams's steady-policy message, and Musalem's inflation warning all pointed to the same test: markets needed evidence that inflation pressure would peak rather than broaden. If oil stayed elevated or PCE-linked anxiety persisted, the front end would remain vulnerable even if the long end found buyers.\n\nThe second watchpoint was the real-yield and breakeven mix. A continued rally led by lower real yields could support credit and equities, but a move led by higher breakevens would send a very different message. The 10Y breakeven near 239 bp was not alarming by itself; the risk was that energy, tariffs, or wage-sensitive inflation would prevent it from grinding lower.\n\nThe third watchpoint was credit tiering. AT1 demand, Argentine provincial access, and AI infrastructure financing showed a market still willing to fund risk. Senegal's coupon calendar, Sophos lender hesitation, Caesars event risk, and data-center dispersion showed why that openness should not be generalized. The next useful signal would come from whether investors continued to reward structure and quality while refusing weaker refinancing stories.\n\nFinally, funding needed to stay calm. The money-market inflow and repo backdrop helped the session, but a funding tailwind is only durable if it survives higher oil, hawkish Fed communication, and renewed long-end supply anxiety. For May 28, the close was constructive. For the following sessions, the test was whether it could remain constructive without requiring a dovish Fed that the facts did not yet support.\n\nA fourth watchpoint was whether positive credit technicals could survive weaker issuer stories. AT1 non-call 10s, Argentine provincial demand, and AI infrastructure financing all showed capital availability. Sophos, Caesars, and weaker data-center borrowers showed where that availability stopped. The useful follow-up was not whether credit ETFs rose again; it was whether new deals cleared with tighter concessions or whether lenders demanded more collateral, shorter structures, and higher coupons.\n\nA fifth watchpoint was global policy coordination by accident rather than by design. The Fed, ECB, South Africa, Brazil, and Japan were all dealing with energy or inflation spillovers, but they were not at the same point in the cycle. If several of them leaned hawkish at once, the relief from lower US real yields could fade quickly. If oil stabilized and inflation expectations stopped rising, the May 28 rally had room to extend through the belly before it became a policy problem.\n\nOne practical implication is that the close rewarded carry and curve exposure only where the investor could tolerate policy optionality. The day gave duration a bid, but it did not give borrowers permission to ignore refinancing calendars or sector-specific disruption. That distinction is what made the session useful rather than simply positive.\n\n"
+    "english_markdown": "# Daily FI Tape - 2026-05-28\n\n## Opening Fixed-Income Thesis\n\nThe May 28 close was a duration-positive fixed-income session, but the better reading is not that markets had simply moved back to an easing cycle. Treasuries rallied across the main points of the curve, with UST2Y at 3.99% after falling 1 bp, UST5Y at 4.15% after falling 2 bp, UST10Y at 4.45% after falling 3 bp, and UST30Y at 4.98% after falling 3 bp. That was enough to improve the discount-rate backdrop, but it was not large enough, and not distributed in the right way, to erase the hawkish inflation reaction function that dominated the day's rates news.\n\nThe strongest policy facts pointed in the opposite direction from a clean dovish interpretation. The news flow centered on Kevin Warsh facing a market that had started to price higher rates rather than easier policy, with the Fed's preferred inflation gauge reported at 3.8% over the year through April. John Williams said policy was well positioned and slightly restrictive, while Alberto Musalem argued that officials could not rely on an AI-driven productivity boom to solve the inflation problem. Those facts made the Treasury rally a relief move inside a constrained policy regime, not a fresh endorsement of near-term cuts.\n\nThe curve and inflation data support that reading. The 2s10s spread narrowed to 46 bp, down 2 bp on the day, and 2s30s narrowed to 99 bp, also down 2 bp. The 10Y breakeven was around 239 bp and essentially unchanged, while 10Y TIPS fell 3 bp to 2.06%. In other words, the session leaned toward a real-yield led rally with stable inflation compensation. That is a different message from a broad disinflation trade, and it shows demand for duration improved only where inflation compensation and energy risk stayed contained.\n\nCross-asset confirmation was constructive but not one-dimensional. SPX gained 0.58%, NDX rose 0.84%, SOX rose 1.00%, and VIX fell 3.38%, while DXY slipped 0.19%. Credit ETFs also posted positive total returns, with LQD up 0.30%, HYG up 0.12%, JNK up 0.10%, and EMB up 0.26%. Those numbers say risk assets were not fighting the Treasury rally. But gold rose 1.16%, WTI was still near 88.90, and Middle East energy risk remained a live inflation input. The close therefore looked like a rates-led stabilization day, not a full relaxation of macro risk.\n\nThe best summary is that May 28 gave fixed-income investors lower nominal yields, easier funding optics, and a still-open credit market, while leaving the policy question unresolved. The rates rally could help credit and equities at the margin, but the news flow's center of gravity was still inflation credibility: whether the Fed could hold a restrictive stance long enough to contain an energy-driven price shock without needing to validate the market's pricing of higher rates.\n\n## UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity\n\nThe cash Treasury curve did most of the visible work. UST2Y fell only 1 bp, while UST10Y and UST30Y each fell 3 bp. The move was therefore not a classic front-end capitulation into easier Fed pricing. It was closer to a modest bull-flattening impulse in which duration buyers took advantage of lower real yields while the front end stayed pinned by the inflation reaction function. The 2s10s curve at 46 bp, 2s30s at 99 bp, and 10s30s at 52 bp left the curve still positively sloped, but less generous in the belly-to-long-end relationship than it had been a day earlier.\n\nFed communication kept the rally from becoming an all-clear. The Warsh item in the news flow made the policy problem explicit: markets had shifted toward expectations for higher rates as inflation warnings accumulated. Williams provided a more measured tone by saying policy was well positioned, but that did not amount to a rate-cut signal. Musalem added another constraint by warning against leaning on future AI productivity as a near-term inflation remedy. Together, those facts tell a reader that the rally was allowed by positioning and real-yield demand, but the policy bar for easier rates remained high.\n\nInflation compensation was the most important cross-check. The 10Y breakeven held near 239 bp and was flat on the day; the 5Y breakeven was near 242 bp and slightly lower. If the close had been a decisive disinflationary repricing, breakevens would have done more of the work. Instead, the nominal rally came with a 3 bp fall in 10Y TIPS. That pushes the interpretation toward real-rate relief, not inflation-risk disappearance. It also explains why gold could rally even as equities and credit improved.\n\nThe oil channel remained central. WTI was near 88.90 and up 0.25% on the day, while Brent was lower at 93.71 but still embedded in a large negative weekly and monthly move. The news flow repeatedly tied the Fed debate to the Iran war and the risk that energy prices would keep inflation above target. That means lower yields could not be read as a market dismissing the oil shock. They were more consistent with a market marking down the immediate stress while keeping the inflation premium alive.\n\nThe curve also matters for credit. A modest long-end rally lowers all-in borrowing costs for duration-sensitive issuers, but the unchanged breakeven backdrop and the front-end policy risk mean refinancing relief is conditional. Borrowers with high-quality collateral or strong market access could benefit quickly; borrowers already facing cash-flow doubts or event risk would not be rescued by a 2 bp to 3 bp Treasury move.\n\nThe Fed funds range in the news flow, 3.50% to 3.75%, also matters because officials were not debating policy from a neutral starting point. They had already left rates unchanged while several policymakers wanted language that made a hike as plausible as a cut. That means a lower UST10Y close can coexist with a still-restrictive stance: the market can buy duration when real yields look attractive, but it still has to price the possibility that the Fed will resist any loosening of financial conditions if inflation does not cool.\n\nThe interaction between short rates and money markets is important here. Cash moving into money-market funds and repo rates trading soft against the target range can dampen near-term funding stress, but it also gives the Fed more room to keep policy restrictive because funding markets are not forcing a rapid easing response. In that sense, the May 28 rates rally was helped by plumbing calm and real-yield demand, while the policy message remained hawkish enough to keep the front end from leading the move.\n\nThe direct liquidity evidence was stronger than the direct Treasury-supply evidence. The news flow pointed to roughly $120 billion flowing into money-market funds during the month and to cash-rich funding markets that had pushed repo rates below the bottom of the Fed's target range. That is a meaningful front-end fact. It says the system had cash available and that short-term collateralized funding was not under the kind of strain that would normally force investors to demand a bigger liquidity premium.\n\nThat funding backdrop helps explain why a modest Treasury rally could coexist with hawkish inflation language. When cash is abundant, investors can absorb bills, repo collateral, and short-duration risk without requiring every policy signal to be dovish. It also gives dealers and cash investors more room to intermediate near-term financing needs. The right conclusion is not that Treasury issuance had become effortless; the news flow did not supply auction-demand or dealer-inventory evidence for that. The conclusion is narrower and more useful: funding conditions were not the pressure point at this close.\n\nEurope supplied a separate sovereign-funding theme. The joint-debt discussion showed governments debating how to fund common priorities as aging populations, weak growth, and repeated inflation waves lifted borrowing costs. That is not a Treasury-market supply fact, but it matters for global duration because it highlights a larger public-sector financing problem. A world in which Europe considers more common borrowing, emerging-market central banks fight imported inflation, and the Fed remains restrictive is not one in which term premium can be permanently ignored.\n\nLiquidity also linked back to the Fed. Repo softness and money-fund inflows ease the plumbing side of the market, while Williams and Musalem kept the policy side restrictive. That combination can produce a rally in nominal yields without creating a durable decline in risk premia. For the next session, the important test was whether funding calm would continue to support the curve if oil or Fed pricing moved against the rally.\n\n## Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation\n\nCredit looked firm on the surface, but the news flow argued for tiering rather than blanket spread compression. LQD rose 0.30%, HYG 0.12%, JNK 0.10%, and EMB 0.26%. Those are total-return prices, so a rates rally mechanically helps them. The better credit read came from the borrower-level evidence: capital was available, but it was being allocated according to structure, seniority, collateral, and sector risk rather than indiscriminately.\n\nBank capital was the cleanest example of strong demand. European lenders were able to sell Additional Tier 1 securities with 10-year non-call periods, extending refinancing risk further into the future. That is a sign of investor comfort with higher-yielding bank capital and with the idea that stronger issuers can term out liabilities when risk premia are tight. It also shows why lower Treasury yields can support credit even when the Fed has not turned dovish: absolute yield remains attractive enough for buyers to take structure risk.\n\nEmerging-market credit was more mixed. Buenos Aires achieved a 7.4% borrowing cost after drawing about USD 3 billion of orders for a USD 500 million 10-year sale, and Argentine provinces were issuing at the fastest pace in years. At the same time, Senegal faced foreign-currency coupon payments around an IMF visit, making program credibility and political timing the real credit issue. The difference between those two cases is the heart of the May 28 credit story: market access was open for issuers that could present a credible policy or structural story, but refinancing calendars still mattered.\n\nDirect-lending and leveraged-finance stories added a more cautious layer. The Sophos refinancing showed lenders hesitating even after a higher yield was offered, because AI disruption had damaged confidence in software cash-flow durability. Data-center debt showed a similar split: AI infrastructure financing could attract very large pools of capital, including the Anthropic chip-financing transaction backed by Broadcom's credit profile, but high-yield investors were already separating stronger data-center collateral from weaker projects. Caesars debt weakness after a takeover agreement made the same point in event-risk form.\n\nThe credit conclusion is therefore not that spreads were uniformly tighter. It is that lower rates and strong liquidity kept the market open while borrower selection became more important. A rates-led rally can improve the carry environment, but it cannot erase concerns around coupon timing, sector obsolescence, leverage, or event risk.\n\nThe high-yield data-center theme was especially useful because it separated AI financing enthusiasm from credit quality. Pimco's leveraged-finance commentary described data-center debt splitting into two markets, with the stronger part trading at much tighter spreads and the weaker part requiring far more compensation. That is exactly the kind of distinction a fixed-income report needs: AI capex may create enormous borrowing demand, but investors are already asking whether power access, tenant quality, construction risk, and refinancing schedules justify the spread.\n\nThe Anthropic chip-financing transaction pushed that theme into the high-grade and structured-credit conversation. A roughly USD 36 billion financing backed by Broadcom's credit profile is not the same risk as a speculative data-center borrower with uncertain utilization. It shows that the market can fund AI infrastructure at scale when the collateral, counterparty, and payment chain are strong. The same theme made the Sophos refinancing weakness more important, because software borrowers without AI resilience or hard-asset collateral faced a very different lender response.\n\nEvent risk added another layer. Caesars debt traded weaker after the takeover agreement, showing that even in a constructive rates session, credit holders remained sensitive to transaction structure and leverage outcomes. This mattered because equity premia and bondholder outcomes can diverge in takeover situations. A risk-asset rally does not protect bondholders if the transaction increases leverage, shortens the runway, or changes recovery assumptions.\n\nArgentine provincial issuance added a useful positive counterweight to the stressed stories. Chubut, Cordoba, other provinces, and Buenos Aires City had issued about USD 2.3 billion in the first five months of the year, the fastest pace for that window since 2017. Buenos Aires City's USD 500 million 10-year bond drew about USD 3 billion of orders and cleared at 7.4%, its lowest borrowing cost. That evidence matters because it shows that investors were still willing to underwrite reform-linked or locally differentiated credit even while the global rates backdrop was uncertain.\n\nThe data-center credit split was not just qualitative. The news flow cited a leveraged-finance view that data-center debt had grown quickly from effectively zero to a meaningful share of high yield, with expectations that it could become much larger over the next two years. Stronger deals were described as clearing around much tighter spreads, while the weaker segment required substantially higher compensation. That is the credit lesson of the day: the AI buildout supported issuance volume, but it also created a new underwriting problem around power, tenant concentration, construction completion, and technology obsolescence.\n\nThe hierarchy matters because LQD, HYG, JNK, and EMB were total-return gauges, not direct spread evidence. The stronger confirmation came from borrower-level access and tiering: AT1 extension risk, Argentine provincial demand, Senegal coupon risk, and private-credit reluctance around stressed software all pointed to capital being available but selective.\n\n## DM Global Duration\n\nNon-US duration confirmed that the Fed was not the only central bank facing an inflation problem. The news flow included ECB officials who would not have objected to an April hike, with inflation around 3% and concerns that expectations could become less anchored. South Africa raised rates by 25 bp to 7% and suggested more tightening could be needed if the Iran war persisted. Brazil's policy director warned that longer-horizon inflation expectations were becoming a concern. These were not background anecdotes; they described a global reaction function that was turning less tolerant of energy-driven inflation.\n\nJapan also mattered for global duration. Rising Japanese yields were reshaping domestic markets, with higher bond income, pressure on corporate borrowing costs, and a yen that could still weaken despite higher yields. Tokyo inflation later cooled, but the May 28 news flow still framed Japan as a market moving away from the old low-yield equilibrium. That competes with US duration because Japanese investors no longer face the same home-market yield scarcity.\n\nEurope's joint-debt debate belonged in this global section rather than in the US supply discussion. It showed governments facing higher borrowing costs, weak growth, aging-related spending needs, and pressure to fund common priorities. That does not explain a 3 bp move in UST30Y, but it does help explain why long-end duration cannot rely on one domestic story. Sovereign financing needs across regions were part of the global term-premium backdrop.\n\nJapan added a third channel. Rising Japanese yields had moved from healthy normalization to a possible inflation and funding concern, while the yen remained vulnerable. If Japanese investors can earn higher domestic yields and Japanese borrowers face higher costs, US Treasuries lose some of the automatic foreign-demand support that defined the old low-rate period. That makes the May 28 Treasury rally more dependent on US real-yield value and oil relief than on a global shortage of yield.\n\n## EM Rates, FX, And Hard-Currency Credit\n\nEM hard-currency credit was similarly differentiated. Senegal's coupon calendar, South Africa's policy tightening, Brazil's inflation concern, and Argentine provincial issuance all sat inside the same global tape. Some issuers could still access markets; others had to manage policy credibility and external financing tests. EMB's positive total return was useful, but not enough by itself to claim a clean improvement in sovereign spread risk.\n\nThe EM policy facts made the global inflation channel more concrete. South Africa raised rates for the first time since 2023 and signaled that additional tightening could follow if the Iran war persisted. Brazil's central bank highlighted rising 2028 inflation expectations, while Brazil's formal job creation undershot forecasts, creating a difficult mix of slower hiring and still-uncomfortable inflation expectations. Those facts fit the broader close: the world was not trading a synchronized growth scare; it was trading the tension between energy inflation, policy credibility, and uneven activity.\n\nBrazil gave the EM section a domestic-demand complication. Formal job creation slowed to 85,888 in April, far below the surveyed median near 216,500, while annual inflation had accelerated to 4.64% in early May. That mix is awkward for duration because weaker hiring would normally support cuts, but inflation expectations and energy sensitivity limited the central bank's room. It reinforced the idea that EM policy was being constrained by imported inflation rather than only by domestic cycle weakness.\n\nSouth Africa was more direct. The central bank lifted its benchmark rate by 25 bp to 7% and warned that overlapping shocks could trigger second-round effects if the Iran war dragged on. That made the global rates message cleaner: several central banks were facing the same policy tradeoff as the Fed, even though their domestic economies were different. The May 28 Treasury rally therefore sat inside a global environment where inflation credibility was still being defended actively.\n\n## Cross-Asset Confirmation\n\nCross-asset pricing mostly supported the Treasury rally. Equities rose, semiconductor shares were strong, volatility fell, and the dollar softened. This combination made it easier to call the close a stabilization day. Yet gold rose 1.16%, and Middle East inflation risk stayed prominent in the news. The mixed commodity signal matters: WTI was firmer, Brent was lower, and both were still connected to a larger conflict-driven inflation story. A fixed-income reader should therefore treat cross-asset confirmation as positive for risk appetite but incomplete for inflation.\n\nThe checked market board gave that cross-asset read a concrete shape: SPX rose 0.58%, Nasdaq 100 rose 0.84%, SOX rose 1.00%, and VIX fell 3.38%, while DXY slipped 0.19% and gold rose 1.16%. That mix confirmed risk appetite and lower real-yield pressure, but the gold bid and uneven crude tape kept the fixed-income conclusion conditional rather than euphoric.\n\n## Market Significance And Watchpoints\n\nThe first watchpoint after the May 28 close was whether Fed speakers could keep rate-hike pricing from tightening further. Warsh's challenge, Williams's steady-policy message, and Musalem's inflation warning all pointed to the same test: markets needed evidence that inflation pressure would peak rather than broaden. If oil stayed elevated or PCE-linked anxiety persisted, the front end would remain vulnerable even if the long end found buyers.\n\nThe second watchpoint was the real-yield and breakeven mix. A continued rally led by lower real yields could support credit and equities, but a move led by higher breakevens would send a very different message. The 10Y breakeven near 239 bp was not alarming by itself; the risk was that energy, tariffs, or wage-sensitive inflation would prevent it from grinding lower.\n\nThe third watchpoint was credit tiering. AT1 demand, Argentine provincial access, and AI infrastructure financing showed a market still willing to fund risk. Senegal's coupon calendar, Sophos lender hesitation, Caesars event risk, and data-center dispersion showed why that openness should not be generalized. The next useful signal would come from whether investors continued to reward structure and quality while refusing weaker refinancing stories.\n\nFinally, funding needed to stay calm. The money-market inflow and repo backdrop helped the session, but a funding tailwind is only durable if it survives higher oil, hawkish Fed communication, and renewed long-end supply anxiety. For May 28, the close was constructive. For the following sessions, the test was whether it could remain constructive without requiring a dovish Fed that the facts did not yet support.\n\nA fourth watchpoint was whether positive credit technicals could survive weaker issuer stories. AT1 non-call 10s, Argentine provincial demand, and AI infrastructure financing all showed capital availability. Sophos, Caesars, and weaker data-center borrowers showed where that availability stopped. The useful follow-up was not whether credit ETFs rose again; it was whether new deals cleared with tighter concessions or whether lenders demanded more collateral, shorter structures, and higher coupons.\n\nA fifth watchpoint was global policy coordination by accident rather than by design. The Fed, ECB, South Africa, Brazil, and Japan were all dealing with energy or inflation spillovers, but they were not at the same point in the cycle. If several of them leaned hawkish at once, the relief from lower US real yields could fade quickly. If oil stabilized and inflation expectations stopped rising, the May 28 rally had room to extend through the belly before it became a policy problem.\n\nOne practical implication is that the close rewarded carry and curve exposure only where the investor could tolerate policy optionality. The day gave duration a bid, but it did not give borrowers permission to ignore refinancing calendars or sector-specific disruption. That distinction is what made the session useful rather than simply positive.\n\nThe validation framework is therefore narrow. The May 28 read is confirmed if Treasury futures stabilize, oil fails to rebuild inflation compensation, and primary credit clears without wider concessions. It is challenged if the front end reprices tighter, energy pressure returns, or issuer-specific funding stress overwhelms the rates tailwind.\n",
+    "section_summaries": [
+      {
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "Frames May 28 as a duration-positive close constrained by inflation credibility.",
+        "section_id": "opening-fixed-income-thesis",
+        "market_read": "Lower yields helped fixed income, but not enough to call a dovish pivot.",
+        "why_it_matters": "It sets the report around conditional duration relief rather than broad risk celebration.",
+        "next_check": "Watch Treasury futures and oil for whether the relief extends."
+      },
+      {
+        "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
+        "summary": "Combines curve moves, real yields, Fed pricing, cash liquidity, and supply caveats.",
+        "section_id": "ust-rates-curve-fed-pricing-supply-term-premium-and-liquidity",
+        "market_read": "The rally was real-yield-led and liquidity-supported, while the front end stayed policy constrained.",
+        "why_it_matters": "It explains why lower yields did not erase inflation reaction-function risk.",
+        "next_check": "Check front-end pricing, repo calm, and long-end auction appetite."
+      },
+      {
+        "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
+        "summary": "Separates ETF total returns from borrower-level issuance and refinancing evidence.",
+        "section_id": "credit-conditions-ig-hy-issuance-refinancing-and-spread-confirmation",
+        "market_read": "Credit was open but tiered, with rates beta helping ETFs and quality deciding access.",
+        "why_it_matters": "It keeps total-return ETF moves below issuer access, concessions, and spread quality in the credit hierarchy.",
+        "next_check": "Look for issuer demand, concessions, and order-book quality."
+      },
+      {
+        "section_title": "DM Global Duration",
+        "summary": "Places US duration inside ECB, Japan, and sovereign-financing pressure.",
+        "section_id": "dm-global-duration",
+        "market_read": "DM duration was still constrained by inflation credibility and changing foreign-yield alternatives.",
+        "why_it_matters": "It shows the US rally was not isolated from global term-premium pressure.",
+        "next_check": "Watch European policy language and Japanese yield normalization."
+      },
+      {
+        "section_title": "EM Rates, FX, And Hard-Currency Credit",
+        "summary": "Separates South Africa, Brazil, Senegal, and Argentine access from DM duration.",
+        "section_id": "em-rates-fx-and-hard-currency-credit",
+        "market_read": "EM transmission was differentiated, with policy tightening and borrower access coexisting.",
+        "why_it_matters": "It keeps sovereign credit and local policy risk out of the DM duration bucket.",
+        "next_check": "Track EM inflation expectations, coupons, and primary-market access."
+      },
+      {
+        "section_title": "Cross-Asset Confirmation",
+        "summary": "Tests whether equities, volatility, DXY, gold, oil, and credit prices aligned with or complicated the FI read.",
+        "section_id": "cross-asset-confirmation",
+        "market_read": "Equities and listed credit funds helped risk tone, gold and oil complicated the inflation channel, and DXY softness supported easier financial conditions.",
+        "why_it_matters": "It separates cross-asset risk tone from issuer, concession, and spread proof.",
+        "next_check": "Check whether primary credit clearing, concessions, and borrower-tier demand confirm the listed-fund signal."
+      },
+      {
+        "section_title": "Market Significance And Watchpoints",
+        "summary": "Turns the close into validation tests for Fed pricing, oil, funding, and credit clearing.",
+        "section_id": "market-significance-and-watchpoints",
+        "market_read": "The close rewarded duration and selective carry only while policy optionality stayed tolerable.",
+        "why_it_matters": "It tells readers what would confirm or challenge the May 28 thesis.",
+        "next_check": "Monitor Treasury futures, oil, Fed communication, and issuance quality."
+      }
+    ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
+  "briefing_path": {
+    "items": [
+      {
+        "id": "market_take",
+        "label": "1",
+        "title": "Rates First",
+        "summary": "Start with the Treasury rally and why it was not dovish capitulation.",
+        "tone": "primary"
+      },
+      {
+        "id": "backdrop",
+        "label": "2",
+        "title": "Credit Filter",
+        "summary": "Then separate ETF beta from borrower-level market access.",
+        "tone": "evidence"
+      },
+      {
+        "id": "week_ahead",
+        "label": "3",
+        "title": "Validation",
+        "summary": "Finish with oil, Fed pricing, futures, and primary-market tests.",
+        "tone": "watch"
+      }
+    ]
+  },
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "Real yields led the duration bid",
+        "detail": "UST10Y -3 bp and 10Y TIPS -3 bp kept the rally real-yield-led.",
+        "emphasis": "NY close driver",
+        "signals": [
+          {
+            "label": "UST10Y",
+            "value": "4.45%",
+            "change": "-3 bp",
+            "tone": "supportive"
+          },
+          {
+            "label": "10Y TIPS",
+            "value": "2.06%",
+            "change": "-3 bp",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "fed_pricing",
+        "label": "Fed Pricing",
+        "headline": "Front-end relief was limited by hawkish inflation risk",
+        "detail": "UST2Y -1 bp and flat breakevens limited dovish confirmation.",
+        "emphasis": "Constraint",
+        "signals": [
+          {
+            "label": "UST2Y",
+            "value": "3.99%",
+            "change": "-1 bp",
+            "tone": "mixed"
+          },
+          {
+            "label": "10Y breakeven",
+            "value": "2.39%",
+            "change": "flat",
+            "tone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "credit",
+        "label": "Credit",
+        "headline": "ETF beta improved while issuer proof stayed selective",
+        "detail": "Listed credit funds rose beside sharper issuer tiering.",
+        "emphasis": "Evidence hierarchy",
+        "signals": [
+          {
+            "label": "LQD",
+            "value": "+0.30%",
+            "change": "total return",
+            "tone": "supportive"
+          },
+          {
+            "label": "HYG",
+            "value": "+0.12%",
+            "change": "total return",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "premarket",
+        "label": "Pre-market",
+        "headline": "Treasury futures faded while risk stayed firm",
+        "detail": "Morning update was mixed, not a new NY-close driver.",
+        "emphasis": "Separate update",
+        "signals": [
+          {
+            "label": "10Y note futures",
+            "value": "109.8281",
+            "change": "-0.20%",
+            "tone": "challenging"
+          },
+          {
+            "label": "S&P fut",
+            "value": "+0.02%",
+            "change": "overnight",
+            "tone": "supportive"
+          },
+          {
+            "label": "WTI",
+            "value": "-0.64%",
+            "change": "overnight",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "watch",
+        "label": "Forward Watch",
+        "headline": "Oil, Fed pricing, and credit clearing become the validation tests",
+        "detail": "Check energy, front-end pricing, and issuer-level credit demand.",
+        "emphasis": "Validation framework",
+        "signals": [
+          {
+            "label": "Energy",
+            "value": "oil risk",
+            "change": "inflation channel",
+            "tone": "watch"
+          },
+          {
+            "label": "Front end",
+            "value": "Fed repricing",
+            "change": "duration channel",
+            "tone": "watch"
+          },
+          {
+            "label": "Credit",
+            "value": "new issue clearing",
+            "change": "spread channel",
+            "tone": "watch"
+          }
+        ]
+      }
+    ]
+  },
   "archive_dates": [
+    {
+      "date": "2026-06-18",
+      "label": "2026-06-18",
+      "href": "?date=2026-06-18",
+      "active": false
+    },
     {
       "date": "2026-06-17",
       "label": "2026-06-17",
@@ -244,18 +563,6 @@
       "active": false
     },
     {
-      "date": "2026-06-11",
-      "label": "2026-06-11",
-      "href": "?date=2026-06-11",
-      "active": false
-    },
-    {
-      "date": "2026-06-10",
-      "label": "2026-06-10",
-      "href": "?date=2026-06-10",
-      "active": false
-    },
-    {
       "date": "2026-06-09",
       "label": "2026-06-09",
       "href": "?date=2026-06-09",
@@ -271,24 +578,6 @@
       "date": "2026-06-05",
       "label": "2026-06-05",
       "href": "?date=2026-06-05",
-      "active": false
-    },
-    {
-      "date": "2026-06-04",
-      "label": "2026-06-04",
-      "href": "?date=2026-06-04",
-      "active": false
-    },
-    {
-      "date": "2026-06-03",
-      "label": "2026-06-03",
-      "href": "?date=2026-06-03",
-      "active": false
-    },
-    {
-      "date": "2026-06-02",
-      "label": "2026-06-02",
-      "href": "?date=2026-06-02",
       "active": false
     },
     {
@@ -309,108 +598,5 @@
       "href": "?date=2026-05-28",
       "active": true
     }
-  ],
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "2Y 3.99% / 5Y 4.15%",
-        "emphasis": "ny_close",
-        "signals": [
-          {
-            "label": "2Y",
-            "value": "3.99%",
-            "change": "-1 bp"
-          },
-          {
-            "label": "5Y",
-            "value": "4.15%",
-            "change": "-2 bp"
-          },
-          {
-            "label": "10Y",
-            "value": "4.45%",
-            "change": "-3 bp"
-          },
-          {
-            "label": "30Y",
-            "value": "4.98%",
-            "change": "-3 bp"
-          }
-        ]
-      },
-      {
-        "id": "primary_driver",
-        "label": "Primary driver",
-        "headline": "Fed inflation risk framed the rally",
-        "detail": "Treasuries rallied, but the move sat beside hawkish inflation language from Warsh, Williams, and Musalem rather than a clean easing story.",
-        "emphasis": "ny_close"
-      },
-      {
-        "id": "risk_map",
-        "label": "Risk map",
-        "headline": "Risk firmer",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "88.9",
-            "change": "+0.25%"
-          },
-          {
-            "label": "SPX",
-            "value": "7,564",
-            "change": "+0.58%"
-          },
-          {
-            "label": "VIX",
-            "value": "15.74",
-            "change": "-3.38%"
-          },
-          {
-            "label": "LQD",
-            "value": "109.26",
-            "change": "+0.3%"
-          },
-          {
-            "label": "HYG",
-            "value": "80.23",
-            "change": "+0.12%"
-          }
-        ],
-        "emphasis": "ny_close"
-      },
-      {
-        "id": "latest",
-        "label": "Pre-market snapshot",
-        "headline": "Pre-market update",
-        "detail": "10Y note fut 109.83 -0.2%; 30Y bond fut 112.44 -0.33%; S&P fut 7,583 +0.02%",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.83",
-            "change": "-0.2%"
-          },
-          {
-            "label": "30Y bond fut",
-            "value": "112.44",
-            "change": "-0.33%"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,583",
-            "change": "+0.02%"
-          }
-        ],
-        "emphasis": "latest"
-      },
-      {
-        "id": "next_watch",
-        "label": "Next watch",
-        "headline": "Oil and breakeven follow-through",
-        "detail": "Next session: The rates thesis depends on whether crude and inflation compensation confirm or reverse the close.",
-        "emphasis": "watch"
-      }
-    ]
-  }
+  ]
 }
