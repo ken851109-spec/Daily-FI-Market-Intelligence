@@ -1,0 +1,439 @@
+{
+  "report_date": "2026-01-15",
+  "run_id": "2026-01-15T08-00-00+08-00_fixture",
+  "mode": "fixture",
+  "anchor": "ny_close",
+  "header": {
+    "title": "Daily FI Tape - Market Briefing",
+    "as_of_note": "Session briefing with Asia / Pre-market shown separately.",
+    "latest_update_cutoff": "2026-01-15T08:00:00+08:00"
+  },
+  "overall_summary": {
+    "bullets": [
+      "UST yields finished the session modestly higher with the long end leading the move.",
+      "Credit spreads stayed contained, keeping the move framed as rates-led rather than stress-led.",
+      "The dollar held firm into the close, reinforcing the cross-asset read-through."
+    ],
+    "ny_close_causal_narrative": "The session narrative was a rates-led bear-steepening supported by supply concession and policy-sensitive repricing, while credit stress remained contained.",
+    "reader_takeaways": [
+      {
+        "label": "Close read",
+        "title": "Rates framed the close",
+        "summary": "The fixture summary explains the close as a rates-led market state, not a recycled thesis sentence.",
+        "id": "close_read",
+        "tone": "close"
+      },
+      {
+        "label": "Transmission",
+        "title": "Long-end supply concession",
+        "summary": "The 10Y sector underperformed as the session priced more term-premium concession.",
+        "id": "transmission",
+        "tone": "transmission"
+      },
+      {
+        "label": "What would change it",
+        "title": "US retail sales",
+        "summary": "Demand data tests whether the rates rally has macro follow-through.",
+        "id": "confirmation",
+        "tone": "watch"
+      }
+    ]
+  },
+  "top_drivers": [
+    {
+      "rank": 1,
+      "title": "Long-end supply concession",
+      "short_summary": "The 10Y sector underperformed as the session priced more term-premium concession.",
+      "detail": "The move links to supply absorption rather than a late-session risk shock.",
+      "market_move": "The 10Y sector underperformed as the session close priced more term-premium concession.",
+      "transmission": "Supply-sensitive duration pricing steepened the curve without turning the session into broad credit stress.",
+      "confirmation": "Auction demand and front-end repricing would decide whether the concession persists.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    },
+    {
+      "rank": 2,
+      "title": "Policy-sensitive repricing",
+      "short_summary": "Front-end rates rose modestly as the path of easing stayed conditional.",
+      "detail": "The move was directional but not disorderly, leaving the curve steeper into close.",
+      "market_move": "Front-end rates rose modestly while the path of easing stayed conditional.",
+      "transmission": "Policy uncertainty kept front-end relief limited and left the curve steeper into the close.",
+      "confirmation": "A data or Fed communication surprise would need to pull the front end in the same direction.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    },
+    {
+      "rank": 3,
+      "title": "Contained credit stress",
+      "short_summary": "Tighter IG spreads kept the session from reading as broad risk-off.",
+      "detail": "Credit resilience narrowed the interpretation toward rates and supply rather than funding stress.",
+      "market_move": "IG spread tone stayed contained even as rates drove the session.",
+      "transmission": "Spread tone translated the rate move into a selective, not systemic, credit read.",
+      "confirmation": "HY spreads and funding-sensitive credits would need to weaken to challenge that read.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    }
+  ],
+  "latest_asia_premarket": {
+    "summary": "Separately, early Asia trading showed slightly firmer Treasury futures and a softer dollar tone before the Taipei cutoff.",
+    "readout": "Firmer early tape before the Taipei morning update: Treasury futures +0.10%, DXY -0.08%.",
+    "market_implication": "The update points to mild stabilization but remains separate from the NY-close rates-led thesis.",
+    "signals": [
+      {
+        "label": "Treasury futures",
+        "value": "steady",
+        "change": "+0.10%",
+        "read": "Duration stabilized after the session move.",
+        "tone": "latest"
+      },
+      {
+        "label": "DXY",
+        "value": "softer",
+        "change": "-0.08%",
+        "read": "The dollar eased in the separate early tape.",
+        "tone": "latest"
+      }
+    ],
+    "items": [
+      {
+        "title": "Treasury futures steadier",
+        "detail": "Asia pricing points to a mild stabilization after the session move.",
+        "timestamp": "2026-01-15T07:45:00+08:00"
+      },
+      {
+        "title": "Dollar tone softer",
+        "detail": "The DXY handle eased during early Asia trading.",
+        "timestamp": "2026-01-15T07:45:00+08:00"
+      }
+    ],
+    "as_of": "2026-01-15T07:45:00+08:00",
+    "status": "extending",
+    "headline": "Pre-market extends the NY-close read",
+    "key_moves": [
+      {
+        "asset": "Treasury futures",
+        "level": "steady",
+        "change": "+0.10%",
+        "interpretation": "Treasury futures +0.10% keeps duration extending"
+      },
+      {
+        "asset": "DXY",
+        "level": "softer",
+        "change": "-0.08%",
+        "interpretation": "DXY -0.08% eases dollar pressure"
+      }
+    ],
+    "changed_since_ny_close": "After the NY close, Treasury futures +0.10%, DXY -0.08% updated the separate early tape.",
+    "read_through": "Extends the NY-close read through Treasury futures +0.10% keeps duration extending; DXY -0.08% eases dollar pressure.",
+    "what_would_matter_next": "A reversal in Treasury futures / DXY would show the early extension is fading."
+  },
+  "briefing_path": {
+    "items": [
+      {
+        "id": "market_take",
+        "label": "Market take",
+        "title": "Rates led the session",
+        "summary": "The fixture tape frames the close as rates-led rather than a broad credit-stress session.",
+        "tone": "market"
+      },
+      {
+        "id": "backdrop",
+        "label": "Backdrop",
+        "title": "Long-end supply concession",
+        "summary": "The 10Y sector underperformed as the session priced more term-premium concession.",
+        "tone": "backdrop"
+      },
+      {
+        "id": "week_ahead",
+        "label": "Week ahead",
+        "title": "US retail sales",
+        "summary": "Demand data tests whether the rates rally has macro follow-through.",
+        "tone": "watch"
+      }
+    ]
+  },
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "2Y 4.16% / 10Y 4.32%",
+        "emphasis": "ny_close",
+        "signals": [
+          {
+            "label": "2Y",
+            "value": "4.16%",
+            "change": "+3 bp"
+          },
+          {
+            "label": "10Y",
+            "value": "4.32%",
+            "change": "+6 bp"
+          }
+        ]
+      },
+      {
+        "id": "primary_driver",
+        "label": "Primary driver",
+        "headline": "Long-end supply concession",
+        "detail": "The 10Y sector underperformed as the session priced more term-premium concession.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "risk_map",
+        "label": "Risk map",
+        "headline": "Risk contained",
+        "detail": "Credit and dollar cues kept the session framed as rates-led rather than broad funding stress.",
+        "emphasis": "ny_close"
+      },
+      {
+        "id": "latest",
+        "label": "Pre-market snapshot",
+        "headline": "Separate early update",
+        "detail": "Separately, early Asia trading showed slightly firmer Treasury futures and a softer dollar tone before the Taipei cutoff.",
+        "emphasis": "latest"
+      },
+      {
+        "id": "next_watch",
+        "label": "Next watch",
+        "headline": "US retail sales",
+        "detail": "2026-01-16: Demand data tests whether the rates rally has macro follow-through.",
+        "emphasis": "watch"
+      }
+    ]
+  },
+  "watch_events": [
+    {
+      "title": "US retail sales",
+      "date": "2026-01-16",
+      "watch_line": "Demand data tests whether the rates rally has macro follow-through.",
+      "market_trigger": "A retail-sales surprise that changes the growth and inflation mix.",
+      "market_implication": "Strong demand would pressure duration; weak demand would extend the rates bid.",
+      "why_it_matters": "The print is the next macro check on whether demand keeps the Fed path conditional.",
+      "category": "economic_data",
+      "confirms_if": "Demand or labor data prints in line with the current rates read.",
+      "challenges_if": "A demand surprise reverses the current front-end or dollar signal.",
+      "sensitive_channel": "front-end rates"
+    },
+    {
+      "title": "Treasury coupon supply",
+      "date": "2026-01-20",
+      "watch_line": "Auction demand checks whether term-premium concession is enough.",
+      "market_trigger": "Weak tails, lower bid-to-cover, or dealer-heavy takedown.",
+      "market_implication": "Weak demand revives term-premium pressure; strong demand validates duration appetite.",
+      "why_it_matters": "Auction demand will test whether the latest term-premium concession is sufficient.",
+      "category": "auction",
+      "confirms_if": "Firm demand clears supply without extra concession.",
+      "challenges_if": "Weak tails or dealer-heavy takedown revive term-premium pressure.",
+      "sensitive_channel": "belly supply"
+    }
+  ],
+  "yield_heat_map": {
+    "rows": [
+      {
+        "tenor": "2Y",
+        "last": "4.16%",
+        "change_1d": "+3 bp",
+        "change_1w": "+8 bp",
+        "change_1m": "-5 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-01-14T17:00:00-05:00"
+      },
+      {
+        "tenor": "10Y",
+        "last": "4.32%",
+        "change_1d": "+6 bp",
+        "change_1w": "+11 bp",
+        "change_1m": "+2 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-01-14T17:00:00-05:00"
+      }
+    ]
+  },
+  "cross_asset_cards": [
+    {
+      "title": "USD",
+      "summary": "Firm through the session, softer in the separate Asia update.",
+      "reference_type": "mixed_visible"
+    },
+    {
+      "title": "Credit",
+      "summary": "Contained spreads kept funding stress out of the main market narrative.",
+      "reference_type": "ny_close"
+    }
+  ],
+  "long_thesis": {
+    "english_markdown": "# Market Thesis\n\n## Session Narrative\n\nUST yields ended the session modestly higher as the curve bear-steepened, the dollar held firm, and credit spreads stayed contained. The session read stays rates-led rather than broad stress-led.\n\n## Market Drivers\n\n1. Policy repricing: the NY close snapshot anchors the fixture market read.\n2. Supply concession: fixture source notes keep supply as context, not a standalone yield explanation.\n3. morning update: the early update stays separate from the NY close thesis.\n\n## Latest Asia / Pre-market Update\n\nSeparately, early Asia trading showed steadier Treasury futures and a softer dollar tone before the Taipei 08:00 cutoff. This update is a separate forward-looking market check.\n\n## Market Watch\n\n- US retail sales (2026-01-16): A demand surprise could affect the front-end rates path and dollar direction.\n- Treasury coupon supply (2026-01-20): Auction demand will test whether the latest term-premium concession is sufficient.\n",
+    "section_summaries": [
+      {
+        "section_title": "Session Narrative",
+        "summary": "A generated fixture cue summarizes the NY close thesis without copying the opening sentence.",
+        "market_read": "The session remains rates-led rather than stress-led.",
+        "why_it_matters": "It frames the whole report without repeating the thesis opening.",
+        "next_check": "Front-end repricing and dollar confirmation."
+      },
+      {
+        "section_title": "Market Drivers",
+        "summary": "A generated fixture cue separates realized close drivers from the later Asia update.",
+        "market_read": "Realized drivers stay anchored to the close.",
+        "why_it_matters": "It keeps future watch items out of session causality.",
+        "next_check": "Whether credit stress stays contained."
+      },
+      {
+        "section_title": "Latest Asia / Pre-market Update",
+        "summary": "A generated fixture cue keeps the early update as a separate snapshot rather than part of close causality.",
+        "market_read": "The latest update is a separate morning snapshot.",
+        "why_it_matters": "It prevents pre-market moves from rewriting the close.",
+        "next_check": "Asia futures and dollar tone before cutoff."
+      },
+      {
+        "section_title": "Market Watch",
+        "summary": "A generated fixture cue turns upcoming items into watchpoints after the thesis is drafted.",
+        "market_read": "Upcoming events are watchpoints, not realized drivers.",
+        "why_it_matters": "It makes the forward section concrete without inventing causality.",
+        "next_check": "Retail sales and Treasury supply."
+      }
+    ]
+  },
+  "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
+  "archive_dates": [
+    {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
+      "date": "2026-06-16",
+      "label": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "active": false
+    },
+    {
+      "date": "2026-06-15",
+      "label": "2026-06-15",
+      "href": "?date=2026-06-15",
+      "active": false
+    },
+    {
+      "date": "2026-06-12",
+      "label": "2026-06-12",
+      "href": "?date=2026-06-12",
+      "active": false
+    },
+    {
+      "date": "2026-06-11",
+      "label": "2026-06-11",
+      "href": "?date=2026-06-11",
+      "active": false
+    },
+    {
+      "date": "2026-06-10",
+      "label": "2026-06-10",
+      "href": "?date=2026-06-10",
+      "active": false
+    },
+    {
+      "date": "2026-06-09",
+      "label": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "active": false
+    },
+    {
+      "date": "2026-06-08",
+      "label": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "active": false
+    },
+    {
+      "date": "2026-06-05",
+      "label": "2026-06-05",
+      "href": "?date=2026-06-05",
+      "active": false
+    },
+    {
+      "date": "2026-06-04",
+      "label": "2026-06-04",
+      "href": "?date=2026-06-04",
+      "active": false
+    },
+    {
+      "date": "2026-06-03",
+      "label": "2026-06-03",
+      "href": "?date=2026-06-03",
+      "active": false
+    },
+    {
+      "date": "2026-06-02",
+      "label": "2026-06-02",
+      "href": "?date=2026-06-02",
+      "active": false
+    },
+    {
+      "date": "2026-06-01",
+      "label": "2026-06-01",
+      "href": "?date=2026-06-01",
+      "active": false
+    },
+    {
+      "date": "2026-05-29",
+      "label": "2026-05-29",
+      "href": "?date=2026-05-29",
+      "active": false
+    },
+    {
+      "date": "2026-05-28",
+      "label": "2026-05-28",
+      "href": "?date=2026-05-28",
+      "active": false
+    },
+    {
+      "date": "2026-03-03",
+      "label": "2026-03-03",
+      "href": "?date=2026-03-03",
+      "active": false
+    },
+    {
+      "date": "2026-02-11",
+      "label": "2026-02-11",
+      "href": "?date=2026-02-11",
+      "active": false
+    },
+    {
+      "date": "2026-02-10",
+      "label": "2026-02-10",
+      "href": "?date=2026-02-10",
+      "active": false
+    },
+    {
+      "date": "2026-02-03",
+      "label": "2026-02-03",
+      "href": "?date=2026-02-03",
+      "active": false
+    },
+    {
+      "date": "2026-02-02",
+      "label": "2026-02-02",
+      "href": "?date=2026-02-02",
+      "active": false
+    },
+    {
+      "date": "2026-01-23",
+      "label": "2026-01-23",
+      "href": "?date=2026-01-23",
+      "active": false
+    },
+    {
+      "date": "2026-01-17",
+      "label": "2026-01-17",
+      "href": "?date=2026-01-17",
+      "active": false
+    },
+    {
+      "date": "2026-01-15",
+      "label": "2026-01-15",
+      "href": "?date=2026-01-15",
+      "active": true
+    }
+  ]
+}

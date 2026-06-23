@@ -1,0 +1,618 @@
+{
+  "report_date": "2026-06-11",
+  "run_id": "2026-06-11T08-00-00+08-00_live-local",
+  "mode": "full",
+  "anchor": "ny_close",
+  "header": {
+    "title": "Daily FI Tape",
+    "as_of_note": "Anchored on the June 11 New York close; the June 12 Taipei futures handoff is separate Latest Asia / Pre-market.",
+    "latest_update_cutoff": "2026-06-12T08:00:00+08:00"
+  },
+  "overall_summary": {
+    "headline": "Oil relief powered a broad duration and risk rally.",
+    "summary": "WTI and Brent fell nearly 3%, UST yields rallied 8-10 bp, equities surged, VIX fell, and LQD/HYG/JNK/EMB rose, but policy and borrower-quality caveats remained.",
+    "ny_close_causal_narrative": "The June 11 NY close was driven by a fall in the Iran-war oil premium that lowered breakevens, reduced near-term Fed-hike pressure, and let duration, equities, and credit-risk appetite recover despite a soft 30-year auction.",
+    "bullets": [
+      "UST10Y and breakevens both fell sharply.",
+      "WTI and Brent fell, reducing December hike pressure.",
+      "SPX rose 1.75%, NDX 3.29%, SOX 7.91%, and VIX fell 12.51%."
+    ],
+    "reader_takeaways": [
+      {
+        "label": "Oil",
+        "title": "Oil relief drove the rally",
+        "summary": "Lower crude reduced inflation urgency and helped both nominal yields and breakevens rally.",
+        "id": "oil_relief",
+        "tone": "supportive"
+      },
+      {
+        "label": "Rates",
+        "title": "Duration rallied through auction friction",
+        "summary": "A soft 30-year sale briefly mattered, but lower oil and Fed-hike repricing dominated the close.",
+        "id": "duration",
+        "tone": "supportive"
+      },
+      {
+        "label": "Credit",
+        "title": "Risk reopened selectively",
+        "summary": "LQD/HYG/JNK/EMB rose, Danantara cleared, but weaker borrowers stayed tiered.",
+        "id": "credit_tiering",
+        "tone": "selective"
+      }
+    ]
+  },
+  "top_drivers": [
+    {
+      "rank": 1,
+      "title": "Oil relief pulled Fed-hike pricing lower",
+      "short_summary": "WTI and Brent fell nearly 3%, pushing the market away from a fully priced December hike and toward later policy risk.",
+      "detail": "Lower crude helped breakevens fall and allowed Treasuries to rally across the curve.",
+      "market_move": "WTI -2.58%, Brent -2.92%, 10Y breakeven -5 bp.",
+      "transmission": "Lower energy pass-through reduced the urgency of Fed and global central-bank inflation defense.",
+      "confirmation": "Oil needs to stay lower and Fed rhetoric needs to avoid rebuilding hike risk.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    },
+    {
+      "rank": 2,
+      "title": "Duration rallied despite a soft 30-year auction",
+      "short_summary": "A weak 30-year sale briefly pressured yields, but oil-driven inflation relief dominated into the close.",
+      "detail": "UST10Y fell 10 bp and UST30Y fell 8 bp even though auction demand was soft.",
+      "market_move": "UST5Y -9 bp, UST10Y -10 bp, UST30Y -8 bp.",
+      "transmission": "Breakeven relief and lower policy-risk pricing overwhelmed supply friction.",
+      "confirmation": "Sustained demand at the long end would confirm the rally is more than oil relief.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    },
+    {
+      "rank": 3,
+      "title": "Risk assets reopened but credit quality stayed tiered",
+      "short_summary": "SPX, NDX, and SOX rallied sharply while listed credit funds rose, but issuer quality still drove dispersion.",
+      "detail": "Danantara cleared and traded higher, while Hanuman Wind postponed and AI infrastructure financing remained structure-sensitive.",
+      "market_move": "SPX +1.75%, NDX +3.29%, SOX +7.91%, LQD +0.85%.",
+      "transmission": "Lower discount-rate pressure reopened risk appetite, but borrower quality still determined funding access.",
+      "confirmation": "OAS, CDX, TRACE, concessions, and order-book quality need to broaden beyond stronger names.",
+      "driver_window": "ny_close",
+      "is_future_watch_event": false
+    }
+  ],
+  "latest_asia_premarket": {
+    "summary": "Separately, latest Asia/pre-market was mixed versus the NY close.",
+    "readout": "Mixed early tape: 10Y note fut -0.24%, S&P fut +0.21%, WTI -1.54%.",
+    "market_implication": "10Y note fut -0.24% fades duration; S&P fut +0.21% extends risk.",
+    "signals": [
+      {
+        "label": "10Y note fut",
+        "value": "109.67",
+        "tone": "down",
+        "change": "-0.24%",
+        "read": "Treasury futures give the cleanest early read on whether the duration bid held after the NY close"
+      },
+      {
+        "label": "S&P fut",
+        "value": "7,411",
+        "tone": "up",
+        "change": "+0.21%",
+        "read": "Stock-index futures show whether the overnight handoff confirmed or faded the NY risk tone"
+      },
+      {
+        "label": "WTI",
+        "value": "86.36",
+        "tone": "down",
+        "change": "-1.54%",
+        "read": "WTI futures test whether the oil channel was still easing inflation pressure by the morning update"
+      }
+    ],
+    "items": [
+      {
+        "title": "10Y Treasury note futures",
+        "detail": "109.67, -0.24%. Treasury futures give the cleanest early read on whether the duration bid held after the NY close",
+        "timestamp": "2026-06-12T08:00:00+08:00"
+      },
+      {
+        "title": "30Y Treasury bond futures",
+        "detail": "112.62, -0.5%. Long-bond futures help separate a persistent long-end bid from a one-session cash-market move",
+        "timestamp": "2026-06-12T08:00:00+08:00"
+      },
+      {
+        "title": "S&P 500 futures",
+        "detail": "7,411, +0.21%. Stock-index futures show whether the overnight handoff confirmed or faded the NY risk tone",
+        "timestamp": "2026-06-12T08:00:00+08:00"
+      },
+      {
+        "title": "Nasdaq 100 futures",
+        "detail": "29,566, +0.34%. Nasdaq futures are the early check on whether growth and technology beta stabilized",
+        "timestamp": "2026-06-12T08:00:00+08:00"
+      },
+      {
+        "title": "WTI crude futures",
+        "detail": "86.36, -1.54%. WTI futures test whether the oil channel was still easing inflation pressure by the morning update",
+        "timestamp": "2026-06-12T08:00:00+08:00"
+      }
+    ],
+    "as_of": "2026-06-12T08:00:00+08:00",
+    "status": "mixed",
+    "headline": "Pre-market is mixed versus the NY close",
+    "key_moves": [
+      {
+        "asset": "10Y note fut",
+        "level": "109.67",
+        "change": "-0.24%",
+        "interpretation": "10Y note fut -0.24% makes the duration bid fade"
+      },
+      {
+        "asset": "S&P fut",
+        "level": "7,411",
+        "change": "+0.21%",
+        "interpretation": "S&P fut +0.21% keeps risk appetite extending"
+      },
+      {
+        "asset": "WTI",
+        "level": "86.36",
+        "change": "-1.54%",
+        "interpretation": "WTI -1.54% extends energy relief"
+      }
+    ],
+    "changed_since_ny_close": "After NY close: 10Y note fut -0.24%, S&P fut +0.21%, WTI -1.54%.",
+    "read_through": "Mixed: 10Y note fut -0.24% fades duration; S&P fut +0.21% extends risk.",
+    "what_would_matter_next": "Treasury futures / Stock-index futures / oil decide extension or fade."
+  },
+  "watch_events": [
+    {
+      "title": "Oil decline persistence",
+      "date": "2026-06-12",
+      "category": "inflation",
+      "watch_line": "Test whether the oil-led relief survives the next session.",
+      "market_trigger": "WTI and Brent holding below the June 11 close or rebounding sharply.",
+      "market_implication": "Lower oil would sustain duration relief; a rebound would revive hike-risk pricing.",
+      "why_it_matters": "The entire June 11 rally depended on a lower energy shock premium.",
+      "confirms_if": "Oil stays lower and breakevens remain compressed.",
+      "challenges_if": "Crude rebounds and breakevens widen.",
+      "sensitive_channel": "inflation compensation"
+    },
+    {
+      "title": "Warsh Fed communication",
+      "date": "2026-06-12",
+      "category": "policy",
+      "watch_line": "Watch whether Warsh validates or resists the market’s lower hike-risk pricing.",
+      "market_trigger": "Fed messaging around producer-price heat, forward guidance, and reaction function uncertainty.",
+      "market_implication": "Would decide whether the front-end rally can persist.",
+      "why_it_matters": "The market moved away from a fully priced December hike but did not price easing.",
+      "confirms_if": "Fed communication leans patient and 2Y yields stay lower.",
+      "challenges_if": "Fed rhetoric rebuilds December hike probability.",
+      "sensitive_channel": "Fed pricing"
+    },
+    {
+      "title": "ECB energy reaction",
+      "date": "2026-06-12",
+      "category": "global duration",
+      "watch_line": "Check whether Europe adds to or softens the energy-driven tightening signal.",
+      "market_trigger": "ECB guidance on whether further hikes are likely if energy volatility persists.",
+      "market_implication": "More ECB tightening would limit global duration relief; optionality would support it.",
+      "why_it_matters": "Europe was the cleanest major-central-bank case of energy-shock response.",
+      "confirms_if": "ECB emphasizes optionality and oil stays lower.",
+      "challenges_if": "ECB signals additional hikes despite lower oil.",
+      "sensitive_channel": "DM global duration"
+    },
+    {
+      "title": "Primary-market selectivity",
+      "date": "2026-06-12",
+      "category": "credit",
+      "watch_line": "Watch whether weaker issuers can clear after the rally.",
+      "market_trigger": "Junk, project-finance, or governance-sensitive borrowers clearing without punitive concessions.",
+      "market_implication": "Would show whether risk appetite broadened beyond strong borrowers.",
+      "why_it_matters": "Danantara cleared while Hanuman Wind did not.",
+      "confirms_if": "Lower-quality deals clear with manageable concessions.",
+      "challenges_if": "Deals are postponed or require much higher yield.",
+      "sensitive_channel": "credit issuance"
+    }
+  ],
+  "yield_heat_map": {
+    "rows": [
+      {
+        "tenor": "2Y",
+        "last": "4.05%",
+        "change_1d": "-8 bp",
+        "change_1w": "0 bp",
+        "change_1m": "+10 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "5Y",
+        "last": "4.18%",
+        "change_1d": "-9 bp",
+        "change_1w": "0 bp",
+        "change_1m": "+11 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "10Y",
+        "last": "4.45%",
+        "change_1d": "-10 bp",
+        "change_1w": "-2 bp",
+        "change_1m": "+3 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "30Y",
+        "last": "4.95%",
+        "change_1d": "-8 bp",
+        "change_1w": "-2 bp",
+        "change_1m": "-3 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S10S",
+        "last": "40 bp",
+        "change_1d": "-2 bp",
+        "change_1w": "-2 bp",
+        "change_1m": "-7 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S30S",
+        "last": "90 bp",
+        "change_1d": "0 bp",
+        "change_1w": "-2 bp",
+        "change_1m": "-13 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S5S10S",
+        "last": "-14 bp",
+        "change_1d": "0 bp",
+        "change_1w": "+2 bp",
+        "change_1m": "+9 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "2S10S30S",
+        "last": "-10 bp",
+        "change_1d": "-4 bp",
+        "change_1w": "-2 bp",
+        "change_1m": "-1 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "10TIPS",
+        "last": "2.16%",
+        "change_1d": "-5 bp",
+        "change_1w": "+5 bp",
+        "change_1m": "+21 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      },
+      {
+        "tenor": "10BE",
+        "last": "2.29%",
+        "change_1d": "-5 bp",
+        "change_1w": "-7 bp",
+        "change_1m": "-18 bp",
+        "reference_type": "ny_close",
+        "timestamp": "2026-06-11T17:00:00-04:00"
+      }
+    ]
+  },
+  "cross_asset_cards": [
+    {
+      "title": "Oil",
+      "value": "WTI 87.71 (-2.58%) / BRENT 90.38 (-2.92%)",
+      "summary": "WTI -2.58% day, -5.73% week; Brent -2.92%. 10Y breakevens also fell 5 bp, supporting duration.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Equities",
+      "value": "SPX 7,394 (+1.75%) / NDX 29,446 (+3.29%) / SOX 13,171 (+7.91%) / VIX 19.44 (-12.5%)",
+      "summary": "SPX +1.75%, NDX +3.29%, SOX +7.91%; VIX -12.5%; risk-on, technology beta led.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Dollar / gold",
+      "value": "DXY 99.86 (-0.09%) / GOLD 4,090 (-0.44%)",
+      "summary": "DXY fell 0.09% while gold fell 0.44%; Treasury yields were lower; mixed, not clean risk-on.",
+      "reference_type": "ny_close"
+    }
+  ],
+  "long_thesis": {
+    "english_markdown": "# Daily FI Tape - 2026-06-11 NY Close\n\n## Opening Fixed-Income Thesis\n\nThe June 11 close was a duration relief rally led by oil, not a simple growth scare. WTI fell to about 87.71, down 2.58%, and Brent fell to about 90.38, down 2.92%. That decline reduced the urgency of the inflation shock and allowed Treasuries to rally across the curve. UST2Y fell 8 bp to 4.05%, UST5Y fell 9 bp to 4.18%, UST10Y fell 10 bp to 4.45%, and UST30Y fell 8 bp to 4.95%. BE10Y fell 5 bp to about 229 bp and 10Y TIPS fell 5 bp to about 2.16%. The market was therefore repricing both inflation compensation and real-rate pressure. The move was large enough to change the tone from the prior day: the Fed was still hawkishly constrained, but the market no longer treated a December hike as inevitable.\n\nThe cross-asset confirmation was strong. SPX rose 1.75%, NDX rose 3.29%, and SOX jumped 7.91%. VIX fell 12.51%. LQD rose 0.85%, HYG 0.59%, JNK 0.57%, and EMB 0.96%. Falling Treasury yields lifted part of those listed-fund gains, so they should not be described as pure spread tightening. Still, the combination of lower oil, lower breakevens, higher equities, and lower volatility makes the risk tone materially better than June 10. The market was effectively saying that oil relief can reopen duration and risk appetite at the same time, provided the Fed does not immediately push back.\n\nThe day's news explains why that relief had limits. Short-term rates pricing had moved away from a fully priced December hike after Trump said he was cancelling planned strikes and that a time and place for an agreement would be announced. But inflation data were not cleanly dovish: producer-price figures were hotter than expected, and the Fed meeting under new Chair Kevin Warsh was still approaching. The day was therefore not a pivot to cuts. It was a repricing of the oil tail. If the war premium receded, the Fed could wait longer. If oil rose again, the hike debate would return quickly.\n\nOutside the US, the ECB made the global inflation problem explicit. It was set to raise, and then did raise, rates to 2.25% in response to the Iran-war energy shock, becoming the first major central bank to hike because of that conflict. That was the opposite of a universal dovish message. Europe was saying energy pass-through had become broad enough to require action. South Africa had similar concerns after its May hike. Indonesia was allowing yields to rise to defend the rupiah. Thailand's curve had steepened enough to draw long-end interest, but that interest came from valuation after a sharp selloff. The global message was relief at the margin, not an end to the tightening problem.\n\nCredit also improved unevenly. Risk appetite was better, but weaker borrowers did not suddenly become stronger. Hanuman Wind postponed an offshore junk-bond offering for a second time because governance concerns outweighed a mid-to-high 9% yield. At the other end, Danantara completed a $1.5 billion debut dollar deal and both tranches traded higher. AI-linked financing demand was intense, including the proposed disclosure debate around large AI exposures and a $35 billion Anthropic infrastructure financing package. The close therefore deserves a constructive summary, but with a precise caveat: oil relief bought duration and risk assets time; it did not remove the need to discriminate across borrowers, currencies, and central-bank reaction functions.\n\n## UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity\n\nRates traded like oil had shifted the near-term Fed distribution. The biggest Treasury moves came in the 5Y to 10Y sector, with UST5Y down 9 bp and UST10Y down 10 bp. UST2Y fell 8 bp, so the front end participated, but the 2s10s curve actually flattened by about 2 bp to 40 bp. The move says the market reduced the chance that the Fed would need to hike quickly in response to energy, while still preserving a restrictive policy baseline. BE10Y's 5 bp decline was the cleanest expression of the oil channel. TIPS10Y also fell 5 bp, meaning real yields joined the move rather than leaving the rally entirely in inflation compensation.\n\nThe local rates story centered on short-term contracts shifting away from a December hike that had been fully priced. The initial trigger was a sharp fall in oil after the president said planned strikes were being cancelled and an agreement timing was being set. The rally overcame a brief setback from weak 30-year auction demand. CreditSights' Zach Griffiths described it as a large duration rally despite a soft auction. That quote matters because it separates the macro impulse from the supply impulse. The auction was not a bullish supply signal. The market rallied because the oil path had changed the inflation and Fed reaction function.\n\nThe Fed was still not dovish. Producer prices had risen more than expected, and the upcoming meeting was Warsh's first test as chair. Pimco advisers emphasized that investors were trying to understand how Warsh would communicate, especially because he had previously expressed skepticism about forward guidance. The rates market therefore had to price both the near-term relief from lower oil and the regime uncertainty around Fed communication. That is why the correct conclusion is not that hikes were gone. The correct conclusion is that the market had moved the first fully priced hike further out and demanded confirmation from the Fed.\n\nThe real-yield and breakeven mix was healthier than the prior day. BE10Y fell to 229 bp, down 7 bp on the week and 18 bp on the month. TIPS10Y remained elevated at 2.16%, still up 21 bp on the month, so the real-rate burden on risk assets did not vanish. But the one-day move removed the most immediate inflation premium. This was important for equities and credit because the pressure on discount rates eased at the same time the energy tax on consumers and margins looked less severe.\n\nNon-US policy kept a floor under the hawkish debate. The ECB's rate-hike decision guide framed the euro-area move as a response to inflation caused by the Iran war, with economists expecting the deposit rate to rise to 2.25% and forecasts likely to show higher inflation. European stocks could still rally because banks benefited and energy shares rose, but the policy message was clear: central banks were prepared to react if energy moved into broader prices. In the US, June 11 was therefore a tactical bull rally in duration, not a strategic easing cycle.\n\nThe supply signal came through the auction sequence rather than a broad long-end conclusion. The US 30-year auction was soft enough to produce a brief yield setback, but the macro rally then overwhelmed it. That sequence matters. It means June 11 should not be described as proof that long-end supply was easy to absorb. The supported point is narrower: even with a weak auction, lower oil and lower Fed-hike pricing were powerful enough to pull duration buyers back in. UST30Y fell 8 bp to 4.95%, but the reason was macro repricing, not a positive auction read.\n\nDM supply and market-function facts were mixed. The U.S. 30-year auction produced a brief setback, then macro repricing overwhelmed the concession. Europe still had inflation broadening rather than a clean easing signal. That leaves the DM conclusion narrow: lower oil and softer Fed pricing helped core duration, but supply and central-bank reaction functions still required compensation.\n\nCorporate supply belonged mostly in credit, but two examples were relevant for market functioning. Hanuman Wind postponed its junk bond for a second time after failing to attract enough demand, showing that yield alone did not solve governance or parent-company concerns. Danantara, by contrast, raised $1.5 billion in a debut dollar issue and the bonds traded higher, though order books were not spectacular compared with many Asian transactions. These two deals define the day's supply lesson better than the Treasury auction does: markets were open, but not equally open to every borrower.\n\nThe liquidity conclusion should therefore be restrained. The day had a strong duration rally and better risk appetite, but the direct evidence did not say that auction demand, dealer balance sheets, or structural liquidity had improved. It said that lower oil could temporarily dominate supply friction. In a week with ECB tightening, fragile EM currencies, and high-grade corporate issuance, term premium remained sensitive to whether the oil rally truly reversed or merely paused.\n\nThe UST read is that lower oil temporarily dominated supply friction. A soft 30-year auction mattered, but the market’s willingness to rally through it showed that breakeven compression and lower hike pricing were stronger forces at the close. The next check is whether lower oil keeps 5Y-10Y yields supported once auction pressure and Warsh communication return to focus.\n\n## Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation\n\nCredit improved on total return, but the better interpretation is quality tiering inside a better tape. LQD rose 0.85%, HYG 0.59%, JNK 0.57%, and EMB 0.96%. Falling Treasury yields mechanically helped those prices, so the ETF moves alone cannot be translated into spread tightening. But the credit news flow was more constructive than the prior day because risk appetite reopened, equities rose, and volatility fell. The question was not whether credit was closed. The question was which borrowers could use the window.\n\nDanantara was the clearest positive market-access example. Indonesia's sovereign wealth fund sold $1.5 billion of debut global dollar bonds in two equal five- and 10-year tranches, and both traded higher in Asian trading. The order books were not described as spectacular, but the deal still gave President Prabowo's government a concrete capital-market success after the broader Indonesian rout. That mattered because Indonesian local bonds and the rupiah were under pressure. Successful hard-currency issuance did not erase domestic market fragility, but it showed that credible quasi-sovereign paper could still clear.\n\nHanuman Wind showed the other side. The issuer postponed a junk bond offering again even though the notes offered a yield in the mid-to-high 9% area. Investors were not comfortable with parent governance, and rising US Treasury rates for 15-year paper made the deal less attractive. This is the core credit lesson: when Treasury yields and governance risk both rise, a high coupon is not enough. Credit demand was strong for the right structures, not unconditional.\n\nAI financing remained a major credit theme. The proposed AI exposure disclosure bill reflected concern that chipmakers, data centers, cloud providers, hyperscalers, and direct-lending lenders were building a debt ecosystem around AI capex. Apollo and Blackstone had finalized a $35 billion financing package for Anthropic infrastructure, one of the largest direct-lending deals in history. That does not make every AI borrower weak, but it does mean debt investors have to separate tenant strength, project structure, and refinancing risk. SpaceX, Oracle, Anthropic, and related software names showed how quickly equity enthusiasm can interact with bond and loan markets.\n\nFor spread interpretation, June 11 was constructive but not complacent. Oracle bonds rallied and CDS protection costs fell in separate news, Danantara cleared, and equities rallied hard. At the same time, Travelodge debt stress, Hanuman's failed deal, and Indonesian local-market fragility showed that weaker borrowers still faced a high bar. The credit conclusion rests on that distinction: the oil relief rally improved the market window, but it did not flatten borrower quality.\n\nOracle was a useful reminder that equity and credit can react differently to the same issuer. Its shares were under pressure, yet parts of its bond curve and CDS improved after management signaled discipline around additional issuance. That is the kind of detail a fixed-income tape should capture. Credit investors were willing to reward a credible funding outlook even when equity investors were skeptical about near-term growth. It reinforces the theme that borrower behavior and debt supply plans mattered as much as broad beta.\n\nTravelodge supplied the opposite example. A downgrade deeper into junk and rising bearish positioning around its notes reflected concern that weak operating performance and limited deleveraging capacity would make refinancing harder. This was the same market in which higher-quality borrowers and some AI-linked names could still fund. The difference was cash-flow durability. Falling oil and lower yields improved the macro backdrop, but they did not turn a weak refinancing story into a strong one.\n\nCoreWeave and Anthropic kept the AI financing channel central. CoreWeave-related funding had moved into euro and dollar junk bonds, while the Anthropic infrastructure package showed how direct lending was scaling around AI capex. The constructive read is that investor demand was deep enough to finance data-center buildout across regions and formats. The risk is that the debt is increasingly project specific, rate sensitive, and dependent on assumptions about AI revenue growth. June 11's risk rally made those deals easier to discuss; it did not make their credit risk generic.\n\nSpaceX also complicated the signal. A record-sized IPO and anticipation of investment-grade debt access showed that capital markets were receptive to premier growth issuers. But the same day also carried skepticism about valuation and free cash flow around some high-profile names. For credit, the right conclusion is not that AI and space-related financing were uniformly strong. It is that the market was separating franchise quality and collateral from weaker governance, stretched leverage, and unproven cash-flow conversion.\n\nThe weaker side of credit was visible in borrowers that could not rely on the improved macro tape. Hanuman Wind pulled a junk bond again after governance concerns at its parent kept buyers away. Travelodge was downgraded by Moody's as debt concerns mounted for the UK hotel chain. Zimbabwe sought a $150 million AfDB loan to address arrears. Those examples matter because they prevent the June 11 risk rally from being overread. Falling oil and lower yields helped market beta, but governance risk, leverage, and sovereign arrears still decided whether capital was available on acceptable terms.\n\nLarge-bank issuance gave the other side of the market. Citigroup raised $6.25 billion in the year's first high-grade bank bond sale, a sign that high-quality borrowers could still access size when the macro tape improved. That is a different credit signal from Danantara, Hanuman, or Travelodge. It tells readers that June 11 reopened windows at the top of the quality spectrum first, while weaker borrowers still needed concessions, balance-sheet repair, or official support.\n\nCorporate supply belonged mostly in credit, but two examples were relevant for market functioning. Hanuman Wind postponed its junk bond for a second time after failing to attract enough demand, showing that yield alone did not solve governance or parent-company concerns. Danantara, by contrast, raised $1.5 billion in a debut dollar issue and the bonds traded higher, though order books were not spectacular compared with many Asian transactions. These two deals define the day's supply lesson better than the Treasury auction does: markets were open, but not equally open to every borrower.\n\nCredit evidence needs the same hierarchy even on a better tape. LQD, HYG, JNK, and EMB rose strongly, but falling Treasury yields mechanically supported total returns. The stronger interpretation comes from market access: Danantara cleared and traded higher, Hanuman Wind postponed again, and AI infrastructure financing remained large but borrower-specific. That is constructive risk appetite with quality tiering, not indiscriminate spread compression.\n\n## DM Global Duration\n\nGlobal duration gave the US move credibility but also showed why the relief was conditional. The ECB was tightening because energy inflation had broadened, not easing because oil fell for one day. The U.S. long end could rally as oil and Fed pricing improved, but DM policy was still being shaped by inflation risk and supply compensation. In other words, DM duration had opportunities, but they came from narrower disinflation and rate-path relief rather than a synchronized dovish turn.\n\nThe supply signal came through the auction sequence rather than a broad long-end conclusion. The US 30-year auction was soft enough to produce a brief yield setback, but the macro rally then overwhelmed it. That sequence matters. It means June 11 should not be described as proof that long-end supply was easy to absorb. The supported point is narrower: even with a weak auction, lower oil and lower Fed-hike pricing were powerful enough to pull duration buyers back in. UST30Y fell 8 bp to 4.95%, but the reason was macro repricing, not a positive auction read.\n\nDM supply and market-function facts were mixed. The U.S. 30-year auction produced a brief setback, then macro repricing overwhelmed the concession. Europe still had inflation broadening rather than a clean easing signal. That leaves the DM conclusion narrow: lower oil and softer Fed pricing helped core duration, but supply and central-bank reaction functions still required compensation.\n\nThe DM duration message was supportive but conditional. The U.S. rally had credibility because lower oil reduced the immediate inflation tax, yet Europe was still tightening and long-end supply signals reminded investors that curves still need compensation. DM duration could rally when the energy shock faded, but it was not freed from supply and central-bank reaction functions.\n\n## EM Rates, FX, And Hard-Currency Credit\n\nEM hard-currency credit was selective. Danantara's deal traded higher, while Indonesia's local-currency bonds and equities were still fragile. Thailand attracted long-end buyers because valuation had improved, but its relative appeal depended on the Bank of Thailand being more dovish than peers. Zimbabwe, Turkey, South Africa, and Brazil each had their own inflation or funding issues in the day's coverage, showing that EM policy was not moving in one direction. The broad rule was simple: oil relief helps EM, but countries still need credible policy or sufficiently high yields to attract capital.\n\nIndonesia and Thailand were the clearest Asian duration contrast. Thailand's curve steepening created long-end value because inflation and growth allowed the central bank to be more patient. Indonesia had to tolerate higher yields to stabilize the rupiah and lure foreign capital. Both were EM duration stories, but they pointed in opposite directions. That distinction matters because June 11's global rally could not be applied mechanically across EM. Duration worked where valuation and policy credibility aligned; it remained fragile where currency defense dominated.\n\nEM credit was selective rather than uniformly healed. Danantara’s debut dollar issue gave Indonesia a concrete capital-market win, while local Indonesian markets were still fragile. Thailand offered long-end value after steepening, but its appeal depended on a more dovish central-bank path. Zimbabwe, Turkey, South Africa, Brazil, and other country cases kept inflation, fiscal, and funding credibility at the center of EM hard-currency risk.\n\n## Cross-Asset Confirmation\n\nThe cross-asset confirmation was strong. SPX rose 1.75%, NDX rose 3.29%, and SOX jumped 7.91%. VIX fell 12.51%. LQD rose 0.85%, HYG 0.59%, JNK 0.57%, and EMB 0.96%. Falling Treasury yields lifted part of those listed-fund gains, so they should not be described as pure spread tightening. Still, the combination of lower oil, lower breakevens, higher equities, and lower volatility makes the risk tone materially better than June 10. The market was effectively saying that oil relief can reopen duration and risk appetite at the same time, provided the Fed does not immediately push back.\n\nThe strongest cross-market confirmation came from oil and equities. Brent's drop below the prior day's levels gave investors a reason to rebuild risk exposure. European stocks snapped a losing streak, US equities rallied, and semiconductors surged. VIX fell more than 12%. That broad confirmation is why the Treasury rally should not be described as a recession trade. It was closer to an oil-tax relief trade: lower oil reduced inflation pressure and supported growth-sensitive assets at the same time.\n\nThe dollar and gold were not the main story. DXY fell only 0.09%, while gold slipped 0.44%. That restrained response suggests the market was not merely dumping havens. Instead, it was rotating out of the worst inflation-tail risk. The stronger evidence was in breakevens, equities, VIX, and the front end. The day therefore closed with a cleaner cross-market message than June 10: lower oil allowed duration and risk to rally together, but central banks outside the US were still proving that energy inflation could force tightening if the relief failed to persist.\n\nThis cross-asset mix is why June 11 was not a recession rally. Lower oil, lower breakevens, lower VIX, stronger equities, and higher credit ETF prices all lined up in the same direction. The dollar and gold were muted, so the message was not a generic haven unwind; it was a rotation away from the inflation-tail risk that had dominated the prior close.\n\n## Market Significance And Watchpoints\n\nThe validation framework starts with oil because the June 11 close was built on a smaller inflation tail. If WTI and Brent stay lower, breakevens can remain under pressure, the front end can avoid rebuilding hike premium, and the duration rally has room to extend. If crude rebounds, the same channels work in reverse: inflation compensation rises first, then 2Y and 5Y yields have to decide whether the Fed reaction function is becoming more restrictive again.\n\nThe second test is Fed communication. Warsh and other officials do not need to validate an easing cycle for the rally to hold, but they do need to avoid turning the oil shock into a renewed reaction-function problem. Stable SOFR pricing, a contained 2Y yield, and a calm breakeven curve would confirm that the market can keep treating June 11 as inflation relief. Hawkish guidance, or language that frames energy as a persistent expectations risk, would challenge the rally before it reaches credit.\n\nThe third test is long-end sponsorship. The soft 30-year auction did not stop the close because oil and Fed pricing dominated, but it still matters for the next session. Follow-through needs 10Y and 30Y yields to hold the rally without relying on another oil drop. A better concession profile, firmer real-money demand, or stable term premium would confirm duration sponsorship. A renewed long-end cheapening would show that supply risk was only masked by the energy move. The cleanest confirmation would be a rally that survives without another commodity shock, because that would show real demand rather than headline relief across cash and futures.\n\nThe fourth test is primary credit. Danantara clearing and bank issuance showed access for better stories, while Hanuman Wind and structure-sensitive AI financing showed the boundary. Confirmation requires disciplined concessions, stronger order books, and OAS/CDX/TRACE follow-through beyond the cleanest borrowers. If weaker issuers still need large concessions or cannot clear, the credit read remains a duration-supported total-return rally rather than broad spread repair.\n\nThe fifth test is global spillover. ECB energy-inflation language, Thailand duration demand, Indonesia funding pressure, and dollar behavior decide whether the rally travels across DM and EM markets. Benign oil plus stable FX would confirm the update; renewed ECB hawkishness or EM funding pressure would narrow it.\n\nFor June 11, the close was constructive but conditional. It is confirmed by lower oil, contained front-end pricing, resilient auction demand, and broader credit clearing. It is challenged by crude reversal, hawkish policy language, weak long-end demand, or issuer stress outside top-tier borrowers.",
+    "section_summaries": [
+      {
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "Frames June 11 as an oil-led duration relief rally, not a generic growth scare.",
+        "market_read": "Lower crude unlocked rates and risk relief.",
+        "why_it_matters": "It identifies the realized NY-close driver before discussing future risks.",
+        "next_check": "Whether oil stays lower."
+      },
+      {
+        "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
+        "summary": "Shows how lower oil and hike-risk repricing overwhelmed a soft 30-year auction.",
+        "market_read": "Duration relief was strong but oil-dependent.",
+        "why_it_matters": "It explains why supply friction did not stop the rally.",
+        "next_check": "Long-end demand and Warsh communication."
+      },
+      {
+        "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
+        "summary": "Separates total-return fund prices from borrower-specific funding access.",
+        "market_read": "Risk reopened selectively.",
+        "why_it_matters": "Total-return fund gains do not prove broad spread tightening by themselves.",
+        "next_check": "Primary issuance breadth, OAS, CDX, TRACE, and concessions."
+      },
+      {
+        "section_title": "DM Global Duration",
+        "summary": "ECB, South Africa, Thailand, and supply facts kept global duration conditional.",
+        "market_read": "Global relief had policy caveats.",
+        "why_it_matters": "It keeps the rally from becoming an unconditional duration all-clear.",
+        "next_check": "ECB guidance and overseas long-end demand."
+      },
+      {
+        "section_title": "EM Rates, FX, And Hard-Currency Credit",
+        "summary": "Danantara improved market-access evidence, while Indonesia and other EM cases stayed selective.",
+        "market_read": "EM hard-currency credit improved, but idiosyncratically.",
+        "why_it_matters": "It separates positive deal evidence from broad EM risk appetite.",
+        "next_check": "Dollar issuance reception and local-market stability."
+      },
+      {
+        "section_title": "Cross-Asset Confirmation",
+        "summary": "Equities, VIX, and breakevens showed broad relief; listed credit funds aligned but still needed OAS/CDX/TRACE support.",
+        "market_read": "Cross-assets supported the oil-led rally.",
+        "why_it_matters": "It distinguishes June 11 from recession-style bond rallies.",
+        "next_check": "Oil, VIX, equity breadth, OAS, CDX, TRACE, and concessions."
+      },
+      {
+        "section_title": "Market Significance And Watchpoints",
+        "summary": "Defines tests for oil, Fed communication, ECB response, and credit selectivity.",
+        "market_read": "The rally needs persistence to become regime repair.",
+        "why_it_matters": "Forward Watch stays as validation rather than realized Top Drivers.",
+        "next_check": "Oil persistence, Warsh, ECB, and primary credit."
+      }
+    ]
+  },
+  "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
+  "briefing_path": {
+    "items": [
+      {
+        "id": "oil",
+        "label": "1",
+        "title": "Oil Relief",
+        "summary": "Start with crude: the oil drop is the causal anchor for rates, equities, and credit.",
+        "tone": "primary"
+      },
+      {
+        "id": "duration",
+        "label": "2",
+        "title": "Duration Rally",
+        "summary": "Read the 8-10 bp Treasury rally against lower breakevens and a soft 30-year auction.",
+        "tone": "supportive"
+      },
+      {
+        "id": "risk",
+        "label": "3",
+        "title": "Risk Reopen",
+        "summary": "Use equities, VIX, and credit ETFs as confirmation, while keeping spread proof separate.",
+        "tone": "supportive"
+      },
+      {
+        "id": "credit_quality",
+        "label": "4",
+        "title": "Credit Quality",
+        "summary": "Contrast Danantara’s success with Hanuman Wind and AI/debt-structure caveats.",
+        "tone": "selective"
+      }
+    ]
+  },
+  "session_map": {
+    "cards": [
+      {
+        "id": "rates",
+        "label": "Rates",
+        "headline": "Duration rallied across the curve",
+        "detail": "UST2Y -8 bp, UST10Y -10 bp, BE10Y -5 bp as oil declined.",
+        "emphasis": "NY close driver",
+        "signals": [
+          {
+            "label": "UST2Y",
+            "value": "4.05%",
+            "change": "-8 bp",
+            "tone": "supportive"
+          },
+          {
+            "label": "UST10Y",
+            "value": "4.45%",
+            "change": "-10 bp",
+            "tone": "supportive"
+          },
+          {
+            "label": "10Y BE",
+            "value": "2.29%",
+            "change": "-5 bp",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "oil",
+        "label": "Oil",
+        "headline": "Crude removed the immediate inflation tail",
+        "detail": "WTI 87.71 and Brent 90.38 eased pass-through pressure.",
+        "emphasis": "inflation relief",
+        "signals": [
+          {
+            "label": "WTI",
+            "value": "87.71",
+            "change": "-2.58%",
+            "tone": "supportive"
+          },
+          {
+            "label": "Brent",
+            "value": "90.38",
+            "change": "-2.92%",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "risk",
+        "label": "Risk",
+        "headline": "Equities and VIX confirmed relief",
+        "detail": "Growth equities and semiconductors rallied sharply while VIX fell more than 12%.",
+        "emphasis": "cross-asset confirmation",
+        "signals": [
+          {
+            "label": "S&P 500",
+            "value": "7,394.30",
+            "change": "+1.75%",
+            "tone": "supportive"
+          },
+          {
+            "label": "SOX",
+            "value": "13,171.44",
+            "change": "+7.91%",
+            "tone": "supportive"
+          },
+          {
+            "label": "VIX",
+            "value": "19.44",
+            "change": "-12.51%",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "credit",
+        "label": "Credit",
+        "headline": "Credit improved but stayed tiered",
+        "detail": "Listed credit funds rose with duration while issuer quality kept selection important.",
+        "emphasis": "credit hierarchy",
+        "signals": [
+          {
+            "label": "LQD",
+            "value": "109.08",
+            "change": "+0.85%",
+            "tone": "supportive"
+          },
+          {
+            "label": "HYG",
+            "value": "79.94",
+            "change": "+0.59%",
+            "tone": "supportive"
+          },
+          {
+            "label": "EMB",
+            "value": "96.27",
+            "change": "+0.96%",
+            "tone": "supportive"
+          }
+        ]
+      },
+      {
+        "id": "global",
+        "label": "Global",
+        "headline": "Global policy caveats limited the all-clear",
+        "detail": "ECB tightening, South Africa policy, Thailand curve steepening, and Indonesia fragility kept global relief conditional.",
+        "emphasis": "global duration",
+        "signals": [
+          {
+            "label": "ECB",
+            "value": "energy hike",
+            "change": "policy constraint",
+            "tone": "watch"
+          },
+          {
+            "label": "Thailand",
+            "value": "curve steepening",
+            "change": "long-end value",
+            "tone": "mixed"
+          },
+          {
+            "label": "Indonesia",
+            "value": "Danantara deal",
+            "change": "market access",
+            "tone": "supportive"
+          }
+        ]
+      }
+    ]
+  },
+  "archive_dates": [
+    {
+      "date": "2026-06-18",
+      "label": "2026-06-18",
+      "href": "?date=2026-06-18",
+      "active": false
+    },
+    {
+      "date": "2026-06-17",
+      "label": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "active": false
+    },
+    {
+      "date": "2026-06-16",
+      "label": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "active": false
+    },
+    {
+      "date": "2026-06-15",
+      "label": "2026-06-15",
+      "href": "?date=2026-06-15",
+      "active": false
+    },
+    {
+      "date": "2026-06-12",
+      "label": "2026-06-12",
+      "href": "?date=2026-06-12",
+      "active": false
+    },
+    {
+      "date": "2026-06-11",
+      "label": "2026-06-11",
+      "href": "?date=2026-06-11",
+      "active": true
+    },
+    {
+      "date": "2026-06-09",
+      "label": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "active": false
+    },
+    {
+      "date": "2026-06-08",
+      "label": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "active": false
+    },
+    {
+      "date": "2026-06-05",
+      "label": "2026-06-05",
+      "href": "?date=2026-06-05",
+      "active": false
+    },
+    {
+      "date": "2026-06-01",
+      "label": "2026-06-01",
+      "href": "?date=2026-06-01",
+      "active": false
+    },
+    {
+      "date": "2026-05-29",
+      "label": "2026-05-29",
+      "href": "?date=2026-05-29",
+      "active": false
+    },
+    {
+      "date": "2026-05-28",
+      "label": "2026-05-28",
+      "href": "?date=2026-05-28",
+      "active": false
+    }
+  ]
+}
