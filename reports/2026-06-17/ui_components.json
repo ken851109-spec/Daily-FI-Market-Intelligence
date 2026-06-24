@@ -18,81 +18,8 @@
       "Breakevens fell while real yields rose, keeping the move policy-led.",
       "SPX fell, VIX rose, DXY firmed, and listed credit funds weakened."
     ],
-    "ny_close_causal_narrative": "June 17 was driven by Warsh’s first Fed communication and split policy-rate projections. Lower oil kept breakevens soft, but the front end, dollar, equities, listed credit funds, and volatility treated the close as a policy credibility repricing.",
-    "reader_takeaways": [
-      {
-        "label": "Close read",
-        "title": "Front-end bear flattening",
-        "summary": "Policy-sensitive rates repriced while long-end yields lagged.",
-        "id": "close_read"
-      },
-      {
-        "label": "Transmission",
-        "title": "Real yields and risk confirmed",
-        "summary": "Breakevens fell, but real yields, equities, volatility, dollar, and credit tightened.",
-        "id": "transmission"
-      },
-      {
-        "label": "Confirmation",
-        "title": "Funding and data are next",
-        "summary": "Claims, inflation, auctions, and credit clearing decide whether the move extends.",
-        "id": "confirmation"
-      }
-    ]
+    "ny_close_causal_narrative": "June 17 was driven by Warsh’s first Fed communication and split policy-rate projections. Lower oil kept breakevens soft, but the front end, dollar, equities, listed credit funds, and volatility treated the close as a policy credibility repricing."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Warsh Fed repriced the front end",
-      "short_summary": "UST2Y rose 15 bp as traders marked a higher policy-rate path after the Fed held but emphasized price stability.",
-      "detail": "The day’s largest Treasury move was in the policy-sensitive front end, flattening 2s10s to 29 bp and 2s30s to 73 bp.",
-      "asset_tags": [
-        "UST",
-        "Fed",
-        "SOFR"
-      ],
-      "driver_type": "policy",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "UST2Y +15 bp; 2s10s flattened to 29 bp.",
-      "transmission": "Policy risk moved through the front end.",
-      "confirmation": "SOFR/Fed pricing must stabilize."
-    },
-    {
-      "rank": 2,
-      "title": "Real yields rose while breakevens fell",
-      "short_summary": "The 10Y TIPS real yield rose 9 bp to 2.23%, while BE10Y fell 3 bp to 2.26%.",
-      "detail": "That split shows policy and real-rate pressure outweighed the still-disinflationary oil channel in nominal Treasuries.",
-      "asset_tags": [
-        "TIPS",
-        "Breakevens",
-        "Oil"
-      ],
-      "driver_type": "rates",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "10Y real yield +9 bp; breakevens -3 bp.",
-      "transmission": "Real rates tightened despite oil relief.",
-      "confirmation": "Breakevens must keep softening."
-    },
-    {
-      "rank": 3,
-      "title": "Risk assets did not absorb the policy shock",
-      "short_summary": "Equities, listed credit funds, EM debt, and volatility all leaned defensive after the Fed repricing.",
-      "detail": "SPX fell 1.21%, VIX rose 12.37%, DXY rose 0.81%, and LQD, HYG, JNK, and EMB all posted negative daily returns.",
-      "asset_tags": [
-        "Credit",
-        "Equities",
-        "USD"
-      ],
-      "driver_type": "cross_asset",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "SPX -1.21%; VIX +12.37%; DXY +0.81%.",
-      "transmission": "Risk did not absorb the Fed shock.",
-      "confirmation": "Credit and EM must stop weakening."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Firmer early tape: 10Y note fut +0.13%, S&P fut +0.53%, WTI +0.39%.",
@@ -357,49 +284,49 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 17 as a front-end policy repricing rather than a broad inflation-led selloff.",
+        "summary": "UST2Y and UST5Y led the move while the 30Y held steady, making the close a bear flattening. The section develops that read by showing that june 17 closed as a front-end-led repricing of policy risk, not as a simple reversal of the prior oil-led duration relief.",
         "market_read": "UST2Y and UST5Y led the move while the 30Y held steady, making the close a bear flattening.",
         "why_it_matters": "The opening keeps the NY close anchored in Fed credibility and real-rate pressure.",
         "next_check": "Watch whether front-end pricing gives back or keeps flattening the curve."
       },
       {
         "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "Rates, breakevens, real yields, and curve shape all point to policy-sensitive tightening.",
+        "summary": "10Y real yields rose while breakevens fell, so the selloff came through real rates. The section develops that read by showing that treasury curve gave a clear hierarchy of repricing. UST2Y at 4.20% and up 15 bp was the strongest signal. The next check is track UST2Y, SOFR pricing, 2s10s, TIPS, and breakevens. UST5Y at 4.27% and up 11 bp followed the same path. It separates policy repricing from a renewed inflation-compensation shock.",
         "market_read": "10Y real yields rose while breakevens fell, so the selloff came through real rates.",
         "why_it_matters": "It separates policy repricing from a renewed inflation-compensation shock.",
         "next_check": "Track UST2Y, SOFR pricing, 2s10s, TIPS, and breakevens."
       },
       {
         "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Credit weakened with higher rates, but stronger borrowers still had access.",
+        "summary": "Listed credit funds fell, while borrower quality and clearing terms decided access. The section develops that read by showing that direct supply and liquidity evidence was thinner than the policy evidence, so the supported read is narrower. The day did not provide a clean Treasury auction or dealer-balance-sheet signal that explains the closing yield move. The next check is watch primary books, HY concessions, refinancing, and borrower tiering.",
         "market_read": "Listed credit funds fell, while borrower quality and clearing terms decided access.",
         "why_it_matters": "The funding test is concessions and order-book quality, not total-return beta alone.",
         "next_check": "Watch primary books, HY concessions, refinancing, and borrower tiering."
       },
       {
         "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "G10 duration responded unevenly to oil relief, inflation data, and central-bank credibility.",
+        "summary": "UK duration improved, but ECB, Japan, and fiscal credibility kept global transmission selective. The section develops that read by showing that global duration did not give a synchronized dovish confirmation. The UK was the clearest duration-supportive market: May inflation held at 2.8%, below expectations, and the UK 10-year gilt yield fell toward a two-month low near 4.74%. The next check is watch BoE, ECB, BOJ, gilt, bund, and JGB pricing.",
         "market_read": "UK duration improved, but ECB, Japan, and fiscal credibility kept global transmission selective.",
         "why_it_matters": "Global curves can reinforce or offset the U.S. rates move through policy credibility.",
         "next_check": "Watch BoE, ECB, BOJ, gilt, bund, and JGB pricing."
       },
       {
         "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "EM transmission stayed exposed to dollar liquidity, hard-currency funding, and local FX defense.",
+        "summary": "EM dollar debt weakened with listed-credit pressure while local transmission depended on DXY and funding access. The section develops that read by showing that EM sovereigns and hard-currency debt were exposed to the same dollar-liquidity test, but they should not be collapsed into the U.S. EMB fell with the broader listed credit complex, and the stronger dollar meant external-debt relief needed proof from funding access, sovereign concessions, and local FX stability.",
         "market_read": "EM dollar debt weakened with listed-credit pressure while local transmission depended on DXY and funding access.",
         "why_it_matters": "It prevents EM from being treated as a generic U.S. duration proxy.",
         "next_check": "Watch EMB, DXY, sovereign funding windows, and debt-management signals."
       },
       {
         "section_title": "Cross Asset",
-        "summary": "Equities, volatility, DXY, oil, gold, and listed credit funds confirmed broader tightening.",
+        "summary": "Risk assets did not fully absorb the policy shock even as oil and breakevens softened. The section develops that read by showing that SPX fell 1.21%, VIX rose 12.37%, DXY rose 0.81%, and listed credit funds weakened across LQD, HYG, JNK, and EMB. Oil and breakevens softened, which helped the long end, but equities, volatility, dollar firmness, and credit total returns showed that risk assets did not fully absorb the policy shock.",
         "market_read": "Risk assets did not fully absorb the policy shock even as oil and breakevens softened.",
         "why_it_matters": "Cross-asset confirmation shows whether rates pressure is spreading beyond Treasuries.",
         "next_check": "Watch SPX, VIX, DXY, oil, gold, and listed credit funds."
       },
       {
         "section_title": "Forward Market Significance",
-        "summary": "Turns the close into tests for front-end repricing, inflation relief, credit clearing, and global transmission.",
+        "summary": "The move extends only if data and funding confirm the policy-sensitive repricing. The section develops that read by showing that UST2Y at 4.20% is the clean expression of the Warsh reaction function. If Fed-funds and SOFR pricing keep moving toward a September or October hike path, the curve can flatten further even if oil remains soft. The next check is track Fed communication, oil-to-breakeven pass-through, auctions, and credit concessions.",
         "market_read": "The move extends only if data and funding confirm the policy-sensitive repricing.",
         "why_it_matters": "Forward checks keep future events out of the realized close narrative.",
         "next_check": "Track Fed communication, oil-to-breakeven pass-through, auctions, and credit concessions."
@@ -521,97 +448,5 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ],
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates_policy",
-        "label": "Rates",
-        "headline": "Front-end Fed repricing led",
-        "detail": "UST2Y rose 15 bp and UST5Y rose 11 bp while the long bond was unchanged.",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.20%",
-            "change": "+15 bp",
-            "tone": "bearish"
-          },
-          {
-            "label": "UST5Y",
-            "value": "4.27%",
-            "change": "+11 bp",
-            "tone": "bearish"
-          }
-        ]
-      },
-      {
-        "id": "real_yields",
-        "label": "Inflation / Real Rates",
-        "headline": "Real yields carried the selloff",
-        "detail": "10Y TIPS rose 9 bp while breakevens fell 3 bp.",
-        "signals": [
-          {
-            "label": "10Y TIPS",
-            "value": "2.23%",
-            "change": "+9 bp",
-            "tone": "tightening"
-          },
-          {
-            "label": "10Y BE",
-            "value": "2.26%",
-            "change": "-3 bp",
-            "tone": "relief"
-          }
-        ]
-      },
-      {
-        "id": "cross_asset",
-        "label": "Cross-Asset",
-        "headline": "Risk assets confirmed tighter conditions",
-        "detail": "SPX fell, VIX rose, DXY firmed, and listed credit funds weakened after the Fed repricing.",
-        "signals": [
-          {
-            "label": "SPX",
-            "value": "close",
-            "change": "-1.21%",
-            "tone": "risk-off"
-          },
-          {
-            "label": "VIX",
-            "value": "close",
-            "change": "+12.37%",
-            "tone": "stress"
-          },
-          {
-            "label": "DXY",
-            "value": "close",
-            "change": "+0.81%",
-            "tone": "tightening"
-          }
-        ]
-      }
-    ]
-  },
-  "briefing_path": {
-    "items": [
-      {
-        "id": "market_take",
-        "label": "Market take",
-        "title": "Start with front-end repricing",
-        "summary": "The close was a policy-sensitive bear flattening, not an inflation-breakeven selloff."
-      },
-      {
-        "id": "backdrop",
-        "label": "Backdrop",
-        "title": "Then test real yields and risk",
-        "summary": "Real yields, equities, volatility, dollar, and listed credit funds confirmed tighter conditions."
-      },
-      {
-        "id": "forward",
-        "label": "Forward",
-        "title": "Let data and funding validate it",
-        "summary": "Claims, inflation data, Treasury demand, and credit clearing decide whether the repricing extends."
-      }
-    ]
-  }
+  ]
 }

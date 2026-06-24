@@ -18,84 +18,8 @@
       "WTI +1.74% and Brent +1.07% kept energy inflation risk alive.",
       "UBS and Blue Owl cleared; Korea, Chile, Senegal, and Venezuela showed funding stress."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Controlled relief",
-        "summary": "Small Treasury rally left front-end Fed risk intact.",
-        "id": "close_read",
-        "tone": "mixed"
-      },
-      {
-        "label": "Global",
-        "title": "Duration was uneven",
-        "summary": "Japan and China helped duration; Europe kept inflation pressure alive.",
-        "id": "global_duration",
-        "tone": "selective"
-      },
-      {
-        "label": "Credit",
-        "title": "Access stayed tiered",
-        "summary": "Primary access stayed open, but borrower quality mattered.",
-        "id": "credit_tiering",
-        "tone": "selective"
-      }
-    ],
     "ny_close_causal_narrative": "The NY close was controlled duration relief: modest Treasury gains held because Fed-path and term-premium fears eased at the margin, but oil, Europe inflation, and credit tiering kept the rally conditional."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Fed-path caution outweighed the AI-duration story",
-      "short_summary": "UST10Y closed at 4.46%, down 1 bp, while UST30Y fell 2 bp to 4.97%; the curve move was modest but still anchored in policy and inflation risk.",
-      "detail": "The Treasury move was not proof that structural AI borrowing had become the day's marginal duration force. The day's reporting pointed instead to Fed expectations, oil-linked inflation risk, and labor resilience as the near-term drivers of rates. TIPS10Y was unchanged at 2.07% while 10Y breakevens slipped 1 bp to 2.39%, which made the rally look more like a nominal-duration bid than a broad inflation-compensation collapse.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "UST",
-        "Fed",
-        "Inflation"
-      ],
-      "driver_type": "rates",
-      "market_move": "UST5Y and UST10Y fell 1 bp, UST30Y fell 2 bp, and 10Y breakevens slipped 1 bp while real yields were flat.",
-      "transmission": "Fed expectations and oil-linked inflation risk eased enough for nominal duration relief, but not enough for a full policy pivot.",
-      "confirmation": "The unchanged 2Y yield and firm oil prices kept the rally controlled rather than decisive."
-    },
-    {
-      "rank": 2,
-      "title": "Global duration had support, but it was uneven",
-      "short_summary": "Japan's 10-year auction helped JGBs, China liquidity was still being drained, and euro-area inflation strengthened the ECB hike case.",
-      "detail": "The non-US tape was not one-directional. Firm demand at Japan's 10-year auction offered a clean global-duration relief signal, while China's bond rally came with weak loan growth and a PBOC effort to absorb excess cash. Europe pushed the other way: euro-area inflation above 3% and stronger services inflation kept ECB tightening risk alive. That mix helped explain why the US rally stayed controlled rather than turning into a global duration squeeze.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "JGB",
-        "China",
-        "ECB"
-      ],
-      "driver_type": "global_duration",
-      "market_move": "Japan auction demand and UK long-gilt valuation helped duration, while euro-area inflation strengthened the ECB hike case.",
-      "transmission": "Non-US duration support depended on valuation and local policy context rather than one global disinflation trade.",
-      "confirmation": "China liquidity and weak loan growth supported local bonds, while Europe inflation and services pressure challenged the same read."
-    },
-    {
-      "rank": 3,
-      "title": "Credit access stayed open while weaker borrowers stayed exposed",
-      "short_summary": "UBS tightened AT1 pricing and Blue Owl sold debt, but Korea, Chile, Senegal and Venezuela showed why refinancing quality mattered.",
-      "detail": "The credit message was not simply risk-on. High-quality and well-sponsored deals still cleared: UBS priced AT1 debt tighter than initial talk, and a Blue Owl direct-lending vehicle upsized a bond sale. At the same time, Korean firms were shifting into short-term funding as corporate yields rose, Chile sought extra debt authority, Senegal bonds weakened on default worries, and Venezuela moved toward a large restructuring. That kept the day bifurcated by borrower quality.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "Credit",
-        "Funding",
-        "EM"
-      ],
-      "driver_type": "credit",
-      "market_move": "HYG, JNK, and EMB were positive, but UBS, Blue Owl, Korea, Chile, Senegal, and Venezuela showed quality-driven divergence.",
-      "transmission": "High-quality or sponsored borrowers cleared, while short-term funding substitution and sovereign stress kept refinancing risk alive.",
-      "confirmation": "Borrower-level evidence confirmed tiering; liquid gauge returns alone did not prove broad spread compression."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Mixed early tape: 10Y note fut -0.26%, S&P fut +0.02%, WTI +0.78%.",
@@ -202,7 +126,7 @@
       "channel": "Global duration",
       "watch_line": "Global auctions test broader duration demand.",
       "market_trigger": "Weak JGB, gilt, or global supply demand offsets Japan auction relief.",
-      "market_implication": "Weak demand revives term premium and limits US follow-through.",
+      "market_implication": "Weak demand revives term premium and limits US next-leg confirmation.",
       "why_it_matters": "Further demand evidence outside the US would decide whether the Japan auction relief is isolated or broader.",
       "confirms_if": "Auctions clear with stable tails and valuation-sensitive buyers remain engaged.",
       "challenges_if": "Auction tails widen or central banks drain liquidity into higher yields.",
@@ -343,51 +267,51 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 2 as controlled fixed-income relief rather than proof that inflation pressure had passed.",
+        "summary": "Treasuries rallied modestly, but oil and Fed asymmetry kept the move conditional. The section develops that read by showing that june 2 close was a controlled fixed-income relief session, not a broad declaration that inflation pressure had passed. The Treasury curve rallied at the margin, with UST2Y at 4.05% unchanged on the day, UST5Y at 4.17% down 1 bp, UST10Y at 4.46% down 1 bp, and UST30Y at 4.97% down 2 bp.",
         "market_read": "Treasuries rallied modestly, but oil and Fed asymmetry kept the move conditional.",
         "why_it_matters": "The opening preserves NY-close causality and avoids turning a small rally into a broad disinflation claim.",
-        "next_check": "Watch Fed language, oil, and breakevens for follow-through."
+        "next_check": "Watch Fed language, oil, and breakevens for next-leg confirmation."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Combines modest yield declines, curve shape, Fed pricing, supply, and liquidity into one UST channel.",
+        "summary": "The move was nominal-duration relief with the 2Y pinned and the long end only modestly firmer. The section develops that read by showing that rates section starts with the shape of the move. The 2-year yield was unchanged, the 5-year and 10-year yields fell 1 bp, and the 30-year fell 2 bp. The next check is track JOLTS/labor data, Fed inflation language, breakevens, and long-end supply demand.",
         "market_read": "The move was nominal-duration relief with the 2Y pinned and the long end only modestly firmer.",
         "why_it_matters": "The UST read depends on Fed-path caution and term-premium boundaries, not AI borrowing alone.",
         "next_check": "Track JOLTS/labor data, Fed inflation language, breakevens, and long-end supply demand."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates credit liquid gauges from borrower-level evidence in AT1, direct lending, Korea funding, and stressed sovereigns.",
+        "summary": "Credit access was open for quality names but weaker borrowers and sovereigns stayed exposed. The section develops that read by showing that UBS was the clearest high-quality access signal because the AT1 deal repriced materially tighter than the starting level. A risky bank-capital instrument can clear when regulatory risk is less immediate and the issuer has scale. The next check is watch concessions, short-term funding substitution, and EM hard-currency stress.",
         "market_read": "Credit access was open for quality names but weaker borrowers and sovereigns stayed exposed.",
         "why_it_matters": "Spread confirmation requires primary-market and borrower-quality evidence, not liquid gauge returns alone.",
         "next_check": "Watch concessions, short-term funding substitution, and EM hard-currency stress."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Splits euro-area inflation, UK long-gilt valuation, Japan auction demand, and China liquidity from EM transmission.",
+        "summary": "DM duration support was valuation- and liquidity-sensitive while ECB inflation risk stayed hawkish. The section develops that read by showing that euro-area data were one of the strongest counterweights to the US duration rally. Headline inflation moved above 3%, core inflation surprised higher, and services inflation accelerated. The next check is watch ECB pricing, JGB auctions, gilt demand, and China liquidity operations.",
         "market_read": "DM duration support was valuation- and liquidity-sensitive while ECB inflation risk stayed hawkish.",
         "why_it_matters": "Global duration can support Treasuries without implying synchronized easing.",
         "next_check": "Watch ECB pricing, JGB auctions, gilt demand, and China liquidity operations."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Reads EM through fiscal credibility, local policy divergence, and hard-currency stress rather than broad beta.",
+        "summary": "Chile, Senegal, Venezuela, Poland, and China showed different mixes of fiscal, legal, liquidity, and policy risk. The section develops that read by showing that EM hard-currency and local-market stories also split by policy credibility. Chile's borrowing request raised questions about fiscal discipline. The next check is track EM local yields, sovereign spreads, IMF talks, and restructuring headlines. Senegal's bonds sold off as default probability and IMF talks became central.",
         "market_read": "Chile, Senegal, Venezuela, Poland, and China showed different mixes of fiscal, legal, liquidity, and policy risk.",
         "why_it_matters": "EM dispersion affects dollar funding and credit risk even when US duration is firmer.",
         "next_check": "Track EM local yields, sovereign spreads, IMF talks, and restructuring headlines."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Tests whether equities, volatility, DXY, oil, gold, and credit liquid liquid credit prices confirmed or narrowed the FI relief read.",
+        "summary": "Equities and lower VIX supported relief, but higher oil and gold kept inflation and hedge demand visible. The section develops that read by showing that oil rose even as Treasuries rallied, so the bond move did not come from a straightforward energy-disinflation impulse. Gold rose modestly and the dollar was nearly unchanged, which kept the haven story muted. The next check is watch oil, VIX, DXY, gold, semiconductor leadership, and direct credit spreads.",
         "market_read": "Equities and lower VIX supported relief, but higher oil and gold kept inflation and hedge demand visible.",
         "why_it_matters": "Cross-asset confirmation keeps the rally from being overstated as a clean risk-on or disinflation day.",
         "next_check": "Watch oil, VIX, DXY, gold, semiconductor leadership, and direct credit spreads."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Turns the close into Fed-language, global-duration, and credit-tiering validation tests.",
+        "summary": "The rally can extend only if policy, auctions, and primary credit confirm the controlled-relief thesis. The section develops that read by showing that one useful test is whether credit funding continues to split between high-quality issuance and short-term substitution. If bank-capital, direct-lending and investment-grade names continue to tighten from initial price talk, the market can absorb risk. The next check is use Fed rhetoric, auction demand, and primary-market pricing as the next proof points.",
         "market_read": "The rally can extend only if policy, auctions, and primary credit confirm the controlled-relief thesis.",
-        "why_it_matters": "Forward Watch is a validation framework, not a repetition of the thesis.",
+        "why_it_matters": "Forward Watch is a market check framework, not a repetition of the thesis.",
         "next_check": "Use Fed rhetoric, auction demand, and primary-market pricing as the next proof points."
       }
     ]
@@ -508,157 +432,5 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ],
-  "briefing_path": {
-    "items": [
-      {
-        "id": "rates_relief",
-        "label": "1",
-        "title": "Controlled Rally",
-        "summary": "Start with the small Treasury rally and why it was not a decisive disinflation call.",
-        "tone": "primary"
-      },
-      {
-        "id": "global_split",
-        "label": "2",
-        "title": "Global Split",
-        "summary": "Then separate Japan and UK valuation support from euro-area inflation and EM fiscal stress.",
-        "tone": "evidence"
-      },
-      {
-        "id": "credit_tiering",
-        "label": "3",
-        "title": "Credit Tiering",
-        "summary": "Finish with borrower-level clearing rather than reading spread confirmation from liquid gauges.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Treasuries rallied modestly, led by the long end",
-        "detail": "UST30Y -2 bp while UST2Y stayed flat, a controlled relief move.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.05%",
-            "change": "flat",
-            "tone": "neutral"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.46%",
-            "change": "-1 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "UST30Y",
-            "value": "4.97%",
-            "change": "-2 bp",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "inflation",
-        "label": "Inflation",
-        "headline": "Oil stayed firm while breakevens eased",
-        "detail": "Breakevens eased, but firmer oil kept disinflation incomplete.",
-        "emphasis": "Constraint",
-        "signals": [
-          {
-            "label": "10Y breakeven",
-            "value": "2.39%",
-            "change": "-1 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "WTI",
-            "value": "93.76",
-            "change": "+1.74%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Borrower quality mattered more than liquid-credit tone",
-        "detail": "UBS and Blue Owl cleared; sovereign and rollover risks stayed visible.",
-        "emphasis": "Evidence hierarchy",
-        "signals": [
-          {
-            "label": "HYG",
-            "value": "79.90",
-            "change": "+0.08%",
-            "tone": "supportive"
-          },
-          {
-            "label": "EMB",
-            "value": "96.26",
-            "change": "+0.26%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "premarket",
-        "label": "Pre-market",
-        "headline": "Morning futures challenged duration follow-through",
-        "detail": "Treasury futures softened while equities edged higher and oil rose.",
-        "emphasis": "Separate update",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.67",
-            "change": "-0.26%",
-            "tone": "challenging"
-          },
-          {
-            "label": "WTI fut",
-            "value": "94.49",
-            "change": "+0.78%",
-            "tone": "challenging"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,625.00",
-            "change": "+0.02%",
-            "tone": "neutral"
-          }
-        ]
-      },
-      {
-        "id": "watch",
-        "label": "Forward Watch",
-        "headline": "Fed language, auctions, and credit tiering are the next tests",
-        "detail": "Fed language, auctions, and primary credit decide follow-through.",
-        "emphasis": "Validation framework",
-        "signals": [
-          {
-            "label": "Fed",
-            "value": "inflation language",
-            "change": "front-end channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Auctions",
-            "value": "global duration",
-            "change": "term-premium channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Credit",
-            "value": "borrower tiering",
-            "change": "spread channel",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }

@@ -16,66 +16,8 @@
       "Listed credit funds fell while large financings still cleared.",
       "Equities rose, but oil, DXY, and VIX tightened FI tone."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Front end led the selloff",
-        "summary": "UST2Y and UST5Y led while UST30Y held 4.99%.",
-        "id": "close_read",
-        "tone": "bearish"
-      },
-      {
-        "label": "Policy",
-        "title": "Oil turned into Fed optionality",
-        "summary": "Higher crude and Fed credibility repriced policy risk.",
-        "id": "inflation_policy",
-        "tone": "constraint"
-      },
-      {
-        "label": "Credit",
-        "title": "Supply was active but price-sensitive",
-        "summary": "Borrowers cleared, but concessions and order books mattered.",
-        "id": "credit_supply",
-        "tone": "selective"
-      }
-    ],
     "ny_close_causal_narrative": "The NY close was a front-end-led repricing: oil lifted inflation compensation, Fed optionality amplified the move, and active credit supply faced a higher financing hurdle."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Oil shock drove a front-end selloff",
-      "short_summary": "WTI surged and the Treasury curve bear-flattened as markets repriced inflation pressure and Fed hike risk.",
-      "detail": "UST2Y rose 7 bp to 4.05%, UST5Y rose 5 bp to 4.18%, UST10Y rose 2 bp to 4.47%, and UST30Y was flat near 4.99%. WTI jumped 5.49% and Brent rose 3.18%, while 10Y breakevens moved up to about 240 bp. That made the close an inflation-led front-end repricing rather than a simple risk rally.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "UST2Y +7 bp, UST5Y +5 bp, BE10Y +2 bp, WTI +5.49%.",
-      "transmission": "Higher crude lifted inflation compensation and pushed the front end toward Fed hike optionality.",
-      "confirmation": "The 2s10s curve narrowed 5 bp while UST30Y was flat, confirming a front-end and belly-led repricing."
-    },
-    {
-      "rank": 2,
-      "title": "Fed credibility and AI capex kept hike risk alive",
-      "short_summary": "Powell credibility comments and AI investment inflation risk reinforced the idea that the Fed could not lean quickly toward cuts.",
-      "detail": "The news flow emphasized Powell warning that the Fed would lose credibility if officials could be dismissed over policy disagreements, while Apollo argued that AI data-center buildout could be inflationary early on. Traders were described as assigning about an 80% chance to a Fed hike this year.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "The front end sold off while traders were described as assigning high odds to a Fed hike this year.",
-      "transmission": "Powell credibility language and AI data-center inflation risk reduced the room for quick cuts.",
-      "confirmation": "Flat real yields and wider breakevens made the policy channel inflation-led rather than a pure real-yield reset."
-    },
-    {
-      "rank": 3,
-      "title": "Credit weakened as financing supply stayed active",
-      "short_summary": "Listed credit funds fell with rates, but primary markets remained busy in AI, M&A, BDC, and loan-extension channels.",
-      "detail": "LQD, HYG, JNK, and EMB were all down on the day. At the same time, QXO launched a USD 3 billion junk-note sale, FS KKR sold USD 900 million of bonds, a CoreWeave-linked data center sought USD 850 million, and Citadel Securities marketed a larger 2033 loan. The signal was active supply against a higher hurdle rate.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "LQD fell 0.39%, HYG fell 0.59%, JNK fell 0.62%, and EMB fell 0.44% while large financings remained active.",
-      "transmission": "Higher Treasury yields raised the hurdle rate for M&A, BDC, data-center, and loan-extension supply.",
-      "confirmation": "QXO, FS KKR, CoreWeave-linked financing, and Citadel Securities showed active but price-sensitive capital access."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Softer early tape: 10Y note fut -0.1%, S&P fut -0.27%, WTI -0.23%.",
@@ -160,7 +102,7 @@
   "watch_events": [
     {
       "id": "oil_breakeven_follow_through",
-      "title": "Oil and breakeven follow-through",
+      "title": "Oil and breakeven next-leg confirmation",
       "date": "Next session",
       "date_or_window": "Next session",
       "category": "Inflation",
@@ -328,49 +270,49 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 1 as an oil-driven front-end selloff rather than a parallel duration concession.",
+        "summary": "The front end and belly absorbed inflation and Fed risk while the long bond held near 4.99%. The section develops that read by showing that june 1 close was a front-end-led fixed-income selloff driven by renewed oil pressure and a still-hawkish Fed distribution. UST2Y rose 7 bp to 4.05%, UST5Y rose 5 bp to 4.18%, UST10Y rose 2 bp to 4.47%, and UST30Y was flat near 4.99%.",
         "market_read": "The front end and belly absorbed inflation and Fed risk while the long bond held near 4.99%.",
         "why_it_matters": "The opening anchors the NY close and keeps the later pre-market update separate.",
         "next_check": "Watch whether oil and breakevens keep validating the inflation-led selloff."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Combines yield moves, curve flattening, Fed optionality, supply, and market-functioning evidence in one UST channel.",
+        "summary": "UST2Y and UST5Y led the selloff, showing policy repricing mattered more than long-end supply alone. The section develops that read by showing that treasury curve was the clearest close signal. UST2Y rose 7 bp, UST5Y rose 5 bp, UST10Y rose 2 bp, and UST30Y was unchanged. The next check is track 2Y/5Y yields, 2s10s, breakevens, and signs of market-functioning stress.",
         "market_read": "UST2Y and UST5Y led the selloff, showing policy repricing mattered more than long-end supply alone.",
         "why_it_matters": "The rates channel explains how crude became a Fed-distribution and curve-shape event.",
         "next_check": "Track 2Y/5Y yields, 2s10s, breakevens, and signs of market-functioning stress."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates weaker listed credit-fund price moves from active borrower-level financing evidence.",
+        "summary": "Credit was weaker but not closed; large M&A, BDC, data-center, and loan deals still tested demand. The section develops that read by showing that credit weakened in total-return terms, but the market did not close. LQD fell 0.39%, HYG fell 0.59%, JNK fell 0.62%, and EMB fell 0.44%. The next check is watch direct spreads, concessions, order books, and refinancing versus new-leverage mix.",
         "market_read": "Credit was weaker but not closed; large M&A, BDC, data-center, and loan deals still tested demand.",
         "why_it_matters": "The credit read depends on clearing levels and concessions, not listed fund moves alone.",
         "next_check": "Watch direct spreads, concessions, order books, and refinancing versus new-leverage mix."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Separates ECB, BOJ, and UK duration pressure from EM and cross-asset confirmation.",
+        "summary": "Europe and Japan kept policy credibility and currency-rate differentials in focus while UK housing showed rate sensitivity. The section develops that read by showing that isabel Schnabel argued that the ECB could no longer look through the Iran war's inflationary impact because price pressures were spreading beyond energy and the risk of de-anchored expectations was rising.",
         "market_read": "Europe and Japan kept policy credibility and currency-rate differentials in focus while UK housing showed rate sensitivity.",
         "why_it_matters": "DM policy pressure can reinforce US front-end repricing even when each market has its own data mix.",
         "next_check": "Watch ECB rhetoric, BOJ hike expectations, yen pressure, and rate-sensitive activity data."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Reads EM through local inflation, fiscal pressure, currency risk, and hard-currency refinancing rather than generic beta.",
+        "summary": "Korea and India faced inflation/rate pressure while Colombia and Chile showed more constructive local stories. The section develops that read by showing that japan's yen remained pressured by the wide US-Japan rate differential, with investors focusing on whether BOJ action could finally do more than intervention to stabilize the currency. India faced upward pressure on yields from rate-hike risk and fiscal worries, with the benchmark 10-year yield already up roughly 34 bp since the Iran war began.",
         "market_read": "Korea and India faced inflation/rate pressure while Colombia and Chile showed more constructive local stories.",
         "why_it_matters": "EM transmission was dispersed across policy, dollar funding, and local-market liquidity.",
         "next_check": "Track EM local yields, DXY, oil-sensitive subsidies, and hard-currency spread behavior."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Tests equities, volatility, DXY, oil, gold, and credit funding tone.",
+        "summary": "AI equities rose, but VIX, DXY, oil, and funding tone tightened FI conditions. The section develops that read by showing that cross-asset markets were split rather than simply risk-on. The AI trade pushed equities higher, with SOX up 1.06% and NDX up 0.60%. The next check is watch equity resilience against VIX, DXY, oil, and direct spreads. But VIX rose, the dollar rose, oil rose, and credit total returns fell.",
         "market_read": "AI equities rose, but VIX, DXY, oil, and funding tone tightened FI conditions.",
         "why_it_matters": "Cross-asset confirmation separates equity-growth appetite from FI inflation, currency, volatility, and financing stress.",
         "next_check": "Watch equity resilience against VIX, DXY, oil, and direct spreads."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Turns the close into oil, Fed credibility, and credit-clearing validation tests.",
+        "summary": "The selloff remains live until inflation compensation, policy rhetoric, and primary-market concessions stabilize. The section develops that read by showing that first watchpoint after the June 1 close was crude. The market had just learned that oil relief could reverse quickly when US-Iran talks stalled. The next check is use oil/breakevens, Fed communication, and new-issue clearing as the next proof points.",
         "market_read": "The selloff remains live until inflation compensation, policy rhetoric, and primary-market concessions stabilize.",
         "why_it_matters": "Watchpoints prevent future tests from being mistaken for realized NY-close drivers.",
         "next_check": "Use oil/breakevens, Fed communication, and new-issue clearing as the next proof points."
@@ -378,158 +320,6 @@
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "market_take",
-        "label": "1",
-        "title": "Front-End Shock",
-        "summary": "Start with the bear flattening and why oil transmitted most strongly into 2Y and 5Y yields.",
-        "tone": "primary"
-      },
-      {
-        "id": "policy_filter",
-        "label": "2",
-        "title": "Fed Optionality",
-        "summary": "Then connect Powell credibility language and AI-capex inflation risk to the policy distribution.",
-        "tone": "evidence"
-      },
-      {
-        "id": "credit_validation",
-        "label": "3",
-        "title": "Credit Clearing",
-        "summary": "Finish with whether active primary supply can clear after listed-fund price moves weakened.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "The curve bear-flattened from the front end",
-        "detail": "UST2Y +7 bp and UST5Y +5 bp led the selloff.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.05%",
-            "change": "+7 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "UST5Y",
-            "value": "4.18%",
-            "change": "+5 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "2s10s",
-            "value": "42 bp",
-            "change": "-5 bp",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "inflation",
-        "label": "Inflation",
-        "headline": "Oil fed directly into breakevens",
-        "detail": "WTI +5.49%, Brent +3.18%, BE10Y +2 bp.",
-        "emphasis": "Inflation channel",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "92.16",
-            "change": "+5.49%",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y breakeven",
-            "value": "2.40%",
-            "change": "+2 bp",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit weakened even as supply stayed active",
-        "detail": "listed fund weakness met active primary financing tests.",
-        "emphasis": "Evidence hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "108.93",
-            "change": "-0.39%",
-            "tone": "challenging"
-          },
-          {
-            "label": "HYG",
-            "value": "79.84",
-            "change": "-0.59%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "premarket",
-        "label": "Pre-market",
-        "headline": "Morning futures kept the close under pressure",
-        "detail": "Treasury and Stock-index futures softened after NY close.",
-        "emphasis": "Separate update",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.75",
-            "change": "-0.10%",
-            "tone": "challenging"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,592.75",
-            "change": "-0.27%",
-            "tone": "challenging"
-          },
-          {
-            "label": "Gold fut",
-            "value": "4,514.80",
-            "change": "+0.88%",
-            "tone": "hedge"
-          }
-        ]
-      },
-      {
-        "id": "watch",
-        "label": "Forward Watch",
-        "headline": "Oil, Fed credibility, and credit concessions are the tests",
-        "detail": "Oil, policy language, and concessions decide stabilization.",
-        "emphasis": "Validation framework",
-        "signals": [
-          {
-            "label": "Oil",
-            "value": "breakeven impulse",
-            "change": "inflation channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Fed",
-            "value": "hike optionality",
-            "change": "front-end channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Credit",
-            "value": "concessions",
-            "change": "financing channel",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",

@@ -16,66 +16,8 @@
       "UST2Y +4 bp, UST10Y +3 bp, breakevens +2 bp.",
       "WTI fell 3.23% and Brent fell 3.37%, helping SPX, NDX, SOX, and VIX.",
       "Indonesia delayed-redemption reports made liquidity stress a realized fixed-income issue."
-    ],
-    "reader_takeaways": [
-      {
-        "label": "Rates",
-        "title": "Oil relief did not reach Treasuries",
-        "summary": "Yields and breakevens rose despite the crude decline, keeping policy compensation alive.",
-        "id": "rates",
-        "tone": "challenging"
-      },
-      {
-        "label": "Europe",
-        "title": "ECB became the policy proving ground",
-        "summary": "Officials warned energy pass-through was broadening, so lower crude alone was not enough.",
-        "id": "europe",
-        "tone": "watch"
-      },
-      {
-        "label": "Liquidity",
-        "title": "Indonesia showed real market-function stress",
-        "summary": "Delayed redemptions turned EM liquidity from a price concern into an operational one.",
-        "id": "liquidity",
-        "tone": "risk"
-      }
     ]
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Oil relief no longer guaranteed a Treasury rally",
-      "short_summary": "WTI and Brent fell more than 3%, but UST2Y, UST5Y, and UST10Y all rose as policy markets still respected inflation risk.",
-      "detail": "The rates market resisted the crude decline: UST2Y rose 4 bp, UST10Y rose 3 bp, and 10Y breakevens rose 2 bp.",
-      "market_move": "WTI -3.23%, Brent -3.37%, UST10Y +3 bp, 10Y breakeven +2 bp.",
-      "transmission": "Lower spot energy helped risk assets, but pass-through and resilient-demand concerns kept Fed compensation sticky.",
-      "confirmation": "Breakevens need to follow crude lower before the oil relief becomes a duration rally.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "rank": 2,
-      "title": "Europe framed the inflation-policy signal",
-      "short_summary": "The ECB had raised rates in response to the energy shock and officials warned that pass-through was broadening beyond fuel.",
-      "detail": "European policy commentary kept central-bank reaction risk alive even as oil declined.",
-      "market_move": "European and U.S. bonds rallied intraday on deal hopes, but U.S. Treasuries closed weaker.",
-      "transmission": "ECB pass-through concerns made global duration less willing to treat lower crude as final inflation relief.",
-      "confirmation": "Softer European inflation data or optional ECB guidance would support duration; more hike talk would challenge.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "rank": 3,
-      "title": "Liquidity stress was visible in Indonesia",
-      "short_summary": "Indonesian bond funds delayed redemptions because local bond-market liquidity had deteriorated after the selloff.",
-      "detail": "This was direct market-function evidence, not only a yield move, and it kept EM carry and local duration risk in focus.",
-      "market_move": "Indonesian bond-fund redemption delays flagged liquidity stress while EMB rose only 0.09%.",
-      "transmission": "Liquidity and FX pressure can keep EM risk premia elevated even when global oil and equity signals improve.",
-      "confirmation": "Normalized redemptions and rupiah stability would confirm repair; more delays would challenge.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Softer early tape: 10Y note fut -0.24%, S&P fut 0%, WTI 0%.",
@@ -326,215 +268,56 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 12 as an oil-relief day that Treasuries did not validate.",
+        "summary": "Risk assets improved, but rates resisted. The section develops that read by showing that june 12 close was not another straightforward oil-relief duration rally. Oil did fall again: WTI ended near 84.88, down 3.23%, and Brent near 87.33, down 3.37%. The next check is whether breakevens follow crude lower. Equities liked that move, with SPX up 0.50%, NDX up 0.64%, SOX up 1.52%, and VIX down 9.05%.",
         "market_read": "Risk assets improved, but rates resisted.",
         "why_it_matters": "It separates the rates selloff from the prior oil-relief sessions.",
         "next_check": "Whether breakevens follow crude lower."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Explains why UST yields and breakevens rose despite lower oil.",
+        "summary": "Policy compensation stayed sticky. The section develops that read by showing that treasury pricing on June 12 was the key reason the note cannot be written as another relief rally. UST2Y rose 4 bp, UST5Y rose 3 bp, UST10Y rose 3 bp, and UST30Y rose 2 bp. The next check is breakevens, real yields, and front-end Fed pricing. The 2s10s curve flattened 1 bp to about 39 bp, while 2s30s narrowed 2 bp to about 88 bp.",
         "market_read": "Policy compensation stayed sticky.",
         "why_it_matters": "USTs were the main contradiction in the session.",
         "next_check": "Breakevens, real yields, and front-end Fed pricing."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Shows stable but unimpressive listed credit prices and borrower-quality constraints.",
+        "summary": "Credit improved less than equities. The section develops that read by showing that credit conditions improved at the surface but stayed highly discriminating. HYG was flat, JNK rose 0.02%, EMB rose 0.09%, and LQD slipped 0.06%. The next check is direct spreads, issuance, and lower-quality refinancing. That is a stable listed-credit tape, not a major spread rally. Selective issuer access kept the risk rally from becoming broad credit easing.",
         "market_read": "Credit improved less than equities.",
         "why_it_matters": "Selective issuer access kept the risk rally from becoming broad credit easing.",
         "next_check": "Direct spreads, issuance, and lower-quality refinancing."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Uses the ECB and European rates to track energy pass-through into policy.",
+        "summary": "DM duration remained policy-constrained. The section develops that read by showing that global duration confirmed the two-sided nature of the US rates close. European and US bonds had rallied on renewed hopes for an Iran deal, with UK two-year yields down sharply and German two-year yields falling nearly 10 bp during the European session. The next check is ECB guidance and European inflation breadth. But the US close still showed Treasury yields up on the day.",
         "market_read": "DM duration remained policy-constrained.",
         "why_it_matters": "Europe was the cleanest central-bank reaction case.",
         "next_check": "ECB guidance and European inflation breadth."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Highlights Indonesia delayed redemptions and policy/liquidity constraints across EM.",
+        "summary": "EM risk was about liquidity and credibility. The section develops that read by showing that june 12 had stronger direct liquidity evidence than June 10 or June 11. Two funds holding Indonesian bonds delayed redemptions because liquidity in the local bond market had deteriorated after the selloff and rupiah volatility. The next check is redemptions, rupiah stability, and local bond liquidity. A Korean manager extended the redemption cycle because of temporary difficulties selling bonds.",
         "market_read": "EM risk was about liquidity and credibility.",
         "why_it_matters": "It turns EM from a price move into a market-function issue.",
         "next_check": "Redemptions, rupiah stability, and local bond liquidity."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Equities and VIX confirmed risk relief, while gold and Treasuries kept the signal incomplete.",
+        "summary": "Constructive risk tone, incomplete duration confirmation. The section develops that read by showing that june 12 close was not another straightforward oil-relief duration rally. Oil did fall again: WTI ended near 84.88, down 3.23%, and Brent near 87.33, down 3.37%. The next check is oil, gold, VIX, and breakeven alignment. Equities liked that move, with SPX up 0.50%, NDX up 0.64%, SOX up 1.52%, and VIX down 9.05%.",
         "market_read": "Constructive risk tone, incomplete duration confirmation.",
-        "why_it_matters": "It separates equity relief from fixed-income validation.",
+        "why_it_matters": "It separates equity relief from fixed-income market check.",
         "next_check": "Oil, gold, VIX, and breakeven alignment."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Defines validation points for oil, Fed, ECB, and Indonesia liquidity.",
+        "summary": "The next proof is whether relief reaches rates and liquidity. The section develops that read by showing that market check framework starts with oil and breakevens. June 12 showed WTI and Brent falling sharply while BE10Y still rose 2 bp, so crude alone was not enough to validate duration relief. The next check is breakevens, Warsh Fed, ECB, and Indonesia liquidity.",
         "market_read": "The next proof is whether relief reaches rates and liquidity.",
-        "why_it_matters": "Forward Watch stays as validation rather than current drivers.",
+        "why_it_matters": "Forward Watch stays as market check rather than current drivers.",
         "next_check": "Breakevens, Warsh Fed, ECB, and Indonesia liquidity."
       }
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "oil_rates_split",
-        "label": "1",
-        "title": "Oil / Rates Split",
-        "summary": "Start with the divergence: crude fell, but UST yields and breakevens rose.",
-        "tone": "primary"
-      },
-      {
-        "id": "ecb",
-        "label": "2",
-        "title": "ECB Signal",
-        "summary": "Read Europe as the live case for energy pass-through and central-bank reaction.",
-        "tone": "watch"
-      },
-      {
-        "id": "liquidity",
-        "label": "3",
-        "title": "Liquidity Stress",
-        "summary": "Use Indonesian delayed redemptions to separate market functioning from price moves.",
-        "tone": "risk"
-      },
-      {
-        "id": "cross_asset",
-        "label": "4",
-        "title": "Cross-Asset Check",
-        "summary": "Equities improved, but gold and Treasuries kept the relief signal incomplete.",
-        "tone": "mixed"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Treasuries sold off despite lower oil",
-        "detail": "UST2Y rose 4 bp and UST10Y rose 3 bp while 10Y breakevens rose 2 bp.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.09%",
-            "change": "+4 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.48%",
-            "change": "+3 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y BE",
-            "value": "2.31%",
-            "change": "+2 bp",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "oil",
-        "label": "Oil",
-        "headline": "Crude fell but did not settle inflation confidence",
-        "detail": "WTI and Brent dropped more than 3%, but rates markets still priced sticky policy risk.",
-        "emphasis": "inflation signal",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "84.88",
-            "change": "-3.23%",
-            "tone": "supportive"
-          },
-          {
-            "label": "Brent",
-            "value": "87.33",
-            "change": "-3.37%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "risk",
-        "label": "Risk",
-        "headline": "Equities welcomed the oil decline",
-        "detail": "SPX, NDX, and SOX rose while VIX fell, confirming risk relief outside rates.",
-        "emphasis": "cross-asset relief",
-        "signals": [
-          {
-            "label": "S&P 500",
-            "value": "7,431.46",
-            "change": "+0.50%",
-            "tone": "supportive"
-          },
-          {
-            "label": "SOX",
-            "value": "13,371.47",
-            "change": "+1.52%",
-            "tone": "supportive"
-          },
-          {
-            "label": "VIX",
-            "value": "17.68",
-            "change": "-9.05%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit lagged the equity rally",
-        "detail": "HYG and JNK were flat-to-slightly higher, EMB rose slightly, and LQD slipped.",
-        "emphasis": "credit hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "109.01",
-            "change": "-0.06%",
-            "tone": "mixed"
-          },
-          {
-            "label": "HYG",
-            "value": "79.94",
-            "change": "0.00%",
-            "tone": "mixed"
-          },
-          {
-            "label": "EMB",
-            "value": "96.36",
-            "change": "+0.09%",
-            "tone": "mixed"
-          }
-        ]
-      },
-      {
-        "id": "liquidity",
-        "label": "Liquidity",
-        "headline": "Indonesia made liquidity stress visible",
-        "detail": "Delayed redemptions showed local bond-market stress could persist despite better oil and equity tone.",
-        "emphasis": "market functioning",
-        "signals": [
-          {
-            "label": "Indonesia",
-            "value": "fund redemptions",
-            "change": "delayed",
-            "tone": "risk"
-          },
-          {
-            "label": "China",
-            "value": "liquidity glut",
-            "change": "distortion",
-            "tone": "mixed"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",

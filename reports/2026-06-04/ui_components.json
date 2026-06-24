@@ -18,84 +18,8 @@
       "Listed credit funds rose, but borrower-quality risk stayed visible.",
       "SPX rose and VIX fell, but technology beta lagged."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Nominal relief, sticky real yields",
-        "summary": "The rally came through oil and breakevens, not a broad collapse in real-rate compensation.",
-        "id": "close_read",
-        "tone": "supportive"
-      },
-      {
-        "label": "Credit",
-        "title": "Credit improved but stayed tiered",
-        "summary": "Positive listed-fund gauges still needed borrower-level caveats.",
-        "id": "credit_quality",
-        "tone": "selective"
-      },
-      {
-        "label": "Global",
-        "title": "Global duration helped unevenly",
-        "summary": "Global duration improved, but EM currency and fiscal risks persisted.",
-        "id": "global_split",
-        "tone": "mixed"
-      }
-    ],
     "ny_close_causal_narrative": "The NY close was a conditional fixed-income repair: lower oil and breakevens helped nominal duration, while listed-fund gains still needed direct spread and borrower-quality confirmation."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Oil relief let Treasuries recover without a dovish pivot",
-      "short_summary": "UST2Y and UST5Y fell 3 bp, UST10Y fell 2 bp, WTI dropped 3.10%, and 10Y breakevens fell 2 bp.",
-      "detail": "The day reversed part of the June 3 pressure because energy prices eased and inflation compensation moved lower. But the evidence still included Fed commentary that kept hikes possible if energy costs fed into core prices. TIPS10Y was unchanged at 2.11%, so the rally was more about nominal inflation compensation and risk relief than a broad collapse in real yields.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "UST",
-        "Oil",
-        "Breakevens"
-      ],
-      "driver_type": "rates",
-      "market_move": "10Y breakevens fell to 2.36% and nominal Treasury yields rallied while 10Y TIPS stayed at 2.11%.",
-      "transmission": "Lower crude reduced the inflation-compensation premium and repaired nominal duration without proving a real-yield rally.",
-      "confirmation": "10Y TIPS was unchanged at 2.11%, confirming the rally was breakeven-led rather than real-yield-led."
-    },
-    {
-      "rank": 2,
-      "title": "Credit recovered but borrower-quality risk stayed visible",
-      "short_summary": "LQD rose 0.21%, HYG rose 0.19%, JNK rose 0.16%, and EMB rose 0.21%, while Reno de Medici, tobacco munis, and direct-lending dry powder showed stress pockets.",
-      "detail": "The credit tape improved as rates and oil pressure eased, but it was not a clean spread-quality endorsement. Reno de Medici was moving toward a bondholder-led restructuring, Nassau tobacco bonds missed principal, and buyout and debt-fund funds still carried a large aging stockpile. At the same time, AI-linked and infrastructure issuers were still able to tap debt markets, keeping access open for names with a strong growth or collateral story.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "Credit",
-        "Direct Lending",
-        "AI Financing"
-      ],
-      "driver_type": "credit",
-      "market_move": "LQD, HYG, JNK, and EMB rose, but Reno de Medici, Nassau tobacco bonds, and direct-lending dry powder showed stress pockets.",
-      "transmission": "Lower rates helped total returns, while borrower-specific collateral, restructuring, and fund-deployment issues kept credit selective.",
-      "confirmation": "liquid fund gauges supported tone, but borrower-quality evidence prevented a broad spread-compression claim."
-    },
-    {
-      "rank": 3,
-      "title": "Global duration demand improved but volatility channels remained",
-      "short_summary": "New Zealand drew record demand after issuance cuts, Sweden and Czech inflation reduced near-term hike pressure, and mortgage hedging remained a US volatility risk.",
-      "detail": "The direct supply evidence was strongest outside the US: New Zealand's 2031 bond auction saw a 6.22 bid-to-cover ratio after lower borrowing projections. Sweden and Czech inflation data also softened the case for immediate hikes. Against that, renewed mortgage-hedging activity showed how US duration can face extra volatility even when the cash curve rallies.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "Global Duration",
-        "Supply",
-        "Mortgage Hedging"
-      ],
-      "driver_type": "global_duration",
-      "market_move": "New Zealand drew strong auction demand, Sweden and Czech inflation softened hike pressure, and mortgage hedging remained a US volatility risk.",
-      "transmission": "Non-US supply and inflation data helped duration while hedging flows could still amplify Treasury volatility.",
-      "confirmation": "The global evidence confirmed relief through valuation and inflation channels, not synchronized easing."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Softer early tape: 10Y note fut -0.23%, S&P fut -0.42%, WTI -0.12%.",
@@ -180,7 +104,7 @@
   "watch_events": [
     {
       "id": "oil_breakeven_follow_through",
-      "title": "Oil and breakeven follow-through",
+      "title": "Oil and breakeven next-leg confirmation",
       "date": "2026-06-05",
       "date_or_window": "2026-06-05",
       "category": "Inflation",
@@ -343,49 +267,49 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 4 as conditional repair after the prior rates selloff, led by oil and breakeven relief.",
+        "summary": "Nominal yields rallied while real yields stayed sticky, so the relief was useful but incomplete. The section develops that read by showing that june 4 close repaired some of the previous day's fixed-income damage, but it did not erase the inflation and credit-quality questions that shaped the week.",
         "market_read": "Nominal yields rallied while real yields stayed sticky, so the relief was useful but incomplete.",
         "why_it_matters": "The opening keeps NY-close causality separate from the later pre-market fade.",
         "next_check": "Watch whether oil and breakevens extend the relief."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Integrates the front-end/belly rally, breakeven decline, sticky TIPS, supply, and hedging risk into one UST channel.",
+        "summary": "Treasuries recovered through lower inflation compensation, not a broad real-yield collapse. The section develops that read by showing that treasury move was led by the front end and belly in level terms, with 2s and 5s down 3 bp and 10s and 30s down 2 bp. Because the short end rallied a little more than the long end, the main curve spreads steepened 1 bp.",
         "market_read": "Treasuries recovered through lower inflation compensation, not a broad real-yield collapse.",
         "why_it_matters": "The UST channel explains why lower oil helped without removing Fed and term-premium constraints.",
         "next_check": "Track breakevens, TIPS, mortgage hedging, corporate issuance, and Fed commentary."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates positive listed credit fund total-return gauges from borrower-specific restructuring, collateral, and direct-lending evidence.",
+        "summary": "Credit tone improved, but weaker names and aging dry powder kept access selective. The section develops that read by showing that buyout and debt-fund dry powder made the credit picture more complicated. Buyout and debt funds still held a large stockpile of capital raised in prior years, but deployment had become harder because valuations, competition and shocks had slowed dealmaking. The next check is watch AI infrastructure deals, direct-lending concessions, and restructuring spillover.",
         "market_read": "Credit tone improved, but weaker names and aging dry powder kept access selective.",
         "why_it_matters": "Total-return fund moves need borrower-level confirmation before being treated as broad spread improvement.",
         "next_check": "Watch AI infrastructure deals, direct-lending concessions, and restructuring spillover."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Separates New Zealand, Sweden, Czech, and Australia duration signals from EM transmission.",
+        "summary": "DM duration support came from auction demand and softer inflation, while Australia still worried about second-round effects. The section develops that read by showing that global duration supported the rates relief, but through different channels. Sweden and the Czech Republic supplied inflation relief. The next check is watch global auctions, inflation prints, and central-bank tolerance for energy shocks.",
         "market_read": "DM duration support came from auction demand and softer inflation, while Australia still worried about second-round effects.",
         "why_it_matters": "DM relief was real but not a synchronized easing signal.",
         "next_check": "Watch global auctions, inflation prints, and central-bank tolerance for energy shocks."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Reads EM through Asia currency defense, Chile fiscal credibility, South Africa carry, Congo yield, and hard-currency spread risk.",
+        "summary": "Carry worked where credibility or resource exposure helped, while fiscal and FX pressure still mattered. The section develops that read by showing that korea and Indonesia were prepared to act against currency weakness, India was using intervention and possible bond-market access changes, and the market still expected the US to keep inflation control in focus.",
         "market_read": "Carry worked where credibility or resource exposure helped, while fiscal and FX pressure still mattered.",
         "why_it_matters": "EM dispersion still matters even when U.S. yields rally.",
         "next_check": "Track DXY, Asia intervention, Chile borrowing, and EM carry inflows."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Tests whether oil, equities, volatility, DXY, gold, technology beta, and listed credit funds aligned with or narrowed the FI relief read.",
+        "summary": "Oil, breakevens, VIX, DXY, SPX, and credit supported relief, but gold and technology weakness kept the read conditional. The section develops that read by showing that oil fell sharply, breakevens declined, VIX fell and SPX rose. Gold rose 0.88%, which kept some haven demand in the picture, but the broader tone was calmer. The next check is watch oil, VIX, DXY, gold, NDX, SOX, direct spread and funding measures.",
         "market_read": "Oil, breakevens, VIX, DXY, SPX, and credit supported relief, but gold and technology weakness kept the read conditional.",
         "why_it_matters": "Cross-asset confirmation prevents the report from overstating a full risk-on recovery.",
         "next_check": "Watch oil, VIX, DXY, gold, NDX, SOX, direct spread and funding measures."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Turns the close into oil/breakeven, mortgage-hedging, and AI/direct-lending quality validation tests.",
+        "summary": "The rally can extend only if inflation compensation, volatility mechanics, and borrower-quality signals cooperate. The section develops that read by showing that further watchpoint is whether corporate issuance uses every Treasury dip. If AI infrastructure, utilities and investment-grade borrowers accelerate issuance whenever Treasury yields dip, duration rallies may be capped by supply. The next check is use oil, breakevens, hedging flows, and primary credit clearing as the next proof points.",
         "market_read": "The rally can extend only if inflation compensation, volatility mechanics, and borrower-quality signals cooperate.",
         "why_it_matters": "Forward Watch adds proof criteria instead of repeating the thesis.",
         "next_check": "Use oil, breakevens, hedging flows, and primary credit clearing as the next proof points."
@@ -508,157 +432,5 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ],
-  "briefing_path": {
-    "items": [
-      {
-        "id": "rates_relief",
-        "label": "1",
-        "title": "Nominal Relief",
-        "summary": "Start with the Treasury rally and lower-breakeven transmission.",
-        "tone": "primary"
-      },
-      {
-        "id": "credit_filter",
-        "label": "2",
-        "title": "Credit Filter",
-        "summary": "Then separate positive liquid fund gauges from restructuring, collateral, and direct-lending quality risk.",
-        "tone": "evidence"
-      },
-      {
-        "id": "global_validation",
-        "label": "3",
-        "title": "Validation Tests",
-        "summary": "Finish with oil, mortgage hedging, corporate issuance, and EM carry/fiscal credibility as follow-through tests.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Oil relief lowered nominal yields",
-        "detail": "UST2Y and UST5Y fell 3 bp while 10Y breakevens fell 2 bp and TIPS were unchanged.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.05%",
-            "change": "-3 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.47%",
-            "change": "-2 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "10Y breakeven",
-            "value": "2.36%",
-            "change": "-2 bp",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit recovered with quality caveats",
-        "detail": "liquid fund gauges rose, but access stayed borrower-specific.",
-        "emphasis": "Evidence hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "108.85",
-            "change": "+0.21%",
-            "tone": "supportive"
-          },
-          {
-            "label": "HYG",
-            "value": "79.83",
-            "change": "+0.19%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "global",
-        "label": "Global",
-        "headline": "Duration support was uneven outside the US",
-        "detail": "NZ demand helped; Asia FX and Chile risk kept dispersion high.",
-        "emphasis": "Global split",
-        "signals": [
-          {
-            "label": "NZ auction",
-            "value": "6.22 bid-cover",
-            "change": "strong demand",
-            "tone": "supportive"
-          },
-          {
-            "label": "Chile",
-            "value": "extra borrowing",
-            "change": "fiscal risk",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "premarket",
-        "label": "Pre-market",
-        "headline": "Morning futures faded the relief tone",
-        "detail": "Treasury, equity, and Nasdaq futures softened; gold rose.",
-        "emphasis": "Separate update",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.59",
-            "change": "-0.23%",
-            "tone": "challenging"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,569.25",
-            "change": "-0.42%",
-            "tone": "challenging"
-          },
-          {
-            "label": "Gold fut",
-            "value": "4,489.70",
-            "change": "+0.31%",
-            "tone": "hedge"
-          }
-        ]
-      },
-      {
-        "id": "watch",
-        "label": "Forward Watch",
-        "headline": "Oil, hedging, and credit quality are the tests",
-        "detail": "The rally needs lower energy pressure, contained mortgage hedging, and cleaner AI/direct-lending issuance quality.",
-        "emphasis": "Validation framework",
-        "signals": [
-          {
-            "label": "Oil",
-            "value": "breakevens",
-            "change": "inflation channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Hedging",
-            "value": "mortgages",
-            "change": "vol channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Credit",
-            "value": "AI/direct lending",
-            "change": "quality channel",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }

@@ -16,66 +16,8 @@
       "UST2Y was unchanged near 4.13%, while UST10Y and UST30Y rose about 2 bp.",
       "WTI rose about 2.1% and Brent about 1.8%, lifting breakevens despite softer core CPI.",
       "Equities fell sharply and VIX rose."
-    ],
-    "reader_takeaways": [
-      {
-        "label": "Rates",
-        "title": "The curve bear-steepened despite softer CPI",
-        "summary": "The front end paused, but 10s and 30s rose as oil and term premium stayed live.",
-        "id": "rates",
-        "tone": "challenging"
-      },
-      {
-        "label": "Credit",
-        "title": "Tight spreads masked tiering risk",
-        "summary": "Listed credit funds fell and loss-cycle warnings kept weak borrowers exposed.",
-        "id": "credit",
-        "tone": "selective"
-      },
-      {
-        "label": "Global",
-        "title": "Global duration added pressure",
-        "summary": "Japan supply, Canada policy caveats, and Indonesia market functioning kept compensation sticky.",
-        "id": "global",
-        "tone": "watch"
-      }
     ]
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Fed hike pricing survived softer CPI",
-      "short_summary": "Core CPI gave the Fed breathing room, but swaps still kept a year-end hike in play and the front end did not rally.",
-      "detail": "UST2Y held near 4.13% while 10s and 30s rose; the market treated CPI as patience, not a dovish reset.",
-      "market_move": "UST2Y 0 bp, UST10Y +2 bp, UST30Y +2 bp.",
-      "transmission": "Softer core CPI lowered immediate pressure, but oil and policy reaction risk kept term premium elevated.",
-      "confirmation": "Lower breakevens and softer Fed communication would confirm; renewed oil pressure would challenge.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "rank": 2,
-      "title": "Oil risk premium kept inflation compensation alive",
-      "short_summary": "WTI and Brent rose, keeping energy pass-through in the policy discussion.",
-      "detail": "WTI rose 2.07% and Brent rose 1.80%; 10Y breakevens rose 1 bp despite softer core CPI.",
-      "market_move": "WTI 90.03, Brent 93.10, 10Y breakeven 2.34%.",
-      "transmission": "Energy pressure limited how much central banks could look through softer core inflation.",
-      "confirmation": "A crude retreat would support duration; another spike would keep policy-defense risk active.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "rank": 3,
-      "title": "Credit tiering widened beneath still-tight spreads",
-      "short_summary": "Loss-cycle warnings, lower-quality borrowers, and AI financing needs mattered more than tight high-grade spreads alone.",
-      "detail": "LQD, HYG, JNK, and EMB fell while risk assets sold off; headline high-grade spread tightness did not remove borrower-quality risk.",
-      "market_move": "LQD -0.23%, HYG -0.19%, JNK -0.20%, EMB -0.33%.",
-      "transmission": "Higher yields, equity weakness, and project-specific financing needs narrowed the margin for weaker borrowers.",
-      "confirmation": "option-adjusted spread evidence, credit-index evidence, cash-bond evidence, concessions, and issuance quality need to stabilize before calling broad credit relief.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Mixed early tape: 10Y note fut -0.4%, S&P fut -0.42%, WTI +2.85%.",
@@ -171,7 +113,7 @@
       "sensitive_channel": "Fed pricing and front-end rates"
     },
     {
-      "title": "Oil follow-through",
+      "title": "Oil next-leg confirmation",
       "date": "2026-06-11",
       "category": "inflation",
       "watch_line": "Test whether the energy shock extends into breakevens.",
@@ -326,227 +268,56 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 10 as a rates and credit tape caught between softer CPI and oil shock.",
+        "summary": "Patience, not an inflation all-clear. The section develops that read by showing that june 10 close was a rates and credit tape caught between softer core inflation and an energy shock that still mattered for central-bank reaction functions. Treasuries did not trade like the market had received an all-clear on inflation. The next check is whether oil or Fed communication dominates next.",
         "market_read": "Patience, not an inflation all-clear.",
         "why_it_matters": "It anchors the session on NY-close realized moves rather than pre-market extensions.",
         "next_check": "Whether oil or Fed communication dominates next."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Integrates curve steepening, Fed pricing, real yields, breakevens, and global supply.",
+        "summary": "Long-end compensation rose despite softer core CPI. The section develops that read by showing that rates section begins with the curve shape. UST2Y held near 4.13%, UST5Y rose 1 bp to 4.27%, UST10Y rose 2 bp to 4.55%, and UST30Y rose 2 bp to 5.03%. The next check is breakevens, real yields, and front-end hike pricing.",
         "market_read": "Long-end compensation rose despite softer core CPI.",
         "why_it_matters": "USTs transmit the conflict between inflation relief and energy shock.",
         "next_check": "Breakevens, real yields, and front-end hike pricing."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates tight high-grade spreads from borrower-quality and loss-cycle risks.",
+        "summary": "Credit access remained tiered. The section develops that read by showing that credit was the most important non-rates section because it separated market access from borrower quality. High-grade spreads remained near their tightest levels in almost three decades and demand for riskier debt had held up despite the earlier bond selloff. The next check is option-adjusted spread evidence, credit-index evidence, cash-bond evidence, new-issue concessions, and borrower-tier outcomes.",
         "market_read": "Credit access remained tiered.",
         "why_it_matters": "listed fund declines and loss warnings require evidence hierarchy.",
         "next_check": "option-adjusted spread evidence, credit-index evidence, cash-bond evidence, new-issue concessions, and borrower-tier outcomes."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Canada, Japan, and global sovereign supply kept developed-market duration conditional.",
+        "summary": "Global term premium stayed active. The section develops that read by showing that global duration confirmed that the June 10 tape was about policy reaction functions as much as US data. Canada rallied after the Bank of Canada held rates and described the economy as weak, but the statement still warned that higher energy prices could force tighter policy if inflation broadened. The next check is BOJ, BoC energy caveats, and super-long auction demand.",
         "market_read": "Global term premium stayed active.",
         "why_it_matters": "It explains why U.S. long yields rose despite soft core CPI.",
         "next_check": "BOJ, BoC energy caveats, and super-long auction demand."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Indonesia, Argentina, Ghana, Zambia, and India showed policy credibility as the EM filter.",
+        "summary": "EM was idiosyncratic rather than broadly risk-on. The section develops that read by showing that indonesia's local markets were trying to stabilize after heavy outflows and policy reassurance. The rupiah bounced and the 10-year yield fell after officials emphasized fiscal discipline and allowed yields to do more of the adjustment work, but analysts still argued that 10-year yields might need to rise toward 8% to lure back global funds.",
         "market_read": "EM was idiosyncratic rather than broadly risk-on.",
         "why_it_matters": "Softer U.S. data does not remove FX and funding tests.",
         "next_check": "Dollar pressure, oil, and external funding access."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Oil, equities, volatility, and listed credit funds all challenged a broad relief read.",
+        "summary": "Cross-assets leaned risk-negative. The section develops that read by showing that WTI rose to about 90.03, up 2.07% on the day, while Brent rose to about 93.10, up 1.80%. BE10Y rose to about 234 bp and 10Y TIPS rose to about 2.21%, so inflation compensation and real yields both contributed to the nominal Treasury move. The next check is oil, VIX, equity breadth, option-adjusted spread evidence, credit-index evidence, cash-bond evidence, and concessions.",
         "market_read": "Cross-assets leaned risk-negative.",
         "why_it_matters": "It prevents CPI softness from becoming the whole story.",
         "next_check": "Oil, VIX, equity breadth, option-adjusted spread evidence, credit-index evidence, cash-bond evidence, and concessions."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Converts the thesis into Fed, oil, credit, and global-duration tests.",
-        "market_read": "Follow-through decides whether June 10 was a pause or renewed pressure.",
-        "why_it_matters": "Forward Watch remains future validation, not a Top Driver substitute.",
-        "next_check": "Fed framing, oil follow-through, credit access, and Japan supply."
+        "summary": "next-leg confirmation decides whether June 10 was a pause or renewed pressure. The section develops that read by showing that june 10 showed that softer core CPI was not enough to offset a fresh energy shock when WTI and Brent were rising. If crude retreats, breakevens can fall and the front end can treat CPI as a patience signal. The next check is fed framing, oil next-leg confirmation, credit access, and Japan supply.",
+        "market_read": "next-leg confirmation decides whether June 10 was a pause or renewed pressure.",
+        "why_it_matters": "Forward Watch remains future market check, not a Top Driver substitute.",
+        "next_check": "Fed framing, oil next-leg confirmation, credit access, and Japan supply."
       }
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "cpi_vs_oil",
-        "label": "1",
-        "title": "CPI vs Oil",
-        "summary": "Start with why softer core CPI did not produce a Treasury rally.",
-        "tone": "primary"
-      },
-      {
-        "id": "curve",
-        "label": "2",
-        "title": "Curve Pressure",
-        "summary": "Read the unchanged 2Y against higher 10Y/30Y yields and wider curves.",
-        "tone": "watch"
-      },
-      {
-        "id": "credit_tiering",
-        "label": "3",
-        "title": "Credit Tiering",
-        "summary": "Separate tight high-grade spreads from lower-quality loss-cycle and AI financing risks.",
-        "tone": "selective"
-      },
-      {
-        "id": "global_duration",
-        "label": "4",
-        "title": "Global Duration",
-        "summary": "Use Japan, Canada, Indonesia, and sovereign issuance to test term-premium pressure.",
-        "tone": "mixed"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Long-end yields rose after softer CPI",
-        "detail": "UST2Y flat; 10Y and 30Y +2 bp, 2s10s near 42 bp.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.13%",
-            "change": "0 bp",
-            "tone": "mixed"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.55%",
-            "change": "+2 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "2s10s",
-            "value": "42 bp",
-            "change": "+2 bp",
-            "tone": "watch"
-          }
-        ]
-      },
-      {
-        "id": "oil",
-        "label": "Oil",
-        "headline": "Energy kept inflation compensation alive",
-        "detail": "WTI 90.03, Brent 93.10, and BE10Y +1 bp.",
-        "emphasis": "inflation risk",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "90.03",
-            "change": "+2.07%",
-            "tone": "challenging"
-          },
-          {
-            "label": "Brent",
-            "value": "93.10",
-            "change": "+1.80%",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y BE",
-            "value": "2.34%",
-            "change": "+1 bp",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "risk",
-        "label": "Risk",
-        "headline": "Equities and volatility challenged relief",
-        "detail": "S&P, Nasdaq, and SOX fell while VIX jumped.",
-        "emphasis": "cross-asset check",
-        "signals": [
-          {
-            "label": "S&P 500",
-            "value": "7,266.99",
-            "change": "-1.62%",
-            "tone": "challenging"
-          },
-          {
-            "label": "SOX",
-            "value": "12,206.46",
-            "change": "-3.57%",
-            "tone": "challenging"
-          },
-          {
-            "label": "VIX",
-            "value": "22.22",
-            "change": "+11.83%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit weakened beneath tight spreads",
-        "detail": "Listed credit funds fell while loss-cycle warnings kept lower-quality borrowers in focus.",
-        "emphasis": "credit hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "108.16",
-            "change": "-0.23%",
-            "tone": "mixed"
-          },
-          {
-            "label": "HYG",
-            "value": "79.47",
-            "change": "-0.19%",
-            "tone": "challenging"
-          },
-          {
-            "label": "EMB",
-            "value": "95.35",
-            "change": "-0.33%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "global",
-        "label": "Global",
-        "headline": "Policy and supply kept term premium live",
-        "detail": "Japan auction weakness, Canada energy caveats, and Indonesia yield adjustment added global compensation pressure.",
-        "emphasis": "global duration",
-        "signals": [
-          {
-            "label": "Japan",
-            "value": "30Y JGB",
-            "change": "weak demand",
-            "tone": "challenging"
-          },
-          {
-            "label": "Canada",
-            "value": "BoC hold",
-            "change": "energy caveat",
-            "tone": "watch"
-          },
-          {
-            "label": "Indonesia",
-            "value": "market functioning",
-            "change": "yield adjustment",
-            "tone": "mixed"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",

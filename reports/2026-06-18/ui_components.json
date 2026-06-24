@@ -19,72 +19,8 @@
       "Oil, breakevens, equities, volatility, and listed LQD/HYG/JNK/EMB leaned with duration.",
       "Fed caution, firmer DXY, and gold weakness kept the read selective."
     ],
-    "reader_takeaways": [
-      {
-        "label": "Close read",
-        "title": "Constructive duration, not a dovish all-clear",
-        "summary": "Front-end stickiness kept inflation-credibility risk alive.",
-        "id": "close_read",
-        "tone": "close"
-      },
-      {
-        "label": "Transmission",
-        "title": "Risk tape carried the rally",
-        "summary": "Oil, equities, volatility, and LQD/HYG/JNK/EMB joined the Treasury bid.",
-        "id": "transmission",
-        "tone": "transmission"
-      },
-      {
-        "label": "Confirmation",
-        "title": "Inflation, supply, funding, and dollar decide extension",
-        "summary": "Core PCE, auctions, refinancing terms, and DXY gauge staying power.",
-        "id": "confirmation",
-        "tone": "watch"
-      }
-    ],
     "ny_close_causal_narrative": "Treasuries bull-flattened into the close as softer oil, lower inflation compensation, firmer equities, lower volatility, and stronger listed LQD/HYG/JNK/EMB sat alongside a still-hawkish Fed reaction function and stronger dollar."
   },
-  "top_drivers": [
-    {
-      "id": "rates_curve_bull_flattening",
-      "title": "Bull-flattening duration bid with front-end caution",
-      "summary": "Treasuries rallied into the NY close, led by the belly and long end, but the 2-year barely moved because the Fed reaction function stayed inflation-sensitive.",
-      "market_move": "UST5Y fell 4 bp, UST10Y 3 bp, with 2s10s at 27 bp.",
-      "transmission": "Real yields and breakevens eased, but 2Y kept Fed risk live.",
-      "confirmation": "Core PCE, breakevens, and 5Y/7Y demand decide extension.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "rank": 1,
-      "short_summary": "Belly and long-end yields fell while the front end kept Fed risk live.",
-      "detail": "The driver is the combination of lower nominal and real yields, a flatter curve, and only a small 2-year move."
-    },
-    {
-      "id": "cross_asset_benign_confirmation",
-      "title": "Risk assets accepted the Treasury move",
-      "summary": "Equities, volatility, oil, EM debt, and LQD/HYG/JNK/EMB treated the yield decline as constructive, while dollar and gold kept the signal qualified.",
-      "market_move": "WTI fell 1.84%, SPX rose 1.08%, Nasdaq 100 rose 2.48%, and VIX fell 11.06%.",
-      "transmission": "Lower oil and calmer volatility helped risk accept the Treasury move.",
-      "confirmation": "Oil, VIX, equities, and funding tone decide extension.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "rank": 2,
-      "short_summary": "Risk appetite treated the yield decline as benign, with dollar and gold as qualifiers.",
-      "detail": "Oil, equities, and VIX validated the move; LQD/HYG/JNK/EMB participated while dollar and gold limited it."
-    },
-    {
-      "id": "credit_funding_selective_confirmation",
-      "title": "Credit tone improved, but selectively",
-      "summary": "Listed LQD/HYG/JNK/EMB and EM debt joined the constructive close, while borrower tiering and firmer DXY kept the funding read selective.",
-      "market_move": "LQD, HYG, JNK, and EMB rose with the risk-on tape.",
-      "transmission": "Lower Treasury yields helped total returns and refinancing math.",
-      "confirmation": "Primary books, concessions, and refinancing terms decide credit quality.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "rank": 3,
-      "short_summary": "Credit joined through liquid gauges and selective funding access.",
-      "detail": "The session helped liquid credit first, while borrower tiering kept the funding read selective."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Separately, checked early-session moves were too small to disturb the NY-close rates read.",
     "readout": "10Y note fut +0.01% was too small to challenge the NY-close read.",
@@ -142,178 +78,6 @@
     "changed_since_ny_close": "After NY close: early moves stayed below materiality thresholds.",
     "read_through": "10Y note fut +0.01% left the session-close thesis intact.",
     "what_would_matter_next": "A checked move in Treasury futures, Stock-index futures, DXY, or oil would create a material update."
-  },
-  "briefing_path": {
-    "items": [
-      {
-        "id": "market_take",
-        "label": "Market take",
-        "title": "Constructive, not a clean dovish turn",
-        "summary": "Read rates first: belly-led duration improved, but front-end caution stayed."
-      },
-      {
-        "id": "backdrop",
-        "label": "Backdrop",
-        "title": "Relief met policy caution",
-        "summary": "Oil, equities, vol, and LQD/HYG/JNK/EMB joined despite Fed/dollar caution."
-      },
-      {
-        "id": "week_ahead",
-        "label": "Week ahead",
-        "title": "Inflation and supply decide resilience",
-        "summary": "Core PCE, auctions, China LPRs, and credit funding terms shape the next read."
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Treasuries bull-flattened as belly and long-end yields rallied while the front end lagged.",
-        "detail": "Core PCE and inflation prints show whether the front end validates the rally.",
-        "emphasis": "close",
-        "signals": [
-          {
-            "label": "2Y",
-            "value": "4.19%, down 1 bp"
-          },
-          {
-            "label": "5Y",
-            "value": "4.23%, down 4 bp"
-          },
-          {
-            "label": "10Y",
-            "value": "4.46%, down 3 bp"
-          },
-          {
-            "label": "2s10s",
-            "value": "27 bp, flatter by 2 bp"
-          }
-        ]
-      },
-      {
-        "id": "supply",
-        "label": "Supply",
-        "headline": "Supply did not break the rally, but evidence stayed narrow and flow-led.",
-        "detail": "5Y and 7Y auctions are cleaner tests of concession and demand.",
-        "emphasis": "close",
-        "signals": [
-          {
-            "label": "5-year",
-            "value": "TIPS auction cleared at 1.955%"
-          },
-          {
-            "label": "April",
-            "value": "net long-term TIC flows were 103.1 billion"
-          },
-          {
-            "label": "Nominal",
-            "value": "curve rally was compatible with demand but not proof of broad auction strength"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit tone improved through funding access and borrower tiering.",
-        "detail": "Primary demand, refinancing terms, and weaker-borrower performance shape the credit read.",
-        "emphasis": "close",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "rose 0.28%"
-          },
-          {
-            "label": "HYG",
-            "value": "rose 0.35%"
-          },
-          {
-            "label": "JNK",
-            "value": "rose 0.34%"
-          },
-          {
-            "label": "EMB",
-            "value": "rose 0.47%"
-          }
-        ]
-      },
-      {
-        "id": "global_duration",
-        "label": "Global Duration",
-        "headline": "Global duration improved with U.S. yield relief, but policy signals stayed divergent.",
-        "detail": "China LPRs, UK wages, EM policy defense, and yen pressure gauge global transmission.",
-        "emphasis": "close",
-        "signals": [
-          {
-            "label": "BoE",
-            "value": "held at 3.75% with hawkish dissent"
-          },
-          {
-            "label": "SNB",
-            "value": "held at 0% and kept FX intervention optionality"
-          },
-          {
-            "label": "Norges",
-            "value": "Bank held at 4.25% while flagging possible further tightening"
-          },
-          {
-            "label": "Indonesia",
-            "value": "raised rates to 5.75%"
-          }
-        ]
-      },
-      {
-        "id": "cross_asset",
-        "label": "Cross-Asset",
-        "headline": "Cross-assets validated benign rates, but DXY firmness and gold weakness limited dovish read-through.",
-        "detail": "Oil, breakevens, equities, volatility, dollar, and gold need to keep pointing to the same benign transmission.",
-        "emphasis": "close",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "fell 1.84% and Brent fell 0.55%"
-          },
-          {
-            "label": "S&P",
-            "value": "500 rose 1.08%; Nasdaq 100 rose 2.48%; SOX rose 6.42%"
-          },
-          {
-            "label": "VIX",
-            "value": "fell 11.06% to 16.40"
-          },
-          {
-            "label": "DXY",
-            "value": "rose 0.73% and gold fell 3.49%"
-          }
-        ]
-      },
-      {
-        "id": "forward_watch",
-        "label": "Forward Watch",
-        "headline": "Inflation, auctions, growth, policy, and funding shape the next read.",
-        "detail": "Treat data and auctions as market checks, not realized session drivers.",
-        "emphasis": "watch",
-        "signals": [
-          {
-            "label": "Core",
-            "value": "PCE tests the Fed and front-end validation channel"
-          },
-          {
-            "label": "Flash",
-            "value": "PMI and housing data test the growth mix"
-          },
-          {
-            "label": "Nominal",
-            "value": "Treasury auctions test supply sponsorship"
-          },
-          {
-            "label": "Direct",
-            "value": "spreads and dollar behavior test the durability of risk confirmation"
-          }
-        ]
-      }
-    ]
   },
   "watch_events": [
     {
@@ -512,7 +276,7 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The close combined lower Treasury yields, softer oil, firmer risk assets, and a stronger dollar into a constructive but conditional fixed-income read.",
+        "summary": "Duration improved and risk accepted the move, but front-end Fed risk and firmer DXY kept the read from becoming a clean dovish turn. The section develops that read by showing that june 18 NY close was a constructive fixed-income session, but not a clean dovish shock. Treasury yields finished lower across the curve, the long end and belly led the move, and the curve flattened modestly.",
         "section_id": "thesis-opening-fixed-income-thesis",
         "market_read": "Duration improved and risk accepted the move, but front-end Fed risk and firmer DXY kept the read from becoming a clean dovish turn.",
         "why_it_matters": "It frames the session as a global fixed-income tape rather than a Treasury-only rally.",
@@ -520,7 +284,7 @@
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "The belly-led Treasury rally, flatter curve, real-yield move, TIPS auction, and TIC flow evidence belong in one UST channel.",
+        "summary": "UST duration rallied outside the very front end while supply and liquidity evidence stayed supportive but narrow. The section develops that read by showing that rates section begins with the curve shape. The 5-year point led the daily rally, the 10-year and 30-year followed, and the 2-year moved only marginally lower. The next check is watch 2Y repricing, 5Y and 7Y auctions, breakevens, real yields, and nominal auction demand.",
         "section_id": "thesis-ust-rates-curve-fed-pricing-supply-term-premium-and-liquidity",
         "market_read": "UST duration rallied outside the very front end while supply and liquidity evidence stayed supportive but narrow.",
         "why_it_matters": "It keeps Fed pricing, curve shape, inflation compensation, and supply absorption in the same pricing mechanism.",
@@ -528,7 +292,7 @@
       },
       {
         "section_title": "Credit Conditions: Issuance, Refinancing, IG/HY Tone, And Borrower Tiering",
-        "summary": "Credit tone improved through liquid gauges, refinancing access, and borrower tiering.",
+        "summary": "Credit access looked constructive but selective across borrower quality. The section develops that read by showing that credit tone improved with the broader risk tape because lower Treasury yields, firmer equities, lower volatility, and better listed LQD/HYG/JNK/EMB all eased the session's financing backdrop. LQD rose 0.28%, HYG 0.35%, JNK 0.34%, and EMB 0.47%, which kept credit aligned with the Treasury move rather than treating the Treasury bid as a stress signal.",
         "section_id": "credit-conditions-issuance-refinancing-ig-hy-tone-and-borrower-tiering",
         "market_read": "Credit access looked constructive but selective across borrower quality.",
         "why_it_matters": "It separates funding access from broad borrower health.",
@@ -536,7 +300,7 @@
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "BoE, SNB, Norges Bank, Japan, and UK labor signals showed lower-yield support but no synchronized global dovish pivot.",
+        "summary": "Developed-market duration improved with commodity relief, while policy divergence kept non-U.S. curves from simply following Treasuries. The section develops that read by showing that global duration also improved, but the policy map was not synchronized. curve supplied a lower-yield anchor and softer oil reduced some inflation pressure, but non-U.S. The next check is watch gilt pricing, BoE dissent, SNB FX language, Norges guidance, Japan inflation, and yen pressure.",
         "section_id": "thesis-dm-global-duration",
         "market_read": "Developed-market duration improved with commodity relief, while policy divergence kept non-U.S. curves from simply following Treasuries.",
         "why_it_matters": "It separates the G10 duration check from EM and dollar-funded transmission.",
@@ -544,7 +308,7 @@
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Hard-currency EM joined duration relief while local markets faced dollar pressure.",
+        "summary": "Hard-currency EM benefited; local rates stayed FX-sensitive. The section develops that read by showing that EM transmission was constructive but uneven because the dollar moved against the rates relief. DXY rose on the day, week, and month, so lower U.S. The next check is watch DXY, CNH, LPRs, and sovereign funding. yields helped hard-currency EM more cleanly than local EM rates or currencies. It separates external debt beta from local policy defense.",
         "section_id": "thesis-em-rates-fx-and-hard-currency-credit",
         "market_read": "Hard-currency EM benefited; local rates stayed FX-sensitive.",
         "why_it_matters": "It separates external debt beta from local policy defense.",
@@ -552,7 +316,7 @@
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Oil, equities, volatility, dollar, and gold framed a benign but selective read.",
+        "summary": "Cross-assets accepted duration relief while DXY limited global transmission. The section develops that read by showing that cross-asset tape mostly supported the session's duration bid. Oil fell, breakevens edged lower, equities rallied, VIX compressed, and listed credit plus EM debt gauges rose. The next check is watch oil, VIX, equities, DXY, and funding tone. That combination says the Treasury rally was received as easier financial conditions or benign disinflation rather than as a recessionary safety bid.",
         "section_id": "thesis-cross-asset-confirmation",
         "market_read": "Cross-assets accepted duration relief while DXY limited global transmission.",
         "why_it_matters": "It shows risk appetite joined, not fled, the rally.",
@@ -560,7 +324,7 @@
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Inflation, auctions, growth, policy, funding, and FX shape extension.",
+        "summary": "Constructive duration can broaden if funding and dollar checks cooperate. The section develops that read by showing that june 18 close matters because lower intermediate yields, softer breakevens, firmer equities, and lower volatility pointed in the same constructive direction. DXY strength, gold weakness, and a nearly unchanged 2-year yield kept the move from becoming a clean dovish turn. The next check is track Core PCE, auctions, PMI, DXY, and funding.",
         "section_id": "thesis-market-significance-and-watchpoints",
         "market_read": "Constructive duration can broaden if funding and dollar checks cooperate.",
         "why_it_matters": "It turns the session into forward market thresholds.",

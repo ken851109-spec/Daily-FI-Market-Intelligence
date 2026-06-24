@@ -16,66 +16,8 @@
       "Credit stayed open, but issuer concessions still mattered.",
       "Pre-market softened duration while equities and oil stayed mixed."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Oil helped duration hold",
-        "summary": "Crude relief preserved duration even as UST10Y held 4.45%.",
-        "id": "close_read",
-        "tone": "supportive"
-      },
-      {
-        "label": "Policy",
-        "title": "Central banks kept the front end constrained",
-        "summary": "Fed, ECB, and BOJ risks kept easing hopes constrained.",
-        "id": "policy_constraint",
-        "tone": "constraint"
-      },
-      {
-        "label": "Credit",
-        "title": "Credit was open but price-sensitive",
-        "summary": "Issuer concessions and order-book quality were the real credit tests.",
-        "id": "credit_test",
-        "tone": "selective"
-      }
-    ],
     "ny_close_causal_narrative": "The NY close was a conditional duration hold: lower oil and positive risk tone preserved the weekly rally, while central-bank credibility and issuer-level credit pricing kept the extension test alive."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Oil relief stabilized Treasury duration",
-      "short_summary": "WTI and Brent fell, helping Treasuries preserve a strong weekly advance even as Fed hike risk stayed alive.",
-      "detail": "UST10Y closed around 4.45% and UST30Y around 4.99%, with the week showing larger yield declines than the day. The day's news flow linked the rally to lower oil prices and hopes for an Iran agreement, but Fed pricing still included about 25 bp of hikes by May 2027.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "UST10Y held at 4.45% while WTI fell 1.73% and Brent fell 1.77%, preserving the weekly duration rally.",
-      "transmission": "Lower crude reduced the immediate inflation shock and let duration stabilize without requiring a dovish Fed pivot.",
-      "confirmation": "10Y breakevens fell 1 bp to 2.38%, but 10Y TIPS rose 1 bp to 2.07%, so confirmation was partial."
-    },
-    {
-      "rank": 2,
-      "title": "Global central banks kept front-end risk hawkish",
-      "short_summary": "Fed, ECB, and BOJ facts all pointed to inflation vigilance rather than synchronized easing.",
-      "detail": "Schmid said the Fed should keep signaling its commitment to price stability, euro-area inflation stayed above the ECB comfort zone in major economies, and BOJ debate remained active despite slower Tokyo CPI. That kept the front end constrained even as crude declined.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "UST2Y fell only 1 bp and the 2s10s curve widened 1 bp, showing limited front-end relief.",
-      "transmission": "Fed hike optionality, ECB inflation concern, and BOJ normalization debate kept policy credibility in the foreground.",
-      "confirmation": "European inflation prints above 2% and Japan auction weakness confirmed that global duration risk was not only a US story."
-    },
-    {
-      "rank": 3,
-      "title": "Credit access stayed open but not cheap",
-      "short_summary": "Credit total returns were positive, yet the issuer evidence showed higher benchmark rates and wider required spreads in several funding channels.",
-      "detail": "Credit Agricole priced JPY 106.5 billion of samurai bonds at wider spreads, Japanese banks prepared heavy AT1 issuance, municipal funds drew large inflows, and distressed or transition borrowers still faced expensive terms. The market was receptive, not indiscriminate.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "market_move": "LQD, HYG, JNK, and EMB posted positive total returns, but issuer evidence still required spread and concession discipline.",
-      "transmission": "Credit was supported by rates and income demand, while samurai, AT1, municipal, and refinancing channels showed higher clearing costs.",
-      "confirmation": "Credit Agricole samurai pricing, Japanese AT1 supply, and municipal inflows confirmed access but not indiscriminate risk appetite."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Softer early tape: 10Y note fut -0.23%, S&P fut 0%, WTI -0%.",
@@ -328,49 +270,49 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames May 29 as a conditional duration hold rather than a fresh one-day Treasury shock.",
+        "summary": "Oil relief preserved the weekly rally while policy risk kept the front end constrained. The section develops that read by showing that may 29 close was less about a new one-day Treasury shock than about whether the market could preserve the week's duration rally as oil prices fell.",
         "market_read": "Oil relief preserved the weekly rally while policy risk kept the front end constrained.",
         "why_it_matters": "The opening separates NY-close causality from later pre-market updates and avoids overstating a flat 10Y move.",
         "next_check": "Check whether crude and breakevens keep validating the lower-inflation impulse."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Combines cash yields, curve shape, Fed pricing, supply, and liquidity into one UST channel.",
+        "summary": "Front-end relief was limited, curve steepening was modest, and supply evidence was more global than Treasury-specific. The section develops that read by showing that cash rates move was quiet but informative. A 1 bp decline in UST2Y and a flat UST10Y do not by themselves create a strong directional signal. The next check is watch 2Y yields, 2s10s, auction demand, and repo/liquidity tone.",
         "market_read": "Front-end relief was limited, curve steepening was modest, and supply evidence was more global than Treasury-specific.",
         "why_it_matters": "The UST read depends on policy credibility and clearing price, not only lower oil.",
         "next_check": "Watch 2Y yields, 2s10s, auction demand, and repo/liquidity tone."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates positive credit ETF total returns from issuer-level spread and concession evidence.",
+        "summary": "Credit access remained open, but samurai, AT1, municipal, and refinancing examples showed price sensitivity. The section develops that read by showing that credit conditions were open, but not easy in a way that should be generalized from ETF prices. LQD, HYG, JNK, and EMB all posted positive total returns on the day. The next check is track new-issue concessions, order-book quality, and direct spread measures.",
         "market_read": "Credit access remained open, but samurai, AT1, municipal, and refinancing examples showed price sensitivity.",
         "why_it_matters": "The credit signal is stronger when borrower clearing confirms ETF performance.",
         "next_check": "Track new-issue concessions, order-book quality, and direct spread measures."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Splits ECB and BOJ duration pressure from EM and cross-asset confirmation.",
+        "summary": "Europe and Japan both kept inflation and normalization risk alive even as oil eased. The section develops that read by showing that ECB facts were especially important: inflation in the euro area's largest economies stayed above 2%, with readings such as 2.7% in Germany, 2.8% in France, 3.3% in Italy, and 3.6% in Spain.",
         "market_read": "Europe and Japan both kept inflation and normalization risk alive even as oil eased.",
         "why_it_matters": "DM policy divergence affects global duration clearing and relative value for US Treasuries.",
         "next_check": "Watch ECB hike debate, Tokyo inflation, JGB auctions, and BOJ communication."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Reads EM through dollar funding, local policy credibility, and hard-currency refinancing rather than generic beta.",
+        "summary": "DXY softness helped the day, but May dollar positioning and Fed hike pricing kept refinancing hurdles elevated. The section develops that read by showing that dollar had rallied in May as investors priced a higher probability of Fed hikes by early 2027, although DXY slipped on the day. Colombia, Brazil, and South Africa each appeared in the news flow as markets where policy credibility, fiscal needs, or green-finance supply mattered.",
         "market_read": "DXY softness helped the day, but May dollar positioning and Fed hike pricing kept refinancing hurdles elevated.",
         "why_it_matters": "EM stress can reappear even when EMB total return is positive if dollar funding tightens.",
         "next_check": "Track DXY, EM hard-currency spreads, and local policy credibility headlines."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Reads equities, volatility, DXY, gold, and oil against FI tone.",
+        "summary": "Risk assets and lower oil supported the close, while gold kept a hedge signal in the tape. The section develops that read by showing that cross-asset confirmation was constructive enough for the close. That helped explain why credit total returns were positive and why Treasuries did not give back their weekly gains. The next check is check Stock-index futures, VIX, DXY, oil, gold, and direct spreads. Gold's rise, however, kept a hedge signal in the tape.",
         "market_read": "Risk assets and lower oil supported the close, while gold kept a hedge signal in the tape.",
         "why_it_matters": "Cross-asset confirmation shows whether the duration rally is becoming broader financial-condition easing.",
         "next_check": "Check Stock-index futures, VIX, DXY, oil, gold, and direct spreads."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Turns the closing thesis into oil, policy, and credit-clearing validation tests.",
+        "summary": "The close was constructive but conditional, with extension dependent on evidence still ahead. The section develops that read by showing that first implication is that oil remained the swing factor. The Treasury market had rallied over the week as crude fell and hopes for an Iran agreement improved. The next check is use oil/breakevens, policy communication, and primary-market clearing as the next proof points.",
         "market_read": "The close was constructive but conditional, with extension dependent on evidence still ahead.",
         "why_it_matters": "Watchpoints prevent future events from being misclassified as realized NY-close drivers.",
         "next_check": "Use oil/breakevens, policy communication, and primary-market clearing as the next proof points."
@@ -378,158 +320,6 @@
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "market_take",
-        "label": "1",
-        "title": "Duration Hold",
-        "summary": "Start with the small daily Treasury move and the larger weekly oil-relief context.",
-        "tone": "primary"
-      },
-      {
-        "id": "policy_filter",
-        "label": "2",
-        "title": "Policy Constraint",
-        "summary": "Then separate lower oil from Fed, ECB, and BOJ reluctance to validate easier conditions.",
-        "tone": "evidence"
-      },
-      {
-        "id": "credit_validation",
-        "label": "3",
-        "title": "Credit Clearing",
-        "summary": "Finish with issuer concessions and order-book quality.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Treasuries held the weekly oil-relief rally",
-        "detail": "UST10Y held 4.45%; UST30Y rose to 4.99%.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "3.98%",
-            "change": "-1 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.45%",
-            "change": "flat",
-            "tone": "neutral"
-          },
-          {
-            "label": "UST30Y",
-            "value": "4.99%",
-            "change": "+1 bp",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "inflation",
-        "label": "Inflation",
-        "headline": "Breakeven relief was helpful but incomplete",
-        "detail": "Breakevens eased while real yields kept policy risk alive.",
-        "emphasis": "Constraint",
-        "signals": [
-          {
-            "label": "10Y breakeven",
-            "value": "2.38%",
-            "change": "-1 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "10Y TIPS",
-            "value": "2.07%",
-            "change": "+1 bp",
-            "tone": "mixed"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit access stayed open at a price",
-        "detail": "Primary evidence showed access, but investor compensation still mattered.",
-        "emphasis": "Evidence hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "109.36",
-            "change": "+0.07%",
-            "tone": "supportive"
-          },
-          {
-            "label": "HYG",
-            "value": "80.31",
-            "change": "+0.16%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "premarket",
-        "label": "Pre-market",
-        "headline": "Treasury futures softened while equities held firm",
-        "detail": "Treasury futures faded while Stock-index futures stayed flat.",
-        "emphasis": "Separate update",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.83",
-            "change": "-0.23%",
-            "tone": "challenging"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,595.75",
-            "change": "flat",
-            "tone": "neutral"
-          },
-          {
-            "label": "Gold fut",
-            "value": "4,593.00",
-            "change": "+0.71%",
-            "tone": "hedge"
-          }
-        ]
-      },
-      {
-        "id": "watch",
-        "label": "Forward Watch",
-        "headline": "Oil, central banks, and primary credit are the validation tests",
-        "detail": "Oil, policy, and new issues decide extension.",
-        "emphasis": "Validation framework",
-        "signals": [
-          {
-            "label": "Oil",
-            "value": "inflation impulse",
-            "change": "breakeven channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Policy",
-            "value": "Fed/ECB/BOJ",
-            "change": "front-end channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Credit",
-            "value": "primary clearing",
-            "change": "spread channel",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",

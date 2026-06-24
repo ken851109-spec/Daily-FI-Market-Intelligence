@@ -16,84 +16,8 @@
       "Equities fell, VIX jumped, DXY rose, and gold dropped.",
       "Listed credit funds fell; AI, energy, Senegal, Raizen, and private credit cleared selectively."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Payrolls repriced the front end",
-        "summary": "Strong labor data pushed policy-sensitive yields sharply higher and flattened the curve.",
-        "id": "close_read",
-        "tone": "bearish"
-      },
-      {
-        "label": "Real Yields",
-        "title": "Real rates did the damage",
-        "summary": "TIPS rose while breakevens were flat, so the move was not a fresh breakeven inflation scare.",
-        "id": "real_yields",
-        "tone": "constraint"
-      },
-      {
-        "label": "Credit",
-        "title": "Credit stayed open but selective",
-        "summary": "Large sponsored financings could clear, while weaker refinancing and EM stories remained exposed.",
-        "id": "credit_quality",
-        "tone": "selective"
-      }
-    ],
     "ny_close_causal_narrative": "The NY close was a payroll-driven Fed-path repricing: front-end yields jumped, real yields led the selloff, cross-asset stress confirmed tighter financial conditions, and credit stayed open only for stronger or better-compensated borrowers."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Payrolls reset Fed pricing",
-      "short_summary": "A stronger labor print moved the policy-sensitive curve higher and pulled hike pricing back into the center of the tape.",
-      "detail": "May job growth near 172,000 with unemployment around 4.3% pushed UST2Y up 12 bp and UST5Y up 11 bp, while swaps priced a meaningful chance of Fed tightening by year-end.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "UST",
-        "Fed",
-        "Curve"
-      ],
-      "driver_type": "policy",
-      "market_move": "UST2Y rose 12 bp to 4.17%, UST5Y rose 11 bp to 4.29%, and 2s10s flattened to 38 bp.",
-      "transmission": "Payroll resilience reduced confidence that policy was already restrictive enough and pulled hike pricing back into the curve.",
-      "confirmation": "Swaps pricing and the front-end-led move confirmed this was Fed-path repricing rather than long-end supply alone."
-    },
-    {
-      "rank": 2,
-      "title": "Real-yield shock hit risk assets",
-      "short_summary": "Higher real yields pressured growth equities, gold, the dollar-sensitive risk tape, and credit listed fund total-return gauges even though crude fell on the day.",
-      "detail": "TIPS10Y rose 8 bp, gold fell 3.10%, SOX dropped 10.26%, VIX jumped nearly 40%, and the dollar gained 0.66%, creating a broad real-rate confirmation of the Treasury selloff.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "TIPS",
-        "USD",
-        "Equities"
-      ],
-      "driver_type": "cross_asset",
-      "market_move": "10Y TIPS rose 8 bp, SOX fell 10.26%, VIX jumped 39.68%, DXY rose 0.66%, and gold fell 3.10%.",
-      "transmission": "Higher real yields lifted discount rates and tightened financial conditions across growth equities, gold, credit, and FX.",
-      "confirmation": "Flat 10Y breakevens and lower crude showed the shock was real-yield-led, not breakeven-led."
-    },
-    {
-      "rank": 3,
-      "title": "Credit stayed open but selective",
-      "short_summary": "Primary demand existed for quality structures, while weaker and EM borrowers remained exposed to refinancing and policy credibility risk.",
-      "detail": "Google-linked prepaid energy demand and AI infrastructure financing showed access for strong sponsorship and collateral stories, while Senegal coupon timing, Raizen restructuring, and private-credit selectivity showed weaker borrowers still needed more compensation.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "Credit",
-        "EM",
-        "Funding"
-      ],
-      "driver_type": "credit",
-      "market_move": "LQD, HYG, JNK, and EMB fell while AI infrastructure and quality structures still showed selective access.",
-      "transmission": "Higher all-in yields made weaker refinancing and EM names more exposed even as sponsored infrastructure financing remained fundable.",
-      "confirmation": "Google-linked prepaid energy, Anthropic debt, Senegal, Raizen, and private-credit selectivity confirmed borrower tiering."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Softer early tape: 10Y note fut -0.24%, S&P fut 0%, WTI -0%.",
@@ -185,7 +109,7 @@
       "channel": "Fed / front end",
       "watch_line": "Fed communication needs to show whether the payroll-driven hike repricing is validated or resisted.",
       "market_trigger": "Statement or projections keep hikes live after payrolls.",
-      "market_implication": "Validation would keep UST2Y and UST5Y under pressure and support the dollar.",
+      "market_implication": "market check would keep UST2Y and UST5Y under pressure and support the dollar.",
       "why_it_matters": "Markets had moved toward hike pricing; the first Warsh-led meeting would test whether the Fed validates or resists that repricing.",
       "confirms_if": "Fed language validates inflation vigilance and hike optionality.",
       "challenges_if": "Fed language resists market tightening and leans toward growth caution.",
@@ -208,7 +132,7 @@
     },
     {
       "id": "oil_real_yield_follow_through",
-      "title": "Oil and real-yield follow-through",
+      "title": "Oil and real-yield next-leg confirmation",
       "date": "2026-06-06",
       "date_or_window": "2026-06-06",
       "category": "Cross-asset",
@@ -341,214 +265,56 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 5 as a payroll-driven front-end repricing that broadened into real-yield and cross-asset stress.",
+        "summary": "The curve sold off from the policy-sensitive front end and tightened financial conditions across risk assets. The section develops that read by showing that june 5 was a classic front-end-led repricing day, but the important point is broader than the phrase “Treasuries sold off.” The market absorbed a payroll print strong enough to challenge the idea that policy was already restrictive, then repriced the Fed path, the dollar, equities, gold, credit risk, and parts of global duration around that same inflation-control problem.",
         "market_read": "The curve sold off from the policy-sensitive front end and tightened financial conditions across risk assets.",
         "why_it_matters": "The opening anchors the close in payroll/Fed repricing rather than generic Treasury weakness.",
-        "next_check": "Watch Fed communication and payroll follow-through."
+        "next_check": "Watch Fed communication and payroll next-leg confirmation."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Integrates payrolls, Fed pricing, front-end curve flattening, supply, and AI capital demand into one UST channel.",
+        "summary": "The move was a front-end Fed-path repricing with real-yield confirmation. The section develops that read by showing that rates move was driven by the policy-sensitive part of the curve. UST2Y up 12 bp and UST5Y up 11 bp against UST30Y up 4 bp tells a straightforward story: the market shifted from a long-end term-premium debate into a front-end Fed-path repricing. The next check is track UST2Y/5Y, 2s10s, swaps pricing, and AI-related debt supply.",
         "market_read": "The move was a front-end Fed-path repricing with real-yield confirmation.",
         "why_it_matters": "UST logic stays coherent instead of scattering payroll, supply, and liquidity across modules.",
         "next_check": "Track UST2Y/5Y, 2s10s, swaps pricing, and AI-related debt supply."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates weaker listed-fund price moves from selective borrower-level credit access.",
+        "summary": "Credit weakened with rates, but sponsored infrastructure and quality structures still had access. The section develops that read by showing that credit conditions were mixed in a way that matters more than the listed fund tape alone. LQD, HYG, JNK, and EMB all fell, but those losses include duration and rates effects. The next check is watch AI infrastructure pricing, private-credit selectivity, EM coupons, and restructuring headlines.",
         "market_read": "Credit weakened with rates, but sponsored infrastructure and quality structures still had access.",
         "why_it_matters": "The credit read depends on borrower tiering and concessions, not listed fund beta alone.",
         "next_check": "Watch AI infrastructure pricing, private-credit selectivity, EM coupons, and restructuring headlines."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Uses Canada as developed-market confirmation that labor resilience can reprice front-end rates beyond the US.",
+        "summary": "Canada showed that payroll-driven tightening risk was not isolated to Treasuries; local jobs strength also pushed its front end higher. The section develops that read by showing that global-duration input set was thinner than the U.S. and credit evidence, so the global read rests on confirmed non-U.S. The next check is watch Canada rates and other labor-linked DM front ends.",
         "market_read": "Canada showed that payroll-driven tightening risk was not isolated to Treasuries; local jobs strength also pushed its front end higher.",
         "why_it_matters": "DM confirmation matters because front-end repricing becomes more durable when multiple labor markets challenge easing assumptions.",
         "next_check": "Watch Canada rates and other labor-linked DM front ends."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Reads EM through Colombia inflation, China capital-flow controls, Senegal coupon timing, and dollar funding pressure.",
+        "summary": "EM stories depended on policy credibility, capital mobility, and external funding rather than broad beta. The section develops that read by showing that EM and commodity-linked signals added a more complicated layer. Colombian inflation accelerated to 5.84%, creating pressure for policymakers to consider tighter settings. The next check is track DXY, Colombia policy, China outflows, Senegal IMF path, and distressed EM credits.",
         "market_read": "EM stories depended on policy credibility, capital mobility, and external funding rather than broad beta.",
         "why_it_matters": "A stronger dollar and higher US real yields tighten hard-currency conditions.",
         "next_check": "Track DXY, Colombia policy, China outflows, Senegal IMF path, and distressed EM credits."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Tests whether dollar, gold, VIX, equities, oil, and credit listed fund total-return gauges aligned with the real-yield shock.",
+        "summary": "DXY firmness, lower gold, higher VIX, weaker equities, and weaker credit confirmed the real-yield shock despite lower crude. The section develops that read by showing that dollar rose, gold fell, VIX spiked, and equities sold off hard. That combination is consistent with a rates-led tightening shock rather than a soft-landing rally. The next check is watch TIPS, DXY, gold, VIX, SOX, and direct credit spreads.",
         "market_read": "DXY firmness, lower gold, higher VIX, weaker equities, and weaker credit confirmed the real-yield shock despite lower crude.",
         "why_it_matters": "Cross-asset confirmation shows why this was not an oil-led breakeven scare or soft-landing rally.",
         "next_check": "Watch TIPS, DXY, gold, VIX, SOX, and direct credit spreads."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Turns the close into Fed-communication, AI-credit, and oil-versus-real-yield validation tests.",
-        "market_read": "The selloff remains live unless Fed language, AI credit pricing, and real-yield follow-through soften.",
+        "summary": "The selloff remains live unless Fed language, AI credit pricing, and real-yield next-leg confirmation soften. The section develops that read by showing that first watchpoint after June 5 was whether Fed communication would validate or resist the hike pricing. With the first Warsh-led meeting approaching, the market had already moved toward a higher-for-longer or outright-tightening stance. The next check is use Warsh Fed communication, AI credit pricing, and TIPS/oil cross-asset behavior as proof points.",
+        "market_read": "The selloff remains live unless Fed language, AI credit pricing, and real-yield next-leg confirmation soften.",
         "why_it_matters": "Forward Watch adds proof criteria instead of repeating the thesis.",
         "next_check": "Use Warsh Fed communication, AI credit pricing, and TIPS/oil cross-asset behavior as proof points."
       }
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "payroll_repricing",
-        "label": "1",
-        "title": "Fed Repricing",
-        "summary": "Start with payrolls and the front-end curve move that pulled hike pricing back into focus.",
-        "tone": "primary"
-      },
-      {
-        "id": "real_yield_confirmation",
-        "label": "2",
-        "title": "Real-Yield Shock",
-        "summary": "Then use TIPS, breakevens, dollar, gold, VIX, and equities to identify the real-rate channel.",
-        "tone": "evidence"
-      },
-      {
-        "id": "credit_validation",
-        "label": "3",
-        "title": "Selective Credit",
-        "summary": "Finish with whether AI infrastructure and other primary deals can clear after the real-yield shock.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Payrolls reset the policy-sensitive curve",
-        "detail": "UST2Y rose 12 bp and UST5Y rose 11 bp while 2s10s flattened to 38 bp.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.17%",
-            "change": "+12 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "UST5Y",
-            "value": "4.29%",
-            "change": "+11 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "2s10s",
-            "value": "38 bp",
-            "change": "-4 bp",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "real_yields",
-        "label": "Real Yields",
-        "headline": "TIPS confirmed real-rate pressure",
-        "detail": "10Y TIPS rose 8 bp while breakevens were flat, making the selloff real-yield-led.",
-        "emphasis": "Confirmation",
-        "signals": [
-          {
-            "label": "10Y TIPS",
-            "value": "2.19%",
-            "change": "+8 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y breakeven",
-            "value": "2.36%",
-            "change": "flat",
-            "tone": "neutral"
-          }
-        ]
-      },
-      {
-        "id": "cross_asset",
-        "label": "Cross-Asset",
-        "headline": "Risk assets confirmed tighter conditions",
-        "detail": "SOX dropped 10.26%, VIX jumped 39.68%, DXY rose, and gold fell despite lower crude.",
-        "emphasis": "Cross-asset confirmation",
-        "signals": [
-          {
-            "label": "SOX",
-            "value": "12,220.76",
-            "change": "-10.26%",
-            "tone": "challenging"
-          },
-          {
-            "label": "VIX",
-            "value": "21.51",
-            "change": "+39.68%",
-            "tone": "challenging"
-          },
-          {
-            "label": "DXY",
-            "value": "100.07",
-            "change": "+0.66%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "premarket",
-        "label": "Pre-market",
-        "headline": "Morning handoff kept duration soft",
-        "detail": "Treasury futures fell while equities and oil were flat.",
-        "emphasis": "Separate update",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.08",
-            "change": "-0.24%",
-            "tone": "challenging"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,400.50",
-            "change": "flat",
-            "tone": "neutral"
-          },
-          {
-            "label": "Gold fut",
-            "value": "4,365.30",
-            "change": "+0.65%",
-            "tone": "hedge"
-          }
-        ]
-      },
-      {
-        "id": "watch",
-        "label": "Forward Watch",
-        "headline": "Fed communication, AI credit pricing, and real yields are the tests",
-        "detail": "Watch Fed validation and AI credit pricing after equity volatility.",
-        "emphasis": "Validation framework",
-        "signals": [
-          {
-            "label": "Fed",
-            "value": "Warsh meeting",
-            "change": "front-end channel",
-            "tone": "watch"
-          },
-          {
-            "label": "AI credit",
-            "value": "deal pricing",
-            "change": "credit channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Real yields",
-            "value": "TIPS/gold/equities",
-            "change": "cross-asset channel",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",

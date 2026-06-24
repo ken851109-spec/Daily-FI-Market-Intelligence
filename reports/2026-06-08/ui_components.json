@@ -16,66 +16,8 @@
       "Oil rose again despite lower VIX and stronger equities.",
       "HY firmed, but LQD and EMB lagged."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Relief did not reach the long end",
-        "summary": "UST2Y eased, but 10s and 30s rose.",
-        "id": "close_read",
-        "tone": "watch"
-      },
-      {
-        "label": "Inflation",
-        "title": "Oil kept policy compensation alive",
-        "summary": "Higher oil kept inflation risk in rates pricing.",
-        "id": "inflation_tail",
-        "tone": "constraint"
-      },
-      {
-        "label": "Credit",
-        "title": "Credit evidence stayed selective",
-        "summary": "HY firmed, but borrower funding evidence mattered more.",
-        "id": "credit_quality",
-        "tone": "selective"
-      }
-    ],
     "ny_close_causal_narrative": "The June 8 NY close showed front-end Fed panic easing, but the long end still demanded compensation for energy, real-yield, and term-premium risk; that is why stronger equities did not translate into a broad duration rally."
   },
-  "top_drivers": [
-    {
-      "title": "Long-end resistance replaced front-end panic",
-      "short_summary": "The curve steepened as the front end stopped extending Friday’s selloff but duration still demanded inflation and policy compensation.",
-      "detail": "UST 2Y fell 2 bp while 10Y rose 1 bp and 30Y rose 2 bp; the 10Y real yield rose even as equities recovered.",
-      "market_move": "2Y -2 bp, 10Y +1 bp, 30Y +2 bp, with 2s10s about 3 bp steeper.",
-      "transmission": "Front-end Fed panic cooled, but long-end investors still priced energy, real-yield, and term-premium risk.",
-      "confirmation": "The read needs follow-through in lower 10Y/30Y yields; otherwise the steepening remains the dominant rates signal.",
-      "rank": 1,
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "title": "Oil and global central banks kept inflation risk alive",
-      "short_summary": "Energy strength and overseas policy credibility concerns made the rates backdrop global rather than purely U.S. payroll-driven.",
-      "detail": "WTI rose to roughly 91.30 and Brent to 94.25, while ECB-style credibility risks and other DM inflation signals kept duration demand conditional.",
-      "market_move": "WTI +0.84% and Brent +1.25% alongside a higher 10Y real yield.",
-      "transmission": "Energy pressure narrowed the room for central banks to treat the equity rebound as a clean easing impulse.",
-      "confirmation": "Lower oil and softer DM inflation data would confirm relief; firmer crude would keep the long end exposed.",
-      "rank": 2,
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "title": "Credit stayed open but borrower selection tightened",
-      "short_summary": "AI-linked borrowers still had funding access, while FX maturities and opaque private credit kept credit selection narrow.",
-      "detail": "HYG and JNK firmed modestly, but LQD and EMB lagged; funding breadth still depended on issuance, spread evidence, and borrower quality.",
-      "market_move": "HY listed funds rose slightly while LQD and EMB declined.",
-      "transmission": "Capital remained available for visible growth and infrastructure stories, but currency mismatch and private-credit opacity limited the breadth of the signal.",
-      "confirmation": "Primary issuance, spread measures, and offshore demand need to confirm before the session can be called broad credit easing.",
-      "rank": 3,
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Mixed early tape: 10Y note fut -0.33%, S&P fut -0.2%, WTI +0.14%.",
@@ -314,215 +256,56 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The day stabilized risk assets but left fixed-income compensation in the long end.",
+        "summary": "Relief without a duration all-clear. The section develops that read by showing that june 8 was not a clean reversal of the June 5 rates shock. It was a more uneven session in which the front end stopped leading the selloff, the long end stayed heavy, technology equities rebounded, and global inflation risk remained alive through oil and non-U.S. The next check is whether lower front-end pressure pulls long yields down.",
         "market_read": "Relief without a duration all-clear.",
         "why_it_matters": "It keeps the report anchored on NY-close causality instead of treating equities as the whole signal.",
         "next_check": "Whether lower front-end pressure pulls long yields down."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Front-end yields eased while 10s and 30s rose, steepening the curve.",
+        "summary": "Risk moved from Fed panic to term premium and real-yield compensation. The section develops that read by showing that treasury close carried a different message from June 5. UST2Y moved down 2 bp, while UST10Y and UST30Y rose 1 bp and 2 bp. The next check is 10Y/30Y next-leg confirmation versus renewed steepening. That bear-steepening pattern is less about immediate front-end panic and more about the market asking whether long-end compensation is sufficient while inflation risks persist.",
         "market_read": "Risk moved from Fed panic to term premium and real-yield compensation.",
         "why_it_matters": "USTs are the transmission channel for the whole report.",
-        "next_check": "10Y/30Y follow-through versus renewed steepening."
+        "next_check": "10Y/30Y next-leg confirmation versus renewed steepening."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Credit stayed open for selected borrowers, with funding evidence still selective.",
+        "summary": "Constructive tone, selective proof. The section develops that read by showing that credit conditions on June 8 were better than the prior equity panic, but still selective. The listed credit fund tape was mixed: HYG and JNK rose slightly, LQD declined a little, and EMB weakened. The next check is watch primary demand, concessions, and spread measures. Because those prices include duration and rates effects, they should not be read as clean spread measures.",
         "market_read": "Constructive tone, selective proof.",
         "why_it_matters": "Borrower funding and primary demand matter more than listed fund moves.",
         "next_check": "Watch primary demand, concessions, and spread measures."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Foreign demand and central-bank credibility shaped developed-market duration.",
+        "summary": "Conditional demand can stabilize but not erase inflation risk. The section develops that read by showing that japan was important because domestic investors had shown willingness to buy foreign bonds when U.S. The record foreign-bond purchases attributed to Japanese pension-fund accounts in May suggest that yield differentials can pull overseas money toward U.S. The next check is foreign buying and oil-sensitive central-bank rhetoric.",
         "market_read": "Conditional demand can stabilize but not erase inflation risk.",
         "why_it_matters": "It separates DM duration from EM balance-sheet stress.",
         "next_check": "Foreign buying and oil-sensitive central-bank rhetoric."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "FX defense, fiscal credibility, and refinancing risk kept EM hard-currency credit selective.",
+        "summary": "No broad break, but clear funding fault lines. The section develops that read by showing that EM hard-currency credit was also under pressure through country-specific channels. Indonesia-related stress and FX defense were part of the regional backdrop. The next check is dollar issuance reception and local FX pressure. Philippine corporate maturities added a private-sector refinancing layer. It prevents EMB weakness from being treated as a generic risk-off footnote.",
         "market_read": "No broad break, but clear funding fault lines.",
         "why_it_matters": "It prevents EMB weakness from being treated as a generic risk-off footnote.",
         "next_check": "Dollar issuance reception and local FX pressure."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Equities and VIX confirmed relief, while oil and long-end yields challenged a full easing read.",
+        "summary": "Risk appetite improved but inflation compensation persisted. The section develops that read by showing that equities rebounded and VIX fell, which argued against an accelerating risk-off event. Oil rose, which argued against declaring inflation pressure finished. The next check is whether oil, VIX, and direct credit-spread or issuance evidence align. The dollar was flat, gold was flat, and credit was mixed. Cross-assets validate which parts of the FI thesis are robust.",
         "market_read": "Risk appetite improved but inflation compensation persisted.",
         "why_it_matters": "Cross-assets validate which parts of the FI thesis are robust.",
         "next_check": "Whether oil, VIX, and direct credit-spread or issuance evidence align."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "The report converts the thesis into conditions that would confirm or challenge it.",
-        "market_read": "Validation matters more than repeating the same caveat.",
+        "summary": "market check matters more than repeating the same caveat. The section develops that read by showing that market had stepped back from Friday’s most aggressive front-end impulse, but December hike pricing remained in the frame. If incoming inflation data confirmed sticky prices, the front end could regain leadership. The next check is fed pricing, foreign demand, and FX refinancing evidence.",
+        "market_read": "market check matters more than repeating the same caveat.",
         "why_it_matters": "Forward Watch stays separate from realized Top Drivers.",
         "next_check": "Fed pricing, foreign demand, and FX refinancing evidence."
       }
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "ust_curve",
-        "label": "1",
-        "title": "UST Curve",
-        "summary": "Start with the 2Y rally versus 10Y/30Y selloff.",
-        "tone": "primary"
-      },
-      {
-        "id": "credit_hierarchy",
-        "label": "2",
-        "title": "Credit Hierarchy",
-        "summary": "Use listed funds only as context; test credit through issuance, refinancing, and borrower quality.",
-        "tone": "selective"
-      },
-      {
-        "id": "dm_em_split",
-        "label": "3",
-        "title": "DM / EM Split",
-        "summary": "Read foreign duration demand separately from EM FX and hard-currency refinancing pressure.",
-        "tone": "mixed"
-      },
-      {
-        "id": "cross_asset_confirmation",
-        "label": "4",
-        "title": "Cross-Asset Check",
-        "summary": "Equities and VIX confirmed relief, while oil and long-end yields challenged a clean all-clear.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Curve steepening replaced front-end panic",
-        "detail": "UST2Y fell while 10Y and 30Y rose.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.15%",
-            "change": "-2 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.56%",
-            "change": "+1 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "2s10s",
-            "value": "41 bp",
-            "change": "+3 bp",
-            "tone": "watch"
-          }
-        ]
-      },
-      {
-        "id": "inflation",
-        "label": "Inflation",
-        "headline": "Oil kept the inflation tail open",
-        "detail": "Oil rose, limiting the equity-led duration relief.",
-        "emphasis": "macro constraint",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "91.30",
-            "change": "+0.84%",
-            "tone": "challenging"
-          },
-          {
-            "label": "Brent",
-            "value": "94.25",
-            "change": "+1.25%",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y BE",
-            "value": "2.35%",
-            "change": "-1 bp",
-            "tone": "mixed"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit was open but not broadly confirmed",
-        "detail": "HY firmed, but LQD and EMB lagged.",
-        "emphasis": "selection risk",
-        "signals": [
-          {
-            "label": "HYG",
-            "value": "79.54",
-            "change": "+0.14%",
-            "tone": "supportive"
-          },
-          {
-            "label": "LQD",
-            "value": "108.06",
-            "change": "-0.10%",
-            "tone": "mixed"
-          },
-          {
-            "label": "EMB",
-            "value": "95.28",
-            "change": "-0.13%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "dm_duration",
-        "label": "DM",
-        "headline": "Foreign duration support was conditional",
-        "detail": "Foreign demand helped, but DM inflation risk stayed sticky.",
-        "emphasis": "global duration",
-        "signals": [
-          {
-            "label": "Japan demand",
-            "value": "foreign bonds",
-            "change": "supportive if yields compensate",
-            "tone": "watch"
-          },
-          {
-            "label": "ECB risk",
-            "value": "energy credibility",
-            "change": "policy constraint",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "em_fx",
-        "label": "EM",
-        "headline": "FX and hard-currency tests stayed active",
-        "detail": "Asia FX and offshore funding kept EM selective.",
-        "emphasis": "funding test",
-        "signals": [
-          {
-            "label": "EMB",
-            "value": "95.28",
-            "change": "-0.13%",
-            "tone": "challenging"
-          },
-          {
-            "label": "FX refinancing",
-            "value": "Asia maturities",
-            "change": "watch",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",

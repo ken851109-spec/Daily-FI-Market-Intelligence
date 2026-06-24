@@ -18,84 +18,8 @@
       "WTI, Brent, DXY, and VIX rose; gold fell.",
       "Listed credit funds fell, but selective issuance stayed open."
     ],
-    "reader_takeaways": [
-      {
-        "label": "NY Close",
-        "title": "Real yields drove the selloff",
-        "summary": "Nominal yields rose while breakevens fell, so the rates damage came through real-rate compensation.",
-        "id": "close_read",
-        "tone": "bearish"
-      },
-      {
-        "label": "Policy",
-        "title": "Oil and Fed risk kept pressure on",
-        "summary": "Higher crude, a firmer dollar, and policy-credibility risk made the selloff harder than a growth scare.",
-        "id": "policy_oil",
-        "tone": "constraint"
-      },
-      {
-        "label": "Credit",
-        "title": "Issuance was open but selective",
-        "summary": "listed-fund weakness sat beside Bahrain, loan, and project-finance activity, keeping borrower quality central.",
-        "id": "credit_selectivity",
-        "tone": "selective"
-      }
-    ],
     "ny_close_causal_narrative": "The NY close was a real-yield-led rates selloff: jobs and Fed-path sensitivity lifted real yields, oil and DXY firmness confirmed policy pressure, and credit stayed open only for better-compensated or stronger borrowers."
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Real yields drove the Treasury selloff",
-      "short_summary": "UST10Y rose 3 bp to 4.49%, UST5Y rose 4 bp to 4.21%, and 10Y TIPS rose 4 bp while 10Y breakevens slipped 1 bp.",
-      "detail": "The selloff was not an inflation-breakeven surge. It was closer to a real-rate repricing: nominal yields rose, 10Y TIPS moved up by more than the nominal 10Y, and the curve stayed broadly controlled. The day's reporting tied the move to a jobs-gauge reaction, oil-linked inflation concern, and options demand for higher 10-year yields.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "UST",
-        "TIPS",
-        "Fed"
-      ],
-      "driver_type": "rates",
-      "market_move": "UST10Y rose 3 bp to 4.49% and 10Y TIPS rose 4 bp to 2.11% while 10Y breakevens fell 1 bp.",
-      "transmission": "The market demanded more real return for duration as jobs, oil, and Fed-path risk raised the policy hurdle.",
-      "confirmation": "The curve stayed controlled, so the move was a real-yield repricing rather than a disorderly long-end liquidation."
-    },
-    {
-      "rank": 2,
-      "title": "Oil and policy risk overruled soft-growth comfort",
-      "short_summary": "WTI rose 2.41% to 96.02, Brent rose 1.89% to 97.81, DXY rose 0.31%, and VIX rose 1.84%.",
-      "detail": "Cross-asset pricing was consistent with a market that had returned to inflation vigilance. Fed commentary, Beige Book energy-cost references, and a dollar-sensitive Warsh debut framed the June 16-17 meeting as a risk event. EM and Japan policy stories also showed that energy-driven inflation was forcing central banks to defend credibility.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "Oil",
-        "DXY",
-        "Fed"
-      ],
-      "driver_type": "cross_asset",
-      "market_move": "WTI rose 2.41%, Brent rose 1.89%, DXY rose 0.31%, and VIX rose 1.84% while SPX and NDX declined.",
-      "transmission": "Oil and DXY firmness turned policy credibility into a cross-asset constraint on rates and risk appetite.",
-      "confirmation": "Gold fell and SOX rose, narrowing the read to real-rate pressure rather than a full haven scramble."
-    },
-    {
-      "rank": 3,
-      "title": "Credit weakened at the margin but issuance was not closed",
-      "short_summary": "LQD fell 0.28%, HYG fell 0.28%, JNK fell 0.22%, and EMB fell 0.37%, while Bahrain still cleared a dollar bond and leveraged financing remained active.",
-      "detail": "Credit was softer, but not frozen. Bahrain sold 1 billion dollars of bonds after a missile incident and tightened from initial price talk, while Belden-related loan financing and Canadian project debt showed primary-market activity. At the same time, software refinancing anxiety, bank and nonbank delinquency concerns, Zambia holdout risk and weaker ETF total returns made the credit read selective rather than broadly positive.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false,
-      "asset_tags": [
-        "Credit",
-        "EM",
-        "Funding"
-      ],
-      "driver_type": "credit",
-      "market_move": "LQD, HYG, JNK, and EMB fell, while Bahrain, leveraged financing, and project debt still cleared selectively.",
-      "transmission": "Higher real yields and credit scrutiny lifted the compensation required for weaker or complex borrowers.",
-      "confirmation": "Primary-market activity confirmed access remained open, but listed-fund weakness and borrower-specific stress argued against broad spread comfort."
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Softer early tape: 10Y note fut -0.17%, S&P fut -0.4%, WTI -0.69%.",
@@ -343,49 +267,49 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 3 as a real-yield-led rates-negative close rather than a breakeven inflation scare.",
+        "summary": "Treasuries sold off across the curve, with TIPS doing more damage than breakevens. The section develops that read by showing that june 3 close was the clearest rates-negative day in this three-day window. Treasuries sold off across the curve: UST2Y rose 3 bp to 4.08%, UST5Y rose 4 bp to 4.21%, UST10Y rose 3 bp to 4.49%, and UST30Y rose 2 bp to 4.99%.",
         "market_read": "Treasuries sold off across the curve, with TIPS doing more damage than breakevens.",
         "why_it_matters": "The opening identifies the actual rates channel before layering in oil, dollar, credit, and global policy evidence.",
-        "next_check": "Watch payrolls, wages, and Fed communication for real-yield follow-through."
+        "next_check": "Watch payrolls, wages, and Fed communication for real-yield next-leg confirmation."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Integrates real yields, curve shape, Fed path, supply, and liquidity into one UST channel.",
+        "summary": "The belly underperformed slightly and 10Y TIPS led the move, pointing to real-rate and Fed-path repricing. The section develops that read by showing that UST2Y rose 3 bp, UST5Y rose 4 bp, UST10Y rose 3 bp, and UST30Y rose 2 bp. 2s10s stayed at 41 bp, while 2s30s flattened 1 bp to 91 bp. The next check is track UST5Y, UST10Y, TIPS, payrolls, and options demand for higher yields.",
         "market_read": "The belly underperformed slightly and 10Y TIPS led the move, pointing to real-rate and Fed-path repricing.",
         "why_it_matters": "The section prevents the selloff from being mislabeled as only an oil or breakeven story.",
         "next_check": "Track UST5Y, UST10Y, TIPS, payrolls, and options demand for higher yields."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates weaker listed-fund returns from issuer-level clearing and borrower-quality evidence.",
+        "summary": "Credit softened but did not close; access depended on compensation, borrower strength, and structure. The section develops that read by showing that software and direct-lending comments sharpened the borrower-quality split. Lenders were becoming more selective around software because AI could challenge existing cash-flow staying power, and some direct lenders were described as bidding only when pricing was compelling enough. The next check is watch concessions, loan financing, software refinancing, direct-lending selectivity, and EM sovereign disputes.",
         "market_read": "Credit softened but did not close; access depended on compensation, borrower strength, and structure.",
         "why_it_matters": "The credit read needs primary-market and stress evidence rather than listed-fund gauges alone.",
         "next_check": "Watch concessions, loan financing, software refinancing, direct-lending selectivity, and EM sovereign disputes."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "Separates Japan and Australia policy/duration dynamics from EM hard-currency transmission.",
+        "summary": "Japan emphasized BOJ credibility and FX defense, while Australia showed slowdown and peak-rate demand for duration. The section develops that read by showing that ueda's remarks increased confidence that the BOJ could raise rates at the June meeting if inflation risk outweighed the growth shock, and traders were assigning high odds to a quarter-point move. At the same time, Japan had just spent a record amount supporting the yen and authorized household support while keeping calendar issuance unchanged.",
         "market_read": "Japan emphasized BOJ credibility and FX defense, while Australia showed slowdown and peak-rate demand for duration.",
         "why_it_matters": "DM markets showed different points on the inflation-growth tradeoff instead of one global direction.",
         "next_check": "Watch BOJ hike odds, yen pressure, Australia duration demand, and fiscal issuance optics."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Reads EM through reform credibility, dollar sensitivity, commodity exposure, and external financing risk.",
+        "summary": "Ghana and Hungary improved on credibility narratives, while India, Zambia, and broader EM central-bank pressure kept risks visible. The section develops that read by showing that ghana and Hungary showed the more constructive side of EM. Ghana raised its growth forecast, cited stronger reserves and lower inflation than a year earlier, even though another report showed inflation rising again in May.",
         "market_read": "Ghana and Hungary improved on credibility narratives, while India, Zambia, and broader EM central-bank pressure kept risks visible.",
         "why_it_matters": "EM transmission was about policy credibility and dollar funding, not generic beta.",
         "next_check": "Track DXY, EM central-bank reaction, India bond-access reforms, Ghana inflation, and Zambia creditor talks."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Tests whether oil, DXY, VIX, equities, gold, and listed credit funds confirmed the real-yield selloff.",
+        "summary": "Oil, DXY, VIX, equities, gold, and credit mostly confirmed a harder rates backdrop, with SOX showing AI leadership was the offset rather than the dominant FI signal. The section develops that read by showing that oil rose, the DXY firmnessened, gold fell, and VIX rose. SPX and NDX declined, though SOX held up. The next check is watch oil, DXY, VIX, gold, semiconductor leadership, and direct credit spreads.",
         "market_read": "Oil, DXY, VIX, equities, gold, and credit mostly confirmed a harder rates backdrop, with SOX showing AI leadership was the offset rather than the dominant FI signal.",
         "why_it_matters": "Cross-asset confirmation narrowed the story to real rates and policy pressure rather than generalized liquidation.",
         "next_check": "Watch oil, DXY, VIX, gold, semiconductor leadership, and direct credit spreads."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Turns the close into payroll, Fed-statement, and credit-clearing validation tests.",
+        "summary": "The selloff remains active until labor data, Fed communication, and primary credit either validate or soften it. The section develops that read by showing that further watchpoint is whether municipal and infrastructure financing remains insulated from the real-yield move. Alphabet-linked prepaid energy finance, Coastal GasLink-style project debt and other essential-service structures can clear even when broader credit softens. The next check is use payrolls/wages, Fed statement repricing, and new-issue clearing as the proof points.",
         "market_read": "The selloff remains active until labor data, Fed communication, and primary credit either validate or soften it.",
         "why_it_matters": "Watchpoints add next-proof criteria rather than repeating the thesis.",
         "next_check": "Use payrolls/wages, Fed statement repricing, and new-issue clearing as the proof points."
@@ -508,163 +432,5 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ],
-  "briefing_path": {
-    "items": [
-      {
-        "id": "real_yields",
-        "label": "1",
-        "title": "Real-Yield Shock",
-        "summary": "Start with TIPS and nominal yields to separate real-rate pressure from breakeven inflation.",
-        "tone": "primary"
-      },
-      {
-        "id": "policy_global",
-        "label": "2",
-        "title": "Policy Credibility",
-        "summary": "Then map Japan, Australia, India, and EM central-bank pressure into the global FI read.",
-        "tone": "evidence"
-      },
-      {
-        "id": "credit_selective",
-        "label": "3",
-        "title": "Selective Credit",
-        "summary": "Finish with credit clearing: issuance stayed open, but weaker listed funds and borrower risk demanded tiering.",
-        "tone": "watch"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Real yields led the Treasury selloff",
-        "detail": "UST10Y +3 bp; 10Y TIPS +4 bp; breakevens -1 bp.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST10Y",
-            "value": "4.49%",
-            "change": "+3 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y TIPS",
-            "value": "2.11%",
-            "change": "+4 bp",
-            "tone": "challenging"
-          },
-          {
-            "label": "10Y breakeven",
-            "value": "2.38%",
-            "change": "-1 bp",
-            "tone": "mixed"
-          }
-        ]
-      },
-      {
-        "id": "oil_policy",
-        "label": "Policy",
-        "headline": "Oil and DXY firmness reinforced Fed risk",
-        "detail": "WTI, Brent, DXY, and VIX rose together.",
-        "emphasis": "Constraint",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "96.02",
-            "change": "+2.41%",
-            "tone": "challenging"
-          },
-          {
-            "label": "DXY",
-            "value": "99.53",
-            "change": "+0.31%",
-            "tone": "challenging"
-          },
-          {
-            "label": "VIX",
-            "value": "16.06",
-            "change": "+1.84%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit weakened but did not close",
-        "detail": "Listed funds fell, but Bahrain, loan, and project debt still cleared.",
-        "emphasis": "Evidence hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "108.62",
-            "change": "-0.28%",
-            "tone": "challenging"
-          },
-          {
-            "label": "EMB",
-            "value": "95.90",
-            "change": "-0.37%",
-            "tone": "challenging"
-          }
-        ]
-      },
-      {
-        "id": "premarket",
-        "label": "Pre-market",
-        "headline": "Morning futures extended the softer handoff",
-        "detail": "Treasury and Stock-index futures fell while oil eased and gold bounced.",
-        "emphasis": "Separate update",
-        "signals": [
-          {
-            "label": "10Y note fut",
-            "value": "109.53",
-            "change": "-0.17%",
-            "tone": "challenging"
-          },
-          {
-            "label": "S&P fut",
-            "value": "7,541.50",
-            "change": "-0.40%",
-            "tone": "challenging"
-          },
-          {
-            "label": "Gold fut",
-            "value": "4,486.60",
-            "change": "+1.12%",
-            "tone": "hedge"
-          }
-        ]
-      },
-      {
-        "id": "watch",
-        "label": "Forward Watch",
-        "headline": "Payrolls, Fed statement risk, and credit clearing decide follow-through",
-        "detail": "Payrolls, Fed language, and credit clearing decide follow-through.",
-        "emphasis": "Validation framework",
-        "signals": [
-          {
-            "label": "Payrolls",
-            "value": "wage mix",
-            "change": "real-yield channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Fed",
-            "value": "statement risk",
-            "change": "FX/front-end channel",
-            "tone": "watch"
-          },
-          {
-            "label": "Credit",
-            "value": "new issue clearing",
-            "change": "spread channel",
-            "tone": "watch"
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }

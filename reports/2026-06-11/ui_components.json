@@ -16,66 +16,8 @@
       "UST10Y and breakevens both fell sharply.",
       "WTI and Brent fell, reducing December hike pressure.",
       "SPX rose 1.75%, NDX 3.29%, SOX 7.91%, and VIX fell 12.51%."
-    ],
-    "reader_takeaways": [
-      {
-        "label": "Oil",
-        "title": "Oil relief drove the rally",
-        "summary": "Lower crude reduced inflation urgency and helped both nominal yields and breakevens rally.",
-        "id": "oil_relief",
-        "tone": "supportive"
-      },
-      {
-        "label": "Rates",
-        "title": "Duration rallied through auction friction",
-        "summary": "A soft 30-year sale briefly mattered, but lower oil and Fed-hike repricing dominated the close.",
-        "id": "duration",
-        "tone": "supportive"
-      },
-      {
-        "label": "Credit",
-        "title": "Risk reopened selectively",
-        "summary": "LQD/HYG/JNK/EMB rose, Danantara cleared, but weaker borrowers stayed tiered.",
-        "id": "credit_tiering",
-        "tone": "selective"
-      }
     ]
   },
-  "top_drivers": [
-    {
-      "rank": 1,
-      "title": "Oil relief pulled Fed-hike pricing lower",
-      "short_summary": "WTI and Brent fell nearly 3%, pushing the market away from a fully priced December hike and toward later policy risk.",
-      "detail": "Lower crude helped breakevens fall and allowed Treasuries to rally across the curve.",
-      "market_move": "WTI -2.58%, Brent -2.92%, 10Y breakeven -5 bp.",
-      "transmission": "Lower energy pass-through reduced the urgency of Fed and global central-bank inflation defense.",
-      "confirmation": "Oil needs to stay lower and Fed rhetoric needs to avoid rebuilding hike risk.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "rank": 2,
-      "title": "Duration rallied despite a soft 30-year auction",
-      "short_summary": "A weak 30-year sale briefly pressured yields, but oil-driven inflation relief dominated into the close.",
-      "detail": "UST10Y fell 10 bp and UST30Y fell 8 bp even though auction demand was soft.",
-      "market_move": "UST5Y -9 bp, UST10Y -10 bp, UST30Y -8 bp.",
-      "transmission": "Breakeven relief and lower policy-risk pricing overwhelmed supply friction.",
-      "confirmation": "Sustained demand at the long end would confirm the rally is more than oil relief.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    },
-    {
-      "rank": 3,
-      "title": "Risk assets reopened but credit quality stayed tiered",
-      "short_summary": "SPX, NDX, and SOX rallied sharply while listed credit funds rose, but issuer quality still drove dispersion.",
-      "detail": "Danantara cleared and traded higher, while Hanuman Wind postponed and AI infrastructure financing remained structure-sensitive.",
-      "market_move": "SPX +1.75%, NDX +3.29%, SOX +7.91%, LQD +0.85%.",
-      "transmission": "Lower discount-rate pressure reopened risk appetite, but borrower quality still determined funding access.",
-      "confirmation": "option-adjusted spread evidence, credit-index evidence, cash-bond evidence, concessions, and order-book quality need to broaden beyond stronger names.",
-      "driver_window": "ny_close",
-      "is_future_watch_event": false
-    }
-  ],
   "latest_asia_premarket": {
     "summary": "Early-session compatibility data was mixed versus the NY close.",
     "readout": "Mixed early tape: 10Y note fut -0.24%, S&P fut +0.21%, WTI -1.54%.",
@@ -326,221 +268,56 @@
     "section_summaries": [
       {
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames June 11 as an oil-led duration relief rally, not a generic growth scare.",
+        "summary": "Lower crude unlocked rates and risk relief. The section develops that read by showing that june 11 close was a duration relief rally led by oil, not a simple growth scare. WTI fell to about 87.71, down 2.58%, and Brent fell to about 90.38, down 2.92%. The next check is whether oil stays lower. That decline reduced the urgency of the inflation shock and allowed Treasuries to rally across the curve.",
         "market_read": "Lower crude unlocked rates and risk relief.",
         "why_it_matters": "It identifies the realized NY-close driver before discussing future risks.",
         "next_check": "Whether oil stays lower."
       },
       {
         "section_title": "UST Rates, Curve, Fed Pricing, Supply, Term Premium, And Liquidity",
-        "summary": "Shows how lower oil and hike-risk repricing overwhelmed a soft 30-year auction.",
+        "summary": "Duration relief was strong but oil-dependent. The section develops that read by showing that rates traded like oil had shifted the near-term Fed distribution. The biggest Treasury moves came in the 5Y to 10Y sector, with UST5Y down 9 bp and UST10Y down 10 bp. The next check is long-end demand and Warsh communication. UST2Y fell 8 bp, so the front end participated, but the 2s10s curve actually flattened by about 2 bp to 40 bp.",
         "market_read": "Duration relief was strong but oil-dependent.",
         "why_it_matters": "It explains why supply friction did not stop the rally.",
         "next_check": "Long-end demand and Warsh communication."
       },
       {
         "section_title": "Credit Conditions: IG, HY, Issuance, Refinancing, And Spread Confirmation",
-        "summary": "Separates total-return fund prices from borrower-specific funding access.",
+        "summary": "Risk reopened selectively. The section develops that read by showing that credit improved on total return, but the better interpretation is quality tiering inside a better tape. LQD rose 0.85%, HYG 0.59%, JNK 0.57%, and EMB 0.96%. The next check is primary issuance breadth, option-adjusted spread evidence, credit-index evidence, cash-bond evidence, and concessions. Falling Treasury yields mechanically helped those prices, so the listed fund moves alone cannot be translated into spread tightening.",
         "market_read": "Risk reopened selectively.",
         "why_it_matters": "Total-return fund gains do not prove broad spread tightening by themselves.",
         "next_check": "Primary issuance breadth, option-adjusted spread evidence, credit-index evidence, cash-bond evidence, and concessions."
       },
       {
         "section_title": "DM Global Duration",
-        "summary": "ECB, South Africa, Thailand, and supply facts kept global duration conditional.",
+        "summary": "Global relief had policy caveats. The section develops that read by showing that global duration gave the US move credibility but also showed why the relief was conditional. The ECB was tightening because energy inflation had broadened, not easing because oil fell for one day. The next check is ECB guidance and overseas long-end demand. long end could rally as oil and Fed pricing improved, but DM policy was still being shaped by inflation risk and supply compensation.",
         "market_read": "Global relief had policy caveats.",
         "why_it_matters": "It keeps the rally from becoming an unconditional duration all-clear.",
         "next_check": "ECB guidance and overseas long-end demand."
       },
       {
         "section_title": "EM Rates, FX, And Hard-Currency Credit",
-        "summary": "Danantara improved market-access evidence, while Indonesia and other EM cases stayed selective.",
+        "summary": "EM hard-currency credit improved, but idiosyncratically. The section develops that read by showing that danantara's deal traded higher, while Indonesia's local-currency bonds and equities were still fragile. Thailand attracted long-end buyers because valuation had improved, but its relative appeal depended on the Bank of Thailand being more dovish than peers. The next check is dollar issuance reception and local-market stability.",
         "market_read": "EM hard-currency credit improved, but idiosyncratically.",
         "why_it_matters": "It separates positive deal evidence from broad EM risk appetite.",
         "next_check": "Dollar issuance reception and local-market stability."
       },
       {
         "section_title": "Cross-Asset Confirmation",
-        "summary": "Equities, VIX, and breakevens showed broad relief; listed credit funds aligned but still needed cash and derivative spread evidence support.",
+        "summary": "Cross-assets supported the oil-led rally. The section develops that read by showing that SPX rose 1.75%, NDX rose 3.29%, and SOX jumped 7.91%. LQD rose 0.85%, HYG 0.59%, JNK 0.57%, and EMB 0.96%. The next check is oil, VIX, equity breadth, option-adjusted spread evidence, credit-index evidence, cash-bond evidence, and concessions. Falling Treasury yields lifted part of those listed-fund gains, so they should not be described as pure spread tightening.",
         "market_read": "Cross-assets supported the oil-led rally.",
         "why_it_matters": "It distinguishes June 11 from recession-style bond rallies.",
         "next_check": "Oil, VIX, equity breadth, option-adjusted spread evidence, credit-index evidence, cash-bond evidence, and concessions."
       },
       {
         "section_title": "Market Significance And Watchpoints",
-        "summary": "Defines tests for oil, Fed communication, ECB response, and credit selectivity.",
+        "summary": "The rally needs persistence to become regime repair. The section develops that read by showing that market check framework starts with oil because the June 11 close was built on a smaller inflation tail. If WTI and Brent stay lower, breakevens can remain under pressure, the front end can avoid rebuilding hike premium, and the duration rally has room to extend. The next check is oil persistence, Warsh, ECB, and primary credit.",
         "market_read": "The rally needs persistence to become regime repair.",
-        "why_it_matters": "Forward Watch stays as validation rather than realized Top Drivers.",
+        "why_it_matters": "Forward Watch stays as market check rather than realized Top Drivers.",
         "next_check": "Oil persistence, Warsh, ECB, and primary credit."
       }
     ]
   },
   "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "briefing_path": {
-    "items": [
-      {
-        "id": "oil",
-        "label": "1",
-        "title": "Oil Relief",
-        "summary": "Start with crude: the oil drop is the causal anchor for rates, equities, and credit.",
-        "tone": "primary"
-      },
-      {
-        "id": "duration",
-        "label": "2",
-        "title": "Duration Rally",
-        "summary": "Read the 8-10 bp Treasury rally against lower breakevens and a soft 30-year auction.",
-        "tone": "supportive"
-      },
-      {
-        "id": "risk",
-        "label": "3",
-        "title": "Risk Reopen",
-        "summary": "Use equities, VIX, and listed credit funds as confirmation, while keeping spread proof separate.",
-        "tone": "supportive"
-      },
-      {
-        "id": "credit_quality",
-        "label": "4",
-        "title": "Credit Quality",
-        "summary": "Contrast Danantara’s success with Hanuman Wind and AI/debt-structure caveats.",
-        "tone": "selective"
-      }
-    ]
-  },
-  "session_map": {
-    "cards": [
-      {
-        "id": "rates",
-        "label": "Rates",
-        "headline": "Duration rallied across the curve",
-        "detail": "UST2Y -8 bp, UST10Y -10 bp, BE10Y -5 bp as oil declined.",
-        "emphasis": "NY close driver",
-        "signals": [
-          {
-            "label": "UST2Y",
-            "value": "4.05%",
-            "change": "-8 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "UST10Y",
-            "value": "4.45%",
-            "change": "-10 bp",
-            "tone": "supportive"
-          },
-          {
-            "label": "10Y BE",
-            "value": "2.29%",
-            "change": "-5 bp",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "oil",
-        "label": "Oil",
-        "headline": "Crude removed the immediate inflation tail",
-        "detail": "WTI 87.71 and Brent 90.38 eased pass-through pressure.",
-        "emphasis": "inflation relief",
-        "signals": [
-          {
-            "label": "WTI",
-            "value": "87.71",
-            "change": "-2.58%",
-            "tone": "supportive"
-          },
-          {
-            "label": "Brent",
-            "value": "90.38",
-            "change": "-2.92%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "risk",
-        "label": "Risk",
-        "headline": "Equities and VIX confirmed relief",
-        "detail": "Growth equities and semiconductors rallied sharply while VIX fell more than 12%.",
-        "emphasis": "cross-asset confirmation",
-        "signals": [
-          {
-            "label": "S&P 500",
-            "value": "7,394.30",
-            "change": "+1.75%",
-            "tone": "supportive"
-          },
-          {
-            "label": "SOX",
-            "value": "13,171.44",
-            "change": "+7.91%",
-            "tone": "supportive"
-          },
-          {
-            "label": "VIX",
-            "value": "19.44",
-            "change": "-12.51%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "credit",
-        "label": "Credit",
-        "headline": "Credit improved but stayed tiered",
-        "detail": "Listed credit funds rose with duration while issuer quality kept selection important.",
-        "emphasis": "credit hierarchy",
-        "signals": [
-          {
-            "label": "LQD",
-            "value": "109.08",
-            "change": "+0.85%",
-            "tone": "supportive"
-          },
-          {
-            "label": "HYG",
-            "value": "79.94",
-            "change": "+0.59%",
-            "tone": "supportive"
-          },
-          {
-            "label": "EMB",
-            "value": "96.27",
-            "change": "+0.96%",
-            "tone": "supportive"
-          }
-        ]
-      },
-      {
-        "id": "global",
-        "label": "Global",
-        "headline": "Global policy caveats limited the all-clear",
-        "detail": "ECB tightening, South Africa policy, Thailand curve steepening, and Indonesia fragility kept global relief conditional.",
-        "emphasis": "global duration",
-        "signals": [
-          {
-            "label": "ECB",
-            "value": "energy hike",
-            "change": "policy constraint",
-            "tone": "watch"
-          },
-          {
-            "label": "Thailand",
-            "value": "curve steepening",
-            "change": "long-end value",
-            "tone": "mixed"
-          },
-          {
-            "label": "Indonesia",
-            "value": "Danantara deal",
-            "change": "market access",
-            "tone": "supportive"
-          }
-        ]
-      }
-    ]
-  },
   "archive_dates": [
     {
       "date": "2026-06-23",
