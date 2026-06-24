@@ -36,10 +36,10 @@
         "tone": "transmission"
       },
       {
-        "label": "Market check",
-        "title": "Data and supply",
-        "summary": "PCE, claims, housing, primary pricing, dollar, and oil are next.",
-        "id": "market_check",
+        "label": "Confirmation",
+        "title": "Data decides",
+        "summary": "PCE, claims, housing, supply, dollar and oil are next.",
+        "id": "confirmation",
         "tone": "watch"
       }
     ],
@@ -152,20 +152,16 @@
         ]
       },
       {
-        "id": "forward_market_significance",
-        "label": "Forward",
-        "headline": "Data and supply set the next check",
-        "detail": "PCE, claims, housing, primary pricing, dollar and oil decide follow-through.",
+        "id": "latest_premarket",
+        "label": "Latest Asia / Pre-market",
+        "headline": "Taipei check kept NY anchor",
+        "detail": "UST10Y 4.51% and DXY 101.04 remained the monitoring anchors at Taipei 08:00.",
         "signals": [
           {
-            "label": "Core PCE",
-            "value": "next print",
-            "tone": "inflation"
-          },
-          {
-            "label": "Primary pricing",
-            "value": "concessions",
-            "tone": "funding"
+            "label": "UST10Y / DXY",
+            "value": "4.51% / 101.04",
+            "change": "unchanged",
+            "tone": "neutral"
           }
         ]
       }
@@ -181,7 +177,7 @@
       "detail": "The close priced a higher real policy and term-rate hurdle, not a simple inflation-compensation shock.",
       "market_move": "UST2Y 4.24% +5 bp; UST10Y 4.51% +5 bp; 10Y TIPS 2.28% +7 bp.",
       "transmission": "Restrictive Fed credibility moved through real yields and the dollar while curves stayed flat on the day.",
-      "confirmation": "PCE, claims, and housing set the next real-yield check.",
+      "confirmation": "Core PCE, claims and housing decide whether the real-yield pressure extends.",
       "driver_window": "ny_close",
       "is_future_watch_event": false
     },
@@ -194,7 +190,7 @@
       "detail": "Energy relief reduced inflation compensation, but the Fed and real-rate channel dominated the total-yield move.",
       "market_move": "WTI 73.99 -3.41%; Brent 77.95 -2.38%; 10Y BE 2.23% -2 bp.",
       "transmission": "Lower oil helped inflation compensation while real-rate repricing tightened financial conditions.",
-      "confirmation": "Oil, breakevens, and Treasury futures set the next duration check.",
+      "confirmation": "Oil must stay lower while Treasury futures stabilize to turn this into duration support.",
       "driver_window": "ny_close",
       "is_future_watch_event": false
     },
@@ -207,24 +203,45 @@
       "detail": "SpaceX, Robinhood, heavy IG issuance, Godiva Japan, Mexico and EM liquidity stories showed where higher real yields can bite.",
       "market_move": "LQD -0.27%, HYG -0.09%, JNK -0.09%, EMB -0.34%.",
       "transmission": "Higher real yields raise the concession burden for large issuers and weaker sovereign borrowers.",
-      "confirmation": "New-issue concessions, EM dollar bonds, and bank terms set the next credit check.",
+      "confirmation": "New-issue concessions, EM dollar bonds and bank-extension terms are the next credit proof.",
       "driver_window": "ny_close",
       "is_future_watch_event": false
     }
   ],
   "latest_asia_premarket": {
+    "summary": "Early-session compatibility data was mixed versus the NY close.",
+    "readout": "Updated early tape: 10Y note fut 0 bp.",
+    "market_implication": "10Y note fut 0 bp is early check.",
+    "signals": [
+      {
+        "label": "10Y note fut",
+        "value": "4.51%",
+        "tone": "flat",
+        "change": "0 bp",
+        "read": "10Y Treasury futures checkpoint was unchanged before the Taipei morning update"
+      }
+    ],
+    "items": [
+      {
+        "title": "10Y Treasury futures checkpoint",
+        "detail": "4.51%, 0 bp. 10Y Treasury futures checkpoint was unchanged before the Taipei morning update",
+        "timestamp": "2026-06-23T08:00:00+08:00"
+      }
+    ],
     "as_of": "2026-06-23T08:00:00+08:00",
-    "status": "no_material_change",
-    "headline": "No separate early module",
-    "summary": "Forward Market Significance carries the next checks.",
-    "readout": "Forward Market Significance is the reader path.",
-    "market_implication": "Use the watch section for next checks.",
-    "key_moves": [],
-    "changed_since_ny_close": "Not displayed as a separate module.",
-    "read_through": "Not displayed as a separate module.",
-    "what_would_matter_next": "See Forward Market Significance.",
-    "signals": [],
-    "items": []
+    "status": "mixed",
+    "headline": "Early data is mixed versus the NY close",
+    "key_moves": [
+      {
+        "asset": "10Y note fut",
+        "level": "4.51%",
+        "change": "0 bp",
+        "interpretation": "10Y note fut 0 bp is the early-session check"
+      }
+    ],
+    "changed_since_ny_close": "After NY close: early moves gave a mixed read-through.",
+    "read_through": "Mixed: 10Y note fut 0 bp is early check.",
+    "what_would_matter_next": "Treasury futures decide extension or fade."
   },
   "watch_events": [
     {
@@ -235,11 +252,11 @@
       "category": "Prices",
       "channel": "inflation",
       "watch_line": "Core PCE tests whether oil relief becomes broader disinflation.",
-      "market_trigger": "Core PCE at or below expectations lowers the real-yield hurdle; a hot print keeps pressure on.",
+      "market_trigger": "Core PCE at or below the expected monthly pace; a hotter print keeps real-yield pressure alive.",
       "market_implication": "Soft PCE supports duration stabilization; hot PCE reinforces front-end pressure.",
       "why_it_matters": "The close separated lower breakevens from higher real yields.",
-      "confirms_if": "Core PCE is soft enough to support the breakeven decline.",
-      "challenges_if": "Core PCE revives front-end pressure and lifts real yields.",
+      "confirms_if": "Core PCE is soft enough to validate the breakeven decline.",
+      "challenges_if": "Core PCE revives rate-hike pricing and pushes real yields higher.",
       "sensitive_channel": "front-end rates / real yields"
     },
     {
@@ -250,7 +267,7 @@
       "category": "Growth",
       "channel": "rates-sensitive demand",
       "watch_line": "Housing and claims decide whether tighter rates are biting.",
-      "market_trigger": "Weak sales or higher claims soften the bear move; firm data supports restrictive pricing.",
+      "market_trigger": "Weak sales or higher claims would challenge the bear move; firm data would support restrictive pricing.",
       "market_implication": "Growth softness helps duration; resilience keeps the Fed path restrictive.",
       "why_it_matters": "The Treasury selloff needs growth tolerance to continue.",
       "confirms_if": "Claims stay low and housing is resilient.",
@@ -265,7 +282,7 @@
       "category": "Supply",
       "channel": "credit funding",
       "watch_line": "New-issue pricing shows whether higher real yields are manageable.",
-      "market_trigger": "Limited concessions and orderly secondary trading keep access open; weak books warn of stress.",
+      "market_trigger": "Limited concessions and orderly secondary trading confirm access; weak books or widening concessions warn of stress.",
       "market_implication": "Orderly supply keeps credit open; concessions transmit rates into funding costs.",
       "why_it_matters": "Borrower demand is large while real yields are moving higher.",
       "confirms_if": "Large deals clear without broad spread pressure.",
@@ -274,7 +291,7 @@
     },
     {
       "id": "dollar_oil_confirmation",
-      "title": "DXY and oil cross-asset check",
+      "title": "DXY and oil confirmation",
       "date": "Next few sessions",
       "date_or_window": "DXY, crude and Treasury futures",
       "category": "Cross-asset",
@@ -402,69 +419,91 @@
       "reference_type": "ny_close"
     }
   ],
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Asia and pre-market developments are separated from the close narrative.",
+  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
   "long_thesis": {
-    "english_markdown": "# Daily FI Tape: 2026-06-22 NY Close\n\n## Opening Fixed-Income Thesis\n\nThe June 22 NY close was a bear-market test for duration, not a simple oil-relief session. The Treasury curve sold off across the main cash points even as crude fell sharply and breakevens eased. The 2-year yield rose 5 bp to 4.24%, the 5-year rose 6 bp to 4.29%, the 10-year rose 5 bp to 4.51%, and the 30-year rose 5 bp to 4.95%. The 2s10s curve held near 27 bp and the 2s30s curve held near 71 bp, so the move was less about fresh curve steepening than about a parallel repricing with the front end and real yields refusing to accept the disinflationary oil signal. That makes the day a policy-credibility and real-rate story: nominal yields were higher, the 10-year real yield rose 7 bp to 2.28%, and the 10-year breakeven fell 2 bp to 2.23%.\n\nThe first read-through is that the market treated the Fed path as stickier than the energy shock. Public rates coverage around the close placed the 2-year yield near early-2025 highs and linked the move to a hawkish June policy signal. The official policy baseline also did not give duration much help: the FOMC had kept the federal-funds target range at 3.50% to 3.75% and maintained an ample-reserves operating regime. That combination let the market sell real yields even while lower oil removed some inflation compensation. A duration buyer therefore did not get a clean dovish package; the close said that oil relief can take pressure out of breakevens, but it cannot by itself price a softer Fed when the front end is still being marked higher.\n\nCross-assets confirmed the tension rather than resolving it. WTI fell 3.41% to 73.99 and Brent fell 2.38% to 77.95, extending large weekly and monthly declines. Gold fell 1.26%, the dollar index rose 0.19% to 101.04, and VIX rose 5.37% to 17.28. Equities were split: the S&P 500 fell 0.37% and the Nasdaq 100 slipped 0.19%, while the semiconductor index rose 2.04%. Credit price gauges were only modestly softer, with LQD down 0.27%, HYG down 0.09%, JNK down 0.09%, and EMB down 0.34%. The message is not broad liquidation. It is a more awkward mix: lower oil reduced the inflation impulse, but rates, the dollar, volatility, and selected equity weakness still showed that the market was paying up for policy and financing uncertainty.\n\nThat is the frame for the full market read. The NY close was driven by policy repricing and real-yield pressure, with oil relief acting as an offset rather than the main signal. The credit and funding layer stayed open but more discriminating, because primary-market supply and refinancing stories remained heavy. The global duration layer also mattered: Japan, the ECB, the UK, Brazil, Mexico, Argentina, Senegal, Colombia, and Korea all added versions of the same question: can borrowers and sovereign curves absorb tighter real-rate conditions without a disorderly funding event? The answer at this close was yes, but only narrowly. The tape did not break, yet it stopped looking like a free duration rally.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe most important rates fact is the split between nominal yields, real yields, and breakevens. A 5 bp rise in the 10-year to 4.51% is not large by itself, but the composition is meaningful because the 10-year TIPS real yield rose 7 bp to 2.28% while the 10-year breakeven fell 2 bp to 2.23%. That is a classic real-rate tightening pattern. It says the market did not need higher inflation compensation to sell duration; it needed a higher real policy and term-rate premium. In fixed-income terms, the session tightened financial conditions even though lower crude should have been a disinflationary input.\n\nThe front end made the same point. The 2-year yield rose 5 bp on the day and 17 bp over the week to 4.24%. The 5-year yield rose 6 bp on the day to 4.29%, leaving the belly exposed to both Fed repricing and real-yield pressure. The 2s10s curve was unchanged at 27 bp, but it was 13 bp flatter over the week and 16 bp flatter over the month. The 2s30s curve was also unchanged on the day at 71 bp, yet 19 bp flatter over the week and 23 bp flatter over the month. A stable curve on the day therefore hides the bigger signal: prior steepening or long-end inflation anxiety was being replaced by a flatter, higher-real-yield curve that puts the pricing burden back on Fed policy and growth resilience.\n\nThe Fed backdrop is why lower oil did not turn into a Treasury rally. The policy range at 3.50% to 3.75% still tells investors that the front end is anchored by restrictive cash rates, while the market conversation after the June meeting treated the Fed as more willing to protect inflation credibility. The close did not require a new speech or a fresh data release to move; it only needed the market to decide that the oil drop was insufficient evidence for a policy pivot. In that sense, June 22 was a reaction-function close. A lower oil strip can reduce future headline inflation risk, but if the Fed is focused on underlying inflation, wages, expectations, and credibility, the front end can still cheapen.\n\nThe curve details also argue against calling the session a supply-led long-end event. The 30-year rose 5 bp to 4.95%, but the 10-year rose the same amount and the 5-year rose slightly more. The 2s10s and 2s30s curves did not steepen on the day. Supply and term premium still matter, especially with the corporate calendar and sovereign calendars active, but the price action itself points first to front-end and real-rate repricing. A supply narrative would need more direct auction, dealer-balance-sheet, or liquidity evidence; the observed Treasury move alone is better read as policy and real-rate pressure spreading across the curve.\n\nThe practical consequence is that duration has to earn support from the next data checks. A soft PCE print, softer claims, or weaker housing could validate the idea that the oil decline is becoming broader disinflation and demand relief. A firm PCE or resilient demand print would instead reinforce the June 22 message that real yields can keep rising even when breakevens cool. That is why the curve close is not just a level update. It sets up the next few sessions as a test of whether the market is selling duration for the right reason.\n\nThe oil move was large enough to matter, but it was not strong enough to dominate the rates tape. WTI closed at 73.99, down 3.41% on the day, 8.37% on the week, and 23.41% on the month. Brent closed at 77.95, down 2.38% on the day, 6.28% on the week, and 24.72% on the month. The geopolitical explanation was straightforward: progress in US-Iran diplomacy reduced the immediate supply-risk premium. In a simpler market, that would have been a duration-friendly input, especially after the prior energy shock had put pressure on headline inflation expectations.\n\nThe breakeven market did respond. The 10-year breakeven fell 2 bp on the day and 9 bp over the week to 2.23%, while the 5-year breakeven held near 2.42% with a smaller daily move. That is the cleanest place to put the oil story. Energy relief showed up as less inflation compensation. It did not show up as lower nominal yields because the real-yield component moved the other way. This is the key distinction for fixed-income readers: lower oil can help the inflation channel and still leave total yields higher when the Fed path and real-rate premium are being repriced.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit did not send a panic signal, but it did ask a tougher absorption question. Price gauges were modestly softer: LQD fell 0.27%, HYG fell 0.09%, JNK fell 0.09%, and EMB fell 0.34%. Those rows are total-return gauges, not spread confirmation by themselves. The better credit read comes from primary-market and borrower stories: investors were still being asked to fund large deals, refinancings, and structured-credit growth while real yields were rising.\n\nThe largest example was SpaceX. Bankers began marketing the company's first high-grade bond sale, with maturities expected between five and 30 years and proceeds intended to refinance a bridge loan that formed the bulk of roughly 29.1 billion dollars of long-term debt. The offering was described as the start of a much larger borrowing push linked to AI ambitions after a 75 billion dollar IPO. That matters because it turns AI capex from an equity-growth narrative into a bond-market absorption question. If the market can digest a very large first-time issuer while real yields rise, the credit channel remains open. If it demands a larger concession, it becomes a direct transmission point from rates into corporate financing.\n\nThe broader supply backdrop was already heavy. June investment-grade issuance was described as running above 120 billion dollars by mid-month, with several large deals including roughly 25 billion dollars of Nvidia debt. Robinhood also planned a 2 billion dollar convertible bond to fund a buyback and hedging, with a 0% coupon and a 60% to 65% conversion premium. Those are very different instruments and borrower profiles, but they point to the same fixed-income issue: financing demand is still active even as the discount rate is moving against issuers. The market is not closed, but it is becoming more selective about structure, maturity, and borrower story.\n\nBorrower-tiering showed up outside the US as well. Godiva Japan sought an extension on a 464 million dollar LBO loan, with a 25-bank syndicate considering a nine-month maturity extension and additional financing. India asset-backed securities issuance reached 1.53 trillion rupees for the fiscal year, with foreign banks increasing their share to about 35%, or roughly 5.6 billion dollars of purchases. Those examples pull in opposite directions: Godiva shows leveraged borrowers still needing time and bank support; India ABS shows foreign banks still willing to buy securitized retail-credit exposure where growth and structure are attractive.\n\nThe credit conclusion is therefore not that spreads are confirming a clean risk-on tape. It is that access remains available but more dependent on borrower quality, structure, and refinancing purpose. Large high-grade names can still test the market, converts can still monetize equity optionality, and securitized growth markets can still draw foreign balance sheets. Leveraged loans, sovereigns under ratings pressure, and issuers tied to volatile equity stories face a higher burden. That is the right credit read for a day when real yields rose and oil fell: lower energy pressure helps the macro backdrop, but it does not reduce the actual coupon or refinancing work that borrowers must do.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nThe global duration layer made the US move more credible because other curves were also dealing with the tension between inflation credibility and growth relief. Japan was the first example. Sanae Takaichi signaled acceptance of the Bank of Japan's latest rate increase even though she has long been associated with accommodative policy preferences. The BOJ had raised rates to the highest level since 1995, and Japan's nationwide consumer-price growth was 1.4% in May, held down partly by energy subsidies. That combination matters for US duration because Japan is no longer a simple low-yield anchor. If Japanese policy normalization is politically acceptable and super-long JGB demand is unstable, global long-end term premium becomes less benign.\n\nThe JGB investor detail was important. Japanese insurers sold a net JPY 201.2 billion of domestic sovereign bonds with maturities beyond 10 years in May as yields rose to multi-decade highs. That is not a Treasury price driver by itself, but it changes the global duration context. A market that previously counted on Japanese life insurers as steady buyers of long duration now has to consider that higher yields can produce selling or portfolio adjustment rather than immediate demand. For US long bonds, that keeps the global term-premium question alive even when the daily Treasury curve did not steepen.\n\nEurope added a different version of the same problem. ECB officials were trying to separate energy shock management from broader inflation credibility. One message was vigilance over oil-price pass-through to wages and services; another was that the ECB did not need a stronger response to the Iran conflict because inflation was expected to return to target over the medium term and expectations had not de-anchored. Markets also had to process a UK political transition after Keir Starmer resigned. The immediate gilt reaction was orderly, with 10-year gilt yields falling 4 bp to 4.80% and sterling around 1.3244, but the next chancellor and fiscal constraints became the bond-market focus.\n\nThe UK detail matters because fiscal credibility is now a duration variable. Bond investors were not simply trading a leadership headline; they were assessing whether the next government team would preserve day-to-day spending discipline and a falling debt-share objective. The launch of a UK consolidated bond tape covering more than 95% of traded bonds also fits the same theme in a quieter way. Greater transparency does not change the macro close, but it improves how investors monitor liquidity and pricing when fiscal risk is sensitive. In a higher-real-yield world, market structure becomes part of the risk-management toolkit.\n\nKorea added an Asian macro-funding channel. Policymakers warned that gains from a chip-led boom could flow into property-market excess, highlighting a gap between 3.8% real GDP growth and 13.2% real gross domestic income growth in the first quarter. The Bank of Korea had kept its policy rate at 2.5% in late May while signaling a more hawkish stance as inflation pressure and growth improved. That is another example of the day's global theme: stronger nominal income or sectoral gains can support credit and growth, but they can also force central banks to defend against liquidity and property risk.\n\nTogether, these global duration stories keep the US close from being isolated. The US curve sold off on real-rate and policy repricing, while Japan, Europe, the UK, and Korea all showed that central banks and fiscal authorities still had to lean against inflation, property, or borrowing risk. That makes global duration less synchronized than a single oil-relief story would imply. The common thread is not that every market is tightening at the same speed. It is that lower oil did not remove the need for policy credibility.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEmerging-market and sovereign credit stories were a useful stress test for the dollar and real-rate move. Colombia assets rose after a market-favorite candidate won the vote, with dollar bonds gaining across the curve and the currency outperforming peers. That shows that idiosyncratic politics can still overpower the global rates drag when investors see better governance or policy direction. But other EM stories were more defensive.\n\nMexico tapped global bond markets to fund a buyback of existing debt while ratings pressure grew. The country sold new bonds due in 2037 and reopened notes due in 2056, with proceeds aimed at buying back dollar and euro-denominated bonds due in the next few years. That is classic debt-management activity in a tighter-rate environment: extend, smooth, and reduce near-term maturities before market conditions become less forgiving. It also shows why the US real-rate move matters beyond Treasuries. Higher dollar yields raise the hurdle for sovereign liability management even when the transaction is proactive.\n\nArgentina authorized up to 5 billion dollars in new dollar borrowing backed by multilateral institutions ahead of debt payments, including almost 4.5 billion dollars due next month. Senegal said it was open to debt renegotiation or restructuring while payment pressures threatened key sectors, after prior disclosure of unreported debt had already damaged credibility. Brazil canceled a planned NTN-B inflation-linked bond auction and added dollar liquidity after a confusing central-bank decision had unsettled markets. These are very different credit stories, but they all point to the same transmission channel: when real rates and dollar conditions tighten, sovereigns with weaker buffers must manage liquidity, maturity walls, or market confidence more actively.\n\nThe EMB price move, down 0.34% on the day but still up 1.29% over the month, fits that split. The EM complex was not in broad stress, but it was more vulnerable to a stronger dollar and higher US real yields. Political improvement can still help Colombia. Better liability management can help Mexico. Multilateral backing can help Argentina. Liquidity operations can help Brazil. But none of those eliminate the macro burden created by a stronger dollar and higher real-rate anchor.\n\nFor the Daily FI thesis, EM is therefore a confirmation channel rather than the lead driver. The lead driver was US real-yield repricing. EM showed where that repricing could become credit-sensitive if it persisted: debt buybacks, external funding, domestic bond auctions, and central-bank liquidity operations. A calm EM tape would support the view that the June 22 selloff is manageable. A widening in dollar bonds, failed auctions, or more liquidity interventions would turn the same US move into a broader funding story.\n\n## Cross asset\n\nThe oil move was large enough to matter, but it was not strong enough to dominate the rates tape. WTI closed at 73.99, down 3.41% on the day, 8.37% on the week, and 23.41% on the month. Brent closed at 77.95, down 2.38% on the day, 6.28% on the week, and 24.72% on the month. The geopolitical explanation was straightforward: progress in US-Iran diplomacy reduced the immediate supply-risk premium. In a simpler market, that would have been a duration-friendly input, especially after the prior energy shock had put pressure on headline inflation expectations.\n\nThe dollar strengthened enough to keep that interpretation intact. DXY rose 0.19% to 101.04, was up 1.42% over the week, and was up 1.73% over the month. Gold fell 1.26% on the day and 3.63% over the week. A stronger dollar and weaker gold are not proof of a single rates story, but they fit a market that is raising real-rate discount rates and rewarding US-rate differentials. That matters for EM and global credit because a firmer dollar is a funding condition, not merely an FX quote. When the dollar rises as oil falls, commodity-importing relief is partly offset by tighter dollar financing for borrowers and sovereigns.\n\nEquity and volatility signals were less uniform. The S&P 500 fell 0.37%, the Nasdaq 100 fell 0.19%, and VIX rose 5.37% to 17.28, but the semiconductor index gained 2.04%. That says the session was not a broad rejection of growth or technology risk. It was more selective: discount-rate pressure hurt the broad tape, volatility rose, and AI-linked equity beta still had pockets of support. SpaceX added a specific test because its shares fell for a third day as investors digested a first investment-grade bond sale and a broader borrowing program tied to AI ambitions. That does not define the whole equity market, but it connects the rates move to the cost of financing very large capex stories.\n\nFor fixed income, the cross-asset answer is therefore mixed but coherent. Oil relief reduced inflation compensation. The dollar, gold, real yields, and VIX showed that the market was not ready to treat that relief as a broad easing of financial conditions. Equities were not in disorder, but they were not providing a clean risk-on confirmation either. The June 22 close should be read as a higher-real-yield tape with a disinflationary oil offset, not as a simple bearish or bullish risk session.\n\n## Forward Market Significance\n\nThe immediate watch list is unusually concentrated. Core PCE, personal income and spending, jobless claims, GDP revision, durable goods, new home sales, trade data, and Fed speakers all arrive within the next few sessions. The most important single test is core PCE because the June 22 close separated inflation compensation from real yields. If core PCE is soft, lower oil and softer breakevens can begin to argue for duration stabilization. If core PCE is firm, the market can keep selling real yields even with crude lower.\n\nHousing and claims decide whether the rates move becomes a growth problem. New home sales are the nearest rates-sensitive demand check, while claims test whether higher yields and tighter financing are spilling into labor conditions. A firm housing print and low claims would validate the Fed's ability to keep policy restrictive. A housing miss or claims jump would challenge the front-end selloff by raising the probability that policy is already tight enough. Durable goods and GDP revision then decide whether business investment and growth momentum can absorb higher borrowing costs.\n\nSupply and credit absorption are the second watch. SpaceX, Robinhood, heavy June investment-grade issuance, Mexico's liability-management deal, and EM funding examples mean the market has several ways to show whether the higher-real-yield close is becoming expensive for borrowers. The cleanest confirmation would be orderly primary-market pricing, limited concession, and no broader spread follow-through. The warning sign would be a jump in new-issue concessions, weaker secondary trading in recent high-grade deals, or more sovereign liquidity operations.\n\nThe dollar-oil mix is the cross-asset check. DXY near 101.04 and lower crude can coexist, but they do different work for fixed income: lower oil relieves breakevens, while a firmer dollar tightens global funding and keeps EM dollar borrowers sensitive to US real yields. A softer dollar with continued crude weakness would make the disinflation channel easier to transmit into duration. A firmer dollar with resilient front-end yields would keep the June 22 real-yield move in control.\n\nGlobal duration and EM funding decide whether the US move stays local. JGB super-long demand, UK fiscal credibility, ECB energy commentary, Mexico liability management, Argentina multilateral-backed borrowing, Senegal restructuring pressure, Brazil liquidity operations, and Colombia dollar bonds are not one trade, but they show where higher real yields can travel. Calm auctions, orderly sovereign dollar bonds, and fewer liquidity operations would keep the close manageable. Weak auctions, wider dollar bonds, or more policy support would turn the same US rates move into a broader funding transmission event.\n\nThe forward significance is therefore concentrated rather than directional. The market has not lost credit access, global risk is not in broad disorder, and oil relief is a genuine offset. But the fixed-income signal is not friendly enough to ignore: real yields rose, the front end cheapened, the dollar firmed, and borrowers were still coming to market. PCE, claims, housing, primary pricing, DXY, oil, and sovereign funding will decide whether June 22 remains a contained rates repricing or becomes a wider financing-condition problem.\n",
+    "english_markdown": "# Daily FI Tape: 2026-06-22 NY Close\n\n## Opening Fixed-Income Thesis\n\nThe June 22 NY close was a bear-market test for duration, not a simple oil-relief session. The Treasury curve sold off across the main cash points even as crude fell sharply and breakevens eased. The 2-year yield rose 5 bp to 4.24%, the 5-year rose 6 bp to 4.29%, the 10-year rose 5 bp to 4.51%, and the 30-year rose 5 bp to 4.95%. The 2s10s curve held near 27 bp and the 2s30s curve held near 71 bp, so the move was less about fresh curve steepening than about a parallel repricing with the front end and real yields refusing to accept the disinflationary oil signal. That makes the day a policy-credibility and real-rate story: nominal yields were higher, the 10-year real yield rose 7 bp to 2.28%, and the 10-year breakeven fell 2 bp to 2.23%.\n\nThe first read-through is that the market treated the Fed path as stickier than the energy shock. Public rates coverage around the close placed the 2-year yield near early-2025 highs and linked the move to a hawkish June policy signal. The official policy baseline also did not give duration much help: the FOMC had kept the federal-funds target range at 3.50% to 3.75% and maintained an ample-reserves operating regime. That combination let the market sell real yields even while lower oil removed some inflation compensation. A duration buyer therefore did not get a clean dovish package; the close said that oil relief can take pressure out of breakevens, but it cannot by itself price a softer Fed when the front end is still being marked higher.\n\nCross-assets confirmed the tension rather than resolving it. WTI fell 3.41% to 73.99 and Brent fell 2.38% to 77.95, extending large weekly and monthly declines. Gold fell 1.26%, the dollar index rose 0.19% to 101.04, and VIX rose 5.37% to 17.28. Equities were split: the S&P 500 fell 0.37% and the Nasdaq 100 slipped 0.19%, while the semiconductor index rose 2.04%. Credit price gauges were only modestly softer, with LQD down 0.27%, HYG down 0.09%, JNK down 0.09%, and EMB down 0.34%. The message is not broad liquidation. It is a more awkward mix: lower oil reduced the inflation impulse, but rates, the dollar, volatility, and selected equity weakness still showed that the market was paying up for policy and financing uncertainty.\n\nThat is the frame for the full market read. The NY close was driven by policy repricing and real-yield pressure, with oil relief acting as an offset rather than the main signal. The credit and funding layer stayed open but more discriminating, because primary-market supply and refinancing stories remained heavy. The global duration layer also mattered: Japan, the ECB, the UK, Brazil, Mexico, Argentina, Senegal, Colombia, and Korea all added versions of the same question: can borrowers and sovereign curves absorb tighter real-rate conditions without a disorderly funding event? The answer at this close was yes, but only narrowly. The tape did not break, yet it stopped looking like a free duration rally.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe most important rates fact is the split between nominal yields, real yields, and breakevens. A 5 bp rise in the 10-year to 4.51% is not large by itself, but the composition is meaningful because the 10-year TIPS real yield rose 7 bp to 2.28% while the 10-year breakeven fell 2 bp to 2.23%. That is a classic real-rate tightening pattern. It says the market did not need higher inflation compensation to sell duration; it needed a higher real policy and term-rate premium. In fixed-income terms, the session tightened financial conditions even though lower crude should have been a disinflationary input.\n\nThe front end made the same point. The 2-year yield rose 5 bp on the day and 17 bp over the week to 4.24%. The 5-year yield rose 6 bp on the day to 4.29%, leaving the belly exposed to both Fed repricing and real-yield pressure. The 2s10s curve was unchanged at 27 bp, but it was 13 bp flatter over the week and 16 bp flatter over the month. The 2s30s curve was also unchanged on the day at 71 bp, yet 19 bp flatter over the week and 23 bp flatter over the month. A stable curve on the day therefore hides the bigger signal: prior steepening or long-end inflation anxiety was being replaced by a flatter, higher-real-yield curve that puts the pricing burden back on Fed policy and growth resilience.\n\nThe Fed backdrop is why lower oil did not turn into a Treasury rally. The policy range at 3.50% to 3.75% still tells investors that the front end is anchored by restrictive cash rates, while the market conversation after the June meeting treated the Fed as more willing to protect inflation credibility. The close did not require a new speech or a fresh data release to move; it only needed the market to decide that the oil drop was insufficient evidence for a policy pivot. In that sense, June 22 was a reaction-function close. A lower oil strip can reduce future headline inflation risk, but if the Fed is focused on underlying inflation, wages, expectations, and credibility, the front end can still cheapen.\n\nThe curve details also argue against calling the session a supply-led long-end event. The 30-year rose 5 bp to 4.95%, but the 10-year rose the same amount and the 5-year rose slightly more. The 2s10s and 2s30s curves did not steepen on the day. Supply and term premium still matter, especially with the corporate calendar and sovereign calendars active, but the price action itself points first to front-end and real-rate repricing. A supply narrative would need more direct auction, dealer-balance-sheet, or liquidity evidence; the observed Treasury move alone is better read as policy and real-rate pressure spreading across the curve.\n\nThe practical consequence is that duration has to earn support from the next data checks. A soft PCE print, softer claims, or weaker housing could validate the idea that the oil decline is becoming broader disinflation and demand relief. A firm PCE or resilient demand print would instead reinforce the June 22 message that real yields can keep rising even when breakevens cool. That is why the curve close is not just a level update. It sets up the next few sessions as a test of whether the market is selling duration for the right reason.\n\n## Oil, Dollar, Equities, And Inflation Compensation\n\nThe oil move was large enough to matter, but it was not strong enough to dominate the rates tape. WTI closed at 73.99, down 3.41% on the day, 8.37% on the week, and 23.41% on the month. Brent closed at 77.95, down 2.38% on the day, 6.28% on the week, and 24.72% on the month. The geopolitical explanation was straightforward: progress in US-Iran diplomacy reduced the immediate supply-risk premium. In a simpler market, that would have been a duration-friendly input, especially after the prior energy shock had put pressure on headline inflation expectations.\n\nThe breakeven market did respond. The 10-year breakeven fell 2 bp on the day and 9 bp over the week to 2.23%, while the 5-year breakeven held near 2.42% with a smaller daily move. That is the cleanest place to put the oil story. Energy relief showed up as less inflation compensation. It did not show up as lower nominal yields because the real-yield component moved the other way. This is the key distinction for fixed-income readers: lower oil can help the inflation channel and still leave total yields higher when the Fed path and real-rate premium are being repriced.\n\nThe dollar strengthened enough to keep that interpretation intact. DXY rose 0.19% to 101.04, was up 1.42% over the week, and was up 1.73% over the month. Gold fell 1.26% on the day and 3.63% over the week. A stronger dollar and weaker gold are not proof of a single rates story, but they fit a market that is raising real-rate discount rates and rewarding US-rate differentials. That matters for EM and global credit because a firmer dollar is a funding condition, not merely an FX quote. When the dollar rises as oil falls, commodity-importing relief is partly offset by tighter dollar financing for borrowers and sovereigns.\n\nEquity and volatility signals were less uniform. The S&P 500 fell 0.37%, the Nasdaq 100 fell 0.19%, and VIX rose 5.37% to 17.28, but the semiconductor index gained 2.04%. That says the session was not a broad rejection of growth or technology risk. It was more selective: discount-rate pressure hurt the broad tape, volatility rose, and AI-linked equity beta still had pockets of support. SpaceX added a specific test because its shares fell for a third day as investors digested a first investment-grade bond sale and a broader borrowing program tied to AI ambitions. That does not define the whole equity market, but it connects the rates move to the cost of financing very large capex stories.\n\nFor fixed income, the cross-asset answer is therefore mixed but coherent. Oil relief reduced inflation compensation. The dollar, gold, real yields, and VIX showed that the market was not ready to treat that relief as a broad easing of financial conditions. Equities were not in disorder, but they were not providing a clean risk-on confirmation either. The June 22 close should be read as a higher-real-yield tape with a disinflationary oil offset, not as a simple bearish or bullish risk session.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit did not send a panic signal, but it did ask a tougher absorption question. Price gauges were modestly softer: LQD fell 0.27%, HYG fell 0.09%, JNK fell 0.09%, and EMB fell 0.34%. Those rows are total-return gauges, not spread confirmation by themselves. The better credit read comes from primary-market and borrower stories: investors were still being asked to fund large deals, refinancings, and structured-credit growth while real yields were rising.\n\nThe largest example was SpaceX. Bankers began marketing the company's first high-grade bond sale, with maturities expected between five and 30 years and proceeds intended to refinance a bridge loan that formed the bulk of roughly 29.1 billion dollars of long-term debt. The offering was described as the start of a much larger borrowing push linked to AI ambitions after a 75 billion dollar IPO. That matters because it turns AI capex from an equity-growth narrative into a bond-market absorption question. If the market can digest a very large first-time issuer while real yields rise, the credit channel remains open. If it demands a larger concession, it becomes a direct transmission point from rates into corporate financing.\n\nThe broader supply backdrop was already heavy. June investment-grade issuance was described as running above 120 billion dollars by mid-month, with several large deals including roughly 25 billion dollars of Nvidia debt. Robinhood also planned a 2 billion dollar convertible bond to fund a buyback and hedging, with a 0% coupon and a 60% to 65% conversion premium. Those are very different instruments and borrower profiles, but they point to the same fixed-income issue: financing demand is still active even as the discount rate is moving against issuers. The market is not closed, but it is becoming more selective about structure, maturity, and borrower story.\n\nBorrower-tiering showed up outside the US as well. Godiva Japan sought an extension on a 464 million dollar LBO loan, with a 25-bank syndicate considering a nine-month maturity extension and additional financing. India asset-backed securities issuance reached 1.53 trillion rupees for the fiscal year, with foreign banks increasing their share to about 35%, or roughly 5.6 billion dollars of purchases. Those examples pull in opposite directions: Godiva shows leveraged borrowers still needing time and bank support; India ABS shows foreign banks still willing to buy securitized retail-credit exposure where growth and structure are attractive.\n\nThe credit conclusion is therefore not that spreads are confirming a clean risk-on tape. It is that access remains available but more dependent on borrower quality, structure, and refinancing purpose. Large high-grade names can still test the market, converts can still monetize equity optionality, and securitized growth markets can still draw foreign balance sheets. Leveraged loans, sovereigns under ratings pressure, and issuers tied to volatile equity stories face a higher burden. That is the right credit read for a day when real yields rose and oil fell: lower energy pressure helps the macro backdrop, but it does not reduce the actual coupon or refinancing work that borrowers must do.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nThe global duration layer made the US move more credible because other curves were also dealing with the tension between inflation credibility and growth relief. Japan was the first example. Sanae Takaichi signaled acceptance of the Bank of Japan's latest rate increase even though she has long been associated with accommodative policy preferences. The BOJ had raised rates to the highest level since 1995, and Japan's nationwide consumer-price growth was 1.4% in May, held down partly by energy subsidies. That combination matters for US duration because Japan is no longer a simple low-yield anchor. If Japanese policy normalization is politically acceptable and super-long JGB demand is unstable, global long-end term premium becomes less benign.\n\nThe JGB investor detail was important. Japanese insurers sold a net JPY 201.2 billion of domestic sovereign bonds with maturities beyond 10 years in May as yields rose to multi-decade highs. That is not a Treasury price driver by itself, but it changes the global duration context. A market that previously counted on Japanese life insurers as steady buyers of long duration now has to consider that higher yields can produce selling or portfolio adjustment rather than immediate demand. For US long bonds, that keeps the global term-premium question alive even when the daily Treasury curve did not steepen.\n\nEurope added a different version of the same problem. ECB officials were trying to separate energy shock management from broader inflation credibility. One message was vigilance over oil-price pass-through to wages and services; another was that the ECB did not need a stronger response to the Iran conflict because inflation was expected to return to target over the medium term and expectations had not de-anchored. Markets also had to process a UK political transition after Keir Starmer resigned. The immediate gilt reaction was orderly, with 10-year gilt yields falling 4 bp to 4.80% and sterling around 1.3244, but the next chancellor and fiscal constraints became the bond-market focus.\n\nThe UK detail matters because fiscal credibility is now a duration variable. Bond investors were not simply trading a leadership headline; they were assessing whether the next government team would preserve day-to-day spending discipline and a falling debt-share objective. The launch of a UK consolidated bond tape covering more than 95% of traded bonds also fits the same theme in a quieter way. Greater transparency does not change the macro close, but it improves how investors monitor liquidity and pricing when fiscal risk is sensitive. In a higher-real-yield world, market structure becomes part of the risk-management toolkit.\n\nKorea added an Asian macro-funding channel. Policymakers warned that gains from a chip-led boom could flow into property-market excess, highlighting a gap between 3.8% real GDP growth and 13.2% real gross domestic income growth in the first quarter. The Bank of Korea had kept its policy rate at 2.5% in late May while signaling a more hawkish stance as inflation pressure and growth improved. That is another example of the day's global theme: stronger nominal income or sectoral gains can support credit and growth, but they can also force central banks to defend against liquidity and property risk.\n\nTogether, these global duration stories keep the US close from being isolated. The US curve sold off on real-rate and policy repricing, while Japan, Europe, the UK, and Korea all showed that central banks and fiscal authorities still had to lean against inflation, property, or borrowing risk. That makes global duration less synchronized than a single oil-relief story would imply. The common thread is not that every market is tightening at the same speed. It is that lower oil did not remove the need for policy credibility.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEmerging-market and sovereign credit stories were a useful stress test for the dollar and real-rate move. Colombia assets rose after a market-favorite candidate won the vote, with dollar bonds gaining across the curve and the currency outperforming peers. That shows that idiosyncratic politics can still overpower the global rates drag when investors see better governance or policy direction. But other EM stories were more defensive.\n\nMexico tapped global bond markets to fund a buyback of existing debt while ratings pressure grew. The country sold new bonds due in 2037 and reopened notes due in 2056, with proceeds aimed at buying back dollar and euro-denominated bonds due in the next few years. That is classic debt-management activity in a tighter-rate environment: extend, smooth, and reduce near-term maturities before market conditions become less forgiving. It also shows why the US real-rate move matters beyond Treasuries. Higher dollar yields raise the hurdle for sovereign liability management even when the transaction is proactive.\n\nArgentina authorized up to 5 billion dollars in new dollar borrowing backed by multilateral institutions ahead of debt payments, including almost 4.5 billion dollars due next month. Senegal said it was open to debt renegotiation or restructuring while payment pressures threatened key sectors, after prior disclosure of unreported debt had already damaged credibility. Brazil canceled a planned NTN-B inflation-linked bond auction and added dollar liquidity after a confusing central-bank decision had unsettled markets. These are very different credit stories, but they all point to the same transmission channel: when real rates and dollar conditions tighten, sovereigns with weaker buffers must manage liquidity, maturity walls, or market confidence more actively.\n\nThe EMB price move, down 0.34% on the day but still up 1.29% over the month, fits that split. The EM complex was not in broad stress, but it was more vulnerable to a stronger dollar and higher US real yields. Political improvement can still help Colombia. Better liability management can help Mexico. Multilateral backing can help Argentina. Liquidity operations can help Brazil. But none of those eliminate the macro burden created by a stronger dollar and higher real-rate anchor.\n\nFor the Daily FI thesis, EM is therefore a confirmation channel rather than the lead driver. The lead driver was US real-yield repricing. EM showed where that repricing could become credit-sensitive if it persisted: debt buybacks, external funding, domestic bond auctions, and central-bank liquidity operations. A calm EM tape would support the view that the June 22 selloff is manageable. A widening in dollar bonds, failed auctions, or more liquidity interventions would turn the same US move into a broader funding story.\n\n## Supply, Liquidity, And Market Structure\n\nThe supply and liquidity section should be read with a narrow claim. The Treasury market did not give a clean long-end supply shock on June 22 because 2-year, 5-year, 10-year, and 30-year yields all rose by similar amounts and the main curve spreads were unchanged on the day. That keeps the direct Treasury-price driver in the Fed and real-yield lane. But the broader fixed-income ecosystem was still supply-heavy, and that matters for how long the real-yield repricing can continue without spilling into credit stress. Heavy corporate issuance, very large first-time borrowers, converts, securitizations, sovereign liability management, and market-structure changes all describe the same background condition: fixed-income investors were being asked to provide balance-sheet capacity while discount rates were moving higher.\n\nCorporate issuance is the cleanest absorption test. A summer with more than 120 billion dollars of investment-grade sales by mid-June is not a quiet market. It means buyers have already absorbed a large volume of duration and spread product before SpaceX and other issuers arrive. The Nvidia debt example is important because it links the AI capex theme to bond-market capacity; the SpaceX deal does the same in a more concentrated way because the proposed maturities run from five years to 30 years and the proceeds refinance a large bridge facility. A borrower can still be high-grade and strategically important while also testing how much long-duration corporate paper investors want at the current Treasury level. That is the market-structure read: credit is open, but it is not costless.\n\nThe convertible market adds another layer. Robinhood's planned 2 billion dollar 0% convertible with a 60% to 65% conversion premium is not the same risk as a long-dated high-grade bond. It uses equity optionality to lower cash coupon cost. That tells the reader something about borrower behavior in a higher-rate environment. Issuers with strong equity stories can still finance cheaply by selling optionality; issuers without that option must pay more directly through coupon, concession, collateral, bank support, or maturity extension. The fixed-income implication is selection. A healthy financing market can contain both large high-grade bonds and low-coupon converts, while weaker borrowers still have to negotiate with lenders.\n\nBank lending and securitization show the same selection. Godiva Japan's maturity-extension talks are a reminder that LBO debt does not disappear when public markets are functioning. A nine-month extension with a 25-bank syndicate would buy time, but it also says lenders are actively managing refinancing risk rather than ignoring it. India ABS is the positive counterpart. Foreign banks increasing their share of asset-backed purchases to roughly 35% on 1.53 trillion rupees of issuance shows there is still balance-sheet appetite for collateralized retail-credit exposure when growth and structure are attractive. The lesson is that funding remains available, but each channel clears on its own terms.\n\nMarket structure matters because transparency changes how quickly stress is detected. The UK consolidated bond tape, covering more than 95% of bonds traded across venues, does not directly move US Treasuries. Its relevance is informational. In a world where fiscal risk, corporate supply, and policy repricing can move at the same time, investors want cleaner transaction data to judge whether a spread move is broad market repricing or isolated liquidity. That is why the tape belongs in the market structure discussion even though it is not a top driver. It is part of the infrastructure that determines whether higher yields become more orderly price discovery or more opaque liquidity risk.\n\nThe unresolved risk is dealer and investor balance-sheet capacity. The tape has direct evidence of large supply and refinancing needs, but it does not have direct evidence of Treasury dealer balance-sheet stress or failed auction demand. That limits the conclusion. The right statement is not that supply caused the Treasury selloff. The right statement is that supply and liquidity will decide whether the real-yield selloff remains manageable. If large deals clear cleanly, if secondary trading of recent issuance holds, and if sovereign liability-management deals price without sharp concession, the June 22 close stays a rates repricing. If those checks weaken, the same close becomes a funding transmission event.\n\n## What Would Falsify The Close Read\n\nThe thesis would be wrong if the next sessions show that the June 22 selloff was only a temporary reopening adjustment. The cleanest falsification would be a soft core PCE print, a lower dollar, stable or lower front-end yields, and continued oil weakness arriving together. That combination would turn the session from a real-yield regime signal into a one-day overshoot. It would also make the breakeven decline more important than the TIPS move, because markets would start to price the oil decline as a broader disinflationary impulse.\n\nA second falsification would come from credit stability. If SpaceX, Robinhood, and the broader high-grade calendar clear with limited concessions, if LQD and high-yield gauges stabilize, and if EM dollar bonds do not weaken further, then the higher real-yield close remains contained. In that case, the correct follow-up would be to describe the session as a rates adjustment that borrowers can still absorb. A funding-stress story needs new-issue pricing, bank-extension terms, sovereign spreads, or liquidity operations to deteriorate first.\n\nA third falsification would come from global duration. If JGBs absorb BOJ normalization, gilts stay calm through the UK leadership transition, ECB expectations stop repricing higher, and EM central banks avoid further market-support actions, then the US close becomes more isolated. That would not make the US rates move irrelevant, but it would reduce the global transmission risk. The point is that June 22 set conditions to monitor; it did not prove that every fixed-income sleeve is already under stress.\n\nThe bullish version of the next tape would therefore be lower oil, softer PCE, stable supply pricing, and a weaker dollar. The bearish version would be sticky PCE, higher front-end yields, a firmer dollar, weaker primary-market books, and more sovereign liquidity measures. Until one of those paths is confirmed, the close should be held as a warning about real-rate pressure rather than a finished credit or duration conclusion.\n\n## Forward Market Significance And Latest Asia / Pre-market\n\nThe immediate watch list is unusually concentrated. Core PCE, personal income and spending, jobless claims, GDP revision, durable goods, new home sales, trade data, and Fed speakers all arrive within the next few sessions. The most important single test is core PCE because the June 22 close separated inflation compensation from real yields. If core PCE is soft, lower oil and softer breakevens can begin to argue for duration stabilization. If core PCE is firm, the market can keep selling real yields even with crude lower.\n\nHousing and claims decide whether the rates move becomes a growth problem. New home sales are the nearest rates-sensitive demand check, while claims test whether higher yields and tighter financing are spilling into labor conditions. A firm housing print and low claims would validate the Fed's ability to keep policy restrictive. A housing miss or claims jump would challenge the front-end selloff by raising the probability that policy is already tight enough. Durable goods and GDP revision then decide whether business investment and growth momentum can absorb higher borrowing costs.\n\nSupply and credit absorption are the second watch. SpaceX, Robinhood, heavy June investment-grade issuance, Mexico's liability-management deal, and EM funding examples mean the market has several ways to show whether the higher-real-yield close is becoming expensive for borrowers. The cleanest confirmation would be orderly primary-market pricing, limited concession, and no broader spread follow-through. The warning sign would be a jump in new-issue concessions, weaker secondary trading in recent high-grade deals, or more sovereign liquidity operations.\n\nLatest Asia / Pre-market should stay separate from the NY-close causal story. By the Taipei 08:00 cutoff, the early tape had not materially overturned the June 22 close. That means the main NY narrative should not be rewritten around a partial overnight move. The correct use of the early module is narrower: watch whether JGBs, dollar-yen, Treasury futures, and oil extend or fade the NY signals. If crude keeps falling while Treasury futures stabilize, the oil-disinflation channel can start to matter more. If the dollar and front-end rates keep rising, the June 22 real-yield thesis remains dominant.\n\nThe base case after the close is therefore cautious rather than defensive. The market has not lost credit access, global risk is not in broad disorder, and oil relief is a genuine offset. But the fixed-income signal is not friendly enough to ignore: real yields rose, the front end cheapened, the dollar firmed, and borrowers were still coming to market. Until PCE, claims, housing, and primary supply prove otherwise, the June 22 close should be treated as a higher-real-yield tape with disinflationary relief on the side, not as a clean green light for duration or credit risk appetite.\n",
     "section_summaries": [
       {
-        "section_id": "opening",
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Frames the close as real-yield pressure with oil relief only offsetting.",
-        "market_read": "The tape sold duration through real yields, not breakevens.",
-        "why_it_matters": "It anchors every FI channel.",
-        "next_check": "PCE, claims, housing, and primary pricing."
+        "summary": "The close was a higher-real-yield session with oil relief on the side.",
+        "section_id": "opening",
+        "market_read": "USTs sold off 5-6 bp while breakevens fell and real yields rose.",
+        "why_it_matters": "It separates policy-rate pressure from headline energy relief.",
+        "next_check": "Core PCE and claims decide whether the real-yield move extends."
       },
       {
-        "section_id": "rates",
         "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "Higher real yields overpowered lower oil and softer breakevens.",
-        "market_read": "USTs cheapened in a real-rate tightening pattern.",
-        "why_it_matters": "Rates set the financing hurdle.",
-        "next_check": "Core PCE and front-end repricing."
+        "summary": "The curve moved as a real-rate repricing rather than a long-end supply shock.",
+        "section_id": "rates",
+        "market_read": "2Y and 5Y led enough to keep Fed pricing central, while 2s10s stayed 27 bp.",
+        "why_it_matters": "Duration support needs a macro miss, not just lower crude.",
+        "next_check": "Watch PCE, housing, and the front-end response."
       },
       {
-        "section_id": "credit",
-        "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Credit stayed open while large borrowers tested investor absorption.",
-        "market_read": "Access remained selective, borrower-quality dependent, and supply sensitive.",
-        "why_it_matters": "Funding translates real yields into credit cost.",
-        "next_check": "New-issue concessions and secondary trading."
-      },
-      {
-        "section_id": "global",
-        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "Japan, Europe, the UK, and Korea kept duration credibility global.",
-        "market_read": "Global curves still require policy and fiscal credibility.",
-        "why_it_matters": "Foreign duration affects term-premium tolerance.",
-        "next_check": "JGB demand, gilts, ECB energy comments."
-      },
-      {
-        "section_id": "em",
-        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "EM showed where dollar funding and real yields can bite.",
-        "market_read": "Sovereign stress stayed idiosyncratic but dollar-sensitive.",
-        "why_it_matters": "EM marks the funding-transmission channel.",
-        "next_check": "Dollar bonds, buybacks, and liquidity operations."
-      },
-      {
+        "section_title": "Oil, Dollar, Equities, And Inflation Compensation",
+        "summary": "Oil relief lowered inflation compensation but did not loosen the whole tape.",
         "section_id": "cross_asset",
-        "section_title": "Cross asset",
-        "summary": "Oil helped breakevens while dollar, gold, VIX, and equities complicated relief.",
-        "market_read": "Cross-assets showed disinflation relief without broad easing.",
-        "why_it_matters": "It separates inflation relief from risk appetite.",
-        "next_check": "DXY, crude, VIX, and equity breadth."
+        "market_read": "WTI and Brent fell hard, DXY firmed, gold fell, and VIX rose.",
+        "why_it_matters": "The market discounted less inflation but still demanded higher real yields.",
+        "next_check": "Watch whether oil stays lower while Treasury futures stabilize."
       },
       {
-        "section_id": "forward_market_significance",
-        "section_title": "Forward Market Significance",
-        "summary": "PCE, claims, housing, supply, dollar, oil, and sovereign funding matter next.",
-        "market_read": "The close is a concentrated real-yield warning, not a finished funding break.",
-        "why_it_matters": "It turns the close into a watch map.",
-        "next_check": "PCE, primary pricing, DXY, oil."
+        "section_title": "Credit, Funding, And Primary-Market Absorption",
+        "summary": "Credit access stayed open while borrower selection became more important.",
+        "section_id": "credit",
+        "market_read": "SpaceX, Robinhood, heavy IG issuance, Godiva Japan, and India ABS kept financing demand visible.",
+        "why_it_matters": "Primary-market pricing is where higher real yields become borrower cost.",
+        "next_check": "Watch new-issue concessions and secondary trading of large deals."
+      },
+      {
+        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
+        "summary": "Japan, Europe, the UK, and Korea kept global policy credibility in view.",
+        "section_id": "global",
+        "market_read": "BOJ normalization, ECB wage vigilance, UK fiscal questions, and Korea property risk all leaned against a simple easing read.",
+        "why_it_matters": "Global curves are still negotiating inflation and fiscal risk despite lower oil.",
+        "next_check": "Watch JGB super-long demand, gilts, and ECB rate expectations."
+      },
+      {
+        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
+        "summary": "EM showed where higher US real yields can become funding pressure.",
+        "section_id": "em",
+        "market_read": "Colombia improved, while Mexico, Argentina, Senegal, and Brazil showed liability and liquidity management needs.",
+        "why_it_matters": "Dollar funding is the transmission channel from US real yields to sovereign credit.",
+        "next_check": "Watch dollar bonds, auctions, and central-bank liquidity operations."
+      },
+      {
+        "section_title": "Supply, Liquidity, And Market Structure",
+        "summary": "Supply did not cause the Treasury selloff, but it will decide whether the move stays orderly.",
+        "section_id": "supply_liquidity",
+        "market_read": "Large IG borrowing, converts, bank extensions, securitization, and sovereign funding kept balance-sheet capacity in focus.",
+        "why_it_matters": "Higher real yields become more dangerous when borrowers need fresh market capacity.",
+        "next_check": "Watch new-issue concessions, secondary trading, and sovereign funding operations."
+      },
+      {
+        "section_title": "What Would Falsify The Close Read",
+        "summary": "The close can still be downgraded if data, supply, dollar and global curves calm together.",
+        "section_id": "falsify",
+        "market_read": "Soft PCE, weaker dollar, stable supply pricing and lower oil would challenge the real-yield warning.",
+        "why_it_matters": "The report separates warning conditions from confirmed stress.",
+        "next_check": "Watch PCE, DXY, Treasury futures, new-issue concessions and EM dollar bonds."
+      },
+      {
+        "section_title": "Forward Market Significance And Latest Asia / Pre-market",
+        "summary": "The next few sessions decide whether the move is a false start or a new real-rate regime.",
+        "section_id": "watch",
+        "market_read": "Early trading had not materially overturned the NY close by Taipei 08:00.",
+        "why_it_matters": "Keep NY close and early-session checks separate.",
+        "next_check": "Watch PCE, claims, housing, supply pricing, dollar, and oil."
       }
     ]
   },
   "archive_dates": [
+    {
+      "date": "2026-06-23",
+      "label": "2026-06-23",
+      "href": "?date=2026-06-23",
+      "active": false
+    },
     {
       "date": "2026-06-22",
       "label": "2026-06-22",
@@ -490,6 +529,54 @@
       "active": false
     },
     {
+      "date": "2026-06-16",
+      "label": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "active": false
+    },
+    {
+      "date": "2026-06-15",
+      "label": "2026-06-15",
+      "href": "?date=2026-06-15",
+      "active": false
+    },
+    {
+      "date": "2026-06-12",
+      "label": "2026-06-12",
+      "href": "?date=2026-06-12",
+      "active": false
+    },
+    {
+      "date": "2026-06-11",
+      "label": "2026-06-11",
+      "href": "?date=2026-06-11",
+      "active": false
+    },
+    {
+      "date": "2026-06-10",
+      "label": "2026-06-10",
+      "href": "?date=2026-06-10",
+      "active": false
+    },
+    {
+      "date": "2026-06-09",
+      "label": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "active": false
+    },
+    {
+      "date": "2026-06-08",
+      "label": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "active": false
+    },
+    {
+      "date": "2026-06-05",
+      "label": "2026-06-05",
+      "href": "?date=2026-06-05",
+      "active": false
+    },
+    {
       "date": "2026-06-04",
       "label": "2026-06-04",
       "href": "?date=2026-06-04",
@@ -505,6 +592,12 @@
       "date": "2026-06-02",
       "label": "2026-06-02",
       "href": "?date=2026-06-02",
+      "active": false
+    },
+    {
+      "date": "2026-06-01",
+      "label": "2026-06-01",
+      "href": "?date=2026-06-01",
       "active": false
     },
     {
