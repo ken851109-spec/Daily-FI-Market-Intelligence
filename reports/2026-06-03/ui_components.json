@@ -1,87 +1,171 @@
 {
-  "report_date": "2026-06-03",
-  "run_id": "2026-06-03T08-00-00+08-00_live-local",
   "mode": "full",
-  "anchor": "ny_close",
+  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
   "header": {
-    "title": "Daily FI Market Intelligence",
-    "as_of_note": "NY close showed a modest Treasury selloff, firmer oil and dollar, softer listed credit prices, and global policy divergence around inflation risk.",
-    "latest_update_cutoff": "2026-06-03 NY close"
+    "title": "Daily FI",
+    "date": "2026-06-03",
+    "as_of_note": "NY close anchored on June 3, 2026",
+    "theme": "Real-yield tightening challenges prior duration absorption",
+    "latest_update_cutoff": "2026-06-04T08:00:00+08:00"
   },
   "overall_summary": {
-    "headline": "Modest bear move with inflation risk doing more work than growth relief.",
+    "summary": "Oil, ADP, ISM, Logan, and the Beige Book pushed the close toward real-yield tightening, with the dollar firmer, listed credit weaker, and EM dispersion still driven by debt-management credibility.",
+    "ny_close_causal_narrative": "The market repriced Fed reaction risk through higher real yields while selected credit and EM borrowers still found demand.",
     "bullets": [
-      "Treasury levels set the rates anchor.",
-      "Curve and real-yield moves shaped duration.",
-      "Borrower terms kept funding selective.",
-      "Oil, DXY and equities framed breadth."
-    ],
-    "ny_close_causal_narrative": "The close is summarized through rates, inflation compensation, credit funding, global duration, EM dollar liquidity, and cross-asset breadth. The compact read is a reader-layer synthesis, while the long thesis carries the detailed source-linked argument."
+      "UST10Y 4.49%, +3 bp; real yield 2.11%; breakeven 2.38%.",
+      "WTI +2.41%, Brent +1.89%; DXY 99.53; VIX 16.06.",
+      "LQD -0.28%, HYG -0.28%, JNK -0.22%, EMB -0.37%.",
+      "Alphabet muni, Belden loan, Bahrain dollar bond showed selective demand."
+    ]
   },
+  "watch_events": [
+    {
+      "title": "Payrolls, CPI, And Fed Pricing",
+      "date_or_window": "June 5-10 U.S. data",
+      "watch_line": "Data decides the real-yield path.",
+      "market_trigger": "Payrolls or CPI support a later-year Fed hike.",
+      "market_implication": "Real yields and the dollar keep tightening financial conditions.",
+      "confirms_if": "10Y real yields rise while breakevens stay contained.",
+      "challenges_if": "Payrolls weaken enough to cut hike odds.",
+      "sensitive_channel": "UST / Fed / real yields",
+      "why_it_matters": "The rates thesis depends on labor and inflation data keeping policy restriction priced through real yields.",
+      "category": "policy"
+    },
+    {
+      "title": "Credit Primary And Refinancing",
+      "date_or_window": "Next deal window",
+      "watch_line": "Concessions reveal credit depth.",
+      "market_trigger": "Belden, AI debt, or muni structures demand wider spreads.",
+      "market_implication": "Funding selectivity moves from vehicles into primary terms.",
+      "confirms_if": "Deals clear with stable spreads and protections.",
+      "challenges_if": "Software or distressed borrowers lose funding access.",
+      "sensitive_channel": "Credit / funding",
+      "why_it_matters": "The credit read needs primary access to offset weaker listed vehicles and tougher refinancing commentary.",
+      "category": "credit"
+    },
+    {
+      "title": "Global Duration Policy",
+      "date_or_window": "BOJ, RBA, BOE, Poland",
+      "watch_line": "Policy tone meets auction demand.",
+      "market_trigger": "BOJ or RBA repricing shifts global curves.",
+      "market_implication": "DM duration remains exposed to energy and FX pressure.",
+      "confirms_if": "Auctions absorb supply despite hike risk.",
+      "challenges_if": "Yen or oil pressure lifts long yields.",
+      "sensitive_channel": "Global Duration",
+      "why_it_matters": "Global curves need auction demand and slower growth to offset central-bank concern about imported inflation.",
+      "category": "global_duration"
+    },
+    {
+      "title": "EM Debt Management",
+      "date_or_window": "RBI, Zambia, Bahrain, Argentina",
+      "watch_line": "Dollar funding tests EM dispersion.",
+      "market_trigger": "Bond access, reserves, or coupon talks shift spreads.",
+      "market_implication": "A firmer dollar rewards credible process and penalizes weak buffers.",
+      "confirms_if": "Bahrain trades firm and Zambia negotiations progress.",
+      "challenges_if": "A firmer dollar overwhelms reform or issuance stories.",
+      "sensitive_channel": "EM / hard-currency debt",
+      "why_it_matters": "EM carry needs country-specific debt progress to overcome tighter dollar and real-yield conditions.",
+      "category": "em"
+    }
+  ],
+  "cross_asset_cards": [
+    {
+      "title": "Oil",
+      "value": "WTI 96.02 (+2.41%) / BRENT 97.81 (+1.89%)",
+      "summary": "Higher crude clashed with softer breakevens; inflation compensation diverged.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Equities",
+      "value": "SPX 7,554 (-0.74%) / NDX 30,571 (-0.29%) / SOX 13,917 (+1.39%) / VIX 16.06 (+1.84%)",
+      "summary": "Semiconductor strength was the equity exception.",
+      "reference_type": "ny_close"
+    },
+    {
+      "title": "Dollar / gold",
+      "value": "DXY 99.53 (+0.31%) / GOLD 4,437 (-1.17%)",
+      "summary": "Treasury yields were higher; dollar firmness tightened financial conditions.",
+      "reference_type": "ny_close"
+    }
+  ],
   "latest_asia_premarket": {
     "summary": "No checked early-session market signal is added to the NY-close read.",
     "readout": "No checked early-session move is added to the NY-close narrative.",
     "market_implication": "Labor data, funding pressure, oil, DXY and primary-market absorption remain the next market checks.",
     "signals": [],
     "items": [],
+    "as_of": "2026-06-04T08:00:00+08:00",
     "status": "no_material_change",
     "headline": "NY close unchanged by early-session inputs",
     "changed_since_ny_close": "No checked early-session market move is added.",
     "read_through": "Next checks remain labor data, funding pressure, oil, DXY and primary-market absorption.",
     "what_would_matter_next": "A checked early-session rates, dollar, oil, credit or equity move large enough to change the NY-close read.",
-    "key_moves": [],
-    "as_of": "2026-06-04T08:00:00+08:00"
+    "key_moves": []
   },
-  "watch_events": [
-    {
-      "title": "Inflation data and front end",
-      "date": "Next U.S. labor and inflation prints",
-      "watch_line": "Data sets front-end direction.",
-      "market_trigger": "Core inflation or jobs surprises shift policy pricing.",
-      "market_implication": "Front-end yields steer curve tone.",
-      "confirms_if": "Two-year yields move with data.",
-      "challenges_if": "Curve resists the data move.",
-      "sensitive_channel": "front-end rates",
-      "why_it_matters": "Inflation data and front end is the next observable checkpoint.",
-      "category": "economic_data"
-    },
-    {
-      "title": "Treasury supply and curve",
-      "date": "FOMC statement and speaker reaction function",
-      "watch_line": "Supply checks curve demand.",
-      "market_trigger": "Auction tails or dealer takedown change belly pricing.",
-      "market_implication": "Clean demand supports duration.",
-      "confirms_if": "Belly yields absorb supply.",
-      "challenges_if": "Weak demand cheapens the curve.",
-      "sensitive_channel": "Treasury curve",
-      "why_it_matters": "Treasury supply and curve is the next observable checkpoint.",
-      "category": "policy"
-    },
-    {
-      "title": "Credit issuance terms",
-      "date": "WTI near 96 and DXY near 99.5",
-      "watch_line": "Borrower terms show funding access.",
-      "market_trigger": "New-issue concessions or refinancing costs change absorption.",
-      "market_implication": "Order books keep concessions contained.",
-      "confirms_if": "Deals clear near guidance.",
-      "challenges_if": "Issuance needs larger concessions.",
-      "sensitive_channel": "credit funding",
-      "why_it_matters": "Credit issuance terms is the next observable checkpoint.",
-      "category": "cross_asset"
-    },
-    {
-      "title": "Dollar and EM funding",
-      "date": "Bahrain, Belden, Alphabet muni, and Canada pipeline supply",
-      "watch_line": "FX pressure shapes EM transmission.",
-      "market_trigger": "DXY, CNH or local policy defense shift funding conditions.",
-      "market_implication": "Stable FX broadens EM relief.",
-      "confirms_if": "Dollar pressure stays contained.",
-      "challenges_if": "FX stress narrows the read.",
-      "sensitive_channel": "dollar liquidity",
-      "why_it_matters": "Dollar and EM funding is the next observable checkpoint.",
-      "category": "credit"
-    }
-  ],
+  "long_thesis": {
+    "english_markdown": "# Daily FI - 2026-06-03\n\n## Opening Thesis\n\nJune 3 challenged the prior close's duration absorption. Oil rose again, U.S. labor and services data stayed firm enough to preserve Fed hike risk, and Treasuries sold off through real yields. The 2Y yield rose to 4.08%, the 5Y to 4.21%, the 10Y to 4.49%, and the 30Y to 4.99%. The 10Y real yield rose 4 bp to 2.11%, while the 10Y breakeven slipped to 2.38%. That split gave the day its character: the market tightened through real-rate and Fed-reaction channels while inflation compensation stayed contained at the close.\n\nCredit and EM confirmed the tighter tone in different ways. Listed credit vehicles weakened, with LQD, HYG, JNK, and EMB all lower, but the primary market still funded selected borrowers and structures. Alphabet's participation in a $1 billion prepaid energy muni transaction, Belden's planned $1.85 billion buyout financing, Coastal GasLink's planned C$1 billion bond sale, and Bahrain's $1 billion dollar bond showed that investors still had room for well-defined risks. At the same time, software refinancing warnings, Fed monitoring of bank and nonbank credit exposures, AI-debt bubble concerns, and Sleep Number's distress showed a market becoming more demanding about borrower durability.\n\nGlobal duration broadened the message. BOJ Governor Ueda kept a June hike alive as the yen traded near intervention territory and Japan managed inflation subsidies without increasing calendar bond issuance. Australia delivered slower growth and strong seven-year auction demand, pointing to carry demand in the belly even as the RBA remains alert to energy-driven inflation. The OECD saw the BOE holding this year despite high UK inflation, while Poland's central bank tried to cool hike bets after a softer inflation print. EM faced the same energy shock through local inflation, FX, and funding channels: India leaned on bank credit and explored foreign-buyer tax relief, Ghana combined reform gains with renewed inflation pressure, Zambia faced bondholder resistance, and Argentina used exports and local issuance inflows to build dollars.\n\nCross-asset breadth made the fixed-income message harder to dismiss. WTI rose 2.41% to $96.02, Brent rose 1.89% to $97.81, the dollar rose to 99.53, gold fell, VIX rose to 16.06, and the S&P 500 and Nasdaq slipped. Semiconductors still rose, keeping the AI equity story alive, but the day no longer offered the broader risk acceptance seen on June 2. The next test is whether payrolls and CPI keep the market focused on real-yield tightening and Fed reaction risk, or whether softer data allows duration and credit to recover before the June FOMC.\n\n## U.S. Rates And The Fed\n\nThe U.S. rates move was driven by the market's growing comfort with higher real rates. ADP private payrolls increased 122,000, slightly above consensus, and came one day after job openings had surprised higher. ISM services also topped estimates, even though its price and employment subcomponents were softer than expected. Those details gave investors a mix that matters for Treasuries: growth and labor looked resilient enough to keep the Fed from easing, while energy costs kept inflation risk central.\n\nThe curve response was broad but still front-end-aware. The 2Y rose 3 bp, the 5Y rose 4 bp, the 10Y rose 3 bp, and the 30Y rose 2 bp. The 2s10s curve held near 41 bp, while 2s30s flattened to 91 bp. Real yields supplied the main pressure, with the 10Y real yield up to 2.11% and breakevens lower. That means the day's tightening was less about investors chasing a fresh inflation-compensation breakout and more about the real policy rate the Fed may need to deliver if the economy absorbs higher energy prices.\n\nOil kept the Fed problem alive. WTI settled at $96.02 and Brent at $97.81, extending the June 1 and June 2 energy shock. Treasury trading had already been sensitive to the possibility that a Middle East peace path might restore supply and cool crude. June 3 moved the other way: higher oil weakened the case for quick relief and kept the market focused on whether energy prices feed into household budgets, shipping, packaging, groceries, and fertilizer.\n\nFed communication reinforced that focus. Logan said higher rates may be needed later this year to restore price stability and described policy as no more than mildly restrictive. Williams delivered the other side of the official debate, saying policy was well positioned and that he saw no obvious direction for the next move. The market gave more weight to the inflation-risk side because the Beige Book described energy-related costs rising across much of the country while employment remained stable. Stable labor and rising input costs are a difficult mix for a central bank that wants inflation expectations contained.\n\nThe Beige Book added texture beyond the headline. It described slight to moderate activity in most districts, selective hiring, stable employment, and business concerns about consumer sentiment. Energy costs were the key inflation channel, with pass-through into shipping, packaging, groceries, fertilizer, and diesel-intensive industries. That matters for the Fed because it moves the debate from a simple oil futures price to a broader input-cost map. A one-day decline in breakevens can coexist with real-yield pressure if investors believe the Fed will need to lean against second-round effects.\n\nOptions and policy-event risk also leaned toward higher-rate volatility. Treasury options activity included a large put buyer targeting a 10Y yield near 4.7% by late July. Morgan Stanley highlighted Warsh's first FOMC as a potential FX shock because the statement, dots, and communication style could move the dollar more than markets expect. Waller's push to centralize some Fed operations added an institutional angle by raising concerns about regional autonomy and political pressure. Those governance issues are a forward rate-volatility input because they affect how investors price the Fed's reaction function under new leadership.\n\nBessent's description of inflation as a short-term blip also mattered as political backdrop. Markets can tolerate a Treasury secretary arguing that a supply shock will fade if the Fed appears ready to counter persistence. They become less comfortable if official optimism sounds ahead of the data. The Fed's preferred inflation gauge was already running at 3.8% in April, and CPI was expected to move higher in May. That is why payrolls and CPI are now linked: labor weakness would give the Fed room to look through energy, while resilient labor keeps attention on inflation persistence.\n\nThe rates conclusion is that June 3 turned the June 2 stabilization into a test. Real yields rose, the dollar firmed, and the curve held a flattening bias because the market saw the Fed as more likely to hike than cut. The next confirmation comes from payrolls and CPI. Stronger data would extend the real-yield move and keep 4.7% in 10Y options territory relevant. Softer data would need to be soft enough to offset oil and Beige Book inflation pass-through, which is a higher bar than earlier in the week.\n\n## Credit And Funding\n\nCredit remained open, but the quality of the opening changed. The listed credit tape softened with rates: LQD fell 0.28%, HYG fell 0.28%, and JNK fell 0.22%. Those vehicles are market gauges, while the deeper signal came from primary transactions and refinancing commentary. Investors still funded borrowers with identifiable assets, strategic use of proceeds, and strong structural protections. They became more cautious around software borrowers, consumer stress, private-credit transparency, and AI debt supply.\n\nAlphabet's prepaid energy muni transaction was the most unusual funding example. The company was identified as the funding recipient on a $1 billion California Community Choice Financing Authority deal tied to long-term electricity procurement for Pioneer Community Energy. Prepaid energy structures let public utilities lock in discounted energy while a funding recipient accesses tax-exempt financing through a specialized structure. Alphabet's participation would mark a significant broadening of the sector from financial intermediaries into large technology issuers. It connects the AI power-demand theme to municipal finance, because hyperscalers need enormous energy and data-center infrastructure funding.\n\nThat same AI funding thread ran through corporate credit. DoubleLine's Robert Cohen warned that AI debt will likely reach bubble conditions eventually, while other panelists said the market has not reached that point and still rewards deals backed by large profitable hyperscalers. The fact base is large: more than $370 billion of U.S. high-grade notes, high-yield bonds, loans, and other AI debt has come since the start of last year, and AI capex could approach $5 trillion over five years. Credit investors are therefore balancing strong sponsor support against supply fatigue and tight spreads.\n\nBelden's planned financing showed that leveraged-loan markets were still functioning. JPMorgan prepared a $1.85 billion debt package for Belden's acquisition of Ruckus Network, one of the few mid-sized underwritten M&A financings in a market still dominated by opportunistic repricings and large deals. That matters because the M&A loan market is a direct test of risk appetite under higher real yields. A successful launch would show that investors can still underwrite cyclical and technology-linked debt when the asset and pricing make sense.\n\nCoastal GasLink added a high-grade infrastructure example. The pipeline project prepared a C$1 billion two-part Canadian bond sale, with the longer portion around 19 years and initial pricing near 115 bp over government benchmarks. The timing lined up with Canadian coupon cash, which can help absorption. Energy infrastructure debt also sits close to the day's macro theme: oil and gas markets are driving inflation and policy risk, while infrastructure borrowers still need long-dated funding.\n\nThe stress side was more pointed. Barclays' leveraged-finance head warned software companies to prepare for difficult refinancing conditions, citing private-credit exposure and AI disruption as the market's first major stress test of the year. Private-credit lenders were described as more selective, with payment-in-kind features and forward-looking indicators becoming more important than backward-looking defaults. The Fed's supervision report added an official version of that concern: bank loan delinquencies rose modestly, nonbank default data were limited but visible high-profile defaults raised concern, and banks were revisiting collateral practices for exposures tied to private markets.\n\nDistressed borrower evidence made the selectivity tangible. Sleep Number prepared for a potential bankruptcy filing after seeking rescue financing, with revenue down and borrowings still material. Quincy, Massachusetts, faced questions over a $22.5 million borrowing plan to buy a college campus after its rating was downgraded and leverage rose. Swiss institutional investors managing more than $270 billion planned to halt purchases of debt from major oil producers, adding another sector-demand constraint. Each example is separate, but together they show how higher rates, investor mandates, and refinancing needs are narrowing the borrower universe.\n\nThe credit read is therefore balanced but stricter than June 2. Primary markets can still clear Alphabet-linked muni structures, Belden loans, infrastructure bonds, and AI-related debt at the right terms. The market is also spending more time asking whether AI debt supply is outrunning protections, whether software borrowers can refinance before maturity walls, and whether private-credit exposures are marked clearly enough. Concession behavior is the next signal. If new deals keep clearing without wider spreads, credit can live with higher real yields. If investors start demanding more spread and tighter documentation, the rates shock will have moved from ETFs into funding conditions.\n\n## Global Duration\n\nGlobal duration kept feeding the U.S. rates story through central banks, auctions, FX, and fiscal transmission. Japan remained the most important non-U.S. duration channel. Ueda said a June BOJ rate hike needs to be discussed if upside price risks dominate growth risks. Traders assigned a high probability to a quarter-point hike at the June 15-16 meeting. The yen traded near 160 per dollar, close to levels that previously triggered intervention, and Finance Minister Katayama reiterated readiness to respond to FX moves.\n\nJapan's fiscal channel added nuance. The cabinet approved a JPY3.1 trillion extra budget to cushion households from inflation tied to Middle East turbulence, including a reserve fund likely to cap gasoline costs. Officials said total issuance to the market would remain unchanged because some previously scheduled bonds would be canceled. That matters for duration because fiscal support can cushion households and limit near-term inflation pain, while unchanged calendar issuance reduces immediate supply anxiety. The BOJ still has to consider the pace of bond-purchase reductions, so Japanese duration remains sensitive to both rate normalization and balance-sheet policy.\n\nAustralia showed a different combination of growth slowdown and auction demand. GDP rose 0.3% in the first quarter, weaker than expected and far below the prior quarter's pace. Private investment still jumped, led by data centers and machinery. The data pushed investors toward the view that the RBA may pause after three hikes, and a seven-year bond auction drew more than four times the A$1 billion offered. The auction's strong bid-to-cover suggests investors are willing to own the belly where slowing growth can eventually cap policy rates, even as energy costs and tight labor markets keep another hike possible.\n\nThe UK carried the opposite tension: elevated inflation exposure with fiscal constraints. The OECD expected the BOE to hold rates this year and cut in 2027, arguing that the energy shock should be temporary and that weaker jobs can constrain price pressure. The same forecast warned that Britain remains highly exposed to inflation and urged fiscal consolidation as debt moves toward 105% of GDP in 2027. For gilts, this keeps the market focused on whether the BOE can look through imported energy inflation while the Treasury limits household support and debt growth.\n\nPoland cooled one regional hiking story. Governor Glapinski said rates at 3.75% are high enough to protect price stability after May inflation unexpectedly slowed to 3.1%, still within the target band. That pushed against earlier market pricing that had built substantial tightening after the Iran war. Poland therefore sits between EM-style energy sensitivity and DM-style patience: imported fuel costs matter, but current inflation data gave policymakers room to resist additional hikes.\n\nEurope's China trade-risk discussion was a slower duration backdrop. EU officials prepared to warn citizens and companies about potential trade frictions with China, while the bloc weighs tools against subsidies, overcapacity, and critical-mineral dependence. Those issues have limited direct role in the June 3 Treasury close. They still matter for European growth, fiscal investment, defense spending, and supply-chain inflation risk. A bloc that needs more spending to compete with the U.S. and China also faces a harder fiscal-duration tradeoff.\n\nThe global-duration conclusion is that auctions can still find demand at higher yields, but central banks are becoming less comfortable with energy-led inflation. Japan's BOJ path, Australia's pause debate, the BOE's look-through argument, Poland's cooled hike pricing, and Europe's trade/fiscal challenge all sit under the same question: can growth-slowdown evidence and bond demand offset imported inflation before term premium rises again?\n\n## Emerging Markets\n\nEM was pulled between two forces: broad dollar/rate tightening and country-specific debt-management progress. EMB fell 0.37%, and the dollar rose, so the external environment was less friendly than June 2. Country stories still mattered enough to produce meaningful dispersion. The day rewarded hard-currency access, reserve accumulation, reform credibility, and legal process. It penalized inflation slippage, blocked liability-management plans, and weak FX buffers.\n\nThe broad policy backdrop came from emerging-market central banks leading the global tightening wave as the Iran war lifted energy, food, fertilizer, and shipping costs. At least 10 EM and frontier central banks had raised rates since the fighting began. The logic is straightforward: imported inflation can become an FX problem quickly, and EM bond yields are sensitive to any sign that central banks tolerate a drift away from targets. That broad context explains why local-rate and currency stories carried more weight than broad equity risk appetite.\n\nIndia showed how higher benchmark yields change corporate funding channels. Bank credit growth reached 16.2%, the fastest in nearly two years, while local bond sales fell 11% to 10.9 trillion rupees. Sovereign yields had climbed to about 7.04% since the Iran war began, making bond funding more expensive for companies. Lower-rated borrowers moved toward banks where they could save 60-70 bp compared with bond issuance. The banking system then needed more deposit and short-term funding, with six-month certificate-of-deposit rates jumping sharply in May. India also prepared measures to attract foreign bond buyers through tax cuts and fully accessible long-tenor bonds, while the rupee remained under pressure.\n\nGhana offered a mixed but constructive reform story. The finance minister raised the growth forecast above 6%, cited reserves around $14 billion, and argued that reforms and strong exports left the country better able to withstand the Iran shock. At the same time, inflation rose to 3.7% from 3.4% as fuel and food costs moved higher, and the cedi had weakened this year. The EM read is that Ghana's recovery from default and IMF-backed reforms still matter, while energy and FX pass-through can delay monetary easing.\n\nBahrain tested hard-currency demand under geopolitical stress. The sovereign sold $1 billion of 10Y dollar bonds at 7.125% after initial talk around 7.5%, with orders peaking above $3.2 billion. The sale was the first public regional sovereign deal since the war began and came shortly after Bahrain intercepted Iranian missiles. Investors accepted the bond because the borrower has scarcity value and implicit support from stronger Gulf neighbors, even though debt is very high and fiscal fundamentals are weak. That is an EM dollar-credit lesson: demand exists, but it is tied to external backstops and enough yield.\n\nZambia was the liability-management warning. Bondholders assembled a blocking position against the government's attempt to retire a 2053 bond before a coupon step-up from 0.5% to 7.5% if IMF debt-sustainability conditions are met. The tender offer sat below market levels, leaving holders with limited incentive to participate. This reopens a continuity thread from earlier EM debt-management watches: restructuring completion does not end negotiation risk when step-ups, clean-up calls, and creditor blocks are embedded in the new instruments.\n\nHungary and Argentina supplied more constructive process stories. Hungary's local bonds had returned more than 11% since Peter Magyar defeated Viktor Orban, with PGIM seeing further upside from EU funds, possible rate cuts, and euro-entry aspirations. The fiscal challenge remains large, especially because EU funding depends on budget discipline. Argentina's central bank surpassed its $10 billion dollar-purchase goal through exports, energy flows, and provincial/local-company issuance. That reserve accumulation helped ease near-term bondholder concerns, though net reserves remained limited and 2027 debt payments are still heavy.\n\nThe EM conclusion is dispersion under a tougher dollar backdrop. Bahrain and Argentina showed that hard-currency demand and reserve accumulation can offset geopolitical and refinancing anxiety. Ghana and Hungary showed reform credibility can still command investor attention. India showed domestic funding substitution when bond yields rise. Zambia showed that liability-management execution remains hard even after a restructuring. The next EM checks are RBI policy and bond-access measures, Ghana inflation and reserves, Zambia negotiations, Bahrain secondary trading, Hungary EU-fund delivery, and Argentina's net-reserve path.\n\n## Cross Asset\n\nCross-asset tone supported the real-yield tightening read. Oil was the primary macro input, with WTI at $96.02 and Brent at $97.81. Higher crude raised the cost-pressure map just as U.S. data showed enough resilience to keep the Fed focused on inflation. Gold fell 1.17%, which also fit the higher-real-yield story: the market did not rush into a broad safe-haven trade; it repriced the cost of money.\n\nEquities were mixed but less supportive than June 2. The S&P 500 fell 0.74% and the Nasdaq 100 fell 0.29%, while SOX rose 1.39%. Semiconductor strength kept the AI equity channel alive, and that matters because AI investment is showing up in data-center capex, muni structures, high-grade debt, high-yield debt, and private credit. Yet the broader equity decline and higher VIX showed the market's tolerance for oil/Fed pressure had narrowed.\n\nFX and listed credit completed the tighter picture. DXY rose 0.31% to 99.53, which tightened external conditions for EM and reinforced the Warsh/Fed event-risk discussion. VIX rose 1.84% to 16.06, still low in absolute terms but moving against the prior day's calmer risk backdrop. LQD, HYG, JNK, and EMB all fell. Those moves show risk vehicles marking lower as real yields and the dollar rose, while direct spread evidence still depends on primary and cash-credit terms.\n\nThe cross-asset conclusion is concise: June 3 was a tighter financial-conditions close with AI leadership still present. Oil, real yields, the dollar, VIX, listed credit, and EMB lined up in the same direction. Semiconductors resisted the broader move, but that resistance is now part of the credit question because AI-linked debt supply is expanding quickly. The next test is whether SOX strength keeps financing channels open while the rates and dollar backdrop becomes more restrictive.\n\n## Forward Market Significance\n\nU.S. data carry the first market test. Payrolls need to be weak enough to challenge the market's inflation-first framing, because ADP, JOLTS, ISM, Logan, and the Beige Book all left the Fed with reason to stay restrictive. CPI then decides whether lower breakevens on June 3 were a durable market judgment or a temporary mark inside a broader energy shock.\n\nA 10Y real yield at 2.11% and options interest targeting a 10Y nominal yield around 4.7% create a clear market line. If real yields keep rising while breakevens remain contained, the market will read the shock as policy restriction and term-premium adjustment. If breakevens rise with crude, the selloff becomes broader and harder for credit to absorb.\n\nCredit depends on primary execution. Belden, Alphabet's prepaid energy structure, Coastal GasLink, AI debt, and other deals can still clear if investors get adequate spread, structure, or credit support. Software refinancing, private-credit monitoring, Sleep Number, Quincy, and energy-sector exclusion policies show where the market can become more punitive. The key signal is whether new-issue concessions rise faster than Treasury yields.\n\nGlobal duration needs proof that auction demand can stand against central-bank caution. Japan's BOJ meeting, yen levels, and bond-purchase plan are the sharpest global rate event. Australia needs to show that softer growth is enough to justify a pause. The BOE must balance imported inflation against weaker labor. Poland must decide whether softer CPI is enough to hold the line against energy pass-through.\n\nEM needs country evidence to beat the dollar. Bahrain's bond needs to trade well, Zambia needs a workable path around the blocked buyback, India needs to manage bank funding and foreign-bond access, Ghana needs inflation to stay consistent with its reform story, Hungary needs EU funding delivery, and Argentina needs net reserves to improve beyond gross purchases. A stronger dollar raises the hurdle for each of those stories.\n\nThe day leaves a clear market setup: June 2's stabilization gave way to June 3's real-yield tightening. The market still funded selected credit and EM stories, and AI equity leadership remained alive. The burden now shifts to data and deal execution. Payrolls, CPI, BOJ communication, and primary-market concessions will decide whether the tightening remains orderly or begins to restrict risk appetite more broadly.\n",
+    "section_summaries": [
+      {
+        "section_title": "Opening Thesis",
+        "summary": "The opening frames June 3 as a real-yield tightening close that challenged the prior day's duration absorption. Oil rose again, ADP and ISM kept Fed hike risk alive, credit and EM still showed selected deal demand, global duration faced central-bank pressure, and cross-asset breadth tightened through a firmer dollar, higher VIX, weaker credit vehicles, and lower EMB.",
+        "section_id": "opening-thesis",
+        "market_read": "Real yields, oil, and Fed reaction risk drove tighter financial conditions.",
+        "why_it_matters": "The close raises the bar for payrolls, CPI, and primary-credit execution.",
+        "next_check": "Watch payrolls, CPI, real yields, dollar, and concessions."
+      },
+      {
+        "section_title": "U.S. Rates And The Fed",
+        "summary": "U.S. rates were led by higher real yields after ADP, ISM, oil, Logan, Williams, the Beige Book, and Warsh event risk kept policy restriction in focus. Nominal yields rose across the curve, 10Y real yields climbed to 2.11%, and breakevens slipped, showing a Fed-reaction repricing more than a breakeven breakout.",
+        "section_id": "us-rates-and-the-fed",
+        "market_read": "Labor resilience and energy pass-through lifted real-yield pressure.",
+        "why_it_matters": "Payrolls and CPI now decide whether the 10Y can trade toward higher-yield option targets.",
+        "next_check": "Watch payrolls, CPI, Fed blackout, oil, and 10Y real yields."
+      },
+      {
+        "section_title": "Credit And Funding",
+        "summary": "Credit kept access open for selected borrowers and structures while stress signals grew sharper. Alphabet's prepaid energy muni role, Belden's planned financing, Coastal GasLink's bond sale, and AI debt demand showed capacity, while software refinancing warnings, Fed private-credit monitoring, Swiss oil-bond exclusions, Quincy leverage, and Sleep Number distress showed stricter underwriting.",
+        "section_id": "credit-and-funding",
+        "market_read": "Funding was available, but borrower quality and structure mattered more.",
+        "why_it_matters": "Primary concessions reveal whether higher real yields are reaching borrower terms.",
+        "next_check": "Watch Belden, AI debt, software refinancings, and concessions."
+      },
+      {
+        "section_title": "Global Duration",
+        "summary": "Global duration was shaped by BOJ hike risk, yen intervention risk, Japan's issuance-managed budget, Australia's slower GDP and strong seven-year auction, the BOE/OECD look-through debate, Poland's cooled hike pricing, and Europe's China trade-risk backdrop. Growth softness helped auctions, while energy and FX pressure kept central banks cautious.",
+        "section_id": "global-duration",
+        "market_read": "Auction demand helped, but imported inflation kept DM policy risk active.",
+        "why_it_matters": "Non-U.S. curves can stabilize only if growth slowdown offsets energy pressure.",
+        "next_check": "Watch BOJ, yen, RBA, BOE, Poland, and auctions."
+      },
+      {
+        "section_title": "Emerging Markets",
+        "summary": "Emerging markets faced a tougher dollar and real-yield backdrop while country stories drove dispersion. EM central banks led hikes, India shifted corporate funding toward banks and considered foreign-buyer tax relief, Ghana balanced reform gains against higher inflation, Bahrain reopened Gulf sovereign issuance, Zambia faced coupon-step-up negotiations, Hungary rallied on EU funds, and Argentina built dollars.",
+        "section_id": "emerging-markets",
+        "market_read": "Dollar pressure lifted the hurdle for EM debt-management stories.",
+        "why_it_matters": "Country-specific credibility must now overcome tighter external financing conditions.",
+        "next_check": "Watch RBI, Ghana, Bahrain, Zambia, Hungary, and Argentina."
+      },
+      {
+        "section_title": "Cross Asset",
+        "summary": "Cross-asset breadth backed the tightening read. Oil rose, the dollar strengthened, gold fell, VIX increased, SPX and NDX slipped, listed credit vehicles fell, and EMB weakened. Semiconductor strength kept the AI equity channel alive, but broader risk tone showed less tolerance for another oil and Fed-pricing shock.",
+        "section_id": "cross-asset",
+        "market_read": "Risk tone tightened even as semiconductors held the AI leadership line.",
+        "why_it_matters": "A firmer dollar and weaker credit vehicles can pressure funding channels.",
+        "next_check": "Watch oil, DXY, VIX, SOX, gold, and EMB."
+      },
+      {
+        "section_title": "Forward Market Significance",
+        "summary": "Forward Market Significance turns the close into checks on payrolls, CPI, Fed communication, 10Y real yields, credit concessions, AI and software refinancing, BOJ/RBA/BOE/Poland policy, and EM debt-management execution. The day leaves markets with an orderly but tighter setup that now depends on data and deal quality.",
+        "section_id": "forward-market-significance",
+        "market_read": "The setup is orderly, tighter, and data-dependent.",
+        "why_it_matters": "The next moves decide whether real-yield tightening stays contained or broadens.",
+        "next_check": "Watch payrolls, CPI, 10Y real yields, deals, BOJ, and EM."
+      }
+    ]
+  },
+  "report_date": "2026-06-03",
+  "run_id": "2026-06-03T08-00-00+08-00_live-local",
+  "anchor": "ny_close",
   "yield_heat_map": {
     "rows": [
       {
@@ -176,81 +260,6 @@
       }
     ]
   },
-  "cross_asset_cards": [
-    {
-      "title": "Oil",
-      "value": "WTI 96.02 (+2.41%) / BRENT 97.81 (+1.89%)",
-      "summary": "Higher crude clashed with softer breakevens; inflation compensation diverged.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Equities",
-      "value": "SPX 7,554 (-0.74%) / NDX 30,571 (-0.29%) / SOX 13,917 (+1.39%) / VIX 16.06 (+1.84%)",
-      "summary": "Semiconductor strength was the equity exception.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Dollar / gold",
-      "value": "DXY 99.53 (+0.31%) / GOLD 4,437 (-1.17%)",
-      "summary": "Treasury yields were higher; dollar firmness tightened financial conditions.",
-      "reference_type": "ny_close"
-    }
-  ],
-  "long_thesis": {
-    "english_markdown": "# Daily FI Market Intelligence - 2026-06-03 Close\n\n## Opening Fixed-Income Thesis\n\nThe 2026-06-03 close was defined by inflation pressure, oil strength, and fed optionality left the u.s. rates tape heavier even as parts of global duration still found demand. two-year Treasury finished at 4.08%, five-year Treasury at 4.21%, 10-year Treasury at 4.49%, and 30-year Treasury at 4.99%; the rate move was two-year +3 bp, five-year +4 bp, 10-year +3 bp, 30-year +2 bp. The important message was beyond the level of Treasury yields, but the way the close tied policy-sensitive rates, inflation-adjusted yields, listed credit prices, and cross-asset confirmation into one tighter fixed-income read.\n\nThe curve shape sharpened that point. The two-year/10-year curve curve ended at 41 bp and two-year/30-year curve at 91 bp, while 10-year inflation-adjusted yields stood at 2.11% and 10-year inflation compensation at 238 bp. That mix kept the inflation debate alive without making inflation compensation the only story; in this close, inflation-adjusted yields, central-bank reaction functions, and the dollar channel did more work than a simple commodity-price narrative.\n\nCredit and funding did not deliver a single clean confirmation signal. LQD ended at 108.62, HYG at 79.68, and EMB at 95.90, but issuer and sovereign stories mattered as much as ETF-level marks. The tape contained large primary deals, restructurings, private-credit concerns, and hard-currency funding examples, so the right read is selective market access and not a blanket statement that spreads were either healthy or broken.\n\nGlobal duration and EM were also part of the close and not a separate appendix. Central-bank signals from Australia, Japan, Europe, Canada, Korea, Indonesia, India, Ghana, Zambia, and other country lanes showed how inflation, FX defense, fiscal risk, and dollar funding were being repriced around the U.S. rates anchor. Those items matter because they determine whether U.S. duration is absorbing a local data shock or a broader global clearing-price adjustment.\n\nCross-asset confirmation was conditional. WTI at 96.02, Brent at 97.81, DXY at 99.53, gold at 4,437, SPX at 7,554, Nasdaq 100 at 30,571, and VIX at 16.06 framed whether the fixed-income move was inflation-led, dollar-led, risk-led, or some combination. The close therefore leaves a practical market question: which channel confirms next, and which one fades first.\n\nThe stronger analytical point is the sequencing of the day. A jobs-gauge-driven Treasury selloff arrived before the market had a clean inflation release, so the close had to price the possibility that inflation and labor data would validate each other. That is why oil strength, Fed-district inflation anecdotes, and Fed speaker caution mattered more than any single headline. Credit and EM did not overturn the rates read; they showed how higher inflation-adjusted yields can coexist with selective issuance and country-specific reform stories.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nTreasuries gave the cleanest price signal. UST2Y at 4.08% and UST5Y at 4.21% placed the policy-sensitive part of the curve at the center of the close, while UST10Y at 4.49% and UST30Y at 4.99% defined the term-premium and duration-clearing layer. The daily move was 2Y +3 bp, 5Y +4 bp, 10Y +3 bp, 30Y +2 bp, so the close should be read through policy pricing and real-yield transmission before any looser story about broad risk appetite.\n\nThe curve did not send a simple reflation message. The 2s10s curve at 41 bp and 2s30s at 91 bp left the market with a front-end and belly question: whether Fed optionality is becoming more expensive than long-end inflation compensation. The butterfly marks, especially the belly-rich structure in the checked market rows, point to a curve still organized around policy expectations and real-yield adjustment and not a clean long-end supply repricing.\n\nInflation compensation was important because it narrowed the interpretation. Ten-year real yields at 2.11% and 10Y breakevens at 238 bp show that the market was not simply buying every inflation headline. Energy, tariffs, wage data, and central-bank communication mattered, but the cash Treasury result depended on how those risks changed real discount rates and expected policy restraint. That difference keeps the rates read grounded in market pricing and not headline inflation language.\n\nFed communication belongs in the same rates channel. Williams, Daly, Logan, Warsh-era discussion, and jobs/inflation setups all carried the same market function: they kept the reaction function conditional and made the next data point matter more than a single day of price action. When policy speakers tie inflation, energy, labor, or financial conditions to the path ahead, UST2Y and UST5Y become the first instruments to express that uncertainty.\n\nSupply and liquidity stay proportional to direct evidence. Where the input set gives auction demand, mortgage hedging, foreign-bond demand, or issuance facts, those items can explain local curve pressure. Where it gives only a yield move, the yield move is price evidence, not proof of poor liquidity. The next rates check is therefore whether 4.49% on UST10Y and 2.11% on 10Y real yields hold after the next labor, inflation, central-bank, and auction information.\n\nThe rate complex also carried a maturity message. The 30-year yield rose less than the five-year yield, which means the market was not simply demanding a broad inflation premium across the entire curve. The pressure was concentrated where Fed path and real yields are most visible. Australia auction demand, BOJ normalization risk, BOE forecasts, and Polish policy restraint all help frame that point: global central banks were not moving together; inflation caution was still the common constraint.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit conditions were selective, not uniformly easy. LQD at 108.62, HYG at 79.68, JNK from the same market set, and EMB at 95.90 are useful gauges, but they combine rates, liquidity, and spread exposure. They do not by themselves prove cash-spread tightening or broad credit strength. The stronger evidence comes from who could issue, who needed concessions, who faced restructuring, and which borrowers carried rate-sensitive refinancing needs.\n\nBahrain showed the open side of the market by selling $1 billion of 10-year dollar bonds at a 7.125% yield with orders above $3.2 billion shortly after missile tension. India showed the substitution side as higher benchmark yields pushed companies toward bank lending in place of bonds. JPMorgan debt for Belden, Alphabet municipal-energy financing, Coastal GasLink bonds, Quincy debt, Sleep Number bankruptcy risk, software refinancing stress, and Fed concern about private-credit defaults all point to the same borrower-tiering theme.\n\nPrimary-market absorption was therefore the central credit question. Large sovereign, municipal, investment-grade, AI-infrastructure, data-center, and acquisition-financing deals showed that market access existed, but the market was not giving every borrower the same price. Higher real yields raise the hurdle for junior debt, leveraged buyouts, software cash flows, and issuers exposed to foreign-currency liabilities. That is a funding condition, not a recommendation or an allocation signal.\n\nThe credit read also needs to distinguish rate duration from credit quality. A fall in LQD or HYG on a day when UST yields rise may reflect duration and discount-rate pressure before it reflects spread stress. Conversely, issuer stories such as bondholder control, coupon step-ups, early coupon payments, private-credit ratings, or large AI-related debt packages can show credit differentiation even when ETF marks look orderly. The right conclusion is that credit remained open but more discriminating.\n\nThe next credit test is concession, order quality, and refinancing evidence. If primary deals clear near guidance while weaker borrowers still need creditor concessions, the market remains open but tiered. If larger coupons, maturity extensions, failed tenders, or stressed exchanges multiply while Treasury yields stay high, credit would shift from selective access to a broader funding-tightening story.\n\nBahrain is the useful credit contrast because geopolitical risk did not block a dollar sale; the 7.125% yield and sovereign-specific order book do not prove easy credit for every borrower. Belden acquisition debt, Alphabet municipal-energy financing, Coastal GasLink supply, Quincy leverage, and Sleep Number bankruptcy preparation each sit in a different part of the quality stack. The public-market read is access with price discrimination, not broad spread compression.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nAustralia supplied the cleanest non-U.S. duration demand signal, with investors seeking more than four times the A$1 billion seven-year notes on offer as RBA pause expectations improved. Japan added the opposite pressure point as Governor Kazuo Ueda kept a rate-hike path alive if inflation risks dominate the Middle East growth hit. BOE/OECD forecasts, Polish policy restraint, and global inflation shock analysis kept the developed-market duration map uneven.\n\nDeveloped-market duration mattered because it changed the relative clearing price for U.S. rates. When Australia, New Zealand, Japan, Canada, the ECB, the BOE, Sweden, or Czechia show local inflation or labor signals, U.S. Treasuries do not trade in isolation. Global investors compare UST10Y at 4.49% and UST30Y at 4.99% against local central-bank paths, hedging costs, fiscal supply, and currency risk.\n\nCentral-bank communication remained more complicated than a synchronized easing cycle. Some economies showed softer inflation or weaker growth, while others had wage, energy, or currency reasons to keep policy tight. That divergence is why global duration cannot simply repeat the U.S. rates paragraph. It has to ask whether non-U.S. duration demand absorbs global shocks or whether local policy normalization competes with U.S. duration for capital.\n\nFiscal transmission also stayed present. Debt increases, tax-cut debates, issuance cuts, mortgage hedging, pension foreign-bond buying, and energy-price risks each change how much duration the market must absorb and at what yield. The relevant market point is without implying that every fiscal item moved the NY close; it is that fiscal and issuance paths define the sensitivity of long-end yields once policy-sensitive tenors have repriced.\n\nThe next global duration check is whether local disinflation stories offset labor and energy shocks. If Japan wages, Korea bond losses, Canada employment, ECB energy risk, or U.K. fiscal pressure keep yields firm, U.S. long-end relief will be harder to sustain. If those channels cool while U.S. inflation data softens, the global backdrop would support a cleaner duration bid.\n\nThe global duration map also had a fiscal component. OECD warnings about U.K. debt, Japan rate-normalization language, and Australian auction demand each changed the available supply-and-demand picture for duration without directly driving the U.S. close. They belong here because they set the background against which UST real yields clear. If foreign duration demand stays strong, U.S. yields can absorb inflation worries more easily; if local policy rates keep rising, that cushion weakens.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nGhana offered the reform-support side of EM, with growth expected above 6%, inflation far below last year, and reserves near $14 billion. Bahrain showed hard-currency access despite regional conflict, while Zambia negotiations around a 2053 bond coupon step-up kept restructuring risk alive. Argentina dollar buying above $10 billion, Hungary rally potential, India bond-market tax plans, and Japan FX response risk all sat inside the same dollar-liquidity map.\n\nEM sovereigns and hard-currency credit start with dollar liquidity and debt management. EMB at 95.90 gives a broad gauge, but country-level details determine whether the market is rewarding reform, charging for FX exposure, or waiting for official-sector negotiations. Ghana, Bahrain, Zambia, Congo, Chile, Indonesia, the Philippines, India, China, Colombia, Senegal, South Africa, Argentina, and Hungary each entered the tape through a different part of that funding map.\n\nThe dollar channel remained central. DXY at 99.53 is not just a cross-asset number for EM; it changes the cost of defending currencies, servicing dollar debt, refinancing external bonds, and attracting foreign inflows. When local central banks defend FX or when corporates carry sizable dollar maturities, U.S. real yields and firmer dollar travel directly into EM credit and local-rate policy.\n\nDebt-management risk was also differentiated. A sovereign that can place hard-currency bonds after a shock is not in the same position as an issuer negotiating coupon step-ups or a corporate sector facing large foreign-currency maturities. Reform stories, reserve gains, growth upgrades, and early coupon payments can narrow risk, but they do not eliminate sensitivity to U.S. rates, oil, and dollar funding.\n\nThe next EM check is whether hard-currency issuance clears without wider concessions and whether FX defense remains orderly. If oil rises with the dollar, EM central banks and corporates face a double squeeze. If the dollar softens while reform and issuance stories continue to clear, EM can lag the U.S. rates shock and not amplify it.\n\nGhana and Argentina showed that reform and reserve stories can still attract attention when the dollar is firmer. Zambia showed the opposite side: debt exchanges and coupon step-ups leave investors focused on legal and IMF-linked mechanics. Bahrain showed high-yielding sovereign access despite regional conflict. Those cases are different, but each depends on whether dollar funding remains available at a price that does not erase the reform or growth story.\n\n## Cross asset\n\nCross asset added the confirmation layer. WTI at 96.02, Brent at 97.81, DXY at 99.53, gold at 4,437, SPX at 7,554, Nasdaq 100 at 30,571, and VIX at 16.06 describe whether the rates move tightened financial conditions broadly or stayed inside the Treasury market. The answer for 2026-06-03 was conditional and not one-directional: some channels confirmed the fixed-income read, while others limited it.\n\nOil and the dollar confirmed the tighter read, while gold and listed credit prices leaned in the same direction. WTI rose 2.41%, DXY rose 0.31%, gold fell 1.17%, and HYG slipped 0.28%. Equities were softer in the S&P 500 but semiconductor strength still showed that risk appetite had not collapsed. The cross-asset story was therefore inflation and dollar pressure, not broad liquidation.\n\nOil mattered through inflation and central-bank reaction functions. A higher oil price can keep breakeven, wage, and policy-risk channels alive; a lower oil price can help duration even if real yields stay high. The market therefore needs oil to be read alongside real yields and Fed pricing. Oil alone does not explain the whole rates tape; it can decide whether a real-yield move feels like monetary restraint or inflation insurance.\n\nThe dollar mattered through funding and EM transmission. DXY near 99.53 tells the reader whether U.S. rate repricing is tightening global dollar liquidity. When the dollar strengthens with real yields, EM credit, foreign-currency borrowers, gold, and commodity importers all become more sensitive. When the dollar softens, risk assets and duration can absorb U.S. data shocks more easily.\n\nEquities and volatility mattered through duration of cash flows and financing appetite. Semiconductor, AI, data-center, and high-growth equity moves were not equity-only stories because they influenced financing demand, leverage appetite, and the discount-rate sensitivity of long-duration assets. The next cross-asset check is whether equity volatility, firmer dollar, and oil move together or begin to diverge.\n\nThe cross-asset mix limited any dovish interpretation. Semiconductor strength kept the equity story from looking like broad liquidation, but oil and DXY were enough to keep the fixed-income read tight. Gold weakness also fit a real-yield move and not a pure geopolitical fear trade. That combination leaves the reader with a hierarchy: rates and oil first, dollar funding second, equity confirmation third.\n\n## Forward Market Significance\n\nNext U.S. labor and inflation prints matters because the rates close is still sitting on a data-dependent policy path. A hotter print or firmer inflation compensation with UST2Y above 4.08% would confirm the current read; the opposite would challenge it by pulling the front end away from the dominant story. UST2Y at 4.08% and UST10Y at 4.49% are the first levels to watch because they separate policy repricing from long-end term-premium noise.\n\nFOMC statement and speaker reaction function is the second market channel. Language that validates energy or tariff pass-through as persistent would keep real yields and Fed pricing firm, while softer language or weaker data would let duration recover. The most important point is the direction of the reaction function: whether officials treat inflation, energy, labor, and financial conditions as reasons for patience or as reasons to keep restraint priced.\n\nWTI near 96 and DXY near 99.5 carries the funding and cross-asset test. A break higher in both oil and DXY would push the fixed-income read toward tighter dollar liquidity and more pressure on credit or EM. If that channel fades while Treasury yields stabilize, the market can separate U.S. policy risk from global funding stress.\n\nBahrain, Belden, Alphabet muni, and Canada pipeline supply is the credit-quality test. Orders fade or concessions rise despite elevated coupons would show whether issuers are clearing the higher-rate environment or paying for it through concessions, shorter maturities, creditor control, or weaker refinancing terms. Credit can remain open while still becoming more selective, so the watch point is not whether deals happen; it is which borrowers clear and at what price.\n\n\nThe market also needs to watch whether the listed credit prices around LQD 108.62 and HYG 79.68 diverge from issuer-level funding evidence. A stable ETF mark with weaker concessions would mean duration is the main problem; weaker ETF marks together with stressed refinancing terms would make credit the transmission channel.\n\nThe curve levels around UST2Y 4.08%, UST10Y 4.49%, and UST30Y 4.99% remain the cleanest way to separate policy pressure from term-premium pressure. A front-end move without long-end follow-through points to Fed repricing; a long-end move with oil and dollar pressure points to broader inflation and supply risk.\n\nA sustained break above the day's oil and dollar levels would matter because it would push the same pressure into breakevens, EM funding, and high-yield refinancing. A softer jobs or inflation setup would matter in the other direction because it would let the belly recover without requiring every credit and EM story to improve at once. The market is therefore waiting for confirmation, not a new narrative.\n\nThe additional depth check is the link between Fed speakers and private-credit tone. Williams and Logan kept policy optionality alive, while the Fed supervision material on nonbank defaults made refinancing risk more relevant for software and private-credit borrowers. That pairing matters because a modest Treasury selloff can still pressure weaker credits when lenders are reviewing collateral and sponsors are trying to extend maturities.\n\nAnother market check is the split between reform-positive EM stories and oil-sensitive inflation risk. Ghana reserves, Argentina dollar buying, and Hungary rally potential suggest reform can still matter, while Bahrain issuance and Zambia negotiations show that hard-currency access depends on price and legal structure. The EM read therefore survives as differentiated funding, not broad risk appetite.\n\nThe rates-depth check is whether UST5Y at 4.21% keeps leading UST30Y at 4.99%. A belly-led move says the market is pricing Fed reaction risk and real-yield pressure; a long-end-led move would say term premium and supply are taking over. The day did not yet prove the second story, so the close remains policy-sensitive first and long-end-supply-sensitive second.\n\nThe credit-depth check is whether high-coupon demand such as Bahrain can coexist with weaker software, private-credit, and municipal stress. If both remain true, credit investors are discriminating and not withdrawing. If the weaker stories begin to force broader concessions, LQD and HYG would stop being only rate-duration gauges and become stronger funding-stress indicators.\n\nThe global-depth check is Japan and Australia. Japan keeps rate-normalization risk alive through Ueda and FX pressure, while Australia showed auction demand when investors believed the RBA cycle was near a pause. Those two signals can coexist, but they leave U.S. duration exposed to whichever foreign market becomes the marginal buyer or seller next.\n",
-    "section_summaries": [
-      {
-        "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The opening read sets the session hierarchy before the long thesis moves into section detail. It connects the Treasury move, inflation compensation, dollar tone, credit absorption, global duration and cross-asset confirmation, then leaves background headlines in context unless they changed the close or the next clearing check.",
-        "market_read": "Opening read",
-        "why_it_matters": "Frames the session's dominant fixed-income move.",
-        "next_check": "Rates, credit and dollar mix"
-      },
-      {
-        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "The rates section separates policy-sensitive front-end pricing from belly and long-end duration demand. It uses Treasury levels, curve spreads, inflation-adjusted yields and inflation compensation to decide whether the close was driven by Fed repricing, term-premium pressure or a narrower duration adjustment that still needed confirmation.",
-        "market_read": "Rates and curve",
-        "why_it_matters": "Shows whether policy pricing or term premium led.",
-        "next_check": "Front-end and curve levels"
-      },
-      {
-        "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "The credit section asks whether the rates move reached borrower funding conditions. It keeps listed credit prices as gauges, then gives more weight to primary-market concessions, refinancing terms, covenant protection, maturity extension and borrower quality, because those details show whether access was broad or selective.",
-        "market_read": "Funding access",
-        "why_it_matters": "Tests whether rates pressure reached borrower funding.",
-        "next_check": "Issuance terms and concessions"
-      },
-      {
-        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "Global duration checks whether non-U.S. sovereign curves confirmed or complicated the U.S. rates read. Central-bank language, JGB, gilt and Bund pressure, fiscal supply and hedging demand are treated as separate transmission channels, so overseas duration can affect the close without being reduced to background color.",
-        "market_read": "Global duration",
-        "why_it_matters": "Checks whether non-U.S. duration joined the U.S. move.",
-        "next_check": "JGB, gilt and ECB signals"
-      },
-      {
-        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "The EM section maps dollar liquidity, local policy defense, hard-currency borrowing and sovereign debt-management risk. It separates country-specific reform or funding stories from broad EM beta, then watches whether DXY, reserves, external issuance and local-rate pressure let the U.S. rates move travel into higher-risk borrowers.",
-        "market_read": "EM dollar channel",
-        "why_it_matters": "Tracks sovereign funding and dollar-liquidity pressure.",
-        "next_check": "DXY and sovereign issuance"
-      },
-      {
-        "section_title": "Cross Asset",
-        "summary": "Cross-asset read-through compares oil, equities, volatility, gold, the dollar and public credit tone with the Treasury move. It asks whether inflation, liquidity and risk channels point in the same direction, or whether the rates signal remains narrow, selective and vulnerable to reversal as the next session absorbs new information.",
-        "market_read": "Cross-asset breadth",
-        "why_it_matters": "Separates inflation relief from broader risk tone.",
-        "next_check": "Oil, DXY, VIX and equities"
-      },
-      {
-        "section_title": "Forward Market Significance",
-        "summary": "Forward Market Significance turns the close into observable checks, not a second thesis. It names the data, supply, credit-concession, global-policy, EM-funding and cross-asset triggers that would broaden, narrow or reverse the fixed-income read in the next session, then keeps the watch list tied to tradable evidence.",
-        "market_read": "Forward checks",
-        "why_it_matters": "Defines the data and supply checks for the next tape.",
-        "next_check": "Data, supply and funding checks"
-      }
-    ]
-  },
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
   "archive_dates": [
     {
       "date": "2026-06-29",
@@ -268,96 +277,6 @@
       "date": "2026-06-25",
       "label": "2026-06-25",
       "href": "?date=2026-06-25",
-      "active": false
-    },
-    {
-      "date": "2026-06-24",
-      "label": "2026-06-24",
-      "href": "?date=2026-06-24",
-      "active": false
-    },
-    {
-      "date": "2026-06-23",
-      "label": "2026-06-23",
-      "href": "?date=2026-06-23",
-      "active": false
-    },
-    {
-      "date": "2026-06-22",
-      "label": "2026-06-22",
-      "href": "?date=2026-06-22",
-      "active": false
-    },
-    {
-      "date": "2026-06-19",
-      "label": "2026-06-19",
-      "href": "?date=2026-06-19",
-      "active": false
-    },
-    {
-      "date": "2026-06-18",
-      "label": "2026-06-18",
-      "href": "?date=2026-06-18",
-      "active": false
-    },
-    {
-      "date": "2026-06-17",
-      "label": "2026-06-17",
-      "href": "?date=2026-06-17",
-      "active": false
-    },
-    {
-      "date": "2026-06-16",
-      "label": "2026-06-16",
-      "href": "?date=2026-06-16",
-      "active": false
-    },
-    {
-      "date": "2026-06-15",
-      "label": "2026-06-15",
-      "href": "?date=2026-06-15",
-      "active": false
-    },
-    {
-      "date": "2026-06-12",
-      "label": "2026-06-12",
-      "href": "?date=2026-06-12",
-      "active": false
-    },
-    {
-      "date": "2026-06-11",
-      "label": "2026-06-11",
-      "href": "?date=2026-06-11",
-      "active": false
-    },
-    {
-      "date": "2026-06-10",
-      "label": "2026-06-10",
-      "href": "?date=2026-06-10",
-      "active": false
-    },
-    {
-      "date": "2026-06-09",
-      "label": "2026-06-09",
-      "href": "?date=2026-06-09",
-      "active": false
-    },
-    {
-      "date": "2026-06-08",
-      "label": "2026-06-08",
-      "href": "?date=2026-06-08",
-      "active": false
-    },
-    {
-      "date": "2026-06-05",
-      "label": "2026-06-05",
-      "href": "?date=2026-06-05",
-      "active": false
-    },
-    {
-      "date": "2026-06-04",
-      "label": "2026-06-04",
-      "href": "?date=2026-06-04",
       "active": false
     },
     {
