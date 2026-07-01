@@ -1,286 +1,300 @@
 {
-  "report_date": "2026-06-19",
-  "run_id": "2026-06-19T08-00-00+08-00_live-local",
-  "mode": "reduced",
   "anchor": "ny_close",
-  "header": {
-    "title": "Daily FI Market Intelligence - 2026-06-19",
-    "as_of_note": "U.S. cash markets were closed for Juneteenth; no fresh NY close price board was available.",
-    "latest_update_cutoff": "Next scheduled briefing after the U.S. holiday."
-  },
-  "overall_summary": {
-    "headline": "Closed-market brief: policy and funding news set the reopen map",
-    "summary": "With U.S. cash markets closed for Juneteenth, the fixed-income signal came from Fed repricing, funding execution, sovereign credibility, EM liquidity, and energy-risk watchpoints.",
-    "bullets": [
-      "U.S. holiday closure leaves no Treasury, curve, equity, oil, dollar, or credit board read.",
-      "Warsh, September hike risk, dollar options, and PCE frame the rates reopen.",
-      "SpaceX, AutoForm, Indian bank issuance, Jio, and BOE stress tests drive funding watch.",
-      "UK fiscal pressure, ECB/BOJ inflation risk, India liquidity, and Gulf energy shape global FI."
-    ],
-    "ny_close_causal_narrative": "U.S. cash markets were closed for Juneteenth. The reader signal came from news flow: restrictive Fed expectations, selective funding access, overseas fiscal and central-bank risk, EM liquidity management, and energy/dollar watchpoints for the next open session."
-  },
-  "latest_asia_premarket": {
-    "summary": "No checked early-session market signal is added to the NY-close read.",
-    "readout": "No checked early-session move is added to the NY-close narrative.",
-    "market_implication": "Labor data, funding pressure, oil, DXY and primary-market absorption remain the next market checks.",
-    "signals": [],
-    "items": [],
-    "as_of": "2026-06-20T08:00:00+08:00",
-    "status": "no_material_change",
-    "headline": "NY close unchanged by early-session inputs",
-    "changed_since_ny_close": "No checked early-session market move is added.",
-    "read_through": "Next checks remain labor data, funding pressure, oil, DXY and primary-market absorption.",
-    "what_would_matter_next": "A checked early-session rates, dollar, oil, credit or equity move large enough to change the NY-close read.",
-    "key_moves": []
-  },
-  "watch_events": [
+  "archive_dates": [
     {
-      "title": "Core PCE and income/spending",
+      "active": false,
+      "date": "2026-06-30",
+      "href": "?date=2026-06-30",
+      "label": "2026-06-30"
+    },
+    {
+      "active": false,
+      "date": "2026-06-29",
+      "href": "?date=2026-06-29",
+      "label": "2026-06-29"
+    },
+    {
+      "active": false,
+      "date": "2026-06-26",
+      "href": "?date=2026-06-26",
+      "label": "2026-06-26"
+    },
+    {
+      "active": false,
       "date": "2026-06-25",
-      "watch_line": "Core PCE tests whether Warsh-era inflation pressure survives the holiday.",
-      "market_trigger": "Core PCE meets or beats consensus with resilient spending.",
-      "market_implication": "A firm print supports restrictive Fed pricing and front-end sensitivity.",
-      "confirms_if": "Inflation and spending validate no-cut or possible-hike assumptions.",
-      "challenges_if": "Core inflation cools while labor data soften.",
-      "sensitive_channel": "UST rates / Fed pricing",
-      "why_it_matters": "The holiday left no cash-market board, so the next inflation release becomes the cleanest confirmation point for the policy story.",
-      "category": "Macro calendar"
+      "href": "?date=2026-06-25",
+      "label": "2026-06-25"
     },
     {
-      "title": "Fed communication after Warsh debut",
-      "date": "2026-06-25",
-      "watch_line": "Fed speakers show how firmly Warsh wants to guide expectations.",
-      "market_trigger": "Officials keep inflation intolerance central and avoid easing validation.",
-      "market_implication": "Hawkish communication keeps rate volatility and dollar demand active.",
-      "confirms_if": "Fed speakers emphasize price stability and data dependence.",
-      "challenges_if": "Officials acknowledge labor cooling or signal patience.",
-      "sensitive_channel": "Fed communication / dollar liquidity",
-      "why_it_matters": "The new chair’s communication regime is now part of how markets price the reaction function.",
-      "category": "Policy"
+      "active": false,
+      "date": "2026-06-24",
+      "href": "?date=2026-06-24",
+      "label": "2026-06-24"
     },
     {
-      "title": "Large borrower funding execution",
-      "date": "next open sessions",
-      "watch_line": "Large borrower funding tests demand after the holiday.",
-      "market_trigger": "Large deals clear while software refinancings need concessions.",
-      "market_implication": "Primary access stays open but borrower quality matters.",
-      "confirms_if": "SpaceX, Indian bank issuance, and AutoForm demand hold.",
-      "challenges_if": "Software, private-credit, or bank funding concessions widen.",
-      "sensitive_channel": "Credit and funding",
-      "why_it_matters": "Funding execution is the best credit signal on a day without public credit-gauge moves.",
-      "category": "Credit"
+      "active": false,
+      "date": "2026-06-23",
+      "href": "?date=2026-06-23",
+      "label": "2026-06-23"
     },
     {
-      "title": "UK fiscal and global duration sensitivity",
-      "date": "next open sessions",
-      "watch_line": "UK fiscal pressure and central-bank caution shape global duration.",
-      "market_trigger": "Fiscal concern, higher neutral-rate language, or BOJ signals persist.",
-      "market_implication": "Global duration stays guarded despite lower energy anxiety.",
-      "confirms_if": "UK fiscal sensitivity, ECB restraint, and BOJ inflation risk persist.",
-      "challenges_if": "Fiscal concern fades and central-bank language softens.",
-      "sensitive_channel": "Global duration",
-      "why_it_matters": "Overseas sovereign and central-bank pressure can shape the U.S. reopen even without a June 19 UST close.",
-      "category": "Sovereign duration"
+      "active": false,
+      "date": "2026-06-22",
+      "href": "?date=2026-06-22",
+      "label": "2026-06-22"
     },
     {
-      "title": "EM liquidity and Gulf energy flows",
-      "date": "next open sessions",
-      "watch_line": "EM liquidity and Gulf flows test dollar and inflation pressure.",
-      "market_trigger": "Dollar demand stays firm or local liquidity drains intensify.",
-      "market_implication": "EM relief stays conditional on credibility and dollar access.",
-      "confirms_if": "India liquidity, RBI issuance, and Gulf shipping stay orderly.",
-      "challenges_if": "Dollar funding tightens or energy disruption returns.",
-      "sensitive_channel": "EM dollar liquidity / energy inflation",
-      "why_it_matters": "The strongest holiday signal outside the Fed was the interaction between dollar liquidity, local policy tools, and energy risk.",
-      "category": "EM / energy"
+      "active": true,
+      "date": "2026-06-19",
+      "href": "?date=2026-06-19",
+      "label": "2026-06-19"
+    },
+    {
+      "active": false,
+      "date": "2026-06-18",
+      "href": "?date=2026-06-18",
+      "label": "2026-06-18"
+    },
+    {
+      "active": false,
+      "date": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "label": "2026-06-17"
+    },
+    {
+      "active": false,
+      "date": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "label": "2026-06-16"
+    },
+    {
+      "active": false,
+      "date": "2026-06-15",
+      "href": "?date=2026-06-15",
+      "label": "2026-06-15"
+    },
+    {
+      "active": false,
+      "date": "2026-06-12",
+      "href": "?date=2026-06-12",
+      "label": "2026-06-12"
+    },
+    {
+      "active": false,
+      "date": "2026-06-11",
+      "href": "?date=2026-06-11",
+      "label": "2026-06-11"
+    },
+    {
+      "active": false,
+      "date": "2026-06-10",
+      "href": "?date=2026-06-10",
+      "label": "2026-06-10"
+    },
+    {
+      "active": false,
+      "date": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "label": "2026-06-09"
+    },
+    {
+      "active": false,
+      "date": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "label": "2026-06-08"
+    },
+    {
+      "active": false,
+      "date": "2026-06-05",
+      "href": "?date=2026-06-05",
+      "label": "2026-06-05"
+    },
+    {
+      "active": false,
+      "date": "2026-06-04",
+      "href": "?date=2026-06-04",
+      "label": "2026-06-04"
+    },
+    {
+      "active": false,
+      "date": "2026-06-03",
+      "href": "?date=2026-06-03",
+      "label": "2026-06-03"
+    },
+    {
+      "active": false,
+      "date": "2026-06-02",
+      "href": "?date=2026-06-02",
+      "label": "2026-06-02"
+    },
+    {
+      "active": false,
+      "date": "2026-06-01",
+      "href": "?date=2026-06-01",
+      "label": "2026-06-01"
+    },
+    {
+      "active": false,
+      "date": "2026-05-29",
+      "href": "?date=2026-05-29",
+      "label": "2026-05-29"
+    },
+    {
+      "active": false,
+      "date": "2026-05-28",
+      "href": "?date=2026-05-28",
+      "label": "2026-05-28"
     }
   ],
-  "yield_heat_map": {
-    "rows": []
-  },
   "cross_asset_cards": [],
+  "header": {
+    "as_of_note": "U.S. cash markets were closed for Juneteenth; no fresh Treasury, curve or cross-asset close board was available.",
+    "latest_update_cutoff": "Next scheduled briefing after the U.S. holiday.",
+    "title": "Daily FI Market Intelligence: 2026-06-19 Market-Closed Brief",
+    "stance": "News flow set the reopen map.",
+    "subtitle": "Juneteenth left no fresh U.S. close board; policy, funding and sovereign news set the reopen map.",
+    "dek": "Juneteenth left no fresh U.S. close board; policy, funding and sovereign news set the reopen map.",
+    "reading_time_label": "About 14 min read"
+  },
   "long_thesis": {
-    "english_markdown": "# Daily FI Market Intelligence - 2026-06-19\n\n## Opening Fixed-Income Thesis\n\nThe U.S. cash market was closed for Juneteenth, so there was no fresh NY close price board. The useful fixed-income signal came from the developments that will frame the next open session: a hawkish Fed reaction function, dollar demand linked to rate differentials, private-market stress testing, large issuer financing plans, UK fiscal pressure, BOJ and ECB inflation persistence, EM liquidity management, and the next U.S. macro calendar.\n\nThe result is a reduced, news-only brief with no close-price price explanation. The core question is how much of the prior Fed repricing survives once cash Treasuries reopen. Sources pointed to traders fully pricing a September hike after Warsh emphasized inflation discipline, dollar-option activity rising against the euro, and Goldman cutting its year-end gold target by $500 because it no longer expected Fed cuts this year. Those facts do not create a June 19 Treasury move; they define the policy pressure waiting for the next tradable session.\n\nCredit added a second channel. Large and thematic borrowers still had access: SpaceX bankers were preparing a potential bond sale of at least $20 billion, Indian lenders were lining up about $2.5 billion of dollar debt through an RBI swap facility, and Jio planned to use IPO proceeds to reduce almost $3 billion of external commercial borrowings. At the same time, AutoForm showed how software refinancing still needs investor selectivity, with CLO buyers filling demand after roughly 30% of investors declined to extend a EUR672 million loan. The BOE's private-markets stress test gave that divide a macro wrapper by testing 7% rates, a 35% UK equity drawdown, a 400 bp leveraged-loan spread shock, and AI-related disruptions.\n\nGlobal duration and EM carried their own warnings. The UK reported GBP23.3 billion of May borrowing, with debt-interest costs adding to pressure and political debate reopening questions around fiscal rules. ECB's Lane defended a deposit-rate increase to 2.25% and said the neutral-rate ceiling may have moved toward 2.5%. BOJ officials kept the normalization debate alive after Himino warned that inflation could exceed target and Ueda prepared to return to work. In EM, India's short-end rally faced liquidity-drain risk, RBI swap funding helped banks access dollars, Singapore dollar strategists leaned on inflation and policy expectations, and Hungary appointed a debt chief focused on borrowing costs.\n\nThe cross-asset message was also a watch signal, not a stale board. Dollar-option demand, a lower gold forecast tied to no Fed cuts, Gulf shipping normalization, delayed U.S.-Iran talks, and the tanker backlog in the Persian Gulf all matter because they shape inflation compensation and dollar liquidity when markets reopen. The brief therefore starts the next session with a clear burden of proof: policy news stayed restrictive, funding stayed available for strong borrowers, global sovereign credibility stayed under review, and energy relief still needed confirmation.\n\n## UST Rates Reopen Watch, Fed Pricing, And Calendar Risk\n\nThe U.S. rates discussion begins with the absence of a cash-market print. June 19 supplied no fresh Treasury close, curve, real-yield, or breakeven board. The relevant U.S. rates information came from policy repricing and calendar risk. Warsh's first Fed meeting continued to set the tone: investors had moved toward tighter-policy assumptions after he said the central bank would not tolerate high inflation, and sources described September hike risk as fully priced.\n\nDollar options showed the same rate-differential channel. Demand for euro-dollar call structures extended as investors digested the new Fed chair's anti-inflation message, with large call contracts reportedly almost double comparable put volume. That matters for rates because dollar demand can transmit hawkish U.S. policy into global liquidity even when the U.S. cash market is shut. It also matters for Monday because a strong dollar can tighten financial conditions abroad while keeping U.S. front-end compensation sensitive to inflation data.\n\nGoldman's gold revision belonged to the same policy story. The bank cut its year-end gold target by $500, to $4,900, while still expecting gains later in the year. The reason was not a holiday close level; it was the view that the Fed would deliver no cuts this year after Warsh emphasized price stability. Gold therefore served as an expectations channel: fewer cuts reduce one support for bullion and keep real-rate sensitivity alive.\n\nThe calendar gives the next test. The prior U.S. data backdrop included initial claims matching consensus at 226,000, continuing claims rising to 1.81 million, a stronger Philadelphia Fed index, and a small Leading Economic Index gain. The next week brings Richmond Fed manufacturing, new home sales, claims, Q1 GDP, durable goods, advance trade and inventories, Michigan sentiment, and the main event: May personal income, spending, and core PCE. Core PCE is the cleanest near-term test for whether the post-FOMC inflation premium has to be rebuilt or can fade.\n\nFed communication also moved from price setting into governance. Bowman attending a private dinner during the blackout period and Warsh's plan to review Fed communications kept the market focused on how the new chair wants to manage expectations. That is a rates issue because communication discipline affects term-premium, front-end volatility, and the credibility of the inflation target. The Monday watch is simple: if PCE and Fed speakers validate the no-cut, possible-hike path, the front end should stay the pressure point; if inflation and labor data soften together, duration can regain room without relying on a stale holiday board.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit news was active even with the U.S. cash market closed. The strongest borrowers and most strategic funding stories still had a clear audience. SpaceX bankers were preparing a potential bond sale of at least $20 billion, extending a pattern in which AI, data-center, aerospace, and infrastructure-linked capital demand can command investor attention. The deal matters because its scale would test how much long-duration private and public capital is available for growth platforms when policy rates remain high.\n\nBank and corporate funding in Asia carried a similar message. At least four Indian lenders, including State Bank of India, Axis Bank, Bank of Baroda, and Power Finance Corp., were preparing about $2.5 billion of dollar bond sales using an RBI swap facility that lowers the cost of borrowing dollars. Jio Platforms planned to use part of IPO proceeds to repay almost $3 billion of external commercial borrowings at its telecom unit. Those are not spread-tightening claims; they are funding-structure facts. They show borrowers using policy facilities, equity proceeds, and scale to manage hard-currency debt.\n\nThe weaker part of credit was refinancing quality. AutoForm's EUR672 million term loan B extension became an important software-sector test after a selloff earlier in the year. CLOs stepped in as key buyers after about 30% of investors, including large U.S. asset managers, were unwilling to extend the maturity. That tells readers that demand exists, but it is not uniform. Software credit can clear when CLO balance sheets are willing to absorb risk, while traditional investors may still demand more protection.\n\nThe BOE's private-markets exercise widened the lens. Its stress test includes a 7% interest-rate scenario, a 35% fall in UK share prices, a 400 bp jump in leveraged-loan spreads, and AI-related disruptions. Asset managers, institutional investors, and bank funding providers are part of the exercise. The importance is not that those shocks are forecasts. The importance is that regulators are treating private assets, leverage, and nonbank funding as a market-functioning channel that can interact with higher-for-longer rates.\n\nEuropean restructuring mechanics added another caution. Germany's Schuldscheine market, long viewed as stable for lenders, carries a unanimous-consent feature that can complicate modifications when medium-sized borrowers come under pressure. The MFS mortgage-registration issue in the UK added a real-estate-finance control problem, with a GBP300 million mortgage portfolio tied to a collapsed lender. The credit brief therefore stayed two-sided: funding is available for scale, collateral, and strategic balance-sheet repair, while software extensions, private assets, and real-estate-linked structures remain the places where higher rates can expose weak documentation and lender coordination.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nGlobal duration carried more live information than U.S. Treasuries because overseas markets and policy stories kept moving. The UK was the clearest fiscal-duration channel. May borrowing reached GBP23.3 billion, the highest May deficit since the pandemic, and debt-interest costs were a major contributor. The number arrived alongside political uncertainty and debate over fiscal rules, including arguments that the debt target pushes short-term choices and warnings that any future administration would still face a credibility test.\n\nThat matters for fixed income because the UK story links three things investors care about: debt-interest sensitivity, political room for fiscal loosening, and the credibility of a rule that is supposed to anchor borrowing. When debt-service costs rise, fiscal arithmetic can become a duration story even without a new U.S. price board. The watch is whether investors treat UK fiscal debate as contained domestic politics or as another sign that high nominal rates are exposing sovereign balance sheets.\n\nThe ECB kept the inflation-persistence theme alive. Lane said the case for raising the deposit rate to 2.25% was clear given above-target inflation and resilience in the euro-area economy and financial system. He also pointed to the maximum neutral rate moving toward about 2.5%. That combination is important: if neutral is higher and inflation is persistent, policy can stay restrictive even when energy risk starts to ease. Euro-area core pressure, reported stronger than initially estimated, reinforced why officials remained cautious.\n\nJapan added a different form of duration risk. BOJ Deputy Governor Himino warned that inflation could accelerate beyond the 2% target as higher costs pass through business-to-business prices and potentially into a wider set of consumer goods and services. Ueda was discharged from the hospital and was expected to return to work, while the board had already lifted the benchmark rate to 1%, the highest since 1995. Board dissent highlighted debate over how quickly the BOJ should move toward neutral.\n\nThe developed-market lesson is that lower energy anxiety alone cannot close the policy debate. UK fiscal pressure, ECB inflation persistence, and BOJ normalization all point to duration markets that need fiscal and central-bank confirmation. Monday's U.S. reopen will matter, but the global backdrop already says investors will be comparing the Fed's inflation resolve with other central banks that are also trying to protect credibility.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM was a liquidity and debt-management story. India was the most developed thread. A rally in short-end Indian government bonds faced a possible cap because the Reserve Bank of India was expected to drain surplus cash from the banking system. Analysts saw surplus liquidity potentially climbing toward 8 trillion rupees, a level that could invite more short-term withdrawal operations. The policy point is that foreign-inflow optimism can coexist with local liquidity absorption.\n\nIndian bank funding also showed how policy tools can change the hard-currency channel. State Bank of India, Axis Bank, Bank of Baroda, and Power Finance Corp. were preparing dollar bond sales through an RBI swap facility. The facility makes dollar borrowing cheaper, which can support bank funding and external liability management. It also means dollar issuance cannot be read only as appetite for EM credit; it is partly a policy-assisted funding decision.\n\nThe RBI's own stance remained guarded. Rate setters had kept the repo rate at 5.25% and retained a neutral stance. Officials said an easing in West Asia conflict risk could improve India's and the global outlook, but they also warned against moving too early if inflation-growth dynamics were still uncertain. That keeps India in a constructive but conditional bucket: reforms and policy tools help, while liquidity drains and inflation caution limit how far front-end optimism can run.\n\nOther EM and quasi-EM funding stories reinforced the same discipline. Singapore dollar strategists saw room for appreciation by year-end, supported by expectations that inflation risks could keep policy biased toward further tightening beyond July. Hungary appointed Gergely Tardos of OTP as debt chief, with borrowing costs already helped by expectations around euro adoption and renewed access to EU funds. Russia's rate-cut path remained tied to inflation, ruble support from Middle East effects, budget deficits, war spending, and future domestic-debt burdens.\n\nJio's plan to repay almost $3 billion of external commercial borrowings from IPO proceeds also belongs in this section as balance-sheet debt management with hard-currency implications. The common thread is not broad EM beta. It is the way countries and issuers use liquidity operations, swap facilities, IPO proceeds, policy credibility, and external funding channels to manage debt. For the next open session, EM confirmation depends on whether a hawkish Fed and dollar demand leave enough room for local-policy stories to keep working.\n\n## Cross Asset\n\nCross-asset evidence was useful as an inflation and liquidity watch, not as a June 19 price board. The dollar channel was the most important. Demand for dollar call options against the euro increased as investors absorbed the Warsh Fed message, showing that rate differentials had become a currency and liquidity theme. A strong dollar story affects fixed income because it tightens global financial conditions, pressures EM dollar borrowers, and can reinforce front-end sensitivity to U.S. inflation data.\n\nGold gave a second policy read-through. Goldman's $500 target cut was tied to a no-cut Fed outlook, even while the bank still expected bullion to rise later in the year. The useful inference is about the balance between inflation hedging and real-rate pressure. If investors believe the Fed will keep policy restrictive, gold needs stronger alternative support from geopolitical risk, reserve demand, or inflation anxiety. If the Fed path softens, the same asset can quickly become a confirmation of easier real-rate expectations.\n\nEnergy was the other cross-asset channel. Gulf shipping normalization after the U.S.-Iran draft agreement reduced the immediate supply-disruption narrative, but delayed talks and regional clashes kept the path uneven. Reports of nearly 80 million barrels of crude sitting on tankers in the Persian Gulf showed why the energy story cannot be reduced to a single relief headline. The fixed-income relevance is the inflation path: smoother flows help headline inflation and household energy costs, while renewed disruption would feed directly into inflation expectations and central-bank caution.\n\nEurope's stagflation discussion fit that frame. A lower energy-risk premium can help growth and margins, but ECB officials still focused on above-target inflation and policy restraint. For Monday, cross-asset confirmation should come from whether dollar demand, gold sensitivity, and energy-risk pricing move in the same direction. If energy risk eases while dollar pressure stays firm, markets may split between better inflation optics and tighter global liquidity. If energy risk returns and the dollar remains supported, the restrictive-policy narrative gets harder to fade.\n\n## Forward Market Significance\n\nThe next tradable session should be judged by confirmation, not by backfilling a holiday close. The U.S. calendar leads the reopen checklist. Core PCE, personal income and spending, jobless claims, Q1 GDP, new home sales, durable goods, advance trade and inventories, Richmond Fed manufacturing, and Michigan sentiment will decide whether the Warsh-led inflation message meets supporting data. A firm core PCE print would keep possible-hike pricing alive; softer inflation alongside rising claims would give duration a cleaner relief path.\n\nFed communication is the next pillar. Williams and Goolsbee remarks, along with any follow-through from Warsh's communications review, matter because the market is still learning how the new chair wants to transmit policy resolve. A consistent message around inflation tolerance would keep the front end sensitive. A more balanced message that acknowledges labor cooling would reduce the risk that every energy or inflation headline becomes a rate-hike impulse.\n\nFunding execution is another pillar. SpaceX's potential bond process, AutoForm loan trading, Indian bank dollar issuance, Jio's IPO-linked debt reduction, and private-market stress-test commentary should show whether capital remains available for large borrowers while weaker structures pay for protection. The key distinction is between primary access and credit quality. A successful large deal does not erase refinancing stress; it shows where investor demand is concentrated.\n\nSovereign credibility also matters. UK borrowing, debt-interest costs, and fiscal-rule debate need to be watched alongside ECB and BOJ policy signals. If overseas duration stays sensitive to fiscal and inflation news, U.S. rates can reopen into a global backdrop that already leans cautious. If overseas stress calms while U.S. data soften, the global duration channel can become less restrictive.\n\nDollar liquidity and energy complete the map. India liquidity operations, RBI swap-enabled issuance, Singapore policy expectations, Hungary debt management, Russia's rate path, and Gulf shipping flows all matter because they define whether the hawkish Fed story becomes a broad dollar squeeze or a more contained U.S. policy adjustment. The reduced brief leaves readers with that map: no fresh U.S. close, but enough policy, credit, sovereign, EM, and cross-asset news to define what confirmation should look like when markets reopen.\n",
+    "english_markdown": "# Daily FI Market Intelligence - 2026-06-19\n\n## Opening Fixed-Income Thesis\nThe U.S. cash market was closed for Juneteenth, so there was no fresh NY close price board. The useful fixed-income signal came from the developments that will frame the next open session: a hawkish Fed reaction function, dollar demand linked to rate differentials, private-market stress testing, large issuer financing plans, UK fiscal pressure, BOJ and ECB inflation persistence, EM liquidity management, and the next U.S. macro calendar.\n\nThe result is a reduced, news-only brief with no close-price explanation. The core question is how much of the prior Fed repricing survives once cash Treasuries reopen. Sources pointed to traders fully pricing a September hike as Fed communications emphasized inflation discipline, dollar-option activity rising against the euro, and Goldman cutting its year-end gold target by $500 because it no longer expected Fed cuts this year. Those facts do not create a June 19 Treasury move; they define the policy pressure waiting for the next tradable session.\n\nCredit added a second channel. Large and thematic borrowers still had access: SpaceX bankers were preparing a potential bond sale of at least $20 billion, Indian lenders were lining up about $2.5 billion of dollar debt through an RBI swap facility, and Jio planned to use IPO proceeds to reduce almost $3 billion of external commercial borrowings. At the same time, AutoForm showed how software refinancing still needs investor selectivity, with CLO buyers filling demand after roughly 30% of investors declined to extend a EUR672 million loan. The BOE's private-markets stress test gave that divide a macro wrapper by testing 7% rates, a 35% UK equity drawdown, a 400 bp leveraged-loan spread shock, and AI-related disruptions.\n\nGlobal duration and EM carried their own warnings. The UK reported GBP23.3 billion of May borrowing, with debt-interest costs adding to pressure and political debate reopening questions around fiscal rules. ECB's Lane defended a deposit-rate increase to 2.25% and said the neutral-rate ceiling may have moved toward 2.5%. BOJ officials kept the normalization debate alive after Himino warned that inflation could exceed target and Ueda prepared to return to work. In EM, India's short-end rally faced liquidity-drain risk, RBI swap funding helped banks access dollars, Singapore dollar strategists leaned on inflation and policy expectations, and Hungary appointed a debt chief focused on borrowing costs.\n\nThe cross-asset message was also a watch signal, not a stale board. Dollar-option demand, a lower gold forecast tied to no Fed cuts, Gulf shipping normalization, delayed U.S.-Iran talks, and the tanker backlog in the Persian Gulf all matter because they shape inflation compensation and dollar liquidity when markets reopen. The brief therefore starts the next session with a clear burden of proof: policy news stayed restrictive, funding stayed available for strong borrowers, global sovereign credibility stayed under review, and energy relief still needed confirmation.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\nThe U.S. rates discussion begins with the absence of a cash-market print. June 19 supplied no fresh Treasury close, curve, real-yield, or breakeven board. The relevant U.S. rates information came from policy repricing and calendar risk. Fed communication kept inflation discipline at the center: investors had moved toward tighter-policy assumptions as officials stressed that high inflation would not be tolerated, and sources described September hike risk as fully priced.\n\nDollar options showed the same rate-differential channel. Demand for euro-dollar call structures extended as investors digested the Fed's anti-inflation message, with large call contracts reportedly almost double comparable put volume. That matters for rates because dollar demand can transmit hawkish U.S. policy into global liquidity even when the U.S. cash market is shut. It also matters for Monday because a strong dollar can tighten financial conditions abroad while keeping U.S. front-end compensation sensitive to inflation data.\n\nGoldman's gold revision belonged to the same policy story. The bank cut its year-end gold target by $500, to $4,900, while still expecting gains later in the year. The reason was not a holiday close level; it was the view that the Fed would deliver no cuts this year while price stability stayed central. Gold therefore served as an expectations channel: fewer cuts reduce one support for bullion and keep real-rate sensitivity alive.\n\nThe calendar gives the next test. The prior U.S. data backdrop included initial claims matching consensus at 226,000, continuing claims rising to 1.81 million, a stronger Philadelphia Fed index, and a small Leading Economic Index gain. The next week brings Richmond Fed manufacturing, new home sales, claims, Q1 GDP, durable goods, advance trade and inventories, Michigan sentiment, and the main event: May personal income, spending, and core PCE. Core PCE is the cleanest near-term test for whether the post-FOMC inflation premium has to be rebuilt or can fade.\n\nFed communication also moved from price setting into governance. Bowman attending a private dinner during the blackout period and the communications-review agenda kept the market focused on how officials want to manage expectations. That is a rates issue because communication discipline affects term premium, front-end volatility, and the credibility of the inflation target. The Monday watch is simple: if PCE and Fed speakers validate the no-cut, possible-hike path, the front end should stay the pressure point; if inflation and labor data soften together, duration can regain room without relying on a stale holiday board.\n\n## Credit, Funding, And Primary-Market Absorption\nCredit news was active even with the U.S. cash market closed. The strongest borrowers and most strategic funding stories still had a clear audience. SpaceX bankers were preparing a potential bond sale of at least $20 billion, extending a pattern in which AI, data-center, aerospace, and infrastructure-linked capital demand can command investor attention. The deal matters because its scale would test how much long-duration private and public capital is available for growth platforms when policy rates remain high.\n\nBank and corporate funding in Asia carried a similar message. At least four Indian lenders, including State Bank of India, Axis Bank, Bank of Baroda, and Power Finance Corp., were preparing about $2.5 billion of dollar bond sales using an RBI swap facility that lowers the cost of borrowing dollars. Jio Platforms planned to use part of IPO proceeds to repay almost $3 billion of external commercial borrowings at its telecom unit. Those are not spread-tightening claims; they are funding-structure facts. They show borrowers using policy facilities, equity proceeds, and scale to manage hard-currency debt.\n\nThe weaker part of credit was refinancing quality. AutoForm's EUR672 million term loan B extension became an important software-sector test after a selloff earlier in the year. CLOs stepped in as key buyers after about 30% of investors, including large U.S. asset managers, were unwilling to extend the maturity. That tells readers that demand exists, but it is not uniform. Software credit can clear when CLO balance sheets are willing to absorb risk, while traditional investors may still demand more protection.\n\nThe BOE's private-markets exercise widened the lens. Its stress test includes a 7% interest-rate scenario, a 35% fall in UK share prices, a 400 bp jump in leveraged-loan spreads, and AI-related disruptions. Asset managers, institutional investors, and bank funding providers are part of the exercise. The importance is not that those shocks are forecasts. The importance is that regulators are treating private assets, leverage, and nonbank funding as a market-functioning channel that can interact with higher-for-longer rates.\n\nEuropean restructuring mechanics added another caution. Germany's Schuldscheine market, long viewed as stable for lenders, carries a unanimous-consent feature that can complicate modifications when medium-sized borrowers come under pressure. The MFS mortgage-registration issue in the UK added a real-estate-finance control problem, with a GBP300 million mortgage portfolio tied to a collapsed lender. The credit brief therefore stayed two-sided: funding is available for scale, collateral, and strategic balance-sheet repair, while software extensions, private assets, and real-estate-linked structures remain the places where higher rates can expose weak documentation and lender coordination.\n\n## Global Duration, Central Banks, And Fiscal Transmission\nGlobal duration carried more live information than U.S. Treasuries because overseas markets and policy stories kept moving. The UK was the clearest fiscal-duration channel. May borrowing reached GBP23.3 billion, the highest May deficit since the pandemic, and debt-interest costs were a major contributor. The number arrived alongside political uncertainty and debate over fiscal rules, including arguments that the debt target pushes short-term choices and warnings that any future administration would still face a credibility test.\n\nThat matters for fixed income because the UK story links three things investors care about: debt-interest sensitivity, political room for fiscal loosening, and the credibility of a rule that is supposed to anchor borrowing. When debt-service costs rise, fiscal arithmetic can become a duration story even without a new U.S. price board. The watch is whether investors treat UK fiscal debate as contained domestic politics or as another sign that high nominal rates are exposing sovereign balance sheets.\n\nThe ECB kept the inflation-persistence theme alive. Lane said the case for raising the deposit rate to 2.25% was clear given above-target inflation and resilience in the euro-area economy and financial system. He also pointed to the maximum neutral rate moving toward about 2.5%. That combination is important: if neutral is higher and inflation is persistent, policy can stay restrictive even when energy risk starts to ease. Euro-area core pressure, reported stronger than initially estimated, reinforced why officials remained cautious.\n\nJapan added a different form of duration risk. BOJ Deputy Governor Himino warned that inflation could accelerate beyond the 2% target as higher costs pass through business-to-business prices and potentially into a wider set of consumer goods and services. Ueda was discharged from the hospital and was expected to return to work, while the board had already lifted the benchmark rate to 1%, the highest since 1995. Board dissent highlighted debate over how quickly the BOJ should move toward neutral.\n\nThe developed-market lesson is that lower energy anxiety alone cannot close the policy debate. UK fiscal pressure, ECB inflation persistence, and BOJ normalization all point to duration markets that need fiscal and central-bank confirmation. Monday's U.S. reopen will matter, but the global backdrop already says investors will be comparing the Fed's inflation resolve with other central banks that are also trying to protect credibility.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\nEM was a liquidity and debt-management story. India was the most developed thread. A rally in short-end Indian government bonds faced a possible cap because the Reserve Bank of India was expected to drain surplus cash from the banking system. Analysts saw surplus liquidity potentially climbing toward 8 trillion rupees, a level that could invite more short-term withdrawal operations. The policy point is that foreign-inflow optimism can coexist with local liquidity absorption.\n\nIndian bank funding also showed how policy tools can change the hard-currency channel. State Bank of India, Axis Bank, Bank of Baroda, and Power Finance Corp. were preparing dollar bond sales through an RBI swap facility. The facility makes dollar borrowing cheaper, which can support bank funding and external liability management. It also means dollar issuance cannot be read only as appetite for EM credit; it is partly a policy-assisted funding decision.\n\nThe RBI's own stance remained guarded. Rate setters had kept the repo rate at 5.25% and retained a neutral stance. Officials said an easing in West Asia conflict risk could improve India's and the global outlook, but they also warned against moving too early if inflation-growth dynamics were still uncertain. That keeps India in a constructive but conditional bucket: reforms and policy tools help, while liquidity drains and inflation caution limit how far front-end optimism can run.\n\nOther EM and quasi-EM funding stories reinforced the same discipline. Singapore dollar strategists saw room for appreciation by year-end, supported by expectations that inflation risks could keep policy biased toward further tightening beyond July. Hungary appointed Gergely Tardos of OTP as debt chief, with borrowing costs already helped by expectations around euro adoption and renewed access to EU funds. Russia's rate-cut path remained tied to inflation, ruble support from Middle East effects, budget deficits, war spending, and future domestic-debt burdens.\n\nJio's plan to repay almost $3 billion of external commercial borrowings from IPO proceeds also belongs in this section as balance-sheet debt management with hard-currency implications. The common thread is not broad EM beta. It is the way countries and issuers use liquidity operations, swap facilities, IPO proceeds, policy credibility, and external funding channels to manage debt. For the next open session, EM confirmation depends on whether a hawkish Fed and dollar demand leave enough room for local-policy stories to keep working.\n\n## Cross asset\nCross-asset evidence was useful as an inflation and liquidity watch, not as a June 19 price board. The dollar channel was the most important. Demand for dollar call options against the euro increased as investors absorbed a more hawkish Fed message, showing that rate differentials had become a currency and liquidity theme. A strong dollar story affects fixed income because it tightens global financial conditions, pressures EM dollar borrowers, and can reinforce front-end sensitivity to U.S. inflation data.\n\nGold gave a second policy read-through. Goldman's $500 target cut was tied to a no-cut Fed outlook, even while the bank still expected bullion to rise later in the year. The useful inference is about the balance between inflation hedging and real-rate pressure. If investors believe the Fed will keep policy restrictive, gold needs stronger alternative support from geopolitical risk, reserve demand, or inflation anxiety. If the Fed path softens, the same asset can quickly become a confirmation of easier real-rate expectations.\n\nEnergy was the other cross-asset channel. Gulf shipping normalization after the U.S.-Iran draft agreement reduced the immediate supply-disruption narrative, but delayed talks and regional clashes kept the path uneven. Reports of nearly 80 million barrels of crude sitting on tankers in the Persian Gulf showed why the energy story cannot be reduced to a single relief headline. The fixed-income relevance is the inflation path: smoother flows help headline inflation and household energy costs, while renewed disruption would feed directly into inflation expectations and central-bank caution.\n\nEurope's stagflation discussion fit that frame. A lower energy-risk premium can help growth and margins, but ECB officials still focused on above-target inflation and policy restraint. For Monday, cross-asset confirmation should come from whether dollar demand, gold sensitivity, and energy-risk pricing move in the same direction. If energy risk eases while dollar pressure stays firm, markets may split between better inflation optics and tighter global liquidity. If energy risk returns and the dollar remains supported, the restrictive-policy narrative gets harder to fade.\n\n## Forward Market Significance\nThe next tradable session should be judged by confirmation, not by backfilling a holiday close. The U.S. calendar leads the reopen checklist. Core PCE, personal income and spending, jobless claims, Q1 GDP, new home sales, durable goods, advance trade and inventories, Richmond Fed manufacturing, and Michigan sentiment will decide whether the Fed inflation message meets supporting data. A firm core PCE print would keep possible-hike pricing alive; softer inflation alongside rising claims would give duration a cleaner relief path.\n\nFed communication is the next pillar. Williams and Goolsbee remarks, along with any follow-through from the communications review, matter because the market is still learning how officials want to transmit policy resolve. A consistent message around inflation tolerance would keep the front end sensitive. A more balanced message that acknowledges labor cooling would reduce the risk that every energy or inflation headline becomes a rate-hike impulse.\n\nFunding execution is another pillar. SpaceX's potential bond process, AutoForm loan trading, Indian bank dollar issuance, Jio's IPO-linked debt reduction, and private-market stress-test commentary should show whether capital remains available for large borrowers while weaker structures pay for protection. The key distinction is between primary access and credit quality. A successful large deal does not erase refinancing stress; it shows where investor demand is concentrated.\n\nSovereign credibility also matters. UK borrowing, debt-interest costs, and fiscal-rule debate need to be watched alongside ECB and BOJ policy signals. If overseas duration stays sensitive to fiscal and inflation news, U.S. rates can reopen into a global backdrop that already leans cautious. If overseas stress calms while U.S. data soften, the global duration channel can become less restrictive.\n\nDollar liquidity and energy complete the map. India liquidity operations, RBI swap-enabled issuance, Singapore policy expectations, Hungary debt management, Russia's rate path, and Gulf shipping flows all matter because they define whether the hawkish Fed story becomes a broad dollar squeeze or a more contained U.S. policy adjustment. The reduced brief leaves readers with that map: no fresh U.S. close, but enough policy, credit, sovereign, EM, and cross-asset news to define what confirmation should look like when markets reopen.\n",
     "section_summaries": [
       {
+        "market_read": "No fresh U.S. close board was available; policy, funding, sovereign, EM and energy news defined the reopen setup.",
+        "next_check": "Monday confirmation across Fed pricing, funding access and sovereign caution.",
+        "section_id": "thesis-opening-fixed-income-thesis",
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The opening states the market-closed fact and then builds the reader map from news that can matter at the next open: Fed inflation resolve, dollar demand, private-market stress testing, large borrower financing, UK fiscal pressure, BOJ and ECB inflation persistence, EM liquidity management, and energy risk. It frames June 19 as a reduced fixed-income brief with real source depth.",
-        "section_id": "opening-fixed-income-thesis",
-        "market_read": "No fresh U.S. close board was available; policy, funding, sovereign, EM, and energy news defined the reopen setup.",
-        "why_it_matters": "The reader gets a fixed-income map without stale price causality, while still seeing which developments can transmit into rates and credit next.",
-        "next_check": "Monday confirmation across Fed pricing, funding access, and sovereign caution."
+        "summary": "U.S. cash markets were closed, so the fixed-income map came from news that could matter at the next open: Fed inflation discipline, dollar demand, private-market stress testing, large borrower financing, UK fiscal pressure, BOJ and ECB inflation persistence, EM liquidity management and energy risk.",
+        "why_it_matters": "The brief stays useful without stale price causality by separating live news from the next tradable rates and credit checks."
       },
       {
-        "section_title": "UST Rates Reopen Watch, Fed Pricing, And Calendar Risk",
-        "summary": "The U.S. rates section avoids Treasury levels and focuses on the reopen setup: Warsh kept inflation discipline at the center, traders priced September hike risk, dollar-option demand rose against the euro, Goldman lowered its gold target on no Fed cuts, and the next PCE and labor releases became the confirmation points. The section treats Fed communication as a market variable.",
-        "section_id": "ust-rates-reopen-watch-fed-pricing-and-calendar-risk",
-        "market_read": "Fed repricing remains the rates risk waiting for cash-market confirmation.",
-        "why_it_matters": "A holiday with no UST board still leaves a clear rates problem if policy expectations and inflation data stay hawkish.",
-        "next_check": "Core PCE, claims, GDP, housing, durable goods, sentiment, Williams, and Goolsbee."
+        "market_read": "Fed repricing remained the rates risk waiting for cash-market confirmation.",
+        "next_check": "Core PCE, claims, GDP, housing, durable goods, sentiment, Williams and Goolsbee.",
+        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
+        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
+        "summary": "With no fresh Treasury board, the rates setup came from policy expectations rather than stale levels. Fed inflation discipline kept pricing restrictive, traders priced September hike risk, dollar-option demand rose against the euro, Goldman lowered its gold target on no Fed cuts, and PCE plus labor releases became the confirmation points.",
+        "why_it_matters": "A holiday with no UST board can still leave a clear rates problem when policy expectations and inflation data stay hawkish."
       },
       {
+        "market_read": "Capital was available for scale and structure while weaker refinancing still needed investor protection.",
+        "next_check": "SpaceX, AutoForm, Indian bank dollar pricing, Jio and private-market stress commentary.",
+        "section_id": "thesis-credit-funding-and-primary-market-absorption",
         "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Credit stayed active through funding news and issuer-level detail. SpaceX prepared a potential bond sale of at least $20 billion, Indian lenders planned dollar issuance using an RBI swap facility, Jio aimed to reduce external borrowings from IPO proceeds, and AutoForm tested software-loan demand. The BOE stress test and Schuldscheine/MFS stories kept private-market and documentation risk visible.",
-        "section_id": "credit-funding-and-primary-market-absorption",
-        "market_read": "Capital is available for scale and structure, while weaker refinancing still needs investor protection.",
-        "why_it_matters": "The credit read separates primary access from borrower quality without pretending holiday price gauges proved spread direction.",
-        "next_check": "SpaceX, AutoForm, Indian bank dollar pricing, Jio, and private-market stress commentary."
+        "summary": "Credit stayed active through funding news and issuer-level detail. SpaceX prepared a potential bond sale of at least $20 billion, Indian lenders planned dollar issuance using an RBI swap facility, Jio aimed to reduce external borrowings from IPO proceeds, and AutoForm tested software-loan demand. BOE stress-test and private-market stories kept documentation risk visible.",
+        "why_it_matters": "The credit read separates primary access from borrower quality without pretending holiday price gauges proved spread direction."
       },
       {
-        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "Global duration carried live information through UK borrowing, debt-interest pressure, fiscal-rule debate, ECB inflation concern, Lane’s higher neutral-rate discussion, and BOJ normalization risk after Himino’s inflation warning and Ueda’s return. These items are sovereign and central-bank transmission channels, not U.S. rates board explanations. They show why overseas duration can stay sensitive even during a U.S. holiday.",
-        "section_id": "global-duration-central-banks-and-fiscal-transmission",
         "market_read": "Fiscal credibility and inflation persistence kept global duration guarded.",
-        "why_it_matters": "U.S. markets reopen into a global backdrop where debt service and central-bank credibility remain active constraints.",
-        "next_check": "UK fiscal reaction, ECB language, BOJ pace, and renewed energy risk."
+        "next_check": "UK fiscal reaction, ECB language, BOJ pace and renewed energy risk.",
+        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
+        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
+        "summary": "Global duration carried live information through UK borrowing, debt-interest pressure, fiscal-rule debate, ECB inflation concern, Lane's higher neutral-rate discussion and BOJ normalization risk after Himino's inflation warning and Ueda's return. These were sovereign and central-bank transmission channels, not U.S. rates-board explanations, and they shaped the reopen backdrop.",
+        "why_it_matters": "U.S. markets reopen into a global backdrop where debt service and central-bank credibility remain active constraints."
       },
       {
-        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "EM focused on liquidity operations and debt management. India’s short-end rally faced possible cash-drain pressure, Indian banks used an RBI swap channel for dollar issuance, RBI officials stayed neutral at a 5.25% repo rate, Singapore dollar strategists leaned on policy support, Hungary changed debt-agency leadership, Russia’s easing path stayed constrained, and Jio’s debt-reduction plan added a corporate balance-sheet angle.",
-        "section_id": "em-sovereigns-dollar-liquidity-and-debt-management-risk",
         "market_read": "Local credibility and dollar access decide whether EM can absorb hawkish U.S. policy pressure.",
-        "why_it_matters": "The section keeps EM sovereign, FX, and hard-currency channels separate from U.S. rates and corporate credit.",
-        "next_check": "India liquidity, RBI swap issuance, Singapore policy, Hungary costs, and Russia inflation."
+        "next_check": "India liquidity, RBI swap issuance, Singapore policy, Hungary costs and Russia inflation.",
+        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
+        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
+        "summary": "EM focused on liquidity operations and debt management. India's short-end rally faced possible cash-drain pressure, Indian banks used an RBI swap channel for dollar issuance, RBI officials stayed neutral at a 5.25% repo rate, Singapore strategists leaned on policy support, Hungary changed debt-agency leadership, Russia easing stayed constrained, and Jio added a corporate balance-sheet angle.",
+        "why_it_matters": "EM sovereign, FX and hard-currency channels needed their own liquidity and policy checks."
       },
       {
-        "section_title": "Cross Asset",
-        "summary": "Cross-asset signals were treated as inflation and liquidity watchpoints. Dollar-option demand showed rate-differential pressure, Goldman’s gold target cut reflected no-cut Fed assumptions, and Gulf shipping plus delayed U.S.-Iran talks framed the energy-inflation channel. The section avoids stale oil, equity, dollar, or gold board readings and instead explains how those channels can confirm or challenge fixed-income pricing after the holiday.",
-        "section_id": "cross-asset",
         "market_read": "Dollar demand and energy normalization pulled the reopen setup between tighter liquidity and better inflation optics.",
-        "why_it_matters": "Cross-asset evidence matters when it changes inflation compensation, real-rate sensitivity, or global dollar liquidity.",
-        "next_check": "Dollar options, gold sensitivity, Gulf shipping, U.S.-Iran talks, and energy costs."
+        "next_check": "Dollar options, gold sensitivity, Gulf shipping, U.S.-Iran talks and energy costs.",
+        "section_id": "thesis-cross-asset",
+        "section_title": "Cross asset",
+        "summary": "Cross-assets mattered as inflation and liquidity watchpoints rather than stale market-board readings. Dollar-option demand showed rate-differential pressure, Goldman's gold target cut reflected no-cut Fed assumptions, and Gulf shipping plus delayed U.S.-Iran talks framed the energy-inflation channel for the reopen.",
+        "why_it_matters": "Cross-asset evidence matters when it changes inflation compensation, real-rate sensitivity or global dollar liquidity."
       },
       {
+        "market_read": "The reopen needs confirmation across rates, funding, sovereign duration, dollar liquidity and energy risk.",
+        "next_check": "Monday confirmation across Fed pressure, credit demand, sovereign caution and EM liquidity.",
+        "section_id": "thesis-forward-market-significance",
         "section_title": "Forward Market Significance",
-        "summary": "Forward significance is built around confirmation tests: PCE, income, spending, claims, GDP, housing, durable goods, sentiment, Fed speakers, SpaceX and AutoForm funding execution, UK fiscal sensitivity, ECB and BOJ signals, EM liquidity operations, and Gulf energy flows. The section focuses the reopen watch on rates, funding, sovereign duration, dollar liquidity, and energy risk.",
-        "section_id": "forward-market-significance",
-        "market_read": "The reopen needs confirmation across rates, funding, sovereign duration, dollar liquidity, and energy risk.",
-        "why_it_matters": "A source-rich holiday brief is useful only if it tells readers which facts can become tradable fixed-income evidence next.",
-        "next_check": "Monday confirmation across Fed pressure, credit demand, sovereign caution, and EM liquidity."
+        "summary": "Forward significance is built around confirmation tests: PCE, income, spending, claims, GDP, housing, durable goods, sentiment, Fed speakers, SpaceX and AutoForm funding execution, UK fiscal sensitivity, ECB and BOJ signals, EM liquidity operations and Gulf energy flows. The reopen watch is rates, funding, sovereign duration, dollar liquidity and energy risk.",
+        "why_it_matters": "A source-rich holiday brief is useful only if it tells readers which facts can become tradable fixed-income evidence next."
       }
     ]
   },
   "methodology_note": "Reduced information brief from fixed-income news and reopen checks. Market tables are shown only when current-session rows are available.",
-  "archive_dates": [
+  "mode": "reduced",
+  "overall_summary": {
+    "bullets": [
+      "U.S. holiday closure leaves no Treasury, curve, equity, oil, dollar, or credit board read.",
+      "Fed inflation discipline, September hike risk, dollar options, and PCE frame the rates reopen.",
+      "SpaceX, AutoForm, Indian bank issuance, Jio, and BOE stress tests drive funding watch.",
+      "UK fiscal pressure, ECB/BOJ inflation risk, India liquidity, and Gulf energy shape global FI."
+    ],
+    "headline": "News flow set the reopen map.",
+    "ny_close_causal_narrative": "June 19 was a market-closed information brief, not a price-action close read. The reader signal came from policy expectations, selective funding access, overseas fiscal and central-bank risk, EM liquidity management and energy/dollar watchpoints for the next open session.",
+    "summary": "With U.S. cash markets closed for Juneteenth, the fixed-income signal came from Fed inflation discipline, selective funding execution, sovereign credibility, EM liquidity and energy-risk watchpoints rather than stale price action."
+  },
+  "report_date": "2026-06-19",
+  "run_id": "2026-06-19T08-00-00+08-00_live-local",
+  "watch_events": [
     {
-      "date": "2026-06-29",
-      "label": "2026-06-29",
-      "href": "?date=2026-06-29",
-      "active": false
-    },
-    {
-      "date": "2026-06-26",
-      "label": "2026-06-26",
-      "href": "?date=2026-06-26",
-      "active": false
-    },
-    {
+      "category": "Macro calendar",
+      "challenges_if": "Core inflation cools while labor data soften.",
+      "confirms_if": "Inflation and spending validate no-cut or possible-hike assumptions.",
       "date": "2026-06-25",
-      "label": "2026-06-25",
-      "href": "?date=2026-06-25",
-      "active": false
+      "market_implication": "A firm print supports restrictive Fed pricing and front-end sensitivity.",
+      "market_trigger": "Core PCE meets or beats consensus with resilient spending.",
+      "sensitive_channel": "UST rates / Fed pricing",
+      "title": "Core PCE and income/spending",
+      "watch_line": "Core PCE tests whether restrictive inflation pressure survives the holiday.",
+      "why_it_matters": "The holiday left no cash-market board, so the next inflation release becomes the cleanest confirmation point for the policy story."
     },
     {
-      "date": "2026-06-19",
-      "label": "2026-06-19",
-      "href": "?date=2026-06-19",
-      "active": true
+      "category": "Policy",
+      "challenges_if": "Officials acknowledge labor cooling or signal patience.",
+      "confirms_if": "Fed speakers emphasize price stability and data dependence.",
+      "date": "2026-06-25",
+      "market_implication": "Hawkish communication keeps rate volatility and dollar demand active.",
+      "market_trigger": "Officials keep inflation intolerance central and avoid easing validation.",
+      "sensitive_channel": "Fed communication / dollar liquidity",
+      "title": "Fed communication after the policy reset",
+      "watch_line": "Fed speakers show how firmly officials guide expectations.",
+      "why_it_matters": "The communication regime is now part of how markets price the reaction function."
     },
     {
-      "date": "2026-06-18",
-      "label": "2026-06-18",
-      "href": "?date=2026-06-18",
-      "active": false
+      "category": "Credit",
+      "challenges_if": "Software, private-credit, or bank funding concessions widen.",
+      "confirms_if": "SpaceX, Indian bank issuance, and AutoForm demand hold.",
+      "date": "next open sessions",
+      "market_implication": "Primary access stays open but borrower quality matters.",
+      "market_trigger": "Large deals clear while software refinancings need concessions.",
+      "sensitive_channel": "Credit and funding",
+      "title": "Large borrower funding execution",
+      "watch_line": "Large borrower funding tests demand after the holiday.",
+      "why_it_matters": "Funding execution is the best credit signal on a day without public credit-gauge moves."
     },
     {
-      "date": "2026-06-17",
-      "label": "2026-06-17",
-      "href": "?date=2026-06-17",
-      "active": false
+      "category": "Sovereign duration",
+      "challenges_if": "Fiscal concern fades and central-bank language softens.",
+      "confirms_if": "UK fiscal sensitivity, ECB restraint, and BOJ inflation risk persist.",
+      "date": "next open sessions",
+      "market_implication": "Global duration stays guarded despite lower energy anxiety.",
+      "market_trigger": "Fiscal concern, higher neutral-rate language, or BOJ signals persist.",
+      "sensitive_channel": "Global duration",
+      "title": "UK fiscal and global duration sensitivity",
+      "watch_line": "UK fiscal pressure and central-bank caution shape global duration.",
+      "why_it_matters": "Overseas sovereign and central-bank pressure can shape the U.S. reopen even without a June 19 UST close."
     },
     {
-      "date": "2026-06-16",
-      "label": "2026-06-16",
-      "href": "?date=2026-06-16",
-      "active": false
-    },
-    {
-      "date": "2026-06-15",
-      "label": "2026-06-15",
-      "href": "?date=2026-06-15",
-      "active": false
-    },
-    {
-      "date": "2026-06-12",
-      "label": "2026-06-12",
-      "href": "?date=2026-06-12",
-      "active": false
-    },
-    {
-      "date": "2026-06-11",
-      "label": "2026-06-11",
-      "href": "?date=2026-06-11",
-      "active": false
-    },
-    {
-      "date": "2026-06-10",
-      "label": "2026-06-10",
-      "href": "?date=2026-06-10",
-      "active": false
-    },
-    {
-      "date": "2026-06-09",
-      "label": "2026-06-09",
-      "href": "?date=2026-06-09",
-      "active": false
-    },
-    {
-      "date": "2026-06-08",
-      "label": "2026-06-08",
-      "href": "?date=2026-06-08",
-      "active": false
-    },
-    {
-      "date": "2026-06-05",
-      "label": "2026-06-05",
-      "href": "?date=2026-06-05",
-      "active": false
-    },
-    {
-      "date": "2026-06-04",
-      "label": "2026-06-04",
-      "href": "?date=2026-06-04",
-      "active": false
-    },
-    {
-      "date": "2026-06-03",
-      "label": "2026-06-03",
-      "href": "?date=2026-06-03",
-      "active": false
-    },
-    {
-      "date": "2026-06-02",
-      "label": "2026-06-02",
-      "href": "?date=2026-06-02",
-      "active": false
-    },
-    {
-      "date": "2026-06-01",
-      "label": "2026-06-01",
-      "href": "?date=2026-06-01",
-      "active": false
-    },
-    {
-      "date": "2026-05-29",
-      "label": "2026-05-29",
-      "href": "?date=2026-05-29",
-      "active": false
-    },
-    {
-      "date": "2026-05-28",
-      "label": "2026-05-28",
-      "href": "?date=2026-05-28",
-      "active": false
+      "category": "EM / energy",
+      "challenges_if": "Dollar funding tightens or energy disruption returns.",
+      "confirms_if": "India liquidity, RBI issuance, and Gulf shipping stay orderly.",
+      "date": "next open sessions",
+      "market_implication": "EM relief stays conditional on credibility and dollar access.",
+      "market_trigger": "Dollar demand stays firm or local liquidity drains intensify.",
+      "sensitive_channel": "EM dollar liquidity / energy inflation",
+      "title": "EM liquidity and Gulf energy flows",
+      "watch_line": "EM liquidity and Gulf flows test dollar and inflation pressure.",
+      "why_it_matters": "The strongest holiday signal outside the Fed was the interaction between dollar liquidity, local policy tools, and energy risk."
     }
-  ]
+  ],
+  "yield_heat_map": {
+    "rows": []
+  }
 }
