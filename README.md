@@ -1,6 +1,6 @@
-# Daily FI Tape
+# Daily FI Market Intelligence
 
-Public GitHub Pages archive for Daily FI Tape reports.
+Public GitHub Pages archive for Daily FI Market Intelligence reports.
 
 ## Structure
 
@@ -15,4 +15,4 @@ The repository is display-only. Public JSON keeps only reader-facing report cont
 
 GitHub Pages serves from `main` at:
 
-https://ken851109-spec.github.io/Daily-FI-Tape/
+https://ken851109-spec.github.io/Daily-FI-Market-Intelligence/
