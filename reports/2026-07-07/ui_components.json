@@ -1,382 +1,388 @@
 {
-  "report_date": "2026-07-07",
-  "run_id": "2026-07-07T08-00-00+08-00_live-local",
-  "mode": "full",
   "anchor": "ny_close",
+  "archive_dates": [
+    {
+      "active": false,
+      "date": "2026-07-08",
+      "href": "?date=2026-07-08",
+      "label": "2026-07-08"
+    },
+    {
+      "active": true,
+      "date": "2026-07-07",
+      "href": "?date=2026-07-07",
+      "label": "2026-07-07"
+    },
+    {
+      "active": false,
+      "date": "2026-07-03",
+      "href": "?date=2026-07-03",
+      "label": "2026-07-03"
+    },
+    {
+      "active": false,
+      "date": "2026-06-30",
+      "href": "?date=2026-06-30",
+      "label": "2026-06-30"
+    },
+    {
+      "active": false,
+      "date": "2026-06-29",
+      "href": "?date=2026-06-29",
+      "label": "2026-06-29"
+    },
+    {
+      "active": false,
+      "date": "2026-06-23",
+      "href": "?date=2026-06-23",
+      "label": "2026-06-23"
+    },
+    {
+      "active": false,
+      "date": "2026-06-22",
+      "href": "?date=2026-06-22",
+      "label": "2026-06-22"
+    },
+    {
+      "active": false,
+      "date": "2026-06-19",
+      "href": "?date=2026-06-19",
+      "label": "2026-06-19"
+    },
+    {
+      "active": false,
+      "date": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "label": "2026-06-17"
+    },
+    {
+      "active": false,
+      "date": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "label": "2026-06-16"
+    },
+    {
+      "active": false,
+      "date": "2026-06-15",
+      "href": "?date=2026-06-15",
+      "label": "2026-06-15"
+    },
+    {
+      "active": false,
+      "date": "2026-06-11",
+      "href": "?date=2026-06-11",
+      "label": "2026-06-11"
+    },
+    {
+      "active": false,
+      "date": "2026-06-10",
+      "href": "?date=2026-06-10",
+      "label": "2026-06-10"
+    },
+    {
+      "active": false,
+      "date": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "label": "2026-06-09"
+    },
+    {
+      "active": false,
+      "date": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "label": "2026-06-08"
+    },
+    {
+      "active": false,
+      "date": "2026-06-01",
+      "href": "?date=2026-06-01",
+      "label": "2026-06-01"
+    },
+    {
+      "active": false,
+      "date": "2026-05-29",
+      "href": "?date=2026-05-29",
+      "label": "2026-05-29"
+    }
+  ],
+  "cross_asset_cards": [
+    {
+      "reference_type": "ny_close",
+      "summary": "Higher crude and firmer breakevens pushed against duration.",
+      "title": "Oil",
+      "value": "WTI 72.35 (+5.54%) / BRENT 76.13 (+5.75%)"
+    },
+    {
+      "reference_type": "ny_close",
+      "summary": "Semiconductor weakness led equity downside.",
+      "title": "Equities",
+      "value": "SPX 7,504 (-0.45%) / NDX 29,173 (-1.77%) / SOX 12,301 (-4.65%) / VIX 16.13 (+3.6%)"
+    },
+    {
+      "reference_type": "ny_close",
+      "summary": "Listed credit and hard-currency EM both weakened as higher real yields, a firmer dollar, and Amazon-driven supply pressure raised the cost of external funding.",
+      "title": "Credit / EM",
+      "value": "LQD 107.88 (-0.73%) / HYG 79.76 (-0.14%) / JNK 96.05 (-0.10%) / EMB 95.94 (-0.43%)"
+    },
+    {
+      "reference_type": "ny_close",
+      "summary": "Treasury yields were higher, and dollar firmness tightened financial conditions.",
+      "title": "Dollar / gold",
+      "value": "DXY 101.17 (+0.32%) / GOLD 4,111 (-1.05%)"
+    }
+  ],
   "header": {
-    "title": "Daily FI Market Intelligence: 2026-07-07 NY Close",
-    "stance": "The market raised the cost of duration and AI funding together.",
     "as_of_note": "NY close 2026-07-07 with Treasury yields higher across the curve, real yields firmer, oil sharply stronger, semiconductors weaker, and listed credit plus EMB softer.",
     "latest_update_cutoff": "2026-07-08T08:00:00+08:00",
     "reading_time_label": "About 18 min read",
-    "report_date": "2026-07-07"
+    "report_date": "2026-07-07",
+    "stance": "The market raised the cost of duration and AI funding together.",
+    "title": "Daily FI Market Intelligence: 2026-07-07 NY Close"
   },
+  "long_thesis": {
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 7 NY close raised the clearing price of capital across the fixed-income complex. Investors came back from the holiday window demanding more compensation for duration, more spread for large funding needs, and a wider margin of safety around inflation-sensitive risk. The session delivered one integrated message: money was still available, and the price of using it moved higher.\n\nThe board was cohesive in a way that sharpened the fixed-income read. The selling pressure ran through the sovereign curve, through the higher-quality part of credit, through the long-duration growth complex, and into external-risk assets that depend on a friendlier dollar and a calmer energy backdrop. That pattern says investors treated the session as a repricing of financing conditions across several linked markets rather than as a single-asset shock.\n\nThe rates move itself also carried a specific internal logic. Investors were willing to price a higher inflation hurdle and a higher real-rate hurdle at the same time. The market did not hand the whole move to breakevens, and it did not treat the energy impulse as sufficient explanation by itself. The burden fell more heavily on real-rate compensation and on the balance-sheet capacity needed to absorb duration and fresh borrowing. That is why the session felt tougher in semiconductors, long-duration equities, and high-grade technology bonds than in broad inflation hedges.\n\nOnce that structure was set, the close board lined up behind it. Treasuries cheapened across the curve. Real yields rose faster than breakevens. Oil and the dollar pushed higher, while listed credit and external-risk proxies moved lower. The Nasdaq 100 and the semiconductor complex absorbed the sharpest equity-side pressure. The close looked less like a commodity-only move and more like a broad increase in the cost of long-duration capital.\n\nTwo-year, five-year, 10-year, and 30-year Treasuries all rose 6 to 7 basis points. The 10Y TIPS yield climbed 6 basis points to 2.30%, while the 10Y breakeven rose only 1 basis point to 2.25%. WTI and Brent each rose more than 5%. The dollar firmed. LQD, HYG, JNK, and EMB all closed lower. The Nasdaq 100 fell 1.77%, and the semiconductor index dropped 4.65%. Treasuries provided the anchor for that repricing, and the rest of the board confirmed it.\n\nCredit helped confirm the point. Amazon still drew large absolute demand for its new issue, yet the hyperscaler complex widened in secondary trading as investors sold existing tech bonds to create room for fresh AI supply. The market remains willing to fund the largest issuers with the deepest balance sheets. It is also making clear that incremental AI borrowing now demands wider spreads and more explicit balance-sheet compensation. The day linked the Treasury selloff to the cost of funding the sectors that have dominated recent capital spending.\n\nThe macro backdrop offered little relief. The New York Fed survey pushed one-year inflation expectations to 3.7% and three-year expectations to 3.3%, while BEA showed a wider May trade deficit. Neither release overruled the oil-and-supply story, and together they left investors with little reason to price an easier real-rate regime. John Williams sounded more positive on the near-term inflation outlook because of lower energy prices and also said policy was well positioned. That stance can keep the Fed from sounding reactive to a single commodity move. It also leaves the market hurdle for duration high when real yields are already backing up and inflation expectations have stopped falling.\n\nThis is why the close should be read first as a funding-and-duration repricing session. The energy impulse mattered. The market board still says the important price is the cost of capital. Treasuries, AI credit, semiconductors, listed credit, and EMB all moved in the same direction because the market raised the clearing price for long-duration exposure and for borrowers that need fresh money. July 7 tightened conditions where capex, supply, and external funding still need continuous investor sponsorship.\n\nThe opening implication is straightforward. A market can absorb a front-end auction, keep equities from breaking entirely, and still insist that the long-duration and funding complex become more expensive. That is what July 7 did. The next sessions need to answer whether the move stops at a higher clearing level or whether the auction calendar, oil, and AI financing keep pushing the same direction.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe Treasury board reopened with little ambiguity. The 2Y closed at 4.19%, up 6 basis points. The 5Y closed at 4.27%, also up 6 basis points. The 10Y rose 7 basis points to 4.55%, and the 30Y added 6 basis points to 5.05%. The 2s10s curve steepened 1 basis point to 36 basis points, while the 2s30s curve held at 86 basis points. Investors raised the entire nominal curve and left the long end at levels that still demand a high degree of conviction before new duration capital comes in.\n\nThe most important detail sat in the real-rate split. The 10Y TIPS yield rose 6 basis points to 2.30%. The 10Y breakeven rose only 1 basis point to 2.25%. That composition matters more than any single headline. Oil strength and shipping disruption did reopen the inflation channel, but the market chose to price most of the move through real rates and term premium. A pure commodity scare would have pushed breakevens much harder relative to TIPS. A pure growth scare would not have produced this yield configuration at all. The session landed in the middle: inflation concern came back, and investors still demanded more real compensation to own duration.\n\nThe macro releases fit that interpretation. The New York Fed Survey of Consumer Expectations raised the one-year inflation expectation to 3.7% from 3.5% and the three-year measure to 3.3% from 3.2%, while the five-year view held at 3.0%. Those readings were not explosive, and they were enough to keep the front end from treating recent energy disinflation as a clean policy-release valve. When household inflation expectations stop easing and crude is rebounding, the market has less reason to assume that a calmer summer inflation path will carry the front end lower on its own.\n\nThe trade data widened the macro frame without changing the session's hierarchy. BEA reported the May goods-and-services deficit widened to $77.6 billion from $54.6 billion. In a different market, that might have fed a softer-growth, softer-dollar interpretation and offered some support to duration. On July 7 the market ignored that relief. The deficit added to the background story that external demand is not providing a new growth impulse, and investors still decided that oil, inflation expectations, and funding pressure were more relevant to the close. The rates reaction therefore says something important about priority: investors were willing to down-rank growth relief when the financing and inflation backdrop had just grown more difficult.\n\nTreasury supply itself held together. The 3-year note auction stopped at 4.179%, slightly through the prior 4.192% result. That is a useful front-end signal. Investors were willing to absorb supply where duration risk is shorter and policy uncertainty can be repriced more quickly. The auction refines the broader selloff. The front end can still clear. The market is drawing a harder line at intermediate and long maturities where real-yield pressure and term premium do more of the work.\n\nWilliams' comments belong in the same frame. He said lower energy prices should help headline inflation in coming months and that policy is well positioned. That is a steadying message. It suggests the Fed can avoid answering every oil move with fresh hawkish guidance. At the same time, the June SCE data and the market board show why that reassurance failed to produce a rally. A Fed that feels comfortable with the current stance can remain patient while the market itself tightens financial conditions through real yields. In that sense, the policy message was stabilizing for the institution and offered limited relief for duration.\n\nThe curve details reinforce the same point. The 2s10s curve steepened to 36 basis points. The 2s30s curve stayed at 86 basis points, while the 2s5s10s butterfly cheapened another basis point and the 2s10s30s butterfly turned less negative. Those are small changes numerically and consistent directionally. The market avoided an outright disorderly steepener. It preserved a curve shape in which the long end still requires noticeably more compensation than the front end. That is what a market looks like when it sees supply clearing at the short end and keeps a premium attached to the farther reaches of sovereign duration.\n\nThe rates conclusion is that July 7 raised the hurdle for duration through the real-yield channel first and through breakevens second. Oil, inflation expectations, and the trade deficit all mattered. The close still says that the main problem to solve is the clearing price of long-duration capital. If the 10-year auction and the minutes fail to cool that signal, then the July 7 selloff becomes more than a one-session reopen adjustment. It becomes a reminder that the market is still repricing the long-run cost of capital upward even when front-end supply and official communication remain orderly.\n\nThere is another layer inside the real-yield move. When real yields rise alongside a stronger dollar and weaker long-duration equities, the market is effectively tightening the discount rate on the sectors and sovereign exposures that need the most future cash flow to justify current pricing. That is why semiconductors, hyperscaler bonds, and EMB all sit inside the rates read. Treasuries moved first on the board, and the rest of the market responded to the same increase in real financing cost.\n\nThe next rates test is therefore precise. If the 10-year auction clears with contained concession and the minutes show no new urgency around inflation credibility, the market can stabilize at a high but manageable real-yield level. If the long end demands more concession or the minutes reinforce a higher-for-longer real-rate regime, then July 7 will look like the start of a more durable repricing through the belly and bond. That is the threshold the market set for itself by the close.\n\n## Credit, Funding, And Primary-Market Absorption\n\nThe credit section belonged to Amazon, and not because the borrower was in doubt. The importance of the deal was that it translated AI capex and balance-sheet demand into a live market-clearing event large enough to move the rest of the tech-credit complex. Amazon came with a $25 billion eight-part bond offering and still drew roughly $62 billion in peak investor demand. Those are big numbers and still smaller, in relative terms, than the demand intensity around the company's March financing. The market was willing to fund the issuer. It also demanded more space on balance sheets to do it.\n\nThat balance-sheet strain showed up immediately in secondary trading. Existing Amazon bonds widened. Google bonds widened. Comparable long-dated hyperscaler paper softened as investors sold existing holdings to free cash for the new issue. This is the kind of evidence that matters more than a generic statement that spreads were wider. The market was reallocating capital inside the highest-grade part of the technology complex, and it was doing so by attaching a clearer financing premium to a sector that continues to spend heavily on AI infrastructure.\n\nThe listed-credit board aligned with that read. LQD fell 0.73%, HYG fell 0.14%, and JNK fell 0.10%. Those are not crash numbers. They are a coherent negative sign on a day when Treasury yields and the dollar both rose. The higher-quality end of credit weakened the most visibly because it sits closest to the part of the issuance calendar that was most active and because all-in yields moved higher at the same time. The move tells us that higher coupons alone were not enough to create immediate buying enthusiasm when the market also had to fund the next wave of technology issuance.\n\nThe deeper fixed-income message is that AI financing now functions as a primary-market absorption problem. Hyperscalers can still borrow enormous sums. Investors are increasingly asking what repeated multi-deal supply means for spread compensation, secondary performance, and the amount of balance-sheet room left for the next borrower. The market remained open. The price at which it stayed open moved higher. July 7 made that price discovery visible.\n\nThis is also why the semiconductors mattered to the credit read. The SOX index fell 4.65%, and the Nasdaq 100 dropped 1.77%. The market was repricing the long-duration growth complex while it repriced the debt needed to fund it. That connection is more useful than a broad equity label. A sector that keeps demanding billions in debt and capex cannot be separated from the higher real-yield environment that determines how investors discount those future returns. The bond market is now forcing that conversation in public spread terms.\n\nThe Amazon deal also sharpened the line between access and ease. Access remained strong. Ease diminished. Investors underwrote the borrower and sold other paper to do it. That means credit is still functional, and it also means funding is becoming more selective even inside the strongest corporate balance sheets. If the market were truly relaxed about AI-related supply, the secondary damage would have been shallower and the spread widening across comparable names would have been less conspicuous.\n\nThere is a broader lesson here for the rest of the funding calendar. Large technology issuers and infrastructure borrowers can still raise money in size. The market is no longer granting them the same marginal price automatically. Once investors start treating each new deal as a balance-sheet tradeoff against existing inventory, credit conditions begin to tighten underneath the headline that books are still large. July 7 showed that process clearly in high-grade tech.\n\nThe listed fixed-income proxies add one more layer. LQD, HYG, and JNK all weakened while Treasury yields rose. That suggests the market was not rotating into spread product to offset the sovereign selloff. It was cheapening spread product as well. For fixed-income readers, that is the key distinction between a contained rates move and a more meaningful tightening episode. In the former, credit can hold or even outperform while Treasuries cheapen. In the latter, the cost of money rises broadly enough that even high-quality spread vehicles give ground.\n\nThe credit takeaway is therefore not that funding closed. It is that the marginal cost of funding large, duration-heavy, AI-linked balance sheets moved higher in a visible way. If secondary spread pressure settles quickly and upcoming deals clear with contained concession, July 7 will read as a large but manageable supply day. If the wider hyperscaler spread complex remains under pressure and listed credit continues to drift lower, then this close will mark the point where the market began pricing a more persistent AI financing premium.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nGlobal duration still framed the U.S. long end as part of a crowded international market. Japan remains the clearest source of that pressure. Domestic long-end demand has become less automatic, and Japan-linked offshore issuance has remained heavy. When Japanese borrowers front-load foreign-currency funding or when domestic long-end buyers hesitate, Treasuries compete inside a global duration market where supply and substitution channels are more active than they used to be. That does not create a seven-basis-point move in the U.S. 10-year by itself. It helps explain why the U.S. bond market finds it hard to rally cleanly once real yields start backing up.\n\nEuropean policy and energy channels contributed to the same tension. The market still has to evaluate how energy instability, collateral policy, and inflation vigilance feed back into developed-market funding conditions. A Europe that remains attentive to energy-linked inflation risks is not exporting an easy duration signal into Treasuries. It is preserving a world in which inflation credibility still matters and where central banks can tolerate tighter financial conditions longer than equity investors might prefer.\n\nThis matters for the U.S. rates story because the long end does not clear in isolation. Treasury investors are comparing 5% long bonds against other sovereign curves, other corporate calendars, and a global supply backdrop that includes utilities, infrastructure, and offshore corporate borrowing. When Japanese demand is less reliable and Europe is still managing energy-linked credibility questions, U.S. duration has to offer more on its own merits. July 7's 30Y close above 5% fits that world. The market is still paying investors to hold the far end of the sovereign curve in a globally crowded funding environment.\n\nThe global frame also helps explain why a front-end auction can go fine while the bond still struggles. Shorter maturities depend more on immediate policy expectations and near-term data. The long end depends on the broader stock of capital that needs to be placed across developed markets. The more that Japan, Europe, and cross-border issuance keep the global duration market busy, the less likely it is that one orderly U.S. auction automatically pulls the entire curve lower.\n\nThis is where fiscal transmission remains relevant even without a new headline U.S. deficit shock on the day. The developed-market duration complex has become increasingly sensitive to how much paper sovereigns and quasi-sovereigns still need to place and how many alternative homes investors have for duration. July 7's Treasury move, the tech-credit calendar, and the oil rebound all arrived inside that larger funding ecosystem. The market treated them as additive pressures rather than as separate stories.\n\nThe global-duration implication is that the U.S. long end still needs help from abroad if it is going to rally sustainably. Stabilizing JGB demand, calmer European energy pricing, and less aggressive offshore issuance competition would all lighten the load. In their absence, every U.S. selloff has more room to persist because foreign duration markets are not delivering much offset. The July 7 close kept that burden in place.\n\nThere is also a policy-credibility angle. A developed-market curve can live with higher real yields if investors believe central banks are preserving inflation credibility without forcing a deeper growth accident. That balance remains fragile across major economies. Williams' comments, the ECB's vigilance, and Japan's funding shifts all point to the same conclusion: central banks are comfortable letting markets do some tightening for them as long as inflation expectations do not break lower too quickly. That is one reason real yields can rise across markets without an immediate official attempt to lean against them.\n\nThe next global test is therefore whether foreign duration pressure keeps reinforcing the U.S. long end just as the Treasury calendar turns to the 10-year sector. If Japan remains supply heavy and Europe stays energy sensitive, the domestic auction and minutes will have to do more of the stabilizing work. If those international pressures ease, the U.S. market may finally get space to trade more on its own macro data and less on imported term-premium pressure.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM spent July 7 under a less forgiving macro mix. DXY rose 0.32%, oil jumped, and EMB fell 0.43%. That is enough to say the dollar-liquidity channel tightened and that hard-currency EM was not being given a free pass on the day. The move was not catastrophic, and it was directionally clear. A stronger dollar, higher real U.S. yields, and more expensive energy is exactly the combination that forces investors back into country selection instead of broad carry extension.\n\nBrazil captured that selective environment well. Officials are continuing to broaden the foreign-currency share of federal debt and are preparing eurobond and panda-bond channels as a way to diversify funding access. That is constructive as debt management. It also shows that issuers and sovereigns are actively seeking more stable external demand rather than assuming domestic or traditional channels will always be enough. In a session where the dollar is firmer and EMB is lower, Brazil's strategy reads as pragmatic adaptation to a world of more expensive global capital.\n\nChile belongs in the same section for a different reason. Codelco's debt burden and production setbacks show how even a country with strong commodity exposure and strategic demand tailwinds can still face borrower-quality and fiscal-revenue questions. Chile's pension-allocation debate adds another layer by shaping how domestic savings can be deployed across higher-quality credit, sovereign debt, and risk assets. For fixed income, the relevance is not that Chile moved the Treasury curve. It is that EM funding stories remain highly specific even when the top-down commodity backdrop looks supportive.\n\nArgentina marks the opposite side of the spectrum. The country continues to avoid a broad return to international borrowing even as market sentiment toward some of its funding alternatives improves. That restraint tells investors that better narrative momentum does not automatically mean cheaper market access. In a stronger-dollar, higher-real-yield session, that distinction becomes more important. Countries that can wait will keep waiting unless the market offers terms they judge as durable.\n\nEMB itself closed lower, and that is the right aggregate clue. The ETF is useful because it captures the direction of hard-currency appetite without hiding all the country-level dispersion. July 7 says investors were less willing to stretch for broad EM exposure while U.S. rates, oil, and the dollar were all moving against them. That does not cancel country-specific opportunities. It raises the burden of proof for them.\n\nIndia and oil-sensitive importers belong in the background of this section as well. A fresh oil rebound is not evenly distributed across EM. Exporters and commodity-linked credits can benefit or stabilize, while oil importers face more pressure on inflation, current accounts, and local policy flexibility. The stronger the energy impulse becomes, the more the EM section shifts from a dollar-only story to a joint dollar-and-terms-of-trade story. July 7 moved in that direction.\n\nThe EM conclusion is therefore selective and mildly defensive. Country stories can still work. Brazil can diversify its debt mix, Chile can debate how savings and commodity exposure feed into funding, and Argentina can preserve optionality by staying cautious. The macro board still tightened the aggregate setting. A firmer DXY, weaker EMB, and higher oil prices mean that EM access has to be earned through borrower quality, policy credibility, and debt-management discipline.\n\nThe next check is whether that pressure broadens. If DXY stays firm and the 10-year auction leaves U.S. real yields elevated, then even stronger EM stories will need better local fundamentals to hold in. If the dollar stabilizes and the auction calendar calms, EMB can recover without requiring a full reversal in oil. That is the channel to watch after July 7. The macro backdrop was difficult enough to matter and not yet severe enough to force generalized EM stress.\n\n## Cross Asset\n\nCross asset confirmed that the market was repricing duration and funding cost through a broader tightening sequence that began with a geopolitical headline. Oil did the obvious work on the day. WTI rose 5.54% and Brent rose 5.75% as attacks on shipping around Hormuz revived concern over the security of a critical transit route. In a vacuum that would suggest a breakeven-led inflation scare. The rest of the board argued for something more complex. Real yields rose harder than breakevens, the dollar firmed, and long-duration growth assets absorbed the pressure directly.\n\nSemiconductors carried the cleanest equity signal. The SOX fell 4.65%, and the Nasdaq 100 dropped 1.77%, while the S&P 500 lost 0.45%. The difference across the indexes matters. The market marked down the part of the equity complex that is most exposed to long-duration growth assumptions, AI capex expectations, and funding-intensive business models. That fits perfectly with the Amazon credit story. The market did not just question whether oil is inflationary. It questioned the valuation and financing tolerance for the sectors that need cheap future capital most.\n\nVolatility, the dollar, and gold completed the read. VIX rose 3.60%, DXY gained 0.32%, and gold fell 1.05%. That is not a classic flight-to-safety configuration. A stronger dollar and weaker gold on a day of higher oil and higher real yields say the market was tightening the real discount rate more than it was seeking generic macro hedges. Investors were not buying gold against a softening Fed path. They were holding a firmer dollar while real yields rose.\n\nListed fixed-income risk stayed consistent with that pattern. LQD, HYG, JNK, and EMB all closed lower. Those are small moves relative to the rates and semiconductor board, and they point in the same direction. A market that cheapens sovereign duration, AI credit, listed spreads, and EMB at the same time is tightening the broad price of capital. That is a stronger and more useful fixed-income signal than any one index alone could provide.\n\nThe cross-asset section therefore extends the rates section. Oil lifted the inflation-risk channel. Real yields and DXY transmitted that into broader financing conditions. Semiconductors and hyperscaler credit showed where the repricing hurt first. Listed credit and EMB showed that the pressure extended beyond one sector. July 7 delivered a coherent cross-market tightening move with a clear long-duration and funding bias.\n\nThe next cross-asset question is whether these channels stay aligned. If semiconductors stabilize while hyperscaler credit remains under pressure, then the funding-cost problem may remain more acute in bonds than in equities. If the dollar softens and oil stabilizes while real yields remain high, then duration itself remains the central issue. If all three reverse together, July 7 will look more like a sharp but temporary repricing. For now, the board says the market tightened several linked channels at once and has not yet offered a clean release valve.\n\n## Forward Market Significance\n\nThe immediate market test is the 10-year auction. The 3-year sector already showed that front-end paper can clear even in a rising-yield session. The 10-year auction will answer the more important question. Can intermediate duration clear around 4.55% without demanding another meaningful concession? A steady auction would not erase July 7. It would show that the market can live with the new real-yield level. A weak auction would turn the close into the opening leg of a broader duration repricing.\n\nThe second test is the FOMC minutes. Markets already know that policy makers are willing to let higher real yields do some tightening work for them. The minutes matter because they can reveal whether inflation credibility, growth concern, and balance-sheet uncertainty are reinforcing each other or balancing each other. If the minutes read as comfortable with elevated real yields and patient on inflation, the market may keep the burden on duration. If they show more internal concern about growth and financial conditions, some of the July 7 pressure can be absorbed without a large board reversal.\n\nThe third test runs through the growth side of the macro calendar. Wholesale inventories and initial jobless claims are not headline-defining on their own. Together they can show whether the market is tightening into a still-firm economy or into one that is starting to lose some momentum. That split shapes the front end and credit. A firm economy can tolerate higher real yields longer. A softer one makes the July 7 repricing look more vulnerable to reversal once the inflation and oil impulse cools.\n\nThe fourth test sits squarely in credit. Amazon's deal now becomes a live secondary-market monitor for the broader hyperscaler complex. If the new issue settles and comparable tech-credit spreads retrace, the market will conclude that July 7 priced the supply event and moved on. If secondary pressure lingers or new AI-related financings need more generous terms, then the financing premium on the sector becomes a more persistent part of the fixed-income outlook. That question matters well beyond one borrower because the market is still funding an enormous buildout in power, chips, data centers, and cloud infrastructure.\n\nThe fifth test is the oil-dollar-EM channel. A firmer dollar plus higher oil is manageable for a short window. It becomes much more consequential if it persists into the next data and auction cycle. EM carry, importers' inflation profiles, and hard-currency spread appetite all worsen if DXY and energy stay elevated together while the U.S. 10-year refuses to rally. That is why EMB and DXY need to be watched alongside the U.S. auction results throughout the next window.\n\nThere is also a global-duration test beneath the U.S. events. If Japan-linked funding pressure and European energy vigilance keep feeding the term-premium story, the U.S. bond market will need stronger domestic evidence to stabilize. If those foreign pressures calm, the Treasury market has a better chance to treat July 7 as a sharp but contained repricing. The next close should therefore be read through both domestic and imported duration pressure.\n\nThe practical conclusion is that July 7 raised the market's threshold for relief. A softer data point alone is no longer enough. Investors now need some combination of orderly auction clearing, steadier AI spread behavior, calmer oil, and a less forceful real-yield bid before they will lower the cost of capital again. Until that happens, the session should be treated as a benchmark for a market that tightened the price of duration and financing across several linked channels at once.\n",
+    "section_summaries": [
+      {
+        "market_read": "The market raised the price of long-duration capital across rates, credit, and external-risk assets at the same time.",
+        "next_check": "Whether that tighter clearing level holds after the 10Y auction and minutes.",
+        "section_id": "thesis-opening-fixed-income-thesis",
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The close repriced capital higher across the fixed-income complex. Treasury yields rose across the curve, oil reopened the inflation channel, and Amazon's jumbo bond sale widened the cost of AI funding, while semiconductors, listed credit, and EMB all softened enough to confirm that the market tightened duration and spread risk together rather than in isolation.",
+        "why_it_matters": "This was a broad funding-and-duration repricing, not a narrow oil headline reaction."
+      },
+      {
+        "market_read": "Real-rate and term-premium pressure dominated the rates board more than breakeven widening did.",
+        "next_check": "10Y auction behavior, 10TIPS, 10BE and the long-end response to the minutes.",
+        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
+        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
+        "summary": "Treasuries cheapened from the 2Y through the 30Y, with 10Y real yields doing most of the work while breakevens widened only slightly. Firmer household inflation expectations, a wider trade deficit, and orderly 3-year supply left the market comfortable repricing the curve higher without treating the session as a pure growth scare or a front-end funding failure.",
+        "why_it_matters": "The long end still needs a stronger clearing signal before duration can stabilize."
+      },
+      {
+        "market_read": "Funding access stayed open, but the marginal price of technology balance-sheet capacity moved higher.",
+        "next_check": "Secondary spread follow-through across Amazon and comparable tech issuers.",
+        "section_id": "thesis-credit-funding-and-primary-market-absorption",
+        "section_title": "Credit, Funding, And Primary-Market Absorption",
+        "summary": "Amazon still funded at scale, but the rest of the hyperscaler complex paid for that balance-sheet usage through wider secondary spreads and softer listed credit. The day showed that AI financing remains open while becoming visibly more expensive, with investors selling existing inventory to make room for new supply instead of absorbing it frictionlessly at prior spread levels.",
+        "why_it_matters": "Large books do not mean cheap funding when secondary paper has to cheapen to clear new size."
+      },
+      {
+        "market_read": "Global duration pressure still reinforced the U.S. bond selloff instead of cushioning it.",
+        "next_check": "Japan-linked duration pressure and whether foreign signals stop amplifying the U.S. long end.",
+        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
+        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
+        "summary": "The U.S. long end still traded inside a crowded developed-market duration backdrop. Japan-linked supply competition and less automatic long-end demand, along with Europe's continuing energy and inflation-vigilance channels, kept Treasuries from enjoying a clean domestic stabilization even though the front-end auction cleared and official U.S. communication stayed orderly.",
+        "why_it_matters": "Treasuries still compete with foreign sovereign and cross-border funding channels for the same duration capital."
+      },
+      {
+        "market_read": "EM stayed selective as dollar liquidity and energy pressure moved against the asset class.",
+        "next_check": "DXY, EMB and whether stronger country stories can keep holding investor sponsorship.",
+        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
+        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
+        "summary": "A firmer dollar, higher oil, and lower EMB tightened the macro setting for EM without turning it indiscriminately closed. Brazil's external funding diversification, Chile's Codelco and pension-allocation questions, and Argentina's continued market caution all pointed to a world where access remains country-specific and has to overcome a less forgiving hard-currency backdrop.",
+        "why_it_matters": "Country quality still matters most when the macro board stops offering easy carry relief."
+      },
+      {
+        "market_read": "Cross asset confirmed tighter real-rate and funding conditions across growth, credit, and external risk.",
+        "next_check": "SOX, DXY, oil, gold and listed-credit stabilization.",
+        "section_id": "thesis-cross-asset",
+        "section_title": "Cross Asset",
+        "summary": "Oil rose sharply, semiconductors and the Nasdaq weakened, volatility ticked higher, gold fell, and listed credit plus EMB closed lower. That combination says the market tightened the real discount rate and the funding channel together, leaving the cross-asset board consistent with a broad long-duration repricing rather than with a contained commodity shock or a simple flight to safety.",
+        "why_it_matters": "Several linked markets moved in the same direction, which makes the rates signal harder to dismiss."
+      },
+      {
+        "market_read": "Follow-through depends on duration clearing, policy tone, and whether AI funding pressure broadens.",
+        "next_check": "10Y auction, minutes, Amazon spread tone and the oil-dollar mix.",
+        "section_id": "thesis-forward-market-significance",
+        "section_title": "Forward Market Significance",
+        "summary": "The next window needs to answer whether July 7 was a sharp but contained repricing or the start of another leg higher in the cost of capital. The answer runs through the 10-year auction, the minutes, jobless claims, Amazon's secondary spread behavior, and whether oil plus a firmer dollar keep pressuring EM and long-duration assets after supply has been tested directly.",
+        "why_it_matters": "The market has already raised the threshold for relief across rates, credit, and EM."
+      }
+    ]
+  },
+  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
+  "mode": "full",
   "overall_summary": {
-    "headline": "Real yields rose and AI funding got more expensive.",
-    "summary": "Treasuries cheapened from the 2Y through the 30Y, with 10Y real yields doing most of the work while breakevens widened only slightly. Oil reopened the inflation channel, but the deeper message came from Amazon's jumbo bond sale, wider hyperscaler spreads, a firmer dollar, and weaker listed credit and EM debt.",
     "bullets": [
       "2Y 4.19%, +6 bp | 10Y 4.55%, +7 bp.",
       "2S10S 36 bp, +1 bp | 2S10S30S -14 bp, +2 bp.",
       "10TIPS 2.30%, +6 bp | 10BE 2.25%, +1 bp.",
       "Brent 76.13, +5.75% | EMB 95.94, -0.43%."
     ],
-    "ny_close_causal_narrative": "The close repriced duration and funding cost higher at the same time. Renewed Hormuz disruption pushed crude higher, household inflation expectations firmed, and Amazon's $25 billion bond sale widened pressure across hyperscaler credit, leaving the market to demand more real-rate and balance-sheet compensation across rates, tech, and external-risk assets."
+    "headline": "Real yields rose and AI funding got more expensive.",
+    "ny_close_causal_narrative": "The close repriced duration and funding cost higher at the same time. Renewed Hormuz disruption pushed crude higher, household inflation expectations firmed, and Amazon's $25 billion bond sale widened pressure across hyperscaler credit, leaving the market to demand more real-rate and balance-sheet compensation across rates, tech, and external-risk assets.",
+    "summary": "Treasuries cheapened from the 2Y through the 30Y, with 10Y real yields doing most of the work while breakevens widened only slightly. Oil reopened the inflation channel, but the deeper message came from Amazon's jumbo bond sale, wider hyperscaler spreads, a firmer dollar, and weaker listed credit and EM debt."
   },
+  "report_date": "2026-07-07",
+  "run_id": "2026-07-07T08-00-00+08-00_live-local",
   "watch_events": [
     {
-      "id": "ten_year_auction_clearance",
-      "title": "10Y Auction",
       "category": "rates_supply",
+      "challenges_if": "Dealers need more yield to place the 10Y sector and the bond stays under pressure.",
+      "channel": "Intermediate duration clearing",
+      "confirms_if": "The auction clears steadily and the 10Y holds or richens after supply.",
       "date": "2026-07-08",
       "date_or_window": "Next Treasury coupon test",
-      "channel": "Intermediate duration clearing",
-      "watch_line": "Watch whether the 10-year sector clears without a fresh concession.",
-      "market_trigger": "Soft demand, wider tail, or renewed post-auction cheapening in the 10Y and 30Y.",
+      "id": "ten_year_auction_clearance",
       "market_implication": "That would keep the July 7 move classified as an unfinished duration repricing rather than a one-session reset.",
-      "confirms_if": "The auction clears steadily and the 10Y holds or richens after supply.",
-      "challenges_if": "Dealers need more yield to place the 10Y sector and the bond stays under pressure.",
+      "market_trigger": "Soft demand, wider tail, or renewed post-auction cheapening in the 10Y and 30Y.",
       "sensitive_channel": "10Y, 30Y, 2S10S, 10TIPS and 10BE",
+      "title": "10Y Auction",
+      "watch_line": "Watch whether the 10-year sector clears without a fresh concession.",
       "why_it_matters": "The front end already proved it can clear. The belly now decides whether duration can stabilize."
     },
     {
-      "id": "fomc_minutes_real_rate_bias",
-      "title": "FOMC Minutes",
       "category": "policy",
+      "challenges_if": "The record reads more comfortable with elevated real yields than the market assumed.",
+      "channel": "Real-yield policy tolerance",
+      "confirms_if": "The minutes balance inflation vigilance with growth and financial-conditions awareness.",
       "date": "2026-07-08",
       "date_or_window": "June meeting minutes",
-      "channel": "Real-yield policy tolerance",
-      "watch_line": "Minutes will show how comfortable the Fed is with tighter real rates.",
-      "market_trigger": "Language that leans harder on inflation credibility and patience with market-led tightening.",
+      "id": "fomc_minutes_real_rate_bias",
       "market_implication": "That would keep the burden on duration instead of inviting a quick front-end-led reversal.",
-      "confirms_if": "The minutes balance inflation vigilance with growth and financial-conditions awareness.",
-      "challenges_if": "The record reads more comfortable with elevated real yields than the market assumed.",
+      "market_trigger": "Language that leans harder on inflation credibility and patience with market-led tightening.",
       "sensitive_channel": "2Y, 5Y, 10Y real yield and DXY",
+      "title": "FOMC Minutes",
+      "watch_line": "Minutes will show how comfortable the Fed is with tighter real rates.",
       "why_it_matters": "Policy patience can leave the market itself to do more of the tightening work."
     },
     {
-      "id": "ai_credit_absorption",
-      "title": "AI Credit",
       "category": "credit",
+      "challenges_if": "Large tech issuers keep needing incremental spread compensation to clear size.",
+      "channel": "Hyperscaler spread clearing",
+      "confirms_if": "Secondary spreads settle quickly and comparable tech debt regains footing.",
       "date": "Current funding window",
       "date_or_window": "Amazon secondary trading and follow-on tech issuance",
-      "channel": "Hyperscaler spread clearing",
-      "watch_line": "Amazon now sets the balance-sheet price for the next wave of AI borrowing.",
-      "market_trigger": "Further widening in existing hyperscaler bonds or more generous terms for related new supply.",
+      "id": "ai_credit_absorption",
       "market_implication": "That would turn one jumbo deal into a broader financing premium for long-duration technology credit.",
-      "confirms_if": "Secondary spreads settle quickly and comparable tech debt regains footing.",
-      "challenges_if": "Large tech issuers keep needing incremental spread compensation to clear size.",
+      "market_trigger": "Further widening in existing hyperscaler bonds or more generous terms for related new supply.",
       "sensitive_channel": "Amazon, Alphabet, Meta, Nvidia and LQD",
+      "title": "AI Credit",
+      "watch_line": "Amazon now sets the balance-sheet price for the next wave of AI borrowing.",
       "why_it_matters": "The market funded the deal, but it charged more for the capacity to do it."
     },
     {
-      "id": "oil_real_yield_mix",
-      "title": "Oil And Real Yields",
       "category": "cross_asset",
+      "challenges_if": "Real yields and the dollar keep leading the move even after energy headlines cool.",
+      "channel": "Inflation channel versus discount-rate channel",
+      "confirms_if": "Oil stabilizes while real yields stop rising and breakevens absorb most of the inflation stress.",
       "date": "Next session",
       "date_or_window": "Post-Hormuz follow-through",
-      "channel": "Inflation channel versus discount-rate channel",
-      "watch_line": "Watch whether oil stays high without extending real-yield pressure.",
-      "market_trigger": "Another crude surge alongside firmer 10Y TIPS and a stronger dollar.",
+      "id": "oil_real_yield_mix",
       "market_implication": "That would keep the session framed as a broad capital-cost tightening rather than a contained commodity bounce.",
-      "confirms_if": "Oil stabilizes while real yields stop rising and breakevens absorb most of the inflation stress.",
-      "challenges_if": "Real yields and the dollar keep leading the move even after energy headlines cool.",
+      "market_trigger": "Another crude surge alongside firmer 10Y TIPS and a stronger dollar.",
       "sensitive_channel": "WTI, Brent, 10TIPS, 10BE, DXY and gold",
+      "title": "Oil And Real Yields",
+      "watch_line": "Watch whether oil stays high without extending real-yield pressure.",
       "why_it_matters": "The market can tolerate higher oil more easily than another round of rising real discount rates."
     },
     {
-      "id": "em_dollar_access",
-      "title": "EM Dollar Access",
       "category": "em_fx_credit",
+      "challenges_if": "Broader hard-currency spreads widen and country differentiation stops helping.",
+      "channel": "Country-specific funding under a firmer dollar",
+      "confirms_if": "DXY settles and EMB stabilizes while country-specific funding channels remain open.",
       "date": "This week",
       "date_or_window": "Post-auction EM spread and FX reaction",
-      "channel": "Country-specific funding under a firmer dollar",
-      "watch_line": "EM now needs country quality to offset the stronger dollar and oil backdrop.",
-      "market_trigger": "EMB continuing lower while DXY and oil stay firm after the U.S. auction window.",
+      "id": "em_dollar_access",
       "market_implication": "That would tighten funding conditions for importers and weaker sovereign stories even if strong issuers still access markets.",
-      "confirms_if": "DXY settles and EMB stabilizes while country-specific funding channels remain open.",
-      "challenges_if": "Broader hard-currency spreads widen and country differentiation stops helping.",
+      "market_trigger": "EMB continuing lower while DXY and oil stay firm after the U.S. auction window.",
       "sensitive_channel": "EMB, DXY, Brazil external funding plans, Chile risk and Argentina access discipline",
+      "title": "EM Dollar Access",
+      "watch_line": "EM now needs country quality to offset the stronger dollar and oil backdrop.",
       "why_it_matters": "The July 7 macro mix was difficult enough to narrow access without forcing full EM stress."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "tenor": "2Y",
-        "last": "4.19%",
         "change_1d": "+6 bp",
+        "change_1m": "+2 bp",
         "change_1w": "+5 bp",
-        "change_1m": "+2 bp",
+        "last": "4.19%",
         "reference_type": "ny_close",
+        "tenor": "2Y",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "5Y",
-        "last": "4.27%",
         "change_1d": "+6 bp",
+        "change_1m": "-2 bp",
         "change_1w": "+8 bp",
-        "change_1m": "-2 bp",
+        "last": "4.27%",
         "reference_type": "ny_close",
+        "tenor": "5Y",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "10Y",
-        "last": "4.55%",
         "change_1d": "+7 bp",
-        "change_1w": "+11 bp",
         "change_1m": "0 bp",
+        "change_1w": "+11 bp",
+        "last": "4.55%",
         "reference_type": "ny_close",
+        "tenor": "10Y",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "30Y",
-        "last": "5.05%",
         "change_1d": "+6 bp",
-        "change_1w": "+14 bp",
         "change_1m": "+4 bp",
+        "change_1w": "+14 bp",
+        "last": "5.05%",
         "reference_type": "ny_close",
+        "tenor": "30Y",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "2S10S",
-        "last": "36 bp",
         "change_1d": "+1 bp",
-        "change_1w": "+6 bp",
         "change_1m": "-2 bp",
+        "change_1w": "+6 bp",
+        "last": "36 bp",
         "reference_type": "ny_close",
+        "tenor": "2S10S",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "2S30S",
-        "last": "86 bp",
         "change_1d": "-0 bp",
-        "change_1w": "+9 bp",
         "change_1m": "+2 bp",
+        "change_1w": "+9 bp",
+        "last": "86 bp",
         "reference_type": "ny_close",
+        "tenor": "2S30S",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "2S5S10S",
-        "last": "-20 bp",
         "change_1d": "-1 bp",
+        "change_1m": "-6 bp",
         "change_1w": "-0 bp",
-        "change_1m": "-6 bp",
+        "last": "-20 bp",
         "reference_type": "ny_close",
+        "tenor": "2S5S10S",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "2S10S30S",
-        "last": "-14 bp",
         "change_1d": "+2 bp",
-        "change_1w": "+3 bp",
         "change_1m": "-6 bp",
+        "change_1w": "+3 bp",
+        "last": "-14 bp",
         "reference_type": "ny_close",
+        "tenor": "2S10S30S",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "10TIPS",
-        "last": "2.30%",
         "change_1d": "+6 bp",
-        "change_1w": "+10 bp",
         "change_1m": "+11 bp",
+        "change_1w": "+10 bp",
+        "last": "2.30%",
         "reference_type": "ny_close",
+        "tenor": "10TIPS",
         "timestamp": "2026-07-07T17:00:00-04:00"
       },
       {
-        "tenor": "10BE",
-        "last": "2.25%",
         "change_1d": "+1 bp",
-        "change_1w": "+1 bp",
         "change_1m": "-11 bp",
+        "change_1w": "+1 bp",
+        "last": "2.25%",
         "reference_type": "ny_close",
+        "tenor": "10BE",
         "timestamp": "2026-07-07T17:00:00-04:00"
       }
     ]
-  },
-  "cross_asset_cards": [
-    {
-      "title": "Oil",
-      "value": "WTI 72.35 (+5.54%) / BRENT 76.13 (+5.75%)",
-      "summary": "Higher crude and firmer breakevens pushed against duration.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Equities",
-      "value": "SPX 7,504 (-0.45%) / NDX 29,173 (-1.77%) / SOX 12,301 (-4.65%) / VIX 16.13 (+3.6%)",
-      "summary": "Semiconductor weakness led equity downside.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Credit / EM",
-      "value": "LQD 107.88 (-0.73%) / HYG 79.76 (-0.14%) / JNK 96.05 (-0.10%) / EMB 95.94 (-0.43%)",
-      "summary": "Listed credit and hard-currency EM both weakened as higher real yields, a firmer dollar, and Amazon-driven supply pressure raised the cost of external funding.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Dollar / gold",
-      "value": "DXY 101.17 (+0.32%) / GOLD 4,111 (-1.05%)",
-      "summary": "Treasury yields were higher, and dollar firmness tightened financial conditions.",
-      "reference_type": "ny_close"
-    }
-  ],
-  "long_thesis": {
-    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 7 NY close raised the clearing price of capital across the fixed-income complex. Investors came back from the holiday window demanding more compensation for duration, more spread for large funding needs, and a wider margin of safety around inflation-sensitive risk. The session delivered one integrated message: money was still available, and the price of using it moved higher.\n\nThe board was cohesive in a way that sharpened the fixed-income read. The selling pressure ran through the sovereign curve, through the higher-quality part of credit, through the long-duration growth complex, and into external-risk assets that depend on a friendlier dollar and a calmer energy backdrop. That pattern says investors treated the session as a repricing of financing conditions across several linked markets rather than as a single-asset shock.\n\nThe rates move itself also carried a specific internal logic. Investors were willing to price a higher inflation hurdle and a higher real-rate hurdle at the same time. The market did not hand the whole move to breakevens, and it did not treat the energy impulse as sufficient explanation by itself. The burden fell more heavily on real-rate compensation and on the balance-sheet capacity needed to absorb duration and fresh borrowing. That is why the session felt tougher in semiconductors, long-duration equities, and high-grade technology bonds than in broad inflation hedges.\n\nOnce that structure was set, the close board lined up behind it. Treasuries cheapened across the curve. Real yields rose faster than breakevens. Oil and the dollar pushed higher, while listed credit and external-risk proxies moved lower. The Nasdaq 100 and the semiconductor complex absorbed the sharpest equity-side pressure. The close looked less like a commodity-only move and more like a broad increase in the cost of long-duration capital.\n\nTwo-year, five-year, 10-year, and 30-year Treasuries all rose 6 to 7 basis points. The 10Y TIPS yield climbed 6 basis points to 2.30%, while the 10Y breakeven rose only 1 basis point to 2.25%. WTI and Brent each rose more than 5%. The dollar firmed. LQD, HYG, JNK, and EMB all closed lower. The Nasdaq 100 fell 1.77%, and the semiconductor index dropped 4.65%. Treasuries provided the anchor for that repricing, and the rest of the board confirmed it.\n\nCredit helped confirm the point. Amazon still drew large absolute demand for its new issue, yet the hyperscaler complex widened in secondary trading as investors sold existing tech bonds to create room for fresh AI supply. The market remains willing to fund the largest issuers with the deepest balance sheets. It is also making clear that incremental AI borrowing now demands wider spreads and more explicit balance-sheet compensation. The day linked the Treasury selloff to the cost of funding the sectors that have dominated recent capital spending.\n\nThe macro backdrop offered little relief. The New York Fed survey pushed one-year inflation expectations to 3.7% and three-year expectations to 3.3%, while BEA showed a wider May trade deficit. Neither release overruled the oil-and-supply story, and together they left investors with little reason to price an easier real-rate regime. John Williams sounded more positive on the near-term inflation outlook because of lower energy prices and also said policy was well positioned. That stance can keep the Fed from sounding reactive to a single commodity move. It also leaves the market hurdle for duration high when real yields are already backing up and inflation expectations have stopped falling.\n\nThis is why the close should be read first as a funding-and-duration repricing session. The energy impulse mattered. The market board still says the important price is the cost of capital. Treasuries, AI credit, semiconductors, listed credit, and EMB all moved in the same direction because the market raised the clearing price for long-duration exposure and for borrowers that need fresh money. July 7 tightened conditions where capex, supply, and external funding still need continuous investor sponsorship.\n\nThe opening implication is straightforward. A market can absorb a front-end auction, keep equities from breaking entirely, and still insist that the long-duration and funding complex become more expensive. That is what July 7 did. The next sessions need to answer whether the move stops at a higher clearing level or whether the auction calendar, oil, and AI financing keep pushing the same direction.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe Treasury board reopened with little ambiguity. The 2Y closed at 4.19%, up 6 basis points. The 5Y closed at 4.27%, also up 6 basis points. The 10Y rose 7 basis points to 4.55%, and the 30Y added 6 basis points to 5.05%. The 2s10s curve steepened 1 basis point to 36 basis points, while the 2s30s curve held at 86 basis points. Investors raised the entire nominal curve and left the long end at levels that still demand a high degree of conviction before new duration capital comes in.\n\nThe most important detail sat in the real-rate split. The 10Y TIPS yield rose 6 basis points to 2.30%. The 10Y breakeven rose only 1 basis point to 2.25%. That composition matters more than any single headline. Oil strength and shipping disruption did reopen the inflation channel, but the market chose to price most of the move through real rates and term premium. A pure commodity scare would have pushed breakevens much harder relative to TIPS. A pure growth scare would not have produced this yield configuration at all. The session landed in the middle: inflation concern came back, and investors still demanded more real compensation to own duration.\n\nThe macro releases fit that interpretation. The New York Fed Survey of Consumer Expectations raised the one-year inflation expectation to 3.7% from 3.5% and the three-year measure to 3.3% from 3.2%, while the five-year view held at 3.0%. Those readings were not explosive, and they were enough to keep the front end from treating recent energy disinflation as a clean policy-release valve. When household inflation expectations stop easing and crude is rebounding, the market has less reason to assume that a calmer summer inflation path will carry the front end lower on its own.\n\nThe trade data widened the macro frame without changing the session's hierarchy. BEA reported the May goods-and-services deficit widened to $77.6 billion from $54.6 billion. In a different market, that might have fed a softer-growth, softer-dollar interpretation and offered some support to duration. On July 7 the market ignored that relief. The deficit added to the background story that external demand is not providing a new growth impulse, and investors still decided that oil, inflation expectations, and funding pressure were more relevant to the close. The rates reaction therefore says something important about priority: investors were willing to down-rank growth relief when the financing and inflation backdrop had just grown more difficult.\n\nTreasury supply itself held together. The 3-year note auction stopped at 4.179%, slightly through the prior 4.192% result. That is a useful front-end signal. Investors were willing to absorb supply where duration risk is shorter and policy uncertainty can be repriced more quickly. The auction refines the broader selloff. The front end can still clear. The market is drawing a harder line at intermediate and long maturities where real-yield pressure and term premium do more of the work.\n\nWilliams' comments belong in the same frame. He said lower energy prices should help headline inflation in coming months and that policy is well positioned. That is a steadying message. It suggests the Fed can avoid answering every oil move with fresh hawkish guidance. At the same time, the June SCE data and the market board show why that reassurance failed to produce a rally. A Fed that feels comfortable with the current stance can remain patient while the market itself tightens financial conditions through real yields. In that sense, the policy message was stabilizing for the institution and offered limited relief for duration.\n\nThe curve details reinforce the same point. The 2s10s curve steepened to 36 basis points. The 2s30s curve stayed at 86 basis points, while the 2s5s10s butterfly cheapened another basis point and the 2s10s30s butterfly turned less negative. Those are small changes numerically and consistent directionally. The market avoided an outright disorderly steepener. It preserved a curve shape in which the long end still requires noticeably more compensation than the front end. That is what a market looks like when it sees supply clearing at the short end and keeps a premium attached to the farther reaches of sovereign duration.\n\nThe rates conclusion is that July 7 raised the hurdle for duration through the real-yield channel first and through breakevens second. Oil, inflation expectations, and the trade deficit all mattered. The close still says that the main problem to solve is the clearing price of long-duration capital. If the 10-year auction and the minutes fail to cool that signal, then the July 7 selloff becomes more than a one-session reopen adjustment. It becomes a reminder that the market is still repricing the long-run cost of capital upward even when front-end supply and official communication remain orderly.\n\nThere is another layer inside the real-yield move. When real yields rise alongside a stronger dollar and weaker long-duration equities, the market is effectively tightening the discount rate on the sectors and sovereign exposures that need the most future cash flow to justify current pricing. That is why semiconductors, hyperscaler bonds, and EMB all sit inside the rates read. Treasuries moved first on the board, and the rest of the market responded to the same increase in real financing cost.\n\nThe next rates test is therefore precise. If the 10-year auction clears with contained concession and the minutes show no new urgency around inflation credibility, the market can stabilize at a high but manageable real-yield level. If the long end demands more concession or the minutes reinforce a higher-for-longer real-rate regime, then July 7 will look like the start of a more durable repricing through the belly and bond. That is the threshold the market set for itself by the close.\n\n## Credit, Funding, And Primary-Market Absorption\n\nThe credit section belonged to Amazon, and not because the borrower was in doubt. The importance of the deal was that it translated AI capex and balance-sheet demand into a live market-clearing event large enough to move the rest of the tech-credit complex. Amazon came with a $25 billion eight-part bond offering and still drew roughly $62 billion in peak investor demand. Those are big numbers and still smaller, in relative terms, than the demand intensity around the company's March financing. The market was willing to fund the issuer. It also demanded more space on balance sheets to do it.\n\nThat balance-sheet strain showed up immediately in secondary trading. Existing Amazon bonds widened. Google bonds widened. Comparable long-dated hyperscaler paper softened as investors sold existing holdings to free cash for the new issue. This is the kind of evidence that matters more than a generic statement that spreads were wider. The market was reallocating capital inside the highest-grade part of the technology complex, and it was doing so by attaching a clearer financing premium to a sector that continues to spend heavily on AI infrastructure.\n\nThe listed-credit board aligned with that read. LQD fell 0.73%, HYG fell 0.14%, and JNK fell 0.10%. Those are not crash numbers. They are a coherent negative sign on a day when Treasury yields and the dollar both rose. The higher-quality end of credit weakened the most visibly because it sits closest to the part of the issuance calendar that was most active and because all-in yields moved higher at the same time. The move tells us that higher coupons alone were not enough to create immediate buying enthusiasm when the market also had to fund the next wave of technology issuance.\n\nThe deeper fixed-income message is that AI financing now functions as a primary-market absorption problem. Hyperscalers can still borrow enormous sums. Investors are increasingly asking what repeated multi-deal supply means for spread compensation, secondary performance, and the amount of balance-sheet room left for the next borrower. The market remained open. The price at which it stayed open moved higher. July 7 made that price discovery visible.\n\nThis is also why the semiconductors mattered to the credit read. The SOX index fell 4.65%, and the Nasdaq 100 dropped 1.77%. The market was repricing the long-duration growth complex while it repriced the debt needed to fund it. That connection is more useful than a broad equity label. A sector that keeps demanding billions in debt and capex cannot be separated from the higher real-yield environment that determines how investors discount those future returns. The bond market is now forcing that conversation in public spread terms.\n\nThe Amazon deal also sharpened the line between access and ease. Access remained strong. Ease diminished. Investors underwrote the borrower and sold other paper to do it. That means credit is still functional, and it also means funding is becoming more selective even inside the strongest corporate balance sheets. If the market were truly relaxed about AI-related supply, the secondary damage would have been shallower and the spread widening across comparable names would have been less conspicuous.\n\nThere is a broader lesson here for the rest of the funding calendar. Large technology issuers and infrastructure borrowers can still raise money in size. The market is no longer granting them the same marginal price automatically. Once investors start treating each new deal as a balance-sheet tradeoff against existing inventory, credit conditions begin to tighten underneath the headline that books are still large. July 7 showed that process clearly in high-grade tech.\n\nThe listed fixed-income proxies add one more layer. LQD, HYG, and JNK all weakened while Treasury yields rose. That suggests the market was not rotating into spread product to offset the sovereign selloff. It was cheapening spread product as well. For fixed-income readers, that is the key distinction between a contained rates move and a more meaningful tightening episode. In the former, credit can hold or even outperform while Treasuries cheapen. In the latter, the cost of money rises broadly enough that even high-quality spread vehicles give ground.\n\nThe credit takeaway is therefore not that funding closed. It is that the marginal cost of funding large, duration-heavy, AI-linked balance sheets moved higher in a visible way. If secondary spread pressure settles quickly and upcoming deals clear with contained concession, July 7 will read as a large but manageable supply day. If the wider hyperscaler spread complex remains under pressure and listed credit continues to drift lower, then this close will mark the point where the market began pricing a more persistent AI financing premium.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nGlobal duration still framed the U.S. long end as part of a crowded international market. Japan remains the clearest source of that pressure. Domestic long-end demand has become less automatic, and Japan-linked offshore issuance has remained heavy. When Japanese borrowers front-load foreign-currency funding or when domestic long-end buyers hesitate, Treasuries compete inside a global duration market where supply and substitution channels are more active than they used to be. That does not create a seven-basis-point move in the U.S. 10-year by itself. It helps explain why the U.S. bond market finds it hard to rally cleanly once real yields start backing up.\n\nEuropean policy and energy channels contributed to the same tension. The market still has to evaluate how energy instability, collateral policy, and inflation vigilance feed back into developed-market funding conditions. A Europe that remains attentive to energy-linked inflation risks is not exporting an easy duration signal into Treasuries. It is preserving a world in which inflation credibility still matters and where central banks can tolerate tighter financial conditions longer than equity investors might prefer.\n\nThis matters for the U.S. rates story because the long end does not clear in isolation. Treasury investors are comparing 5% long bonds against other sovereign curves, other corporate calendars, and a global supply backdrop that includes utilities, infrastructure, and offshore corporate borrowing. When Japanese demand is less reliable and Europe is still managing energy-linked credibility questions, U.S. duration has to offer more on its own merits. July 7's 30Y close above 5% fits that world. The market is still paying investors to hold the far end of the sovereign curve in a globally crowded funding environment.\n\nThe global frame also helps explain why a front-end auction can go fine while the bond still struggles. Shorter maturities depend more on immediate policy expectations and near-term data. The long end depends on the broader stock of capital that needs to be placed across developed markets. The more that Japan, Europe, and cross-border issuance keep the global duration market busy, the less likely it is that one orderly U.S. auction automatically pulls the entire curve lower.\n\nThis is where fiscal transmission remains relevant even without a new headline U.S. deficit shock on the day. The developed-market duration complex has become increasingly sensitive to how much paper sovereigns and quasi-sovereigns still need to place and how many alternative homes investors have for duration. July 7's Treasury move, the tech-credit calendar, and the oil rebound all arrived inside that larger funding ecosystem. The market treated them as additive pressures rather than as separate stories.\n\nThe global-duration implication is that the U.S. long end still needs help from abroad if it is going to rally sustainably. Stabilizing JGB demand, calmer European energy pricing, and less aggressive offshore issuance competition would all lighten the load. In their absence, every U.S. selloff has more room to persist because foreign duration markets are not delivering much offset. The July 7 close kept that burden in place.\n\nThere is also a policy-credibility angle. A developed-market curve can live with higher real yields if investors believe central banks are preserving inflation credibility without forcing a deeper growth accident. That balance remains fragile across major economies. Williams' comments, the ECB's vigilance, and Japan's funding shifts all point to the same conclusion: central banks are comfortable letting markets do some tightening for them as long as inflation expectations do not break lower too quickly. That is one reason real yields can rise across markets without an immediate official attempt to lean against them.\n\nThe next global test is therefore whether foreign duration pressure keeps reinforcing the U.S. long end just as the Treasury calendar turns to the 10-year sector. If Japan remains supply heavy and Europe stays energy sensitive, the domestic auction and minutes will have to do more of the stabilizing work. If those international pressures ease, the U.S. market may finally get space to trade more on its own macro data and less on imported term-premium pressure.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM spent July 7 under a less forgiving macro mix. DXY rose 0.32%, oil jumped, and EMB fell 0.43%. That is enough to say the dollar-liquidity channel tightened and that hard-currency EM was not being given a free pass on the day. The move was not catastrophic, and it was directionally clear. A stronger dollar, higher real U.S. yields, and more expensive energy is exactly the combination that forces investors back into country selection instead of broad carry extension.\n\nBrazil captured that selective environment well. Officials are continuing to broaden the foreign-currency share of federal debt and are preparing eurobond and panda-bond channels as a way to diversify funding access. That is constructive as debt management. It also shows that issuers and sovereigns are actively seeking more stable external demand rather than assuming domestic or traditional channels will always be enough. In a session where the dollar is firmer and EMB is lower, Brazil's strategy reads as pragmatic adaptation to a world of more expensive global capital.\n\nChile belongs in the same section for a different reason. Codelco's debt burden and production setbacks show how even a country with strong commodity exposure and strategic demand tailwinds can still face borrower-quality and fiscal-revenue questions. Chile's pension-allocation debate adds another layer by shaping how domestic savings can be deployed across higher-quality credit, sovereign debt, and risk assets. For fixed income, the relevance is not that Chile moved the Treasury curve. It is that EM funding stories remain highly specific even when the top-down commodity backdrop looks supportive.\n\nArgentina marks the opposite side of the spectrum. The country continues to avoid a broad return to international borrowing even as market sentiment toward some of its funding alternatives improves. That restraint tells investors that better narrative momentum does not automatically mean cheaper market access. In a stronger-dollar, higher-real-yield session, that distinction becomes more important. Countries that can wait will keep waiting unless the market offers terms they judge as durable.\n\nEMB itself closed lower, and that is the right aggregate clue. The ETF is useful because it captures the direction of hard-currency appetite without hiding all the country-level dispersion. July 7 says investors were less willing to stretch for broad EM exposure while U.S. rates, oil, and the dollar were all moving against them. That does not cancel country-specific opportunities. It raises the burden of proof for them.\n\nIndia and oil-sensitive importers belong in the background of this section as well. A fresh oil rebound is not evenly distributed across EM. Exporters and commodity-linked credits can benefit or stabilize, while oil importers face more pressure on inflation, current accounts, and local policy flexibility. The stronger the energy impulse becomes, the more the EM section shifts from a dollar-only story to a joint dollar-and-terms-of-trade story. July 7 moved in that direction.\n\nThe EM conclusion is therefore selective and mildly defensive. Country stories can still work. Brazil can diversify its debt mix, Chile can debate how savings and commodity exposure feed into funding, and Argentina can preserve optionality by staying cautious. The macro board still tightened the aggregate setting. A firmer DXY, weaker EMB, and higher oil prices mean that EM access has to be earned through borrower quality, policy credibility, and debt-management discipline.\n\nThe next check is whether that pressure broadens. If DXY stays firm and the 10-year auction leaves U.S. real yields elevated, then even stronger EM stories will need better local fundamentals to hold in. If the dollar stabilizes and the auction calendar calms, EMB can recover without requiring a full reversal in oil. That is the channel to watch after July 7. The macro backdrop was difficult enough to matter and not yet severe enough to force generalized EM stress.\n\n## Cross Asset\n\nCross asset confirmed that the market was repricing duration and funding cost through a broader tightening sequence that began with a geopolitical headline. Oil did the obvious work on the day. WTI rose 5.54% and Brent rose 5.75% as attacks on shipping around Hormuz revived concern over the security of a critical transit route. In a vacuum that would suggest a breakeven-led inflation scare. The rest of the board argued for something more complex. Real yields rose harder than breakevens, the dollar firmed, and long-duration growth assets absorbed the pressure directly.\n\nSemiconductors carried the cleanest equity signal. The SOX fell 4.65%, and the Nasdaq 100 dropped 1.77%, while the S&P 500 lost 0.45%. The difference across the indexes matters. The market marked down the part of the equity complex that is most exposed to long-duration growth assumptions, AI capex expectations, and funding-intensive business models. That fits perfectly with the Amazon credit story. The market did not just question whether oil is inflationary. It questioned the valuation and financing tolerance for the sectors that need cheap future capital most.\n\nVolatility, the dollar, and gold completed the read. VIX rose 3.60%, DXY gained 0.32%, and gold fell 1.05%. That is not a classic flight-to-safety configuration. A stronger dollar and weaker gold on a day of higher oil and higher real yields say the market was tightening the real discount rate more than it was seeking generic macro hedges. Investors were not buying gold against a softening Fed path. They were holding a firmer dollar while real yields rose.\n\nListed fixed-income risk stayed consistent with that pattern. LQD, HYG, JNK, and EMB all closed lower. Those are small moves relative to the rates and semiconductor board, and they point in the same direction. A market that cheapens sovereign duration, AI credit, listed spreads, and EMB at the same time is tightening the broad price of capital. That is a stronger and more useful fixed-income signal than any one index alone could provide.\n\nThe cross-asset section therefore extends the rates section. Oil lifted the inflation-risk channel. Real yields and DXY transmitted that into broader financing conditions. Semiconductors and hyperscaler credit showed where the repricing hurt first. Listed credit and EMB showed that the pressure extended beyond one sector. July 7 delivered a coherent cross-market tightening move with a clear long-duration and funding bias.\n\nThe next cross-asset question is whether these channels stay aligned. If semiconductors stabilize while hyperscaler credit remains under pressure, then the funding-cost problem may remain more acute in bonds than in equities. If the dollar softens and oil stabilizes while real yields remain high, then duration itself remains the central issue. If all three reverse together, July 7 will look more like a sharp but temporary repricing. For now, the board says the market tightened several linked channels at once and has not yet offered a clean release valve.\n\n## Forward Market Significance\n\nThe immediate market test is the 10-year auction. The 3-year sector already showed that front-end paper can clear even in a rising-yield session. The 10-year auction will answer the more important question. Can intermediate duration clear around 4.55% without demanding another meaningful concession? A steady auction would not erase July 7. It would show that the market can live with the new real-yield level. A weak auction would turn the close into the opening leg of a broader duration repricing.\n\nThe second test is the FOMC minutes. Markets already know that policy makers are willing to let higher real yields do some tightening work for them. The minutes matter because they can reveal whether inflation credibility, growth concern, and balance-sheet uncertainty are reinforcing each other or balancing each other. If the minutes read as comfortable with elevated real yields and patient on inflation, the market may keep the burden on duration. If they show more internal concern about growth and financial conditions, some of the July 7 pressure can be absorbed without a large board reversal.\n\nThe third test runs through the growth side of the macro calendar. Wholesale inventories and initial jobless claims are not headline-defining on their own. Together they can show whether the market is tightening into a still-firm economy or into one that is starting to lose some momentum. That split shapes the front end and credit. A firm economy can tolerate higher real yields longer. A softer one makes the July 7 repricing look more vulnerable to reversal once the inflation and oil impulse cools.\n\nThe fourth test sits squarely in credit. Amazon's deal now becomes a live secondary-market monitor for the broader hyperscaler complex. If the new issue settles and comparable tech-credit spreads retrace, the market will conclude that July 7 priced the supply event and moved on. If secondary pressure lingers or new AI-related financings need more generous terms, then the financing premium on the sector becomes a more persistent part of the fixed-income outlook. That question matters well beyond one borrower because the market is still funding an enormous buildout in power, chips, data centers, and cloud infrastructure.\n\nThe fifth test is the oil-dollar-EM channel. A firmer dollar plus higher oil is manageable for a short window. It becomes much more consequential if it persists into the next data and auction cycle. EM carry, importers' inflation profiles, and hard-currency spread appetite all worsen if DXY and energy stay elevated together while the U.S. 10-year refuses to rally. That is why EMB and DXY need to be watched alongside the U.S. auction results throughout the next window.\n\nThere is also a global-duration test beneath the U.S. events. If Japan-linked funding pressure and European energy vigilance keep feeding the term-premium story, the U.S. bond market will need stronger domestic evidence to stabilize. If those foreign pressures calm, the Treasury market has a better chance to treat July 7 as a sharp but contained repricing. The next close should therefore be read through both domestic and imported duration pressure.\n\nThe practical conclusion is that July 7 raised the market's threshold for relief. A softer data point alone is no longer enough. Investors now need some combination of orderly auction clearing, steadier AI spread behavior, calmer oil, and a less forceful real-yield bid before they will lower the cost of capital again. Until that happens, the session should be treated as a benchmark for a market that tightened the price of duration and financing across several linked channels at once.\n",
-    "section_summaries": [
-      {
-        "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The close repriced capital higher across the fixed-income complex. Treasury yields rose across the curve, oil reopened the inflation channel, and Amazon's jumbo bond sale widened the cost of AI funding, while semiconductors, listed credit, and EMB all softened enough to confirm that the market tightened duration and spread risk together rather than in isolation.",
-        "section_id": "thesis-opening-fixed-income-thesis",
-        "market_read": "The market raised the price of long-duration capital across rates, credit, and external-risk assets at the same time.",
-        "why_it_matters": "This was a broad funding-and-duration repricing, not a narrow oil headline reaction.",
-        "next_check": "Whether that tighter clearing level holds after the 10Y auction and minutes."
-      },
-      {
-        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "Treasuries cheapened from the 2Y through the 30Y, with 10Y real yields doing most of the work while breakevens widened only slightly. Firmer household inflation expectations, a wider trade deficit, and orderly 3-year supply left the market comfortable repricing the curve higher without treating the session as a pure growth scare or a front-end funding failure.",
-        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
-        "market_read": "Real-rate and term-premium pressure dominated the rates board more than breakeven widening did.",
-        "why_it_matters": "The long end still needs a stronger clearing signal before duration can stabilize.",
-        "next_check": "10Y auction behavior, 10TIPS, 10BE and the long-end response to the minutes."
-      },
-      {
-        "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Amazon still funded at scale, but the rest of the hyperscaler complex paid for that balance-sheet usage through wider secondary spreads and softer listed credit. The day showed that AI financing remains open while becoming visibly more expensive, with investors selling existing inventory to make room for new supply instead of absorbing it frictionlessly at prior spread levels.",
-        "section_id": "thesis-credit-funding-and-primary-market-absorption",
-        "market_read": "Funding access stayed open, but the marginal price of technology balance-sheet capacity moved higher.",
-        "why_it_matters": "Large books do not mean cheap funding when secondary paper has to cheapen to clear new size.",
-        "next_check": "Secondary spread follow-through across Amazon and comparable tech issuers."
-      },
-      {
-        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "The U.S. long end still traded inside a crowded developed-market duration backdrop. Japan-linked supply competition and less automatic long-end demand, along with Europe's continuing energy and inflation-vigilance channels, kept Treasuries from enjoying a clean domestic stabilization even though the front-end auction cleared and official U.S. communication stayed orderly.",
-        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
-        "market_read": "Global duration pressure still reinforced the U.S. bond selloff instead of cushioning it.",
-        "why_it_matters": "Treasuries still compete with foreign sovereign and cross-border funding channels for the same duration capital.",
-        "next_check": "Japan-linked duration pressure and whether foreign signals stop amplifying the U.S. long end."
-      },
-      {
-        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "A firmer dollar, higher oil, and lower EMB tightened the macro setting for EM without turning it indiscriminately closed. Brazil's external funding diversification, Chile's Codelco and pension-allocation questions, and Argentina's continued market caution all pointed to a world where access remains country-specific and has to overcome a less forgiving hard-currency backdrop.",
-        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
-        "market_read": "EM stayed selective as dollar liquidity and energy pressure moved against the asset class.",
-        "why_it_matters": "Country quality still matters most when the macro board stops offering easy carry relief.",
-        "next_check": "DXY, EMB and whether stronger country stories can keep holding investor sponsorship."
-      },
-      {
-        "section_title": "Cross Asset",
-        "summary": "Oil rose sharply, semiconductors and the Nasdaq weakened, volatility ticked higher, gold fell, and listed credit plus EMB closed lower. That combination says the market tightened the real discount rate and the funding channel together, leaving the cross-asset board consistent with a broad long-duration repricing rather than with a contained commodity shock or a simple flight to safety.",
-        "section_id": "thesis-cross-asset",
-        "market_read": "Cross asset confirmed tighter real-rate and funding conditions across growth, credit, and external risk.",
-        "why_it_matters": "Several linked markets moved in the same direction, which makes the rates signal harder to dismiss.",
-        "next_check": "SOX, DXY, oil, gold and listed-credit stabilization."
-      },
-      {
-        "section_title": "Forward Market Significance",
-        "summary": "The next window needs to answer whether July 7 was a sharp but contained repricing or the start of another leg higher in the cost of capital. The answer runs through the 10-year auction, the minutes, jobless claims, Amazon's secondary spread behavior, and whether oil plus a firmer dollar keep pressuring EM and long-duration assets after supply has been tested directly.",
-        "section_id": "thesis-forward-market-significance",
-        "market_read": "Follow-through depends on duration clearing, policy tone, and whether AI funding pressure broadens.",
-        "why_it_matters": "The market has already raised the threshold for relief across rates, credit, and EM.",
-        "next_check": "10Y auction, minutes, Amazon spread tone and the oil-dollar mix."
-      }
-    ]
-  },
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "archive_dates": [
-    {
-      "date": "2026-07-07",
-      "label": "2026-07-07",
-      "href": "?date=2026-07-07",
-      "active": true
-    },
-    {
-      "date": "2026-07-03",
-      "label": "2026-07-03",
-      "href": "?date=2026-07-03",
-      "active": false
-    },
-    {
-      "date": "2026-06-30",
-      "label": "2026-06-30",
-      "href": "?date=2026-06-30",
-      "active": false
-    },
-    {
-      "date": "2026-06-29",
-      "label": "2026-06-29",
-      "href": "?date=2026-06-29",
-      "active": false
-    },
-    {
-      "date": "2026-06-23",
-      "label": "2026-06-23",
-      "href": "?date=2026-06-23",
-      "active": false
-    },
-    {
-      "date": "2026-06-22",
-      "label": "2026-06-22",
-      "href": "?date=2026-06-22",
-      "active": false
-    },
-    {
-      "date": "2026-06-19",
-      "label": "2026-06-19",
-      "href": "?date=2026-06-19",
-      "active": false
-    },
-    {
-      "date": "2026-06-17",
-      "label": "2026-06-17",
-      "href": "?date=2026-06-17",
-      "active": false
-    },
-    {
-      "date": "2026-06-16",
-      "label": "2026-06-16",
-      "href": "?date=2026-06-16",
-      "active": false
-    },
-    {
-      "date": "2026-06-15",
-      "label": "2026-06-15",
-      "href": "?date=2026-06-15",
-      "active": false
-    },
-    {
-      "date": "2026-06-11",
-      "label": "2026-06-11",
-      "href": "?date=2026-06-11",
-      "active": false
-    },
-    {
-      "date": "2026-06-10",
-      "label": "2026-06-10",
-      "href": "?date=2026-06-10",
-      "active": false
-    },
-    {
-      "date": "2026-06-09",
-      "label": "2026-06-09",
-      "href": "?date=2026-06-09",
-      "active": false
-    },
-    {
-      "date": "2026-06-08",
-      "label": "2026-06-08",
-      "href": "?date=2026-06-08",
-      "active": false
-    },
-    {
-      "date": "2026-06-01",
-      "label": "2026-06-01",
-      "href": "?date=2026-06-01",
-      "active": false
-    },
-    {
-      "date": "2026-05-29",
-      "label": "2026-05-29",
-      "href": "?date=2026-05-29",
-      "active": false
-    }
-  ]
+  }
 }
