@@ -1,454 +1,472 @@
 {
-  "report_date": "2026-07-06",
-  "run_id": "2026-07-06T08-00-00+08-00_live-local",
-  "mode": "full",
   "anchor": "ny_close",
+  "archive_dates": [
+    {
+      "active": false,
+      "date": "2026-07-09",
+      "href": "?date=2026-07-09",
+      "label": "2026-07-09"
+    },
+    {
+      "active": false,
+      "date": "2026-07-08",
+      "href": "?date=2026-07-08",
+      "label": "2026-07-08"
+    },
+    {
+      "active": false,
+      "date": "2026-07-07",
+      "href": "?date=2026-07-07",
+      "label": "2026-07-07"
+    },
+    {
+      "active": true,
+      "date": "2026-07-06",
+      "href": "?date=2026-07-06",
+      "label": "2026-07-06"
+    },
+    {
+      "active": false,
+      "date": "2026-07-03",
+      "href": "?date=2026-07-03",
+      "label": "2026-07-03"
+    },
+    {
+      "active": false,
+      "date": "2026-07-02",
+      "href": "?date=2026-07-02",
+      "label": "2026-07-02"
+    },
+    {
+      "active": false,
+      "date": "2026-07-01",
+      "href": "?date=2026-07-01",
+      "label": "2026-07-01"
+    },
+    {
+      "active": false,
+      "date": "2026-06-30",
+      "href": "?date=2026-06-30",
+      "label": "2026-06-30"
+    },
+    {
+      "active": false,
+      "date": "2026-06-29",
+      "href": "?date=2026-06-29",
+      "label": "2026-06-29"
+    },
+    {
+      "active": false,
+      "date": "2026-06-26",
+      "href": "?date=2026-06-26",
+      "label": "2026-06-26"
+    },
+    {
+      "active": false,
+      "date": "2026-06-25",
+      "href": "?date=2026-06-25",
+      "label": "2026-06-25"
+    },
+    {
+      "active": false,
+      "date": "2026-06-24",
+      "href": "?date=2026-06-24",
+      "label": "2026-06-24"
+    },
+    {
+      "active": false,
+      "date": "2026-06-23",
+      "href": "?date=2026-06-23",
+      "label": "2026-06-23"
+    },
+    {
+      "active": false,
+      "date": "2026-06-22",
+      "href": "?date=2026-06-22",
+      "label": "2026-06-22"
+    },
+    {
+      "active": false,
+      "date": "2026-06-19",
+      "href": "?date=2026-06-19",
+      "label": "2026-06-19"
+    },
+    {
+      "active": false,
+      "date": "2026-06-18",
+      "href": "?date=2026-06-18",
+      "label": "2026-06-18"
+    },
+    {
+      "active": false,
+      "date": "2026-06-17",
+      "href": "?date=2026-06-17",
+      "label": "2026-06-17"
+    },
+    {
+      "active": false,
+      "date": "2026-06-16",
+      "href": "?date=2026-06-16",
+      "label": "2026-06-16"
+    },
+    {
+      "active": false,
+      "date": "2026-06-15",
+      "href": "?date=2026-06-15",
+      "label": "2026-06-15"
+    },
+    {
+      "active": false,
+      "date": "2026-06-12",
+      "href": "?date=2026-06-12",
+      "label": "2026-06-12"
+    },
+    {
+      "active": false,
+      "date": "2026-06-11",
+      "href": "?date=2026-06-11",
+      "label": "2026-06-11"
+    },
+    {
+      "active": false,
+      "date": "2026-06-10",
+      "href": "?date=2026-06-10",
+      "label": "2026-06-10"
+    },
+    {
+      "active": false,
+      "date": "2026-06-09",
+      "href": "?date=2026-06-09",
+      "label": "2026-06-09"
+    },
+    {
+      "active": false,
+      "date": "2026-06-08",
+      "href": "?date=2026-06-08",
+      "label": "2026-06-08"
+    },
+    {
+      "active": false,
+      "date": "2026-06-05",
+      "href": "?date=2026-06-05",
+      "label": "2026-06-05"
+    },
+    {
+      "active": false,
+      "date": "2026-06-04",
+      "href": "?date=2026-06-04",
+      "label": "2026-06-04"
+    },
+    {
+      "active": false,
+      "date": "2026-06-03",
+      "href": "?date=2026-06-03",
+      "label": "2026-06-03"
+    },
+    {
+      "active": false,
+      "date": "2026-06-02",
+      "href": "?date=2026-06-02",
+      "label": "2026-06-02"
+    },
+    {
+      "active": false,
+      "date": "2026-06-01",
+      "href": "?date=2026-06-01",
+      "label": "2026-06-01"
+    },
+    {
+      "active": false,
+      "date": "2026-05-29",
+      "href": "?date=2026-05-29",
+      "label": "2026-05-29"
+    },
+    {
+      "active": false,
+      "date": "2026-05-28",
+      "href": "?date=2026-05-28",
+      "label": "2026-05-28"
+    }
+  ],
+  "cross_asset_cards": [
+    {
+      "reference_type": "ny_close",
+      "summary": "Higher crude and firmer breakevens pushed against duration.",
+      "title": "Oil",
+      "value": "WTI 68.77 (+0.12%) / BRENT 72.19 (+0.54%)"
+    },
+    {
+      "reference_type": "ny_close",
+      "summary": "Semiconductor leadership showed equities could absorb the rates move.",
+      "title": "Equities",
+      "value": "SPX 7,537 (+0.72%) / NDX 29,698 (+1.26%) / SOX 12,900 (+2.17%) / VIX 15.57 (-3.59%)"
+    },
+    {
+      "reference_type": "ny_close",
+      "summary": "Listed credit and EMB firmed with lower volatility as actual funding flow kept duration and borrower absorption in focus.",
+      "title": "Credit / EM",
+      "value": "LQD 108.67 (+0.03%) / HYG 79.87 (+0.20%) / JNK 96.15 (+0.17%) / EMB 96.35 (+0.16%)"
+    },
+    {
+      "reference_type": "ny_close",
+      "summary": "Treasury yields were lower, while dollar and gold signals left the easing impulse incomplete.",
+      "title": "Dollar / gold",
+      "value": "DXY 100.86 (-0%) / GOLD 4,173 (+1.47%)"
+    }
+  ],
   "header": {
-    "title": "Daily FI Market Intelligence: 2026-07-06 NY Close",
-    "stance": "Front-end relief held while the long bond and funding calendar kept duration disciplined.",
     "as_of_note": "NY close 2026-07-06 with the front end firmer, the 30Y still near 5%, equities stronger, volatility lower, and credit tone modestly constructive.",
     "latest_update_cutoff": "2026-07-07T08:00:00+08:00",
     "reading_time_label": "About 15 min read",
-    "report_date": "2026-07-06"
+    "report_date": "2026-07-06",
+    "stance": "Front-end relief held while the long bond and funding calendar kept duration disciplined.",
+    "title": "Daily FI Market Intelligence: 2026-07-06 NY Close"
   },
+  "long_thesis": {
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 6 NY close opened with a more constructive fixed-income tone. The front end firmed, risk assets found their footing again, listed credit stayed composed, and volatility eased. The long bond remained near the upper end of the recent range and the curve kept a steep bias. Investors were more comfortable with the immediate policy and risk backdrop. They still wanted compensation for sovereign duration, ongoing supply, and a funding cycle that remains heavy.\n\nThe rates move was modest in headline terms and more important in composition. Short and intermediate maturities richened. The long bond stayed close to 5%. The front end and belly moved in the direction of easier near-term policy pressure. The long end lagged. The pattern fit a market trimming some immediate policy pressure and still asking who will absorb sovereign duration and at what price.\n\nThe cross-asset read supported that interpretation. Equities and semiconductors rebounded, listed credit and EMB edged higher, and the volatility complex softened. Oil stayed contained, gold rose, and the dollar finished broadly steady after a strong June run. It was a risk-accepting session. The market allowed the front end to improve and kept the long end on a separate standard.\n\nThe market was trading two pricing questions at once. The first was the near-term policy question: how much flexibility can the Fed preserve as conditions change? The second was the financing question: who still needs money, how much duration is still coming, and what level of real-rate and term-premium compensation clears that supply? July 6 improved the answer to the first question. It kept the second one very much alive.\n\nThat split matters because the session did not depend on a single headline or a single asset doing all of the explanatory work. Policy language helped the front end. Lower volatility and stronger semiconductors helped broader risk appetite. Credit ETFs, EMB, and calmer energy pricing showed that investors were willing to extend some confidence beyond Treasuries. At the same time, the long bond, the still-steep curve shape, and the nonstop financing calendar reminded the market that easier conditions are not the same thing as cheap capital across the entire duration complex.\n\nThis is why the close felt more disciplined than euphoric. Better equity tone, lower volatility, a small rally in the front end, and steady credit ETFs all argued for easier day-to-day conditions. The 30Y, the 2s30s steepening, the steady stream of corporate and sovereign issuance, and the global duration backdrop argued that easier conditions still come with a price. The market was deciding how much of that appetite should be spent on long-duration sovereign exposure versus credit, equities, and selective carry.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe cleanest rates message came from the front half of the curve. The 2Y fell 1 basis point, the 5Y fell 2 basis points, and the 10Y fell 1 basis point. Those are modest moves and they do show a market leaning away from a fresh push higher in near-term rate expectations. Christopher Waller's remarks on forward guidance helped that process. His core point was that guidance remains useful when it stays flexible and responsive to changing conditions and avoids tying policy makers to a rigid pre-committed path. That keeps the reaction function data-responsive and leaves room for calmer sessions to hold their gains.\n\nThe curve shape shows where the restraint began. The 2s10s curve held at 35 basis points. The 2s30s curve steepened to 86 basis points. The 30Y yield at 4.99% is the key figure. A market that truly believed long-duration stress had broken would not have left the bond there after a session that saw equities rise, volatility fall, and the short end richen. The long end again acted as the part of the curve where investors continue to ask for payment before providing balance-sheet capacity to the sovereign complex.\n\nReal-yield and breakeven behavior sharpen that point. The 10Y TIPS yield fell 2 basis points to 2.24%, and the 10Y breakeven rose 1 basis point to 2.24%. That combination implies a modest decline in real-rate pressure alongside only a slight lift in inflation compensation. The market treated the day as one in which real yields could ease somewhat as longer-term inflation and duration uncertainty remained present. Oil staying below the late-June stress zone helped. It was not enough to produce a long-bond release.\n\nThe long end also has to be read through the growing debate over sovereign safe-haven status. Standard Bank's warning that investors are increasingly questioning whether government bonds still behave like automatic shock absorbers captured a dynamic that the market board itself continues to reflect. Recent stress episodes have not reliably produced the kind of long-end rally that once defined the asset class. Instead, longer-dated yields have often stayed high or moved higher even when the immediate macro shock eased. July 6 fit that pattern. Better cross-asset tone did not translate into lower long yields. It translated into selective appetite elsewhere and continued caution in the bond.\n\nThis is where term premium and supply connect. The market has plenty of reasons to like the front end more than the back. The front end responds first when policy looks less mechanically hawkish. The long end must clear sovereign borrowing needs, global duration competition, and a credit market still full of issuance. When the 2Y and 5Y richen and the 30Y stays pinned, the market is saying that short-end policy relief is real, and the price of capital across long-duration public balance sheets is still too high to draw indiscriminate demand.\n\nWaller's message reinforces that interpretation because it lowers the odds of a communication trap with no promise of a dovish handrail. A more flexible guidance regime means traders can let front-end yields reflect incoming information more quickly. It does not automatically erase the need for long-end compensation. In fact, a Fed that uses less rigid guidance can leave more uncertainty in the medium-term path of rates, inflation, and balance-sheet conditions. That is good for front-end optionality and not necessarily good for the 30Y.\n\nThe rates takeaway is therefore one of partial improvement. The market bought a somewhat easier real-rate story at the front end and belly. It stopped short of a broad long-duration all-clear. The long end still needs evidence that sovereign demand can reassert itself, that supply can clear cleanly, and that global policy and energy conditions will not rebuild inflation or funding pressure. July 6 confined duration relief to the part of the curve where policy flexibility matters most and term-premium concerns matter less.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit looked firmer on the board and busy in the calendar. LQD rose 0.03%, HYG gained 0.20%, JNK added 0.17%, and EMB rose 0.16%. That is modest and useful confirmation that the rates move and lower volatility were being accepted by listed risk. The more informative credit story sat in the funding pipeline, not in ETF decimals. July 6 brought another reminder that credit conditions are defined by how consistently issuers across quality tiers, sectors, and currencies can raise capital with manageable concessions.\n\nIntrum's return to Europe’s junk market is one side of that story. A company that had to restructure after financing costs surged is back trying to sell secured debt. Capital is available again for issuers that can present a deleveraging path and a refinancing logic investors are willing to fund. That is constructive. It is also different from a market that has forgotten the earlier stress and stopped charging for it. July 6 fit the first description.\n\nTenneT Germany's inaugural bond plan points to a different type of supply pressure: duration-heavy infrastructure funding backed by strategic national investment. The company is preparing a multi-tranche euro green bond as it moves into a huge grid investment program. That is not a distressed-credit story. It is a reminder that even high-quality, policy-adjacent borrowers are drawing deeply on capital markets to finance long-lived assets. In practical terms, that means the long-duration funding calendar is not going quiet just because the front end of the Treasury curve looks more comfortable.\n\nWelltower's planned maple sale reinforces the same message from another angle. Cross-border corporate issuers are still finding it attractive to issue in Canadian dollars, and the market is still willing to take those deals. Record maple-bond flow this year has been helped by American issuers and by funding arbitrage. Again, the message is not stress. The message is volume. When sovereign duration is already struggling to rally, a market that continues to absorb large corporate and infrastructure deals will keep the question of duration capacity in front of every rates close.\n\nJapan-driven offshore issuance takes the same argument into regional scale. Asia Pacific offshore bond sales just set a quarterly record, with Japanese borrowers accounting for roughly 40% of the total. It is evidence that higher domestic curves and changing local funding economics are pushing issuers into global dollar and euro markets. The more Japanese borrowers front-load funding to avoid future rate pressure, the more global markets have to absorb supply that used to sit elsewhere. That supply does not automatically widen spreads on a given day, and it does change the background clearing price for duration and credit risk.\n\nThe listed-credit board was firm enough to say risk appetite is still available. The primary-market flow was active enough to say investors are being asked to spend that risk appetite continuously. That is the current fixed-income funding balance: access exists, and the market still expects to be paid for supplying duration. July 6 showed refinancing, green infrastructure, cross-border issuance, and post-restructuring borrowers all coming forward in the same session and still leaving the long end heavy. That apparent tension is the point.\n\nThere is also a quality signal inside that flow. Intrum is coming back after restructuring. TenneT is funding long-life public infrastructure with investor-friendly green-bond framing and new ownership support. Welltower is leaning into a maple format that global investors have already been willing to absorb this year. Japan-led offshore issuance is being driven by borrowers trying to stay ahead of a changing rate regime, with acute distress largely absent from that flow. That mix says the market is not closing on credit. It is sorting capital between refinancing repair, strategic infrastructure, balance-sheet optimization, and rate arbitrage. For fixed income, that sorting mechanism is more useful than the ETF tape because it reveals where the market still offers money readily and where it is asking for patience, structure, or spread.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nThe global duration backdrop kept the US long end from enjoying the same comfort as the front end. Isabel Schnabel made that clear by arguing that the apparent calm in oil had not restored markets to their pre-war baseline. Gas prices and supply-chain pressures, in her telling, still sit above the levels that prevailed before the conflict shock, and inflation risk cannot simply be waved away because crude retreated from the peak. That is exactly the type of message that helps keep inflation compensation and term premium from collapsing even on days when the market would otherwise prefer a cleaner duration rally.\n\nIsrael's second straight rate cut pushed in the opposite direction. The Bank of Israel felt able to cut to 3.50% because inflation expectations remained moderate enough and the broader geopolitical backdrop had stabilized enough for policy support to continue. That supports the idea that some central banks can now lean toward easing where their local conditions permit it. It also reinforces the asymmetry inside global duration: the easing cycle is not uniform, and the markets benefiting from it are not necessarily the ones determining the clearing price for long-end US sovereign risk.\n\nAsia-Pacific policy signals underline the same lack of synchrony. The Philippines central bank still thinks the economy can withstand another hike, even if not a large one, and New Zealand's path remains rate-sensitive and far from decisively easy. Those messages do not dominate the NY-close Treasury move on their own. What they do is prevent investors from treating the global rates backdrop as a single dovish block. When some central banks are cutting, others are still guarding against inflation, and others are watching currencies and growth uneasily, long-duration assets do not get the clean global reinforcement they would need for a broad rally.\n\nJapan remains especially important because its duration story has moved from monetary policy into market structure. Japanese borrowers are issuing offshore in record size because domestic borrowing economics have changed. The yen remains weak, strategists still talk about carry, and higher local yields are pushing corporations toward foreign markets. That has two direct implications for US duration. First, Japan is no longer merely a passive source of demand for foreign bonds. It is also a more active source of competing supply. Second, any global investor deciding where to allocate duration has more non-US issuance to compare with Treasuries than before.\n\nThis is why the fiscal-transmission channel matters even on a day with no US auction headline. The market is processing not just US government supply, but the total amount of duration and funding paper trying to clear across sovereign, utility, infrastructure, and corporate channels. July 6 added to that inventory through TenneT, Welltower, Japan-led offshore supply, and renewed access for previously stressed issuers. The global duration message is that the supply machine remains alive, and any domestic policy relief must still coexist with a very crowded funding backdrop.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM traded like a market that still has access on a country-by-country basis. EMB rose 0.16%, and DXY closed almost unchanged after a stronger June. That is enough to say the dollar did not actively squeeze the asset class on the day. It is also clear that the macro liquidity environment did not turn broadly easy. Country stories provided the best evidence. Hungary printed a heavily subscribed eurobond deal, Chile kept attracting foreign demand into local sovereign paper, and Argentina still preferred to avoid the international market even after its spread compression.\n\nHungary's sale is the clearest positive access signal. The order book was large, pricing tightened materially from initial indications, and the deal leaned on both the broader EM backdrop and a local political repricing story. That kind of transaction says investors still have room for duration and spread product when they believe a country has an idiosyncratic path to tighter borrowing costs. It also says that country-level convergence stories can still overcome a market that remains cautious about sovereign duration in the aggregate.\n\nChile offers a different kind of support. Record inflows into peso-denominated sovereign bonds show that local markets with a weaker currency, expected rate cuts, and a friendlier reform narrative can attract foreign capital quickly. That is not a pure dollar story. It is a credibility-and-carry story. The market is rewarding a mix of macro setup and political trajectory. That is useful for the Daily FI read because it shows that EM risk appetite is still available where the policy and growth path looks coherent.\n\nArgentina shows the limit. Spreads have narrowed sharply, and the government is openly discussing a path toward investment-grade status by the end of the decade. Even so, officials are still choosing not to tap international markets in size. That decision is revealing. It says better market perception does not automatically equal cheap enough funding. Access can improve before issuance becomes attractive. For EM fixed income, that is an important distinction: better narrative momentum can coexist with a still-high absolute funding hurdle.\n\nThe practical EM conclusion is that dollar liquidity was not the dominant daily constraint on July 6. Country selection was. Hungary and Chile benefited from investor willingness to fund clearer local stories. Argentina remained cautious about paying up in global markets. EMB could finish higher and still leave selective access short of a universal green light. That is the right read for a session in which DXY did not materially tighten conditions and also did not fall enough to create broad-based relief by itself.\n\n## Cross Asset\n\nCross-asset confirmation was constructive and more coherent than it had been in the prior session. The S&P 500 and Nasdaq 100 both rose, the semiconductor index snapped higher, the VIX fell, and listed credit edges were firmer. That is the configuration of a market willing to rebuild risk appetite around the AI complex and around lower immediate policy pressure. It is not the configuration of a market forcing investors into safety. The move matters because fixed income has been trading through equity leadership and capex confidence as much as through traditional macro prints.\n\nThe AI rebound was especially important. The semiconductor bounce and the return of large-cap technology leadership helped stabilize the part of the equity market most closely linked to capital spending, data-center buildouts, and future borrowing demand. The funding question remains. The market was more willing to believe in the cash-flow and growth side of the AI story again after the earlier wobble. For fixed income, that is supportive because a healthier equity response can make heavy issuance and capex plans look easier to finance.\n\nOil and gold gave a more nuanced signal. Crude stayed below the late-June stress zone, helped by Saudi price cuts and a less alarming near-term supply picture. That supported the front end and kept inflation compensation from breaking wider. Gold still rose 1.47%. The combination is telling. Investors were willing to reduce volatility hedges and buy risk, and they still kept macro hedges in place. The market accepted calmer immediate energy conditions and left open the question of how fully the inflation and geopolitical backdrop had normalized.\n\nThe dollar's role was similarly subtle. DXY closed only slightly lower, which means the day did not depend on a broad dollar collapse. The structural strong-dollar narrative remained present in commentary and positioning data. Yet that narrative also failed to dominate the close board. The result was a session in which EM and credit could improve with only a limited dollar tailwind. That is a healthier sign for risk assets than a move that depends entirely on FX relief.\n\nThe cross-asset conclusion is therefore one of selective confirmation. Equities, semiconductors, volatility, credit, and EMB all aligned well enough to support a constructive fixed-income read. Gold, the stubborn long bond, and the still-busy funding calendar kept that read from becoming unqualified. July 6 showed a market finding better immediate footing and still pricing the cost of duration and funding honestly.\n\n## Forward Market Significance\n\nThe first test from here is whether the long end can participate. If the next session extends the front-end rally and the 30Y remains pinned near 5%, the market will be telling the same story more loudly: policy relief is real and sovereign-duration demand is still conditional. A better outcome for duration would require the 30Y to richen alongside stable or lower real yields and a curve that stops steepening at the long end.\n\nThe second test is funding absorption. Intrum, TenneT, Welltower, and the broader supply backdrop are not one-off curiosities. They are part of the environment the Treasury market has to clear inside. If those deals price tightly and trade well, then duration-heavy funding can coexist with calmer rates and firmer credit. If concessions widen or secondary performance slips, the long end will keep treating every constructive macro session as insufficient proof.\n\nThe third test is policy communication. Waller's flexible-guidance remarks opened room for a less rigid interpretation of the Fed path and still left tightening risk in view. If the next set of speakers or data points keep that flexibility intact, the front end can remain supported. If markets revert to trading a mechanically stronger dollar and a more forceful hiking path, July 6 will look more like a temporary respite than a shift in regime.\n\nThe fourth test is country-level risk appetite. Hungary and Chile showed that investors still fund selected sovereign and local-rate stories. Argentina showed that spread compression does not automatically mean cheap enough market access. A stable or slightly softer dollar can preserve that selective support. A renewed dollar surge or another jump in long-end yields would quickly separate the strongest stories from the rest of the EM complex.\n\nThe broader significance of July 6 is that the market continues to loosen conditions only in the places where it feels paid to do so. The front end got relief. Equities and semiconductors got a rebound. Listed credit and EMB got mild confirmation. The long bond did not get trust. Until that last piece changes, fixed income remains in a selective improvement phase and still short of a full-duration easing phase.\n\nThat distinction should shape how the next close is read. A genuinely broader easing in fixed-income conditions would show up through several channels at once: the 30Y would stop lagging, real yields would ease with stable breakevens, new issuance would clear with contained concession, and equity leadership would continue with less fear that AI capex only leads to more debt supply. If the market gets another strong risk session with a stubborn long bond and a crowded calendar, July 6 will look less like the start of a clean duration recovery and more like the latest example of capital becoming easier at the front end than at the sovereign long end.\n\nThere is also a practical editorial implication for the next few sessions. If the market keeps producing this combination of softer front-end pricing, resilient risk assets, and a heavy long-duration supply backdrop, the most useful read is not to force everything into a single bullish or bearish label. The cleaner frame is to separate where capital is getting easier from where it is still expensive. July 6 is valuable because it makes that split visible across Treasuries, credit, global duration, and EM at the same time. That gives the next close a clearer benchmark: confirmation requires broader participation from the long end, not just another day in which short rates ease while the bond market keeps asking to be paid.\n",
+    "section_summaries": [
+      {
+        "market_read": "The market improved financing conditions at the front end without extending that trust to the long bond.",
+        "next_check": "Whether the 30Y can participate in the next constructive session.",
+        "section_id": "thesis-opening-fixed-income-thesis",
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The close combined front-end relief with continued discipline in the long end. Treasuries richened through the belly, equities and semiconductors rebounded, and listed credit improved, while the 30Y stayed near 5% as sovereign-duration skepticism and a busy funding calendar kept the session from becoming a full sovereign rally.",
+        "why_it_matters": "That split separates policy relief from true duration acceptance."
+      },
+      {
+        "market_read": "Rates improved where policy flexibility matters most and stayed guarded where term premium still dominates.",
+        "next_check": "30Y behavior, 2S30S, 10TIPS and long-end demand.",
+        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
+        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
+        "summary": "The front end and belly richened while the 30Y lagged, leaving the 2s30s curve steeper and the long end still priced for compensation. Lower real yields and only slightly higher breakevens supported the move, while Waller’s flexible-guidance message helped the front end more than the sovereign-duration complex.",
+        "why_it_matters": "The long end is still deciding whether sovereign duration deserves a lower clearing price."
+      },
+      {
+        "market_read": "Funding access remains open, but supply still sets the discipline of the market.",
+        "next_check": "New-issue books, concessions and secondary trading.",
+        "section_id": "thesis-credit-funding-and-primary-market-absorption",
+        "section_title": "Credit, Funding, And Primary-Market Absorption",
+        "summary": "Listed credit closed firmer, but the deeper message came from active issuance across restructuring repair, infrastructure, maple funding, and Japan-linked offshore supply. Credit is open, yet the market is still charging for duration and refinancing absorption rather than offering a frictionless all-clear across maturities and sectors.",
+        "why_it_matters": "The calendar shows whether firmer ETFs reflect real balance-sheet demand or only lighter daily stress."
+      },
+      {
+        "market_read": "Global duration stayed mixed even as the US front end found relief.",
+        "next_check": "ECB tone, Japan funding pressure and broader global duration demand.",
+        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
+        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
+        "summary": "Global policy and funding channels still argued against a clean long-end rally. Schnabel kept energy and inflation risk alive, Israel cut rates where local conditions allowed it, and Japan-led offshore issuance showed how changing non-US curves are competing for global duration demand and term-premium capacity.",
+        "why_it_matters": "US long yields still clear inside a crowded international funding market."
+      },
+      {
+        "market_read": "Country selection remained more important than a broad macro liquidity impulse.",
+        "next_check": "EMB stability, DXY and country-specific funding outcomes.",
+        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
+        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
+        "summary": "EM support was present, but it remained selective. Hungary and Chile showed investors still funding clearer reform and carry stories, while Argentina’s choice to stay out of international markets showed that better narrative momentum does not always equal attractive funding levels. EMB improved without turning access indiscriminate.",
+        "why_it_matters": "A steady dollar helps, but policy credibility still decides who can borrow comfortably."
+      },
+      {
+        "market_read": "Cross asset confirmed better immediate tone without removing macro and duration caution.",
+        "next_check": "AI leadership, oil, volatility and credit follow-through.",
+        "section_id": "thesis-cross-asset",
+        "section_title": "Cross Asset",
+        "summary": "Equities, semiconductors, listed credit, and EMB all confirmed a more constructive session, while lower volatility and contained oil supported the front end. Gold and the still-heavy long bond kept the market from calling the move an unqualified easing in financial conditions across the full fixed-income complex.",
+        "why_it_matters": "The close looked healthier, but not carefree, across the broader market board."
+      },
+      {
+        "market_read": "Follow-through depends on duration trust, issuance absorption, policy flexibility and country-level access.",
+        "next_check": "30Y follow-through, deal clearing, Fed tone and DXY.",
+        "section_id": "thesis-forward-market-significance",
+        "section_title": "Forward Market Significance",
+        "summary": "The next question is whether front-end relief broadens into full duration acceptance or remains selective. The answer runs through the 30Y, the active funding calendar, Fed communication, dollar persistence, and whether EM and global duration signals continue to cooperate instead of tightening again in the next window.",
+        "why_it_matters": "The market improved, but its most expensive problem still sits at the long end."
+      }
+    ]
+  },
+  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
+  "mode": "full",
   "overall_summary": {
-    "headline": "The front end improved, but the long end still demanded to be paid.",
-    "summary": "Short and intermediate Treasuries richened, equities and semiconductors rebounded, and listed credit held firmer. The 30Y stayed pinned near 5% as infrastructure, refinancing and offshore issuance kept the market focused on duration absorption rather than a full sovereign rally.",
     "bullets": [
       "5Y 4.21%, -2 bp | 10Y 4.48%, -1 bp.",
       "2S10S 35 bp, 0 bp | 2S30S 86 bp, +2 bp.",
       "10TIPS 2.24%, -2 bp | 10BE 2.24%, +1 bp.",
       "SOX 12,900, +2.17% | EMB 96.35, +0.16%."
     ],
-    "ny_close_causal_narrative": "The close rewarded a more flexible policy and risk backdrop at the front end while keeping a high bar for long-duration trust. Real yields eased, equities recovered, and listed credit held up, but sovereign and corporate funding flow still kept the long end from joining the move cleanly."
+    "headline": "The front end improved, but the long end still demanded to be paid.",
+    "ny_close_causal_narrative": "The close rewarded a more flexible policy and risk backdrop at the front end while keeping a high bar for long-duration trust. Real yields eased, equities recovered, and listed credit held up, but sovereign and corporate funding flow still kept the long end from joining the move cleanly.",
+    "summary": "Short and intermediate Treasuries richened, equities and semiconductors rebounded, and listed credit held firmer. The 30Y stayed pinned near 5% as infrastructure, refinancing and offshore issuance kept the market focused on duration absorption rather than a full sovereign rally."
   },
+  "report_date": "2026-07-06",
+  "run_id": "2026-07-06T08-00-00+08-00_live-local",
   "watch_events": [
     {
-      "id": "long_end_duration_acceptance",
-      "title": "Long-End Duration",
       "category": "rates_supply",
+      "challenges_if": "Long-end concession returns even with calmer cross-asset conditions.",
+      "channel": "30Y duration and term premium",
+      "confirms_if": "The 30Y richens alongside stable or lower real yields.",
       "date": "Next session",
       "date_or_window": "Immediate post-close follow-through",
-      "channel": "30Y duration and term premium",
-      "watch_line": "Watch whether the long bond finally joins the front-end relief.",
-      "market_trigger": "Another constructive session with the 30Y still pinned near 5% or the 2s30s curve steepening again.",
+      "id": "long_end_duration_acceptance",
       "market_implication": "That would keep the move classified as selective front-end relief rather than a broad duration recovery.",
-      "confirms_if": "The 30Y richens alongside stable or lower real yields.",
-      "challenges_if": "Long-end concession returns even with calmer cross-asset conditions.",
+      "market_trigger": "Another constructive session with the 30Y still pinned near 5% or the 2s30s curve steepening again.",
       "sensitive_channel": "30Y, 2S30S, 10TIPS and 10BE",
+      "title": "Long-End Duration",
+      "watch_line": "Watch whether the long bond finally joins the front-end relief.",
       "why_it_matters": "The front end already improved. The long end still decides whether sovereign duration is trusted."
     },
     {
-      "id": "issuance_absorption",
-      "title": "Issuance Absorption",
       "category": "credit",
+      "challenges_if": "New issues begin to cheapen or borrower quality becomes more sharply tiered.",
+      "channel": "Corporate and infrastructure funding",
+      "confirms_if": "Intrum, TenneT, Welltower and similar deals clear tightly and trade steadily.",
       "date": "Current funding window",
       "date_or_window": "Ongoing primary market sessions",
-      "channel": "Corporate and infrastructure funding",
-      "watch_line": "Busy calendars still need to clear without broader concession.",
-      "market_trigger": "Wider talk, weaker books, or poor secondary trading in new deals.",
+      "id": "issuance_absorption",
       "market_implication": "That would feed the argument that funding remains available only at a rising long-end price.",
-      "confirms_if": "Intrum, TenneT, Welltower and similar deals clear tightly and trade steadily.",
-      "challenges_if": "New issues begin to cheapen or borrower quality becomes more sharply tiered.",
+      "market_trigger": "Wider talk, weaker books, or poor secondary trading in new deals.",
       "sensitive_channel": "IG books, HY terms, utility duration, maple supply and offshore issuance",
+      "title": "Issuance Absorption",
+      "watch_line": "Busy calendars still need to clear without broader concession.",
       "why_it_matters": "The funding calendar is the live test of whether firmer ETFs reflect real balance-sheet demand."
     },
     {
-      "id": "fed_guidance_path",
-      "title": "Fed Guidance",
       "category": "policy",
+      "challenges_if": "Communication starts to harden around renewed tightening risk.",
+      "channel": "Front-end rates and real yields",
+      "confirms_if": "Officials keep emphasizing flexibility and data dependence.",
       "date": "Next Fed communication window",
       "date_or_window": "Upcoming speeches and policy interpretation",
-      "channel": "Front-end rates and real yields",
-      "watch_line": "Waller opened room for flexibility without promising a dovish reset.",
-      "market_trigger": "A return to harder hiking rhetoric or stronger inflation-rate framing.",
+      "id": "fed_guidance_path",
       "market_implication": "That would push the front end back toward the stronger-dollar, tighter-policy narrative.",
-      "confirms_if": "Officials keep emphasizing flexibility and data dependence.",
-      "challenges_if": "Communication starts to harden around renewed tightening risk.",
+      "market_trigger": "A return to harder hiking rhetoric or stronger inflation-rate framing.",
       "sensitive_channel": "2Y, 5Y, 10Y real yield and DXY",
+      "title": "Fed Guidance",
+      "watch_line": "Waller opened room for flexibility without promising a dovish reset.",
       "why_it_matters": "The front-end rally needs policy flexibility to remain intact."
     },
     {
-      "id": "em_country_access",
-      "title": "EM Country Access",
       "category": "em_fx_credit",
+      "challenges_if": "Access deteriorates outside the highest-conviction country stories.",
+      "channel": "Country differentiation and dollar liquidity",
+      "confirms_if": "Hungary, Chile and similar stories keep tightening while EMB stays stable.",
       "date": "This week",
       "date_or_window": "Next sovereign and local-rate funding signals",
-      "channel": "Country differentiation and dollar liquidity",
-      "watch_line": "EM support still has to be earned country by country.",
-      "market_trigger": "A firmer dollar or renewed spread widening in weaker sovereign stories.",
+      "id": "em_country_access",
       "market_implication": "That would narrow demand back toward the strongest reform and carry markets.",
-      "confirms_if": "Hungary, Chile and similar stories keep tightening while EMB stays stable.",
-      "challenges_if": "Access deteriorates outside the highest-conviction country stories.",
+      "market_trigger": "A firmer dollar or renewed spread widening in weaker sovereign stories.",
       "sensitive_channel": "EMB, DXY, Hungary spreads, Chile local bonds and Argentina funding signals",
+      "title": "EM Country Access",
+      "watch_line": "EM support still has to be earned country by country.",
       "why_it_matters": "The aggregate ETF is firmer, but dispersion still governs real access."
     },
     {
-      "id": "global_duration_competition",
-      "title": "Global Duration",
       "category": "global_rates",
+      "challenges_if": "Global curves keep exporting duration pressure back into Treasuries.",
+      "channel": "Non-US term premium and funding competition",
+      "confirms_if": "Global policy tone softens and foreign duration pressure eases.",
       "date": "Next global policy window",
       "date_or_window": "ECB, Asia-Pacific and Japan rate signals",
-      "channel": "Non-US term premium and funding competition",
-      "watch_line": "US long yields still compete with foreign policy uncertainty.",
-      "market_trigger": "More energy caution, hawkish regional policy signals, or another jump in Japan-led funding supply.",
+      "id": "global_duration_competition",
       "market_implication": "That would keep the long end heavy even if the US front end stays calm.",
-      "confirms_if": "Global policy tone softens and foreign duration pressure eases.",
-      "challenges_if": "Global curves keep exporting duration pressure back into Treasuries.",
+      "market_trigger": "More energy caution, hawkish regional policy signals, or another jump in Japan-led funding supply.",
       "sensitive_channel": "UST30Y, JGB funding, euro credit duration and oil/gas expectations",
+      "title": "Global Duration",
+      "watch_line": "US long yields still compete with foreign policy uncertainty.",
       "why_it_matters": "The long end is being priced in a global market, not a domestic vacuum."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "tenor": "2Y",
-        "last": "4.13%",
         "change_1d": "-1 bp",
-        "change_1w": "+3 bp",
         "change_1m": "-4 bp",
+        "change_1w": "+3 bp",
+        "last": "4.13%",
         "reference_type": "ny_close",
+        "tenor": "2Y",
         "timestamp": "2026-07-06T17:00:00-04:00"
       },
       {
-        "tenor": "5Y",
+        "change_1d": "-2 bp",
+        "change_1m": "-8 bp",
+        "change_1w": "+7 bp",
         "last": "4.21%",
-        "change_1d": "-2 bp",
-        "change_1w": "+7 bp",
-        "change_1m": "-8 bp",
         "reference_type": "ny_close",
+        "tenor": "5Y",
         "timestamp": "2026-07-06T17:00:00-04:00"
       },
       {
-        "tenor": "10Y",
-        "last": "4.48%",
         "change_1d": "-1 bp",
-        "change_1w": "+10 bp",
         "change_1m": "-7 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-06T17:00:00-04:00"
-      },
-      {
-        "tenor": "30Y",
-        "last": "4.99%",
-        "change_1d": "+1 bp",
-        "change_1w": "+13 bp",
-        "change_1m": "-2 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-06T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S10S",
-        "last": "35 bp",
-        "change_1d": "0 bp",
-        "change_1w": "+7 bp",
-        "change_1m": "-3 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-06T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S30S",
-        "last": "86 bp",
-        "change_1d": "+2 bp",
         "change_1w": "+10 bp",
-        "change_1m": "+2 bp",
+        "last": "4.48%",
         "reference_type": "ny_close",
+        "tenor": "10Y",
         "timestamp": "2026-07-06T17:00:00-04:00"
       },
       {
-        "tenor": "2S5S10S",
-        "last": "-19 bp",
-        "change_1d": "-2 bp",
-        "change_1w": "+1 bp",
-        "change_1m": "-5 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-06T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S10S30S",
-        "last": "-16 bp",
-        "change_1d": "-2 bp",
-        "change_1w": "+4 bp",
-        "change_1m": "-8 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-06T17:00:00-04:00"
-      },
-      {
-        "tenor": "10TIPS",
-        "last": "2.24%",
-        "change_1d": "-2 bp",
-        "change_1w": "+8 bp",
-        "change_1m": "+5 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-06T17:00:00-04:00"
-      },
-      {
-        "tenor": "10BE",
-        "last": "2.24%",
         "change_1d": "+1 bp",
-        "change_1w": "+2 bp",
-        "change_1m": "-12 bp",
+        "change_1m": "-2 bp",
+        "change_1w": "+13 bp",
+        "last": "4.99%",
         "reference_type": "ny_close",
+        "tenor": "30Y",
+        "timestamp": "2026-07-06T17:00:00-04:00"
+      },
+      {
+        "change_1d": "0 bp",
+        "change_1m": "-3 bp",
+        "change_1w": "+7 bp",
+        "last": "35 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S10S",
+        "timestamp": "2026-07-06T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+2 bp",
+        "change_1m": "+2 bp",
+        "change_1w": "+10 bp",
+        "last": "86 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S30S",
+        "timestamp": "2026-07-06T17:00:00-04:00"
+      },
+      {
+        "change_1d": "-2 bp",
+        "change_1m": "-5 bp",
+        "change_1w": "+1 bp",
+        "last": "-19 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S5S10S",
+        "timestamp": "2026-07-06T17:00:00-04:00"
+      },
+      {
+        "change_1d": "-2 bp",
+        "change_1m": "-8 bp",
+        "change_1w": "+4 bp",
+        "last": "-16 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S10S30S",
+        "timestamp": "2026-07-06T17:00:00-04:00"
+      },
+      {
+        "change_1d": "-2 bp",
+        "change_1m": "+5 bp",
+        "change_1w": "+8 bp",
+        "last": "2.24%",
+        "reference_type": "ny_close",
+        "tenor": "10TIPS",
+        "timestamp": "2026-07-06T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+1 bp",
+        "change_1m": "-12 bp",
+        "change_1w": "+2 bp",
+        "last": "2.24%",
+        "reference_type": "ny_close",
+        "tenor": "10BE",
         "timestamp": "2026-07-06T17:00:00-04:00"
       }
     ]
-  },
-  "cross_asset_cards": [
-    {
-      "title": "Oil",
-      "value": "WTI 68.77 (+0.12%) / BRENT 72.19 (+0.54%)",
-      "summary": "Higher crude and firmer breakevens pushed against duration.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Equities",
-      "value": "SPX 7,537 (+0.72%) / NDX 29,698 (+1.26%) / SOX 12,900 (+2.17%) / VIX 15.57 (-3.59%)",
-      "summary": "Semiconductor leadership showed equities could absorb the rates move.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Credit / EM",
-      "value": "LQD 108.67 (+0.03%) / HYG 79.87 (+0.20%) / JNK 96.15 (+0.17%) / EMB 96.35 (+0.16%)",
-      "summary": "Listed credit and EMB firmed with lower volatility as actual funding flow kept duration and borrower absorption in focus.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Dollar / gold",
-      "value": "DXY 100.86 (-0%) / GOLD 4,173 (+1.47%)",
-      "summary": "Treasury yields were lower, while dollar and gold signals left the easing impulse incomplete.",
-      "reference_type": "ny_close"
-    }
-  ],
-  "long_thesis": {
-    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 6 NY close opened with a more constructive fixed-income tone. The front end firmed, risk assets found their footing again, listed credit stayed composed, and volatility eased. The long bond remained near the upper end of the recent range and the curve kept a steep bias. Investors were more comfortable with the immediate policy and risk backdrop. They still wanted compensation for sovereign duration, ongoing supply, and a funding cycle that remains heavy.\n\nThe rates move was modest in headline terms and more important in composition. Short and intermediate maturities richened. The long bond stayed close to 5%. The front end and belly moved in the direction of easier near-term policy pressure. The long end lagged. The pattern fit a market trimming some immediate policy pressure and still asking who will absorb sovereign duration and at what price.\n\nThe cross-asset read supported that interpretation. Equities and semiconductors rebounded, listed credit and EMB edged higher, and the volatility complex softened. Oil stayed contained, gold rose, and the dollar finished broadly steady after a strong June run. It was a risk-accepting session. The market allowed the front end to improve and kept the long end on a separate standard.\n\nThe market was trading two pricing questions at once. The first was the near-term policy question: how much flexibility can the Fed preserve as conditions change? The second was the financing question: who still needs money, how much duration is still coming, and what level of real-rate and term-premium compensation clears that supply? July 6 improved the answer to the first question. It kept the second one very much alive.\n\nThat split matters because the session did not depend on a single headline or a single asset doing all of the explanatory work. Policy language helped the front end. Lower volatility and stronger semiconductors helped broader risk appetite. Credit ETFs, EMB, and calmer energy pricing showed that investors were willing to extend some confidence beyond Treasuries. At the same time, the long bond, the still-steep curve shape, and the nonstop financing calendar reminded the market that easier conditions are not the same thing as cheap capital across the entire duration complex.\n\nThis is why the close felt more disciplined than euphoric. Better equity tone, lower volatility, a small rally in the front end, and steady credit ETFs all argued for easier day-to-day conditions. The 30Y, the 2s30s steepening, the steady stream of corporate and sovereign issuance, and the global duration backdrop argued that easier conditions still come with a price. The market was deciding how much of that appetite should be spent on long-duration sovereign exposure versus credit, equities, and selective carry.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe cleanest rates message came from the front half of the curve. The 2Y fell 1 basis point, the 5Y fell 2 basis points, and the 10Y fell 1 basis point. Those are modest moves and they do show a market leaning away from a fresh push higher in near-term rate expectations. Christopher Waller's remarks on forward guidance helped that process. His core point was that guidance remains useful when it stays flexible and responsive to changing conditions and avoids tying policy makers to a rigid pre-committed path. That keeps the reaction function data-responsive and leaves room for calmer sessions to hold their gains.\n\nThe curve shape shows where the restraint began. The 2s10s curve held at 35 basis points. The 2s30s curve steepened to 86 basis points. The 30Y yield at 4.99% is the key figure. A market that truly believed long-duration stress had broken would not have left the bond there after a session that saw equities rise, volatility fall, and the short end richen. The long end again acted as the part of the curve where investors continue to ask for payment before providing balance-sheet capacity to the sovereign complex.\n\nReal-yield and breakeven behavior sharpen that point. The 10Y TIPS yield fell 2 basis points to 2.24%, and the 10Y breakeven rose 1 basis point to 2.24%. That combination implies a modest decline in real-rate pressure alongside only a slight lift in inflation compensation. The market treated the day as one in which real yields could ease somewhat as longer-term inflation and duration uncertainty remained present. Oil staying below the late-June stress zone helped. It was not enough to produce a long-bond release.\n\nThe long end also has to be read through the growing debate over sovereign safe-haven status. Standard Bank's warning that investors are increasingly questioning whether government bonds still behave like automatic shock absorbers captured a dynamic that the market board itself continues to reflect. Recent stress episodes have not reliably produced the kind of long-end rally that once defined the asset class. Instead, longer-dated yields have often stayed high or moved higher even when the immediate macro shock eased. July 6 fit that pattern. Better cross-asset tone did not translate into lower long yields. It translated into selective appetite elsewhere and continued caution in the bond.\n\nThis is where term premium and supply connect. The market has plenty of reasons to like the front end more than the back. The front end responds first when policy looks less mechanically hawkish. The long end must clear sovereign borrowing needs, global duration competition, and a credit market still full of issuance. When the 2Y and 5Y richen and the 30Y stays pinned, the market is saying that short-end policy relief is real, and the price of capital across long-duration public balance sheets is still too high to draw indiscriminate demand.\n\nWaller's message reinforces that interpretation because it lowers the odds of a communication trap with no promise of a dovish handrail. A more flexible guidance regime means traders can let front-end yields reflect incoming information more quickly. It does not automatically erase the need for long-end compensation. In fact, a Fed that uses less rigid guidance can leave more uncertainty in the medium-term path of rates, inflation, and balance-sheet conditions. That is good for front-end optionality and not necessarily good for the 30Y.\n\nThe rates takeaway is therefore one of partial improvement. The market bought a somewhat easier real-rate story at the front end and belly. It stopped short of a broad long-duration all-clear. The long end still needs evidence that sovereign demand can reassert itself, that supply can clear cleanly, and that global policy and energy conditions will not rebuild inflation or funding pressure. July 6 confined duration relief to the part of the curve where policy flexibility matters most and term-premium concerns matter less.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit looked firmer on the board and busy in the calendar. LQD rose 0.03%, HYG gained 0.20%, JNK added 0.17%, and EMB rose 0.16%. That is modest and useful confirmation that the rates move and lower volatility were being accepted by listed risk. The more informative credit story sat in the funding pipeline, not in ETF decimals. July 6 brought another reminder that credit conditions are defined by how consistently issuers across quality tiers, sectors, and currencies can raise capital with manageable concessions.\n\nIntrum's return to Europe’s junk market is one side of that story. A company that had to restructure after financing costs surged is back trying to sell secured debt. Capital is available again for issuers that can present a deleveraging path and a refinancing logic investors are willing to fund. That is constructive. It is also different from a market that has forgotten the earlier stress and stopped charging for it. July 6 fit the first description.\n\nTenneT Germany's inaugural bond plan points to a different type of supply pressure: duration-heavy infrastructure funding backed by strategic national investment. The company is preparing a multi-tranche euro green bond as it moves into a huge grid investment program. That is not a distressed-credit story. It is a reminder that even high-quality, policy-adjacent borrowers are drawing deeply on capital markets to finance long-lived assets. In practical terms, that means the long-duration funding calendar is not going quiet just because the front end of the Treasury curve looks more comfortable.\n\nWelltower's planned maple sale reinforces the same message from another angle. Cross-border corporate issuers are still finding it attractive to issue in Canadian dollars, and the market is still willing to take those deals. Record maple-bond flow this year has been helped by American issuers and by funding arbitrage. Again, the message is not stress. The message is volume. When sovereign duration is already struggling to rally, a market that continues to absorb large corporate and infrastructure deals will keep the question of duration capacity in front of every rates close.\n\nJapan-driven offshore issuance takes the same argument into regional scale. Asia Pacific offshore bond sales just set a quarterly record, with Japanese borrowers accounting for roughly 40% of the total. It is evidence that higher domestic curves and changing local funding economics are pushing issuers into global dollar and euro markets. The more Japanese borrowers front-load funding to avoid future rate pressure, the more global markets have to absorb supply that used to sit elsewhere. That supply does not automatically widen spreads on a given day, and it does change the background clearing price for duration and credit risk.\n\nThe listed-credit board was firm enough to say risk appetite is still available. The primary-market flow was active enough to say investors are being asked to spend that risk appetite continuously. That is the current fixed-income funding balance: access exists, and the market still expects to be paid for supplying duration. July 6 showed refinancing, green infrastructure, cross-border issuance, and post-restructuring borrowers all coming forward in the same session and still leaving the long end heavy. That apparent tension is the point.\n\nThere is also a quality signal inside that flow. Intrum is coming back after restructuring. TenneT is funding long-life public infrastructure with investor-friendly green-bond framing and new ownership support. Welltower is leaning into a maple format that global investors have already been willing to absorb this year. Japan-led offshore issuance is being driven by borrowers trying to stay ahead of a changing rate regime, with acute distress largely absent from that flow. That mix says the market is not closing on credit. It is sorting capital between refinancing repair, strategic infrastructure, balance-sheet optimization, and rate arbitrage. For fixed income, that sorting mechanism is more useful than the ETF tape because it reveals where the market still offers money readily and where it is asking for patience, structure, or spread.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nThe global duration backdrop kept the US long end from enjoying the same comfort as the front end. Isabel Schnabel made that clear by arguing that the apparent calm in oil had not restored markets to their pre-war baseline. Gas prices and supply-chain pressures, in her telling, still sit above the levels that prevailed before the conflict shock, and inflation risk cannot simply be waved away because crude retreated from the peak. That is exactly the type of message that helps keep inflation compensation and term premium from collapsing even on days when the market would otherwise prefer a cleaner duration rally.\n\nIsrael's second straight rate cut pushed in the opposite direction. The Bank of Israel felt able to cut to 3.50% because inflation expectations remained moderate enough and the broader geopolitical backdrop had stabilized enough for policy support to continue. That supports the idea that some central banks can now lean toward easing where their local conditions permit it. It also reinforces the asymmetry inside global duration: the easing cycle is not uniform, and the markets benefiting from it are not necessarily the ones determining the clearing price for long-end US sovereign risk.\n\nAsia-Pacific policy signals underline the same lack of synchrony. The Philippines central bank still thinks the economy can withstand another hike, even if not a large one, and New Zealand's path remains rate-sensitive and far from decisively easy. Those messages do not dominate the NY-close Treasury move on their own. What they do is prevent investors from treating the global rates backdrop as a single dovish block. When some central banks are cutting, others are still guarding against inflation, and others are watching currencies and growth uneasily, long-duration assets do not get the clean global reinforcement they would need for a broad rally.\n\nJapan remains especially important because its duration story has moved from monetary policy into market structure. Japanese borrowers are issuing offshore in record size because domestic borrowing economics have changed. The yen remains weak, strategists still talk about carry, and higher local yields are pushing corporations toward foreign markets. That has two direct implications for US duration. First, Japan is no longer merely a passive source of demand for foreign bonds. It is also a more active source of competing supply. Second, any global investor deciding where to allocate duration has more non-US issuance to compare with Treasuries than before.\n\nThis is why the fiscal-transmission channel matters even on a day with no US auction headline. The market is processing not just US government supply, but the total amount of duration and funding paper trying to clear across sovereign, utility, infrastructure, and corporate channels. July 6 added to that inventory through TenneT, Welltower, Japan-led offshore supply, and renewed access for previously stressed issuers. The global duration message is that the supply machine remains alive, and any domestic policy relief must still coexist with a very crowded funding backdrop.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM traded like a market that still has access on a country-by-country basis. EMB rose 0.16%, and DXY closed almost unchanged after a stronger June. That is enough to say the dollar did not actively squeeze the asset class on the day. It is also clear that the macro liquidity environment did not turn broadly easy. Country stories provided the best evidence. Hungary printed a heavily subscribed eurobond deal, Chile kept attracting foreign demand into local sovereign paper, and Argentina still preferred to avoid the international market even after its spread compression.\n\nHungary's sale is the clearest positive access signal. The order book was large, pricing tightened materially from initial indications, and the deal leaned on both the broader EM backdrop and a local political repricing story. That kind of transaction says investors still have room for duration and spread product when they believe a country has an idiosyncratic path to tighter borrowing costs. It also says that country-level convergence stories can still overcome a market that remains cautious about sovereign duration in the aggregate.\n\nChile offers a different kind of support. Record inflows into peso-denominated sovereign bonds show that local markets with a weaker currency, expected rate cuts, and a friendlier reform narrative can attract foreign capital quickly. That is not a pure dollar story. It is a credibility-and-carry story. The market is rewarding a mix of macro setup and political trajectory. That is useful for the Daily FI read because it shows that EM risk appetite is still available where the policy and growth path looks coherent.\n\nArgentina shows the limit. Spreads have narrowed sharply, and the government is openly discussing a path toward investment-grade status by the end of the decade. Even so, officials are still choosing not to tap international markets in size. That decision is revealing. It says better market perception does not automatically equal cheap enough funding. Access can improve before issuance becomes attractive. For EM fixed income, that is an important distinction: better narrative momentum can coexist with a still-high absolute funding hurdle.\n\nThe practical EM conclusion is that dollar liquidity was not the dominant daily constraint on July 6. Country selection was. Hungary and Chile benefited from investor willingness to fund clearer local stories. Argentina remained cautious about paying up in global markets. EMB could finish higher and still leave selective access short of a universal green light. That is the right read for a session in which DXY did not materially tighten conditions and also did not fall enough to create broad-based relief by itself.\n\n## Cross Asset\n\nCross-asset confirmation was constructive and more coherent than it had been in the prior session. The S&P 500 and Nasdaq 100 both rose, the semiconductor index snapped higher, the VIX fell, and listed credit edges were firmer. That is the configuration of a market willing to rebuild risk appetite around the AI complex and around lower immediate policy pressure. It is not the configuration of a market forcing investors into safety. The move matters because fixed income has been trading through equity leadership and capex confidence as much as through traditional macro prints.\n\nThe AI rebound was especially important. The semiconductor bounce and the return of large-cap technology leadership helped stabilize the part of the equity market most closely linked to capital spending, data-center buildouts, and future borrowing demand. The funding question remains. The market was more willing to believe in the cash-flow and growth side of the AI story again after the earlier wobble. For fixed income, that is supportive because a healthier equity response can make heavy issuance and capex plans look easier to finance.\n\nOil and gold gave a more nuanced signal. Crude stayed below the late-June stress zone, helped by Saudi price cuts and a less alarming near-term supply picture. That supported the front end and kept inflation compensation from breaking wider. Gold still rose 1.47%. The combination is telling. Investors were willing to reduce volatility hedges and buy risk, and they still kept macro hedges in place. The market accepted calmer immediate energy conditions and left open the question of how fully the inflation and geopolitical backdrop had normalized.\n\nThe dollar's role was similarly subtle. DXY closed only slightly lower, which means the day did not depend on a broad dollar collapse. The structural strong-dollar narrative remained present in commentary and positioning data. Yet that narrative also failed to dominate the close board. The result was a session in which EM and credit could improve with only a limited dollar tailwind. That is a healthier sign for risk assets than a move that depends entirely on FX relief.\n\nThe cross-asset conclusion is therefore one of selective confirmation. Equities, semiconductors, volatility, credit, and EMB all aligned well enough to support a constructive fixed-income read. Gold, the stubborn long bond, and the still-busy funding calendar kept that read from becoming unqualified. July 6 showed a market finding better immediate footing and still pricing the cost of duration and funding honestly.\n\n## Forward Market Significance\n\nThe first test from here is whether the long end can participate. If the next session extends the front-end rally and the 30Y remains pinned near 5%, the market will be telling the same story more loudly: policy relief is real and sovereign-duration demand is still conditional. A better outcome for duration would require the 30Y to richen alongside stable or lower real yields and a curve that stops steepening at the long end.\n\nThe second test is funding absorption. Intrum, TenneT, Welltower, and the broader supply backdrop are not one-off curiosities. They are part of the environment the Treasury market has to clear inside. If those deals price tightly and trade well, then duration-heavy funding can coexist with calmer rates and firmer credit. If concessions widen or secondary performance slips, the long end will keep treating every constructive macro session as insufficient proof.\n\nThe third test is policy communication. Waller's flexible-guidance remarks opened room for a less rigid interpretation of the Fed path and still left tightening risk in view. If the next set of speakers or data points keep that flexibility intact, the front end can remain supported. If markets revert to trading a mechanically stronger dollar and a more forceful hiking path, July 6 will look more like a temporary respite than a shift in regime.\n\nThe fourth test is country-level risk appetite. Hungary and Chile showed that investors still fund selected sovereign and local-rate stories. Argentina showed that spread compression does not automatically mean cheap enough market access. A stable or slightly softer dollar can preserve that selective support. A renewed dollar surge or another jump in long-end yields would quickly separate the strongest stories from the rest of the EM complex.\n\nThe broader significance of July 6 is that the market continues to loosen conditions only in the places where it feels paid to do so. The front end got relief. Equities and semiconductors got a rebound. Listed credit and EMB got mild confirmation. The long bond did not get trust. Until that last piece changes, fixed income remains in a selective improvement phase and still short of a full-duration easing phase.\n\nThat distinction should shape how the next close is read. A genuinely broader easing in fixed-income conditions would show up through several channels at once: the 30Y would stop lagging, real yields would ease with stable breakevens, new issuance would clear with contained concession, and equity leadership would continue with less fear that AI capex only leads to more debt supply. If the market gets another strong risk session with a stubborn long bond and a crowded calendar, July 6 will look less like the start of a clean duration recovery and more like the latest example of capital becoming easier at the front end than at the sovereign long end.\n\nThere is also a practical editorial implication for the next few sessions. If the market keeps producing this combination of softer front-end pricing, resilient risk assets, and a heavy long-duration supply backdrop, the most useful read is not to force everything into a single bullish or bearish label. The cleaner frame is to separate where capital is getting easier from where it is still expensive. July 6 is valuable because it makes that split visible across Treasuries, credit, global duration, and EM at the same time. That gives the next close a clearer benchmark: confirmation requires broader participation from the long end, not just another day in which short rates ease while the bond market keeps asking to be paid.\n",
-    "section_summaries": [
-      {
-        "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The close combined front-end relief with continued discipline in the long end. Treasuries richened through the belly, equities and semiconductors rebounded, and listed credit improved, while the 30Y stayed near 5% as sovereign-duration skepticism and a busy funding calendar kept the session from becoming a full sovereign rally.",
-        "section_id": "thesis-opening-fixed-income-thesis",
-        "market_read": "The market improved financing conditions at the front end without extending that trust to the long bond.",
-        "why_it_matters": "That split separates policy relief from true duration acceptance.",
-        "next_check": "Whether the 30Y can participate in the next constructive session."
-      },
-      {
-        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "The front end and belly richened while the 30Y lagged, leaving the 2s30s curve steeper and the long end still priced for compensation. Lower real yields and only slightly higher breakevens supported the move, while Waller’s flexible-guidance message helped the front end more than the sovereign-duration complex.",
-        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
-        "market_read": "Rates improved where policy flexibility matters most and stayed guarded where term premium still dominates.",
-        "why_it_matters": "The long end is still deciding whether sovereign duration deserves a lower clearing price.",
-        "next_check": "30Y behavior, 2S30S, 10TIPS and long-end demand."
-      },
-      {
-        "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Listed credit closed firmer, but the deeper message came from active issuance across restructuring repair, infrastructure, maple funding, and Japan-linked offshore supply. Credit is open, yet the market is still charging for duration and refinancing absorption rather than offering a frictionless all-clear across maturities and sectors.",
-        "section_id": "thesis-credit-funding-and-primary-market-absorption",
-        "market_read": "Funding access remains open, but supply still sets the discipline of the market.",
-        "why_it_matters": "The calendar shows whether firmer ETFs reflect real balance-sheet demand or only lighter daily stress.",
-        "next_check": "New-issue books, concessions and secondary trading."
-      },
-      {
-        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "Global policy and funding channels still argued against a clean long-end rally. Schnabel kept energy and inflation risk alive, Israel cut rates where local conditions allowed it, and Japan-led offshore issuance showed how changing non-US curves are competing for global duration demand and term-premium capacity.",
-        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
-        "market_read": "Global duration stayed mixed even as the US front end found relief.",
-        "why_it_matters": "US long yields still clear inside a crowded international funding market.",
-        "next_check": "ECB tone, Japan funding pressure and broader global duration demand."
-      },
-      {
-        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "EM support was present, but it remained selective. Hungary and Chile showed investors still funding clearer reform and carry stories, while Argentina’s choice to stay out of international markets showed that better narrative momentum does not always equal attractive funding levels. EMB improved without turning access indiscriminate.",
-        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
-        "market_read": "Country selection remained more important than a broad macro liquidity impulse.",
-        "why_it_matters": "A steady dollar helps, but policy credibility still decides who can borrow comfortably.",
-        "next_check": "EMB stability, DXY and country-specific funding outcomes."
-      },
-      {
-        "section_title": "Cross Asset",
-        "summary": "Equities, semiconductors, listed credit, and EMB all confirmed a more constructive session, while lower volatility and contained oil supported the front end. Gold and the still-heavy long bond kept the market from calling the move an unqualified easing in financial conditions across the full fixed-income complex.",
-        "section_id": "thesis-cross-asset",
-        "market_read": "Cross asset confirmed better immediate tone without removing macro and duration caution.",
-        "why_it_matters": "The close looked healthier, but not carefree, across the broader market board.",
-        "next_check": "AI leadership, oil, volatility and credit follow-through."
-      },
-      {
-        "section_title": "Forward Market Significance",
-        "summary": "The next question is whether front-end relief broadens into full duration acceptance or remains selective. The answer runs through the 30Y, the active funding calendar, Fed communication, dollar persistence, and whether EM and global duration signals continue to cooperate instead of tightening again in the next window.",
-        "section_id": "thesis-forward-market-significance",
-        "market_read": "Follow-through depends on duration trust, issuance absorption, policy flexibility and country-level access.",
-        "why_it_matters": "The market improved, but its most expensive problem still sits at the long end.",
-        "next_check": "30Y follow-through, deal clearing, Fed tone and DXY."
-      }
-    ]
-  },
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
-  "archive_dates": [
-    {
-      "date": "2026-07-06",
-      "label": "2026-07-06",
-      "href": "?date=2026-07-06",
-      "active": true
-    },
-    {
-      "date": "2026-07-03",
-      "label": "2026-07-03",
-      "href": "?date=2026-07-03",
-      "active": false
-    },
-    {
-      "date": "2026-07-02",
-      "label": "2026-07-02",
-      "href": "?date=2026-07-02",
-      "active": false
-    },
-    {
-      "date": "2026-07-01",
-      "label": "2026-07-01",
-      "href": "?date=2026-07-01",
-      "active": false
-    },
-    {
-      "date": "2026-06-30",
-      "label": "2026-06-30",
-      "href": "?date=2026-06-30",
-      "active": false
-    },
-    {
-      "date": "2026-06-29",
-      "label": "2026-06-29",
-      "href": "?date=2026-06-29",
-      "active": false
-    },
-    {
-      "date": "2026-06-26",
-      "label": "2026-06-26",
-      "href": "?date=2026-06-26",
-      "active": false
-    },
-    {
-      "date": "2026-06-25",
-      "label": "2026-06-25",
-      "href": "?date=2026-06-25",
-      "active": false
-    },
-    {
-      "date": "2026-06-24",
-      "label": "2026-06-24",
-      "href": "?date=2026-06-24",
-      "active": false
-    },
-    {
-      "date": "2026-06-23",
-      "label": "2026-06-23",
-      "href": "?date=2026-06-23",
-      "active": false
-    },
-    {
-      "date": "2026-06-22",
-      "label": "2026-06-22",
-      "href": "?date=2026-06-22",
-      "active": false
-    },
-    {
-      "date": "2026-06-19",
-      "label": "2026-06-19",
-      "href": "?date=2026-06-19",
-      "active": false
-    },
-    {
-      "date": "2026-06-18",
-      "label": "2026-06-18",
-      "href": "?date=2026-06-18",
-      "active": false
-    },
-    {
-      "date": "2026-06-17",
-      "label": "2026-06-17",
-      "href": "?date=2026-06-17",
-      "active": false
-    },
-    {
-      "date": "2026-06-16",
-      "label": "2026-06-16",
-      "href": "?date=2026-06-16",
-      "active": false
-    },
-    {
-      "date": "2026-06-15",
-      "label": "2026-06-15",
-      "href": "?date=2026-06-15",
-      "active": false
-    },
-    {
-      "date": "2026-06-12",
-      "label": "2026-06-12",
-      "href": "?date=2026-06-12",
-      "active": false
-    },
-    {
-      "date": "2026-06-11",
-      "label": "2026-06-11",
-      "href": "?date=2026-06-11",
-      "active": false
-    },
-    {
-      "date": "2026-06-10",
-      "label": "2026-06-10",
-      "href": "?date=2026-06-10",
-      "active": false
-    },
-    {
-      "date": "2026-06-09",
-      "label": "2026-06-09",
-      "href": "?date=2026-06-09",
-      "active": false
-    },
-    {
-      "date": "2026-06-08",
-      "label": "2026-06-08",
-      "href": "?date=2026-06-08",
-      "active": false
-    },
-    {
-      "date": "2026-06-05",
-      "label": "2026-06-05",
-      "href": "?date=2026-06-05",
-      "active": false
-    },
-    {
-      "date": "2026-06-04",
-      "label": "2026-06-04",
-      "href": "?date=2026-06-04",
-      "active": false
-    },
-    {
-      "date": "2026-06-03",
-      "label": "2026-06-03",
-      "href": "?date=2026-06-03",
-      "active": false
-    },
-    {
-      "date": "2026-06-02",
-      "label": "2026-06-02",
-      "href": "?date=2026-06-02",
-      "active": false
-    },
-    {
-      "date": "2026-06-01",
-      "label": "2026-06-01",
-      "href": "?date=2026-06-01",
-      "active": false
-    },
-    {
-      "date": "2026-05-29",
-      "label": "2026-05-29",
-      "href": "?date=2026-05-29",
-      "active": false
-    },
-    {
-      "date": "2026-05-28",
-      "label": "2026-05-28",
-      "href": "?date=2026-05-28",
-      "active": false
-    }
-  ]
+  }
 }
