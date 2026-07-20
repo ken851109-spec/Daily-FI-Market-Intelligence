@@ -1,275 +1,12 @@
 {
-  "report_date": "2026-07-13",
-  "run_id": "2026-07-13T08-00-00+08-00_live-local",
-  "mode": "full",
   "anchor": "ny_close",
-  "header": {
-    "title": "Daily FI Market Intelligence",
-    "as_of_note": "New York close, July 13, 2026.",
-    "stance": "Trump's Hormuz blockade and Waller's tightening signal lifted oil, real yields and the policy path.",
-    "latest_update_cutoff": "2026-07-14T08:00:00+08:00"
-  },
-  "overall_summary": {
-    "headline": "A physical oil shock and a named Fed signal tightened the policy horizon.",
-    "summary": "Trump reinstated the blockade of Iranian ships transiting Hormuz and demanded a 20% charge on other cargo, while Waller said another hot core-inflation print could require near-term tightening. Oil rose about 11%, the 5Y led Treasury losses, and both real yields and breakevens increased as semiconductors, listed credit and EM debt weakened.",
-    "bullets": [
-      "5Y 4.37%, +7 bp | 10Y 4.62%, +6 bp.",
-      "2S10S 36 bp, +1 bp | 2S5S10S -14 bp, +3 bp.",
-      "10TIPS 2.36%, +4 bp | 10BE 2.26%, +2 bp.",
-      "LQD 106.96, -0.47% | EMB 95.38, -0.64%."
-    ],
-    "ny_close_causal_narrative": "Trump's reinstated Iran blockade and proposed 20% Hormuz cargo charge widened the physical energy premium. Waller's near-term tightening signal carried that shock into Fed pricing, the Treasury belly and real yields, while technology, listed credit and EM debt marked the broader increase in capital costs."
-  },
-  "watch_events": [
-    {
-      "id": "cpi_warsh",
-      "title": "CPI And Warsh Testimony",
-      "date": "2026-07-14",
-      "watch_line": "Core inflation and the Fed reaction function set the persistence of Waller's tightening signal.",
-      "market_trigger": "Core CPI composition and Warsh's treatment of energy pass-through, labor and inflation expectations.",
-      "market_implication": "Firm core CPI extends belly pressure; softer core inflation shifts the move toward energy.",
-      "confirms_if": "Firm core CPI, restrictive testimony and higher 2Y, 5Y and real yields.",
-      "challenges_if": "Softer core CPI and lower real yields despite elevated oil.",
-      "sensitive_channel": "2Y, 5Y, real yields and breakevens",
-      "why_it_matters": "This is the nearest policy test of the July 13 close.",
-      "category": "inflation"
-    },
-    {
-      "id": "ppi_beige_book",
-      "title": "PPI And Beige Book",
-      "date": "2026-07-15",
-      "watch_line": "Pipeline prices and regional pricing power follow the CPI composition test.",
-      "market_trigger": "Core PPI, energy-sensitive inputs and firms' ability to pass costs through.",
-      "market_implication": "Firm costs preserve restrictive real rates and credit concessions; weaker pricing power supports duration.",
-      "confirms_if": "Firm producer prices and persistent business pricing power.",
-      "challenges_if": "Easing input costs with weaker regional demand.",
-      "sensitive_channel": "UST belly, real yields and investment-grade credit",
-      "why_it_matters": "The pair measures whether the oil impulse is entering a broader cost pipeline.",
-      "category": "economic_data"
-    },
-    {
-      "id": "retail_claims",
-      "title": "Retail Sales And Claims",
-      "date": "2026-07-16",
-      "watch_line": "Demand and labor show how much restrictive real rates the economy can absorb.",
-      "market_trigger": "Retail momentum and the direction of initial claims.",
-      "market_implication": "Resilient activity supports policy restraint; weaker consumption and rising claims cap real yields and challenge credit.",
-      "confirms_if": "Firm sales and contained claims.",
-      "challenges_if": "Weaker consumption and rising claims.",
-      "sensitive_channel": "Front-end Treasuries, high yield and cyclicals",
-      "why_it_matters": "The releases separate inflation tightening from a broader growth slowdown.",
-      "category": "economic_data"
-    },
-    {
-      "id": "bill_liquidity",
-      "title": "Treasury Bill Liquidity",
-      "date": "2026-07-15 to 2026-07-20",
-      "watch_line": "Bill auctions measure cash demand through the inflation and policy event window.",
-      "market_trigger": "Stop levels, demand and concessions in 17-week, 4-week, 8-week, 3-month and 6-month supply.",
-      "market_implication": "Deep demand contains front-end event premium; weak clearing extends the repricing through cash maturities.",
-      "confirms_if": "Strong demand and contained concessions.",
-      "challenges_if": "Higher clearing yields and weaker demand across maturities.",
-      "sensitive_channel": "Bills, SOFR and the 2Y",
-      "why_it_matters": "Cash allocation determines whether the policy event remains orderly.",
-      "category": "auction"
-    },
-    {
-      "id": "bok_friday_checks",
-      "title": "BOK And Friday Macro Checks",
-      "date": "2026-07-16 to 2026-07-17",
-      "watch_line": "Asian policy, housing, production and inflation expectations complete the global sequence.",
-      "market_trigger": "BOK guidance, housing starts, industrial production and Michigan inflation expectations.",
-      "market_implication": "The releases map imported energy pressure, rate-sensitive demand and household inflation credibility.",
-      "confirms_if": "Contained expectations and stable activity under credible policy.",
-      "challenges_if": "Currency pressure or higher expectations require tighter policy.",
-      "sensitive_channel": "Asian front ends, UST duration and breakevens",
-      "why_it_matters": "The sequence shows how far the U.S. shock reaches into global policy.",
-      "category": "policy"
-    }
-  ],
-  "yield_heat_map": {
-    "rows": [
-      {
-        "tenor": "2Y",
-        "last": "4.26%",
-        "change_1d": "+5 bp",
-        "change_1w": "+13 bp",
-        "change_1m": "+17 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "5Y",
-        "last": "4.37%",
-        "change_1d": "+7 bp",
-        "change_1w": "+16 bp",
-        "change_1m": "+16 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "10Y",
-        "last": "4.62%",
-        "change_1d": "+6 bp",
-        "change_1w": "+14 bp",
-        "change_1m": "+14 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "30Y",
-        "last": "5.10%",
-        "change_1d": "+4 bp",
-        "change_1w": "+11 bp",
-        "change_1m": "+13 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S10S",
-        "last": "36 bp",
-        "change_1d": "+1 bp",
-        "change_1w": "+1 bp",
-        "change_1m": "-3 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S30S",
-        "last": "84 bp",
-        "change_1d": "-1 bp",
-        "change_1w": "-2 bp",
-        "change_1m": "-4 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S5S10S",
-        "last": "-14 bp",
-        "change_1d": "+3 bp",
-        "change_1w": "+5 bp",
-        "change_1m": "+1 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "2S10S30S",
-        "last": "-12 bp",
-        "change_1d": "+3 bp",
-        "change_1w": "+4 bp",
-        "change_1m": "-2 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "10TIPS",
-        "last": "2.36%",
-        "change_1d": "+4 bp",
-        "change_1w": "+12 bp",
-        "change_1m": "+19 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      },
-      {
-        "tenor": "10BE",
-        "last": "2.26%",
-        "change_1d": "+2 bp",
-        "change_1w": "+2 bp",
-        "change_1m": "-5 bp",
-        "reference_type": "ny_close",
-        "timestamp": "2026-07-13T17:00:00-04:00"
-      }
-    ]
-  },
-  "cross_asset_cards": [
-    {
-      "title": "Oil",
-      "value": "WTI 79.27 (+11%) / BRENT 84.38 (+11%)",
-      "summary": "Higher crude and firmer breakevens pushed against duration.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Equities",
-      "value": "SPX 7,515 (-0.79%) / NDX 29,264 (-1.88%) / SOX 12,348 (-4.78%) / VIX 17.16 (+14.2%)",
-      "summary": "Semiconductor weakness led equity downside.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Credit / EM",
-      "value": "LQD 106.96 (-0.47%) / HYG 79.52 (-0.24%) / JNK 95.76 (-0.18%) / EMB 95.38 (-0.64%)",
-      "summary": "Listed LQD/HYG/JNK/EMB rows fell with rate drag. Spreads, books, and borrower access carry the credit read.",
-      "reference_type": "ny_close"
-    },
-    {
-      "title": "Dollar / gold",
-      "value": "DXY 101.29 (+0.31%) / GOLD 4,003 (-2.46%)",
-      "summary": "Treasury yields were higher, and dollar firmness tightened financial conditions.",
-      "reference_type": "ny_close"
-    }
-  ],
-  "long_thesis": {
-    "english_markdown": "## Opening Fixed-Income Thesis\n\nTwo named catalysts organized the July 13 close. President Donald Trump reinstated the U.S. blockade of Iranian ships transiting the Strait of Hormuz and demanded a 20% reimbursement on other cargo, adding a direct shipping-cost proposal to renewed U.S.-Iran strikes and conflicting claims over access to the strait. Fed Governor Christopher Waller then put the policy consequence in explicit terms: another hot core-inflation reading could require near-term tightening. WTI and Brent each rose about 11%, the 5-year Treasury yield led a broad selloff, and money markets moved toward roughly even odds of a July rate increase. The session repriced both the physical cost of energy and the Federal Reserve's response to persistent inflation.\n\nThe Treasury distribution reinforced that reading. The 5-year led with a 7-basis-point rise, while real yields increased more than breakevens and the long bond lagged the belly. Inflation compensation widened, but tighter policy and a higher real discount rate did more work than energy expectations alone. Firmer three- to twelve-month bill yields placed the same pressure inside the prospective policy horizon.\n\nThe shock spread beyond rates. Semiconductors led the equity decline, volatility rose, DXY strengthened, and gold, listed credit and EM debt closed lower. The market charged long-duration growth, Treasury-duration credit and external-dollar borrowers at the same time. AI demand remained strong, yet SK Hynix's post-listing selloff and the scale of new data-center commitments exposed the absorption problem behind the next financing wave.\n\nCPI and Kevin Warsh's congressional testimony now sit directly on top of the repricing. Core inflation determines whether the tightening signal extends beyond the oil impulse; headline composition determines how much of the move remains in breakevens; Warsh's description of the reaction function determines how much event premium stays in real yields and the belly. PPI, the Beige Book, retail sales, claims and bill auctions follow immediately. The close left a more expensive policy path, a physical energy premium with uncertain implementation and less room for capital-intensive borrowers to rely on benign rates.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe nominal curve cheapened across every benchmark, with the largest losses in intermediate maturities. The 2-year yield closed at 4.26%, up 5 basis points; the 5-year at 4.37%, up 7 basis points; the 10-year at 4.62%, up 6 basis points; and the 30-year at 5.10%, up 4 basis points. The 2s10s slope widened 1 basis point to 36 basis points, while 2s30s narrowed 1 basis point to 84 basis points. Those modest slope changes concealed the more useful distribution: the 5-year sector carried the greatest outright adjustment, and the long bond remained above 5% without leading the selloff.\n\nWaller supplied the most concrete policy catalyst. He said another hot core-inflation reading could require the FOMC to consider near-term tightening. Money markets moved to about 50% odds of a July increase, while separate local reporting described a September increase as almost fully priced, compared with roughly two-thirds probability one week earlier. Those probabilities are contextual rather than checked market rows, but their direction matches the Treasury board. The Fed debate moved from patience around declining inflation toward the timing of renewed restraint.\n\nThe timing of the remark sharpened its effect. Markets received the tightening signal one day before CPI and before Warsh's first congressional testimony as chair, so the curve had to carry both the probability of a stronger inflation print and uncertainty about the Fed's response. The statement did not announce a fixed path; it supplied a threshold tied to broad core pressure. That distinction left the 2-year exposed to the next decision while concentrating more cumulative policy risk in the 5-year.\n\nCurvature put the same adjustment in sharper form. The 2s5s10s butterfly rose 3 basis points to minus 14 basis points, and the 2s10s30s butterfly rose 3 basis points to minus 12 basis points. The belly cheapened against both wings because the combination of the Fed signal, resilient activity and the oil shock changed the expected policy path over several years. The 30-year still retained substantial term and fiscal compensation at 5.10%, but the incremental pressure landed where a renewed tightening phase has the greatest cumulative effect.\n\nReal yields and breakevens both contributed. The 10-year TIPS yield rose 4 basis points to 2.36%; the 10-year breakeven rose 2 basis points to 2.26%. Reasoning-only Treasury rows showed 5- and 7-year real yields also up 4 basis points, with 20- and 30-year real yields up 3 basis points. Energy restored inflation premium across the curve, while a stronger anticipated policy response lifted the real rate applied to investment and duration. The session therefore tightened financial conditions through two channels at once: a higher expected price path and a higher real discount rate.\n\nBill maturities confirmed that the adjustment was not concentrated in overnight cash. Four- and six-week coupon-equivalent yields rose only 1 basis point to 3.70%, and the 8-week yield was unchanged at 3.72%. The 13-week yield rose 5 basis points to 3.85%, the 26-week rose 4 basis points to 4.00%, and the 52-week rose 6 basis points to 4.12%. Cash closest to the current setting stayed comparatively anchored; maturities extending through the prospective tightening window demanded more compensation.\n\nWarsh's testimony on July 14 and 15 follows that signal with a communication test. Warsh has resisted conventional forward guidance, while investors have pressed for a clearer account of the Fed's reaction function across inflation, labor and growth. CPI arrives before the first appearance, so the chairman will speak with a fresh inflation composition already in the market. Firm core CPI extends belly and real-yield pressure; softer core inflation supports relief even with headline energy risk. The response will establish whether the July 13 move becomes a durable policy repricing or remains concentrated around the energy event.\n\n## Credit, Funding, And Primary-Market Absorption\n\nListed credit weakened, but the more informative credit signal came from the interaction between AI equity, capital intensity and financing capacity. LQD fell 0.47%, HYG lost 0.24%, and JNK declined 0.18%. These rows mark listed-market tone rather than cash-spread proof. The larger move in semiconductors, with the SOX down 4.78%, showed where higher real yields and weaker risk tolerance were most concentrated.\n\nSK Hynix captured the tension. The company raised $26.5 billion in the largest U.S. listing by a foreign issuer, yet its American depositary receipts fell 9.3% in U.S. hours after Seoul shares dropped as much as 15%. The equity repricing did not reflect a collapse in end demand: TSMC reported a 36% increase in quarterly sales to NT$1.27 trillion. Investors instead charged more for valuation, capital intensity and the funding required to sustain the buildout. Strong operating demand and weaker market absorption coexisted.\n\nThat distinction extends to debt. Hyperscalers have financed much of their infrastructure through large unsecured investment-grade bond sales, but source reporting described investors approaching practical absorption limits. Data-center bonds, tenant-backed structures, private credit and other channels are becoming more important as the required capital expands. Meta added another $40 billion to its Louisiana data-center commitment, taking expected site investment above $250 billion. Scale remains available, but it increasingly requires collateral, contracted cash flow or a wider investor base rather than repeated reliance on unsecured corporate balance sheets.\n\nThe change in structure also changes the underwriting question. An unsecured hyperscaler bond rests on the issuer's consolidated balance sheet; a data-center bond shifts attention toward the tenant's ability to pay, contract durability, asset completion and residual value. That can broaden capacity without making capital cheap. Higher Treasury yields raise the base rate for every channel, while weaker technology equity reduces the market value supporting the most aggressive expansion plans.\n\nPinewood offers a smaller test of market breadth. The U.K. studio met investors about a possible fixed-rate sterling bond, subject to market conditions. Its existing £750 million note matures in 2030 and carries a 6% coupon; ratings split between BB- at S&P and BBB- at Fitch. Order-book depth, final spread, tenor and secondary trading will show how far primary access extends beyond sovereigns and the largest technology issuers after the global rates selloff. Clean execution preserves a broader financing window; a larger concession narrows it toward borrowers with the strongest structure and sponsorship.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nJapan removed one potential source of immediate domestic-duration demand. The yen weakened as much as 0.4% to 162.36 per dollar and Japanese government bonds extended losses after a report that Japan had no plan to change the Government Pension Investment Fund's allocation. Expectations of a home-bias shift had grown after Finance Minister Satsuki Katayama encouraged large pension funds to invest more domestically. GPIF, with roughly $1.8 trillion of assets, still maintains the allocation adopted in 2025: one quarter each in domestic bonds, domestic equities, foreign bonds and foreign equities.\n\nThe clarification matters through global savings allocation, not through a mechanical forecast of Treasury flows. An immediate rotation out of foreign duration and into JGBs is no longer the base assumption. The yen and JGB response showed that investors had attached real value to that prospect. Japan's long-end fiscal and normalization debate remains active, but the July 13 information removed a near-term institutional allocation catalyst.\n\nEurope faced a different duration constraint. Economists cut their 2026 euro-area growth estimate to 0.5% from 0.7%, below the ECB's 0.8% baseline, after renewed Hormuz disruption weakened the expected energy recovery. Their median inflation forecast remained 2.8%, well above the ECB's 2% target. Yannis Stournaras described the renewed fighting as taking the central bank back to square one. Slower growth supports duration through demand; imported energy inflation restricts the easing response and preserves compensation in nominal yields.\n\nThat mix also affects fiscal transmission. More expensive imported energy reduces real household income and raises public pressure for subsidies or tax relief just as slower growth weakens revenue. The resulting duration supply does not need to match the U.S. move day for day to matter. It raises the compensation European curves require from governments and limits the amount of global duration relief available when U.S. yields rise.\n\nThe combined global picture remained fragmented. Japan lacked an immediate home-bias shift, Europe faced a weaker growth and higher energy-cost mix, and the U.S. real-yield shock raised the global discount rate. None of those channels supplied a broad offset to the Treasury selloff. Country allocation, fiscal credibility and central-bank reaction functions continued to set developed-market duration separately.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nThe common EM backdrop tightened as DXY rose 0.31% and EMB fell 0.64%, but country access remained differentiated. Higher oil raised the import bill for energy consumers, higher U.S. real yields increased the hurdle for dollar debt, and a firmer dollar reduced room for domestic easing. The selected sovereign stories still showed capital available where policy anchors and debt management were credible.\n\nIndonesia retained its investment-grade rating and stable outlook at S&P. The agency cited fiscal discipline across administrations and expected the 3% budget-deficit ceiling to remain an important anchor. That affirmation arrived after a June bond selloff tied to interventionist policy and spending concerns. Indonesian bonds had delivered a 10% hedged dollar loss for the year, so the rating decision did not erase market damage; it preserved the institutional constraint supporting the credit profile.\n\nChile entered the window from a stronger market position. Its dollar spread had tightened 24 basis points since the end of March to about 82 basis points, near levels last seen in 2007, while default-protection costs fell below their level before the U.S. airstrikes on Iran. The Senate authorized an additional $6.2 billion of borrowing, much of it expected abroad. Tight spreads and foreign demand provided room to issue despite Middle East escalation and weak domestic growth.\n\nNigeria and Ethiopia responded through policy restraint. Standard Chartered raised its forecast for average Nigerian inflation in 2026 to 15.5% from 12% and expected only 150 basis points of easing, leaving the policy rate at 25% by year-end from 26.5% currently. Ethiopia raised its benchmark to 16% from 15% and removed a 24% annual credit-growth ceiling while retaining a tight stance aimed at single-digit inflation. One central bank slowed the expected easing cycle; the other tightened outright while changing the credit-control framework. Both placed credibility ahead of near-term funding relief.\n\nNigeria's inflation-perception index added a domestic expectations signal, rising to 45 in June from 44.8 in May. Ethiopia's removal of the credit-growth ceiling did not offset the rate increase; it changed the instrument mix while keeping aggregate policy restrictive. These details distinguish formal policy rates from the broader transmission into bank lending, local-currency demand and sovereign funding costs.\n\nKenya used liability management. Officials considered buying back as much as $500 million of eurobonds and financing the purchase with new dollar debt to extend maturities. The transaction would be Kenya's fourth buyback in two years. The structure reduces near-term repayment concentration only when the new issue clears at sustainable terms and the maturity extension offsets the funding cost. Higher U.S. yields and oil make pricing, order-book breadth and post-deal performance central to the result.\n\nThe section therefore remained a country-selection market rather than a broad liquidity trade. Indonesia and Chile showed the value of fiscal anchors and established demand; Nigeria and Ethiopia showed the price of inflation credibility; Kenya showed active maturity management. DXY and EMB set a less forgiving common backdrop, leaving domestic execution to determine who keeps access.\n\n## Cross asset\n\nTrump's Hormuz announcement gave the oil shock a specific policy form. The United States reinstated its blockade of Iranian ships transiting the strait and demanded reimbursement equal to 20% of the value of other cargo. Tehran accepted the principle that safe passage could carry compensation but called 20% excessive. Source reporting estimated the proposed U.S. charge at roughly $32 million for a fully loaded very large crude carrier at current prices, compared with previously reported Iranian tolls reaching about $2 million. The administration had not explained enforcement, administration or coordination with Gulf allies by the source cutoff.\n\nThat uncertainty added to renewed strikes and conflicting claims about whether the strait remained open. WTI closed at 79.27 and Brent at 84.38, each up about 11%. The move embedded physical supply, shipping, freight and insurance risk, then transmitted into inflation compensation and the Fed path. The 2-basis-point rise in 10-year breakevens captured part of the energy premium; the tightening signal and the 4-basis-point rise in the 10-year real yield carried the policy response.\n\nThe fee proposal widened the channel beyond the barrel price. A charge based on cargo value raises delivered costs even before a physical disruption, while unclear administration raises delay and compliance costs for shipowners, refiners and insurers. Import-dependent economies absorb that pressure through trade balances and currencies; U.S. markets receive it through gasoline, freight and the expected persistence of headline inflation. That is why oil, DXY and Treasury real yields moved in the same tightening direction.\n\nEquities showed a clear duration hierarchy. The S&P 500 fell 0.79%, the Nasdaq 100 lost 1.88%, and the semiconductor index fell 4.78%. The VIX rose 14.17% to 17.16. SK Hynix's U.S. trading loss and the broader semiconductor selloff placed the largest pressure on capital-intensive growth, even as TSMC sales confirmed strong underlying demand. The market reduced the value assigned to distant cash flows and increased the cost of financing their production.\n\nDXY rose 0.31% and gold fell 2.46%. The dollar gained from tighter U.S. policy expectations and risk demand, while higher real yields outweighed gold's geopolitical support. Listed fixed-income gauges moved in the same direction: LQD lost 0.47%, HYG and JNK declined, and EMB fell 0.64%. The board did not indicate a generalized funding break, but it showed the energy and real-rate shock reaching Treasury-duration credit, lower-quality listed risk and external-dollar borrowers.\n\n## Forward Market Significance\n\nJune CPI on July 14 is the first and largest test. Headline CPI follows a 0.5% monthly increase, with consensus at minus 0.1% and the calendar forecast at zero. Core CPI follows 0.2%, with consensus at 0.3% and the forecast at 0.2%. Firm core CPI extends belly pressure and validates the near-term tightening signal. Softer core inflation shifts more of the session's repricing into energy and breakevens, giving policy-sensitive real yields room to retrace. The composition across services and tariff-sensitive goods carries more information than the headline alone.\n\nWarsh testifies later on July 14 and again on July 15. Markets already know that he dislikes conventional forward guidance; the unresolved issue is how he maps inflation, labor and growth into policy. A clear reaction function can reduce event premium while preserving a restrictive stance. Continued ambiguity leaves each release carrying more policy information and keeps the 2- to 5-year sector exposed to repricing. The July 13 statement gives lawmakers and investors a concrete comparison for the chairman's response.\n\nPPI, the Beige Book and the 17-week bill auction form the July 15 sequence. PPI follows a 1.1% monthly increase, with consensus at minus 0.1% and the calendar forecast at 0.1%. Producer prices identify pipeline pressure after the oil move; the Beige Book adds regional evidence on pricing power, demand and the ability to pass through costs. The 17-week bill auction then measures cash demand around the releases. Firm pipeline prices and strong pricing power preserve the real-yield burden; soft cost pressure and weaker demand support duration. Auction demand determines how much event premium also reaches front-end liquidity.\n\nRetail sales, initial claims, the Bank of Korea and 4- and 8-week bill auctions follow on July 16. Retail sales come after a 0.9% gain, with consensus at 0.2% and the forecast at 0.5%. Claims follow 215,000, with consensus at 218,000. Resilient demand and contained claims support a restrictive policy path; weaker consumption and rising claims cap real yields while shifting the credit discussion toward growth. The Bank of Korea enters at 2.50% with imported-energy, currency and financial-stability pressure in view. Bill demand after CPI and retail sales provides a separate reading on cash allocation.\n\nHousing starts, industrial production and preliminary Michigan inflation expectations arrive July 17. Starts follow 1.177 million, with consensus at 1.30 million and the forecast at 1.20 million. Industrial production follows 0.1%, with consensus at 0.2% and the forecast at 0.4%. Michigan one-year expectations previously stood at 4.6% and five-year expectations at 3.3%, against forecasts of 4.3% and 3.1%. Housing and production measure the demand cost of elevated rates; household expectations measure whether the energy shock is reaching credibility.\n\nThree- and six-month bill auctions on July 20 complete the seven-day horizon. By then the market will have CPI, two days of Warsh testimony, PPI, regional business evidence, consumption, labor and inflation expectations. Treasury maturities need core disinflation or weaker demand to reverse the July 13 belly selloff. Credit needs stable rates and orderly primary execution, including Pinewood, to preserve breadth. Global duration needs contained energy pressure and clearer local policy paths. EM needs stable dollar liquidity and successful sovereign execution. The sequence is close enough that distant second-half themes do not belong ahead of these dated tests.\n",
-    "section_summaries": [
-      {
-        "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Trump's blockade and proposed 20% Hormuz cargo charge pushed oil sharply higher, while Waller tied another hot core-inflation print to possible near-term tightening. The 5Y led Treasury losses and both real yields and breakevens rose. Semiconductors, listed credit and EM debt then carried the increase in discount rates and external funding costs beyond the energy market.",
-        "section_id": "thesis-opening-fixed-income-thesis",
-        "market_read": "A named energy-policy escalation and a named Fed signal tightened the same close.",
-        "why_it_matters": "Inflation compensation and the real discount rate rose together across rates and funded risk.",
-        "next_check": "CPI composition and Warsh's reaction function."
-      },
-      {
-        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "The 5Y rose 7 basis points and led a broad Treasury selloff after Waller put near-term tightening back into the policy debate. The 10Y real yield added 4 basis points and the breakeven added 2, while belly butterflies and three- to twelve-month bills also cheapened. CPI and Warsh now determine how much of the move persists in the policy horizon.",
-        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
-        "market_read": "Waller's signal concentrated a combined real-rate and inflation adjustment in the belly.",
-        "why_it_matters": "The curve repriced policy persistence rather than only the spot cost of oil.",
-        "next_check": "Core CPI, Warsh testimony and bill demand."
-      },
-      {
-        "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "AI end demand stayed firm, but SK Hynix's post-listing decline and the SOX selloff showed weaker tolerance for valuation and capital intensity. Hyperscaler funding is broadening from unsecured bonds toward data-center, tenant-backed and private structures as absorption limits emerge. Pinewood's proposed sterling issue provides a separate test of crossover order books, pricing and secondary performance.",
-        "section_id": "thesis-credit-funding-and-primary-market-absorption",
-        "market_read": "AI financing remains available, but market absorption now demands more structure and compensation.",
-        "why_it_matters": "Strong technology demand no longer guarantees an easy financing channel for the required capital.",
-        "next_check": "Primary books, concessions and Pinewood execution."
-      },
-      {
-        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "Japan denied an immediate change to GPIF allocation, weakening the home-bias support previously priced into the yen and JGBs. Europe faced the opposite constraint as economists cut 2026 growth to 0.5% while retaining a 2.8% inflation forecast after renewed Hormuz disruption. Global duration received neither a large savings-allocation shift nor clean energy-driven disinflation.",
-        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
-        "market_read": "Japan removed an allocation catalyst while Europe absorbed imported-energy stagflation.",
-        "why_it_matters": "Neither developed-market channel supplied a broad offset to higher U.S. real yields.",
-        "next_check": "Yen and JGB stability, European energy pressure and the BOK decision."
-      },
-      {
-        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "DXY rose and EMB fell, but sovereign access remained differentiated. Indonesia retained investment grade around its 3% deficit ceiling, Chile held an external issuance window near an 82-basis-point spread, and Kenya considered a $500 million buyback. Nigeria and Ethiopia maintained restrictive policy as inflation credibility and maturity management outweighed broad beta under tighter dollar and oil conditions.",
-        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
-        "market_read": "Fiscal anchors and active debt management preserved selective EM access.",
-        "why_it_matters": "The common external shock left less room for weak policy execution or passive refinancing.",
-        "next_check": "Local FX, Chile issuance and Kenya's new-debt terms."
-      },
-      {
-        "section_title": "Cross Asset",
-        "summary": "Trump reinstated the blockade of Iranian ships transiting Hormuz and demanded reimbursement equal to 20% of other cargo value, adding freight and implementation risk to renewed strikes. WTI and Brent rose about 11%, DXY and VIX gained, and gold fell as real yields increased. Technology, listed credit and EMB confirmed pressure on long-duration and external-dollar assets.",
-        "section_id": "thesis-cross-asset",
-        "market_read": "The Hormuz policy escalation transmitted through oil, real yields, volatility and dollar liquidity.",
-        "why_it_matters": "The shock raised delivered energy costs and the discount rate applied to funded assets at once.",
-        "next_check": "Hormuz implementation, oil persistence and SOX stabilization."
-      },
-      {
-        "section_title": "Forward Market Significance",
-        "summary": "CPI and Warsh testimony lead the seven-day sequence because they directly test Waller's tightening signal and the split between energy and core inflation. PPI, the Beige Book and bill auctions follow with pipeline-price, pricing-power and liquidity evidence. Retail sales, claims, the BOK, housing, production and Michigan expectations then test demand, global policy and inflation credibility.",
-        "section_id": "thesis-forward-market-significance",
-        "market_read": "Inflation composition comes first, followed by policy interpretation, demand and liquidity.",
-        "why_it_matters": "These dated releases determine the persistence and breadth of the July 13 repricing.",
-        "next_check": "CPI, Warsh, PPI, retail sales and claims."
-      }
-    ]
-  },
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
   "archive_dates": [
+    {
+      "date": "2026-07-17",
+      "label": "2026-07-17",
+      "href": "?date=2026-07-17",
+      "active": false
+    },
     {
       "date": "2026-07-16",
       "label": "2026-07-16",
@@ -486,5 +223,244 @@
       "href": "?date=2026-05-28",
       "active": false
     }
-  ]
+  ],
+  "cross_asset_cards": [
+    {
+      "id": "cross-asset-credit",
+      "reference_type": "ny_close",
+      "summary": "Credit weakened with rates, but modest high-yield losses kept broad funding stress contained.",
+      "title": "Credit",
+      "value": "LQD 106.96 (-0.4653%) / HYG 79.52 (-0.2384%) / JNK 95.76 (-0.1772%) / EMB 95.38 (-0.6355%)"
+    },
+    {
+      "id": "cross-asset-dollar-commodities",
+      "reference_type": "ny_close",
+      "summary": "Oil revived inflation risk as a firmer dollar and weaker gold reinforced the real-yield shock.",
+      "title": "Dollar and commodities",
+      "value": "DXY 101.28 (+0.307%) / WTI 78.14 (+9.4244%) / Brent 83.3 (+9.5908%) / Gold 3997 (-2.6096%)"
+    },
+    {
+      "id": "cross-asset-equities-volatility",
+      "reference_type": "ny_close",
+      "summary": "Technology-led losses and higher volatility showed discount-rate pressure without indiscriminate liquidation.",
+      "title": "Equities and volatility",
+      "value": "S&P 500 7515.3398 (-0.7927%) / Nasdaq 100 29264.0996 (-1.881%) / SOX 12347.7803 (-4.7765%) / VIX 17.16 (+14.1717%)"
+    }
+  ],
+  "header": {
+    "as_of_note": "NY close · 2026-07-13",
+    "latest_update_cutoff": "NY close",
+    "stance": "Treasuries cheapen as energy and hawkish Fed repricing lift real yields, with funding orderly",
+    "title": "Daily FI Market Intelligence"
+  },
+  "long_thesis": {
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 13 Treasury close extended the restrictive-rate regime from the prior final close, but energy returned as a direct catalyst after having receded from the July 10 move. Renewed US-Iran strikes and the proposed charge on cargo crossing the Strait of Hormuz revived the threat of a fuel-price shock. Christopher Waller then made that shock more potent by tying another hot core-inflation reading to possible near-term tightening. The two-year yield closed at 4.26% and the 10-year at 4.62%, leaving the selloff anchored in a higher expected policy path rather than a flight to safety.\n\nThree channels defined the move. Oil raised the prospective headline-inflation impulse and complicated the path back to price stability. Waller stressed that underlying inflation had already accelerated before the latest energy shock, so traders could not treat the move as a purely geopolitical premium. Money markets lifted the implied chance of a July rate increase to nearly 50%, from less than 40% earlier in the session, making the front end and belly especially sensitive to the next inflation release and Chair Kevin Warsh’s congressional testimony.\n\nThe nominal selloff also demanded more real compensation. The 10-year real yield finished at 2.36%, while inflation compensation rose by less than the nominal yield. That composition continued the prior close’s emphasis on restrictive real rates, even as the renewed oil shock added a clearer inflation component. The five-year led the daily cheapening, and the long bond rose less than the belly. Investors were repricing the timing and persistence of policy restraint more forcefully than adding a fresh long-horizon fiscal shock.\n\nFunding and credit supplied the principal limit to a systemic interpretation. Large three- and six-month bill auctions attracted substantial bids, immediate cash-market conditions remained soft, and high-yield listed funds fell much less than technology equities. Yet the cushion was thin: the fiscal deficit and interest bill reinforced the high long-end clearing threshold, AI financing was migrating toward more complex structures, and the dollar strengthened as emerging-market debt weakened. The close therefore combined an inflation-policy shock with orderly absorption, leaving market function intact while raising the cost of duration and refinancing across public and private borrowers.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nTreasuries cheapened across the curve, with the five-year sector underperforming. The two-year yield rose five basis points to 4.26%, the five-year added seven to 4.37%, the 10-year increased six to 4.62%, and the 30-year rose four to 5.10%. Compared with the prior final close, the move extended the front-end reversal and pushed the benchmark and long bond above their July 10 levels. The ordering placed the greatest pressure where an imminent hike and a persistently restrictive path overlap, while the smaller long-bond move showed that fiscal and term premia did not deliver the day’s largest incremental shock.\n\nCurve slopes were mixed because the belly bore much of the adjustment. The 2s10s spread widened one basis point to 36, whereas 2s30s narrowed one to 84. The 2s5s10s butterfly rose three basis points to minus 14, and the 2s10s30s butterfly also rose three to minus 12. A simple bear-flattening label therefore misses the five-year concentration. The front end responded to the prospect of near-term action, the belly incorporated a longer restrictive path, and the 30-year carried a smaller daily increase from an already elevated starting yield.\n\nInflation-linked Treasuries divided the benchmark move into a dominant real-rate component and a smaller inflation increment. The 10-year real yield rose four basis points to 2.36%, while the 10-year breakeven increased two to 2.26%. Five- and seven-year real yields each gained four basis points, reaching 2.06% and 2.20%. Twenty- and 30-year real yields rose three basis points to 2.69% and 2.89%. Oil lifted inflation concern, but investors also required more real return across the curve as policy tightening became a live near-term possibility.\n\nWaller supplied the reaction-function bridge between energy and real rates. He said another hot core reading could require the FOMC to consider tightening in the near term and noted that core PCE inflation had reached 3.4% in the year through May. His concern extended beyond oil: tariffs, energy and AI infrastructure demand were all contributing to pressure, while consumer demand remained resilient and the labor market appeared stable. He also said several months of lower readings would be needed to establish improvement, raising the bar for a single benign print to reverse the repricing.\n\nThe message retained a two-sided boundary. Waller described inflation expectations as well anchored and the labor market as less tight than during the 2021-22 inflation episode. A sustained moderation in core inflation could still justify holding rates steady. Monday’s selloff reflected the asymmetry around the next release: another firm reading could activate a near-term hike discussion, whereas one cooler month would not necessarily settle whether underlying pressure was receding. The approach of Warsh’s first congressional testimony as chair added uncertainty because he had not yet provided a detailed economic view or a rate projection.\n\nThe bill curve reinforced the policy interpretation without signaling immediate funding stress. Four- and six-week coupon-equivalent yields each rose one basis point to 3.70%, and the eight-week yield held at 3.72%. The 13-week yield climbed five basis points to 3.85%, the 26-week added four to 4.00%, and the 52-week rose six to 4.12%. The larger repricing from three months to one year aligned with a higher expected policy path; the subdued movement at the shortest maturities was consistent with abundant near-term cash.\n\nMonday’s auctions showed that cash could still absorb large bill supply. The 91-day sale accepted $92.000 billion at a 3.760% high rate and drew 2.84 times as many bids as awards. Indirect bidders received 56.76% of accepted competitive tenders, direct bidders 8.24%, and dealers 34.99%. The 182-day sale accepted $79.001 billion at 3.860%, with 3.11 coverage, a 66.49% indirect share, an 8.09% direct share, and 25.42% going to dealers. Both securities issue and settle on July 16, keeping the auction demand signal separate from the coming cash transfer.\n\nFederal Reserve reserve-management operations offered a second funding counterweight. The New York Fed kept bill purchases at about $10 billion for the monthly period ending August 13 and planned roughly $17.6 billion of reinvestment purchases. Bank reserves stood at $3.14 trillion on July 8, and secured overnight financing had been trading below the rate paid on reserve balances amid abundant cash. Those conditions explain why a hawkish policy repricing could coexist with orderly money markets. The vulnerability lies ahead as Treasury bill issuance and a cash balance expected to exceed $1 trillion withdraw reserves from the banking system.\n\nThe rates close separated monetary-policy risk from market plumbing. Energy and Waller pushed expected tightening forward, higher real yields carried most of the benchmark adjustment, and the belly absorbed the largest daily loss. Bill demand and soft secured funding prevented the move from becoming a liquidity event. The long end still required substantial compensation, but its relative resilience indicated that Monday was not a new fiscal-led steepening. That structural burden was reinforced later in the session by the government’s latest deficit and interest-cost figures.\n\n## Credit, Funding, And Primary-Market Absorption\n\nListed credit weakened alongside higher Treasury yields, though lower-quality funds showed less damage than duration-heavy investment grade. LQD fell 0.47%, HYG declined 0.24%, and JNK lost 0.18%. The pattern was compatible with a sharp rise in underlying rates and a selective risk-off session, not a uniform withdrawal from corporate credit. Primary-market activity remained available, but the day’s issuer developments showed that investors increasingly required the right structure, collateral and compensation as benchmark yields and competing supply rose.\n\nAI infrastructure remained the largest structural absorption challenge. Hyperscalers had financed much of their capital spending through unsecured investment-grade bonds, yet investors were approaching single-issuer limits and questioning how much more supply that channel could carry. Data-center bonds broaden the funding base by converting tenant lease payments into collateral, but they shift underwriting toward lease durability, tenant payment capacity, construction completion, power access and uptime. Moving beyond the hyperscalers’ corporate balance sheets therefore expands capacity at a higher analytical and pricing hurdle.\n\nThe growth of hedging capacity confirmed that investors were managing a larger and more differentiated technology-credit exposure. Royal Bank of Canada had begun making markets in dollar single-name credit-default swaps and planned to expand into euro contracts. The bank said its June single-name CDS volume almost quadrupled its year-to-date volume, while credit-index option volume doubled from a year earlier. New swaps and baskets created as issuers enter the bond market can improve risk transfer, yet the demand for them also reflects a market less willing to treat every large AI borrower as interchangeable high-grade duration.\n\nSecuritization offered another route around unsecured corporate balance sheets. Robinhood was gauging demand for at least $400 million of credit-card receivables bonds in four parts, with potential size of $500 million and initial talk near 80 basis points over the benchmark for the highest-rated tranche. Wells Fargo and Barclays were running the transaction, while Coastal Community Bank owned the underlying branded-card accounts. More than $11 billion of card-backed securities had been raised during the year, including Capital One’s $3.85 billion sale, showing that consumer receivables still attracted dedicated financing.\n\nSterling credit illustrated access with issuer-level conditions attached. Pinewood held investor meetings for a possible fixed-rate bond, with ratings split between BB- at S&P and BBB- at Fitch. Its existing capital structure included a £750 million 6% note due in 2030 and a £300 million note maturing in November 2027. The marketing process showed that a familiar operating asset could approach the market even during a rates and geopolitical selloff, while the ratings split and near-term maturity kept pricing dependent on credit work beyond the strength of the brand.\n\nCredit ended the session open but more segmented. Total returns were pressured by Treasuries, technology borrowing was generating both structural alternatives and new hedging demand, and securitized markets offered capacity beyond conventional bonds. None of those channels removed the underlying constraint from higher base rates. They redistributed it among unsecured issuers, project and tenant risk, receivable pools, and specific maturity profiles. The modest high-yield fund declines kept broad funding stress contained, even as the financing architecture became more complex and the cost of absorbing new debt rose.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nJapan reversed the prior close’s most supportive global-duration signal. The earlier call for public pensions to invest more at home had lifted JGBs and the yen, but Monday brought a report that no GPIF allocation overhaul was planned. The yen weakened as much as 0.4% to 162.36 per dollar and JGBs extended losses. The $1.8 trillion fund had retained equal quarter allocations to domestic bonds, domestic equities, foreign bonds and foreign equities at its March 2025 review. Any strategic change requires a formal fiduciary process, limiting the prospect of rapid politically directed demand for domestic duration.\n\nThe reversal reopened two transmission risks for Treasuries. Without a prompt GPIF shift, Japan’s long end still faces pressure from ambitious public spending, a weak currency and concern that BOJ normalization is lagging inflation. Higher JGB yields raise the relative return hurdle for global sovereign bonds. At the same time, leaving the allocation unchanged avoids an immediate reduction in the fund’s foreign-asset target. The near-term effect was therefore higher global term pressure through JGB losses, with the longer-run direction of Japanese overseas demand still unresolved.\n\nEurope carried a stagflationary mix rather than a clean duration signal. Economists cut their median 2026 euro-area growth forecast to 0.5% from 0.7%, below the ECB’s 0.8% baseline, as renewed Hormuz disruption damaged expectations for energy supply. Their inflation forecast remained 2.8%, well above the ECB’s target, and they expected another rate increase in September. Weaker growth would ordinarily support sovereign duration, but energy-driven inflation and the prospect of additional tightening preserved a high real-rate hurdle and limited the relief that slower activity could transmit to Treasuries.\n\nThe US fiscal update strengthened the structural supply backdrop after its 2 p.m. ET release. June recorded a $120.3 billion deficit after a $27.0 billion surplus a year earlier, as receipts fell and outlays rose. The fiscal-year-to-date deficit widened to $1.367 trillion, net interest reached $827.2 billion, and borrowing from the public totaled $1.340 trillion. These figures arrived too late to explain the earlier rates selloff. They did reinforce the amount of sovereign funding and interest expense embedded in the long-end clearing rate during the final hours of trading.\n\nGlobal duration consequently transmitted pressure through different mechanisms. Japan removed the prospect of an immediate buyer-base rescue, Europe paired weaker growth with above-target inflation, and the US fiscal statement underscored continuing borrowing needs. The Treasury curve’s belly-led move showed that Fed repricing remained the primary daily force. The 30-year yield above 5% nevertheless reflected a world in which public balance sheets, energy security and domestic pension mandates compete for duration capital even when auctions clear in an orderly way.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEmerging-market debt faced a harsher common backdrop than at the prior close. EMB fell 0.64% as the US Dollar Index rose 0.31% to 101.28 and the 10-year Treasury real yield increased. The simultaneous rise in the dollar and US discount rate tightened conditions for hard-currency borrowers, while the oil shock divided importers from exporters. Index weakness did not erase country-specific support, but it increased the value of fiscal credibility, reserve depth and active maturity management.\n\nIndonesia received rating relief without a full market reversal. S&P affirmed the sovereign at BBB with a stable outlook, citing the 3% of GDP deficit ceiling and a history of fiscal discipline. The decision removed an immediate downgrade threat after Moody’s and Fitch had moved their outlooks to negative. Indonesia’s 10-year dollar bond still traded 0.4 cents lower at 100.9, while local bonds recovered part of their losses and equities closed higher. Planned cuts to the free-meals budget supported the fiscal anchor, but a rupiah down almost 8% during the year kept external confidence and imported inflation central.\n\nChile showed how tight spreads can coexist with a larger borrowing requirement. Its dollar spread had narrowed 24 basis points since the end of March to 82, near levels last seen in 2007. The Senate authorized an additional $6.2 billion of borrowing, and the Finance Ministry planned $5.2 billion of international issuance over the rest of the year after seeking 36% more debt than initially planned. With economic activity contracting year over year for five months and the structural-balance target relaxed, strong access was compensating for fiscal slippage. Near-total dependence on imported energy made the Hormuz shock an added execution risk.\n\nKenya’s proposed liability management addressed rollover timing more than debt capacity. Officials were considering buying back as much as $500 million of eurobonds during the fiscal year ending June 2027 and financing the repurchase with new dollar debt. It would be the fourth such exercise in two years. External debt totaled $43.7 billion at the end of March, including $10.6 billion owed to eurobond investors, while debt service exceeded spending on health and education. Extending maturities can smooth the near-term profile, but repeated exchanges leave market access and revenue mobilization as the binding constraints.\n\nLocal policy responses to inflation were becoming more restrictive. Ethiopia raised its benchmark rate to 16% from 15%, the first increase since the rate was introduced, while removing a 24% annual cap on bank credit growth. Inflation had risen to 13.4% in May, and the central bank expected it to remain in double digits over the next six months. India’s June CPI accelerated to 4.38% from 3.93%, led partly by food inflation rising to 5.32% from 4.78%; rural inflation at 4.74% exceeded the 3.92% urban rate. Both cases put a firmer floor under local sovereign yields despite different credit and growth structures.\n\nNigeria added a prospective version of the same energy and expectations channel. Standard Chartered raised its 2026 inflation forecast to 15.5% from 12% and saw only 150 basis points of easing this year, which would leave the policy rate at 25% from 26.5% currently. The central bank’s inflation-perception index rose to 45 from 44.8, with energy, insecurity, borrowing costs and the exchange rate identified as key pressures. The forecast was not a policy decision, but it showed how renewed fuel costs could slow easing where expectations were already difficult to anchor.\n\nThe EM close combined a common dollar-rate shock with sharply different domestic buffers. Indonesia preserved investment grade, Chile retained unusually cheap external access, and Kenya sought to exchange near-term maturities for a longer profile. Ethiopia tightened, while firmer Indian inflation and revised Nigerian forecasts constrained local duration. The broad selloff therefore carried both global and sovereign content: higher US real yields raised the base cost, and each borrower’s fiscal rule, energy exposure and refinancing structure determined how strongly that cost transmitted.\n\n## Cross asset\n\nOil was the principal bridge from geopolitics to fixed income. WTI rose 9.42% to $78.14 and Brent gained 9.59% to $83.30 after renewed strikes and the announcement of a 20% charge on cargo crossing Hormuz. At prevailing prices, the proposed payment was estimated at about $32 million for a fully loaded very large crude carrier, far above previously described Iranian tolls. The proposal’s implementation was unclear, but its potential to raise shipping and fuel costs was enough to revive inflation concern during Monday’s session.\n\nEquities and volatility showed that the shock reached growth assets without producing indiscriminate liquidation. The S&P 500 fell 0.79%, the Nasdaq 100 declined 1.88%, and the Philadelphia Semiconductor Index dropped 4.78%. The VIX rose 14.17% to 17.16. Technology bore the larger loss as the South Korean chip selloff spilled into US trading, including a 9.3% decline in SK Hynix’s American depositary shares. The combination of weaker stocks and cheaper Treasuries was consistent with an inflationary discount-rate shock, with the semiconductor move adding sector-specific pressure.\n\nThe dollar and gold reinforced the real-rate side of the thesis. The dollar index advanced to 101.28, increasing the external financing burden for emerging-market borrowers. Gold futures fell 2.61% to $3,997 even as geopolitical tension intensified. Higher real yields and a firmer dollar outweighed the metal’s haven role, distinguishing the session from a conventional fear-driven rally in both Treasuries and bullion. The decline also followed Waller’s warning that persistent core inflation could elicit a policy response.\n\nCross assets therefore confirmed both parts of the fixed-income move. Oil and rising volatility carried the inflation shock, while technology weakness showed that higher discount rates and regional AI stress were hitting risk assets. The stronger dollar and lower gold price aligned with higher real yields. High-yield credit declined far less than semiconductors and volatility remained below crisis levels, leaving the unresolved issue as persistence: a durable Hormuz cost shock could broaden the repricing, while normalization would expose how much of Monday’s move came from Waller’s underlying-inflation concern.\n\n## Forward Market Significance\n\nJune CPI and real earnings at 8:30 a.m. ET on July 14, followed by Chair Kevin Warsh’s House testimony at 10:00 a.m., are the immediate test of the policy path; June PPI on July 15 and Warsh’s Senate appearance extend the same thread. Broad cooling in core and services inflation, firmer real earnings and a chair willing to emphasize patience would challenge Monday’s rise in July hike pricing and relieve the two- to five-year sector. Persistent core pressure, weak real-income growth or an explicit readiness to tighten would confirm Waller’s warning that energy is amplifying an inflation problem already present before the latest strikes. Front-end yields, real rates, breakevens, the dollar and event volatility will show whether the close was a durable reaction-function reset or a high-conviction move awaiting validation.\n\nThe $95 billion 42-day bill auction at 11:30 a.m. ET on July 14, the settlement of Monday’s 91- and 182-day sales on July 16, and the H.4.1 liquidity release at 4:30 p.m. that day form one cash-absorption sequence. Strong auction coverage, broad nondealer demand, stable secured financing and ample reserves through settlement would confirm that Monday’s outer-bill cheapening reflected policy expectations. Dealer-heavy demand, firmer funding rates or a material reserve drain as Treasury rebuilds its cash balance would reopen a liquidity premium at the front end. Aquarion Water Authority’s planned $2.4 billion sale on July 14 adds a separate public-credit observation within the same absorption theme: reception for its A- senior and BBB+ subordinate debt will show whether a large new municipal name can fund a completed acquisition without disturbing an otherwise orderly primary market.\n\nJapan’s roughly ¥700 billion 20-year JGB auction on July 14 is the clearest near-term test of the global buyer-base reversal, with euro-area industrial production on July 15 providing the growth side of the European duration signal. Strong JGB demand, stable post-auction trading and a firmer yen would challenge Monday’s loss of confidence in immediate domestic absorption, even if GPIF’s strategic allocation remains unchanged. Weak bidding, renewed super-long cheapening or further yen depreciation would confirm that fiscal supply and delayed BOJ normalization still require a higher term premium, with Treasury long yields sensitive through relative value and hedging costs. Weak European output could add duration support; resilience alongside persistent energy inflation would preserve the higher global real-rate hurdle and leave the US long end exposed despite the belly-led nature of Monday’s selloff.\n",
+    "section_summaries": [
+      {
+        "market_read": "The close was a policy-path and real-rate shock, with liquidity still functioning normally.",
+        "next_check": "Core inflation and Warsh’s testimony must show whether the tightening repricing can persist.",
+        "section_id": "section-01",
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "Renewed Hormuz conflict and Waller’s warning converted an energy shock into a higher expected policy path, concentrating Treasury losses in the front end and belly. Real yields drove most of the move, while orderly bill absorption and limited high-yield damage contained systemic funding concerns."
+      },
+      {
+        "market_read": "Belly underperformance signals a restrictive-path reset rather than a fiscal-led steepening.",
+        "next_check": "The next core print must distinguish a durable hike discussion from a one-session repricing.",
+        "section_id": "section-02",
+        "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
+        "summary": "Treasury cheapening peaked in the five-year sector as imminent-hike risk met expectations of prolonged restraint. Real yields contributed more than breakevens, while strong bill auctions and abundant reserves separated hawkish policy repricing from immediate funding stress."
+      },
+      {
+        "market_read": "Corporate funding remains available, but higher base rates are redistributing risk across structures.",
+        "next_check": "Reception for new unsecured and securitized deals must show whether segmentation remains orderly.",
+        "section_id": "section-03",
+        "section_title": "Credit, Funding, And Primary-Market Absorption",
+        "summary": "Credit stayed open but became more segmented as rising Treasury yields pressured duration-heavy investment grade more than high yield. AI financing shifted toward collateralized structures and new hedges, while securitization and selective issuance preserved capacity at higher underwriting and pricing hurdles."
+      },
+      {
+        "market_read": "The long end retains a structural supply premium even when daily losses are led by the belly.",
+        "next_check": "Japan’s 20-year auction must test whether domestic demand can restrain global term pressure.",
+        "section_id": "section-04",
+        "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
+        "summary": "Global duration lost support as Japan ruled out an imminent pension-allocation shift, Europe combined weaker growth with energy-driven inflation, and the US fiscal update reinforced borrowing pressure. Fed repricing remained the day’s main force, but elevated public funding needs sustained the long-end clearing hurdle."
+      },
+      {
+        "market_read": "EM duration now carries both a higher global discount rate and sharper country-specific penalties.",
+        "next_check": "Dollar strength, energy costs and refinancing execution must reveal which sovereign buffers hold.",
+        "section_id": "section-05",
+        "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
+        "summary": "A firmer dollar and higher US real yields tightened conditions for emerging-market debt, with the oil shock further separating importers from exporters. Indonesia’s fiscal anchor, Chile’s market access and Kenya’s liability management offered buffers, but refinancing structures and local inflation kept sovereign outcomes differentiated."
+      },
+      {
+        "market_read": "Cross assets confirm an inflationary real-rate shock rather than a conventional haven episode.",
+        "next_check": "Hormuz costs must either persist and broaden repricing or normalize and expose the core-inflation driver.",
+        "section_id": "section-06",
+        "section_title": "Cross asset",
+        "summary": "Oil transmitted geopolitical risk into inflation expectations, while technology losses and higher volatility showed the discount-rate shock spreading through risk assets. A stronger dollar and weaker gold confirmed the dominance of real yields, yet modest high-yield losses and sub-crisis volatility argued against indiscriminate liquidation."
+      },
+      {
+        "market_read": "The selloff needs confirmation across policy expectations, cash absorption and global duration.",
+        "next_check": "Watch the two-to-five-year sector, secured funding and long yields through the scheduled tests.",
+        "section_id": "section-07",
+        "section_title": "Forward Market Significance",
+        "summary": "Three near-term tests will determine whether Monday’s repricing endures: inflation data and Warsh’s testimony, the bill-settlement liquidity sequence, and Japan’s long-bond auction. The key distinction is whether policy, funding and global term-premium channels validate the move or reveal a high-conviction close awaiting confirmation."
+      }
+    ]
+  },
+  "market_session": {
+    "calendar": "sifma_us_fixed_income",
+    "causal_cutoff_et": "17:00",
+    "reason": null,
+    "report_date": "2026-07-13",
+    "schedule_version": "2026-2027 issued 2025-12-17",
+    "status": "regular"
+  },
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "mode": "full",
+  "overall_summary": {
+    "bullets": [
+      "UST 2Y 4.26% (+5 bp) | UST 5Y 4.37% (+7 bp)",
+      "UST 10Y 4.62% (+6 bp) | UST 30Y 5.1% (+4 bp)",
+      "10Y TIPS real yield 2.36% (+4 bp) | 10Y breakeven inflation 2.26% (+2 bp)",
+      "UST 2s10s curve 36 bp (+1 bp) | UST 2s30s curve 84 bp (-1 bp)"
+    ],
+    "headline": "Oil shock and tighter Fed path drive a belly-led Treasury selloff",
+    "session_narrative": "The July 13 NY close extended the restrictive-rate regime, with the five-year sector leading losses as oil revived headline-inflation risk and Waller made near-term tightening a live possibility. Higher real yields carried most of the nominal repricing, while a firmer dollar and weaker risk assets spread the pressure beyond Treasuries. Robust bill demand, abundant cash and relatively modest high-yield losses kept the move from becoming a liquidity or systemic credit event.",
+    "summary": "Treasuries cheapened across the curve as renewed Hormuz risk and Waller’s inflation warning raised the expected policy path. Higher real yields carried most of the move, while strong bill demand and soft funding kept market function orderly."
+  },
+  "report_date": "2026-07-13",
+  "run_id": "daily-fi-simple-2026-07-13-d685076e-dc3ae075",
+  "watch_events": [
+    {
+      "category": "Fed policy",
+      "date": "July 14-15",
+      "id": "watch-01",
+      "market_implication": "Cooling would relieve the front end; firmness would validate higher real yields, the dollar and event risk.",
+      "market_trigger": "Broad core and services cooling plus patient guidance, or persistent pressure and readiness to tighten.",
+      "title": "Inflation data and Warsh testimony",
+      "watch_line": "CPI, real earnings, PPI and Warsh’s testimony will test the near-term policy path."
+    },
+    {
+      "category": "Funding",
+      "date": "July 14 and 16",
+      "id": "watch-02",
+      "market_implication": "Orderly absorption supports a policy repricing; strain would add funding and public-credit premia.",
+      "market_trigger": "Broad nondealer demand, stable funding and a well-received Aquarion sale, or signs of balance-sheet strain.",
+      "title": "Cash and primary-market absorption",
+      "watch_line": "The bill sequence, reserve data and Aquarion sale will test cash and primary-market absorption."
+    },
+    {
+      "category": "Global duration",
+      "date": "July 14-15",
+      "id": "watch-03",
+      "market_implication": "Strength would ease term pressure; weakness would keep Treasury long yields exposed through relative value.",
+      "market_trigger": "Strong JGB demand and a firmer yen, or weak bidding, renewed cheapening and further depreciation.",
+      "title": "Japan long-duration demand",
+      "watch_line": "Japan’s 20-year auction and euro-area output will test buyer demand and the global real-rate hurdle."
+    }
+  ],
+  "yield_heat_map": {
+    "rows": [
+      {
+        "change_1d": "+5 bp",
+        "change_1m": "+17 bp",
+        "change_1w": "+13 bp",
+        "id": "ust2y_ny_close",
+        "last": "4.26%",
+        "reference_type": "ny_close",
+        "tenor": "2Y",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+7 bp",
+        "change_1m": "+16 bp",
+        "change_1w": "+16 bp",
+        "id": "ust5y_ny_close",
+        "last": "4.37%",
+        "reference_type": "ny_close",
+        "tenor": "5Y",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+6 bp",
+        "change_1m": "+14 bp",
+        "change_1w": "+14 bp",
+        "id": "ust10y_ny_close",
+        "last": "4.62%",
+        "reference_type": "ny_close",
+        "tenor": "10Y",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+4 bp",
+        "change_1m": "+13 bp",
+        "change_1w": "+11 bp",
+        "id": "ust30y_ny_close",
+        "last": "5.1%",
+        "reference_type": "ny_close",
+        "tenor": "30Y",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+1 bp",
+        "change_1m": "-3 bp",
+        "change_1w": "+1 bp",
+        "id": "ust_2s10s_curve",
+        "last": "36 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S10S",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "-1 bp",
+        "change_1m": "-4 bp",
+        "change_1w": "-2 bp",
+        "id": "ust_2s30s_curve",
+        "last": "84 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S30S",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+3 bp",
+        "change_1m": "+1 bp",
+        "change_1w": "+5 bp",
+        "id": "ust_2s5s10s_bfly",
+        "last": "-14 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S5S10S",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+3 bp",
+        "change_1m": "-2 bp",
+        "change_1w": "+4 bp",
+        "id": "ust_2s10s30s_bfly",
+        "last": "-12 bp",
+        "reference_type": "ny_close",
+        "tenor": "2S10S30S",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+4 bp",
+        "change_1m": "+19 bp",
+        "change_1w": "+12 bp",
+        "id": "tips10y_ny_close",
+        "last": "2.36%",
+        "reference_type": "ny_close",
+        "tenor": "10TIPS",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      },
+      {
+        "change_1d": "+2 bp",
+        "change_1m": "-5 bp",
+        "change_1w": "+2 bp",
+        "id": "be10y_ny_close",
+        "last": "2.26%",
+        "reference_type": "ny_close",
+        "tenor": "10BE",
+        "timestamp": "2026-07-13T17:00:00-04:00"
+      }
+    ]
+  }
 }

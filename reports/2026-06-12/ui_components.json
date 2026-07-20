@@ -2,6 +2,12 @@
   "anchor": "ny_close",
   "archive_dates": [
     {
+      "date": "2026-07-17",
+      "label": "2026-07-17",
+      "href": "?date=2026-07-17",
+      "active": false
+    },
+    {
       "date": "2026-07-16",
       "label": "2026-07-16",
       "href": "?date=2026-07-16",
@@ -220,168 +226,137 @@
   ],
   "cross_asset_cards": [
     {
+      "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "Lower crude met firmer breakevens, so inflation compensation did not give clean duration relief.",
-      "title": "Oil",
-      "value": "WTI 84.88 (-3.23%) / BRENT 87.33 (-3.37%)"
+      "summary": "Credit funds stayed broadly stable, indicating selective access rather than generalized stress.",
+      "title": "Credit",
+      "value": "LQD 109.01 (-0.0642%) / HYG 79.94 (0%) / JNK 96.3 (+0.0208%) / EMB 96.36 (+0.0935%)"
     },
     {
+      "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "Semiconductor leadership showed equities could absorb the rates move.",
-      "title": "Equities",
-      "value": "SPX 7,431 (+0.5%) / NDX 29,636 (+0.64%) / SOX 13,371 (+1.52%) / VIX 17.68 (-9.05%)"
+      "summary": "A softer dollar and cheaper oil eased funding and inflation pressure, while gold retained demand.",
+      "title": "Dollar and commodities",
+      "value": "DXY 99.75 (-0.1102%) / WTI 84.88 (-3.2265%) / Brent 87.33 (-3.3746%) / Gold 4215 (+3.0487%)"
     },
     {
+      "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Treasury yields were higher, while a softer dollar and gold strength left residual hedging.",
-      "title": "Dollar / gold",
-      "value": "DXY 99.75 (-0.11%) / GOLD 4,215 (+3.05%)"
+      "summary": "Rising equities and lower volatility signaled risk appetite that reduced haven demand for duration.",
+      "title": "Equities and volatility",
+      "value": "S&P 500 7431.46 (+0.5026%) / Nasdaq 100 29635.9492 (+0.6445%) / SOX 13371.4697 (+1.5187%) / VIX 17.68 (-9.0535%)"
     }
   ],
   "header": {
-    "as_of_note": "NY close 2026-06-12 showed oil relief supporting risk tone before fully removing policy compensation from rates.",
-    "latest_update_cutoff": "2026-06-13T08:00:00+08:00",
-    "reading_time_label": "About 16 min read",
-    "report_date": "2026-06-12",
-    "stance": "Risk rallied while duration stalled",
-    "title": "Daily FI Market Intelligence: 2026-06-12 NY Close"
+    "as_of_note": "NY close · 2026-06-12",
+    "latest_update_cutoff": "NY close",
+    "stance": "Treasuries close modestly cheaper as policy premium offsets renewed oil relief",
+    "title": "Daily FI Market Intelligence"
   },
   "long_thesis": {
-    "english_markdown": "# Daily FI Market Intelligence - 2026-06-12\n\n## Opening Fixed-Income Thesis\n\nJune 12 was not a reversal of the oil-relief theme, but it showed the limit of that theme. Crude kept falling and risk assets traded better, yet Treasuries gave back part of the prior rally. That combination is the day's useful fixed-income message: lower commodity pressure can improve equity tone and volatility before it fully removes policy compensation from the rates market. Duration still needed Fed confirmation, breakeven confirmation, and confidence that the energy shock would not reappear in central-bank language.\n\nThe rates market was therefore cautious rather than confused. The long bond stayed below the psychologically important level reached earlier in the week, but the front end, belly, and long end all cheapened enough to show that oil relief alone was not enough. Goldman traders still saw markets as fairly pricing the FOMC path, and an economist survey pushed expected cuts into 2027. Those signals kept the front-end and real-rate channels live even as crude moved lower.\n\nCredit and funding were similarly selective. Listed debt vehicles did not match the strength in equities, while primary-market evidence showed capital still moving toward specific borrower stories. Lloyds found yen demand, banks prepared financing for Triton's Flender buyout, Metinvest tested investor appetite after using cash to redeem debt, and SpaceX's first trading day kept mega-capital events in focus. Funding was open, but it was not evenly distributed across borrowers.\n\nGlobal duration explained why lower oil could help markets immediately without ending the policy debate. European bonds rallied on the potential for a U.S.-Iran deal, yet ECB officials kept warning that the energy shock had already spread into broader prices. Germany's forecasts, Czech policy risk, and mixed regional central-bank signals all reinforced the same point: once a shock enters reaction functions, spot oil relief is helpful but not automatically decisive.\n\nEM and cross-asset signals kept the close from becoming a simple risk-on story. India received inflation relief but faced a wider-deficit debate. Indonesia remained the weak spot as bond funds delayed redemptions and Jakarta prepared a possible municipal bond after a large transfer cut. Brazil and Bangladesh showed local inflation and energy-supply stress, while gold rallied even as equities improved. The forward watch is therefore specific: Warsh's Fed, ECB July risk, Indonesia liquidity, India fiscal discipline, SpaceX and AI capital demand, and whether lower oil can keep breakevens contained.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe Treasury market rose in yield despite another large drop in crude. UST2Y rose 4 bp to 4.09%, UST5Y rose 3 bp to 4.21%, UST10Y rose 3 bp to 4.48%, and UST30Y rose 2 bp to 4.97%. The 2s10s curve flattened 1 bp to 39 bp, while 2s30s flattened 2 bp to 88 bp. The move was small compared with the June 11 rally, but its composition mattered: the 10Y real yield rose 1 bp to 2.17% and the 10Y breakeven rose 2 bp to 2.31%. The market was rebuilding both real-rate and inflation-compensation margin.\n\nOil should have helped duration. WTI fell 3.23% to 84.88 and Brent fell 3.37% to 87.33 as investors put more weight on the possibility of a Hormuz-related deal. That move supported European bonds, airlines, travel stocks, and the broader risk backdrop. It also gave U.S. inflation compensation a reason to fall. The fact that 10Y breakevens rose by 2 bp despite lower oil shows that the market was looking beyond the spot energy move toward Fed reaction risk, goods-price pass-through, and the credibility problem created by several months of war-driven inflation.\n\nWarsh's first Fed meeting was the dominant rates check. The Goldman rates desk view that markets were fairly pricing the path, with roughly a 75% chance of a hike by year-end, kept the front end from celebrating lower oil. The economist survey that moved expected cuts into 2027 added a slower easing path: the median respondent saw cuts in June 2027 and December 2027, taking the target range toward 3% to 3.25%. That does not force an immediate hike, but it reinforces the idea that the current 3.5% to 3.75% policy range may stay in place longer than investors hoped before the war shock.\n\nThe curve shape also shows where conviction was limited. The 2Y led the selloff, and the long bond rose only 2 bp, holding below 5%. That front-end leadership fits a Fed-path adjustment more than a fresh fiscal-supply shock. The 2s10s curve at 39 bp and 2s30s at 88 bp still show a relatively steep curve versus the early-June front-end shock, but the flattening says investors did not treat the day as pure term-premium rebuilding. They priced a policy anchor with only a modest long-end concession.\n\nGold complicated the rates message. Gold rose 3.05% to 4215 while real yields edged higher and equities rallied. That is an unusual mix for a clean disinflationary relief day. It suggests that some investors still wanted geopolitical and inflation hedges even as oil fell. The gold move aligns with the higher breakeven and real-yield readings: the market was not ready to declare the energy shock finished, and it kept paying for tail protection around the Fed meeting and the Iran negotiations.\n\nThe UST conclusion is a partial give-back, not a reversal of the whole oil-relief thread. One-day yields rose, while one-week moves still showed UST10Y down 7 bp and UST30Y down 4 bp. The close says lower oil can stabilize risk assets, but the Fed path, Warsh communication, and breakeven behavior will show whether duration follows. The next check is whether UST30Y stays under 5%, whether the 10Y breakeven falls back with crude, and whether SOFR and fed-funds pricing reduce the year-end hike probability after the June 16-17 meeting.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit did not match the strength in equities. LQD slipped 0.06%, HYG was unchanged, JNK rose 0.02%, and EMB rose 0.09%. Those moves were stable and modest, especially against SPX up 0.50%, NDX up 0.64%, SOX up 1.52%, and VIX down 9.05%. The market was not rejecting credit, but it was still asking for borrower-specific evidence before extending the June 11 relief.\n\nLloyds showed how strong demand could still appear in a local funding market. The UK lender sold JPY75 billion of Samurai bonds, its first such offering in two years, as foreign issuance in Japan reached the highest level since fiscal year 2015. Japanese buyers were still searching for yield, and the yen market gave non-Japanese financial issuers a funding channel even as BOJ normalization risk remained on the calendar. That deal belongs with corporate funding because it shows primary demand and currency-market funding access, not broad sovereign-duration pricing.\n\nEuropean leveraged finance also found room. Banks lined up around EUR1.7 billion of debt financing for Triton Partners' acquisition of German gearbox maker Flender. The debt was structured as leveraged loans, with initial marketing to institutional investors expected toward the end of June before a broader syndication. Money managers' need to allocate capital to a limited supply of new-money deals was helping borrowers and pushing pricing lower. That is a constructive signal, but it is also a reminder that demand was concentrated in specific deal flow.\n\nMetinvest supplied the stressed-refinancing counterweight. The Ukrainian steel and mining group sounded out fixed-income investors after it had to fund the redemption of a $428 million bond with cash earlier this year. The company had abandoned restructuring talks and was trying to understand what pricing might be achievable for new debt. That is a very different credit condition from Lloyds or Flender: market access exists, but refinancing terms depend on geopolitical risk, business resilience, and investor willingness to re-engage.\n\nSpaceX dominated the capital-allocation story. After raising $75 billion in the largest IPO on record, the stock rose 19% in its debut, leaving Elon Musk at the center of a massive equity wealth event. Shadow markets had anticipated a jump of at least 35%, and the retail order book had already shown unusual demand. For fixed income, the significance is not the share price alone. The IPO absorbs capital, validates a high-valuation AI and space infrastructure theme, and can influence how investors price large technology-linked debt, data-center borrowing, and private-credit exposures.\n\nThe credit read is therefore stable and selective. Quality and event-driven borrowers could issue or line up financing, while the listed credit handles showed less enthusiasm than equities. Lower oil helped the macro backdrop, but slightly higher Treasury yields and AI capital intensity kept the market from treating every borrower as a beneficiary. The next check is whether Samurai, European leveraged-loan, SpaceX-related, and AI infrastructure demand leaves room for ordinary investment-grade and high-yield supply without wider concessions.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nEurope rallied on oil relief, yet the policy narrative stayed hawkish. European and U.S. bonds gained intraday on optimism around a Middle East deal, with UK two-year yields down 14 bp to 4.20% and German two-year yields down nearly 10 bp to 2.58%. Equity risk also improved, with the Stoxx Europe 600 up 1.9% near its pre-war peak and travel names such as TUI and International Consolidated Airlines Group gaining more than 7%. Lower oil translated quickly into lower front-end pressure and better cyclicals.\n\nECB officials then kept the policy constraint in place. Slovenian central-bank chief Bostjan Dolenc said the hike let the ECB account for the broader environment, and that hard data made higher inflation and weaker growth obvious. Bundesbank President Joachim Nagel said high energy costs were affecting other prices and core inflation, keeping a July hike possible. Francois Villeroy de Galhau's colleague Francois Moulin said oil and gas prices had begun passing through to services even without wage second-round effects. Peter Kazimir said inflation spreading through the economy would force more tightening and that even a peace deal would not bring inflation back to 2% overnight.\n\nThe ECB therefore stood apart from the Fed and the Bank of England. It had already delivered the first major G7 rate hike since the Iran war began, while next week's Fed and BOE meetings were expected to hold. Investors still debated whether the ECB would eventually pivot toward cuts if growth slowed, with JPMorgan Asset Management, UBS, and RBC BlueBay arguing that markets may be pricing too many hikes. That debate is duration-positive for short-dated European bonds, but it does not remove the immediate central-bank message: inflation had broadened enough to demand tighter policy.\n\nGermany and the Czech Republic added fiscal and regional texture. The Bundesbank projected German GDP growth of 0.5% in 2026, 0.8% in 2027, and 1.4% in 2028 as spending offsets war effects. It also saw inflation at 2.9% this year and 2.7% in 2027, above the ECB target for longer. Czech Governor Ales Michl said a June hike was a real possibility and emphasized the need to slow money-supply growth tied to household credit and fiscal deficits. Poland leaned the other way, with Ireneusz Dabrowski seeing room for 2026 cuts as price risks faded.\n\nThe developed-market duration read is mixed but coherent. Oil relief can rally front ends quickly, especially in Europe where energy prices are a direct inflation input. Central-bank speeches and forecasts still keep policy risk alive because the shock has already moved into broader prices. The next check is whether July ECB pricing softens if oil keeps falling, whether Czech and Polish policy divergence widens, and whether Warsh's Fed meeting gives global curves permission to treat the energy relief as durable.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM was split between dollar relief and local stress. DXY slipped 0.11% to 99.75, EMB rose 0.09%, and lower oil should help importers. Those broad moves were modest because the country-level stories were heavy: Indonesia faced liquidity pressure inside bond funds, India had both softer inflation and a wider-deficit debate, Brazil inflation moved above target, and Bangladesh's gas shortage was already hitting investment and power prices.\n\nIndonesia remained the clearest liquidity problem. Several bond funds delayed redemptions to manage liquidity pressures after recent market turmoil. The delay followed a sharp selloff in Indonesian assets, heightened rupiah volatility, and continued concern that policymakers may need to keep raising rates to stabilize the currency. Jakarta also planned Indonesia's first municipal bond within a year after budget transfers were cut by about 15 trillion rupiah, or around 16% of the initial budget. That bond could become a useful local-capital-market milestone, but the timing is difficult when investors are already focused on redemption liquidity and sovereign credibility.\n\nIndia had the more balanced story. Officials were willing to let the fiscal deficit widen to as much as 4.8% of GDP, compared with the 4.3% goal set in February, while telling rating companies that any deterioration would reflect the uncertain global environment and not a loss of discipline. Indian bonds briefly gave up gains and the 10Y yield touched 6.91% on the deficit discussion. Inflation then helped: May CPI rose 3.93%, below expectations of 4.02% and under the RBI's 4% target, and the 10Y yield ended down 3 bp at 6.89%. India therefore carried fiscal risk and monetary-policy relief at the same time.\n\nBrazil and Bangladesh showed the inflation side of EM dispersion. Brazil's annual inflation rose to 4.72%, above the 3% target plus or minus 1.5 percentage points, complicating the central bank's ability to cut rates at the next meeting. Bangladesh faced an energy shock that stranded nearly $750 million of industrial investments near Dhaka, pushed the average retail power rate up 17% the prior week, and coincided with inflation at a 16-month high in May. These are local versions of the same problem global central banks are discussing: energy supply can become growth damage and price pressure at the same time.\n\nAsian market-structure issues added another layer. Financial distortions from Korea to China had prompted interventions, with Korean AI-linked stocks showing extreme volatility and China facing a liquidity glut that dragged borrowing costs lower. Leveraged single-stock products tied to Asian shares also came under pressure, with one SK Hynix-linked product plunging 20% and broader levered product assets having grown rapidly. The immediate U.S. rates link is limited, yet the EM and Asian dollar-liquidity relevance is clear because forced flows can turn macro stress into market-functioning stress.\n\nThat mix leaves EM investors separating import-price relief from domestic credibility. Lower crude helps India, Bangladesh, and other energy buyers at the margin, but fiscal slippage, fund redemptions, local inflation, and market-structure leverage determine which countries convert the relief into lower yields. The dollar's small decline improved the backdrop; it did not replace country balance-sheet work.\n\nThe EM conclusion is modest broad relief with several fragile local channels. Softer DXY, lower oil, and positive EMB performance are helpful, but Indonesia's redemption delays, India's deficit choice, Brazil's inflation, Bangladesh's energy shortage, and Asian levered-product volatility keep dispersion high. The next checks are Indonesia's fund redemptions and municipal-bond approval, India's fiscal communication and RBI hold, Brazil's rate decision, Bangladesh power/inflation stress, and whether a durable oil decline reduces import pressure.\n\n## Cross asset\n\nCross-asset markets looked friendlier than the Treasury close. WTI fell to 84.88 and Brent to 87.33, VIX dropped to 17.68, SPX, NDX, and SOX rose, and DXY slipped below 100. Those moves supported the idea that geopolitical risk was easing and that risk assets could recover from the earlier war premium. The Stoxx Europe 600 rally and European travel outperformance reinforced that same oil-relief channel.\n\nGold was the important dissent. A 3.05% rise to 4215 alongside higher UST yields and stronger equities says investors were still buying protection against geopolitical, inflation, or policy uncertainty. Gold's move fits the ECB comments on broadening inflation and the U.S. rates market's refusal to extend the prior rally. It also sits uneasily beside lower VIX, showing that equity volatility was calmer while macro hedging demand stayed firm.\n\nThe AI and SpaceX channel added breadth and concentration. SOX rose 1.52%, and SpaceX's 19% debut supported technology risk appetite. At the same time, large capital raises, leveraged single-stock products, and software-sector anxiety show that the AI complex is becoming a funding and market-structure issue, not just an equity leadership story. That matters for credit because capital pulled into mega-events can influence demand for more ordinary new issues.\n\nThe dollar and oil combination helped EM, but only at the surface. DXY at 99.75 and Brent below 88 are good inputs for importers and hard-currency debt. Indonesia, Brazil, Bangladesh, and India show why the pass-through is uneven. The cross-asset message is therefore constructive risk tone with unresolved macro hedges. The next checks are Brent below 90, DXY below 100, VIX below 18, gold's behavior around 4215, and whether SOX and SpaceX demand stay supportive without draining credit appetite.\n\n## Forward Market Significance\n\nThe Fed meeting is the first U.S. rates test. Warsh can validate the market's patience if he acknowledges lower oil and keeps the next hike priced beyond the near term. He can also keep real yields firm if he emphasizes that war-driven inflation, AI capital spending, and resilient demand leave the FOMC with limited room to promise easing. The immediate market triggers are the year-end hike probability, UST2Y around 4.09%, UST10Y around 4.48%, UST30Y below 5%, and the 10Y breakeven at 2.31%.\n\nECB and European duration pricing are the next global test. Dolenc, Nagel, Moulin, and Kazimir all kept the inflation story alive after the first G7 hike of the war period. If oil keeps falling and July pricing softens, European front-end bonds can extend the rally. If officials keep emphasizing core and services pass-through, Bunds and gilts will rebuild policy premium even as crude falls.\n\nCredit needs evidence that named deals are not absorbing all available risk budget. Lloyds Samurai demand, Triton/Flender loans, Metinvest investor soundings, SpaceX's debut, and AI-linked equity demand all show active capital markets. Stable secondary trading and manageable concessions would confirm that primary absorption remains open. Wider loan pricing, weak Metinvest feedback, or a reversal in SpaceX-linked sentiment would challenge the funding read.\n\nEM dispersion will be measured by local liquidity and fiscal credibility. Indonesia's delayed fund redemptions and Jakarta municipal-bond plan are the main liquidity checks. India needs the market to accept a wider deficit while inflation stays below the RBI target. Brazil's 4.72% inflation print tests whether cuts are still possible. Bangladesh's energy shortage tests growth, industrial investment, and power-price inflation. These signals will show whether the softer dollar and lower oil matter beyond the broad EMB move.\n\nOil and gold tie the whole watch list together. A Hormuz deal that keeps WTI below 85 and Brent below 88 would support breakeven relief, European front-end rallies, and EM importers. A rebound in crude would rebuild the same inflation channels that pushed the ECB to hike. Gold above 4215 would show that investors still want protection even if equities stay firm. The next close has to show whether June 12 was a brief rates give-back inside an oil-relief trend, or the start of renewed policy compensation before the Fed.\n",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nJune 12 was a failed extension of the previous close’s oil-led duration rally. Treasuries initially joined the renewed bid in European bonds as progress toward a US-Iran agreement pushed crude lower, but the US move faded and the curve ended modestly cheaper. The two-year yield finished at 4.09%, four basis points higher, and the 10-year at 4.48%, three basis points higher. Front-end underperformance and a slight flattening showed that the market was rebuilding policy premium, not imposing a fresh long-end fiscal shock.\n\nThe reversal reopened an issue that June 11 had only deferred. Falling energy prices reduced the probability of another large first-round inflation impulse, yet they did not erase pressure already moving through producer prices, household expectations and foreign central-bank reaction functions. Market pricing again assigned substantial weight to a Federal Reserve increase before year-end. A better consumer-sentiment reading and lower inflation expectations gave officials room to wait, but their absolute levels remained inconsistent with a quick return to an easing narrative.\n\nGlobal duration reinforced that constraint. European front ends rallied more strongly on the peace headlines, although ECB officials emphasized that broader price pressure could require additional tightening even if the conflict ended. UK growth contracted in April, but household inflation expectations rose sharply. Those opposing signals preserved a high clearing rate for developed-market duration: weaker activity supported bonds at the margin, whereas energy pass-through and policy credibility limited how far yields could fall.\n\nRisk assets treated the session as de-escalation rather than recession. Equities advanced, volatility fell, the dollar softened and credit fund prices were broadly stable. That configuration reduced the defensive demand that had helped Treasuries on the previous close. Credit access also remained selective rather than impaired, with strong demand for a yen-denominated bank issue and continuing migration toward senior CLO exposure. The governing thesis therefore changed from broad geopolitical relief to a policy-led consolidation: cheaper oil improved the tail-risk distribution, but resilient risk appetite, earlier Fed-hike risk and foreign inflation constraints prevented a second day of lower US yields.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nTreasury losses were concentrated in the policy-sensitive end. The two-year yield rose four basis points to 4.09%, the five-year added three to 4.21%, the 10-year increased three to 4.48%, and the 30-year gained two to 4.97%. The long bond remained below the 5% threshold regained during the prior day’s rally, and the smaller move at 30 years argues against an independent fiscal or duration shock. The session instead restored part of the premium removed when geopolitical relief had pushed expectations for the next Fed move farther out.\n\nThe curve flattened modestly. The 2s10s slope narrowed one basis point to 39, and 2s30s narrowed two to 88. Curvature remained orderly: the 2s5s10s butterfly fell one basis point to minus 15, whereas the 2s10s30s butterfly was unchanged at minus 10. Over the week, yields were still lower by eight basis points at two and five years, seven at 10 years and four at 30 years. June 12 therefore retraced only part of the week’s rally, with the daily adjustment centered on the front end rather than a wholesale rejection of duration.\n\nReal rates and inflation compensation both contributed to the nominal move. The 10-year real yield rose one basis point to 2.17%, and the 10-year breakeven increased two to 2.31%. Five-year real yields climbed four basis points to 1.82%, seven-year real yields rose two to 1.98%, and the 20- and 30-year sectors were unchanged to one basis point higher. The larger front-belly real-yield adjustment fits renewed policy restraint, whereas the small breakeven increase showed that lower spot crude had not fully displaced concern about lagged price transmission.\n\nIntraday sequencing made the close especially informative. Optimism over reopening the Strait of Hormuz drove Brent below $86 during European trading and produced a much larger rally in UK and German two-year debt than in Treasuries. US two-year yields were briefly lower early in the day after a sharp decline late Thursday. Finishing higher despite another drop in oil meant that the de-escalation impulse had become insufficient on its own. The market moved from pricing the removal of a geopolitical tail toward asking how much of the earlier energy shock was already embedded in inflation and policy.\n\nShort-rate expectations supplied the clearest answer. Bond traders assigned roughly a 75% chance to a Fed increase by year-end and fully priced a move by March 2027. That reopened the earlier-hike risk that had shifted outward on June 11. Economists remained less aggressive: the median forecast in a 35-person survey placed the first cut in June 2027 and another by that December, taking the target range to 3%-3.25%. Both views rejected near-term easing, but the market attached more weight to renewed restraint under resilient activity and war-driven inflation.\n\nThe preliminary University of Michigan survey offered a real counterforce without settling the policy question. Sentiment rose to 48.9 from 44.8, with current conditions at 48.4 and expectations at 49.3. One-year inflation expectations eased to 4.6% from 4.8%, and the long-run measure fell to 3.4% from 3.9%. The decline in expected inflation reduced the urgency of an immediate response. Its still-elevated level, combined with firmer confidence, left household demand and price psychology too strong for the front end to treat the improvement as a durable disinflation signal.\n\nLabor-cost levels added a secondary constraint. Civilian employer compensation averaged $49.32 per hour in March, including $33.72 in wages and $15.60 in benefits; private-industry compensation averaged $46.60. The corresponding December levels were $48.78 and $46.15. These are compensation levels rather than an Employment Cost Index growth rate, but the increase preserves concern about business margins and service-price persistence. The release did not contradict the softer Michigan expectations; it showed why policymakers still need confirmation that price relief extends beyond energy.\n\nVery short funding remained orderly. Coupon-equivalent bill yields ended at 3.66% for four weeks and 3.67% for six weeks, both one basis point lower. Eight-, 13-, 17- and 26-week yields were unchanged at 3.69%, 3.71%, 3.76% and 3.80%, while the 52-week yield rose one basis point to 3.86%. Cash conditions at the shortest tenors did not participate in the coupon selloff. The upward slope toward one year instead carried the prospective policy adjustment, separating ample immediate liquidity from the risk that the Fed may need to raise its target later.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit was stable through the mild Treasury selloff. LQD slipped 0.0642%, a move consistent with its government-duration exposure, while HYG was unchanged and JNK gained 0.0208%. The absence of a parallel decline in the high-yield funds fits the equity advance and lower volatility: June 12 did not produce a broad withdrawal from corporate risk. It also means the rise in Treasury yields is better read through policy and haven demand than through a deterioration in corporate financing conditions.\n\nLloyds Banking Group demonstrated that cross-currency funding remained available to strong borrowers. The bank sold ¥75 billion of Samurai bonds, its first domestic Japanese offering in two years. Fiscal-year issuance in the market had reached ¥503 billion by June 12, the strongest comparable total since 2015. Japanese investors were drawn to relatively short maturities and spreads wider than domestic alternatives, and yen funding remained economical for some overseas issuers even after currency-swap costs.\n\nThe pricing showed absorption with a meaningful concession rather than indiscriminate demand. Lloyds’ six-year tranche, callable after five years, paid 78 basis points over swaps. A Sumitomo Mitsui Banking note due in 2031 had priced at 28 basis points in April, with the Japanese bank rated one notch above Lloyds by S&P. The gap compensated investors for issuer and structure differences, yet it did not prevent execution. A rising-rate Japan can therefore support foreign issuance when relative spread, maturity and swapped funding cost align.\n\nDemand inside leveraged credit was more segmented. Inflows into US CLO exchange-traded funds exceeded $9 billion during the year, up from nearly $7 billion over the same period of 2025, as investors pulled money from publicly traded business-development companies. Elevated base rates support the income on floating-rate loans, but prolonged borrowing costs also weaken the underlying companies. Senior CLO tranches use subordination to absorb losses before top-ranked investors are affected, making structure and liquidity decisive as concern about private-credit defaults increases.\n\nTogether, the fund flows and Samurai sale describe functioning but discriminating intermediation. Publicly tradeable senior loan structures attracted money, and a highly rated foreign bank accessed Japan by paying a visible spread premium. Neither development implies uniformly easier cash spreads for US borrowers. They show that capital was available where investors could identify a strong payment priority, transparent liquidity or an attractive relative-value concession. That selective capacity helped keep credit calm even as policy-sensitive Treasury yields rose.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nEuropean front ends initially expressed the oil relief more forcefully than Treasuries. UK two-year yields fell 14 basis points to 4.20%, and German two-year yields dropped nearly 10 basis points to 2.58% as peace prospects reduced near-term hike bets. The move followed the ECB’s first increase since 2023 and weak UK growth, giving European curves more policy premium to unwind. US yields’ later reversal showed that this beta was not a common developed-market verdict on disinflation.\n\nECB communication limited the rally’s policy significance. The central bank had raised its deposit rate by 25 basis points to 2.25%, and Peter Kazimir argued that spreading price pressure would require further action. Euro-area inflation reached 3.2% in May, while the revised outlook kept core inflation above target through at least 2028. Markets still priced one additional increase during 2026 and a 70% chance of another in the first half of 2027. A peace agreement could lower energy prices quickly, but damaged production capacity and pipeline effects could keep broader inflation elevated.\n\nThe European debate was not uniformly hawkish. Some officials viewed the latest increase as sufficient pending more data, and sluggish activity constrained how far policy could move. That disagreement is itself relevant for US duration. A near-term ECB sequence raises the yield on competing high-grade assets, yet an eventual growth reversal can create demand for Bunds and Treasuries. The June 12 European rally reflected the second channel; the US close retained more of the first.\n\nUK data sharpened the same tension. Monthly GDP contracted 0.1% in April after 0.3% growth in March, the first decline since August 2025. Services fell 0.2%, production was flat and construction rose 0.1%. The three months through April still expanded 0.7%, slightly stronger than the preceding three-month period. Gilt investors therefore faced a weak latest month without a clean collapse in momentum, allowing oil relief to support the front end but leaving the medium-term rate path dependent on inflation.\n\nHousehold expectations kept the Bank of England constrained. Median one-year inflation expectations rose to 4.0% from 3.2% in February, and the five-year measure increased to 3.9% from 3.7%. A 53% majority expected interest rates to rise over the following year, up from 30%. Those readings challenge the idea that weaker monthly output alone can restore an easing cycle. They also explain why lower oil produced a large daily gilt rally without eliminating the risk of renewed policy restraint.\n\nJapan added a buyer-base problem at the long end. April data showed foreign investors sold more super-long JGBs than they purchased for the first time since 2024, as concerns about inflation, fiscal supply and a central bank perceived to be behind the curve outweighed multi-decade-high yields. Yet domestic demand was not absent. Iyogin began small super-long purchases in April, its first JGB investment in a decade, within a ¥1.7 trillion securities portfolio. Retreating foreign managers and selective regional-bank re-entry point to a higher, less stable clearing yield rather than a one-way loss of demand.\n\nFor Treasuries, these foreign developments operate through relative yield and hedging economics. European policy can keep front-end returns competitive, and volatile super-long JGBs can reduce the willingness of Japanese institutions to add overseas duration even when nominal US yields are high. Weak UK growth and selective domestic JGB demand provide offsets. The resulting competition helps explain why a large decline in crude was able to rally European bonds intraday but not carry the US curve through the New York close.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nThe common backdrop improved modestly for emerging-market debt. EMB rose 0.0935%, the dollar index softened and crude fell, reducing both US funding pressure and the prospective energy bill for oil importers. The small gain was far less emphatic than the move in equities or volatility, signaling that country-level fiscal and policy risks still limited the benefit. India provided the clearest example because softer inflation and a potentially wider deficit pulled its sovereign curve in opposing directions.\n\nIndian authorities were reported to be willing to let the fiscal deficit widen to as much as 4.8% of GDP from the 4.3% target if the global environment required it. The country imports more than 80% of its crude, and higher fuel and fertilizer subsidies have opened pressure on the budget. India’s 10-year yield briefly reached 6.91% before returning to 6.88%. One estimate placed possible additional bill borrowing at 350 billion rupees, making the debt-management channel a concrete consequence rather than an accounting revision alone.\n\nCurrent inflation data offered an offset. May CPI rose 3.93% from a year earlier, below the 4.02% consensus and just under the Reserve Bank of India’s 4% target. The 10-year yield retained gains at 6.89% after the release. Food inflation accelerated to 4.78% from 4.20%, and the RBI had already lifted its fiscal-year inflation projection to 5.1% from 4.6%. The sovereign benefited from a softer headline print, but food, currency and subsidy exposure kept fiscal credibility and the borrowing response central to the curve.\n\nBrazil faced the opposite inflation surprise. Consumer prices rose 0.58% in May, above the 0.53% median estimate, and annual inflation reached 4.72%, beyond the 4.5% upper edge of the target range. Food and beverage prices increased 1.33%, and underlying pressure extended beyond components most directly tied to the war. With the Selic rate already at 14.5%, the release narrowed the room for further easing and preserved high local carry at the cost of tighter domestic financing conditions.\n\nPolicy divergence spread across the emerging complex. Indonesia had used an off-cycle increase to stabilize its currency and reverse a selloff, whereas softer inflation opened debate about easing in Poland and Hungary. Romania’s three-year-high inflation argued for a hold, and Czech officials kept a possible increase in view. Oil-importing Asian economies remained more exposed to renewed crude strength than high-carry markets backed by credible frameworks. A slightly softer dollar could ease the common constraint without resolving those differences in inflation dynamics or central-bank credibility.\n\nSubsovereign access remained narrower than national policy flexibility. Jakarta continued to examine Indonesia’s first municipal bond after central-government transfers were cut by about 15 trillion rupiah, roughly 16% of its initial budget. Finance Ministry approval for the bond and a proposed wealth fund was still outstanding. The plan could diversify infrastructure funding, but its regulatory dependence and reduced transfers show why local credit creation cannot be treated as sovereign market access. Across EM, lower oil helped the daily backdrop; refinancing structure, reserve use and the credibility of fiscal adjustment still determined the usable relief.\n\n## Cross asset\n\nEquities reinforced the interpretation that Treasuries lost a haven bid rather than responding to weaker growth. The S&P 500 rose 0.5026%, the Nasdaq 100 gained 0.6445%, and the semiconductor index advanced 1.5187%. Technology leadership was consistent with confidence in nominal activity and continued AI capital spending. That mix supports higher real discount rates at the front and belly even when cheaper energy improves the inflation outlook.\n\nVolatility and the dollar pointed in the same risk-on direction. The VIX fell 9.0535% to 17.68, and the dollar index slipped 0.1102% to 99.75. Lower volatility reduced the demand for defensive duration, while the softer dollar eased the external financing backdrop for emerging borrowers. The combination did not resemble a global dollar shortage or generalized deleveraging, helping explain the stability of high-yield fund prices.\n\nEnergy created the session’s most important contradiction. WTI fell 3.2265% to $84.88 and Brent declined 3.3746% to $87.33 as negotiations raised hopes of reopening the Strait of Hormuz. Yet Treasury breakevens and nominal yields ended higher. The disconnect indicates that the market had already captured much of the immediate de-escalation benefit on June 11 and was turning toward lagged inflation, resilient activity and the Fed’s reaction function. Cheaper crude improved the distribution of outcomes without dictating the closing direction of rates.\n\nGold did not fully endorse the benign interpretation. Futures rose 3.0487% to $4,215 even as equities advanced, oil fell and volatility declined. The move left demand for inflation or geopolitical protection active despite optimism around negotiations. It also prevented the cross-asset picture from becoming a simple unwind of war risk. Gold’s gain sat alongside higher breakevens as a reminder that an agreement had not yet restored damaged supply capacity or eliminated uncertainty over implementation.\n\nThe record SpaceX flotation illustrated the scale of risk appetite. Shares opened at $150 against a $135 offer price, traded as high as $163 and finished their debut 19% higher after a $75 billion offering. Absorbing that volume alongside rising broad equity indexes showed deep demand for growth exposure. It also reinforced the capital-intensity channel behind elevated real rates: AI and infrastructure spending continued to compete for savings even as geopolitical relief reduced the immediate inflation premium.\n\n## Forward Market Significance\n\nUS activity, trade-price and consumption data from June 15 through June 17 culminate in the Federal Open Market Committee decision at 14:00 ET on June 17 and Chair Kevin Warsh’s first post-meeting press conference at 14:30. The observable trigger is whether industrial production and retail sales remain resilient as import prices cool, followed by a dot plot and statement that retain or remove an explicit tightening bias. Firm demand, broad trade-price gains or projections pointing to an increase would pressure two- and five-year yields and confirm June 12’s renewed policy premium. Softer activity, receding price breadth and neutral guidance would challenge the earlier-hike interpretation and restore the lower-real-yield channel opened on June 11.\n\nAfter the June 12 cutoff, Pakistan’s prime minister said the US and Iran had agreed to an immediate cessation of military operations, removal of the US naval blockade and a formal signing in Switzerland on June 19. Implementation now tests whether Friday’s oil decline becomes a durable disinflation impulse. Observable triggers are sustained passage through the Strait of Hormuz, no renewed hostilities, lower crude and a retreat in household or market inflation expectations. Delivery would confirm that energy relief can eventually pull breakevens and global front ends lower; slippage before the signing, renewed blockade risk or persistent core pressure would challenge that view and reopen the inflation premium despite cheaper spot oil.\n\nThe June 15-18 Treasury calendar tests whether balance-sheet capacity remains orderly as policy uncertainty rises. The sequence begins with $89 billion of 13-week and $77 billion of 26-week bills on June 15, followed by a $65 billion six-week bill and $13 billion 20-year reopening on June 16, then a $24 billion five-year TIPS reopening on June 18; the June 19 fixed-income holiday shortens the reaction window. Observable triggers are bill demand, funding rates, the 20-year stop against its when-issued level, bidder allocation and real-yield demand. Strong end-user absorption with stable cash rates would resolve near-term supply concern and confirm a macro-led selloff. Heavy dealer awards, a tail or funding strain would reopen fiscal supply as an independent source of term-premium pressure.\n",
     "section_summaries": [
       {
-        "market_read": "Oil helped risk assets before it fully removed policy compensation from rates.",
-        "next_check": "Warsh, breakevens, ECB July risk, Indonesia liquidity and oil confirmation.",
-        "section_id": "opening-fixed-income-thesis",
+        "market_read": "The close favors a policy-consolidation reading over a renewed fiscal or growth shock.",
+        "next_check": "Whether lower energy prices begin to pull inflation expectations and front-end yields lower.",
+        "section_id": "section-01",
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "The opening frames June 12 as a divergence day: crude kept falling and risk appetite improved, but Treasuries did not extend the prior rally. The reader gets the core tension first: oil relief helped sentiment, while Fed confirmation, breakeven confirmation, ECB policy risk and EM liquidity stress still limited duration.",
-        "why_it_matters": "The reader can see why lower crude did not automatically mean lower yields."
+        "summary": "Treasuries surrendered an early oil-led rally and closed modestly cheaper, with front-end underperformance signaling rebuilt policy premium rather than a long-end fiscal shock. Cheaper energy improved tail risks, but resilient risk appetite, elevated inflation expectations, and foreign central-bank constraints limited the extension of duration relief."
       },
       {
-        "market_read": "Duration still needed Fed confirmation even with lower oil.",
-        "next_check": "UST30Y below 5%, breakevens, SOFR pricing and Warsh communication.",
-        "section_id": "ust-rates-fed-pricing-real-yields-and-curve-structure",
+        "market_read": "Front-end weakness points to renewed Fed restraint, not a broad rejection of duration.",
+        "next_check": "Watch whether softer inflation breadth can reverse the rise in front-belly real yields.",
+        "section_id": "section-02",
         "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "Treasury yields rose modestly despite another large decline in crude. The front end led the give-back, real yields and breakevens firmed, and the long bond held below 5%, leaving the move as a policy-sensitive pause rather than a reversal of the oil-relief thread. The key channels are Warsh, breakevens and SOFR pricing.",
-        "why_it_matters": "The curve shows whether oil relief is reaching the policy and real-yield channels."
+        "summary": "Daily losses centered on two- and five-year yields as both real rates and breakevens rose, while modest flattening and an orderly long end rejected a standalone supply shock. The reversal recovered only part of the weekly rally, with immediate liquidity still calm and later policy tightening priced into term rates."
       },
       {
-        "market_read": "Funding was open, but not evenly distributed across borrowers.",
-        "next_check": "Samurai demand, Flender loans, Metinvest feedback, SpaceX and AI supply.",
-        "section_id": "credit-funding-and-primary-market-absorption",
+        "market_read": "Credit stability isolates the Treasury move as policy and haven repricing rather than stress.",
+        "next_check": "Monitor whether primary deals continue clearing without heavier concessions or dealer support.",
+        "section_id": "section-03",
         "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Credit stayed stable and selective rather than euphoric. Lloyds found Samurai demand, Triton/Flender financing lined up, Metinvest tested appetite after a cash redemption, and SpaceX trading supported mega-capital demand. Listed debt vehicles lagged equities, so borrower-specific evidence mattered more than broad beta or generic risk appetite.",
-        "why_it_matters": "Credit quality and capital-allocation pressure shape who benefits from lower oil."
+        "summary": "Stable high-yield funds, a completed Samurai bank sale, and inflows toward senior CLO exposure showed that financing channels remained open but selective. Investors rewarded payment priority, liquidity, and relative-value concession, so calm credit conditions did not imply uniformly easier cash spreads for corporate borrowers."
       },
       {
-        "market_read": "Lower oil helped front ends, while central-bank language kept term premium live.",
-        "next_check": "July ECB pricing, Czech and Polish divergence, and Warsh spillover.",
-        "section_id": "global-duration-central-banks-and-fiscal-transmission",
+        "market_read": "Foreign rate competition limits how far US duration can rally on energy relief alone.",
+        "next_check": "Track whether European inflation pressure or JGB volatility weakens demand for Treasuries.",
+        "section_id": "section-04",
         "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "European bonds rallied on oil relief, but ECB officials kept the policy constraint in place by arguing that energy inflation had spread into broader prices. Germany, the Czech Republic and Poland showed regional divergence, keeping global duration tied to local reaction functions rather than U.S. oil alone.",
-        "why_it_matters": "Once inflation enters reaction functions, spot oil relief is helpful but not decisive."
+        "summary": "European front ends rallied on oil relief, weak activity, and reduced near-term hike risk, but persistent inflation and hawkish policy signals capped the disinflation story. Competition from European yields and unstable super-long JGB demand kept the clearing rate for Treasuries high despite selective offsets from growth weakness."
       },
       {
-        "market_read": "Broad relief did not replace local balance-sheet work.",
-        "next_check": "Indonesia redemptions, India fiscal communication, Brazil rates and Bangladesh power stress.",
-        "section_id": "em-sovereigns-dollar-liquidity-and-debt-management-risk",
+        "market_read": "Common relief helps EM debt only where fiscal credibility and policy frameworks remain firm.",
+        "next_check": "Watch whether India’s borrowing response or renewed oil strength overwhelms inflation relief.",
+        "section_id": "section-05",
         "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "EM mixed broad dollar relief with several fragile local channels. Indonesia faced bond-fund redemption delays, India balanced softer CPI against a wider-deficit debate, Brazil inflation moved above target, Bangladesh energy shortages hit investment, and Asian leveraged products added market-structure risk. Lower oil helped, but credibility set pass-through.",
-        "why_it_matters": "EM investors need to know which countries convert lower oil into lower yields."
+        "summary": "A softer dollar and lower crude eased the common funding backdrop, yet EM sovereign gains remained limited by country-specific fiscal and inflation risks. India balanced softer headline inflation against potential extra borrowing, while Brazil’s upside surprise and divergent regional policies preserved high local financing costs."
       },
       {
-        "market_read": "Risk tone improved, while gold kept macro hedging pressure visible.",
-        "next_check": "Brent below 90, DXY below 100, VIX below 18, gold and SOX.",
-        "section_id": "cross-asset",
+        "market_read": "Risk-on breadth supports a policy-premium reading of the selloff rather than growth fear.",
+        "next_check": "Check whether sustained oil weakness finally pulls breakevens and defensive hedges lower.",
+        "section_id": "section-06",
         "section_title": "Cross asset",
-        "summary": "Cross-asset markets were friendlier than Treasuries but not cleanly benign. Oil fell, VIX dropped, equities and semiconductors rose, and DXY slipped below 100. Gold was the dissent because macro hedging demand stayed firm even as risk assets improved, keeping the fixed-income read more cautious than equities.",
-        "why_it_matters": "The same oil, gold and AI channels can swing inflation compensation and credit demand."
+        "summary": "Equity gains, lower volatility, and a softer dollar showed de-escalation without recession, weakening haven demand for Treasuries. Falling crude failed to lower breakevens, while gold and strong growth-equity demand preserved inflation and capital-intensity concerns, keeping real-rate pressure active despite improved geopolitical tail risks."
       },
       {
-        "market_read": "The next close has to confirm whether oil relief can reach duration.",
-        "next_check": "Fed pricing, ECB July risk, credit concessions, EM liquidity, oil and gold.",
-        "section_id": "forward-market-significance",
+        "market_read": "The next move hinges on separating policy restraint from energy and supply effects.",
+        "next_check": "Compare Fed guidance, Hormuz implementation, and auction demand across June 15-19.",
+        "section_id": "section-07",
         "section_title": "Forward Market Significance",
-        "summary": "Forward significance separates a brief rates give-back from a renewed policy-compensation phase. Warsh, ECB language, primary-credit absorption, EM liquidity, oil and gold are the concrete tests. If crude stays lower but rates still cheapen, the market is saying policy credibility matters more than spot energy relief.",
-        "why_it_matters": "Risk assets can rally while rates still demand policy compensation."
+        "summary": "Three tests will determine whether June 12’s policy-premium reversal persists: US data and the Fed decision, implementation of the US-Iran cessation, and Treasury supply absorption. Resilient demand or hawkish guidance, peace slippage, or weak auction demand would reinforce front-end or term-premium pressure."
       }
     ]
   },
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
+  "market_session": {
+    "calendar": "sifma_us_fixed_income",
+    "causal_cutoff_et": "17:00",
+    "reason": null,
+    "report_date": "2026-06-12",
+    "schedule_version": "2026-2027 issued 2025-12-17",
+    "status": "regular"
+  },
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "2Y 4.09%, +4 bp | 10Y 4.48%, +3 bp.",
-      "2S10S 39 bp, -1 bp | 2S30S 88 bp, -2 bp.",
-      "10TIPS 2.17%, +1 bp | 10BE 2.31%, +2 bp.",
-      "Brent 87.33, -3.37% | Gold 4,215, +3.05%."
+      "UST 2Y 4.09% (+4 bp) | UST 5Y 4.21% (+3 bp)",
+      "UST 10Y 4.48% (+3 bp) | UST 30Y 4.97% (+2 bp)",
+      "10Y TIPS real yield 2.17% (+1 bp) | 10Y breakeven inflation 2.31% (+2 bp)",
+      "UST 2s10s curve 39 bp (-1 bp) | UST 2s30s curve 88 bp (-2 bp)"
     ],
-    "headline": "Oil relief met policy compensation",
-    "ny_close_causal_narrative": "Lower oil improved equity tone and volatility, but Fed-path risk, ECB inflation language, gold hedging demand, and EM country stress kept duration from extending the June 11 rally.",
-    "summary": "June 12 kept the oil-relief theme alive but showed its limits. Crude kept falling and risk assets improved, yet Treasuries gave back part of the prior rally as real-yield and breakeven measures firmed. Credit and funding were selective, European policy risk stayed hawkish, and EM relief depended on local liquidity and fiscal credibility rather than broad dollar softness alone."
+    "headline": "Treasury rally fades as renewed Fed restraint outweighs cheaper oil",
+    "session_narrative": "Treasuries initially followed European bonds higher as progress toward a US-Iran agreement pushed crude lower. The move reversed in New York, leaving the curve modestly cheaper and flatter as firmer sentiment and still-elevated inflation expectations rebuilt Fed restraint in the front end. Stable credit and an orderly long bond limited the signal: this was policy and haven-demand repricing, not a broad financing or fiscal shock.",
+    "summary": "The curve ended modestly cheaper, led by the policy-sensitive front end, even as crude fell again. Better sentiment, still-high inflation expectations and resilient risk appetite rebuilt near-term Fed premium, while stable credit and an orderly long end argued against a broader financing or fiscal shock."
   },
   "report_date": "2026-06-12",
-  "run_id": "2026-06-12T08-00-00+08-00_live-local",
+  "run_id": "daily-fi-simple-2026-06-12-0fc329eb-975275bd",
   "watch_events": [
     {
-      "category": "policy",
-      "challenges_if": "Hike odds drop and UST10Y rallies below 4.45%.",
-      "confirms_if": "UST2Y holds near 4.09% and breakevens rise.",
-      "date": "2026-06-16 to 2026-06-17",
-      "market_implication": "Sticky odds keep front-end yields firm; relief lowers real yields.",
-      "market_trigger": "Year-end hike odds stay near 75% or fall sharply.",
-      "sensitive_channel": "Fed pricing and real yields",
-      "title": "Warsh Fed path",
-      "watch_line": "Warsh tests the UST give-back.",
-      "why_it_matters": "The Fed path capped oil-led duration relief."
+      "category": "Fed policy",
+      "date": "June 15-17, 2026",
+      "id": "watch-01",
+      "market_implication": "A hawkish mix would pressure two- and five-year yields; softer data and neutral guidance would reverse it.",
+      "market_trigger": "Resilient demand, broad trade-price gains or projections retaining a tightening bias.",
+      "title": "US data and FOMC decision",
+      "watch_line": "Follow production, retail sales and import prices into the Fed statement and dot plot."
     },
     {
-      "category": "policy",
-      "challenges_if": "July odds fade and European front ends rally.",
-      "confirms_if": "German two-year yields rebound after oil relief.",
-      "date": "Next ECB pricing window",
-      "market_implication": "Hawkish pricing pressures Bunds, gilts, and global term premium.",
-      "market_trigger": "Nagel, Kazimir, or pricing keeps July live.",
-      "sensitive_channel": "Bunds, gilts, and ECB pricing",
-      "title": "ECB July risk",
-      "watch_line": "ECB comments test global duration relief.",
-      "why_it_matters": "Europe can offset lower oil with policy pressure."
+      "category": "Geopolitics and oil",
+      "date": "Through June 19 signing",
+      "id": "watch-02",
+      "market_implication": "Delivery would pull breakevens and global front ends lower; slippage would restore inflation premium.",
+      "market_trigger": "Sustained passage without renewed conflict, alongside lower crude and easing expectations.",
+      "title": "US-Iran cessation implementation",
+      "watch_line": "Watch Hormuz passage, hostilities, crude and inflation expectations ahead of signing."
     },
     {
-      "category": "credit",
-      "challenges_if": "Metinvest or leveraged loans require wider pricing.",
-      "confirms_if": "Flender, Lloyds, and AI-linked debt trade steadily.",
-      "date": "Next trading sessions",
-      "market_implication": "Weak demand would limit primary-market absorption.",
-      "market_trigger": "SpaceX sentiment reverses or AI debt concessions widen.",
-      "sensitive_channel": "Primary credit and technology financing",
-      "title": "SpaceX and AI funding",
-      "watch_line": "Mega-capital demand tests credit depth.",
-      "why_it_matters": "Capital concentration can crowd ordinary credit demand."
-    },
-    {
-      "category": "cross_asset",
-      "challenges_if": "Funds keep gates and local yields rise.",
-      "confirms_if": "Redemption pressure eases and rupiah stabilizes.",
-      "date": "Next EM sessions",
-      "market_implication": "Local stress would mute EMB and dollar relief.",
-      "market_trigger": "Bond-fund redemptions extend or Jakarta bond approval slips.",
-      "sensitive_channel": "EM local bonds, FX, and fund liquidity",
-      "title": "Indonesia liquidity stress",
-      "watch_line": "Indonesia tests EM relief transmission.",
-      "why_it_matters": "Country liquidity shapes EM dispersion."
-    },
-    {
-      "category": "inflation",
-      "challenges_if": "Crude rebounds or gold extends gains.",
-      "confirms_if": "Gold fades and crude stays lower.",
-      "date": "Next energy close",
-      "market_implication": "Lower oil helps breakevens; strong gold signals lingering tail risk.",
-      "market_trigger": "Brent holds below 88 while gold stays near 4215.",
-      "sensitive_channel": "Oil, breakevens, gold, and volatility",
-      "title": "Oil and gold divergence",
-      "watch_line": "Oil relief needs lower hedging demand.",
-      "why_it_matters": "Cross-asset hedges explain the rates resistance."
+      "category": "Treasury supply",
+      "date": "June 15-18, 2026",
+      "id": "watch-03",
+      "market_implication": "Orderly demand would confirm a macro-led selloff; weak demand would add independent term premium.",
+      "market_trigger": "Strong end-user absorption and stable cash rates, versus tails, heavy dealer awards or funding strain.",
+      "title": "Treasury supply absorption",
+      "watch_line": "Track bill demand, funding rates, the 20-year stop, bidder mix and real-yield demand."
     }
   ],
   "yield_heat_map": {
@@ -390,6 +365,7 @@
         "change_1d": "+4 bp",
         "change_1m": "+9 bp",
         "change_1w": "-8 bp",
+        "id": "ust2y_ny_close",
         "last": "4.09%",
         "reference_type": "ny_close",
         "tenor": "2Y",
@@ -399,6 +375,7 @@
         "change_1d": "+3 bp",
         "change_1m": "+9 bp",
         "change_1w": "-8 bp",
+        "id": "ust5y_ny_close",
         "last": "4.21%",
         "reference_type": "ny_close",
         "tenor": "5Y",
@@ -408,6 +385,7 @@
         "change_1d": "+3 bp",
         "change_1m": "+2 bp",
         "change_1w": "-7 bp",
+        "id": "ust10y_ny_close",
         "last": "4.48%",
         "reference_type": "ny_close",
         "tenor": "10Y",
@@ -417,6 +395,7 @@
         "change_1d": "+2 bp",
         "change_1m": "-6 bp",
         "change_1w": "-4 bp",
+        "id": "ust30y_ny_close",
         "last": "4.97%",
         "reference_type": "ny_close",
         "tenor": "30Y",
@@ -426,6 +405,7 @@
         "change_1d": "-1 bp",
         "change_1m": "-7 bp",
         "change_1w": "+1 bp",
+        "id": "ust_2s10s_curve",
         "last": "39 bp",
         "reference_type": "ny_close",
         "tenor": "2S10S",
@@ -435,6 +415,7 @@
         "change_1d": "-2 bp",
         "change_1m": "-15 bp",
         "change_1w": "+4 bp",
+        "id": "ust_2s30s_curve",
         "last": "88 bp",
         "reference_type": "ny_close",
         "tenor": "2S30S",
@@ -444,6 +425,7 @@
         "change_1d": "-1 bp",
         "change_1m": "+7 bp",
         "change_1w": "-1 bp",
+        "id": "ust_2s5s10s_bfly",
         "last": "-15 bp",
         "reference_type": "ny_close",
         "tenor": "2S5S10S",
@@ -453,6 +435,7 @@
         "change_1d": "0 bp",
         "change_1m": "+1 bp",
         "change_1w": "-2 bp",
+        "id": "ust_2s10s30s_bfly",
         "last": "-10 bp",
         "reference_type": "ny_close",
         "tenor": "2S10S30S",
@@ -462,6 +445,7 @@
         "change_1d": "+1 bp",
         "change_1m": "+18 bp",
         "change_1w": "-2 bp",
+        "id": "tips10y_ny_close",
         "last": "2.17%",
         "reference_type": "ny_close",
         "tenor": "10TIPS",
@@ -471,6 +455,7 @@
         "change_1d": "+2 bp",
         "change_1m": "-16 bp",
         "change_1w": "-5 bp",
+        "id": "be10y_ny_close",
         "last": "2.31%",
         "reference_type": "ny_close",
         "tenor": "10BE",

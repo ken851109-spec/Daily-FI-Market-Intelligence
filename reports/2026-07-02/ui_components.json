@@ -2,6 +2,12 @@
   "anchor": "ny_close",
   "archive_dates": [
     {
+      "date": "2026-07-17",
+      "label": "2026-07-17",
+      "href": "?date=2026-07-17",
+      "active": false
+    },
+    {
       "date": "2026-07-16",
       "label": "2026-07-16",
       "href": "?date=2026-07-16",
@@ -220,189 +226,137 @@
   ],
   "cross_asset_cards": [
     {
-      "reference_type": "ny_close",
-      "summary": "Breakevens gave only a limited inflation signal.",
-      "title": "Oil",
-      "value": "WTI 68.37 (-0.31%) / BRENT 71.5 (-0.1%)"
+      "id": "cross-asset-credit",
+      "reference_type": "same_date_market_close",
+      "summary": "Later listed credit gains signaled resilient broad risk tone, while AI supply concentration remained the fault line.",
+      "title": "Credit",
+      "value": "LQD 108.64 (+0.166%) / HYG 79.71 (+0.1508%) / JNK 95.99 (+0.1147%) / EMB 96.2 (+0.1875%)"
     },
     {
-      "reference_type": "ny_close",
-      "summary": "Technology shares lagged broad equity resilience.",
-      "title": "Equities",
-      "value": "SPX 7,483 (+0%) / NDX 29,329 (-1.61%) / SOX 12,626 (-5.44%) / VIX 16.15 (-2.65%)"
+      "id": "cross-asset-dollar-commodities",
+      "reference_type": "same_date_market_close",
+      "summary": "Later dollar weakness and gold strength supported Fed relief, while oil preserved disinflationary context.",
+      "title": "Dollar and commodities",
+      "value": "DXY 100.86 (-0.5227%) / WTI 68.69 (+0.1604%) / Brent 71.8 (+0.3214%) / Gold 4112.7002 (+1.0914%)"
     },
     {
-      "reference_type": "ny_close",
-      "summary": "Listed credit and EM improved with lower yields, DXY and VIX as AI supply kept funding selective.",
-      "title": "Credit / EM",
-      "value": "LQD 108.64 (+0.17%) / HYG 79.71 (+0.15%) / JNK 95.99 (+0.11%) / EMB 96.20 (+0.19%)"
-    },
-    {
-      "reference_type": "ny_close",
-      "summary": "Treasury yields were little changed, while a softer dollar and gold strength left residual hedging.",
-      "title": "Dollar / gold",
-      "value": "DXY 100.99 (-0.4%) / GOLD 4,141 (+1.8%)"
+      "id": "cross-asset-equities-volatility",
+      "reference_type": "same_date_market_close",
+      "summary": "Broad equity stability and lower volatility contained the chip rout to a sector shock, not a systemic break.",
+      "title": "Equities and volatility",
+      "value": "S&P 500 7483.2402 (+0.0001%) / Nasdaq 100 29329.2109 (-1.61%) / SOX 12626.2197 (-5.4448%) / VIX 16.15 (-2.6522%)"
     }
   ],
   "header": {
-    "as_of_note": "NY close 2026-07-02 with the front end firmer, curves steeper, oil and DXY lower, and credit tone more selective.",
-    "latest_update_cutoff": "2026-07-03T08:00:00+08:00",
-    "reading_time_label": "About 15 min read",
-    "report_date": "2026-07-02",
-    "stance": "Front-end relief arrived as supply, AI credit and global duration kept the close disciplined.",
-    "title": "Daily FI Market Intelligence: 2026-07-02 NY Close"
+    "as_of_note": "SIFMA early close · 2:00 p.m. ET · 2026-07-02",
+    "latest_update_cutoff": "U.S. fixed-income early close · 2:00 p.m. ET",
+    "stance": "Front-end relief steepened the curve while long-duration pressure held into the 2:00 p.m. early close",
+    "title": "Daily FI Market Intelligence"
   },
   "long_thesis": {
-    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 2 NY close gave fixed income a cleaner front-end relief signal than the prior session. Payrolls slowed enough to take pressure off the immediate Fed-hike debate, and the policy-sensitive part of the curve responded first. Short maturities reflected a Fed that can wait for more data, especially with oil back near pre-shock levels and inflation compensation contained. The long end carried a different message: investors still wanted compensation for supply, reduced guidance, and foreign rate normalization. That mix produced curve steepening with a constructive front-end tone and a disciplined duration read.\n\nThe restraint came from the price of capital beyond the next Fed meeting. The labor report reduced near-term hike pressure and helped the front end, while term premium and global duration kept the 10Y and 30Y from joining the move. Real yields stayed firm, breakevens were stable, and next week's coupon supply moved quickly into focus. The market was willing to reward softer hiring, yet it still needed evidence that oil relief, wage moderation, and Treasury demand can hold together.\n\nCross asset confirmation was also selective. A softer dollar and lower volatility helped listed credit and EM debt recover from the prior day's weaker tone. Semiconductor losses, weaker Nasdaq leadership, and AI-linked borrowing needs kept the risk read more complicated than a simple relief rally. That technology drawdown matters for fixed income because the AI buildout has become a funding story as much as an equity story. If the sector keeps borrowing heavily while equity leadership narrows, investors will demand clearer evidence that cash-flow growth can absorb the debt load.\n\nThe session therefore sits between relief and selectivity. Softer labor data, lower oil, a weaker dollar, and lower volatility helped Treasuries at the front end and supported credit/EM proxies. Long-end rates, AI-linked credit supply, weaker borrower syndication, and global central-bank caution kept the close from becoming a broad easing of financial conditions. Payrolls bought the Fed time, while the market kept the risk premium attached to supply, inflation expectations, and funding quality.\n\nThat balance also matters for how the session carries forward. The market still priced a meaningful July hike tail and real yields stayed firm, even as dollar liquidity, listed credit, and EMB moved in a direction that eased funding pressure. Short maturities reflected patience. Long maturities, credit underwriters, and AI-sensitive equities asked whether that patience will be enough when supply and refinancing needs return after the holiday.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nThe rates move was led by policy repricing. Payrolls increased by only 57,000 after downward revisions to prior months, well below the roughly 113,000 consensus expectation embedded in the pre-release setup. That miss weakened the case for an immediate Fed hike and gave short-dated Treasuries room to rally after several sessions of firmer front-end pricing. The 2Y yield fell to 4.14%, and the 5Y yield followed more modestly to 4.23%. The CME FedWatch rows kept the next-meeting implied midpoint at 3.70%, with a 70% hold probability and a 30% hike probability for July 29. The market shifted the burden of proof back toward stronger labor or inflation evidence.\n\nThe curve shape carries the main message. The 2s10s curve widened to 35 bp and the 2s30s curve widened to 84 bp, both up 4 bp on the day. That is a steepening driven by front-end relief and long-end resistance. The 10Y yield at 4.49% and 30Y yield at 4.98% show that investors treated softer hiring as helpful without turning aggressive on long duration. The 10Y real yield rose to 2.26%, while the breakeven held at 2.23%. With WTI down to 68.37 and Brent at 71.50, inflation compensation did not need to rise. The real-yield and term-premium side carried the long-end caution.\n\nFed communication explains part of that divergence. Warsh's recent comments lowered the sense that inflation risks were worsening every week, while Daly argued that policy remains restrictive enough to cool inflation but that uncertainty still matters. That combination leaves the Fed with room to be patient, yet it also reduces the amount of explicit guidance investors can rely on. A less-guided Fed makes data releases more powerful and can keep term premium elevated even when one labor print is soft. The market is no longer only trading the next meeting; it is trading how much compensation to require when the reaction function is deliberately more data dependent.\n\nSupply is the other constraint. The Treasury schedule turns quickly to a new three-year note and 10Y and 30Y reopenings next week. A payroll-led front-end rally can survive only if that supply clears without widening concession in the belly and long end. The July 2 curve already shows the market reserving judgment: short maturities reflected lower hike risk, while longer maturities asked for compensation. If the supply cycle meets strong demand, the long end can finally validate the front-end rally. If auction tails or dealer balance-sheet concerns appear, the curve can steepen for the less constructive reason of duration risk rather than policy relief.\n\nThe rates takeaway is narrow and meaningful. The labor report cooled the immediate hike premium and steepened the curve. The long end still needs evidence that oil relief, wage moderation, and Treasury demand can hold together. The Fed can wait, while investors still need to be paid for supply and uncertainty.\n\nThat balance should guide the next rates read. If the 2Y continues to rally while the 10Y and 30Y stay pinned, the curve can steepen without automatically helping duration portfolios. A healthier steepening would come with lower real yields, stable breakevens, and good coupon absorption. A more defensive steepening would come from long-end concession, foreign selling, or term-premium rebuilding while the front end merely removes hike odds. July 2 leaned toward the healthier version in the front end and still needed proof in the long end.\n\nThe payroll composition also leaves the Fed with a cleaner patience argument than a full easing argument. Hiring slowed, revisions weakened the prior path, and leisure and hospitality weakness suggested that some seasonal strength failed to arrive. The unemployment rate moved lower through participation, which keeps the labor read from becoming a simple downturn signal. For rates, that combination supports patience at the next meeting and preserves a data premium beyond it. The front end can price less urgency; the belly and long end still need confirmation from wages, inflation expectations, and supply demand.\n\n## Credit, Funding, And Primary-Market Absorption\n\nCredit looked better on the listed market board, and the underlying funding message stayed tiered. LQD rose 0.17%, HYG rose 0.15%, and JNK rose 0.11%, which marked a clear improvement from the prior session's weaker listed fixed-income tone. Lower front-end yields, lower volatility, and a softer dollar helped the risk backdrop. Those gauges say that broad spread risk was able to absorb the payroll day and trade with the rates relief. Listed ETFs marked risk tone, while order books, secondary trading, borrower terms, and new-issue concessions set the stronger credit read.\n\nThe highest-quality part of the credit market still has access, and concentration risk is becoming a central feature. AI-linked issuers and hyperscalers have lifted the average quality of the investment-grade index on paper as more AA and A borrowers sell debt. That helps explain why high-grade spreads can remain tight even with large supply. The same fact also concentrates risk around a narrower capex story. If the expected returns from AI infrastructure disappoint, spread widening could begin in the better-rated names that have supplied the market with duration, size, and sector concentration.\n\nSpaceX gives that concentration story a live distribution check. The company drew very large demand for its recent high-grade sale, yet the bonds weakened quickly in secondary trading. That is the important credit signal: headline order books can be large while traditional long-only sponsorship, insurance demand, and post-pricing stability are less certain. A weak secondary performance in a giant deal does not mean the market is closed. It means investors are distinguishing between capacity to place paper and confidence that the deal will trade cleanly after allocation.\n\nWeaker borrowers faced a different constraint. Sound Physicians' withdrawn leveraged-loan offering showed that syndication discipline still exists even in a market where many loans and refinancings can clear. The proposed financing offered a large spread over benchmark rates and included investor protections, yet demand was insufficient by the deadline. That sits alongside broader evidence that funding is open for strong or strategically important borrowers but less forgiving for single-B names, healthcare staffing exposure, or issuers that need refinancings to simplify stressed capital structures.\n\nThe July 2 credit read is constructive in spread tone and selective in underwriting. Lower yields and lower volatility helped listed credit, while AI supply, SpaceX secondary weakness, and Sound Physicians' failed loan keep the market focused on distribution quality. The next useful signal is whether new AI-linked issuance clears without bigger concessions, whether SpaceX stabilizes, and whether weaker borrowers can relaunch deals without moving more risk into private credit or creditor-controlled structures.\n\nThe listed gauges were useful because they showed that the rates rally and lower VIX allowed investors to add risk during the session. The stronger credit information came from the split between high-quality supply and weaker refinancing. AI borrowers can still access capital at scale, while investors are asking whether index quality is improving because balance sheets are genuinely safer or because very large technology issuers are changing index composition. Weaker borrowers face the opposite issue: even generous margins may fail to clear when investors dislike the business model, leverage path, or sponsor terms. That split keeps credit open and raises the premium on issuer selection.\n\nThe practical credit implication is a higher bar for clean distribution. Investors can accept large AI-related balance-sheet funding when cash flow, strategic importance, and deal terms are strong. They can also step away from weaker leveraged loans when the refinancing case depends too heavily on sponsor support, future operating repair, or private-market exits. That produces a market where the average index may look higher quality and the marginal borrower still pays for uncertainty. July 2's listed gains fit that environment: they showed better risk appetite after payrolls, while primary and secondary details kept credit discipline intact.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nGlobal duration gave Treasuries only a partial tailwind. Oil relief helped inflation optics across developed markets, while central banks kept the second-round risk alive. BOE's Mann signaled that she is ready to hike if expectations and price pressures do not improve, even while supporting a hold for now. That keeps gilts sensitive to wages, energy prices, and expectations. ECB messaging also remained split: lower inflation can reduce the urgency of another hike, while services, wages, and credibility keep policy makers from sounding fully relaxed.\n\nJapan remains the clearest foreign-duration pressure point. BOJ normalization has moved from theory to financing behavior. Japanese companies sold the largest first-half amount of convertible bonds in more than two decades, using equity-linked structures to manage higher funding costs as domestic rates rise. The 10Y JGB yield near multi-decade highs and the BOJ's signal that more hikes lie ahead have changed issuer behavior. That matters for global fixed income because Japan is no longer a simple low-yield anchor. It is a market where domestic investors, issuers, and global allocators are all adapting to higher rates and higher equity volatility.\n\nThe Treasury long end is exposed to that global backdrop. When the 10Y and 30Y do not rally on a weaker US labor print, the market is saying that domestic policy relief is only one part of the duration equation. Foreign central-bank caution, Japan's rate normalization, and the global competition for savings can limit how far US long yields fall. The 30Y at 4.98% is not only a US growth number; it also reflects the price of term risk in a world where several major central banks still want evidence that inflation expectations are contained.\n\nFiscal and issuance channels matter here as well. Next week's US coupon supply is the immediate test, but the broader issue is that governments and high-quality corporates are competing for duration demand. If supply clears smoothly, the US curve can interpret payrolls as a more durable relief signal. If long-end auctions need concession, the market will keep treating soft data as front-end friendly but insufficient for a long-end rally.\n\nThe developed-market duration message is conditional. Lower oil and softer US hiring reduce the pressure for near-term hikes. BOE, ECB, and BOJ signals keep investors alert to inflation expectations, wage persistence, and term-premium rebuilding. That is why the July 2 rates close steepened across the curve instead of turning into a broad rally.\n\nThe global channel also limits how much the US market can rely on domestic labor softness alone. A lower payroll number can reduce the Fed's urgency. Foreign curves still need their own wage, currency, and fiscal issues to improve. BOE inflation expectations, ECB services pressure, and Japan's higher-rate funding environment all compete with the US front-end signal. For global fixed-income investors, the practical question is whether US labor relief is large enough to offset the portfolio drag from foreign duration risk and heavy public/private issuance. July 2 helped the front end and left global duration buyers waiting for more confirmation.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEM received a better external backdrop on July 2. DXY fell to 100.986, EMB rose 0.19%, and softer front-end US yields lowered the immediate dollar-liquidity hurdle. The prior session had put EM funding under pressure through a firmer dollar and weaker listed debt. The July 2 board moved in the other direction: weaker dollar, lower volatility, and better listed EM debt. The improvement was real and remained country-specific.\n\nAsian local-currency bonds supplied the strongest resilience signal. Thailand, Indonesia, India, and Malaysia drew combined June inflows of about $8.2 billion, and emerging Asia local bonds have shown relatively low sensitivity to US five-year yield moves compared with EMEA and Latin America. That suggests investors are rewarding regional policy credibility, contained energy risk, and local-rate carry even when Fed pricing is not fully benign. The July 2 dollar move made that story easier to hold, while each country's inflation and central-bank posture still controls the attraction.\n\nHard-currency and sovereign debt-management stories remained more selective. Colombia's incoming administration plans to seek debt refinancing to extend maturities and lower borrowing costs, with eurobond spreads near 200 bp making concrete fiscal actions important. The market may be willing to give reform expectations some credit, and it will still demand evidence on deficit reduction, transition execution, and financing terms. Mexico's trade uncertainty around USMCA belongs in the same broad EM risk map as a forward-looking investment and FX issue, away from same-day Treasury causality.\n\nThe positive confidence ladder for EM is straightforward. EMB and DXY marked the daily external tone. Asia local inflows confirmed that some markets can attract capital even when the Fed is not clearly dovish. Colombia and Mexico showed that fiscal and trade credibility still decide the country-level premium. A softer dollar can open the window and policy execution, external financing needs, and investor trust decide who can keep it open.\n\nThe next EM check is whether dollar softness survives the next US data and supply cycle. If DXY continues lower and US real yields stop rising, EM local duration and hard-currency spreads can extend relief. If the dollar firms again or long-end US yields rise on supply, the benefit will narrow quickly to higher-quality local markets and reform stories with credible fiscal anchors.\n\nThat country filter is especially important because the EM story has two different engines. One is the macro liquidity engine: lower DXY, lower front-end yields, and softer oil can support local-currency bonds and reduce pressure on external balances. The other is the domestic credibility engine: fiscal consolidation, debt-management discipline, reserve adequacy, and central-bank independence. Asia local bonds benefited because both engines looked acceptable in several markets. Colombia still has to prove the domestic engine through concrete fiscal action. Mexico's trade uncertainty can challenge investment confidence even if the dollar is softer. The July 2 board improved the macro liquidity engine and kept country risk differentiated.\n\nThe EMB gain therefore deserves a positive and narrow interpretation. It marked better hard-currency tone after a softer dollar and lower US front-end yields. It did not erase the need to separate local-currency Asia demand from higher-beta sovereign refinancing stories. Investors are rewarding countries that can pair carry with credible policy and manageable external balances. They are likely to remain more cautious where trade rules, fiscal transitions, or debt-management plans need clearer execution. That leaves EM supported by the daily dollar move and still governed by country selection.\n\n## Cross Asset\n\nCross asset confirmation supported fixed income in some channels and challenged it in others. Oil was helpful: WTI fell to 68.37 and Brent to 71.50, keeping the energy shock from feeding breakevens. DXY fell 0.40%, easing dollar-liquidity pressure. VIX fell to 16.15, which helped listed credit and EM. Gold rose 1.80%, showing that hedging demand remained present even as volatility fell. Those moves fit a market that welcomed lower near-term hike odds but still wanted protection against uncertainty.\n\nEquities gave the caution side of the signal. The S&P 500 was flat, while Nasdaq 100 fell 1.61% and SOX dropped 5.44%. That is not just a technology-sector footnote. AI equity leadership has been tied to corporate capex, debt issuance, data-center funding, and investor tolerance for long-dated growth assumptions. When semiconductors weaken sharply on the same day that AI-linked credit concentration is under discussion, fixed-income investors have to treat equity weakness as a credit-quality and supply-absorption input.\n\nThe listed credit board was better than the equity board. LQD, HYG, JNK, and EMB all rose, consistent with lower yields, lower volatility, and lower DXY. That combination is useful and still leaves the AI funding question unresolved. Credit can trade firmer on the day while demanding better concessions from issuers whose debt load is linked to uncertain future AI returns. That is the difference between spread tone and underwriting confidence.\n\nThe dollar-oil mix was the most constructive cross asset input for rates. Lower oil kept inflation compensation from widening, and the weaker dollar helped EM and global risk appetite. The 10Y and 30Y yields still rose 1 bp, so the market did not convert those inputs into broad duration buying. The long end wanted additional confirmation from supply, wages, and inflation expectations.\n\nThe cross asset conclusion is selective relief. The session was better for front-end rates, dollar liquidity, listed credit, and EM debt than for technology leadership or long-end duration. A durable fixed-income rally needs more than lower oil and a softer dollar; it needs the AI equity and credit channel to stabilize, coupon supply to clear, and the Fed pricing debate to move from lower immediate hike odds to a lower medium-term real-rate path.\n\nThe commodity mix also matters for that durability. Lower crude helped breakevens stay contained and reduced the inflation impulse from the earlier geopolitical shock. Gold's gain showed that the market was still paying for hedges. A session with lower oil, lower DXY, lower VIX, and higher gold points to reduced policy and dollar stress alongside persistent uncertainty. That is consistent with the rates curve: front-end relief was visible, while long-end and hedge demand kept the broader fixed-income read disciplined.\n\n## Forward Market Significance\n\nTreasury supply is the immediate rates check. Next week's three-year sale and 10Y and 30Y reopenings will decide whether the payroll-led front-end relief can extend into the belly and long end. Strong demand would validate the idea that weaker labor data reduced the real-yield premium. Weak demand would leave the market with a steeper curve driven by supply concession.\n\nFed pricing is the next policy check. The next-meeting split of 70% hold and 30% hike leaves room for meaningful movement. Softer labor data and lower oil argue for patience. The Fed's inflation uncertainty and reduced forward guidance mean the market still needs confirmation from wages, participation, inflation expectations, and incoming activity data. A further decline in hike probability would support the front end; renewed inflation firmness would make the July 2 rally vulnerable.\n\nCredit distribution is the funding check. SpaceX secondary trading, AI-linked high-grade issuance, and Sound Physicians' eventual relaunch terms will show whether investors are comfortable with concentrated supply and weaker borrower refinancing. Tight spreads alone are incomplete. Clean trading after allocation, stable books, and disciplined concessions are the signals that spread strength has deeper sponsorship.\n\nEM dollar liquidity is the country-risk check. DXY softness and EMB strength helped July 2. The durability of that move depends on US real yields and country execution. Asia local-currency inflows can continue if regional central banks preserve credibility and energy risk stays contained. Colombia's refinancing plan, Mexico trade uncertainty, and broader hard-currency spreads will show where relief is being earned and where it is merely borrowed from the dollar move.\n\nGlobal inflation psychology is the duration check. BOE, ECB, and BOJ signals all say that lower oil is helpful and not decisive. Wage expectations, services prices, Japan rate normalization, and foreign duration demand will decide whether global curves can reinforce US front-end relief. July 2 gave fixed income a better setup than July 1 and left a clear test: can weaker labor data become broad duration support while credit distribution and global inflation risk stay contained?\n\nClean follow-through would be a sequence in which hike probabilities fall further, the 10Y real yield stops rising, long-end auctions clear cleanly, and listed credit strength is confirmed by stable new-issue trading. A rougher path would pair front-end relief with long-end concession, technology-led equity weakness, and wider concessions for concentrated or weaker borrowers. July 2 improved the starting point and left July's direction to supply, Fed communication, credit distribution, and the dollar in the next trading window.\n\nThe near-term bias is therefore conditional relief. Fixed income starts the next window with less immediate Fed pressure and a friendlier dollar backdrop. The same setup remains vulnerable to any sign that inflation expectations are sticky, coupon demand is thin, or credit investors require more compensation for AI concentration and weaker refinancing. July 2 gave the market a better set of starting conditions. The next sessions decide whether those conditions become a broader easing of the price of capital or remain a short-end adjustment inside a still selective funding cycle.\n",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe July 2 Treasury close interrupted the real-yield-led selloff of the previous two sessions without delivering a broad duration rally. Softer US employment data pulled policy-sensitive yields lower and pushed an immediate Federal Reserve increase further from the center of the market’s distribution. The long end did not follow. Benchmark and long-bond yields held slightly above the prior day, leaving the curve steeper and preserving the term-premium pressure that had dominated July 1. This was a SIFMA-recommended early close at 2:00 p.m. ET, so the outcome is best understood as a front-end policy repricing inside a still-demanding long-duration environment, not as a regular full-session verdict.\n\nThe central interpretation therefore changed in one important respect. July 1 had combined softer inflation signals with rising real yields across the curve, implying that growth resilience, uncertain Fed communication and the long-end clearing rate outweighed disinflation. July 2 weakened the growth side of that argument. June payroll growth slowed sharply, earlier months were revised down, participation fell and factory orders contracted. Initial claims remained low, however, and shipments and backlogs still expanded. The evidence reduced the urgency of a near-term hike without establishing a rapid labor or demand break.\n\nThree transmission channels defined the shortened close. The labor report and lower oil shifted Fed pricing and favored the two-year sector. Stable breakevens and positive long real-yield changes kept the benchmark and long end from sharing that rally. Global duration supplied an additional restraint: a weak Japanese government-bond auction, persistent yen pressure and concern that the BOJ could fall behind inflation pushed Japanese yields sharply higher, sustaining a cross-market term-premium hurdle even as the ECB debate became less urgent.\n\nCredit and cross assets made the message less defensive than the rates curve alone might suggest. Listed corporate and emerging-market debt gauges later finished modestly higher, yet the high-grade market’s growing concentration in AI-related borrowers raised a separate absorption risk beneath tight aggregate pricing. The dollar weakened and gold rose after the fixed-income cutoff, reinforcing the softer near-term Fed interpretation. A deep semiconductor selloff alongside subdued volatility showed that risk aversion was concentrated, not systemic. The close thus reversed immediate hike anxiety while leaving long-duration compensation, primary-market concentration and global policy dispersion unresolved.\n\n## UST Rates, Fed Pricing, Real Yields, And Curve Structure\n\nTreasury’s official daily reference series, timestamped 5:00 p.m. ET, recorded the two-year yield at 4.14%, down three basis points, and the five-year at 4.23%, down one. The 10-year rose one basis point to 4.49%, and the 30-year added one to 4.98%. These are daily references for the shortened session, not exact observations at the SIFMA-recommended early close at 2:00 p.m. ET. They nevertheless capture the defining split: policy-sensitive maturities rallied after the employment release, while benchmark and long duration retained the prior session’s elevated clearing rate.\n\nCurve slopes translated that divergence cleanly. The 2s10s spread widened four basis points to 35, and 2s30s widened four to 84. The 2s5s10s butterfly was unchanged at minus 17, showing no fresh dislocation in the five-year against its wings. The 2s10s30s butterfly rose four basis points to minus 14 as the 10-year cheapened relative to the average of the two-year and long bond. The move was therefore a policy-led bull steepening at the front, with no corresponding fall in longer yields.\n\nThe broader horizon prevented the front-end rally from becoming a regime change. Over one week, two-, five-, 10- and 30-year yields were still higher by five, eight, nine and 12 basis points. Over one month, the two-year remained nine basis points higher and the five-year five higher, whereas the 10-year was only two higher and the 30-year one lower. July 2 repaired part of the immediate policy shock but did not erase the week’s synchronized cheapening or the longer-running difference between front-end Fed risk and far-end duration demand.\n\nJune employment supplied the main causal break before the cutoff. Nonfarm payrolls increased by 57,000, below the 113,000 median estimate, after downward revisions to the previous two months. Unemployment fell to 4.2%, but the decline reflected a sharp drop in labor-force participation, limiting its hawkish content. Short-rate futures reduced the probability of a July 29 increase to about 20% from roughly 33% before the release. A quarter-point move remained fully priced for the year, though the expected timing shifted to December from October.\n\nThe accompanying releases kept the repricing measured. Initial claims fell by 1,000 to 215,000 in the week ended June 27, and their four-week average declined to 222,000. Insured unemployment rose by 2,000 to 1.814 million, with its four-week average increasing to 1.803 million. The flow of new layoffs remained contained even as continued claims suggested slower re-employment. May factory orders fell 1.3% after April’s 5.3% increase, yet shipments rose 1.6%, unfilled orders gained 0.6% and inventories increased 0.2%. Demand cooled, but production pipelines did not collapse.\n\nInflation-linked pricing explains why longer nominal yields resisted the labor relief. The 10-year real yield rose one basis point to 2.26%, while the 10-year breakeven was unchanged at 2.23%. Five-year real yields added one basis point to 1.99%; seven-year real yields held at 2.11%; and 20- and 30-year real yields rose two and one basis points to 2.60% and 2.79%. The benchmark nominal increase came from real compensation, not a renewed rise in inflation expectations. Cheaper oil helped restrain breakevens, but it did not reduce the real return required for intermediate and long duration.\n\nCash bills were more uneven than the coupon curve. Four-week coupon-equivalent yields rose four basis points to 3.67%, and eight-week yields added three to 3.72%. Six-week yields fell three basis points to 3.67%, while 13-, 17-, 26- and 52-week yields declined by three to four basis points, ending between 3.76% and 3.95%. The pattern concentrated pressure in the maturities sold during the shortened session and did not resemble a uniform holiday funding squeeze.\n\nThe 28-day auction accepted $85.0001367 billion at a 3.605% high rate with 2.72 bid-to-cover. Indirect bidders took 67.05% of competitive awards, direct bidders 3.75% and dealers 29.20%; 46.77% was allotted at the high. The 56-day sale accepted $85.0007166 billion at 3.650% with 2.70 coverage. Its indirect, direct and dealer shares were 61.72%, 3.90% and 34.38%, and 53.99% was allotted at the high. Both securities issue and settle July 7, so the bidding outcome established pre-holiday absorption while the cash transfer remains a later event.\n\nThe shortened close consequently separated two questions that had moved together earlier in the week. Payrolls and participation reduced the need for an imminent Fed response, and pre-release short positioning likely amplified the front-end rally. Long maturities still faced positive real yields, upcoming coupon supply and an unsettled global term premium. Equity, currency, commodity and volatility closes recorded at 5:00 p.m. ET can confirm or complicate that interpretation only as later evidence; they did not cause the completed fixed-income move after the 2:00 p.m. ET cutoff.\n\n## Credit, Funding, And Primary-Market Absorption\n\nBroad listed credit tone was resilient after the rates close. At the 5:00 p.m. ET equity-market reference, LQD gained 0.1660%, HYG rose 0.1508% and JNK added 0.1147%. The modest, similar direction across quality tiers did not indicate a broad risk liquidation despite the semiconductor shock. The more consequential credit signal came from the changing composition of high-grade supply and the capacity required to absorb it, not from a large move in listed funds.\n\nHigh-rated technology issuance has mechanically improved index quality while increasing concentration. AA- and A-rated bonds represented 52% of the US investment-grade index at the end of June, up from about 46% in 2021, as BBB exposure fell to 41% from 46%. High-grade spreads were only 0.74 percentage point on July 1, near multi-decade lows. Strong current ratings therefore supported tight aggregate pricing, but they also made the index more dependent on a narrow group of cash-rich technology borrowers.\n\nThe supply scale sharpened that dependence. Companies had sold about $220 billion of AI-linked bonds across currencies during 2026, 62% more than in all of 2025. Four hyperscalers—Amazon, Meta, Alphabet and Oracle—accounted for roughly $107 billion of dollar issuance. Nvidia and SpaceX each sold $25 billion in June, helping monthly high-grade volume reach a record. The six largest US hyperscalers were preparing nearly $820 billion of AI spending during 2026, suggesting that primary-market absorption remains a recurring requirement rather than a completed funding event.\n\nBalance-sheet strength lowers immediate default risk but does not remove maturity or return-on-investment risk. Longer bonds can outlive the economic usefulness of the assets they finance: Alphabet issued sterling debt with a 100-year maturity, and Nvidia and SpaceX included 20- and 30-year tranches. SpaceX’s debut bonds weakened rapidly in secondary trading, showing that ratings and headline demand do not guarantee stable post-pricing performance. Continued issuance could widen spreads through supply even if underlying cash flows remain sound; disappointing AI returns would add leverage and refinancing pressure.\n\nJapan offered a different form of primary-market adaptation. Companies sold ¥1 trillion of convertible bonds in the first half, the most for that period since 2004. Nippon Steel’s ¥600 billion transaction was the largest Japanese convertible issue on record, and JX Advanced Metals raised ¥250 billion. Many deals carried zero coupons, allowing issuers to reduce cash interest costs while higher equity valuations supplied conversion value. Rising domestic policy rates made that hybrid channel more attractive, though its economics depend on equity performance as well as creditor protection.\n\nPre-holiday bill auctions showed that cash investors could absorb substantial government supply before the interruption, but their July 7 settlement leaves a later funding test. The Federal Reserve’s H.4.1 release at 4:30 p.m. ET supplied subsequent context only: reserve balances averaged $2.967 trillion in the week ended July 1, up $15.5 billion, as the Treasury General Account fell $38.5 billion. That later liquidity snapshot cannot explain the earlier close. It does show that reserves had risen going into the next settlement cycle, alongside higher reverse repos and a smaller securities portfolio.\n\nCredit access thus remained open across public bonds, convertibles and listed risk vehicles, with material differentiation in what investors were financing. High current ratings and large issuer cash flows supported absorption; tight spreads, long asset lives and repeated AI supply reduced the margin for disappointment. The key fault line was concentration and structure, not a same-day shutdown in funding.\n\n## Global Duration, Central Banks, And Fiscal Transmission\n\nEuropean data extended the disinflation impulse that had failed to rally Treasuries on July 1. Euro-area inflation slowed to 2.8% in June from 3.2% in May and came in below a 3.0% estimate. May unemployment held at 6.2%, with the number of unemployed people down 55,000 from April and 158,000 from a year earlier. First-quarter house prices still rose 4.7% from a year earlier, although that pace eased from 5.1% in the fourth quarter. The combination reduced immediate price pressure without presenting a weak labor or household-balance-sheet backdrop.\n\nECB communication preserved a two-sided policy consequence. Christine Lagarde defended June’s increase because the energy shock had been spreading through the economy when the decision was made. She also acknowledged that second-round effects had not materialized. Philip Lane remained attentive to delayed pass-through into wages, food and services, whereas Olli Rehn and Martin Kocher judged the near-term threat to have diminished after oil returned toward prewar levels. European front-end rates therefore faced less urgency, but the Governing Council had not declared the inflation shock resolved.\n\nThe UK supplied a more explicit upside-policy tail. Bank of England policymaker Catherine Mann supported holding the policy rate at 3.75% for now, yet said persistent inflation expectations, energy costs, profit-margin behavior or adverse wage negotiations could warrant an activist increase. Her stance followed a 7-2 vote against a quarter-point hike at the prior meeting. The direct transmission to global duration is a higher conditional floor for sterling rates if expectations drift, even as current oil relief reduces the need for immediate action.\n\nJapan moved decisively in the other direction. A benchmark 10-year JGB auction produced a 3.13 bid-to-cover ratio, down from 3.53 at the previous sale and below the 3.33 one-year average. The 10-year yield rose seven basis points to 2.77%, and the 20-year climbed 9.5 basis points to 3.76%. Demand weakened as investors weighed fiscal expansion and the risk that gradual BOJ tightening would allow inflation pressure to persist. The auction made the long-end concern observable through bidding and secondary yields, not merely through policy commentary.\n\nCurrency, policy and buyer-base evidence reinforced that pressure. The BOJ had raised its benchmark rate to 1%, the highest since 1995, yet markets assigned more than a 60% probability to another increase by October as the yen remained weak. Firms’ longer-term inflation expectations in the Tankan reached 2.6%, the highest in the series beginning in 2014. Overseas investors sold ¥3.12 trillion of Japanese bonds during June, the largest outflow in three years, as BOJ purchases receded and government supply rose. Those channels increase the domestic yield needed to retain buyers.\n\nFiscal expectations added a separate premium. Prime Minister Sanae Takaichi targeted an expansion of nominal GDP to $6.8 trillion in the fiscal year beginning April 2040, and investors awaited details on a possible suspension of the sales tax on food and beverages. The policy may support nominal activity, but it also raises questions about issuance and inflation while the central bank normalizes cautiously. A higher JGB clearing rate can reduce the relative appeal of foreign duration for Japanese investors, transmitting pressure into other sovereign long ends even without a synchronized inflation shock.\n\nAustralia contributed a smaller regional growth counterweight. Its May goods balance swung to an A$3.018 billion deficit from a A$1.383 billion surplus as exports fell 6.9% and imports rose 2.6%. A 35% decline in non-monetary-gold exports drove most of the export weakness. The release occurred at 9:30 p.m. ET on July 1, before the US shortened session, and pointed to a softer external-demand impulse. That signal could restrain Australian duration, but it was too narrow to offset the stronger Japanese term-premium channel.\n\nGlobal duration therefore became more dispersed, not uniformly easier. Euro-area disinflation reduced the probability of rapid follow-up tightening, and Australian trade softened. Japan combined weak auction demand, foreign selling, fiscal ambition and currency-linked inflation risk, while the BOE kept a conditional hike threat alive. The US long end’s refusal to rally after soft payrolls fits that international backdrop: lower near-term policy urgency can coexist with a high real and term-premium hurdle when sovereign supply and buyer incentives are moving in different directions.\n\n## EM Sovereigns, Dollar Liquidity, And Debt-Management Risk\n\nEmerging-market financial conditions improved at the margin after the US labor release. Major EM currencies rose as investors reduced the urgency of Fed tightening, with the South African rand and Hungarian forint gaining about 1% and several Latin American currencies advancing. The Bloomberg Dollar Spot Index was down 0.5% during the US session. The mechanism was clearest in currencies: a less immediate Fed hike lowers the relative-rate hurdle and eases the cost of servicing dollar liabilities.\n\nLocal-currency sovereign demand had already shown resilience before the US repricing. Foreign inflows into government bonds in Thailand, Indonesia, India and Malaysia reached $8.2 billion in June, the strongest combined total in more than two years. Expectations that regional central banks would keep rates elevated supported carry even when investors feared renewed Fed tightening. Since the US-Iran agreement, an emerging-Asia bond index had gained 0.2%, compared with a 0.6% decline in a Latin American gauge, demonstrating that energy exposure and domestic policy still produced regional dispersion.\n\nThe same resilience contains a constraint. Elevated local rates can attract foreign capital, but they also reflect persistent inflation and tighter domestic financing conditions. South Korean consumer inflation accelerated to 3.2% in June from 3.1%, while core inflation held at 2.5%. Strong exports, a weak currency and housing pressure kept the Bank of Korea’s bias restrictive. For sovereign curves, foreign inflows can support absorption only while domestic credibility and currency stability compensate investors for the rate risk.\n\nLater-closing dollar debt provided mild confirmation, with EMB gaining 0.1875% at the 5:00 p.m. ET reference. That total return combined Treasury duration and sovereign risk, so country-level funding conditions remained more informative than the aggregate move. A softer dollar aided hard-currency borrowers and commodity importers, but it did not settle refinancing risk for issuers with short maturities, weak reserves or dependence on foreign inflows.\n\nTurkey and Colombia remained examples of that vulnerability because both rely more heavily on external capital and would face a sharper tightening if the Fed returned to a hawkish path. Oil’s large monthly decline helped importers’ trade and inflation arithmetic, while reduced energy revenue worked against exporters. July 2 eased the common dollar-liquidity pressure; it did not produce a uniform sovereign outcome. Local-currency debt, hard-currency bonds and corporate funding continued to respond to different combinations of policy credibility, reserve capacity and terms of trade.\n\n## Cross asset\n\nCross assets recorded at the 5:00 p.m. ET New York reference mostly reinforced the front-end policy repricing after fixed income had already closed. The technology selloff was underway before 2:00 p.m., but final equity, volatility, currency and commodity values are later evidence. They can show whether the rates interpretation persisted through the rest of the day; they cannot reverse the causal order of the shortened Treasury session.\n\nEquity performance exposed sharp internal dispersion. The S&P 500 ended essentially unchanged at 7,483.24, while the Nasdaq 100 fell 1.61% and the Philadelphia Semiconductor Index dropped 5.4448%. The VIX declined 2.6522% to 16.15 despite those losses. Broad stability and lower implied volatility argued against a systemic growth shock, while the chip rout challenged confidence in the sector carrying a large share of investment-grade borrowing and capital expenditure.\n\nThe dollar and gold aligned more directly with reduced near-term Fed pressure. The Dollar Index fell 0.5227% to 100.86, and gold rose 1.0914% to $4,112.70. A weaker dollar eased global funding conditions and matched the decline in immediate hike probability. Gold’s gain also reflected lower yields and renewed demand for a non-yielding asset, though it did not signal a generalized haven episode when broad equities were flat and volatility fell.\n\nEnergy preserved the disinflationary medium-term context without adding a fresh daily impulse. WTI settled at $68.69, up 0.1604%, and Brent at $71.80, up 0.3214%. Over one month they were lower by 25.4666% and 24.4051%. The near-flat daily closes explain why 10-year breakevens held steady after their recent retreat. The much larger monthly decline remained central to the reduction in inflation anxiety cited by Fed and ECB officials.\n\nTaken together, later markets confirmed a narrower interpretation of the Treasury move. Dollar weakness and gold strength supported less urgent Fed tightening; flat broad equities and falling volatility denied the labor miss a recessionary reading. Semiconductor losses complicated the growth story and highlighted credit concentration, yet they did not generate a broad haven rally. The unresolved cross-asset question is whether the AI correction stays sector-specific or begins to weaken investment, issuance and risk appetite enough to pull long real yields lower.\n\n## Forward Market Significance\n\nThe first post-holiday US macro sequence begins July 6 at 10:00 a.m. ET with ISM services and the New York Fed Global Supply Chain Pressure Index, followed July 7 by May trade at 8:30 a.m. and the June Survey of Consumer Expectations at 11:00. The June 16-17 FOMC minutes arrive July 8 at 2:00 p.m. A softer services-employment and prices mix, contained logistics costs and easing household inflation expectations would confirm that the payroll slowdown can keep July policy unchanged, with the strongest response in two- to five-year yields. Resilient services demand, renewed price pressure or minutes showing broad support for a 2026 increase would challenge that front-end relief and restore the restrictive reaction function that drove the prior week’s selloff.\n\nTreasury absorption becomes a separate test from July 6 through July 9. The July 6 sales comprise $92 billion of 13-week bills and $79 billion of 26-week bills at 11:30 a.m. ET; July 7 brings $90 billion of 42-day bills, $52 billion of 52-week bills and a $58 billion three-year note. Reopenings of $39 billion in 10-year notes on July 8 and $22 billion in 30-year bonds on July 9 complete the sequence. Broad bidding, contained dealer awards and orderly July 9 bill and July 15 coupon settlements would resolve the immediate holiday-funding question while supporting the current curve split. Weak participation or persistent secondary cheapening would reopen balance-sheet concerns and transmit from cash bills into front-end liquidity or from coupon supply into the long-end term premium.\n\nThe global-duration divergence faces its clearest test in Japan and the euro area. Japan’s roughly ¥3.8 trillion three-month-bill auction is due July 3, its approximately ¥600 billion 30-year JGB sale July 7 and its roughly ¥2.5 trillion five-year auction July 9; euro-area producer prices and retail sales arrive July 6 at 5:00 a.m. ET. Strong Japanese end-investor demand alongside softer European pipeline prices and consumption would challenge the persistence of July 2’s global term-premium restraint and allow US long yields to respond more fully to weaker labor. Another weak JGB auction, renewed yen pressure or firm euro-area prices would confirm policy and buyer-base dispersion, keeping the long end sensitive to real-yield and supply compensation even if the Fed remains on hold.\n",
     "section_summaries": [
       {
-        "market_read": "Front-end policy relief improved, but long-end conviction stayed guarded.",
-        "next_check": "Supply, Fed pricing, AI credit trading and DXY follow-through.",
-        "section_id": "thesis-opening-fixed-income-thesis",
+        "market_read": "The close removed an immediate policy shock but left the long-end clearing hurdle intact.",
+        "next_check": "Watch whether weaker growth evidence finally pulls long real yields lower after the holiday.",
+        "section_id": "section-01",
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Payrolls gave fixed income a clearer front-end relief signal as the long end withheld full duration confirmation. Lower oil, DXY and VIX helped credit and EM gauges, while semiconductor weakness, AI funding concentration and next-week supply kept the close selective rather than broadly easy overall.",
-        "why_it_matters": "Funding markets need lower hike odds to translate into stable credit distribution."
+        "summary": "July 2 reversed immediate hike anxiety through softer labor data and lower oil, producing a front-end-led steepening rather than a broad duration rally. Stable inflation compensation, elevated real yields, Japanese term-premium pressure and concentrated AI financing needs kept longer-maturity and credit risks unresolved."
       },
       {
-        "market_read": "The curve steepened because the front end rallied while duration stayed priced for risk.",
-        "next_check": "July hike odds, wages, 10Y real yields and next-week auctions.",
-        "section_id": "thesis-ust-rates-fed-pricing-real-yields-and-curve-structure",
+        "market_read": "Fed urgency eased at the front end, while real-yield demand preserved a steep-curve bias.",
+        "next_check": "Services prices and employment will show whether front-end relief can extend beyond payrolls.",
+        "section_id": "section-02",
         "section_title": "UST Rates, Fed Pricing, Real Yields, And Curve Structure",
-        "summary": "The rates board separated short-end policy relief from long-end compensation. The 2Y fell as payrolls reduced immediate hike urgency, while 10Y and 30Y yields edged higher. FedWatch still showed a meaningful hike tail, with real yields, supply and reduced Fed guidance keeping term-premium risk alive.",
-        "why_it_matters": "A softer labor print helps policy pricing before it proves long-end demand."
+        "summary": "Payroll disappointment and weaker participation shifted Fed pricing toward a later move, driving a policy-led bull steepening without easing long-end real compensation. Contained layoffs, intact production pipelines and positive weekly yield changes kept the move measured and short of a regime shift."
       },
       {
-        "market_read": "Listed spread tone improved, while distribution quality remained decisive.",
-        "next_check": "SpaceX trading, AI issuance concessions and Sound Physicians relaunch terms.",
-        "section_id": "thesis-credit-funding-and-primary-market-absorption",
+        "market_read": "Open funding channels coexist with a concentration premium that aggregate pricing understates.",
+        "next_check": "Track secondary performance and dealer absorption as AI-linked issuance continues.",
+        "section_id": "section-03",
         "section_title": "Credit, Funding, And Primary-Market Absorption",
-        "summary": "Listed credit improved with lower yields and lower volatility as underwriting stayed selective. AI-linked issuers can still raise large debt, yet concentration risk and SpaceX secondary weakness test sponsorship. Sound Physicians showed weaker borrowers still face syndication discipline even when broad spread tone looks firmer.",
-        "why_it_matters": "Tight spreads matter less if large deals or weak borrowers need richer terms."
+        "summary": "Listed debt gauges later showed resilient broad risk tone, but tight high-grade pricing masks rising dependence on a narrow group of AI borrowers. Strong ratings and cash flows support access, while repeated long-dated supply and uncertain project returns reduce the margin for post-issuance disappointment."
       },
       {
-        "market_read": "Lower oil helped inflation optics as foreign rate normalization capped duration enthusiasm.",
-        "next_check": "BOE expectations, ECB services pressure, JGB demand and Japan funding terms.",
-        "section_id": "thesis-global-duration-central-banks-and-fiscal-transmission",
+        "market_read": "Global easing signals no longer guarantee lower long yields when buyer demand and supply diverge.",
+        "next_check": "Japan’s next auctions will test whether weak end demand keeps pressure on sovereign term premia.",
+        "section_id": "section-04",
         "section_title": "Global Duration, Central Banks, And Fiscal Transmission",
-        "summary": "Global duration kept the US long end from treating payrolls as a complete relief signal. BOE, ECB and BOJ channels all kept inflation expectations, wage risk or rate normalization in play. Japan's higher-rate funding backdrop and convertible issuance showed how global curves still compete for duration demand.",
-        "why_it_matters": "US long yields need global curves to validate front-end relief."
+        "summary": "Euro-area disinflation reduced near-term tightening urgency, but Japan’s weak auction demand, foreign selling, fiscal ambition and yen-linked inflation pressure raised the global duration hurdle. The result is policy dispersion: softer European conditions can coexist with a high clearing rate for US and Japanese long bonds."
       },
       {
-        "market_read": "Dollar liquidity improved while policy credibility still owned the EM map.",
-        "next_check": "DXY, EMB, Asia inflows, Colombia transition details and Mexico risk.",
-        "section_id": "thesis-em-sovereigns-dollar-liquidity-and-debt-management-risk",
+        "market_read": "Dollar relief improved EM liquidity at the margin, but domestic credibility still governs absorption.",
+        "next_check": "Watch whether Fed relief persists without currency weakness forcing restrictive local policy.",
+        "section_id": "section-05",
         "section_title": "EM Sovereigns, Dollar Liquidity, And Debt-Management Risk",
-        "summary": "A softer dollar and firmer EMB improved the EM backdrop, while Asia local-currency inflows showed resilience to Fed repricing. The country filter still mattered: Colombia's refinancing plan needs fiscal delivery, Mexico trade uncertainty can weigh on investment confidence, and dollar relief must survive US real-yield follow-through.",
-        "why_it_matters": "A weaker dollar opens access only where domestic execution is credible."
+        "summary": "A softer dollar and lower near-term Fed urgency eased the common financing hurdle for emerging markets, supporting currencies and later listed debt tone. Yet restrictive local policy, uneven energy exposure and reliance on foreign inflows preserved country-level dispersion and left vulnerable borrowers sensitive to a hawkish reversal."
       },
       {
-        "market_read": "Cross asset confirmed selective relief across fixed-income risk gauges.",
-        "next_check": "SOX breadth, AI funding, oil, DXY, VIX, gold and listed credit.",
-        "section_id": "thesis-cross-asset",
-        "section_title": "Cross Asset",
-        "summary": "Oil, DXY and VIX supported fixed-income relief, while gold strength and semiconductor weakness kept the hedge and funding questions alive. Listed credit and EM debt improved, with Nasdaq and SOX losses showing that AI leadership and AI-linked credit supply still limited broader risk confirmation overall.",
-        "why_it_matters": "Rates need technology and credit channels to stabilize before relief broadens."
+        "market_read": "Later cross assets confirmed policy relief but challenged the AI-led growth and funding story.",
+        "next_check": "The key test is whether semiconductor weakness spreads into investment, issuance or broad risk.",
+        "section_id": "section-06",
+        "section_title": "Cross asset",
+        "summary": "After fixed income closed, dollar weakness and gold strength supported the reduced-hike interpretation, while flat broad equities and lower volatility denied a systemic growth shock. The semiconductor rout instead concentrated concern around AI investment, issuance and the durability of long real-yield pressure."
       },
       {
-        "market_read": "Follow-through depends on supply, Fed data, credit distribution and dollar liquidity.",
-        "next_check": "3Y/10Y/30Y supply, FedWatch, AI deals, DXY and global central-bank signals.",
-        "section_id": "thesis-forward-market-significance",
+        "market_read": "The curve needs both softer policy inputs and credible long-duration absorption to rally broadly.",
+        "next_check": "Follow the July 6-9 data and auction sequence for a break in the front-end/long-end divide.",
+        "section_id": "section-07",
         "section_title": "Forward Market Significance",
-        "summary": "The next market test is whether payroll-led front-end relief becomes broader duration and funding support. Clean auctions, lower hike probabilities, stable AI credit distribution and continued dollar softness would confirm the improvement. Long-end concession, renewed wage pressure or wider credit terms would keep July selective.",
-        "why_it_matters": "The same curve steepening can mark healthy relief or renewed duration concession."
+        "summary": "Three tests will decide whether front-end relief can broaden: the post-holiday US macro sequence, Treasury’s bill and coupon supply, and Japanese auctions alongside euro-area data. Softer activity and orderly bidding would validate the split; renewed prices pressure or weak duration demand would restore tightening and term-premium risk."
       }
     ]
   },
-  "methodology_note": "Synthesized market analysis from market levels and reporting context. Forward Market Significance carries the next market checks.",
+  "market_session": {
+    "calendar": "sifma_us_fixed_income",
+    "causal_cutoff_et": "14:00",
+    "reason": "U.S. Independence Day",
+    "report_date": "2026-07-02",
+    "schedule_version": "2026-2027 issued 2025-12-17",
+    "status": "early_close"
+  },
+  "methodology_note": "U.S. fixed-income rows are same-date official daily references for the SIFMA-recommended session ending at 2:00 p.m. ET; their source timestamps are preserved. Later-closing cross-asset rows appear only when same-date data is available.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "2Y 4.14%, -3 bp | 10Y 4.49%, +1 bp.",
-      "2S10S 35 bp, +4 bp | 2S30S 84 bp, +4 bp.",
-      "10TIPS 2.26%, +1 bp | 10BE 2.23%, 0 bp.",
-      "EMB 96.20, +0.19% | DXY 100.99, -0.4%."
+      "UST 2Y 4.14% (-3 bp) | UST 5Y 4.23% (-1 bp)",
+      "UST 10Y 4.49% (+1 bp) | UST 30Y 4.98% (+1 bp)",
+      "10Y TIPS real yield 2.26% (+1 bp) | 10Y breakeven inflation 2.23% (0 bp)",
+      "UST 2s10s curve 35 bp (+4 bp) | UST 2s30s curve 84 bp (+4 bp)"
     ],
-    "headline": "Payrolls bought the Fed time, while the long end kept asking for compensation.",
-    "ny_close_causal_narrative": "The close was a front-end policy-relief session with selective confirmation. Payrolls lowered immediate hike pressure. Long-end supply risk, AI credit distribution, global rate normalization and weaker semiconductor leadership kept the fixed-income read from becoming a broad duration rally.",
-    "summary": "A weak payrolls print took pressure off the July hike debate and pulled short Treasuries lower. The 10Y and 30Y stayed guarded. Lower oil, DXY and VIX helped listed credit and EMB, while semiconductor weakness and AI-linked funding risk kept the broader risk read selective."
+    "headline": "Soft payrolls lift front-end Treasuries, but real-yield pressure holds the long end",
+    "session_narrative": "By the SIFMA-recommended 2:00 p.m. ET close, weaker payroll growth, downward revisions and lower participation had shifted Fed pricing toward a later move, pulling the front end lower. Stable breakevens, positive long real-yield changes and weak Japanese duration demand limited the rally beyond five years. Later dollar weakness, gold strength and resilient listed credit confirmed the narrower policy-relief reading, while the semiconductor selloff remained concentrated rather than systemic.",
+    "summary": "Softer employment data reduced the urgency of a near-term Fed increase and supported policy-sensitive Treasuries. Longer maturities resisted as real yields, supply needs and global term-premium pressure remained firm, leaving the early-close curve steeper rather than delivering a broad duration rally."
   },
   "report_date": "2026-07-02",
-  "run_id": "2026-07-02T08-00-00+08-00_live-local",
+  "run_id": "daily-fi-simple-2026-07-02-dff90ff9-36d79d9b",
   "watch_events": [
     {
-      "category": "rates_supply",
-      "challenges_if": "10Y or 30Y concessions rebuild despite softer labor data.",
-      "channel": "long-end duration and term premium",
-      "confirms_if": "Auctions clear with contained tails and stable real yields.",
-      "date": "Next week",
-      "date_or_window": "3Y, 10Y and 30Y auctions",
-      "id": "treasury_supply_duration_confirmation",
-      "market_implication": "Poor absorption would turn curve steepening into a duration-supply problem.",
-      "market_trigger": "Weak demand, wider concession or dealer balance-sheet pressure.",
-      "sensitive_channel": "10Y, 30Y, 2s10s, 2s30s and 10Y real yield",
-      "title": "Treasury Supply",
-      "watch_line": "Coupon supply decides whether front-end relief can reach the long end.",
-      "why_it_matters": "Payrolls helped the front end, while supply controls long-end validation."
+      "category": "US policy",
+      "date": "July 6-8",
+      "id": "watch-01",
+      "market_implication": "Softness would extend relief in two- to five-year yields; resilience would restore hike risk.",
+      "market_trigger": "Soft employment and prices with easing expectations, or renewed demand and broad hike support.",
+      "title": "Post-holiday US macro and Fed test",
+      "watch_line": "Track services hiring and prices, supply-chain costs, household expectations and FOMC tone."
     },
     {
-      "category": "policy",
-      "challenges_if": "Wage or inflation data revive the reacceleration case.",
-      "channel": "front-end rates and real yields",
-      "confirms_if": "Labor softness broadens while oil and inflation expectations stay contained.",
-      "date": "July data cycle",
-      "date_or_window": "Before the July 29 FOMC decision",
-      "id": "fed_pricing_labor_inflation",
-      "market_implication": "A stronger data mix would put July hike risk back into the 2Y.",
-      "market_trigger": "Firm wages, participation repair or renewed inflation pressure.",
-      "sensitive_channel": "2Y, 5Y, FedWatch probabilities and 10Y TIPS",
-      "title": "Fed Pricing",
-      "watch_line": "The 70% hold / 30% hike split remains the policy hurdle.",
-      "why_it_matters": "The Fed can wait after payrolls as the reaction function remains data-heavy."
+      "category": "Treasury absorption",
+      "date": "July 6-15",
+      "id": "watch-02",
+      "market_implication": "Strong absorption preserves the curve split; weakness raises funding or long-end term-premium pressure.",
+      "market_trigger": "Broad demand and orderly settlement, or weak participation with persistent secondary cheapening.",
+      "title": "Treasury supply and settlement test",
+      "watch_line": "Watch bidding breadth, dealer awards and secondary performance through bill and coupon sales."
     },
     {
-      "category": "credit",
-      "challenges_if": "Large AI borrowers or weaker credits need visibly richer terms.",
-      "channel": "IG supply, concessions and borrower tiering",
-      "confirms_if": "New deals clear cleanly and SpaceX secondary trading stabilizes.",
-      "date": "Next issuance sessions",
-      "date_or_window": "Next primary and secondary credit sessions",
-      "id": "ai_credit_distribution",
-      "market_implication": "Distribution stress would keep listed credit gains narrow and issuer-specific.",
-      "market_trigger": "Wider concessions, weak secondary trading or failed syndications.",
-      "sensitive_channel": "IG books, LQD, HYG, JNK, SpaceX and leveraged loans",
-      "title": "AI Credit Distribution",
-      "watch_line": "AI-linked supply tests whether index quality is masking concentration risk.",
-      "why_it_matters": "Listed spread tone improved, while underwriting quality sets the durable funding read."
-    },
-    {
-      "category": "em_fx_credit",
-      "challenges_if": "Colombia, Mexico or weaker sovereign spreads lose the dollar tailwind.",
-      "channel": "EM local rates and hard-currency credit",
-      "confirms_if": "Asia inflows persist and EMB holds gains while DXY stays lower.",
-      "date": "This week",
-      "date_or_window": "Post-payroll dollar and real-yield follow-through",
-      "id": "em_dollar_liquidity_filter",
-      "market_implication": "Relief would narrow toward higher-quality local markets and reform stories.",
-      "market_trigger": "Dollar rebound, higher US real yields or weaker country fiscal execution.",
-      "sensitive_channel": "DXY, EMB, Asia local bonds, Colombia spreads and Mexico risk",
-      "title": "EM Dollar Liquidity",
-      "watch_line": "DXY softness needs EMB follow-through and country-level confirmation.",
-      "why_it_matters": "A weaker dollar opens the window, while policy credibility decides access."
-    },
-    {
-      "category": "global_rates",
-      "challenges_if": "BOE, ECB or BOJ signals keep inflation compensation and term premium elevated.",
-      "channel": "DM duration and global term premium",
-      "confirms_if": "Central-bank speakers validate oil relief without adding hike pressure.",
-      "date": "Next central-bank remarks",
-      "date_or_window": "Next BOE, ECB and BOJ signals",
-      "id": "global_inflation_duration",
-      "market_implication": "Foreign duration pressure would cap any US long-end rally.",
-      "market_trigger": "Sticky services, wage pressure, yen stress or Japan duration weakness.",
-      "sensitive_channel": "Bunds, gilts, JGBs, UST30Y, oil and breakevens",
-      "title": "Global Inflation Expectations",
-      "watch_line": "Lower oil helps only if wages and expectations cooperate.",
-      "why_it_matters": "US front-end relief still needs support from global duration."
+      "category": "Global duration",
+      "date": "July 3-9",
+      "id": "watch-03",
+      "market_implication": "Improvement would free US duration to rally; renewed dispersion would keep long yields pressured.",
+      "market_trigger": "Strong JGB bidding with softer European data, or another weak auction and firm prices.",
+      "title": "Japan and euro-area duration test",
+      "watch_line": "Gauge Japanese end demand, yen pressure, and euro-area pipeline prices and consumption."
     }
   ],
   "yield_heat_map": {
@@ -411,8 +365,9 @@
         "change_1d": "-3 bp",
         "change_1m": "+9 bp",
         "change_1w": "+5 bp",
+        "id": "ust2y_ny_close",
         "last": "4.14%",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "2Y",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -420,8 +375,9 @@
         "change_1d": "-1 bp",
         "change_1m": "+5 bp",
         "change_1w": "+8 bp",
+        "id": "ust5y_ny_close",
         "last": "4.23%",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "5Y",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -429,8 +385,9 @@
         "change_1d": "+1 bp",
         "change_1m": "+2 bp",
         "change_1w": "+9 bp",
+        "id": "ust10y_ny_close",
         "last": "4.49%",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "10Y",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -438,8 +395,9 @@
         "change_1d": "+1 bp",
         "change_1m": "-1 bp",
         "change_1w": "+12 bp",
+        "id": "ust30y_ny_close",
         "last": "4.98%",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "30Y",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -447,8 +405,9 @@
         "change_1d": "+4 bp",
         "change_1m": "-7 bp",
         "change_1w": "+4 bp",
+        "id": "ust_2s10s_curve",
         "last": "35 bp",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "2S10S",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -456,8 +415,9 @@
         "change_1d": "+4 bp",
         "change_1m": "-10 bp",
         "change_1w": "+7 bp",
+        "id": "ust_2s30s_curve",
         "last": "84 bp",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "2S30S",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -465,8 +425,9 @@
         "change_1d": "0 bp",
         "change_1m": "-1 bp",
         "change_1w": "+2 bp",
+        "id": "ust_2s5s10s_bfly",
         "last": "-17 bp",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "2S5S10S",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -474,8 +435,9 @@
         "change_1d": "+4 bp",
         "change_1m": "-4 bp",
         "change_1w": "+1 bp",
+        "id": "ust_2s10s30s_bfly",
         "last": "-14 bp",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "2S10S30S",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -483,8 +445,9 @@
         "change_1d": "+1 bp",
         "change_1m": "+19 bp",
         "change_1w": "+7 bp",
+        "id": "tips10y_ny_close",
         "last": "2.26%",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "10TIPS",
         "timestamp": "2026-07-02T17:00:00-04:00"
       },
@@ -492,8 +455,9 @@
         "change_1d": "0 bp",
         "change_1m": "-17 bp",
         "change_1w": "+2 bp",
+        "id": "be10y_ny_close",
         "last": "2.23%",
-        "reference_type": "ny_close",
+        "reference_type": "sifma_early_close",
         "tenor": "10BE",
         "timestamp": "2026-07-02T17:00:00-04:00"
       }
