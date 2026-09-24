@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "LQD fell 0.32%, HYG 0.37% and JNK 0.38%; HDFC's strong order book contrasted with a tobacco-bond default.",
+      "summary": "Strong borrowers retained market access, while Nassau’s tobacco-bond default exposed deep idiosyncratic losses.",
       "title": "Credit",
       "value": "LQD 108.77 (-0.3208%) / HYG 79.73 (-0.3749%) / JNK 96.06 (-0.3837%) / EMB 96.28 (-0.4034%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "DXY rose 0.55% to 100.09. Brent rebounded 0.75% to $79.55 but remained about 14.5% lower over the week.",
+      "summary": "The dollar strengthened on the Fed signal; oil stabilized after its weekly plunge, while gold also rose.",
       "title": "Dollar and commodities",
       "value": "DXY 100.09 (+0.5525%) / WTI 76.79 (+0.973%) / Brent 79.55 (+0.7472%) / Gold 4358.8999 (+0.6465%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "S&P 500 lost 1.21% and VIX climbed 12.37% to 18.44; semiconductors rose 1.38%.",
+      "summary": "Broad equities fell and volatility rose after the Fed, while semiconductors advanced on persistent AI investment demand.",
       "title": "Equities and volatility",
       "value": "S&P 500 7420.1001 (-1.2148%) / Nasdaq 100 29670.9492 (-0.9917%) / SOX 13477.0703 (+1.3754%) / VIX 18.44 (+12.3705%)"
     }
@@ -538,151 +538,280 @@
   "header": {
     "as_of_note": "NY close · 2026-06-17",
     "latest_update_cutoff": "NY close",
-    "stance": "Fed forecasts send policy-sensitive Treasury yields sharply higher",
+    "stance": "Hawkish Fed repricing lifts front-end yields and flattens the Treasury curve",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "LQD下跌0.32%，HYG下跌0.37%，JNK下跌0.38%；HDFC認購強勁，菸草債卻發生違約。",
-        "dollar_commodities": "美元指數上漲0.55%至100.09；布蘭特反彈0.75%至$79.55，但一週仍跌約14.5%。",
-        "equities_volatility": "S&P 500下跌1.21%，VIX上升12.37%至18.44；半導體股上漲1.38%。"
+        "credit": "體質強健的借款人仍可取得市場融資，但拿騷菸草債違約凸顯個別信用風險造成的重大損失。",
+        "dollar_commodities": "聯準會釋出政策訊號後，美元走強；油價在一週重挫後回穩，黃金也上漲。",
+        "equities_volatility": "聯準會決策後，大盤下跌、波動率上升；人工智慧投資需求持續，帶動半導體股逆勢走高。"
       },
       "header": {
-        "stance": "Fed上修通膨預測，短天期美債殖利率大幅走高"
+        "stance": "聯準會鷹派訊號帶動前端殖利率上升，美債殖利率曲線趨平"
       },
-      "long_thesis_markdown": "## Fed上修通膨預測，2年期美債殖利率跳升15個基點\n\nFed週三維持利率不變，但官員大幅上修通膨預測，支持今年繼續升息的人數也增加，短天期美債隨之下跌。2年期殖利率上升15個基點至4.20%，10年期上升6個基點至4.49%，兩者利差收窄9個基點至29個基點；30年期則持平於4.93%。\n\n18位官員中有9位預期今年至少升息1碼，其中6位預期升息2碼以上。再加上主席Kevin Warsh強調必須將通膨拉回2%，這次維持3.50%至3.75%的決定，更像是在升息路徑上暫停觀察。會前公布的零售銷售也優於預期，顯示需求尚未明顯轉弱，難以單靠經濟降溫消化價格衝擊。\n\n10年期美債殖利率上升，幾乎全由實質殖利率推動。儘管原油當天反彈，通膨補償仍下降；市場一方面看好荷姆茲海峽石油運輸恢復，另一方面也預期Fed維持緊縮。股市下跌、美元走強、波動率上升，但長債殖利率持平，具備明確再融資需求的發行人仍取得買盤。這次調整在政策敏感的曲線前端最劇烈，其他市場的反應則較不一致。\n\n## 通膨預測、零售支出與美債曲線\n\n5年期美債殖利率上升11個基點至4.27%，介於2年期的15個基點及10年期的6個基點之間。2年與30年期利差收窄15個基點至73個基點。相較之下，蝶式利差變化較小：2s5s10s上升1個基點至−15個基點，2s10s30s下降3個基點至−15個基點。賣壓主要沿著前端與中段展開，並非集中在單一天期。\n\n從較長區間看，2年期殖利率一週上升7個基點、一個月上升11個基點，30年期卻仍分別下降10及19個基點。10年期也較一週前低6個基點、較一個月前低10個基點。週三逆轉了前一日的美債漲勢，尚未抹去長端殖利率近一個月的降幅。\n\n10年期實質殖利率跳升9個基點至2.23%，損益兩平通膨率則下降3個基點至2.26%。5年期實質殖利率上升16個基點至1.96%，7年期上升13個基點至2.09%；20及30年期漲幅較小，分別上升5及3個基點至2.55%與2.73%。投資人提高了持有中期債券所要求的實質報酬，長期通膨補償卻同步下降。\n\nFOMC於美東時間14:00一致決議維持3.50%至3.75%。18位官員中，半數預期2026年至少升息1碼，其中6位預期升息2碼以上；另外9位預期持平或降息。Warsh未提交個人利率路徑，因此點陣圖沒有直接呈現他的預測。不過，他反覆重申2%的通膨目標，同時表示將檢討Fed的溝通、資產負債表及整體通膨框架。\n\n新的經濟預測說明了市場為何在意這份點陣圖。2026年通膨預測中位數從2.7%上修至3.6%，核心通膨預測也從2.7%上修至3.3%。成長預期由2.4%降至2.2%，失業率預估卻從4.4%降至4.3%。這意味經濟可以放緩，但官員並不預期勞動市場會明顯轉弱，替通膨壓力提供緩衝。記者會後，交易員完整反映10月前升息，9月也已被視為可能時點。\n\nWarsh規劃的資產負債表檢討，另外增添利率市場的不確定性。工作小組將評估充裕準備金制度，以及Fed總額$6.7兆持債的組成。量化緊縮已在2025年底停止，Fed自去年12月起每月買進約$400億國庫券，以緩解短期利率壓力。這次並未宣布新的縮表時程，未來對準備金供給與國庫券需求有何影響，仍待觀察。\n\n會前公布的5月零售及餐飲銷售成長0.9%至$7,637億，優於預期的0.6%；4月增幅則從0.5%下修至0.4%。銷售年增6.9%，其中零售業月增1.0%，非實體通路年增12.2%。這份數據顯示，儘管較高融資成本已壓抑住宅市場，消費支出仍有韌性。\n\n油市則提供相反的通膨訊號。荷姆茲海峽運輸可望恢復，使原油在過去一週大跌，10年期損益兩平通膨率也繼續下降。不過，週三庫存數據顯示近期供應仍緊：商業原油庫存減少830萬桶，戰略石油儲備下降890萬桶，煉油廠每日投入量升至1,719.2萬桶。即使市場預期未來供應恢復，眼前的庫存下降仍使油價容易受新干擾影響。\n\n國庫券殖利率也逐漸反映較高的政策利率路徑。13週上升5個基點至3.77%，26週上升11個基點至3.91%，52週上升14個基點至3.98%；極短天期僅變動1個基點。愈往一年期、升幅愈大，與未來升息預期更一致，並不像是眼前現金突然短缺。\n\n$690億119天期國庫券得標貼現利率3.670%，換算投資利率3.767%。投標倍數2.87，最高得標利率的配售比例為11.86%。在$684.59億競爭性標售得標金額中，間接投標人獲配$362.82億，直接投標人$34.86億，交易商$286.91億。資料沒有提供前次標售或同時點發行前交易報價，難以進一步比較定價；6月23日交割時才會產生對應的資金移轉。\n\n## 融資交易持續，優質借款人拿到較好條件\n\nHDFC Bank發行$7.5億5年期美元債，利差為美債加90個基點，創該行新券最低紀錄。訂單超過$13億，讓最終利差比初步指引收斂30個基點。該行2024年2月前次$7.5億發債的3及5年期利差，分別為95及108個基點；這次同樣5年期的定價，較前次低18個基點。\n\n今年HDFC股價已下跌21%，董事長辭職也引發公司治理疑慮。印度央行表示，沒有發現重大操守問題。儘管股票承壓，債券訂單仍顯示，投資人願意提供資金給這家印度最大民營銀行。\n\n交通運輸業也能取得資金。雅典國際機場首度發行歐元債，透過7年期債券籌得€5億，利差為中期交換利率加98個基點。葡萄牙航空TAP則開始就擬發行的€3億5年期投機級債券與投資人接觸，同時政府正推動出售49.9%股權。今年航空與機場業發債超過$105億，創2021年以來上半年最高。2020至2021年發行的航空業債券中，逾$220億會在5至7年後到期，因此替換疫情時期融資，是目前發債的重要需求。TAP仍處於初步接觸階段，與雅典機場已完成的交易不同。\n\n聯想以股價表現支持零息可轉債發行，籌得$20億，2033年到期，轉換溢價47.5%，落在先前推介的40%至50%區間。資金將用於再融資及股票回購，包括以本金的293.2%買回既有2029年可轉債。原持有人、可轉債專業投資人及長期型基金都有參與。公司省下現金利息，但未來仍可能面臨股權稀釋。\n\nNassau County Tobacco Settlement Corp.的情況與成功再融資形成鮮明對比。公司未支付6月初到期的$3,600萬款項，成為總額約$800億、以菸草和解金收入支持的市政債市場中首宗違約。捲菸出貨量長期下降，侵蝕了20多年前發行債券所仰賴的現金流；未付款消息也拖累同類債券。問題源於擔保收入持續走弱，並非週三美債殖利率變動造成。\n\nECB另提出AI使用的營運風險。拉加德表示，應用擴大可能使金融曝險更集中，也增加網路攻擊弱點。ECB已用重大網攻情境測試109家銀行，並計畫致函執行長，要求檢視韌性及必要投資。這是監理關注與未來成本，尚非已發生的AI相關信用損失。\n\n信用ETF隨股市與美債下跌：LQD跌0.32%，HYG跌0.37%，JNK跌0.38%。若要判斷個別借款人的條件，HDFC與雅典機場的訂單、聯想可轉債條款及菸草債違約，提供的資訊比基金的小幅波動更具體。\n\n## 歐洲與日本仍有各自的政策難題\n\n即使油價回落，歐元區的通膨仍相當廣泛。5月整體通膨年增率確認為3.2%，高於前期3.0%；核心通膨從2.2%升至2.6%。服務價格漲幅達3.5%，對整體年增率貢獻1.61個百分點，能源貢獻0.98個百分點。投資人仍預期ECB至少再升息25個基點，使存款利率達2.5%。\n\nECB官員警告，基礎設施受損、庫存重建與工資反應，可能讓能源漲價的影響持續。央行工資追蹤指標預示下半年薪資年增2.6%，遠低於2024年5.2%的高峰，但仍高於上半年。現貨油價下降，讓官員有更多時間觀察；服務價格與工資數據則使他們無法宣布衝擊已結束。\n\n瑞典央行連續第6次會議維持1.75%，但提高了對2026年稍晚升息可能性的評估。基礎通膨偏低、經濟活動弱於正常水準，5月失業率也達9.4%。儘管如此，其預測利率路徑仍在2027年第4季達到2%。這次決議維持觀望，對中期利率的看法卻上移。\n\n英國5月整體通膨維持2.8%，沒有升至市場預估的3%，10年期英國公債殖利率因此下降5個基點至4.74%，為2個月低點。但服務通膨上升至3.7%，高於預期。英國央行6月18日料將維持3.75%，後續是否能降息，仍取決於服務物價。\n\n日本6月16日升息後，仍是全球投資人的關注焦點。長天期日債殖利率小幅走高；6月17日調查的44位經濟學家中，有90%預期12月前再升息，最多人選擇12月，其次為10月，預估本輪最終利率的中位數則升至1.75%。日本央行計畫從2027年4月停止主動縮減每月購債，有助穩定供給預期，但日本投資人面對的本地利率與公債殖利率，已比這次決議前高。\n\n中國則調整短期資金管理的方式。人民銀行表示，未來將朝隔夜政策利率架構轉型，把市場借款成本周邊的利率走廊由70個基點縮窄至50個基點，並設立讓外國官方機構以政府債券取得人民幣流動性的機制。這些改變涉及資金市場架構，也提高中國公債作為擔保品的用途；週三並非一般的政策利率調整。\n\n## 南非通膨低於預期，巴西收盤後降息\n\n南非5月消費者物價年增率由4.0%升至4.5%，為近2年最高，卻低於預估4.7%；核心通膨從3.6%升至3.8%。合約反映11月前累計升息預期由34個基點降至25個基點，隱含政策利率高點7.25%。即使通膨仍高於央行3%目標，低於預期的結果仍使利率市場稍獲舒緩。\n\n巴西央行在紐約時間17:00固定收益市場收盤後，將Selic利率下調25個基點至14.25%，已連續第3次降息。央行同時警告，經濟成長與通膨均已加速，財政刺激可能增加價格壓力。通膨高於容忍區間，預期也高於3%目標。將達標時程延至2028年初，使這次降息有空間，但政策說明並未排除8月暫停降息。\n\n美元隨美國短期利率上升，使未避險外債的負擔加重。日圓也貶至約每$1兌¥160.80，市場再度關注干預與利差交易平倉風險。日本當局從4月底至5月底曾投入創紀錄的¥11.73兆，因此投資人對匯率突然逆轉保持警覺。不過，週三並未出現明確的美元資金市場凍結。\n\nEMB在美元利率上升之際下跌0.40%。南非利率定價的反應，以及巴西稍晚公布的決議，說明基金走勢無法代表每一個本地政策或主權信用變化。\n\n## 股市下跌、美元走強，半導體股逆勢上漲\n\n實質殖利率上升，使S&P 500下跌1.21%、Nasdaq 100下跌0.99%，VIX則跳升12.37%至18.44。費城半導體指數逆勢上漲1.38%。晶片股連續幾天大幅波動，這次表現是重要例外，但沒有改變整體股市下跌的事實。\n\n美元指數上漲0.55%至100.09，與相對政策預期轉變的方向一致。WTI反彈0.97%至$76.79，布蘭特上漲0.75%至$79.55；兩者一週仍跌約14.5%，一個月約跌27%。油價單日反彈與大量庫存消耗，顯示近期供應風險仍在；10年期損益兩平通膨率下降，則表示美債投資人仍反映未來荷姆茲海峽重新開放的部分效益。\n\n儘管美元與實質殖利率走高，黃金仍上漲0.65%至$4,358.90，但一個月累計下跌4.32%。單日漲幅不足以判定投資人持倉的單一動機。放眼各市場，最一致的變化是美國政策敏感殖利率與美元上行；油價及半導體股沒有跟隨大盤方向。\n\n## 週四數據與標售接踵而至，之後市場休市\n\n6月18日美東時間08:30將公布初領失業救濟金人數及費城Fed製造業指數，前值分別為22.9萬人及−0.4。Fed上修通膨預測、交易員開始反映10月前升息後，這將是第一批新公布的勞動與工廠活動資料。\n\n各國央行決策也集中在週四：瑞士於美東時間03:30、挪威04:00、英國07:00公布結果，三者預期均維持利率；調查則預期印尼與菲律賓央行各升息25個基點。表決與政策說明，以及匯率反應，將呈現各國如何看待能源衝擊及其部分逆轉。\n\n紐約固定收益市場17:00收盤後公布的消息，則已成為下一個亞洲交易時段的參考。台灣連續第9季維持利率2%，但政策語氣偏鷹，並將2026年成長預測從7.28%上修至9.45%，通膨預測為1.91%。紐西蘭第1季經濟成長0.8%，前一季則上修至0.5%；交換市場反映7月8日紐西蘭央行升息1碼的機率為80%。這些消息不能用來解釋已完成的美國收盤，卻會進入下一輪區域市場的判斷。\n\n6月18日美東時間11:30，財政部將標售$700億4週與$750億8週國庫券，13:00續發$240億、票息1.25%的5年期TIPS。Fed決議後的投標情況、TIPS定價及短期資金利率，將有助判斷需求，之後6月19日固定收益市場全天休市。",
-      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。",
+      "long_thesis_markdown": "## 固定收益開篇論點\n\n聯準會主席Kevin Warsh上任後的首次利率決策，引發美國公債前端大幅賣壓，殖利率曲線趨平幅度也名列近一個月最大。FOMC一致決議將聯邦基金利率目標維持在3.50%-3.75%，但提交利率預測的18名官員中，有一半預計2026年至少升息1碼，其中6人預期升息至少2碼。Warsh沒有提交自己的利率預測，卻一再強調聯準會有責任恢復物價穩定。交易員隨即將10月前升息的機率完全反映於價格。\n\n2年期美債殖利率上升13.1個基點至4.186%，5年期上升9.9個基點至4.263%，10年期上升4.9個基點至4.489%；30年期則反向下跌1.1個基點至4.933%。2年與10年期利差因此收窄8.2個基點至30.3個基點，2年與30年期利差收窄14.2個基點至74.7個基點。這種走勢顯示，市場提高了對近期政策緊縮的定價，同時也在一定程度上肯定聯準會有能力抑制較長期通膨。\n\n10年期殖利率變動的組成進一步支持這項解讀。10年期實質殖利率上升8.6個基點至2.22%，損益兩平通膨率則下降3.7個基點至2.269%。名目公債遭到賣壓，主因是經通膨調整後的折現率上升，而非長期通膨補償再度增加。油價在連跌4個交易日後回穩，WTI上漲0.97%至$76.79，布蘭特原油上漲0.75%至$79.55；不過，隨著擬議中的美國與伊朗協議改善未來能源供應展望，兩者一週跌幅仍接近15%。\n\n除了石油衝擊，聯準會也有其他理由拒絕寬鬆。5月零售與餐飲服務銷售成長0.9%，高於市場共識的0.6%；4月增幅則由0.5%下修至0.4%。官員表示經濟活動穩健擴張，並強調生產力與資本投資表現強勁。同時，官員大幅上調2026年通膨預測，整體通膨與核心通膨目前分別估為3.6%與3.3%。未來能源價格壓力雖然下降，卻尚未消除已實現的物價漲幅與內需強度。\n\n因此，即使Warsh沒有支持任何特定利率路徑，政策訊號仍比投資人預期更為緊縮。美元指數上漲0.55%至100.09，標普500指數下跌1.21%，那斯達克100指數下跌0.99%。費城半導體指數上漲1.38%，顯示利率敏感型大盤普遍走弱之際，市場對人工智慧投資的熱情仍在。VIX大漲12.37%至18.44；投資等級、高收益及新興市場債券ETF則下跌約0.32%-0.40%。\n\n6月17日收盤時，殖利率曲線前端已逆轉前一交易日由油價帶動的債券漲勢，但較長天期並未重新計入先前的能源通膨溢價。強勁消費、聯準會上調通膨預測，以及立場雖勢均力敵、實質上卻明顯轉鷹的點陣圖，都提高了等待通膨降溫的代價。油價下跌與荷莫茲海峽航運可望恢復，限制了長端損失，使殖利率曲線進一步趨平，也更清楚區分近期政策風險與長期通膨預期。\n\n## 沃許首秀重新定價前端\n\nFOMC維持利率不變，原本就不是本次會議的主要不確定性。真正的意外來自利率預測的分布，以及官員重新強調通膨使命的力度。9名決策官員預計今年至少升息1次，其中6人預期至少升息2次；其餘9人則預期利率不變或下降。年底聯邦基金利率預測中位數由3月的3.4%升至3.75%；2027年中位數也僅降至3.6%，意味即使眼前的通膨問題開始緩和，官員預期的政策鬆綁空間仍相當有限。\n\nWarsh試圖避免市場把點陣圖視為政策承諾。他表示，個別預測背後的信念並不強，並將會中的利率討論形容為一場良性的家庭爭論。他拒絕提交個人預測，也符合其長期以來對前瞻指引的批評：一旦展望過時，預測可能反過來束縛決策者。然而，他沒有提交利率點位，並未抵銷委員會其他成員的訊息。一半官員認為有必要收緊政策，三分之一更預期至少升息50個基點。\n\n政策聲明也不再帶有寬鬆傾向。篇幅較近期聲明精簡，刪除了可能進一步調整利率的措辭，並宣示委員會將實現物價穩定。官員表示，儘管中東衝突等因素令不確定性居高不下，經濟活動仍屬穩健；就業增幅跟得上勞動力成長，失業率變化不大，生產力成長與資本投資均表現強勁。\n\n這種組合對聯準會的政策反應方式相當重要。聯準會並未認為經濟疲弱到需要預防衰退，反而將有韌性的經濟活動，與部分受能源等產業供給衝擊影響、持續偏高的通膨並列。Warsh表示，委員會一致承諾實現2%的目標；在重新建立物價穩定以前，不會考慮調整這項目標。\n\n新的經濟預測量化了通膨展望惡化的程度。官員將2026年整體通膨預測由3月的2.7%上調至3.6%，核心通膨也由2.7%調高至3.3%。2026年經濟成長預測由2.4%下修至2.2%，但年底失業率預測也由4.4%下調至4.3%。這不是傳統的停滯性通膨預測：成長展望雖遭下修，勞動市場預料仍足夠穩健，讓決策官員得以繼續優先處理通膨。\n\n5月就業與物價數據先前已促使委員會朝這個方向傾斜。新增就業高於所有預測，失業率維持4.3%。聯準會偏好的通膨指標4月較上年同期上升3.8%，為2023年以來最快增速；其他消費者與生產者物價指標則在5月進一步加速。伊朗戰爭透過能源及供應管道造成影響，官員也指出，大規模人工智慧基礎設施投資週期同樣帶來壓力。\n\nWarsh對生產力的重視，是這套判斷的主要保留條件。他主張，由生產力帶動的強勁成長應受到歡迎，不能自動視為通膨來源；人工智慧最終也可能形成來自供給面的通膨降溫力量。這使聯準會有機會在產出強勁時，不必一再收緊政策，但前提是生產力增益必須來得夠快，足以抵銷當前需求、勞動與基礎設施形成的壓力。這項可能性並未改變委員會對近期通膨仍過高的判斷。\n\n市場反應集中在最受聯準會政策影響的期限。2年期殖利率上升13.1個基點，是主要附息券期限中幅度最大者；5年期上升9.9個基點。10年期升幅不到2年期的一半，30年期殖利率則小幅下跌。2年與10年期利差由38.5個基點收窄至30.3個基點，2年與30年期利差由88.9個基點縮至74.7個基點。\n\n曲線趨平不只是對點陣圖的機械式反應。實質殖利率上升、損益兩平通膨率下降，顯示投資人同時反映近期央行政策將更為緊縮，以及目前通膨無限期延續的機率降低。10年期實質殖利率上升8.6個基點，幅度超過名目殖利率4.9個基點的漲幅。損益兩平通膨率下跌3.7個基點，使一個月累計降幅擴大至25.2個基點；同期名目10年期殖利率仍比一個月前低10.5個基點。\n\n現貨市場活動顯示，這次重新定價發生在交易量異常龐大的環境。FINRA記錄的美國公債面額交易量為$1.321兆，較6月16日增加16.6%，共計434,202筆交易。名目附息券交易量增加17.3%至$1.015兆；剩餘期限不超過2年的附息券交易量激增52.1%至$2,283億，超過3年、最長至5年的區段增加30.2%至$2,724億。這些彙總數據無法辨識買賣方向，但成交量集中的期限，正是價格變動最劇烈的區段。\n\nWarsh也開始推動上任前承諾的制度改革。他宣布成立5個工作小組，分別檢討溝通、資產負債表、聯準會如何運用現有數據、生產力與就業，以及通膨架構。資產負債表檢討涵蓋約$6.7兆的投資組合，雖已低於2022年的$8.9兆高峰，規模仍遠高於危機前。各工作小組將納入外部專家，預計年底前提出報告。\n\n對利率市場而言，眼前的結果是聯準會溝通方式變得較不明確，但其通膨目標並未改變。Warsh縮短政策聲明、沒有提交利率點位，也拒絕支持委員會的預測中位數，卻仍讓經濟預測與通膨措辭傳遞出鷹派訊號。投資人因而清楚看到下一步政策的風險方向，卻沒有獲得歷任主席慣常提供的條件式路線圖。\n\n這種做法可能提高後續數據對市場的影響。委員會若不願讓預測成為承諾，便有更大空間因應每月通膨、就業與經濟活動數據；代價是投資人在兩次會議之間必須承擔更多不確定性。6月17日，這種不確定性主要表現在前端殖利率上升，而非期限溢價全面增加。\n\n## 強勁支出遇上未來能源成本下降\n\n政策決議公布前，零售銷售已強化聯準會判斷中的成長面。5月零售與餐飲服務銷售總額增加0.9%至$7,637億，高於市場共識的0.6%；4月增幅由0.5%下修至0.4%。整體銷售較上年同期增加6.9%，單計零售貿易則較前月成長1.0%、較上年同期成長7.5%。\n\n數據的廣度足以說明，這不只是波動較大的整體數字。無店面零售商銷售較上年同期增加12.2%，餐飲服務銷售則增加2.7%。雖然5月新屋開工大幅下降，但這份數據顯示，利率敏感型建築業的疲弱並未造成消費同步收縮。對聯準會而言，支出展現韌性，提高了近期成長底部，也降低了迅速提供利率支援的必要性。\n\n油市對未來通膨則指向相反方向。WTI與布蘭特原油當日小幅上漲，但一週分別下跌14.71%與14.55%，反映市場預期擬議中的美國與伊朗協議將恢復荷莫茲海峽的運輸。根據擬議協議，伊朗可立即出售石油、取得一項$3,000億發展基金的資金，並就核計畫展開為期60天的談判。\n\n這些誘因並不能決定實體供應能以多快速度恢復。生產設施仍待修復、庫存需要重建，航運公司也仍須確認安全、布雷情況及通過海峽的條件。歐洲央行官員指出，數個月的高昂能源成本已經反映在企業成本與消費者物價。油價因此可以降低下一波通膨衝擊，卻無法逆轉官方數據已呈現的成本轉嫁。\n\n美國石油報告顯示，市場供需仍然緊張。截至6月12日當週，商業原油庫存減少830萬桶至4.182億桶；戰略石油儲備另減少890萬桶，使原油總庫存合計下降1,720萬桶。汽油庫存減少90萬桶至2.142億桶，餾分油庫存則增加100萬桶至1.031億桶。\n\n煉油廠每日原油投入量由1,696.2萬桶增至1,719.2萬桶，成品車用汽油每日供應量也由873.1萬桶增至921.2萬桶。這些流量顯示煉油業者正因應強勁的季節性需求，而大幅減少的原油庫存幾乎沒有提供立即緩衝。期貨價格下跌改善了通膨展望，但實體市場能否恢復平衡，仍取決於海外供應回歸及航運不中斷。\n\n美國財政部17週期國庫券標售則提供另一項前端需求指標。此次發行規模為$690億，最高貼現率為3.670%、投資收益率為3.767%，投標倍數2.87倍；財政部按最高利率配售11.86%。在競標接受的$684.59億中，間接投標人獲配$362.82億、直接投標人獲配$34.86億、主要交易商獲配$286.91億。由於沒有發行前交易參考值或前次標售比較，本次得標利率與投標倍數不足以判定是否出現尾差，也無法認定需求改善或惡化。這批國庫券將於6月23日交割、10月20日到期。\n\n跨資產價格呈現聯準會轉鷹與能源壓力可能緩解之間的拉鋸。標普500指數下跌1.21%、VIX升至18.44，反映決策後整體風險偏好下降。那斯達克100指數下跌0.99%，但半導體指數上漲1.38%，一週漲幅超過10%，顯示人工智慧資本支出題材承受住利率衝擊。\n\n美元上漲0.55%，符合聯準會訊號所暗示的近期政策利差擴大。黃金期貨仍上漲0.65%至$4,358.90，保留一週6.10%漲幅的一部分。這種分歧走勢顯示，本交易日並非單純的風險趨避式拋售。利率市場的訊息更為明確：強勁支出與聯準會調高通膨預測，推升實質折現率；前一週油價下跌，則持續壓抑通膨補償。\n\n## 歐洲通膨辯論擴大，瑞典按兵不動\n\n歐元區通膨是美國以外最有力的理由，支持已開發市場繼續維持政策限制性。歐盟統計局確認，5月整體通膨為3.2%，高於4月的3.0%，單月物價上升0.1%。排除能源、食品、酒類與菸草的核心通膨由2.2%加速至2.6%，服務通膨則達3.5%。\n\n能源價格較上年同期上漲10.8%，對整體通膨的貢獻為0.98個百分點；服務貢獻1.61個百分點，食品、酒類與菸草貢獻0.36個百分點，非能源工業品貢獻0.23個百分點。通膨加速並不限於最初的能源衝擊，因此組成格外重要。服務項目貢獻最大，使更廣泛的通膨持續性仍是歐洲央行辯論的核心。\n\n歐洲央行的薪資追蹤指標提供部分制衡。該指標預測第3季與第4季協商薪資均成長2.6%，雖高於上半年，仍遠低於2024年5.2%的高峰。下半年增速加快，部分是因2024年發放、2025年未重複的大額一次性給付所造成的機械性影響逐漸消退。因此，薪資壓力預料將增強，但不至於重返先前極端水準。\n\n歐洲央行官員將擬議中的伊朗協議視為避免更糟結果的利多，而不是撤回6月升息的理由。立陶宛的Gediminas Simkus表示，至少再升息1次的可能性高於不升息，因為最近25個基點的升幅不足以解決通膨問題。斯洛伐克的Peter Kazimir指出，受損基礎設施與中斷的能源流量無法立即恢復。拉脫維亞的Martins Kazaks認為衝擊尚未完全發酵；德國央行總裁Joachim Nagel則警告，壓低能源價格的財政措施到期後，可能進一步推升通膨。\n\n法國的Emmanuel Moulin提出主要的制度面保留意見。他強調，管理委員會已同意不預先承諾；即使最近一次升息獲得一致支持，也不代表預定的緊縮循環已經啟動。經濟學家對升息時點同樣意見分歧。摩根大通預期9月再次升息，且年底前第3次升息的風險較高；Thin Ice Macroeconomics則認為，油價下跌提高了等待更多資訊的價值。\n\n分歧在於成本轉嫁的速度與廣度。整體通膨3.2%、核心通膨2.6%、服務通膨3.5%，都支持政策繼續保持警戒。然而，薪資增幅遠低於2024年高峰，加上油價接近$80、而非戰時高點附近的$110，也削弱了提前密集升息的理由。交易員仍預期至少再升息1碼，使存款利率升至2.5%；最終政策路徑將取決於能源價格下降能否防止這波衝擊滲入薪資與企業定價。\n\n英國的通膨結果較溫和，公債漲勢也更明確。5月消費者物價較上年同期上升2.8%，與4月相同，低於市場共識的3.0%。10年期英國公債殖利率下跌5個基點至4.74%的兩個月低點，英國公債則連續第5個交易日上漲。交易員更加預期英格蘭銀行會將銀行利率維持在3.75%，年底前最多僅升息1碼。\n\n較令人不安的是服務通膨，增幅超過預期並升至3.7%，使整體通膨低於預測無法成為全面解除警報的訊號。英國經濟4月也出現萎縮，勞動市場疲弱與油價下跌則支持較不緊縮的政策路徑。6月18日的投票結果將顯示，貨幣政策委員會究竟更重視持續的服務價格壓力，還是疲弱的經濟活動與未來能源成本下降。\n\n瑞典央行連續第6次會議將政策利率維持在1.75%，符合全部16名經濟學家的預測，但調整了政策指引，承認2026年稍晚收緊政策的機率提高。央行總裁Erik Thedeen表示，石油相關供應中斷已造成部分物價壓力，但也強調通膨並未過高、經濟仍有閒置產能，失業率則為9.4%。\n\n瑞典央行小幅上調預測利率路徑，政策利率目前預計在2027年第4季升至2%，而非先前預測的2028年第2季。Nordea認為，這條路徑意味年底前升息1碼的機率約為50%，但並非8月或9月升息的強烈訊號。決策公布後，市場定價反而較不積極，交換利率顯示9月前約升息10個基點，低於前一日的16個基點。央行也下調2026年與2027年成長預測，進一步支持Thedeen所稱官員可以等待更明確證據的判斷。\n\n南非5月通膨則是整體增速上升、卻未造成預期政策衝擊的另一案例。消費者通膨由4.0%升至4.5%，為近2年最高，但低於市場共識的4.7%；核心通膨由3.6%升至3.8%，主要推力來自住宅、公用事業與交通。\n\n遠期利率協議顯示，市場對南非準備銀行7月會議的升息定價由16個基點降至14個基點，11月的定價則由34個基點降至25個基點，意味預期中的升息循環高點約為7.25%。央行5月已將基準利率調高至7%。目前通膨高於3%目標，但仍接近2%-4%容許區間的上緣；若油價持續下跌，決策官員可能得以暫停升息。\n\n聯準會決策後，日本的利率與匯率情勢出現變化，儘管日本央行自身的會議起初並未造成太大波動。美國殖利率上升，使市場認定的政策差距擴大，日圓跌破160兌1美元並觸及160.80，為2024年7月以來最低。日本財務省曾於4月28日至5月27日投入創紀錄的¥11.73兆支撐日圓，匯率重返這個水準，使干預風險再次成為焦點。\n\n這波走勢主要由美元走強帶動，而非日圓對所有貨幣一致走弱；這項區別使策略師對干預是否合理產生分歧。部分人士認為，匯率升破160先前曾觸發官方行動，投機客的日圓淨空頭部位也達9年高點，加劇價格失序反轉的風險。另一些人士則指出，日圓兌數種非美元貨幣仍較強，削弱了市場正單方面施壓日本的論點。\n\n日本央行的基本政策路徑仍指向進一步正常化。6月升息後進行的調查顯示，44名經濟學家中有90%預期12月前再度升息；52%選擇12月，36%預期10月，近四分之一認為9月是最早可能升息的會議。對本輪循環利率高點的預測中位數也由1.5%升至1.75%。\n\n日本央行已將基準利率調高至1%，並警告基礎通膨可能超過2%目標。副總裁內田真一維持了政策收緊方向，卻未暗示升息步調將加快。因此，聯準會轉鷹立即為日本帶來匯率問題，但沒有新證據顯示日本央行會加速到足以迅速縮小利差。\n\n中國人民銀行則宣布較具結構性的操作架構調整。行長潘功勝表示，人行最終可能改採隔夜政策利率作為錨定指標，並擴大隔夜逆回購操作；市場融資成本可波動的區間也由70個基點縮窄至50個基點。\n\n配合擬議中的新架構，人行還推出一項工具，允許外國央行與金融機構以中國政府債券作為擔保，取得7天、1個月及3個月期人民幣資金。這項工具旨在加深官方持有人的流動性來源，並提高人民幣資產作為準備資產的實用性。\n\n採用隔夜利率作為政策錨，可讓人行更精準控制多數銀行間現金交易採用的利率。不過，許多避險合約仍與7天期逆回購利率連動，因此轉型不太可能立即完成。該利率自2025年5月調降10個基點後，一直維持在1.4%。最新措施因此會先改善流動性管理與國際投資人的取得管道，再逐步建立替代政策基準。\n\n## 信用融資窗口仍開放，個別損失卻加深\n\n儘管聯準會帶動美國公債殖利率上升，初級信用市場仍可取得融資，尤其是具稀缺性、資產負債表強健，或有明確再融資用途的借款人。HDFC Bank發行一筆$7.5億、5年期債券，利差訂在可比美債殖利率之上90個基點，是該行美元債歷來最窄利差。訂單超過$13億，使銀行得以將利差較初步指引收窄30個基點。\n\n這是HDFC自2024年2月以來首次進入國際市場；當時發行的3年期與5年期債券利差分別為95與108個基點。儘管兼任董事長辭職引發公司治理疑慮，本次5年期利差仍比先前可比期限收窄18個基點。HDFC否認曾以較高存款利率吸引一家國營企業、違反業界規範的指控；印度儲備銀行也表示，未發現重大行為或治理疑慮。\n\n油價下跌與旅遊相關信用需求增強，也嘉惠航空業借款人。雅典國際機場首次發行歐元債，透過一筆€5億、7年期債券籌資，利差訂在中間交換利率之上98個基點。訂單超過€26億，利差由約135個基點的初步指引收窄。\n\n葡萄牙航空開始為擬議中的€3億、5年期高收益債券與投資人洽談。葡萄牙政府正準備出售該航空公司49.9%的股權，其中5%保留給員工，但最終批准可能還需一年。2026年以來，全球航空公司與機場營運商已籌資超過$105億，創2021年上半年以來最強勁的年度開局。許多發債是為處理疫情期間形成的到期壓力：2020年與2021年發行的航空業債務中，超過$220億、相當於64%的債券原始期限為5至7年。\n\n這些債務陸續接近到期之際，能源成本下降也改善了航空業的營運展望。美國與歐洲航空燃油產量創新高，降低了夏季旅遊旺季短缺的疑慮。雅典國際機場龐大的訂單簿顯示，投資人願意在發行讓利大幅收窄後仍為機場發行人提供資金；葡萄牙航空計畫發行的垃圾級債券，則將檢驗這項需求能延伸到投資等級以下多遠。\n\n美國固定收益市場收盤後、亞洲交易時段接棒之際，聯想完成了另一種形式的融資。這家電腦與人工智慧伺服器製造商發行$20億、2033年到期的零息可轉換債券，轉換溢價較香港股價高47.5%，落在40%-50%的承銷區間內。超過160名投資人提交訂單，需求達可供分配規模的數倍。\n\n聯想將把資金用於債務再融資及庫藏股買回。現有2029年到期可轉債可按本金的293.2%買回，新債投資人則可在4年後行使賣回權。聯想股價2026年已上漲165%，使公司得以將部分股價升值轉化為低票息融資。這種架構也呼應中國可轉債發行增加的趨勢：企業利用高股價降低現金融資成本。\n\n初級市場的溫和氣氛並未擴及信用市場所有角落。拿騷郡菸草和解公司因現金不足，無法支付6月初到期的$3,600萬款項，成為首家觸發違約的菸草債發行人。這類證券以州與地方政府分得的1998年菸草和解款償付，因此現金流取決於香菸出貨量；實際降幅遠快於早期交易假設。\n\n部分2046年到期的拿騷債券跌至每$1面額不足$0.50，較2025年底低約35%，而在最近的2022年，價格還曾高於面額。即使固定收益市場大多受惠於油價下跌，低評級菸草和解債券6月仍下跌1.6%。\n\n這次違約不代表回收率為零。依一般架構，待現金到位後，投資人仍可在日後收到和解款；較新的交易也採用更保守的香菸出貨假設。和解款隨通膨調整，也減輕了部分壓力。真正的問題在於時點：即使最終仍有部分現金流，吸菸量快速下降仍可能使發行人無法按期償債。\n\n參與和解的菸草公司，其香菸出貨量在2021年至2024年間平均每年下降7.25%。Altria公布2025年美國香菸銷量減少10%，British American Tobacco則下降7.7%。標普2025年調降40筆菸草債評級；其追蹤的$205億債券中，約$125億低於投資等級，$97億屬於CCC級。拿騷未能付款，使這項早已辨識的精算問題，正式成為整個產業實際發生的違約事件。\n\n巴西在收盤後則出現另一項政策與信用市場發展。美東時間17:00的美債截止時間過後，巴西央行將Selic利率下調25個基點至14.25%，為連續第3次降息。34名經濟學家中有31人準確預測這項決定，其餘3人原先預期利率維持14.5%。\n\n隨附聲明暗示央行可能暫停降息。決策官員表示，經濟成長與通膨都已加速，並警告政府刺激措施可能增加需求壓力。央行認為當下降息適當，但本輪校準循環的總幅度仍取決於後續資訊。\n\n巴西年通膨率為4.72%，高於央行容許區間上緣；央行也將2027年第4季通膨預測由3.5%上調至3.7%。第1季GDP成長1.1%，失業率接近歷史低點，央行的經濟活動指標4月上升0.51%。補貼性信用、債務協商計畫及其他選舉年措施支撐成長，卻也使通膨展望更為複雜。\n\n不過，巴西本地公司債市場的壓力已開始緩解。信用基金5月流出約120億雷亞爾，低於4月接近290億雷亞爾的流出規模。Itaú Asset Management表示，隨著買方回歸、贖回壓力趨於可控，利差已開始收窄；但較低品質的借款人仍承受高利率壓力。這波重新定價大致未波及最高評級發行人，AAA級債券持續吸引需求。\n\n因此，巴西市場同時呈現政策利率下調，以及進一步降息條件轉趨鷹派。強勁經濟活動與財政支持，降低了市場對Selic利率可以平順連續下調的信心；基金流出放緩則顯示，本地信用體系正在吸收近期重新定價，尚未出現廣泛的被迫賣壓。\n\n## 市場前瞻意義\n\n下一波政策考驗將在6月18日亞洲及歐洲交易時段到來。接受調查的40名經濟學家中，有25人預期印尼央行將基準利率調高25個基點至5.75%，2人預期升息50個基點，13人預期按兵不動。決策必須在油價下降與其他風險之間權衡；印尼盾2026年迄今已貶值近6%，國內燃油價格上升，市場也擔憂財政可信度。\n\n菲律賓中央銀行同樣預料將收緊政策。30名受訪分析師中，有23人預期升息25個基點至4.75%，其餘預期升息50個基點。菲律賓5月通膨達6.8%，預計2026年與2027年全年平均均將高於央行2%-4%的目標區間。即使美國與伊朗協議順利落實，披索今年迄今仍貶值2.6%，使央行面臨輸入性通膨再度升高的風險。\n\n台灣央行預計將重貼現率維持在2%。這項決策將檢驗科技業帶動的快速成長與通膨加速，是否足以壓過傳統製造業疲弱。除了利率之外，匯率與信用政策指引也很重要，因為股市繁榮已提高融資需求，並使國內流動性趨緊。\n\n瑞士國家銀行將於美東時間03:30公布決策，調查預期利率維持0.00%；挪威央行則於04:00公布決策，預期政策利率維持4.25%。兩家央行如何處理匯率壓力與輸入性能源通膨，將顯示油價下跌是否足以維持政策穩定，或只是延後進一步緊縮。\n\n英格蘭銀行將於美東時間07:00公布決策。市場預期利率維持3.75%，但整體通膨低於預測、服務通膨卻升至3.7%之後，票數分布將提供更多訊息。鷹派少數若擴大，將凸顯決策者擔憂能源衝擊正逐漸固化；若按兵不動獲廣泛支持，則代表政策更重視疲弱的經濟活動、勞動市場閒置及未來燃油成本下降。\n\n美東時間08:30將公布美國初領失業救濟金人數與費城聯準銀行製造業調查。前值分別為229,000人及負0.4。這是Warsh首場會議後首批美國國內成長證據，將檢驗聯準會所稱勞動市場穩定、經濟活動維持穩健的判斷。\n\n美國財政部將於美東時間11:30標售$700億4週期國庫券及$750億8週期國庫券，兩者均於6月23日交割。聯邦假日前夕，合計$1,450億的供給將測試前端現金吸收能力。13:00則將增額發行$240億、票息1.25%、2031年4月到期的5年期TIPS，於6月30日交割。在10年期實質殖利率上升8.6個基點、損益兩平通膨率下降3.7個基點後，這次標售將是通膨保值需求最直接的考驗。\n\n日本5月消費者物價報告將於6月18日美東時間19:30、亦即6月19日日本時間08:30公布。前值為整體通膨1.4%、排除生鮮食品1.4%、排除生鮮食品與能源1.9%。數據組成將有助判斷，日本央行對基礎通膨的警告，以及調查中12月前再次升息的共識，是否與實際物價相符。\n\n英國零售銷售將於6月19日美東時間02:00公布。經濟學家預期，在4月下降1.3%後，5月將成長0.5%。這項數據將從需求面補充通膨報告與英格蘭銀行決策，顯示能源壓力消退之際，家庭經濟活動是否正在回穩。\n\n6月19日是SIFMA建議美國固定收益市場全面休市的日期。因此，美國與伊朗協議若如期正式簽署，任何相關發展都將在沒有當日現貨收盤價的情況下，進入下一個正常的美債交易時段。利率市場真正需要檢驗的，不是簽署儀式本身，而是協議能否帶來持續的船舶通行、生產設施修復、出口量增加及終端能源成本下降。\n\n中國6月貸款市場報價利率將於6月22日公布；調查預期1年期維持3.00%，5年期維持3.50%。市場將把這項決定與人行擬議中的隔夜利率架構一併解讀。若報價利率不變，近期更重要的政策發展將是操作架構改革，而非傳統降息。\n\n亞洲、歐洲與美國將於6月23日公布全球採購經理人指數初值。5月數據顯示日本與美國高於50，英國為48.5，歐元區低於50。6月的價格與經濟活動分項將顯示，油價下跌是否在實質降低核心通膨前，已先改善成長。\n\n美國財政部6月23日的附息券行程包括美東時間13:00標售2年期公債，並於6月30日交割。在聯準會推升2年期殖利率至4.186%、殖利率曲線大幅趨平後，這將是前端債券需求最直接的初級市場考驗。6月24日公布的5月新屋銷售將更新美國利率敏感型需求狀況，隨後還有5年期公債供給，以及最高$7.5億的TIPS流動性支援買回。這些事件將共同顯示，投資人能否吸收Warsh首次會議所建立的較高實質利率架構，或是在市場迎接下一輪通膨與就業數據前，要求進一步的發行讓利。\n",
+      "methodology_note": "除非另有說明，市場水準均以紐約收盤為基準。利率資料採用Bloomberg每日殖利率歷史序列；變動幅度與衍生曲線均使用相同日期的序列。每日歷史資料未註明觀察時點。",
       "overall_summary": {
-        "headline": "Fed升息支持度提高，2年期美債殖利率跳升15個基點",
-        "session_narrative": "Fed維持利率不變，卻將2026年通膨預測從2.7%上修至3.6%。18位官員中有9位預期今年至少升息1次，其中6位預期升息2次以上。2年期美債殖利率上升15個基點至4.20%，10年期上升6個基點至4.49%，30年期持平於4.93%。10年期實質殖利率上升9個基點，損益兩平通膨率下降3個基點。\n\n5月零售銷售成長0.9%，優於預期0.6%，使Fed更有理由暫緩降息。Warsh首場記者會後，交易員完整反映10月前升息。他規劃檢討Fed溝通與總額$6.7兆的資產負債表，增加國庫券需求方面的不確定性，但尚未宣布新的縮表路徑。\n\nHDFC Bank以自身新券最低利差發行$7.5億5年期債，雅典機場完成歐元債首發，聯想則籌得$20億零息可轉債。另一端，Nassau County Tobacco Settlement Corp.未支付$3,600萬款項，反映借款人條件差異仍大。歐元區通膨擴大，南非物價則低於預期；巴西在紐約收盤後降息。股市下跌、美元走強，但半導體股逆勢上漲。",
-        "summary": "FOMC維持3.50%至3.75%，但半數官員預期今年升息，通膨預測也大幅上修。強勁零售銷售推升短天期利率，長債殖利率則持平。"
+        "headline": "沃許鷹派首秀引發前端大幅賣壓，美債殖利率曲線趨平",
+        "session_narrative": "Kevin Warsh上任後首次主持FOMC決策，聯邦基金利率目標維持3.50%-3.75%，但新預測傳遞的緊縮信號超出投資人預期。18名官員中有9人預計2026年至少升息1次，其中6人預期至少升息2次；儘管Warsh未提交自己的利率預測，交易員仍完全反映10月前升息的可能性。\n\n2年期美債殖利率上升13.1個基點至4.186%，5年期上升9.9個基點至4.263%，10年期上升4.9個基點至4.489%，30年期則下降1.1個基點至4.933%。2年與10年期利差收窄8.2個基點至30.3個基點，2年與30年期利差收窄14.2個基點至74.7個基點。10年期實質殖利率上升8.6個基點至2.22%，損益兩平通膨率則下降3.7個基點至2.269%，顯示名目公債遭到賣壓，是由經通膨調整後的折現率上升所驅動，而非市場重新擔憂長期通膨。\n\n5月零售銷售成長0.9%，高於0.6%的市場共識；聯準會則將2026年整體與核心通膨預測分別上調至3.6%與3.3%。油價當日回穩，但擬議中的美國與伊朗協議改善未來供應展望，使一週跌幅仍接近15%。這種組合促使市場反映近期政策將更緊縮，同時也在一定程度上肯定聯準會有能力抑制較長期通膨。\n\n決策公布後，美元走強、大盤下跌、波動率上升；人工智慧投資熱潮延續，帶動半導體股逆勢上漲。歐元區通膨加速且壓力不限於能源項目；體質強健的借款人仍可透過初級信用市場取得資金，但拿騷菸草債違約也凸顯個別信用風險造成的重大損失。",
+        "summary": "利率維持3.50%-3.75%不變，卻掩蓋了實質上的鷹派轉向：半數決策官員預計2026年至少升息1次，強勁的5月支出與上調後的通膨預測支持政策維持緊縮，投資人因而大幅推升短端殖利率；未來能源價格下降及損益兩平通膨率回落，則限制了長端損失。"
       },
       "section_summaries": [
         {
-          "section_title": "Fed上修通膨預測，2年期美債殖利率跳升15個基點",
-          "summary": "Fed維持利率，卻上修通膨預測，預期今年升息的官員也增加。2年期殖利率跳升15個基點，30年期持平。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "殖利率曲線同時反映近期政策將更緊縮，以及市場更相信當前通膨不會無限期延續。",
+          "next_check": "",
+          "section_title": "固定收益開篇論點",
+          "summary": "Kevin Warsh上任後的首次聯準會決策將利率維持在3.50%-3.75%，但2026年點陣圖勢均力敵、實質立場卻明顯偏鷹。前端殖利率大漲，30年期殖利率反而下降，使曲線大幅趨平。強勁支出與聯準會上調通膨預測之際，未來油價展望走低；實質殖利率上升、損益兩平通膨率下降，顯示投資人提高了近期政策緊縮的定價，卻未重新計入先前的能源通膨溢價。"
         },
         {
-          "section_title": "通膨預測、零售支出與美債曲線",
-          "summary": "18位官員中有9位預期今年升息，零售銷售也優於預期；10年期實質殖利率上升9個基點，通膨補償下降3個基點。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "Warsh未提交利率點位並抗拒前瞻指引，後續數據可能使兩次會議之間的前端價格波動更為劇烈。",
+          "next_check": "",
+          "section_title": "沃許首秀重新定價前端",
+          "summary": "18名官員中有9人預計2026年至少升息1次，其中6人預期至少升息2次，使年底聯邦基金利率預測中位數由3.4%升至3.75%。Warsh未提交個人利率點位，也不願讓經濟預測變成政策指引；但通膨預測上調、經濟活動展現韌性，加上更強調物價穩定的措辭，仍形成鷹派訊號。市場反應集中在政策敏感的前端，短至中期附息券成交活絡，伴隨殖利率曲線大幅趨平。"
         },
         {
-          "section_title": "融資交易持續，優質借款人拿到較好條件",
-          "summary": "HDFC、雅典機場與聯想取得買盤，菸草債未付息則呈現信用市場另一端的困境。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "期貨價格下跌可降低下一波通膨衝擊，卻無法逆轉已反映在官方通膨數據中的能源成本。",
+          "next_check": "",
+          "section_title": "強勁支出遇上未來能源成本下降",
+          "summary": "5月零售與餐飲服務銷售成長0.9%，高於0.6%的市場共識，顯示住宅市場疲弱並未引發程度相當的消費放緩。油價一週下跌近15%，改善未來通膨展望；但美國原油庫存大幅下降，加上維修與航運風險尚未解決，實體市場要真正獲得緩解，仍有賴海外供應恢復。強勁支出提高成長底部，未來能源價格下降則壓抑通膨補償。"
         },
         {
-          "section_title": "歐洲與日本仍有各自的政策難題",
-          "summary": "歐元區核心通膨加速，瑞典維持利率但調高預測路徑，英國整體通膨低於預期；日本下一次升息仍受關注。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "歐洲通膨辯論擴大，瑞典按兵不動",
+          "summary": "歐元區整體通膨升至3.2%，核心與服務通膨分別達2.6%及3.5%，支持政策繼續維持限制性；油價下跌與薪資成長放緩，則削弱提前密集升息的理由。英國通膨以2.8%低於預期，帶動公債上漲，但3.7%的服務通膨使英格蘭銀行的政策辯論仍未定案。瑞典將利率維持在1.75%，並暗示日後升息機率提高，但仍有等待空間。日圓走弱加大日本的政策難題，中國則提出逐步轉向隔夜利率作為政策錨。"
         },
         {
-          "section_title": "南非通膨低於預期，巴西收盤後降息",
-          "summary": "南非通膨雖升高，仍低於預估；巴西在紐約固定收益市場收盤後降息至14.25%。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "稀缺性、強健的資產負債表及再融資需求支撐發債，卻無法保護結構已受損的產業。",
+          "next_check": "",
+          "section_title": "信用融資窗口仍開放，個別損失卻加深",
+          "summary": "儘管美國公債殖利率上升，初級市場仍可取得融資。HDFC Bank在訂單超過$13億後，以美債殖利率之上90個基點的利差發行$7.5億、5年期債券；雅典國際機場首次發行€5億歐元債，利差則收窄至中間交換利率之上98個基點。這種溫和氣氛並未延伸至菸草債：拿騷未能支付$3,600萬款項，使產業長期面臨的香菸出貨量下降風險，演變成首宗發行人違約。"
         },
         {
-          "section_title": "股市下跌、美元走強，半導體股逆勢上漲",
-          "summary": "股市下跌、美元上漲，半導體股卻逆勢走強；油價小幅反彈，10年期通膨補償仍下降。",
           "market_read": "",
-          "next_check": ""
-        },
-        {
-          "section_title": "週四數據與標售接踵而至，之後市場休市",
-          "summary": "初領失業救濟金與費城Fed數據之後，6月18日有國庫券與TIPS標售，多國央行也在19日休市前決策。",
-          "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "市場前瞻意義",
+          "summary": "接下來的考驗涵蓋貨幣政策、經濟成長、能源供應與美債需求。6月18日多家央行的決策將顯示，官員如何在匯率與服務通膨壓力，以及油價下降之間權衡；美國初領失業救濟金與製造業數據，則將檢驗聯準會對經濟活動穩健的判斷。美國與伊朗協議只有在實際恢復航運及實體供應後才具意義。隨後的國庫券、TIPS與2年期公債標售，將顯示投資人能否吸收Warsh首場會議後形成的較高前端與實質利率架構。"
         }
       ],
       "watch_events": [
         {
-          "title": "初領失業救濟金與費城Fed指數",
-          "date": "6月18日，美東08:30",
           "category": "美國數據",
-          "watch_line": "前值分別為22.9萬人及−0.4。",
-          "market_trigger": "觀察勞動與工廠數據，是否延續5月零售銷售的強勁表現。",
-          "market_implication": "這是Fed上修通膨預測後，第一批新公布的經濟活動資料。"
+          "date": "6月18日，美東時間08:30",
+          "market_implication": "數據疲弱將緩和前端緊縮定價；若經濟展現韌性，則會強化利率維持較高水準更久的重新定價。",
+          "market_trigger": "初領失業救濟金人數明顯偏離229,000人，或工廠指數明顯偏離前值負0.4，從而挑戰聯準會對經濟韌性的判斷。",
+          "title": "美國勞動與經濟活動檢驗",
+          "watch_line": "初領失業救濟金人數與費城聯準銀行調查，將檢驗聯準會認為勞動市場及經濟活動仍然穩健的看法。"
         },
         {
-          "title": "各國央行決策",
-          "date": "6月18日，美東03:30至07:00",
-          "category": "央行政策",
-          "watch_line": "瑞士、挪威與英國接續公布，三者預期均維持利率。",
-          "market_trigger": "調查預期印尼與菲律賓升息25個基點；留意表決、政策說明及匯率。",
-          "market_implication": "觀察油價下跌是否增加各央行的觀望空間。"
+          "category": "能源供應",
+          "date": "至下一個美債交易時段",
+          "market_implication": "供應恢復將壓抑通膨補償；若再度中斷，長端的能源通膨壓力將重新升高。",
+          "market_trigger": "荷莫茲海峽航運與實體石油供應持續恢復，或供應再度中斷並延後流量回歸。",
+          "title": "美國與伊朗協議的落實情況",
+          "watch_line": "應追蹤船舶通行、生產設施修復、出口量及終端能源成本，而非只看協議簽署。"
         },
         {
-          "title": "休市前的國庫券與TIPS",
-          "date": "6月18日，美東11:30至13:00",
           "category": "美債供給",
-          "watch_line": "$700億4週與$750億8週國庫券之後，續發$240億5年期TIPS。",
-          "market_trigger": "Fed決議後，留意投標情況、TIPS定價及短期資金利率。",
-          "market_implication": "6月19日固定收益市場休市，價格反映消息的時間縮短。"
+          "date": "6月18日至23日",
+          "market_implication": "需求疲弱將延續前端與實質殖利率壓力；需求穩健則顯示市場正吸收這次重新定價。",
+          "market_trigger": "5年期TIPS或6月23日2年期公債標售吸收不佳，或需要更大幅度的發行讓利。",
+          "title": "聯準會重新定價後的美債需求",
+          "watch_line": "國庫券、5年期TIPS與2年期公債標售，將檢驗前端現金及較高實質利率架構的需求。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Fed Forecasts Send Two-Year Treasury Yields Up 15 Basis Points\n\nThe Federal Reserve left rates unchanged on Wednesday, but a marked increase in officials' inflation forecasts and support for further tightening sent short-dated Treasuries sharply lower. The 2-year yield rose 15 basis points to 4.20%; the 10-year added 6 to 4.49%, narrowing the gap between them by 9 basis points to 29. The 30-year yield held at 4.93%.\n\nNine of 18 officials projected at least one quarter-point increase this year, including six who saw two or more. That split, along with Chair Kevin Warsh's emphasis on returning inflation to 2%, made the unchanged 3.50%-3.75% target range look like a pause rather than the end of restraint. Retail sales had already beaten forecasts before the decision, leaving less evidence that demand was weakening enough to absorb the price shock without more policy help.\n\nThe rise in Treasury yields came almost entirely through real rates at the 10-year point. Inflation compensation fell despite a daily rebound in crude, showing that investors could recognize the prospect of restored oil flows through Hormuz while expecting a more restrictive Fed. Equities fell, the dollar strengthened and volatility rose. Yet the long bond was unchanged, and credit issuers with clear refinancing needs still found buyers. The repricing was forceful at the policy end of the curve, with a more uneven response elsewhere.\n\n## Inflation Forecasts, Retail Spending and the Curve\n\nThe 5-year Treasury yield rose 11 basis points to 4.27%, against the 2-year's 15-basis-point increase and the 10-year's 6-basis-point rise. The 2s30s spread narrowed 15 basis points to 73. Curve butterflies changed much less: 2s5s10s rose 1 basis point to -15 and 2s10s30s fell 3 to -15. The selloff was concentrated across the front and belly rather than one isolated maturity.\n\nThe shorter end also looked different over longer periods. The 2-year yield was 7 basis points higher over a week and 11 higher over a month; the 30-year was still lower by 10 and 19. The 10-year remained 6 basis points below its level a week earlier and 10 below a month earlier. Wednesday reversed the previous session's broad rally without erasing the longer decline in long yields.\n\nThe 10-year real yield jumped 9 basis points to 2.23%, while its breakeven inflation rate fell 3 to 2.26%. Five-year real yields rose 16 basis points to 1.96% and 7-year yields gained 13 to 2.09%. In contrast, 20- and 30-year real yields increased 5 and 3 basis points, to 2.55% and 2.73%. The market raised the real-rate cost of holding intermediate Treasuries even as its longer-run inflation compensation declined.\n\nThe FOMC voted unanimously at 14:00 ET to hold its target range at 3.50%-3.75%. Half of the 18 officials projected at least a quarter-point increase in 2026; six saw two or more, and the other nine expected no move or a cut. Warsh did not submit a personal rate path, leaving his own view outside the dots. He repeatedly committed to the 2% inflation objective while saying he would review the Fed's communications, balance sheet and broader inflation framework.\n\nThe new forecasts explain why traders paid attention to the dots. Median 2026 inflation was raised to 3.6% from 2.7%, and the core forecast to 3.3% from 2.7%. Expected growth slipped to 2.2% from 2.4%, but projected unemployment was lowered to 4.3% from 4.4%. That combination allows slower growth while giving officials little expected labor-market relief from the inflation problem. After the press conference, traders fully priced an increase by October, with September already seen as a likely meeting.\n\nWarsh's planned balance-sheet review added a separate source of uncertainty for rates investors. A task force will assess the ample-reserves system and the composition of the Fed's $6.7 trillion portfolio. Quantitative tightening ended in late 2025, and the Fed has bought about $40 billion of bills a month since December to ease pressure in short-term rates. The review announced no new runoff schedule; its eventual effect on reserve supply and bill demand remains open.\n\nMay retail and food-services sales rose 0.9% to $763.7 billion before the Fed decision, beating the 0.6% estimate. April's increase was revised to 0.4% from 0.5%. Sales were up 6.9% from a year earlier, retail trade gained 1.0% on the month, and nonstore sales rose 12.2% annually. The release reinforced the picture of resilient spending even as higher financing costs weighed on housing.\n\nThe oil story ran in the other direction. Crude remained sharply lower over the week on prospects for restored Hormuz flows, and 10-year breakevens fell again. Wednesday's inventory data showed a nearer-term supply constraint, however: commercial stocks dropped 8.3 million barrels, the Strategic Petroleum Reserve fell 8.9 million, and refinery inputs climbed to 17.192 million barrels a day. Those draws helped keep oil sensitive to disruptions even as markets priced eventual normalization.\n\nBill yields increasingly reflected the prospective policy path. The 13-week rose 5 basis points to 3.77%, the 26-week 11 to 3.91%, and the 52-week 14 to 3.98%; very short tenors moved just 1 basis point. The sharper rise farther along the bill curve matched the new rate expectations more closely than an immediate shortage of cash.\n\nThe $69 billion 119-day auction cleared at a 3.670% high discount rate, equivalent to a 3.767% investment rate. Bid-to-cover was 2.87, with 11.86% of bids at the high rate allotted. Of $68.459 billion in competitive awards, indirect bidders received $36.282 billion, direct bidders $3.486 billion and dealers $28.691 billion. No prior-auction or when-issued comparison was supplied. Settlement on June 23 will bring the associated cash movement after the holiday.\n\n## Financing Continues, With Strong Borrowers Getting Better Terms\n\nHDFC Bank priced a $750 million 5-year dollar bond at 90 basis points over Treasuries, its tightest new-issue spread. Orders exceeded $1.3 billion, enabling a 30-basis-point tightening from initial guidance. The bank's previous $750 million sale in February 2024 had priced its 3- and 5-year tranches at 95 and 108 basis points, respectively; the latest 5-year came 18 basis points inside that comparison.\n\nThe improvement came despite a 21% slide in HDFC shares this year and scrutiny following its chairman's resignation. India's central bank said it found no material conduct concern. The bond order book showed investors remained willing to extend credit to the country's largest private lender even amid an equity governance controversy.\n\nTransport issuers also benefited from an open market. Athens International Airport raised €500 million in its euro-bond debut, pricing a 7-year issue at 98 basis points over mid-swaps. TAP Air Portugal began investor calls for a proposed €300 million 5-year speculative-grade bond as the government pursued the sale of a 49.9% stake. Airlines and airports have issued more than $10.5 billion this year, their largest first-half total since 2021. More than $22 billion of aviation debt sold in 2020–21 carried 5- to 7-year maturities, making replacement of pandemic-era financing a large part of the current calendar. TAP's calls were still preliminary, unlike Athens' completed sale.\n\nLenovo used its share price to raise $2 billion through zero-coupon convertibles due in 2033. The 47.5% conversion premium was within a marketed 40%-50% range. Proceeds will fund refinancing and share repurchases, including purchases of outstanding 2029 convertibles at 293.2% of principal. Existing holders, convertible specialists and long-only funds participated. The structure saves cash interest while leaving the possibility of future equity dilution.\n\nNassau County Tobacco Settlement Corp. provided the week's starkest contrast to the successful refinancings. It missed a $36 million payment due at the start of June, the first default in an approximately $80 billion municipal-bond sector backed by cigarette-settlement receipts. Cigarette shipments have declined for years, weakening the payments behind securities issued more than two decades ago. Similar bonds fell following the missed payment. This was a deterioration in the underlying collateral, rather than a result of Wednesday's change in Treasury yields.\n\nThe ECB separately raised an operating-risk concern around AI adoption. Christine Lagarde said wider use could concentrate financial exposures and increase cyber vulnerabilities. The ECB had tested 109 banks against a severe cyberattack and planned to write to chief executives about resilience and investment needs. These were supervisory concerns and future costs, rather than reported credit losses from AI.\n\nListed credit funds moved down with stocks and Treasuries: LQD lost 0.32%, HYG 0.37% and JNK 0.38%. Their returns were less informative about individual borrowers than the strong HDFC and Athens order books, Lenovo's convertible terms and the tobacco-bond default.\n\n## Europe and Japan Keep Their Own Policy Questions Open\n\nEuro-area inflation remained broad even after oil retreated. May headline inflation was confirmed at 3.2% from a year earlier, up from 3.0%, while core accelerated to 2.6% from 2.2%. Services rose 3.5%, contributing 1.61 percentage points to the annual rate, and energy contributed 0.98 point. Investors still expected at least another 25-basis-point ECB increase, taking the deposit rate to 2.5%.\n\nECB officials warned that damaged infrastructure, restocking and wage responses could prolong the effects of high energy prices. Their wage tracker points to 2.6% annual pay growth in the second half, well below the 5.2% peak in 2024 but firmer than in the first half. Lower spot crude offers time to assess the shock; the services and wage data are why officials have not declared it over.\n\nSweden held at 1.75% for a sixth meeting but raised its assessment of the chance of an increase later in 2026. Underlying inflation was low, activity weaker than normal and May unemployment 9.4%. Even so, the projected rate path reached 2% in the final quarter of 2027. The decision retained patience for now while shifting the medium-term path higher.\n\nIn the UK, headline inflation held at 2.8% in May instead of reaching the 3% estimate. The 10-year gilt yield fell 5 basis points to 4.74%, its lowest in two months. Services inflation, however, rose more than expected to 3.7%. The Bank of England was expected to hold its 3.75% rate on June 18, with services prices still central to what comes next.\n\nJapan's June 16 hike remained a point of comparison for global investors. Long JGB yields edged higher, and 90% of 44 economists surveyed on June 17 expected another increase by December. December was the most common choice, followed by October; the median expected peak rate rose to 1.75%. The BOJ's plan to stop actively reducing monthly bond purchases from April 2027 may steady the supply outlook, but Japanese investors still face a higher domestic policy rate and bond yields than before the latest decision.\n\nChina, meanwhile, changed how it intends to manage short-term liquidity. The central bank signaled a future move toward an overnight policy-rate framework, narrowed its corridor around market borrowing costs to 50 basis points from 70, and created a facility for foreign official institutions to obtain yuan against government bonds. These are changes to the funding framework, with implications for the usefulness of Chinese bonds as collateral; they were not a conventional rate move on Wednesday.\n\n## South Africa's Inflation Surprise, Then Brazil's Cut\n\nSouth African consumer inflation rose to 4.5% in May from 4.0%, the highest in almost two years, but came in below the 4.7% survey estimate. Core inflation accelerated to 3.8% from 3.6%. Contracts reduced the amount of tightening expected by November to 25 basis points from 34, implying a policy-rate peak of 7.25%. The softer surprise gave investors some relief despite inflation remaining above the central bank's 3% objective.\n\nBrazil cut its Selic rate by 25 basis points to 14.25% after the 17:00 ET New York fixed-income cutoff, its third consecutive reduction. The central bank warned that growth and inflation had both accelerated and that fiscal stimulus might add further price pressure. Inflation was above the tolerance range and expectations above the 3% target. Extending the target horizon to early 2028 allowed the cut, but guidance left an August pause possible.\n\nThe dollar strengthened with US short rates, adding to the cost of unhedged external liabilities. The yen also weakened to about 160.80 per dollar, reviving concern about intervention and a reversal of carry positions. Japanese authorities had deployed a record ¥11.73 trillion from late April through late May. That history explains why investors remained alert to sharp currency moves, though Wednesday did not show a discrete seizure of dollar funding.\n\nEMB fell 0.40% as dollar rates rose. South Africa's pricing response and Brazil's later decision show why the fund move cannot stand in for every local policy or sovereign credit change.\n\n## Stocks Fall as the Dollar Rises; Semiconductors Are an Exception\n\nThe S&P 500 fell 1.21% and the Nasdaq 100 lost 0.99% as higher real yields weighed on risk assets. VIX jumped 12.37% to 18.44. Semiconductor shares bucked the broader decline, with the Philadelphia Semiconductor Index up 1.38%. The exception matters after two days of large moves in chip stocks, but does not make the overall equity session positive.\n\nThe dollar index rose 0.55% to 100.09, consistent with the shift in relative policy expectations. WTI rebounded 0.97% to $76.79 and Brent added 0.75% to $79.55; each was still down about 14.5% over a week and roughly 27% over a month. The daily oil bounce and large inventory draws left immediate supply risks visible, while lower 10-year breakevens showed that Treasury investors continued to price some benefit from a future Hormuz reopening.\n\nGold gained 0.65% to $4,358.90 despite the stronger dollar and higher real yields, though it was down 4.32% over a month. Its daily gain did not establish a single explanation for investor positioning. Across markets, the strongest common signal was the rise in US policy-sensitive yields and the dollar; oil and semiconductors did not move in the same direction as broad equities.\n\n## Thursday's Data and Auctions Arrive Before the Holiday\n\nInitial jobless claims and the Philadelphia Fed manufacturing survey are due June 18 at 08:30 ET. The previous readings were 229,000 claims and -0.4 for the regional index. The releases will give the first new evidence on labor and factory activity after the Fed raised its inflation forecasts and traders moved toward pricing an October hike.\n\nCentral-bank decisions follow in a compressed window: Switzerland at 03:30 ET, Norway at 04:00 and the UK at 07:00. Holds are the baseline for all three, while surveys anticipated 25-basis-point increases from Bank Indonesia and the Philippine central bank. Their votes and guidance, alongside currencies, will show how policy makers are responding to the energy shock and its partial reversal.\n\nDevelopments reported after the 17:00 New York fixed-income cutoff already informed the Asian handoff. Taiwan held at 2% for a ninth consecutive quarter but described its stance as hawkish, raising its 2026 growth forecast to 9.45% from 7.28% and projecting 1.91% inflation. New Zealand reported 0.8% first-quarter growth after a revised 0.5% in the fourth quarter; swaps put an 80% chance on an RBNZ quarter-point increase on July 8. These releases belong to the next regional discussion, rather than the explanation for the completed US close.\n\nTreasury auctions $70 billion of 4-week and $75 billion of 8-week bills at 11:30 ET on June 18, followed by a $24 billion reopening of the 1.25% 5-year TIPS at 13:00. Bidder participation, TIPS pricing and short-term cash rates will be especially useful immediately after the Fed decision, before the full June 19 fixed-income closure.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nThe Federal Reserve’s first decision under Chair Kevin Warsh produced a sharp front-end Treasury selloff and one of the most forceful curve-flattening sessions of the past month. The FOMC unanimously held the federal-funds target at 3.50%-3.75%, but half of the 18 officials submitting rate forecasts projected at least one quarter-point increase in 2026 and six expected two or more. Warsh declined to submit his own rate projection, yet repeatedly emphasized the Fed’s obligation to restore price stability. Traders responded by fully pricing a rate increase by October.\n\nThe 2-year Treasury yield rose 13.1 basis points to 4.186%, the 5-year added 9.9 basis points to 4.263% and the 10-year increased 4.9 basis points to 4.489%. The 30-year yield moved the other way, declining 1.1 basis points to 4.933%. That compressed 2s10s by 8.2 basis points to 30.3 basis points and 2s30s by 14.2 basis points to 74.7, a pattern consistent with a market adding near-term policy restraint while giving the Fed some credit for containing inflation farther out.\n\nThe composition of the 10-year move reinforced that interpretation. The 10-year real yield rose 8.6 basis points to 2.22%, while breakeven inflation fell 3.7 basis points to 2.269%. The nominal selloff was therefore driven by a higher inflation-adjusted discount rate, not a renewed increase in long-run inflation compensation. Oil had stabilized after its four-session plunge, with WTI rising 0.97% to $76.79 and Brent adding 0.75% to $79.55, but both contracts remained almost 15% lower over the week as the proposed US-Iran agreement improved the prospective energy-supply outlook.\n\nThe Fed had reasons beyond the oil shock to resist easing. May retail and food-services sales rose 0.9%, exceeding the 0.6% consensus, and April was revised to a 0.4% gain from 0.5%. Officials described economic activity as expanding at a solid pace and highlighted strong productivity and capital investment. At the same time, they raised their 2026 inflation projections sharply, with headline inflation now seen at 3.6% and core inflation at 3.3%. A fall in prospective energy pressure had not erased the realized increase in prices or the strength of domestic demand.\n\nThe result was a more restrictive policy signal than investors had expected, even though Warsh avoided endorsing any particular rate path. The dollar index rose 0.55% to 100.09, the S&P 500 fell 1.21% and the Nasdaq 100 lost 0.99%. The PHLX Semiconductor Index gained 1.38%, preserving a distinction between the broader rate-sensitive equity decline and continued enthusiasm for artificial-intelligence investment. The VIX jumped 12.37% to 18.44. Investment-grade, high-yield and emerging-market debt exchange-traded funds all declined between about 0.32% and 0.40%.\n\nThe June 17 close thus reversed the previous session’s oil-led duration rally at the front of the curve without restoring the earlier energy inflation premium at longer maturities. Strong consumption, higher Fed inflation forecasts and an evenly divided but materially more hawkish dot plot raised the price of waiting for disinflation. Lower oil and the prospect of restored Hormuz traffic limited the long-end damage, leaving the market with a flatter curve and a clearer distinction between near-term policy risk and longer-run inflation expectations.\n\n## Warsh’s Debut Reprices the Front End\n\nThe FOMC’s unchanged decision was never the principal uncertainty. The surprise came from the distribution of rate forecasts and the force with which officials reasserted the inflation mandate. Nine policymakers projected at least one increase this year, including six who anticipated two or more, while the other nine expected either no change or a reduction. The median year-end funds-rate projection rose to 3.75% from 3.4% in March. For 2027, the median declined only to 3.6%, indicating little projected relief even after the immediate inflation problem begins to ease.\n\nWarsh tried to prevent those dots from becoming a commitment. He said he heard limited conviction around individual forecasts and described the meeting’s rate discussion as a good family fight. His refusal to submit a projection was consistent with his longstanding criticism of forward guidance and forecasts that can leave policymakers bound to an outdated outlook. Yet the absence of his dot did not neutralize the message from the rest of the committee. Half saw tightening as necessary, and a third saw at least 50 basis points.\n\nThe policy statement also moved away from an easing bias. It was shorter than recent releases, removed language about potential additional rate adjustments and declared that the committee would deliver price stability. Officials characterized economic activity as solid despite elevated uncertainty related partly to the Middle East conflict. They said job gains had kept pace with labor-force growth, unemployment had changed little and productivity growth and capital investment were strong.\n\nThat combination matters for the reaction function. The Fed did not describe the economy as weakening enough to require insurance against recession. Instead, it paired resilient activity with inflation that remained elevated in part because of sectoral supply shocks, including energy. Warsh said the committee’s commitment to its 2% objective was unanimous and ruled out reconsidering the target before price stability had been reestablished.\n\nThe new economic projections quantified the deterioration in the inflation outlook. Officials raised their 2026 headline forecast to 3.6% from 2.7% in March and lifted core inflation to 3.3% from 2.7%. They lowered expected 2026 growth to 2.2% from 2.4%, but also reduced the projected year-end unemployment rate to 4.3% from 4.4%. The mix was not a conventional stagflation forecast: growth was marked down, yet the labor market was expected to remain firm enough that policymakers could keep prioritizing inflation.\n\nMay employment and price data had already pushed the committee in that direction. Job creation exceeded every forecast and unemployment held at 4.3%. The Fed’s preferred inflation measure rose 3.8% from a year earlier in April, its fastest pace since 2023, while separate consumer and producer measures accelerated further in May. The Iran war contributed through energy and supply channels, but officials also identified pressure associated with the large investment cycle in artificial-intelligence infrastructure.\n\nWarsh’s emphasis on productivity supplied the main qualification. He argued that strong productivity-led growth should be welcomed rather than treated automatically as inflationary and raised the possibility that artificial intelligence could eventually create a supply-side disinflationary force. That provides a path under which the Fed could tolerate strong output without tightening repeatedly, but it depends on productivity gains arriving quickly enough to offset current demand, labor and infrastructure pressures. It did not alter the committee’s near-term assessment that inflation was too high.\n\nThe market’s response was concentrated where Fed policy matters most. The 13.1-basis-point increase in the 2-year yield was the largest move among the main coupon tenors, while the 5-year rose 9.9 basis points. The 10-year increase was less than half the 2-year move, and the 30-year rallied slightly. The 2s10s curve narrowed to 30.3 basis points from 38.5, while 2s30s compressed to 74.7 from 88.9.\n\nThe flattening went beyond a mechanical response to the dots. By pushing real yields higher while breakevens declined, investors priced both a more restrictive near-term central bank and a lower probability that current inflation would persist indefinitely. The 10-year real yield’s 8.6-basis-point increase more than accounted for the 4.9-basis-point rise in the nominal yield. The 3.7-basis-point decline in breakevens extended their one-month fall to 25.2 basis points even as the nominal 10-year yield remained 10.5 basis points below its level a month earlier.\n\nCash-market activity showed that the repricing occurred during unusually heavy turnover. FINRA recorded $1.321 trillion of Treasury par activity, 16.6% more than on June 16, across 434,202 trades. Nominal-coupon activity increased 17.3% to $1.015 trillion. Activity in coupons with no more than 2 years remaining surged 52.1% to $228.3 billion, while the sector above 3 years and through 5 years increased 30.2% to $272.4 billion. Those aggregates do not identify buying or selling direction, but the concentration of turnover matched the maturity sectors that moved most sharply.\n\nWarsh also began the institutional overhaul he had promised before taking office. He announced five task forces covering communications, the balance sheet, the Fed’s use of existing data, productivity and employment, and its inflation framework. The balance-sheet review addresses a portfolio of about $6.7 trillion, down from a peak of $8.9 trillion in 2022 but still far above its pre-crisis size. The task forces will include outside experts and are expected to report by year-end.\n\nThe immediate rates consequence is less clarity about how the Fed will communicate, even as its inflation objective remains unchanged. Warsh shortened the statement, withheld his dot and declined to endorse the committee’s median path. He nevertheless allowed the projections and the inflation language to deliver a hawkish signal. Investors therefore received a strong indication of the risks around the next move without the chair providing the kind of conditional roadmap that had become familiar under his predecessors.\n\nThat approach can make incoming data more market-moving. A committee that does not want forecasts to become promises will have greater latitude to respond to monthly inflation, employment and activity releases, but investors must carry more uncertainty between meetings. On June 17, that uncertainty was expressed primarily as higher front-end yields rather than a generalized increase in term premium.\n\n## Strong Spending Meets Cheaper Prospective Energy\n\nRetail sales strengthened the growth side of the Fed’s decision before the policy announcement. Total retail and food-services receipts increased 0.9% in May to $763.7 billion, compared with a 0.6% consensus. April’s gain was revised to 0.4% from 0.5%. Sales were 6.9% above a year earlier, while retail trade alone rose 1.0% on the month and 7.5% over 12 months.\n\nThe breadth was sufficient to make the release more than a volatile headline. Nonstore retailers recorded a 12.2% annual increase, and food-services sales were 2.7% higher. The data followed a sharp May decline in housing starts but showed that weakness in rate-sensitive construction had not translated into a comparable pullback in consumption. For the Fed, resilient spending raised the near-term growth floor and reduced the urgency of providing rate relief.\n\nThe oil backdrop pointed in the opposite direction for future inflation. WTI and Brent rose modestly on the day, but their weekly declines of 14.71% and 14.55% respectively reflected expectations that the proposed US-Iran agreement would restore flows through the Strait of Hormuz. The prospective accord would allow Iran to sell oil immediately, provide access to a $300 billion development fund and open a 60-day negotiating period over its nuclear program.\n\nThose incentives do not determine how quickly physical supply can return. Production facilities require repair, inventories need rebuilding and shipping companies still need clarity on security, mines and passage through the strait. European Central Bank officials argued that several months of expensive energy had already entered business costs and consumer prices. The oil market could therefore reduce the next inflation impulse without reversing the pass-through already visible in official data.\n\nThe US petroleum report illustrated the tightness that remained. Commercial crude inventories fell 8.3 million barrels in the week ended June 12 to 418.2 million, while an 8.9 million-barrel draw from the Strategic Petroleum Reserve reduced total crude stocks by 17.2 million barrels. Gasoline inventories fell 0.9 million barrels to 214.2 million, while distillate stocks increased 1.0 million to 103.1 million.\n\nRefinery crude inputs rose to 17.192 million barrels a day from 16.962 million, and finished-motor-gasoline supplied increased to 9.212 million barrels a day from 8.731 million. Those flows showed refiners responding to strong seasonal demand, while the large crude draw left little evidence of an immediate inventory cushion. Falling futures prices improved the inflation outlook, but the physical balance still depended on restored overseas supply and uninterrupted shipping.\n\nTreasury’s 17-week bill auction provided a separate front-end demand reading. The $69 billion offering stopped at a 3.670% high discount rate and a 3.767% investment rate, with a 2.87 bid-to-cover ratio. Treasury allotted 11.86% at the high rate. Indirect bidders took $36.282 billion of the $68.459 billion accepted competitively, direct bidders received $3.486 billion and primary dealers took $28.691 billion. Without a when-issued reference or prior-auction comparison, the stop and cover do not establish a tail, improvement or deterioration. The bills settle June 23 and mature October 20.\n\nCross-asset prices captured the tension between a more hawkish Fed and the possibility of energy relief. The S&P 500’s 1.21% decline and the VIX’s rise to 18.44 showed a broader loss of risk appetite after the decision. The Nasdaq 100 fell 0.99%, but the semiconductor index gained 1.38%, leaving it more than 10% higher over the week as the AI capital-spending theme survived the rate shock.\n\nThe dollar’s 0.55% advance was consistent with the widening near-term policy differential implied by the Fed. Gold futures nevertheless rose 0.65% to $4,358.90, retaining part of their 6.10% weekly gain. The mixed performance prevented the session from becoming a simple risk-off liquidation. The clearer development was in rates: strong spending and higher Fed inflation forecasts lifted the real discount rate, while lower oil over the preceding week continued to restrain inflation compensation.\n\n## Europe’s Inflation Debate Widens as Sweden Waits\n\nEuro-area inflation supplied the strongest non-US argument for continued developed-market restraint. Eurostat confirmed headline inflation at 3.2% in May, up from 3.0% in April, with prices rising 0.1% on the month. Core inflation excluding energy, food, alcohol and tobacco accelerated to 2.6% from 2.2%, while services inflation reached 3.5%.\n\nEnergy prices were 10.8% higher from a year earlier and contributed 0.98 percentage point to headline inflation. Services contributed 1.61 percentage points, food, alcohol and tobacco 0.36 point and non-energy industrial goods 0.23 point. The composition mattered because the acceleration was not confined to the original energy shock. Services accounted for the largest contribution, keeping the possibility of broader persistence central to the ECB debate.\n\nThe ECB’s wage tracker offered a partial counterweight. It projected negotiated pay growth of 2.6% in both Q3 and Q4, stronger than in the first half but far below the 5.2% peak reached in 2024. The second-half acceleration partly reflects the fading mechanical effect of large one-off payments made in 2024 but not repeated in 2025. Wage pressure is therefore expected to firm, though not to return to its previous extreme.\n\nECB officials treated the proposed Iran agreement as relief from a worse outcome rather than a reason to reverse the June increase. Lithuania’s Gediminas Simkus said at least one more rate increase was more likely than not because the latest 25-basis-point move was insufficient to settle the inflation problem. Slovakia’s Peter Kazimir argued that damaged infrastructure and disrupted energy flows could not be restored immediately. Latvia’s Martins Kazaks said the shock had not fully played out, while Bundesbank President Joachim Nagel warned that the expiry of fiscal measures suppressing energy prices could add to inflation.\n\nFrance’s Emmanuel Moulin supplied the principal institutional qualification. He emphasized that the Governing Council had agreed not to pre-commit and said unanimity around the latest increase did not imply the start of a predetermined tightening cycle. Economists were similarly divided over timing. JPMorgan expected another increase in September, with risks skewed toward a third move before year-end, while Thin Ice Macroeconomics argued that falling oil raised the value of waiting for more information.\n\nThe difference is about the speed and breadth of pass-through. Headline inflation at 3.2%, core at 2.6% and services at 3.5% support continued vigilance. Wage growth well below its 2024 peak and an oil price near $80 rather than the wartime high near $110 reduce the case for front-loading. Traders still expected at least one more quarter-point increase to a 2.5% deposit rate, but the final path depends on whether lower energy prevents the current shock from becoming embedded in wages and corporate pricing.\n\nThe UK presented a softer inflation result and a clearer bond rally. Consumer prices increased 2.8% from a year earlier in May, unchanged from April and below the 3.0% consensus. The 10-year gilt yield fell 5 basis points to a two-month low of 4.74%, extending its rally to a fifth session. Traders strengthened expectations that the Bank of England would hold Bank Rate at 3.75% and deliver no more than one quarter-point increase by year-end.\n\nServices inflation remained the uncomfortable part of the release, rising more than expected to 3.7%. That prevented the headline undershoot from becoming a complete inflation all-clear. The economy had also contracted in April, while labor-market weakness and the decline in oil supported a less restrictive path. The June 18 vote would have to show whether the Monetary Policy Committee assigned greater weight to persistent services pressure or to weakening activity and a lower prospective energy bill.\n\nSweden’s Riksbank held its policy rate at 1.75% for a sixth meeting, matching all 16 economist forecasts, but changed its guidance to acknowledge a higher probability of tightening later in 2026. Governor Erik Thedeen said oil-related supply disruptions had created some price pressure, while emphasizing that inflation was not excessively high, spare capacity remained and unemployment stood at 9.4%.\n\nThe Riksbank raised its projected rate path somewhat, showing the policy rate reaching 2% in Q4 2027 instead of Q2 2028. Nordea interpreted the path as assigning about a 50% probability to a quarter-point increase by year-end, though not as a strong signal for August or September. Market pricing actually became less aggressive after the decision, with swaps implying about 10 basis points of tightening by September, down from 16 basis points the previous day. The bank also lowered its growth forecasts for 2026 and 2027, reinforcing Thedeen’s judgment that officials could wait for clearer evidence.\n\nSouth Africa’s May inflation release produced another example of headline acceleration without the anticipated policy shock. Consumer inflation rose to 4.5% from 4.0%, its highest level in almost 2 years, but fell short of the 4.7% consensus. Core inflation increased to 3.8% from 3.6%. Housing, utilities and transportation were the principal drivers.\n\nForward-rate agreements reduced the amount of tightening priced for the South African Reserve Bank’s July meeting to 14 basis points from 16. November pricing fell to 25 basis points from 34, implying that the expected cycle would peak near 7.25%. The central bank had raised its benchmark to 7% in May. Inflation was now above its 3% target but remained within the 2%-4% tolerance band’s upper vicinity, while a durable decline in oil could allow policymakers to pause.\n\nJapan’s rates and currency story changed after the Fed decision even though the Bank of Japan’s own meeting had initially produced little volatility. The yen weakened through 160 per dollar and reached 160.80, its lowest since July 2024, as higher US yields widened the perceived policy gap. That level returned intervention risk to the foreground after the Finance Ministry spent a record ¥11.73 trillion supporting the currency from April 28 through May 27.\n\nThe move was driven primarily by dollar strength rather than uniform yen weakness. That distinction divided strategists over whether intervention was justified. Some argued that levels above 160 had previously triggered official action and that a nine-year high in speculative yen shorts increased the risk of a disorderly reversal. Others noted that the yen remained firmer against several non-dollar currencies, weakening the case that markets were engaged in one-sided pressure on Japan alone.\n\nThe underlying BOJ path still pointed toward further normalization. A survey conducted after the June increase found that 90% of 44 economists expected another rate rise by December. December was the most popular timing, selected by 52%, while 36% expected October and nearly a quarter identified September as the earliest plausible meeting. The median estimate for the cycle’s peak increased to 1.75% from 1.5%.\n\nThe BOJ had already raised its benchmark to 1% and warned that underlying inflation could overshoot its 2% objective. Deputy Governor Shinichi Uchida preserved that tightening direction but did not indicate a faster schedule. The Fed’s hawkish turn therefore created an immediate currency problem without producing new evidence that the BOJ would accelerate enough to close the rate gap quickly.\n\nChina’s central bank announced a more structural change in its operating framework. Governor Pan Gongsheng signaled that the People’s Bank of China could eventually shift toward an overnight policy-rate anchor and expand overnight reverse-repurchase operations. The bank also narrowed the range within which market borrowing costs can fluctuate to 50 basis points from 70.\n\nThe PBOC paired the prospective framework with a facility allowing foreign central banks and financial institutions to obtain yuan funding against Chinese government bonds for 7-day, 1-month and 3-month terms. The facility is intended to deepen the liquidity available to official holders and make yuan assets more useful as reserves.\n\nAn overnight anchor would give the PBOC more precise control over the rate used for most interbank cash transactions. The transition is unlikely to be immediate because a large share of hedging contracts remains tied to the 7-day reverse-repo rate, which has stood at 1.4% since a 10-basis-point cut in May 2025. The latest measures therefore improve liquidity management and international access before they establish a replacement policy benchmark.\n\n## Credit Windows Stay Open, but Idiosyncratic Losses Deepen\n\nPrimary credit markets remained accessible despite the Fed-driven rise in Treasury yields, especially for borrowers offering scarcity, strong balance sheets or a direct refinancing use. HDFC Bank priced a $750 million 5-year bond at 90 basis points over comparable Treasuries, the tightest spread it has achieved in the dollar market. Orders exceeded $1.3 billion, allowing the lender to tighten pricing by 30 basis points from initial guidance.\n\nThe deal was HDFC’s first international offering since February 2024, when it sold 3- and 5-year notes at spreads of 95 and 108 basis points. The new 5-year pricing came 18 basis points inside that earlier comparable maturity despite governance concerns surrounding the resignation of its part-time chairman. HDFC denied allegations that it had breached industry norms by offering higher deposit rates to a state-owned company, and the Reserve Bank of India said it found no material conduct or governance concerns.\n\nAviation borrowers also benefited from lower oil and stronger demand for travel-related credit. Athens International Airport raised €500 million through its euro-bond debut, pricing a 7-year issue at 98 basis points over mid-swaps. Orders exceeded €2.6 billion, and the spread tightened from initial guidance near 135 basis points.\n\nTAP Air Portugal began investor calls for a proposed €300 million 5-year high-yield bond. The transaction comes as Portugal prepares to sell 49.9% of the carrier, including 5% for employees, though final approval may take another year. Globally, airlines and airport operators have raised more than $10.5 billion in 2026, the strongest start to a year since the first half of 2021. Much of the issuance addresses maturities created during the pandemic: more than $22 billion, or 64% of the aviation debt sold in 2020 and 2021, carried original maturities of 5 to 7 years.\n\nThe falling cost of energy improved the sector’s operating outlook at the same time that those maturities approached. Record jet-fuel production in the US and Europe reduced concern about shortages during peak summer travel. Athens’ large order book showed that investors were willing to fund an airport issuer at a substantial concession tightening, while TAP’s planned junk-rated sale will test how far that demand extends below investment grade.\n\nLenovo completed a different form of financing during the Asian handoff after the US fixed-income close. The computer and AI-server maker sold $2 billion of zero-coupon convertible bonds due in 2033 at a 47.5% conversion premium to its Hong Kong share price, within the marketed 40%-50% range. More than 160 investors submitted orders, with demand reaching multiple times the available allocation.\n\nThe company will use the proceeds to refinance debt and repurchase shares. Existing 2029 convertible bonds can be bought back at 293.2% of principal, and investors in the new notes receive a put after 4 years. Lenovo’s shares had risen 165% during 2026, allowing it to exchange part of that equity appreciation for low-coupon financing. The structure follows a broader increase in Chinese convertible issuance by companies using high share prices to lower cash borrowing costs.\n\nThe benign primary-market tone did not extend to every corner of credit. Nassau County Tobacco Settlement Corp. became the first tobacco-bond issuer to trigger a default after it lacked sufficient cash to make a $36 million payment due at the start of June. The securities are repaid from state and local governments’ shares of the 1998 tobacco settlement, leaving their cash flow exposed to cigarette shipments that have declined much faster than early deal assumptions.\n\nSome Nassau bonds maturing in 2046 fell below 50 cents on the dollar, about 35% lower than at the end of 2025 and down from more than par as recently as 2022. Lower-rated tobacco-settlement bonds lost 1.6% in June even as much of fixed income benefited from the decline in oil.\n\nThe default does not imply zero recovery. The structures generally allow investors to receive settlement payments later as the cash becomes available, and newer deals incorporated more conservative shipment assumptions. Inflation adjustments to settlement payments have also reduced part of the pressure. The problem is timing: rapid declines in smoking can make scheduled debt service impossible even when some ultimate cash flow remains.\n\nShipments by cigarette companies participating in the settlement fell by an average 7.25% a year from 2021 through 2024. Altria reported a 10% decline in US cigarette volume in 2025, while British American Tobacco recorded a 7.7% drop. S&P downgraded 40 tobacco-bond issues in 2025. Of the $20.5 billion it tracks, about $12.5 billion is rated below investment grade and $9.7 billion sits in the CCC category. Nassau’s missed payment turned a long-identified actuarial problem into an actual default event for the sector.\n\nBrazil supplied a separate post-close policy and credit development. After the 17:00 ET Treasury cutoff, the central bank lowered the Selic rate by 25 basis points to 14.25%, its third consecutive reduction. The decision matched 31 of 34 economist forecasts, while the remaining three expected a hold at 14.5%.\n\nThe accompanying statement pointed toward a possible pause. Policymakers said growth and inflation had both accelerated and warned that government stimulus could add to demand pressure. They described a cut as appropriate at that moment but left the total size of the calibration cycle dependent on incoming information.\n\nAnnual inflation stood at 4.72%, above the upper edge of the central bank’s tolerance range, and the bank raised its forecast for Q4 2027 inflation to 3.7% from 3.5%. First-quarter GDP had increased 1.1%, unemployment was near a record low and the bank’s activity indicator rose 0.51% in April. Subsidized credit, debt-renegotiation programs and other election-year measures were supporting growth while complicating the inflation outlook.\n\nStress in Brazil’s local corporate-debt market had nevertheless started to ease. Credit funds recorded about 12 billion reais of outflows in May, down from nearly 29 billion reais in April. Itaú Asset Management said spreads had begun to tighten as buyers returned and redemptions became more manageable, though lower-quality borrowers remained under pressure from high interest rates. The repricing largely bypassed top-rated issuers, with AAA debt continuing to attract demand.\n\nBrazil’s market therefore combined an easing policy rate with a more hawkish assessment of the conditions governing further cuts. Strong activity and fiscal support reduced confidence that the Selic could decline in a smooth sequence, while the moderation in fund outflows suggested that the local credit system was absorbing the recent repricing without broad forced sales.\n\n## Forward Market Significance\n\nThe next policy tests arrive during the June 18 Asian and European sessions. Bank Indonesia is expected to raise its benchmark by 25 basis points to 5.75%, according to 25 of 40 surveyed economists; two expect a 50-basis-point move and 13 anticipate a hold. The decision must balance easing oil prices against a rupiah that has fallen almost 6% in 2026, higher domestic fuel prices and concern about fiscal credibility.\n\nThe Bangko Sentral ng Pilipinas is also expected to tighten. Twenty-three of 30 surveyed analysts anticipate a 25-basis-point increase to 4.75%, while the rest expect 50 basis points. Philippine inflation reached 6.8% in May and is projected to average above the central bank’s 2%-4% target range in both 2026 and 2027. A peso still 2.6% weaker for the year leaves the bank exposed to renewed imported inflation even if the US-Iran agreement holds.\n\nTaiwan’s central bank is expected to keep its discount rate at 2%. The decision will test whether rapid technology-led growth and accelerating inflation are sufficient to overcome weakness in more traditional manufacturing. Currency and credit guidance will matter alongside the rate because the equity boom has increased financing demand and tightened domestic liquidity.\n\nThe Swiss National Bank announces at 03:30 ET, with surveys expecting a hold at 0.00%, followed by Norges Bank at 04:00 ET, where the expected decision is to retain a 4.25% policy rate. Their treatment of currency pressure and imported energy inflation will show whether the fall in oil is sufficient to keep policy stable or merely delays further restraint.\n\nThe Bank of England decides at 07:00 ET. A hold at 3.75% is expected, but the vote split carries more information after headline inflation undershot forecasts while services inflation rose to 3.7%. A larger hawkish minority would emphasize concern that the energy shock is becoming embedded. A broadly supported hold would give more weight to weak activity, labor-market slack and the prospective decline in fuel costs.\n\nUS initial jobless claims and the Philadelphia Fed manufacturing survey follow at 08:30 ET. The previous readings were 229,000 claims and minus 0.4 for the factory index. They will be the first domestic growth evidence after Warsh’s debut and will test the Fed’s assessment that the labor market is stable and economic activity remains solid.\n\nTreasury will auction $70 billion of 4-week bills and $75 billion of 8-week bills at 11:30 ET, both settling June 23. The combined $145 billion offering will test front-end cash absorption immediately before the federal holiday. At 13:00, Treasury will reopen $24 billion of the 1.25% 5-year TIPS due April 2031, with June 30 settlement. That auction will provide the most direct demand test for inflation protection after the 10-year real yield rose 8.6 basis points and the breakeven fell 3.7 basis points.\n\nJapan’s May consumer-price report arrives at 19:30 ET on June 18, or 08:30 JST on June 19. The previous readings were 1.4% for headline inflation, 1.4% excluding fresh food and 1.9% excluding fresh food and energy. The mix will help determine whether the BOJ’s warning about underlying inflation and the survey consensus for another increase by December are consistent with realized prices.\n\nUK retail sales are released at 02:00 ET on June 19. Economists expect a 0.5% monthly gain after April’s 1.3% decline. The data will provide the demand-side counterpart to the inflation release and the BOE decision, showing whether household activity is stabilizing as energy pressure recedes.\n\nJune 19 is a full SIFMA-recommended closure for US fixed-income markets. Any developments around the expected formal signing of the US-Iran agreement will therefore enter the next regular Treasury session without a same-day cash close. The relevant rates test is whether the agreement produces sustained vessel traffic, repaired production, greater export volumes and lower delivered energy costs—not the ceremony alone.\n\nChina’s June loan-prime-rate fixing follows on June 22, with surveys expecting the 1-year rate to remain at 3.00% and the 5-year rate at 3.50%. The decision will be read alongside the PBOC’s proposed overnight-rate framework. An unchanged fixing would leave the operational reforms, rather than conventional rate relief, as the more immediate policy development.\n\nGlobal flash purchasing-managers’ indexes arrive June 23 across Asia, Europe and the US. The May readings showed Japan and the US above 50, the UK at 48.5 and the euro area below 50. Their June price and activity components will indicate whether lower oil is improving growth before it materially reduces core inflation.\n\nTreasury’s June 23 coupon calendar includes a 2-year note auction at 13:00 ET, with June 30 settlement. It will be the cleanest primary-market test of front-end duration after the Fed pushed the 2-year yield to 4.186% and the curve sharply flatter. On June 24, May new-home sales will update rate-sensitive US demand, followed by 5-year note supply and a TIPS liquidity-support buyback of as much as $750 million. Together, those events will show whether investors absorb the higher real-rate structure established by Warsh’s first meeting or require further concession as the market approaches the next round of inflation and employment data.\n",
     "section_summaries": [
       {
+        "market_read": "The curve priced tighter near-term policy alongside greater confidence that current inflation will not persist indefinitely.",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Fed Forecasts Send Two-Year Treasury Yields Up 15 Basis Points",
-        "summary": "The Fed held rates but raised inflation forecasts and support for 2026 hikes. The two-year yield jumped 15 basis points; the 30-year was unchanged.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The Fed’s first decision under Kevin Warsh kept rates at 3.50%-3.75% but revealed an evenly split, materially hawkish 2026 dot plot. Front-end yields jumped while the 30-year yield fell, sharply flattening the curve. Higher real yields and lower breakevens showed investors pricing more near-term restraint without restoring the prior energy inflation premium, as strong spending and raised Fed inflation forecasts met a lower prospective oil path."
       },
       {
+        "market_read": "With Warsh withholding a dot and resisting forward guidance, incoming data can move the front end more sharply between meetings.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Inflation Forecasts, Retail Spending and the Curve",
-        "summary": "Nine of 18 officials projected a hike this year. Retail sales beat forecasts, while ten-year real yields rose 9 basis points and breakevens fell 3.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Warsh’s Debut Reprices the Front End",
+        "summary": "Nine of 18 officials projected at least one 2026 increase, including six who expected two or more, lifting the median year-end funds-rate forecast to 3.75% from 3.4%. Warsh withheld his own dot and resisted turning projections into guidance, but firmer inflation forecasts, resilient activity and stronger price-stability language still produced a hawkish signal. The response centered on the policy-sensitive front end, with heavy trading in short and intermediate coupons accompanying the sharp curve flattening."
       },
       {
+        "market_read": "Lower futures prices can reduce the next inflation impulse without reversing energy costs already passed into official inflation.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "Financing Continues, With Strong Borrowers Getting Better Terms",
-        "summary": "HDFC, Athens airport and Lenovo found buyers on favorable or flexible terms. A missed tobacco-bond payment exposed the other end of credit quality.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Strong Spending Meets Cheaper Prospective Energy",
+        "summary": "May retail and food-services sales rose 0.9%, beating the 0.6% consensus and showing that housing weakness had not produced a comparable consumption slowdown. Oil’s nearly 15% weekly decline improved the prospective inflation outlook, but large US crude draws and unresolved repairs and shipping risks showed that physical relief still depended on restored overseas supply. Strong spending lifted the growth floor as cheaper prospective energy restrained inflation compensation."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "Europe and Japan Keep Their Own Policy Questions Open",
-        "summary": "Euro-area core inflation accelerated, Sweden held with a higher projected path, and UK headline inflation undershot forecasts. Japan's next hike remained in view.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Europe’s Inflation Debate Widens as Sweden Waits",
+        "summary": "Euro-area inflation accelerated to 3.2%, with core at 2.6% and services at 3.5%, sustaining the case for restraint even as lower oil and moderating wage growth argued against front-loading. UK inflation undershot at 2.8%, supporting a gilt rally, but 3.7% services inflation left the BOE debate unresolved. Sweden held at 1.75% and signaled a higher chance of later tightening while retaining room to wait. A weaker yen widened Japan’s policy challenge, while China outlined a gradual shift toward an overnight rate anchor."
       },
       {
+        "market_read": "Scarcity, strong balance sheets and refinancing needs sustained issuance, but they did not protect structurally impaired sectors.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "South Africa's Inflation Surprise, Then Brazil's Cut",
-        "summary": "South African inflation was below estimates despite accelerating; Brazil cut to 14.25% in a decision announced after the NY fixed-income close.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Credit Windows Stay Open, but Idiosyncratic Losses Deepen",
+        "summary": "Primary markets remained accessible despite higher Treasury yields. HDFC Bank priced a $750 million 5-year bond at 90 basis points over Treasuries after orders exceeded $1.3 billion, while Athens International Airport tightened its €500 million debut to 98 basis points over mid-swaps. The benign tone did not extend to tobacco debt: Nassau missed a $36 million payment, turning the sector’s long-running exposure to declining cigarette shipments into its first issuer default."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Stocks Fall as the Dollar Rises; Semiconductors Are an Exception",
-        "summary": "Equities declined and the dollar rose, but semiconductors gained. Oil rebounded modestly while ten-year inflation compensation continued to fall.",
-        "market_read": "",
-        "next_check": ""
-      },
-      {
-        "section_id": "section-07",
-        "section_title": "Thursday's Data and Auctions Arrive Before the Holiday",
-        "summary": "Jobless claims and the Philadelphia Fed survey arrive before June 18 bill and TIPS auctions. Several central banks decide ahead of the June 19 holiday.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Forward Market Significance",
+        "summary": "The next tests span policy, growth, energy supply and Treasury demand. June 18 central-bank decisions will show how officials weigh currency and services inflation against cheaper oil, while US claims and factory data test the Fed’s description of solid activity. The US-Iran agreement matters only if it restores shipping and physical supply. Bill, TIPS and 2-year note auctions will then show whether investors can absorb the higher front-end and real-rate structure established after Warsh’s debut."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [
+      {
+        "actual": "+0.9% MoM; $763.7 billion; +6.9% YoY",
+        "category": "Activity",
+        "consensus": "+0.6% MoM retained public survey",
+        "date": "2026-06-17",
+        "event_key": "retail_sales",
+        "id": "macro-released-e1e36a129b95",
+        "period": "May",
+        "previous": "+0.4% MoM revised from +0.5%",
+        "time": "08:30 ET",
+        "title": "Advance Retail Sales"
+      }
+    ],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Labor",
+        "consensus": "no point-in-time survey consensus retained at cutoff",
+        "date": "2026-06-18",
+        "event_key": "initial_claims",
+        "id": "macro-upcoming-cc212d202e20",
+        "period": "week ended June 13; June survey",
+        "previous": "claims 229K; Philadelphia Fed -0.4",
+        "time": "08:30 ET",
+        "title": "Initial Jobless Claims and Philadelphia Fed Manufacturing Survey"
+      },
+      {
+        "category": "Housing",
+        "consensus": "635K-638K retained public-survey range",
+        "date": "2026-06-24",
+        "event_key": "new_home_sales",
+        "id": "macro-upcoming-67180a4f5f92",
+        "period": "May",
+        "previous": "622K annualized and -6.2% MoM for April as published at the cutoff",
+        "time": "10:00 ET",
+        "title": "New Home Sales"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1879104,
+          "asset_manager_net_change": -79666,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1680942,
+          "leveraged_fund_net_change": 132069,
+          "open_interest": 4276371,
+          "open_interest_change": -54973,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2930024,
+          "asset_manager_net_change": 32120,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2230356,
+          "leveraged_fund_net_change": 27239,
+          "open_interest": 6184688,
+          "open_interest_change": -117641,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2412885,
+          "asset_manager_net_change": 58593,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -1979511,
+          "leveraged_fund_net_change": -16417,
+          "open_interest": 5251295,
+          "open_interest_change": -71984,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 595743,
+          "asset_manager_net_change": -67411,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -260130,
+          "leveraged_fund_net_change": 25193,
+          "open_interest": 2428052,
+          "open_interest_change": 8326,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 478569,
+          "asset_manager_net_change": -3082,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -281933,
+          "leveraged_fund_net_change": -1871,
+          "open_interest": 1881987,
+          "open_interest_change": 6635,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1139250,
+          "asset_manager_net_change": 57380,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -935158,
+          "leveraged_fund_net_change": -25761,
+          "open_interest": 2399575,
+          "open_interest_change": 45321,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-06-09",
+      "published_date": "2026-06-12"
+    },
+    "treasury": {
+      "comparison_date": "2026-06-16",
+      "observation_date": "2026-06-17",
+      "par_change_pct": 16.6313,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": 17.3079,
+          "par_usd_bn": 1015.3,
+          "trade_count": 386313
+        },
+        {
+          "key": "tips",
+          "par_change_pct": -8.2305,
+          "par_usd_bn": 22.3,
+          "trade_count": 3676
+        },
+        {
+          "key": "bills",
+          "par_change_pct": 15.3974,
+          "par_usd_bn": 278.8,
+          "trade_count": 44085
+        },
+        {
+          "key": "frns",
+          "par_change_pct": 425.0,
+          "par_usd_bn": 4.2,
+          "trade_count": 128
+        }
+      ],
+      "total_par_usd_bn": 1320.5,
+      "total_trade_count": 434202
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +821,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.2% (+15 bp) | UST 5Y 4.27% (+11 bp)",
-      "UST 10Y 4.49% (+6 bp) | UST 30Y 4.93% (0 bp)",
-      "10Y TIPS real yield 2.23% (+9 bp) | 10Y breakeven inflation 2.26% (-3 bp)",
-      "UST 2s10s curve 29 bp (-9 bp) | UST 2s30s curve 73 bp (-15 bp)"
+      "UST 2Y 4.186% (+13.1 bp) | UST 5Y 4.263% (+9.9 bp)",
+      "UST 10Y 4.489% (+4.9 bp) | UST 30Y 4.933% (-1.1 bp)",
+      "10Y TIPS real yield 2.22% (+8.6 bp) | 10Y breakeven inflation 2.269% (-3.7 bp)",
+      "UST 2s10s curve 30.3 bp (-8.2 bp) | UST 2s30s curve 74.7 bp (-14.2 bp)"
     ],
-    "headline": "Fed projects more tightening; two-year Treasury yield jumps 15 basis points",
-    "session_narrative": "The Fed kept rates unchanged but lifted its 2026 inflation forecast to 3.6% from 2.7%. Nine of 18 officials projected at least one increase this year, including six who saw two or more. The two-year Treasury yield rose 15 basis points to 4.20%, while the 10-year gained 6 to 4.49% and the 30-year held at 4.93%. Ten-year real yields rose 9 basis points as breakeven inflation fell 3.\n\nMay retail sales rose 0.9% against a 0.6% forecast, strengthening the case for patience before easing. Traders fully priced an increase by October after Warsh's first press conference. His planned review of Fed communication and the $6.7 trillion balance sheet introduced a separate question for bill demand, but no new runoff path was announced.\n\nHDFC Bank priced a $750 million five-year issue at its tightest new-issue spread, Athens airport completed a euro-bond debut and Lenovo raised $2 billion in zero-coupon convertibles. Nassau County Tobacco Settlement Corp. missed a $36 million payment, showing how uneven borrower conditions remained. Euro-area inflation broadened, while South African inflation surprised lower than expected and Brazil cut rates only after the New York close. Equities fell and the dollar strengthened, but semiconductors gained.",
-    "summary": "The FOMC held at 3.50%-3.75%, but half of officials projected a 2026 increase and inflation forecasts rose sharply. Strong retail sales reinforced the move in short rates even as long-bond yields held steady."
+    "headline": "Warsh’s hawkish debut drives a sharp front-end selloff and flatter Treasury curve",
+    "session_narrative": "Kevin Warsh’s first FOMC decision left the federal-funds target at 3.50%-3.75%, but the new projections delivered a more restrictive signal than investors expected. Nine of 18 officials projected at least one increase in 2026, six expected two or more, and traders fully priced an increase by October despite Warsh declining to submit his own rate forecast.\n\nThe 2-year Treasury yield rose 13.1 basis points to 4.186%, the 5-year added 9.9 basis points to 4.263% and the 10-year increased 4.9 basis points to 4.489%, while the 30-year fell 1.1 basis points to 4.933%. The moves compressed 2s10s by 8.2 basis points to 30.3 basis points and 2s30s by 14.2 basis points to 74.7. The 10-year real yield rose 8.6 basis points to 2.22% as breakeven inflation fell 3.7 basis points to 2.269%, showing that higher inflation-adjusted discount rates, rather than renewed long-run inflation concern, drove the nominal selloff.\n\nMay retail sales rose 0.9%, beating the 0.6% consensus, while the Fed raised its 2026 headline and core inflation forecasts to 3.6% and 3.3%. Oil stabilized on the day but remained almost 15% lower for the week as the proposed US-Iran agreement improved the prospective supply outlook. That combination left the market pricing tighter near-term policy while giving the Fed some credit for containing inflation farther out.\n\nThe dollar strengthened, broad equities fell and volatility rose after the decision, although semiconductors advanced as enthusiasm for AI investment persisted. Euro-area inflation accelerated beyond the energy component, while strong borrowers retained access to primary credit markets even as Nassau’s tobacco-bond default exposed deeper idiosyncratic losses.",
+    "summary": "The unchanged 3.50%-3.75% decision masked a materially hawkish shift: half of policymakers projected at least one 2026 increase, strong May spending and higher inflation forecasts supported restraint, and investors pushed short yields sharply higher even as cheaper prospective energy and lower breakevens limited long-end damage."
   },
   "report_date": "2026-06-17",
-  "run_id": "daily-fi-newsroom-edit-2026-06-17-49d451af8ff2",
+  "run_id": "daily-fi-simple-2026-06-17-532f9827-65ac4fcb",
   "watch_events": [
     {
       "category": "US data",
       "date": "June 18, 08:30 ET",
       "id": "watch-01",
-      "market_implication": "The results will give investors a first new activity reading after the Fed's higher inflation forecasts.",
-      "market_trigger": "Watch whether labor and factory data confirm the spending strength seen in May retail sales.",
-      "title": "US claims and Philadelphia Fed survey",
-      "watch_line": "Previous readings were 229,000 jobless claims and -0.4 for the regional factory index."
+      "market_implication": "Weaker data would temper front-end tightening; resilience would reinforce the higher-for-longer policy repricing.",
+      "market_trigger": "A material departure from 229,000 claims or the prior -0.4 factory reading that challenges the Fed’s resilience assessment.",
+      "title": "US labor and activity check",
+      "watch_line": "Initial claims and the Philadelphia Fed survey will test the Fed’s view that labor and activity remain solid."
     },
     {
-      "category": "Central banks",
-      "date": "June 18, 03:30-07:00 ET",
+      "category": "Energy supply",
+      "date": "Through next Treasury session",
       "id": "watch-02",
-      "market_implication": "The decisions will show whether falling oil has changed each bank's room to wait.",
-      "market_trigger": "Surveys anticipated 25-basis-point increases from Indonesia and the Philippines; follow the votes, guidance and currencies.",
-      "title": "Central-bank decisions",
-      "watch_line": "Switzerland, Norway and the UK announce in sequence; holds are the baseline for all three."
+      "market_implication": "Restored supply would restrain inflation compensation; disruption would revive long-end energy inflation pressure.",
+      "market_trigger": "Sustained restoration of Hormuz traffic and physical oil supply, or renewed disruption that delays those flows.",
+      "title": "US-Iran agreement implementation",
+      "watch_line": "Track vessel traffic, repaired production, export volumes and delivered energy costs, not the signing alone."
     },
     {
       "category": "Treasury supply",
-      "date": "June 18, 11:30-13:00 ET",
+      "date": "June 18-23",
       "id": "watch-03",
-      "market_implication": "The June 19 fixed-income closure compresses the time available for price discovery.",
-      "market_trigger": "Watch bidder participation, TIPS pricing and short-term cash rates after the Fed decision.",
-      "title": "Bills and TIPS before the holiday",
-      "watch_line": "$70 billion of four-week and $75 billion of eight-week bills precede a $24 billion five-year TIPS reopening."
+      "market_implication": "Soft demand would extend front-end and real-yield pressure; firm demand would show the repricing is being absorbed.",
+      "market_trigger": "Weak absorption or larger concessions at the 5-year TIPS or June 23 2-year note auctions.",
+      "title": "Treasury demand after the Fed repricing",
+      "watch_line": "Bill, 5-year TIPS and 2-year auctions will test demand for front-end cash and the higher real-rate structure."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "+15 bp",
-        "change_1m": "+11 bp",
-        "change_1w": "+7 bp",
+        "change_1d": "+13.1 bp",
+        "change_1m": "+11.4 bp",
+        "change_1w": "+4.1 bp",
         "id": "ust2y_ny_close",
-        "last": "4.2%",
-        "reference_type": "ny_close",
+        "last": "4.186%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "+11 bp",
-        "change_1m": "+1 bp",
-        "change_1w": "0 bp",
+        "change_1d": "+9.9 bp",
+        "change_1m": "+0.4 bp",
+        "change_1w": "-1.8 bp",
         "id": "ust5y_ny_close",
-        "last": "4.27%",
-        "reference_type": "ny_close",
+        "last": "4.263%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "+6 bp",
-        "change_1m": "-10 bp",
-        "change_1w": "-6 bp",
+        "change_1d": "+4.9 bp",
+        "change_1m": "-10.5 bp",
+        "change_1w": "-6.4 bp",
         "id": "ust10y_ny_close",
-        "last": "4.49%",
-        "reference_type": "ny_close",
+        "last": "4.489%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "0 bp",
-        "change_1m": "-19 bp",
-        "change_1w": "-10 bp",
+        "change_1d": "-1.1 bp",
+        "change_1m": "-18.5 bp",
+        "change_1w": "-9.7 bp",
         "id": "ust30y_ny_close",
-        "last": "4.93%",
-        "reference_type": "ny_close",
+        "last": "4.933%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "-9 bp",
-        "change_1m": "-21 bp",
-        "change_1w": "-13 bp",
+        "change_1d": "-8.2 bp",
+        "change_1m": "-21.9 bp",
+        "change_1w": "-10.5 bp",
         "id": "ust_2s10s_curve",
-        "last": "29 bp",
-        "reference_type": "ny_close",
+        "last": "30.3 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "-15 bp",
-        "change_1m": "-30 bp",
-        "change_1w": "-17 bp",
+        "change_1d": "-14.2 bp",
+        "change_1m": "-29.9 bp",
+        "change_1w": "-13.8 bp",
         "id": "ust_2s30s_curve",
-        "last": "73 bp",
-        "reference_type": "ny_close",
+        "last": "74.7 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+1 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "+1.8 bp",
+        "change_1m": "-0.1 bp",
+        "change_1w": "-1.3 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-15 bp",
-        "reference_type": "ny_close",
+        "last": "-14.9 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "-12 bp",
-        "change_1w": "-9 bp",
+        "change_1d": "-2.2 bp",
+        "change_1m": "-13.9 bp",
+        "change_1w": "-7.2 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-15 bp",
-        "reference_type": "ny_close",
+        "last": "-14.1 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "+9 bp",
-        "change_1m": "+13 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "+8.6 bp",
+        "change_1m": "+14.7 bp",
+        "change_1w": "+1.3 bp",
         "id": "tips10y_ny_close",
-        "last": "2.23%",
-        "reference_type": "ny_close",
+        "last": "2.22%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "-23 bp",
-        "change_1w": "-8 bp",
+        "change_1d": "-3.7 bp",
+        "change_1m": "-25.2 bp",
+        "change_1w": "-7.7 bp",
         "id": "be10y_ny_close",
-        "last": "2.26%",
-        "reference_type": "ny_close",
+        "last": "2.269%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-06-17T17:00:00-04:00"
+        "timestamp": "2026-06-17"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

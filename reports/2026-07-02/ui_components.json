@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "same_date_market_close",
-      "summary": "Later references: LQD +0.17%, HYG +0.15%, JNK +0.11%. Broad gains contrasted with CoreWeave weakness and selective refinancing failures.",
+      "summary": "Credit funds edged higher, but surging AI borrowing concentrated investment-grade exposure in one spending cycle.",
       "title": "Credit",
       "value": "LQD 108.64 (+0.166%) / HYG 79.71 (+0.1508%) / JNK 95.99 (+0.1147%) / EMB 96.2 (+0.1875%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "same_date_market_close",
-      "summary": "DXY fell 0.52% to 100.86 and gold rose 1.09% to $4,112.70. WTI and Brent edged up to $68.69 and $71.80.",
+      "summary": "The dollar weakened and gold rose, while oil held near February lows after a monthly drop of more than 24%.",
       "title": "Dollar and commodities",
       "value": "DXY 100.86 (-0.5227%) / WTI 68.69 (+0.1604%) / Brent 71.8 (+0.3214%) / Gold 4112.7002 (+1.0914%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "same_date_market_close",
-      "summary": "S&P 500 held near 7,483.24; Nasdaq 100 fell 1.61% and chips 5.44%. VIX declined 2.65% to 16.15.",
+      "summary": "Broad equities held steady and volatility fell, but technology and semiconductor shares sold off sharply.",
       "title": "Equities and volatility",
       "value": "S&P 500 7483.2402 (+0.0001%) / Nasdaq 100 29329.2109 (-1.61%) / SOX 12626.2197 (-5.4448%) / VIX 16.15 (-2.6522%)"
     }
@@ -538,151 +538,281 @@
   "header": {
     "as_of_note": "SIFMA early close · 2:00 p.m. ET · 2026-07-02",
     "latest_update_cutoff": "U.S. fixed-income early close · 2:00 p.m. ET",
-    "stance": "Soft payrolls support short Treasuries; long yields remain firm",
+    "stance": "Treasury curve steepens at the 2:00 p.m. ET early close as weak payrolls pull down the front end",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "稍晚LQD漲0.17%、HYG漲0.15%、JNK漲0.11%；整體小漲與CoreWeave弱勢及個別再融資失敗並存。",
-        "dollar_commodities": "美元指數跌0.52%至100.86，黃金漲1.09%至$4,112.70；WTI與布蘭特微升至$68.69、$71.80。",
-        "equities_volatility": "S&P 500約7,483.24；Nasdaq 100跌1.61%、晶片跌5.44%，VIX降2.65%至16.15。"
+        "credit": "信用債基金小幅上漲，但AI相關借款激增，使投資級債券的曝險集中於單一支出週期。",
+        "dollar_commodities": "美元走弱、黃金上漲；油價在單月跌逾24%後，徘徊於2月以來低點附近。",
+        "equities_volatility": "大盤持穩、波動率下降，但科技股與半導體股大幅下挫。"
       },
       "header": {
-        "stance": "非農轉弱支撐短債，長端殖利率仍偏高"
+        "stance": "就業數據疲弱壓低短端殖利率，美國公債曲線在美東時間下午2時提前收市時轉陡"
       },
-      "long_thesis_markdown": "## 非農轉弱支撐短債，長天期美債未跟進\n\n美國招聘週四明顯放緩，市場降低Fed即將升息的預期，短天期美債結束連續兩日跌勢，長債卻幾乎未受惠。2年期每日參考殖利率下降3個基點至4.14%，10年與30年期微升至4.49%、4.98%。6月非農僅增加5.7萬人，約為預估的一半，前幾個月增幅也遭下修。\n\n市場將已完全反映的25個基點升息，由10月延後至12月，7月升息機率降至約20%。初領失業救濟金仍低、工廠出貨增加，使數據不至於過度悲觀。投資人降低的是短期政策急迫性，並未反映經濟活動突然崩落。日本10年期標售疲弱、長天期殖利率上升，也未替美債帶來支撐。\n\n信用市場仍能融資，整體需求與個別風險的差別卻更鮮明。銀行已為大型媒體收購的大部分債務找到買盤，CoreWeave則因新的雲端競爭而跌價。Brightline動用準備金付息，買到時間但未解決重整。投資級發債愈集中於AI借款人，這些公司間差異也就愈重要。\n\nSIFMA建議假日前固定收益市場美東14:00收盤。本文採用財政部每日序列，其時間標示為17:00，並非精確的14:00報價；下文股票、匯率與商品的最終數值，也包含其後交易。\n\n## 非農使升息定價延後，殖利率曲線趨陡\n\n6月非農增加5.7萬人，低於預估中位數11.3萬，前兩個月也下修。失業率降至4.2%，主要因勞參率大幅下降，並非招聘轉強。短率期貨把7月29日升息機率由公布前約33%降至20%。年底前25個基點升息仍已完全反映，但時點由10月移到12月。\n\n漲勢集中短端。除了2年期下降3個基點，5年期也下降1個基點至4.23%，10年與30年期參考殖利率則各升1個基點。2年與10年、2年與30年利差各擴大4個基點至35、84。整週2、5、10及30年期仍上升5、8、9及12個基點；一個月變化則為上升9、5、2及下降1個基點。單次偏弱非農，只扭轉部分近期定價。\n\n失業救濟金資料較不令人擔心。截至6月27日當週初領減少1,000人至21.5萬，四週平均降至22.2萬。續領增加2,000人至181.4萬，平均升至180.3萬。新增裁員仍有限，失業者找到下一份工作的時間卻可能拉長。\n\n5月工廠訂單在4月增加5.3%後下降1.3%，出貨仍增1.6%、未完成訂單增0.6%、庫存增0.2%。訂單降低削弱需求加速的說法，並未顯示生產與待交貨業務全面萎縮。\n\n實質殖利率解釋了長端為何未跟漲。10年期增加1個基點至2.26%，損益兩平通膨率維持2.23%；5年期實質殖利率升1個基點至1.99%，7年期維持2.11%，20年與30年期升2、1個基點至2.60%、2.79%。指標名目殖利率微升，不是通膨補償再起。勞動轉弱減輕眼前政策風險，中長天期仍面對新供給及海外殖利率上行。\n\n### 資金焦點移往7月7日交割\n\n4及8週期國庫券各標售約$850億。4週期最高得標利率3.605%，投標倍數2.72；間接、直接與交易商承接67.05%、3.75%、29.20%，最高利率分配比例46.77%。8週期為3.650%、投標倍數2.70，承接比例61.72%、3.90%、34.38%，最高利率分配比例53.99%。兩券均於7月7日交割。\n\n對應次級殖利率各升4、3個基點至3.67%、3.72%。6週期降3個基點至3.67%，13至52週期則降3至4個基點，落在3.76%至3.95%。弱勢集中當日標售天期，並非假日前全面缺乏現金。\n\nFed美東16:30公布的H.4.1顯示，截至7月1日當週準備金平均$2.967兆，增加$155億，財政部一般帳戶減少$385億。附賣回增加，證券投資組合縮小。這是下一波交割前的流動性背景，在建議債市收盤時尚未公布。\n\n## AI發債提高指數評級，也增加集中度\n\n6月底AA−與A級債占美國投資級指數52%，高於2021年約46%，BBB占比則由46%降至41%。高評級科技發債改善評級組成，也使指數更依賴少數借款人。7月1日高評級利差僅74個基點，接近數十年低點。\n\n2026年各幣別AI相關債已發行約$2,200億，比2025全年多62%。Amazon、Meta、Alphabet與Oracle占約$1,070億美元債，Nvidia與SpaceX 6月各發$250億，推升當月投資級發債紀錄。美國六大超大型雲端業者今年準備投入近$8,200億AI支出，市場面對的是持續籌資需求，而非一波已完成的交易。\n\n強勁現金流降低眼前違約疑慮，部分負債卻遠長於設備的可能使用年限。Alphabet發行100年期英鎊債，Nvidia與SpaceX都有20年及30年期。SpaceX次級表現疲弱已在前一週出現；現在更值得注意的是，緊窄利差能承受多少重複供給，尤其競爭若改變AI基礎設施預期報酬。\n\nCoreWeave提供了直接例子。Meta宣布競爭性雲端業務後，其歐元債兩日下跌近2美分至96.8，前月發行的$12.5億債殖利率升至10.25%。投資人重新評估的是個別公司的競爭地位，並非所有AI債都同幅調整。\n\n### 收購融資、可轉債與替代幣別各有買盤\n\n銀行已取得足夠需求，涵蓋Paramount Skydance收購Warner Bros.約$490億債務方案的大部分。投資級貸款討論在指標加250至275個基點，第二順位債預期美元殖利率比可比較歐元券高約1個百分點。提前找到買盤降低銀行被迫留債的風險，投資人仍須消化龐大的收購新增負債。\n\n澳幣市場則提供另一條出路。前述上半年袋鼠債紀錄A$520億、約$360億之外，新增交易細節顯示Aroundtown 1月籌A$6億，較長天期成本低於可比較歐元市場。中國美元發債減少後，亞洲資金改變配置，投標需求常超過供給。較高澳洲殖利率吸引買方，發行人再透過換匯換息轉回所需幣別；即使沒有澳洲營運需求，也可能取得低於或接近本國的成本。\n\n日本企業上半年可轉債¥1兆，為2004年以來同期最高。日本製鐵¥6,000億創日本單筆紀錄，JX先進金屬籌¥2,500億。許多交易零票息，在本地利率上升下，以股權轉換價值降低現金利息，但投資結果仍取決於股價與債權保障。\n\nBrightline在前一天協商之後，有了實際付款更新：公司動用準備金支付7月1日優先市政與公司債利息，$9.85億通行權債持有人則把付息寬限展至7月15日，為$55億債務談判多爭取兩週。付款避免即刻違約，但消耗流動性，控制權與順位仍待處理。\n\n美東14:00之後，Barclays撤回$9.6億Sound Physicians貸款，即使利差500個基點也未獲足夠需求，再融資可能以修改後條件重新推出。連同先前撤回的Shutterfly聯貸，顯示整體槓桿貸款有買盤，並不保證每家公司都能成交。\n\n稍晚公司債基金參考值小幅上漲，LQD漲0.17%、HYG漲0.15%、JNK漲0.11%。溫和整體報酬之下，投資人承擔的收購、股權轉換、雲端競爭與鐵路重整風險，差異很大。\n\n## 日本標售疲弱，限制全球長債受惠幅度\n\n日本10年期標售投標倍數3.13，低於前次3.53及一年平均3.33。10年期殖利率上升7個基點至2.77%，20年期上升9.5個基點至3.76%。財政擴張與央行緩慢升息能否跟上通膨的疑慮，反映在較弱買盤。\n\n政策利率已達1%、為1995年以來最高，市場仍認為10月前再升息機率逾60%。先前短觀2.6%的長期通膨預期支持這項討論。外資6月賣出¥3.12兆日債，為三年最多，央行購買減少、政府供給卻增加。如何吸引替代買方，成為比政策發言更直接的問題。\n\n首相高市早苗目標在2040年4月起的會計年度，將名目GDP擴至$6.8兆，市場也等待可能暫停食品飲料消費稅的細節。措施可支持名目活動，但央行減少支撐時，如何融資同樣重要。本地殖利率提高，也改變日本機構投資海外債券的相對吸引力。\n\n歐洲新資料對債市較溫和。前一天歐元區通膨由3.2%降至2.8%後，5月失業率維持6.2%，失業人數月減5.5萬、年減15.8萬。首季房價年增4.7%，慢於前季5.1%。通膨緩解並未伴隨勞動市場疲弱或家庭資產價格崩落。\n\nChristine Lagarde依當時能源成本可能擴散的情況，為6月升息辯護，同時承認第二輪效應尚未出現。Philip Lane仍注意薪資、食品與服務，Olli Rehn與Martin Kocher則認為近期風險下降。討論已不那麼急迫，並非宣布衝擊完全結束。\n\n英國央行委員Catherine Mann目前支持維持3.75%，但表示若通膨預期、能源成本、利潤率或薪資協商持續不利，可能需要積極升息。前次會議以7比2否決升息25個基點，較低油價並未移除她的條件式緊縮立場。\n\n澳洲5月商品貿易由A$13.83億順差轉為A$30.18億逆差，出口下降6.9%、進口增加2.6%，非貨幣黃金出口減少35%是主要原因。資料在7月1日美東21:30公布，早於週四美國盤，顯示外部活動轉弱；但跌幅集中黃金，不宜直接讀成全面需求下滑。\n\n## Fed定價轉緩支撐新興市場，擔保為敘利亞開啟融資\n\n美國就業報告後，新興貨幣上漲，南非蘭特與匈牙利福林約升1%，多個拉美貨幣也走強，彭博美元即期指數在美國交易時段跌0.5%。眼前Fed升息機率降低，減輕美元借款人的一項壓力。\n\n本幣債需求此前已改善。泰國、印尼、印度及馬來西亞6月政府債外資流入合計$82億，為逾兩年最高，較高本地利率支撐息收配置。美伊協議後，新興亞洲債券指數上漲0.2%，拉美指標卻下跌0.6%，能源成本與國內政策仍帶來不同結果。\n\n敘利亞重建融資則仰賴擔保，而非廣泛主權信心。JPMorgan、卡達國家銀行與阿布達比商業銀行正安排約$70億五年期資金，用於電力及機場。QNB將提供保證，其最大股東是規模$5,800億的卡達投資局。海灣支持讓部分信用曝險不再直接落在戰後營運環境，工程執行、國家治理能力與制裁歷史仍須考量。\n\n南韓說明高本地利率為何既能吸引資金，也限制借款人。6月通膨由3.1%升至3.2%，核心2.5%，強勁出口、弱勢匯率及房市壓力，使央行立場偏緊。外資可改善債券承接，並不代表國內政策負擔已減輕。\n\n部分先前贏家則受估值限制。中美洲與加勒比海主權債2023年以來報酬逾40%，多數在面額之上，平均殖利率5.9%，低於新興投機級主權平均7.7%。評級上調、交易加深，以及巴貝多、巴哈馬與薩爾瓦多相關的債務及保育交換交易，支持了重估。部分投資人開始退場，因較低息收留下的財政與政治風險補償有限。\n\nEMB稍晚參考值漲0.19%，在匯率反彈之外提供溫和債券報酬。土耳其與哥倫比亞等依賴外資的國家，仍對Fed重新轉鷹敏感。低油價改善進口國成本，卻削弱出口國收入。共同美元壓力減輕，本幣債、外幣主權債及擔保項目的風險仍不相同。\n\n## 晶片再跌，美元轉弱、黃金走高\n\n稍晚跨資產收盤不像非農落差所暗示的那麼防禦。S&P 500幾乎持平於7,483.24，Nasdaq 100跌1.61%，半導體跌5.44%，VIX卻降2.65%至16.15。科技賣壓在債市收盤前已出現，最終數值呈現的是集中跌勢，而非全面股票撤資。\n\n美元指數跌0.52%至100.86，黃金漲1.09%至$4,112.70，符合Fed緊縮急迫性降低的方向。但黃金上漲不代表所有美債殖利率都下降，長端參考值仍微升，大盤與波動率也未顯示全面避險。\n\n原油當日近乎持平，並非再次下跌。WTI漲0.16%至$68.69，布蘭特漲0.32%至$71.80，月跌幅仍有25.47%、24.41%，保留Fed與ECB官員提到的能源緩解。10年期通膨補償穩定，長端實質殖利率卻未隨較弱就業下降。\n\n眼前政策交易比成長前景更清楚：招聘轉弱後，美元下跌、短債上漲；大盤持平與波動率下降，並未反映衰退。對固定收益更重要的後續，是AI修正是否開始影響已承壓公司之外的投資計畫與信用需求。\n\n## 假日後接續服務業資料與附息債供給\n\n美國7月6日美東10:00公布ISM服務業及紐約Fed全球供應鏈壓力指數，7日08:30有5月貿易、11:00有6月消費者預期調查，8日14:00公布6月16日至17日FOMC紀錄。服務業招聘與價格、物流成本及家庭預期，將協助區分持續放緩與單次非農偏弱。\n\n財政部6日美東11:30標售$920億13週期、$790億26週期；7日有$900億42天期、$520億52週期及$580億3年期。8日增額發行$390億10年期，9日增額$220億30年期。除了先前7日交割的新券，這波還有9日國庫券、15日附息債交割。需求將顯示短端漲勢能否與大額供給並存，以及較高長端殖利率能否吸引買盤。\n\n日本3日標售約¥3.8兆3個月券，7日約¥6,000億30年期，9日約¥2.5兆5年期。長債標售將接續疲弱10年期結果與外資賣出。歐元區生產者物價及零售銷售6日美東05:00公布。日本需求與歐洲內部價格，分別檢驗全球債市能從美國勞動轉弱獲得多少支撐。",
-      "methodology_note": "美國固定收益資料列為 SIFMA 建議於美東時間下午 2:00 結束之交易時段的同日官方每日參考值，並保留原始資料時間戳記。較晚收盤的跨資產資料列，僅在同日數據可得時列入。",
+      "long_thesis_markdown": "## 固定收益開場主論點\n\n美國就業成長大幅放緩，降低聯準會再次升息的急迫性，帶動美國公債殖利率曲線在7月2日轉陡，卻未形成全面的長天期債券漲勢。縮短交易時段的日資料顯示，2年期殖利率下跌3.9個基點至4.138%，10年期微升0.5個基點至4.485%，30年期則上升1.5個基點至4.986%。2年期與10年期利差擴大4.4個基點至34.7個基點，2年期與30年期利差增加5.4個基點至84.8個基點。美國獨立紀念日前夕，市場依SIFMA建議於美東時間下午2時提前收市。\n\n6月非農就業人數僅增加57,000人，不及113,000人的預測中位數，前2個月數據也遭下修。儘管如此，勞動參與率下降，使失業率降至4.2%。這種好壞參半的組合促使投資人降低近期升息風險，卻未將數據視為經濟驟然下滑的證據。市場隱含的7月升息機率由數據公布前約33%降至約20%，完全反映一次升息1碼的時點則由10月延後至12月。\n\n殖利率曲線的反應呈現了這項區別。就業數據疲弱與空頭回補有利於政策敏感的短端，但10年期實質殖利率仍上升0.3個基點至2.246%，10年期損益兩平通膨率也增加0.2個基點至2.239%。初領失業救濟金人數維持低檔、工廠出貨增加，加上6月就業報告中的失業率下降，使疲弱的非農就業表面數字不再單純。投資人只是延後預期中的聯準會行動，並未放棄限制性政策可能持續的看法。\n\n油價進一步緩解了眼前的通膨衝擊，但並未再度崩跌。WTI與布蘭特原油一度觸及2月以來低點，收盤仍分別上漲0.16%至$68.69及0.32%至$71.80；兩者單月跌幅均超過24%。美元指數下跌0.52%至100.86，黃金期貨上漲1.09%至$4,112.70。這些走勢與聯準會無須急於行動的路徑一致，但長端未能上漲，顯示近期政策風險降低並未消除實質利率、供給或期限溢價壓力。\n\n日本市場進一步強化全球長天期債券所受的制約。10年期公債標售需求疲弱，推動指標殖利率上升7個基點至2.77%，20年期殖利率則上升9.5個基點至3.76%。投資人同時面對財政擴張、日圓嚴重貶值，以及日本央行漸進升息可能讓通膨壓力持續的疑慮。標售前公布的企業狀況轉強，短觀調查中的長期通膨預期也創新高；即使政府傾向審慎，這些發展仍提高日本央行再次行動的理由。\n\n風險資產的反應分歧，並非典型的成長恐慌。標普500指數大致持平，道瓊指數上漲1.1%，但那斯達克100指數下跌1.61%，費城半導體指數重挫5.44%。主要上市信用債基金小幅上漲，新興市場貨幣則受惠於美元走弱。整體風險偏好穩定、科技股賣壓卻高度集中，這種分化對債市格外重要，因為AI相關借款人目前已占投資級債券供給的一大部分。就業數據轉弱減輕了聯準會的政策制約，卻未能回答資本密集的科技投資週期、主權債發行及持續的通膨風險，是否會讓長端殖利率維持高檔。\n\n## 就業數據將市場預期的聯準會升息時點推向12月\n\n6月非農就業人數增加57,000人，低於調查預測區間內除一項以外的所有預測，前2個月數據也遭下修。這波放緩打斷了年初以來較強的招聘動能，其中休閒與餐旅業錄得2020年以來最大就業降幅，提供了比整體數字更具體的疲弱跡象。\n\n不過，失業率降至4.2%，使這份報告不能被解讀為明確惡化。勞動參與率下滑，讓失業率在招聘放緩之際仍能下降。對貨幣政策而言，這種組合削弱立即升息的理由，卻不足以證明勞動市場正廣泛收縮；後者通常才會帶動整條美國公債殖利率曲線持續走低。\n\n每週失業救濟金數據也凸顯招聘放慢與廣泛裁員之間的差別。截至6月27日當週，初領失業救濟金人數減少1,000人至215,000人，前一週數據由215,000人上修至216,000人；4週移動平均減少2,500人至222,000人。截至6月20日當週，持續領取失業救濟金人數增加2,000人至181.4萬人，4週移動平均增加10,750人至180.3萬人，續領失業救濟金率則維持1.2%。\n\n這些數據顯示，失業者重新找到工作所需的時間可能略有拉長，但企業尚未以經濟快速收縮時常見的速度裁員。因此，短端上漲之際，較長天期殖利率仍然堅挺：數據降低近期升息機率的程度，明顯大於其縮短限制性政策預期持續時間的程度。\n\n空頭回補放大了2年期公債的漲勢。聯準會6月會議後，18位決策官員中有9位預測2026年至少升息一次，市場因此圍繞7月可能升息累積了偏空部位。隨著7月升息機率降至約20%，原先預期就業報告較強的投資人有理由回補短端空單。2年期公債的漲勢既反映影響聯準會反應函數的證據改變，也受到數據公布前既有部位的推動。\n\n舊金山聯準銀行總裁Mary Daly在就業報告公布後另行釋出政策訊號。她表示，目前政策立場略具限制性，應能推動通膨下降。她樂見美國與伊朗停火後油價回落，但強調前景仍異常不明朗，若通膨持續，可能需要更強力的因應。這番立場保留了有條件升息的可能，並未認同市場對非農就業數據最鴿派的解讀。\n\n聯準會主席Kevin Warsh正在檢討央行的運作及分析架構，Daly也反對改變聯準會的政策目標。她表示，聯準會可以更新評估經濟的方式，但不應更動充分就業與物價穩定的目標。這項區別之所以重要，是因為聯準會偏好的通膨指標5月較上年同期上升4.1%，創2023年4月以來最快增幅。一份疲弱的非農就業報告固然降低匆促行動的必要，卻未消除促使決策官員在6月預測升息的通膨問題。\n\n5月工廠數據也說明，就業不及預期不等於整體經濟突然失速。新訂單在4月增加5.3%後，5月減少1.3%、即$85億，降至$6,574億；出貨則增加1.6%至$6,532億，未完成訂單增加0.6%至$1兆5,795億，存貨增加0.2%至$9,620億。未完成訂單與出貨比由6.95降至6.91，存貨與出貨比則由1.49降至1.47。\n\n結果顯示，4月激增後的新需求轉弱，但生產與未完成訂單仍在成長。配合初領失業救濟金人數維持低檔，數據較支持成長放緩，而非經濟突然崩跌。6月就業報告最明顯改變的是聯準會預期行動的時點：市場仍反映2026年升息1碼，但已不再預期12月以前行動。\n\n縮短交易時段內，美國公債交易活動下降。FINRA記錄的面額交易量為$8,484億、共316,299筆，較7月1日減少31.5%。名目附息債券交易量下降28.9%至$6,353億，TIPS交易量減少43.1%至$153億。降幅與假期前縮短交易時段一致，但短端重新定價的幅度仍足以使殖利率曲線明顯轉陡。\n\n## 日本標售疲弱凸顯漸進正常化的代價\n\n日本10年期公債標售是當日最明顯的主權債需求失望。投標倍數由上次標售的3.53降至3.13，也低於過去一年平均的3.33。標售尾差擴至4月以來最大，最低得標價格也遠低於標售前預估。造市商承接量僅略高於規定配額，顯示其不願在當時殖利率水準大幅吸收指標天期債券。\n\n次級市場立即作出反應，10年期JGB殖利率上升7個基點至2.77%，20年期殖利率上升9.5個基點至3.76%。這波弱勢並非只是日本央行6月將利率升至1%後的機械式反應；投資人也要求市場針對財政擴張、日圓持續貶值，以及日本央行可能落後於通膨進程的風險提供補償。\n\n首相高市早苗的政府正推動大規模支出計畫，並設定在2040年4月開始的會計年度將名目GDP擴大至$6.8兆的目標。投資人也在觀察政府是否會暫停對食品與飲料徵收消費稅。這些政策企圖出現之際，政府債務已超過GDP的200%，殖利率上升也逐步提高既有債務的再融資成本。\n\n日圓疲弱使困境更加棘手。在隨後的亞洲交易時段，日圓在兌美元161.30附近交易，此前已觸及1986年以來未見的水準。匯率貶值推高進口能源與原料成本，而政治上要求漸進升息的壓力，又使日本央行難以迅速縮小利差。今年稍早的干預曾令日圓短暫升值，卻未消除造成貶值的貨幣政策與財政條件。\n\n國內最新證據也使央行愈來愈難維持審慎立場。儘管中東爆發衝突，6月短觀調查顯示企業信心升至8年來最高。企業財務狀況指數一年來首次改善，大型企業也表示發行商業本票的條件轉佳。這份調查因而削弱了先前日本央行升息已經損害企業融資的說法。\n\n短觀調查中的長期通膨預期升至2.6%，創2014年該系列開始以來新高。市場目前認為日本央行在10月前再次升息的機率超過60%；此前經濟學家大多預期約每隔6個月行動一次，意味下一次升息在12月。部分預測者已將10月列為基本情境，並認為9月升息的可能性正在增加。\n\n政治訊號仍指向相反方向。高市一向支持寬鬆政策，她任命的日本央行委員佐藤綾乃與淺田東一郎也被視為傾向較寬鬆的政策設定。淺田是6月升息時唯一投下反對票的委員，佐藤則表示通膨常態尚未穩固建立。政府經濟方針也強調，以「適當」貨幣政策打造強勁經濟的重要性；市場將這種措辭解讀為對快速正常化的警告。\n\n這種矛盾可能形成自我強化的循環。政治阻力將延後日本央行行動的預期，使日圓走弱；日圓貶值推高通膨與進口商品成本；由此產生的壓力，最終又提高升息的必要性。在日本央行化解這項矛盾前，標售結果顯示投資人已要求主權債殖利率曲線反映相關風險。\n\n海外資金流向進一步加重壓力。6月海外投資人淨賣出¥3.12兆、約$192億的日本債券，創2023年1月以來最大單月撤資，統計涵蓋至6月26日。由於當月有¥22.1兆主權債到期，贖回可能是部分原因，但資金流出也恰逢日圓下跌、日本央行購債減少及政府支出疑慮升高。\n\n國內利率上升也在改變企業融資方式。日本企業上半年發行¥1兆可轉換公司債，為2004年以來同期最高。日本製鐵發行¥6,000億，創日本最大規模的可轉債交易；JX Advanced Metals發行¥2,500億，Advantest則完成一筆超額認購的$6.3億交易。傳統借款成本上升時，附加股票轉換權可讓發行人降低甚至免付票息。\n\n投資需求相當強勁：日本製鐵的訂單規模達發行額的數倍，Advantest與JX交易的需求則超過發行規模8倍。不過，轉換可能稀釋現有股東權益，發行人股價也出現相應反應。日本製鐵宣布融資時下跌逾5%，JX Metals則下挫約17%。日本殖利率上升不僅改變主權債估值，也正在重塑企業籌資結構。\n\n## 歐洲與亞洲面臨不同的通膨制約\n\n歐洲央行的討論焦點，已從6月是否有必要升息，轉向後續再次升息所需的條件。總裁Christine Lagarde為上月決策辯護，表示中東供給衝擊開始擴散至經濟後，管理委員會採取的行動正確。她承認第二輪效應尚未出現，仍將已可見的間接成本轉嫁，與官員試圖防止的、更持久的薪資物價循環區分開來。\n\n6月通膨降至2.8%，油價也回到戰前水準，使管理委員會立場分歧。首席經濟學家Philip Lane持續警告，先前的成本增幅可能延後傳導至薪資、食品與服務。愛沙尼亞央行總裁Ulo Kaasik認為，至少再升息一次是合理的。另一端，希臘央行總裁Yannis Stournaras主張暫時按兵不動；芬蘭央行總裁Olli Rehn未見重大第二輪效應，奧地利央行總裁Martin Kocher則表示眼前的通膨威脅已減弱。拉脫維亞央行總裁Martins Kazaks與斯洛維尼亞央行總裁Primoz Dolenc都認為7月無須急於行動。\n\n最新勞動數據未能讓任何一方取得決定性依據。4月數據下修至6.2%後，歐元區5月失業率維持同一水準。失業人數較4月減少55,000人、較上年同期減少158,000人，降至1,098.6萬人，青年失業率則維持14.7%。勞動市場仍足以讓薪資持續性成為政策考量，卻沒有重新加速到迫使央行立即升息的程度。\n\n住宅市場持續以不均衡的方式反映累積所得與融資條件。歐元區房價第1季上漲1%，較上年同期上漲4.7%，年增率低於前一季的5.1%。歐盟房價季增1.2%、年增5.1%。各國表現從芬蘭下跌2%到葡萄牙上漲17.8%不等，如此大的差異使政策官員難以對家庭財富與利率敏感度作出單一判斷。\n\n英國央行決策委員Catherine Mann提出了更明確的條件門檻。她6月與多數委員一同投票支持將政策利率維持在3.75%，但表示，若通膨預期、企業定價行為或2027年薪資談判的基礎惡化，她準備支持採取「積極」升息。她未在6月支持升息，部分原因是當時較緊的市場條件已在抑制需求；不過，隨著市場對美國與伊朗達成協議的期待升高，這些條件已大幅放鬆。\n\nMann將下一步決策與能源價格、企業利潤率及薪資連結，而非只看最新的整體通膨數字。她警告，即使能源成本下降，企業仍可能維持較高售價，以重建利潤率。整體失業率上升也可能掩蓋個別產業較強的勞動市場狀況，使需求比總體數字所顯示的更具韌性。\n\n南韓面對的是不同問題。6月整體通膨率由3.1%升至3.2%，符合預測，並創2023年12月以來最快增幅；核心通膨率維持2.5%。運輸成本較上年同期上升11.1%，休閒與文化上漲5.4%，食品與住宿以及家庭用品與服務則均上漲2.7%。\n\n這項結果進一步強化韓國央行在7月16日會議前轉趨鷹派的立場。已有兩位理事支持立即升息，決策官員的討論也愈來愈集中於緊縮時點，而非是否需要進一步緊縮。6月半導體出貨量接近增至3倍，使經工作日調整的出口成長率逼近60%；政府同時協調企業對晶片製造與AI資料中心投入至少韓元1,350兆。出口需求強勁、韓元疲弱、房價上漲及核心通膨僵固，使升息理由不再只限於能源推升的整體通膨。\n\n紐西蘭央行政策委員會在7月8日開會時仍將勢均力敵。央行在11月大選前不會再任命內部委員，因此維持3名內部委員與3名外部委員的配置。5月時，3名外部委員全數支持升息，總裁Anna Breman則以決定票支持維持利率不變。若分歧持續，未變的委員會結構將再次使總裁的判斷成為關鍵。\n\n澳洲則提供區內成長轉弱的證據。經季節調整後，5月商品貿易餘額由4月的A$13.83億順差轉為A$30.18億逆差，惡化A$44.01億。出口下降6.9%至A$436.14億，主因非貨幣黃金出口減少35%；進口則增加2.6%至A$466.32億。\n\n與此同時，房市下行已由雪梨與墨爾本向外擴散。雪梨房價第2季下跌3.2%，墨爾本下跌2.6%，阿德雷德、布里斯本及其他先前較具韌性的市場，動能也轉弱。負扣稅制度調整估計使部分投資人的借款能力降低20%至30%，較高的政策利率又進一步加重負擔能力限制。Bloomberg Economics估計，房價下跌可能使2026年下半年消費支出減少0.1%至0.3%；若勞動需求轉弱，澳洲央行的政策重點可能由持續通膨轉向成長。\n\n## AI重新定價同時波及股票與投資級債券\n\n美國大盤持穩之際，科技股賣壓進一步加劇。那斯達克100指數下跌1.61%，半導體指數下挫5.44%，使兩週跌幅擴至約12%。民生消費、公用事業與醫療保健類股上漲，抵銷科技股回落，標普500指數因而大致持平。VIX下跌2.65%至16.15，顯示這波集中式賣壓尚未演變為全面撤資。\n\n壓力始於亞洲。SK Hynix與Samsung Electronics市值合計蒸發$2,900億，拖累韓國綜合股價指數下跌7.9%。市場傳出新的客製化晶片計畫，雲端運算競爭也加劇，促使投資人重新評估記憶體需求與資料中心建設能否達到預期。一檔與SK Hynix連結的香港槓桿基金規模已增至約$130億，分析師警告，其再平衡交易的規模足以放大標的股票及韓國股價指數的波動。\n\n科技公司的借款規模異常龐大，使股票修正與固定收益市場的關聯日益密切。2026年至今，企業在各種幣別共發行約$2,200億AI相關債券，較2025年全年多62%。Amazon、Meta、Alphabet與Oracle四家超大規模雲端業者合計發行約$1,070億美元債券，Nvidia與SpaceX則在6月各發行$250億。\n\n高評級科技債供給增加，以機械式方式改善了美國投資級債券指數的評級組成。AA級與A級證券目前占52%，高於2021年的約46%；BBB級占比則由46%降至41%。截至7月1日，投資級債券利差約為0.74個百分點，接近數十年低點。\n\n表面上的品質改善，掩蓋了曝險日益集中於單一投資論述的問題。美國6家最大超大規模雲端業者計畫在2026年投入近$8,200億發展AI，較一年前預期高出近80%。目前現金產生能力相當可觀：Alphabet的營業現金流預計在2027年超過$2,500億，Nvidia未來5年自由現金流可能接近$1.5兆。然而，這些借款的前提是資料中心與模型收入能夠擴大至足以支撐相關資本投入。\n\n風險不只來自景氣循環下的獲利波動。技術可能在20年期、30年期甚至100年期債券到期前便已過時；工程延誤、成本超支、電力限制、客戶不付款及合約未能續約，也都可能在發行人需要再融資前削弱投資報酬。Oracle已明確列出其中數項風險，企業AI應用調查也發現，實際成本節省經常低於最初目標。\n\n最新市場走勢已初步區分發行人本身的品質與市場對AI題材的熱度。SpaceX債券上市後大幅走弱；市場擔心產能過剩，以及替代技術可能需要較少記憶體，也引發晶片股拋售。若AI資本支出退潮，受影響的不只超大規模雲端業者，還包括獲利日益依賴建設潮的半導體製造商、電力供應商、營造公司及其他受惠企業。\n\n整體信用債市場仍然有序。LQD上漲0.17%、HYG上升0.15%、JNK上漲0.11%，EMB則增加0.19%。這些小幅漲勢與美國公債短端殖利率下降及整體風險偏好穩定一致，但仍無法確認現有利差是否足以補償科技曝險集中與未來大量發債的風險。\n\n指數層面的平穩反應，本身也是信用債市場的重要議題。規模龐大且評級甚高的科技業借款人，一方面提高投資級債券指標的平均品質，另一方面也增加市場對同一資本支出週期的曝險。若AI收入不如預期，這個市場的利差仍可能全面擴大，儘管從統計上看，它比BBB級工業債與併購融資債券占比較高時更安全。即使基本面未惡化，只要持續增加的供給超過投資人需求，也可能迫使新債提供更大的發行讓利。\n\n## 前端融資順利去化，新興亞洲吸引資金\n\n美國財政部4週與8週期國庫券標售顯示，假期中斷交易前市場現金需求充裕。28天期國庫券得標金額為$850億，最高得標利率3.605%，投標倍數2.72。間接投標人取得獲接受競爭性投標的67.05%，直接投標人占3.75%，一級交易商占29.20%。債券於7月7日交割，8月4日到期。\n\n56天期國庫券得標金額為$850.01億，最高得標利率3.650%，投標倍數2.70。間接投標人取得61.72%，直接投標人占3.90%，交易商占34.38%。這批債券同樣於7月7日交割，並在9月1日到期。由於沒有發行前交易殖利率作為參照，結果只能說明參與度與配售情況，無法判斷兩場標售相對當時市場水準是偏貴還是偏便宜。\n\n合計$1,700億供給順利去化，沒有跡象顯示假期前出現融資壓力。這兩場標售接續同一交割日先前舉行的17週期國庫券標售，假期後還將迎來另一輪密集發債。結果顯示，短端現金吸收仍有秩序，與較長天期JGB遭拋售，以及美國長債未能跟隨2年期公債上漲，形成明確區別。\n\n儘管聯準會仍有升息風險，新興亞洲本幣債券也持續吸引國際資金。6月流入泰國、印尼、印度與馬來西亞的海外資金合計達$82億，為兩年多來最高。美國與伊朗達成臨時協議後，區域本幣債券指數上漲0.2%；歐洲、中東與非洲市場大致持平，拉丁美洲則下跌0.6%。\n\n相對較高的區域政策利率、油價下跌及外部收支狀況改善，均支撐這波資金流入。美國5年期公債殖利率與新興亞洲同天期殖利率的30天相關係數約為0.04，低於歐洲、中東與非洲的0.34及拉丁美洲的0.44。近期觀察到的敏感度較低，使亞洲本幣債券較不直接受到美國公債波動影響；不過，若聯準會立場再度轉鷹，衝擊仍會透過匯率傳導。\n\n週四美元走弱改善了這項傳導條件。新興市場貨幣上漲0.2%，南非蘭特、匈牙利福林及數種拉丁美洲貨幣均走升。就業報告降低聯準會急於升息的必要，使貨幣得以上漲；與此同時，受到韓國科技股重挫拖累，新興市場股票下跌約2%。\n\n這種分歧說明，區域債券資金流入不能被視為市場對所有亞洲資產投下信任票。本幣固定收益資產受惠於政策利差收益、能源成本下降及美元走弱，股票市場則承受AI部位高度集中的壓力。若油價或美國殖利率再度上升，兩類資產都將面臨挑戰，但作用機制不同：債券面對的是進口通膨與政策壓力，股票則承受估值與融資成本衝擊。\n\n## 後市意涵\n\n依SIFMA的美國獨立紀念日建議，美國固定收益市場7月3日休市，沒有完整的美國公債交易時段可消化新資訊。亞洲與歐洲市場仍然開市，6月服務業與綜合採購經理人指數終值，將提供美國以外地區就業、需求及價格壓力的最新線索。在10年期公債標售疲弱的影響仍未消退之際，日本約¥3.8兆的3個月期國庫券標售將檢驗短端需求。\n\n假期後美國首項重大考驗將於7月6日到來，6月ISM服務業指數與紐約聯準銀行全球供應鏈壓力指數均在美東時間上午10時公布。服務業招聘與價格將顯示就業放緩是否擴及經濟最大部門；物流成本則可反映荷姆茲海峽航運改善，是否正將供給衝擊的緩解傳導至更廣泛領域。同日稍早公布的歐元區5月生產者物價與零售銷售，將更新歐洲央行政策分歧背後的上游通膨與家庭需求平衡。\n\n美國財政部7月6日恢復發債，將標售$920億13週期及$790億26週期國庫券，兩者均於7月9日交割。7月7日另有$900億6週期國庫券、$520億52週期國庫券及$580億新發3年期公債。這是非農就業數據將市場完全反映的聯準會升息時點推遲至12月後，首次舉行附息公債標售，將檢驗買方是否接受新的短端殖利率結構，而不要求更大的發行讓利。\n\n全球長天期債券更關鍵的事件，是日本7月7日約¥6,000億的30年期公債標售。此前10年期標售需求疲弱、20年期殖利率上升9.5個基點，海外投資人大量賣出日本債券，企業長期通膨預期也創新高。在財政與匯率疑慮持續之際，保險公司及其他國內投資人的需求，將顯示較高殖利率是否足以穩定超長端。7月9日接著標售約¥2.5兆5年期公債，檢驗殖利率曲線中對日本央行正常化時點更敏感的區段。\n\n美國5月貿易數據與紐約聯準銀行6月消費者預期調查，將於7月7日美東時間上午8時30分及11時公布。Daly仍保留以更強力手段因應持續價格壓力的可能，而就業數據疲弱已降低7月升息的急迫性，因此家庭通膨預期格外重要。調查可釐清油價下跌是否已反映在消費者展望中，或關稅與服務成本是否仍使預期維持高檔。\n\n美國財政部7月8日將增額發行$390億10年期公債，檢驗指標殖利率未因就業數據疲弱而下降後的長天期需求。6月16日至17日FOMC會議紀要將於美東時間下午2時公布。投資人將關注9位預測2026年至少升息一次的官員所持理由、決策委員對通膨疑慮的廣度，以及委員會如何評估其後於6月僅增加57,000個職位的勞動市場。\n\n本輪附息債券發行週期將於7月9日結束。美東時間上午8時30分公布每週失業救濟金數據後，財政部將增額發行$220億30年期公債。亞洲交易時段稍早將公布中國6月消費者與生產者物價，日本也將標售5年期公債。這些事件將綜合檢驗長天期主權債需求，並提供亞洲商品通膨、美國勞動市場流動及全球通膨降溫持續性的證據。\n\n油價仍是聯準會、歐洲央行、英國央行及亞洲央行政策前景的共同條件。隨著荷姆茲海峽油輪通行恢復、美國與伊朗談判取得進展，WTI與布蘭特原油單月均跌逾24%，但通過海峽的安全持續性與成本仍有疑問。若情勢持續正常化，整體通膨可望下降，央行也能有更多時間評估薪資與服務價格。若運輸再度受阻，進口價格壓力將最快在日本與南韓回升，也會挑戰目前短端已反映的聯準會延後升息路徑。\n",
+      "methodology_note": "美國固定收益資料列採用SIFMA建議於美東時間下午2時結束之交易時段的同日每日殖利率；僅標示日期的資料來源不代表精確觀察時間。收市較晚的跨資產資料，只有在取得同日數據時才會列入。利率資料採Bloomberg每日殖利率歷史序列，變動幅度與衍生曲線均以相同日期序列計算。每日歷史資料未註明具體觀察時刻。",
       "overall_summary": {
-        "headline": "招聘明顯放緩，美債漲勢卻止於短端",
-        "session_narrative": "6月非農僅增5.7萬人，前月下修、勞參率下降。市場把7月升息機率降至約20%，已完全反映的25個基點升息由10月移至12月。2年期每日參考殖利率降3個基點至4.14%，10年與30年期卻各升1個基點至4.49%、4.98%。\n\n信用需求仍廣泛但有選擇。Paramount Skydance約$490億收購融資大部分找到買盤，CoreWeave卻受Meta競爭性雲端計畫拖累。Brightline動用準備金付息、取得寬限展延，重整仍未解決。AI發債提高投資級指數的評級組成，也增加集中度。\n\n日本10年期標售疲弱與外資賣出，使全球長債仍承壓；新興貨幣則受惠Fed定價轉緩。當天建議美東14:00提早收盤，財政部標示17:00的每日參考值及稍晚跨資產收盤，不是該截止時點的精確報價。",
-        "summary": "非農增加5.7萬人，低於預估11.3萬。2年期參考殖利率降至4.14%，10年與30年期卻微升，日本標售也令人失望。"
+        "headline": "就業數據疲弱壓低美國公債短端，長端殖利率卻拒絕下行",
+        "session_narrative": "6月非農就業人數僅增加57,000人，不及113,000人的預測，前2個月數據也遭下修，帶動美國公債殖利率曲線在SIFMA建議的美東時間下午2時提前收市前轉陡。2年期殖利率下跌3.9個基點至4.138%，10年期卻上升0.5個基點至4.485%，30年期增加1.5個基點至4.986%；2年期與10年期利差擴大4.4個基點至34.7個基點。\n\n就業數據不及預期與空頭回補，使市場隱含的聯準會7月升息機率由約33%降至約20%，完全反映升息1碼的時點也由10月延後至12月。不過，勞動參與率下降使失業率降至4.2%，初領失業救濟金人數維持低檔，工廠出貨也有所增加。10年期實質殖利率與損益兩平通膨率同步微升，顯示投資人只是延後預期中的緊縮，而非放棄限制性政策可能持續的看法。\n\n日本10年期公債標售需求疲弱，加重全球長天期債券壓力。財政擴張、日圓疲弱，以及日本央行漸進升息可能讓通膨壓力持續的疑慮，推動指標JGB殖利率上升7個基點至2.77%。收市較晚的美國風險資產表現分歧：大盤大致持穩，科技股與半導體股卻大幅下挫，凸顯AI資本支出、龐大投資級債券供給與長期信用風險之間日益緊密的關聯。",
+        "summary": "6月非農就業僅增加57,000人，使市場完全反映的聯準會升息時點由10月延後至12月，並壓低2年期殖利率；但初領失業救濟金人數穩健、失業率下降，加上通膨、供給與期限溢價疑慮持續，使較長天期美國公債殖利率未能下行。"
       },
       "section_summaries": [
         {
-          "section_title": "非農轉弱支撐短債，長天期美債未跟進",
-          "summary": "非農落差減輕即刻升息預期，支撐短債；長端仍偏高，融資結果則依借款人與結構而異。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "固定收益開場主論點",
+          "summary": "縮短的美國公債交易時段呈現明確的曲線陡峭化，而非全面的長天期債券漲勢。非農就業疲弱與短端空頭回補降低近期聯準會風險，但失業率下降、失業救濟金申請穩健及工廠活動，避免經濟驟然收縮成為市場主流解讀。實質殖利率上升、通膨風險持續、主權債供給壓力及日本標售疲弱，使長端未能跟隨政策敏感區段上漲。"
         },
         {
-          "section_title": "非農使升息定價延後，殖利率曲線趨陡",
-          "summary": "招聘放緩，失業救濟金與出貨卻未全面走弱。曲線趨陡，國庫券需求焦點移向7月7日交割。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "7月升息機率降至約20%後，部位平倉放大了2年期公債漲勢。",
+          "next_check": "",
+          "section_title": "就業數據將市場預期的聯準會升息時點推向12月",
+          "summary": "6月非農就業增加57,000人，前幾個月數據遭下修，但勞動參與率下降使失業率降至4.2%。初領失業救濟金人數維持低檔，出貨與未完成訂單增加，Daly也保留以強力手段因應持續通膨的可能。市場仍反映聯準會在2026年升息1碼，但完全反映首次行動的時點已由10月延後至12月。"
         },
         {
-          "section_title": "AI發債提高指數評級，也增加集中度",
-          "summary": "AI供給提高評級也增加集中度。收購融資有買盤，CoreWeave走弱、Brightline動用準備金付息，Sound Physicians稍晚撤貸。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "政治上反對日本央行升息，可能使日圓走弱、推高進口通膨，並增加最終正常化的代價。",
+          "next_check": "",
+          "section_title": "日本標售疲弱凸顯漸進正常化的代價",
+          "summary": "日本10年期公債標售需求轉弱，10年期與20年期殖利率大幅上升，反映投資人要求市場為財政擴張、日圓貶值及日本央行延後正常化提供更多補償。企業狀況強勁、長期通膨預期升至創紀錄的2.6%，提高再次升息的理由；政治阻力卻延續日圓進一步走弱及進口通膨升高的風險。殖利率上升也正促使企業轉向可轉換公司債。"
         },
         {
-          "section_title": "日本標售疲弱，限制全球長債受惠幅度",
-          "summary": "日本外資賣出與財政疑慮下，10年期標售偏弱。歐洲通膨緩解，Mann仍保留條件式升息立場。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "歐洲與亞洲面臨不同的通膨制約",
+          "summary": "通膨降至2.8%且尚未出現明確第二輪效應，使歐洲央行官員對6月升息後是否應再次行動意見分歧；英國央行的Mann則將進一步緊縮與通膨預期、企業定價及薪資條件連結。南韓通膨升至3.2%、晶片出口強勁且韓元疲弱，進一步強化鷹派轉向。紐西蘭可能再次出現決策委員各半的局面，澳洲貿易逆差與擴散中的房市下行則提高成長風險。"
         },
         {
-          "section_title": "Fed定價轉緩支撐新興市場，擔保為敘利亞開啟融資",
-          "summary": "Fed定價轉緩支撐新興貨幣。亞洲流入、敘利亞擔保融資及加勒比海偏貴估值，呈現不同資金來源與限制。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "指數的平均評級品質可以改善，但對AI支出與未來債券供給的依賴，也使信用風險更加集中。",
+          "next_check": "",
+          "section_title": "AI重新定價同時波及股票與投資級債券",
+          "summary": "科技股集中賣壓未撼動美國大盤，卻使固定收益投資人更直接面對AI融資規模。2026年AI相關債券發行量已達約$2,200億，超大規模雲端業者則計畫投入近$8,200億。高評級借款人改善了投資級債券指數的評級組成，卻也使信用曝險集中於單一資本支出週期，其報酬面臨工程、電力、技術與客戶風險。"
         },
         {
-          "section_title": "晶片再跌，美元轉弱、黃金走高",
-          "summary": "晶片再跌但大盤持平。美元下降、黃金上漲，原油微升，月跌幅仍大。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "亞洲本幣債券近期對美國殖利率的敏感度偏低，但若聯準會轉鷹，衝擊仍會經由匯率傳導。",
+          "next_check": "",
+          "section_title": "前端融資順利去化，新興亞洲吸引資金",
+          "summary": "美國財政部合計$1,700億的4週與8週期國庫券供給，在現金需求充裕下順利去化，未見假期融資壓力。6月流入泰國、印尼、印度及馬來西亞本幣債券的海外資金達$82億，受利差收益、油價下跌與外部收支改善支撐。美元走弱帶動貨幣上漲，但韓國科技股重挫仍拖累新興市場股票。"
         },
         {
-          "section_title": "假日後接續服務業資料與附息債供給",
-          "summary": "假日後服務業、Fed紀錄及大額美債供給接續，日本標售檢驗較高殖利率能否恢復買盤。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "後市意涵",
+          "summary": "美國市場7月3日休市後，服務業活動與通膨預期將檢驗非農就業疲弱是否足以支持聯準會延後升息。日本與美國債券標售將在財政、匯率及供給壓力下測試長天期需求，油價與荷姆茲海峽航運情況則仍是主要央行共同面對的通膨條件。"
         }
       ],
       "watch_events": [
         {
-          "title": "假日後美國活動與Fed紀錄",
-          "date": "7月6日至8日",
-          "category": "美國展望",
-          "watch_line": "7月6日服務業與供應鏈，7月7日貿易及消費者預期，7月8日FOMC紀錄。",
-          "market_trigger": "非農轉弱後，看服務業招聘、價格及家庭預期。",
-          "market_implication": "資料將區分持續放緩與單次就業偏弱。"
+          "category": "聯準會",
+          "date": "7月6日至7日",
+          "market_implication": "若疲弱情況擴大，將強化聯準會延後升息的預期；若通膨預期僵固，短端仍將保留升息風險。",
+          "market_trigger": "服務業疲弱情況由非農就業向外擴散，或通膨預期在油價下跌後仍維持高檔。",
+          "title": "美國服務業與通膨預期",
+          "watch_line": "將6月ISM服務業招聘及價格指標，與家庭通膨預期一併解讀。"
         },
         {
-          "title": "美債供給與交割",
-          "date": "7月6日至9日",
-          "category": "美國供給",
-          "watch_line": "國庫券後有$580億3年期，及$390億10年期、$220億30年期增額。",
-          "market_trigger": "觀察投標參與，並留意7月7日及7月9日國庫券、7月15日附息債交割。",
-          "market_implication": "需求將考驗短端漲勢及長天期提供的報酬補償。"
+          "category": "主權債供給",
+          "date": "7月7日至9日",
+          "market_implication": "即使美國數據進一步轉弱、持續支撐短端，長端殖利率仍可能維持高檔。",
+          "market_trigger": "財政、匯率與供給疑慮持續之際，投標需求疲弱迫使發行人提供更大讓利。",
+          "title": "日本與美國長天期債券標售",
+          "watch_line": "觀察日本30年期公債，以及美國10年期與30年期公債增額發行的需求。"
         },
         {
-          "title": "日本需求與歐洲資料",
-          "date": "7月3日至9日",
-          "category": "全球債市",
-          "watch_line": "日本7日30年期、9日5年期；歐元區PPI及零售6日公布。",
-          "market_trigger": "疲弱10年期之後，觀察長債買盤能否恢復，以及歐洲內部價格。",
-          "market_implication": "分別檢驗全球債市可從美國勞動轉弱得到多少支撐。"
+          "category": "通膨",
+          "date": "持續觀察",
+          "market_implication": "若航運再度受阻，進口通膨壓力將回升；若情勢持續正常化，央行將有更多時間觀察。",
+          "market_trigger": "運輸再度受阻、扭轉油價跌勢，或持續正常化使油價進一步下跌。",
+          "title": "荷姆茲海峽航運與油價",
+          "watch_line": "追蹤油輪通行改善能否讓油價與物流成本持續回落。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Weak Payrolls Lift Short Treasuries, but Long Bonds Hold Their Losses\n\nUS hiring slowed enough to ease expectations of an immediate Fed increase Thursday, ending two days of losses in short Treasuries. Longer bonds barely benefited. The two-year daily reference yield fell 3 basis points to 4.14%, while the 10- and 30-year yields edged up to 4.49% and 4.98%. June payrolls rose just 57,000, roughly half the forecast, and revisions reduced the preceding months' gains.\n\nThe report shifted a fully priced quarter-point increase from October to December and cut the implied probability of a July move to about 20%. Low initial claims and growing factory shipments tempered the disappointment. Investors were taking urgency out of the near-term policy outlook, not pricing an abrupt collapse in activity. Japan's weak 10-year auction and rising longer yields offered little help to US duration.\n\nCredit markets remained open, but the distinction between strong aggregate demand and individual risk sharpened. Banks had lined up buyers for most of a huge media-acquisition financing, while CoreWeave debt weakened on new cloud competition. Brightline paid coupons from reserves, buying time rather than resolving its restructuring. The concentration of investment-grade issuance in AI borrowers made those company-level differences increasingly important.\n\nSIFMA recommended a 14:00 ET fixed-income close ahead of the holiday. Treasury's official daily series carries a 17:00 timestamp and is used here as the day's reference, not an exact 14:00 quote. Final equity, currency and commodity values below also describe the later part of the day.\n\n## Payrolls Delay Fed Pricing as the Curve Steepens\n\nNonfarm payrolls increased 57,000 in June against a 113,000 median forecast, with downward revisions to the previous two months. Unemployment fell to 4.2%, but a sharp drop in participation explained the decline rather than stronger hiring. Short-rate futures reduced the July 29 hike probability from roughly 33% before the release to about 20%. A quarter-point move was still fully priced by year-end, now in December instead of October.\n\nThe relief was concentrated in shorter maturities. Alongside the two-year's 3-basis-point decline, the five-year fell 1 to 4.23%. The 10- and 30-year references each rose 1 basis point. Both 2s10s and 2s30s widened 4 basis points, to 35 and 84. The week still left two-, five-, 10- and 30-year yields higher by 5, 8, 9 and 12 basis points. Over a month, those changes were +9, +5, +2 and −1. One weak payroll report had reversed only part of the recent repricing.\n\nClaims offered a less troubling labor picture. New applications fell 1,000 to 215,000 in the week ended June 27, and the four-week average declined to 222,000. Continuing claims rose 2,000 to 1.814 million, with their average increasing to 1.803 million. Layoffs remained contained while finding another job appeared to be taking longer.\n\nFactory orders fell 1.3% in May after April's 5.3% increase. Shipments nonetheless rose 1.6%, unfilled orders 0.6% and inventories 0.2%. The order decline weakened the case for accelerating demand without showing a collapse in the production pipeline.\n\nReal yields explained the long end's resistance. The 10-year rose 1 basis point to 2.26% and its breakeven held at 2.23%. Five-year real yields added 1 to 1.99%, seven years held at 2.11%, and 20 and 30 years rose 2 and 1 to 2.60% and 2.79%. The nominal benchmark increase therefore did not reflect renewed inflation compensation. Softer labor reduced immediate policy risk, while longer maturities still faced upcoming supply and rising yields abroad.\n\n### Cash Demand Shifts to July 7 Settlement\n\nThe four- and eight-week auctions each raised about $85 billion. Four weeks stopped at 3.605% with 2.72 bid-to-cover; indirect, direct and dealer shares were 67.05%, 3.75% and 29.20%, with 46.77% allotted at the high. Eight weeks cleared at 3.650% with 2.70 coverage, allocations of 61.72%, 3.90% and 34.38%, and 53.99% at the high. Both settle July 7.\n\nThe corresponding secondary yields rose 4 and 3 basis points to 3.67% and 3.72%. Six weeks fell 3 to 3.67%, while 13 through 52 weeks declined 3–4 basis points to a range of 3.76%–3.95%. Cheapening was concentrated in the maturities being sold, rather than showing a broad holiday cash squeeze.\n\nThe Fed's H.4.1 release at 16:30 ET subsequently showed reserve balances averaging $2.967 trillion in the week ended July 1, up $15.5 billion, as the Treasury General Account fell $38.5 billion. Reverse repos increased and the securities portfolio shrank. The release described liquidity heading toward the next settlement cycle; it was not available at the recommended rates close.\n\n## AI Supply Raises Index Quality—and Concentration\n\nAA− and A-rated bonds made up 52% of the US investment-grade index at June-end, up from about 46% in 2021, while BBB's share fell to 41% from 46%. Highly rated technology issuance had improved that ratings mix. It had also made the index more dependent on a small group of borrowers, with high-grade spreads at just 74 basis points on July 1, near multi-decade lows.\n\nCompanies had issued about $220 billion of AI-linked bonds across currencies in 2026, already 62% more than in all of 2025. Amazon, Meta, Alphabet and Oracle accounted for roughly $107 billion of dollar issuance. Nvidia and SpaceX each sold $25 billion in June, contributing to record monthly high-grade volume. The six largest US hyperscalers were preparing nearly $820 billion of AI expenditure this year, so investors faced a continuing financing requirement rather than one completed wave of deals.\n\nStrong cash flows reduced immediate default concerns, but some maturities stretched far beyond the assets' likely useful lives. Alphabet issued 100-year sterling debt; Nvidia and SpaceX included 20- and 30-year tranches. SpaceX's weak secondary trading was already familiar from the prior week's reports. The new question was how much repeated supply tight spreads could absorb, particularly if competition changed the expected returns from AI infrastructure.\n\nCoreWeave supplied a direct example. After Meta announced a competing cloud business, its euro bond fell almost 2 cents over two days to 96.8. The yield on a $1.25 billion issue sold the previous month rose to 10.25%. Investors were reassessing a specific borrower's competitive position, not simply marking all AI debt the same way.\n\n### Acquisition Buyers, Convertibles and Alternative Currencies\n\nBanks had gathered enough demand to cover most of the roughly $49 billion package backing Paramount Skydance's Warner Bros. takeover. Investment-grade loans were discussed at 250–275 basis points over benchmarks; expected dollar yields on second-lien bonds were about 1 percentage point above comparable euro tranches. Early demand reduced the risk that banks would be left holding the financing, while investors would still have to absorb a very large new-money acquisition structure.\n\nAustralian-dollar funding offered another outlet. Beyond the first-half Kangaroo record reported previously—A$52 billion, or $36 billion—new detail showed how issuers were using the market: Aroundtown raised A$600 million in January and placed longer debt below its comparable euro cost. Asian bids often exceeded supply after the decline in Chinese dollar issuance redirected portfolios. High Australian yields attracted buyers, and cross-currency swaps let issuers convert proceeds back to their required currencies, in some cases lowering or matching home-market funding costs despite no Australian operating need.\n\nJapanese companies issued ¥1 trillion of convertibles in the first half, the most for that period since 2004. Nippon Steel's ¥600 billion transaction was a national record, and JX Advanced Metals raised ¥250 billion. Many issues had zero coupons. With domestic rates rising, issuers could reduce cash interest by offering equity conversion value, though investors' outcomes remained tied to share performance and bondholder protections.\n\nBrightline provided an actual payment update after the previous day's negotiations. It used reserves to pay July 1 interest on senior municipal and corporate notes. Holders of $985 million of access-rights bonds extended their payment grace period to July 15, adding two weeks for talks over the railway's $5.5 billion debt. The payments avoided an immediate default but used liquidity without settling control and priority.\n\nAfter the 14:00 rates cutoff, Barclays withdrew a $960 million Sound Physicians loan when demand was insufficient even at a 500-basis-point margin. The refinancing could return on revised terms. Together with an earlier withdrawn Shutterfly syndication, it showed that broad leveraged-loan demand did not guarantee execution for every borrower.\n\nLater listed credit references were modestly positive: LQD gained 0.17%, HYG 0.15% and JNK 0.11%. Those small gains coexisted with large differences in what investors were funding—an acquisition, a convertible, a new cloud competitor or a railway workout.\n\n## Japan's Weak Auction Limits the Global Duration Relief\n\nJapan's 10-year auction drew 3.13 bid-to-cover, down from 3.53 at the previous sale and below the 3.33 one-year average. The 10-year yield rose 7 basis points to 2.77%, and the 20-year gained 9.5 to 3.76%. The weak bid followed fiscal-expansion concerns and doubts about whether gradual BOJ tightening could keep up with inflation.\n\nThe policy rate was already 1%, the highest since 1995, but markets put the probability of another increase by October above 60%. The earlier Tankan's 2.6% long-horizon inflation expectation reinforced that debate. Foreign investors sold ¥3.12 trillion of Japanese bonds in June, the most in three years, while BOJ purchases receded and government supply increased. Attracting replacement buyers was becoming a more immediate issue than policy commentary alone.\n\nPrime Minister Sanae Takaichi targeted nominal GDP of $6.8 trillion in the fiscal year starting April 2040. Investors also awaited details of a possible suspension of food and beverage sales tax. The proposals could support nominal activity, but their financing mattered to bondholders as the BOJ reduced support. Higher domestic yields also changed the comparison for Japanese institutions considering overseas bonds.\n\nEurope's latest releases were less threatening to duration. After the prior day's euro-area inflation slowdown to 2.8% from 3.2%, May unemployment held at 6.2%; the number unemployed fell 55,000 from April and 158,000 over a year. First-quarter house prices rose 4.7% annually, slower than 5.1% in the preceding quarter. Inflation relief was not accompanied by a weak labor market or a collapse in household asset values.\n\nChristine Lagarde defended June's rate increase on the information then available, when energy costs appeared to be spreading through the economy, while acknowledging that second-round effects had not materialized. Philip Lane remained attentive to wages, food and services; Olli Rehn and Martin Kocher saw less immediate risk. The discussion had become less urgent without declaring the shock fully resolved.\n\nBOE policymaker Catherine Mann supported holding at 3.75% for now but said persistent inflation expectations, energy costs, profit margins or adverse wage negotiations could justify an activist increase. Her position followed a 7–2 vote against a quarter-point hike at the last meeting. Lower current oil prices did not remove that conditional tightening case.\n\nAustralia's May goods balance swung to an A$3.018 billion deficit from an A$1.383 billion surplus. Exports fell 6.9% and imports rose 2.6%, with a 35% drop in non-monetary gold exports accounting for most of the export weakness. Released at 21:30 ET July 1, the data were available before Thursday's US session. They pointed to softer external activity, although the concentration in gold cautioned against reading the headline as a broad demand slump.\n\n## Softer Fed Pricing Helps EM; Guarantees Reopen Syrian Funding\n\nEmerging currencies rallied after the US employment report. The rand and forint gained about 1%, several Latin American currencies advanced and the Bloomberg Dollar Spot Index fell 0.5% during US trading. Lower odds of an immediate Fed hike eased one source of pressure on dollar borrowers.\n\nLocal bond demand had already strengthened. Foreign inflows into Thai, Indonesian, Indian and Malaysian government debt reached a combined $8.2 billion in June, the highest in more than two years. Expectations of elevated local rates supported carry. Since the US-Iran agreement, an emerging-Asia bond index gained 0.2%, while a Latin American gauge lost 0.6%; lower energy costs and domestic policies were producing different outcomes.\n\nSyria's prospective reconstruction financing depended on guarantees rather than broad sovereign confidence. JPMorgan, Qatar National Bank and Abu Dhabi Commercial Bank were arranging about $7 billion of five-year funding for power and airport projects. QNB would guarantee the facility; its largest shareholder was the $580 billion Qatar Investment Authority. Gulf backing shifted part of the lenders' credit exposure away from the postwar operating environment, though construction, state capacity and the history of sanctions remained relevant.\n\nSouth Korea showed why high local rates could both attract capital and constrain domestic borrowers. June inflation had risen to 3.2% from 3.1%, with core at 2.5%. Strong exports, currency weakness and housing pressure kept the BOK restrictive. Foreign purchases could improve bond-market absorption without implying that the domestic policy burden was easing.\n\nValuations limited the appeal of some recent winners. Central American and Caribbean sovereign bonds had returned more than 40% since 2023; most traded above par with an average yield of 5.9%, against 7.7% for EM speculative-grade sovereigns. Rating upgrades, deeper markets and debt-for-nature transactions involving Barbados, the Bahamas and El Salvador had supported the rally. Some investors were retreating as lower carry left less compensation for fiscal or political setbacks.\n\nEMB's later reference gained 0.19%, adding a modest positive debt return to the currency rally. Dependence on external capital still left countries such as Turkey and Colombia sensitive to renewed Fed hawkishness. Lower oil improved importers' costs while reducing exporters' revenue. The common dollar pressure eased, but local debt, hard-currency sovereigns and guaranteed projects retained different risks.\n\n## Chips Fall Again as the Dollar Weakens and Gold Rises\n\nThe later cross-asset closes were less defensive than the payroll miss alone might suggest. S&P 500 finished almost unchanged at 7,483.24, while Nasdaq 100 fell 1.61% and semiconductors lost 5.44%. VIX declined 2.65% to 16.15. The technology selloff was already underway before rates closed, but final values showed concentrated losses rather than a broad equity liquidation.\n\nDXY fell 0.52% to 100.86 and gold rose 1.09% to $4,112.70, consistent with reduced urgency around Fed tightening. Gold's gain did not imply that all Treasury yields had fallen: the reference long yields remained slightly higher, and broad equities and volatility showed little sign of a generalized haven rush.\n\nOil was nearly flat on the day rather than falling again. WTI rose 0.16% to $68.69 and Brent 0.32% to $71.80. Their monthly declines were still 25.47% and 24.41%, preserving the energy relief cited by Fed and ECB officials. The stable 10-year breakeven fit that broader backdrop even as long real yields resisted the softer jobs report.\n\nThe immediate policy trade was clearer than the growth outlook. Dollar weakness and short-Treasury gains followed weaker hiring, while flat broad equities and falling volatility did not price a recession. For fixed income, the more consequential follow-through would be whether the AI correction began to change investment plans and credit demand beyond the firms already under pressure.\n\n## Services Data and Coupon Supply Follow the Holiday\n\nUS releases resume July 6 at 10:00 ET with ISM services and the New York Fed Global Supply Chain Pressure Index. May trade follows July 7 at 08:30 and the June Survey of Consumer Expectations at 11:00. Minutes of the June 16–17 FOMC meeting arrive July 8 at 14:00. Services hiring and prices, logistics costs and household expectations will help distinguish a durable slowdown from one weak payroll report.\n\nTreasury sells $92 billion of 13-week and $79 billion of 26-week bills July 6 at 11:30 ET. July 7 brings $90 billion of 42-day bills, $52 billion of 52-week bills and a $58 billion three-year note. Reopenings follow: $39 billion of 10-year notes July 8 and $22 billion of 30-year bonds July 9. In addition to the earlier issues settling July 7, the new sequence brings July 9 bill and July 15 coupon settlements. Demand will show whether the front-end rally can coexist with another large supply week and whether higher long yields attract buyers.\n\nJapan auctions roughly ¥3.8 trillion of three-month bills July 3, about ¥600 billion of 30-year bonds July 7 and ¥2.5 trillion of five-year debt July 9. The long-bond sale follows the weak 10-year result and foreign selling. Euro-area producer prices and retail sales arrive July 6 at 05:00 ET. Japanese demand and European domestic-price data offer separate tests of how far global duration can benefit from the softer US labor outlook.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries steepened on July 2 after a sharp slowdown in U.S. hiring reduced the urgency of another Federal Reserve increase but failed to generate a broad duration rally. In daily observations for the shortened session, the 2-year yield fell 3.9 basis points to 4.138%, while the 10-year edged 0.5 basis point higher to 4.485% and the 30-year rose 1.5 basis points to 4.986%. The 2s10s curve widened 4.4 basis points to 34.7 basis points, and 2s30s increased 5.4 basis points to 84.8 basis points. The session had a SIFMA-recommended early close at 2:00 p.m. ET ahead of U.S. Independence Day.\n\nNonfarm payrolls rose only 57,000 in June, versus the 113,000 median forecast, and the preceding 2 months were revised lower. The unemployment rate nevertheless fell to 4.2% because labor-force participation dropped. The mixed composition encouraged investors to remove some near-term tightening risk without treating the release as evidence of an abrupt downturn. The implied probability of a July increase fell to about 20% from roughly 33% before the data, and the first fully priced quarter-point move shifted to December from October.\n\nThe curve’s response captured the distinction. Payroll weakness and short-covering benefited the policy-sensitive sector, but the 10-year real yield still rose 0.3 basis point to 2.246%, and the 10-year breakeven increased 0.2 basis point to 2.239%. Claims remained low, factory shipments increased, and the June employment report’s lower jobless rate complicated an otherwise soft payroll headline. Investors delayed the expected Fed move rather than abandoning the view that restrictive policy may persist.\n\nOil offered further relief from the immediate inflation shock but no fresh collapse in prices. WTI settled 0.16% higher at $68.69 and Brent gained 0.32% to $71.80 after both touched their lowest levels since February; each remained more than 24% lower over the month. The dollar index fell 0.52% to 100.86, while gold futures rose 1.09% to $4,112.70. Those moves were consistent with a less urgent Fed path, although the long end’s failure to rally showed that lower near-term policy risk did not remove real-rate, supply or term-premium pressure.\n\nJapan reinforced the global duration constraint. A weak 10-year government-bond auction pushed the benchmark yield 7 basis points higher to 2.77% and the 20-year rate up 9.5 basis points to 3.76%. Investors were confronting a combination of fiscal expansion, a deeply weakened yen and concern that gradual Bank of Japan tightening may allow inflation pressure to persist. The result followed stronger corporate conditions and record long-run inflation expectations in the Tankan, increasing the case for another BOJ move even as the government favors caution.\n\nRisk assets delivered a divided response rather than a conventional growth scare. The S&P 500 finished essentially unchanged and the Dow rose 1.1%, but the Nasdaq 100 fell 1.61% and the Philadelphia Semiconductor Index plunged 5.44%. Broad listed credit funds posted small gains, while emerging-market currencies benefited from the weaker dollar. The separation between stable broad risk appetite and a concentrated technology selloff mattered for bonds because AI-related borrowers are now responsible for a large share of investment-grade supply. Softer payrolls eased the Fed constraint; they did not settle whether the capital-intensive technology cycle, sovereign issuance and persistent inflation risks will keep longer yields elevated.\n\n## Payrolls Push the Expected Fed Increase Toward December\n\nJune’s 57,000 payroll increase was lower than all but one forecast in the surveyed range and followed downward revisions to the preceding 2 months. The slowdown interrupted the stronger hiring momentum that had emerged earlier in the year. Leisure and hospitality recorded its largest payroll decline since 2020, providing a more specific sign of weakness than the aggregate result alone.\n\nThe fall in unemployment to 4.2% prevented the release from reading as an unambiguous deterioration. Labor-force participation declined, allowing the jobless rate to fall even as hiring slowed. For monetary policy, that combination weakens the case for an immediate increase but does not establish the kind of broad labor-market contraction that would normally produce a sustained rally across the Treasury curve.\n\nWeekly claims reinforced the distinction between slower hiring and widespread layoffs. Initial claims slipped by 1,000 to 215,000 in the week ended June 27, with the preceding week revised to 216,000 from 215,000. The 4-week average declined by 2,500 to 222,000. Insured unemployment rose by 2,000 to 1.814 million in the week ended June 20, and its 4-week average increased by 10,750 to 1.803 million, while the insured unemployment rate held at 1.2%.\n\nThe claims figures suggest that workers who lose jobs may be taking somewhat longer to find new employment, but employers have not begun cutting staff at a pace associated with a rapid contraction. That helps explain why the front end rallied while longer maturities remained firm in yield: the data reduced the probability of near-term tightening more clearly than they reduced the expected duration of restrictive policy.\n\nShort-covering amplified the 2-year move. Bearish positions had accumulated around the possibility of a July increase following the Fed’s June meeting, when 9 of 18 policymakers projected at least one increase during 2026. With the July probability falling to about 20%, investors who had expected a stronger labor report had reason to unwind front-end shorts. The resulting 2-year rally therefore reflected both a change in the reaction-function evidence and the positioning carried into the release.\n\nSan Francisco Fed President Mary Daly supplied a separate policy signal after the employment report. Daly said the current stance was slightly restrictive and should bring inflation lower. She welcomed the retreat in oil after the U.S.-Iran ceasefire but emphasized that the outlook remained unusually uncertain and that persistent inflation could require a more forceful response. Her position preserved conditional tightening rather than endorsing the market’s most dovish interpretation of payrolls.\n\nDaly also resisted changing the Fed’s objectives as Chair Kevin Warsh reviews its operations and analytical framework. She said the institution could modernize how it assesses the economy without moving the goalposts for maximum employment and price stability. That distinction matters because the Fed’s preferred inflation measure had risen 4.1% from a year earlier in May, its fastest pace since April 2023. One weak payroll report reduces the case for haste, but it does not eliminate the inflation problem that produced the June tightening projections.\n\nMay factory data added another reason not to equate the employment miss with an economy-wide break. New orders fell 1.3%, or $8.5 billion, to $657.4 billion after a 5.3% increase in April. Shipments rose 1.6% to $653.2 billion, however, and unfilled orders increased 0.6% to $1.5795 trillion. Inventories gained 0.2% to $962 billion. The unfilled-orders-to-shipments ratio declined to 6.91 from 6.95, while the inventories-to-shipments ratio fell to 1.47 from 1.49.\n\nThe result showed softer new demand after April’s surge but continued production and backlog growth. Combined with low initial claims, it supported a slower-growth interpretation rather than a sudden collapse. The June payroll report changed the timing of the expected Fed response most decisively: the market continued to price one quarter-point increase during 2026, but no longer expected it before December.\n\nTreasury trading activity was lower in the abbreviated session. FINRA recorded $848.4 billion of par activity across 316,299 trades, down 31.5% from July 1. Nominal-coupon activity fell 28.9% to $635.3 billion, and TIPS activity declined 43.1% to $15.3 billion. The reductions were consistent with the shortened holiday schedule, but the front-end repricing was still substantial enough to steepen the curve materially.\n\n## Japan’s Weak Auction Exposes the Cost of Gradual Normalization\n\nJapan’s 10-year auction delivered the day’s clearest sovereign-demand disappointment. The bid-to-cover ratio fell to 3.13 from 3.53 at the previous sale and below its 3.33 average over the past year. The auction tail widened to its largest since April, and the lowest accepted price came in well below pre-sale estimates. Market makers took little more than their required allotments, signaling limited willingness to absorb benchmark duration at prevailing yields.\n\nThe secondary-market reaction was immediate. The 10-year JGB yield climbed 7 basis points to 2.77%, while the 20-year rose 9.5 basis points to 3.76%. The weakness was not simply a mechanical response to the Bank of Japan’s June rate increase to 1%. Investors were also demanding compensation for fiscal expansion, continued yen depreciation and the risk that the BOJ remains behind the inflation process.\n\nPrime Minister Sanae Takaichi’s government is pursuing large spending plans and has set a goal of expanding nominal GDP to $6.8 trillion in the fiscal year beginning April 2040. Investors are also waiting to see whether the government proceeds with suspending the sales tax on food and beverages. Those ambitions arrive as government debt exceeds 200% of GDP and as higher yields gradually raise the cost of refinancing the existing debt stock.\n\nThe yen’s weakness intensifies the dilemma. It traded near 161.30 per dollar in the subsequent Asian session after reaching levels last seen in 1986. Currency depreciation raises imported energy and material costs, while political pressure for gradual tightening leaves the BOJ with less room to close the rate differential quickly. Intervention earlier in the year temporarily strengthened the currency, but it did not remove the policy and fiscal conditions behind the decline.\n\nCurrent domestic evidence is making caution harder to sustain. The June Tankan showed business confidence at its strongest in 8 years despite the Middle East conflict. An index of companies’ financial positions improved for the first time in a year, and large firms reported better conditions for issuing commercial paper. The survey therefore undercut the argument that earlier BOJ increases had already impaired corporate financing.\n\nLonger-run inflation expectations in the Tankan rose to 2.6%, the highest in the series dating to 2014. Markets now assign more than a 60% probability to another BOJ increase by October, whereas economists had previously clustered around a roughly 6-month interval that implied December. Some forecasters have moved October into their base case and see a growing possibility of September.\n\nPolitics still points in the opposite direction. Takaichi has consistently favored accommodative policy, and her BOJ appointees Ayano Sato and Toichiro Asada are regarded as sympathetic to easier settings. Asada cast the only dissent against the June increase, while Sato has said that an inflationary norm is not yet firmly established. The government’s economic guidelines have also stressed the importance of “appropriate” monetary policy for building a strong economy, language markets have interpreted as a warning against rapid normalization.\n\nThat tension can become self-reinforcing. Expectations that political resistance will delay the BOJ weaken the yen; the weaker yen raises inflation and the cost of imported goods; and the resulting pressure increases the eventual need for higher rates. The auction showed that investors are already charging the sovereign curve for that risk before the BOJ resolves it.\n\nForeign flows added to the pressure. Overseas investors sold a net ¥3.12 trillion, or $19.2 billion, of Japanese bonds in June, the largest monthly withdrawal since January 2023. The figures cover the period through June 26. Redemptions probably contributed, because ¥22.1 trillion of sovereign securities matured during the month, but the outflow coincided with the yen’s slide, reduced BOJ purchases and rising government-spending concerns.\n\nHigher domestic rates are also altering corporate funding. Japanese companies issued ¥1 trillion of convertible bonds during the first half, the most for that period since 2004. Nippon Steel’s ¥600 billion transaction was the country’s largest convertible issue, while JX Advanced Metals sold ¥250 billion and Advantest completed a $630 million oversubscribed deal. The ability to attach an equity option allows issuers to reduce or eliminate coupons as conventional borrowing costs rise.\n\nInvestor demand has been strong: the Nippon Steel sale attracted orders many times the offered amount, while the Advantest and JX transactions drew demand exceeding 8 times their size. Yet conversion can dilute existing shareholders, and issuer stock prices have reacted accordingly. Nippon Steel fell more than 5% when it announced its financing, and JX Metals dropped about 17%. Rising Japanese yields are therefore changing both sovereign valuations and the structure through which companies raise capital.\n\n## Europe and Asia Produce Different Inflation Constraints\n\nThe European Central Bank’s debate moved from the necessity of June’s increase to the conditions for any subsequent move. President Christine Lagarde defended last month’s decision, saying the Governing Council had acted correctly after the Middle East supply shock began spreading through the economy. She acknowledged that second-round effects had not yet materialized, preserving the distinction between indirect cost pass-through already visible and the more persistent wage-price process officials are trying to prevent.\n\nJune inflation’s decline to 2.8% and oil’s return to pre-war levels have divided the Council. Chief Economist Philip Lane continues to warn that earlier cost increases may reach wages, food and services with a lag. Estonian Governor Ulo Kaasik regards at least one more increase as reasonable. At the other end, Greek Governor Yannis Stournaras favors holding for now, while Finland’s Olli Rehn sees no major second-round effects and Austria’s Martin Kocher says the immediate inflation threat has diminished. Latvia’s Martins Kazaks and Slovenia’s Primoz Dolenc see no urgency to act in July.\n\nCurrent labor data gave neither side a decisive result. Euro-area unemployment held at 6.2% in May after April was revised down to the same rate. The number of unemployed people fell by 55,000 from April and by 158,000 from a year earlier, to 10.986 million. Youth unemployment remained at 14.7%. The labor market is firm enough to keep wage persistence relevant, but it did not provide a fresh acceleration that would compel an immediate increase.\n\nHousing continues to transmit accumulated income and financing conditions unevenly. Euro-area house prices rose 1% in Q1 and 4.7% from a year earlier, down from a 5.1% annual pace in the previous quarter. EU prices increased 1.2% quarterly and 5.1% annually. National changes ranged from a 2% decline in Finland to a 17.8% increase in Portugal, a dispersion that complicates a single assessment of household wealth and rate sensitivity.\n\nBank of England policymaker Catherine Mann set a more explicit conditional threshold. Mann, who voted with the majority to hold the policy rate at 3.75% in June, said she was prepared to support an “activist” increase if inflation expectations, price-setting or the foundations of 2027 wage negotiations deteriorate. She had refrained from backing a June increase partly because tighter market conditions were already restraining demand, but said those conditions had loosened substantially as hopes for a U.S.-Iran settlement improved.\n\nMann’s position links the next decision to energy prices, corporate margins and wages rather than to the latest headline reading alone. She warned that companies may retain higher prices to rebuild margins even if energy costs moderate. Rising aggregate unemployment also may conceal stronger conditions in particular industries, leaving demand more resilient than broad figures suggest.\n\nSouth Korea faces a different problem: headline inflation accelerated to 3.2% in June from 3.1%, matching forecasts and reaching its fastest pace since December 2023. Core inflation held at 2.5%. Transportation costs rose 11.1% from a year earlier and recreation and culture increased 5.4%, while food and lodging and household goods and services each gained 2.7%.\n\nThe result reinforces the Bank of Korea’s hawkish turn before its July 16 meeting. Two board members had already favored an immediate increase, and policymakers are increasingly debating timing rather than the principle of further restraint. Semiconductor shipments almost tripled in June, helping working-day-adjusted export growth approach 60%, while the government is coordinating at least 1,350 trillion won of corporate investment in chip fabrication and AI data centers. Strong export demand, a weak won, rising home prices and sticky core inflation all broaden the case for tightening beyond the energy-driven headline.\n\nNew Zealand’s policy committee will remain evenly divided when it meets July 8. The Reserve Bank will not appoint an additional internal member before the November election, leaving 3 internal and 3 external members. In May, all 3 external members favored an increase, and Governor Anna Breman used her casting vote to hold. The unchanged structure makes the governor’s judgment decisive again if the split persists.\n\nAustralia supplied weaker regional growth evidence. Its seasonally adjusted goods balance swung to an A$3.018 billion deficit in May from an A$1.383 billion surplus in April, a deterioration of A$4.401 billion. Exports fell 6.9% to A$43.614 billion, led by a 35% decline in non-monetary-gold exports, while imports rose 2.6% to A$46.632 billion.\n\nThat release arrived as a housing downturn spread beyond Sydney and Melbourne. Sydney prices fell 3.2% in the June quarter and Melbourne declined 2.6%, while momentum weakened in Adelaide, Brisbane and other previously resilient markets. Changes to negative-gearing treatment have reduced some investors’ borrowing capacity by an estimated 20%-30%, and higher policy rates have compounded the affordability constraint. Bloomberg Economics estimates the housing decline could subtract 0.1%-0.3% from consumer spending during the second half of 2026, potentially shifting the Reserve Bank of Australia’s emphasis from persistent inflation toward growth if labor demand weakens.\n\n## AI Repricing Reaches Both Equities and Investment-Grade Debt\n\nThe technology selloff deepened even as the broader U.S. equity market held steady. The Nasdaq 100 fell 1.61%, and the semiconductor index lost 5.44%, extending its 2-week decline to about 12%. The S&P 500 was essentially unchanged because gains in consumer staples, utilities and healthcare offset the technology retreat. The VIX fell 2.65% to 16.15, indicating that the concentrated selloff did not become a general liquidation.\n\nThe pressure began in Asia, where SK Hynix and Samsung Electronics lost a combined $290 billion in market value and drove the Kospi down 7.9%. Investors were reassessing whether memory demand and data-center construction can meet expectations after reports of new custom-chip plans and additional cloud-computing competition. A Hong Kong leveraged fund tied to SK Hynix has grown to about $13 billion, large enough for analysts to warn that its rebalancing can amplify moves in the underlying shares and the Korean index.\n\nThe equity correction has become increasingly relevant to fixed income because technology companies are borrowing at exceptional scale. Companies have sold about $220 billion of AI-related bonds across currencies in 2026, 62% more than during all of 2025. Four hyperscalers—Amazon, Meta, Alphabet and Oracle—accounted for about $107 billion of dollar issuance, while Nvidia and SpaceX each sold $25 billion in June.\n\nHigh-quality technology supply has mechanically improved the rating composition of the U.S. investment-grade index. AA and A securities now make up 52%, up from roughly 46% in 2021, while BBB exposure has fallen to 41% from 46%. Investment-grade spreads stood near 0.74 percentage point on July 1, close to multidecade lows.\n\nThat apparent improvement masks a growing concentration in a single investment thesis. The 6 largest U.S. hyperscalers plan to spend almost $820 billion on AI during 2026, nearly 80% more than anticipated a year ago. Current cash generation is substantial—Alphabet’s operating cash flow is forecast to exceed $250 billion in 2027, and Nvidia’s free cash flow could approach $1.5 trillion over 5 years—but the borrowing assumes that data-center and model revenue will scale sufficiently to justify the capital.\n\nThe risks extend beyond cyclical earnings. Technology may become obsolete before 20-, 30- or even 100-year bonds mature. Construction delays, cost overruns, power constraints, customer nonpayment and failure to renew contracts can weaken returns before issuers face refinancing. Oracle has explicitly identified several of those risks, while surveys of corporate AI deployment have found that cost savings frequently fall short of initial objectives.\n\nThe latest market action provided an early distinction between issuer quality and thematic enthusiasm. SpaceX bonds weakened sharply after their debut, while chip equities sold off on concern about excess capacity and alternative technologies requiring less memory. A retreat in AI capital expenditure would affect not only hyperscalers but also semiconductor manufacturers, power suppliers, construction firms and other beneficiaries whose earnings increasingly depend on the buildout.\n\nBroad credit remained orderly. LQD gained 0.17%, HYG rose 0.15%, JNK added 0.11% and EMB increased 0.19%. Those small price advances were consistent with lower short Treasury yields and stable aggregate risk appetite. They did not resolve whether spreads adequately compensate investors for technology concentration or the volume of future issuance.\n\nThe benign index-level response is itself part of the credit story. Large, highly rated technology borrowers raise the average quality of investment-grade benchmarks even as they increase exposure to the same capital-spending cycle. If AI revenues disappoint, spread widening could occur across a market that looks statistically safer than it did when BBB industrial and acquisition debt represented a larger share. Continued supply alone may also require wider concessions if investor demand fails to keep pace.\n\n## Front-End Funding Clears as Emerging Asia Draws Capital\n\nTreasury’s 4- and 8-week auctions showed substantial cash demand before the holiday interruption. The 28-day bill auction accepted $85.000 billion at a 3.605% high rate with a 2.72 bid-to-cover ratio. Indirect bidders took 67.05% of accepted competitive tenders, direct bidders 3.75% and primary dealers 29.20%. The bills settle July 7 and mature August 4.\n\nThe 56-day sale accepted $85.001 billion at a 3.650% high rate with a 2.70 bid-to-cover ratio. Indirect bidders received 61.72%, directs 3.90% and dealers 34.38%. Those securities also settle July 7 and mature September 1. Without a when-issued reference, the results establish participation and allocation rather than whether either auction priced rich or cheap to prevailing levels.\n\nThe combined $170 billion of accepted supply cleared without evidence of holiday funding stress. It followed the earlier 17-week bill sale on the same settlement date and preceded another heavy post-holiday auction calendar. The results help separate orderly front-end cash absorption from the selloff in longer JGBs and the failure of long Treasuries to follow the 2-year rally.\n\nEmerging Asian local bonds were also attracting international capital despite residual Fed tightening risk. Combined foreign inflows to Thailand, Indonesia, India and Malaysia reached $8.2 billion in June, the highest in more than 2 years. A regional local-currency bond index gained 0.2% after the interim U.S.-Iran agreement, compared with little change in Europe, the Middle East and Africa and a 0.6% decline in Latin America.\n\nThe flow has been supported by relatively high regional policy rates, lower oil and stronger external balances. The 30-day correlation between 5-year U.S. yields and comparable emerging-Asian yields was about 0.04, versus 0.34 for Europe, the Middle East and Africa and 0.44 for Latin America. That lower observed sensitivity has made Asian local debt less directly exposed to recent Treasury volatility, although another hawkish Fed shift would still transmit through currencies.\n\nThursday’s weaker dollar improved that channel. Emerging-market currencies rose 0.2%, with the South African rand, Hungarian forint and several Latin American currencies gaining. The payroll report removed some urgency from Fed tightening and allowed currencies to rally even as emerging-market equities fell about 2% under the weight of the Korean technology rout.\n\nThe divergence showed why the regional bond inflow cannot be treated as a broad vote of confidence in every Asian asset. Local fixed income benefited from policy carry, cheaper energy and dollar weakness, while equity markets confronted concentrated AI positioning. A renewed rise in oil or U.S. yields would challenge both, but through different mechanisms: imported inflation and policy pressure for bonds, and valuation and financing costs for equities.\n\n## Forward Market Significance\n\nU.S. fixed-income markets are closed July 3 under SIFMA’s Independence Day recommendation, leaving no completed Treasury session to absorb new information. Asian and European markets remain open, with June final services and composite purchasing-managers’ indexes providing the next readings on employment, demand and price pressure outside the United States. Japan’s roughly ¥3.8 trillion 3-month bill auction offers a front-end demand check while the weak 10-year result remains fresh.\n\nThe first major U.S. post-holiday test arrives July 6 with June ISM services and the New York Fed’s Global Supply Chain Pressure Index at 10:00 ET. Services hiring and prices will help determine whether the payroll slowdown extends into the economy’s largest sector, while logistics costs will show whether improving Hormuz traffic is translating into broader relief from the supply shock. Euro-area May producer prices and retail sales, released earlier that day, will update the balance between pipeline inflation and household demand behind the ECB’s widening policy debate.\n\nTreasury supply resumes July 6 with $92 billion of 13-week bills and $79 billion of 26-week bills, both settling July 9. July 7 brings $90 billion of 6-week bills, $52 billion of 52-week bills and a $58 billion new 3-year note. The 3-year sale is the first coupon auction after payrolls shifted the fully priced Fed increase to December and will test whether buyers accept the new front-end yield structure without requiring a larger concession.\n\nJapan’s approximately ¥600 billion 30-year auction on July 7 is the more consequential global duration event. It follows the weak 10-year sale, a 9.5-basis-point increase in the 20-year yield, large foreign bond sales and record corporate inflation expectations. Demand from insurers and other domestic investors will indicate whether higher yields are sufficient to stabilize the super-long sector as fiscal and currency concerns persist. A roughly ¥2.5 trillion 5-year sale follows July 9, testing the part of the curve more directly exposed to the timing of BOJ normalization.\n\nU.S. May trade and the New York Fed’s June Survey of Consumer Expectations arrive July 7 at 08:30 and 11:00 ET. Household inflation expectations will be particularly important after Daly kept open the possibility of a forceful response to persistent price pressure and after payroll weakness reduced the urgency of a July move. The release can clarify whether lower oil is reaching consumers’ outlook or whether tariffs and service costs are keeping expectations elevated.\n\nThe $39 billion 10-year Treasury reopening on July 8 will test long-duration demand after the benchmark yield failed to rally on weak payrolls. The June 16-17 FOMC minutes follow at 2:00 p.m. ET. Investors will look for the reasoning behind the 9 officials who projected at least one 2026 increase, the breadth of concern about inflation and the Committee’s assessment of a labor market that has since produced only 57,000 June jobs.\n\nThe coupon cycle ends July 9 with a $22 billion 30-year reopening after weekly claims at 08:30 ET. China’s June consumer and producer prices arrive earlier in the Asian day, alongside a Japanese 5-year auction. Together, those events will test demand for long sovereign duration against evidence on Asian goods inflation, U.S. labor flows and the persistence of global disinflation.\n\nOil remains the common condition across the Fed, ECB, BOE and Asian policy outlooks. WTI and Brent have fallen more than 24% over the month as tanker traffic through Hormuz recovered and U.S.-Iran talks advanced, but questions remain over the durability and cost of passage through the strait. Continued normalization would support lower headline inflation and give central banks more time to assess wages and services. Renewed disruption would restore imported-price pressure most quickly in Japan and South Korea, while challenging the delayed Fed path now embedded in the front end.\n",
     "section_summaries": [
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Weak Payrolls Lift Short Treasuries, but Long Bonds Hold Their Losses",
-        "summary": "A payroll miss eased immediate hike expectations and lifted short Treasuries. Long yields held firm, while financing outcomes depended on the borrower and structure.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The shortened Treasury session produced a clear steepening rather than a broad duration rally. Soft payrolls and front-end short-covering reduced near-term Fed risk, but the lower unemployment rate, firm claims and factory activity kept a sudden contraction from becoming the dominant reading. Higher real yields, persistent inflation risk, sovereign supply pressure and Japan’s weak auction left the long end resistant to the policy-sensitive rally."
       },
       {
+        "market_read": "Position unwinds amplified the 2-year rally after the probability of a July increase fell to about 20%.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Payrolls Delay Fed Pricing as the Curve Steepens",
-        "summary": "Payrolls slowed, but claims and shipments limited the weakness. The curve steepened and bill demand now shifts to July 7 settlement.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Payrolls Push the Expected Fed Increase Toward December",
+        "summary": "June payrolls rose 57,000 and prior months were revised lower, but unemployment fell to 4.2% as participation declined. Initial claims remained low, shipments and backlogs grew, and Daly retained the option of a forceful response to persistent inflation. The market still priced one quarter-point Fed increase in 2026, but moved the first fully priced step to December from October."
       },
       {
+        "market_read": "Political resistance to BOJ tightening can weaken the yen, lift imported inflation and raise the eventual cost of normalization.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "AI Supply Raises Index Quality—and Concentration",
-        "summary": "AI supply raises ratings and concentration. Acquisition financing found demand, CoreWeave weakened, Brightline paid from reserves and Sound Physicians' loan was later withdrawn.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Japan’s Weak Auction Exposes the Cost of Gradual Normalization",
+        "summary": "Japan’s 10-year auction drew weaker demand and pushed 10- and 20-year yields sharply higher as investors charged more for fiscal expansion, yen depreciation and delayed BOJ normalization. Strong corporate conditions and record 2.6% long-run inflation expectations strengthened the case for another increase, while political resistance sustained the risk of a weaker yen and more imported inflation. Rising yields are also driving companies toward convertible bonds."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "Japan's Weak Auction Limits the Global Duration Relief",
-        "summary": "Japan's 10-year auction weakened as foreign selling and fiscal concerns persisted. Europe gained inflation relief; Mann retained a conditional BOE hike case.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Europe and Asia Produce Different Inflation Constraints",
+        "summary": "ECB officials split over whether June’s increase needs a sequel as inflation eased to 2.8% without clear second-round effects, while the BOE’s Mann tied further tightening to expectations, pricing and wages. South Korea’s 3.2% inflation, strong chip exports and weak won reinforced its hawkish turn. New Zealand faces another potential committee split, while Australia’s trade deficit and spreading housing downturn strengthened its growth risk."
       },
       {
+        "market_read": "Index quality can improve even as dependence on AI spending and future bond supply makes credit risk more concentrated.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "Softer Fed Pricing Helps EM; Guarantees Reopen Syrian Funding",
-        "summary": "Softer Fed pricing lifted EM currencies. Asian bond inflows, guaranteed Syrian financing and rich Caribbean valuations showed different sources and limits of demand.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "AI Repricing Reaches Both Equities and Investment-Grade Debt",
+        "summary": "A concentrated technology selloff left broad U.S. equities stable but exposed fixed income to the scale of AI financing. AI-related bond issuance reached about $220 billion in 2026 as hyperscalers planned almost $820 billion of spending. Highly rated borrowers have improved the investment-grade index’s rating mix, yet they have also concentrated credit exposure in one capital-spending cycle whose returns face construction, power, technology and customer risks."
       },
       {
+        "market_read": "Asian local bonds showed low recent sensitivity to U.S. yields, though a hawkish Fed shift would still transmit through currencies.",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Chips Fall Again as the Dollar Weakens and Gold Rises",
-        "summary": "Broad equities were flat despite another chip rout. DXY fell, gold rose and oil edged higher while retaining large monthly declines.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Front-End Funding Clears as Emerging Asia Draws Capital",
+        "summary": "Treasury’s combined $170 billion of 4- and 8-week bill supply cleared with substantial cash demand and no sign of holiday funding stress. Foreign inflows into Thai, Indonesian, Indian and Malaysian local bonds reached $8.2 billion in June, supported by carry, lower oil and stronger external balances. A weaker dollar helped currencies even as the Korean technology rout weighed on emerging-market equities."
       },
       {
-        "section_id": "section-07",
-        "section_title": "Services Data and Coupon Supply Follow the Holiday",
-        "summary": "Services data, Fed minutes and a large Treasury supply week follow the holiday. Japanese auctions test whether higher yields can restore demand.",
         "market_read": "",
-        "next_check": ""
+        "next_check": "",
+        "section_id": "section-07",
+        "section_title": "Forward Market Significance",
+        "summary": "After the July 3 U.S. market closure, services activity and inflation expectations will test whether payroll weakness justifies the delayed Fed path. Japanese and U.S. auctions will probe demand for duration under fiscal, currency and supply pressure, while oil and Hormuz traffic remain the shared inflation condition across major central banks."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [
+      {
+        "actual": "215K initial claims; 1.814M insured unemployment",
+        "category": "Labor",
+        "consensus": "No independent point-in-time survey estimate retained",
+        "date": "2026-07-02",
+        "event_key": "continuing_claims",
+        "id": "macro-released-970b86478874",
+        "period": "Weeks ended June 27 and June 20",
+        "previous": "216K revised initial claims; 1.812M insured unemployment",
+        "time": "08:30 ET",
+        "title": "Initial and Continuing Unemployment Claims"
+      }
+    ],
+    "timezone": "America/New_York unless an Asia, Europe or Australia time zone is stated",
+    "upcoming": [
+      {
+        "category": "Labor",
+        "consensus": "No point-in-time survey estimates retained",
+        "date": "2026-07-09",
+        "event_key": "continuing_claims",
+        "id": "macro-upcoming-a929aeeaeee1",
+        "period": "Weeks ending July 4 and June 27",
+        "time": "08:30 ET",
+        "title": "Initial and Continuing Unemployment Claims"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 2017329,
+          "asset_manager_net_change": 192984,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1787552,
+          "leveraged_fund_net_change": -82735,
+          "open_interest": 4536973,
+          "open_interest_change": 233320,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2909369,
+          "asset_manager_net_change": 33347,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2165573,
+          "leveraged_fund_net_change": 49037,
+          "open_interest": 6212973,
+          "open_interest_change": 5250,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2394087,
+          "asset_manager_net_change": -90914,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -1938747,
+          "leveraged_fund_net_change": 143489,
+          "open_interest": 5271748,
+          "open_interest_change": -52842,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 623852,
+          "asset_manager_net_change": 218,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -248756,
+          "leveraged_fund_net_change": -14771,
+          "open_interest": 2439582,
+          "open_interest_change": 10982,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 599824,
+          "asset_manager_net_change": 52793,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -350946,
+          "leveraged_fund_net_change": -40633,
+          "open_interest": 1975001,
+          "open_interest_change": 30819,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1155082,
+          "asset_manager_net_change": -7999,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -925550,
+          "leveraged_fund_net_change": 13224,
+          "open_interest": 2479290,
+          "open_interest_change": 6514,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-06-23",
+      "published_date": "2026-06-26"
+    },
+    "treasury": {
+      "comparison_date": "2026-07-01",
+      "observation_date": "2026-07-02",
+      "par_change_pct": -31.4535,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": -28.9135,
+          "par_usd_bn": 635.3,
+          "trade_count": 265754
+        },
+        {
+          "key": "tips",
+          "par_change_pct": -43.1227,
+          "par_usd_bn": 15.3,
+          "trade_count": 2751
+        },
+        {
+          "key": "bills",
+          "par_change_pct": -37.7685,
+          "par_usd_bn": 194.1,
+          "trade_count": 47656
+        },
+        {
+          "key": "frns",
+          "par_change_pct": -28.8462,
+          "par_usd_bn": 3.7,
+          "trade_count": 138
+        }
+      ],
+      "total_par_usd_bn": 848.4,
+      "total_trade_count": 316299
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +822,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "early_close"
   },
-  "methodology_note": "U.S. fixed-income rows are same-date official daily references for the SIFMA-recommended session ending at 2:00 p.m. ET; their source timestamps are preserved. Later-closing cross-asset rows appear only when same-date data is available.",
+  "methodology_note": "U.S. fixed-income rows are same-date daily yields for the SIFMA-recommended session ending at 2:00 p.m. ET; a date-only source does not assert an exact observation time. Later-closing cross-asset rows appear only when same-date data is available. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.14% (-3 bp) | UST 5Y 4.23% (-1 bp)",
-      "UST 10Y 4.49% (+1 bp) | UST 30Y 4.98% (+1 bp)",
-      "10Y TIPS real yield 2.26% (+1 bp) | 10Y breakeven inflation 2.23% (0 bp)",
-      "UST 2s10s curve 35 bp (+4 bp) | UST 2s30s curve 84 bp (+4 bp)"
+      "UST 2Y 4.138% (-3.9 bp) | UST 5Y 4.231% (-0.7 bp)",
+      "UST 10Y 4.485% (+0.5 bp) | UST 30Y 4.986% (+1.5 bp)",
+      "10Y TIPS real yield 2.246% (+0.3 bp) | 10Y breakeven inflation 2.239% (+0.2 bp)",
+      "UST 2s10s curve 34.7 bp (+4.4 bp) | UST 2s30s curve 84.8 bp (+5.4 bp)"
     ],
-    "headline": "Hiring slows sharply, but the Treasury rally stops at the front end",
-    "session_narrative": "June payrolls rose only 57,000, earlier months were revised lower and participation fell. Markets cut July hike odds to about 20% and moved a fully priced quarter-point increase from October to December. The two-year daily reference yield fell 3 basis points to 4.14%, but the 10- and 30-year yields rose 1 basis point to 4.49% and 4.98%.\n\nCredit demand remained broad but selective. Banks found buyers for most of Paramount Skydance's roughly $49 billion acquisition package, while CoreWeave bonds weakened on Meta's competing cloud plans. Brightline used reserves to pay coupons and gained a grace-period extension, without resolving its restructuring. AI issuance was improving the investment-grade index's ratings mix while increasing concentration.\n\nJapan's weak 10-year auction and foreign selling kept pressure on global long bonds. Emerging currencies benefited from softer Fed pricing. This was a 14:00 ET early-close session; Treasury's 17:00-stamped daily references and later cross-asset closes are not exact observations at that cutoff.",
-    "summary": "Payrolls rose 57,000 against a 113,000 forecast. The two-year reference yield fell to 4.14%, while 10- and 30-year yields edged higher as Japan's auction disappointed."
+    "headline": "Weak payrolls pull down the Treasury front end, but long yields resist",
+    "session_narrative": "Treasuries steepened into the SIFMA-recommended 2:00 p.m. ET early close after June payrolls rose only 57,000, missing the 113,000 forecast, with the preceding 2 months revised lower. The 2-year yield fell 3.9 basis points to 4.138%, but the 10-year rose 0.5 basis point to 4.485% and the 30-year increased 1.5 basis points to 4.986%. The 2s10s curve widened 4.4 basis points to 34.7 basis points.\n\nThe payroll miss and short-covering reduced the implied probability of a July Fed increase to about 20% from roughly 33% and shifted the first fully priced quarter-point move to December from October. Yet unemployment fell to 4.2% as participation declined, initial claims remained low and factory shipments increased. The 10-year real yield and breakeven also edged higher, showing that investors delayed the expected tightening rather than abandoning the prospect of restrictive policy.\n\nA weak Japanese 10-year bond auction reinforced the pressure on global duration, sending the benchmark JGB yield 7 basis points higher to 2.77% amid fiscal expansion, yen weakness and concern that gradual BOJ tightening will allow inflation pressure to persist. Later-closing U.S. risk assets were divided: broad equities held near steady while technology and semiconductor shares fell sharply, highlighting the growing link between AI capital spending, heavy investment-grade issuance and longer-term credit risk.",
+    "summary": "June’s 57,000 payroll gain pushed the first fully priced Fed increase from October to December and lowered the 2-year yield, while firm claims, a lower unemployment rate and persistent inflation, supply and term-premium concerns kept longer Treasury yields from rallying."
   },
   "report_date": "2026-07-02",
-  "run_id": "daily-fi-newsroom-edit-2026-07-02-5d30604e8614",
+  "run_id": "daily-fi-simple-2026-07-02-83b2f862-8fc3338b",
   "watch_events": [
     {
-      "category": "US outlook",
-      "date": "July 6-8",
+      "category": "Federal Reserve",
+      "date": "July 6-7",
       "id": "watch-01",
-      "market_implication": "The evidence will distinguish a persistent slowdown from one soft employment report.",
-      "market_trigger": "Watch services hiring, prices and household expectations after weaker payrolls.",
-      "title": "Post-holiday US activity and Fed minutes",
-      "watch_line": "Services and supply-chain data arrive July 6; trade and consumer expectations July 7; FOMC minutes July 8."
+      "market_implication": "Broader weakness would reinforce delayed Fed tightening; sticky expectations would preserve front-end hike risk.",
+      "market_trigger": "Services weakness broadens beyond payrolls, or inflation expectations stay elevated despite lower oil.",
+      "title": "U.S. services and inflation expectations",
+      "watch_line": "Read June ISM services hiring and prices alongside household inflation expectations."
     },
     {
-      "category": "US supply",
-      "date": "July 6-9",
+      "category": "Sovereign supply",
+      "date": "July 7-9",
       "id": "watch-02",
-      "market_implication": "Demand will test the front-end rally and the compensation available in longer maturities.",
-      "market_trigger": "Track auction participation alongside July 7 and 9 bill and July 15 coupon settlements.",
-      "title": "Treasury supply and settlement",
-      "watch_line": "Bills precede $58 billion of three-year notes and $39 billion/$22 billion 10-/30-year reopenings."
+      "market_implication": "Long yields could stay elevated even if softer U.S. data continues to support the front end.",
+      "market_trigger": "Weak bidding requires larger concessions as fiscal, currency and supply concerns persist.",
+      "title": "Japan and U.S. duration auctions",
+      "watch_line": "Gauge demand at Japan’s 30-year sale and the U.S. 10- and 30-year reopenings."
     },
     {
-      "category": "Global duration",
-      "date": "July 3-9",
+      "category": "Inflation",
+      "date": "Ongoing",
       "id": "watch-03",
-      "market_implication": "These are separate tests of how far global duration can benefit from softer US labor.",
-      "market_trigger": "Look for renewed long-bond buying after the weak 10-year auction, alongside European domestic prices.",
-      "title": "Japan demand and European data",
-      "watch_line": "Japan's 30-year sale follows July 7, then five years July 9; euro-area PPI and retail sales arrive July 6."
+      "market_implication": "Disruption would restore imported inflation pressure; normalization would give central banks more time.",
+      "market_trigger": "Renewed disruption reverses the oil decline, or continued normalization extends it.",
+      "title": "Hormuz traffic and oil prices",
+      "watch_line": "Track whether improving tanker traffic sustains the retreat in oil and logistics costs."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "-3 bp",
-        "change_1m": "+9 bp",
-        "change_1w": "+5 bp",
+        "change_1d": "-3.9 bp",
+        "change_1m": "+10.4 bp",
+        "change_1w": "+1.4 bp",
         "id": "ust2y_ny_close",
-        "last": "4.14%",
+        "last": "4.138%",
         "reference_type": "sifma_early_close",
         "tenor": "2Y",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+5 bp",
-        "change_1w": "+8 bp",
+        "change_1d": "-0.7 bp",
+        "change_1m": "+6.5 bp",
+        "change_1w": "+6.5 bp",
         "id": "ust5y_ny_close",
-        "last": "4.23%",
+        "last": "4.231%",
         "reference_type": "sifma_early_close",
         "tenor": "5Y",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+2 bp",
-        "change_1w": "+9 bp",
+        "change_1d": "+0.5 bp",
+        "change_1m": "+3.1 bp",
+        "change_1w": "+9.1 bp",
         "id": "ust10y_ny_close",
-        "last": "4.49%",
+        "last": "4.485%",
         "reference_type": "sifma_early_close",
         "tenor": "10Y",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "-1 bp",
-        "change_1w": "+12 bp",
+        "change_1d": "+1.5 bp",
+        "change_1m": "+1.5 bp",
+        "change_1w": "+12.4 bp",
         "id": "ust30y_ny_close",
-        "last": "4.98%",
+        "last": "4.986%",
         "reference_type": "sifma_early_close",
         "tenor": "30Y",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "+4 bp",
-        "change_1m": "-7 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "+4.4 bp",
+        "change_1m": "-7.3 bp",
+        "change_1w": "+7.7 bp",
         "id": "ust_2s10s_curve",
-        "last": "35 bp",
+        "last": "34.7 bp",
         "reference_type": "sifma_early_close",
         "tenor": "2S10S",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "+4 bp",
-        "change_1m": "-10 bp",
-        "change_1w": "+7 bp",
+        "change_1d": "+5.4 bp",
+        "change_1m": "-8.9 bp",
+        "change_1w": "+11 bp",
         "id": "ust_2s30s_curve",
-        "last": "84 bp",
+        "last": "84.8 bp",
         "reference_type": "sifma_early_close",
         "tenor": "2S30S",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "0 bp",
-        "change_1m": "-1 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "+2 bp",
+        "change_1m": "-0.5 bp",
+        "change_1w": "+2.5 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-17 bp",
+        "last": "-16.1 bp",
         "reference_type": "sifma_early_close",
         "tenor": "2S5S10S",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "+4 bp",
-        "change_1m": "-4 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "+3.4 bp",
+        "change_1m": "-5.7 bp",
+        "change_1w": "+4.4 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-14 bp",
+        "last": "-15.4 bp",
         "reference_type": "sifma_early_close",
         "tenor": "2S10S30S",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+19 bp",
-        "change_1w": "+7 bp",
+        "change_1d": "+0.3 bp",
+        "change_1m": "+20.3 bp",
+        "change_1w": "+6.6 bp",
         "id": "tips10y_ny_close",
-        "last": "2.26%",
+        "last": "2.246%",
         "reference_type": "sifma_early_close",
         "tenor": "10TIPS",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       },
       {
-        "change_1d": "0 bp",
-        "change_1m": "-17 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "+0.2 bp",
+        "change_1m": "-17.2 bp",
+        "change_1w": "+2.5 bp",
         "id": "be10y_ny_close",
-        "last": "2.23%",
+        "last": "2.239%",
         "reference_type": "sifma_early_close",
         "tenor": "10BE",
-        "timestamp": "2026-07-02T17:00:00-04:00"
+        "timestamp": "2026-07-02"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

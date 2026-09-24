@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "LQD slipped 0.15% while HYG and JNK barely rose; broad resilience contrasted with weak-issuer financing and control problems.",
+      "summary": "Municipals reflected duration pressure, while Cable One and Extenet exposed borrower-specific funding stress.",
       "title": "Credit",
       "value": "LQD 106.25 (-0.1504%) / HYG 79.48 (+0.0126%) / JNK 95.68 (+0.0209%) / EMB 94.66 (-0.1371%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "Oil rose, but gold and the dollar fell; most of the ten-year selloff was in real yields.",
+      "summary": "Oil rose on supply threats as the dollar weakened despite higher U.S. yields and gold fell.",
       "title": "Dollar and commodities",
       "value": "DXY 99.8 (-0.21%) / WTI 84.67 (+1.292%) / Brent 90.12 (+1.2243%) / Gold 4049.1001 (-1.2439%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "The S&P 500 gained 0.70% and VIX fell to 15.99; chips rose just 0.07% after a deep monthly decline.",
+      "summary": "Stocks rose and volatility fell, but semiconductors stayed nearly flat after a steep July decline.",
       "title": "Equities and volatility",
       "value": "S&P 500 7489.7202 (+0.7004%) / Nasdaq 100 28274.1992 (+0.5972%) / SOX 11311.0801 (+0.0716%) / VIX 15.99 (-6.4365%)"
     }
@@ -538,151 +538,252 @@
   "header": {
     "as_of_note": "NY close · 2026-07-31",
     "latest_update_cutoff": "NY close",
-    "stance": "Firm wages and Fed dissent lift real yields into month-end",
+    "stance": "Broad Treasury selloff as real yields and inflation compensation rose together",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "LQD跌0.15%，HYG、JNK僅微升；整體韌性與弱發行人融資、控管問題並存。",
-        "dollar_commodities": "油價升、黃金及美元跌，10年期賣壓大部分在實質殖利率。",
-        "equities_volatility": "S&P 500上漲0.70%、VIX降至15.99；半導體指數整月重挫後，當日僅反彈0.07%。"
+        "credit": "市政債反映存續期間壓力，Cable One與Extenet則暴露個別借款人的融資壓力。",
+        "dollar_commodities": "供給威脅推升油價；儘管美國殖利率上升，美元仍走弱，黃金則下跌。",
+        "equities_volatility": "股市上漲、波動率下降，但半導體類股在7月大跌後幾乎持平。"
       },
       "header": {
-        "stance": "薪資偏強與聯準會異議，推升月底實質殖利率"
+        "stance": "實質殖利率與通膨補償同步上升，美國公債全面遭到拋售"
       },
-      "long_thesis_markdown": "# 薪資與聯準會異議發言，推升月底美債殖利率\n\n## 實質殖利率帶動新一波全面賣壓\n\n就業成本偏強、聯準會三名異議官員質疑等待的理由，美債週五全線下跌。2年期殖利率升5個基點至4.28%，5年期與10年期各升7個基點至4.45%、4.75%，30年期升6個基點至5.27%。這次短端也加入賣壓，不再是週三短債反彈、長債下跌的分裂。\n\n第2季就業成本增加0.9%，高於市場預估中位數。聯準會本週以9比3維持利率在3.5%至3.75%；投下反對票的克里夫蘭聯準銀行總裁Beth Hammack、明尼亞波利斯聯準銀行總裁Neel Kashkari及達拉斯聯準銀行總裁Lorie Logan，週五分別解釋為何主張升息25個基點。他們擔心，若現在緊縮不足，日後可能被迫採取更大幅度的行動。油價再度上漲、歐元區通膨升溫，也使投資人更難忽視這些警告。\n\n美國10年期殖利率升幅主要來自實質殖利率，後者升6個基點至2.47%，通膨補償僅升1個基點至2.28%。股票上漲、高收益基金近乎持平、美元走弱，壓力集中在持有存續期間所需的報酬，而非全面搶流動性。但較弱借款人已暴露出股市改善無法解決的問題：Cable One難以籌資完成強制收購，Extenet則在現金與擔保品控管被指失效之際，未付債息。\n\n## 短端重新加入長債的價格調整\n\n賣壓由2至5年期開始，逐步向外延伸。5年期、10年期升幅略大，額外轉陡卻有限，2s10s擴大2個基點至47，2s30s擴大1個基點至99。單日曲線變化不大，整月損失卻很重：7月2年期殖利率升14個基點，5年期升26，10年期升31，30年期升36。\n\n三名異議官員更清楚表達理由。Hammack認為政策抑制力不夠，Kashkari支持在數據持續到來時逐步緊縮，Logan則認為現在小幅行動，可減少日後更急遽升息的需要。即使考量供給衝擊及生產力，Logan預期通膨也只是朝約2.5%靠攏，而非2%。依他們判斷，支出、勞動需求及金融條件還不足以完成回到目標的最後一段。\n\n就業成本指數增加0.9%，本身並不代表薪資重新加速，但也沒有延續6月PCE物價月減0.1%所帶來的寬慰。對期待聯準會繼續觀望的投資人而言，這不是有利的數據。WTI上漲1.29%至$84.67、布蘭特上漲1.22%至$90.12，則在週末前再添能源通膨壓力。\n\n抗通膨債顯示，實質報酬要求的變化大於平均通膨預期。10年期實質殖利率升6個基點至2.47%，5年期升5至2.19%，30年期升5至3.03%。10年期損益兩平通膨率收2.28%，單日升1個基點、7月僅升4個基點；實質殖利率整月升27個基點，占名目31個基點升幅的大部分。市場仍擔心通膨，但沒有把預期通膨的永久升幅定得同樣大。\n\n成交十分活躍。美債現券交易面額達$1.92兆，增32.4%，名目付息券增33.4%至$1.52兆。7至10年期成交增56.4%至$2,790億，5至7年期近乎倍增至$1,730億，TIPS增191%至$1,212億。這些是雙向成交、不是淨流量，但顯示指標年期與實質殖利率調整發生在活躍市場。\n\n30年期殖利率盤中一度升至5.28%，尾盤指數再平衡買盤才使跌勢略為收斂。長天期美債指數仍單日下跌0.69%、7月下跌3.87%；相較之下，1至3年期美債週五僅跌0.04%，整月仍有0.17%的正報酬。\n\n投資人也為下跌保障付更多錢。1個月、25 delta賣權相對買權的溢價，達約五個月最高，結構瞄準10年期殖利率4.8%至4.9%、30年期5.3%至5.42%。MOVE相對平靜，使偏向下行風險的昂貴保障，比整體利率波動水準更醒目。\n\n下一項供給事件是8至10月季度再融資。標售規模預期不變，焦點在2027年可能增加付息券的指引。另一方面，財政部探索把近$1兆現金餘額的一部分，投入約$13兆附買回市場。若準備金減少，可平滑交割、繳稅及申報期壓力，但作業需求、交易商容量及預估報酬有限，使採用仍不確定。這處理的是資金波動，不是投資人最終可能須買進的額外存續期間。\n\n## Cable One與Extenet暴露不同弱點\n\nCable One即使討論約12%殖利率，收購義務仍愈來愈難融資。GTCR行使賣回權後，公司須為強制買進Mega Broadband Investments剩餘55%，以及延長債務，募集約$10億。部分既有第一順位貸款殖利率已近18%。\n\n潛在貸款人要求風險隔離，防止母公司補貼Mega Broadband龐大義務。Cable One已有至少$30億長債、自由現金流有限，住宅寬頻競爭又強。核心談判在於新資金能否免受收購負債牽連，而不只是多高殖利率能吸引買方。\n\nExtenet則從展期談判，走到實際漏付。約$5億資產擔保證券7月27日應付利息未支付。付款管理人另表示，原應給債權人的收款流向其他地方，部分擔保權也不再具備對抗第三人的效力。公司仍談判利息暫緩，但被指出的控管問題，不只影響何時收款，也影響能回收多少。\n\nExtenet的現金危機來得比收入惡化更快。營收原本僅小幅下降，公司卻在6月警告，現金可能幾天內就會用罄。這類以光纖、小型基地台及5G設施為基礎的證券，原本以穩定現金流和擔保權吸引投資人；如今債權人面對的關鍵，卻是收入能否流入指定帳戶，以及擔保權能否有效執行。\n\n市政債面對更廣泛的供給與存續期間問題。截至週四指數跌1.72%，可能成為2003年以來最差7月，即使夏季通常有付息及還本支持需求。發行約$470億，高於正常7月速度，同時長美債殖利率接近19年高點，相對估值降到今年較便宜水準。\n\n後續供給也未停歇。醫院今年已發行約$267億債券，Northwell Healthcare仍考慮透過紐約州宿舍管理局發行最多$8億免稅債。在這個疲弱月份之後，這筆潛在的大型發行將再度考驗市場需求。\n\n更廣的企業供給背景也有利貸款人。美國今年非投資級發行接近$2,000億，比2025年同期高約9%；投資級增加三分之一至$1.3兆。槓桿貸款均價從1月97降至95.3，2028年前約$2,400億到期。本週稍早CoreWeave、Proofpoint接受較高利差及更強保障，正是這項變化的例子。\n\n能源大廠則利用高油價帶來的現金流減債。Exxon第2季淨債務減少逾$70億，Chevron以創紀錄的$84億償還債務，Shell淨債務減少約$108億。增加其他借款人負擔的能源漲勢，反而改善了這些公司的資產負債表。\n\n整體信用市場當日表現相對穩健，LQD跌0.15%、HYG漲0.01%、JNK漲0.02%。長天期AAA至A及BBB企業債指數分別跌0.29%、0.25%，跌幅小於長天期美債的0.69%，但整月仍各跌4.58%、4.19%。與這些指數的相對韌性相比，Cable One和Extenet的困境更集中在個別借款人的融資條件與債權保障。\n\n## 歐洲通膨升溫，日本銀行保留後續升息空間\n\n歐元區7月通膨由2.8%加快至2.9%，能源漲10%，服務及排除食品燃料的指標都增強。德國10年期殖利率升1個基點至3.16%。市場仍給予ECB 9月升息25個基點90%的機率，年底前計入42個基點。\n\n法國顯示能源之外的壓力。通膨升至2.4%，高於所有受訪預測及2.0%中位數；服務由1.9%加快至2.3%。歐元區第2季成長已達預估兩倍、一年多來最強，進一步緊縮的成長阻力因此較小。\n\n日本銀行6月升息後，8比1維持1%，但植田和男清楚表示，9月起各次會議都可能行動。基礎通膨接近2%，向上意外的代價更高，金融條件若仍太寬鬆，升息速度可加快。交換市場10月升息機率89%，更早行動仍有可能，但央行沒有承諾9月。\n\n日本數據並不一致。東京排除生鮮食品CPI年增1.9%，預估1.8%；整體及排除生鮮食品、能源的指標均2%，服務微升至1.2%。6月工業生產月增1.3%，零售卻月減4.1%、年增僅0.5%。日本銀行把財政年度成長預測升至0.6%，因補貼而將通膨預測從2.8%降至2.5%。\n\n干預在匯率上爭取時間。週四行動估計JPY8.45兆、約$528億，曾使日圓最多升3.3%。週五再傳第二次操作、紐約聯準銀行詢價及美國財政部協調，日圓升約1.3%至157.28。更強日圓可緩解進口通膨，但干預與預期國內利率提高，也影響購買外國債券的資源及誘因。日本1%政策利率仍遠低於美國區間。\n\n英國能源風險則延伸至前一日偏鴿指引之外。央行首席經濟學家Huw Pill警告，商品波動可能持續到2027年。主要預測為年底通膨峰值3.2%，不利情境在2027年達4.5%，需要比現有3.75%明顯更高的利率。能源已比戰前貴20%，反對立即升息，不代表排除更長期政策風險。\n\n中國債市可能增加一項避險工具。香港準備重新推出5年期中國公債期貨，合約CNY50萬、現金結算，先前2017年及2024年嘗試未能建立持久交易。外資持有境內政府債，已從2017年中約CNY4,500億，增至CNY2兆。能否可靠運用於曲線、基差及附買回相關策略，取決於流動性持續，而非上市本身。\n\n## 哥倫比亞暫停升息，Pemex仍未擺脫政府支持\n\n哥倫比亞維持12%，出乎多數經濟學家預期。27名受訪者中23名預測升息；董事會四票不動、三票升50個基點，另宣布最多累積$40億外匯準備。今年披索升近20%，降低進口通膨、提供等待空間，但買匯可能削弱這項匯率支持。\n\n通膨仍逾6%，目標3%、容忍上下1個百分點。擴張財政、最低工資升23%，以及食品能源衝擊，使壓力偏高，獨立財政委員會預期赤字逾GDP的7%。總裁Leonardo Villar保留再升息，新政府之下，9月將檢驗匯率強勢能否繼續抵銷這些壓力。\n\n南非殖利率則是部分復甦，不是回到戰前。10年期約8.7%，低於伊朗戰爭初期9.5%，仍高於戰前約8%。央行在5月升息取得耐心空間後，維持7%；6月通膨5%，仍超過新3%目標，政策依賴的是對衝擊會消退的信心。\n\nPemex較好的季度表現，沒有恢復財務獨立。公司獲利MXN180億、約$10億，原油及凝析油產量增1.7%至每日166萬桶，債務仍$775億。政府今年已編列$140億債務支持，惠譽卻估年底前另有$100億營運缺口。\n\n墨西哥財長排除今年再增加政府資金，Pemex仍討論2027年預算與可能再融資。產量約為歷史高點一半，國際夥伴承諾又慢。高油價改善現金流，未消除國家可能承接的融資負擔。\n\n市場管道也取決於操作規則。菲律賓在預期納入摩根大通指數前，計畫從本幣債定價中移除20%扣繳稅影響，讓$2,300億市場接近全球慣例。但在到期前賣出的既有持有人，可能承受市值損失。\n\n印度指數時程卻往後移。免除扣繳與資本利得稅後，6月5日以來約$50億流入合格債券；但不同投資人地區的實施尚未完成，彭博延後納入全球綜合指數。10年期殖利率升3個基點至6.84%，交易員預期再調整5至10個基點。稅改帶來流入，未換來立即入指。\n\n羅馬尼亞勉強保住投資級。申覆及政府補充資料後，惠譽維持BBB-、展望負向。赤字預期從2024年逾GDP的9%降至6%以下，但政治不確定性與2028年選舉，威脅進一步整頓。評等保留融資管道，未取消財政警告。\n\nEMB跌0.14%，15年期以上美元主權債指數跌0.21%，美元指數卻跌0.21%至99.80。匯率未顯示普遍缺美元，但10年期美債4.75%、長債5.27%，仍提高長天期美元現金流的折現負擔。\n\n## 利率衝擊之下，股票仍上漲\n\nS&P 500漲0.70%、Nasdaq 100漲0.60%，VIX降6.44%至15.99。半導體只微升0.07%，一週仍跌4.30%、一個月跌20.61%。大盤風險偏好保持，AI族群卻尚未有足以消除支出回報疑慮的反彈。\n\nWTI、布蘭特各漲1.29%、1.22%，至$84.67、$90.12，整週仍跌，一個月卻都高逾21%。油價增加通膨壓力，但實質殖利率升幅更大，顯示美債故事不只來自石油。\n\n黃金跌1.24%至$4,049.10，美元指數降至99.80，部分因支持日圓的行動。黃金與波動率下降、股票上漲，並不像信心全面瓦解。市場重估實質存續期間及政策不確定性，同時股債交易仍正常運作。\n\n## 下一個焦點：非農就業與季度再融資\n\n8月7日就業報告，接在就業成本增0.9%之後。調查中位數預期新增85,000人、6月為57,000人，失業率維持4.2%。招聘更強，會支持異議官員認為政策抑制不足；就業較弱、後續價格放慢，則有利耐心。實質殖利率可顯示喘息是否超越通膨補償下降。\n\n8至10月季度再融資，把供給預期與聯準會辯論分開。標售規模預期不變，關鍵是指引延後增加，還是為2027年更大發行鋪路。10年期殖利率4.9%、30年期5.3%至5.42%附近的避險，提供市場如何防範更早供給訊號的參考。財政部可能投入附買回，則處理不同年期問題：可平滑交割資金，不能解決付息券承接。\n\n8月歐元區通膨，將顯示7月能源漲10%是否進一步傳到服務，影響9月ECB會議。日本銀行9月18日決策前，則須觀察日圓穩定能否不靠重複干預，或另一波失序日本公債走勢。信用方面，Cable One後續融資、Northwell擬議市政債及AI、軟體交易，將顯示讓利與可執行保障能維持多少管道。延誤或更多風險隔離要求，意味高實質利率正影響更多借款人，即使還不是全面融資中斷。",
-      "methodology_note": "除另有註明外，市場水準均以紐約收盤為準。",
+      "long_thesis_markdown": "## 固定收益開篇主論述\n\n美國公債在7月最後一個交易日再度全面遭到拋售。勞動成本數據穩健、聯準會異議官員日益明確要求升息，加上油價重新上漲，迫使投資人同時反映近期政策需進一步收緊，以及長期通膨溢價擴大的風險。2年期殖利率上升4.5個基點至4.292%，5年期與10年期均上升6.2個基點，分別報4.45%與4.736%；30年期上升5.9個基點至5.274%。30年期盤中最高觸及5.28%，續創2007年以來新高；10年期盤中突破4.74%，為2025年1月以來首次。\n\n這次走勢不及本週稍早聯準會會議後的熊市陡峭化劇烈，卻更難歸因於單一券期重新定價。2年期與10年期利差擴大1.7個基點至44.4個基點，2年期與30年期利差擴大1.4個基點至98.2個基點。10年期實質殖利率上升3.6個基點至2.45%，損益兩平通膨率增加2.6個基點至2.286%，顯示通膨補償與經通膨調整後的折現率，對名目殖利率升幅的貢獻幾乎相當。\n\n這種組合有別於前一交易日的局部回穩。第2季就業成本指數上升0.9%，略高於經濟學家預期；3位具投票權的地區聯準銀行總裁也說明，為何他們在7月會議主張立即升息。克里夫蘭聯準銀行總裁Beth Hammack認為政策限制性不足；明尼亞波利斯聯準銀行總裁Neel Kashkari傾向在官員蒐集更多資訊期間逐步緊縮；達拉斯聯準銀行總裁Lorie Logan則警告，近期採取溫和行動，可降低日後被迫大幅緊縮的需要。里奇蒙聯準銀行總裁Tom Barkin另稱，現行政策設定是否足夠緊縮是相當接近的判斷；今年沒有投票權的聖路易聯準銀行總裁Alberto Musalem則表示，他也會傾向升息1碼。\n\n油價進一步強化這項訊息。從波斯灣到黑海的供給威脅仍未解除，WTI上漲1.29%至$84.67，Brent上漲1.22%至$90.12。單日漲幅雖然溫和，但WTI全月已上漲21.83%，Brent上漲23.59%，使聯準會、歐洲央行與英國央行必須判斷，暫時性的能源壓力是否正轉化為更持久的價格衝擊。\n\n美國公債下跌之際，股市反而上漲，並非風險資產遭到全面清算。S&P 500上漲0.70%，Nasdaq 100上漲0.60%；費城半導體指數則幾乎持平，7月累計下跌20.61%。即使美國殖利率走高，美元指數仍下跌0.21%，全週跌幅達1.65%；黃金下跌1.24%至$4,049.10。不同資產走勢分歧，並未改變市場的核心問題：投資人仍願意選擇性支持風險資產，但在聯準會政策框架不明之際，若要為經濟提供長天期融資，他們要求更高補償。\n\n## 實質殖利率與通膨補償推動美國公債拋售\n\n週五殖利率再度上升，為存續期間部位備受壓力的7月劃下句點。7月全月，2年期殖利率上升11.7個基點、5年期上升22.3個基點、10年期上升27個基點、30年期上升32.1個基點；2年期與30年期利差擴大20.4個基點，顯示這次調整遠不只反映下一次升息時點。\n\n10年期實質殖利率占名目基準殖利率全月升幅的22.4個基點。同期間損益兩平通膨率僅上升4.6個基點，但隨油價於週五反彈，且政策官員強調通膨可能持續高於目標，其影響變得更加重要。實質資金成本與投資人要求的未來通膨補償因而同步上升，並非兩者之間單純此消彼長。\n\n債券指數表現顯示，各券期均受到影響。ICE美國政府1至3年期債券指數週五下跌0.04%，7月仍上漲0.17%；7至10年期指數單日下跌0.31%、全月下跌1.17%；20年以上指數週五下跌0.69%，7月跌幅達3.87%。長天期高評級公司債指數全月下跌超過4%，主要反映政府債券殖利率上升帶來的存續期間曝險。\n\n月底交易活動異常熱絡。FINRA記錄的美國公債面額交易量達$1.92兆，較週四增加32.4%，共計577,862筆交易。名目附息債交易量增加33.4%至$1.52兆；超過7年至10年期券種的交易量增加56.4%至$2,790億，超過5年至7年期券種的成交額增加88.5%至$1,730億；TIPS交易量則接近3倍，達$1,212億。這些數據呈現調整的規模與集中區域，但無法判定由市場哪一方發動。\n\n尾盤出現一股抵銷力量。紐約時間下午4時債券指數進行再平衡，追蹤指數的基金納入7月新發債券，美國公債跌幅因而收斂，但這項需求並未扭轉單日拋售或全月跌勢。截至前一交易日，彭博美國公債指數7月已下跌近0.9%，聯準會決策與稍早油價推動的重新定價，是全月最主要的兩次衝擊。\n\n就業成本指數帶來一項有別於能源的國內通膨疑慮。該指數季增0.9%，高於預測中位數，顯示勞動成本放緩程度仍不足以安撫原已質疑政策利率是否具有限制性的市場。單憑這項數據尚不能確認勞動成本正在加速，但在週五的市場環境下，即使只是略高於預期，也足以產生明顯影響。利率交易員Tony Farren指出，市場需要看到通膨下降的證據，而不是另一項僅略強於預期的數據。\n\n油價隨後使市場面臨的可能情境更加分歧。美國與伊朗戰事再起，區域航運又面臨威脅，供給風險居高不下，WTI收於$84之上，創一週新高。油價上漲直接影響長天期債券；在供給衝擊接連出現之際，投資人原已要求更高補償，以防通膨持續。\n\n跨資產反應顯示，殖利率上升並非單純源於風險偏好轉強。Amazon等大型科技公司帶動S&P 500盤中一度上漲近1%，終場收高0.70%；但半導體指數幾乎沒有上漲，全週仍下跌4.30%，7月跌幅超過20%。投資人仍明顯區分有能力為AI建設提供資金的企業，以及對槓桿、產能擴張或擁擠部位最為敏感的公司。\n\n美元走弱更不尋常。儘管美國公債殖利率上升，彭博廣泛美元指數全週仍下跌1.3%，創3個多月來最差表現。聯準會會議前，市場部位已高度偏多美元：截至7月28日，非商業交易者持有$492.3億美元淨多單，為2014年以來最大。美元隨後下跌，既反映日圓干預，也反映市場擔心聯準會仰賴市場自行收緊金融情勢，可能不足以控制通膨。\n\n## 聯準會異議官員補上主席未明示的反應函數\n\n7月會議的3位異議官員，提供了本週最清楚的政策指引。Hammack、Kashkari與Logan均投票主張將聯邦基金利率目標從3.5%至3.75%的區間向上調整，而非連續第5次會議維持不變。他們週五的發言顯示，3人對政策方向看法一致，但在理由與著重之處仍有重要差異。\n\nHammack表示，通膨居高不下的時間已過久，現行政策的限制程度並不適當。她不確信若不採取額外行動，通膨能回到2%，並認為推升價格的不只有供給衝擊，也包括需求壓力。她將經濟的基礎韌性視為及早行動的理由，因為此時採取措施的代價仍可控制。\n\nKashkari傾向連續採取小幅升息，而非等到通膨根深蒂固後才進行更大幅度的干預。他認為，如果通膨回落，聯準會可放慢或暫停後續調整，既保留彈性，也降低持續延後行動導致較高通膨預期獲得強化的風險。這種主張是把每次調整的幅度與前景不確定性相連，而非代表其緊縮決心較弱。\n\nLogan表示，即使考慮生產力改善與供給干擾，通膨看來也只是朝2%區間中段移動，而非一路回到聯準會目標。她以就業、支出與金融情勢保持穩健為據，認為政策並未實質抑制需求。在她看來，近期溫和升息可降低日後必須更突然收緊政策的機率。\n\n目前沒有投票權的Musalem補充指出，債券市場遭到拋售，使聯準會信譽取決於更高利率；他原會傾向升息1碼。同樣在今年沒有投票權的Barkin並未直接支持異議官員，但表示現行利率是否高到足以壓低通膨，是相當接近的判斷；他認為有理由收回2025年的部分降息。\n\n這些發言改變了政策辯論，因為它們來自在不同時點公開表態的具名官員，而非一個匿名的緊縮派陣營。此前，主席Kevin Warsh拒絕明確說明何種條件會觸發行動。Warsh主張，市場殖利率上升已在收緊金融情勢，可替央行完成部分工作；異議官員則強調，若沒有政策配合，僅靠市場收緊未必能使通膨回到目標。\n\n這項差異對長端尤其重要。若殖利率上升源於市場相信通膨終將下降，金融情勢會收緊，聯準會信譽也可維持；若升勢來自期限溢價、通膨預期或央行反應的不確定性，借款成本雖會提高，卻無法提供同等的政策錨定效果。週五實質殖利率與損益兩平通膨率對升幅的貢獻相當，美元又同步走弱，因此市場仍有理由採取後一種解讀。\n\nWarsh的溝通策略本身也日益成為溢價來源。他試圖減少前瞻指引、縮短政策聲明，並成立工作小組重新檢討溝通、經濟數據與資產負債表政策。投資人過去習慣依據聯準會明示的反應函數為未來會議定價，如今卻必須從數據與市場走勢推斷，而這些變化本身的成因可能並不明確。\n\n週末又浮現一項制度變革構想。Warsh在7月會議提出，可能把每年設定利率的會議減至6次，另安排2次會議討論實質經濟議題。FOMC自1980年代初以來，每年均舉行8次例行政策會議，目前尚未作成決定；官員也討論了讓決策時點與主要數據發布更緊密配合。\n\n改變會議頻率不會妨礙聯準會在緊急情況下開會，但預定決策次數減少，可能提高每輪數據的重要性，並拉長市場在沒有政策回應下運作的時間。這項提議符合Warsh改革央行溝通方式的整體方向，卻也出現在指引不足已提高市場對大幅殖利率波動避險需求之際。\n\n選擇權市場已反映這項疑慮。長天期美國公債期貨的賣權相對買權溢價升至3月以來最高。投資人利用9月選擇權，對沖10年期殖利率接近4.8%或4.9%，以及30年期殖利率升至約5.3%至5.42%的風險。聯準會會議後以約$2,000萬買進的一筆長債賣權部位，隨30年期殖利率逼近其履約區域，價值已大幅上升。\n\n美國財政部的季度再融資計畫帶來另一項不確定性。市場預期8月至10月一季的標售規模維持穩定，但投資人留意任何為2027年擴大發債預作準備的指引。30年期殖利率已高於5.27%；即使聯準會下一步變得更清楚，若財政部暗示未來附息債供給增加，仍可能進一步推升期限溢價。\n\n財政部也在研究調整融資市場操作的可能性。官員詢問主要交易商，是否可將部分政府現金投入規模約$13兆的附買回市場。財政部在聯準會帳戶中持有約$9,660億，整體現金餘額接近$1兆；透過附買回交易貸出部分資金，可望平滑繳稅日、標售交割與現金餘額變動對短期融資市場的影響。\n\n支持者認為，這項計畫可以減輕週期性壓力，並讓聯準會以略小的資產負債表運作。財政部借款諮詢委員則較不認同，5月時判斷操作困難可能超過有限收益。在銀行準備金充裕時，預估收益介於0至2個基點；準備金較稀缺時則為5至10個基點。交易商承作能力也是限制：規模龐大且不定期的財政部附買回操作可能占用中介機構的資產負債表，但業者無法無限期保留閒置空間以備需求。\n\n## 日本央行按兵不動，協調干預改變日圓風險\n\n日本央行按兵不動之際，日本也展開非比尋常的匯市操作。日本央行將基準利率維持在1%，符合受訪52位經濟學家全數預期；該行6月才將利率調升至1995年以來最高。決議以8比1通過，高田創尋求連續第2次升息。\n\n總裁植田和男的訊息溫和偏鷹，但未承諾9月採取行動。他表示，基礎通膨正接近2%目標，因此必須更加留意上行風險；政策委員會將在下次會議展開更深入的政策討論。若日本央行認定金融情勢過度寬鬆，也可能加快升息步伐。\n\n更新後的展望使未來各次會議仍保有行動可能。日本央行把經濟成長風險評估由偏向下行改為大致平衡，並預測本會計年度經濟成長0.6%。政府補貼促使主要通膨預測由2.8%下修至2.5%，但央行同時警告，基礎通膨可能超過2%，日圓疲弱也已成為更重要的價格壓力來源。\n\n決策前公布的數據加深了這項疑慮。東京7月不含生鮮食品的消費者物價年增1.9%，高於1.8%的預測；不含生鮮食品與能源的通膨率及整體通膨率均為2%。加工食品價格上漲3.9%，家事用品上漲5.3%，服務通膨則小幅升至1.2%。6月工業生產月增1.3%、年增4.2%；零售銷售年增0.5%，但月減4.1%。失業率維持2.5%，求才求職比則由1.17升至1.18。\n\n然而，政策訊息的力道不足以延續日圓最初由干預帶動的急升。據市場人士表示，日本進場後，日圓兌美元在週四紐約交易時段一度升值3.3%。日本央行帳戶預估顯示，此次操作規模約為¥8.45兆，折合$528億，可能是東京歷來規模最大的單日干預。\n\n這項估算來自日本央行週一經常帳餘額預計因財政相關因素減少¥8.2兆，與貨幣經紀商原先預期增加形成落差。財務省未立即證實干預，但這項差異使進場操作的可能性極高。美國當局也進行匯率詢價，財政部長Scott Bessent形容日圓被嚴重低估，過度波動並不健康。\n\n行動延續至週五紐約交易時段。知情人士表示，日本當局再次買進日圓、賣出美元。紐約聯準銀行要求至少2家美國大型銀行對歐元兌日圓進行詢價；另有報導指出，紐約聯準銀行代表美國財政部賣出歐元、買進日圓。日圓週五兌美元升值約1.3%，收在157.28附近，僅用2個交易日便扭轉逾2個月的貶勢。\n\n操作規模及美日雙邊參與，改變了日圓空頭部位的近期風險。截至7月28日，避險基金持有124,575口看空日圓合約，價值約$95億，接近6月高峰，也是2007年以來最大空頭曝險。官方干預不僅直接買進日圓，也帶來華府可能支持進一步行動的前景，使這些擁擠部位正面承受壓力。\n\n長期限制仍是利差。日本1%的政策利率遠低於美國利率區間3.75%的上限。植田和男雖為緊縮留下可能，卻未承諾升息；交易員定價顯示，10月前升息的機率約為89%。日本央行下次決策訂於9月18日，較聯準會預定會議晚2天。\n\n協調行動在週末正式升級。日本證實與美國進行15年來首次聯合干預；美國總統Donald Trump稱此舉是友誼的象徵，Bessent則表示，華府如有必要將毫不猶豫再次干預。財政部長面前一張被拍攝到的便條，列出買進$50億至$100億日圓的計畫。這些證實均發生在週五固定收益市場收盤後，因此沒有推動當日美國公債走勢，但也提高了日圓一旦再次貶值，可能遭遇更多官方抵抗的機率。\n\n協調干預可以爭取時間，卻無法消除日圓疲弱背後的貨幣政策與財政因素。油價上漲加重日本的進口負擔，政府支出計畫也引發債券供給增加的疑慮。干預還可能迫使日本出售包括美國公債在內的外國證券，進而外溢至美國借款成本。日圓反彈能否持久，仍取決於日本央行緊縮、聯準會政策與日本財政展望是否開始為官方操作提供支撐。\n\n## 歐洲通膨升溫與哥倫比亞暫停升息，擴大政策分歧\n\n歐元區通膨率由6月的2.8%升至7月的2.9%，符合預測中位數，但進一步支持歐洲央行再次升息。能源價格年增10%，服務通膨及不含食品與能源的通膨指標也同步加速。德國公債回吐稍早漲幅，10年期殖利率上升1個基點至3.16%。\n\n法國帶來各國數據中最大的意外。通膨率由2%躍升至2.4%，高於調查中的所有預測；服務通膨由1.9%升至2.3%，能源通膨達12.4%。在此之前，法國產出已強於預期，西班牙與德國通膨也出現類似加速，因而削弱了能源衝擊可由疲弱需求抵銷的論點。\n\n市場仍認為歐洲央行9月升息1碼的機率約為90%，並反映年底前累計緊縮42個基點。奧地利央行總裁Martin Kocher強調目前的不確定性異常偏高；立陶宛央行總裁Gediminas Simkus表示，升息的可能性遠高於按兵不動；斯洛伐克央行總裁Peter Kazimir則認為，即使情勢改善，仍至少需要再升息一次。\n\n歐洲央行作成決策前，還將取得8月通膨數據與新的幕僚預測。7月報告已顯示，能源衝擊的範圍足以同時推高整體與基礎通膨指標，但其傳導會持續多久仍未確定。歐洲央行一項調查顯示，薪資成長預計將一路加速至2027年初；第2季經濟成長幅度則達預測的2倍，且為逾一年來最快。\n\n英國方面，英國央行首席經濟學家Huw Pill在與另外2位委員投票支持升息後，進一步闡述鷹派立場。他警告，由於伊朗衝突的持續時間與規模高度不確定，能源與大宗商品價格波動可能延續至2027年。英國央行的基準預測顯示，年底通膨率為3.2%；若能源成本更高並出現第二輪效應，逆境情境下2027年通膨可達4.5%，利率也會明顯高於目前的3.75%。\n\nPill擔心的不只是燃料價格的第一輪漲勢。英國汽油價格已升至每公升159.97便士，較戰前高20%；政策分歧的核心在於企業是否會調高售價，以及勞工是否會要求薪資補償。總裁Andrew Bailey與另外5位貨幣政策委員認為，疲弱需求與勞動市場疲軟將限制這種傳導。Pill則主張，政策應在影響形成自我延續前加以阻止，而非等到現象明顯後才行動；不過，他也承認通膨預期尚未顯著脫離錨定。\n\n面對高於目標的通膨，哥倫比亞採取了不同做法。央行意外將政策利率維持在12%；27位受訪經濟學家中僅4位預測按兵不動，其餘均預期升息25至75個基點。4位理事支持維持利率，3位則主張升息2碼。\n\n央行總裁Leonardo Villar將這次決定形容為暫停，而非緊縮週期結束。相較於3%的目標及上下1個百分點的容忍區間，年通膨率仍高於6%；但哥倫比亞披索今年兌美元已升值近20%，減輕了進口價格壓力。央行也宣布最多增持$40億外匯存底的計畫，可能抑制披索升勢。\n\n政策環境在政治與財政層面仍相當棘手。擴張性政府支出、最低工資上調23%，以及暫時性的食品與能源衝擊，都在助長通膨。獨立財政委員會預計，預算赤字將超過GDP的7%。Villar表示仍可能升息；總統當選人Abelardo de la Espriella將於8月7日就職，9月會議屆時也會有一位新任財政部長參與。\n\n## 信用壓力區分存續期間損失與個別借款人風險\n\n即使發行人信用並未普遍惡化，政府債券殖利率上升仍持續壓抑市政債。截至週四，彭博市政債券指數已下跌1.72%，創2003年以來最差7月表現，也是今年僅第2個下跌月份。7月通常可受惠於供給減少，以及票息與到期贖回資金再投資，但本月發行量約達$470億。\n\n大量發行與美國公債殖利率上升這項罕見組合，壓過了季節性支撐。市政債相對美國公債因而變得便宜，但投資組合經理認為，這主要源於高利率環境，而非州與地方政府財務惡化。這項區別不會消除存續期間損失，卻顯示重新定價是全市場資金成本調整，而非廣泛信用事件的跡象。\n\n紐約市凸顯了短期融資管道仍暢通與中期財政路徑惡化之間的差異。在該市計畫發行$15億債券前，Fitch與Moody’s均維持評等不變，但繼續將其$530億一般責任債列為負向展望。Moody’s評為Aa2，Fitch評為AA。\n\n紐約市在未動用準備金或調高房產稅的情況下，使$1,260億預算達成收支平衡，主因截至6月的會計年度稅收較預測高出$43億。然而，支出計畫仍比前一年增加$100億，且仰賴延長退休金債務付款期程及增加州政府支持等暫時措施。預估赤字將擴大至2028會計年度的$64億及2030年的$85億。評等機構表示，能否持續採取措施彌補缺口，將決定未來一年評等能否維持。\n\nNorthwell Healthcare可能再為紐約市政債發行管線增加最多$8億供給。該醫療體系預計透過紐約州宿舍管理局發行免稅債券，由Jefferies擔任簿記管理人，但結構、期限與時點尚未確定。今年以來，醫院已發行約$267億市政債。\n\n低品質企業資本結構面臨的壓力更為嚴重。隨著寬頻業者Cable One的債務遭到拋售，約$10億新融資受到威脅，債權人已開始組織協商。私募股權業者GTCR行使賣回權後，Cable One必須收購Mega Broadband Investments剩餘55%股權，因此需要這筆資金。\n\n融資討論聚焦於接近12%的殖利率，已屬今年交易中最高水準之一。潛在貸款人要求嚴格進行資產隔離，防止Cable One動用母公司資源支援債務負擔較重的Mega Broadband。隨Cable One既有債務進一步走弱，部分第一順位擔保貸款的交易殖利率逼近18%，新融資方案可能因成本過高而無法完成。截至3月31日，Cable One至少有$30億長期債務，同時面臨高槓桿、自由現金流受限，以及住宅寬頻市場競爭激烈等問題。\n\nExtenet Systems則已從再融資壓力走到付款失敗。這家小型基地台營運商未能支付7月27日到期的資產擔保證券利息，使債券構成違約。負責收款的PNC Bank旗下Midland Loan Services另指稱，屬於債券持有人的資金被存入其他帳戶，部分擔保權也已不再維持完整效力。\n\nExtenet已發行約$5億資產擔保證券，並於6月警告債權人，公司現金即將耗盡。Moody’s表示，Extenet正協商利息暫緩追索協議，Kroll則仍在要求取得資訊。現金管理相關指控使問題不再只是營運資金短缺，因為這也令人質疑原本用於保護證券化債權人的控制機制。\n\nCable One與Extenet呈現同一融資限制的兩個階段。Cable One仍可能取得融資，但面臨兩位數殖利率、資產隔離要求與相互競爭的債權人團體；Extenet已發生付息違約，並在被指違反交易文件之際協商暫緩追索。兩起事件都不足以證明信用市場全面關閉，卻顯示無風險利率上升與營運表現轉弱，如何暴露過去依賴廉價再融資的資本結構。\n\n羅馬尼亞主權評等則是另一個融資管道仍在、但警訊未除的案例。在政府對Fitch最初決定提出申訴並補充資料後，Fitch確認其評等為BBB-，即最低投資等級，展望為負向。這項消息在週五美國市場收盤後公布，因此並未影響當日美國公債走勢。\n\n羅馬尼亞今年財政赤字預計將由2024年超過GDP的9%，降至低於6%；但執政聯盟5月瓦解後，政府一直沒有國會多數席次。Fitch指出，下屆政府的組成與穩定性存在不確定性，2026年後的財政策略能見度也已降低。Moody’s預定於8月7日檢討評等，另有2項改革必須在8月底前獲得批准，才能取得更多歐盟復甦資金。\n\n## 後續市場意義\n\n8月7日公布的7月就業報告，是異議官員提出立即緊縮主張後，美國面臨的第一項重大考驗。經濟學家預計，非農就業人數將在6月增加57,000人後，再增85,000人，失業率維持4.2%。若數據較強，將支持現行政策對需求的限制仍不足以使通膨回到目標；若報告疲弱，則會重新引發疑問：當勞動需求失去動能時，聯準會是否仍應回應由能源帶動的通膨。\n\n其他勞動市場指標將協助判斷強弱是否廣泛。職缺數據週二公布、ADP民間就業估計週三公布、初領失業救濟金人數則於週四出爐。堪薩斯市聯準銀行總裁Jeff Schmid、聯準會理事Lisa Cook及Musalem也將分別發表談話，可用來觀察支持異議官員的範圍，是否已超出7月主張升息的幾位官員。\n\n財政部8月至10月的再融資公告，是一項獨立的長天期利率事件。市場預期標售規模維持不變，但焦點在官員是否繼續表示擴大標售仍很遙遠，或轉而弱化這項指引。目前10年期選擇權結構鎖定殖利率接近4.9%的風險，長債避險範圍則延伸至5.42%；即使就業數據釐清9月政策爭議，若官方提早暗示2027年供給將擴大，仍可能延續拋售。\n\n聯準會溝通本身仍是波動來源。Warsh據報考慮把每年設定利率的會議減至6次，使通膨框架及市場殖利率在政策中的角色之外，又增加一項制度問題。無論是說明這項提議、安排依數據作成決策的時點，或界定9月升息條件，都會影響投資人在會議之間要求多少額外溢價。\n\n日圓將檢驗協調干預若未立即獲得利差支持，能否持續奏效。聯準會9月16日決策與日本央行9月18日會議相隔僅2天，兩條政策路徑將接連接受檢驗。若日圓再次貶向觸發上週行動的價位，將考驗美日是否有決心再度干預；若匯率保持穩定，則可讓植田和男有更多空間評估通膨與6月升息的影響。\n\n歐洲央行方面，8月通膨與幕僚預測必須協助判斷，7月能源成本上漲10%的影響是否正擴散至服務與薪資。法國通膨意外升至2.4%、歐元區通膨達2.9%，均支持9月升息，但官員仍須判斷，經濟成長吸收較高能源成本之際，衝擊能否持續。\n\n信用市場方面，Cable One的融資條件將顯示，12%的殖利率加上可執行的資產隔離安排，是否仍能吸引足夠需求以完成強制收購。Extenet的暫緩追索協商，將檢驗債券持有人能否在付款違約後，恢復現金控管與擔保權保障。紐約市$15億發債則能更清楚衡量，市政債投資人如何區分偏高的美國公債殖利率與發行人中期預算風險。\n\n油價是上述考驗的共同變數。若波斯灣航運再次中斷，或美國與伊朗戰事升級，將挑戰能源衝擊只是暫時現象的假設，強化聯準會與歐洲央行鷹派官員的論點，並使損益兩平通膨率維持高檔。航運與外交若能持久改善，可緩解通膨補償；但7月底收盤走勢顯示，在更廣泛的長天期溢價回落前，長天期美國公債還需要市場對實質利率政策、財政供給及央行反應函數恢復信心。\n",
+      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。利率資料取自彭博每日殖利率歷史序列；變動幅度與衍生曲線均採用相同日期序列。每日歷史資料未註明觀察時點。",
       "overall_summary": {
-        "headline": "薪資與聯準會異議發言，推升月底美債殖利率",
-        "session_narrative": "第2季就業成本增加0.9%、高於預期，三名聯準會異議官員也說明為何支持提早緊縮，美債各年期全面下跌。2年期殖利率升5個基點至4.28%，10年期升7個基點至4.75%，30年期升6個基點至5.27%。10年期實質殖利率升6個基點至2.47%，通膨補償則僅升1個基點至2.28%。\n\n放眼整個7月，10年期實質殖利率累計上升27個基點，損益兩平通膨率僅升4個基點。投資人要求更高的實質報酬，是這個月長債承壓的主因。油價及歐洲通膨升溫再添壓力；季度再融資公告前，美債成交活躍，防範債價下跌的避險成本也提高。\n\n融資壓力仍集中在部分借款人。Cable One即使討論雙位數殖利率，仍難籌得強制收購所需資金；Extenet未付債息，付款管理人另指出現金及擔保權問題。市政債面對沉重供給，能源大廠卻利用現金流還債。海外方面，日本銀行維持1%利率但指引偏鷹，哥倫比亞意外維持12%；美元走弱，仍未抵銷美債殖利率上升對新興市場美元債的壓力。",
-        "summary": "就業成本高於預期，聯準會異議官員又主張提早升息，10年期美債殖利率上升7個基點至4.75%，其中大部分來自實質殖利率。股市與整體信用市場表現相對穩定，較弱借款人的融資及擔保品問題卻持續浮現。"
+        "headline": "勞動成本、聯準會鷹派異議與油價推升實質殖利率及通膨補償，美國公債遭到拋售",
+        "session_narrative": "美國公債在7月最後一個交易日全面遭到拋售。2年期殖利率上升4.5個基點至4.292%，5年期與10年期均上升6.2個基點，分別報4.45%與4.736%；30年期上升5.9個基點至5.274%。10年期實質殖利率上升3.6個基點，損益兩平通膨率增加2.6個基點，顯示實質借款成本與通膨補償對升勢的貢獻幾乎相當。\n\n第2季就業成本指數上升0.9%，略高於預期；具投票權的聯準會官員Beth Hammack、Neel Kashkari與Lorie Logan也說明，為何他們在7月主張立即升息。尚未解除的供給威脅推升WTI與Brent，兩者月漲幅均超過20%，使油價進一步加深通膨疑慮。\n\n債券下跌並非廣泛避險所致：S&P 500與Nasdaq 100上漲，美元則在美國殖利率走高之際轉弱。日本干預匯市及日本央行溫和偏鷹的利率決定，也改變了日圓風險；不過，美日龐大利差仍限制日圓反彈的持久性。",
+        "summary": "勞動成本高於預期、聯準會異議官員明確要求升息，加上油市供給風險再起，使實質折現率與通膨溢價同步上升，推高各期限美國公債殖利率。"
       },
       "section_summaries": [
         {
-          "section_title": "實質殖利率帶動新一波全面賣壓",
-          "summary": "就業成本高於預期，異議官員也警告緊縮不足，短天期美債重新加入跌勢。10年期殖利率的升幅主要來自實質殖利率，股市則持續上漲。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "聯準會反應函數仍不明確，投資人因而要求更高的長天期補償。",
+          "next_check": "",
+          "section_title": "固定收益開篇主論述",
+          "summary": "第2季勞動成本穩健、聯準會具名官員表達異議，加上油價再度上漲，推升美國公債殖利率4.5至6.2個基點，30年期收於5.274%。10年期實質殖利率與損益兩平通膨率升幅接近，且股市同步上漲，顯示這並非風險資產遭到全面清算。"
         },
         {
-          "section_title": "短端重新加入長債的價格調整",
-          "summary": "10年期實質殖利率上升6個基點至2.47%。月底成交活躍、下跌避險成本提高，投資人並開始關注季度再融資的供給指引。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "實質殖利率與損益兩平通膨率走高，同時提高實質資金成本與未來通膨補償。",
+          "next_check": "",
+          "section_title": "實質殖利率與通膨補償推動美國公債拋售",
+          "summary": "7月長天期債券損失加深，10年期殖利率全月上升27個基點，30年期上升32.1個基點。10年期實質殖利率占名目基準殖利率升幅的22.4個基點；隨油價週五反彈，損益兩平通膨率的影響也變得更重要。月底交易量龐大，指數再平衡需求使尾盤跌幅收斂，卻未能扭轉拋售。"
         },
         {
-          "section_title": "Cable One與Extenet暴露不同弱點",
-          "summary": "Cable One難籌收購資金，Extenet未付利息且被指現金控管失效。市政債承受供給壓力，能源大廠則利用充裕現金流減債。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "若長端殖利率上升反映期限溢價或政策不確定性，金融情勢雖會收緊，通膨卻未必得到錨定。",
+          "next_check": "",
+          "section_title": "聯準會異議官員補上主席未明示的反應函數",
+          "summary": "Hammack、Kashkari與Logan都認為利率應上調，但理由與步伐各有不同，從現行政策限制性不足，到主張以小幅升息保留彈性。他們的論點挑戰主席Kevin Warsh仰賴市場殖利率替聯準會完成部分緊縮工作的做法。會議頻率可能改變、未來美國公債供給不確定，以及長端選擇權避險增加，均提高了政策與長天期債券所需的溢價。"
         },
         {
-          "section_title": "歐洲通膨升溫，日本銀行保留後續升息空間",
-          "summary": "歐元區通膨升溫，日本銀行保留後續升息空間，日圓也再獲支持。英國央行雖暫不升息，能源風險仍限制市場對寬鬆的期待。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "干預改變了近期部位風險，卻未消除造成日圓疲弱的利差因素。",
+          "next_check": "聯準會9月16日決策與日本央行9月18日會議，將檢驗貨幣政策是否開始強化干預效果。",
+          "section_title": "日本央行按兵不動，協調干預改變日圓風險",
+          "summary": "日本央行以8比1表決將政策利率維持在1%；植田和男表示將更留意通膨上行風險，但未承諾9月升息。日本買進日圓、美國進行匯率詢價，加上據報美國財政部參與，使擁擠的日圓空頭部位面臨協調一致的官方抵抗。日圓大幅反彈，但美日利差龐大，以及日本的財政與能源壓力，仍限制這波走勢的持久性。"
         },
         {
-          "section_title": "哥倫比亞暫停升息，Pemex仍未擺脫政府支持",
-          "summary": "哥倫比亞意外暫停升息，Pemex仍依賴政府支持。菲律賓及印度的定價、指數安排影響資金進出；羅馬尼亞保住投資級，財政風險仍在。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "8月通膨與歐洲央行新預測將檢驗能源衝擊是否正擴散至服務與薪資。",
+          "section_title": "歐洲通膨升溫與哥倫比亞暫停升息，擴大政策分歧",
+          "summary": "歐元區通膨加速至2.9%，能源、服務與核心通膨均走強，支持歐洲央行再次升息的預期。英國央行首席經濟學家Huw Pill認為，能源成本若持續偏高，可能引發第二輪效應，但多數同僚更重視需求疲弱。哥倫比亞意外將利率維持在12%，並將此舉視為暫停；雖然通膨仍高於6%，披索升值已減輕進口價格壓力。"
         },
         {
-          "section_title": "利率衝擊之下，股票仍上漲",
-          "summary": "美債殖利率上升之際，股市大盤仍上漲、波動率下降，但半導體反彈有限。油價再漲，也不足以解釋實質殖利率主導的債市跌勢。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "無風險利率上升，正暴露過去依賴廉價再融資的借款人與資本結構。",
+          "next_check": "Cable One的融資與Extenet的暫緩追索協商，將檢驗債權人保障能否維持融資管道或挽回價值。",
+          "section_title": "信用壓力區分存續期間損失與個別借款人風險",
+          "summary": "市政債損失主要反映美國公債殖利率上升與大量發行，而非發行人普遍惡化；不過，紐約市的負向展望凸顯其中期預算風險。Cable One仍可能取得融資，但面臨接近12%的殖利率、資產隔離要求及債券價格走弱；Extenet則已進入付款違約與暫緩追索協商階段，且遭指控現金控管與擔保權出現問題。"
         },
         {
-          "section_title": "下一個焦點：非農就業與季度再融資",
-          "summary": "非農就業與季度再融資將影響美國實質殖利率。海外通膨、日圓走勢及較弱借款人的融資進展，則攸關壓力是否進一步擴散。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "後續市場意義",
+          "summary": "接下來的考驗將區分政策、供給與通膨風險：美國勞動數據將檢驗異議官員的論點，財政部再融資指引將影響期限溢價，油市供給中斷則可能使損益兩平通膨率居高不下。聯準會溝通、協調干預日圓、歐洲通膨的持續性，以及壓力信用的協商進展，仍可能透過不同管道延續這波重新定價。"
         }
       ],
       "watch_events": [
         {
-          "title": "美國就業報告",
-          "date": "2026年8月7日",
-          "category": "美國數據",
-          "watch_line": "預估新增非農就業85,000人，前值57,000人；失業率預估維持4.2%。",
-          "market_trigger": "就業成本增加0.9%後，招聘是否仍強勁，以及實質殖利率如何反應。",
-          "market_implication": "強勁就業將支持異議官員的升息主張；活動轉弱則有利聯準會繼續觀望。"
+          "category": "美國勞動市場",
+          "date": "8月7日",
+          "market_implication": "數據強勁將強化利率上升的市場定價；數據疲弱則會使市場質疑，是否應在能源帶動通膨之際進一步緊縮。",
+          "market_trigger": "非農就業增幅明顯高於或低於85,000人，且失業率偏離4.2%。",
+          "title": "美國7月就業報告",
+          "watch_line": "檢驗勞動需求是否支持聯準會異議官員立即緊縮的主張。"
         },
         {
-          "title": "季度再融資與附買回提案",
-          "date": "下次季度再融資公告",
-          "category": "美債供給",
-          "watch_line": "付息券規模預期穩定，2027年可能增加的指引更重要。",
-          "market_trigger": "供給指引，以及10年期4.9%、30年期5.3%至5.42%附近的避險部位。",
-          "market_implication": "財政部把現金投入附買回市場，可緩解短期資金波動，卻不能取代投資人對中長期付息券的需求。"
+          "category": "美國公債供給",
+          "date": "8月至10月一季",
+          "market_implication": "若提早釋出增供訊號，可能推升期限溢價，延長長天期美國公債跌勢。",
+          "market_trigger": "指引提前預告2027年附息債供給擴大，而非繼續表示擴大標售仍很遙遠。",
+          "title": "美國財政部季度再融資",
+          "watch_line": "觀察標售規模維持不變的同時，是否搭配新的未來附息債發行指引。"
         },
         {
-          "title": "海外政策與信用融資",
-          "date": "8月至9月",
-          "category": "全球利率與信用",
-          "watch_line": "關注歐元區通膨、9月18日日本銀行決策，以及Cable One與Northwell融資進展。",
-          "market_trigger": "能源傳導、日圓穩定與可執行債權保障。",
-          "market_implication": "觀察高實質利率的壓力是否仍集中於部分市場和借款人。"
+          "category": "能源通膨",
+          "date": "持續觀察",
+          "market_implication": "油價進一步上漲將使損益兩平通膨率維持高檔，並強化聯準會與歐洲央行收緊政策的理由。",
+          "market_trigger": "波斯灣航運再度中斷，或美國與伊朗戰事升級，使供給衝擊延續。",
+          "title": "石油供給中斷風險",
+          "watch_line": "觀察波斯灣航運與美伊緊張局勢，是否使7月能源衝擊演變為持久通膨。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "# Wages and Fed dissenters send Treasury yields higher into month-end\n\n## Real yields drive another broad bond selloff\n\nTreasuries sold off across the curve on Friday as firm employment costs and the Fed's three dissenters challenged the case for waiting. Two-year yields rose 5 basis points to 4.28%, five- and ten-year yields each climbed 7 to 4.45% and 4.75%, and the 30-year added 6 to 5.27%. Unlike Wednesday's split between a rallying front end and falling long bonds, this time shorter maturities joined the selloff.\n\nSecond-quarter employment costs rose 0.9%, above the median forecast. Cleveland's Beth Hammack, Minneapolis's Neel Kashkari and Dallas's Lorie Logan each explained why they had favored a quarter-point increase rather than the Fed's 9–3 hold at 3.5%–3.75%. Their concern was that insufficient restraint now could require more later. A renewed rise in oil and stronger euro-area inflation added to that argument.\n\nMost of the US ten-year move came through real yields, which rose 6 basis points to 2.47%; breakevens edged up just 1 to 2.28%. Stocks advanced, high-yield funds were almost unchanged and the dollar weakened. The pressure was concentrated in the return required to hold duration, not a general scramble for liquidity. At weaker borrowers, however, expensive money was exposing problems that a better equity market could not solve: Cable One struggled to fund a mandatory acquisition and Extenet missed interest amid reported failures of collateral and cash controls.\n\n## The front end rejoins the long-bond repricing\n\nThe selloff started in two- to five-year debt and spread outward. The slightly larger rises at five and ten years produced only modest additional steepening: 2s10s widened 2 basis points to 47 and 2s30s widened 1 to 99. Those small daily curve changes sat on top of a severe month. July yield increases were 14 basis points at two years, 26 at five, 31 at ten and 36 at 30.\n\nThe dissenters made their objections more explicit. Hammack said policy was not restrictive enough; Kashkari supported incremental tightening while more data arrived; Logan argued that modest action now could reduce the need for sharper increases later. Even allowing for supply shocks and productivity, Logan saw inflation heading toward roughly 2.5% rather than 2%. Spending, labor demand and financial conditions were not yet doing enough to finish the return to target, in their assessment.\n\nThe 0.9% increase in the Employment Cost Index did not by itself establish renewed wage acceleration. But it was the wrong direction for investors looking for confirmation of patience after June PCE prices fell 0.1%. WTI's 1.29% rise to $84.67 and Brent's 1.22% gain to $90.12 added energy pressure ahead of the weekend.\n\nInflation-linked bonds showed a larger adjustment to real returns than to average inflation expectations. The ten-year real yield rose 6 basis points to 2.47%, the five-year 5 to 2.19%, and the 30-year 5 to 3.03%. Ten-year breakevens ended at 2.28%, up 1 basis point on the day and only 4 over July. The real yield rose 27 basis points over the month, accounting for most of the 31-basis-point nominal increase. Inflation concern remained, but the market was not pricing an equally large permanent increase in expected inflation.\n\nTurnover was substantial. Treasury cash par volume reached $1.92 trillion, up 32.4%, and nominal-coupon activity rose 33.4% to $1.52 trillion. Seven-to-ten-year volume increased 56.4% to $279 billion, five-to-seven-year activity almost doubled to $173 billion, and TIPS volume rose 191% to $121.2 billion. These figures measure two-way trading rather than net flows, but place the benchmark and real-yield moves in an active market.\n\nLate index-rebalancing demand trimmed intraday extremes after the 30-year reached 5.28%. The long-Treasury index still lost 0.69% on the day and 3.87% over July. One-to-three-year debt declined only 0.04% on Friday and retained a 0.17% monthly gain.\n\nInvestors also paid more for downside protection. The premium of one-month, 25-delta puts over calls reached its highest in about five months. Structures targeted ten-year yields around 4.8%–4.9% and 30-year yields around 5.3%–5.42%. MOVE remained comparatively subdued, making the costly downside skew more striking than the overall level of rates volatility.\n\nThe August-to-October refunding announcement was the next supply event. Auction sizes were expected to stay steady, with attention on guidance for possible coupon increases in 2027. Separately, Treasury was exploring investment of part of its near-$1 trillion cash balance in the roughly $13 trillion repo market. It could smooth pressures around settlements, tax dates and reporting periods if reserves declined, but operational demands, dealer-capacity concerns and modest estimated returns made adoption uncertain. That funding proposal would address cash-market fluctuations, not the additional duration investors might ultimately have to buy.\n\n## Cable One and Extenet expose different weaknesses\n\nCable One's acquisition obligation was becoming harder to finance even at a discussed yield near 12%. The company needed roughly $1 billion for the mandatory purchase of the remaining 55% of Mega Broadband Investments, after GTCR exercised a put, and to extend debt. Parts of Cable One's existing first-lien loan traded at yields near 18%.\n\nProspective lenders wanted ring-fencing to prevent the parent from subsidizing Mega Broadband's heavy obligations. Cable One already had at least $3 billion of long-term debt, limited free cash flow and competitive pressure in residential broadband. The central negotiation concerned whether new money could be insulated from the acquisition's liabilities, not just how much yield would attract buyers.\n\nExtenet had moved beyond negotiating an extension to a missed payment. Interest due July 27 on about $500 million of asset-backed securities went unpaid. The payment administrator also reported that collections meant for bondholders had gone elsewhere and that some liens were no longer perfected. The company was negotiating interest forbearance, but the reported control failures raised questions about recovery as well as timing.\n\nThe cash deterioration was abrupt relative to operating revenue. Revenues had declined only slightly before Extenet warned in June that it was days from running out of cash. Fiber, small-cell and 5G structures had attracted buyers on the strength of infrastructure cash flows and security interests. Here, account administration and enforceable liens became at least as important as the growth outlook for digital connectivity.\n\nMunicipals faced a broader supply-and-duration problem. The index had lost 1.72% through Thursday, heading for its worst July since 2003 despite the coupon payments and redemptions that usually help summer demand. Issuance of roughly $47 billion exceeded the normal July pace just as long Treasury yields approached 19-year highs. Relative valuations became some of the cheapest of the year.\n\nThe calendar was still filling. Northwell Healthcare considered up to $800 million of tax-exempt bonds through New York's Dormitory Authority after hospital issuance had already reached about $26.7 billion year to date. The proposed sale would add another sizable test after a poor month, though its pricing and demand were still ahead.\n\nThe wider corporate supply backdrop also favored lenders. US junk issuance approached $200 billion for the year, about 9% above the same point in 2025, while high-grade supply increased by a third to $1.3 trillion. Average leveraged-loan prices fell from 97 in January to 95.3, with about $240 billion due through 2028. The higher margins and stronger protections accepted by CoreWeave and Proofpoint earlier in the week illustrated that broader change.\n\nEnergy producers were using the same commodity shock to reduce debt. Exxon cut net debt by more than $7 billion in the second quarter, Chevron directed a record $8.4 billion to debt reduction, and Shell reduced net debt about $10.8 billion. Cash flow was repairing those balance sheets while higher energy costs made financing harder elsewhere.\n\nBroad credit returns held up relatively well. LQD lost 0.15%, HYG gained 0.01% and JNK 0.02%. Long AAA-to-A and BBB corporate indices declined 0.29% and 0.25%, less than the 0.69% long-Treasury loss, though their monthly declines remained 4.58% and 4.19%. The distinction between functioning markets and vulnerable individual structures remained important: neither a high coupon nor infrastructure collateral guaranteed access or recovery.\n\n## Euro inflation rises and the BOJ makes later meetings live\n\nEuro-area inflation accelerated from 2.8% to 2.9% in July, with energy up 10% and both services and the measure excluding food and fuel strengthening. German ten-year yields rose 1 basis point to 3.16%. Markets continued to assign a 90% chance to a quarter-point ECB increase in September and priced 42 basis points by year-end.\n\nFrench data showed pressure beyond energy. Inflation rose to 2.4%, above every survey forecast and a 2.0% median; services accelerated from 1.9% to 2.3%. With euro-area second-quarter growth already twice expectations and the strongest in more than a year, the ECB faced less of a growth obstacle to further tightening.\n\nThe BOJ held 1% by an 8–1 vote after June's increase, but Kazuo Ueda made clear that meetings from September onward could bring action. Underlying inflation was nearing 2%, making upside surprises more costly, and he said the pace could accelerate if financial conditions remained too easy. Swaps put October hike odds at 89%. This kept an earlier move live without committing the bank to September.\n\nJapan's data were mixed. Tokyo CPI excluding fresh food rose 1.9%, versus 1.8% expected; overall inflation and the measure excluding both fresh food and energy were 2%. Services edged up to 1.2%. June industrial output rose 1.3% from May, but retail sales fell 4.1% on the month and rose only 0.5% from a year earlier. The BOJ raised its fiscal-year growth forecast to 0.6% while lowering inflation from 2.8% to 2.5% because of subsidies.\n\nIntervention bought time on the currency. Thursday's operation was estimated at JPY8.45 trillion, or $52.8 billion, and had lifted the yen as much as 3.3%. Friday brought reports of another operation, New York Fed rate checks and US Treasury coordination; the yen gained about 1.3% to 157.28. A firmer currency can ease imported inflation, but intervention and higher prospective domestic yields also affect the resources and incentives available for buying foreign bonds. A 1% BOJ rate remained far below the US range.\n\nThe UK's energy risks extended beyond the previous day's dovish guidance. BOE Chief Economist Huw Pill warned that commodity volatility could persist into 2027. The central forecast put inflation at a 3.2% late-year peak; an adverse scenario reached 4.5% in 2027 and required materially higher rates than the current 3.75%. Energy prices were already 20% above prewar levels. Resistance to an imminent increase did not remove that longer policy risk.\n\nChina's bond market was gaining a prospective hedging tool. Hong Kong prepared to relaunch five-year government-bond futures with a CNY500,000 cash-settled contract, after attempts in 2017 and 2024 failed to establish durable trading. Foreign holdings of onshore government debt had grown from about CNY450 billion in mid-2017 to CNY2 trillion. Sustained liquidity, rather than the launch alone, would determine whether investors could use the contract reliably for curve, basis and repo-linked strategies.\n\n## Colombia pauses, while oil earnings leave Pemex dependent\n\nColombia surprised most economists by holding 12%. Of 27 surveyed, 23 had expected an increase; the board split four for a hold and three for a 50-basis-point hike. It also announced plans to accumulate as much as $4 billion of reserves. The peso's nearly 20% gain this year had reduced imported inflation and created room to wait, although reserve purchases could weaken that currency support.\n\nInflation remained above 6%, against a 3% target with a one-percentage-point tolerance band. Expansionary fiscal policy, a 23% minimum-wage rise and food and energy shocks kept pressure high, while the independent fiscal committee expected a deficit above 7% of GDP. Governor Leonardo Villar left further hikes open. The September meeting would test whether currency strength could keep offsetting those pressures under a new administration.\n\nSouth African yields showed a partial recovery rather than a return to prewar conditions. The ten-year was around 8.7%, down from 9.5% early in the Iran war but above roughly 8% before it. The central bank had held 7% after a May increase provided room for patience. June inflation of 5% still exceeded the new 3% target, leaving the stance dependent on confidence that the shock would fade.\n\nPemex's better quarter had not restored financial independence. It reported MXN18 billion, or $1 billion, in profit and increased crude and condensate output 1.7% to 1.66 million barrels a day. Debt still stood at $77.5 billion. The government had budgeted $14 billion of debt support this year, while Fitch estimated a further $10 billion operating shortfall by year-end.\n\nMexico's finance minister ruled out additional state funds this year, even as Pemex discussed the 2027 budget and a possible refinancing. Production remained roughly half its historical peak and international partners were slow to commit. Higher oil improved cash generation without removing the potential financing burden on the state.\n\nMarket access also depended on operational rules. The Philippines planned to remove the effect of a 20% withholding tax from local-bond pricing ahead of expected JPMorgan index inclusion. The change would align its $230 billion market with global convention, but could create mark-to-market losses for holders selling before maturity.\n\nIndia's index timetable moved the other way. Removing withholding and capital-gains taxes had attracted about $5 billion into eligible bonds since June 5, but Bloomberg deferred global aggregate inclusion because implementation was incomplete across investor regions. The ten-year yield rose 3 basis points to 6.84%, with traders expecting another 5–10 basis points of adjustment. Tax reform had brought inflows without securing immediate index entry.\n\nRomania narrowly retained investment grade. Fitch affirmed BBB- with a negative outlook after an appeal and additional government information. The deficit was expected below 6% of GDP from more than 9% in 2024, but political uncertainty and the 2028 election cycle threatened further consolidation. The rating preserved access without removing the fiscal warning.\n\nEMB fell 0.14% and the 15-year-plus dollar sovereign index 0.21%, while the dollar index slipped 0.21% to 99.80. Currency conditions were not signaling a general dollar shortage, but the 4.75% ten-year Treasury and 5.27% long bond still raised the discount applied to long hard-currency cash flows.\n\n## Stocks advance despite the rate shock\n\nThe S&P 500 gained 0.70%, the Nasdaq 100 0.60% and VIX fell 6.44% to 15.99. Semiconductors edged up only 0.07%, remaining down 4.30% over the week and 20.61% over the month. Broader risk appetite was intact, even though the AI complex had yet to recover convincingly from doubts over spending returns.\n\nWTI and Brent rose 1.29% and 1.22%, to $84.67 and $90.12. Both were lower over the week but more than 21% higher over a month. The oil increase added to the inflation backdrop, while the much larger rise in real yields showed that it was not the whole Treasury story.\n\nGold declined 1.24% to $4,049.10 and the dollar index fell to 99.80, partly as action supported the yen. With gold and volatility lower and equities higher, the day did not resemble a wholesale loss of confidence. Investors were repricing real duration and policy uncertainty while equity and credit trading continued to function.\n\n## Payrolls and refunding set the next US tests\n\nThe August 7 employment report follows the 0.9% employment-cost reading. The survey median expects 85,000 new jobs after 57,000 in June and unemployment unchanged at 4.2%. Stronger hiring would support the dissenters' concern that policy is insufficiently restrictive; weaker employment and softer subsequent prices would strengthen the case for patience. Real yields will show whether any relief extends beyond a decline in inflation compensation.\n\nThe August-to-October refunding announcement separates supply expectations from the Fed debate. Auction sizes were expected to remain steady, with the key question whether guidance postpones increases or prepares investors for larger 2027 issuance. Hedging around 4.9% in ten-year yields and 5.3%–5.42% at 30 years provides a reference for how investors are protecting against an earlier supply signal. Treasury's possible repo investment operates on a different horizon: it could smooth settlement-related funding, not solve coupon absorption.\n\nAugust euro-area inflation will show whether July's 10% energy rise is spreading further into services before September's ECB meeting. The BOJ's September 18 decision will follow a test of whether yen stability can last without repeated intervention or another disorderly JGB move. In credit, Cable One's next financing terms, Northwell's proposed municipal sale and subsequent AI or software deals will show how far concession and enforceable protections can sustain access. Delays or further demands for ring-fencing would indicate that high real rates are reaching more borrowers, even without a broad funding stop.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries ended July with another broad selloff as firm labor-cost data, increasingly explicit demands for higher rates from Federal Reserve dissenters and a renewed rise in oil prices forced investors to price both more near-term restraint and a larger long-term inflation premium. The 2-year yield rose 4.5 basis points to 4.292%, the 5-year and 10-year each climbed 6.2 basis points to 4.45% and 4.736%, and the 30-year increased 5.9 basis points to 5.274%. The long bond traded as high as 5.28%, extending its move to the highest level since 2007, while the 10-year exceeded 4.74% intraday for the first time since January 2025.\n\nThe composition was less extreme than the post-Fed bear steepening earlier in the week but more difficult to dismiss as a single segment’s repricing. The 2s10s curve widened 1.7 basis points to 44.4 basis points, and 2s30s increased 1.4 basis points to 98.2 basis points. At 10 years, the real yield rose 3.6 basis points to 2.45% and the breakeven inflation rate increased 2.6 basis points to 2.286%. Higher inflation compensation and a higher inflation-adjusted discount rate therefore contributed almost equally to the nominal move.\n\nThat combination distinguished Friday from the previous session’s partial stabilization. The Employment Cost Index rose 0.9% in the second quarter, slightly more than economists expected, while three voting regional Fed presidents explained why they had preferred an immediate rate increase at the July meeting. Cleveland’s Beth Hammack argued that policy was not sufficiently restrictive, Minneapolis’s Neel Kashkari favored incremental tightening while officials gathered more information, and Dallas’s Lorie Logan warned that modest action soon could reduce the need for sharper action later. Richmond Fed President Tom Barkin separately described the adequacy of the existing policy setting as a close call, while nonvoting St. Louis President Alberto Musalem said he would also have preferred a quarter-point increase.\n\nOil reinforced that message. WTI gained 1.29% to $84.67 and Brent rose 1.22% to $90.12 as threats to supply from the Persian Gulf to the Black Sea remained unresolved. The one-day moves were moderate, but WTI had risen 21.83% over the month and Brent 23.59%, leaving the Fed, the European Central Bank and the Bank of England to judge whether temporary energy pressure was becoming a more persistent price shock.\n\nThe Treasury decline occurred alongside rising equities rather than a broad liquidation of risk. The S&P 500 gained 0.70% and the Nasdaq 100 rose 0.60%, although the Philadelphia Semiconductor Index was nearly unchanged and finished July down 20.61%. The dollar index declined 0.21% and lost 1.65% over the week even as U.S. yields rose, while gold fell 1.24% to $4,049.10. The divergence left the central issue intact: investors were willing to support risk assets selectively, but they demanded more compensation to finance the economy at long maturities while the Fed’s policy framework remained unclear.\n\n## Real Yields and Inflation Compensation Drive the Treasury Selloff\n\nFriday’s yield increases completed a punishing month for duration. The 2-year yield finished July 11.7 basis points higher, the 5-year rose 22.3 basis points, the 10-year climbed 27 basis points and the 30-year increased 32.1 basis points. The 2s30s spread widened 20.4 basis points during the month, showing that the adjustment went well beyond the timing of the next policy increase.\n\nThe 10-year real yield accounted for 22.4 basis points of the monthly rise in the nominal benchmark. Breakeven inflation increased only 4.6 basis points over the same period, but its contribution became more important on Friday as oil rebounded and policymakers emphasized the risk that inflation could remain above target. The result was a simultaneous increase in the real cost of capital and the compensation required for future inflation, rather than a simple substitution between the two.\n\nBond-index performance showed the consequence across maturities. The ICE U.S. Government 1–3 Year Bond Index slipped 0.04% on Friday and remained up 0.17% for July. The 7–10 Year index fell 0.31% on the day and 1.17% for the month, while the 20-plus-year index lost 0.69% on Friday and 3.87% in July. Long high-grade corporate indices declined more than 4% during the month, largely reflecting their duration exposure as government yields rose.\n\nTrading activity was unusually heavy at month-end. FINRA recorded $1.92 trillion of Treasury par activity, 32.4% more than Thursday, across 577,862 trades. Nominal-coupon activity rose 33.4% to $1.52 trillion. Activity in coupons longer than 7 years through 10 years increased 56.4% to $279 billion, while turnover in maturities longer than 5 years through 7 years rose 88.5% to $173 billion. TIPS activity almost tripled to $121.2 billion. Those totals capture the scale and location of the adjustment without identifying which side of the market initiated it.\n\nThe late session supplied one counterforce. Treasury losses were pared around the 4 p.m. New York rebalancing of bond indices, when index-tracking funds incorporated debt issued during July. That demand did not reverse the day’s selloff or the monthly loss. The Bloomberg Treasury Index was already down nearly 0.9% for July through the previous session, with the Fed decision and earlier oil-driven repricing accounting for the month’s largest setbacks.\n\nThe Employment Cost Index added a domestic inflation concern distinct from energy. Its 0.9% quarterly increase exceeded the median forecast, indicating that labor costs had not slowed enough to reassure a market already questioning whether the policy rate was restrictive. The release did not establish an acceleration by itself, but Friday’s setting made even a small upside surprise consequential. As rates trader Tony Farren put it, the market required lower inflation evidence rather than another result that was marginally firmer than expected.\n\nOil then widened the range of possible outcomes. WTI settled above $84 at a one-week high as renewed U.S.-Iran fighting and threats to regional shipping kept supply risk elevated. The increase fed directly into longer maturities, where investors were already demanding more protection against inflation persisting through successive supply shocks.\n\nThe cross-asset response showed that higher yields did not arise from stronger risk appetite alone. The S&P 500 advanced almost 1% intraday before closing 0.70% higher, helped by Amazon and other large technology companies. Yet the semiconductor index’s negligible gain left it down 4.30% for the week and more than 20% for July. Investors were still differentiating sharply between companies able to fund the AI buildout and those most exposed to leverage, capacity expansion or crowded positioning.\n\nThe dollar’s weakness was more unusual. Bloomberg’s broad dollar gauge lost 1.3% over the week, its worst performance in more than three months, despite higher Treasury yields. Positioning had become heavily bullish before the Fed meeting: noncommercial traders held $49.23 billion of net dollar longs through July 28, the largest such position since 2014. The subsequent decline reflected both yen intervention and concern that the Fed’s reliance on market tightening could leave inflation insufficiently controlled.\n\n## Fed Dissenters Define a Reaction Function the Chair Left Open\n\nThe three July dissenters supplied the clearest policy guidance of the week. Hammack, Kashkari and Logan had all voted to raise the federal-funds target from its 3.5%–3.75% range rather than leave it unchanged for a fifth consecutive meeting. Their Friday statements showed agreement on the direction of policy but important differences in emphasis.\n\nHammack said elevated inflation had persisted too long and argued that existing policy was not appropriately restrictive. She was not confident that inflation would return to 2% without additional action and saw demand pressure alongside the supply shocks that had lifted prices. Her argument treated the economy’s underlying strength as a reason to act while the cost of doing so remained manageable.\n\nKashkari favored a series of small increases rather than waiting until entrenched inflation required a larger intervention. He argued that the Fed could slow or pause subsequent adjustments if inflation receded, preserving flexibility while reducing the risk that continued delay would validate higher price expectations. That preference linked the size of each move to the uncertainty of the outlook rather than to a weaker commitment to tightening.\n\nLogan said inflation appeared to be moving toward the mid-2% range rather than all the way to the Fed’s goal, even after accounting for productivity improvements and supply disturbances. She pointed to firm employment, spending and financial conditions as evidence that policy was not meaningfully restraining demand. In her assessment, a modest near-term increase would lower the probability of having to tighten more abruptly later.\n\nMusalem, who does not currently vote, added that the bond-market selloff had made the Fed’s credibility dependent on higher rates and said he would have preferred a quarter-point move. Barkin, another nonvoter this year, stopped short of endorsing the dissenters but said it was a close question whether the existing rate was high enough to reduce inflation. He saw a case for reversing some of the cuts made in 2025.\n\nThese interventions changed the policy debate because they came from separately timed, named officials rather than an anonymous tightening faction. They also followed Chair Kevin Warsh’s decision not to specify what would trigger action. Warsh had argued that higher market yields were already tightening financial conditions and could perform part of the central bank’s work. The dissenters instead emphasized the risk that market restraint would not return inflation to target unless it was backed by policy.\n\nThe distinction matters most at the long end. A rise in yields caused by confidence in eventual disinflation would tighten financial conditions while preserving the Fed’s credibility. A rise driven by higher term premiums, inflation expectations or uncertainty about the central bank’s response would impose higher borrowing costs without delivering the same anchor. Friday’s equal contribution from real yields and breakevens, coupled with a weaker dollar, left room for the second interpretation.\n\nWarsh’s communication strategy is becoming part of that premium. He has sought to reduce forward guidance, shortened the policy statement and created task forces to reassess communications, economic data and balance-sheet policy. Investors accustomed to using the Fed’s stated reaction function to price future meetings are now being asked to infer it from data and market movements whose own causes may be ambiguous.\n\nA further institutional change surfaced over the weekend. Warsh raised at the July meeting the possibility of reducing the number of rate-setting gatherings to six a year, with two additional meetings devoted to substantive economic topics. The FOMC has held eight scheduled policy meetings annually since the early 1980s, and no decision has been made. Officials also discussed aligning decisions more closely with major data releases.\n\nChanging meeting frequency would not prevent the Fed from convening during emergencies, but fewer scheduled decisions could increase the importance of each data cycle and lengthen the intervals in which markets must operate without a policy response. The proposal fits Warsh’s broader effort to change how the central bank communicates. It also arrives when the absence of guidance is already increasing demand for protection against larger yield moves.\n\nOptions markets reflected that concern. The premium for puts over calls on long-dated Treasury contracts reached its highest since March. Investors used September options to hedge 10-year yields approaching 4.8% or 4.9% and 30-year yields reaching roughly 5.3% to 5.42%. A long-bond put position purchased after the Fed meeting for about $20 million had already appreciated sharply as the 30-year yield approached its strike area.\n\nTreasury’s quarterly refunding adds a separate uncertainty. Auction sizes for the August-to-October quarter were expected to remain steady, but investors were alert to any guidance preparing the market for increases in 2027. With the 30-year yield already above 5.27%, a signal of greater future coupon supply could reinforce the term premium even if the Fed’s next move becomes clearer.\n\nThe Treasury was also exploring a potential change to funding-market operations. Officials asked primary dealers about investing part of the government’s cash in the roughly $13 trillion repo market. Treasury held about $966 billion in its account at the Fed, within a cash balance near $1 trillion. Lending some of that money through repo could smooth the effects of tax dates, auction settlements and changes in the cash balance on short-term funding.\n\nSupporters said the program could reduce periodic strains and allow the Fed to operate with a somewhat smaller balance sheet. Treasury’s borrowing advisers were less convinced, judging in May that operational difficulties could outweigh modest returns. Estimated earnings ranged from zero to 2 basis points while bank reserves remained ample and 5 to 10 basis points in a scarcer-reserve environment. Dealer capacity was another constraint: large, irregular Treasury repo operations could occupy balance sheet that intermediaries could not keep unused indefinitely.\n\n## The BOJ Holds as Coordinated Intervention Changes the Yen Risk\n\nJapan combined a conventional rate hold with an extraordinary currency operation. The Bank of Japan kept its benchmark at 1%, as all 52 surveyed economists expected, after raising it in June to the highest level since 1995. The vote was 8-1, with Hajime Takata seeking a second consecutive increase.\n\nGovernor Kazuo Ueda’s message was moderately hawkish without committing the bank to September. He said underlying inflation was approaching the 2% target, requiring greater attention to upside risks, and indicated that the board would begin more intensive policy discussions at its next meeting. He also said the BOJ could accelerate the pace of increases if it concluded that financial conditions were too accommodative.\n\nThe updated outlook supported keeping future meetings live. The BOJ changed its balance-of-risks assessment for growth from tilted to the downside to balanced and projected 0.6% expansion in the current fiscal year. It lowered its principal inflation forecast to 2.5% from 2.8% because of government subsidies, while warning that underlying inflation could overshoot 2% and that yen weakness had become a more consequential source of price pressure.\n\nData released before the decision reinforced that concern. Tokyo consumer prices excluding fresh food rose 1.9% in July from a year earlier, above the 1.8% forecast. Inflation excluding both fresh food and energy was 2%, as was the overall rate. Processed-food prices increased 3.9%, housework consumables rose 5.3% and services inflation edged up to 1.2%. Industrial production grew 1.3% in June from May and 4.2% from a year earlier, while retail sales rose 0.5% annually but fell 4.1% on the month. Unemployment held at 2.5%, and the job-to-applicant ratio increased to 1.18 from 1.17.\n\nThe policy message was not forceful enough to sustain the yen’s initial intervention-driven surge. The currency had risen as much as 3.3% against the dollar during Thursday’s New York session after Japan entered the market, according to market participants. BOJ account projections indicated that the operation was approximately ¥8.45 trillion, or $52.8 billion, likely the largest single-day intervention by Tokyo.\n\nThe estimate came from an expected ¥8.2 trillion fiscal-related decline in the BOJ’s Monday current-account balance when money brokers had anticipated an increase. The Finance Ministry did not immediately confirm the operation, but the discrepancy made intervention highly likely. U.S. authorities also conducted rate checks, and Treasury Secretary Scott Bessent described the yen as very undervalued and excessive volatility as unhealthy.\n\nAction continued during Friday’s New York session. A person familiar with the matter said Japanese authorities again bought yen and sold dollars. At least two large U.S. banks were asked by the New York Fed to check the euro-yen rate, while separate reporting said the New York Fed sold euros for yen on behalf of the U.S. Treasury. The yen gained about 1.3% against the dollar on Friday and closed near 157.28, reversing more than two months of depreciation in two sessions.\n\nThe scale and bilateral nature of the operation changed the immediate risk for short-yen positions. Hedge funds had held 124,575 bearish-yen contracts, worth about $9.5 billion, as of July 28, close to the June peak and the largest short exposure since 2007. Intervention confronted that positioning with both direct purchases and the prospect that Washington would support further action.\n\nThe longer-term constraint remained the interest-rate differential. Japan’s 1% policy rate was far below the 3.75% upper bound of the U.S. range. Ueda opened the door to tightening but did not promise a move, and traders assigned about an 89% probability to an increase by October. The next BOJ decision is due Sept. 18, two days after the Fed’s scheduled meeting.\n\nThe weekend brought a formal escalation in coordination. Japan confirmed its first joint intervention with the U.S. in 15 years, while President Donald Trump called the action a signal of friendship and Bessent said Washington would not hesitate to intervene again. A photographed note in front of the Treasury secretary listed a plan to buy $5 billion to $10 billion of yen. Those confirmations occurred after Friday’s fixed-income close and therefore did not drive the Treasury session, but they increased the likelihood that any renewed yen decline would meet additional official resistance.\n\nCoordination can buy time, but it does not resolve the policy and fiscal forces behind the currency’s weakness. Higher oil prices worsen Japan’s import bill, and the government’s spending plans have raised concern about debt issuance. Intervention may also require Japan to liquidate foreign securities, including Treasuries, creating a potential spillover into U.S. borrowing costs. The durability of the yen rebound therefore depends on whether BOJ tightening, Fed policy and Japan’s fiscal outlook begin to support the official operation.\n\n## Europe’s Inflation Pickup and Colombia’s Pause Broaden the Policy Divide\n\nEuro-area inflation accelerated to 2.9% in July from 2.8% in June, matching the median forecast but strengthening the case for another ECB increase. Energy prices rose 10% from a year earlier, while services inflation and the measure excluding food and energy also accelerated. German bonds gave up earlier gains, lifting the 10-year yield 1 basis point to 3.16%.\n\nFrance delivered the largest national surprise. Inflation jumped to 2.4% from 2%, exceeding every estimate in the survey. Services inflation increased to 2.3% from 1.9%, and energy inflation reached 12.4%. The rise followed stronger-than-expected French output and similar inflation acceleration in Spain and Germany, reducing the case that the energy shock was being offset by weak demand.\n\nMarkets continued to assign about a 90% probability to a quarter-point ECB increase in September and priced 42 basis points of tightening by year-end. Austria’s Martin Kocher emphasized the unusually high uncertainty, Lithuania’s Gediminas Simkus said a hike was much more likely than a hold, and Slovakia’s Peter Kazimir argued that at least one further increase would be required even if conditions improved.\n\nThe ECB will receive August inflation and new staff projections before deciding. July’s report established that the energy impulse was broad enough to lift both the headline and underlying measures, but it did not settle how persistent the pass-through would be. Wage growth in an ECB survey was expected to accelerate through early 2027, while second-quarter output had expanded at twice the forecast pace and at its fastest rate in more than a year.\n\nIn Britain, BOE Chief Economist Huw Pill developed the hawkish case after voting with two colleagues for an increase. He warned that volatile energy and commodity prices could persist into 2027 because the duration and scale of the Iran conflict remained profoundly uncertain. The BOE’s central forecast put inflation at 3.2% at year-end, while an adverse scenario involving stronger energy costs and second-round effects produced inflation of 4.5% in 2027 and materially higher rates from the current 3.75%.\n\nPill’s concern was not merely the first-round increase in fuel. U.K. petrol prices reached 159.97 pence a liter, 20% above their prewar level, but the policy division centered on whether companies would raise prices and workers would demand compensation. Governor Andrew Bailey and five other committee members saw weak demand and a soft labor market limiting that process. Pill argued that policy should prevent self-sustaining effects rather than wait for them to become visible, although he acknowledged that inflation expectations had not substantially de-anchored.\n\nColombia provided a different response to above-target inflation. Its central bank unexpectedly held the policy rate at 12%, an outcome predicted by only four of 27 economists; the others expected increases of 25 to 75 basis points. Four board members supported the hold, while three wanted a half-point increase.\n\nGovernor Leonardo Villar described the decision as a pause rather than the end of the tightening cycle. Annual inflation remained above 6% against a 3% target with a 1-percentage-point tolerance band, but the peso had appreciated nearly 20% against the dollar during the year, reducing imported-price pressure. The central bank also announced a program to accumulate as much as $4 billion of international reserves, a measure that could temper the currency’s strength.\n\nThe policy setting remained politically and fiscally difficult. Expansionary government spending, a 23% minimum-wage increase and temporary food and energy shocks were all contributing to inflation. The independent fiscal committee expected the budget deficit to exceed 7% of GDP. Villar said rate increases remained possible, and the September meeting will include a new finance minister after President-elect Abelardo de la Espriella takes office on Aug. 7.\n\n## Credit Stress Separates Duration Losses From Borrower-Specific Risk\n\nThe rise in government yields continued to pressure municipal bonds even without a broad deterioration in issuer credit. The Bloomberg Municipal Bond Index had lost 1.72% through Thursday, its worst July since 2003 and only its second negative month of the year. Approximately $47 billion of issuance arrived during a month that normally benefits from lower supply and reinvestment of coupon payments and redemptions.\n\nThe unusual combination of heavy issuance and rising Treasury yields overwhelmed those seasonal supports. Municipal securities consequently cheapened relative to Treasuries, but portfolio managers attributed the move mainly to the higher-rate environment rather than worsening state and local finances. That distinction did not remove duration losses; it identified the repricing as a market-wide cost-of-capital adjustment rather than evidence of a generalized credit event.\n\nNew York City illustrated the difference between near-term market access and a deteriorating medium-term fiscal path. Fitch and Moody’s kept their ratings unchanged but maintained negative outlooks on the city’s $53 billion of general-obligation debt before a planned $1.5 billion bond offering. Moody’s rated the debt Aa2 and Fitch AA.\n\nThe city balanced a $126 billion budget without drawing reserves or increasing property taxes, helped by tax collections that exceeded forecasts by $4.3 billion in the fiscal year through June. Yet the spending plan was $10 billion larger than the previous year’s and relied on temporary measures, including a longer schedule for paying pension obligations and additional state support. Projected deficits widen to $6.4 billion in fiscal 2028 and $8.5 billion in 2030. The agencies said recurring gap-closing measures would determine whether the ratings remained intact over the coming year.\n\nNorthwell Healthcare added as much as $800 million of potential supply to the New York municipal pipeline. The health system expected tax-exempt issuance through the Dormitory Authority of the State of New York, with Jefferies as bookrunner, but had not determined structure, maturity or timing. Hospitals had already issued about $26.7 billion of municipal bonds during the year.\n\nStress was more acute in lower-quality corporate structures. Cable One creditors began organizing as a selloff in the broadband company’s debt threatened approximately $1 billion of new financing. The company needs the funds for a mandatory acquisition of the remaining 55% of Mega Broadband Investments after private-equity owner GTCR exercised a put option.\n\nFinancing discussions had centered on a yield near 12%, already among the highest for a transaction this year. Prospective lenders wanted strict ring-fencing to prevent Cable One from using parent resources to support Mega Broadband’s heavier debt burden. As existing Cable One debt deteriorated, some first-lien loans traded at yields approaching 18%, raising the possibility that a new package would be too expensive to complete. Cable One had at least $3 billion of long-term debt at March 31, along with high leverage, constrained free cash flow and intense residential-broadband competition.\n\nExtenet Systems had moved from refinancing pressure to payment failure. The miniature-cell-tower operator missed interest due July 27 on asset-backed securities, placing the bonds in default. Midland Loan Services, the PNC Bank division responsible for collections, also alleged that funds belonging to bondholders had been deposited into other accounts and that some liens had ceased to be perfected.\n\nThe company had issued about $500 million of asset-backed securities and warned creditors in June that it was close to running out of cash. Moody’s said Extenet was negotiating an interest-forbearance agreement, while Kroll continued to seek information. The cash-management allegations made the problem more serious than an operating shortfall alone because they raised questions about the controls intended to protect securitized creditors.\n\nThe contrast between Cable One and Extenet marked two stages of the same funding constraint. Cable One still had prospective access but faced double-digit yields, ring-fencing demands and competing creditor groups. Extenet had already missed payment and was negotiating forbearance amid alleged violations of its transaction documents. Neither case established a broad shutdown in credit, but both showed how higher risk-free rates and weaker operating performance expose structures that previously depended on inexpensive refinancing.\n\nRomania’s sovereign rating supplied another example of access preserved under warning. Fitch affirmed the country at BBB-, its lowest investment-grade rating, with a negative outlook after the government appealed the agency’s initial decision and provided additional information. The announcement came after Friday’s U.S. close and did not contribute to the Treasury move.\n\nRomania’s deficit was expected to fall below 6% of GDP this year from more than 9% in 2024, but the government had operated without a parliamentary majority since its coalition collapsed in May. Fitch cited uncertainty about the composition and stability of the next administration and reduced visibility over fiscal strategy after 2026. Moody’s is scheduled to review the rating on Aug. 7, while two further reforms require approval by the end of August to unlock additional European Union recovery money.\n\n## Forward Market Significance\n\nThe July employment report on Aug. 7 is the first major U.S. test after the dissenters defined their case for immediate tightening. Economists expect payrolls to increase by 85,000 after a 57,000 gain in June, with unemployment holding at 4.2%. A stronger result would reinforce the view that policy is not restraining demand enough to return inflation to target. A weak report would reopen the question of whether the Fed should respond to energy-led inflation when labor demand is losing momentum.\n\nThe surrounding labor indicators will help establish breadth. Job openings are due Tuesday, ADP’s estimate of private employment Wednesday and jobless claims Thursday. Separately timed speeches from Kansas City Fed President Jeff Schmid, Governor Lisa Cook and Musalem will show whether support for the dissenters is extending beyond the officials who favored a July increase.\n\nThe Treasury’s August-to-October refunding announcement is a distinct duration event. Auction sizes are expected to remain unchanged, but the market will focus on whether officials preserve or soften guidance that increases remain distant. With 10-year option structures targeting yields near 4.9% and long-bond hedges extending toward 5.42%, an earlier signal of larger 2027 supply could prolong the selloff even if the employment data settle the September policy debate.\n\nFed communication itself remains a source of volatility. Reports that Warsh is considering six rate-setting meetings a year add an institutional question to uncertainty over the inflation framework and the role of market yields in policy. Any clarification of the proposal, the scheduling of data-dependent decisions or the conditions for a September increase would affect how much premium investors require between meetings.\n\nThe yen will test whether coordinated intervention can survive without immediate reinforcement from rate differentials. The Sept. 16 Fed decision and Sept. 18 BOJ meeting place the two policy paths in close succession. Renewed depreciation toward the levels that triggered last week’s action would test the U.S. and Japanese commitment to intervene again; sustained stability would give Ueda more room to evaluate inflation and the effects of June’s increase.\n\nFor the ECB, August inflation and staff forecasts must determine whether July’s 10% rise in energy costs is spreading into services and wages. France’s 2.4% inflation surprise and the euro area’s 2.9% result support a September increase, but officials still need to judge whether the shock will persist as growth absorbs higher energy costs.\n\nIn credit, Cable One’s financing terms will show whether a 12% yield and enforceable ring-fencing can still attract sufficient demand for a mandatory acquisition. Extenet’s forbearance talks will test whether bondholders can restore cash controls and lien protection after the payment default. New York City’s $1.5 billion offering will provide a cleaner measure of how municipal investors distinguish high Treasury yields from an issuer’s medium-term budget risks.\n\nOil remains the common variable across these tests. Another interruption to Gulf shipping or escalation in U.S.-Iran fighting would challenge the assumption that the energy shock is temporary, strengthen the Fed and ECB dissenters’ arguments and keep breakevens elevated. A durable improvement in shipping and diplomacy could relieve inflation compensation, but the July close showed that long Treasuries also require confidence in real-rate policy, fiscal supply and the central bank’s reaction function before the broader duration premium can recede.\n",
     "section_summaries": [
       {
+        "market_read": "Investors demanded more long-maturity compensation while the Fed’s reaction function remained unclear.",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Real yields drive another broad bond selloff",
-        "summary": "Firm employment costs and dissenters' warnings brought the front end back into the selloff. Most ten-year pressure came through real yields, while stocks advanced.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "Firm Q2 labor costs, named Fed dissents and another oil rise pushed Treasury yields 4.5–6.2 basis points higher, with the 30-year ending at 5.274%. The selloff reflected nearly equal increases in the 10-year real yield and breakeven inflation, while rising equities showed that it was not a broad liquidation of risk."
       },
       {
+        "market_read": "Higher real yields and breakevens raised both the real cost of capital and compensation for future inflation.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "The front end rejoins the long-bond repricing",
-        "summary": "Ten-year real yields rose 6 basis points to 2.47%. Heavy turnover, costly downside protection and refunding uncertainty accompanied the weak month-end close.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Real Yields and Inflation Compensation Drive the Treasury Selloff",
+        "summary": "July’s duration losses deepened as the 10-year yield rose 27 basis points and the 30-year climbed 32.1 basis points over the month. The 10-year real yield accounted for 22.4 basis points of the nominal benchmark’s increase, while breakevens became more influential on Friday as oil rebounded. Heavy month-end trading and index demand pared late losses but did not reverse the selloff."
       },
       {
+        "market_read": "Long yields can tighten conditions without anchoring inflation if the move reflects term premium or policy uncertainty.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "Cable One and Extenet expose different weaknesses",
-        "summary": "Cable One's acquisition funding remained difficult and Extenet missed interest with reported control failures. Municipal supply weighed, while energy cash flows funded debt reduction.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Fed Dissenters Define a Reaction Function the Chair Left Open",
+        "summary": "Hammack, Kashkari and Logan agreed that rates should rise but differed on the reasoning and pace, ranging from insufficient restraint to incremental increases that preserve flexibility. Their arguments challenged Chair Kevin Warsh’s reliance on higher market yields to do part of the Fed’s work. Possible changes to meeting frequency, uncertainty over future Treasury supply and heavier long-end option hedging added to the premium around policy and duration."
       },
       {
+        "market_read": "Intervention changed near-term positioning risk but did not remove the interest-rate differential behind yen weakness.",
+        "next_check": "The Sept. 16 Fed decision and Sept. 18 BOJ meeting will test whether policy begins to reinforce intervention.",
         "section_id": "section-04",
-        "section_title": "Euro inflation rises and the BOJ makes later meetings live",
-        "summary": "Euro inflation strengthened, the BOJ kept later hikes live, and yen support continued. UK energy scenarios still limited the relief from its previous hold.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "The BOJ Holds as Coordinated Intervention Changes the Yen Risk",
+        "summary": "The BOJ kept its policy rate at 1% in an 8-1 vote while Ueda signaled closer attention to upside inflation risks without committing to September. Japanese yen purchases, U.S. rate checks and reported U.S. Treasury involvement confronted crowded short-yen positions with coordinated official resistance. The currency rebounded sharply, but the wide U.S.-Japan rate gap and Japan’s fiscal and energy pressures still limit the durability of that move."
       },
       {
+        "market_read": "",
+        "next_check": "August inflation and new ECB forecasts will test whether the energy shock is spreading into services and wages.",
         "section_id": "section-05",
-        "section_title": "Colombia pauses, while oil earnings leave Pemex dependent",
-        "summary": "Colombia paused against expectations, Pemex remained dependent on support, and index/pricing changes affected access in the Philippines and India. Romania retained a fiscal warning.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Europe’s Inflation Pickup and Colombia’s Pause Broaden the Policy Divide",
+        "summary": "Euro-area inflation accelerated to 2.9%, with stronger energy, services and core readings supporting expectations for another ECB increase. BOE Chief Economist Huw Pill argued that persistent energy costs could produce second-round effects even as most colleagues emphasized weak demand. Colombia unexpectedly held its rate at 12%, treating the decision as a pause while peso appreciation reduced imported-price pressure despite inflation above 6%."
       },
       {
+        "market_read": "Higher risk-free rates are exposing borrowers and structures that depended on inexpensive refinancing.",
+        "next_check": "Cable One’s financing and Extenet’s forbearance will test whether creditor protections can preserve access or recover value.",
         "section_id": "section-06",
-        "section_title": "Stocks advance despite the rate shock",
-        "summary": "Broad stocks rose and volatility fell despite higher Treasury yields. The chip recovery remained small, while oil added pressure without explaining the full real-yield move.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Credit Stress Separates Duration Losses From Borrower-Specific Risk",
+        "summary": "Municipal losses largely reflected rising Treasury yields and heavy issuance rather than broad issuer deterioration, although New York City’s negative outlooks highlighted medium-term budget risk. Cable One still had prospective financing access but faced yields near 12%, ring-fencing demands and weakening debt prices. Extenet had progressed to payment default and forbearance talks amid allegations involving cash controls and liens."
       },
       {
-        "section_id": "section-07",
-        "section_title": "Payrolls and refunding set the next US tests",
-        "summary": "Payrolls and refunding will test real yields, while foreign inflation, yen stability and the next weak-borrower financings determine how widely pressure spreads.",
         "market_read": "",
-        "next_check": ""
+        "next_check": "",
+        "section_id": "section-07",
+        "section_title": "Forward Market Significance",
+        "summary": "The next tests separate policy, supply and inflation risks: U.S. labor data will challenge the dissenters’ case, Treasury refunding guidance will shape the term premium, and oil disruptions could keep breakevens elevated. Fed communication, coordinated yen intervention, European inflation persistence and stressed-credit negotiations remain additional channels through which the repricing can extend."
       }
     ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1845012,
+          "asset_manager_net_change": 24124,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1564294,
+          "leveraged_fund_net_change": 30834,
+          "open_interest": 4406588,
+          "open_interest_change": 71513,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2896249,
+          "asset_manager_net_change": 46124,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2108638,
+          "leveraged_fund_net_change": 22790,
+          "open_interest": 6193040,
+          "open_interest_change": 39527,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2611964,
+          "asset_manager_net_change": 74778,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2155739,
+          "leveraged_fund_net_change": -90934,
+          "open_interest": 5313478,
+          "open_interest_change": 40775,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 709907,
+          "asset_manager_net_change": -4963,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -400210,
+          "leveraged_fund_net_change": -19606,
+          "open_interest": 2479519,
+          "open_interest_change": 60685,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 568268,
+          "asset_manager_net_change": 9732,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -389522,
+          "leveraged_fund_net_change": 1864,
+          "open_interest": 1859732,
+          "open_interest_change": 17234,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1131787,
+          "asset_manager_net_change": 18565,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -862638,
+          "leveraged_fund_net_change": 36527,
+          "open_interest": 2462300,
+          "open_interest_change": 15733,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-07-28",
+      "published_date": "2026-07-31"
+    },
+    "treasury": {
+      "comparison_date": "2026-07-30",
+      "observation_date": "2026-07-31",
+      "par_change_pct": 32.3726,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": 33.3919,
+          "par_usd_bn": 1517.2,
+          "trade_count": 521017
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 191.3462,
+          "par_usd_bn": 121.2,
+          "trade_count": 11123
+        },
+        {
+          "key": "bills",
+          "par_change_pct": 3.2638,
+          "par_usd_bn": 272.1,
+          "trade_count": 45297
+        },
+        {
+          "key": "frns",
+          "par_change_pct": 17.9487,
+          "par_usd_bn": 9.2,
+          "trade_count": 425
+        }
+      ],
+      "total_par_usd_bn": 1919.8,
+      "total_trade_count": 577862
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +793,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.28% (+5 bp) | UST 5Y 4.45% (+7 bp)",
-      "UST 10Y 4.75% (+7 bp) | UST 30Y 5.27% (+6 bp)",
-      "10Y TIPS real yield 2.47% (+6 bp) | 10Y breakeven inflation 2.28% (+1 bp)",
-      "UST 2s10s curve 47 bp (+2 bp) | UST 2s30s curve 99 bp (+1 bp)"
+      "UST 2Y 4.292% (+4.5 bp) | UST 5Y 4.45% (+6.2 bp)",
+      "UST 10Y 4.736% (+6.2 bp) | UST 30Y 5.274% (+5.9 bp)",
+      "10Y TIPS real yield 2.45% (+3.6 bp) | 10Y breakeven inflation 2.286% (+2.6 bp)",
+      "UST 2s10s curve 44.4 bp (+1.7 bp) | UST 2s30s curve 98.2 bp (+1.4 bp)"
     ],
-    "headline": "Wages and Fed dissenters send Treasury yields higher into month-end",
-    "session_narrative": "Treasuries sold off across maturities after second-quarter employment costs rose 0.9%, above expectations, and the three Fed dissenters explained their preference for earlier tightening. Two-year yields rose 5 basis points to 4.28%, ten-year yields 7 to 4.75%, and the 30-year 6 to 5.27%. The ten-year real yield rose 6 basis points to 2.47%; inflation compensation increased only 1 to 2.28%.\n\nThe month ended with a much larger real-duration burden: ten-year real yields rose 27 basis points in July against a 4-basis-point increase in breakevens. Oil and euro inflation reinforced pressure, while heavy turnover and more expensive downside hedges showed active risk adjustment ahead of refunding.\n\nCredit was selective rather than closed. Cable One struggled to fund a mandatory purchase despite double-digit yield discussions; Extenet missed interest amid administrator-reported cash and lien failures. Municipals faced heavy supply, while energy majors reduced debt. The BOJ held 1% with hawkish guidance, Colombia unexpectedly held 12%, and softer dollar conditions did not prevent EM dollar-bond losses.",
-    "summary": "The 10-year yield rose 7 basis points to 4.75%, mostly through real yields, as employment costs and Fed dissenters challenged patience. Stocks and broad credit held up, but weak borrowers faced financing and collateral problems."
+    "headline": "Treasuries sell off as labor costs, hawkish Fed dissent and oil lift real yields and inflation compensation",
+    "session_narrative": "Treasuries ended July with a broad selloff. The 2-year yield rose 4.5 basis points to 4.292%, the 5-year and 10-year each climbed 6.2 basis points to 4.45% and 4.736%, and the 30-year increased 5.9 basis points to 5.274%. At 10 years, the real yield rose 3.6 basis points and breakeven inflation increased 2.6 basis points, showing that higher real borrowing costs and inflation compensation contributed almost equally.\n\nThe Q2 Employment Cost Index rose 0.9%, slightly above expectations, while Fed voters Beth Hammack, Neel Kashkari and Lorie Logan explained why they had favored an immediate rate increase in July. Oil added to the inflation concern as unresolved supply threats lifted WTI and Brent and capped monthly gains above 20%.\n\nThe decline in bonds was not a broad flight from risk: the S&P 500 and Nasdaq 100 advanced, while the dollar weakened despite higher U.S. yields. Japan’s intervention and the BOJ’s moderately hawkish hold also altered yen risk, but the large U.S.-Japan rate gap remained a constraint on the currency’s rebound.",
+    "summary": "Treasury yields rose across maturities as firmer-than-expected labor costs, explicit calls for higher rates from Fed dissenters and renewed oil supply risks increased both the real discount rate and the inflation premium."
   },
   "report_date": "2026-07-31",
-  "run_id": "daily-fi-newsroom-edit-2026-07-31-fba5fbc58850",
+  "run_id": "daily-fi-simple-2026-07-31-46154c74-17322215",
   "watch_events": [
     {
-      "category": "US data",
-      "date": "2026-08-07",
+      "category": "U.S. labor",
+      "date": "Aug. 7",
       "id": "watch-01",
-      "market_implication": "Strong labor data would reinforce the dissenters; weaker activity would support patience.",
-      "market_trigger": "Hiring after the 0.9% employment-cost increase and the real-yield response.",
-      "title": "US employment report",
-      "watch_line": "Consensus: 85,000 payrolls after 57,000, with unemployment at 4.2%."
+      "market_implication": "Strength would reinforce higher-rate pricing; weakness would challenge tightening into an energy-led inflation shock.",
+      "market_trigger": "Payroll growth materially exceeds or falls short of 85,000, with unemployment deviating from 4.2%.",
+      "title": "July U.S. employment report",
+      "watch_line": "Test whether labor demand supports the Fed dissenters’ case for immediate tightening."
     },
     {
       "category": "Treasury supply",
-      "date": "Next refunding announcement",
+      "date": "August-to-October quarter",
       "id": "watch-02",
-      "market_implication": "Repo cash investment could smooth funding, not replace demand for coupon duration.",
-      "market_trigger": "Supply language and protection around 4.9% ten-year and 5.3%–5.42% thirty-year yields.",
-      "title": "Quarterly refunding and repo proposal",
-      "watch_line": "Coupon sizes are expected steady; guidance for possible 2027 increases matters more."
+      "market_implication": "An earlier supply signal could lift the term premium and prolong long-maturity Treasury losses.",
+      "market_trigger": "Guidance brings forward larger 2027 coupon supply instead of keeping auction increases distant.",
+      "title": "Treasury quarterly refunding",
+      "watch_line": "Watch whether unchanged auction sizes are paired with new guidance on future coupon issuance."
     },
     {
-      "category": "Global rates and credit",
-      "date": "August to September",
+      "category": "Energy inflation",
+      "date": "Ongoing",
       "id": "watch-03",
-      "market_implication": "These developments will show whether high real rates remain a selective pressure.",
-      "market_trigger": "Energy pass-through, yen stability and executable creditor protections.",
-      "title": "Foreign policy and credit access",
-      "watch_line": "Euro inflation, the September 18 BOJ meeting and Cable One/Northwell financing developments."
+      "market_implication": "Higher oil would keep breakevens elevated and strengthen the case for tighter Fed and ECB policy.",
+      "market_trigger": "Another Gulf shipping interruption or escalation in U.S.-Iran fighting sustains the supply shock.",
+      "title": "Oil supply disruption risk",
+      "watch_line": "Track whether Gulf shipping and U.S.-Iran tensions turn July’s energy shock into persistent inflation."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "+5 bp",
-        "change_1m": "+14 bp",
-        "change_1w": "-5 bp",
+        "change_1d": "+4.5 bp",
+        "change_1m": "+11.7 bp",
+        "change_1w": "-4.1 bp",
         "id": "ust2y_ny_close",
-        "last": "4.28%",
-        "reference_type": "ny_close",
+        "last": "4.292%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-07-31T17:00:00-04:00"
+        "timestamp": "2026-07-31"
       },
       {
-        "change_1d": "+7 bp",
-        "change_1m": "+26 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "+6.2 bp",
+        "change_1m": "+22.3 bp",
+        "change_1w": "+2.4 bp",
         "id": "ust5y_ny_close",
         "last": "4.45%",
-        "reference_type": "ny_close",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-07-31T17:00:00-04:00"
+        "timestamp": "2026-07-31"
       },
       {
-        "change_1d": "+7 bp",
-        "change_1m": "+31 bp",
-        "change_1w": "+6 bp",
-        "id": "ust10y_ny_close",
-        "last": "4.75%",
-        "reference_type": "ny_close",
-        "tenor": "10Y",
-        "timestamp": "2026-07-31T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+6 bp",
-        "change_1m": "+36 bp",
-        "change_1w": "+11 bp",
-        "id": "ust30y_ny_close",
-        "last": "5.27%",
-        "reference_type": "ny_close",
-        "tenor": "30Y",
-        "timestamp": "2026-07-31T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+2 bp",
-        "change_1m": "+17 bp",
-        "change_1w": "+11 bp",
-        "id": "ust_2s10s_curve",
-        "last": "47 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S10S",
-        "timestamp": "2026-07-31T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+1 bp",
-        "change_1m": "+22 bp",
-        "change_1w": "+16 bp",
-        "id": "ust_2s30s_curve",
-        "last": "99 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S30S",
-        "timestamp": "2026-07-31T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+2 bp",
-        "change_1m": "+7 bp",
-        "change_1w": "+3 bp",
-        "id": "ust_2s5s10s_bfly",
-        "last": "-13 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S5S10S",
-        "timestamp": "2026-07-31T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+3 bp",
-        "change_1m": "+12 bp",
-        "change_1w": "+6 bp",
-        "id": "ust_2s10s30s_bfly",
-        "last": "-5 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S10S30S",
-        "timestamp": "2026-07-31T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+6 bp",
+        "change_1d": "+6.2 bp",
         "change_1m": "+27 bp",
-        "change_1w": "+4 bp",
-        "id": "tips10y_ny_close",
-        "last": "2.47%",
-        "reference_type": "ny_close",
-        "tenor": "10TIPS",
-        "timestamp": "2026-07-31T17:00:00-04:00"
+        "change_1w": "+5.8 bp",
+        "id": "ust10y_ny_close",
+        "last": "4.736%",
+        "reference_type": "source_specific",
+        "tenor": "10Y",
+        "timestamp": "2026-07-31"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+4 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "+5.9 bp",
+        "change_1m": "+32.1 bp",
+        "change_1w": "+11.5 bp",
+        "id": "ust30y_ny_close",
+        "last": "5.274%",
+        "reference_type": "source_specific",
+        "tenor": "30Y",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "change_1d": "+1.7 bp",
+        "change_1m": "+15.3 bp",
+        "change_1w": "+9.9 bp",
+        "id": "ust_2s10s_curve",
+        "last": "44.4 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S10S",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "change_1d": "+1.4 bp",
+        "change_1m": "+20.4 bp",
+        "change_1w": "+15.6 bp",
+        "id": "ust_2s30s_curve",
+        "last": "98.2 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S30S",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "change_1d": "+1.7 bp",
+        "change_1m": "+5.9 bp",
+        "change_1w": "+3.1 bp",
+        "id": "ust_2s5s10s_bfly",
+        "last": "-12.8 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S5S10S",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "change_1d": "+2 bp",
+        "change_1m": "+10.2 bp",
+        "change_1w": "+4.2 bp",
+        "id": "ust_2s10s30s_bfly",
+        "last": "-9.4 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S10S30S",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "change_1d": "+3.6 bp",
+        "change_1m": "+22.4 bp",
+        "change_1w": "+1.8 bp",
+        "id": "tips10y_ny_close",
+        "last": "2.45%",
+        "reference_type": "source_specific",
+        "tenor": "10TIPS",
+        "timestamp": "2026-07-31"
+      },
+      {
+        "change_1d": "+2.6 bp",
+        "change_1m": "+4.6 bp",
+        "change_1w": "+4 bp",
         "id": "be10y_ny_close",
-        "last": "2.28%",
-        "reference_type": "ny_close",
+        "last": "2.286%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-07-31T17:00:00-04:00"
+        "timestamp": "2026-07-31"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

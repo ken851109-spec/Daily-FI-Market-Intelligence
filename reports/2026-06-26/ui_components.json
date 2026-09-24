@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "LQD held at $109.50; HYG and JNK fell about 0.06%. SpaceX's long maturities continued to widen against Treasuries.",
+      "summary": "Broad credit was stable, but SpaceX’s long bonds widened sharply as technology financing and supply risks grew.",
       "title": "Credit",
       "value": "LQD 109.5 (0%) / HYG 79.83 (-0.0626%) / JNK 96.22 (-0.0623%) / EMB 96.54 (-0.0207%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "WTI fell 3.74% to $69.23 and Brent 4.34% to $71.99. Gold rose 1.20%, while DXY eased to 101.36.",
+      "summary": "Crude’s sharp retreat eased inflation pressure, while the dollar slipped on the day but remained firmer over the week.",
       "title": "Dollar and commodities",
       "value": "DXY 101.36 (-0.069%) / WTI 69.23 (-3.7403%) / Brent 71.99 (-4.3449%) / Gold 4078.7 (+1.1959%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Semiconductors fell 5.29% and Nasdaq 100 lost 1.09%, but S&P 500 slipped only 0.05%; VIX eased to 18.41.",
+      "summary": "Semiconductors led a concentrated technology selloff, while the broad market held steady and volatility fell.",
       "title": "Equities and volatility",
       "value": "S&P 500 7354.02 (-0.0472%) / Nasdaq 100 29118.2402 (-1.094%) / SOX 13203.5703 (-5.2888%) / VIX 18.41 (-2.541%)"
     }
@@ -538,151 +538,255 @@
   "header": {
     "as_of_note": "NY close · 2026-06-26",
     "latest_update_cutoff": "NY close",
-    "stance": "Softer inflation measures favor intermediate Treasuries while long bonds lag",
+    "stance": "Treasury yields fell through 10 years as oil and inflation signals cooled, while the long end lagged.",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "LQD持平於$109.50，HYG與JNK約跌0.06%；SpaceX長天期債券相對美債持續擴大利差。",
-        "dollar_commodities": "WTI跌3.74%至$69.23，布蘭特跌4.34%至$71.99；黃金漲1.20%，美元指數降至101.36。",
-        "equities_volatility": "半導體股跌5.29%，Nasdaq 100跌1.09%，S&P 500僅跌0.05%；VIX降至18.41。"
+        "credit": "整體信用市場持穩，但隨科技業融資及供給風險升高，SpaceX長天期債券利差大幅擴大。",
+        "dollar_commodities": "原油大跌緩解通膨壓力；美元當日走低，但全週仍然上漲。",
+        "equities_volatility": "半導體股領跌，科技股賣壓集中，整體大盤持穩，波動率則下降。"
       },
       "header": {
-        "stance": "通膨指標轉緩支撐中天期美債，長債表現落後"
+        "stance": "油價及通膨訊號降溫，帶動10年期以內美債殖利率下滑，長端表現則相對落後。"
       },
-      "long_thesis_markdown": "## 通膨預期降溫，5年期美債領漲\n\n油價再度下跌，家庭通膨預期與基礎價格壓力指標也放緩，週五美債由中天期領漲。5年期殖利率下降3個基點至4.12%，優於下降2個基點至4.07%的2年期，也明顯強於殖利率上升1個基點至4.87%的30年期。科技股急跌增加避險需求，大盤卻接近持平，長債沒有加入漲勢。\n\n10年期實質殖利率與通膨補償各下降1個基點，至2.18%與2.20%，使名目殖利率下降2個基點至4.38%，恢復了部分在週四船運事件後中斷的通膨緩解。油輪持續穿越荷莫茲海峽，帶動布蘭特下跌4.34%至$71.99。Fed政策仍有變數：Neel Kashkari支持今年升息一次，紐約Fed的成長估計則幾乎沒有改變。\n\n信用投資人持續下修本週最大交易的長債價格。截至週五下午，SpaceX $250億發行相對美債的損失約達$3.6億，5年期表現優於20及30年期。其他融資與還款消息同樣具體：奈及利亞動用附擔保的美元交換，約翰尼斯堡在財政壓力下償還債券，Huachen Energy則在漏付票息後再尋求展延。\n\n## 價格指標轉緩，中天期受惠、長債未跟進\n\n全週2、5、10及30年期美債殖利率分別下降12、11、8及3個基點。週五2年與10年期利差維持31個基點，2年與30年期卻擴大3個基點至80。5年期實質殖利率下降1個基點至1.91%，7年期下降2個基點至2.03%，10年期下降1個基點至2.18%；30年期維持2.69%。投資人接受較低的中天期實質報酬，最長端的要求沒有改變。\n\n密西根大學調查中的5至10年通膨預期，由先前3.4%降至3.3%。紐約Fed多變量核心趨勢通膨估計，5月降至3.4%，4月則下修為3.7%，68%機率區間為3.0%至3.9%。排除住宅的服務業，仍是高於趨勢的最大來源，但超額貢獻由0.91降至0.83個百分點；商品與住宅也放緩，改善範圍擴及能源以外。\n\n成長資料卻沒有提供同樣明確的轉鴿理由。紐約Fed即時預測將第2季實質GDP成長估為2.71%，與一週前2.68%差異很小。區間很寬，精確速度仍有不確定性，但中間估計並未顯示急遽減速。Fed會議後受訪的經濟學家，將第4季核心PCE預測提高至3.2%，也上調新增就業估計；政策路徑中位數則認為Fed維持不動至2027年6月。\n\n明尼阿波利斯Fed總裁Kashkari表示，通膨已擴散到足以讓他預測今年升息一次；他是6月會議19位決策者中，預估至少升息一次的9人之一。不過，交易員對快速連續升息的定價下降：年底前升息兩次的機率，從週一近80%降至週五約25%。政策敏感與中天期債券因此受惠，最終利率會到哪裡仍未確定。\n\n季底前國庫券大多走強。4週期息票等值殖利率維持3.68%，6及8週期分別下降2與1個基點，至3.67%及3.73%；13週期下降3個基點至3.75%，17與26週期各下降1個基點，至3.85%及3.93%，52週期下降3個基點至3.93%。7月2日大額交割前，短期現金殖利率沒有普遍上升。\n\n### 週末政策發言與部位觀察\n\n里奇蒙Fed總裁Tom Barkin週日表示，通膨仍太高，但汽油下跌與消費者抗拒漲價，帶來初步緩解。他把AI基礎建設列為一項價格壓力來源，認為溫和限制性的政策合理，因為消費與企業定價仍有韌性。這些發言出現在週五交易結束後，更新的是接下來一週的政策討論。\n\n週末市場評論也指出，Capital Group、Insight、Natixis及Pimco偏好中天期美債，在未來可能升息或降息的不確定性，以及長債較高的通膨敏感度之間取平衡。這種配置可能逐漸擁擠。另有評論關注高融資餘額、影子銀行借款增加，以及槓桿ETF、期貨、IPO與主經紀業務占用銀行資本。波動突然上升，可能先帶來美債避險買盤，再讓支撐槓桿部位的資產負債表承壓。\n\n## 大額發行後，SpaceX長債繼續走弱\n\n一位交易商對SpaceX 2056年券的報價，較發行時美債加175個基點最多擴大28個基點。整筆$250億交易相對美債的損失，由週四稍晚約$3.05億增至週五下午約$3.6億。5年期原本最受買方歡迎，20與30年期則在認購及後續交易中流失最多需求，回吐了承銷過程中的利差收緊；當時訂單高峰曾接近$900億。\n\n較廣泛的科技債融資成本也在提高。美國投資級科技利差截至週四為79個基點，高於5月底74個基點。Alphabet宣布$850億增資後，債券也轉弱。新增股權可以增加債權人的緩衝，但規模同時顯示AI支出及融資需求可能更大。SpaceX股價比債券穩定，股權潛在上檔與長期債務負擔，得到不同評價。\n\n週末估計把2030年前AI與資料中心支出放在$5.5兆，未來5年可能透過投資級市場進行的資料中心融資則達$2.1兆。這些是未來推估，接在美國投資級發行已達$1,750億、創6月紀錄的一週之後，有助理解後續供給規模。\n\n### 還款、展延與控制權\n\n約翰尼斯堡償還ZAR14.4億、約合$8,800萬、票息11.455%的債券，完成ZAR300億國內中期票據計畫的全數贖回。與此同時，財政部長因一項有爭議的ZAR103億薪資協議，威脅扣留ZAR80億中央撥款。未來基礎建設債券將接在如期還款之後發行，但市政府營運及政府間財政關係仍有壓力。\n\nHuachen Energy未支付6月21日票息，計畫再次展延債務，其中包括$6.27億美元券。這家中國電力公司表示，會在30天寬限期內支付利息。2021年法院重整已將同筆美元債延長5年至2026年12月，電價下降與再生能源擴張卻持續壓抑燃煤發電業務。寬限期內付款可避免違約，展延要求仍顯示前次重整尚未解決還款問題。\n\n安大略法院批准Corus債轉股，將使Canso領軍的債權人取得控制權。Quebecor要求廣播監理機關召開公開聽證，認為同業買家更適合長期經營。最終監理核准尚待完成，由債權人控制或出售予策略買家，仍影響回收前景。\n\nThames Water近£200億重整，可能帶來公共財政負擔。若沒有民間破產融資，特別管理程序估計至少使英國政府支出£33.4億；該公司超過一半的債務與衍生性負債連結通膨。在公部門控制下持續供水，仍會使納稅人在金融債權處理期間，面對未來資金缺口。\n\n信用ETF的波動相對小。LQD持平於$109.50，HYG與JNK各跌約0.06%。一週LQD上漲0.39%，HYG下跌0.23%，JNK下跌0.18%，與個別債券及重整案的明顯變化形成對比。\n\n## 歐洲通膨預期下降，財政問題仍待處理\n\n德國10年期殖利率降至2.85%、創3月10日以來最低。交易員對ECB年底前再升息的定價不到25個基點，兩週前仍反映完整一次升息；存款利率維持2.25%。油價回落後，歐元區2年期通膨交換也從4月逾3%，降至2.2%以下。\n\nECB消費者調查顯示，早在美伊協議前，5月1年通膨預期已由4.0%降至3.5%；3與5年預期仍偏高，分別為2.9%及2.4%。家庭預估未來一年經濟萎縮1.7%，比4月預期的2.2%稍好，失業率預期卻小升至11.3%。近期通膨恐懼減輕，仍伴隨疲弱成長觀感與較長期價格疑慮。\n\n加拿大第1季一般政府赤字擴大至C$164億、GDP的2.1%，高於一年前1.9%。合併淨債務降至C$5,381億、GDP的16.5%，排除社會安全基金後的債務卻增加4.3%至C$1.49兆。評估當期更大的融資缺口時，須分清社會安全基金資產與其他政府帳戶。\n\n新加坡5月製造業產出年增13.0%，由電子業35.8%及精密工程32.2%領先；總產出經季節調整後，月減0.7%。生物醫療年減24.2%，化學品減11.5%，運輸工程減5.0%。AI與半導體設備仍強，成長分布卻相當集中。\n\n### 紐約收盤後的新消息\n\nIsabel Schnabel週六簡報警告，食品、商品及服務都有物價上行風險，預期仍須升息，才能讓通膨回到2%。她未見工資壓力，也承認和平協議降低了不利風險。這番偏鷹發言，接在週五市場調降升息定價之後，為下一輪通膨資料增加政策背景。\n\n法國國家審計機關在週六報導中指出，政府缺乏可信支出路徑，無法說明如何把去年5.1%的赤字降至2029年3%。這項評估將加入2027年總統大選前，關於發債與財政空間的討論。\n\n英國Andy Burnham崛起後，零售國防債或「戰爭債券」構想再度受到關注。家庭每年投入ISA約£700億，支持者認為具稅務優惠的國防工具可再籌£200億。包括即將卸任首相在內的批評者提醒，這些錢仍然是借款。專門的零售管道可以擴大買方，債務、利息與財政規則的取捨則仍在。\n\n中國在紐約收盤後公布，規模以上工業企業1至5月利潤年增18.8%，5月單月增21.1%。應收帳款增加7.7%，產成品庫存增加8.8%，資產負債率小升至58.2%。獲利改善的同時，更多資金占用在客戶欠款與庫存，負債比率也略高。\n\n## 奈及利亞美元交換取得資金，也帶來追繳風險\n\n奈及利亞在此前數週，從與First Abu Dhabi Bank的$50億總報酬交換中動用約$15億，提供相當於借款133.3%的奈拉證券作擔保。首筆成本為SOFR加395個基點，後續提高至400個基點，資金擬用於再融資高成本債務及支應預算赤字。去年12月底外債為$519億。\n\n這筆融資也使政府面對美元保證金追繳。惠譽警告，本地殖利率提高或奈拉貶值，可能要求追加美元支付，增加外匯壓力；IMF也指出，安排可能限制貨幣與匯率政策。安哥拉與塞內加爾曾採用類似結構。奈及利亞透過傳統發債以外的方式取得現金，本地擔保品與美元義務則被交換條款連在一起。\n\n美國利率對新興市場本幣債的共同影響也在增加。美國與拉丁美洲5年期殖利率的30天相關係數，由2月底0.10升至0.49，墨西哥在6月更超過0.8。土耳其及哥倫比亞同樣對外資敏感。油價降低讓進口國有更多通膨空間，美元走強卻可能使央行不敢立即降息。\n\n塞內加爾提出赤字路徑後，2033年美元債上漲0.5美分至53.73。政府目標從2026年GDP的5.4%，降至2027年4.9%，2029年達到區域3%上限。IMF仍要求由國際民間機構稽核、完成欠款檢視，並加強支出承諾控管。未揭露債務曾使IMF在2024年暫停$18億計畫，公部門債務後來估計為2024年底GDP的132%。新目標提供較好的方向，任何處理方案仍須以確認後的起始債務為基礎。\n\n黎巴嫩違約債交易價格約面額25%，比戰前高點低約5美分，此前2024年9月至2026年3月曾上漲432%。政府自2020年3月對約$310億違約後，未再付款，銀行體系損失估計接近$800億。市場原先期待債權減記可能限制在約70%，仍面對新的戰爭破壞與延誤的銀行重整；主權、央行、商業銀行與存款人之間如何分擔損失，尚未解決。\n\nEMB小跌0.02%至$96.54，DXY下降0.07%至101.36，一週及一個月仍上升0.51%與2.21%。另一項彭博美元指標，6月上漲約2%，全年上漲1.6%。部分民間預測認為，年底前還可能再升5%，或第3季升約2%。這些展望呈現美元借款人的風險方向，並非已發生的債務償付成本變化。\n\n## 科技股轉弱，集中度高的指數承受賣壓\n\n韓國Kospi先下跌5.8%，科技賣壓再傳到美國。費城半導體指數下跌5.29%，Nasdaq 100下跌1.09%，S&P 500卻僅跌0.05%至7,354.02。投資人質疑估值與大型雲端業者支出的回報，也擔憂一項大型AI上市計畫可能延後。大盤跌幅很小，掩蓋了領導這波投資週期的公司更大的價格變化。\n\nMSCI新興市場指數週五下跌2.8%，全週下跌4.4%。新興市場ETF的半導體配置中位數約30%，韓國與台灣合計接近一半；另據MSCI資料，4月底資訊科技占其新興市場指數近37%。這種權重會把晶片股的重新定價，傳到包含不同主權、商品與政策條件國家的投資組合。\n\n即使半導體股下跌，VIX仍下降2.54%至18.41，但比一週前高12.26%。收盤時投資人未提高對整體股市保護的出價，也限制了將美債漲勢解讀為全面成長恐慌的空間。\n\nWTI下跌3.74%至$69.23，一週下跌9.62%；布蘭特下跌4.34%至$71.99，一週跌近10%。油輪持續通行，降低了週四攻擊事件重新造成長期短缺的疑慮。黃金上漲1.20%至$4,078.70，一週與一個月仍下跌3.44%及9.37%。原油再度回落，是更清楚的通膨訊號，也與10年期通膨補償小降一致。\n\n## 接續看勞動資料、歐洲通膨與假日前資金時程\n\n美國數據從6月29日美東10:30達拉斯Fed製造業調查開始；30日接續JOLTS與消費者信心，7月1日公布ADP就業與ISM製造業，2日8:30公布6月非農及初領失業救濟金。招聘、職缺、薪資與工廠價格，將幫助判斷本週實質殖利率下降，是否符合接下來的需求資料。\n\n西班牙CPI初值與ECB辛特拉論壇開幕在6月29日，德國通膨30日公布，歐元區HICP初值7月1日公布。油價及家庭通膨預期下降，已使市場減少升息定價；各國與整體資料將讓ECB更清楚掌握核心服務、食品與能源壓力。\n\n財政部週一標售$920億13週期與$790億26週期國庫券，週二另有$800億6週期，週三有17週期，週四接續4及8週期標售，固定收益市場建議美東14:00提早收盤，7月3日休市。季底供給包含7月2日交割。投標參與及現金殖利率，將顯示市場能否順利支應資金，同時在較短時段消化勞動報告。",
-      "methodology_note": "除非另有說明，市場水準均以紐約收盤為準。",
+      "long_thesis_markdown": "## 開篇固定收益主論\n\n6月26日，美債上漲。油價再度重挫、通膨預期指標降溫，加上科技業壓力重現，抵銷了聯準會仍遠未能宣布抗通膨勝利的證據。漲勢集中在中期券種：2年期殖利率下跌3.1個基點至4.093%，5年期下降3.7個基點至4.129%，10年期下滑2.3個基點至4.371%；30年期殖利率反而微升0.3個基點至4.865%。\n\n10年期以內殖利率雖然下跌，曲線仍略為陡峭化。2年與10年期利差擴大0.8個基點至27.8個基點，2年與30年期利差則擴大3.4個基點至77.2個基點。長債表現落後，顯示眼前能源衝擊緩解及市場為科技股賣壓尋求避險，仍不足以消除較長期的通膨、供給與期限溢價風險。\n\n10年期殖利率的組成變化，較符合溫和的通膨降溫交易，而非市場全面撤回對聯準會偏緊立場的定價。實質殖利率下降2.1個基點至2.159%，損益兩平通膨率卻僅下滑0.2個基點至2.212%。紐約聯準銀行的一項研究指標顯示，5月基礎通膨由修正後的3.7%降至3.4%；密西根大學調查中的家庭長期通膨預期也由3.4%降至3.3%。這些訊號有利美債曲線腹部，但兩者仍高於可讓通膨順利回到聯準會2%目標的水準。\n\n油價是市場最主要的利多來源。儘管前一天有貨櫃輪遇襲，油輪仍持續通過荷莫茲海峽，WTI下跌3.74%至$69.23，布蘭特原油下跌4.34%至$71.99，兩項指標全週分別跌約9.6%及9.8%。這降低了未來整體通膨受到的推升力道；不過，明尼亞波利斯聯準銀行總裁Neel Kashkari表示，更廣泛的物價壓力促使他預測今年升息一次。\n\n科技市場則為美債帶來另一股需求，但尚未形成全面避險。費城半導體指數重挫5.29%，Nasdaq 100下跌1.09%，新興市場股票更創逾3個月來最差單週表現；不過，最大型科技公司以外的股票上漲，抵銷晶片股重挫，使S&P 500收盤幾乎持平。信用市場方面，整體上市債券基金也相對穩定，但SpaceX新發行的長天期債券相對美債出現異常龐大的損失。當日市場的核心是選擇性重新定價：能源及通膨壓力下降，使中期政府債受惠；長天期主權債與公司債則仍需為政策及融資不確定性提供額外補償。\n\n## 通膨降溫有利美債曲線腹部\n\n當日數據緩和近期通膨前景，投資人不必因此認定下一步政策必然是立即升息或迅速重返寬鬆，5年期券種因而領漲美債。其殖利率收於4.129%，全週下降10.4個基點；相較之下，2年期、10年期及30年期殖利率全週分別下跌8.7、8.4及3.4個基點。\n\n紐約聯準銀行的多變量核心趨勢估計，帶來當日最明確的新增通膨降溫訊號。5月估計值由下修至3.7%的4月數據降至3.4%。其68%機率區間仍寬達3.0%至3.9%，而且這是研究模型，並非聯準會官方預測；不過，各主要組成項目均有改善。\n\n不含住房的服務業仍是趨勢通膨高於疫情前水準的最大來源，其貢獻較疫情前平均值高出0.83個百分點，低於4月的0.91個百分點。核心商品的相應貢獻由0.67個百分點降至0.59個百分點，住房則由0.24個百分點降至0.16個百分點。各項貢獻全面下降之所以重要，是因聯準會關注的焦點已由單一能源衝擊，轉向商品與服務價格的持續性。模型顯示基礎通膨仍明顯高於目標，但未顯示其持續性在5月再度惡化。\n\n密西根大學最終調查也提供了方向一致的家庭部門訊號。受訪者對未來5至10年的通膨預期由3.4%降至3.3%；消費者信心雖有改善，仍接近歷史低點。這項修正協助美股收復稍早部分跌幅，也減輕市場對能源衝擊進一步固化於長期預期的疑慮。不過，在通膨已連續逾5年高於聯準會目標後，該結果尚不足以證明預期已經正常化。\n\n成長證據也不支持把美債漲勢強烈解讀為衰退交易。紐約聯準銀行研究人員對第2季實質GDP的即時預測，由6月19日的2.68%微升至2.71%。其50%機率區間為1.66%至3.88%，80%區間則為0.55%至4.89%，凸顯單點估計仍有高度不確定性。模型納入消費、所得、耐久財、住房及存貨的新數據，屬該行研究人員的研究成果，而非紐約聯準銀行或FOMC的官方預測。\n\n另一項於6月19日至24日訪問86位經濟學家的調查，同樣描繪出通膨持續、就業轉強的經濟，而非需求突然斷裂。受訪者把第4季核心PCE年增率預測上調至3.2%，整體通膨預測則維持3.5%；在就業增幅轉強後，他們下調失業率預測並提高新增就業估計。預測中位數認為聯準會將按兵不動，直到2027年6月才降息，但部分受訪者預期2026年底前會升息。全年平均成長率估為2.1%，第2季成長預測也獲上修。\n\nKashkari的談話說明，為何較溫和的研究指標雖推動債市上漲，卻未重新開啟全面寬鬆交易。這位明尼亞波利斯聯準銀行總裁表示，促使他在6月預測中納入一次升息的，是廣泛通膨，而不只是中東能源衝擊。他指出，5月PCE物價年增4.1%，漲價範圍也擴及多個類別。聯準會19位決策官員中有9位預測今年至少升息一次，顯示Kashkari屬於規模可觀的緊縮陣營，而非孤立的反對者；其立場明確取決於物價壓力擴散及通膨仍高於目標的證據。\n\n現券交易仍然活躍，但不及6月25日。FINRA紀錄的美債面額交易額為$9,716億，較前一交易日下降21.5%；其中名目附息債交易額減少21.4%至$7,466億。逾3年至5年期以內券種的成交額下降24.8%，逾7年至10年期以內下降20.9%，逾20年期則減少33.5%。這些數字反映雙向成交，而非買賣方向，但顯示市場在消化前一天的數據與標售調整後，美債漲勢及曲線陡峭化發生於交易活動減少的環境。\n\n每週期貨部位資料顯示，週五行情出現前，市場兩側已有規模龐大且方向相反的曝險。截至6月23日，資產管理機構淨多5年期美債期貨291萬口，槓桿基金則淨空217萬口。2年期美債期貨方面，資產管理機構淨多部位全週增加192,984口至202萬口，槓桿基金淨空部位為179萬口。這些數據無法證明週五的資金流向或投資人動機，但如此龐大的部位有助解釋，市場對通膨及聯準會的假設一旦改變，為何短端與曲線腹部會出現顯著調整。\n\n## 油價下跌重塑歐洲利率定價，但鷹派條件仍在\n\n原油再度下跌，使先前通膨衝擊的急劇反轉進一步延續。週五仍有油輪雙向通行荷莫茲海峽，包括滿載駛離波斯灣的船隻，以及沿阿曼海岸駛入的空船。Ever Lovely週四遭不明發射物擊中，成為美國與伊朗達成臨時和平協議以來首宗通報攻擊，但船運並未停止。\n\n部分船東及船長重新評估是否通行，這次攻擊仍未阻止交通逐步正常化。布蘭特原油在週五國際盤一度交投於約$74，紐約收盤則為$71.99。對近期通膨而言，貨物持續運送的實際證據，比當日仍在延續的地緣政治不確定性更具影響力；布蘭特原油及WTI近1個月跌幅因而分別達27.71%及26.26%。\n\n歐洲利率市場隨之下調對ECB緊縮幅度的預期。交易員自4月以來首次不再完全反映2026年底前升息25個基點；美伊戰爭初期，市場一度反映近4次升息。歐元區2年期通膨交換率回落至2.2%以下，4月時曾高於3%；德國10年期公債殖利率下降1個基點至2.85%，創3月10日以來最低。\n\nECB消費者調查強化了這項重新定價。歐元區家庭5月預期未來1年物價上漲3.5%，低於4月的4%；但3年期預期維持2.9%，5年期指標也仍為2.4%。調查於5月7日至6月1日進行，時間早於美伊協議及其後油價下跌。因此，數據顯示近期能源價格反轉前，短期預期便已緩解；較長期讀數未變，則保留了通膨可能固化的疑慮。\n\n消費者預期未來1年經濟萎縮1.7%，較4月預期的2.2%降幅溫和，預期失業率則微升至11.3%。成長悲觀程度下降、1年期通膨預期大幅回落，而長期指標仍處高檔，這組合較直接支持放慢緊縮步調，尚不足以支持立即結束ECB的政策爭論。\n\n下一批通膨數據預料將顯示，歐元區6月整體物價年增率由3.2%降至約3%；西班牙、法國及德國預計下降，義大利則可能上升。核心通膨預料維持2.6%。這項分歧是政策辯論的核心：能源下跌可以迅速壓低整體通膨，但憂慮服務價格及第二輪效應的官員，仍需看到基礎壓力也隨之減弱的證據。\n\nECB執行委員Isabel Schnabel在美國收盤後於週六發布的談話中，仍保留鷹派但書。她表示，食品、商品與服務通膨均面臨上行風險，先前的能源衝擊可能傳導至更廣泛的定價。和平協議雖降低不利情境的可能性，但她預期荷莫茲海峽逐步恢復通行期間，油價仍會持續高於先前水準，並重申為使通膨回到2%，可能仍須進一步升息。她也表示目前尚未出現薪資壓力跡象，意味眼下的疑慮集中於未來可能發生的價格傳導，而非已形成的薪資—物價螺旋。\n\n相對利率前景改變，使美元即使週五下跌0.07%，較長期間仍獲支撐。美元指數收於101.36，全週上漲0.51%，全月上漲2.21%。摩根大通、摩根士丹利及紐約梅隆銀行等機構下調歐元預測；隨市場反映更鷹派的聯準會及較少的ECB升息，多家銀行認為歐元未來1年可能接近$1.10。這些預測仍取決於聯準會是否採取足夠的政策限制，以驗證利差走勢；擁擠的美元多頭部位及油價回落則可能拖慢美元升勢。\n\n固定收益市場收盤後，地緣政治局勢兩度變化。美國國防部表示，美軍週五稍晚攻擊伊朗的飛彈與無人機儲存設施及沿岸雷達設施。Axios報導，到了週日，美國與伊朗已同意停止報復性攻擊，並計畫週二在卡達舉行會談。這些後續發展無法解釋週五美債收盤，卻決定了能源與通膨定價的下一個起點：油價跌勢能否延續，不僅取決於油輪是否持續通行，也取決於新一輪停火能否挺過有關荷莫茲海峽及更廣泛衝突的談判。\n\n## 科技壓力由股票蔓延至長天期信用債\n\n科技股賣壓仍相當集中，因此整體股價指數幾乎持平，但AI基礎設施週期曝險最高的市場承受沉重壓力。半導體指數週五下跌5.29%，全週重挫7.94%；Nasdaq 100下跌1.09%，S&P 500跌幅不到0.05%。南韓Kospi指數下跌5.8%，帶動MSCI新興市場股票指標當日下跌2.8%、全週下跌4.4%，創逾3個月來最差單週表現。\n\n這波壓力反映市場日益區分兩類企業：目前因供給短缺而受惠的供應商，以及為未來產能籌資的公司。Apple調高產品價格，凸顯記憶體及儲存設備短缺正傳導至消費者成本；有關OpenAI可能延後首次公開發行的報導，則使其生態系投資人原先預期的上市時程延後。記憶體生產商及其他基礎設施供應商仍有定價能力，但超大規模雲端服務商與軟體公司，面臨更棘手的問題：資本支出何時能產生回報，以及回報規模有多大。\n\n對債券投資人而言，最明顯的表現是SpaceX規模$250億的首次發債持續惡化。截至週五下午，相對美債的帳面損失擴大至約$3.6億。一家交易商的報價顯示，2056年到期債券的利差較發行時美債加175個基點最多擴大28個基點。初步訂單曾接近$900億，促使承銷商改善定價，但長天期債券後來實際上抹去了當時所有定價改善。\n\n賣壓以20年期與30年期債券最為明顯，發行時需求最強的卻是5年期券種。交易員認為，部分逆轉來自追求短期交易收益的帳戶：這些資金原本期待債券上市初期上漲，利差收窄未能實現後便轉而賣出。避險部位調整及發行規模異常龐大也可能有所影響。無論技術性因素如何組合，這次變動幅度均使SpaceX有別於近期其他大型科技業發債。\n\n例如，Nvidia的2046年及2056年到期債券，利差較發行時擴大約8個基點；Alphabet今年稍早出售的長天期債券則已收窄。儘管市場預期SpaceX未來數年現金流將為負，且Fitch把公司對Elon Musk的依賴視為重要評等限制，SpaceX仍進入投資級債市。其股票在發債前大跌後已經回穩，因此債券走弱反映市場針對債權人補償進行重新評估，而非股價同日再度崩跌所造成的機械式反應。\n\n整體科技信用債環境也轉弱。截至週四，美國高評級科技債風險溢價升至79個基點，高於5月底的74個基點。截至週二，美國投資級債6月供給已達破紀錄的$1,750億，對買方形成壓力；AI相關借款可能進一步增加，也使市場擔心即使是評等良好的發行人，未來仍須提供更大的發行讓利。\n\n發行股票未必能消除這項疑慮。Alphabet當月出售$850億股票，SpaceX則完成規模破紀錄的$750億首次公開發行。這些交易擴大了位於債權人之下、可先吸收損失的股權緩衝，但投資人也將其解讀為產業支出需求增長速度超過先前假設的證據。\n\n摩根大通目前估計，至2030年AI與資料中心支出將達$5.5兆，較去年11月的預測增加約$4,000億。該行預期，未來5年將透過高評級債券市場籌措$2.1兆資料中心融資，高於原先估計的$1.5兆。這項修正使問題不再只是AI投資能否支持經濟成長，而是相關專案產生現金前，信用市場能吸收多少長天期曝險及發行人集中度。\n\nSpaceX正體現這項矛盾。公司通報持有$1,008億現金，但S&P Global Ratings預期，截至明年底將消耗約$1,130億，2028年還會再消耗約$900億。因此，即使已完成規模異常龐大的資本募集，仍可能需要增發債券或股票。新股承擔風險時，債權人可獲得更多保護；但其上行空間有限，卻仍須承受數十年的技術、營運執行及再融資不確定性。\n\n週五整體信用市場並未出現相當程度的壓力。投資級債券基金LQD持平，高收益債券基金HYG及JNK均微跌約0.06%，新興市場債券基金EMB則下跌0.02%。相較半導體股崩跌及SpaceX利差擴大，這些有限波動顯示，投資人正在區分資本密集的科技融資週期與整體公司信用環境。\n\n不過，當週行情仍揭露槓桿曝險較廣泛的脆弱性。槓桿型交易所交易產品、龐大期貨部位、主要經紀商帳戶餘額及大型股票發行消耗銀行承作能力，使美股融資成本升至2024年12月以來最高。一旦融資環境收緊或擁擠部位解除，相關槓桿可能放大原本不大的價格變化。週五並未演變為全面流動性事件，VIX反而下跌2.54%至18.41；然而，股票槓桿、資本支出與信用債供給之間的交互作用，對利率前景已更加重要，因為它同時影響金融情勢與未來借款規模。\n\n## 主權融資交易自有其抵押品風險\n\n奈及利亞近幾週透過與第一阿布達比銀行簽訂、總額$50億的總報酬交換，首次動用約$15億。所得資金將協助再融資高成本債務並填補預算赤字，但這項結構以抵押曝險取代傳統無擔保借款，可能形成外匯壓力。\n\n奈及利亞將提供價值相當於貸款133.3%的奈拉計價證券作為抵押品。第一批資金的利率為擔保隔夜融資利率加395個基點，其後借款則為SOFR加400個基點。國會議員4月批准交易時稱這些條件具競爭力，但總融資成本仍會隨美元利率及抵押安排變動。\n\n國際貨幣基金警告，部分交易條款可能限制貨幣或匯率政策。Fitch表示，若國內殖利率上升或貨幣貶值，以奈拉資產擔保的交易可能觸發美元保證金追繳，進而形成外匯壓力。Moody’s則認為，同類交換交易會引進傳統商業借款沒有的風險。對截至12月底外債達$519億的主權國家而言，這項差異十分重要：現金立即到位，但未來資金需求可能正好在本地市場或匯率承壓時上升。\n\n約翰尼斯堡則在截然不同的壓力下履行債券義務。該市償還一筆14.4億南非幣、約合$8,800萬、年票息11.455%的債券。這筆債券於2016年發行，其償還代表該市規模300億南非幣的國內中期票據計畫已完成贖回。即使該市積欠國營電力及供水事業數億美元，連道路維修所需燃料也缺乏資金，債券持有人仍優先於其他債權人獲得付款。\n\n財政部長Enoch Godongwana威脅扣留每年80億南非幣的中央政府撥款，原因是約翰尼斯堡簽署一份他認為違法且無力負擔、價值103億南非幣的薪資協議。市長Dada Morero須在週五前說明為何應繼續撥款。該市也考慮發行新債，以處理2,200億南非幣的維修積壓。償還到期債券展現了維護市場融資管道的意願，卻未解決營運資源、薪資承諾及基礎設施需求之間的落差。\n\n加拿大第1季公共帳目顯示，財政情勢雖沒有那麼緊迫，內部仍呈分歧。一般政府赤字較一年前擴大C$15億至C$164億，相當於GDP的2.1%，一年前為1.9%。聯邦政府赤字增加C$33億至C$194億，各省及地區政府合計赤字則縮減C$52億至C$182億。\n\n一般政府整體淨負債下降C$260億，降幅4.6%，至C$5,381億；其占GDP比率也由17.9%降至16.5%。然而，排除社會保障基金後，淨負債增加4.3%至C$1.49兆，相當於GDP的45.6%。這項會計差異，把有利的合併資產負債表指標，與聯邦及省級預算更直接承擔的借款負擔區分開來。\n\n亞洲週末公布的數據進一步顯示工業活動強勁，但現金流品質並不均衡。中國大型工業企業1至5月利潤增加18.8%至CNY3.144兆，僅5月便較一年前成長21.1%。採礦業利潤增加33.5%，製造業增加20%，公用事業則下降2.7%。營收成長5.5%，成本增加4.7%，利潤率提高0.63個百分點至5.56%。\n\n資產負債表細節則沒有同樣全面強勁。應收帳款增加7.7%，製成品存貨上升8.8%，整體資產負債率提高0.3個百分點至58.2%。這份在週五美國收盤後發布的數據支持區域成長及企業獲利前景，但也顯示更多營運資金被未收帳款與存貨占用。\n\n新加坡5月製造業報告也呈現集中於少數產業的擴張。產出較一年前增加13%，但經季節調整後較前月下降0.7%。排除生物醫藥製造業，產出年增17.7%、月增3.1%。受AI相關需求及半導體設備帶動，電子業及精密工程業分別成長35.8%及32.2%；生物醫藥產出萎縮24.2%，化學業下降11.5%，運輸工程業下跌5%。結果強化了亞洲科技資本支出週期依然強勁的判斷，但也說明其對整體需求的貢獻並不全面。\n\n即使油價下跌有助改善國內通膨，新興市場資產仍對美國利率環境敏感。美國5年期殖利率與拉丁美洲同類殖利率的30天相關係數，從2月底的0.10升至0.49；與新興歐洲、中東及非洲的相關係數則由0.03升至0.43。美國與墨西哥5年期殖利率的相關係數6月一度超過0.8。因此，美元走強及美國實質利率上升，可能透過收緊外部融資環境抵銷低油價的好處，尤其會影響仰賴投資組合資金流入的經濟體。\n\n哥倫比亞反映了這項矛盾。該國主權債相對美債的利差在總統大選前收窄，但選後一週每天均告擴大。相較之下，塞內加爾政府宣布計畫自明年起削減預算赤字後，其美元債券上漲。低油價普遍有利能源進口國，但從奈及利亞的抵押交換、約翰尼斯堡償債，到哥倫比亞選後走勢反轉，發行人層級的市場變化均顯示，財政執行與融資結構仍是決定性因素。\n\n## 前瞻市場意義\n\n歐洲首批考驗將於6月29日到來。西班牙初值CPI在美東時間03:00公布，歐盟執委會企業與消費者調查於05:00接續發布。西班牙通膨率預料將由3.6%下降；此前歐元區消費者信心初值為-17.7，執委會調查將提供更多細節。這些數據將顯示，能源價格下跌是否帶來足夠廣泛的緩解，足以驗證市場下調ECB升息定價。\n\nECB中央銀行論壇於6月29日美東時間15:00在辛特拉揭幕，並持續至7月1日。決策官員必須在油價及家庭短期通膨預期下降，與核心通膨預料維持2.6%、長期預期仍高於目標之間取得平衡。關鍵差異在於，官員會把這些持續偏高的指標視為再次升息的理由，還是在能源價格反轉逐步傳導至物價期間，把存款利率維持於2.25%。\n\n美國6月29日的行程從美東時間10:30公布達拉斯聯準銀行製造業調查開始。財政部隨後於11:30標售$920億13週國庫券及$790億26週國庫券，兩者均於7月2日交割。6月30日接著標售$800億6週國庫券，7月1日供應17週券，7月2日則舉行例行4週及8週券標售。季末供給高度集中，將考驗假期融資期間的現金需求，但因沒有固定票息債券標售，市場缺乏可供比較的存續期訊號。\n\n6月30日美國將於美東時間10:00公布JOLTS職缺及經濟評議會消費者信心，達拉斯聯準銀行零售調查則在10:30發布。亞洲時段稍早，日本將公布5月失業率及工業生產，澳洲央行也會發布6月會議紀錄。中國官方製造業、非製造業及綜合PMI前值分別為50.0、50.1及50.5，這將是首項廣泛檢視6月活動的數據，用以判斷大型工業企業利潤改善是否正擴散至更廣泛的經濟活動。\n\n德國6月30日也將公布失業報告及CPI初值，同日還有英國第1季國民所得帳及經常帳終值。英國初值顯示實質GDP較前季成長0.6%。德國數據對德國公債尤其重要，因為工業前景轉弱及能源價格下降，正與食品、服務及商品通膨可能持續的疑慮相互角力。\n\n7月1日將匯集全球製造業及通膨訊號。日本央行短觀調查將在日本央行6月升息後，更新企業景氣、物價預期及投資計畫；歐元區通膨初值則於美東時間05:00公布。其後從08:15至10:00，將陸續發布製造業PMI終值、ADP就業、紐約聯準銀行勞動市場緊俏度指標、美國營建支出及ISM製造業。這組數據將檢驗，具韌性的生產活動及AI相關投資，是否仍能產生足夠的就業與物價壓力，以維持市場對政策利率上升的預期。\n\n美國利率市場最主要的催化因素，是因假期調整至7月2日美東時間08:30發布的就業報告，並與初領失業救濟金人數一同公布。6月非農就業、失業率及薪資將決定，聯準會的通膨疑慮是受到需求強勁進一步強化，還是因勞動市場轉弱而緩和。5月工廠訂單於10:00接續公布。數據發布後，11:30將舉行國庫券標售，SIFMA並建議市場於14:00提前收盤；固定收益市場7月3日休市。交易時段壓縮，意味市場面對重大的勞動數據意外或地緣政治再度升溫時，消化時間將更少。\n\n能源仍是各市場共同的條件性風險。EIA截至6月26日當週的石油報告將於7月1日美東時間10:30發布，美國與伊朗也計畫週二在卡達會談。船運持續且雙方長久停止攻擊，將進一步降低整體通膨壓力。若再次遇襲、荷莫茲海峽出現新通行限制，或各方對通行條款意見不一，則會挑戰6月26日的美債漲勢；當日通膨補償成分幾乎未降，長端尤其容易受到能源溢價重現的衝擊。",
+      "methodology_note": "除非另有註明，市場水準均以紐約收盤為基準。利率資料採用Bloomberg每日殖利率歷史序列；變動幅度及衍生曲線均使用相同日期的資料序列。每日歷史資料未註明觀察時點。",
       "overall_summary": {
-        "headline": "油價下跌、科技債轉弱，5年期美債領漲",
-        "session_narrative": "油價再度下跌、通膨指標轉緩，支撐中天期美債。5年期殖利率下降3個基點至4.12%，10年期下降2個基點至4.38%，30年期卻上升1個基點至4.87%。密大長期通膨預期降至3.3%，紐約Fed核心趨勢估計降至3.4%；其成長即時預測幾乎不變，Kashkari仍支持今年升息一次。\n\n科技跌幅遠大於大盤：半導體股下跌5.29%，S&P 500卻接近持平。SpaceX $250億債券相對美債損失約達$3.6億，長天期弱於5年期。奈及利亞則動用$15億附擔保美元交換，在取得資金的同時，也面對可能以美元追繳保證金的風險。\n\n歐洲通膨預期下降，加拿大、法國及英國的財政與籌資問題仍重要。Barkin與Schnabel的週末發言，讓通膨警戒延續至下一週；稍晚中國資料顯示工業利潤改善，應收帳款與庫存也增加。接續的美國勞動、歐洲通膨與假日前資金時程，將提供新的觀察。",
-        "summary": "5年期殖利率下降3個基點至4.12%，30年期卻升至4.87%。通膨預期與油價降低支撐中天期，SpaceX最長債券相對美債則繼續走弱。"
+        "headline": "油價與通膨訊號降溫帶動美債曲線腹部領漲，長端風險仍在",
+        "session_narrative": "6月26日，美債上漲。油價再度重挫、通膨預期指標降溫，加上科技業壓力重現，抵銷了聯準會仍遠未能宣布抗通膨勝利的證據。2年期殖利率下跌3.1個基點至4.093%，5年期下降3.7個基點至4.129%，10年期下滑2.3個基點至4.371%；30年期則微升0.3個基點至4.865%。曲線因而陡峭化，顯示近期通膨壓力緩解，仍未消除較長期的通膨、供給與期限溢價風險。\n\n油輪持續通過荷莫茲海峽，WTI下跌3.74%至$69.23，布蘭特原油下跌4.34%至$71.99。紐約聯準銀行的一項基礎通膨指標5月降至3.4%，家庭長期通膨預期也降至3.3%。10年期實質殖利率下降2.1個基點，損益兩平通膨率卻僅下滑0.2個基點，較符合溫和的通膨降溫交易，而非市場全面撤回對聯準會偏緊立場的定價。Neel Kashkari預測升息一次，也凸顯政策風險尚未消失。\n\n科技業壓力另外帶動美債需求，卻未演變為全面避險。半導體指數重挫5.29%，但S&P 500收盤幾乎持平，波動率也下降。整體信用市場相對穩定，SpaceX新發行的長天期債券相對美債卻出現異常龐大的損失，凸顯市場正選擇性擔憂長天期科技業融資。",
+        "summary": "原油回落、通膨預期降溫，使10年期以內美債殖利率下降，其中5年期領漲；但聯準會、供給及期限溢價風險仍在，30年期殖利率反而上升。"
       },
       "section_summaries": [
         {
-          "section_title": "通膨預期降溫，5年期美債領漲",
-          "summary": "油價與通膨指標下降，支撐5年期美債；30年期殖利率上升，SpaceX長債及科技股則走弱。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "10年期殖利率的變動主要來自實質殖利率下降；損益兩平通膨率僅略降，限制了通膨降溫訊號的強度。",
+          "next_check": "",
+          "section_title": "開篇固定收益主論",
+          "summary": "收盤行情呈現以中期美債為核心的選擇性漲勢。原油下跌、通膨指標轉弱及科技業壓力，使10年期以內殖利率下降；但較長期的通膨、供給及融資風險仍在，30年期殖利率上升，曲線也轉陡。整體信用市場持穩，S&P 500幾乎不變，顯示這並非全面避險。"
         },
         {
-          "section_title": "價格指標轉緩，中天期受惠、長債未跟進",
-          "summary": "密大預期與紐約Fed核心趨勢放緩，成長估計仍穩定。Kashkari支持升息，週末評論補充政策與部位背景。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "通膨證據轉弱有利曲線腹部，但投資人不必因此押注立即升息或迅速轉向寬鬆。",
+          "next_check": "",
+          "section_title": "通膨降溫有利美債曲線腹部",
+          "summary": "紐約聯準銀行的基礎通膨估計降至3.4%，家庭長期通膨預期降至3.3%，帶動5年期券種領漲。商品、住房及服務均有改善，但通膨仍高於目標。成長與就業估計轉強，加上Kashkari預測升息一次、聯準會內部仍有規模可觀的緊縮陣營，使債市漲勢未演變為全面寬鬆交易。"
         },
         {
-          "section_title": "大額發行後，SpaceX長債繼續走弱",
-          "summary": "SpaceX相對損失達約$3.6億。約翰尼斯堡還款、Huachen尋求展延，Corus與Thames Water面對控制權及資金選擇。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "能源價格下降較直接支持放慢緊縮步調，尚不足以證明ECB的通膨爭論已經結束。",
+          "next_check": "",
+          "section_title": "油價下跌重塑歐洲利率定價，但鷹派條件仍在",
+          "summary": "油輪持續通過荷莫茲海峽，使原油價格反轉延續，市場也下調ECB緊縮預期。歐元區家庭的1年期通膨預期降至3.5%，3年期及5年期預期卻仍在高檔。市場已不再完整反映2026年底前升息25個基點，但核心通膨持續及能源成本可能廣泛傳導的疑慮，仍使再次升息留在討論中。"
         },
         {
-          "section_title": "歐洲通膨預期下降，財政問題仍待處理",
-          "summary": "歐洲近期通膨預期下降；加拿大財政、亞洲產出，以及週末政策與財政消息，提供各自不同的影響。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "SpaceX債券走弱，反映市場重新評估個別債券提供的債權人補償，而非整體信用市場承壓。",
+          "next_check": "",
+          "section_title": "科技壓力由股票蔓延至長天期信用債",
+          "summary": "科技股賣壓集中於半導體及AI基礎設施，而非整體市場。SpaceX完成規模$250億的首次發債後，其長天期債券利差大幅擴大，投資人重新評估長天期曝險、負現金流及再融資風險。投資級債供給創高及AI融資估計上升，加深市場對未來發行讓利的疑慮，但整體信用債券基金並未出現相當程度的壓力。"
         },
         {
-          "section_title": "奈及利亞美元交換取得資金，也帶來追繳風險",
-          "summary": "奈及利亞美元交換帶來擔保與追繳風險。塞內加爾提出新赤字目標，黎巴嫩債價仍取決於損失分攤。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "低油價有助能源進口國，但美國實質利率上升、美元走強及抵押品要求可能抵銷這項利多。",
+          "next_check": "",
+          "section_title": "主權融資交易自有其抵押品風險",
+          "summary": "奈及利亞透過抵押交換動用約$15億，但奈拉資產可能觸發美元保證金追繳；約翰尼斯堡則在公用事業欠款、薪資及基礎設施資金吃緊之際，償還高成本債券。加拿大合併淨負債改善，卻掩蓋排除社會保障基金後負債上升。中國及新加坡工業數據強勁，但資產負債表品質或產業廣度較弱；新興市場發行人層級的走勢，仍顯示財政執行與融資結構是決定性因素。"
         },
         {
-          "section_title": "科技股轉弱，集中度高的指數承受賣壓",
-          "summary": "晶片股下跌影響集中度高的新興市場指數，美國大盤卻僅微跌。VIX降低、原油大跌、黃金上漲。",
-          "market_read": "",
-          "next_check": ""
-        },
-        {
-          "section_title": "接續看勞動資料、歐洲通膨與假日前資金時程",
-          "summary": "美國就業及工廠資料接續至7月2日非農；歐洲通膨、辛特拉論壇與季底國庫券並行，2日提早收盤、3日休市。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "7月2日提前收盤，將縮短利率市場消化重大勞動數據意外或地緣政治升溫的時間。",
+          "next_check": "",
+          "section_title": "前瞻市場意義",
+          "summary": "歐洲通膨數據及ECB辛特拉論壇將檢驗，能源價格緩解是否足以支持市場降低升息定價。美國勞動數據以7月2日縮短交易時段公布的就業報告為焦點；中國PMI及全球製造業調查則將衡量工業韌性是否仍能支撐物價與就業壓力。荷莫茲海峽船運、美伊會談及石油數據仍是共同的能源條件。"
         }
       ],
       "watch_events": [
         {
-          "title": "美國勞動與製造業",
-          "date": "6月29日至7月2日",
-          "category": "美國數據",
-          "watch_line": "達拉斯Fed、JOLTS、信心、ADP與ISM，接續至7月2日美東08:30非農與失業救濟金。",
-          "market_trigger": "把招聘、職缺、薪資與工廠價格，對照本週實質殖利率下降。",
-          "market_implication": "資料將檢驗中天期漲勢是否符合需求狀況。"
-        },
-        {
-          "title": "歐洲通膨與辛特拉",
+          "category": "歐洲利率",
           "date": "6月29日至7月1日",
-          "category": "歐洲",
-          "watch_line": "29日西班牙CPI與ECB論壇，30日德國通膨，7月1日歐元區HICP。",
-          "market_trigger": "追蹤核心服務、食品與能源，以及官員如何回應油價及家庭預期下降。",
-          "market_implication": "市場對ECB再升息的定價不到25個基點，資料將進一步釐清前景。"
+          "market_implication": "若通膨廣泛緩解，將驗證市場降低升息定價；核心壓力持續或政策指引偏鷹，則會挑戰德國公債漲勢。",
+          "market_trigger": "整體通膨下降而核心通膨維持在約2.6%，或官員繼續強調物價壓力持續。",
+          "title": "歐元區通膨與ECB政策指引",
+          "watch_line": "西班牙及歐元區通膨數據，連同其後的辛特拉談話，將檢驗能源價格緩解是否正擴大。"
         },
         {
-          "title": "季底國庫券與假日",
-          "date": "6月29日至7月3日",
-          "category": "美債資金",
-          "watch_line": "$920億13週期、$790億26週期後，還有$800億6週期及其他短券標售。",
-          "market_trigger": "觀察7月2日交割前後的投標參與與現金殖利率；當日美東14:00收盤，3日休市。",
-          "market_implication": "資金與非農消息集中在較短交易時段，順利承接供給更為重要。"
+          "category": "美國利率",
+          "date": "7月2日",
+          "market_implication": "數據強勁將重燃聯準會緊縮壓力並推升殖利率；數據疲弱則會延續由曲線腹部領漲的行情。",
+          "market_trigger": "就業及薪資強勁，加深需求帶動通膨的疑慮，或勞動市場明顯轉弱。",
+          "title": "美國就業報告",
+          "watch_line": "6月非農就業、失業率及薪資將與初領失業救濟金人數一同公布，隨後交易時段縮短。"
+        },
+        {
+          "category": "能源與通膨",
+          "date": "6月30日至7月1日",
+          "market_implication": "供應受阻將推升能源及長端通膨溢價；情勢持續平靜則會進一步緩解整體通膨壓力。",
+          "market_trigger": "再次遇襲、荷莫茲海峽出現新限制或各方對通行條款意見不一；另一情境則是船運持續暢通。",
+          "title": "荷莫茲海峽船運與美伊停火",
+          "watch_line": "追蹤卡達會談、油輪通行及EIA石油報告，以判斷供應是否正在正常化。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Five-Year Treasuries Lead as Inflation Expectations Ease\n\nIntermediate Treasuries rallied Friday as oil fell again and measures of household inflation expectations and underlying price pressure eased. The five-year yield declined 3 basis points to 4.12%, outperforming both the two-year, down 2 to 4.07%, and the 30-year, up 1 to 4.87%. A sharp technology selloff added demand for protection, but the broad equity market was nearly flat and the long bond did not join the rally.\n\nAt 10 years, the real yield and breakeven inflation each fell 1 basis point, to 2.18% and 2.20%, leaving the nominal yield 2 lower at 4.38%. That restored part of the disinflationary support interrupted by Thursday's shipping incident. Continued tanker traffic through Hormuz helped send Brent down 4.34% to $71.99. The Fed debate nevertheless remained open: Neel Kashkari backed an increase this year, and the New York Fed's growth estimate barely changed.\n\nCredit investors were marking down the long maturities of the week's largest deal. Relative losses on SpaceX's $25 billion bond sale reached about $360 million against Treasuries by Friday afternoon, with five-year debt holding up better than 20- and 30-year tranches. New financing and repayment news elsewhere was equally specific: Nigeria drew on a collateralized dollar swap, Johannesburg redeemed a bond despite fiscal pressure, and Huachen Energy sought another extension after missing a coupon.\n\n## Softer Price Measures Support the Belly, Not the Long Bond\n\nThe two-, five-, 10- and 30-year Treasury yields ended the week 12, 11, 8 and 3 basis points lower respectively. Friday's move left 2s10s unchanged at 31 basis points but widened 2s30s by 3 to 80. Five-year real yields eased 1 basis point to 1.91%, seven-year yields fell 2 to 2.03%, and the 10-year declined 1 to 2.18%; the 30-year real yield held at 2.69%. Investors accepted slightly less real return through the belly while leaving the far end unchanged.\n\nThe University of Michigan survey put five- to 10-year inflation expectations at 3.3%, down from the earlier 3.4% reading. The New York Fed's Multivariate Core Trend estimate fell to 3.4% in May from a downwardly revised 3.7% in April, with a 68% probability band of 3.0%-3.9%. Services excluding housing remained the largest above-trend contributor, but its excess contribution declined to 0.83 percentage point from 0.91. Goods and housing also moderated, extending the improvement beyond energy.\n\nGrowth estimates offered less scope for a dovish interpretation. The New York Fed Staff Nowcast put second-quarter real GDP growth at 2.71%, little changed from 2.68% a week earlier. Its wide intervals leave uncertainty around the exact rate, but the central estimate showed no abrupt slowdown. Economists surveyed after the Fed meeting raised their fourth-quarter core PCE forecast to 3.2% and increased job-creation estimates. Their median policy path kept the Fed on hold until June 2027.\n\nMinneapolis Fed President Kashkari said inflation had become broad enough for him to project one increase this year. He was among nine of 19 policymakers who had penciled in at least one hike at the June meeting. Traders nonetheless reduced the probability of a rapid sequence: the chance of two increases by year-end was roughly 25% Friday, down from almost 80% Monday. The change favored policy-sensitive and intermediate maturities without resolving where rates ultimately settle.\n\nBills were generally firmer approaching quarter-end. The four-week coupon-equivalent yield held at 3.68%, while six- and eight-week yields fell 2 and 1 basis points to 3.67% and 3.73%. The 13-week declined 3 to 3.75%; 17- and 26-week yields eased 1 to 3.85% and 3.93%, and the 52-week fell 3 to 3.93%. There was no common rise in cash yields ahead of the heavy July 2 settlement date.\n\n### Weekend Policy and Positioning\n\nRichmond Fed President Tom Barkin said Sunday that inflation remained too high, although falling gasoline and consumers' resistance to higher prices offered tentative relief. He cited AI infrastructure as one source of pressure and viewed a modestly restrictive stance as reasonable, with spending and business pricing still resilient. The remarks updated the coming week's debate after Friday's trading had ended.\n\nWeekend commentary also identified Capital Group, Insight, Natixis and Pimco as favoring intermediate Treasuries, balancing uncertainty about future hikes and cuts against the long bond's inflation sensitivity. That preference may become crowded. Separate market commentary pointed to high margin debt, growing shadow-bank borrowing and the bank capital used by leveraged ETFs, futures, IPOs and prime brokerage. A volatility shock could first draw investors toward Treasuries, then strain balance sheets supporting leveraged positions.\n\n## SpaceX's Long Bonds Lose Ground After the Jumbo Sale\n\nA dealer quoted SpaceX's 2056 bonds as much as 28 basis points wider than their 175-basis-point issue spread. Relative losses on the $25 billion offering grew from roughly $305 million against Treasuries late Thursday to about $360 million by Friday afternoon. Five-year notes had attracted the strongest demand; the 20- and 30-year tranches saw the largest drop-off and subsequent weakness, reversing the tightening achieved during syndication when peak orders had approached $90 billion.\n\nThe wider technology sector was also becoming more expensive to fund. US high-grade tech spreads stood at 79 basis points Thursday, up from 74 at the end of May. Alphabet bonds softened after it announced an $85 billion equity sale. New equity adds a cushion for creditors, but the scale also pointed to a larger AI spending and financing requirement. SpaceX shares were steadier than its bonds as investors distinguished those distant debt obligations from equity's potential upside.\n\nWeekend estimates placed AI and data-center spending through 2030 at $5.5 trillion and possible high-grade data-center financing over five years at $2.1 trillion. These are projections, added after a week when US high-grade issuance reached a June record of $175 billion. They help frame the next financing calendar rather than adding to debt already issued.\n\n### Repayment, Extensions and Control\n\nJohannesburg repaid a 1.44 billion rand, or $88 million, bond with an 11.455% coupon, completing redemption of its 30 billion rand domestic medium-term-note program. The payment came as the finance minister threatened to withhold 8 billion rand of state funding over a disputed 10.3 billion rand wage agreement. Planned infrastructure bonds will follow a successful contractual repayment, but the city's operating and intergovernmental finances remain strained.\n\nHuachen Energy missed a June 21 coupon and planned another maturity extension, including for $627 million of dollar notes. The Chinese power producer said it would pay interest within the 30-day grace period. A 2021 court restructuring had already extended the dollar debt by five years to December 2026. Lower electricity prices and renewable expansion continued to pressure its coal-power business. Payment during the grace period would avoid default, while the requested extension showed that the earlier restructuring had not resolved the repayment problem.\n\nAn Ontario court approved Corus's debt-for-equity exchange, which would transfer control to creditors led by Canso. Quebecor asked the broadcast regulator for a public hearing, arguing that an industry buyer would be a better long-term owner. Final regulatory approval remained pending, leaving the choice of creditor control or a strategic sale relevant to recovery.\n\nThames Water's nearly £20 billion restructuring carried a potential public bill. Without private insolvency funding, special administration was estimated to cost the UK government at least £3.34 billion. More than half of the utility's debt and derivative liabilities were inflation-linked. Keeping the service running under public control would leave taxpayers exposed to future funding gaps while the financial claims were worked out.\n\nListed credit funds moved little: LQD was unchanged at $109.50, and HYG and JNK each fell about 0.06%. Over the week, LQD gained 0.39%, HYG lost 0.23% and JNK 0.18%. Those mild returns sat alongside the more pronounced changes in individual bonds and restructuring prospects.\n\n## European Expectations Ease, With Fiscal Questions Still Ahead\n\nGerman 10-year yields fell to 2.85%, their lowest since March 10, as traders priced less than a quarter-point of additional ECB tightening by year-end. A full increase had been priced two weeks earlier; the deposit rate remained 2.25%. The euro-area two-year inflation swap moved below 2.2%, down from more than 3% in April, following oil's retreat.\n\nThe ECB consumer survey showed one-year inflation expectations falling to 3.5% in May from 4.0%, before the US-Iran agreement. Three- and five-year expectations stayed elevated at 2.9% and 2.4%. Households expected output to contract 1.7% over the next year, less than April's anticipated 2.2% fall, while expected unemployment edged up to 11.3%. Lower near-term inflation fear coexisted with a weak view of growth and persistent longer-term price concern.\n\nCanada's first-quarter general-government deficit widened to C$16.4 billion, or 2.1% of GDP, from 1.9% a year earlier. Consolidated net debt fell to C$538.1 billion and 16.5% of GDP, but excluding social-security funds it rose 4.3% to C$1.49 trillion. The distinction between funded social-security assets and other government accounts matters when assessing the larger current financing shortfall.\n\nSingapore's May manufacturing output increased 13.0% over a year, led by electronics at 35.8% and precision engineering at 32.2%. Total output nevertheless fell 0.7% on a seasonally adjusted monthly basis. Biomedical production declined 24.2% annually, chemicals 11.5% and transport engineering 5.0%. The AI and semiconductor-equipment boom remained strong, but the growth was concentrated.\n\n### Developments After the New York Close\n\nIn a Saturday presentation, Isabel Schnabel warned of upside risks across food, goods and services and said further rate increases were expected to return inflation to 2%. She saw no sign of wage pressure and acknowledged that the peace agreement had reduced adverse risks. Her remarks placed a hawkish counterpoint beside Friday's reduction in market pricing ahead of the next inflation releases.\n\nFrance's state auditor said in a Saturday account that the government lacked a credible spending path to cut its deficit from 5.1% of output last year to 3% by 2029. The assessment adds to the debate over issuance and fiscal room before the 2027 presidential election.\n\nIn Britain, Andy Burnham's rise revived proposals for retail defense or “war” bonds. Households put roughly £70 billion into ISAs each year, and supporters argued that a tax-advantaged defense instrument could raise another £20 billion. Critics, including the outgoing prime minister, emphasized that the money would still be borrowing. A dedicated retail channel could add buyers while leaving the debt, interest and fiscal-rule choices intact.\n\nA Chinese release after the close showed large industrial companies' profits up 18.8% over January-May and 21.1% in May alone. Receivables rose 7.7%, finished-goods inventories 8.8%, and the asset-liability ratio edged up to 58.2%. The profit gain came alongside more money tied up in customer payments and stock, and a slightly higher debt ratio.\n\n## Nigeria's Dollar Swap Brings Cash and Margin Risk\n\nNigeria drew about $1.5 billion during the preceding weeks from a $5 billion total-return swap with First Abu Dhabi Bank, pledging naira securities worth 133.3% of the borrowing. The first tranche costs SOFR plus 395 basis points, rising to 400 thereafter. The money is intended to refinance expensive debt and fund the budget deficit. External debt stood at $51.9 billion at end-December.\n\nThe financing also creates exposure to dollar margin calls. Fitch warned that higher domestic yields or a weaker naira could require additional dollar payments, intensifying FX pressure. The IMF identified possible limits on monetary and exchange-rate policy, and Angola and Senegal had used similar structures. Nigeria gained cash outside a conventional bond sale, with local collateral and dollar obligations now linked through the swap.\n\nUS rates were becoming a stronger common influence on local EM markets. The 30-day correlation between five-year US and Latin American yields rose to 0.49 from 0.10 at the end of February; Mexico's relationship exceeded 0.8 in June. Turkey and Colombia also remained sensitive to foreign capital. Lower oil gives importers more inflation room, but a strong dollar can make central banks reluctant to use it.\n\nSenegal's 2033 dollar bonds rose half a cent to 53.73 after the government outlined a deficit path from 5.4% of GDP in 2026 to 4.9% in 2027 and the regional 3% ceiling in 2029. The IMF still required an international private-sector audit, completion of an arrears review and stronger spending-commitment controls. Undisclosed liabilities had led it to suspend a $1.8 billion program in 2024; public-sector debt was later estimated at 132% of GDP at end-2024. The new targets improved direction, while the verified starting position remained essential to any settlement.\n\nLebanon's defaulted bonds traded near 25 cents on the dollar, about five cents below their prewar high, after a 432% rally from September 2024 to March 2026. The state has paid nothing since defaulting on roughly $31 billion in March 2020, and banking losses have been estimated near $80 billion. Expectations of haircuts capped around 70% faced renewed war damage and delayed bank restructuring. Losses still had to be divided among the sovereign, central bank, commercial banks and depositors.\n\nEMB eased 0.02% to $96.54 while DXY slipped 0.07% to 101.36, still up 0.51% over a week and 2.21% over a month. Separately, the Bloomberg dollar gauge had gained about 2% in June and 1.6% for the year. Some private forecasts called for another 5% advance by year-end or about 2% in the third quarter. Those outlooks describe a risk to dollar borrowers, rather than a change already realized in their debt-service costs.\n\n## Technology Weakness Spreads Through Concentrated Benchmarks\n\nSouth Korea's Kospi fell 5.8% before the technology selloff reached US shares. The Philadelphia Semiconductor Index lost 5.29% and the Nasdaq 100 declined 1.09%, while the S&P 500 slipped only 0.05% to 7,354.02. Investors questioned valuations and returns on hyperscaler spending, alongside concern about possible delays to a major AI listing. The broad index's small loss concealed a much larger move in the investment cycle's leading companies.\n\nThe MSCI Emerging Markets Index fell 2.8% Friday and 4.4% over the week. The median EM ETF held roughly 30% in semiconductors and almost half in South Korea and Taiwan; separately, information technology accounted for nearly 37% of the MSCI index in late April. Such weightings can carry a chip repricing across portfolios that span countries with very different sovereign and commodity fundamentals.\n\nVIX fell 2.54% to 18.41 despite the semiconductor decline, though it was still 12.26% higher over a week. Investors were not bidding up broad equity protection at the close. That helped limit the interpretation of the Treasury rally as a general growth scare.\n\nWTI fell 3.74% to $69.23, down 9.62% over a week, while Brent lost 4.34% to $71.99 and nearly 10% over the week. Continued tanker traffic reduced concern that Thursday's attack would restore a lasting shortage. Gold rose 1.20% to $4,078.70 but remained down 3.44% weekly and 9.37% monthly. Oil's renewed decline was the clearer inflation signal, alongside the small fall in 10-year breakevens.\n\n## Labor Data, European Inflation and the Holiday Funding Calendar\n\nThe Dallas Fed manufacturing survey opens the US sequence June 29 at 10:30 ET. JOLTS and consumer confidence follow June 30, ADP employment and ISM manufacturing July 1, then June payrolls and initial claims July 2 at 8:30. Hiring, vacancies, wages and factory prices will help assess whether the week's lower real yields fit the incoming demand picture.\n\nSpain's flash CPI and the opening of the ECB Forum in Sintra arrive June 29, German inflation June 30 and euro-area flash HICP July 1. After lower oil and household expectations reduced market pricing for another increase, the national and aggregate readings will give the ECB a more current view of core services, food and energy pressure.\n\nTreasury sells $92 billion of 13-week and $79 billion of 26-week bills Monday, then $80 billion of six-week bills Tuesday. Seventeen-week supply follows Wednesday, with four- and eight-week auctions Thursday before the recommended 14:00 ET early close; fixed-income markets are closed July 3. The quarter-end sequence includes July 2 settlement. Auction participation and cash yields will show how readily the market finances it while also absorbing the labor report in a shortened session.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries advanced on June 26 as another sharp fall in oil, cooler inflation-expectations measures and renewed technology-sector stress outweighed evidence that the Federal Reserve remains far from declaring victory over inflation. The rally was concentrated in intermediate maturities: the 2-year yield fell 3.1 basis points to 4.093%, the 5-year declined 3.7 basis points to 4.129% and the 10-year dropped 2.3 basis points to 4.371%, while the 30-year yield edged 0.3 basis point higher to 4.865%.\n\nThat distribution left the market with a modestly steeper curve despite lower yields through 10 years. The 2s10s spread widened 0.8 basis point to 27.8 basis points, and 2s30s steepened 3.4 basis points to 77.2 basis points. The long bond’s underperformance showed that relief from the immediate energy shock and demand for protection against the technology selloff did not remove longer-term inflation, supply and term-premium risk.\n\nThe 10-year decomposition was consistent with a measured disinflation trade rather than a wholesale retreat from the Fed’s tightening bias. The real yield fell 2.1 basis points to 2.159%, while the breakeven inflation rate eased only 0.2 basis point to 2.212%. A New York Fed research measure put underlying inflation at 3.4% in May, down from a revised 3.7%, and the University of Michigan survey lowered its longer-run household inflation expectation to 3.3% from 3.4%. Those signals supported the belly of the Treasury curve, but both remained above levels compatible with an uncomplicated return to the Fed’s 2% objective.\n\nOil provided the strongest market relief. WTI fell 3.74% to $69.23 and Brent dropped 4.34% to $71.99 as tankers continued moving through the Strait of Hormuz despite the previous day’s attack on a container ship. The declines took the benchmarks’ weekly losses to roughly 9.6% and 9.8%, respectively. That reduced the prospective headline-inflation impulse, even as Minneapolis Fed President Neel Kashkari said broader price pressure had led him to project one rate increase this year.\n\nTechnology markets supplied a separate demand impulse for Treasuries, but not a generalized flight from risk. The PHLX Semiconductor Index plunged 5.29%, the Nasdaq 100 fell 1.09% and emerging-market equities suffered their worst week in more than 3 months. The S&P 500 nevertheless finished almost unchanged as gains outside the largest technology companies offset the rout in chips. In credit, broad listed funds were also comparatively stable, while SpaceX’s newly issued long bonds sustained unusually large losses relative to Treasuries. The session was therefore defined by selective repricing: intermediate government bonds benefited from lower energy and inflation pressure, but long-duration sovereign and corporate exposures continued to demand compensation for policy and financing uncertainty.\n\n## Inflation Relief Favors the Treasury Belly\n\nThe 5-year sector led the Treasury rally because the day’s evidence softened the immediate inflation outlook without requiring investors to assume that the next policy move must be either an imminent increase or a rapid return to easing. Its 4.129% yield was 10.4 basis points lower over the week, compared with weekly declines of 8.7 basis points in the 2-year, 8.4 basis points in the 10-year and 3.4 basis points in the 30-year.\n\nThe New York Fed’s Multivariate Core Trend estimate delivered the clearest incremental disinflation signal. The measure declined to 3.4% in May from an April reading revised down to 3.7%. Its 68% probability band remained wide at 3.0%-3.9%, and the estimate is a research model rather than an official Federal Reserve forecast, but the improvement extended across the major components.\n\nServices excluding housing remained the largest source of excess trend inflation, contributing 0.83 percentage point above its pre-pandemic average, down from 0.91 point in April. The corresponding contribution from core goods fell to 0.59 point from 0.67, while housing’s contribution declined to 0.16 point from 0.24. The breadth of those decreases mattered because the Fed’s concern has shifted from a discrete energy shock toward persistence across goods and services. The model still placed underlying inflation materially above target, but it did not show that persistence worsening again in May.\n\nThe final University of Michigan survey supplied a compatible household signal. Respondents’ expected inflation over the next 5 to 10 years eased to 3.3% from 3.4%, while sentiment improved but remained near a record low. The revision helped U.S. equities pare an earlier decline and reduced concern that the energy shock was becoming further embedded in long-run expectations. It did not establish that expectations had normalized, particularly after more than 5 years of inflation above the Fed’s objective.\n\nGrowth evidence left less room for a strong recession interpretation of the Treasury rally. The New York Fed staff’s second-quarter real-GDP nowcast edged up to 2.71% from 2.68% on June 19. Its 50% probability interval extended from 1.66% to 3.88%, and the 80% interval from 0.55% to 4.89%, underscoring the uncertainty around the point estimate. The model incorporated new data on consumption, income, durable goods, housing and inventories, and remains a staff research output rather than an official New York Fed or FOMC forecast.\n\nA separate survey of 86 economists conducted June 19-24 similarly described an economy with persistent inflation and firmer employment rather than an abrupt demand break. Respondents raised their forecast for fourth-quarter core PCE inflation to 3.2% from a year earlier, while leaving the overall inflation estimate at 3.5%. They lowered projected unemployment and increased job-growth estimates following stronger employment gains. The median forecast kept the Fed on hold until a rate cut in June 2027, although some respondents expected an increase before the end of 2026. Average growth for the year was put at 2.1%, with the second-quarter estimate revised higher.\n\nKashkari’s comments demonstrated why softer research measures produced a rally without reopening a broad easing trade. The Minneapolis Fed president said widespread inflation, not merely the Middle East energy shock, led him to include one increase in his June projection. He pointed to the 4.1% annual rise in May PCE prices and the spread of price increases across categories. Nine of the Fed’s 19 policymakers projected at least one increase this year, leaving Kashkari within a substantial tightening contingent rather than as an isolated dissenter. His preference was explicitly tied to evidence of broader pressure and inflation remaining above target.\n\nCash trading was active but lighter than on June 25. FINRA recorded $971.6 billion of Treasury par activity, down 21.5% from the preceding session, with nominal-coupon activity falling 21.4% to $746.6 billion. Turnover declined 24.8% in maturities above 3 and through 5 years, 20.9% beyond 7 and through 10 years, and 33.5% beyond 20 years. The figures describe two-way transactions rather than buying or selling direction, but they show that the rally and curve steepening occurred on reduced activity after the previous day’s data and auction adjustments.\n\nThe weekly futures-positioning snapshot showed substantial opposing exposures before Friday’s move. As of June 23, asset managers were net long 2.91 million 5-year Treasury futures contracts, while leveraged funds were net short 2.17 million. In 2-year futures, asset-manager net longs increased by 192,984 contracts over the week to 2.02 million, while leveraged funds’ net short position stood at 1.79 million. The data do not establish Friday’s flow or investor motive, but the scale of those positions helps explain why changing assumptions about inflation and the Fed can generate pronounced adjustments around the front end and belly.\n\n## Cheaper Oil Reprices Europe, but Hawkish Conditions Survive\n\nThe renewed fall in crude extended a dramatic reversal in the inflation shock. Tankers continued transiting Hormuz in both directions on Friday, including loaded vessels leaving the Persian Gulf and empty carriers sailing inbound along the Omani coast. The flow persisted even after the Ever Lovely was struck by an unidentified projectile on Thursday, the first reported attack since the interim U.S.-Iran peace agreement.\n\nSome owners and captains reconsidered passage, but the attack did not stop the gradual normalization of traffic. Brent traded around $74 during Friday’s international session before closing in New York at $71.99. The physical evidence that cargoes were still moving carried more weight for near-term inflation than the day’s continued geopolitical uncertainty, taking Brent’s 1-month decline to 27.71% and WTI’s to 26.26%.\n\nEuropean rate markets responded by reducing the expected scope of ECB tightening. For the first time since April, traders no longer priced a full 25-basis-point increase by the end of 2026, after nearly four increases had briefly been contemplated during the early phase of the U.S.-Iran war. The 2-year euro-area inflation-swap rate returned below 2.2%, compared with more than 3% in April, and Germany’s 10-year yield fell 1 basis point to 2.85%, its lowest since March 10.\n\nThe ECB’s consumer survey reinforced the repricing. Euro-area households expected prices to rise 3.5% over the following year in May, down from 4% in April. Expectations 3 years ahead stayed at 2.9%, however, and the 5-year measure remained at 2.4%. The poll ran from May 7 to June 1, before the U.S.-Iran agreement and subsequent fall in oil. It therefore showed near-term relief before the latest energy reversal, while the unchanged longer-horizon readings preserved concern about inflation becoming embedded.\n\nConsumers also expected the economy to contract 1.7% over the coming year, less severe than the 2.2% decline anticipated in April. Their expected unemployment rate edged up to 11.3%. That combination—less pessimism on growth, a sharp fall in 1-year inflation expectations and still-elevated longer-term measures—supports a slower tightening path more directly than it supports an immediate end to the ECB debate.\n\nThe next inflation readings are expected to show euro-area headline price growth slowing to about 3% in June from 3.2%, with declines forecast in Spain, France and Germany and an increase in Italy. Core inflation is expected to remain at 2.6%. That split is central to the policy argument: falling energy can quickly reduce the headline rate, but officials concerned about services and second-round effects still need evidence that underlying pressure is following.\n\nECB Executive Board member Isabel Schnabel preserved that qualification in comments released Saturday, after the U.S. close. She said food, goods and services inflation all faced upside risks and that the earlier energy shock could feed into broader pricing. Although the peace agreement made adverse scenarios less likely, she expected oil to remain persistently higher as Hormuz reopened gradually and reiterated that further rate increases may be needed to restore 2% inflation. She also said there was no sign of wage pressure yet, narrowing the current concern to prospective pass-through rather than an established wage-price spiral.\n\nThe changing relative-rate outlook continued to support the dollar over a longer horizon despite its 0.07% decline on Friday. The U.S. Dollar Index ended at 101.36, up 0.51% over the week and 2.21% over the month. Banks including JPMorgan, Morgan Stanley and Bank of New York Mellon cut euro forecasts, with several seeing scope for the common currency to approach $1.10 over the next year as markets priced a more hawkish Fed and less ECB tightening. The forecasts remain conditional on the Fed delivering enough policy restraint to validate the rate differential; crowded bullish-dollar positioning and the retreat in oil could slow the move.\n\nThe geopolitical picture changed twice after the completed fixed-income close. The Pentagon said the U.S. struck Iranian missile and drone storage sites and coastal radar installations late Friday. By Sunday, the U.S. and Iran had agreed to halt retaliatory strikes and planned talks in Qatar on Tuesday, according to Axios. Those later developments cannot explain Friday’s Treasury close, but they define the next starting point for energy and inflation pricing: crude relief depends not only on visible tanker traffic, but also on whether the renewed truce survives negotiations over Hormuz and the wider conflict.\n\n## Technology Stress Moves From Equities Into Long-Dated Credit\n\nThe technology selloff remained concentrated enough to leave the broad equity index almost unchanged but was severe in the markets most exposed to the AI infrastructure cycle. The semiconductor index dropped 5.29% on Friday and 7.94% over the week. The Nasdaq 100 lost 1.09%, while the S&P 500 slipped less than 0.05%. South Korea’s Kospi fell 5.8%, helping drive the MSCI emerging-market equity benchmark down 2.8% for the day and 4.4% for the week, its worst weekly performance in more than 3 months.\n\nThe pressure reflected a growing distinction between suppliers enjoying present scarcity and companies funding future capacity. Apple’s product-price increases highlighted the transmission of memory and storage shortages into consumer costs. Reports that OpenAI could delay its initial public offering weakened the expected timetable for investors in its ecosystem. Memory producers and other infrastructure suppliers still possessed pricing power, but hyperscalers and software companies faced harder questions about the amount and timing of returns on capital spending.\n\nFor bond investors, the clearest expression was the continued deterioration in SpaceX’s $25 billion debut offering. Paper losses relative to Treasuries increased to about $360 million by Friday afternoon. One dealer quoted the 2056 bonds as much as 28 basis points wider than their issue spread of 175 basis points over Treasuries. The long maturities effectively erased all the pricing improvement achieved by underwriters after initial orders had approached $90 billion.\n\nThe selling was most pronounced in the 20- and 30-year bonds, while demand at issuance had been strongest for the 5-year tranche. Traders attributed part of the reversal to fast-money accounts that entered the deal expecting an early gain and then sold when that tightening failed to materialize. Potential hedge adjustments and the unusual scale of the offering may also have contributed. Whatever the technical mix, the magnitude distinguished SpaceX from other recent large technology deals.\n\nNvidia’s 2046 and 2056 bonds, for example, had widened about 8 basis points from issuance, while longer-dated Alphabet securities sold earlier in the year had tightened. SpaceX entered the investment-grade market despite expectations of years of negative cash flow and dependence on Elon Musk that Fitch described as an important ratings constraint. Its equity had stabilized after falling sharply before the bond sale, leaving the debt weakness as a specific reassessment of creditor compensation rather than a mechanical response to another same-day collapse in the shares.\n\nThe broader technology-credit backdrop also weakened. Risk premiums on U.S. high-grade technology bonds reached 79 basis points as of Thursday, compared with 74 basis points at the end of May. June’s record $175 billion of U.S. investment-grade supply through Tuesday had already challenged buyers, and the prospect of further AI-related borrowing increased concern that even strongly rated issuers may need to pay wider concessions.\n\nEquity issuance does not necessarily reduce that concern. Alphabet sold $85 billion of stock during the month, and SpaceX completed a record $75 billion initial public offering. Those transactions increase the capital cushion beneath bondholders, but investors also interpreted them as evidence that the industry’s spending requirements are growing faster than earlier assumptions.\n\nJPMorgan now estimates that AI and data-center expenditure will reach $5.5 trillion through 2030, about $400 billion more than its November forecast. The bank expects $2.1 trillion of data-center financing to be raised in high-grade bond markets over the next 5 years, up from a previous estimate of $1.5 trillion. The revision turns the question from whether AI investment supports economic growth to how much duration and issuer concentration credit markets must absorb before the underlying projects generate cash.\n\nSpaceX illustrates the tension. The company reported $100.8 billion of cash, but S&P Global Ratings expects it to consume about $113 billion through the end of next year and roughly another $90 billion in 2028. Additional debt or equity may therefore be needed despite the exceptionally large capital raises already completed. Bondholders benefit when new shares absorb risk, but their upside remains limited while they retain exposure to decades of technology, execution and refinancing uncertainty.\n\nBroad credit did not show comparable distress on Friday. The LQD investment-grade fund was unchanged, while the HYG and JNK high-yield funds each slipped about 0.06%. The EMB emerging-market debt fund declined 0.02%. Those small moves, beside the collapse in semiconductor shares and SpaceX’s widening, showed investors discriminating between a capital-intensive technology financing cycle and general corporate-credit conditions.\n\nThe week nevertheless revealed a broader fragility around leveraged exposure. Financing costs for U.S. equities rose to their highest since December 2024 as leveraged exchange-traded products, large futures positions, prime-broker balances and major share offerings consumed bank capacity. The resulting leverage can amplify relatively small price moves when funding tightens or crowded positions unwind. Friday’s market did not become a generalized liquidity event—the VIX actually fell 2.54% to 18.41—but the interaction between equity leverage, capital expenditure and credit supply has become more important to the rates outlook because it affects both financial conditions and the scale of prospective borrowing.\n\n## Sovereign Funding Trades Carry Their Own Collateral Risks\n\nNigeria obtained about $1.5 billion in recent weeks from the first draw under a $5 billion total-return swap with First Abu Dhabi Bank. The proceeds will help refinance expensive obligations and cover a budget deficit, but the structure replaces conventional unsecured borrowing with a collateralized exposure that can create foreign-exchange pressure.\n\nNigeria will provide naira-denominated securities worth 133.3% of the loan as collateral. The first tranche is priced at 395 basis points over the Secured Overnight Financing Rate, with subsequent borrowing at SOFR plus 400 basis points. Lawmakers described those terms as competitive when approving the transaction in April, but the all-in cost will continue to vary with dollar rates and the collateral arrangement.\n\nThe International Monetary Fund has warned that parts of the deal could constrain monetary or exchange-rate policy. Fitch said dollar margin calls against naira collateral could generate foreign-exchange pressure if domestic yields rise or the currency weakens. Moody’s has argued that comparable swaps introduce risks absent from traditional commercial borrowing. The distinction is important for a sovereign with $51.9 billion of external debt at the end of December: the cash arrives immediately, while the future funding demand can rise precisely when local markets or the exchange rate are under stress.\n\nJohannesburg met a bond obligation under very different pressure. The city repaid a 1.44 billion rand, or $88 million, bond carrying an 11.455% annual coupon. Issued in 2016, it completed redemption of the municipality’s 30 billion rand domestic medium-term-note program. Payment put bondholders ahead of other creditors even as the city owed state power and water utilities hundreds of millions of dollars and lacked funds for road-maintenance fuel.\n\nFinance Minister Enoch Godongwana threatened to withhold 8 billion rand of annual state funding because Johannesburg signed a 10.3 billion rand wage agreement that he considers illegal and unaffordable. Mayor Dada Morero was given until Friday to explain why the transfer should continue. The municipality is also considering new bond sales to address a 220 billion rand maintenance backlog. Repayment of the maturing security demonstrated a willingness to protect market access, but it did not resolve the mismatch between operating resources, wage commitments and infrastructure needs.\n\nCanada’s first-quarter public accounts presented a less acute but still divided fiscal picture. The general-government deficit widened by C$1.5 billion from a year earlier to C$16.4 billion, or 2.1% of GDP, compared with 1.9%. The federal deficit increased C$3.3 billion to C$19.4 billion, while the aggregate provincial and territorial shortfall narrowed C$5.2 billion to C$18.2 billion.\n\nHeadline general-government net debt fell C$26 billion, or 4.6%, to C$538.1 billion and declined to 16.5% of GDP from 17.9%. Excluding social-security funds, however, net debt rose 4.3% to C$1.49 trillion, equivalent to 45.6% of GDP. The accounting difference separates a favorable consolidated balance-sheet measure from the borrowing burden more directly associated with federal and provincial budgets.\n\nAsian releases over the weekend added evidence of strong industrial activity with uneven cash-flow quality. China’s large industrial enterprises reported an 18.8% increase in profits during January-May to CNY3.144 trillion, with May alone up 21.1% from a year earlier. Mining profits rose 33.5% and manufacturing profits 20%, while utilities declined 2.7%. Revenue increased 5.5%, costs rose 4.7% and the profit margin improved 0.63 percentage point to 5.56%.\n\nThe balance-sheet detail was less uniformly strong. Receivables grew 7.7%, finished-goods inventories increased 8.8% and the aggregate asset-liability ratio rose 0.3 percentage point to 58.2%. The release, published after Friday’s U.S. close, supports the regional growth and corporate-earnings outlook but also shows more working capital tied up in unpaid bills and inventories.\n\nSingapore’s May manufacturing report displayed a similarly concentrated expansion. Output increased 13% from a year earlier but fell 0.7% on a seasonally adjusted monthly basis. Excluding biomedical manufacturing, production rose 17.7% annually and 3.1% on the month. Electronics grew 35.8% and precision engineering 32.2%, led by AI-related demand and semiconductor equipment. Biomedical output contracted 24.2%, chemicals declined 11.5% and transport engineering fell 5%. The result reinforced the strength of the Asian technology-capital cycle while showing why its contribution to broader demand cannot be treated as uniform.\n\nEmerging-market assets remain sensitive to the U.S. rate backdrop even where lower oil improves domestic inflation. The 30-day correlation between U.S. 5-year yields and comparable Latin American yields increased to 0.49 from 0.10 at the end of February; for emerging Europe, the Middle East and Africa, it rose to 0.43 from 0.03. The U.S.-Mexico 5-year correlation exceeded 0.8 during June. A stronger dollar and higher U.S. real rates can therefore offset cheaper energy by tightening external financing conditions, particularly for economies dependent on portfolio inflows.\n\nThat tension was visible in Colombia, where sovereign spreads over Treasuries widened each day during the week after narrowing ahead of the presidential election. Senegal’s dollar bonds, by contrast, advanced after the government announced plans to reduce its budget deficit beginning next year. Lower oil offers broad relief to importers, but the session’s issuer-level moves—from Nigeria’s collateralized swap to Johannesburg’s repayment and Colombia’s post-election reversal—showed that fiscal execution and funding structure remained decisive.\n\n## Forward Market Significance\n\nThe first European tests arrive June 29. Spain’s flash CPI is due at 03:00 ET, followed by the European Commission’s business and consumer survey at 05:00 ET. Spain’s inflation rate is expected to ease from 3.6%, while the commission survey will add detail after flash euro-area consumer confidence registered -17.7. The releases will indicate whether lower energy is producing broad enough relief to validate the reduction in ECB hike pricing.\n\nThe ECB Forum on Central Banking begins in Sintra at 15:00 ET on June 29 and continues through July 1. Policymakers must reconcile the fall in oil and short-term household inflation expectations with core inflation expected to remain at 2.6% and longer-run expectations still above target. The important distinction will be whether officials treat those persistent measures as grounds for another increase or as reasons to hold the deposit rate at 2.25% while the energy reversal works through prices.\n\nThe U.S. calendar opens June 29 with the Dallas Fed manufacturing survey at 10:30 ET. Treasury then auctions $92 billion of 13-week bills and $79 billion of 26-week bills at 11:30, both settling July 2. An $80 billion 6-week bill sale follows June 30, with 17-week supply on July 1 and regular 4- and 8-week auctions on July 2. The concentrated quarter-end schedule will test cash demand across the holiday funding window without a fixed-rate coupon auction to provide a comparable duration signal.\n\nJune 30 brings U.S. JOLTS vacancies and Conference Board consumer confidence at 10:00 ET, followed by the Dallas Fed’s retail survey at 10:30. Japan releases May unemployment and industrial production earlier in the Asian day, while the Reserve Bank of Australia publishes minutes from its June meeting. China’s official manufacturing, nonmanufacturing and composite PMIs, previously at 50.0, 50.1 and 50.5, will provide the first broad June check on whether the profit improvement at large industrial companies is translating into wider activity.\n\nGermany’s unemployment report and flash CPI are also due June 30, alongside the U.K.’s final first-quarter national accounts and current-account figures. The preliminary U.K. estimate showed real GDP growth of 0.6% from the preceding quarter. Germany’s releases will be particularly important for Bunds because weaker industrial prospects and lower energy prices are competing with concern that food, services and goods inflation may remain persistent.\n\nJuly 1 concentrates the global manufacturing and inflation signals. The Bank of Japan’s Tankan will update corporate conditions, price expectations and investment plans after the BOJ’s June increase. Euro-area flash inflation follows at 05:00 ET. Final manufacturing PMIs, ADP employment, the New York Fed’s labor-market-tightness indicators, U.S. construction spending and ISM manufacturing then run from 08:15 through 10:00 ET. The combination will test whether resilient production and AI-related investment are still generating enough employment and price pressure to sustain expectations for higher policy rates.\n\nThe principal U.S. rates catalyst is the holiday-shifted employment report at 08:30 ET on July 2, released with initial jobless claims. June payrolls, unemployment and wages will determine whether the Fed’s inflation concern is being reinforced by demand or moderated by a weaker labor market. May factory orders follow at 10:00. The data arrive before the 11:30 bill auctions and a SIFMA-recommended 14:00 early close; fixed-income markets are closed July 3. That compressed session will leave less time to absorb a material labor surprise or renewed geopolitical escalation.\n\nEnergy remains the common conditional risk. The EIA petroleum report for the week ended June 26 is due July 1 at 10:30 ET, while U.S.-Iran talks are planned in Qatar on Tuesday. Continued shipping and a durable halt to strikes would reinforce the decline in headline inflation pressure. Another attack, new restrictions on Hormuz traffic or disagreement over transit terms would challenge a Treasury rally whose inflation-compensation component barely declined on June 26, leaving the long end particularly exposed to any renewed energy premium.\n",
     "section_summaries": [
       {
+        "market_read": "The 10-year move came mainly through real yields; breakevens barely eased, limiting the disinflation signal.",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Five-Year Treasuries Lead as Inflation Expectations Ease",
-        "summary": "Oil and inflation measures fell, supporting five-year Treasuries. The 30-year yield rose, while SpaceX's long bonds and technology shares weakened.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The close produced a selective rally centered on intermediate Treasuries. Falling crude, softer inflation measures and technology stress lowered yields through 10 years, but the 30-year yield rose and the curve steepened as longer-term inflation, supply and financing risks remained. Stable broad credit and an almost unchanged S&P 500 showed that the move was not a generalized flight from risk."
       },
       {
+        "market_read": "Softer inflation evidence favored the belly without requiring investors to price either an imminent increase or rapid easing.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Softer Price Measures Support the Belly, Not the Long Bond",
-        "summary": "Michigan expectations and the New York Fed core trend eased, but growth estimates held up. Kashkari backed a hike; weekend views added policy and positioning context.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Inflation Relief Favors the Treasury Belly",
+        "summary": "The 5-year sector led as the New York Fed’s underlying-inflation estimate fell to 3.4% and longer-run household expectations eased to 3.3%. The improvement spanned goods, housing and services, but inflation remained above target. Firmer growth and employment estimates, alongside Kashkari’s projection of one increase and a substantial Fed tightening contingent, kept the rally from becoming a broad easing trade."
       },
       {
+        "market_read": "Cheaper energy supports slower tightening more directly than it establishes an end to the ECB’s inflation debate.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "SpaceX's Long Bonds Lose Ground After the Jumbo Sale",
-        "summary": "SpaceX's relative losses reached about $360 million. Johannesburg repaid a bond, Huachen sought another extension, and Corus and Thames Water faced control and funding decisions.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Cheaper Oil Reprices Europe, but Hawkish Conditions Survive",
+        "summary": "Continued tanker traffic through Hormuz extended crude’s reversal and reduced expected ECB tightening. Euro-area households lowered their 1-year inflation outlook to 3.5%, while 3- and 5-year expectations stayed elevated. Markets no longer priced a full 25-basis-point increase by the end of 2026, but persistent core inflation and concern about broader energy pass-through kept another increase under debate."
       },
       {
+        "market_read": "SpaceX’s debt weakness reflected a specific reassessment of creditor compensation, not generalized credit stress.",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "European Expectations Ease, With Fiscal Questions Still Ahead",
-        "summary": "European near-term inflation expectations eased. Canadian fiscal accounts, Asian output and later weekend policy and fiscal news added distinct risks and opportunities.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Technology Stress Moves From Equities Into Long-Dated Credit",
+        "summary": "The technology selloff was concentrated in semiconductors and AI infrastructure rather than the broad market. SpaceX’s long bonds widened sharply after its $25 billion debut as investors reassessed duration, negative cash flow and refinancing exposure. Record investment-grade supply and higher estimates for AI financing increased concern about future concessions, although broad credit funds showed little comparable distress."
       },
       {
+        "market_read": "Cheaper oil can aid importers, but higher U.S. real rates, a stronger dollar and collateral demands can offset that relief.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "Nigeria's Dollar Swap Brings Cash and Margin Risk",
-        "summary": "Nigeria's dollar swap carries collateral and margin risk. Senegal outlined new deficit targets, while Lebanon's distressed rally still depended on unresolved loss sharing.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Sovereign Funding Trades Carry Their Own Collateral Risks",
+        "summary": "Nigeria drew about $1.5 billion under a collateralized swap that can create dollar margin calls against naira assets, while Johannesburg repaid an expensive bond despite strained utilities, wages and infrastructure funding. Canada’s consolidated net-debt improvement masked higher debt excluding social-security funds. Strong Chinese and Singaporean industrial data came with weaker balance-sheet or sector breadth, while issuer-level EM moves kept fiscal execution and funding structure decisive."
       },
       {
+        "market_read": "The July 2 early close leaves less time for rates markets to absorb a material labor surprise or geopolitical escalation.",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Technology Weakness Spreads Through Concentrated Benchmarks",
-        "summary": "Chip losses spread through concentrated EM benchmarks, while the broad US index barely fell. VIX eased, oil declined sharply and gold rose.",
-        "market_read": "",
-        "next_check": ""
-      },
-      {
-        "section_id": "section-07",
-        "section_title": "Labor Data, European Inflation and the Holiday Funding Calendar",
-        "summary": "US hiring and factory data precede July 2 payrolls. European inflation and Sintra coincide with quarter-end bills, July 2's early close and July 3's closure.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Forward Market Significance",
+        "summary": "European inflation releases and the ECB’s Sintra forum will test whether energy relief is broad enough to sustain reduced hike pricing. U.S. labor data culminate in the July 2 employment report during a shortened session, while China’s PMIs and global manufacturing surveys will gauge whether industrial resilience still supports price and employment pressure. Hormuz traffic, U.S.-Iran talks and petroleum data remain the common energy condition."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Labor",
+        "consensus": "no consolidated point-in-time survey block retained",
+        "date": "2026-06-30",
+        "event_key": "jolts",
+        "id": "macro-upcoming-09b573ced787",
+        "period": "May labor turnover; June surveys",
+        "time": "10:00 and 10:30",
+        "title": "JOLTS, Conference Board Consumer Confidence and Dallas Fed Texas Retail Outlook Survey"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 2017329,
+          "asset_manager_net_change": 192984,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1787552,
+          "leveraged_fund_net_change": -82735,
+          "open_interest": 4536973,
+          "open_interest_change": 233320,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2909369,
+          "asset_manager_net_change": 33347,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2165573,
+          "leveraged_fund_net_change": 49037,
+          "open_interest": 6212973,
+          "open_interest_change": 5250,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2394087,
+          "asset_manager_net_change": -90914,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -1938747,
+          "leveraged_fund_net_change": 143489,
+          "open_interest": 5271748,
+          "open_interest_change": -52842,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 623852,
+          "asset_manager_net_change": 218,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -248756,
+          "leveraged_fund_net_change": -14771,
+          "open_interest": 2439582,
+          "open_interest_change": 10982,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 599824,
+          "asset_manager_net_change": 52793,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -350946,
+          "leveraged_fund_net_change": -40633,
+          "open_interest": 1975001,
+          "open_interest_change": 30819,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1155082,
+          "asset_manager_net_change": -7999,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -925550,
+          "leveraged_fund_net_change": 13224,
+          "open_interest": 2479290,
+          "open_interest_change": 6514,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-06-23",
+      "published_date": "2026-06-26"
+    },
+    "treasury": {
+      "comparison_date": "2026-06-25",
+      "observation_date": "2026-06-26",
+      "par_change_pct": -21.4805,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": -21.4188,
+          "par_usd_bn": 746.6,
+          "trade_count": 253330
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 3.7543,
+          "par_usd_bn": 30.4,
+          "trade_count": 3361
+        },
+        {
+          "key": "bills",
+          "par_change_pct": -24.3444,
+          "par_usd_bn": 193.3,
+          "trade_count": 60491
+        },
+        {
+          "key": "frns",
+          "par_change_pct": -50.0,
+          "par_usd_bn": 1.3,
+          "trade_count": 146
+        }
+      ],
+      "total_par_usd_bn": 971.6,
+      "total_trade_count": 317328
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +796,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.07% (-2 bp) | UST 5Y 4.12% (-3 bp)",
-      "UST 10Y 4.38% (-2 bp) | UST 30Y 4.87% (+1 bp)",
-      "10Y TIPS real yield 2.18% (-1 bp) | 10Y breakeven inflation 2.2% (-1 bp)",
-      "UST 2s10s curve 31 bp (-0 bp) | UST 2s30s curve 80 bp (+3 bp)"
+      "UST 2Y 4.093% (-3.1 bp) | UST 5Y 4.129% (-3.7 bp)",
+      "UST 10Y 4.371% (-2.3 bp) | UST 30Y 4.865% (+0.3 bp)",
+      "10Y TIPS real yield 2.159% (-2.1 bp) | 10Y breakeven inflation 2.212% (-0.2 bp)",
+      "UST 2s10s curve 27.8 bp (+0.8 bp) | UST 2s30s curve 77.2 bp (+3.4 bp)"
     ],
-    "headline": "Five-year Treasuries lead as oil falls and technology debt weakens",
-    "session_narrative": "Oil's renewed decline and softer inflation measures supported intermediate Treasuries. The five-year yield fell 3 basis points to 4.12%, the 10-year eased 2 to 4.38% and the 30-year rose 1 to 4.87%. Michigan's longer-run inflation expectations slipped to 3.3%, while the New York Fed's core trend estimate fell to 3.4%. Its growth nowcast barely changed, and Kashkari still favored a rate increase this year.\n\nTechnology weakness was much larger than the broad market's decline: semiconductors lost 5.29%, while the S&P 500 was nearly flat. Relative losses on SpaceX's $25 billion bond issue reached about $360 million against Treasuries, with long maturities weaker than five-year debt. Nigeria drew $1.5 billion under a collateralized dollar swap, bringing funding alongside possible dollar margin calls.\n\nEuropean inflation expectations eased, but fiscal accounts and financing debates remained important in Canada, France and Britain. Weekend remarks from Barkin and Schnabel kept inflation vigilance in view for the coming week, while a later Chinese release showed stronger industrial profits alongside rising receivables and inventories. US labor data, European inflation and a holiday-shortened funding calendar will provide the next evidence.",
-    "summary": "The five-year yield fell 3 basis points to 4.12%, while the 30-year rose to 4.87%. Lower inflation expectations and oil supported the belly, but SpaceX's longest bonds continued to lose ground against Treasuries."
+    "headline": "Treasury belly rallies as oil and inflation signals cool, while long-end risks persist",
+    "session_narrative": "Treasuries advanced on June 26 as another sharp fall in oil, cooler inflation-expectations measures and renewed technology-sector stress outweighed evidence that the Fed remains far from declaring victory over inflation. The 2-year yield fell 3.1 basis points to 4.093%, the 5-year declined 3.7 basis points to 4.129% and the 10-year dropped 2.3 basis points to 4.371%, while the 30-year edged 0.3 basis point higher to 4.865%. The resulting curve steepening showed that near-term inflation relief did not remove longer-term inflation, supply and term-premium risk.\n\nWTI fell 3.74% to $69.23 and Brent dropped 4.34% to $71.99 as tankers continued moving through the Strait of Hormuz. A New York Fed measure of underlying inflation declined to 3.4% in May, and longer-run household inflation expectations eased to 3.3%. The 10-year real yield fell 2.1 basis points, while breakeven inflation eased only 0.2 basis point, consistent with a measured disinflation trade rather than a broad retreat from the Fed’s tightening bias. Neel Kashkari’s projection of one rate increase underscored the remaining policy risk.\n\nTechnology stress supplied a separate Treasury demand impulse without becoming a generalized flight from risk. The semiconductor index plunged 5.29%, but the S&P 500 finished almost unchanged and volatility fell. Broad credit remained comparatively stable, while SpaceX’s newly issued long bonds suffered unusually large losses relative to Treasuries, highlighting selective concern about long-duration technology financing.",
+    "summary": "Treasury yields declined through 10 years, led by the 5-year sector, as crude retreated and inflation expectations softened, but the 30-year yield rose as Fed, supply and term-premium risks persisted."
   },
   "report_date": "2026-06-26",
-  "run_id": "daily-fi-newsroom-edit-2026-06-26-13871de0a5b7",
+  "run_id": "daily-fi-simple-2026-06-26-cfdcf198-01bf8e7b",
   "watch_events": [
     {
-      "category": "US data",
-      "date": "June 29-July 2",
-      "id": "watch-01",
-      "market_implication": "The data will test whether the belly's rally fits the underlying demand picture.",
-      "market_trigger": "Read hiring, vacancies, wages and factory prices against the week's lower real yields.",
-      "title": "US labor and manufacturing",
-      "watch_line": "Dallas Fed, JOLTS, confidence, ADP and ISM lead into July 2 payrolls and claims at 08:30 ET."
-    },
-    {
-      "category": "Europe",
+      "category": "Europe rates",
       "date": "June 29-July 1",
-      "id": "watch-02",
-      "market_implication": "The readings will refine pricing for less than a quarter-point of additional ECB tightening.",
-      "market_trigger": "Track core services, food and energy as speakers respond to lower oil and household expectations.",
-      "title": "European inflation and Sintra",
-      "watch_line": "Spanish CPI and the ECB Forum open June 29; Germany follows June 30 and euro-area HICP July 1."
+      "id": "watch-01",
+      "market_implication": "Broad relief would validate reduced hike pricing; persistent core pressure or hawkish guidance would challenge Bund gains.",
+      "market_trigger": "Headline inflation slows while core holds near 2.6%, or officials continue emphasizing persistent price pressure.",
+      "title": "Euro-area inflation and ECB guidance",
+      "watch_line": "Spanish and euro-area inflation, followed by Sintra remarks, will test whether energy relief is broadening."
     },
     {
-      "category": "Treasury funding",
-      "date": "June 29-July 3",
+      "category": "U.S. rates",
+      "date": "July 2",
+      "id": "watch-02",
+      "market_implication": "Strength would revive Fed-tightening pressure and lift yields; weakness would extend the belly-led rally.",
+      "market_trigger": "Payroll and wage strength reinforces demand-driven inflation concern, or labor conditions weaken materially.",
+      "title": "U.S. employment report",
+      "watch_line": "June payrolls, unemployment and wages arrive with jobless claims before a shortened trading session."
+    },
+    {
+      "category": "Energy and inflation",
+      "date": "June 30-July 1",
       "id": "watch-03",
-      "market_implication": "Funding and payroll news arrive in a shortened session, increasing the importance of orderly absorption.",
-      "market_trigger": "Watch participation and cash yields through July 2 settlement; trading closes at 14:00 ET that day and is closed July 3.",
-      "title": "Quarter-end bills and the holiday",
-      "watch_line": "$92 billion of 13-week and $79 billion of 26-week bills precede an $80 billion six-week sale and later short-bill auctions."
+      "market_implication": "Disruption would restore energy and long-end inflation premiums; durable calm would reinforce headline relief.",
+      "market_trigger": "Another attack, new Hormuz restrictions or disagreement over transit terms; alternatively, uninterrupted shipping.",
+      "title": "Hormuz traffic and U.S.-Iran truce",
+      "watch_line": "Track the Qatar talks, tanker passage and the EIA petroleum report for evidence that supply is normalizing."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "-2 bp",
+        "change_1d": "-3.1 bp",
         "change_1m": "+6 bp",
-        "change_1w": "-12 bp",
+        "change_1w": "-8.7 bp",
         "id": "ust2y_ny_close",
-        "last": "4.07%",
-        "reference_type": "ny_close",
+        "last": "4.093%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "-7 bp",
-        "change_1w": "-11 bp",
+        "change_1d": "-3.7 bp",
+        "change_1m": "-4.4 bp",
+        "change_1w": "-10.4 bp",
         "id": "ust5y_ny_close",
-        "last": "4.12%",
-        "reference_type": "ny_close",
+        "last": "4.129%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "-12 bp",
-        "change_1w": "-8 bp",
+        "change_1d": "-2.3 bp",
+        "change_1m": "-11.5 bp",
+        "change_1w": "-8.4 bp",
         "id": "ust10y_ny_close",
-        "last": "4.38%",
-        "reference_type": "ny_close",
+        "last": "4.371%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "-16 bp",
-        "change_1w": "-3 bp",
+        "change_1d": "+0.3 bp",
+        "change_1m": "-15.4 bp",
+        "change_1w": "-3.4 bp",
         "id": "ust30y_ny_close",
-        "last": "4.87%",
-        "reference_type": "ny_close",
+        "last": "4.865%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "-0 bp",
-        "change_1m": "-18 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "+0.8 bp",
+        "change_1m": "-17.5 bp",
+        "change_1w": "+0.3 bp",
         "id": "ust_2s10s_curve",
-        "last": "31 bp",
-        "reference_type": "ny_close",
+        "last": "27.8 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "+3 bp",
-        "change_1m": "-22 bp",
-        "change_1w": "+9 bp",
+        "change_1d": "+3.4 bp",
+        "change_1m": "-21.4 bp",
+        "change_1w": "+5.3 bp",
         "id": "ust_2s30s_curve",
-        "last": "80 bp",
-        "reference_type": "ny_close",
+        "last": "77.2 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
         "change_1d": "-2 bp",
-        "change_1m": "-8 bp",
-        "change_1w": "-2 bp",
+        "change_1m": "-3.3 bp",
+        "change_1w": "-3.7 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-21 bp",
-        "reference_type": "ny_close",
+        "last": "-20.6 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "-14 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "-1.8 bp",
+        "change_1m": "-13.6 bp",
+        "change_1w": "-4.7 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-18 bp",
-        "reference_type": "ny_close",
+        "last": "-21.6 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+8 bp",
-        "change_1w": "-3 bp",
+        "change_1d": "-2.1 bp",
+        "change_1m": "+9 bp",
+        "change_1w": "-2.2 bp",
         "id": "tips10y_ny_close",
-        "last": "2.18%",
-        "reference_type": "ny_close",
+        "last": "2.159%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "-20 bp",
-        "change_1w": "-5 bp",
+        "change_1d": "-0.2 bp",
+        "change_1m": "-20.5 bp",
+        "change_1w": "-6.2 bp",
         "id": "be10y_ny_close",
-        "last": "2.2%",
-        "reference_type": "ny_close",
+        "last": "2.212%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-06-26T17:00:00-04:00"
+        "timestamp": "2026-06-26"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

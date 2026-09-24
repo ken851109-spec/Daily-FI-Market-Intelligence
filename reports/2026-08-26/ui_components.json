@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "Broad bond funds barely moved, while SoftBank's prospective offshore sale widened its CDS and lowered its dollar bond.",
+      "summary": "SoftBank weakened as its prospective jumbo refinancing raised concern about the cost of financing its AI exposure.",
       "title": "Credit",
       "value": "LQD 106.78 (-0.0749%) / HYG 79.9 (-0.025%) / JNK 96.18 (-0.0208%) / EMB 95.31 (-0.0734%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "The dollar rose with real yields. Crude fell on Hormuz diplomacy, but gold gained and European gas remained tight.",
+      "summary": "The dollar firmed as oil fell on Hormuz diplomacy, while gold rose amid persistent inflation and geopolitical uncertainty.",
       "title": "Dollar and commodities",
       "value": "DXY 99.126 (+0.2083%) / WTI 81.84 (-0.6314%) / Brent 86.53 (-2.3143%) / Gold 4677.7002 (+0.8538%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "The S&P 500 was nearly flat and VIX declined, with little sign of a broad retreat from risk.",
+      "summary": "Equities were nearly unchanged as volatility eased, consistent with contained rates repricing rather than a broad risk retreat.",
       "title": "Equities and volatility",
       "value": "S&P 500 7675.7002 (-0.0206%) / Nasdaq 100 29224.5215 (+0.0523%) / SOX 11611.2383 (+0.2002%) / VIX 15.21 (-1.5534%)"
     }
@@ -538,151 +538,321 @@
   "header": {
     "as_of_note": "NY close · 2026-08-26",
     "latest_update_cutoff": "NY close",
-    "stance": "Sticky inflation keeps another Fed increase in play",
+    "stance": "Treasuries sell off modestly as above-target inflation lifts policy risk and long-end support flattens the curve",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "整體債券ETF變化不大，軟銀境外融資規畫卻使CDS走寬、美元債下跌。",
-        "dollar_commodities": "美元隨實質殖利率上升，原油因荷姆茲外交進展回落；黃金仍漲，歐洲天然氣供應依舊偏緊。",
-        "equities_volatility": "S&P 500近乎持平、VIX下降，尚未出現廣泛降低風險部位的跡象。"
+        "credit": "軟銀走弱，市場憂心其擬議的大規模再融資將提高AI投資部位的融資成本。",
+        "dollar_commodities": "荷莫茲海峽外交進展帶動油價下跌，美元走強；持續的通膨與地緣政治不確定性則推升金價。",
+        "equities_volatility": "股市幾乎持平、波動率回落，顯示市場只是有限度地重估利率，而非全面撤離風險資產。"
       },
       "header": {
-        "stance": "通膨仍黏著，聯準會再次升息尚未排除"
+        "stance": "通膨高於目標推升政策風險，美債溫和走跌；長端支撐促使殖利率曲線趨平"
       },
-      "long_thesis_markdown": "## 通膨仍限制聯準會的選擇，美債回吐部分漲幅\n\n7月通膨數據公布後，美債小幅走弱。消費降溫、油價續跌，仍不足以讓市場排除聯準會再次升息的可能。2年、5年與10年期殖利率各上升2個基點，收在4.19%、4.37%及4.66%；30年期上升1個基點至5.18%。10年期殖利率的漲幅全數來自實質殖利率，後者升至2.34%，損益兩平通膨率則維持2.32%。\n\n7月核心PCE月增0.2%、年增3.3%，均符合預期。實質消費持平、新屋銷售大減，提供聯準會繼續觀望的理由；但前期通膨上修、家庭所得回升，也讓進一步緊縮仍有依據。市場估計9月升息機率為43%，並已完全反映12月前升息25個基點，接下來將聽取Warsh在8月28日傑克森洞會議上的說法。\n\n伊朗與阿曼就荷姆茲海峽水域及收益分配達成協議，帶動油價續跌，但伊朗強調這不代表海峽立即重啟。布蘭特原油下跌2.31%至$86.53，WTI下跌0.63%至$81.84。歐洲天然氣供應吃緊、日本運費急升，仍是央行難以忽視的通膨壓力。Schnabel主張歐洲央行進一步緊縮，日本服務價格數據也支持市場對9月升息的預期。\n\n整體風險資產波動不大，S&P 500下跌0.02%，投資級債券ETF LQD下跌0.07%，主要高收益債ETF約跌0.02%。軟銀卻明顯承壓：市場傳出公司可能在境外發債$100億至$200億，一檔美元債價格下跌2.3美分，5年期CDS走寬10.7個基點。困境債方面，Brightline取得附帶破產聲請條件的新融資協議，Altice與Braskem債權人則持續爭取資產、參與權及清償順位。\n\n## 消費降溫較明確，通膨改善仍有限\n\n核心PCE月增幅雖然溫和，細項卻沒有同樣令人放心。扣除能源與住房後的服務價格上漲0.3%，其中投資組合管理及投資顧問費用上漲5.6%，為一年來最大漲幅；近期通膨數據也小幅上修。整體PCE年增率仍達3.7%，與核心指標一樣，明顯高於聯準會2%的目標。\n\n實質消費在5、6月強勁成長後停滯。核心商品支出下滑0.8%，部分與亞馬遜將Prime Day從7月提前至6月有關；交通、餐飲與住宿則帶動實質服務支出增加0.3%。家庭可支配資源並未同步惡化：實質可支配所得增加0.4%，為1月以來最大增幅，儲蓄率也升至四個月高點3%。因此，這次支出放緩同時伴隨所得與儲蓄回補，尚非購買力突然大幅衰退。\n\n房市的疲弱更為明顯。新屋銷售減少10.5%，年率降至60.7萬戶，低於市場預估的62萬戶，也低於前期修正後的67.8萬戶。新屋價格中位數已跌至五年低點，建商持續提供優惠，簽約量卻仍降至六個月低點。房貸利率、建築成本與前景不確定性，繼續壓抑這個近年由新屋承擔較高交易比重的市場。\n\n里奇蒙聯準銀行調查呈現分歧。製造業指數由5降至4，不及預估的7，但出貨指數由8升至11；服務業營收指數則由−3降至−8。這些資料補強需求降溫的跡象，還不能視為各產業全面收縮。\n\n即使週三殖利率回升，2年期仍較一個月前低14個基點。曲線變化不大，2s10s維持47個基點，2s30s收窄1個基點至99。美元指數隨實質殖利率上升而走高0.21%，黃金也上漲0.85%至$4,677.70。債市只是小幅調整，Warsh究竟需要看到多少通膨改善，才願意排除再次升息，仍是市場等待釐清的問題。\n\n## 原油回落，天然氣與運費壓力尚未解除\n\n伊朗革命衛隊發言人Hossein Mohebbi表示，伊朗與阿曼已就荷姆茲海峽各自的水域及收益分配達成協議，比先前的臨時架構更進一步，協助油價連續第三個交易日下跌。不過，協議並未說明正常航運何時恢復，伊朗也明確提醒，不能期待海峽立即重啟。\n\n歐洲天然氣價格仍接近五個月高點，冬季合約價格超過去年同期的兩倍；儲氣率僅63%，為2009年以來同期最低。天然氣占歐盟能源供應21%，英國約25%至35%。經荷姆茲海峽運送的LNG缺乏替代航線，戰略庫存又有限，緩衝能力不如石油。\n\n歐洲央行執委Schnabel認為，現行利率恐不足以在中期內讓通膨回到目標，應在能源成本傳導至工資前進一步緊縮。需求也仍有支撐：歐元區GDP在停滯後於第2季成長0.4%，德國成長率上修，財政、國防與AI支出持續挹注經濟。7月通膨達2.9%，市場已接近完全反映存款利率再升25個基點至2.5%。\n\n日本7月企業服務價格年增3.6%，為5月以來最快增速，前面三個月的數據也都上修。航線拉長推升成本，海運服務價格大漲67.4%，創1986年有資料以來紀錄；4月年增率則已從初值3%修正至3.6%。市場估計日本央行9月18日升息機率約80%，副總裁冰見野良三即將發表的談話，將進一步反映央行如何評估這些壓力。\n\n泰國央行則連續第三次一致決議，將隔夜附買回利率維持在1%。第2季GDP成長1.9%，為東南亞六大經濟體中最弱；大型企業放款雖改善，中小企業信用條件仍緊。官員預期聖嬰現象會推升通膨至2027年第1季，之後再回落。他們認為現行政策已屬寬鬆，暫無升降息理由，也提醒再降息未必能有效帶動借貸。第2季核准投資案實際支出共฿2,550億，其中AI相關項目超過฿1,270億，投資高度集中，也說明成長動能為何尚未均勻擴散。\n\n巴西8月上旬通膨年增率降至4.24%，低於預估的4.33%，並落在3%目標上下1.5個百分點的容許區間。物價月減0.4%，降幅大於預估的0.32%；一次性電費抵減使住房成本下降1.41%，機票降價則協助運輸價格下滑1%。2027年1月到期交換利率盤中最多下降2.6個基點。部分改善屬暫時性，加上選舉相關社會支出支撐需求，仍需審慎看待；但央行在連續第四次降息25個基點、將Selic降至14%後，確實獲得更多政策空間。\n\n## 美債回購改變部位配置，各國財政風險仍有差異\n\n摩根士丹利投資管理的Vishal Khanduja在財政部宣布擴大長債回購後，減碼5s30s曲線陡峭化部位。公告以來，該期限利差已收窄約10個基點。巴克萊估計，每年新增回購可達$640億，相當於目前20年與30年期發債量的約15%。Citadel Securities策略師Frank Flight也撤回7月的看空立場，理由是通膨資料改善、空頭部位擁擠。\n\n下一個實質債務管理決策時點是11月4日季度再融資公告。德意志銀行、摩根士丹利與花旗策略師討論的可能方向，包括增加國庫券及短期票據、長債標售持平或縮減、擴大回購，甚至在較低機率情境下取消20年期券。Bessent已排除在此之前調整例行標售。回購仍須動用現金或新增借款；縮短發債年期可以降低投資人承接的存續期間，卻會增加日後再融資需求。\n\n法國面對的財政壓力更為迫切。10年期殖利率近二十年來首次突破4%，相對德債利差達86個基點，接近2012年以來最寬收盤水準。公債約占GDP的117%，政府已懷疑能否將今年赤字從2025年的5.1%降至5%。總理Sébastien Lecornu打算在不增稅下推動結構性節支，但9月底預算案尚未提出，便已遭遇反對。如果國會無法在4月18日及5月2日總統選舉投票前通過預算，緊急融資法案可能再增加至少相當於GDP 0.5個百分點的赤字。接下來的信評檢視將由惠譽率先展開。\n\n捷克國會推翻總統Petr Pavel的否決，放寬財政限制以支應創紀錄基建支出。原本將2027年中央政府赤字限制在Kč1,500億的規則被排除，官員目前預估赤字將高於今年的Kč3,100億、但低於Kč4,000億。廣義政府赤字預估占GDP 2.8%，仍低於歐盟3%上限；債務比約46%，空間也大於法國。不過，融資需求預期已推高殖利率，反對派提出的憲法挑戰，也為包含創紀錄零售發債的籌資計畫增添變數。\n\n中國招商銀行準備發行至多CN¥20億、3年期DR001連結浮動利率債，將是首家使用這項隔夜附買回基準的本地商業銀行。中國進出口銀行已在8月稍早採用，部分銀行也開始將其用於貸款。人民銀行從7天期附買回轉向隔夜操作目標，有望使銀行資產與負債的定價更一致，在利差接近歷史低點之際改善政策傳導。\n\n印尼央行總裁候選人Destry Damayanti向國會表示，加強與政府協調不會損及央行獨立性，利率決策仍將採取前瞻、預先因應的方式。此前Perry Warjiyo提前離任，總統Prabowo Subianto的姪子出任副總裁，央行職責也擴及成長與就業。印尼盾反應不大，10年期殖利率維持上升3個基點。若獲任命，她將在2026至2031年任期內，一面管理流動性、匯市干預及高利率SRBI工具的退場，一面面對政府8%的成長目標。\n\n墨西哥CDS下降，並未消除現券的相對折價。5年期保障成本為80個基點，低於Sheinbaum在2024年10月就任時的120個基點；但美銀估計，其美元債利差仍比同評級主權債寬39個基點，價格約相當於比正式評級低1.5個級距。八年累計$1,300億的Pemex援助，讓公司債務從2016年高點GDP的9.3%降至4%，代價則是風險移向政府。穆迪5月已將墨西哥降至投資級最底一級，標普展望為負向。\n\n## 軟銀境外發債規畫，立即反映在債券與CDS\n\n軟銀正討論最快9月在美元及歐元市場發行$100億至$200億債券，用來償還部分OpenAI投資所需的$400億過橋貸款，並支應其他AI承諾。公司預計到10月對OpenAI的投資將接近$650億。若採上限規模，將成為今年亞洲發行人最大的境外債券交易，並填補估計超過$200億融資缺口的大部分。\n\n其8.5%美元債下跌2.3美分至約98，為4月發行以來最大單日跌幅；5年期CDS走寬10.7個基點，幅度為一個多月來最大。軟銀表示正評估多種再融資方案，金額尚未決定，最終規模、幣別及期限仍待確認。\n\n擬採用的144A架構將是十多年來首次，可引入美國機構投資人，讓買方不只限於先前¥1兆零售發債計畫所鎖定的日本家庭。另有一筆以OpenAI持股擔保的$100億保證金融資，但契約可能要求補繳現金擔保或提前還款。軟銀4月也曾發行$36億美元與歐元債，其中就包括目前承壓的10年期8.5%券。\n\n其他亞洲企業也準備向國際市場籌資。花旗今年迄今已協助韓國客戶募集約$600億，並預期2026年韓企境外股債發行將創紀錄。先前公布的晶片與資料中心投資規畫，已說明資金需求的規模；相較之下，軟銀次級市場價格下跌，更直接顯示投資人對承諾龐大、需要持續融資的借款人，可能要求多少額外補償。\n\n## Brightline爭取破產融資，Altice與Braskem債權人加緊整合\n\n佛羅里達鐵路公司Brightline與Assured Guaranty達成協議，若聲請Chapter 11，可取得至少$3.5億新貸款，聲請最快可能在數週內提出。公司共有$55億債務，多數已在困境價格交易。協議尚未生效，Brightline仍可選擇其他庭內或庭外處理方式。\n\nInvesco、Nuveen及First Eagle持有$22億最高順位債務，其中約$11億由Assured提供保證，條件變更須取得其同意。Redwood Capital、Aristeia Capital及Nut Tree Capital領銜的避險基金集團，則持有$11億次順位公司票據的多數；另約$20億為順位較低的市政債。若提供破產程序中的DIP融資，Assured可能取得優先償還權，並提高協商影響力，但既有債權人的回收率尚未定案。\n\nAltice International的擔保債權人Arini、Silver Point、King Street、Sona、Diameter與Invesco已組成聯盟，Elliott也正討論加入；若成行，持有比例將達擔保債務約60%。成員準備提告，並爭取優於委員會外債權人的待遇。爭議涉及€50億、約$53億的集團內貸款，以及葡萄牙和多明尼加業務移出受契約限制集團等涉嫌違反條款的安排。Altice Financing主張，債權人未證明具備必要持有額或授權，因此違約通知無效；債權人不同意這項說法。\n\nBraskem新公布的各券參與比例，進一步揭示$110億重整案需要爭取哪些支持。2081年到期次順位券約67%加入，4.5%的2028年券約60%；7.25%的2033年券與8.5%的2031年券均約58%。相較之下，5.875%的2050年券僅約30%，7.125%的2041年券僅約13%；規模最大的4.5% 2030年券，支持與未加入的比例幾乎各半。\n\n總支持額為R$224億、約$43億，占受影響債務39.6%，足以啟動先前公布的90天程序，但距離法院核准所需的過半門檻仍有差距。銀行要求增加擔保品，遭Braskem拒絕。Petrobras、IG4 Capital或經核准第三方的新股本投入或出資保證，規模、形式及時點也尚未確定。如今各券立場更清楚，協商焦點已不只是整體支持率，而是如何讓不同到期日與順位的持有人接受同一方案。\n\n## 先看Warsh如何評估通膨，再看各項融資定案\n\nWarsh在8月28日發言時，面對的是核心通膨3.3%、實質消費持平的組合。他如何看待前期修正、家庭需求及供應成本的持續性，將影響市場是否把原本完全反映在12月前的升息進一步提前至9月。2至5年期殖利率對時點變動最為敏感。\n\n能源方面，荷姆茲海峽實際通行量及歐洲庫存，才能顯示外交進展有多少轉化為供應改善。原油降價，尚未解除天然氣與運費對歐洲、日本政策前景的壓力。\n\n較近的融資觀察重點是軟銀最終規模、期限及定價，財政部11月4日再融資公告則將釐清政府發債組合。Brightline仍待融資安排生效及決定是否聲請破產，Altice的債權爭議尚未解決，Braskem則須取得多數支持。這些未定條款，比整體信用市場的平靜更能決定各自債券接下來的走向。",
-      "methodology_note": "除非另有說明，市場水準均以紐約收盤為基準。",
+      "long_thesis_markdown": "## 開篇固定收益觀點\n\n7月通膨數據雖邊際溫和，仍高到足以讓市場保留聯準會再次升息的預期；美國公債因而在8月26日溫和走跌，殖利率曲線趨平。2年期殖利率上升3.6個基點至4.211%，5年期上升2.7個基點至4.363%，10年期上升1.8個基點至4.648%，30年期僅升0.3個基點至5.169%；短端因此回吐的前一交易日漲幅多於長端。\n\n核心個人消費支出物價指數較6月上升0.2%，符合預期，年增率為3.3%。整體指數月增0.2%，高於預測的0.1%，年增率仍達3.7%。經通膨調整的消費支出持平、新屋銷售下滑10.5%，加上地區活動數據好壞不一，均為聯準會9月暫緩行動提供理由；但這些數據仍不足以證明通膨正以夠快的速度回到2%，因此無法排除今年其餘時間升息的可能。\n\n這組訊號帶來的是政策驅動的曲線趨平，而非長端壓力再起。2年期與10年期利差縮小1.8個基點至43.7個基點，2年期與30年期利差縮小3.3個基點至95.8個基點。10年期實質殖利率僅上升0.6個基點至2.322%，損益兩平通膨率則上升1.2個基點至2.326%。這種變化顯示，投資人既提高了通膨補償要求，也上調近期政策風險；但溫和的核心月增幅限制了實質借貸成本的升幅。\n\n油價則提供反向力量。伊朗軍方宣布與阿曼就荷莫茲海峽水域及收入分配達成協議後，布蘭特原油下跌2.31%至$86.53，WTI下跌0.63%至$81.84。不過伊朗警告，協議不代表航道會立即重開。原油連續第三天下跌，減輕了整體通膨的一項壓力來源；歐洲天然氣短缺及日本運費大幅上漲，則繼續影響海外貨幣政策預期。\n\n跨資產市場反映的是受控的利率重定價，而非廣泛避險。標普500指數幾乎持平，那斯達克100指數上漲0.05%，美元指數上升0.21%。黃金期貨上漲0.85%至$4,677.70，一週漲幅仍有4.19%。美國投資等級、高收益與新興市場債券基金均小幅走低，跌幅不到0.1%。\n\n較明顯的信用變化集中在個別發行人。軟銀開始洽談可能發行$100億至$200億的美元及歐元債券，以再融資一筆支持其OpenAI投資的$400億過橋貸款。軟銀票息8.5%的美元債下跌2.3美分至約98，信用違約交換利差擴大10.7個基點。市場反應顯示，投資人正區分融資市場是否暢通，以及把一筆龐大的短期AI投資承諾轉為較長天期債務所需付出的代價。\n\n## 通膨高於目標，消費動能轉弱\n\n7月所得與支出報告顯示需求放緩，卻未帶來決定性的通膨改善。核心PCE月增0.2%，符合預期，年增率維持3.3%；整體指數月增0.2%，高於預測的0.1%，年增率3.7%仍接近央行目標的兩倍。\n\n市場反應凸顯「單月數字尚可接受」與「通膨水準已可接受」之間的差距。期貨市場將9月16日升息機率由數據公布前略低於40%提高至43%，並完全反映12月前升息1碼。2年期殖利率上升3.6個基點，幅度大於曲線較遠端，因為這份報告保留了政策進一步收緊的可能，卻未呈現更強的長期成長前景。\n\n服務通膨仍是報告中較令人不安的部分。排除能源與住宅的一項指標上升0.3%，其中投資組合管理及投資顧問服務價格上漲5.6%，為一年來最大升幅。儘管最新核心月增幅溫和，先前通膨數據的小幅上修仍使憂心進展停滯的官員更有理由保持警戒。\n\n自下一份報告起，美國經濟分析局將調整法律服務、電腦軟體及投資顧問等類別的衡量方式。經濟學家預期，修訂會略微降低公布的PCE通膨率。這項未來的統計影響不會改變7月結果，也無法回答聯準會最關注的經濟領域中，基礎服務價格是否正在放緩。\n\n需求數據較為疲弱。5月和6月強勁成長後，經通膨調整的消費支出在7月持平；核心商品實質支出下降0.8%，實質服務支出則上升0.3%，主要由交通、餐飲及住宿帶動。亞馬遜把Prime Day從7月提前至6月，可能令部分商品採購前移，但整體結果仍顯示初夏強勁成長後，消費動能正在減弱。\n\n家庭財務狀況改善，使單純的需求轉弱敘事更為複雜。實質可支配所得上升0.4%，創1月以來最大增幅，儲蓄率也升至四個月高點3%。換言之，購買力復甦之際，消費者支出反而較為保守。這既為需求重新加速留下空間，也顯示家庭可能變得更謹慎，而不只是受到物價壓力所迫。\n\n房市則提供更明確的放緩訊號。7月新屋銷售下降10.5%，折合年率為60.7萬戶，創六個月最低，低於市場共識的62萬戶；前月數字修正為67.8萬戶。高房貸利率與營建成本正在抑制需求，加拿大木材等材料所面臨的關稅，也可能侵蝕新屋相較成屋原有的價格優勢。\n\n新建住宅近期占房屋總銷售13%，高於長期中位數11.7%，部分原因是建商採取降價及提供優惠。7月降幅的意義不只在於一項波動較大的月度數據，還在於它削弱了原先用來抵銷成屋供給稀少且昂貴的管道。即使家庭所得持續成長，美債及房貸殖利率若居高不下，也會使這項調整更加困難。\n\n地區活動數據呈現製造業生產與服務需求分歧。里奇蒙聯準銀行製造業指數由7月的5降至8月的4，低於市場共識7；出貨分項則由8升至11。該地區服務業營收指數從-3惡化至-8。這些數字未指向工業活動驟然萎縮，但服務業疲弱強化了實質消費支出傳出的放緩訊號。\n\n因此，9月政策決定仍真正取決於後續條件。通膨高於目標，整體月增幅也強於預期，但消費支出、房市及部分地區經濟已降溫。短端走跌反映聯準會最終升息的機率上升；殖利率曲線趨平則表明，投資人並未把數據解讀為經濟可以在成長不減速的情況下承受長期緊縮循環。\n\n## 油價下跌未消除全球通膨問題\n\n伊朗伊斯蘭革命衛隊表示，德黑蘭與阿曼已就雙方在荷莫茲海峽水域及收入的分配達成協議，原油跌勢隨之加速。這項聲明比前一天所稱恢復船舶通行的臨時框架更進一步，但仍未確定航運何時重啟、航行如何管理，以及保險商與承運商是否會認定該航線安全。\n\n這項差別有助於解釋油價下跌、長期通膨補償卻上升的現象。布蘭特原油一週約跌5.56%、一個月跌10.59%，減輕了美國通膨眼前所受的能源推力。然而，荷莫茲海峽實際通行狀況未明、貿易壁壘擴大，其他能源市場也承受壓力，使投資人無法把原油跌勢視為全面的反通膨衝擊。\n\n天然氣已成為歐洲利率市場更大的隱憂。歐洲天然氣價格接近五個月高點，冬季合約價格超過一年前的兩倍。企業與政府先前期待中東衝突緩和，因此延後補充庫存，目前儲氣量僅達容量的63%，為2009年以來同期最低。\n\n歐洲格外容易受到衝擊，因為天然氣約占歐盟能源組合的21%，在英國所占比重則介於25%至35%。全球液化天然氣供應通常約有20%通過荷莫茲海峽，替代路線不多，戰略庫存也有限。因此，外交樂觀情緒可以帶動油價下跌，歐洲天然氣卻仍可能反映艱難冬季及更廣泛的通膨傳導。\n\n歐洲央行執行委員施娜貝爾因此明確主張進一步收緊政策。她表示，目前的政策利率不太可能使通膨在中期回到目標；若等到能源成本傳導至薪資才採取行動，央行將落後於情勢。歐元區7月通膨率達2.9%，施娜貝爾預期通膨將在較長時間內維持於2%以上。\n\n她的論點也建立在需求韌性上。歐元區產出在年初停滯後，第2季成長0.4%，德國表現優於初步估計。施娜貝爾把財政政策、國防支出及AI投資熱潮列為支撐韌性的來源，並認為相較歐洲央行6月預測，成長風險略偏上行。\n\n市場幾乎完全反映歐洲央行9月升息1碼、把存款利率提高至2.5%，並預期2027年春季前再升息一次。施娜貝爾未說明利率最終高點，僅表示所需緊縮程度將取決於後續數據。這項限制相當重要，因為ING的Carsten Brzeski警告，若對供給衝擊作出過度鷹派的反應，可能使歐元區經濟重新陷入疲弱成長。\n\n日本則呈現能源供應中斷通往政策收緊的另一條路徑。7月企業服務價格較一年前上升3.6%，在先前三個月均遭上修後，增幅創5月以來最快。中東衝突迫使航運業者改走成本更高的路線，海運價格大漲67.4%，創自1986年開始統計以來最大增幅。\n\n這項結果強化市場對日本央行9月18日決策的升息預期。隔夜指數交換顯示，升息機率約為80%，市場並已完全反映10月前升息。副總裁冰見野良三自週四起的談話將受到密切關注，以判斷官員會認同市場預期，還是不同意市場所押注的時點。\n\n管理約A$3,700億的澳洲退休信託基金，為這項觀點提供了實際的投資案例。該基金減持部分美元部位，同時建立多年來最大的日圓超配。基金認為，市場已察覺能源成本上升對經濟的拖累，卻仍低估日本央行收緊政策的可能，並估計日圓公允價值接近兌美元150，當日交易水準則約為159。\n\n能源訊號分歧，使全球央行擁有不同程度的觀望空間。原油下跌立即嘉惠美國及其他石油進口經濟體；歐洲仍受天然氣庫存不足所威脅，日本則已見航運中斷傳入企業服務價格。因此，若荷莫茲海峽協議未能恢復實際交通，即使油價下降，也無法消除各主要債券市場所面臨的核心通膨風險。\n\n## 財政部干預改變部位配置，未減融資需求\n\n美國通膨推高短期殖利率之際，財政部長貝森特擴大的長天期公債買回計畫，繼續為殖利率曲線遠端提供支撐。計畫宣布以來，5年期與30年期殖利率差距已縮小約10個基點。週三，2年期與30年期利差再縮小3.3個基點；30年期殖利率幾乎不變，2年期則上升。\n\n相對表現已開始改變投資人的部位配置。由於財政部成為不受價格影響的長天期債券買方，摩根士丹利投資管理的Vishal Khanduja減碼原先押注5年期與30年期殖利率差距擴大的交易。巴克萊估計，擴大後的年度買回規模可能達$640億，相當於目前20年期與30年期公債供給的約15%。\n\n這是戰術上的改變，並未降低聯邦政府整體借款需求。財政部無法自行創造資金進行買回，最終仍須透過增發債券或動用現金餘額籌資。移除長天期債券可提高其稀缺價值，並抑制激進的曲線陡峭化部位；但若以國庫券或較短天期票據取代，政府總融資需求依然不變。\n\n因此，華爾街把11月4日的季度再融資視為更關鍵的事件。德意志銀行、摩根士丹利及花旗的策略師認為，財政部可能在維持長債標售規模不變的同時，暗示未來會透過國庫券及較短天期票據增加借款。過去被視為極不可能的長天期債券發售量直接下調，如今也不能排除。\n\n財政部最新指引表示，官員正在評估附息債券及浮動利率票據的發售是否可能調整，而非只評估是否增加，為這項解讀留下空間。貝森特已排除立即修改例行標售日程，使11月成為正式調整期限組合的首個機會。德意志銀行也認為，買回規模有可能高於最初建議的至少$40億。\n\n20年期公債格外受到關注，因為其到期年限較短，殖利率卻接近30年期公債。花旗把擴大標售規模的預測延後至2028年，並提出財政部最終可能取消20年期券種。這將有利於現有債券，但也會迫使其他期限吸收轉移過去的融資需求。\n\n政策對可預測性的影響，也逐漸成為期限溢價討論的一部分。規律而透明的發行長期以來一直是美國公債管理的重要特徵。若標售組合或買回規模與令人不安的殖利率水準產生更明顯的連動，短期雖可降低長天期供給壓力，卻可能提高未來供給會落在哪些期限的不確定性。\n\n不過，Citadel Securities的Frank Flight扭轉了原本看空債券的看法。他認為，擁擠的部位及改善中的通膨數據，使長端殖利率下跌成為風險報酬更具不對稱性的情境。在2003年以來64次成長及貨幣政策訊號相近的歷史情境中，Citadel發現接下來120天殖利率有71%的機率下跌，平均降幅為25個基點。\n\n週三收盤走勢顯示，這項論點可與聯準會升息風險並存。即使市場提高9月升息機率，並完全反映12月前升息，長端仍幾乎沒有變動。財政部干預加強了較長天期債券的相對支撐，PCE數據則影響政策利率的調整時點。然而，若把買回、財政發債及企業借款一併考量，曲線趨平並未回答長端均衡殖利率是否可持續。\n\n軟銀使企業爭奪資本的情況更加明顯。這家非投資等級日本企業集團正在洽談一筆$100億至$200億的境外債券交易，最快可能於9月以美元及歐元發行。所得資金將用於再融資一筆為OpenAI投資籌措的$400億過橋貸款，並支持其他AI計畫。\n\n軟銀預定在10月前向OpenAI投資接近$650億，部分資金將以舉債方式籌措。公司也已安排一筆以OpenAI持股為擔保的$100億保證金貸款，其中契約條款可能要求追加現金或提前還款。這筆潛在境外交易還將與軟銀計畫在日本發行、規模創紀錄的¥1兆零售債券並行。\n\n軟銀逾十年未在國際發行中採用144A架構，若本次使用，將可接觸更廣泛的美國機構投資人。不過，規模仍是挑戰：若以區間上限發行，將成為今年亞洲企業規模最大的境外債券交易。軟銀4月才完成$36億美元及歐元債券發行，其中10年期美元券票息為8.5%。\n\n信用市場的即時反應顯示，能否取得融資與融資成本是兩個不同問題。該檔8.5%債券下跌2.3美分，違約保護成本擴大10.7個基點，為逾一個月最大升幅。投資人要吸收的不只是一筆新的企業債，而是為一項資金需求仍相當龐大的集中科技投資進行再融資。\n\n軟銀研議發債之際，今年為資料中心及其他AI投資籌措的債券資金已超過$4,100億。南韓企業的國際債券及股票發行量也預計創紀錄，企業與官方借款人並已開始尋找較不擁擠的幣別及買方群體。貝森特的干預可以移除部分美債長天期供給，卻無法消除私人部門對同一池長期資金日益增加的需求。\n\n## 歐亞拉美主權政策分歧\n\n法國再次陷入預算對峙，10年期公債殖利率近20年來首次升破4%，相對德國公債利差為86個基點，僅略低於2012年以來最寬收盤水準。近期日程由惠譽評級審查揭開序幕，接著是9月底的預算提案；更大的風險則是國會分裂，使政府無法在4月及5月兩輪總統選舉前制定有效的2027年財政計畫。\n\n法國政府已難以把今年赤字由2025年占產出5.1%降至5%。債務接近GDP的117%，預料還會繼續上升。安聯貿易估計，若不採取額外措施，明年赤字可能達5.6%；政府目標則是在2027年降至5%以下。\n\n總理Sebastien Lecornu已排除增稅，轉而尋求結構性支出節省。反對黨正在提出彼此競爭的要求，尤其是曾協助前兩份預算過關的社會黨。企業團體則反對延長針對大型企業、原先宣稱為臨時措施的稅負。\n\n若選舉前未能通過預算，法國可能被迫以緊急立法延續必要的稅收與支出權限。法國財政總監察署估計，這種結果將使赤字至少增加0.5個百分點。即使惠譽或其他評級機構短期內採取的行動有限，赤字若逼近6%，評級壓力也會變得更嚴重。\n\n捷克的政治方向相反，選擇放寬財政規則。國會議員推翻總統Petr Pavel的否決，使總理Andrej Babis領導的政府得以透過增加債務，為創紀錄的基礎建設計畫籌資。2027年中央政府赤字預計將高於今年的3,100億克朗，但低於4,000億克朗；舊規則所設上限為1,500億克朗。\n\n整體赤字預估占GDP的2.8%，仍低於歐盟3%的上限，公共債務占比接近46%，按區域標準仍低。即便如此，投資人預期借款增加，已推升捷克債券殖利率。總統、獨立財政監督機關及反對黨均警告，規則調整將削弱長期財政紀律；反對者並計畫向憲法法院提出挑戰。\n\n亞洲方面，泰國央行連續第三次會議一致決議把政策利率維持在1%，並稱目前政策立場寬鬆。第2季經濟僅成長1.9%，在已公布數據的東南亞六大經濟體中最弱；儘管出口、投資及政府刺激措施轉強，復甦仍不均衡。\n\n泰國央行表示，目前利率適當，因為降息未能有效傳導至實體經濟，中小企業尤其如此；若危機出現，央行仍保留寬鬆空間。大型企業借款帶動整體信貸改善，但中小企業貸款持續萎縮，財務脆弱的家庭也仍承受壓力。\n\n泰國預期，聖嬰現象將使通膨一路上升至2027年第1季，之後才會回落。因此，央行目前認為升息或降息均無必要。AI相關投資已成為重要支撐：第2季獲官方獎勵的計畫吸引2,550億泰銖資金，較一年前增加31%，其中AI產業占逾半數。\n\n中國則推進另一種形式的貨幣改革。招商銀行開始發售最多20億元人民幣、與隔夜債券回購利率連結的3年期浮動利率票據，是本地商業銀行首次發行此類產品。中國進出口銀行本月稍早已成為首家採用該參考利率的政策性銀行。\n\n中國人民銀行正逐步把操作目標由7天期回購利率轉向隔夜利率，並擴大隔夜流動性操作。銀行資產與負債若採用相同基準，可改善利率傳導，並有助於保護已接近歷史低點的利潤率，從而可能讓人行在不進一步加重銀行壓力的情況下，擁有更大寬鬆空間。\n\n巴西則交出較傳統的反通膨成果。8月上旬消費者物價較一年前上升4.24%，低於市場共識4.33%，並落在央行1.5%至4.5%的目標區間內。物價月減0.4%，降幅大於預期的0.32%，帶動各期限交換利率下跌。\n\n一次性電費折抵使住宅成本下降1.41%，較便宜的機票則帶動交通價格下跌1%。在連續四次降息1碼、把Selic利率降至14%後，這項結果給予央行更多寬鬆空間。財政疑慮及選舉相關社會支出仍會限制降息幅度，但9月15日至16日會議召開前，通膨已由高於目標上限轉為低於上限。\n\n印尼準央行總裁Destry Damayanti在國會資格審查中捍衛機構獨立性。先前一連串政治變動引發投資人疑慮，她表示，央行與政府協調不會削弱印尼央行的權限，支持成長也仍以維持穩定為首要條件。\n\n她獲提名之前，Perry Warjiyo已離任，總統普拉伯沃．蘇比安托的姪子獲任命為副總裁，央行法定職責也擴大納入就業與成長。Destry並暗示外匯干預、流動性管理及政策利率將維持延續性。印尼股市與印尼盾變動不大，10年期政府公債殖利率仍上升3個基點，顯示相關發言帶來安撫效果，卻未觸發大幅重定價。\n\n## 債權人聚焦順位、擔保品與控制權\n\n軟銀的融資計畫主導了流動性較佳的公司信用市場交易；多起困境債務事件的進展，則來自契約條款變動，而非市場整體利差走勢。Brightline與市政債券保險商Assured Guaranty達成協議：若這家佛州鐵路公司進入美國破產法第11章程序，可能取得至少$3.5億新貸款。\n\n這份重整支持協議反映處理Brightline所背負$55億債務的急迫性，公司可能在數週內依美國破產法第11章聲請破產。協議尚未生效，公司仍可能在法院內外尋求其他安排。新融資的受償順位將高於現有債務，使資金提供者在重整中更具影響力，也擁有較明確的回收途徑。\n\nBrightline的資本結構橫跨市政債與公司債市場，使受償順位尤其具爭議。Invesco、Nuveen及First Eagle持有其$22億最高順位債務，其中約$11億由Assured提供擔保，修改條款須經其同意。由Redwood Capital、Aristeia Capital及Nut Tree領頭的避險基金團體，則持有$11億次順位公司票據的多數部位。另有約$20億債務為順位更低的市政債券。\n\nAltice International的債權人也正圍繞控制權及補償組織陣營。Arini Capital、Silver Point、King Street、Sona、Diameter及Invesco組成聚焦訴訟的團體，主張應就其可能承擔的額外工作與法律風險獲得優先待遇。Elliott正商討加入；若成行，該陣營將持有約60%的有擔保債務。\n\n爭議核心是涉及€50億公司間貸款，以及把葡萄牙與多明尼加共和國業務移出受限制集團的契約違約指控。債權人已於7月發出違約通知。Altice Financing辯稱，債權人尚未證明其持有足夠部位或具備採取行動的權限；債權人則堅稱通知有效。\n\nBraskem的庭外重整公布了更精確的參與數字。持有224億雷亞爾、約合$43億債權的債權人支持重整，占受影響債務39.6%；這僅略高於啟動90天協商所需的三分之一門檻，仍有60.4%未加入。\n\n境外債券持有人提供了大部分支持，其中臨時債權人團體代表略高於31%的債務。各券別參與程度差異很大：2081年到期次順位票據約有67%同意，2028年到期、票息4.5%的票據約有60%同意，2031年及2033年到期券則各約58%。2041年到期、票息7.125%的票據僅13%參與；規模龐大的2030年到期4.5%票據，支持與不支持部位幾乎各半。\n\nBraskem必須取得持有逾半數受影響債權的債權人同意，才能獲法院確認。重整架構也要求Petrobras、IG4 Capital或各方同意的第三方提供新股本或擔任承諾出資者，但金額、時點與結構均未解決。銀行要求額外擔保品，但公司未予接受，因此新資金最終受償順位仍是協商核心。\n\n墨西哥則出現應著重哪一項市場訊號的主權信用爭論。財政部強調，5年期信用違約交換利差已由Claudia Sheinbaum總統2024年10月就任時的120個基點降至80個基點。央行總裁Victoria Rodríguez Ceja表示，主權與Pemex違約保護成本收窄，符合市場風險認知下降的情況。\n\n現券呈現的比較較不有利。美國銀行估計，墨西哥債券利差比評級相近的主權債寬39個基點，相當於約1.5個評級級距。穆迪5月把墨西哥調降至最低投資等級，標普則把評級展望列為負向，理由是財政疲弱及政府持續支援Pemex。\n\n政府八年間已向Pemex提供$1,300億，使該公司債務由2016年相當於GDP的9.3%，降至2025年的4%。這項支援降低了這家石油生產商近期的違約風險，卻把更多負擔轉移至主權。CDS下降因此可代表短期市場情緒改善，但無法消除已反映於墨西哥債券殖利率的財政成本。\n\n## 市場後續意義\n\n聯準會主席華許8月28日在傑克森霍爾的演說，是眼前檢驗政策反應函數的關鍵。7月核心PCE年增3.3%，實質支出持平、房市數據轉弱，先前物價數據又小幅上修。投資人需要判斷，華許是否認為單月通膨步調足以讓政策繼續保持耐心，或是高於目標的年通膨持續存在，因而需要再次升息。\n\n溝通方式本身也很重要，因為華許已減少前瞻指引，7月記者會也曾加劇長天期美債波動。若他明確表示通膨降溫停滯時願意收緊政策，將支持市場已完全反映的12月前升息預期，並使短端繼續對9月時點敏感。若避談近期政策問題，市場可能因不確定聯準會抗通膨的決心，而重新向長端施壓。\n\n初領失業救濟金人數及商品貿易收支初值將於8月27日美東時間08:30公布。初領失業救濟金預期由20.6萬人升至20.8萬人，7月商品貿易逆差則預期由$1,014億縮小至$990億。若勞動數據證實消費支出疲弱正蔓延至就業，其影響將最為重要；貿易報告則有助區分內需轉弱，以及關稅與進口時點變化造成的影響。\n\n財政部同日晚些時候的5年期公債標售，將檢驗曲線中同時最容易受聯準會定價及政府融資轉向較短期限影響的區段。現行長債買回政策已抑制曲線陡峭化，但11月季度再融資仍是更重要的供給決策。若有任何訊號顯示未來借款將集中於國庫券及較短天期票據，只會改變投資人要求發行讓利的位置，而不會減少其必須吸收的總量。\n\n儘管伊朗與阿曼已達成收入分配協議，荷莫茲海峽仍須接受實體市場檢驗。船舶恢復通行、保險重新可得及LNG運輸穩定，才能判斷外交進展是否真正傳導至通膨。即使布蘭特與WTI維持在近期高點以下，若限制持續，歐洲天然氣庫存及日本運費仍會面臨壓力。\n\n日本央行副總裁冰見野良三的談話，將在9月18日會議前提供下一項訊號。7月企業服務通膨達3.6%、海運價格上漲67.4%，先前月份數據又遭上修，均強化升息理由。官員必須表明，他們是否認同市場所反映約80%的9月升息機率，或仍需要更多證據確認輸入型成本壓力會持續。\n\n歐洲央行面臨相近但不完全相同的抉擇。施娜貝爾主張升息，理由是需求具有韌性，增加能源成本傳導至薪資與物價的風險。8月通膨、天然氣庫存變化及中東衝突持續時間，將決定市場近乎完全反映的9月升息是否足夠，或還須為更高的最終利率作準備。\n\n軟銀最終融資方案將檢驗市場還有多少能力承接大型、非投資等級的AI相關借款人。交易規模、幣別、期限、擔保條件及是否採用144A架構，將決定公司能否在信用風險不進一步大增的情況下，為大部分過橋融資進行再融資。境外債券、國內零售債及保證金貸款必須合併評估，因為三者雖分別仰賴不同投資人群體，卻都在支撐同一項集中的投資計畫。\n\nBrightline仍須使破產融資協議生效，或另覓替代方案。Altice的債權人團體必須解決訴訟參與者是否享有優先待遇；Braskem則有90天時間爭取過半支持，並確定新資本的金額與順位。對每一個案例而言，取得新資金都只是第一步，控制權、擔保品及受償順位才會決定最終回收。\n",
+      "methodology_note": "除非另有說明，市場水準均以紐約收盤為準。利率資料採用Bloomberg每日殖利率歷史序列；變動幅度及衍生曲線均使用相同日期的序列。每日歷史資料未註明觀察時間。",
       "overall_summary": {
-        "headline": "PCE後美債小跌，軟銀融資規畫壓低自家債券",
-        "session_narrative": "10年期實質殖利率升至2.34%，損益兩平通膨率維持2.32%。7月核心PCE月增0.2%、年增3.3%，符合預期；實質消費停滯，新屋銷售減少10.5%。Warsh將在8月28日發言，市場目前估計9月升息機率43%。\n\n伊朗與阿曼就荷姆茲水域及收益達成協議，但未確認立即重啟航運。原油下跌，歐洲天然氣短缺、日本運費通膨仍有壓力。Schnabel支持進一步緊縮，泰國維持利率，巴西通膨則降溫。\n\n財政部回購促使投資人調整美債部位。軟銀尋求更廣的境外買方，Brightline安排附帶破產聲請條件的新融資；Braskem各券參與比例，則揭示仍須爭取哪些債權人支持。",
-        "summary": "2年與10年期殖利率各升2個基點至4.19%及4.66%。實質消費持平支持觀望，通膨上修卻保留緊縮風險。軟銀可能發債$100億至$200億，債券價格隨即下跌，CDS利差擴大。"
+        "headline": "通膨維持高於目標，美債殖利率上升並呈政策驅動的曲線趨平",
+        "session_narrative": "7月通膨仍高得不足以排除聯準會再次升息的風險，美國公債因而在8月26日溫和走跌。2年期殖利率上升3.6個基點至4.211%，5年期上升2.7個基點至4.363%，10年期上升1.8個基點至4.648%，30年期上升0.3個基點至5.169%。短端回吐的前一交易日漲幅較多，2年期與10年期利差縮小1.8個基點至43.7個基點。\n\n7月核心PCE月增0.2%，符合預期，年增3.3%；整體指數月增0.2%，高於預測的0.1%。實質消費支出持平、新屋銷售下滑10.5%，地區服務業活動也轉弱，支持聯準會9月保持耐心；但通膨並未呈現足以迅速回到2%的跡象，仍不能排除今年稍後收緊政策。期貨市場將9月16日升息機率提高至43%，並完全反映12月前升息1碼。\n\n伊朗與阿曼就荷莫茲海峽達成收入分配協議，油價因而帶來部分緩解，但伊朗表示航道不會立即重開。布蘭特原油下跌2.31%，WTI下跌0.63%；歐洲天然氣短缺及日本運費上漲，則使海外通膨風險持續。風險市場大致穩定，但軟銀擬發行$100億至$200億債券，使其債券及違約保護承壓，投資人正在評估為集中AI投資進行再融資的成本。",
+        "summary": "高於目標的PCE使聯準會再次升息仍有可能，短天期美債殖利率升幅大於長端；但消費與房市轉弱、油價下跌，加上財政部對長債的支撐，使這波重定價僅呈現溫和走跌與曲線趨平。"
       },
       "section_summaries": [
         {
-          "section_title": "通膨仍限制聯準會的選擇，美債回吐部分漲幅",
-          "summary": "需求與油價雖降溫，PCE仍讓聯準會保留升息選項。整體市場波動不大，軟銀龐大融資規畫卻使自家信用價格明顯承壓。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "開篇固定收益觀點",
+          "summary": "通膨高於目標，推升聯準會近期政策風險，美債殖利率曲線因而趨平，但長端壓力並未再起。消費與房市轉弱抑制成長訊號，油價下跌減輕一項通膨壓力，財政部買回長債則支撐較長天期債券。股市穩定顯示利率重定價仍受控制，軟銀擬議的大規模再融資則引發較明顯的個別發行人信用反應。"
         },
         {
-          "section_title": "消費降溫較明確，通膨改善仍有限",
-          "summary": "實質消費持平、房屋銷售疲弱，與通膨上修及所得回升形成對照。實質殖利率僅小幅上升，升息時點仍未明朗。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "數據保留了政策進一步收緊的可能，卻未強化長期成長前景，因此本輪賣壓由短端主導。",
+          "next_check": "",
+          "section_title": "通膨高於目標，消費動能轉弱",
+          "summary": "7月核心PCE月增0.2%，年增率維持3.3%，整體通膨月增幅則高於預期。服務價格及先前數據上修使緊縮風險延續，但實質支出持平、新屋銷售下滑10.5%，地區服務業營收也轉弱，顯示需求動能減弱。實質所得增加、儲蓄率升至四個月高點，仍為消費復甦留下空間，因此9月政策決定取決於後續條件，尚未定案。"
         },
         {
-          "section_title": "原油回落，天然氣與運費壓力尚未解除",
-          "summary": "荷姆茲外交進展壓低油價，航運尚未恢復。天然氣與運費支持歐日緊縮理由，泰國成長與巴西通膨則指向不同政策需求。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "外交進展可以帶動油價下跌，但天然氣與航運市場持續受阻，仍會把通膨壓力傳向海外。",
+          "next_check": "",
+          "section_title": "油價下跌未消除全球通膨問題",
+          "summary": "伊朗與阿曼就荷莫茲海峽收入分配達成協議後，油價下跌，但協議未確定安全航運何時恢復。歐洲天然氣庫存仍處於2009年以來同期最低，日本海運價格則大漲67.4%。即使原油下跌減輕美國近期能源通膨壓力，這些因素仍支撐歐洲央行與日本央行的緊縮預期。"
         },
         {
-          "section_title": "美債回購改變部位配置，各國財政風險仍有差異",
-          "summary": "美債回購改變部位配置，實質決策待11月揭曉。法國與捷克面對融資問題，中國、印尼及墨西哥則各有政策與主權風險。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "買回可提高長債的稀缺價值，卻只是把供給壓力轉移至其他期限，並未將其消除。",
+          "next_check": "",
+          "section_title": "財政部干預改變部位配置，未減融資需求",
+          "summary": "擴大長債買回支撐殖利率曲線遠端，並抑制曲線陡峭化部位；但買回仍須以現金或替代發債融資，無法降低聯邦政府總融資需求。11月4日季度再融資可能把更多借款轉向國庫券與較短天期票據。與此同時，軟銀可能進行$100億至$200億境外發債，凸顯大型AI相關借款人正競逐長期資本。"
         },
         {
-          "section_title": "軟銀境外發債規畫，立即反映在債券與CDS",
-          "summary": "軟銀可能在境外發債$100億至$200億，置換OpenAI過橋貸款並擴大買方來源。美元債與CDS已先反映潛在供給壓力。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "歐亞拉美主權政策分歧",
+          "summary": "法國預算僵局使財政與評級風險居高不下，捷克則放寬借款規則以支應基礎建設。泰國在政策傳導不佳與成長緩慢之間權衡，把利率維持於1%；中國推進與隔夜回購利率連結的銀行融資，巴西通膨轉弱則創造更多寬鬆空間。印尼準央行總裁捍衛政策獨立性，但未引發明顯市場重定價。"
         },
         {
-          "section_title": "Brightline爭取破產融資，Altice與Braskem債權人加緊整合",
-          "summary": "Assured對Brightline的條件式融資可能影響清償順位；Altice債權人爭議集中在資產移轉，Braskem各券支持率則暴露協商缺口。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "相較於能否取得新資金，受償順位、擔保品與控制權之爭更具決定性。",
+          "next_check": "",
+          "section_title": "債權人聚焦順位、擔保品與控制權",
+          "summary": "Brightline擬議的破產融資將優先於現有債務；Altice債權人則圍繞訴訟權利與優先待遇組織陣營。Braskem獲得39.6%受影響債權支持後，進入90天協商期。墨西哥主權CDS下降，卻與現券相對同評級國家較寬的估值形成對比，反映政府支援Pemex正把風險轉向主權資產負債表。"
         },
         {
-          "section_title": "先看Warsh如何評估通膨，再看各項融資定案",
-          "summary": "先看Warsh如何評估通膨，再看實際航運、軟銀定價與債權協議。這些具體進展，比整體市場平靜更有判斷價值。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "市場後續意義",
+          "summary": "華許的傑克森霍爾演說將檢驗，在聯準會反應函數中，持續通膨是否壓過需求轉弱。8月27日5年期公債標售及11月4日季度再融資，將顯示財政部調整期限組合時，投資人會在哪些期限要求補償。荷莫茲海峽能否恢復實際通行，仍是外交進展能否減輕歐洲天然氣及日本運費壓力的關鍵考驗。"
         }
       ],
       "watch_events": [
         {
-          "title": "Warsh傑克森洞談話",
+          "category": "聯準會",
           "date": "8月28日",
-          "category": "貨幣政策",
-          "watch_line": "核心PCE年增3.3%、實質消費持平，將如何影響9月決策？",
-          "market_trigger": "若更強調通膨持續性，市場可能提前預期中的升息時點。",
-          "market_implication": "2至5年期殖利率對升息時程變化最為敏感。"
+          "market_implication": "明確的鷹派訊號將對短端造成壓力；政策立場含糊則可能讓壓力重返長天期美債。",
+          "market_trigger": "明確表示通膨降溫停滯時願意收緊政策，或未對近期政策問題提供指引。",
+          "title": "華許的傑克森霍爾演說",
+          "watch_line": "華許將如何權衡3.3%的核心PCE、持平的實質支出及轉弱的房市。"
         },
         {
-          "title": "荷姆茲航運與歐洲天然氣",
-          "date": "持續追蹤",
-          "category": "能源與通膨",
-          "watch_line": "伊朗與阿曼達成收益協議後，觀察船舶通行及儲氣變化。",
-          "market_trigger": "航運恢復、庫存增加，才足以確認實體供應改善。",
-          "market_implication": "LNG與運費限制若持續，將削弱原油降價帶來的通膨緩解。"
+          "category": "美債供給",
+          "date": "8月27日及11月4日",
+          "market_implication": "5年期區段將需要更大的發行讓利，長債稀缺性則可能使殖利率曲線維持較平坦。",
+          "market_trigger": "5年期公債需求疲弱，或指引顯示未來發債將集中於國庫券及較短天期票據。",
+          "title": "美債需求與融資期限組合",
+          "watch_line": "5年期公債標售需求，以及季度再融資是否轉向國庫券與較短天期票據。"
         },
         {
-          "title": "軟銀與美國財政部融資條件",
-          "date": "至11月4日",
-          "category": "融資與信用",
-          "watch_line": "先看軟銀擬議發債，再看財政部11月4日再融資決策。",
-          "market_trigger": "最終發債規模、期限及定價將反映買方容量；財政部仍須釐清供給組合。",
-          "market_implication": "較大發行讓利或更多短期公債供給，都會改變籌資成本及分布。"
+          "category": "能源通膨",
+          "date": "持續觀察",
+          "market_implication": "恢復通行將減輕全球能源通膨；限制持續則會延續歐洲天然氣及日本運費壓力。",
+          "market_trigger": "船運及LNG流量獲得確認，或伊朗與阿曼達成協議後限制仍持續。",
+          "title": "荷莫茲海峽實際重開",
+          "watch_line": "船舶是否恢復通行、保險是否可得，以及LNG運輸是否穩定。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Treasuries give back some gains as inflation leaves the Fed little room\n\nTreasuries slipped after July inflation data left another Federal Reserve increase in play, despite weaker spending and a further decline in oil. Two-, 5- and 10-year yields each rose 2 basis points to 4.19%, 4.37% and 4.66%; the 30-year added 1 basis point to 5.18%. Ten-year real yields accounted for the entire nominal increase, rising to 2.34%, while breakevens held at 2.32%.\n\nCore PCE rose an expected 0.2% in July and 3.3% from a year earlier. Flat real consumption and a steep fall in new-home sales gave the Fed reasons to wait, but upward inflation revisions and firmer household income left the case for further tightening intact. Markets assigned a 43% probability to a September increase and fully priced 25 basis points by December, ahead of Kevin Warsh's August 28 Jackson Hole address.\n\nOil fell again after Iran and Oman agreed on waters and revenues in the Strait of Hormuz, though Iran said the arrangement did not mean an immediate reopening. Brent lost 2.31% to $86.53 and WTI 0.63% to $81.84. European gas shortages and sharply higher Japanese freight costs continued to trouble policymakers even as crude eased. Schnabel called for further ECB tightening; Japan's service-price data reinforced expectations of a September hike.\n\nBroad markets were quiet: the S&P 500 slipped 0.02%, investment-grade bond fund LQD lost 0.07%, and the main high-yield funds fell about 0.02%. SoftBank was a conspicuous exception. A possible $10 billion–$20 billion offshore issue sent one of its dollar bonds down 2.3 cents and widened its 5-year CDS by 10.7 basis points. In distressed debt, Brightline secured an agreement for prospective bankruptcy financing, while Altice and Braskem creditors fought over assets, participation and repayment priority.\n\n## PCE cools spending more convincingly than inflation\n\nThe detail of July PCE was less reassuring than the moderate monthly headline for core prices. Services excluding energy and housing rose 0.3%, with portfolio-management and investment-advice prices up 5.6%, the most in a year. Recent inflation readings were revised slightly higher. Headline PCE remained 3.7% above a year earlier, leaving both measures well above the Fed's 2% goal.\n\nReal spending stalled after strong gains in May and June. Core-goods outlays fell 0.8%, partly reflecting Amazon's decision to move Prime Day from July to June, while real services spending rose 0.3% on transport, restaurants and accommodation. Households had more income available: real disposable income increased 0.4%, its strongest gain since January, and the saving rate reached a four-month high of 3%. The spending pause therefore came with some rebuilding of financial buffers rather than a sudden loss of purchasing power.\n\nHousing was weaker. New-home sales dropped 10.5% to a 607,000 annual rate, below the 620,000 forecast and down from a revised 678,000. Median prices reached a five-year low, yet contract signings fell to their lowest in six months despite builders' incentives. High mortgage rates, construction costs and uncertainty continued to restrain a market in which new homes have accounted for an unusually large share of transactions.\n\nRichmond Fed surveys were mixed. The manufacturing index eased to 4 from 5, missing the forecast of 7, but shipments improved to 11 from 8. Services revenues fell to −8 from −3. The releases added to the evidence of cooling demand without showing a uniform contraction.\n\nTwo-year yields remained 14 basis points below a month earlier even after Wednesday's rise. The curve barely changed: 2s10s stayed at 47 basis points and 2s30s narrowed 1 basis point to 99. A 0.21% gain in the Dollar Index accompanied higher real yields, while gold rose 0.85% to $4,677.70. The modest rates adjustment left considerable uncertainty over how much further inflation progress Warsh will require before ruling out another increase.\n\n## Cheaper oil leaves gas and freight inflation unresolved\n\nIRGC spokesman Hossein Mohebbi said Iran and Oman had agreed on their respective shares of Hormuz waters and revenues, advancing the earlier interim framework. That helped oil fall for a third session. The agreement did not establish when normal vessel traffic would resume, however, and Iran explicitly warned against expecting an immediate reopening.\n\nEuropean gas prices were near five-month highs, with winter contracts costing more than twice their year-earlier level. Storage was only 63% full, the lowest for the season since 2009. Gas supplies 21% of the EU's energy and roughly 25%–35% of Britain's. LNG cargoes passing through Hormuz lack an alternative route, while limited strategic inventories leave less protection than in oil.\n\nECB Executive Board member Isabel Schnabel said current rates were unlikely to bring inflation back to target over the medium term and called for further tightening before energy costs fed into wages. Demand was holding up: euro-area GDP grew 0.4% in Q2 after stagnating, German growth was revised higher, and fiscal, defense and AI spending provided support. With July inflation at 2.9%, markets were close to fully pricing a 25-basis-point increase in the deposit rate to 2.5%.\n\nJapan's corporate service prices rose 3.6% in July, the fastest since May, after upward revisions to the previous three months. Ocean-freight prices surged 67.4%, a record in data beginning in 1986, as longer routes increased costs. April's initial 3% reading now stands at 3.6%. Markets priced about an 80% chance of a September 18 BOJ hike; Deputy Governor Ryozo Himino's upcoming remarks will provide another indication of the bank's assessment.\n\nThailand instead held its one-day repo rate at 1% unanimously for a third meeting. Q2 growth of 1.9% was the weakest among six major Southeast Asian economies, and small businesses still faced tight credit even as large-company lending improved. Officials expected El Nino to lift inflation through Q1 2027 before it subsided. They regarded current policy as accommodative, saw no immediate case for a move in either direction, and cautioned that additional cuts might do little for borrowing. More than 127 billion baht of the 255 billion baht spent on approved investment projects in Q2 was AI-related, a concentration that helps explain why investment strength had not spread evenly through the economy.\n\nBrazil's early-August inflation fell to 4.24%, below the 4.33% forecast and within the 3% target's 1.5-percentage-point tolerance band. Monthly prices declined 0.4%, versus an expected 0.32% fall. A one-time electricity credit reduced housing costs 1.41%, and cheaper airfares helped transport prices fall 1%. January 2027 swaps declined as much as 2.6 basis points. Temporary relief and election-related social spending warrant caution, but the reading gave the central bank more room after its fourth consecutive 25-basis-point cut took Selic to 14%.\n\n## Treasury buybacks change positioning as fiscal risks diverge abroad\n\nMorgan Stanley Investment Management's Vishal Khanduja reduced a 5s30s steepener after Treasury announced larger long-bond buybacks. That gap had narrowed about 10 basis points since the announcement. Barclays estimated additional purchases of $64 billion a year, equivalent to roughly 15% of current 20- and 30-year supply. Citadel Securities strategist Frank Flight also reversed his July bearish call, citing improving inflation data and crowded short positions.\n\nThe next substantive debt-management decision comes at the November 4 refunding. Deutsche Bank, Morgan Stanley and Citigroup strategists have considered more bills and short notes, steady or smaller long-bond auctions, larger buybacks and, as a tail possibility, ending the 20-year maturity. Bessent has ruled out regular-auction changes before then. Repurchases still require cash or borrowing; issuing shorter debt would reduce the duration sold to investors while increasing future refinancing needs.\n\nFrance faced a more immediate fiscal repricing. Its 10-year yield exceeded 4% for the first time in nearly two decades, and its German spread reached 86 basis points, near the widest closing level since 2012. Debt stands around 117% of GDP. The government already doubts it can lower this year's deficit to 5% from 5.1% in 2025, while Prime Minister Sebastien Lecornu's plan for structural savings without new taxes faces opposition ahead of a late-September budget. Failure to secure a budget before the April 18 and May 2 presidential votes could require emergency funding legislation and add at least 0.5 percentage point of GDP to the deficit. Fitch opens the coming ratings-review calendar.\n\nCzech lawmakers overrode President Petr Pavel's veto to loosen fiscal limits and permit record infrastructure spending. A rule that would have capped the 2027 central-government deficit at 150 billion koruna was set aside; officials now expect more than this year's 310 billion but less than 400 billion. General-government borrowing of 2.8% of GDP would remain below the EU's 3% ceiling, and debt near 46% leaves more room than France has. Yields have nevertheless risen with funding expectations. An opposition constitutional challenge complicates a program that also includes record retail issuance.\n\nIn China, Merchants Bank is preparing up to 2 billion yuan of 3-year floating-rate notes linked to overnight repo benchmark DR001, the first such issue from a domestic commercial bank. Export-Import Bank of China used it earlier in August, and lenders have begun referencing it in loans. The PBOC's shift from the 7-day repo toward an overnight operational target could align banks' asset and liability pricing more closely, improving policy transmission while margins hover near record lows.\n\nIndonesia's prospective central-bank governor Destry Damayanti told parliament that closer government coordination would not compromise independence. She retained a preemptive, forward-looking approach to rates following Perry Warjiyo's early departure, the appointment of President Prabowo Subianto's nephew as a deputy governor, and a broader growth-and-employment mandate. The rupiah was little changed and the 10-year yield retained a 3-basis-point increase. Her proposed 2026–2031 term would include managing liquidity, intervention and a move away from high-yield SRBI securities alongside the government's 8% growth ambition.\n\nMexico's falling CDS masked a relative penalty in cash bonds. Five-year protection cost 80 basis points, down from 120 when Claudia Sheinbaum took office in October 2024. Bank of America nonetheless estimated dollar bonds traded 39 basis points wider than similarly rated sovereigns—about 1.5 rating notches below Mexico's formal standing. Eight years of $130 billion in Pemex support lowered the company's debt to 4% of GDP from a 2016 peak of 9.3%, but shifted risk onto the government. Moody's lowered Mexico to the bottom investment-grade tier in May; S&P's outlook is negative.\n\n## SoftBank's offshore plan brings an immediate credit repricing\n\nSoftBank is discussing a $10 billion–$20 billion dollar and euro bond sale, potentially in September, to repay part of its $40 billion OpenAI bridge loan and fund other AI commitments. Its OpenAI investment is scheduled to reach close to $65 billion by October. At the upper end, the sale would be Asia's largest offshore issue this year and cover much of a funding gap estimated above $20 billion.\n\nIts 8.5% dollar bond fell 2.3 cents to about 98, the biggest daily decline since April issuance. Five-year CDS widened 10.7 basis points, the most in over a month. SoftBank said it was considering several refinancing options and had not decided the amount, leaving final size, currencies and maturities open.\n\nThe proposed 144A format, its first in more than a decade, would bring US institutional buyers into the financing. That expands the available investor base beyond the Japanese households targeted by its previously announced ¥1 trillion retail plan. A $10 billion margin loan secured by its OpenAI stake provides another source of funds, but covenants can require cash collateral or early repayment. SoftBank also sold $3.6 billion in dollar and euro debt in April, including the 10-year 8.5% bond now under pressure.\n\nOther Asian companies are preparing to tap international capital. Citigroup expects record Korean overseas debt and equity issuance in 2026 after helping clients raise about $60 billion so far. Korea's previously reported chip and data-center investment plans explain the scale of demand, but SoftBank's secondary-market losses offered a more immediate measure of the price investors may require from a heavily committed borrower.\n\n## Brightline seeks bankruptcy funding; Altice and Braskem creditors organize\n\nBrightline agreed with Assured Guaranty on at least $350 million of new loans if the Florida railroad enters Chapter 11, potentially within weeks. The company has $5.5 billion of obligations, much of it trading at distressed prices. The agreement is not yet effective and Brightline can still pursue another in-court or out-of-court solution.\n\nAssured guarantees about $1.1 billion of the $2.2 billion in highest-priority debt held by Invesco, Nuveen and First Eagle, and must consent to changes. Redwood Capital, Aristeia Capital and Nut Tree Capital lead a hedge-fund group holding a majority of $1.1 billion in junior corporate notes; roughly $2 billion more consists of lower-ranking municipal bonds. Providing debtor-in-possession financing could give Assured senior repayment rights and greater influence over negotiations, without yet settling recoveries for existing holders.\n\nAltice International secured creditors Arini, Silver Point, King Street, Sona, Diameter and Invesco formed a bloc, with Elliott discussing membership. Its addition would bring the group to roughly 60% of secured debt. Members are prepared to litigate and seek better treatment than creditors outside the committee over alleged covenant breaches involving €5 billion, or $5.3 billion, of intercompany loans and transfers of the Portuguese and Dominican Republic businesses outside the restricted group. Altice Financing says the default notice is invalid because creditors failed to establish the necessary holdings or authority; creditors dispute that response.\n\nBraskem's new series-level figures showed where it must win support for its $11 billion restructuring. About 67% of the subordinated 2081 notes joined, alongside roughly 60% of the 4.5% 2028s and 58% of both the 7.25% 2033s and 8.5% 2031s. Participation was only about 30% in the 5.875% 2050s and 13% in the 7.125% 2041s. The largest series, the 4.5% 2030s, was almost evenly divided.\n\nBacking totaled 22.4 billion reais, or $4.3 billion and 39.6% of affected debt, enough to start the already-announced 90-day process but short of the majority required for court approval. Banks sought additional collateral that Braskem rejected. Fresh equity or a backstop from Petrobras, IG4 Capital or approved third parties remained unspecified in size, structure and timing. The instrument-level split now gives negotiations a clearer focus than the aggregate support figure alone.\n\n## Warsh's inflation assessment comes before the funding decisions\n\nWarsh's August 28 remarks will follow a report combining 3.3% core inflation with flat real spending. His assessment of revisions, household demand and the persistence of supply costs will matter for whether the increase fully priced by December moves closer to September. Two- to 5-year yields are most directly exposed to that change in timing.\n\nFor energy, actual Hormuz traffic and European storage will show how much of the diplomatic improvement reaches physical supply. Lower crude has not yet removed gas and freight pressures from the European and Japanese policy outlooks.\n\nSoftBank's final size, maturities and pricing are nearer-term tests of financing capacity; Treasury's November 4 refunding will clarify the official supply mix. Brightline still needs an effective financing arrangement and a decision on filing, Altice faces contested creditor claims, and Braskem must assemble a majority. Those unresolved terms—not the calm in broad credit funds—will determine the next developments for their bondholders.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries sold off modestly and the curve flattened on Aug. 26 after July inflation proved benign at the margin but still too high to dislodge expectations for another Federal Reserve increase. The 2-year yield rose 3.6 basis points to 4.211%, the 5-year gained 2.7 basis points to 4.363%, the 10-year climbed 1.8 basis points to 4.648% and the 30-year added just 0.3 basis point to 5.169%. The front end therefore gave back more of the previous session’s rally than the long end.\n\nThe core personal consumption expenditures price index rose an expected 0.2% from June and 3.3% from a year earlier. The broader index also increased 0.2% on the month, faster than the 0.1% forecast, and remained 3.7% above its year-earlier level. Flat inflation-adjusted consumer spending, a 10.5% fall in new-home sales and mixed regional activity data gave the Fed reasons to wait in September, but did not establish that inflation was returning to 2% quickly enough to remove tightening from the remainder of the year.\n\nThat balance produced a policy-led flattening rather than renewed long-end stress. The 2s10s spread narrowed 1.8 basis points to 43.7 basis points, and 2s30s compressed 3.3 basis points to 95.8 basis points. At 10 years, the real yield increased only 0.6 basis point to 2.322%, while the breakeven rose 1.2 basis points to 2.326%. The composition indicated that investors marked up inflation compensation as well as near-term policy risk, even as the subdued monthly core reading restrained the increase in real borrowing costs.\n\nOil supplied a counterforce. Brent fell 2.31% to $86.53 and WTI declined 0.63% to $81.84 after Iran’s military announced a revenue-sharing agreement with Oman covering the Strait of Hormuz. Iran nevertheless cautioned that the agreement did not mean the waterway would reopen immediately. Crude’s third consecutive decline eased one source of headline inflation pressure, but shortages in European natural gas and sharply higher Japanese freight costs continued to influence overseas policy expectations.\n\nCross-asset markets reflected a contained rates repricing rather than a broad retreat from risk. The S&P 500 was almost unchanged, the Nasdaq 100 gained 0.05% and the Dollar Index rose 0.21%. Gold futures advanced 0.85% to $4,677.70 and remained 4.19% higher over one week. US investment-grade, high-yield and emerging-market bond funds edged lower by less than 0.1%.\n\nThe more pronounced credit move was issuer-specific. SoftBank began discussing a possible $10 billion to $20 billion dollar-and-euro bond sale to refinance part of a $40 billion bridge loan supporting its OpenAI investment. Its 8.5% dollar bond fell 2.3 cents to about 98, while its credit-default swaps widened 10.7 basis points. That response showed investors distinguishing between open financing markets and the price of transferring a large, short-term AI commitment into longer-dated debt.\n\n## Inflation Holds Above Target as Consumption Loses Momentum\n\nThe July income and spending report gave the Fed evidence of slower demand without delivering a decisive inflation improvement. Core PCE advanced 0.2% on the month, matching expectations, and the annual rate held at 3.3%. The headline index’s 0.2% monthly increase exceeded the 0.1% forecast, while its 3.7% annual pace remained nearly twice the central bank’s objective.\n\nThe market reaction reflected the difference between a tolerable monthly reading and an acceptable inflation level. Futures raised the probability of a Sept. 16 increase to 43%, from slightly below 40% before the release, and fully priced a quarter-point move by December. The 2-year yield’s 3.6-basis-point increase exceeded moves farther out the curve because the report preserved the possibility of tighter policy without presenting a stronger long-term growth outlook.\n\nServices inflation remained the less comfortable part of the release. A measure excluding energy and housing rose 0.3%, helped by a 5.6% increase in prices for portfolio-management and investment-advice services, the largest in a year. Small upward revisions to earlier inflation readings also gave more weight to officials concerned that progress had stalled, even though the latest monthly core figure was moderate.\n\nBeginning with the next report, the Bureau of Economic Analysis will change its measurement of categories including legal services, computer software and investment advice. Economists expect the revisions to lower reported PCE inflation at the margin. That prospective statistical effect does not change July’s outcome or resolve whether underlying service prices are slowing in the parts of the economy most relevant to the Fed.\n\nDemand data were softer. Inflation-adjusted consumer spending was unchanged after strong gains in May and June. Real spending on core goods fell 0.8%, while real services outlays rose 0.3%, led by transportation, restaurants and accommodation. Amazon’s decision to move its Prime Day event from July to June may have pulled some goods purchases into the previous month, but the broad result still showed consumption losing momentum after a strong early summer.\n\nHousehold finances improved in ways that complicate a simple weakening narrative. Real disposable income rose 0.4%, the largest increase since January, and the saving rate climbed to a 4-month high of 3%. Consumers therefore spent less aggressively even as purchasing power recovered. That creates room for demand to reaccelerate, but it also suggests households were becoming more cautious rather than merely being overwhelmed by prices.\n\nHousing supplied a clearer slowdown. New-home sales fell 10.5% in July to a 607,000 annualized rate, the lowest in 6 months and below the 620,000 consensus. The previous month was revised to 678,000. High mortgage rates and construction costs are limiting demand, while tariffs on materials such as Canadian lumber threaten to erode the price advantage that new homes have offered over existing properties.\n\nNew construction has recently accounted for 13% of total home sales, compared with a long-term median of 11.7%, partly because builders have used price reductions and incentives. The July fall matters beyond one volatile monthly series because it weakens a channel that had helped offset scarce and expensive existing-home supply. Persistently high Treasury and mortgage yields would make that adjustment harder even if household income continues to grow.\n\nRegional activity data showed a split between manufacturing production and services demand. The Richmond Fed manufacturing index eased to 4 in August from 5, missing the consensus of 7, while its shipments component improved to 11 from 8. The district’s services-revenue index deteriorated to -8 from -3. The figures did not point to an abrupt industrial contraction, but the weakness in services reinforced the softer signal from real consumer spending.\n\nThe report therefore left September genuinely conditional. Inflation remained above target and the headline monthly result was firmer than forecast, but spending, housing and parts of the regional economy cooled. The front-end selloff priced a greater chance that the Fed eventually raises rates; the flattening showed that investors did not interpret the data as evidence of an economy able to absorb an extended tightening cycle without slower growth.\n\n## Cheaper Oil Does Not End the Global Inflation Problem\n\nThe decline in crude accelerated after Iran’s Islamic Revolutionary Guard Corps said Tehran and Oman had agreed on their respective shares of the Strait of Hormuz’s waters and revenues. The statement went beyond the previous day’s description of an interim framework for resuming ship transits. It nevertheless stopped short of establishing when shipping would restart, how navigation would be governed or whether insurers and carriers would treat the route as safe.\n\nThat distinction helped explain why oil fell while longer-term inflation compensation rose. Brent was down about 5.56% over one week and 10.59% over one month, reducing the immediate energy impulse for US inflation. Yet the unresolved physical status of Hormuz, widening trade barriers and pressure in other energy markets prevented investors from treating the crude move as a comprehensive disinflation shock.\n\nNatural gas has become the larger concern for European rates. European prices were near 5-month highs, and winter contracts cost more than twice as much as a year earlier. Storage was only 63% full after companies and governments delayed replenishment in hopes that the Middle East conflict would ease. That was the lowest seasonal level since 2009.\n\nThe region is unusually exposed because gas accounts for about 21% of the European Union’s energy mix and between 25% and 35% of the UK’s. Roughly 20% of global liquefied-natural-gas supply normally passes through Hormuz, with few alternative routes and limited strategic inventories. Oil can therefore decline on diplomatic optimism while European gas continues to price a difficult winter and a wider inflation pass-through.\n\nEuropean Central Bank Executive Board member Isabel Schnabel responded with an explicit case for further tightening. She said the current policy rate was unlikely to return inflation to target over the medium term and argued that waiting for energy costs to feed into wages would leave the central bank behind the curve. Euro-area inflation reached 2.9% in July, and Schnabel expects it to remain above 2% for an extended period.\n\nHer argument also rested on demand. Euro-area output grew 0.4% in Q2 after stagnating at the start of the year, with Germany performing better than initially estimated. Schnabel identified fiscal policy, defense expenditure and the AI investment boom as sources of resilience and judged the risks to growth as tilted modestly upward relative to the ECB’s June projections.\n\nMarkets were almost fully pricing a quarter-point ECB increase in September, taking the deposit rate to 2.5%, with another move seen by spring 2027. Schnabel did not specify the eventual peak and said the required degree of tightening would depend on incoming data. That qualification matters because ING’s Carsten Brzeski warned that an overly hawkish response to a supply shock could push the euro-area economy back toward weak growth.\n\nJapan presented another route from disrupted energy supply to tighter policy. Corporate service prices rose 3.6% from a year earlier in July, the fastest pace since May after the previous 3 months were revised higher. Ocean-freight prices surged 67.4%, the largest increase in data extending to 1986, as the Middle East conflict forced shippers onto more expensive routes.\n\nThe result reinforced expectations for the Bank of Japan’s Sept. 18 decision. Overnight-index swaps assigned about an 80% probability to an increase, with a move fully priced by October. Deputy Governor Ryozo Himino’s remarks beginning Thursday will be scrutinized for whether officials validate those expectations or resist the market’s timing.\n\nAn Australian pension fund offered a practical expression of that view. Australian Retirement Trust, which manages about A$370 billion, built its largest yen overweight in years while trimming some dollar exposure. The fund judged that markets had already recognized the drag from higher energy costs but were still underpricing the prospect of BOJ tightening. It estimated fair value for the yen near 150 per dollar, compared with roughly 159 during the session.\n\nThe diverging energy signals leave global central banks with different degrees of patience. Cheaper crude benefits the US and other oil-importing economies immediately. Europe remains vulnerable to depleted gas storage, while Japan is seeing shipping disruption enter business-service prices. A Hormuz agreement that does not restore physical traffic can therefore lower oil without removing the principal inflation risk confronting every major bond market.\n\n## Treasury Intervention Reshapes Positioning, Not the Financing Need\n\nTreasury Secretary Scott Bessent’s expanded long-bond buyback plan continued to support the far end of the curve even as US inflation pushed shorter yields higher. Since the announcement, the gap between 5- and 30-year yields has narrowed by about 10 basis points. On Wednesday, 2s30s flattened another 3.3 basis points, leaving the 30-year yield almost unchanged while the 2-year rose.\n\nThat relative performance has begun to alter investor positioning. Morgan Stanley Investment Management’s Vishal Khanduja reduced a trade designed to benefit from a wider gap between 5- and 30-year yields because Treasury has become a price-insensitive buyer of long debt. Barclays estimates that larger repurchases could amount to $64 billion annually, equivalent to about 15% of current 20- and 30-year supply.\n\nThe change is tactical rather than a reduction in total federal borrowing. Treasury cannot create money for its purchases, so repurchases must ultimately be financed through additional issuance or by drawing on its cash balance. Removing long-duration bonds can improve their scarcity value and discourage aggressive steepener positions, but any replacement bills or shorter notes leave the government’s aggregate financing requirement intact.\n\nWall Street is consequently treating the Nov. 4 quarterly refunding as the more consequential event. Strategists at Deutsche Bank, Morgan Stanley and Citigroup see a possibility that Treasury will signal future borrowing increases through bills and shorter notes while holding long-bond auction sizes steady. Outright cuts to longer-maturity sales, once considered highly unlikely, can no longer be excluded.\n\nTreasury’s latest guidance created room for that interpretation by saying officials were evaluating possible changes in coupon and floating-rate-note sales, rather than only possible increases. Bessent has ruled out an immediate change to the regular auction schedule, leaving November as the first formal opportunity to alter the mix. Deutsche Bank also sees scope for buyback operations larger than the initial suggested minimum of $4 billion.\n\nThe 20-year bond is drawing particular attention because its yield is close to that of 30-year debt despite the shorter maturity. Citigroup delayed its forecast for larger auctions until 2028 and raised the possibility that Treasury could eventually eliminate the 20-year tenor. Such a move would improve the position of existing securities but force other maturities to absorb the displaced financing.\n\nThe policy’s effect on predictability is becoming part of the term-premium debate. Regular and transparent issuance has long been a defining feature of Treasury debt management. Linking auction composition or buyback size more visibly to uncomfortable yield levels may reduce immediate duration pressure but increase uncertainty over where future supply will appear.\n\nFrank Flight of Citadel Securities nevertheless reversed his bearish bond view, arguing that crowded positioning and improving inflation data had made lower long-end yields the more asymmetric outcome. In 64 historical episodes since 2003 with comparable growth and monetary-policy signals, Citadel found that yields fell over the following 120 days 71% of the time, with an average decline of 25 basis points.\n\nThe Wednesday close showed why that argument can coexist with a Fed tightening risk. The long end barely moved even as the market raised the probability of a September increase and fully priced a move by December. Treasury’s intervention has strengthened the relative support for long maturities, while PCE is influencing the timing of policy rates. The resulting flatter curve does not settle whether the equilibrium level of long yields is sustainable once buybacks, fiscal issuance and corporate borrowing are considered together.\n\nCorporate competition for capital became more visible through SoftBank. The junk-rated Japanese conglomerate is discussing a $10 billion to $20 billion offshore deal, potentially in dollars and euros as early as September. Proceeds would partly refinance a $40 billion bridge loan raised for its OpenAI investment and support other AI projects.\n\nSoftBank is due to invest close to $65 billion in OpenAI by October, partly financed with debt. It has also arranged a $10 billion margin loan secured by its OpenAI stake, with covenants that could require additional cash or early repayment. The possible offshore transaction would accompany a record ¥1 trillion retail bond planned in Japan.\n\nA 144A structure, which SoftBank has not used for an international offering in more than a decade, would give it access to a broader US institutional buyer base. Scale remains the challenge. At the upper end, the transaction would be the largest offshore bond deal by an Asian company this year and would follow SoftBank’s $3.6 billion dollar-and-euro sale in April, which included a 10-year dollar tranche carrying an 8.5% coupon.\n\nThe immediate credit reaction showed that access and cost are separate questions. That 8.5% bond dropped 2.3 cents, while default protection widened 10.7 basis points, the largest increase in more than a month. Investors were being asked to absorb not merely another corporate issue but the refinancing of a concentrated technology investment whose funding requirement remains substantial.\n\nThe prospective sale comes after more than $410 billion of bond borrowing this year for data centers and other AI investment. South Korean companies are also expected to produce record international debt and equity issuance, while firms and official borrowers have begun searching for less crowded currencies and buyer bases. Bessent’s intervention can remove selected Treasury duration, but it cannot eliminate the expanding private demand for the same pool of long-term capital.\n\n## Sovereign Policy Splits Across Europe, Asia and Latin America\n\nFrance entered another budget confrontation with its 10-year yield above 4% for the first time in almost 2 decades and its spread over Germany at 86 basis points, just below the widest closing level since 2012. The immediate calendar begins with Fitch’s review and continues into a late-September budget proposal, but the larger risk is that parliamentary fragmentation prevents an effective 2027 fiscal plan before the April and May presidential election rounds.\n\nThe government is already struggling to reduce this year’s deficit to 5% of output from 5.1% in 2025. Debt stands near 117% of GDP and is expected to keep rising. Without additional action, Allianz Trade estimates the deficit could reach 5.6% next year, while the government aims to move below 5% in 2027.\n\nPrime Minister Sebastien Lecornu has ruled out new taxes and is seeking structural spending savings. Opposition parties, particularly the Socialists whose cooperation helped pass the previous 2 budgets, are preparing competing demands. Business groups are resisting an extension of a levy on large companies that was initially presented as temporary.\n\nFailure to adopt a budget before the election could force France to rely on emergency legislation that rolls over essential tax and spending authority. The General Inspectorate of Finance estimates that such an outcome would add at least 0.5 percentage point to the deficit. Ratings pressure would become more serious if the shortfall approached 6%, even if immediate action from Fitch or other assessors remains limited.\n\nThe Czech Republic moved in the opposite political direction by loosening its fiscal rules. Lawmakers overrode President Petr Pavel’s veto, allowing Prime Minister Andrej Babis’s government to finance a record infrastructure program with more debt. The 2027 central-government deficit is expected to exceed this year’s 310 billion koruna but remain below 400 billion, compared with a 150 billion cap under the previous rules.\n\nThe broader deficit is projected at 2.8% of GDP, below the European Union’s 3% limit, and public debt near 46% remains low by regional standards. Even so, Czech bond yields have been rising as investors anticipate heavier borrowing. The president, the independent fiscal watchdog and opposition parties warned that the change weakens longer-term discipline, and opponents plan a Constitutional Court challenge.\n\nIn Asia, the Bank of Thailand held its 1% policy rate unanimously for a third meeting and described the stance as accommodative. Growth was only 1.9% in Q2, the weakest among the 6 major Southeast Asian economies that had reported, and the recovery remains uneven despite stronger exports, investment and government stimulus.\n\nThe central bank said current rates were appropriate because cuts were not transmitting effectively into the real economy, particularly to small and medium-sized enterprises. It nevertheless preserved room to ease if a crisis emerged. Overall credit is improving through large-company borrowing, but SME loans continue to contract and vulnerable households remain under pressure.\n\nThailand expects inflation to rise through Q1 2027 because of El Niño before subsiding. The bank therefore sees no current case for either a hike or a cut. AI-related investment has become an important support: projects receiving official incentives attracted 255 billion baht in Q2, up 31% from a year earlier, with AI industries accounting for more than half.\n\nChina advanced a different form of monetary reform. China Merchants Bank began selling as much as 2 billion yuan of 3-year floating-rate notes tied to the overnight bond-repurchase rate, the first such issue by a local commercial bank. The Export-Import Bank of China had become the first policy lender to use that reference earlier in the month.\n\nThe People’s Bank of China is gradually shifting its operational target from the 7-day repo rate toward the overnight rate and has expanded overnight liquidity operations. Using the same benchmark for bank assets and liabilities could improve interest-rate transmission and help protect margins that are near record lows, potentially giving the PBOC more room to ease without intensifying pressure on lenders.\n\nBrazil produced a more conventional disinflation result. Consumer prices rose 4.24% from a year earlier in early August, below the 4.33% consensus and within the central bank’s 1.5%-to-4.5% target range. Prices fell 0.4% on the month, more than the 0.32% decline expected, prompting swap rates to fall across the curve.\n\nHousing costs dropped 1.41% because of a one-time electricity credit, and transportation prices declined 1% on cheaper airfares. The result gives the central bank more room after 4 consecutive quarter-point cuts brought the Selic rate to 14%. Fiscal concerns and election-related social spending still limit the extent of easing, but the Sept. 15-16 meeting now approaches with inflation below the ceiling rather than above it.\n\nIndonesia’s prospective central-bank governor, Destry Damayanti, used her parliamentary vetting to defend institutional independence after a series of political changes raised investor concern. She said coordination with the government would not dilute Bank Indonesia’s authority and kept stability as the primary condition for supporting growth.\n\nHer nomination follows the departure of Perry Warjiyo, the appointment of President Prabowo Subianto’s nephew as deputy governor and a broader legal mandate covering employment and growth. Destry also signaled continuity in currency intervention, liquidity management and the policy rate. Indonesian equities and the rupiah were little changed, while the 10-year government yield retained a 3-basis-point increase, suggesting reassurance without a major repricing.\n\n## Creditors Focus on Priority, Collateral and Control\n\nSoftBank’s funding plan dominated liquid corporate-credit trading, but several distressed situations advanced through contractual changes rather than market-wide spread moves. Brightline reached an agreement with municipal-bond insurer Assured Guaranty that could provide at least $350 million of new loans if the Florida railroad enters Chapter 11.\n\nThe restructuring-support agreement reflects mounting urgency around Brightline’s $5.5 billion of obligations and could precede a filing within weeks. It is not yet effective, and the company may still seek a different arrangement in or outside court. The financing would rank ahead of existing debt, giving its providers influence over the restructuring and a clearer recovery route.\n\nPriority is particularly contentious because Brightline’s capital structure crosses municipal and corporate markets. Invesco, Nuveen and First Eagle hold its $2.2 billion of highest-ranking debt, of which Assured guarantees about $1.1 billion and must approve amendments. A hedge-fund group led by Redwood Capital, Aristeia Capital and Nut Tree holds a majority of $1.1 billion in junior corporate notes. Roughly $2 billion of additional obligations consists of lower-ranking municipal bonds.\n\nAltice International creditors are also organizing around control and compensation. Arini Capital, Silver Point, King Street, Sona, Diameter and Invesco formed a litigation-focused group seeking preferential treatment for the additional work and legal risk it may assume. Elliott is discussing joining, which would bring the bloc to roughly 60% of secured debt.\n\nThe dispute centers on alleged covenant breaches involving €5 billion of intercompany loans and transfers of the Portugal and Dominican Republic businesses outside the restricted group. Creditors sent a default notice in July. Altice Financing argued that they had not proved sufficient holdings or authority to act, while the creditors maintain that the notice is valid.\n\nBraskem’s out-of-court restructuring gained more precise participation figures. Creditors holding 22.4 billion reais, or $4.3 billion, of claims supported the process, representing 39.6% of the affected debt. That was just above the one-third threshold required to begin the 90-day negotiation, while 60.4% remained non-adhering.\n\nOffshore bondholders supplied most of the support, with ad hoc groups representing slightly more than 31% of the debt. Participation varied sharply by series: about 67% of subordinated notes due in 2081 agreed, as did roughly 60% of the 4.5% notes due in 2028 and about 58% of the 2031 and 2033 issues. Only 13% of the 7.125% notes due in 2041 participated, and the large 4.5% series due in 2030 was almost evenly divided.\n\nBraskem must obtain approval from creditors holding more than half of affected claims for court confirmation. The framework also requires Petrobras, IG4 Capital or agreed third parties to provide or backstop fresh equity, but the amount, timing and structure remain unresolved. Banks sought additional collateral that the company did not accept, leaving the eventual ranking of new support central to the negotiation.\n\nMexico presented a sovereign-credit dispute over which market signal deserves emphasis. The Finance Ministry highlighted the decline in 5-year credit-default swaps to 80 basis points from 120 when President Claudia Sheinbaum took office in October 2024. Governor Victoria Rodríguez Ceja said the compression in sovereign and Pemex protection was consistent with a lower perception of risk.\n\nCash bonds give a less favorable comparison. Bank of America estimated that Mexico’s debt trades 39 basis points wider than similarly rated sovereigns, equivalent to about 1.5 rating notches. Moody’s cut Mexico to the lowest investment-grade level in May, while S&P placed its outlook on negative, citing fiscal weakness and continued support for Pemex.\n\nThe government has provided $130 billion to Pemex over 8 years, reducing the company’s debt to an amount equal to 4% of GDP in 2025 from 9.3% in 2016. That support lowered the oil producer’s immediate default risk but transferred more of the burden to the sovereign. Falling CDS can therefore indicate improved near-term sentiment without resolving the fiscal cost reflected in Mexico’s bond yields.\n\n## Forward Market Significance\n\nFed Chair Kevin Warsh’s Aug. 28 Jackson Hole address is the immediate reaction-function test. July combined 3.3% core PCE inflation with flat real spending, a weaker housing report and small upward revisions to earlier price data. Investors need to know whether Warsh regards the monthly inflation pace as sufficient for continued patience or believes the persistence of above-target annual inflation requires another increase.\n\nCommunication itself will matter because Warsh has reduced forward guidance and his July press conference contributed to volatility in long Treasuries. A clear willingness to tighten if disinflation stalls would validate the increase fully priced by December and leave the front end sensitive to September timing. Avoiding the near-term policy question would risk returning pressure to the long end through uncertainty about the Fed’s inflation commitment.\n\nInitial jobless claims and the advance goods-trade balance are due Aug. 27 at 08:30 ET. Claims are expected at 208,000 after 206,000, while the July goods deficit is expected to narrow to $99 billion from $101.4 billion. The labor figure will matter most if it confirms that softer spending is spreading into employment; the trade report will help distinguish weaker domestic demand from shifts caused by tariffs and import timing.\n\nTreasury’s 5-year auction later Aug. 27 will test demand in the part of the curve most exposed to both Fed pricing and a possible shift toward shorter government financing. The existing long-bond buyback policy has restrained steepening, but November’s quarterly refunding remains the larger supply decision. Any signal that future borrowing will be concentrated in bills and shorter notes would change where investors require a concession rather than reduce the total amount they must absorb.\n\nHormuz remains a physical-market test despite the Iran-Oman revenue agreement. Evidence of resumed vessel traffic, available insurance and reliable LNG transit would determine whether the diplomatic progress reaches inflation. Continued restrictions would leave European gas storage and Japanese freight costs exposed even if Brent and WTI remain below their recent peaks.\n\nBOJ Deputy Governor Ryozo Himino’s remarks will provide the next signal before the Sept. 18 meeting. July business-service inflation of 3.6%, a 67.4% increase in ocean freight and upward revisions to earlier months strengthen the case for a hike. Officials must indicate whether they share the market’s roughly 80% probability of September action or require more evidence that imported cost pressure will persist.\n\nThe ECB faces a parallel but not identical choice. Schnabel has argued that rates must rise because resilient demand increases the risk of energy costs spreading through wages and prices. August inflation, gas-storage developments and the duration of the Middle East conflict will determine whether the nearly priced September increase is sufficient or the market must prepare for a higher endpoint.\n\nSoftBank’s final financing plan will test how much capacity remains for large AI-related borrowers below investment grade. Deal size, currency, maturity, security and use of a 144A structure will determine whether the company can refinance a substantial part of its bridge exposure without an even larger increase in credit risk. Its offshore issue, domestic retail sale and margin loan must be assessed together because each draws on a different investor base while supporting the same concentrated investment program.\n\nBrightline still needs its bankruptcy-financing agreement to become effective or a replacement to emerge. Altice’s creditor groups must resolve whether litigation participants receive priority, while Braskem has 90 days to reach majority support and define the amount and ranking of fresh capital. In each case, access to new money is only the first step; control, collateral and seniority will determine recoveries.\n",
     "section_summaries": [
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Treasuries give back some gains as inflation leaves the Fed little room",
-        "summary": "PCE left another Fed increase possible despite softer demand and oil. Broad markets barely moved, but SoftBank's prospective borrowing brought a sharp issuer-specific repricing.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The Treasury curve flattened as above-target inflation lifted near-term Fed risk without producing renewed long-end stress. Softer consumption and housing restrained the growth signal, cheaper oil eased one inflation channel, and Treasury’s long-bond buybacks supported longer maturities. Stable equities pointed to a contained rates repricing, while SoftBank’s proposed jumbo refinancing produced a sharper issuer-specific credit reaction."
       },
       {
+        "market_read": "The front end led the selloff because the data preserved tighter policy without strengthening the longer-term growth outlook.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "PCE cools spending more convincingly than inflation",
-        "summary": "Flat real spending and weak home sales contrasted with inflation revisions and stronger income. The small real-yield increase left the timing of any Fed hike unresolved.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Inflation Holds Above Target as Consumption Loses Momentum",
+        "summary": "July core PCE rose 0.2% and held at 3.3% annually, while headline inflation exceeded the monthly forecast. Services prices and upward revisions kept tightening risk alive, but flat real spending, a 10.5% fall in new-home sales and weaker regional services revenue showed demand losing momentum. Higher real income and a 4-month-high saving rate left scope for consumption to recover, keeping September conditional rather than settled."
       },
       {
+        "market_read": "Oil can fall on diplomatic progress while disrupted gas and freight markets continue to transmit inflation abroad.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "Cheaper oil leaves gas and freight inflation unresolved",
-        "summary": "Hormuz diplomacy lowered oil without restoring shipping. Gas and freight costs supported European and Japanese tightening cases, while Thai growth and Brazilian inflation argued differently.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Cheaper Oil Does Not End the Global Inflation Problem",
+        "summary": "Oil fell after Iran and Oman agreed on revenue sharing for the Strait of Hormuz, but the agreement did not establish when safe shipping would resume. Europe still faces gas storage at its lowest seasonal level since 2009, while Japan’s ocean-freight prices surged 67.4%. Those pressures support tightening expectations at the ECB and BOJ even as cheaper crude reduces the immediate US energy impulse."
       },
       {
+        "market_read": "Buybacks can improve long-bond scarcity while transferring supply pressure to other maturities rather than removing it.",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "Treasury buybacks change positioning as fiscal risks diverge abroad",
-        "summary": "Buybacks changed Treasury positioning ahead of November decisions. France and the Czech Republic faced funding questions; China, Indonesia and Mexico showed distinct policy and sovereign risks.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Treasury Intervention Reshapes Positioning, Not the Financing Need",
+        "summary": "Expanded long-bond buybacks supported the far end and discouraged steepener positions, but repurchases do not reduce federal financing needs because they require cash or replacement issuance. The Nov. 4 refunding may shift more borrowing toward bills and shorter notes. At the same time, SoftBank’s possible $10 billion to $20 billion offshore sale showed how large AI-related borrowers are competing for long-term capital."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "SoftBank's offshore plan brings an immediate credit repricing",
-        "summary": "SoftBank's possible $10bn–$20bn offshore sale would refinance its OpenAI bridge and widen its investor base. Its dollar bond and CDS immediately priced the prospective supply.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Sovereign Policy Splits Across Europe, Asia and Latin America",
+        "summary": "France’s budget impasse kept fiscal and ratings risks elevated, while the Czech Republic loosened borrowing rules for infrastructure. Thailand held rates at 1% as weak transmission offset slow growth, China advanced overnight-repo-linked bank funding, and softer Brazilian inflation created more room to ease. Indonesia’s prospective central-bank governor defended policy independence without prompting a major market repricing."
       },
       {
+        "market_read": "Across the restructurings, access to new money remains subordinate to disputes over seniority, collateral and control.",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Brightline seeks bankruptcy funding; Altice and Braskem creditors organize",
-        "summary": "Assured's conditional Brightline financing could influence repayment priority. Altice creditors disputed asset transfers, while Braskem's bond-by-bond support revealed negotiating gaps.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Creditors Focus on Priority, Collateral and Control",
+        "summary": "Brightline’s prospective bankruptcy financing would rank ahead of existing debt, Altice creditors organized around litigation rights and preferential treatment, and Braskem entered a 90-day negotiation after securing support from 39.6% of affected claims. Mexico’s lower sovereign CDS contrasted with wider cash-bond valuations as support for Pemex shifted risk toward the government balance sheet."
       },
       {
-        "section_id": "section-07",
-        "section_title": "Warsh's inflation assessment comes before the funding decisions",
-        "summary": "Warsh's inflation assessment comes first. Physical shipping, SoftBank's final terms and pending creditor decisions will supply more concrete evidence than broad market calm.",
         "market_read": "",
-        "next_check": ""
+        "next_check": "",
+        "section_id": "section-07",
+        "section_title": "Forward Market Significance",
+        "summary": "Warsh’s Jackson Hole address will test whether persistent inflation outweighs softer demand in the Fed’s reaction function. The Aug. 27 5-year auction and Nov. 4 refunding will show where investors demand compensation as Treasury changes the maturity mix. Physical traffic through Hormuz remains the key test of whether diplomatic progress can reduce European gas and Japanese freight pressure."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [
+      {
+        "actual": "89.4",
+        "category": "Surveys",
+        "consensus": "90.2",
+        "date": "2026-08-26",
+        "event_key": "consumer_confidence",
+        "forecast": "90.9",
+        "id": "macro-released-3955d30d49d9",
+        "period": "AUG",
+        "previous": "90.2 revised",
+        "time": "10:00 ET",
+        "title": "CB Consumer Confidence"
+      },
+      {
+        "actual": "-10.5%",
+        "category": "Housing",
+        "date": "2026-08-26",
+        "event_key": "new_home_sales_mom",
+        "forecast": "-1.3%",
+        "id": "macro-released-2873d7dfb6ea",
+        "period": "JUL",
+        "previous": "7.6% revised",
+        "time": "10:00 ET",
+        "title": "New Home Sales MoM"
+      },
+      {
+        "actual": "0.607M",
+        "category": "Housing",
+        "consensus": "0.62M",
+        "date": "2026-08-26",
+        "event_key": "new_home_sales",
+        "forecast": "0.62M",
+        "id": "macro-released-4fb3d8d31c7a",
+        "period": "JUL",
+        "previous": "0.678M revised",
+        "time": "10:00 ET",
+        "title": "New Home Sales"
+      }
+    ],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Labor",
+        "consensus": "208K",
+        "date": "2026-08-27",
+        "event_key": "initial_claims",
+        "forecast": "210.0K",
+        "id": "macro-upcoming-942dd532034e",
+        "period": "AUG/22",
+        "previous": "206K",
+        "time": "08:30 ET",
+        "title": "Initial Jobless Claims"
+      },
+      {
+        "category": "Trade",
+        "consensus": "$-99B",
+        "date": "2026-08-27",
+        "event_key": "trade_balance",
+        "forecast": "$-100.0B",
+        "id": "macro-upcoming-70aae0503a79",
+        "period": "JUL",
+        "previous": "$-101.4B",
+        "time": "08:30 ET",
+        "title": "Goods Trade Balance Advanced"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1620425,
+          "asset_manager_net_change": -59964,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1243004,
+          "leveraged_fund_net_change": 116517,
+          "open_interest": 4432451,
+          "open_interest_change": 54639,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2927114,
+          "asset_manager_net_change": 43137,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2169814,
+          "leveraged_fund_net_change": -22070,
+          "open_interest": 6604060,
+          "open_interest_change": 161110,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2585495,
+          "asset_manager_net_change": 31084,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2229013,
+          "leveraged_fund_net_change": -65299,
+          "open_interest": 5596739,
+          "open_interest_change": 137849,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 689227,
+          "asset_manager_net_change": 17363,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -353477,
+          "leveraged_fund_net_change": 8250,
+          "open_interest": 2554270,
+          "open_interest_change": 63250,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 597467,
+          "asset_manager_net_change": 47817,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -361383,
+          "leveraged_fund_net_change": 3441,
+          "open_interest": 1894436,
+          "open_interest_change": 31492,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1068845,
+          "asset_manager_net_change": -11564,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -861357,
+          "leveraged_fund_net_change": -7960,
+          "open_interest": 2493394,
+          "open_interest_change": 76691,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-08-18",
+      "published_date": "2026-08-21"
+    },
+    "treasury": {
+      "comparison_date": "2026-08-25",
+      "observation_date": "2026-08-26",
+      "par_change_pct": 4.7964,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": -1.8017,
+          "par_usd_bn": 986.5,
+          "trade_count": 310039
+        },
+        {
+          "key": "tips",
+          "par_change_pct": -26.0465,
+          "par_usd_bn": 15.9,
+          "trade_count": 5824
+        },
+        {
+          "key": "bills",
+          "par_change_pct": 40.404,
+          "par_usd_bn": 264.1,
+          "trade_count": 38614
+        },
+        {
+          "key": "frns",
+          "par_change_pct": 508.3333,
+          "par_usd_bn": 7.3,
+          "trade_count": 169
+        }
+      ],
+      "total_par_usd_bn": 1273.8,
+      "total_trade_count": 354646
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +862,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.19% (+2 bp) | UST 5Y 4.37% (+2 bp)",
-      "UST 10Y 4.66% (+2 bp) | UST 30Y 5.18% (+1 bp)",
-      "10Y TIPS real yield 2.34% (+2 bp) | 10Y breakeven inflation 2.32% (-0 bp)",
-      "UST 2s10s curve 47 bp (0 bp) | UST 2s30s curve 99 bp (-1 bp)"
+      "UST 2Y 4.211% (+3.6 bp) | UST 5Y 4.363% (+2.7 bp)",
+      "UST 10Y 4.648% (+1.8 bp) | UST 30Y 5.169% (+0.3 bp)",
+      "10Y TIPS real yield 2.322% (+0.6 bp) | 10Y breakeven inflation 2.326% (+1.2 bp)",
+      "UST 2s10s curve 43.7 bp (-1.8 bp) | UST 2s30s curve 95.8 bp (-3.3 bp)"
     ],
-    "headline": "Treasuries slip after PCE; SoftBank's funding plan hits its credit",
-    "session_narrative": "The 10-year real yield rose to 2.34% while breakevens held at 2.32%. Core PCE increased an expected 0.2% in July and 3.3% annually; real consumption stalled and new-home sales fell 10.5%. Markets priced a 43% September hike probability ahead of Warsh's August 28 speech.\n\nIran and Oman agreed on Hormuz waters and revenues without confirming an immediate reopening. Crude fell, but European gas shortages and Japanese freight inflation remained significant. Schnabel favored further tightening; Thailand held and Brazil's inflation softened.\n\nTreasury buybacks prompted changes in investor positioning. SoftBank sought a broader offshore buyer base, Brightline arranged conditional bankruptcy funding, and Braskem's series-level participation exposed where more creditor support was needed.",
-    "summary": "Two- and 10-year yields rose 2 basis points to 4.19% and 4.66%. Flat real spending supported patience, but inflation revisions left tightening risk alive. SoftBank's possible $10bn–$20bn sale pressured its bonds and CDS."
+    "headline": "Treasury yields rise in a policy-led flattening as inflation stays above target",
+    "session_narrative": "Treasuries sold off modestly on Aug. 26 after July inflation remained too high to remove the risk of another Fed increase. The 2-year yield rose 3.6 basis points to 4.211%, the 5-year gained 2.7 basis points to 4.363%, the 10-year climbed 1.8 basis points to 4.648% and the 30-year added 0.3 basis point to 5.169%. The 2s10s spread narrowed 1.8 basis points to 43.7 basis points as the front end gave back more of the previous session’s rally.\n\nCore PCE rose an expected 0.2% in July and 3.3% from a year earlier, while the headline index increased 0.2%, exceeding the 0.1% forecast. Flat real consumer spending, a 10.5% fall in new-home sales and weaker regional services activity supported patience in September, but did not show inflation returning quickly enough to 2% to rule out tightening later in the year. Futures raised the probability of a Sept. 16 increase to 43% and fully priced a quarter-point move by December.\n\nOil provided some relief after an Iran-Oman revenue-sharing agreement covering the Strait of Hormuz, although Iran said the waterway would not reopen immediately. Brent fell 2.31% and WTI declined 0.63%, while European gas shortages and higher Japanese freight costs kept overseas inflation risks alive. Risk markets remained broadly stable, but SoftBank’s prospective $10 billion to $20 billion bond sale pressured its debt and default protection as investors assessed the cost of refinancing a concentrated AI commitment.",
+    "summary": "Above-target PCE kept another Fed increase in play and pushed short Treasury yields up more than the long end, while softer spending and housing, cheaper oil and Treasury support for long bonds limited the repricing to a modest, flattening selloff."
   },
   "report_date": "2026-08-26",
-  "run_id": "daily-fi-newsroom-edit-2026-08-26-4b189efafb97",
+  "run_id": "daily-fi-simple-2026-08-26-1d629c8f-fef0f3b2",
   "watch_events": [
     {
-      "category": "Monetary Policy",
-      "date": "August 28",
+      "category": "Federal Reserve",
+      "date": "Aug. 28",
       "id": "watch-01",
-      "market_implication": "Two- to 5-year yields are most exposed to changes in hike timing.",
-      "market_trigger": "A stronger emphasis on persistent inflation could bring expected tightening forward.",
-      "title": "Warsh at Jackson Hole",
-      "watch_line": "How does 3.3% core PCE alongside flat real spending affect the September decision?"
+      "market_implication": "Hawkish clarity would pressure the front end; policy ambiguity could return pressure to long Treasuries.",
+      "market_trigger": "A clear willingness to tighten if disinflation stalls, or no guidance on the near-term policy question.",
+      "title": "Warsh’s Jackson Hole address",
+      "watch_line": "How Warsh balances 3.3% core PCE against flat real spending and weaker housing."
     },
     {
-      "category": "Energy and Inflation",
-      "date": "Ongoing",
+      "category": "Treasury supply",
+      "date": "Aug. 27 and Nov. 4",
       "id": "watch-02",
-      "market_implication": "Persistent LNG and freight constraints would limit the inflation benefit of cheaper crude.",
-      "market_trigger": "Restored transit and rising inventories would confirm a physical supply improvement.",
-      "title": "Hormuz traffic and European gas",
-      "watch_line": "Watch vessel traffic and gas storage after the Iran-Oman revenue agreement."
+      "market_implication": "The 5-year sector would need more concession, while long-bond scarcity could keep the curve flatter.",
+      "market_trigger": "Weak 5-year demand or guidance concentrating future issuance in bills and shorter notes.",
+      "title": "Treasury demand and funding mix",
+      "watch_line": "Demand at the 5-year auction and any refunding shift toward bills and shorter notes."
     },
     {
-      "category": "Funding and Credit",
-      "date": "Through November 4",
+      "category": "Energy inflation",
+      "date": "Ongoing",
       "id": "watch-03",
-      "market_implication": "Larger concessions or more short-term government issuance would change the cost and distribution of funding.",
-      "market_trigger": "Final bond size, maturity and pricing will show investor capacity; Treasury must specify its supply mix.",
-      "title": "SoftBank and Treasury financing terms",
-      "watch_line": "SoftBank's proposed sale precedes Treasury's November 4 refunding decisions."
+      "market_implication": "Reopening would ease global energy inflation; restrictions would sustain European gas and Japanese freight pressure.",
+      "market_trigger": "Verified shipping and LNG flows, or continued restrictions despite the Iran-Oman agreement.",
+      "title": "Physical reopening of Hormuz",
+      "watch_line": "Whether vessel traffic, insurance availability and reliable LNG transit resume."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "+2 bp",
-        "change_1m": "-14 bp",
-        "change_1w": "0 bp",
+        "change_1d": "+3.6 bp",
+        "change_1m": "-12.2 bp",
+        "change_1w": "+4.7 bp",
         "id": "ust2y_ny_close",
-        "last": "4.19%",
-        "reference_type": "ny_close",
+        "last": "4.211%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "-6 bp",
+        "change_1d": "+2.7 bp",
+        "change_1m": "-6.3 bp",
         "change_1w": "+2 bp",
         "id": "ust5y_ny_close",
-        "last": "4.37%",
-        "reference_type": "ny_close",
+        "last": "4.363%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "+2 bp",
+        "change_1d": "+1.8 bp",
         "change_1m": "-3 bp",
-        "change_1w": "+1 bp",
+        "change_1w": "0 bp",
         "id": "ust10y_ny_close",
-        "last": "4.66%",
-        "reference_type": "ny_close",
+        "last": "4.648%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+2 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "+0.3 bp",
+        "change_1m": "+1 bp",
+        "change_1w": "-2.3 bp",
         "id": "ust30y_ny_close",
-        "last": "5.18%",
-        "reference_type": "ny_close",
+        "last": "5.169%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "0 bp",
-        "change_1m": "+11 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "-1.8 bp",
+        "change_1m": "+9.2 bp",
+        "change_1w": "-4.7 bp",
         "id": "ust_2s10s_curve",
-        "last": "47 bp",
-        "reference_type": "ny_close",
+        "last": "43.7 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+16 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "-3.3 bp",
+        "change_1m": "+13.2 bp",
+        "change_1w": "-7 bp",
         "id": "ust_2s30s_curve",
-        "last": "99 bp",
-        "reference_type": "ny_close",
+        "last": "95.8 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
         "change_1d": "0 bp",
-        "change_1m": "+5 bp",
-        "change_1w": "+3 bp",
+        "change_1m": "+2.6 bp",
+        "change_1w": "-0.7 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-11 bp",
-        "reference_type": "ny_close",
+        "last": "-13.3 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+6 bp",
-        "change_1w": "+3 bp",
+        "change_1d": "-0.3 bp",
+        "change_1m": "+5.2 bp",
+        "change_1w": "-2.4 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-5 bp",
-        "reference_type": "ny_close",
+        "last": "-8.4 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "-9 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "+0.6 bp",
+        "change_1m": "-11 bp",
+        "change_1w": "-1.7 bp",
         "id": "tips10y_ny_close",
-        "last": "2.34%",
-        "reference_type": "ny_close",
+        "last": "2.322%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       },
       {
-        "change_1d": "-0 bp",
-        "change_1m": "+6 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "+1.2 bp",
+        "change_1m": "+8 bp",
+        "change_1w": "+1.7 bp",
         "id": "be10y_ny_close",
-        "last": "2.32%",
-        "reference_type": "ny_close",
+        "last": "2.326%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-08-26T17:00:00-04:00"
+        "timestamp": "2026-08-26"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

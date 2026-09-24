@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "LQD gained 0.18% and HY about 0.29%, but long corporate indices retained large monthly losses.",
+      "summary": "Credit stayed open, but leveraged technology borrowers paid wider margins and accepted stronger protections.",
       "title": "Credit",
       "value": "LQD 106.41 (+0.1789%) / HYG 79.47 (+0.2903%) / JNK 95.66 (+0.2831%) / EMB 94.79 (+0.2432%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "Oil softened and the dollar fell 0.73%, while gold rose; long Treasury yields did not retreat.",
+      "summary": "The dollar fell as gold rose; oil eased on improving Hormuz traffic but remained sharply higher over the month.",
       "title": "Dollar and commodities",
       "value": "DXY 100.065 (-0.7292%) / WTI 83.99 (-0.5565%) / Brent 89.38 (-1.4988%) / Gold 4167.3999 (+3.289%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "The Nasdaq 100 gained 3.36%, chips 8.19%, and VIX fell to 17.09, without erasing the technology correction.",
+      "summary": "Technology led an equity rebound and volatility fell, while semiconductors remained deeply lower over the month.",
       "title": "Equities and volatility",
       "value": "S&P 500 7437.6299 (+1.6604%) / Nasdaq 100 28106.3457 (+3.3614%) / SOX 11302.9873 (+8.1885%) / VIX 17.09 (-17.2798%)"
     }
@@ -538,151 +538,239 @@
   "header": {
     "as_of_note": "NY close · 2026-07-30",
     "latest_update_cutoff": "NY close",
-    "stance": "Demand stays firm, long yields stay high, and lenders set tougher terms",
+    "stance": "Treasury curve steepens as the front end rallies but long yields remain under term-premium pressure",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "LQD漲0.18%、高收益約0.29%，長企業債仍留有大幅月損失。",
-        "dollar_commodities": "油價下降、美元跌0.73%、黃金上漲，長美債殖利率未退。",
-        "equities_volatility": "Nasdaq 100漲3.36%、晶片漲8.19%、VIX降至17.09，科技修正仍未全數收復。"
+        "credit": "信用市場仍維持暢通，但高槓桿科技業借款人必須支付更高利差，並接受更嚴格的債權人保障條款。",
+        "dollar_commodities": "美元下跌、黃金上漲；荷莫茲海峽航運改善使油價回落，但全月漲幅仍然可觀。",
+        "equities_volatility": "科技股領漲大盤反彈，波動率下降，但半導體類股全月仍大幅走低。"
       },
       "header": {
-        "stance": "內需仍強、長債殖利率偏高，貸款人要求更好條件"
+        "stance": "美債前端上漲帶動殖利率曲線趨陡，但長端仍承受期限溢價壓力"
       },
-      "long_thesis_markdown": "# 長美債殖利率守在高檔，借款人加價換取資金\n\n## 通膨放慢，仍未帶動長債反彈\n\n週三曲線急陡之後，美債週四暫時平靜，卻談不上反轉。2、5、10、30年期殖利率各升1個基點至4.23%、4.38%、4.68%、5.21%，2s10s與2s30s維持45、98個基點。長債賣壓不再加速，但油價下降、美國通膨較低，也沒有帶來回升。\n\n經濟數據解釋了部分阻力。第2季GDP季增年率僅1.5%，民間最終內需卻增3.9%、消費增3.2%、非住宅固定投資增8.4%。6月PCE物價月減0.1%，實質消費卻月增0.4%。通膨正在放慢，內需卻未弱到讓高實質殖利率明顯難以維持。Warsh提出聯準會可能擴大觀察PCE以外指標，也讓市場對2%承諾的解讀增加疑問。\n\n借款人仍取得資金，但條件已變。CoreWeave的$26億貸款以基準加550個基點完成，訂單約$90億；Proofpoint提高利差、加強保障後，也完成大部分展期。股市與債券基金明顯反彈，融資管道及成本卻是兩回事：風險偏好改善，長天期資金仍昂貴，貸款人則取得更多報酬與控制。\n\n## PCE表現溫和，強勁內需卻使判斷複雜\n\n淨出口拖累第2季成長1個百分點，庫存再拖累0.67個百分點，1.5%的GDP標題因此低估國內支出。民間最終內需增3.9%，超過第1季兩倍、為2023年初以來最快；消費增3.2%、非住宅投資增8.4%，工業設備投資則出現2011年以來最大增幅。\n\n6月通膨確實降溫。PCE物價月減0.1%，年增率由4.1%降至3.7%，核心增幅也低於預期。但實質支出增0.4%，與2025年7月以來最大單月增幅相當，儲蓄率卻降至2022年以來最低，失業金申請仍低。消費者持續支出，儲蓄緩衝卻變少，7月能源成本又已高於6月。\n\n交換市場估計9月升息機率約三分之二，低於聯準會維持利率前完全計入一次的程度，年底前第二次升息機率約40%。決策後，逾100萬口的紀錄部位開始解除，8月聯邦基金期貨未平倉量減少約14萬口。會議風險退場，預期政策方向仍是緊縮。\n\n更長期的框架卻不清楚。Warsh重申2%，但表示正考慮PCE以外通膨指標，未確定1月以後採何種方式。6月CPI為3.5%，也是TIPS使用的指標。沒有明確替代指標或選擇規則，投資人難以判斷更廣的觀察方式，會讓行動提早，還是允許更多等待。\n\n債市未回吐週三的重新定價。10年期實質殖利率持平2.41%，損益兩平通膨率升1個基點至2.27%；30年期實質殖利率維持2.98%，比一個月前高30個基點，對應通膨補償約2.23%。2年期殖利率比一週前低14個基點，30年期卻比一週前高4個基點、一個月前高35個基點。近期政策耐心與長期補償之間，落差仍大。\n\n交易持續集中在長天期與通膨。TIPS交易面額增22%至$416億，名目付息券總量近乎不變、為$1.14兆，但20年以上增17.8%、10至20年增37.5%，5至7年減29%。雙向成交不能識別淨買進，但高檔長端殖利率是在大量交易後留下的結果。\n\n接下來是8至10月季度再融資公告。市場預期付息券規模維持不變，焦點在指引是否為明年增加供給鋪路。瞄準10年期殖利率4.80%、30年期約5.3%的選擇權，顯示投資人仍在防範跌勢延伸。通膨報告與聯準會會議結束，尚未帶來相應的長端風險下降。\n\n## CoreWeave、Proofpoint依貸款人條件完成交易\n\nCoreWeave貸款從重新議價走到完成。$26億延遲動用融資，以基準加550個基點成交，原始區間425至450個基點；相較區間上緣，估計每年增加約$3,000萬利息。條件改變後，約$90億訂單提供充足覆蓋。\n\n結構仍有時間錯配。Ba2／BB+評等貸款以晶片及Anthropic、Jane Street等客戶合約支持，五年內本金全部攤還。若租戶未續約、替代客戶尚未找到，CoreWeave保證補足現金流缺口。但客戶合約的加權平均年限約3.1年，短於債務；初期合約收入約$40億，貸款人在最終還款前，仍依賴續約或替代用途。\n\n其他CoreWeave價格顯示，這些差異有多重要。本週波動中，部分債券跌破90美分、殖利率一度約13%，週四才回升。票息8.5%至9.75%的公司非投資級債，仍低於面額、殖利率約11%至12%。3月以Meta合約支持的融資，則取得投資級評等、約基準加225個基點。相同平台內，客戶品質、合約期間及追索權，帶來截然不同借款成本。\n\nProofpoint也完成原本仍在談判的交易。擬議$50億再融資中，$43億延長兩年，$7.35億仍在2028年到期。展期部分利差450個基點，原本300個基點；債權人另取得防止移轉擔保品的omni blocker、未來買回平等對待，以及約二十多項條款修訂。公司爭取到時間，仍留下不可忽略的2028年到期額及更高利差。\n\n這是軟體業再融資的一項進展，並非問題已解。2028年美國槓桿貸款到期約$3,000億，近三分之一與科技相關，包括許多2021年被收購的企業。AI造成收入不確定性，讓貸款人更有理由在展期前保護擔保品。Proofpoint提供一種談判路徑，不代表再融資重新便宜。\n\n私人債務違約呈現另一種壓力。惠譽追蹤1,300家美國借款人的過去12個月違約率，第2季由5.7%升至紀錄6%。共32起事件、20家新增違約公司，逾半事件涉及到期展延。工業及製造業由5.9%升至10.4%，醫療由6.9%升至9.4%；軟體反而從2.3%降至1.2%，與公開市場對其再融資風險的高度關注，形成重要差別。\n\n銀行持續移轉風險，以保留放款能力。法國興業銀行準備為約$50億專案融資貸款取得保障。這類重大風險移轉，通常移出相當於組合5%至15%的第一損失曝險，票息可逾10%。上半年發行逾$180億，去年同期約$150億；近期法興一筆交易以基準加675個基點，移轉逾€90億貸款的風險。\n\n企業也從其他資產找現金。Xerox認列$1.05億關稅退稅應收款，以$8,000萬出售，並將其中相當部分用於折價買回債務。公司仍有$42億負債，包括2028年8月到期$5.56億無擔保票據。出售應收款以成本換取流動性，未消除再融資需求。\n\n新基建借款仍在累積。Equinix第2季資本支出增60%至$15.8億後，計畫發行至少$30億投資級債。Blue Owl旗下Stack Infrastructure為墨爾本專案，尋求A$85億、約$59億聯貸。澳洲資料中心投資計畫估計逾A$1,550億、占GDP的5.6%。Stack也考慮出售價值逾$300億的澳洲、日本及馬來西亞資產，把潛在借款與資產回收並行。\n\n投資人仍可用較短年期取得收入。1年內到期歐元公司債，過去一個月約持平，整體指數跌0.9%，10年以上跌逾2.9%。3年與9年殖利率只差67個基點，利差又接近2008年以來最低。部分買方選擇更接近還本的券，而非為有限額外息收承擔更長風險。\n\n週四信用報酬改善，LQD漲0.18%、HYG漲0.29%、JNK漲0.28%。長天期AAA至A及BBB企業債指數漲0.21%、0.26%，長美債指數卻跌0.09%；前兩者一個月仍跌4.76%、4.38%。風險偏好回升有利價格，但CoreWeave利差、Proofpoint剩餘到期額與持續擴大的供給，仍使融資紀律重要。\n\n## 英國央行緩解短端，日本出手支持日圓\n\n英國央行6比3維持3.75%，Andrew Bailey否認委員會正逐步接近升息。2年期英債殖利率跌11個基點至4.34%，9月升息機率從近60%降至40%以下。10年期僅跌4個基點至4.99%，30年期近乎不變、為5.73%。訊息更有利短債，長債仍面對縮表與財政變數。\n\n預測高度取決於能源。主要情境是通膨從目前2.6%，於2026年底升至3.2%高點，明年再回到約2%。若油價逾$100、天然氣貴60%，2027年第2季高點會達4.5%；衝突較快解決則限制在3%。各情境2026、2027年成長都約1%。\n\n歐元區活動卻強化維持抑制政策的理由。第2季GDP在前季停滯後成長0.4%，為調查預估兩倍、一年多來最強。德國增0.2%，第1季上修至0.4%；法國在收縮0.1%後增0.2%，西班牙增0.7%。即使能源衝擊壓抑投資，復甦仍降低ECB再升息的成長代價。\n\n日本銀行會議前，標售偏弱、匯率卻突然急升。2年期日本公債雖提供今年最高得標殖利率，需求仍低於12個月平均；尾差從0.005擴至0.007，期貨擴大跌幅，2年期殖利率約1.47%，接近近期1.52%高點。即使即將到來的決策預期不動，交換市場仍給予9月前升息約25%、10月前79%的機率。\n\n據一名熟悉行動的市場人士，日本隨後進場支持日圓，匯率在紐約最多升3.3%，為2023年12月以來最大盤中漲幅。美國財長Scott Bessent形容日圓嚴重低估、過度波動不健康。日本前一季已花紀錄JPY11.73兆買進日圓。匯率支持可緩解進口通膨，但若以海外證券持有籌資，也可能牽動海外債券需求。\n\n中國則提供不同的買長債理由。第2季成長降至4.3%，低於官方4.5%至5%目標區間，10年期公債殖利率朝1.7%靠攏，30年期貨創11月以來最高。官方承諾加快公共支出及債券資金使用，下半年未用額度估計比一年前多CNY1.3兆，卻未達市場期待的刺激規模。油價較高，也使許多經濟學家撤回降息預測。\n\n全球經理人正在交易這些分歧。施羅德增加看空美債部位，同時買進澳洲、英國及歐元區短端公債；其他人偏好澳洲、南韓、新加坡、挪威或中國，勝過長美債。三個月來，30年期美債殖利率約升27個基點，澳洲升9、同類英債升7。日圓急升盤中拉低較短美債殖利率、延伸美元跌勢，長美債卻仍收5.21%。\n\n## Danantara的長美元融資，因價格而放慢\n\n印尼Danantara原考慮20、30年期美元券，美債急跌後，投資人要求的殖利率超過其願付水準，進度因此延後。主權財富基金前一個月才以5、10年期募集$15億，管道未消失，但往更長年期延伸已不划算。\n\n治理疑慮使價格問題更複雜。這家年輕基金管理約$9,000億國有資產，印尼盾對美元已跌近8%；印尼央行總裁辭職，也先引發制度穩定性問題。建立不依附當前政府的長期融資身分，有助Danantara，但推遲發行，使清淡亞洲美元日程少了一次以現有美債殖利率檢驗長券需求的機會。\n\n肯亞考慮改用另一種幣別。年內發行約$3億等值人民幣熊貓債，可支應預計從GDP的6.7%縮至5.5%的赤字。今年人民幣主權與企業發行殖利率約2.17%，不到新興美元債一半。肯亞外債逾半是美元、12%是人民幣，先前已把約$31億鐵路貸款轉成人民幣。分散幣別可能節省成本，改變匯率及還款曝險，卻不會使其消失。\n\n馬來西亞在外資賣超下，殖利率損失較小。7月外資淨賣$14億債券，為2024年10月以來最大流出，10年期殖利率自伊朗戰爭開始卻僅升22個基點，印尼、南韓至少升80。第2季成長從5.4%加快至5.8%，6月通膨降至1.9%，央行維持2.75%。預計赤字GDP的3.6%，只略高於3.5%目標。本地通膨與國內買盤，有助控制外部壓力。\n\n烏克蘭意外緊縮，升息50個基點至15.5%，推翻原先15%可能維持到2027年第2季的指引，並保留今年稍後升至16%。央行預測年底整體通膨10%、核心9.2%，戰爭為主要風險。IMF近$7億撥款及預期約$540億直接預算支持，處理融資需求，卻未消除通膨問題。\n\n美元指數跌0.73%至100.07，整體新興美元債回升，EMB漲0.24%。15年期以上主權債指數卻跌0.79%，一個月仍跌4.48%。匯率緩解對最長天期的美元現金流仍不夠，與Danantara面對的是同一類年期問題。\n\n## 科技股反彈，長主權債仍落後\n\n股票收復週三相當部分跌幅，S&P 500漲1.66%、Nasdaq 100漲3.36%、半導體漲8.19%，VIX降17.28%至17.09。晶片股一週仍跌8.43%，一個月跌17.55%。反彈改善風險偏好，未解決科技修正背後的回報與融資問題。\n\nWTI跌0.56%至$83.99，布蘭特跌1.50%至$89.38。美元跌0.73%，部分因日本干預加速其跌勢，黃金則漲3.29%至$4,167.40。能源較低減輕一項眼前利率壓力，卻未拉低長美債殖利率。\n\n信用基金跟隨股市復甦，長新興主權債與美債卻落後。買方願意再次承擔風險，仍不願以更低殖利率持有最長的政府債現金流。\n\n## 薪資、日本銀行與新融資接續登場\n\n7月31日僱用成本指數，有助評估強勁內需能否與延後聯準會行動並存。民間最終內需增3.9%後，若薪資仍強，9月會持續受關注；勞動成本較弱、通膨再降則支持等待。實質殖利率與通膨補償，將顯示長端看法是否改變，而不只是下一次會議價格。\n\n再融資公告接著檢驗供給預期。維持付息券指引可排除立即風險，若為2027年擴大規模鋪路，就使下一波存續期間供給更接近。30年期殖利率5.3%附近的選擇權需求，顯示投資人正在防範的一個水準。\n\n日本銀行7月31日決策，背景是6月升至1%、2年期標售偏弱，以及干預讓日圓最多升3.3%。更早升息的指引可支持匯率，但日本公債殖利率提高，也增強國內資產對海外債券的替代性。若訊息降低10月升息機率，可能讓干預承擔更多工作。\n\nEquinix至少$30億計畫發行及後續AI貸款，將顯示CoreWeave的550個基點，是特定合約錯配代價，還是更廣泛價格重設。除了能否完成，還要看訂單深度、次級價格、年期與債權。CoreWeave找到$90億訂單，Proofpoint取得展期，但兩者都先改變了給貸款人的條件。",
-      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。",
+      "long_thesis_markdown": "## 固定收益開場論點\n\n7月30日，美國公債延續聯準會會後的殖利率曲線趨陡走勢，但幅度遠小於會後首波重新定價；當時主席Kevin Warsh未升息，也未向投資人提出明確的反應函數。2年期殖利率下跌2.7個基點至4.247%，5年期下降2.1個基點至4.388%，10年期微降0.5個基點至4.674%，30年期則上升1.2個基點至5.215%。2年與10年期利差擴大2.2個基點至42.7個基點，2年與30年期利差擴大3.9個基點至96.8個基點。\n\n長端殖利率盤中一度升至更極端的水準。30年期觸及約5.24%，續創19年新高，10年期也逼近4.69%。截至最新收盤，30年期殖利率一個月來已上升35個基點，高於10年期的29.8個基點與2年期的14個基點。投資人不再只是剔除聯準會立即升息的風險；當央行仰賴市場殖利率抑制經濟，卻未說明通膨若持續偏高將如何調整政策，市場也開始要求更高的風險補償。\n\n週四公布的數據使這項矛盾更加鮮明，而非得到化解。美國第2季經濟成長年率放緩至1.5%，但消費支出成長3.2%，企業投資仍強，私人國內需求更創2023年初以來最快增速。6月通膨較為溫和，個人消費支出物價指數較5月下跌0.1%，年增率由4.1%降至3.7%；然而，這一增速仍遠高於聯準會2%的目標，中東戰事重啟也使單月能源成本下降不足以構成持久的通膨訊號。\n\n美債殖利率的組成顯示，市場在會後劇烈調整後已有所穩定。週四10年期實質殖利率上升0.5個基點至2.414%，10年期損益兩平通膨率則下降1個基點至2.26%，兩者共同造成名目殖利率小幅下滑，與聯準會決策後長天期通膨補償急升的情況形成對比。最初反應中，30年期損益兩平通膨率曾上升6個基點至2.23%，為2024年11月以來最大漲幅，反映投資人質疑Warsh對既有通膨框架的承諾。\n\n跨資產收盤表現進一步凸顯短暫釋壓與持續長天期壓力之間的差異。科技股反彈帶動標普500指數上漲1.66%、那斯達克100指數上漲3.36%，費城半導體指數更大漲8.19%，但半導體指數一個月來仍下跌17.55%。美元指數下跌0.73%，黃金期貨上漲3.29%。長天期美債既未充分參與風險資產的反彈，也未明顯受惠於油價下跌，殖利率曲線遠端仍由通膨與期限溢價之爭主導。\n\n## 需求展現韌性，聯準會反應函數仍未明朗\n\n1.5%的GDP整體增速低估了國內需求的強度。約占經濟三分之二的消費支出以3.2%的年率加速成長；剔除庫存、淨出口與政府支出的國內私人購買者最終銷售成長3.9%，不僅超過第1季增速的兩倍，也是2023年初以來最強表現。\n\n企業投資成長8.4%，動能來自人工智慧基礎設施持續擴建，以及工業與運輸設備支出。工業設備投資創2011年以來最大增幅，運輸設備支出則出現兩年來最大成長；資訊處理設備與軟體也強勁擴張，只是速度稍慢。\n\n整體經濟增速較弱，主要是淨出口扣除1個百分點、庫存再拖累0.67個百分點。進口偏高，部分原因是企業趕在新一輪關稅上路前將商品運入美國；伊朗衝突期間，企業也持續消化庫存。住宅投資則自2024年底以來首次對成長帶來小幅正貢獻。\n\n家庭需求延續至6月。經通膨調整的消費支出成長0.4%，追平2025年7月以來最大增幅，耐久財、休閒、餐飲與住宿支出均提供支撐。不過，儲蓄率已降至2022年以來最低，7月汽油價格再度上漲，也可能侵蝕先前退稅與促銷活動帶來的支持。\n\n通膨數據較為有利，卻未消除政策矛盾。6月PCE物價指數下跌0.1%，年增率由5月的4.1%降至符合經濟學家預期的3.7%；排除食品與能源的指標增幅也低於預期。但這項改善發生在美國與伊朗一度停火、能源成本下降的月份，戰事重啟後能否持續仍有疑問。\n\n每週初領失業救濟金人數維持低檔，也從另一面顯示勞動市場尚未弱到足以迫使聯準會偏離通膨目標。單月物價轉弱、就業穩健，加上私人國內需求成長3.9%，既提供耐心等待的理由，也支持最終收緊政策，卻未見通膨或經濟活動明確惡化到足以確立下次行動時點。\n\n利率市場在排除7月立即行動的風險後，因而重新納入部分9月升息機率。交換市場顯示，9月會議升息25個基點的機率約為三分之二，低於聯準會決定將利率維持在3.5%至3.75%前市場幾乎完全反映的水準；年底前第二次升息的隱含機率則降至約40%。\n\n7月決策塵埃落定，也引發大規模部位平倉。8月聯邦基金期貨未平倉量減少約14萬口；此前部位曾超過100萬口，名目曝險約$5兆。這項合約在9月會議前到期，原已成為避險立即升息風險的主要工具。利率維持不變後，合約價格迅速上漲，迫使空頭回補或減碼。\n\n這項調整可以解釋前端殖利率下降，卻不足以說明長端為何持續承壓。Warsh強調，較高的市場殖利率已在抑制經濟，可以代替央行完成部分緊縮工作。若聯準會因市場借款成本偏高而維持利率不變，在通膨回歸目標獲得更明確證據以前，投資人便沒有充分理由主動壓低這些成本。市場主導的緊縮因此具有自我強化特性：長端殖利率若下降，就會削弱央行用來延後升息的部分緊縮力量。\n\nWarsh表示正在研究比PCE更廣泛的一組通膨指標，又增添一項不確定性。他仍承諾將通膨降至2%，並表示聯準會目前仍使用PCE；但他並未提出替代指標，也未排除檢討政策框架與經濟數據的工作小組在1月後影響策略的可能性。\n\n指標選擇會改變投資人對通膨目標及其達成路徑的理解，因此這種模糊性相當重要。前里奇蒙聯準銀行總裁Jeffrey Lacker認為，PCE與消費者物價指數是僅有的兩項廣泛且可靠的選擇。摩根大通經濟學家Michael Feroli警告，改變框架可能被視為重新定義通膨問題，而非解決問題；巴克萊策略師Jon Hill則認為，市場對聯準會承諾的信心下降，將推高期限溢價與通膨風險溢價。\n\n週四10年期損益兩平通膨率下降1個基點，顯示這項疑慮並未在整個交易時段持續加劇。不過，最初的會後漲勢集中在殖利率曲線更遠端，而政策框架改變在這些年期的累積影響最大，因此風險仍不容忽視。現券交易活動增幅最大的也是30年期區段：20年以上美債的面額成交量較週三增加17.8%，10年以上至20年期區段增加37.5%。這些數字指出重新定價的重心，卻無法判斷客戶是淨買方或淨賣方。\n\n中東情勢使通膨可能結果的分布維持寬廣。德黑蘭攻擊美國位於約旦的基地後，美國空襲數十處伊朗軍事目標。無人機也擊中埃及地中海沿岸附近的兩艘液化天然氣運輸船，沙烏地阿拉伯與伊拉克則更直接地捲入日益擴大的衝突。\n\n儘管如此，油價仍然下跌，原因是美國的攻擊避開關鍵橋梁與其他民用基礎設施，荷莫茲海峽航運也出現復甦跡象。卡達在逾三週後首度讓一批LNG貨物通過海峽。布蘭特原油下跌1.5%至$89.38，WTI下跌0.56%至$83.99，但一個月來仍分別上漲22.19%與18.71%。單日油價下跌抑制了損益兩平通膨率，但累計漲幅與持續發生的攻擊，意味能源衝擊尚未成為過去式。\n\n## 英國央行紓解英債壓力，日本出手捍衛日圓\n\n英國央行將當前國內通膨降溫與能源所帶來的條件式威脅分開看待，因而促成更明顯的前端英債反彈。貨幣政策委員會以6比3決議將銀行利率維持在3.75%。Catherine Mann與Megan Greene及首席經濟學家Huw Pill一同支持升息25個基點，但總裁Andrew Bailey與其餘5名委員認為，國內物價壓力已充分緩和，可以繼續觀望。\n\nBailey明確否認委員會正逐步接近升息。通常被視為立場較鷹派的副總裁Clare Lombardelli也表示，維持利率不變並不是一個難以抉擇的決定。決策官員指出，國內通膨壓力已有明顯轉弱跡象，能源成本上升也幾乎尚未擴散至工資及更廣泛的物價。\n\n交易員將9月升息機率下調至約35%，並反映年底前約32個基點的緊縮幅度，低於週三的42個基點。2年期英債殖利率大跌11個基點至4.34%，為6月12日以來最大降幅；10年期下降4個基點至4.99%，30年期則大致持平於5.73%。殖利率曲線因而像美國一樣趨陡，但英國的動力來自央行更直接地抗拒近期升息。\n\n表決結果凸顯官員對如何處理能源衝擊的分歧日益擴大。Pill主張升息可以排除商品市場雜訊，Mann強調政策可信度，Greene則認為提早行動可降低第二輪效應的機率。另一方的副總裁Dave Ramsden與外部委員Alan Taylor表示，如果衝突迅速結束、國內通膨持續降溫，可以考慮恢復降息。\n\n英國央行的基準預測顯示，通膨率將由目前的2.6%升至2026年底的3.2%，明年再朝2%回落；這項路徑假設中東衝突持續呈現時斷時續的狀態。在油價高於$100、天然氣價格上漲60%的不利情境下，通膨率會在2027年第2季升至4.5%；若情勢較溫和、衝突更快降溫，通膨高點則為3%，第二輪效應也較小。各種情境下，2026年與2027年的GDP成長率均維持在約1%。\n\n資產負債表政策使英債曲線較遠端持續承壓。英國央行估計，量化緊縮已使10年期殖利率上升20至30個基點，比一年前的估計高約5個基點，並將於9月決定下一年度的計畫。秋季預算公布前的財政不確定性，也使長天期投資人更缺乏追隨前端反彈的理由。\n\n歐元區數據則從另一個角度顯示，放鬆金融情勢仍需謹慎。第2季GDP成長0.4%，扭轉年初停滯，不僅是市場共識預測的兩倍，也是逾一年來最強的單季增幅。儘管伊朗戰爭推高能源成本，四大經濟體仍全數擴張。\n\n德國成長0.2%，第1季增幅則上修至0.4%。法國在前季萎縮0.1%後成長0.2%，消費支出與貿易抵銷投資連續第二季下降的影響；義大利同樣成長0.2%。西班牙再度以0.7%的增幅領先，獲得家庭支出、觀光、移民與歐盟基金支持。\n\n經濟成長優於預期之際，通膨訊號也轉強。西班牙7月通膨率加速至3.8%，德國地區性數據同樣上升，週五公布的歐元區通膨率預料將微升至2.9%。歐洲央行先前已警告，能源衝擊同時帶來通膨上行與成長下行風險；較強的產出數據削弱了其中的成長下行證據，也支持9月可能再度升息的預期。\n\n日本面臨貨幣政策、主權債殖利率與匯率更直接的衝突。據市場人士及《日本經濟新聞》報導，日本當局進場支撐日圓後，日圓在紐約交易時段兌美元一度升值3.3%，創2023年12月以來最大盤中漲幅。美國當局也要求市場提供美元兌日圓報價，這通常是評估市場狀況的步驟。美國財政部長Scott Bessent表示，日圓遭到嚴重低估，過度波動並不健康。\n\n日圓收在每美元159.53日圓，亞洲早盤仍保有大部分升幅。這波走勢延續美元在聯準會會後的廣泛跌勢，又正值日本央行決策前夕，使市場更可能將干預與貨幣政策指引一併評估。日本前一季已動用創紀錄的¥11.73兆支撐日圓，其中部分資金可能取自包括美債在內的外國證券部位。\n\n日本國內債市也顯示進一步正常化的壓力。2年期JGB標售的投標倍數為3.63，低於前次的4.82及12個月平均3.81；即使該券提供今年以來最高殖利率，標售尾差仍由0.005擴大至0.007。2年期殖利率約為1.47%，接近7月稍早觸及的1.52%高點。\n\n這次標售並非失敗，但今年最高殖利率仍未使需求回到近期平均水準。隔夜指數交換市場顯示，日本央行9月前升息的機率約為25%，10月前則為79%。雖然市場仍預期本次會議將維持利率不變，但標售需求轉弱、官方再次干預，以及日圓對美日利差的敏感度，都提高了總裁植田和男政策指引的重要性。\n\n## AI借款人讓步於定價與保障條款後完成融資\n\n人工智慧融資的重新定價已從協商進入完成交易階段。CoreWeave敲定一筆$26億槓桿貸款，利差為基準利率加550個基點，比最初425至450個基點區間的上限高100個基點。貸款發行價為每美元96至97美分，預期殖利率超過9%。\n\n這些讓步吸引約$90億訂單，使交易得以完成；但以最初行銷利差區間上限計算，估計每年將多付約$3,000萬利息。CoreWeave一檔歐元公司債的利差在週四交易期間一度觸及1,000個基點；部分公司債近期也曾跌破每美元90美分、殖利率升至10%區間低端，之後才隨科技股大盤反彈而回升。\n\n這筆貸款用於採購晶片及其他運算設備，以履行涉及Anthropic、Jane Street與Hudson River Trading的照付不議合約。貸款可分期動用，因此只需就實際借款金額付息，本金並會在存續期內攤還至零。穆迪給予Ba2評等，惠譽評為BB+，均位於投機級較高端。\n\n這項結構仍未消除最主要的期限錯配。相關客戶合約的加權平均年限約3.1年，短於貸款的5年期限；客戶協議最初簽約收入約為$40億，CoreWeave並承諾在找到替代租戶前補足現金流缺口。即便如此，貸款人仍須承擔續約與剩餘需求風險，其程度高於CoreWeave先前由晶片擔保、廣泛聯貸的融資。\n\n這項差異解釋了為何$90億訂單可與大幅提高的定價並存。投資人願意為可辨識的合約與擔保品提供資金，但租約可能早於債務到期，因此要求額外補償。交易進行之際，CoreWeave正準備今年支出逾$340億，市場上接連出現的資料中心交易也在爭奪同一批資金。\n\nProofpoint的$50億再融資同樣要在貸款人改變交易條件後才得以完成。這家由Thoma Bravo持有的資安公司將$43億貸款期限延長兩年，另有$7.35億仍於2028年到期。延期部分的定價為基準利率加450個基點，高於現有融資的300個基點。\n\n公司調整了約24項條款。其中，全方位阻斷條款限制可能把擔保品移出現有貸款人權利範圍的交易，另一項條款則禁止偏袒特定債權人的私下協商債務回購。訂單原本已足以在初始期限前通過交易，但部分投資人是基於將加入這些保障條款的預期才提交承諾，促使交易流程延期。\n\nCoreWeave與Proofpoint因此透過同一股債權人權力增強的趨勢，完成兩種不同的科技融資。CoreWeave為有合約支持的成長資金支付更高成本，但相關租約早於債務到期；Proofpoint為受到AI衝擊的成熟軟體業資本結構辦理再融資，不僅提高利差，也放棄部分契約彈性。交易完成證明兩家公司仍可取得資本，定價與保障條款則揭示取得資金所附帶的條件。\n\n投資級借款人也面臨相同的資金供給限制，只是利差較低。Equinix開始行銷至少$30億債券，最多分為4個券次，期限由3年至10年；最長券次的初步定價指引約為美債加140個基點。這家資料中心公司第2季資本支出較一年前增加60%，達$15.8億，募集資金擬用於收購不動產與企業、開發計畫及償還債務。\n\n這筆交易使市場在已持續吸收貸款、專案債與公司債發行之際，又迎來一宗大型AI相關融資。Equinix與CoreWeave不同，具有投資級市場准入資格與多元化的資料中心組合；但其公布的規模與資金用途，仍使最終定價成為重要觀察指標，可用來判斷融資成本上升究竟仍集中在高槓桿借款人，或已擴散至基礎設施產業。\n\n銀行也在移轉部分基礎設施擴建曝險。法國興業銀行接近完成一筆重大風險移轉交易，涵蓋約$50億能源、再生電力及資料中心專案融資貸款。這類交易通常為參照投資組合的5%至15%提供保障，讓銀行釋放監理資本，投資人則可取得有時超過10%的票息。\n\n2026年上半年SRT發行額超過$180億，高於一年前的約$150億，並有望連續第六年創下年度紀錄。法國興業銀行近期也在另一筆交易中移轉逾€90億公司貸款風險，定價為基準利率加675個基點。市場持續成長，顯示銀行可繼續承作基礎設施貸款，同時將集中的第一損失曝險分配給專業投資人。\n\n需求也在轉向較短天期的公司債。過去一個月，5年內到期的債券表現優於整體歐元投資級指數，美國信用債也呈現類似格局。1年內到期的債券同期大致持平，整體指數則下跌0.9%，10年以上到期債券更下跌逾2.9%。由3年期延長至9年期，殖利率僅增加67個基點，對承擔大幅增加的利率曝險補償有限。\n\n這種偏好與美債殖利率曲線及初級市場讓利一致。投資人可在短至中期債券保留利息收益，而不必完整承受期限溢價上升的影響。較長天期公司債則同時暴露於美債利率風險，以及大量科技業發債可能要求額外信用利差的風險。\n\n## 私人信貸違約攀升，長天期美元融資更為困難\n\n私人信貸的壓力已發展得更為明顯。惠譽評等追蹤的1,300家美國私人債務借款人，其過去12個月違約率在第2季末升至創紀錄的6%，高於第1季原先高點5.7%。該季32起違約事件涉及20家新出現的違約借款人，使違約借款人總數增至84家。\n\n受壓力所迫的到期日展延，已超越以債付息（PIK）安排與延後付息，成為該季最主要的違約來源。32起事件中超過半數涉及展延，顯示即使貸款人避免傳統意義上的付款違約，愈來愈多借款人仍無法按原定時程完成再融資。\n\n工業與製造業的產業違約率最高，由第1季的5.9%升至10.4%；醫療業則由6.9%升至9.4%。軟體業走勢相反，違約率由2.3%降至1.2%，儘管投資人仍擔心AI削弱既有科技企業。惠譽預期違約率將持續偏高，因為降息尚未到來，併購活動也依然低迷。\n\nXerox展示了受壓借款人在債務到期前籌措流動性的一種方式。公司第2季認列$1.05億關稅退款應收款，隨後以$8,000萬現金將這項權利出售給第三方，並將相當一部分所得用於以低於面額的價格回購債務。\n\n公司債務總額為$42億，其中包括2028年8月到期、交易價格約為每美元60美分的$5.56億無擔保票據。收購Lexmark後，營收較一年前成長22%至$19億，但按備考基礎計算則下降7%。Xerox將全年營收預測上調至$76億，管理層則把2028年、2029年與2030年的到期債務列為資產負債表面臨的核心挑戰。\n\n這項交易以較認列價值折讓24%的價格，將法律上仍具或有性的退款請求權換成即時現金。Xerox也因此得以折價清償債務，可能取得退款請求權現金售價與公司債務低迷市值之間的部分價差。交易提高了近期財務彈性，卻未改變仍須完成的再融資規模。\n\n亞洲借款人的長天期美元融資同樣轉趨困難。投資人要求的殖利率高於印尼主權財富基金Danantara願意支付的水準，使其延後推進原訂20年期與30年期美元債券發行。長天期美債殖利率上升又放大了問題，因為規劃中的債券期限特別容易受基礎無風險殖利率曲線變動影響。\n\n印尼央行總裁Perry Warjiyo辭職，也增加了發行人特有的風險溢價。據官員估計，Danantara控制的資產約值$9,000億，但成立僅略逾一年，市場持續質疑其治理、透明度，以及與總統Prabowo Subianto國家主導經濟計畫的關係。印尼盾今年以來兌美元貶值近8%；若交易成行，將是該基金繼6月首次發行$15億國際債券後的另一筆海外籌資。\n\n其他新興市場借款人則尋求美元以外的選項。肯亞考慮在中國境內市場首次發行人民幣計價債券，可能在年底前籌措約相當於$3億的資金，用來支應截至2027年6月的財政赤字。今年發行的人民幣主權債與公司債平均殖利率約2.17%，不到新興市場美元債利率的一半。\n\n相關計畫仍處初步階段，規模與時程都可能改變。肯亞預期財政赤字占GDP比率將由前一年的6.7%縮小至5.5%，但高額債務償付、政府積欠款項及稅收疲弱仍限制財政空間。其外債超過半數以美元計價，人民幣占比則為12%，因此熊貓債兼具降低融資成本與分散幣別的作用。\n\n馬來西亞呈現亞洲本幣債券資金流動的另一面。外國投資人7月淨賣出$14億馬來西亞債券，為2024年10月以來最大流出。第2季GDP較一年前成長5.8%後，部分投資人將升息預期提前，使10年期殖利率當月上升約10個基點。\n\n資金流出之際，馬來西亞通膨仍受控於1.9%，主權信用維持投資級，國內投資人基礎也曾使其債市在伊朗戰爭期間比數個區域同業更具韌性。多數受訪經濟學家預期，馬來西亞國家銀行至少到2027年都會將政策利率維持在2.75%。這種組合使市場容易受到短期外資調整部位影響，卻不足以證明該國財政或通膨基本面已持續惡化。\n\n## 後市意義\n\n日本央行7月31日決策是眼前的政策考驗。52名受訪經濟學家全數預期，在6月升息後，基準利率將維持在1%，市場焦點因此轉向更新後的預測、植田和男記者會及任何有關匯率的討論。若維持利率不變，同時保留10月升息的可能性，將符合目前交換市場定價；若訊息把緊縮推得更遠，捍衛日圓的重擔便會更多落在匯市干預上。\n\n日本公債與政策的互動和利率決定同樣重要。2年期標售投標倍數僅3.63，尾差也擴大，顯示即使殖利率為今年最高，需求仍然轉弱。若央行提早釋出再次升息的指引，可能支撐日圓，卻也會進一步壓低短天期JGB價格；若延後更久，曾把日圓推至40年低點的利差交易可能再度活躍。\n\n週五的歐元區通膨數據將決定，第2季成長優於預期是否伴隨更廣泛的物價加速。西班牙通膨已升至3.8%，德國地區性指標也加速；若歐元區數據接近預期的2.9%，9月升息仍會是歐洲央行的選項。若數據較弱，市場將更重視央行的另一項憂慮：能源衝擊可能先傷害成長，才形成持續的第二輪通膨。\n\n對聯準會而言，接下來的通膨與就業數據不能只改變9月行動的機率，還必須釐清Warsh採用更廣泛通膨視角後，政策門檻是否改變。數據轉弱可能強化前端反彈；但若聯準會繼續把偏高的市場殖利率視為緊縮替代品，長端可能仍不易上漲。通膨若持續，7月的3名異議委員將顯得更具先見之明，也會增加央行採取行動、印證投資人已推動之殖利率曲線趨陡走勢的壓力。\n\n美國財政部公布8月至10月季度標售規模，則構成另一項長天期利率風險考驗。市場預期規模維持不變，但投資人會評估融資指引是否在為明年擴大發行預作準備。30年期殖利率已高於5.2%；只要未來可能增加長天期借款的時點拉近，即使供給變動延後，也能影響期限溢價。\n\n上述數據公布前，中東衝突仍可能改變各央行政策結果的分布。卡達恢復通行荷莫茲海峽，加上週四原油下跌，限制市場對美國新一輪空襲的即時通膨反應。若油輪、埃及水域或波斯灣基礎設施再遭攻擊，這項緩解將受到挑戰；若航運持續恢復，即使沒有全面政治和解，能源溢價仍可能下降。\n\n評估AI融資時，交易能否以何種條件完成，比公布的認購需求更重要。CoreWeave雖吸引$90億訂單，卻是在敲定550個基點利差，並承擔客戶合約期限短於貸款所帶來的再融資風險後才完成交易。Proofpoint提高利差、加入債權人保障條款後，也成功延長大部分債務。Equinix的多券次債券發行，將顯示這波重新定價有多少會傳導至業務更多元、債券期限較短的投資級資料中心發行人。\n\n最後必須區分資本是否仍可取得，以及資本是否仍然便宜。公司貸款、債券、SRT、熊貓債與受壓資產請求權出售，依然都是可用的融資來源；但條件已愈來愈多地反映美債殖利率曲線所呈現的共同壓力，包括偏高的實質殖利率、通膨不確定性、科技業龐大投資，以及市場對央行能否以明確指引穩定長期借款成本的信心下降。\n",
+      "methodology_note": "除非另有註明，市場價位均以紐約收盤為準。利率資料採用Bloomberg每日殖利率歷史序列，變動幅度與衍生曲線均使用相同日期的資料。每日歷史序列未標明觀察時點。",
       "overall_summary": {
-        "headline": "長美債殖利率守在高檔，借款人加價換取資金",
-        "session_narrative": "2年期美債收4.23%、10年期4.68%、30年期5.21%，各升1個基點，保留週三曲線轉陡。GDP季增年率僅1.5%，民間最終內需卻增3.9%；6月PCE物價月減0.1%，實質消費增0.4%。當前通膨較低，並未伴隨內需轉弱。\n\nCoreWeave的$26億貸款以基準加550個基點完成，訂單約$90億，五年債務仍長於約3.1年客戶合約。Proofpoint延長$43億，仍有$7.35億在2028年到期，利差從300升至450個基點。融資完成了，代價是更高成本與更強債權。\n\n英國央行維持3.75%，帶動短英債；據報日本干預使日圓最多升3.3%，股市也反彈。長美元融資仍較難，Danantara延後20、30年期規劃，長新興主權債在美元走弱時仍下跌。接下來日本銀行、薪資與新發行，將檢驗壓力是否緩解。",
-        "summary": "PCE物價及油價下降，四個主要美債天期殖利率卻各升1個基點。強勁內需使長端殖利率維持高檔，CoreWeave與Proofpoint則須提供對貸款人更有利的條件，才能完成融資。"
+        "headline": "聯準會不確定性持續壓抑長端，美債殖利率曲線趨陡",
+        "session_narrative": "截至7月30日收盤，2年期美債殖利率下跌2.7個基點至4.247%，10年期下降0.5個基點至4.674%，30年期則上升1.2個基點至5.215%。2年與30年期利差擴大3.9個基點至96.8個基點，30年期殖利率盤中更一度觸及約5.24%，創19年新高。這波走勢延續聯準會會後的曲線趨陡：7月維持利率不變，加上聯邦基金期貨大規模平倉，支撐美債前端；但在較長天期，投資人仍要求通膨風險與不明確反應函數的補償。\n\n第2季GDP成長放緩至1.5%，但消費支出成長3.2%、私人國內需求成長3.9%，每週初領失業救濟金人數也維持低檔。6月PCE較前月下跌0.1%，年增率降至3.7%，但中東戰事重啟，使先前能源價格回落能否持續蒙上陰影。10年期實質殖利率上升0.5個基點，損益兩平通膨率下降1個基點，顯示最初的通膨風險重新定價只是趨於穩定，尚未完全逆轉。科技股大幅反彈、美元走弱與黃金上漲，也未能帶動長天期美債一同釋壓。\n\n英國央行以6比3決議維持利率不變，帶動2年期英債殖利率下跌11個基點；日本干預日圓，加上2年期JGB標售需求轉弱，則提高了7月31日日本央行決策的重要性。科技業仍可取得融資，但條件更為嚴格：CoreWeave支付550個基點的利差，Proofpoint則提高融資成本並加入債權人保障條款。私人信貸違約率升至創紀錄的6%，受壓力所迫的到期日展延也成為最主要的違約形式。",
+        "summary": "聯準會維持利率不變後，美債前端殖利率回落，但30年期殖利率上升、曲線趨陡；國內需求展現韌性、通膨仍高，加上政策指引不明，使期限溢價壓力集中在長端。"
       },
       "section_summaries": [
         {
-          "section_title": "通膨放慢，仍未帶動長債反彈",
-          "summary": "油價與通膨較低，未拉低長美債殖利率。內需及貸款人有利條件，使融資管道與成本的差別更明顯。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "前端反映聯準會7月維持利率不變，長端則納入反應函數未明所帶來的通膨與期限溢價風險。",
+          "next_check": "",
+          "section_title": "固定收益開場論點",
+          "summary": "2年期美債殖利率下跌2.7個基點至4.247%，10年期下降0.5個基點至4.674%，30年期則上升1.2個基點至5.215%，使2年與30年期利差擴大至96.8個基點。30年期盤中也觸及約5.24%的19年高點。6月通膨轉弱限制損益兩平通膨率，但私人需求穩健，加上聯準會反應函數不明，長天期債券壓力仍未消退。"
         },
         {
-          "section_title": "PCE表現溫和，強勁內需卻使判斷複雜",
-          "summary": "GDP僅增1.5%，民間最終內需卻增3.9%；10年期實質殖利率守2.41%，通膨框架及供給疑問仍在。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "若聯準會以市場殖利率偏高為維持政策不變的理由，在通膨進一步改善前，長端殖利率便不易下降。",
+          "next_check": "",
+          "section_title": "需求展現韌性，聯準會反應函數仍未明朗",
+          "summary": "1.5%的GDP整體增速掩蓋了消費支出成長3.2%、私人國內需求成長3.9%及企業投資成長8.4%的強勢表現。6月PCE通膨降至3.7%，但就業穩健且中東風險再起，使改善是否持久仍無定論。市場重新反映約三分之二的9月升息機率；Warsh採用更廣泛通膨視角的不確定性，以及對市場殖利率的依賴，則使長端持續承壓。"
         },
         {
-          "section_title": "CoreWeave、Proofpoint依貸款人條件完成交易",
-          "summary": "CoreWeave改價後吸引$90億訂單，Proofpoint以更高利差完成大部分展期。私人債務違約率達6%，軟體卻改善。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "英國央行抗拒近期緊縮，帶動前端英債反彈；量化緊縮與財政不確定性則使長端殖利率維持高檔。",
+          "next_check": "",
+          "section_title": "英國央行紓解英債壓力，日本出手捍衛日圓",
+          "summary": "英國央行以6比3決議將利率維持在3.75%，並否認升息時點正在接近，使2年期英債殖利率下跌11個基點，長端表現則落後。歐元區成長優於預期、通膨訊號轉強，使9月升息的可能性維持不墜。日本方面，日圓干預及2年期JGB標售需求轉弱，提高了日本央行決策前植田和男指引的重要性。"
         },
         {
-          "section_title": "英國央行緩解短端，日本出手支持日圓",
-          "summary": "英國央行緩解短債、歐元區成長改善，日本在弱標售後據報干預匯率；海外利多仍未拉起長美債。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "需求轉向較短天期，投資人得以保留利息收益，同時減少對美債利率風險的曝險。",
+          "next_check": "Equinix的最終定價將顯示，融資成本上升已在多大程度上擴散至投資級AI基礎設施。",
+          "section_title": "AI借款人讓步於定價與保障條款後完成融資",
+          "summary": "CoreWeave將利差提高至550個基點後才取得$26億貸款，貸款人仍須承擔客戶合約短於5年期債務的風險。Proofpoint提高利差並加入債權人保障條款後，延長了$43億貸款期限。Equinix規劃中的債券發行及銀行日益增加的風險移轉交易顯示，AI相關資本仍可取得，但投資人愈來愈要求更高補償、更強保障或更短期限。"
         },
         {
-          "section_title": "Danantara的長美元融資，因價格而放慢",
-          "summary": "Danantara推遲長美元券、肯亞考慮人民幣，馬來西亞承接流出、烏克蘭意外升息。美元較弱未使所有年期受惠。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "到期日展延超越PIK與延後付息，顯示再融資壓力日益成為私人信貸違約的主要動力。",
+          "next_check": "",
+          "section_title": "私人信貸違約攀升，長天期美元融資更為困難",
+          "summary": "美國私人信貸違約率第2季升至創紀錄的6%，受壓力所迫的到期日展延成為最主要的違約形式。Xerox折價出售關稅退款請求權籌得現金，再以低於面額的價格回購債務。長天期美債殖利率上升及發行人疑慮，使Danantara延後美元債券計畫；肯亞則考慮人民幣融資，外國投資人也撤出馬來西亞債券。"
         },
         {
-          "section_title": "科技股反彈，長主權債仍落後",
-          "summary": "晶片反彈8.19%、VIX急降，長主權債仍落後；風險偏好復甦未降低長端殖利率要求。",
-          "market_read": "",
-          "next_check": ""
-        },
-        {
-          "section_title": "薪資、日本銀行與新融資接續登場",
-          "summary": "薪資、季度再融資、日本銀行及新AI交易，將檢驗讓利與長端殖利率能否穩定。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "公私募市場仍有資本可用，但其定價與保障條款愈來愈多地反映偏高的實質殖利率及政策不確定性。",
+          "next_check": "",
+          "section_title": "後市意義",
+          "summary": "日本央行決策與植田和男的指引，將檢驗匯市干預能否搭配可信的後續升息路徑。歐元區通膨將決定強勁成長是否使9月升息仍具可能；美國接下來的通膨與就業數據則須釐清聯準會的行動門檻。美債供給指引、中東航運與Equinix定價，分別是長天期利率風險、能源通膨及融資情勢的獨立考驗。"
         }
       ],
       "watch_events": [
         {
-          "title": "薪資成本與季度再融資",
-          "date": "7月31日及下次季度再融資",
-          "category": "美國利率",
-          "watch_line": "私人需求增3.9%後有僱用成本指數，接著付息券規模指引。",
-          "market_trigger": "實質殖利率、通膨補償，以及是否為2027年擴大標售鋪路。",
-          "market_implication": "薪資更強或供給更早增加，可能使長端維持高檔。"
-        },
-        {
-          "title": "干預日圓後的日本銀行",
-          "date": "2026年7月31日",
           "category": "日本政策",
-          "watch_line": "日圓最多升3.3%之後，日本銀行須評估較弱2年期標售。",
-          "market_trigger": "從1%再升息的指引，以及匯率支持能否持久。",
-          "market_implication": "較高國內殖利率或更多干預，可能影響海外債券需求。"
+          "date": "7月31日",
+          "market_implication": "提早緊縮可能支撐日圓並壓低短天期JGB價格；延後行動則可能使利差交易再度活躍。",
+          "market_trigger": "日圓再度遭到干預後，政策指引保留10月升息的可能性，或把緊縮時點推得更遠。",
+          "title": "日本央行決策與植田和男指引",
+          "watch_line": "評估維持利率不變、更新後的預測，以及任何有關日圓或再次升息的指引。"
         },
         {
-          "title": "Equinix與後續AI融資",
-          "date": "即將進行的融資",
-          "category": "信用供給",
-          "watch_line": "CoreWeave以550個基點完成後，Equinix計畫至少$30億。",
-          "market_trigger": "訂單、次級價格、年期及債權。",
-          "market_implication": "後續交易將顯示新條件是個別借款人因素，還是更廣泛改變。"
+          "category": "歐洲央行政策",
+          "date": "7月31日",
+          "market_implication": "數據若維持強勁，9月升息仍具可能；若明顯轉弱，能源衝擊的成長風險將更受重視。",
+          "market_trigger": "西班牙與德國數據轉強後，通膨率接近2.9%，或出現明顯低於此水準的結果。",
+          "title": "歐元區通膨",
+          "watch_line": "檢驗第2季成長轉強是否伴隨更廣泛的物價加速。"
+        },
+        {
+          "category": "美國政策",
+          "date": "下次FOMC會議前",
+          "market_implication": "數據轉弱可能延續前端反彈；通膨居高不下則可能迫使聯準會採取行動，印證殖利率曲線趨陡。",
+          "market_trigger": "通膨持續偏高，或勞動市場明顯轉弱，足以化解耐心等待與收緊政策之間的矛盾。",
+          "title": "美國通膨與就業",
+          "watch_line": "觀察新數據能否釐清Warsh採用更廣泛通膨視角後的聯準會行動門檻。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "# Long Treasury yields hold near highs as borrowers pay up for funding\n\n## Softer inflation fails to pull long yields lower\n\nTreasuries settled into an uneasy pause after Wednesday's sharp steepening. Yields at two, five, ten and 30 years each rose 1 basis point on Thursday, to 4.23%, 4.38%, 4.68% and 5.21%. The 2s10s and 2s30s curves held at 45 and 98 basis points. Long bonds stopped selling off rapidly, but lower oil and a softer US inflation report did not bring a recovery.\n\nThe economic data explained some of that resistance. Second-quarter GDP grew just 1.5% annualized, yet private domestic final sales advanced 3.9%, consumption 3.2% and nonresidential fixed investment 8.4%. June PCE prices fell 0.1%, while real consumption rose 0.4%. Inflation was easing, but underlying demand was not weak enough to make the high real-yield environment look plainly unsustainable. Warsh's suggestion that the Fed might look beyond PCE also left questions about how investors should interpret its 2% commitment.\n\nBorrowers were still finding money at revised terms. CoreWeave placed its $2.6 billion loan at 550 basis points over the benchmark with about $9 billion of orders, and Proofpoint completed most of its extension after raising margins and strengthening protections. Stocks and credit funds recovered sharply. The distinction was between access and cost: risk appetite improved, but long-duration funding remained expensive and lenders were taking more of the economics and control.\n\n## Strong private demand complicates a benign PCE reading\n\nNet exports subtracted 1 percentage point from second-quarter GDP growth and inventories another 0.67. The 1.5% headline therefore understated domestic spending. Private final sales grew 3.9%, more than twice the first-quarter pace and the fastest since early 2023. Consumer spending rose 3.2%, nonresidential investment 8.4%, and industrial-equipment investment posted its largest gain since 2011.\n\nJune inflation genuinely softened. PCE prices fell 0.1% on the month, annual inflation slowed from 4.1% to 3.7%, and the core measure rose less than forecast. But real spending increased 0.4%, matching the strongest monthly gain since July 2025, while the saving rate fell to its lowest since 2022. Jobless claims remained low. Consumers were spending through the price pressure, with less saving left as a cushion and July energy costs already above June levels.\n\nSwaps put September hike odds at roughly two in three, below the fully priced increase before the Fed's hold, and the chance of a second move by year-end at about 40%. August federal funds futures open interest fell roughly 140,000 contracts as a record position of more than one million began unwinding after the decision. Meeting risk was clearing, but the expected direction of policy remained toward tightening.\n\nThe longer-term framework was less clear. Warsh reaffirmed 2% but said he was considering inflation measures beyond PCE, leaving open what the approach might become after January. June CPI, the index also used for TIPS, was running at 3.5%. Without a specified replacement or rule for choosing among measures, investors had little basis to determine whether the broader approach would bring action forward or allow more time.\n\nThe bond market did not unwind Wednesday's repricing. The ten-year real yield held at 2.41% and its breakeven rose 1 basis point to 2.27%. The 30-year real yield stayed at 2.98%, 30 basis points above a month earlier, and the corresponding breakeven was near 2.23%. Two-year yields were 14 basis points below a week earlier; the 30-year was 4 higher over the week and 35 higher over the month. The gap between near-term patience and long-run compensation remained wide.\n\nTrading continued to focus on longer maturities and inflation. TIPS par turnover rose 22% to $41.6 billion. Nominal-coupon trading was almost unchanged at $1.14 trillion, but activity beyond 20 years increased 17.8% and the ten-to-20-year sector 37.5%; five-to-seven-year par fell 29%. These two-way volumes do not identify net buying, but the elevated long-yield close survived substantial trading.\n\nInvestors next face the August-to-October refunding announcement. Coupon sizes were expected to remain steady, with attention on whether guidance would prepare increases next year. Options targeting ten-year yields near 4.80% and 30-year yields around 5.3% showed continued demand for protection against another extension of the selloff. Neither the inflation report nor the passing of the Fed meeting had yet produced a comparable reduction in long-end risk.\n\n## CoreWeave and Proofpoint complete deals on lenders' terms\n\nCoreWeave's loan moved from repricing to execution. The $2.6 billion delayed-draw facility cleared at 550 basis points over the benchmark, against an original 425–450 range, adding an estimated $30 million to annual interest expense relative to the top of that range. About $9 billion of orders provided ample coverage once the terms changed.\n\nThe structure still contained a timing mismatch. Chips and contracts, including Anthropic and Jane Street agreements, back the Ba2/BB+ loan, which amortizes to zero over five years. CoreWeave guarantees cash-flow gaps if a tenant does not renew before a replacement arrives. Contracted customers have a weighted average life of about 3.1 years, however, shorter than the debt. Initial contracts represent about $4 billion of revenue, leaving lenders dependent on renewals or replacement use before final repayment.\n\nOther CoreWeave prices showed why those distinctions mattered. Some bonds fell below 90 cents and briefly yielded around 13% during the week's volatility before recovering Thursday. Corporate junk bonds with 8.5%–9.75% coupons still traded below par at roughly 11%–12% yields. A March financing backed by Meta contracts had obtained an investment-grade rating and priced around 225 basis points over the benchmark. Customer quality, contract length and recourse were producing very different borrowing costs within the same platform.\n\nProofpoint also completed a transaction that had been under negotiation. Of a proposed $5 billion refinancing, $4.3 billion was extended by two years and $735 million remained due in 2028. The extended portion priced at 450 basis points over the benchmark, up from 300. Creditors obtained an omni blocker against collateral transfers, equal treatment in future repurchases and changes to roughly two dozen provisions. The company secured more time, but retained a meaningful 2028 maturity and a higher margin.\n\nThat result advanced the broader software refinancing story without resolving it. About $300 billion of US leveraged loans mature in 2028, nearly a third tied to technology, including many businesses bought out in 2021. Revenue uncertainty from AI gives lenders another reason to protect collateral before extending maturities. Proofpoint showed one route through that negotiation, not a return to cheaper refinancing.\n\nPrivate-debt defaults supplied a different measure of stress. Fitch's trailing 12-month rate across 1,300 US borrowers rose from 5.7% to a record 6% in the second quarter. It recorded 32 events involving 20 new unique defaulters; more than half the events involved maturity extensions. Industrials and manufacturing rose from 5.9% to 10.4%, and healthcare from 6.9% to 9.4%. Software moved the other way, from 2.3% to 1.2%, an important distinction from the sector's prominent refinancing concerns in public markets.\n\nBanks continued to transfer risk to preserve lending capacity. Societe Generale was preparing protection on about $5 billion of project-finance loans. Such significant-risk-transfer deals typically place first-loss exposure equal to 5%–15% of a portfolio and can pay coupons above 10%. First-half sales exceeded $18 billion versus about $15 billion a year earlier; a recent SocGen deal transferred risk on more than €9 billion of loans at 675 basis points over the benchmark.\n\nCompanies were finding cash through other balance-sheet assets too. Xerox recognized $105 million of tariff-refund receivables and sold them for $80 million, using a meaningful share to buy back debt at a discount. It still carried $4.2 billion of debt, including $556 million of unsecured notes due in August 2028. The receivable sale provided liquidity at a cost rather than removing the refinancing need.\n\nNew infrastructure borrowing continued to build. Equinix planned at least $3 billion of investment-grade bonds after second-quarter capital expenditure rose 60% to $1.58 billion. Blue Owl's Stack Infrastructure sought an A$8.5 billion, or $5.9 billion, syndicated loan for a Melbourne project. Australia's data-center investment pipeline was estimated above A$155 billion, 5.6% of GDP. Stack was also considering sales of Australian, Japanese and Malaysian assets valued above $30 billion, pairing prospective borrowing with asset recycling.\n\nInvestors could pursue income with less maturity risk. Euro corporate bonds due within a year were roughly flat over the preceding month, versus a 0.9% broad-index loss and more than 2.9% for maturities of at least ten years. Only 67 basis points separated three- and nine-year yields, with spreads near their tightest since 2008. Some buyers preferred proximity to redemption rather than the limited additional carry farther out.\n\nThursday's broad credit returns improved: LQD rose 0.18%, HYG 0.29% and JNK 0.28%. Long AAA-to-A and BBB corporate indices gained 0.21% and 0.26%, while the long-Treasury index slipped 0.09%. Their monthly losses remained 4.76% and 4.38%. The recovery in risk appetite helped prices, but CoreWeave's margin, Proofpoint's remaining maturity and the expanding issuance pipeline kept financing discipline central.\n\n## The BOE relieves the short end as Japan supports the yen\n\nThe Bank of England held 3.75% by a 6–3 vote, and Andrew Bailey rejected the suggestion that the committee was edging toward a hike. Two-year gilt yields fell 11 basis points to 4.34%; September hike odds dropped below 40% from almost 60%. Ten-year yields declined just 4 basis points to 4.99%, and the 30-year was little changed at 5.73%. The message helped short bonds more than long gilts facing runoff and fiscal uncertainty.\n\nThe BOE's projections remained highly dependent on energy. Its central scenario put the late-2026 inflation peak at 3.2%, up from the current 2.6%, before a return toward 2% next year. Oil above $100 and gas 60% more expensive would bring a 4.5% peak in the second quarter of 2027; faster conflict resolution would limit it to 3%. Growth stayed near 1% in 2026 and 2027 across the scenarios.\n\nEuro-area activity instead strengthened the case for policy restraint. Second-quarter GDP grew 0.4% after stagnation, twice the survey estimate and the strongest in more than a year. Germany expanded 0.2% after its first quarter was revised to 0.4%; France grew 0.2% after contracting 0.1%; Spain advanced 0.7%. The recovery reduced the growth cost of another ECB increase even as the energy shock weighed on investment.\n\nJapan went into the BOJ meeting with weak auction demand and a sudden currency move. The two-year JGB sale drew less demand than its 12-month average despite the year's highest offered yield. The tail widened from 0.005 to 0.007, futures extended losses and the two-year yield traded near 1.47%, close to its recent 1.52% peak. Swaps assigned about 25% odds to an increase by September and 79% by October, though the coming decision was expected to leave rates unchanged.\n\nJapan then intervened to support the yen, according to a market participant familiar with the action. The currency rose as much as 3.3% in New York, its largest intraday gain since December 2023. US Treasury Secretary Scott Bessent described it as very undervalued and excessive volatility as unhealthy. Japan had spent a record JPY11.73 trillion on currency purchases in the previous quarter. Support for the yen can ease imported inflation, while any financing through foreign-security holdings creates a potential link to overseas bond demand.\n\nChina offered a different reason to buy duration. Second-quarter growth slowed to 4.3%, below the official 4.5%–5% target range, bringing the ten-year government yield toward 1.7% and 30-year futures to their highest since November. Authorities promised faster public spending and bond-fund deployment, with unused second-half quota estimated at CNY1.3 trillion more than a year earlier, but stopped short of the stimulus investors expected. Higher oil had also led many economists to withdraw calls for a rate cut.\n\nGlobal managers were trading the divergence. Schroders was adding bearish Treasury positions while buying front-end government bonds in Australia, Britain and the euro area. Others preferred Australia, South Korea, Singapore, Norway or China to long US duration. Over three months, the 30-year Treasury yield had risen about 27 basis points, compared with 9 in Australia and 7 for comparable gilts. The yen move pulled shorter US yields down intraday and extended the dollar's decline, yet the Treasury long bond still closed at 5.21%.\n\n## Long-dollar funding becomes harder for Danantara\n\nIndonesia's Danantara delayed progress on contemplated 20- and 30-year dollar notes after investors demanded more yield than it would pay. The sovereign wealth fund had raised $1.5 billion at five and ten years the previous month. Access had not disappeared, but extending into much longer maturities had become unattractive after the Treasury rout.\n\nGovernance concerns added to the price issue. The young fund oversees state assets valued at about $900 billion, while the rupiah had fallen nearly 8% against the dollar. Bank Indonesia's governor resignation had already raised questions about institutional stability. Establishing a durable funding identity separate from the current administration would help Danantara, but postponement left a subdued Asian dollar calendar without a test of long issuance at current US yields.\n\nKenya was considering another currency. A yuan-equivalent panda sale of about $300 million by year-end would help finance a deficit expected to narrow from 6.7% to 5.5% of GDP. Yuan sovereign and corporate bonds issued this year yielded about 2.17%, less than half the rate on EM dollar debt. More than half of Kenya's external debt was in dollars and 12% in yuan; it had already converted about $3.1 billion of railway loans into renminbi. Diversification offered potential cost savings while changing, rather than removing, currency and repayment exposure.\n\nMalaysia absorbed foreign selling with less yield damage. Overseas investors sold a net $1.4 billion of bonds in July, the largest outflow since October 2024, yet ten-year yields had risen only 22 basis points since the Iran war began, versus at least 80 in Indonesia and South Korea. Growth accelerated from 5.4% to 5.8% in the second quarter, June inflation eased to 1.9%, and Bank Negara held 2.75%. A projected deficit of 3.6% of GDP was only slightly above the 3.5% target. Local inflation and domestic buying helped contain the external pressure.\n\nUkraine tightened unexpectedly. The central bank raised rates 50 basis points to 15.5%, reversing guidance that 15% would probably hold until the second quarter of 2027, and left open 16% later this year. It forecast year-end headline inflation of 10% and core of 9.2%, with war the principal risk. An IMF tranche of almost $700 million and expected direct budget support of about $54 billion addressed financing needs without removing the inflation problem.\n\nBroad EM dollar debt gained as the dollar index fell 0.73% to 100.07: EMB rose 0.24%. But the 15-year-plus sovereign index lost 0.79% and remained down 4.48% over a month. The currency relief was not enough for the longest dollar cash flows, the same maturity problem confronting Danantara.\n\n## Technology rebounds, while long sovereign bonds lag\n\nStocks reversed much of Wednesday's decline. The S&P 500 rose 1.66%, the Nasdaq 100 3.36% and semiconductors 8.19%, while VIX fell 17.28% to 17.09. Chips still stood 8.43% lower over a week and 17.55% lower over a month. The rebound improved risk appetite without settling the returns and financing questions behind the technology correction.\n\nWTI eased 0.56% to $83.99 and Brent 1.50% to $89.38. The dollar lost 0.73%, partly as yen intervention accelerated its decline, while gold rose 3.29% to $4,167.40. Softer energy reduced one immediate pressure on rates, but did not pull long Treasury yields down.\n\nCredit funds joined the equity recovery while long EM sovereign debt and Treasuries lagged. Buyers were willing to take risk again; they were still reluctant to accept lower yields on the longest government cash flows.\n\n## Wages, BOJ guidance and new deals come next\n\nThe July 31 Employment Cost Index will help assess whether strong private demand can coexist with delayed Fed action. Firm wage growth after a 3.9% private-final-sales gain would keep September in focus; softer labor costs and further disinflation would support patience. Real yields and breakevens will indicate whether that changes the long end's view rather than only the next meeting's price.\n\nThe refunding announcement then tests supply expectations. Steady coupon guidance could remove an immediate risk, while preparation for larger 2027 sizes would bring the next increase in duration supply closer. The options interest around 5.3% in 30-year yields shows one level at which investors have been seeking protection.\n\nThe BOJ decides on July 31 after June's increase to 1%, a soft two-year auction and intervention that lifted the yen as much as 3.3%. Guidance bringing the next increase closer could support the currency, but higher JGB yields would also strengthen domestic alternatives to foreign bonds. A message reducing October hike odds could leave more work for intervention.\n\nEquinix's planned sale of at least $3 billion and subsequent AI loans will show whether CoreWeave's 550-basis-point margin reflects its particular contract mismatch or a broader reset. Orderbook depth, secondary prices, maturity and creditor rights matter alongside deal completion. CoreWeave found $9 billion of orders and Proofpoint obtained an extension, but both did so after changing the bargain for lenders.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries extended the post-Federal Reserve steepening on July 30, although the movement was far smaller than the initial repricing after Chair Kevin Warsh declined to raise rates or give investors a clear reaction function. The 2-year yield fell 2.7 basis points to 4.247%, the 5-year declined 2.1 basis points to 4.388% and the 10-year eased 0.5 basis point to 4.674%, while the 30-year rose 1.2 basis points to 5.215%. The 2s10s spread widened 2.2 basis points to 42.7 basis points and 2s30s increased 3.9 basis points to 96.8 basis points.\n\nLong yields reached more extreme levels intraday. The 30-year touched about 5.24%, extending its rise to a fresh 19-year high, while the 10-year approached 4.69%. The latest close left the 30-year yield 35 basis points higher over a month, compared with increases of 29.8 basis points for the 10-year and 14 basis points for the 2-year. Investors were no longer merely removing the risk of an immediate Fed increase; they were charging more for the uncertainty created when the central bank relies on market yields to restrain the economy without specifying how policy will respond if inflation remains high.\n\nThursday’s data sharpened rather than resolved that problem. Second-quarter U.S. growth slowed to an annualized 1.5%, but consumer spending increased 3.2%, business investment remained strong and private domestic demand grew at its fastest pace since early 2023. June inflation was softer: the personal consumption expenditures price index fell 0.1% from May, while its annual rate eased to 3.7% from 4.1%. Yet that year-on-year pace remained far above the Fed’s 2% goal, and renewed fighting in the Middle East prevented one month of lower energy costs from providing a durable inflation signal.\n\nThe Treasury decomposition showed some stabilization after the violent post-meeting adjustment. The 10-year real yield rose 0.5 basis point to 2.414% on Thursday, while the 10-year breakeven rate declined 1 basis point to 2.26%. That combination accounted for the small decline in the nominal yield and contrasted with the surge in long-dated inflation compensation immediately after the Fed decision. The 30-year breakeven had increased 6 basis points to 2.23% in the initial reaction, its largest rise since November 2024, as investors questioned Warsh’s commitment to the established inflation framework.\n\nThe cross-asset close reinforced the distinction between short-lived relief and persistent duration pressure. The S&P 500 rose 1.66%, the Nasdaq 100 gained 3.36% and the Philadelphia Semiconductor Index jumped 8.19% as technology shares rebounded. The semiconductor gauge nevertheless remained 17.55% lower over a month. The dollar index fell 0.73%, while gold futures rose 3.29%. Long Treasuries failed to participate fully in the risk-asset recovery or benefit materially from lower oil, leaving the inflation and term-premium debate dominant at the far end of the curve.\n\n## Resilient Demand Leaves the Fed’s Reaction Function Unsettled\n\nThe 1.5% GDP headline understated the strength of domestic demand. Consumer spending, which represents about two-thirds of the economy, accelerated at a 3.2% annualized rate. Final sales to private domestic purchasers, which exclude inventories, net exports and government spending, increased 3.9%, more than twice the first-quarter pace and the strongest result since early 2023.\n\nBusiness investment grew at an 8.4% rate, supported by the continuing buildout of artificial-intelligence infrastructure as well as industrial and transportation equipment. Investment in industrial equipment recorded its largest increase since 2011, while transportation-equipment spending rose by the most in two years. Information-processing equipment and software also posted strong growth, albeit at a slower pace.\n\nThe weaker overall growth rate instead reflected a 1-percentage-point subtraction from net exports and a further 0.67-point drag from inventories. Imports were elevated partly because businesses brought goods into the country before another round of tariffs, while companies also drew down stocks during the Iran conflict. Residential investment contributed modestly to growth for the first time since late 2024.\n\nHousehold demand carried into June. Inflation-adjusted consumer spending rose 0.4%, matching its strongest increase since July 2025, with spending supported by durable goods, recreation, restaurants and accommodation. The saving rate nevertheless fell to its lowest since 2022, while July’s renewed increase in gasoline prices threatened to erode the support previously supplied by tax refunds and promotions.\n\nInflation data were more favorable but did not erase the policy tension. The PCE price index fell 0.1% in June and its 3.7% annual increase matched economists’ expectations after 4.1% in May. The measure excluding food and energy rose less than forecast. The improvement occurred during a month in which an earlier pause in U.S.-Iran hostilities had reduced energy costs, making its durability uncertain after fighting resumed.\n\nWeekly jobless claims remained low, adding a separate indication that the labor market had not weakened enough to force the Fed away from its inflation objective. The combination of softer monthly prices, firm employment and 3.9% private domestic demand gave officials evidence for both patience and eventual tightening. It did not provide the clear deterioration in either inflation or activity that could anchor the timing of the next move.\n\nInterest-rate markets consequently restored some probability of a September increase after eliminating the risk of immediate action in July. Swaps implied about a two-in-three chance of a quarter-point increase at the September meeting, below the fully priced move before the Fed held rates at 3.5% to 3.75%. The implied probability of a second increase by year-end fell to about 40%.\n\nThe clearing of the July decision also triggered a large positioning unwind. Open interest in the August federal-funds futures contract dropped by roughly 140,000 contracts after positions had exceeded 1 million futures, representing about $5 trillion of notional exposure. The contract, which expires before the September meeting, had become the principal vehicle for hedging an immediate rate increase. Its rapid rally after the hold forced short positions to be closed or reduced.\n\nThat adjustment explains the front-end decline, but it does not explain why the long end remained under pressure. Warsh had emphasized that higher market yields were already restraining the economy and could perform some of the central bank’s work. If the Fed remains on hold because market borrowing costs are high, investors have little reason to reduce those costs without clearer evidence that inflation is returning to target. The market-led tightening therefore contains a self-reinforcing element: lower long yields would remove part of the restraint cited as a reason for delaying a policy increase.\n\nWarsh added another source of uncertainty by saying he was examining a broader set of inflation measures than PCE. He maintained the commitment to 2% inflation and said the Fed was still using PCE, but left open the possibility that task forces reviewing the policy framework and economic data could influence strategy after January. He did not identify an alternative measure.\n\nThat ambiguity matters because the choice of index affects how investors interpret both the goal and the path toward it. Former Richmond Fed President Jeffrey Lacker said the PCE and consumer price indexes were the only broad, reliable candidates. JPMorgan economist Michael Feroli warned that changing the framework could appear to redefine the inflation problem rather than solve it, while Barclays strategist Jon Hill linked reduced confidence in the Fed’s commitment to greater term and inflation risk premiums.\n\nThursday’s 1-basis-point decline in the 10-year breakeven showed that the concern did not intensify continuously through the session. It remained significant because the initial post-meeting rise was concentrated farther along the curve, where a change in the policy framework would have the greatest cumulative effect. The 30-year sector was also where the largest cash-market activity increases occurred: Treasury par trading in maturities longer than 20 years rose 17.8% from Wednesday, while activity in the greater-than-10-year through 20-year sector increased 37.5%. Those figures identify the center of the repricing without indicating whether customers were net buyers or sellers.\n\nMiddle East developments kept the inflation distribution wide. The U.S. struck dozens of Iranian military targets after Tehran attacked an American base in Jordan. Drones also hit two liquefied-natural-gas tankers near Egypt’s Mediterranean coast, and Saudi Arabia and Iraq became more directly involved in the widening conflict.\n\nOil nevertheless fell because the American attack avoided key bridges and other civilian infrastructure and shipping through the Strait of Hormuz showed signs of recovery. Qatar sent its first LNG cargo through the strait in more than three weeks. Brent declined 1.5% to $89.38 and WTI slipped 0.56% to $83.99, although they remained 22.19% and 18.71% higher over a month, respectively. The daily fall restrained breakevens, but the cumulative increase and continuing attacks prevented the energy shock from becoming yesterday’s problem.\n\n## The BOE Relieves Gilts as Japan Defends the Yen\n\nThe Bank of England produced a clearer front-end rally by separating current domestic disinflation from the conditional threat posed by energy. The Monetary Policy Committee voted 6-3 to keep the bank rate at 3.75%. Catherine Mann joined Megan Greene and Chief Economist Huw Pill in favoring a quarter-point increase, but Governor Andrew Bailey and the other five members saw enough easing in domestic price pressure to wait.\n\nBailey explicitly rejected the idea that the committee was moving closer to a rate increase. Deputy Governor Clare Lombardelli, often viewed as one of the more hawkish officials, said her decision to hold had not been close. Policymakers cited clear signs of softer domestic inflation pressure and little evidence that higher energy costs had yet spread into wages and broader prices.\n\nTraders reduced the probability of a September increase to about 35% and priced roughly 32 basis points of tightening by year-end, down from 42 basis points on Wednesday. The 2-year gilt yield fell 11 basis points to 4.34%, its largest decline since June 12. The 10-year yield dropped 4 basis points to 4.99%, while the 30-year was little changed at 5.73%, producing a steepening that resembled the U.S. pattern but arose from more direct resistance to near-term tightening.\n\nThe vote revealed a widening division over how to handle the energy shock. Pill argued that an increase would cut through commodity-market noise, Mann emphasized policy credibility and Greene judged that an early move could reduce the probability of second-round effects. On the other side, Deputy Governor Dave Ramsden and external member Alan Taylor said they could consider resuming rate cuts if the conflict ended quickly and domestic disinflation continued.\n\nThe BOE’s central forecast put inflation at 3.2% at the end of 2026, up from 2.6% currently, before returning toward 2% next year. That path assumed the stop-start character of the Middle East conflict continued. In an adverse scenario, with oil above $100 and gas prices 60% higher, inflation reached 4.5% in Q2 2027. A milder outcome involving quicker de-escalation produced a 3% peak and fewer second-round effects. GDP growth remained around 1% in 2026 and 2027 across the scenarios.\n\nBalance-sheet policy preserved pressure farther along the gilt curve. The BOE estimated that quantitative tightening had added 20 to 30 basis points to 10-year yields, about 5 basis points more than its estimate a year earlier. It will decide the next year of the program in September. Fiscal uncertainty before the autumn budget also left long-maturity investors with less reason to follow the front-end rally.\n\nEuro-area data supplied a different reason for caution about easing financial conditions. GDP increased 0.4% in Q2 after stagnation at the start of the year, doubling the consensus forecast and producing the strongest quarterly growth in more than a year. All four major economies expanded despite higher energy costs from the Iran war.\n\nGermany grew 0.2%, while first-quarter growth was revised up to 0.4%. France expanded 0.2% after a 0.1% contraction, with consumer spending and trade offsetting a second consecutive decline in investment. Italy also grew 0.2%. Spain again led the group with a 0.7% increase, supported by household spending, tourism, migration and European Union funds.\n\nThe growth surprise arrived alongside firmer inflation indications. Spanish inflation accelerated to 3.8% in July, and German regional readings also rose. Euro-area inflation due Friday was expected to edge up to 2.9%. The ECB had already warned that the energy shock created upside inflation and downside growth risks; the stronger output figures reduced the evidence for the downside half of that assessment and supported expectations that another increase could come in September.\n\nJapan faced a more immediate collision between monetary policy, sovereign yields and the currency. The yen strengthened as much as 3.3% against the dollar in New York trading, its largest intraday gain since December 2023, after Japanese authorities intervened to support it, according to a market participant and reporting by the Nikkei. U.S. authorities also requested quotes on dollar-yen, a step associated with evaluating market conditions. Treasury Secretary Scott Bessent described the yen as very undervalued and excessive volatility as unhealthy.\n\nThe yen closed at 159.53 per dollar and held most of the advance into early Asian trading. The move extended the dollar’s broader post-Fed decline and occurred immediately before the BOJ decision, increasing the prospect that intervention and monetary guidance would be assessed together. Japan had already spent a record ¥11.73 trillion supporting the currency in the prior quarter, probably drawing in part on foreign securities including Treasuries.\n\nDomestic bonds were also signaling pressure for further normalization. A 2-year JGB auction produced a bid-to-cover ratio of 3.63, down from 4.82 at the prior sale and below the 12-month average of 3.81. The auction tail widened to 0.007 from 0.005, even though the security offered the highest yield of the year. The 2-year yield traded around 1.47%, close to the 1.52% peak reached earlier in July.\n\nThe auction was not a failed sale, but it showed that the highest yield of the year had not restored demand to its recent average. Overnight-indexed swaps assigned about a 25% probability to a BOJ increase by September and 79% by October. The weaker auction, renewed intervention and the currency’s sensitivity to the U.S.-Japan rate gap raised the importance of Governor Kazuo Ueda’s guidance even though a hold remained the expected outcome.\n\n## AI Borrowers Clear the Market After Conceding Price and Protection\n\nThe repricing of artificial-intelligence finance moved from negotiation to completed transactions. CoreWeave locked in a $2.6 billion leveraged loan at 5.5 percentage points over the benchmark, 1 percentage point above the upper end of its initial 4.25-to-4.5-point range. The loan was offered at 96 to 97 cents on the dollar and was expected to yield more than 9%.\n\nThe concessions drew about $9 billion of orders. That demand allowed the transaction to close, but at an estimated additional annual interest cost of about $30 million relative to the original upper end of the marketed margin. Spreads on a euro-denominated CoreWeave bond touched 1,000 basis points during Thursday’s trading, and some corporate bonds had recently fallen below 90 cents for yields in the low teens before recovering with the broader technology rally.\n\nThe loan finances chips and other computing equipment for take-or-pay contracts involving Anthropic, Jane Street and Hudson River Trading. It can be drawn over time, so interest is paid only on borrowed amounts, and its principal amortizes to zero over its life. Moody’s assigned a Ba2 rating and Fitch rated it BB+, at the higher end of speculative grade.\n\nThe structure did not eliminate the principal mismatch. The weighted average life of the underlying client contracts was about 3.1 years, shorter than the loan’s 5-year maturity. The customer agreements represented roughly $4 billion of initially contracted revenue, and CoreWeave guaranteed cash-flow shortfalls while a replacement tenant was found. Lenders were nevertheless taking renewal and residual demand risk that had not been present to the same degree in the company’s earlier broadly syndicated chip-backed financing.\n\nThat distinction helps explain why the $9 billion orderbook coexisted with much higher pricing. Investors were willing to fund identifiable contracts and collateral, but required compensation for the possibility that the leases ended before the debt. The transaction also arrived as CoreWeave prepared to spend more than $34 billion this year and as repeated data-center deals competed for the same pool of capital.\n\nProofpoint’s $5 billion refinancing also cleared only after lenders changed the bargain. The Thoma Bravo-owned cybersecurity company extended $4.3 billion of loans by two years, while $735 million remains due in 2028. The extended portion priced at 4.5 percentage points above the benchmark, compared with a 3-point margin on the existing financing.\n\nThe company altered roughly two dozen provisions. An omni blocker restricts transactions that could move collateral beyond existing lenders’ reach, while another provision prohibits privately negotiated debt repurchases that favor selected creditors. Orders had been sufficient to approve the transaction before the original deadline, but some investors submitted commitments on the expectation that those protections would be added, prompting an extension of the process.\n\nProofpoint and CoreWeave therefore completed different forms of technology financing through the same broad adjustment in creditor power. CoreWeave paid more for contract-backed growth capital whose leases expire before the debt. Proofpoint paid more and surrendered document flexibility to refinance a mature software capital structure exposed to AI disruption. Completion demonstrated access to capital, while the price and protections showed the conditions attached to that access.\n\nInvestment-grade borrowers were encountering the same supply constraint at lower spreads. Equinix began marketing at least $3 billion of bonds in as many as four tranches from 3 to 10 years, with initial guidance on the longest maturity around 140 basis points over Treasuries. The data-center company’s capital spending rose 60% from a year earlier to $1.58 billion in Q2. Proceeds were intended for property and business acquisitions, development projects and debt repayment.\n\nThe transaction placed another large AI-related financing into a market already absorbing repeated loans, project bonds and corporate issuance. Unlike CoreWeave, Equinix entered with investment-grade access and a diversified data-center portfolio. Its announced size and use of proceeds still made the final pricing important for determining whether the increase in financing costs remained concentrated among leveraged borrowers or was spreading through the infrastructure sector.\n\nBanks were also transferring part of their exposure to the buildout. Société Générale was finalizing a significant-risk-transfer transaction covering about $5 billion of project-finance loans across energy, renewable power and data centers. Such deals typically provide protection on 5% to 15% of the referenced portfolio, freeing regulatory capital while giving investors coupons that can exceed 10%.\n\nSRT issuance exceeded $18 billion in the first half of 2026, compared with about $15 billion a year earlier, and was on course for a sixth consecutive annual record. SocGen had recently transferred risk on more than €9 billion of corporate loans in a separate transaction priced at 675 basis points over a benchmark. The growth of the market showed that banks could continue originating infrastructure loans while distributing a concentrated first-loss exposure to specialist investors.\n\nDemand was also migrating toward shorter corporate maturities. Bonds due in less than 5 years outperformed the broader euro investment-grade index over the prior month, and U.S. credit showed a similar pattern. Debt maturing in less than 1 year was close to flat over that period, compared with a 0.9% decline in the broad index and a loss of more than 2.9% for maturities of at least 10 years. The yield pickup from 3-year to 9-year bonds was only 67 basis points, limiting the compensation for assuming substantially more interest-rate exposure.\n\nThe preference was consistent with the Treasury curve and the primary-market concessions. Investors could preserve income at short and intermediate maturities without taking the full effect of rising term premiums. Longer corporate debt remained exposed to both Treasury duration and the possibility that heavy technology issuance would require additional spread.\n\n## Private-Credit Defaults Rise as Long-Dollar Funding Gets Harder\n\nStress was more advanced in private credit. Fitch Ratings’ trailing 12-month default rate across 1,300 U.S. private-debt borrowers rose to a record 6% at the end of Q2, from the previous high of 5.7% in Q1. The agency recorded 32 default events involving 20 new borrowers during the quarter, bringing the number of defaulters to 84.\n\nMaturity extensions under stress overtook payment-in-kind arrangements and interest deferrals as the leading source of quarterly defaults. More than half of the 32 events involved an extension, showing that borrowers were increasingly unable to refinance on original schedules even when lenders avoided a conventional payment failure.\n\nIndustrials and manufacturing recorded the highest sector default rate at 10.4%, up from 5.9% in Q1. Healthcare rose to 9.4% from 6.9%. Software moved in the opposite direction, with its default rate falling to 1.2% from 2.3%, despite investor concern that AI could weaken established technology businesses. Fitch expected defaults to remain elevated because rate cuts had not arrived and merger activity remained subdued.\n\nXerox demonstrated one way a stressed borrower was raising liquidity before its maturities. The company recognized $105 million of tariff-refund receivables in Q2 and sold the claim to a third party for $80 million in cash. It used a meaningful portion of the proceeds to repurchase debt below face value.\n\nThe company carried $4.2 billion of total debt, including $556 million of unsecured notes due in August 2028 that traded around 60 cents on the dollar. Revenue increased 22% from a year earlier to $1.9 billion following the acquisition of Lexmark, but declined 7% on a pro-forma basis. Xerox raised its full-year revenue forecast to $7.6 billion, while management identified maturities in 2028, 2029 and 2030 as the central balance-sheet challenge.\n\nThe sale converted a legally contingent refund claim into immediate cash at a 24% discount to its recognized value. It also allowed Xerox to retire debt at a discount, potentially capturing part of the gap between the cash purchase price of the claim and the depressed market value of its obligations. The transaction improved near-term flexibility without changing the scale of the refinancing still required.\n\nLong-dollar funding was also becoming harder for Asian borrowers. Indonesia’s Danantara delayed progress on a planned sale of 20- and 30-year dollar bonds after investors sought more yield than the sovereign wealth fund was prepared to pay. The rise in long Treasury yields magnified the problem because the contemplated maturities were particularly sensitive to changes in the underlying risk-free curve.\n\nThe resignation of Bank Indonesia Governor Perry Warjiyo added an issuer-specific premium. Danantara, which controls assets valued by officials at about $900 billion, is little more than a year old and continues to face questions about governance, transparency and its connection to President Prabowo Subianto’s state-led economic program. The rupiah was down nearly 8% against the dollar for the year, and the fund’s planned sale would have followed a $1.5 billion international bond debut in June.\n\nOther emerging-market borrowers were looking beyond dollars. Kenya was considering its first yuan-denominated bond in China’s domestic market, potentially raising the equivalent of $300 million by year-end to help finance its fiscal deficit through June 2027. Yuan sovereign and corporate bonds issued during the year yielded about 2.17% on average, less than half the rate on emerging-market dollar debt.\n\nThe plans remained preliminary, and size and timing could change. Kenya expected its fiscal deficit to narrow to 5.5% of GDP from 6.7% in the previous year, while high debt service, government arrears and weak tax collection continued to constrain its finances. More than half its external debt was denominated in dollars, compared with 12% in yuan, giving a panda bond both a funding-cost rationale and a currency-diversification role.\n\nMalaysia showed the opposite side of Asian local-currency flows. Foreign investors sold a net $1.4 billion of Malaysian bonds in July, the largest outflow since October 2024. The 10-year yield rose about 10 basis points during the month as some investors brought forward expectations of a rate increase after GDP grew 5.8% from a year earlier in Q2.\n\nThe outflow occurred despite contained inflation of 1.9%, an investment-grade sovereign profile and a domestic investor base that had kept Malaysian debt more resilient than several regional peers during the Iran war. Most surveyed economists expected Bank Negara Malaysia to retain its 2.75% policy rate through at least 2027. The combination left the market exposed to short-term foreign repositioning without establishing a lasting deterioration in the country’s fiscal or inflation fundamentals.\n\n## Forward Market Significance\n\nThe Bank of Japan’s July 31 decision is the immediate policy test. All 52 surveyed economists expected the benchmark rate to remain at 1% after June’s increase, shifting attention to updated forecasts, Ueda’s press conference and any discussion of the currency. A hold accompanied by guidance that preserves a possible move by October would align with current swap pricing; a message that pushes tightening farther away would leave intervention carrying more of the burden of defending the yen.\n\nThe interaction with Japanese government bonds is as important as the policy rate. The 2-year auction’s 3.63 bid-to-cover ratio and wider tail showed weaker demand even at the highest yield of the year. Earlier guidance about another increase could support the yen but place additional pressure on short JGBs, while a longer delay could renew the rate-gap trade that helped drive the currency to a four-decade low.\n\nFriday’s euro-area inflation release will determine whether the stronger Q2 growth result is accompanied by a broader acceleration in prices. A reading near the expected 2.9%, after Spanish inflation rose to 3.8% and German regional measures accelerated, would keep a September ECB increase under consideration. A softer result would give greater weight to the central bank’s concern that the energy shock may weaken growth before it creates sustained second-round inflation.\n\nFor the Fed, the next inflation and employment readings must do more than change the probability of a September move. They must clarify whether Warsh’s broader inflation lens alters the threshold for action. Softer data could reinforce the front-end rally, but the long end may remain resistant if the Fed continues to cite high market yields as a substitute for tightening. Persistent inflation would make the three July dissenters look more prescient and increase pressure for policy action that validates the steepening already imposed by investors.\n\nThe Treasury’s announcement of auction sizes for the August-to-October quarter adds a separate duration test. Sizes were expected to remain steady, but investors will assess whether the financing guidance prepares the market for increases next year. With the 30-year yield above 5.2%, even a deferred change in supply can affect the term premium if it brings larger long-maturity borrowing closer.\n\nThe Middle East conflict remains capable of changing both policy distributions before those releases arrive. Qatar’s return to Hormuz and Thursday’s decline in crude limited the immediate inflation response to fresh U.S. strikes. Further attacks on tankers, Egyptian waters or Gulf infrastructure would challenge that relief, while sustained shipping could reduce the energy premium even without a full political settlement.\n\nAI financing will be judged through execution rather than announced demand alone. CoreWeave attracted $9 billion of orders, but only after locking in a 550-basis-point margin and accepting refinancing risk around contracts shorter than the loan. Proofpoint extended most of its debt after paying a higher margin and adding creditor protections. Equinix’s multi-tranche bond sale will show how much of that repricing reaches an investment-grade data-center issuer with a broader business and shorter maturities.\n\nThe final distinction is between available capital and inexpensive capital. Corporate loans, bonds, SRTs, panda bonds and distressed claim sales all remained usable sources of funding. Their terms increasingly reflected the same pressures visible in the Treasury curve: high real yields, uncertainty about inflation, heavy technology investment and less confidence that central banks will anchor long borrowing costs through clear guidance.\n",
     "section_summaries": [
       {
+        "market_read": "The front end reflected the July hold; the long end priced inflation and term-premium risk from an undefined reaction function.",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Softer inflation fails to pull long yields lower",
-        "summary": "Softer oil and inflation did not lower long Treasury yields. Strong demand and lender-favorable financing terms kept the distinction between market access and cost in focus.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The 2-year yield fell 2.7 basis points to 4.247% and the 10-year eased 0.5 basis point to 4.674%, while the 30-year rose 1.2 basis points to 5.215%, steepening 2s30s to 96.8 basis points. The 30-year also reached about 5.24% intraday, a 19-year high. Softer June inflation limited breakevens, but firm private demand and uncertainty over the Fed’s reaction function kept long-duration pressure intact."
       },
       {
+        "market_read": "Using high market yields to justify holding policy steady can make long yields resistant to rallies without clearer inflation progress.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Strong private demand complicates a benign PCE reading",
-        "summary": "Private domestic final sales grew 3.9% despite 1.5% GDP growth. Ten-year real yields stayed at 2.41%, while inflation-framework and refunding questions remained open.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Resilient Demand Leaves the Fed’s Reaction Function Unsettled",
+        "summary": "The 1.5% GDP headline masked 3.2% consumer-spending growth, 3.9% private domestic demand and 8.4% business-investment growth. June PCE inflation eased to 3.7%, but firm employment and renewed Middle East risks left the improvement inconclusive. Markets restored about a two-in-three chance of a September increase, while uncertainty over Warsh’s broader inflation lens and reliance on market yields kept the long end under pressure."
       },
       {
+        "market_read": "The BOE’s resistance to near-term tightening drove the front-end rally, while QT and fiscal uncertainty held up long gilts.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "CoreWeave and Proofpoint complete deals on lenders' terms",
-        "summary": "CoreWeave attracted $9 billion of orders after repricing; Proofpoint completed most of its extension at a higher margin. Private-debt defaults reached 6% even as software improved.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "The BOE Relieves Gilts as Japan Defends the Yen",
+        "summary": "The BOE voted 6-3 to hold at 3.75% and rejected the idea that an increase was drawing closer, sending the 2-year gilt yield down 11 basis points while long gilts lagged. Stronger euro-area growth and firmer inflation readings preserved the case for a September ECB increase. In Japan, yen intervention and weaker demand at a 2-year JGB auction increased the importance of Ueda’s guidance ahead of the BOJ decision."
       },
       {
+        "market_read": "Demand shifted toward shorter maturities, where investors could retain income with less Treasury-duration exposure.",
+        "next_check": "Equinix’s final pricing will show how far higher financing costs have spread into investment-grade AI infrastructure.",
         "section_id": "section-04",
-        "section_title": "The BOE relieves the short end as Japan supports the yen",
-        "summary": "The BOE relieved short gilts, euro-area growth strengthened, and reported yen intervention followed a soft JGB auction. Foreign alternatives still failed to lift long Treasuries.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "AI Borrowers Clear the Market After Conceding Price and Protection",
+        "summary": "CoreWeave secured its $2.6 billion loan only after raising the margin to 5.5 percentage points and leaving lenders exposed to contracts shorter than the 5-year debt. Proofpoint extended $4.3 billion of loans after paying a higher margin and adding creditor protections. Equinix’s planned bond sale and growing bank risk transfers showed that AI-related capital remained available, but investors increasingly demanded compensation, safeguards or shorter maturities."
       },
       {
+        "market_read": "Extensions overtaking PIK and interest deferrals showed that refinancing stress increasingly drove private-credit defaults.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "Long-dollar funding becomes harder for Danantara",
-        "summary": "Danantara delayed long-dollar notes, Kenya considered yuan funding, Malaysia absorbed outflows and Ukraine tightened unexpectedly. A weaker dollar did not help every maturity.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Private-Credit Defaults Rise as Long-Dollar Funding Gets Harder",
+        "summary": "The U.S. private-credit default rate reached a record 6% in Q2 as stressed maturity extensions became the leading form of default. Xerox raised cash by selling a tariff-refund claim at a discount before repurchasing debt below face value. Higher long Treasury yields and issuer concerns delayed Danantara’s planned dollar bonds, while Kenya considered yuan funding and foreign investors withdrew from Malaysian bonds."
       },
       {
+        "market_read": "Capital remained available across public and private markets, but its price and protections increasingly reflected high real yields and policy uncertainty.",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Technology rebounds, while long sovereign bonds lag",
-        "summary": "Chips rebounded 8.19% and VIX fell sharply, but long sovereign bonds lagged. Risk appetite recovered without a lower long-yield requirement.",
-        "market_read": "",
-        "next_check": ""
-      },
-      {
-        "section_id": "section-07",
-        "section_title": "Wages, BOJ guidance and new deals come next",
-        "summary": "Wage costs, refunding guidance, the BOJ and new AI deals will test whether lender concessions and long yields can stabilize.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Forward Market Significance",
+        "summary": "The BOJ decision and Ueda’s guidance will test whether intervention can be paired with a credible path toward another increase. Euro-area inflation will determine whether stronger growth keeps a September ECB move in play, while incoming U.S. inflation and employment data must clarify the Fed’s threshold for action. Treasury supply guidance, Middle East shipping and Equinix’s pricing remain separate tests of duration risk, energy inflation and financing conditions."
       }
     ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1820888,
+          "asset_manager_net_change": -51927,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1595128,
+          "leveraged_fund_net_change": 76638,
+          "open_interest": 4335075,
+          "open_interest_change": -130124,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2850125,
+          "asset_manager_net_change": -44793,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2131428,
+          "leveraged_fund_net_change": 25322,
+          "open_interest": 6153513,
+          "open_interest_change": -27454,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2537186,
+          "asset_manager_net_change": 24755,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2064805,
+          "leveraged_fund_net_change": 14848,
+          "open_interest": 5272703,
+          "open_interest_change": -11898,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 714870,
+          "asset_manager_net_change": 4341,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -380604,
+          "leveraged_fund_net_change": -2039,
+          "open_interest": 2418834,
+          "open_interest_change": -30812,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 558536,
+          "asset_manager_net_change": 18503,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -391386,
+          "leveraged_fund_net_change": -25698,
+          "open_interest": 1842498,
+          "open_interest_change": -694,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1113222,
+          "asset_manager_net_change": 5977,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -899165,
+          "leveraged_fund_net_change": 11287,
+          "open_interest": 2446567,
+          "open_interest_change": -10835,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-07-21",
+      "published_date": "2026-07-24"
+    },
+    "treasury": {
+      "comparison_date": "2026-07-29",
+      "observation_date": "2026-07-30",
+      "par_change_pct": -0.7731,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": -0.8888,
+          "par_usd_bn": 1137.4,
+          "trade_count": 371440
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 21.9941,
+          "par_usd_bn": 41.6,
+          "trade_count": 5822
+        },
+        {
+          "key": "bills",
+          "par_change_pct": -3.0537,
+          "par_usd_bn": 263.5,
+          "trade_count": 50557
+        },
+        {
+          "key": "frns",
+          "par_change_pct": -3.7037,
+          "par_usd_bn": 7.8,
+          "trade_count": 288
+        }
+      ],
+      "total_par_usd_bn": 1450.3,
+      "total_trade_count": 428107
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +780,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.23% (+1 bp) | UST 5Y 4.38% (+1 bp)",
-      "UST 10Y 4.68% (+1 bp) | UST 30Y 5.21% (+1 bp)",
-      "10Y TIPS real yield 2.41% (0 bp) | 10Y breakeven inflation 2.27% (+1 bp)",
-      "UST 2s10s curve 45 bp (-0 bp) | UST 2s30s curve 98 bp (-0 bp)"
+      "UST 2Y 4.247% (-2.7 bp) | UST 5Y 4.388% (-2.1 bp)",
+      "UST 10Y 4.674% (-0.5 bp) | UST 30Y 5.215% (+1.2 bp)",
+      "10Y TIPS real yield 2.414% (+0.5 bp) | 10Y breakeven inflation 2.26% (-1 bp)",
+      "UST 2s10s curve 42.7 bp (+2.2 bp) | UST 2s30s curve 96.8 bp (+3.9 bp)"
     ],
-    "headline": "Long Treasury yields hold near highs as borrowers pay up for funding",
-    "session_narrative": "The 2-year Treasury yield finished at 4.23%, the 10-year at 4.68% and the 30-year at 5.21%, each 1 basis point higher. The curve retained Wednesday's steepening. GDP grew only 1.5% annualized, but private domestic final sales rose 3.9%; June PCE prices fell 0.1% while real consumption increased 0.4%. Lower current inflation was not accompanied by weak underlying spending.\n\nCoreWeave completed its $2.6 billion loan at 550 basis points over the benchmark with about $9 billion of orders. Its five-year debt still outlasted roughly 3.1-year customer contracts. Proofpoint extended $4.3 billion while leaving $735 million due in 2028 and raising the margin to 450 from 300. These were completed financings, but at higher cost and with stronger creditor rights.\n\nThe BOE's 3.75% hold drove short gilt yields lower, Japan's reported intervention lifted the yen as much as 3.3%, and equities rebounded. Long-dollar funding remained harder: Danantara delayed contemplated 20- and 30-year notes, while long EM sovereign bonds fell despite the weaker dollar. The BOJ, wage data and upcoming issuance now test whether the pressure eases.",
-    "summary": "All four main Treasury yields rose 1 basis point despite lower PCE prices and oil. Strong private demand kept long yields elevated, while CoreWeave and Proofpoint secured financing only after improving lender terms."
+    "headline": "Treasury curve steepens as Fed uncertainty keeps pressure on the long end",
+    "session_narrative": "At the July 30 close, Treasury yields fell 2.7 basis points to 4.247% at 2 years and 0.5 basis point to 4.674% at 10 years, while the 30-year rose 1.2 basis points to 5.215%. The 2s30s curve widened 3.9 basis points to 96.8 basis points, and the 30-year had touched about 5.24%, a fresh 19-year high. The move extended the post-Fed steepening: the July hold and a large federal-funds futures unwind supported the front end, but investors still demanded compensation for inflation and an unclear reaction function at longer maturities.\n\nQ2 GDP slowed to 1.5%, yet consumer spending grew 3.2% and private domestic demand 3.9%, while weekly claims stayed low. June PCE fell 0.1% on the month and eased to 3.7% annually, but renewed Middle East fighting clouded the durability of the earlier energy relief. The 10-year real yield rose 0.5 basis point as the breakeven declined 1 basis point, showing stabilization rather than a full reversal of the initial inflation-risk repricing. A sharp technology rebound, weaker dollar and firmer gold did not pull long Treasuries into the relief move.\n\nThe BOE’s 6-3 hold produced an 11-basis-point drop in the 2-year gilt yield, while yen intervention and a weaker 2-year JGB auction raised the stakes for the July 31 BOJ decision. Technology financing remained available on tougher terms: CoreWeave paid a 550-basis-point margin, and Proofpoint paid more while adding creditor protections. Private-credit defaults reached a record 6%, with maturity extensions becoming the leading form of default.",
+    "summary": "Front-end Treasury yields eased after the Fed held rates, but the 30-year yield rose and the curve steepened as resilient domestic demand, still-high inflation and unclear guidance kept term-premium pressure concentrated at the long end."
   },
   "report_date": "2026-07-30",
-  "run_id": "daily-fi-newsroom-edit-2026-07-30-ea7a94c71e16",
+  "run_id": "daily-fi-simple-2026-07-30-e6dfb1ee-122f0e36",
   "watch_events": [
     {
-      "category": "US rates",
-      "date": "July 31 and next refunding",
-      "id": "watch-01",
-      "market_implication": "Stronger wages or earlier supply increases could keep long yields elevated.",
-      "market_trigger": "Real yields, breakevens and preparation for possible larger 2027 auctions.",
-      "title": "Wage costs and refunding guidance",
-      "watch_line": "Employment Cost Index follows 3.9% private-demand growth; coupon-size guidance follows."
-    },
-    {
       "category": "Japan policy",
-      "date": "2026-07-31",
-      "id": "watch-02",
-      "market_implication": "Higher domestic yields or further intervention could influence foreign bond demand.",
-      "market_trigger": "Guidance on the next increase from 1% and the durability of currency support.",
-      "title": "BOJ after the yen intervention",
-      "watch_line": "The BOJ weighs a soft two-year auction after the yen rose as much as 3.3%."
+      "date": "July 31",
+      "id": "watch-01",
+      "market_implication": "Earlier tightening could support the yen and pressure short JGBs; delay could revive the rate-gap trade.",
+      "market_trigger": "Guidance preserves an October move or pushes tightening farther away after renewed yen intervention.",
+      "title": "BOJ decision and Ueda guidance",
+      "watch_line": "Assess the hold, updated forecasts and any guidance on the yen or another increase."
     },
     {
-      "category": "Credit supply",
-      "date": "Upcoming financing",
+      "category": "ECB policy",
+      "date": "July 31",
+      "id": "watch-02",
+      "market_implication": "A firm reading keeps a September ECB increase in play; softness elevates the energy shock’s growth risk.",
+      "market_trigger": "Inflation near 2.9% after firmer Spanish and German readings, or a materially softer result.",
+      "title": "Euro-area inflation",
+      "watch_line": "Test whether stronger Q2 growth is accompanied by a broader acceleration in prices."
+    },
+    {
+      "category": "U.S. policy",
+      "date": "Before next FOMC",
       "id": "watch-03",
-      "market_implication": "The next deals will show whether the new terms are borrower-specific or broader.",
-      "market_trigger": "Orderbooks, secondary prices, maturity and creditor rights.",
-      "title": "Equinix and subsequent AI funding",
-      "watch_line": "Equinix plans at least $3 billion after CoreWeave cleared at 550 basis points."
+      "market_implication": "Softer data could extend the front-end rally; sticky inflation could pressure the Fed to validate the steepening.",
+      "market_trigger": "Persistent inflation or clear labor weakening that resolves the tension between patience and tightening.",
+      "title": "U.S. inflation and employment",
+      "watch_line": "Determine whether incoming data clarify the Fed’s action threshold under Warsh’s broader inflation lens."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+13 bp",
-        "change_1w": "-14 bp",
+        "change_1d": "-2.7 bp",
+        "change_1m": "+14 bp",
+        "change_1w": "-10.1 bp",
         "id": "ust2y_ny_close",
-        "last": "4.23%",
-        "reference_type": "ny_close",
+        "last": "4.247%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-07-30T17:00:00-04:00"
+        "timestamp": "2026-07-30"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+24 bp",
-        "change_1w": "-8 bp",
+        "change_1d": "-2.1 bp",
+        "change_1m": "+24.5 bp",
+        "change_1w": "-6.5 bp",
         "id": "ust5y_ny_close",
-        "last": "4.38%",
-        "reference_type": "ny_close",
+        "last": "4.388%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-07-30T17:00:00-04:00"
+        "timestamp": "2026-07-30"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+30 bp",
-        "change_1w": "-3 bp",
-        "id": "ust10y_ny_close",
-        "last": "4.68%",
-        "reference_type": "ny_close",
-        "tenor": "10Y",
-        "timestamp": "2026-07-30T17:00:00-04:00"
-      },
-      {
-        "change_1d": "+1 bp",
-        "change_1m": "+35 bp",
-        "change_1w": "+4 bp",
-        "id": "ust30y_ny_close",
-        "last": "5.21%",
-        "reference_type": "ny_close",
-        "tenor": "30Y",
-        "timestamp": "2026-07-30T17:00:00-04:00"
-      },
-      {
-        "change_1d": "-0 bp",
-        "change_1m": "+17 bp",
-        "change_1w": "+11 bp",
-        "id": "ust_2s10s_curve",
-        "last": "45 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S10S",
-        "timestamp": "2026-07-30T17:00:00-04:00"
-      },
-      {
-        "change_1d": "-0 bp",
-        "change_1m": "+22 bp",
-        "change_1w": "+18 bp",
-        "id": "ust_2s30s_curve",
-        "last": "98 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S30S",
-        "timestamp": "2026-07-30T17:00:00-04:00"
-      },
-      {
-        "change_1d": "-0 bp",
-        "change_1m": "+5 bp",
-        "change_1w": "+1 bp",
-        "id": "ust_2s5s10s_bfly",
-        "last": "-15 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S5S10S",
-        "timestamp": "2026-07-30T17:00:00-04:00"
-      },
-      {
-        "change_1d": "-0 bp",
-        "change_1m": "+12 bp",
-        "change_1w": "+4 bp",
-        "id": "ust_2s10s30s_bfly",
-        "last": "-8 bp",
-        "reference_type": "ny_close",
-        "tenor": "2S10S30S",
-        "timestamp": "2026-07-30T17:00:00-04:00"
-      },
-      {
-        "change_1d": "0 bp",
-        "change_1m": "+25 bp",
+        "change_1d": "-0.5 bp",
+        "change_1m": "+29.8 bp",
         "change_1w": "-2 bp",
-        "id": "tips10y_ny_close",
-        "last": "2.41%",
-        "reference_type": "ny_close",
-        "tenor": "10TIPS",
-        "timestamp": "2026-07-30T17:00:00-04:00"
+        "id": "ust10y_ny_close",
+        "last": "4.674%",
+        "reference_type": "source_specific",
+        "tenor": "10Y",
+        "timestamp": "2026-07-30"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+5 bp",
+        "change_1d": "+1.2 bp",
+        "change_1m": "+35 bp",
+        "change_1w": "+5.4 bp",
+        "id": "ust30y_ny_close",
+        "last": "5.215%",
+        "reference_type": "source_specific",
+        "tenor": "30Y",
+        "timestamp": "2026-07-30"
+      },
+      {
+        "change_1d": "+2.2 bp",
+        "change_1m": "+15.8 bp",
+        "change_1w": "+8.1 bp",
+        "id": "ust_2s10s_curve",
+        "last": "42.7 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S10S",
+        "timestamp": "2026-07-30"
+      },
+      {
+        "change_1d": "+3.9 bp",
+        "change_1m": "+21 bp",
+        "change_1w": "+15.5 bp",
+        "id": "ust_2s30s_curve",
+        "last": "96.8 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S30S",
+        "timestamp": "2026-07-30"
+      },
+      {
+        "change_1d": "-1 bp",
+        "change_1m": "+5.2 bp",
+        "change_1w": "-0.9 bp",
+        "id": "ust_2s5s10s_bfly",
+        "last": "-14.5 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S5S10S",
+        "timestamp": "2026-07-30"
+      },
+      {
+        "change_1d": "+0.5 bp",
+        "change_1m": "+10.6 bp",
+        "change_1w": "+0.7 bp",
+        "id": "ust_2s10s30s_bfly",
+        "last": "-11.4 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S10S30S",
+        "timestamp": "2026-07-30"
+      },
+      {
+        "change_1d": "+0.5 bp",
+        "change_1m": "+26.6 bp",
+        "change_1w": "-1 bp",
+        "id": "tips10y_ny_close",
+        "last": "2.414%",
+        "reference_type": "source_specific",
+        "tenor": "10TIPS",
+        "timestamp": "2026-07-30"
+      },
+      {
+        "change_1d": "-1 bp",
+        "change_1m": "+3.2 bp",
         "change_1w": "-1 bp",
         "id": "be10y_ny_close",
-        "last": "2.27%",
-        "reference_type": "ny_close",
+        "last": "2.26%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-07-30T17:00:00-04:00"
+        "timestamp": "2026-07-30"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

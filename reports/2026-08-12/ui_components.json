@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "Funds gained, but Jane Street's large secured sale contrasted with punitive terms at The Knot and Air Baltic.",
+      "summary": "Large secured deals cleared, while Air Baltic and The Knot showed acute borrower-specific stress.",
       "title": "Credit",
       "value": "LQD 106.12 (+0.1227%) / HYG 79.61 (+0.1258%) / JNK 95.85 (+0.1672%) / EMB 94.94 (+0.116%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "Oil slipped but retained steep weekly gains; gold rose 2.52% despite a firmer dollar.",
+      "summary": "The dollar recovered; oil eased but kept large weekly gains, while gold rose with demand for protection.",
       "title": "Dollar and commodities",
       "value": "DXY 99.932 (+0.1122%) / WTI 82.45 (-0.9014%) / Brent 88.32 (-0.6636%) / Gold 4493.6001 (+2.5234%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Semiconductors led a technology rally and VIX fell as investors welcomed more time for the Fed.",
+      "summary": "Equities rose and volatility fell as benign CPI reduced immediate tightening risk, with semiconductors leading.",
       "title": "Equities and volatility",
       "value": "S&P 500 7748.5 (+0.2627%) / Nasdaq 100 29742.6035 (+0.7354%) / SOX 12399.376 (+2.4871%) / VIX 14.55 (-4.7775%)"
     }
@@ -538,151 +538,310 @@
   "header": {
     "as_of_note": "NY close · 2026-08-12",
     "latest_update_cutoff": "NY close",
-    "stance": "CPI supports patience; long funding stays expensive",
+    "stance": "Benign CPI lowered front-end yields, while supply and long-duration risk steepened the Treasury curve",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "基金上漲，但Jane Street的大額擔保發行，與The Knot、波羅的海航空的嚴苛條件形成對比。",
-        "dollar_commodities": "油價小跌，近週漲幅仍大；美元走強之際，黃金上漲2.52%。",
-        "equities_volatility": "半導體帶動科技股上漲、VIX回落，市場歡迎Fed有更多觀察時間。"
+        "credit": "大型擔保交易順利完成，Air Baltic與The Knot則顯現嚴重的個別借款人壓力。",
+        "dollar_commodities": "美元回升；油價回落但單週漲幅仍大，黃金則因避險需求上升。",
+        "equities_volatility": "溫和的CPI降低近期升息風險，帶動股市上漲、波動率下降，其中以半導體股領漲。"
       },
       "header": {
-        "stance": "CPI支持Fed等待，長期融資仍昂貴"
+        "stance": "溫和CPI壓低短端殖利率，供給與長天期風險則推動美債殖利率曲線陡峭化"
       },
-      "long_thesis_markdown": "# 通膨降溫支持短債，長端融資成本仍居高不下\n\n## CPI讓Fed多些等待空間，長債卻未受惠\n\n7月通膨報告讓Fed有更多時間觀察，卻未替長期借款人帶來多少成本減輕。2年期美債殖利率下跌2個基點至4.20%，10年期同樣跌2個基點至4.68%，30年期則維持5.24%。市場對9月升息的定價由約50%降至40%，但年底前升息一次仍已完全反映在價格中。\n\n整體CPI月增0.1%、年增3.4%，年增率由3.5%回落；核心物價月增0.2%、年增2.5%，年增率也由2.6%下降。四項數據均符合預期。能源降價與溫和的居住成本有所幫助，但租金仍在上漲，資料中心熱潮也推高部分電腦相關價格。10年期實質殖利率與損益兩平通膨率各降1個基點，分別收在2.42%及2.26%。\n\n$420億10年期美債標售以4.683%得標，為2007年以來最高，且略高於標售前市場水準。新增供給獲得消化，未引發劇烈波動，但有利的通膨數據也沒讓投資人追買長債。30年期殖利率不動，使2年與30年期利差擴大2個基點至104個基點；近一個月30年期殖利率仍上升18個基點，2年期則下降1個基點。\n\n股市歡迎Fed可暫待觀察，由科技股領漲。信用市場也持續提供融資：Jane Street發行$146億擔保債券，最長年期殖利率達8.088%。The Knot與波羅的海航空（Air Baltic）的條件卻嚴苛得多，前者須支付更高利息，後者債權人面臨大幅損失。CPI減輕了一項壓力，長期資金與弱體質借款人的融資成本仍然高昂。\n\n## 通膨放緩之下，租金與科技產品仍有漲價壓力\n\n7月整體CPI小幅上升，前一個月則下跌0.4%。核心月增率由持平回升至0.2%，年增率卻追平2021年3月以來最低。能源價格下跌1.5%，居住成本僅上漲0.1%，但仍貢獻整體月增幅約三分之二。旅館與汽車旅館降價壓低居住成本，兩項主要租金指標卻都上漲0.3%。\n\n扣除能源與租金的服務價格在6月下跌後回升0.2%，醫療照護與機票都在上漲項目之列。扣除食品與能源的商品價格也在連跌兩個月後反彈。電腦軟體及配件年漲21.2%、創紀錄，其他電腦相關項目的漲幅亦為四年多來最大，背景是記憶體晶片短缺與資料中心建設需求。整體通膨雖降溫，內部並非全面疲弱。\n\n家庭購買力也未增強。實質平均時薪年減0.2%，延續伊朗衝突爆發以來的疲弱表現。這與招聘降溫一起，讓Fed即使面對高於2%的整體通膨，也有理由不急著再升息。不過，租金黏性與7月會議的三張反對票，使後續緊縮仍有可能。市場減少的是部分9月升息風險，而非撤去年底前升息的預期。\n\n5年期殖利率下跌1個基點至4.38%。2年期已回到接近8月7日非農公布後的水準，5年與10年期卻仍高於當時。10年期實質殖利率與通膨補償各降1個基點，也不同於週二完全由通膨補償帶動的漲勢。近一個月實質殖利率仍升10個基點，損益兩平通膨率升2個基點，先前累積的融資成本上升大多尚未消退。\n\n2年與10年期殖利率降幅相同，利差維持48個基點；近一個月這段曲線已轉陡13個基點，2年與30年期利差則擴大19個基點，顯示長端得到的舒緩少得多。10年期殖利率同期仍高12個基點。赤字、供給與買方結構的不確定性，並未因一次通膨報告而消失。\n\n收盤變動雖小，交易並不清淡。名目附息公債按原始面額計算的成交額增加19.7%至$9,461億。2年及以下天期增加33.4%，7年至10年期增加30.9%，成交增量集中在對CPI敏感的短債與當日標售附近的年期。10年期標售的小幅讓利是在活躍市場中形成；週四30年期債券的存續期間曝險更大，仍須另行檢驗其買方需求。\n\n## Jane Street籌得$146億，弱體質企業付出更高展期代價\n\n美債上漲、風險偏好增強，LQD上漲0.12%，HYG與JNK分別漲0.13%及0.17%。個別交易則呈現更完整的融資面貌，從大額擔保發行，到重整中債權人的損失，條件差異鮮明。\n\nJane Street發行約$146億優先擔保債券，分別為2031年到期的$58.6億、2033年到期的$51.3億及2036年到期的$36.4億，最長年期殖利率為8.088%。資金將用於$110億債務調整方案中的浮動利率貸款再融資，並支持科技基礎設施與新交易策略。前一年創紀錄的$396億交易收入有助支撐發行，但投資人對最長年期仍要求8%以上殖利率。\n\n評等也反映其高獲利與資產負債表透明度有限並存的特性。標普給予債券BB、較投資級低兩級；惠譽的發行人評等則為最低投資級BBB-。擔保地位與獲利能力支持大額籌資，但能為再融資與科技投資取得資金，不代表資金便宜。\n\nQTS子公司開始與投資人溝通一筆可能約$28.5億、亦可能增額的發行案，預計取得投資級評等。融資涉及黑石支持、出租給微軟的喬治亞州開發案；此前曾討論$54億債券與貸款方案，7月另有以Project Magnolia支持的$32.5億槓桿貸款。本次仍在行銷階段，尚未完成發行，資料中心供給則持續透過專案融資與資產擔保渠道增加。\n\n上海電氣重新打開一條管制較嚴的融資渠道。這家上海市支持的設備製造商，在上海自貿區發行CNY15億3年期綠色票據，利率由初步討論約2.4%收窄至1.8%。這是2023年底主管機關限制地方政府借款後，首家在該市場完成定價的非金融企業，也是公司2020年以來首次境外發行。香港子公司保證、維好協議及A3評等支持需求；受惠的是具支持架構、信用較好的借款人，並非地方槓桿限制全面鬆綁。\n\nThe Knot爭取的展期昂貴得多。公司推出$6.7億貸款，擬將現有$6.6億融資展延2.5年，數小時後穆迪便將評等下調兩級至Caa1。擬議利差由375個基點升至525個基點；若槓桿達EBITDA的4倍以上，另加100個基點，這部分可採利息資本化（PIK）。現有貸款價格已由去年底約面額99%跌至約70%。\n\n公司2025年營收下降2%，2026年預計再減，利潤率維持20%出頭。AI生成的搜尋內容削弱網站流量與商家參與，是營運壓力來源。標普維持B評等，但警告槓桿若高於盈餘7倍可能降評。展延到期日能替公司爭取時間，PIK則可保留現金，代價是在槓桿已高時繼續累積債務。\n\n波羅的海航空的擔保債權人損失更深。€3.8億、2029年到期債券，從重整公布前約面額35%跌至最低12%；交易稀疏，也曾出現20%出頭的報價。航空公司計畫將大部分債券轉為股權，保留€1.25億債務，另籌€2.25億過渡融資，同時縮減機隊與成本。6月償債準備金僅剩€300萬。拉脫維亞政府持有88.4%股權及13%債券，仍未讓債權人免於虧損。\n\n這些企業使用資本市場的目的不同。Jane Street以高票息再融資並擴張，QTS尋找下一筆基礎設施融資，上海電氣進入受管制的境外人民幣市場；The Knot與波羅的海航空則是爭取時間、減輕資產負債表壓力，既有債權人因此承擔更多成本。\n\n## 韓國長債殖利率創高，日本仍在權衡升息速度\n\n韓國30年期公債殖利率升至4.67%，創2012年推出該年期以來最高。進口能源成本與半導體成長可能促使央行進一步緊縮，原已壓抑債市；壽險需求疲弱又讓長端少了一群重要買家。主管機關可能將明年超長債發行比重降至30%以下，但未來供給調整的可能性，尚未阻止當前殖利率創高。\n\n日本政策分歧則繼續影響匯率支撐。美國財長貝森特多次主張，日本銀行收緊政策是穩定日圓的關鍵；首相高市早苗則不願升息太快而傷及成長。她上任後日本銀行已升息兩次，政策利率仍僅1%，美日聯合干預匯率當天也維持不動。日圓再次接近每美元160。\n\n市場預期9月或10月可能升息。生活成本議題升溫，高市支持度下滑；日本銀行官員強調通膨上行風險，內閣成員則持續表態尊重央行獨立性。貝森特預計8月底前後會晤總裁植田和男。政策訊號若更一致，可降低反覆干預的需要；若分歧延續，日本便須繼續在提高國內利率與匯率操作之間權衡。這會影響美債的相對吸引力，但不能據此認定特定外匯存底交易已發生。\n\n能源是兩國共同的外部限制。國際能源署（IEA）目前估計，本季全球供應缺口達每日180萬桶，超過前次預測兩倍，而荷莫茲海峽仍無持久協議。歐洲電價另受高溫帶來的冷氣需求與法國核電減產推升。英國財政部內部模型估計，若海峽實質關閉持續至年底，最壞情境下2026年成長率為0.9%，低於3月預測的1.1%。這是附帶條件的情境分析，不是已實現的成長數據。\n\n即使美國通膨改善，本國殖利率上升仍可能讓海外機構選擇其他資產，而非美元長債。韓國創紀錄的長端殖利率是當前價格訊號，日本下一次升息及干預需求則仍未確定。再加上能源缺口擴大，美國一份有利數據未必能帶動全球債市同步上漲。\n\n## 印尼重新吸引買盤，巴西選舉疑慮侵蝕高息吸引力\n\n美元在CPI公布後先跌後升，收盤上漲0.11%至99.932。新興市場匯率指數回吐盤中最多0.2%的漲幅，紐約收盤大致持平。EMB上漲0.12%，長天期新興市場美元主權債卻僅漲0.04%。9月升息機率下降有助硬通貨債券估值，但不足以壓過各國風險。\n\n南非蘭特隨貴金屬上漲近0.3%，巴西雷亞爾則跌0.3%，韓元跌0.4%。巴西匯率8月至今已跌近2%，選舉疑慮漸增；韓國仍面對能源進口與本地長端殖利率上升的壓力。新興股市同日上漲，也顯示匯率疲弱並非全面風險趨避。\n\n印尼債市開始吸引買家回流，但美元投資人今年仍虧損8.5%、表現居亞洲之末。先前民粹支出、央行獨立性與政府干預疑慮，曾將印尼盾推至歷史低點。Destry Damayanti獲提名出任印尼央行總裁，恢復部分政策延續性；政府計畫縮減免費營養餐方案、維持今年淨發債目標，加上標普確認評等與展望，也有助穩定信心。\n\n基準10年期殖利率已由2022年以來高點回落約27個基點。最新標售的投標額相對目標發行額比率為2月以來最高，外資可望連續第三個月淨流入。下一份預算仍須落實財政約束，央行也須在不犧牲職責的前提下支撐匯率；但改善已有標售需求與外資回流相呼應，不再只是官方表態。\n\n巴西的高利差收益面臨不同考驗。異常高的實質利率支持雷亞爾今年仍上漲約6%，但選舉避險部位不多，當地殖利率上升之際，每週國債標售需求轉弱。抗通膨公債的實質殖利率已超過8%。這既吸引投資人，也提高政府融資負擔；若10月總統選舉前避險需求增強，匯率便可能承壓。\n\n民調顯示總統魯拉領先擴大，市場再次懷疑下一屆政府能否達成足以穩定債務的初級盈餘。部分本地經理人預期短率下降、長率上升，將貨幣寬鬆空間與財政疑慮分開定價。8月匯率下跌與標售疲弱顯示，這些擔憂已在選舉結果揭曉前反映到市場。\n\n新興市場企業債的表現則不同於較脆弱的主權債。廣泛美元企業債指數殖利率8月下降19個基點，美國企業債僅降2個基點，相對借款成本降至1月以來最低。受惠荷莫茲關閉的石油生產商，以及重整取得進展的困境企業領漲。中國萬科2027年到期債在升評後，自6月底累計報酬達30%；Gran Tierra Energy的2031年到期債上漲18%。商品曝險與個別企業復甦，比全面的新興市場行情更能解釋這些漲幅。\n\n## 科技股領漲，黃金仍有避險買盤\n\nS&P 500上漲0.26%，Nasdaq 100上漲0.74%，半導體指數大漲2.49%；VIX下跌4.78%至14.55。股市將CPI解讀為Fed可以等待，而非經濟即將加速惡化，AI熱潮也讓漲勢集中於科技股。\n\nWTI下跌0.90%至$82.45，布蘭特下跌0.66%至$88.32，但近一週仍分別上漲9.61%及11.16%，實際供應尚未恢復正常。美元走強、10年期實質殖利率僅跌1個基點，黃金卻上漲2.52%至$4,493.60。避險需求與風險偏好同時存在，並非單純由美元轉弱帶動。\n\n信用債基金與EMB小幅上漲，新興匯率則失去最初漲勢。對照波羅的海航空的重整損失及The Knot昂貴的再融資條件，市場整體平穩只是背景，不能代表每個借款人的處境。CPI支持估值，卻未消除能源曝險、融資需求或企業營運惡化。\n\n## PPI與長債標售接續檢驗CPI後的行情\n\n7月PPI將於8月13日美東08:30公布。市場共識為月增0.2%，前值月減0.3%，也有月增0.1%的預測。納入核心PCE計算的項目，尤其服務與貿易利潤，將顯示CPI的舒緩是否超越能源降價及暫時性弱項。組合若溫和，可支持Fed耐心及2年至5年期債券；若普遍走強，9月升息敏感度可能回升。Kevin Warsh在8月稍晚的傑克森洞發言，則可看出主席如何解讀陸續累積的證據。\n\n同日$250億30年期標售，面對的是CPI利多後仍停在5.24%的殖利率。相較直接拿10年期得標利率4.683%比較，30年期自己的發行前交易水準、投資人配售與標售後走勢更有意義。若結果平穩且非交易商需求廣泛，表示當前殖利率能吸引長債買家；若得標利率高於發行前水準、交易商承接增加或曲線再度轉陡，便進一步顯示短端舒緩尚未降低長期融資成本。\n\n荷莫茲問題仍待解決。持續通航、各方接受條件、運費與保險成本下降，再加上原油跌至8月12日收盤以下，才足以挑戰IEA擴大的供應缺口估計。若關閉持續或出現新的執法事件，7月CPI能源下跌1.5%便較像對過去的反映，而非持久舒緩的訊號。油價若再漲，損益兩平通膨率與2年期殖利率是否同步上升，將顯示實際供應中斷有多少傳入美國政策定價。",
-      "methodology_note": "除另有說明外，市場水準均為紐約收盤值。",
+      "long_thesis_markdown": "## 固定收益開篇主論\n\n7月通膨讓聯準會有更多等待空間，卻未降低投資人對財政供給與長天期風險要求的補償，美國公債殖利率曲線因而在8月12日明顯分化。2年期殖利率下降1.4個基點至4.202%，5年期下降0.7個基點至4.383%；10年期反而上升0.5個基點至4.695%，30年期上升1.8個基點至5.26%。方向相反的走勢使2年與10年期利差擴大1.9個基點至49.3個基點，2年與30年期利差擴大3.2個基點至105.8個基點。\n\n7月消費者物價指數月增0.1%、年增3.4%，兩者均符合市場共識。核心物價月增0.2%、年增2.5%，同樣符合預期，年增率並由6月的2.6%放緩。數據未出現高於預期的意外，使市場隱含的9月升息機率由公布前約50%降至約40%。在7月非農就業已顯示招聘轉弱後，這足以支撐對政策較敏感的短中天期債券，卻不足以帶動整體債市全面上漲。\n\n通膨的內部組成也說明了市場為何保持克制。能源價格下跌1.5%，居住成本僅上升0.1%，共同壓低整體數據；但租金上升0.3%，排除能源與住房的服務價格也溫和上漲0.2%。排除食品與能源的商品價格在連跌兩個月後反彈，電腦相關類別的漲幅尤其突出。因此，這份報告顯示通膨持續降溫，並不代表價格壓力已徹底消失；與此同時，荷莫茲海峽航運仍受阻，油價單週漲幅仍超過9%。\n\n美國公債供給進一步加深政策敏感券種與長端的分歧。財政部標售$420億10年期公債，得標殖利率為4.683%，是2007年以來該年期標售的最高水準，並略高於投標截止前的市場殖利率。即使殖利率先前已大幅上升，仍須提供小幅讓利，顯示需求略遜於預期。市場隨後等待週四標售$250億30年期公債，預料其融資利率將是該年期約25年來最高，長端因而持續承壓。\n\n因此，收盤行情與其說是通膨緩解帶來的債市上漲，不如說是風險沿殖利率曲線重新分配。10年期實質殖利率上升0.4個基點至2.43%，10年期損益兩平通膨率上升0.1個基點至2.265%。變動幅度太小，尚不足以代表通膨衝擊再起，卻顯示2年期殖利率下降並未轉化為長端實質融資成本降低。過去一個月，2年期殖利率下降0.7個基點，10年期上升13.3個基點，30年期更上升19.9個基點。\n\n風險性資產將CPI解讀為聯準會可以保持耐心的訊號。標普500指數上漲0.26%，那斯達克100指數上漲0.74%，費城半導體指數上漲2.49%；VIX下跌4.78%至14.55。然而，美元指數收復早盤跌幅，收盤上漲0.11%；黃金期貨上漲2.52%至$4,493.60。WTI下跌0.90%至$82.45，布蘭特原油下跌0.66%至$88.32，但單週漲幅仍分別達9.61%與11.16%。這組行情讓股市得以反映近期升息風險下降，同時保留市場對地緣政治及較長期通膨不確定性的避險需求。\n\n## CPI降低立即升息壓力\n\n7月CPI連續第二個月提供證據，顯示基礎通膨並未再度加速。核心通膨年增率為2.5%，與2021年3月以來最低增速相當，也低於6月的2.6%；整體通膨則由3.5%降至3.4%，月增0.1%，前月為下降0.4%。通膨仍未回到聯準會2%的目標，但數據削弱了官員必須在9月15日至16日會議立即採取行動的理由。\n\n居住成本雖僅上升0.1%，卻約占整體物價月增幅的三分之二。兩項租金指標各上升0.3%，飯店與汽車旅館價格則下跌3.3%，創逾一年最大跌幅。食品雜貨價格自3月以來首次下降，能源與汽油價格也連續第二個月下跌。美國與伊朗停火破裂後，7月平均汽油價格一度升破每加侖$4，但全月平均仍低於6月。\n\n能源對7月物價的較弱貢獻，反映的是近期原油市場再度受阻前的情況。這有助於壓低7月CPI，卻無法判定8月油價、運費及保險成本上升將有多少轉嫁至消費者。核心物價也有類似差別：排除能源與租金的服務價格在前月下降後上升0.2%，醫療與機票均屬上漲類別。增幅溫和，足以支持政策保持耐心，但並未顯示服務價格普遍下跌。\n\n核心商品走勢相反。排除食品與能源商品的價格在連跌兩個月後反彈。電腦軟體與配件價格較一年前上漲21.2%，電腦、周邊設備及智慧家庭助理的價格漲幅則創逾四年最大。資料中心建設擴張造成記憶體晶片短缺，已促使消費科技產品業者宣布漲價。軟體價格的異常升幅範圍太窄，不能用來界定整體通膨趨勢，卻說明即使住房與能源價格趨緩，AI投資熱潮仍可能製造價格壓力。\n\n家庭購買力依然疲弱。7月實質平均時薪較一年前下降0.2%，延續伊朗戰爭爆發以來的疲弱表現。這降低了傳統薪資—物價螺旋上升的風險，也支持聯準會等待，但同時意味通膨放緩尚未轉化為廣泛的實質所得改善。\n\n利率市場的反應呈現了這些保留條件。2年期殖利率收盤跌幅不到2個基點，未能維持大幅上漲的債市行情；交易員仍完全反映年底前升息一次。7月CPI降低了9月升息的迫切性，卻未排除後續通膨或勞動市場報告使升息重新成為選項。會議前仍有更多就業與物價數據公布，聯準會主席Kevin Warsh預計於8月稍晚在傑克森霍爾發表談話，屆時可望說明聯準會需要累積多少證據才會採取行動。\n\n數據公布與標售前後，市場交易十分活躍。FINRA記錄的美國公債面額成交量達$1.183兆，較週二增加14.8%，共計385,022筆交易。附息公債成交量增加19.7%至$9,461億；2年期以下券種成交量增加33.4%，7年以上至10年期券種則增加30.9%。這些數據反映雙向交易，無法判斷投資人的淨買賣方向，但顯示政策敏感區段與標售相關券種都經歷大幅調整，最終收盤變動才顯得溫和。\n\n10年期標售隨後限制了債市漲勢。4.683%的得標殖利率僅略高於標售前市場水準，結果並非投資人嚴重排斥該批債券，卻仍須付出全球金融危機以來最高的標售殖利率。龐大赤字、仍高於目標的通膨、穩健經濟活動及伊朗衝突，使長端殖利率難以跟隨短端下行。\n\n30年期殖利率升至5.26%，更清楚呈現這項分歧。長債受聯準會下一次決策的直接影響較小，對財政借款、期限溢價及民間投資人必須承接的長天期債券規模則更敏感。7月CPI顯示通膨未再加速，因而改變近期的政策反應；但它既未改變政府融資需求，也不能證明能源成本上升反映於後續數據後，通膨仍會受控。\n\n## 油價風險持續壓迫全球殖利率曲線\n\n原油週三下跌僅帶來有限緩解，因實體供給情勢仍在惡化。國際能源總署估計，本季全球石油每日短缺180萬桶，是先前預估的兩倍以上。敵對行動雖有所緩和，美國與伊朗仍未就恢復荷莫茲海峽正常通航達成持久協議。\n\n美國總統川普表示，美方已完全控制這條水道，並預期能維持控制；伊朗則轉趨強硬，重新調整軍事部署，採取一名伊斯蘭革命衛隊顧問所稱更具攻勢的準則。談判依舊陷入僵局。雙方各自聲稱掌握局勢，仍不足以證明商船可以恢復例行通行、保險公司認為航線可用，或供給缺口將會收斂。\n\n這項尚未解決的航運中斷，也說明CPI公布後通膨補償為何僅小幅變動。7月能源價格下跌1.5%，反映的是較早時期；截至週三收盤，WTI與布蘭特原油過去一個月仍分別上漲15.46%與16.20%。油價單日下跌雖降低眼前壓力，卻未扭轉能源進口國面對的成本基礎已經上升。\n\n南韓公債最明顯反映了這項影響。30年期政府公債殖利率升至歷史新高4.67%，是該年期自2012年推出以來最高。能源進口成本上升之際，傳統上是超長天期債券重要買家的壽險公司需求偏弱。南韓央行一名高階官員也表示，如果半導體帶動的成長持續推升基礎通膨，可能還需要進一步升息。\n\n這項歷史高點因而同時反映政策與市場結構壓力。強勁科技出口支撐經濟成長，也提高需求維持韌性、使價格壓力延續的風險；另一方面，壽險公司不願承接長債。當地分析師認為，若政府把明年超長天期債券的發行占比降至30%以下，需求可能改善，但目前尚未宣布這項調整。在能源曝險與南韓央行緊縮傾向仍然存在時，市場仍須自行消化長天期債券供給。\n\n即使市場因看好半導體企業而推動南韓股市基準指數上漲3.7%，韓元兌美元仍下跌0.4%。這項背離凸顯AI驅動的股市漲勢，與當地債市反映的通膨及融資風險並不相同。晶片產業展望強勁，一方面支撐股價，另一方面也加深央行對經濟成長可能維持基礎通膨的憂慮。\n\n日本面對的是相關但更為熟悉的限制。日圓在週三收盤時約貶值0.1%，報159.38日圓兌1美元，7月底美日干預帶來的升幅已大半回吐。日本央行1%的政策利率仍低於其他主要市場，首相高市早苗也不願快速緊縮，以免危及經濟成長。相較之下，美國財政部長Scott Bessent則強調，日本收緊政策有助於支撐日圓。\n\n市場對日本央行9月或10月升息的預期已經升高，但匯市干預並未消除利差與能源成本上的根本劣勢。日圓走弱會提高依賴海外能源的日本之進口成本，油價上升也增加美元需求。再度買進日圓或可使匯率急劇變動，但效果能否持久，仍取決於貨幣政策及日本進口成本，而非單筆干預交易的規模。\n\n挪威短期情勢恰好相反：儘管全球能源衝擊持續，國內通膨放緩讓決策官員得以等待。受訪的16名經濟學家全數預期，挪威央行週四將連續第二次會議把政策利率維持在4.25%。核心通膨已連續兩個月維持2.7%，是約一年半來最低，且7月的降溫範圍比6月由促銷活動帶動的下滑更廣。\n\n隔夜市場僅反映週四升息2個基點、截至9月升息14個基點，低於8月初的9個與23個基點。薪資增速仍高，勞動市場變化不大，官員因此可以保留再次升息的可能性。眼前的決策仍將檢驗基礎通膨改善能否暫時壓過能源不確定性，讓央行等到9月預測更新後再行動。\n\n## 初級市場承接能力與特定借款人壓力並存\n\n企業融資市場仍然暢通，但絕對成本偏高，Jane Street完成了當日最大型交易之一。這家造市商分三個年期發行$146億優先擔保票據，包括2031年到期的$58.6億、2033年到期的$51.3億，以及2036年到期的$36.4億；最長年期券種的定價殖利率為8.088%。\n\n這筆固定利率債券將用於償還浮動利率貸款，並重整約$110億的既有債務。募集資金也可能用於科技基礎設施及擴大交易策略。Jane Street去年交易營收創下$396億紀錄，顯示可供債權人倚賴的獲利能力相當可觀；但其未上市公司身分及對市場敏感的業務模式，使信評出現罕見分歧。標普給予新債BB評級，較投資等級低兩級；惠譽對發行人的評級則為BBB-，是投資等級的最低一級。\n\n信評分歧並未阻止Jane Street籌得遠高於預計再融資債務的資金。這筆交易顯示，只要提供8%殖利率及擔保地位，投資人仍願意大規模資助獲利良好的金融公司；同時也反映在目前長端利率環境下，即使借款人擁有創紀錄營收及強大的交易業務，融資成本依然高昂。\n\n資料中心融資可能再帶來一批債券供給。QualityTech旗下子公司在潛在發債前展開投資人電話會議，預計規模約$28.5億，並可能擴大，信評料將達投資等級。花旗、高盛、摩根大通與摩根士丹利協調安排週三及週四的會議。\n\n這項交易之前，市場已在討論為黑石支持、位於喬治亞州並出租給微軟的QTS資料中心開發案籌組約$54億的債券與貸款方案。QTS在7月也以一組設施資產為擔保，取得$32.5億槓桿貸款。這一連串交易顯示，AI基礎設施投資正由廣泛的資本承諾，落實為具體的擔保及專案連結借款；即使美債殖利率仍高，市場供給仍持續增加。\n\nAir Baltic的情況與此形成強烈對比。這家拉脫維亞航空公司提出將大部分債務轉為股權後，2029年8月到期的€3.8億優先擔保票據一度跌至每1歐元面額僅值12歐分。週二公布重整計畫前，該債券價格約為35歐分；由於成交清淡，市場也曾出現20餘歐分低檔的報價。\n\nAir Baltic計畫削減成本、縮小機隊規模，並籌措€2.25億過渡融資，以支應近期流動性。既有票據一部分轉為股權後，債券持有人將保留€1.25億債權。公司預定週五支付利息，但截至6月，專門用於債券償付的準備金僅有€300萬；公司其他現金亦可用於付息。\n\n下一項契約程序是8月17日召開債券持有人會議，日期已由8月3日延後。投資人受邀審議的變更之一，是允許公司把應付利息加入本金，而非以現金支付。拉脫維亞政府持有該航空公司88.4%股權及13%債券，漢莎航空則持有10%股權；這些持股與持債部位仍無法決定債權人和股東之間將如何分攤損失。\n\nThe Knot Worldwide面臨的是另一種再融資壓力。這家婚禮規劃公司推出$6.7億貸款，擬修改現有$6.6億融資條款並把期限延長兩年半。數小時後，穆迪以過去18個月營收與獲利明顯惡化為由，將公司信評一次下調兩級至Caa1。\n\n搜尋引擎流量變化、AI生成答案及使用者參與度下降均衝擊其業務，削弱該公司平台對花商、攝影師及其他婚禮供應商的價值。穆迪預期，在2025年營收下降2%後，2026年將再度下滑，獲利率則維持在20%區間低端。供應商流失率偏高，也為業務復甦增添另一項風險。\n\n展期貸款的利差為基準利率加5.25個百分點，高於現有貸款的3.75個百分點。若債務達息稅折舊攤銷前盈餘至少4倍，利率還將再增加1個百分點；這部分利息可以加入本金，而不必以現金支付。舊貸款價格已由去年底約99美分跌至約70美分。\n\n標普維持B評級，並預期營收明年復甦，判斷不像穆迪那麼悲觀。但標普也警告，若債務持續高於獲利7倍，評級可能再遭下調；可能原因包括供應商留存率進一步下降、支出未能創造營收，或以舉債方式進行收購與分派。兩家信評機構的差異意味，這項再融資能否成功不只取決於延長到期日，也取決於公司能否恢復支撐現金流的網站流量與客戶參與度。\n\n中國離岸人民幣市場則出現較正面的重啟跡象。上海電氣透過上海自由貿易區發行人民幣15億元3年期綠色債券，殖利率為1.8%，遠低於約2.4%的初步定價討論。自主管機關於2023年底限制地方政府過度舉債以來，這是首家非金融企業在該市場完成定價。\n\n公司透過一家海外子公司發行，以符合修訂後的規定。其香港子公司將為債券提供擔保，上海電氣另以維好協議提供支持；穆迪已於6月將上海電氣信評上調至A3。在這筆交易前，明珠債發行量已較2025年同期成長逾五倍，達$5.12億，但相較中國約$190億的離岸人民幣市場，總量仍小。\n\n市場重啟反映北京正在擴大人民幣融資管道與防止地方政府弱質債務再度累積之間尋求平衡。銀行與證券商去年已恢復發行明珠債，如今市場再度擴及非金融發行人，代表更進一步開放。最終殖利率較初步定價討論大幅收窄，顯示在新限制下，投資人對高評級、具國家支持背景的發行人需求強勁，而非市場毫無區別地回到整頓前的狀態。\n\n## 新興市場債區分能源受惠者與財政風險\n\n投資人追逐收益，加上荷莫茲海峽封鎖對各國影響不一，新興市場公司債持續受惠。彭博新興市場美元公司債指數殖利率8月至今下降19個基點，美國公司債僅下降2個基點，使新興市場企業相對美國同業的殖利率溢酬縮至1月26日以來最低。\n\n協助填補供給缺口的能源生產商，以及重整取得進展的困境借款人，是表現領先的信用標的。中國萬科完成重整並獲惠譽調高評級後，其2027年到期債券自6月底以來報酬率達30%；Gran Tierra Energy的2031年到期票據則上漲18%。這些漲勢集中於特定標的，不能解讀為所有對油價敏感的新興經濟體均已改善：能源出口國與生產商的現金流增加，能源進口國則持續承受通膨、匯率及主權債殖利率壓力。\n\n印尼本地市場出現集中賣壓可能減退的跡象。指標10年期公債殖利率在升至2022年以來最高後，已下降約27個基點。最近一次政府債券標售的投標額相對目標發行額之比創2月以來最高，外資也可望連續第三個月淨流入。\n\n這波復甦出現在前任總裁突然辭職、Destry Damayanti獲提名為印尼央行總裁唯一候選人之後。市場先前擔憂央行獨立性、總統普拉伯沃的支出計畫及政府加深介入經濟，導致印尼盾跌至歷史低點並迫使央行大幅升息；投資人因此將她獲提名視為政策延續的證據。\n\n財政風險並未消失。以美元計價，印尼債券今年仍是亞洲表現最差的市場，虧損8.5%。政府承諾維持淨發債目標，並縮減免費供餐計畫；標普則確認主權評級及展望。週五的預算演說將是下一項考驗：普拉伯沃先前表示，2027年赤字將占GDP的1.8%至2.4%，低於本年度2.9%的目標。\n\n巴西走勢相反，10月總統大選開始影響當地資產。巴西里爾週三下跌0.3%，8月至今跌幅接近2%，但今年以來仍升值約6%。民調持續顯示總統魯拉領先，引發市場重新擔憂下屆政府能否進行足夠的財政調整以穩定債務，部分全球投資人因而降低巴西里爾與當地債券曝險。\n\n壓力已反映在當地殖利率上升及每週國債標售需求轉弱。Adam Capital表示，抗通膨政府債券的實質殖利率已升破8%；Ibiuna則布局短期利率下降、長期殖利率上升，反映其認為即使貨幣政策放鬆，財政風險仍將使長天期融資成本維持高檔。道富發現，相較過去幾次選舉週期，目前巴西里爾避險程度仍低，意味投票日接近時，避險需求可能突然上升。\n\n菲律賓面對更直接的供給挑戰。政府計畫於2027年舉債3.3兆披索，較今年增加20%，其中約1.6兆披索用於償還到期債務。5年期政府公債殖利率週二已達7%，高於一年前的5.88%。政府發債量擴大，加上央行近期升息，可能同時提高主權與企業的融資成本。\n\n菲律賓債務約占GDP的66%；惠譽已將評級展望調降至負向，標普也把展望由正向降至穩定。政府計畫提高含糖飲料、電子菸及酒類稅負以支應刺激措施，但總借款規模增加仍將與民間資金需求競爭。印尼標售訊號正在改善，菲律賓則相反：其計畫將在經濟成長轉弱及能源進口壓力已存在的市場中，進一步增加潛在供給。\n\n## 後市意義與觀察重點\n\n美國下一項通膨考驗，是8月13日美東時間08:30公布的7月生產者物價指數。市場共識為月增0.2%，前月為下降0.3%；另有預測為月增0.1%。由於今年核心PCE增幅普遍高於核心CPI，會納入個人消費支出物價指數的分項尤其重要。若服務價格與貿易服務利潤率溫和，將強化9月維持利率不變的理由；若漲勢更為廣泛，則顯示CPI帶來的緩解可能主要集中在能源及少數波動較大的類別。\n\n週四標售$250億30年期美國公債，是更迫切的市場結構考驗。即使CPI溫和，30年期殖利率仍上升1.8個基點，以5.26%收盤；此前10年期標售得標殖利率為4.683%，較標售前市場水準提供小幅讓利。長債標售結果、買方分布及後續交易，將顯示接近25年融資高點的殖利率是否足以吸引投資人承接，抑或財政與通膨補償仍須進一步提高。\n\n兩次標售的差別值得注意。週三10年期公債是在CPI公布後標售，卻仍未能把短端漲勢延伸至中期券種。若30年期標售需求穩健，可抑制曲線進一步陡峭化，而不必改變聯準會展望；若需求疲弱，則會進一步突顯9月升息風險下降，與政府赤字長期融資成本上升之間的分離。\n\n荷莫茲海峽仍是7月能源價格緩解面臨的主要威脅。國際能源總署估計每日短缺180萬桶，需要實體供給恢復的證據，而不是任何一方再次宣稱已控制航道。持久改善應包括各方接受的通航條件、具商業意義的船舶流量，以及運費與保險成本下降。若封鎖持續或攻擊再起，近期油價跌勢可能逆轉，能源因素也將重新影響損益兩平通膨率及各國央行決策。\n\n挪威央行週四的決策將顯示，核心通膨更廣泛回落是否足以讓政策利率繼續停在4.25%。市場認為立即升息的風險很低，但由於薪資成長與就業仍然穩健，9月升息選項尚未關閉。官員是否仍預期再度升息的指引，將決定市場下修緊縮幅度只是把升息延後，還是利率路徑已有更實質的改變。\n\n印尼週五的預算演說則是另一項主權債考驗。近期10年期殖利率下降27個基點、標售需求增強及外資回流，都建立在新任央行領導層能維持穩定、政府財政承諾可信的假設上。若赤字目標落在先前提出的GDP 1.8%至2.4%區間，且融資計畫符合既有淨發債承諾，將有助於延續復甦；若赤字目標更高或供給更重，則會使印尼今年成為亞洲最弱債市的疑慮再度升溫。\n\nAir Baltic的付息及8月17日債權人會議，將決定其重整能否由已公布的計畫轉化為可行的流動性安排。債券持有人必須在債轉股、僅保留€1.25億債權及利息資本化提案之間權衡，同時考量公司需要€2.25億過渡融資。債券一度低至每1歐元面額僅值12歐分，顯示目前主導這項信用風險的已是回收價值，而非一般再融資成本。\n\nThe Knot眼前的問題，是在穆迪一次下調兩級後，$6.7億展期貸款能否以基準利率加5.25個百分點的條件獲得市場承接。延長到期日可以處理時間壓力，卻無法解決營收、供應商參與度及獲利下滑；這些問題部分源於AI帶來的搜尋模式改變。最終條款及投資人參與程度，將顯示放款人是否認為較高利差與利息資本化（PIK）彈性，足以補償仍然承壓的商業模式。",
+      "methodology_note": "除非另有說明，市場水準均以紐約收盤為準。利率資料採用彭博每日殖利率歷史序列；變動幅度與衍生殖利率曲線均使用相同日期的資料。每日歷史資料未註明觀察時間。",
       "overall_summary": {
-        "headline": "通膨降溫支持短債，長端融資成本仍居高不下",
-        "session_narrative": "整體CPI月增0.1%、年增3.4%，核心月增0.2%、年增2.5%。能源降價與溫和的居住成本有所幫助，租金及電腦相關價格卻較強。9月升息機率由約50%降至40%，年底前升息一次仍已完全定價。\n\n$420億10年期標售以4.683%得標，略高於標售前水準。實質殖利率與損益兩平通膨率各僅降1個基點，30年期並未上漲；韓國長端殖利率創高與能源供應未解，也增加海外限制。\n\nJane Street籌得$146億擔保債務，The Knot尋求昂貴展期，波羅的海航空則提出讓債權人大幅減損的方案。印尼吸引買家回流，巴西選舉疑慮卻削弱本地需求。股市歡迎CPI利多，黃金也同步上漲。",
-        "summary": "7月CPI符合預期，9月升息機率降至約40%。10年期殖利率下跌2個基點至4.68%，30年期卻維持5.24%，再融資標售繼續檢驗買盤。"
+        "headline": "溫和CPI提振短端債券，供給與油價風險仍推升美債長端殖利率",
+        "session_narrative": "7月CPI符合預期且未再加速，美國公債殖利率曲線因而分化。2年期殖利率下降1.4個基點至4.202%，5年期下降0.7個基點至4.383%；10年期上升0.5個基點至4.695%，30年期上升1.8個基點至5.26%。市場隱含的9月升息機率由約50%降至約40%，2年與10年期利差則擴大1.9個基點至49.3個基點。\n\n這波緩解未能帶動整體債市全面上漲。核心CPI年增率降至2.5%，但商品價格反彈；荷莫茲海峽航運受阻之際，油價單週漲幅仍超過9%。此外，$420億10年期公債標售的得標殖利率為4.683%，略高於標售前市場水準。週四標售$250億30年期公債前，財政供給、期限溢價及長期通膨補償因而持續壓迫長天期券種。\n\n近期升息風險下降，帶動股市上漲、波動率回落，美元則回升，黃金也走高。企業仍能以高成本取得融資，Jane Street籌得$146億；但Air Baltic與The Knot的個別借款人壓力依然嚴重。新興市場債也呈現分化：能源生產商受惠於供給缺口，曝險於財政、發債供給及能源進口壓力的主權市場則持續承壓。",
+        "summary": "7月CPI降低聯準會9月升息的迫切性，帶動2年與5年期殖利率下降；但10年期標售需求略弱、財政供給龐大，加上荷莫茲海峽航運持續受阻，使10年與30年期殖利率反而上升，殖利率曲線進一步陡峭化。"
       },
       "section_summaries": [
         {
-          "section_title": "CPI讓Fed多些等待空間，長債卻未受惠",
-          "summary": "CPI讓Fed可再等待，長期借款成本卻未明顯下降。大額信用發行順利，昂貴重整也同時出現。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "近期政策風險下降，並未轉化為較低的長期實質融資成本，因投資人仍要求長天期風險補償。",
+          "next_check": "",
+          "section_title": "固定收益開篇主論",
+          "summary": "7月CPI讓聯準會有更多等待空間，但美債風險只是重新分配，並未消失。9月升息機率下降，帶動短端殖利率走低；10年期標售需求略弱，加上財政供給與能源風險未解，使長天期風險補償維持高檔，10年與30年期殖利率反而上升。實質殖利率及損益兩平通膨率微升，殖利率曲線明顯陡峭化。"
         },
         {
-          "section_title": "通膨放緩之下，租金與科技產品仍有漲價壓力",
-          "summary": "能源與居住成本壓低CPI，租金及科技產品仍漲。交易活躍、標售小幅讓利，長端近月跌勢大多尚未收復。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "通膨仍高於目標，後續能源成本又尚未反映於數據，因此這份報告支持聯準會保持耐心，而非轉向寬鬆。",
+          "next_check": "",
+          "section_title": "CPI降低立即升息壓力",
+          "summary": "7月整體CPI年增率降至3.4%，核心通膨降至2.5%，削弱9月立即升息的理由。能源與居住成本趨緩壓低數據，但核心商品價格反彈、服務價格並未普遍下降，實質時薪也依然疲弱。因此2年期殖利率跌幅不到2個基點，交易員仍完全反映年底前升息一次。"
         },
         {
-          "section_title": "Jane Street籌得$146億，弱體質企業付出更高展期代價",
-          "summary": "Jane Street以高票息完成巨額發行，QTS行銷新增供給，上海電氣重開渠道；The Knot與波羅的海航空要求債權人承擔更多成本。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "即使國內物價數據趨緩，對能源進口的依賴仍使匯率、通膨及長天期債券壓力持續存在。",
+          "next_check": "挪威央行的政策指引將顯示，週四預期中的暫停升息只是延後下一次行動，還是利率路徑已經改變。",
+          "section_title": "油價風險持續壓迫全球殖利率曲線",
+          "summary": "國際能源總署估計本季每日短缺180萬桶，荷莫茲海峽通航仍受阻，因此原油單日下跌僅帶來有限緩解。能源進口風險、晶片帶動的較強成長及壽險需求疲弱同時作用，使南韓30年期公債殖利率升至歷史新高4.67%。日圓疲弱使日本的進口成本問題延續；挪威核心通膨放緩，則讓央行有空間把利率維持在4.25%。"
         },
         {
-          "section_title": "韓國長債殖利率創高，日本仍在權衡升息速度",
-          "summary": "韓國壽險需求弱，長債殖利率創高；日本政策分歧與全球能源缺口擴大，使債市難以同步舒緩。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "初級市場仍然暢通，但能否取得融資，高度取決於擔保品、獲利能力、國家支持及個別借款人的信用素質。",
+          "next_check": "Air Baltic的8月17日債權人會議及The Knot貸款的投資人參與程度，將檢驗兩項再融資計畫能否穩定資金情勢。",
+          "section_title": "初級市場承接能力與特定借款人壓力並存",
+          "summary": "Jane Street發行$146億擔保債務，其中2036年期券種殖利率為8.088%，顯示市場仍能大規模資助獲利良好的借款人，但成本高昂。QTS潛在發債增加AI基礎設施供給；Air Baltic重整與The Knot代價高昂的貸款展期，則反映嚴重的個別發行人壓力。上海電氣以1.8%發行綠色債券，標誌中國離岸人民幣市場選擇性重啟。"
         },
         {
-          "section_title": "印尼重新吸引買盤，巴西選舉疑慮侵蝕高息吸引力",
-          "summary": "印尼政策回穩帶動標售與外資改善；巴西選舉考驗高息吸引力，部分新興企業則受惠油價與重整。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "能源衝擊有利出口國與生產商，卻加重新興市場能源進口借款人的通膨、匯率及融資壓力。",
+          "next_check": "印尼預算必須在GDP 1.8%至2.4%的赤字區間內，提出符合既有淨發債承諾的融資計畫。",
+          "section_title": "新興市場債區分能源受惠者與財政風險",
+          "summary": "新興市場公司債的強勢集中於能源生產商及重整取得進展的企業，並非全面上漲。標售需求與外資流入改善，帶動印尼10年期殖利率回落約27個基點，但週五預算仍須證明財政紀律可信。巴西大選重新引發長天期債券與匯率疑慮；菲律賓計畫2027年增借20%，則可能推高主權及企業融資成本。"
         },
         {
-          "section_title": "科技股領漲，黃金仍有避險買盤",
-          "summary": "科技股領漲、VIX下跌。美元走強仍未阻止黃金上漲，油價近一週漲幅也依然可觀。",
           "market_read": "",
-          "next_check": ""
-        },
-        {
-          "section_title": "PPI與長債標售接續檢驗CPI後的行情",
-          "summary": "PPI補充核心PCE線索，30年期標售檢驗長端需求；能源能否持續舒緩，仍須看荷莫茲實際通行。",
-          "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "後市意義與觀察重點",
+          "summary": "7月生產者物價將檢驗CPI緩解是否延伸至服務及PCE相關項目；$250億30年期公債標售則將測試，在融資利率接近25年高點之際，市場承接長天期債券的意願。能源威脅要真正緩解，仍須看到荷莫茲海峽商業航運恢復。挪威央行指引、印尼預算，以及借款人的表決或融資條款，都是後續重要的政策、主權與信用考驗。"
         }
       ],
       "watch_events": [
         {
-          "title": "PPI細項與後續傑克森洞發言",
-          "date": "8月13日；8月稍晚",
           "category": "美國通膨",
-          "watch_line": "PPI共識為月增0.2%，前值月減0.3%；另有月增0.1%的預測。",
-          "market_trigger": "納入核心PCE的服務與貿易利潤，以及Warsh後續解讀。",
-          "market_implication": "溫和組合支持等待；普遍走強可能恢復9月升息敏感度。"
+          "date": "8月13日，美東時間08:30",
+          "market_implication": "若漲勢廣泛，9月升息風險將再度升高；若數據溫和，則會強化聯準會暫停升息的理由。",
+          "market_trigger": "漲勢是否擴及能源及波動較大的類別以外，或服務與貿易利潤率維持溫和。",
+          "title": "7月生產者物價",
+          "watch_line": "除整體數據外，也要觀察服務、貿易服務利潤率及會納入PCE的分項。"
         },
         {
-          "title": "$250億30年期美債標售",
+          "category": "美國公債供給",
           "date": "8月13日",
-          "category": "美債供給",
-          "watch_line": "CPI後長端殖利率仍為5.24%；須將得標結果與該券自己的發行前水準比較。",
-          "market_trigger": "投資人配售、是否高於發行前利率得標，以及後續交易。",
-          "market_implication": "廣泛需求可支持長債；交易商承接增加或曲線轉陡則顯示阻力仍在。"
+          "market_implication": "需求疲弱將使殖利率曲線進一步陡峭化並推升期限溢價；標售穩健則可能抑制這項走勢。",
+          "market_trigger": "需求疲弱或讓利幅度高於10年期標售；相反情境是市場穩健承接。",
+          "title": "美國30年期公債標售",
+          "watch_line": "關注$250億長債標售的得標結果、買方分布及標售後交易。"
         },
         {
-          "title": "荷莫茲實際通行",
-          "date": "持續觀察至年底",
-          "category": "能源",
-          "watch_line": "IEA估本季每日供應缺口180萬桶，超過前次預測兩倍。",
-          "market_trigger": "持續通航、各方接受條件，以及運費與保險成本下降。",
-          "market_implication": "重啟有助改善供應；持續關閉則可能抵銷7月能源降價帶來的舒緩。"
+          "category": "能源與通膨",
+          "date": "持續觀察",
+          "market_implication": "供給恢復將緩解通膨壓力；若干擾持續，原油跌勢可能逆轉，並推升損益兩平通膨率。",
+          "market_trigger": "商業航運恢復，或封鎖持續、攻擊再起，使每日180萬桶的供給缺口延續。",
+          "title": "荷莫茲海峽供給中斷",
+          "watch_line": "關注各方接受的通航條件、具商業意義的船舶流量，以及運費與保險成本下降。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "# Softer inflation helps short Treasuries, but leaves the long bond unmoved\n\n## CPI buys the Fed time, not a cheaper long-term borrowing rate\n\nJuly's inflation report gave the Fed more room to wait, but delivered little relief to long-term borrowers. Two-year Treasury yields fell 2 basis points to 4.20% and ten-year yields declined 2 to 4.68%, while the 30-year stayed at 5.24%. September hike odds slipped to roughly 40% from about 50%; an increase remained fully priced by year-end.\n\nHeadline CPI rose 0.1% on the month and 3.4% over a year, down from 3.5%. Core prices increased 0.2% monthly and 2.5% annually, with the annual pace easing from 2.6%. All four readings matched expectations. Cheaper energy and subdued shelter costs helped, although rents continued rising and the data-center boom was pushing up some computer-related prices. At ten years, real yields and breakevens each fell just 1 basis point, to 2.42% and 2.26%.\n\nThe $42 billion ten-year auction cleared at 4.683%, the highest yield since 2007 and marginally above the pre-auction level. Buyers absorbed the supply without a disorderly move, but did not chase duration after favorable inflation data. The unchanged long bond left 2s30s 2 basis points steeper at 104; over a month, 30-year yields are still up 18 basis points against a 1-basis-point decline at two years.\n\nStocks welcomed the prospect of Fed patience, led by technology. Credit markets also remained open: Jane Street placed $14.6 billion of secured bonds, with its longest maturity yielding 8.088%. Access was far less forgiving for The Knot and Air Baltic, whose refinancing plans required higher interest costs or deep creditor losses. CPI eased one source of pressure, while the price of long-term funding and the terms available to weaker borrowers remained demanding.\n\n## Beneath the CPI slowdown, rents and technology prices diverge\n\nThe July headline increase followed a 0.4% decline in June. Core inflation picked up from a flat monthly reading to 0.2%, yet its annual rate matched the slowest pace since March 2021. Energy prices fell 1.5%. Shelter increased only 0.1% and accounted for roughly two-thirds of the headline monthly gain, helped by lower hotel and motel prices; both principal rent measures still rose 0.3%.\n\nServices excluding energy and rents increased 0.2% after declining in June, with medical care and airfares among the gains. Goods excluding food and energy rebounded after two monthly declines. Computer software and accessories cost a record 21.2% more than a year earlier, while other computer-related categories recorded their strongest increases in more than four years amid memory-chip shortages and data-center construction. These were pockets of strength within a slower aggregate, rather than evidence of uniformly weak pricing.\n\nHouseholds were not enjoying stronger purchasing power. Real average hourly earnings fell 0.2% from a year earlier, extending weak readings since the Iran conflict began. Together with softer hiring, that gives the Fed a reason to avoid rushing another increase even with headline inflation above 2%. Persistent rents and three dissents at the July meeting nevertheless leave later tightening in play. The market delayed some September risk rather than taking the year-end increase out of prices.\n\nFive-year yields eased 1 basis point to 4.38%. The two-year returned close to its August 7 post-payroll level, while five- and ten-year yields remained above theirs. At ten years, the equal declines in real yields and breakevens differed from Tuesday's entirely breakeven-led rally. Over a month, real yields are still 10 basis points higher and breakevens 2 higher. Most of the accumulated rise in borrowing costs therefore remains after CPI.\n\nThe 2s10s curve held at 48 basis points as both yields declined equally. Its monthly steepening of 13 basis points, and the 19-basis-point widening in 2s30s, show how much less relief has reached longer maturities. Ten-year yields remain 12 basis points higher over that period. Deficits, supply and uncertainty about the buyer base did not disappear with one inflation release.\n\nTrading was substantial despite the small closing changes. Nominal-coupon turnover rose 19.7% to $946.1 billion in original-face value. Activity increased 33.4% in maturities of two years or less and 30.9% in seven- to ten-year debt, concentrating the increase around CPI-sensitive notes and the auction sector. The ten-year sale's slight concession was therefore tested in an active market. Thursday's longer auction still has to find its own buyers; the benchmark sale does not settle demand for the much larger duration exposure of a 30-year bond.\n\n## Jane Street raises $14.6 billion as weaker borrowers pay for time\n\nLQD rose 0.12%, HYG 0.13% and JNK 0.17% as Treasuries gained and risk appetite strengthened. Individual transactions gave a more detailed picture of financing conditions, from exceptional secured issuance to restructuring losses.\n\nJane Street sold $14.6 billion of senior-secured notes, comprising $5.86 billion due in 2031, $5.13 billion in 2033 and $3.64 billion in 2036. The longest tranche yielded 8.088%. Proceeds will refinance floating-rate loans as part of an $11 billion debt overhaul and support technology infrastructure and new trading strategies. Record prior-year trading revenue of $39.6 billion helped support the deal, but investors still required an 8% yield for the longest exposure.\n\nRatings reflect the unusual combination of profitability and limited balance-sheet transparency. S&P rated the bonds BB, two notches below investment grade; Fitch's issuer rating is BBB-, the lowest investment-grade tier. Secured status and earnings power supported the scale. The cost shows that refinancing and technology spending can obtain substantial capital without obtaining cheap capital.\n\nQTS subsidiaries began investor calls for a potential offering of about $2.85 billion, possibly larger, expected to carry an investment-grade rating. The financing concerns a Blackstone-backed Georgia development leased to Microsoft. It follows discussion of a $5.4 billion bond-and-loan package and July's $3.25 billion leveraged loan backed by Project Magnolia. The latest step is marketing, not a completed sale, as project and asset-backed channels continue to add data-center supply.\n\nShanghai Electric reopened a more tightly controlled funding route. The city-backed equipment maker priced CNY1.5 billion of three-year green notes in the Shanghai free-trade zone at 1.8%, down from initial discussion around 2.4%. It was the first nonfinancial company to price there since authorities curtailed local-government borrowing in late 2023, and the issuer's first offshore sale since 2020. A Hong Kong subsidiary guarantee, keepwell deed and A3 rating supported demand. The reopening favored a supported, higher-quality borrower rather than reversing the restrictions on local leverage.\n\nThe Knot sought much more expensive maturity relief. It launched a $670 million loan to extend an existing $660 million facility by 2.5 years, hours before Moody's cut it two notches to Caa1. The proposed spread is 525 basis points, up from 375, with another 100 basis points if leverage reaches at least four times EBITDA. That increment may be paid in kind. The existing loan had fallen to about 70 cents from roughly 99 late last year.\n\nRevenue fell 2% in 2025 and is expected to decline again in 2026; margins remain in the low-20% range as AI-generated search reduces traffic and vendor engagement. S&P retained a B rating but warned that leverage above seven times earnings could bring a downgrade. Extending maturities gives the business time, while the PIK option preserves cash at the cost of adding debt when leverage is already high.\n\nAir Baltic's secured creditors faced a much deeper impairment. Its €380 million note due in 2029 traded as low as 12 cents on the euro, down from about 35 before the restructuring announcement, although thin trading also produced quotes in the low 20s. The airline plans to exchange much of the note for equity, leave holders with €125 million of debt and raise €225 million of interim financing while reducing fleet size and costs. Its debt-service reserve contained only €3 million in June. Latvia's ownership of 88.4% of the equity and 13% of the bonds has not insulated creditors from losses.\n\nThese are different uses of the capital markets, not variations on one broad credit move. Jane Street refinances and expands at a high coupon; QTS tests another infrastructure financing; Shanghai Electric accesses a regulated offshore-yuan channel. The Knot and Air Baltic instead seek time and balance-sheet relief, with existing creditors bearing more of the cost.\n\n## Korean long yields hit a record as Japan debates the pace of tightening\n\nKorea's 30-year government-bond yield reached 4.67%, its highest since the maturity was introduced in 2012. Imported energy costs and warnings that semiconductor-led growth could require more tightening had already pressured the curve. Weak demand from life insurers added a distinct problem at the long end. Officials may reduce ultra-long issuance to below 30% of next year's program, but that prospective supply adjustment has not prevented a record clearing yield today.\n\nJapan's policy debate continued to complicate yen support. US Treasury Secretary Scott Bessent has repeatedly argued that tighter Bank of Japan policy is central to currency stabilization, while Prime Minister Sanae Takaichi has resisted moving so quickly that growth suffers. The BOJ has raised rates twice since she took office, but its rate remains 1%; it also held steady on the day of joint US-Japan intervention. The yen was again approaching 160 per dollar.\n\nMarkets expect a possible September or October increase. Takaichi's popularity has weakened as living costs become more prominent, BOJ officials have highlighted upside inflation risks and cabinet members continue to endorse the bank's independence. Bessent is due to meet Governor Kazuo Ueda around the end of August. More consistent policy signals could reduce reliance on repeated intervention. Continued disagreement would leave Japan balancing higher domestic yields against further currency operations, with implications for the relative attraction of Treasuries but no proof of a particular reserve transaction.\n\nEnergy remains an external constraint for both markets. The IEA now estimates a global supply shortfall of 1.8 million barrels a day this quarter, more than twice its previous projection, without a durable Hormuz agreement. European power prices face cooling demand from heat and reduced French nuclear generation. Internal UK Treasury modeling put 2026 growth at 0.9% in a worst-case scenario with Hormuz effectively closed through year-end, below March's 1.1% forecast. That is a conditional scenario, not a new realized growth reading.\n\nHigher home-market yields can give foreign institutions alternatives to dollar duration even when US inflation improves. Korea's record long yield is a current price signal; Japan's next rate decision and intervention needs remain uncertain. Together with the enlarged energy deficit, they help explain why a favorable US release need not bring a synchronized global bond rally.\n\n## Indonesia regains buyers; Brazil's election raises the cost of carry\n\nThe dollar reversed its initial CPI decline to finish 0.11% higher at 99.932. A developing-market currency gauge gave up an intraday gain of as much as 0.2% to end little changed in New York. EMB rose 0.12%, but long-duration EM dollar sovereign debt gained only 0.04%. Lower September hike odds helped hard-currency valuations without overwhelming local risks.\n\nThe rand gained nearly 0.3% with precious metals, while the real fell 0.3% and the won 0.4%. Brazil's currency has lost almost 2% in August as election concerns grow; Korea remains exposed to energy imports and rising local long yields. EM stocks advanced nonetheless, underscoring that currency weakness was not a uniform rejection of risk.\n\nIndonesia has begun to win buyers back after losing 8.5% this year for dollar-based bond investors, the worst performance in Asia. Earlier concerns over populist spending, central-bank independence and state intervention drove the rupiah to a record low. Destry Damayanti's nomination as Bank Indonesia governor has restored some policy continuity. Plans to scale back the free-meals program and maintain this year's net bond-issuance target, together with S&P's affirmation of the rating and outlook, have helped stabilize confidence.\n\nThe benchmark ten-year yield has fallen about 27 basis points from its highest level since 2022. The latest auction drew the strongest bid-to-target ratio since February, and foreign investors were heading for a third consecutive month of net inflows. The next budget still has to substantiate fiscal restraint, and the central bank must support the currency without compromising its mandate. But the improvement now includes both auction demand and returning foreign capital, not just an official assurance.\n\nBrazil's high carry is facing a different test. The real remains about 6% stronger this year, supported by exceptionally high real rates, yet election hedging is light and weekly Treasury auctions have seen weaker demand as local yields rise. Inflation-linked government real yields have climbed above 8%. That attracts investors while making financing expensive for the sovereign, and leaves the currency vulnerable to greater demand for protection before October's presidential election.\n\nPolls strengthening President Luiz Inacio Lula da Silva's lead revived doubts about whether the next government would deliver a primary surplus sufficient to stabilize debt. Some local managers expect lower short rates but higher long rates, separating room for monetary relief from fiscal concerns. August's currency decline and weak auctions show those concerns entering prices before the election result is known.\n\nEM companies have performed differently from the more vulnerable sovereigns. A broad dollar corporate index's yield fell 19 basis points in August, against just 2 for US corporates, bringing relative borrowing costs to their lowest since January. Oil producers benefiting from the Hormuz closure and distressed issuers making restructuring progress led the move. China Vanke's 2027 bond returned 30% from end-June after a rating upgrade; Gran Tierra Energy's 2031 note gained 18%. Commodity exposure and company-specific recovery explain more here than a common EM rally.\n\n## Technology rallies while gold retains a protection bid\n\nThe S&P 500 gained 0.26%, Nasdaq 100 rose 0.74% and semiconductors advanced 2.49%. VIX fell 4.78% to 14.55. Equities treated CPI as room for the Fed to wait rather than as evidence of a sharper growth downturn, with AI enthusiasm keeping the gains concentrated in technology.\n\nWTI slipped 0.90% to $82.45 and Brent 0.66% to $88.32, but remained 9.61% and 11.16% higher over a week. Physical supply had not normalized. Gold rose 2.52% to $4,493.60 even with the firmer dollar and only a 1-basis-point fall in ten-year real yields. Demand for protection therefore persisted alongside risk appetite, rather than following a simple weaker-dollar trade.\n\nCredit funds and EMB posted modest gains, while EM currencies lost their initial lift. The contrast with Air Baltic's restructuring losses and The Knot's punitive refinancing terms makes the broader market's calm more useful as context than as a description of every borrower. CPI supported valuations, but did not erase energy exposure, funding needs or business deterioration.\n\n## Producer prices and the long-bond auction follow CPI\n\nJuly PPI arrives at 08:30 ET on August 13. Consensus calls for a 0.2% monthly increase after a 0.3% decline, with a 0.1% forecast also in circulation. The categories feeding core PCE, particularly services and trade margins, will show whether CPI's relief extends beyond lower energy and temporary category weakness. A subdued mix would support patience and the two- to five-year sector; broad strength could bring September sensitivity back. Kevin Warsh's Jackson Hole remarks later in August will then show how the chair interprets the accumulating evidence.\n\nThe same day's $25 billion 30-year auction faces a yield that stayed at 5.24% despite favorable CPI. Its own when-issued level, investor allocations and post-sale trading will be more informative than comparison with the ten-year auction's 4.683% yield. A contained result with broad nondealer demand would show that current yields can attract duration buyers. A tail, heavier dealer retention or renewed steepening would add to evidence that policy-sector relief has not lowered the long end's funding cost.\n\nHormuz remains unresolved. Sustained vessel passage, accepted terms and lower freight and insurance costs, together with crude below the August 12 closes, would challenge the IEA's enlarged shortfall estimate. Continued closure or new enforcement incidents would leave July CPI's 1.5% energy decline looking backward rather than signaling lasting relief. Whether renewed oil gains also lift breakevens and two-year yields will show how much of that physical disruption is reaching US policy pricing.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries split sharply along the curve on Aug. 12 after July inflation gave the Federal Reserve more room to wait but failed to reduce the compensation investors demanded for fiscal supply and long-duration risk. The 2-year yield fell 1.4 basis points to 4.202% and the 5-year eased 0.7 basis point to 4.383%, while the 10-year rose 0.5 basis point to 4.695% and the 30-year increased 1.8 basis points to 5.26%. The opposing moves widened the 2s10s curve by 1.9 basis points to 49.3 basis points and 2s30s by 3.2 basis points to 105.8 basis points.\n\nThe consumer-price index rose 0.1% in July and 3.4% from a year earlier, matching consensus on both measures. Core prices increased 0.2% on the month and 2.5% over 12 months, also in line with expectations and down from a 2.6% annual pace in June. The absence of an upside surprise reduced the market-implied probability of a September rate increase to about 40% from roughly 50% before the release. That was enough to support policy-sensitive maturities, particularly after July payrolls had already shown weaker hiring, but not enough to produce a broad duration rally.\n\nThe inflation composition explained part of that restraint. Energy prices fell 1.5% and shelter increased only 0.1%, helping contain the headline result, while rents rose 0.3% and services excluding energy and housing advanced a modest 0.2%. Goods prices excluding food and energy rebounded after two monthly declines, with unusually large increases in computer-related categories. The report therefore showed continued disinflation rather than a clean end to price pressure, and it arrived while the Strait of Hormuz remained disrupted and oil prices were still more than 9% higher over one week.\n\nTreasury supply reinforced the divide between the policy sector and the long end. The government’s $42 billion 10-year auction stopped at 4.683%, the highest yield for the maturity at auction since 2007 and slightly above the prevailing level before the bidding deadline. The small concession indicated that demand fell modestly short of expectations even after yields had risen substantially. The 30-year sector then remained under pressure ahead of a $25 billion sale on Thursday that is expected to carry the highest financing rate for that maturity in about 25 years.\n\nThe completed close consequently looked less like an inflation-relief rally than a redistribution of risk along the curve. The 10-year real yield rose 0.4 basis point to 2.43%, and the 10-year breakeven increased 0.1 basis point to 2.265%. Those moves were too small to indicate a renewed inflation shock, but they showed that the decline in the 2-year yield did not extend into lower real financing costs farther out. Over one month, the 2-year yield was 0.7 basis point lower while the 10-year was 13.3 basis points higher and the 30-year had risen 19.9 basis points.\n\nRisk assets treated the CPI result as permission for the Fed to remain patient. The S&P 500 gained 0.26%, the Nasdaq 100 rose 0.74% and the Philadelphia Semiconductor Index advanced 2.49%. The VIX fell 4.78% to 14.55. Yet the dollar index recovered from its initial decline to finish 0.11% higher, and gold futures climbed 2.52% to $4,493.60. WTI fell 0.90% to $82.45 and Brent declined 0.66% to $88.32, but their weekly gains remained 9.61% and 11.16%, respectively. The combination allowed equities to respond to lower immediate tightening risk without removing demand for protection against geopolitical and longer-term inflation uncertainty.\n\n## CPI Reduces Immediate Tightening Pressure\n\nThe July CPI report supplied the Fed with a second month of evidence that underlying inflation was not reaccelerating. Core inflation’s 2.5% annual rate matched its slowest pace since March 2021 and eased from 2.6% in June. Headline inflation slowed from 3.5% to 3.4%, while the monthly increase followed a 0.4% decline in June. The data did not return inflation to the Fed’s 2% objective, but they weakened the argument that officials needed to respond immediately at their Sept. 15-16 meeting.\n\nShelter accounted for roughly two-thirds of the monthly headline increase despite rising only 0.1%. The two rent measures each increased 0.3%, while hotel and motel rates fell 3.3%, their largest decline in more than a year. Grocery prices declined for the first time since March, and energy and gasoline prices fell for a second month. Average gasoline prices had risen above $4 a gallon during July after the US-Iran ceasefire collapsed, but they remained lower across the full month than in June.\n\nThe softer energy contribution is backward-looking relative to the latest disruption in crude markets. It helped July CPI but does not establish how much of August’s rise in oil, freight and insurance costs will reach consumers. The same distinction applies within core prices. Services excluding energy and rents rose 0.2% after falling the previous month, with medical care and airfares among the categories that increased. That was restrained enough to support patience, but it did not show a generalized fall in service prices.\n\nCore goods moved in the other direction. Prices excluding food and energy commodities rebounded after two months of declines. Computer software and accessories were 21.2% more expensive than a year earlier, and prices for computers, peripherals and smart-home assistants posted their largest increase in more than four years. A shortage of memory chips amid the expansion of data-center construction has been contributing to increases announced for consumer technology products. The exceptional software reading is too narrow to define the full inflation trend, but it illustrates how the AI investment boom can create price pressure even as housing and energy moderated.\n\nHousehold purchasing power remained weak. Real average hourly earnings declined 0.2% in July from a year earlier, extending a run of soft readings since the Iran war began. That limits the risk of a conventional wage-price spiral and supports the argument for waiting, but it also means the inflation slowdown has not yet translated into broad real-income improvement.\n\nThe rates reaction reflected those qualifications. The 2-year yield finished less than 2 basis points lower rather than sustaining a large rally, and traders continued to price a rate increase fully by year-end. July CPI reduced the urgency of a September move; it did not remove the possibility that further inflation or labor reports could restore it. Additional employment and price data will arrive before the meeting, while Chair Kevin Warsh’s expected Jackson Hole remarks later in August will be an opportunity to clarify how much cumulative evidence the Fed requires.\n\nMarket activity was heavy around the release and auction. FINRA recorded $1.183 trillion of Treasury par turnover, 14.8% more than on Tuesday, across 385,022 trades. Nominal-coupon activity rose 19.7% to $946.1 billion. Turnover in maturities of 2 years or less increased 33.4%, while activity in securities longer than 7 years through 10 years rose 30.9%. Those figures describe two-way trading rather than investor direction, but they show that the modest closing changes followed substantial adjustment in both the policy-sensitive and auction sectors.\n\nThe 10-year sale then placed a limit on the rally. Its 4.683% yield was only slightly above the pre-auction market level, so the result was not a severe rejection of the debt. It nevertheless required the highest auction yield since the global financial crisis. Large deficits, inflation still above target, solid economic activity and the Iran conflict continued to make it difficult for long yields to follow the front end lower.\n\nThe 30-year yield’s rise to 5.26% made that distinction clearer. The long bond has less direct exposure to the next Fed decision and greater sensitivity to fiscal borrowing, term premium and the amount of duration private investors must absorb. July CPI changed the near-term reaction function by showing no fresh acceleration. It did not change the government’s financing requirement or establish that inflation will remain contained once higher energy costs enter later data.\n\n## Oil Risk Keeps Global Curves Under Pressure\n\nThe decline in crude on Wednesday offered only limited relief because the physical supply picture continued to deteriorate. The International Energy Agency estimated that the world faces a shortfall of 1.8 million barrels a day during the current quarter, more than twice its earlier projection. Hostilities had eased, but the US and Iran had not reached durable terms for restoring ordinary traffic through the Strait of Hormuz.\n\nPresident Donald Trump said the US had total control of the waterway and expected to maintain it, while Iran hardened its posture and reorganized its military around what an adviser to the Islamic Revolutionary Guard Corps described as a more offensive doctrine. Negotiations remained at a stalemate. The competing claims did not establish that commercial vessels could pass routinely, that insurers regarded the route as usable or that the supply gap would close.\n\nThat unresolved disruption helps explain why the CPI result produced only a small move in inflation compensation. July’s 1.5% fall in energy prices captured an earlier period, while WTI and Brent remained 15.46% and 16.20% higher over one month at Wednesday’s close. A one-day decline in crude reduced immediate pressure but did not reverse the change in the energy cost base facing importing economies.\n\nSouth Korea showed the most visible sovereign-bond consequence. Its 30-year government-bond yield rose to a record 4.67%, the highest since the maturity was introduced in 2012. Higher imported-energy costs combined with weak demand from life insurers, traditionally important buyers of ultra-long debt. A senior Bank of Korea official also said further rate increases would probably be needed if semiconductor-led growth continued to feed underlying inflation.\n\nThe record yield therefore reflected both policy and market-structure pressure. Strong technology exports have supported growth and increased the risk that demand remains firm enough to sustain prices, while life insurers have been reluctant to absorb long bonds. Local analysts said demand could improve if the government reduces the ultra-long share of next year’s issuance below 30%, but no such change has yet been announced. The current market must still clear duration while energy exposure and the BOK’s tightening bias remain active.\n\nThe Korean won fell 0.4% against the dollar even as the country’s equity benchmark gained 3.7% on enthusiasm about semiconductor companies. That divergence reinforced the distinction between an AI-driven equity rally and the inflation and funding risks priced by local bonds. Strong chip-sector expectations supported stocks while simultaneously contributing to the central bank’s concern that growth could sustain underlying inflation.\n\nJapan faced a related but more familiar constraint. The yen ended Wednesday about 0.1% weaker near 159.38 per dollar after surrendering much of the gain produced by the late-July US-Japan intervention. The Bank of Japan’s 1% policy rate remains low relative to other major markets, and Prime Minister Sanae Takaichi has resisted tightening rapidly enough to endanger growth. Treasury Secretary Scott Bessent, by contrast, has emphasized the role of tighter Japanese policy in supporting the currency.\n\nExpectations of a BOJ increase in September or October have grown, but intervention has not eliminated the underlying rate and energy disadvantages. A weaker yen raises import costs for an economy dependent on overseas energy, while higher oil prices increase the demand for dollars. Renewed currency purchases could again move the exchange rate sharply, but their durability still depends on monetary policy and the cost of Japan’s imports rather than the scale of the transaction alone.\n\nNorway presents the reverse near-term configuration: softer domestic inflation is allowing policymakers to wait despite the global energy shock. All 16 economists surveyed expect Norges Bank to keep its policy rate at 4.25% on Thursday for a second meeting. Core inflation has held at 2.7% for two months, its lowest in about a year and a half, and July’s easing was broader than June’s promotion-related decline.\n\nOvernight markets price only 2 basis points of tightening for Thursday and 14 basis points by September, down from 9 and 23 basis points at the start of August. Wage growth remains high and the labor market has changed little, so officials can preserve the possibility of another increase. The immediate decision nevertheless tests whether better underlying inflation can outweigh energy uncertainty long enough for the bank to wait for its September forecasts.\n\n## Primary-Market Capacity Meets Borrower-Specific Stress\n\nCorporate funding markets remained open at a high absolute cost, with Jane Street completing one of the day’s largest transactions. The market maker sold $14.6 billion of senior-secured notes in three maturities: $5.86 billion due in 2031, $5.13 billion due in 2033 and $3.64 billion due in 2036. The longest tranche priced to yield 8.088%.\n\nThe fixed-rate sale will help repay floating-rate loans and overhaul an existing debt burden of about $11 billion. Proceeds may also support technology infrastructure and an expansion of trading strategies. Jane Street generated a record $39.6 billion of trading revenue last year, giving creditors substantial earnings capacity, but its privately held status and market-sensitive business produced an unusual split in ratings. S&P assigned the new debt a BB rating, two notches below investment grade, while Fitch’s issuer rating is BBB-, the lowest investment-grade level.\n\nThat disagreement did not prevent Jane Street from raising considerably more than the debt it intends to refinance. The deal demonstrated that investors would fund a profitable financial firm at scale when offered an 8% yield and secured status. It also showed how expensive the current long-rate environment remains even for a borrower with record revenue and a strong trading franchise.\n\nData-center financing supplied another prospective block of issuance. Subsidiaries of QualityTech began investor calls before a potential bond offering of about $2.85 billion that could increase in size and is expected to receive investment-grade ratings. Citigroup, Goldman Sachs, JPMorgan and Morgan Stanley were coordinating calls on Wednesday and Thursday.\n\nThe transaction follows discussions about a possible $5.4 billion bond-and-loan package for a Blackstone-backed QTS data-center development in Georgia leased to Microsoft. QTS also raised a $3.25 billion leveraged loan in July against a portfolio of facilities. The sequence shows that AI infrastructure continues to move from broad capital commitments into specific secured and project-linked borrowing, adding supply even as Treasury yields remain elevated.\n\nThat access contrasted with acute deterioration at Air Baltic. Its €380 million senior-secured note due in August 2029 traded as low as 12 cents on the euro after the Latvian airline proposed converting much of its debt into equity. The bond had been around 35 cents before the restructuring plan was announced on Tuesday, though the thinly traded issue was also quoted in the low 20s.\n\nAir Baltic plans to cut costs, operate a smaller fleet and raise €225 million of interim financing for near-term liquidity. Bondholders would receive €125 million of debt after part of the existing note is converted into equity. The airline is scheduled to pay interest on Friday, but its dedicated bond-service reserve held only €3 million as of June. Other corporate cash can also be used for the payment.\n\nThe next contractual step is a bondholder meeting on Aug. 17, postponed from Aug. 3. Investors are being asked to consider, among other changes, allowing the company to add the interest payment to principal rather than pay it in cash. The Latvian state owns 88.4% of the airline and 13% of its bonds, while Lufthansa has a 10% equity stake. Those holdings do not settle how losses will be distributed between creditors and shareholders.\n\nThe Knot Worldwide presented a different form of refinancing stress. The wedding-planning company launched a $670 million loan offering to amend and extend its existing $660 million facility by 2½ years. Hours later, Moody’s downgraded the company by two notches to Caa1, citing a material weakening in revenue and earnings over the past 18 months.\n\nThe business has been hurt by changing search-engine traffic, AI-generated answers and weaker user engagement, which reduce the value of its marketplace to florists, photographers and other wedding vendors. Moody’s expects revenue to decline again in 2026 after falling 2% in 2025, with earnings margins remaining in the low-20% range. Elevated vendor churn adds another risk to the attempted recovery.\n\nThe extension carries a margin of 5.25 percentage points over the benchmark rate, up from 3.75 points on the existing loan. Another 1 percentage point of interest applies if debt reaches at least 4 times earnings before interest, tax, depreciation and amortization, and that increment can be added to principal rather than paid in cash. The old loan had fallen to about 70 cents from roughly 99 cents late last year.\n\nS&P maintained a B rating and expects revenue to recover next year, a less severe assessment than Moody’s. It nevertheless warned that the rating could fall if debt remains above 7 times earnings, including because of further losses in vendor retention, spending that fails to produce revenue or debt-financed acquisitions and distributions. The contrast between the agencies leaves the refinancing dependent not only on extending maturity but on whether the company can restore the traffic and customer engagement underlying its cash flow.\n\nChina’s offshore yuan market offered a more constructive reopening. Shanghai Electric sold 1.5 billion yuan of 3-year green notes through the Shanghai free-trade zone at a 1.8% yield, compared with initial price discussion around 2.4%. It was the first pricing by a nonfinancial company in the market since authorities restricted excessive local-government borrowing in late 2023.\n\nThe company used an overseas subsidiary to comply with the revised rules. Its Hong Kong subsidiary will guarantee the bonds, with additional support from a keepwell deed from Shanghai Electric, which Moody’s upgraded to A3 in June. Pearl-bond issuance before this deal had already risen more than fivefold from the comparable 2025 period to $512 million, though the total remains small beside China’s roughly $19 billion offshore yuan market.\n\nThe reopening illustrates Beijing’s balance between expanding yuan funding channels and preventing another buildup of weak local-government debt. Banks and securities firms had resumed pearl-bond issuance last year, but extending the market again to a nonfinancial issuer is a broader step. The large tightening from initial price talk suggested strong demand for a highly rated, state-backed name under the new restrictions rather than an indiscriminate return to the pre-crackdown market.\n\n## Emerging Debt Separates Energy Winners From Fiscal Risk\n\nEmerging-market corporate bonds continued to benefit from a search for yield and the uneven effects of the Hormuz closure. The yield on the Bloomberg EM US-dollar corporate index declined 19 basis points during August, compared with only 2 basis points for US corporate securities. That left the yield premium on EM companies relative to US peers at its smallest since Jan. 26.\n\nEnergy producers helping to fill the supply gap were among the leading credits, alongside distressed borrowers making progress on restructurings. China Vanke’s 2027 bond returned 30% from the end of June after Fitch upgraded the company following its restructuring, while Gran Tierra Energy’s 2031 note gained 18%. The performance was concentrated rather than a generic signal that every oil-sensitive emerging economy had improved: exporters and producers gained cash flow, while energy importers continued to face pressure on inflation, currencies and sovereign yields.\n\nIndonesia’s local market showed signs that a period of concentrated selling may be easing. Its benchmark 10-year yield has fallen about 27 basis points after reaching the highest level since 2022. The most recent government auction produced the strongest bid-to-target ratio since February, and foreign funds were on course for a third consecutive month of net inflows.\n\nThe recovery followed the nomination of Destry Damayanti as the sole candidate to lead Bank Indonesia after the previous governor’s abrupt resignation. Investors viewed her appointment as evidence of policy continuity after concerns about central-bank independence, President Prabowo Subianto’s spending program and greater state involvement in the economy had pushed the rupiah to a record low and prompted aggressive rate increases.\n\nFiscal risk has not disappeared. Indonesia’s bonds remain the worst-performing in Asia this year for dollar-based investors, with an 8.5% loss. The government has promised to retain its net bond-issuance target and scale back its free-meals program, while S&P affirmed the sovereign rating and outlook. Friday’s budget speech will provide the next test: Prabowo previously indicated a 2027 deficit of 1.8% to 2.4% of GDP, compared with a 2.9% target for the current year.\n\nBrazil moved in the opposite direction as its October presidential election began to affect local assets. The real fell 0.3% on Wednesday and had lost almost 2% in August, although it remained about 6% stronger for the year. Some global investors reduced currency and local-debt exposure as polls continued to show President Luiz Inácio Lula da Silva ahead, reviving concern about whether the next government would deliver enough fiscal adjustment to stabilize debt.\n\nStress was already visible in higher local yields and weaker demand at weekly Treasury auctions. Adam Capital said real yields on inflation-linked government bonds had risen above 8%, while Ibiuna positioned for lower short-term rates and higher long-term yields, reflecting concern that fiscal risk would keep duration expensive even if monetary policy eases. State Street found that hedging of the real remained low relative to previous election cycles, leaving more scope for abrupt demand for protection as the vote approaches.\n\nThe Philippines faces a more mechanical supply challenge. Its plan to borrow 3.3 trillion pesos in 2027, 20% more than this year, includes about 1.6 trillion pesos for refinancing maturing debt. The 5-year government yield was already 7% on Tuesday, up from 5.88% a year earlier. Larger government issuance and recent central-bank increases risk raising financing costs for companies as well as the sovereign.\n\nDebt stands near 66% of GDP, while Fitch has moved the rating outlook to negative and S&P has lowered its outlook to stable from positive. The government plans higher taxes on soft drinks, e-cigarettes and alcohol to help fund stimulus, but the increase in gross borrowing will still compete with private demand for capital. Unlike Indonesia’s improving auction signal, the Philippine plan adds prospective supply to a market already coping with weaker growth and imported-energy pressure.\n\n## Forward Market Significance\n\nThe next US inflation test is July producer prices at 08:30 ET on Aug. 13. Consensus calls for a 0.2% monthly increase after a 0.3% decline, with another forecast at 0.1%. Categories feeding the personal-consumption-expenditures price index will be important because core PCE has generally run faster than core CPI this year. A restrained services and trade-margin composition would reinforce the case for leaving rates unchanged in September; broader strength would show that CPI’s relief was partly confined to energy and a few volatile categories.\n\nTreasury’s $25 billion 30-year auction on Thursday is the more immediate market-structure test. The 30-year yield closed at 5.26%, up 1.8 basis points despite the benign CPI result, after the 10-year sale required a 4.683% yield and a small concession to the pre-auction market. The long-bond result, buyer distribution and subsequent trading will show whether yields near a quarter-century financing high are sufficient to absorb duration or whether fiscal and inflation compensation must rise further.\n\nThe distinction between the two auctions matters. Wednesday’s 10-year sale occurred after CPI and still failed to extend the front-end rally into the intermediate sector. A firm 30-year result could contain the curve’s steepening without changing the Fed outlook. A weaker sale would reinforce the separation between reduced September tightening risk and the higher long-term cost of financing government deficits.\n\nHormuz remains the principal challenge to July’s energy relief. The IEA’s estimated 1.8 million-barrel-a-day shortfall requires evidence of restored physical supply, not another claim of control by either side. A durable improvement would include accepted passage terms, commercially meaningful vessel traffic and lower freight and insurance costs. Continued closure or renewed attacks would leave the latest decline in crude vulnerable to reversal and bring the energy channel back into both breakevens and central-bank deliberations.\n\nNorway’s decision on Thursday will show whether the broadening decline in core inflation is enough to extend the pause at 4.25%. The market prices little risk of an immediate increase, but September remains open because wage growth and employment are still firm. Guidance on whether officials continue to expect another move will determine whether the fall in projected tightening represents postponement or a more substantive change in the rate path.\n\nIndonesia’s budget speech on Friday is a separate sovereign test. The recent 27-basis-point decline in the 10-year yield, stronger auction demand and returning foreign inflows assume that the new central-bank leadership will preserve stability and that fiscal promises will be credible. A deficit target within the previously indicated 1.8%-to-2.4% range, accompanied by a financing plan consistent with the existing net-issuance pledge, would support that recovery. A wider target or heavier supply would revive the concerns that made Indonesia Asia’s weakest bond market this year.\n\nAir Baltic’s interest payment and Aug. 17 creditor meeting will determine whether its restructuring can move from an announced plan to a workable liquidity arrangement. Bondholders must weigh conversion into equity, retention of only €125 million of debt and the proposal to capitalize interest against the company’s €225 million interim-financing need. Trading as low as 12 cents indicates that recovery value, rather than ordinary refinancing cost, now dominates the credit.\n\nFor The Knot, the immediate question is whether the $670 million extension can clear at a 5.25-percentage-point margin after Moody’s two-notch downgrade. Extending maturity would address timing but not the decline in revenue, vendor engagement and earnings attributed partly to AI-driven changes in search. Final terms and investor participation will show whether lenders regard the additional spread and payment-in-kind flexibility as sufficient compensation for a business model still under pressure.\n",
     "section_summaries": [
       {
+        "market_read": "Lower near-term policy risk did not translate into cheaper long-term real financing as investors continued to demand duration compensation.",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "CPI buys the Fed time, not a cheaper long-term borrowing rate",
-        "summary": "CPI gave the Fed time, but brought little relief to long borrowing costs. Strong credit issuance coexisted with costly restructurings.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "July CPI gave the Fed more room to wait, but it redistributed rather than removed Treasury risk. Front-end yields declined as September tightening odds fell, while the 10- and 30-year yields rose as a modestly soft 10-year auction, fiscal supply and unresolved energy risk kept long-duration compensation elevated. Real yields and breakevens edged higher, leaving the curve substantially steeper."
       },
       {
+        "market_read": "The report supported patience rather than an easing turn because inflation remained above target and later energy costs were not yet visible.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Beneath the CPI slowdown, rents and technology prices diverge",
-        "summary": "Energy and shelter softened CPI while rents and technology prices rose. Active trading and a slightly concessional auction left most monthly long-end losses intact.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "CPI Reduces Immediate Tightening Pressure",
+        "summary": "July headline CPI slowed to 3.4% and core inflation to 2.5%, weakening the case for an immediate September increase. Softer energy and shelter restrained the report, but core goods rebounded, services did not fall broadly and real hourly earnings remained weak. The 2-year yield therefore fell less than 2 basis points, while traders still priced a rate increase fully by year-end."
       },
       {
+        "market_read": "Energy import dependence is keeping currency, inflation and long-duration pressure active even where domestic price data have softened.",
+        "next_check": "Norges Bank's guidance will show whether Thursday's expected pause merely postpones another increase or changes the rate path.",
         "section_id": "section-03",
-        "section_title": "Jane Street raises $14.6 billion as weaker borrowers pay for time",
-        "summary": "Jane Street sold exceptional size at a high coupon. QTS marketed more supply, Shanghai Electric reopened access, and The Knot and Air Baltic asked creditors to bear more cost.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Oil Risk Keeps Global Curves Under Pressure",
+        "summary": "A daily decline in crude offered limited relief as the IEA estimated a 1.8 million-barrel-a-day quarterly shortfall and Hormuz traffic remained disrupted. South Korea's 30-year yield reached a record 4.67% as imported-energy risk, stronger chip-led growth and weak insurer demand converged. Japan's weak yen preserved its import-cost problem, while softer core inflation gave Norges Bank room to wait at 4.25%."
       },
       {
+        "market_read": "Primary markets remained open, but access depended sharply on collateral, earnings capacity, state backing and borrower-specific credit quality.",
+        "next_check": "Air Baltic's Aug. 17 creditor meeting and The Knot's loan participation will test whether either refinancing plan can stabilize funding.",
         "section_id": "section-04",
-        "section_title": "Korean long yields hit a record as Japan debates the pace of tightening",
-        "summary": "Korea's long yield reached a record amid weak insurer demand. Japan's policy disagreement and a larger global energy deficit limited synchronized bond relief.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Primary-Market Capacity Meets Borrower-Specific Stress",
+        "summary": "Jane Street raised $14.6 billion of secured debt, including a 2036 tranche yielding 8.088%, showing that markets could fund a profitable borrower at scale but only at a high cost. Prospective QTS issuance added to AI-infrastructure supply, while Air Baltic's restructuring and The Knot's costly loan extension exposed acute issuer-specific stress. Shanghai Electric's 1.8% green note marked a selective reopening of China's offshore yuan market."
       },
       {
+        "market_read": "The energy shock benefits exporters and producers while increasing inflation, currency and financing pressure for import-dependent borrowers.",
+        "next_check": "Indonesia's budget must pair a 1.8%-to-2.4% deficit range with financing consistent with the existing net-issuance pledge.",
         "section_id": "section-05",
-        "section_title": "Indonesia regains buyers; Brazil's election raises the cost of carry",
-        "summary": "Indonesian policy stabilization brought stronger auctions and inflows. Brazilian election risk challenged high carry, while selected EM companies rallied on oil and restructuring.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Emerging Debt Separates Energy Winners From Fiscal Risk",
+        "summary": "Emerging corporate debt favored energy producers and restructuring gains rather than delivering a uniform rally. Indonesia's 10-year yield recovered about 27 basis points as auction demand and foreign inflows improved, but Friday's budget must validate fiscal restraint. Brazil's election revived duration and currency concerns, while the Philippines' planned 20% borrowing increase for 2027 threatened to raise sovereign and corporate funding costs."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Technology rallies while gold retains a protection bid",
-        "summary": "Technology led equities higher and VIX fell. Gold gained despite a firmer dollar, while oil remained sharply higher over a week.",
-        "market_read": "",
-        "next_check": ""
-      },
-      {
-        "section_id": "section-07",
-        "section_title": "Producer prices and the long-bond auction follow CPI",
-        "summary": "PPI will clarify core-PCE inputs, and the 30-year auction will test long demand. Hormuz traffic still determines whether energy relief can last.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Forward Market Significance",
+        "summary": "July producer prices will test whether CPI relief extends to services and PCE-related categories, while the $25 billion 30-year auction will test demand for duration near a quarter-century financing high. Evidence of restored commercial traffic through Hormuz is needed to ease the energy threat. Norway's guidance, Indonesia's budget and borrower votes or financing terms remain additional policy, sovereign and credit tests."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [
+      {
+        "actual": "2.5%",
+        "category": "Inflation",
+        "consensus": "2.5%",
+        "date": "2026-08-12",
+        "event_key": "core_cpi_yoy",
+        "forecast": "2.5%",
+        "id": "macro-released-3a30bcc73f93",
+        "period": "July 2026",
+        "previous": "2.6%",
+        "time": "08:30 ET",
+        "title": "Core Inflation Rate YoY"
+      },
+      {
+        "actual": "0.2%",
+        "category": "Inflation",
+        "consensus": "0.2%",
+        "date": "2026-08-12",
+        "event_key": "core_cpi_mom",
+        "forecast": "0.2%",
+        "id": "macro-released-86cea6fecbca",
+        "period": "July 2026",
+        "previous": "0.0%",
+        "time": "08:30 ET",
+        "title": "Core Inflation Rate MoM"
+      },
+      {
+        "actual": "3.4%",
+        "category": "Inflation",
+        "consensus": "3.4%",
+        "date": "2026-08-12",
+        "event_key": "cpi_yoy",
+        "forecast": "3.4%",
+        "id": "macro-released-80dae20e20c7",
+        "period": "July 2026",
+        "previous": "3.5%",
+        "time": "08:30 ET",
+        "title": "Inflation Rate YoY"
+      },
+      {
+        "actual": "0.1%",
+        "category": "Inflation",
+        "consensus": "0.1%",
+        "date": "2026-08-12",
+        "event_key": "cpi_mom",
+        "forecast": "0.0%",
+        "id": "macro-released-f78ab4abba16",
+        "period": "July 2026",
+        "previous": "-0.4%",
+        "time": "08:30 ET",
+        "title": "Inflation Rate MoM"
+      }
+    ],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Inflation",
+        "consensus": "0.2%",
+        "date": "2026-08-13",
+        "event_key": "ppi_mom",
+        "forecast": "0.1%",
+        "id": "macro-upcoming-bfda7ddbe149",
+        "period": "July 2026",
+        "previous": "-0.3%",
+        "time": "08:30 ET",
+        "title": "Producer Price Index MoM"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1693289,
+          "asset_manager_net_change": -151723,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1334181,
+          "leveraged_fund_net_change": 230113,
+          "open_interest": 4400315,
+          "open_interest_change": -6273,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2963254,
+          "asset_manager_net_change": 67005,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2211439,
+          "leveraged_fund_net_change": -102801,
+          "open_interest": 6380428,
+          "open_interest_change": 187388,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2594679,
+          "asset_manager_net_change": -17285,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2231670,
+          "leveraged_fund_net_change": -75931,
+          "open_interest": 5265447,
+          "open_interest_change": -48031,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 712609,
+          "asset_manager_net_change": 2702,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -419861,
+          "leveraged_fund_net_change": -19651,
+          "open_interest": 2518534,
+          "open_interest_change": 39015,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 551606,
+          "asset_manager_net_change": -16662,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -376226,
+          "leveraged_fund_net_change": 13296,
+          "open_interest": 1869874,
+          "open_interest_change": 10142,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1060834,
+          "asset_manager_net_change": -70953,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -849690,
+          "leveraged_fund_net_change": 12948,
+          "open_interest": 2436891,
+          "open_interest_change": -25409,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-08-04",
+      "published_date": "2026-08-07"
+    },
+    "treasury": {
+      "comparison_date": "2026-08-11",
+      "observation_date": "2026-08-12",
+      "par_change_pct": 14.8141,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": 19.6686,
+          "par_usd_bn": 946.1,
+          "trade_count": 330234
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 4.5455,
+          "par_usd_bn": 18.4,
+          "trade_count": 4791
+        },
+        {
+          "key": "bills",
+          "par_change_pct": -1.3254,
+          "par_usd_bn": 215.9,
+          "trade_count": 49820
+        },
+        {
+          "key": "frns",
+          "par_change_pct": -26.6667,
+          "par_usd_bn": 2.2,
+          "trade_count": 177
+        }
+      ],
+      "total_par_usd_bn": 1182.7,
+      "total_trade_count": 385022
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +851,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.2% (-2 bp) | UST 5Y 4.38% (-1 bp)",
-      "UST 10Y 4.68% (-2 bp) | UST 30Y 5.24% (0 bp)",
-      "10Y TIPS real yield 2.42% (-1 bp) | 10Y breakeven inflation 2.26% (-1 bp)",
-      "UST 2s10s curve 48 bp (-0 bp) | UST 2s30s curve 104 bp (+2 bp)"
+      "UST 2Y 4.202% (-1.4 bp) | UST 5Y 4.383% (-0.7 bp)",
+      "UST 10Y 4.695% (+0.5 bp) | UST 30Y 5.26% (+1.8 bp)",
+      "10Y TIPS real yield 2.43% (+0.4 bp) | 10Y breakeven inflation 2.265% (+0.1 bp)",
+      "UST 2s10s curve 49.3 bp (+1.9 bp) | UST 2s30s curve 105.8 bp (+3.2 bp)"
     ],
-    "headline": "Softer inflation helps short Treasuries, but leaves the long bond unmoved",
-    "session_narrative": "Headline CPI rose 0.1% monthly and 3.4% annually; core rose 0.2% and 2.5%. Lower energy and subdued shelter helped, but rents and computer-related prices remained firmer. September hike odds declined from about 50% to 40%, with an increase still fully priced by year-end.\n\nThe $42 billion ten-year sale cleared at 4.683%, slightly above the pre-auction level. Real yields and breakevens each fell just 1 basis point; the 30-year did not rally. Korea's record long yield and unresolved energy supply added overseas constraints.\n\nJane Street raised $14.6 billion of secured debt, while The Knot sought costly maturity relief and Air Baltic proposed deep creditor impairment. Indonesia attracted buyers back, but Brazilian election concerns weakened local demand. Stocks welcomed CPI; gold rose too.",
-    "summary": "July CPI matched forecasts and September hike odds fell toward 40%. Ten-year yields eased 2 basis points to 4.68%, but the 30-year held at 5.24% as the refunding calendar tested buyers."
+    "headline": "Benign CPI lifts the front end, but supply and oil risk keep long Treasury yields rising",
+    "session_narrative": "Treasuries split along the curve after July CPI matched forecasts and showed no renewed acceleration. The 2-year yield fell 1.4 basis points to 4.202% and the 5-year eased 0.7 basis point to 4.383%, while the 10-year rose 0.5 basis point to 4.695% and the 30-year increased 1.8 basis points to 5.26%. The 2s10s curve widened 1.9 basis points to 49.3 basis points as the probability of a September rate increase fell to about 40% from roughly 50%.\n\nThe relief stopped short of a broad duration rally. Core CPI slowed to 2.5% year over year, but goods prices rebounded, oil retained weekly gains above 9% amid the Hormuz disruption, and the $42 billion 10-year auction required a 4.683% yield, slightly above the pre-auction level. The result left fiscal supply, term premium and long-run inflation compensation pressing on longer maturities ahead of Thursday's $25 billion 30-year sale.\n\nRisk assets responded to lower immediate tightening risk, with equities higher and volatility lower, while the dollar recovered and gold rose. Corporate funding remained available at a high cost—Jane Street raised $14.6 billion—but severe borrower-specific stress persisted at Air Baltic and The Knot. Emerging debt also divided between energy producers benefiting from the supply gap and sovereign markets exposed to fiscal, issuance and imported-energy pressure.",
+    "summary": "July CPI reduced the urgency of a September Fed increase, lowering 2- and 5-year yields, but a soft 10-year auction, heavy fiscal supply and unresolved Hormuz disruption left 10- and 30-year yields higher and steepened the curve."
   },
   "report_date": "2026-08-12",
-  "run_id": "daily-fi-newsroom-edit-2026-08-12-5a6e8b43b3ec",
+  "run_id": "daily-fi-simple-2026-08-12-00123ff8-2324d953",
   "watch_events": [
     {
       "category": "US inflation",
-      "date": "August 13; later August",
+      "date": "Aug. 13, 08:30 ET",
       "id": "watch-01",
-      "market_implication": "A subdued mix supports patience; broad strength could revive September sensitivity.",
-      "market_trigger": "Services and trade margins feeding core PCE; Warsh's later interpretation.",
-      "title": "PPI components, then Jackson Hole",
-      "watch_line": "PPI consensus is +0.2% monthly after −0.3%; a +0.1% forecast also circulates."
+      "market_implication": "Broad strength would revive September tightening risk; restraint would reinforce a Fed pause.",
+      "market_trigger": "Broad strength beyond energy and volatile categories, versus restrained services and trade margins.",
+      "title": "July producer prices",
+      "watch_line": "Watch services, trade margins and PCE-feeding categories beyond the headline."
     },
     {
       "category": "Treasury supply",
-      "date": "August 13",
+      "date": "Aug. 13",
       "id": "watch-02",
-      "market_implication": "Broad demand would support duration; heavier dealer retention or steepening would show continued resistance.",
-      "market_trigger": "Investor allocations, any tail and post-sale trading.",
-      "title": "$25 billion 30-year auction",
-      "watch_line": "The long yield held at 5.24% despite CPI; compare the auction with its own when-issued level."
+      "market_implication": "Weak demand would extend curve steepening and lift term premium; a firm sale could contain it.",
+      "market_trigger": "Weak demand or a larger concession than at the 10-year auction; firm absorption is the countercase.",
+      "title": "US 30-year Treasury auction",
+      "watch_line": "Watch the stop, buyer distribution and trading after the $25 billion long-bond sale."
     },
     {
-      "category": "Energy",
-      "date": "Ongoing through year-end",
+      "category": "Energy and inflation",
+      "date": "Ongoing",
       "id": "watch-03",
-      "market_implication": "Reopening would ease the supply outlook; continued closure could erode July's energy-price relief.",
-      "market_trigger": "Sustained traffic, accepted terms and lower freight and insurance costs.",
-      "title": "Actual Hormuz passage",
-      "watch_line": "The IEA estimates a 1.8 million-barrel daily shortfall this quarter, more than twice its prior forecast."
+      "market_implication": "Restored supply would ease inflation pressure; continued disruption would threaten a crude reversal and lift breakevens.",
+      "market_trigger": "Restored commercial flows, or continued closure and renewed attacks that preserve the 1.8 million-barrel-a-day gap.",
+      "title": "Hormuz supply disruption",
+      "watch_line": "Watch for accepted passage terms, meaningful vessel traffic and lower freight and insurance costs."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "-2 bp",
-        "change_1m": "-1 bp",
-        "change_1w": "+2 bp",
+        "change_1d": "-1.4 bp",
+        "change_1m": "-0.7 bp",
+        "change_1w": "+1.9 bp",
         "id": "ust2y_ny_close",
-        "last": "4.2%",
-        "reference_type": "ny_close",
+        "last": "4.202%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+8 bp",
-        "change_1w": "+5 bp",
+        "change_1d": "-0.7 bp",
+        "change_1m": "+7.7 bp",
+        "change_1w": "+5.7 bp",
         "id": "ust5y_ny_close",
-        "last": "4.38%",
-        "reference_type": "ny_close",
+        "last": "4.383%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "+12 bp",
-        "change_1w": "+5 bp",
+        "change_1d": "+0.5 bp",
+        "change_1m": "+13.3 bp",
+        "change_1w": "+8 bp",
         "id": "ust10y_ny_close",
-        "last": "4.68%",
-        "reference_type": "ny_close",
+        "last": "4.695%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "0 bp",
-        "change_1m": "+18 bp",
-        "change_1w": "+7 bp",
+        "change_1d": "+1.8 bp",
+        "change_1m": "+19.9 bp",
+        "change_1w": "+9.1 bp",
         "id": "ust30y_ny_close",
-        "last": "5.24%",
-        "reference_type": "ny_close",
+        "last": "5.26%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "-0 bp",
-        "change_1m": "+13 bp",
-        "change_1w": "+3 bp",
+        "change_1d": "+1.9 bp",
+        "change_1m": "+14 bp",
+        "change_1w": "+6.1 bp",
         "id": "ust_2s10s_curve",
-        "last": "48 bp",
-        "reference_type": "ny_close",
+        "last": "49.3 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "+19 bp",
-        "change_1w": "+5 bp",
+        "change_1d": "+3.2 bp",
+        "change_1m": "+20.6 bp",
+        "change_1w": "+7.2 bp",
         "id": "ust_2s30s_curve",
-        "last": "104 bp",
-        "reference_type": "ny_close",
+        "last": "105.8 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "+5 bp",
-        "change_1w": "+3 bp",
+        "change_1d": "-0.5 bp",
+        "change_1m": "+2.8 bp",
+        "change_1w": "+1.5 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-12 bp",
-        "reference_type": "ny_close",
+        "last": "-13.1 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "+7 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "+0.6 bp",
+        "change_1m": "+7.4 bp",
+        "change_1w": "+5 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-8 bp",
-        "reference_type": "ny_close",
+        "last": "-7.2 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+10 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "+0.4 bp",
+        "change_1m": "+13 bp",
+        "change_1w": "+3.3 bp",
         "id": "tips10y_ny_close",
-        "last": "2.42%",
-        "reference_type": "ny_close",
+        "last": "2.43%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+2 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "+0.1 bp",
+        "change_1m": "+0.3 bp",
+        "change_1w": "+4.7 bp",
         "id": "be10y_ny_close",
-        "last": "2.26%",
-        "reference_type": "ny_close",
+        "last": "2.265%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-08-12T17:00:00-04:00"
+        "timestamp": "2026-08-12"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

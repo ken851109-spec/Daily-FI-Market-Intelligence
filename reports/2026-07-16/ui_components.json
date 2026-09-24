@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "Broad credit funds were nearly flat, while AI funding and leveraged refinancings faced sharper scrutiny.",
+      "summary": "Broad credit was stable, but Oracle’s thinner rating cushion and Cotality’s financing strain raised issuer risk.",
       "title": "Credit",
       "value": "LQD 107.5 (-0.0744%) / HYG 79.8 (-0.0125%) / JNK 96.08 (+0.0104%) / EMB 95.59 (-0.1463%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "The dollar rose 0.23% and gold fell 1.44%. Oil declined on the day but retained large weekly gains.",
+      "summary": "A firmer dollar and weaker gold accompanied lower oil, though crude remained sharply higher for the week.",
       "title": "Dollar and commodities",
       "value": "DXY 100.73 (+0.2289%) / WTI 78.95 (-0.8166%) / Brent 84.23 (-0.8475%) / Gold 3985.6001 (-1.4441%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Semiconductors lost 4.29%, more than the S&P 500's 0.51% decline; VIX rose to 16.73.",
+      "summary": "Semiconductors led equities lower as AI spending concerns deepened, while volatility rose.",
       "title": "Equities and volatility",
       "value": "S&P 500 7533.77 (-0.5101%) / Nasdaq 100 29025.7695 (-1.6162%) / SOX 11867.5 (-4.2858%) / VIX 16.73 (+6.7645%)"
     }
@@ -538,151 +538,297 @@
   "header": {
     "as_of_note": "NY close · 2026-07-16",
     "latest_update_cutoff": "NY close",
-    "stance": "Firm demand checks the rally; financing terms grow more selective",
+    "stance": "Treasury yields edge higher as firm U.S. demand preserves later tightening risk",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "主要信用債基金幾乎持平，AI融資與高槓桿再融資則受到更嚴格檢視。",
-        "dollar_commodities": "美元上升0.23%、黃金下跌1.44%；油價當日回落，但單週仍大漲。",
-        "equities_volatility": "半導體下跌4.29%，大於S&P 500的0.51%跌幅，VIX升至16.73。"
+        "credit": "整體信用債表現穩定，但 Oracle 的評等緩衝縮小，加上 Cotality 的融資壓力，使個別發行人風險升高。",
+        "dollar_commodities": "美元走強、黃金與油價下跌，但原油本週累計漲幅仍然顯著。",
+        "equities_volatility": "市場對 AI 支出的疑慮加深，半導體股領跌，波動率則上升。"
       },
       "header": {
-        "stance": "需求強韌暫阻債市漲勢，融資條件更重個別風險"
+        "stance": "美國需求穩健，後續升息風險未除，美債殖利率小幅走高"
       },
-      "long_thesis_markdown": "# 美國數據強韌，美債漲勢暫歇，AI融資門檻升高\n\n## 通膨利多之後，市場重新衡量利率維持高檔的代價\n\n美國經濟數據轉強，加上聯準會官員措辭偏鷹，打斷了週四的美債漲勢。經過兩天通膨利多帶動的上漲後，2年期殖利率上升3個基點至4.16%，領跌各天期。失業金申請減少、零售銷售增加，費城聯準銀行製造業指數更大幅躍升。房市仍弱，但整體數據尚不足以讓決策者認為需求已經耗盡。\n\n這次殖利率上升主要反映實質殖利率，而非通膨補償提高。10年期實質殖利率上升3個基點至2.35%，損益兩平通膨率反而下降1個基點至2.22%。6月CPI與PPI降溫，使近期升息機率仍遠低於週初；週四市場重新計入的，是經濟保持韌性、政策因而需要更長時間維持緊縮時，持有長天期債券所面臨的成本。\n\nAI相關資產尤其感受到這個壓力。甲骨文遭降評至BBB-，突顯新資料中心產生收入前所需的龐大資金；投資人也質疑不斷增加的資本支出能帶來多少回報，半導體股下跌逾4%。但信用市場需求並未消失：美國短券標售順利完成，主要信用債基金幾乎持平，CoreWeave仍尋求大額貸款。阻力集中在更具體的條件上，包括發債供給、現金流遞延及薄弱的債權保障，Cotality艱難的再融資與Aston Martin債權人結盟，也反映了相同的篩選壓力。\n\n## 需求仍穩，聯準會官員不急著宣告通膨已受控\n\n6月零售與餐飲銷售月增0.2%，5月增幅則上修至1.0%。細項並不一致：汽車經銷商與非店面零售各增1.9%，加油站銷售額下降5.3%。扣除汽車後，銷售月減0.2%；扣除汽油則增加0.7%，同時扣除兩者後增加0.4%。燃料收入下降壓低了總額，卻不代表家庭各類支出都同步退縮。\n\n初領失業金人數降至20.8萬，續領降至180.5萬。費城聯準銀行活動指數由10.3跳升至41.4，新訂單達37.0、出貨33.7；支付價格指數小升至53.9，收取價格升至27.4。不過，企業對未來6個月較不樂觀，活動與資本支出預期均下降。5月企業銷售增加2.1%，庫存只增0.3%，使庫存銷售比降至1.28。\n\n房市最明顯反映了高利率的抑制作用。建商信心降至34，37%的建商降價、63%提供促銷誘因。這與當前製造業的強勁形成對比：經濟不是全面強勢，而是利率敏感產業仍吃力，勞動市場卻尚未廣泛轉弱。\n\n達拉斯聯準銀行總裁洛根認為，小幅提高利率更能平衡前景。要讓通膨回到2%，仍仰賴服務價格持續降溫、能源不再帶來新壓力，以及需求不進一步增強。堪薩斯市聯準銀行總裁施密德也強調，能源以外的價格壓力依然廣泛，經濟成長仍具韌性。兩人的談話都不支持僅憑一個月的好數據，就認定政策爭論已有定論。\n\n交換市場對7月29日仍只計入約3個基點升息，相當於約13%的升息25個基點機率，週初則約為40%。到12月的升息定價約29個基點，低於本週稍早的43個基點。交易員持續賣出9月、12月SOFR賣權，解除對利率上升的避險。因此，週四短端回跌，仍發生在整週近期升息押注大幅減少的背景下。\n\n5年期殖利率上升2個基點至4.28%，10年期升2個基點至4.57%，30年期升1個基點至5.09%。曲線小幅趨平，2s10s收窄1個基點至41個基點，2s30s收窄2個基點至93個基點。相較一個月前，2年期仍高9個基點，30年期高12個基點。各觀察天期的實質殖利率均上升3個基點，除10年期外，5年期達2.04%、7年期2.18%、20年期2.71%、30年期2.91%。\n\n長端方面，Hoisington的立場轉變呈現了更深層的疑慮。這家看多美債逾30年的機構轉為看空，理由包括財政赤字、資金需求，以及更高的通膨均衡水準；它預估長期通膨區間為3.5%至4.5%，部分時期可能超過5%。旗下基金先前存續期間約20.9年，遠高於綜合債券指數的約6年。這項投資判斷不同於當天數據引起的波動，卻顯示超長存續期間策略的基礎，取決於遠超過下一次聯準會會議的假設。\n\n短期資金市場承接供給則未出現相同壓力。$1,000億8週券得標利率為3.650%，投標倍數2.84倍；競標分配中，間接投標人取得$654.70億、交易商$275.15億、直接投標人$37.97億。$1,100億4週券得標利率3.660%，投標倍數2.57倍，分別分配$549.49億予間接投標人、$417.53億予交易商、$56.44億予直接投標人。兩檔都在7月21日交割。\n\n稍晚美東19:00發布的傑佛遜談話報導，延續了這種附帶條件的政策立場：目前政策位置合適，但若通膨未能降溫，仍可能重新考慮。他將AI描述為需求衝擊先到、而生產力效益尚不確定，能源也可能影響通膨預期。這是收盤後對政策辯論的補充，而非稍早美債走勢的新增驅動因素。\n\n## AI融資與高槓桿再融資，開始面對更嚴格的條件\n\n標普將甲骨文降至最低投資級BBB-，因為$2,500億的資料中心擴張，跑在收入與現金生成能力之前。過去4季扣除資本支出後，自由現金流缺口已超過$200億；標普估計新會計年度可能擴大至$420億。穆迪的負向展望也意味著仍有另一條降評風險。\n\n甲骨文債券價格早已反映部分信用惡化。其10年期債殖利率約6.4%，同天期BBB曲線為5.7%，BB債則為6.7%。2月發行$250億後，甲骨文在一項主要美國公司債指數中的規模約達$1,170億，公司並預計於本會計年度透過債務與股權籌措約$400億。若遭兩家評等機構降至非投資級，這個超大型發行人可能移入規模較小的高收益債投資人群體，因此後續選擇借款還是增資，對債權人尤其重要。\n\n供給疑慮並不限於甲骨文。大型雲端業者債券已占廣泛投資級指數市值約4%至5%，超出預期的發行使利差走擴。CoreWeave正尋求$26億延遲動用定期貸款，依照最低付款承諾合約安裝GPU；公司年度支出計畫超過$340億，先前$31億GPU擔保貸款則吸引$190億訂單。合約需求與資產擔保結構仍能帶來資金，但公開債券市場也開始要求補償這個產業權重不斷增加的風險。\n\nCotality，即原CoreLogic，面對的阻力更直接。美債收盤後不久發布的消息指出，這家房地產資料公司考慮把第一順位債殖利率由8%中段提高至最高9.5%，第二順位則由11%提高至約12%，後者還可能折價發行，並增加投資人保障。這筆$53億再融資訂單反應冷淡，背景是約8倍槓桿、現金僅約$5,500萬，自由現金流非常有限，且預期需更多動用循環額度。\n\n公司標普評等比投資級低6級，這次處理的是5年前$60億收購所留下的債務。更高殖利率會進一步增加原已吃緊的現金負擔，文件調整則關係到營運不如預期時，各方能分得多少價值。討論中的讓步因此攸關交易能否完成，而不只是對既定價格做小幅修飾。\n\nAston Martin債權人則在新融資可能改變順位之前先行結盟。股東提供£5,000萬債務支援流動性後，以Arini、BlackRock及Sculptor為首的基金聘請Jefferies。該集團持有公司$18.5億等值2029年到期債券的多數，並簽訂合作協議，擔心寬鬆文件可能容許新融資排在既有債權之前。產品延後、中國需求疲弱與美國關稅，使順位保障更加迫切。\n\n其他產業也有各自的資金與估值問題。美國銀行停止協助芝加哥出售約$10億逾期罰款及費用應收款的計畫。交易原估至少帶來$8,900萬，進展受阻成為年中預估$9,000萬收入缺口的原因之一。困難在於將無擔保應收款變現，而非同等金額的一般稅收短缺。\n\n高收益博彩業利差今年擴大約9個基點，同期消費循環產業卻收窄約17個基點，反映實體賭場成長放緩，以及線上博彩、預測市場的競爭。航運方面，花旗建議放空達飛海運債券，認為荷莫茲局勢帶來的行情過後，新增船舶運能將威脅運價。其€7億、2032年到期債券交易價格約99.5，較3月底高約6點。\n\n主要基金遠比這些個別消息平靜：LQD下跌0.07%至107.50，HYG下跌0.01%至79.80，JNK上漲0.01%至96.08。這些價格沒有顯示資金全面撤離信用市場。融資消息呈現的反而是更細緻的篩選：槓桿、債權順位、產業供給與現金生成時點，正在決定資金願意以什麼條件留下。\n\n## 南韓升息、債券卻漲，日本面對偏高的通膨預期\n\n南韓央行一致決議將7天附買回利率提高25個基點至2.75%，為2023年1月以來首次升息，並保留緊縮傾向。總裁申鉉松指出，通膨、成長增強、韓元偏弱與金融穩定風險，都使每次會議有可能調整政策。但南韓3年期、10年期殖利率反而各降4個基點至3.83%、4.29%。升息原已被充分預期，而央行沒有暗示要加快步伐，讓債券得以上漲；交換市場仍計入未來6個月至少再升息兩次。\n\n申鉉松認為，半導體出口大增後，先前2.6%的成長預估看來過低，6月通膨則已達3.2%。AI循環一方面改善活動與貿易條件，一方面也增加價格壓力。對債券投資人而言，重要差別在於這是已預期的正常化一步，還是足以把後續整條利率路徑都往上移的新證據。\n\n日本家庭調查則突顯另一種政策兩難。未來5年平均通膨預期升至10.8%，創2006年有紀錄以來新高，中位數仍為5%。6月政策利率升至1%後，市場估計10月以前再調整利率的機率約66%。但在7月31日決議前，同時有創紀錄的24%家庭認為利率已經太高。\n\n日本短期工具仍有買盤。1年期短券接受¥2.136兆競標，最低得標價格對應殖利率1.2168%，加權平均殖利率1.2066%，另接受¥6,644億非競標。流動性增強操作則發行¥6,990億、剩餘年期1至5年的債券，平均利差為−0.004%。即使預期的日本銀行政策路徑提高了國內投資人可取得的報酬，這些操作仍顯示供給能被承接。\n\n英國5月GDP月增0.1%，4月修正為下降0.1%，近3個月成長0.7%。服務業增加0.3%，生產下降0.5%，營建下降0.8%。英國央行副總裁布里登認為，經濟閒置與較高借款成本降低了能源衝擊固化的風險，但若出現第二輪效應，仍可升息。因此，利率敏感產業偏弱，與服務業成長、能源前景不明同時存在。\n\n法國的限制更直接來自財政。財政部委託的分析估計，下一任總統需在5年內節省€1,260億，才足以穩定債務；若不採取行動，2030年財政缺口可能接近GDP的7%，主要原因是債息成本。這替既有法債財政疑慮增加了具體量化：殖利率提高，正擴大未來政府必須完成的調整。\n\n## 衝突與債務協商壓力，主導新興市場個別風險\n\nEMB下跌0.15%至95.59，美元指數上升0.23%至100.73。較高美國實質殖利率與較強美元形成共同逆風，但現券最明顯的惡化來自中東。區域平均主權利差一週擴大約20個基點，至美債之上402個基點，創2022年10月以來最高，並比其他新興市場發行人高163個基點。\n\n4月停火破裂、荷莫茲周邊再遭攻擊，使中東美元債出現戰爭開始以來在新興市場中的最差表現。對產油國而言，價格上漲未必足以抵銷干擾：出口中斷可能減少財政收入，安全、航運與保險成本卻增加。週四原油小跌，也無法解決海峽通行能否持續、長期投資計畫能否落實的不確定性。\n\n塞內加爾債務爭論則有了更明確的估值比較。花旗以重整後殖利率11%與9%估算，每$1面額回收價值為43至50美分，低於債券當時51至54美分的價格。公共債務接近GDP的130%，IMF計畫仍暫停。花旗認為核心是財政與債務可持續性，而非眼前國際收支不足。聘任Lazard、較長天期區域債需求轉弱，已讓協商更接近現實，即使官方仍反對重整；新增回收率估計則說明，單靠區域借款難以回答既有債券究竟值多少。\n\n中國收緊的是另一條再融資管道。銀行間市場監管機關告知部分銀行人士，地方融資平台若債券餘額高於2023年3月31日水準，應暫停進行中的銷售並避免新發行。平台債餘額約CNY16兆，其中約CNY5兆在2027年底前到期，52.7%在銀行間市場交易。限制供給可能增加流通券稀缺性，卻也讓既有債務最重的發行人更難再融資。\n\n收盤後，莫三比克表示，正與最大雙邊債權人中國就約$14.5億債務展延取得進展，並以4月與巴西的協議為參考：當時約$1.43億債務改為先支付一筆款項，再以3.625%利率、每半年一次分10期償付。潛在$300億LNG計畫尚需時間才能改善中期財政，在此之前，債務紓緩與新IMF計畫仍有迫切性；IMF依然將該國列為債務困境。\n\n## 實質殖利率回升，放大AI回報較晚到位的壓力\n\nS&P 500下跌0.51%至7,533.77，Nasdaq 100下跌1.62%至29,025.77，半導體指數重挫4.29%至11,867.50，VIX上升6.76%至16.73。科技股跌勢最重，與AI債務的融資疑慮呼應，而非所有風險資產同步撤退。\n\n台積電展望強勁，卻未能阻止半導體股下跌，因為更高的資本支出指引加深了對未來回報的疑問。美國四大業者今年預計支出超過$7,250億；Alphabet另因旗艦模型進度落後的報導而走弱。甲骨文降評讓債券投資人從資產負債表看到相同問題：支出先發生、收入較晚到來，實質殖利率提高，使這段時間差更昂貴。\n\n油價連漲三天後暫歇。WTI下跌0.82%至$78.95，布蘭特下跌0.85%至$84.23，但一週漲幅仍達9.53%、10.39%。美國本土48州天然氣庫存增加410億立方英尺至3.024兆立方英尺，主要來自中西部與東部。當日能源回落伴隨美債損益兩平通膨率下降，但先前累積的油價漲幅與最新攻擊，仍使後續燃料及運費前景不明。\n\n美元轉強、實質殖利率提高之際，黃金期貨下跌1.44%至$3,985.60。地緣政治惡化並未在這個環境下形成全面避險上漲。債券、匯率與科技股共同反映的，是實質融資成本重新施壓，儘管美債本身的跌幅仍然溫和。\n\n## 週五確認需求韌性與價格降溫能否並存\n\n7月17日美東08:30公布進出口物價與新屋開工，09:15為工業生產及產能利用率，10:00為密西根大學消費者信心初值。這些數據將一起顯示，建商信心及調查預期轉弱是否擴散，或者當前產出仍強。家庭通膨預期與貿易價格也有助於判斷，物價改善是可持續趨勢，還是暫時有利的一個月。\n\n同日05:00有歐元區6月通膨終值，接著是7月22日10:30的美國石油報告，以及7月23日08:15的ECB決議。6月物價需要搭配更新的庫存與航運狀況解讀；即使原油價格下跌，中東主權利差仍可補充反映衝突風險究竟消退多少。\n\n供給方面，7月20日有$920億13週券與$790億26週券，7月21日有$950億6週券，均在7月23日交割。7月22日則有日本約¥3,000億40年期公債，以及美東13:00的美國$130億20年期增額標售。短券已有買盤，更長天期的標售將測試高殖利率能否吸引願意承擔存續期間風險的投資人。企業端可看Cotality最終條件，確認高槓桿借款人需要提供多少額外殖利率與債權保障，才能完成再融資。",
-      "methodology_note": "除非另有註明，市場水準均以紐約收盤為基準。",
+      "long_thesis_markdown": "## 固定收益開篇論點\n\n美國需求展現韌性，3位聚焦通膨的聯準會官員也對政策保持警戒，使兩份偏弱的6月物價報告所引發的漲勢受到抑制，美國公債7月16日小幅下跌。不過，殖利率升幅有限：2年期上升0.6個基點至4.142%，5年期上升0.7個基點至4.27%，10年期上升0.5個基點至4.554%，30年期則上升0.4個基點至5.084%。整條曲線近乎平行移動，2年期與10年期利差為41.2個基點，2年期與30年期利差為94.2個基點，單日變化都不大。\n\n這種克制正是本交易日最鮮明的特徵。初領失業救濟金人數下降、零售銷售增加，費城聯準銀行製造業指數更升至近5年最高。達拉斯聯準銀行總裁 Lorie Logan 明確主張利率應略為提高；堪薩斯城聯準銀行總裁 Jeff Schmid 則警告，物價壓力仍然過於廣泛，不能因單月數據有利便予以忽視。儘管如此，美債僅回吐前兩個交易日漲幅的一小部分，利率選擇權交易員也繼續解除對近期升息的避險部位。\n\n10年期殖利率的變動結構也支持這項解讀。實質殖利率上升1個基點至2.314%，損益兩平通膨率卻下降0.5個基點至2.24%。經濟活動數據保持強勁，使投資人要求略高的通膨調整後報酬；然而，即使伊朗周邊與荷莫茲海峽戰事再起，市場也未重新提高通膨補償。當日 WTI 下跌0.82%至$78.95，布蘭特原油下跌0.85%至$84.23；即便航運持續受阻，兩者一週漲幅仍約為10%。\n\n市場因而把7月決策與後續政策路徑分開看待。交換市場對7月29日會議的升息定價約為3個基點，相當於升息25個基點的機率約13%，低於本週初的約40%；12月合約仍反映約29個基點的升息幅度。6月通膨降溫，已降低立即升息的可能性，但週四的成長數據與聯準會官員談話，也不支持把升息循環視為已明確結束。\n\n風險性資產則對人工智慧建設規模及其融資方式發出另一項警訊。即使台積電調高營收及資本支出展望，費城半導體指數仍下跌4.29%，Nasdaq 100下跌1.62%，S&P 500也下跌0.51%。台積電的強勁業績未能壓過市場疑慮：美國4大 AI 業者今年支出可能超過$7,250億，但何時轉化為營收仍不明朗。這個問題對債市的重要性也日益提高；科技業借款人在投資級市場的占比持續增加，Oracle 的 S&P 評等僅比非投資級高一級，另有一筆大型槓桿再融資案必須大幅改善條件，才有望獲得市場承接。\n\n## 強勁數據抑制通膨降溫行情\n\n當日公布的美國數據顯示，經濟目前動能穩健，但各產業表現並不均衡。6月零售與餐飲服務銷售初值較前月增加0.2%至$7,686億，較去年同期成長6.7%。5月月增幅也由0.9%上修至1%，墊高比較基期，因此6月溫和的整體增幅並不意味消費者全面退縮。\n\n細項表現尤其重要。扣除汽車的銷售下降0.2%，但扣除汽油後增加0.7%，同時排除汽車與汽油的指標則上升0.4%。汽車經銷商與非店面零售商的銷售都增加1.9%，加油站營收下降5.3%，餐飲服務銷售僅成長0.1%。汽油營收減少壓低整體數字，卻未顯示可自由支配消費普遍轉弱。\n\n勞動市場數據也釋出短期韌性訊號。截至7月11日當週，初領失業救濟金人數減少8,000人至20.8萬人，前值修正為21.6萬人；4週移動平均減少4,750人至21.425萬人。截至7月4日當週，續領人數減少1.6萬人至180.5萬人，但其4週移動平均小幅升至181.1萬人；投保失業率維持在1.2%。初領與續領人數同步下降，並未讓聯準會看到限制性利率已造成就業突然惡化的明顯證據。\n\n費城聯準銀行調查呈現當日最強的即期成長訊號。7月一般商業活動指數由10.3躍升至41.4，創近5年最高；新訂單指數由27.3升至37，出貨指數由14.9升至33.7，就業與平均工時指數也分別維持在10與14的正值。\n\n然而，價格指標未呈現6月全國通膨數據的改善。支付價格指數由53.2升至53.9，收取價格指數由20.3升至27.4。前瞻指標則不如當期數據強勁：未來6個月預期活動指數由50.2降至34.4，計畫資本支出指數由41.2降至30.1。因此，這份調查強化了目前需求與生產流程價格壓力仍強的論點，卻未顯示製造商預期同樣的加速態勢將持續下去。\n\n5月企業數據同樣反映名目交易活動強勁。製造業與貿易銷售較4月增加2.1%，較去年同期增加11.9%，達$2.135兆；庫存月增僅0.3%、年增3.1%，至$2.736兆，使庫存銷售比由一年前的1.39降至1.28。銷售成長快於庫存累積，顯示目前經濟活動並非靠非自願性庫存增加維持。\n\n房市仍是最明顯的反向力量。6月數值修正為36後，NAHB／富國銀行房市指數再下降2點至34，連續15個月低於40，為2012年以來最長紀錄。當前銷售指數降至37，未來6個月銷售預期降至43，潛在買方來客指數則滑落至23。37%的建商降價，平均降幅為6%，另有63%提供促銷優惠。即使消費、製造業與勞動市場保持韌性，融資成本與負擔能力仍持續壓抑這個對利率敏感的產業。\n\n這組數據說明，美債殖利率為何僅小幅上升，沒有逆轉先前由通膨數據帶動的漲勢。經濟活動較強，意味政策若比市場先前預期更早結束限制性立場，代價也會提高；但這批數據仍未推翻偏弱的 CPI 與 PPI。房市依舊疲弱，製造業前景預期降溫，零售銷售整體數字偏低又有部分來自汽油價格下跌，並非支出普遍崩跌或全面加速。\n\n利率選擇權部位也反映這項區別。美國交易時段內，市場繼續賣出會因政策利率上升而受益的9月與12月選擇權；先前未平倉量下降顯示，交易員是在平掉既有避險，而非單純建立新部位。7月升息機率仍低，12月前的升息定價則由本週初43個基點降至約29個基點。市場是在降低對升息速度與路徑的信心，並未改為定價降息循環。\n\nLogan 對這種偏樂觀解讀提出最直接的質疑。這位今年擁有聯邦公開市場委員會投票權的達拉斯聯準銀行總裁表示，由於通膨似乎尚未持續回到2%，略為提高利率更能平衡風險。她承認6月通膨有所改善，若住房及非住房服務價格進一步降溫，結果可能更為有利；但這條路徑的前提，是近期能源壓力不能再起，後續需求也不能轉強。\n\n本週油價反彈，加上週四經濟活動數據偏強，使這項前提格外重要。Logan 表示，單月通膨緩解並不足夠；AI 投資對需求的影響已經出現，其生產力效益的規模與實現時間卻仍不確定。換言之，AI 資本支出熱潮已透過設備、營建、電力與勞動力形成當前需求，政策判斷不能先假設未來的生產力提升會立即抵銷這些壓力。\n\nSchmid 則提出另一項警告。這位堪薩斯城聯準銀行總裁稱通膨是他最主要的關切，並表示物價壓力不僅來自能源，也遍及包括食品在內的廣泛商品與服務。他認為，6月數據改善仍不足以構成趨勢；判斷通膨是否持續時，除了供給衝擊，也必須考慮強勁需求。同時，他認為勞動市場處於平衡狀態、經濟成長具有韌性，進一步支持聯準會可專注處理物價，而不必因就業突然轉差作出反應。\n\n副主席 Philip Jefferson 在固定收益市場收盤後發布的談話中，提出較具條件性的訊號。他認為，目前政策位置足以在通膨下降之際支持就業；但若實際通膨未能很快開始降溫，就可能需要重新考慮政策立場。Jefferson 強調，AI 可能同時造成方向相反的需求與供給衝擊，兩者發生的時間對政策相當重要；他也把能源衝擊傳導至較長期通膨預期的可能性列為關鍵風險。這些談話並未影響已完成的美債收盤，但若6月的改善無法延續，保留升息路徑的官員陣容已進一步擴大。\n\n殖利率變動不大之際，美債現券交易也轉淡。FINRA 記錄到32萬6,681筆交易，面額合計$9,053億，較7月15日減少14.7%；名目附息債交易面額下降19.1%至$6,820億。剩餘期限超過3年、至多5年的券種成交額減少29.9%，超過7年、至多10年的券種則減少15.9%。這些是雙向交易活動指標，但仍可看出，週四的溫和回吐不同於先前通膨重新定價期間較為熱絡的參與程度。\n\n短端供給則持續獲得現金需求承接。美國財政部標售$1,100億4週期國庫券，最高得標利率為3.660%，投標倍數2.57倍；另標售$1,000億8週期國庫券，最高得標利率為3.650%，投標倍數2.84倍。間接投標人在較短天期標售中獲配$549.49億競標額，在較長天期標售中獲配$654.70億。兩批國庫券均於7月21日交割。由於缺少發行前交易參考，結果無法判定定價偏貴或偏便宜；不過，在附息債市場爭論政策路徑之際，短端融資並未顯露明顯壓力。\n\n## 韓國轉向緊縮，日本通膨預期升高\n\n韓國展開新一輪緊縮循環，決策獲一致通過，將7天期附買回利率提高25個基點至2.75%。這是2023年1月以來首次升息，結果符合彭博經濟學家調查的所有預測。韓國自2024年底以來已降息4次，因此本次行動代表政策方向逆轉，而不是既有升息行動的延續。\n\n韓國央行總裁 Shin Hyun Song 維持緊縮傾向，卻未暗示下次升息時間或最終利率高點。他表示，接下來每次會議都有採取行動的可能，後續決策將取決於通膨、成長與金融穩定的新證據。交換市場定價顯示，未來6個月至少還會升息2次，但 Shin 並未認同加快升息的時程。\n\n政策理由不只在於整體通膨。Shin 表示，韓國央行5月預測2026年經濟成長2.6%，如今看來偏低；由於出口、投資與消費均強於預期，8月將大幅上修。政府已把預測提高至3%，國際貨幣基金也將預測調升至2.6%，上修幅度居30個主要經濟體之首。\n\n6月消費者通膨升至3.2%，為逾2年最快，政府預計全年平均為2.6%。Shin 表示，韓元疲弱將繼續推高進口價格，經濟活動轉強也可能帶來額外的需求型通膨。半導體出口熱潮使韓國2026年前5個月的經常帳盈餘，已超過2025年全年的歷史紀錄；第1季經濟則成長1.8%。\n\n韓國央行認為，這一輪晶片景氣比過往出口上升週期更具結構性，因為 AI 需求正使半導體由傳統最終產品轉變為基礎設施。Shin 指出，相較晶片公司股價的短期變化，晶片價格更能反映韓國的貿易條件與經濟成長。這項區別在週四尤其重要：即使台積電季度獲利成長77%並上調展望，全球半導體類股仍遭到拋售。\n\n出口熱潮帶來的效益並不平均。就業仍然疲弱，資本密集的半導體生產所創造的工作機會，少於其產出通常應帶來的水準。金融穩定風險也強化升息理由：首爾公寓價格已連續76週上漲，家庭借款再度加速，官員並警告槓桿投資可能放大失衡。\n\n決策與記者會後，韓國債券反而上漲。3年期殖利率下降4個基點至3.83%，10年期殖利率同樣下降4個基點至4.29%。這項反應符合升息早已在預期內，而政策指引只保留按季或依數據緊縮的可能，並未承諾加快行動。若投資人原先為更強硬的訊號預作準備，升息仍可與殖利率下降並存。\n\n日本也出現與通膨預期相關的警訊。家庭預期未來5年年均通膨為10.8%，創日本央行2006年開始統計以來最高，不過中位數仍為5%。日本央行執行理事 Koji Nakamura 再次表示，上行風險偏高，延後調整政策最終可能拖累經濟。基準利率在6月升至1995年以來最高後，目前為1%；交易員認為10月前再度升息的機率約為66%。\n\n這份調查也顯示政策正常化的代價。認為利率已經過高的家庭占24%，創歷史最高。日本央行因此必須在異常高漲的主觀通膨感受與借款成本敏感度升高之間權衡，下次政策決策訂於7月31日。\n\n日本短端標售提供了實際需求指標，但未能解決這項政策取捨。1年期國庫貼現券標售接受¥2.136兆競標及¥6,644億非競標投標。最低得標價格98.801，對應殖利率1.2168%；加權平均殖利率為1.2066%，最低得標價的分配比例為73.8823%。證券於7月21日發行，2027年7月20日到期。\n\n另一項流動性增進操作則針對剩餘期限1至5年的已發行 JGB，接受¥6,990億投標，競標總額為¥2.679兆。最高得標利差為負0.001%，該利差的分配比例為70.1674%；平均得標利差為負0.004%。這項結果反映合格的2年、5年、10年、20年與30年期舊券需求，並不提供新指標券殖利率訊號。\n\n英國數據呈現較疲弱的政策組合。4月實質國內生產毛額經修正後下降0.1%，5月則成長0.1%。截至5月的3個月產出成長0.7%，較去年同期增加1.1%。服務業月增0.3%，但生產部門萎縮0.5%，營建業下降0.8%，顯示復甦依賴服務業，並未廣泛分布於各產業。\n\n英格蘭銀行副總裁 Sarah Breeden 認為，經濟活動疲弱、勞動市場有閒置空間，降低了能源通膨再起後固化於薪資與國內物價的風險。她在過去3次會議都隨多數決支持將政策利率維持在3.75%，戰爭前則曾主張降息。Breeden 表示，若物價形成回饋循環，她會支持升息；但在借款成本已壓抑家庭與企業的情況下，單憑石油衝擊並不足以支持升息。5月產出的組成支持她的審慎立場，但布蘭特原油的單週漲幅仍使第二輪效應風險存在。\n\n## AI 借款提高信用市場門檻\n\nOracle 把 AI 投資造成的融資壓力直接帶進投資級債市。由於規模$2,500億的資料中心擴建計畫消耗現金的速度快於營收流入，S&P Global Ratings 將公司信評降至 BBB-，只比非投資級高一級。Moody’s 則維持負向展望，中期內仍可能進一步降評。\n\nOracle 的支出與收入時間落差異常龐大。最近4季扣除資本支出後，公司消耗逾$200億現金；S&P 估計，下一會計年度自由現金流缺口可能擴大至$420億。預計資本支出至少到2029會計年度仍將持續增加。公司已累積大量合約未履約餘額，但營收會隨時間逐步認列，營建與設備成本卻必須預先支付。\n\nOracle 債券反映的風險已高於評等標籤本身所顯示的程度。其10年期債券殖利率約6.4%，接近同類 BB 級債券的6.7%，且遠高於10年期 BBB 級曲線的5.7%。若有2家評等機構將其降至非投資級，Oracle 可能成為規模較小的美國高收益債市場中最大發行人，不僅可能推高借款成本，也會迫使新的投資人群體吸收這些債務。\n\n公司表示，維持投資級評等仍是資本配置的最高優先事項。本會計年度預計透過債券與股票籌集約$400億，包括先前已公布的$200億市價發行股票計畫。Oracle 於2月發行了$250億投資級債券，目前約有$1,170億債券納入彭博美國公司債指數，是僅次於 Amazon 的第二大非金融業成分發行人。\n\n集中度使融資問題更加嚴重。S&P 估計，Oracle 的$6,380億剩餘履約義務中，約有一半與 OpenAI 有關。這些待履行合約提供了未來營收路徑，卻也使融資計畫高度暴露於單一大型客戶，以及已簽約 AI 需求轉化為現金流的速度。Alphabet 與 Meta 以內部資金支應投資的能力較強；Oracle 則可能必須削減資本支出、增發股票，或接受更高槓桿。\n\n整體債券指數對同一週期的暴險也愈來愈高。依是否納入私募證券而定，超大規模雲端業者債券約占投資級市場市值的4%至5%。這些公司通常以較寬利差發行較長天期債券，因此 Barclays 計算顯示，其債券占指數「存續期間乘以利差」風險的8.3%。若納入範圍更廣的 AI 相關發行人，比重將升至11.4%，超過過去主導發債市場的6家大型銀行。\n\n如此龐大的風險占比，使追蹤基準的投資人難以忽視 AI 融資週期。新增科技債供給必須與銀行、工業公司及政府爭奪有限的長天期資金承接能力。高評等超大規模雲端業者的債券可以提供具吸引力的利息收益，但若持續出現意外供給，市場可能要求更大的發行讓利，並把成交利差上升的影響擴散至科技業借款人以外。\n\nCotality 顯示，當槓桿較高、現金流較弱時，融資門檻會多快上升。這家房地產資料公司在需求不足後，考慮提高一筆$53億再融資案部分債券的殖利率。擬議第一順位留置權債券的殖利率，可能由8%區間中段調高至最高9.5%；第二順位留置權券次則可能由11%調至約12%，並以低於面額發行。投資人也在討論加強契約文件保障，但尚未敲定任何修改。\n\n該公司債務約為獲利的8倍，S&P 評等低於投資級6級。截至3月31日，公司約持有$5,500萬現金；由於自由現金流仍非常有限，預計將依賴循環信用額度。這筆交易原定週四定價，目的是為 Stone Point Capital 與 Insight Partners 以$60億收購公司時使用的債務再融資。交易延後，且可能需要進一步讓利，顯示即使整體信用環境的利差偏緊，大型槓桿交易也無法憑此克服流動性不足與槓桿過高的問題。\n\nAston Martin 的債權人則在防範另一種融資風險。由 Arini Capital Management、BlackRock 與 Sculptor Capital Management 領頭的基金聘請 Jefferies 擔任顧問，原因是相對寬鬆的債券文件可能容許公司透過新增借款，使既有債權的受償順位居後。這個團體持有公司2029年到期、等值$18.5億債券的多數部位，已簽署合作協議，並提出討論新融資與整體資本結構的意願。\n\nAston Martin 過去仰賴注資支撐流動性，4月另取得£5,000萬股東貸款。產品延誤、品質問題、中國需求疲弱與美國關稅，都加深債權人的疑慮，擔心後續融資可能利用擔保品或架構條款，使現有債券持有人處於不利地位。目前接洽仍屬準備性質，並非已達成重整協議；但問題已由一般性的資產負債表疑慮，發展為有組織的債權人行動。\n\n芝加哥將逾期停車罰款變現的努力也陷入停滯。由於雙方無法就服務範圍達成協議，美國銀行已停止擔任一項約$10億應收款出售案的配售代理。這項計畫原擬籌集至少$8,900萬，以協助填補市府預算缺口，但官員指出，潛在買方可能面臨隱私、法律與聲譽風險。即使多項稅收優於計畫，交易遲無進展也是預估$9,000萬年中收入缺口的原因之一。\n\n掛牌信用債的整體價格相對穩定。LQD 下跌0.07%，HYG 下跌0.01%，JNK 上漲0.01%，EMB 則下跌0.15%。這些細微變化並未顯示出與半導體股跌勢相當的全面重新定價。更重要的訊號來自個別發行條件：高槓桿再融資需要大幅提高殖利率，Oracle 的 AI 擴張已消耗其評等緩衝，而 Aston Martin 債權人也在任何新交易削弱其地位之前開始組織行動。\n\n## 戰爭風險擴大主權債分化\n\n美國與伊朗戰事再起，對中東主權信用債的影響，比對美債通膨補償更為直接。美國總統 Donald Trump 警告停火可能結束後一週，中東主權債平均利差擴大約20個基點，來到較美債高402個基點，為2022年10月以來最寬，也促使今年以來的利差增幅達到2018年後最快。\n\n自戰爭爆發以來，中東美元債已成為新興市場表現最差的區域類別。區內政府債券相較其他開發中國家主權債，多提供163個基點的殖利率。這波重新定價逆轉了4月暫時停火後逾50個基點利差收窄的一部分。\n\n安全情勢週四再次惡化。美國在伊朗主要石油碼頭附近攻擊一艘受制裁的超級油輪，是恢復封鎖以來首次在當地攻擊船隻。荷莫茲海峽可觀察到的商業船舶稀少，且大多是與伊朗有關、使用德黑蘭核准北方航線的船隻。印度下令船東停止派遣該國海員航經海峽，亞洲液化天然氣現貨價格也升至3月以來最高。\n\n不過，原油在連續3天大漲後，紐約收盤仍小幅下跌。布蘭特原油一週漲幅維持在10.39%，WTI 為9.53%，單日回落並未使能源市場恢復至升級前的狀態。美元指數上漲0.23%，黃金期貨下跌1.44%至$3,985.60，VIX 則上升6.76%至16.73。殖利率與美元走高，壓過地緣政治帶來的黃金避險需求；股票波動則最明顯地集中於科技類股。\n\n塞內加爾反映的主權債問題，主要並非外部流動性，而是財政償付能力。Citigroup 估計，若重整後債券殖利率分別為11%與9%，美元債持有人每$1可收回$0.43至$0.50。現有債券成交價介於面額的$0.51至$0.54，2048年到期債券在倫敦報$0.5170，高於 Citi 情境區間的下緣。\n\n塞內加爾債務接近國內生產毛額的130%，國際貨幣基金計畫也已暫停。當局大致仍反對債務重整，但 Lazard 獲任命為財務顧問，加上區域市場較長天期證券需求轉弱，已加劇市場對必須展開談判的猜測。塞內加爾主權債利差較美債高近1,500個基點，是 JPMorgan 指數所涵蓋非洲主權發行人中最嚴重的困境水準。\n\nCiti 認為，塞內加爾與尚比亞、迦納不同，眼前問題在於財政與債務可持續性，而不是國際收支短缺。但這項差別不會降低重整對債券持有人的代價。該行判斷，若塞內加爾繼續推動 IMF 支持的調整方案，就必須大幅削減債券名目本金；國內政治則會影響談判是否在今年啟動。\n\n長天期債券投資態度的轉變也不限於陷入困境的借款人。Hoisington Investment Management 以逾30年來長期看多美債著稱，如今認為財政赤字擴大、資本需求增加，以及長期通膨區間升高，都指向長期殖利率走升。其投資組合的有效存續期間，已由9月底的20.88年降至3月底的4.7年，至6月30日更降至不足1年。\n\nHoisington 估計長期通膨均衡區間約為3.5%至4.5%，而且相當可能出現高於5%的階段，並認為投資人正要求美債提供更高的期限溢價。這是資產管理人的結構性觀點，不是對週四小幅行情的描述；然而，即使6月通膨數據有利，市場仍不願把30年期殖利率明確壓至5%以下，與此看法一致。長債收在5.084%，當日雖僅小幅上升，月內仍累計上升10.4個基點。\n\n## 後續市場意義\n\n下一批美國數據將於7月17日公布。6月進出口價格及房屋開工訂於美東時間08:30發布，工業生產與產能利用率在09:15公布，密西根大學消費者信心初值則於10:00出爐。貿易價格可顯示能源、航運與關稅成本是否已反映在進出口價格，並可能進一步傳導至消費者通膨；房屋開工將檢驗建商信心疲弱是否已反映於營建活動，工業生產則可判斷費城聯準銀行指數大升是否代表更廣泛的製造業加速。\n\n聯準會官員強調能源衝擊再起可能轉為持久後，密西根大學的通膨預期指標尤其重要。若通膨預期保持穩定，將支持市場週四未重新提高10年期通膨補償的決定。若通膨預期上升，且消費者信心與生產數據同樣穩健，則會強化 Logan 與 Schmid 的疑慮：在需求增強、能源到岸成本上升下，6月有利的通膨結果可能無法延續。\n\n歐元區6月調和通膨終值訂於7月17日歐洲中部夏令時間11:00公布。歐洲央行正評估能源價格上升是否擴散至商品、服務或薪資設定，因此數據組成將影響7月23日的決策。7月21日公布的歐洲央行銀行放款調查，則會在利率決策及記者會前，進一步提供第2季授信標準、貸款需求，以及銀行對第3季看法的證據。\n\n中國將於7月20日中國標準時間09:00設定1年期與5年期貸款市場報價利率。此次定價在房地產與投資數據疲弱後進行，可觀察政策制定者是否願意透過銀行貸款利率傳遞更寬鬆的融資條件。日本7月17日的3個月期國庫券標售，將檢驗短期日圓資金需求；但更重要的長天期事件，是7月22日約¥3,000億的40年期 JGB 增額發行。標售之際，日本家庭通膨預期創新高，日本央行仍維持緊縮傾向，且有更多家庭認為利率已經過高。\n\n美國財政部供給將於7月20日恢復，包括$920億13週期國庫券及$790億26週期國庫券，兩者都在7月23日交割；7月21日另將標售$950億6週期國庫券。長天期考驗則是7月22日美東時間13:00增額發行$130億20年期公債。該券票息5%，7月24日交割，2046年5月15日到期。在30年期殖利率仍高於5%，且民間 AI 借款爭奪長天期資金承接能力之際，此次標售將檢驗市場對期限風險的需求。\n\n企業融資進度也將提供相互對照的指標。Cotality 擬議再融資案的第一順位留置權債券殖利率，已由8%區間中段往最高9.5%調整，契約保障可能改善，第二順位留置權債券殖利率則會更高。這家公司能否完成$53億交易，以及最終能提供哪些保障，將顯示即使整體信用債基金價格變化不大，高槓桿借款人仍需讓利多少。\n\n美國與伊朗衝突，是市場區分「已實現通膨轉弱」與「前瞻通膨轉強」所面臨的最直接威脅。荷莫茲海峽船舶稀少，美國也在伊朗出口碼頭附近發動攻擊，但原油尚未再次出現單日暴漲；布蘭特與 WTI 的一週漲幅仍約為10%。即使聯準會7月29日維持利率不變，若干擾持續，後續通膨數據、企業利潤率與主權風險仍會受到影響。\n\n對美債而言，核心考驗已不再是6月 CPI 與 PPI 是否已消除7月升息的大部分理由，因為市場定價已反映這項判斷。真正的問題是，消費具有韌性、申領失業救濟金人數偏低，以及當前製造業活動強勁，是否會讓官員保留或落實今年稍晚升息的可能。若廣泛通膨進一步降溫、通膨預期維持穩定，7月16日殖利率僅小幅回升便屬合理；若物價壓力再度擴散、能源壓力持續，或經濟活動數據連續偏強，目前近期升息機率偏低、但12月前仍定價超過一次25個基點升息的組合，將更難維持。\n",
+      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。利率資料採用彭博每日殖利率歷史序列；變動幅度與衍生曲線均使用相同日期的序列。每日歷史資料未標明觀察時間。",
       "overall_summary": {
-        "headline": "美國數據強韌，美債漲勢暫歇，AI融資門檻升高",
-        "session_narrative": "甲骨文降評至BBB-，Cotality考慮提高殖利率與加強契約保障，反映高支出、高槓桿的代價。CoreWeave仍尋求新融資，主要信用債基金幾乎持平。南韓在預期中的升息後債券反漲，中東主權利差擴大；投資人質疑AI回報，半導體股下跌4.29%。",
-        "summary": "失業金申請減少、零售銷售增加，費城聯準銀行調查強勁，中斷了美債連兩天的漲勢。2年期殖利率升3個基點至4.16%，10年期實質殖利率升至2.35%，通膨補償卻下降。近期升息機率仍遠低於週初，但洛根與施密德都不認為一個月通膨降溫就足以定調。"
+        "headline": "美國需求展現韌性，美債仍僅小幅回吐通膨降溫行情",
+        "session_narrative": "美債小幅下跌，但曲線近乎平行且變動克制：2年期殖利率上升0.6個基點至4.142%，10年期上升0.5個基點至4.554%，30年期上升0.4個基點至5.084%。零售銷售、初領失業救濟金人數及費城聯準銀行調查均顯示需求具有韌性；Lorie Logan 與 Jeff Schmid 則警告，單月通膨數據有利仍不足以解除疑慮。儘管如此，交換市場對7月29日會議的升息定價僅約3個基點，12月前則約為29個基點。\n\n10年期實質殖利率上升1個基點，損益兩平通膨率則下降0.5個基點，顯示投資人要求較高的通膨調整後報酬，卻未重新提高通膨補償。美國與伊朗戰事再起、荷莫茲海峽航運受阻之際，油價收盤下跌，但一週漲幅仍約為10%。\n\nAI 融資則發出另一項風險訊號。市場對支出規模及回報不確定性的疑慮升高，半導體股大幅下跌；同時，Oracle 的評等緩衝縮小，Cotality 的槓桿再融資案也必須大幅改善擬議條件。",
+        "summary": "零售、勞動與製造業數據強勁，加上聚焦通膨的聯準會官員談話，使今年稍晚升息的可能性得以保留；但7月立即升息的理由並未明顯增強，美債殖利率因此只小幅走高。"
       },
       "section_summaries": [
         {
-          "section_title": "通膨利多之後，市場重新衡量利率維持高檔的代價",
-          "summary": "活動強韌與實質殖利率提高，暫阻通膨利多行情；科技股及融資需求較高的借款人壓力最明顯。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "實質殖利率上升、損益兩平通膨率下降，加上殖利率曲線近乎平行移動，指向的是成長韌性，而非通膨恐慌再起。",
+          "next_check": "",
+          "section_title": "固定收益開篇論點",
+          "summary": "美國經濟活動穩健，聯準會官員也持續關切通膨，帶動美債殖利率小幅上升，但6月通膨降溫引發的漲幅僅遭回吐一小部分。市場把機率偏低的7月升息與今年稍晚仍存在的緊縮風險分開定價；同時，AI 融資疑慮壓低科技股，也使企業債供給面臨更多問題。"
         },
         {
-          "section_title": "需求仍穩，聯準會官員不急著宣告通膨已受控",
-          "summary": "初領失業金降至20.8萬，費城聯準銀行指數達41.4，政策焦點重新回到緊縮需要維持多久。",
-          "market_read": "10年期實質殖利率升3個基點至2.35%，損益兩平通膨率降至2.22%。",
-          "next_check": "週五房市、產出及通膨預期數據，將檢驗需求韌性。"
+          "market_read": "市場降低了對升息速度與路徑的信心，但並未改為定價降息循環。",
+          "next_check": "",
+          "section_title": "強勁數據抑制通膨降溫行情",
+          "summary": "6月零售銷售增加、初領失業救濟金人數下降，費城聯準銀行指數升至41.4，均顯示目前經濟動能穩健；但房市依然疲弱，製造商的前瞻預期也有所降溫。Logan 與 Schmid 表示，廣泛的物價壓力及具有韌性的需求，使升息仍有可能；不過，正反訊號並存，只支持美債小幅回吐漲幅。"
         },
         {
-          "section_title": "AI融資與高槓桿再融資，開始面對更嚴格的條件",
-          "summary": "甲骨文降至BBB-、Cotality再融資受阻、Aston Martin債權人結盟，使現金流與順位保障成為焦點。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "若投資人原先為更強硬的訊號預作準備，符合預期的升息仍可與殖利率下降並存。",
+          "next_check": "日本央行將於7月31日作出政策決策。",
+          "section_title": "韓國轉向緊縮，日本通膨預期升高",
+          "summary": "隨成長、通膨及金融穩定風險升高，韓國央行將政策利率提高25個基點至2.75%；但升息早已在預期內，政策指引也未承諾加快緊縮，因此韓國債券反而上漲。日本方面，家庭通膨預期創新高，支持日本央行維持緊縮傾向，但認為利率已經過高的家庭也有所增加。"
         },
         {
-          "section_title": "南韓升息、債券卻漲，日本面對偏高的通膨預期",
-          "summary": "南韓預期中的升息未阻止債券上漲；日本家庭通膨預期偏高，卻也更抗拒高利率。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "科技業大量發債爭奪有限的長天期資金承接能力，可能使 AI 借款人以外的發行人也必須提高成交讓利。",
+          "next_check": "",
+          "section_title": "AI 借款提高信用市場門檻",
+          "summary": "Oracle 推動$2,500億資料中心擴建，擴大現金流缺口並提高對外部融資的依賴，S&P 因而將其信評降至 BBB-。整體 AI 建設也占用愈來愈多投資級市場的長天期資金容量；Cotality 的$53億再融資案延後，則顯示流動性疲弱、槓桿偏高的借款人仍須提供可觀讓利。"
         },
         {
-          "section_title": "衝突與債務協商壓力，主導新興市場個別風險",
-          "summary": "中東主權利差升至402個基點，塞內加爾回收估值與中國地方融資平台限制，凸顯再融資風險。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "地緣政治壓力在區域主權信用債上的反映，比在美債通膨補償上更為明顯。",
+          "next_check": "",
+          "section_title": "戰爭風險擴大主權債分化",
+          "summary": "美國與伊朗戰事再起，荷莫茲海峽船舶稀少，即使原油在紐約收盤下跌，中東主權債利差仍然擴大。塞內加爾面臨的是另一項財政償付能力問題；Hoisington 則大幅縮短美債投資組合的存續期間，反映其擔心赤字、資本需求及較高的通膨區間將支撐期限溢價。"
         },
         {
-          "section_title": "實質殖利率回升，放大AI回報較晚到位的壓力",
-          "summary": "AI支出回報受質疑，半導體跌4.29%；油價回落但單週仍大漲，美元轉強、黃金下跌。",
           "market_read": "",
-          "next_check": ""
-        },
-        {
-          "section_title": "週五確認需求韌性與價格降溫能否並存",
-          "summary": "週五數據將釐清當前活動強、未來預期弱的落差，下週長債標售則測試存續期間需求。",
-          "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "後續市場意義",
+          "summary": "美債的核心考驗，是穩定的通膨預期與進一步通膨降溫能否和具有韌性的需求並存，或是強勁經濟活動與持續的能源壓力會保留今年稍晚緊縮的可能。美國數據、長天期債券標售、槓桿再融資條件及荷莫茲海峽干擾，將提供下一批可觀察證據。"
         }
       ],
       "watch_events": [
         {
-          "title": "美國物價、房市與生產",
-          "date": "2026年7月17日",
-          "category": "經濟數據",
-          "watch_line": "美東08:30貿易價格與新屋開工、09:15工業生產、10:00密西根大學信心。",
-          "market_trigger": "物價與未來預期轉緩時，當前活動能否維持強韌。",
-          "market_implication": "數據組合將影響週四實質殖利率升幅能保留多少。"
+          "category": "美國數據",
+          "date": "7月17日",
+          "market_implication": "聯準會今年稍晚升息的可能性將提高，對美債目前溫和的回吐幅度構成挑戰。",
+          "market_trigger": "經濟活動保持強勁，同時通膨預期上升或貿易價格壓力擴大。",
+          "title": "美國經濟活動與通膨預期",
+          "watch_line": "貿易價格、房屋開工、工業生產及密西根大學通膨預期，將檢驗需求與通膨降溫之間的平衡。"
         },
         {
-          "title": "歐洲通膨與能源",
-          "date": "2026年7月17日至7月23日",
-          "category": "通膨與政策",
-          "watch_line": "7月17日歐元區通膨、7月22日美國石油數據、7月23日ECB決議。",
-          "market_trigger": "較新的庫存、航運變化，與先前6月物價數據是否一致。",
-          "market_implication": "干擾若持續，即使原油短暫下跌，央行與中東主權債仍面臨壓力。"
+          "category": "美債供給",
+          "date": "7月22日美東時間13:00",
+          "market_implication": "長期殖利率與期限溢價可能再度面臨上行壓力。",
+          "market_trigger": "30年期殖利率仍高於5%之際，標售需求疲弱或必須提供更大讓利。",
+          "title": "長天期美債需求",
+          "watch_line": "$130億20年期公債增額發行，將在民間 AI 借款爭奪長天期資金之際，檢驗市場承接期限風險的意願。"
         },
         {
-          "title": "長債供給與再融資條件",
-          "date": "2026年7月20日至7月22日",
-          "category": "供給與信用",
-          "watch_line": "7月20至21日美國短券；7月22日約¥3,000億40年期日本公債及$130億美國20年期增額標售。",
-          "market_trigger": "短券順利承接後的長天期需求，以及Cotality最終定價。",
-          "market_implication": "標售買盤與企業讓步幅度，將顯示哪些地方提高殖利率就足以吸引資金。"
+          "category": "地緣政治",
+          "date": "持續發展中",
+          "market_implication": "通膨預期、企業利潤率與區域主權債利差都可能承受壓力。",
+          "market_trigger": "干擾持續，造成原油價格壓力不退，並擴大到岸成本漲幅。",
+          "title": "荷莫茲海峽干擾與能源壓力",
+          "watch_line": "觀察航運流量稀少及伊朗出口基礎設施附近戰事，是否使能源成本維持高檔。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "# Firm US data check the bond rally as AI borrowers face a higher financing bar\n\n## Inflation relief meets the cost of staying restrictive\n\nStronger US activity and a firmer message from Fed officials interrupted the Treasury rally on Thursday. The 2-year yield rose 3 basis points to 4.16%, leading a modest selloff after two sessions of inflation relief. Jobless claims declined, retail sales increased and the Philadelphia Fed's manufacturing gauge surged. Housing remained weak, but the combined releases gave policymakers little reason to regard demand as exhausted.\n\nThe move came through real yields rather than higher inflation compensation. The 10-year real yield rose 3 basis points to 2.35%, while its breakeven fell 1 to 2.22%. June's softer CPI and PPI still left an immediate Fed increase much less likely than at the start of the week. What Thursday restored was some of the cost of holding duration if growth stays firm and policy remains restrictive for longer.\n\nThat cost was particularly visible in AI-related assets. Oracle's downgrade to BBB- sharpened attention on the cash required before new data centers generate revenue; semiconductor shares fell more than 4% as investors questioned the returns on rising capital expenditure. Yet demand for credit had not disappeared. Short Treasury auctions cleared, broad credit funds barely moved and CoreWeave pursued another large loan. The resistance was more specific: investors wanted compensation for supply, delayed cash flow and weak creditor protections, as Cotality's difficult refinancing and Aston Martin bondholders' organizing efforts also showed.\n\n## Demand holds up, and Fed officials resist declaring victory\n\nJune retail and food-service sales rose 0.2%, following an upwardly revised 1.0% increase in May. The composition was uneven. Auto dealers and nonstore retailers each gained 1.9%, while gasoline-station receipts fell 5.3%. Sales excluding autos declined 0.2%, but excluding gasoline they rose 0.7%; excluding both, the increase was 0.4%. Lower fuel receipts softened the headline without indicating a comparable retreat across household spending.\n\nInitial jobless claims fell to 208,000 and continuing claims to 1.805 million. The Philadelphia Fed activity index jumped to 41.4 from 10.3, with new orders at 37.0 and shipments at 33.7. Prices paid edged up to 53.9 and prices received rose to 27.4. Businesses were less confident about the next six months, however, with activity and capital-spending expectations declining. May business sales rose 2.1% against a 0.3% inventory increase, reducing the inventory-to-sales ratio to 1.28.\n\nHousing provided the clearest evidence of restraint. Builder confidence fell to 34; 37% of builders cut prices and 63% offered incentives. The contrast with current manufacturing activity left a mixed, rather than uniformly strong, economy—one in which rate-sensitive sectors were struggling without a broader labor-market break.\n\nDallas Fed President Lorie Logan said modestly higher rates would better balance the outlook. Returning inflation to 2% depended on continued services moderation, no renewed energy pressure and demand that did not strengthen further. Kansas City Fed President Jeff Schmid likewise emphasized broad price pressure beyond energy alongside resilient growth. Their comments challenged the idea that one favorable month of inflation settled the policy debate.\n\nSwaps still priced only about 3 basis points of tightening for July 29, roughly a 13% probability of a quarter-point increase, versus about 40% at the week's start. December carried around 29 basis points of tightening, down from 43 earlier in the week. Traders continued selling September and December SOFR puts to close protection against higher rates. Thursday's front-end cheapening therefore sat within a larger weekly retreat from near-term hike bets.\n\nThe 5-year Treasury yield rose 2 basis points to 4.28%, the 10-year 2 to 4.57% and the 30-year 1 to 5.09%. The curve flattened modestly: 2s10s narrowed 1 basis point to 41 and 2s30s 2 to 93. Over the month, yields remained 9 basis points higher at two years and 12 higher at 30 years. Real yields rose 3 basis points at every quoted maturity, taking five years to 2.04%, seven to 2.18%, 20 to 2.71% and 30 to 2.91%, alongside the increase at ten years.\n\nAt the long end, Hoisington's change of view illustrated a more structural concern. After more than 30 years of Treasury bullishness, the firm turned bearish, citing deficits, capital demand and a higher inflation equilibrium. It estimated long-run inflation at 3.5%–4.5%, with episodes above 5%. Its fund had previously carried duration near 20.9 years, compared with roughly six for the Aggregate index. That investment judgment was distinct from the day's data-driven move, but showed how much the case for extreme duration depends on assumptions beyond the next Fed meeting.\n\nCash supply was absorbed without a comparable disturbance. The $100 billion, 8-week bill auction cleared at 3.650% with 2.84 times coverage; indirect bidders received $65.470 billion of competitive awards, dealers $27.515 billion and direct bidders $3.797 billion. The $110 billion, 4-week sale cleared at 3.660% with 2.57 times coverage, awarding $54.949 billion to indirects, $41.753 billion to dealers and $5.644 billion to directs. Both settle July 21.\n\nLater in the evening, a 19:00 ET account of Vice Chair Philip Jefferson's remarks added a conditional message: policy was well positioned, but could be reconsidered if inflation failed to cool. He described AI as a demand shock arriving before uncertain productivity benefits, with energy another possible influence on expectations. The remarks extended the debate beyond the close rather than constituting another driver of the earlier Treasury move.\n\n## AI funding and leveraged refinancings draw sharper distinctions\n\nS&P cut Oracle to BBB-, the lowest investment-grade tier, as a $250 billion data-center expansion ran ahead of revenue and cash generation. Free cash flow after capital spending had been more than $20 billion negative over the preceding four quarters; S&P estimated that the deficit could reach $42 billion in the coming fiscal year. Moody's negative outlook left open another route toward a downgrade.\n\nOracle's bonds already reflected some of that deterioration. Its 10-year debt yielded about 6.4%, versus 5.7% for the 10-year BBB curve and 6.7% for BB debt. About $117 billion of Oracle bonds sat in a major US corporate index after a $25 billion February sale, and the company expected to raise roughly $40 billion through debt and equity during the fiscal year. Losing investment grade at two agencies could move an unusually large issuer into a smaller high-yield investor base, making the choice between further borrowing and equity especially consequential.\n\nThe supply concern extended beyond Oracle. Hyperscaler bonds had reached about 4%–5% of the broad investment-grade index by market value, with spreads widening as issuance exceeded expectations. CoreWeave was seeking a $2.6 billion delayed-draw term loan to install GPUs under take-or-pay contracts. Its annual spending plans exceeded $34 billion, following a $3.1 billion GPU-backed loan that attracted $19 billion of orders. Contracted demand and asset-backed structures continued to mobilize financing even as public bond investors demanded more compensation for the sector's growing weight.\n\nCotality, formerly CoreLogic, faced more immediate resistance. In an update published shortly after the Treasury close, the property-data company was considering a yield as high as 9.5% on first-lien bonds, up from the mid-8% area, and about 12% on a second-lien tranche, up from 11%. The latter could be issued below par, alongside stronger investor protections. Its $5.3 billion refinancing had drawn lukewarm orders against roughly eight-times leverage, only about $55 million of cash and expectations of greater revolver use while free cash flow remained very modest.\n\nThe company, rated six notches below investment grade by S&P, was refinancing debt from a $6 billion acquisition five years earlier. Higher yields would add debt service to an already thin liquidity position; documentation changes would determine how value was shared if operations disappointed. The concessions under discussion were therefore central to whether the transaction could clear, not just an adjustment to an otherwise settled price.\n\nAston Martin creditors were organizing before additional financing could alter their position. Funds led by Arini, BlackRock and Sculptor hired Jefferies after shareholders provided £50 million of debt for liquidity. The group held a majority of the automaker's $1.85 billion equivalent of 2029 bonds and entered a cooperation agreement amid concern that loose documentation could allow new financing to subordinate existing claims. Product delays, weak Chinese demand and US tariffs made that priority question more pressing.\n\nOther sectors had their own financing or valuation problems. Bank of America stopped working with Chicago on a plan to sell about $1 billion of overdue fines and fees. The proposed transaction was expected to raise at least $89 million; its lack of progress contributed to a projected $90 million midyear revenue gap. The difficulty lay in monetizing unsecured receivables, rather than an equivalent shortfall in ordinary tax collections.\n\nHigh-yield gaming spreads had widened about 9 basis points during the year while consumer-cyclical spreads narrowed about 17, as land-based casinos faced slower growth and competition from online betting and prediction markets. In shipping, Citi recommended shorting CMA CGM debt, arguing that new vessel capacity threatened freight rates after the Hormuz-related rally. Its €700 million, 2032 bond traded near 99.5, about six points above end-March.\n\nBroad funds were much quieter than these individual stories: LQD fell 0.07% to 107.50, HYG 0.01% to 79.80 and JNK rose 0.01% to 96.08. There was no generalized withdrawal from credit in those prices. The day's financing news instead showed how leverage, creditor ranking, industry supply and the timing of cash generation were determining the terms on which money remained available.\n\n## Korea hikes into a bond rally; Japan confronts high inflation expectations\n\nThe Bank of Korea unanimously raised its 7-day repurchase rate 25 basis points to 2.75%, its first increase since January 2023, and retained a tightening bias. Governor Shin Hyun Song cited inflation, stronger growth, a weak won and financial-stability risks, keeping every meeting live. Yet Korean 3- and 10-year yields fell 4 basis points to 3.83% and 4.29%. The increase had been fully anticipated, and the absence of guidance toward faster tightening allowed bonds to rally even as swaps retained at least two further increases over six months.\n\nShin said the earlier 2.6% growth projection looked too low after a semiconductor-led export boom; June inflation had reached 3.2%. The AI cycle was supporting activity and the terms of trade while also contributing to price pressure. For bondholders, the distinction was between an expected normalization step and evidence that the entire subsequent path needed to move higher.\n\nJapan's household survey underscored its own policy tension. Average inflation expectations over the next five years reached 10.8%, the highest since records began in 2006, although the median remained 5%. About 66% probability was attached to another BOJ move by October after the policy rate reached 1% in June. At the same time, a record 24% of households considered rates already too high ahead of the July 31 decision.\n\nJapanese cash instruments still found buyers. A 1-year bill sale accepted ¥2.136 trillion of competitive bids, with a yield of 1.2168% at the lowest accepted price and a 1.2066% weighted-average yield, plus ¥664.4 billion of noncompetitive bids. A liquidity-enhancement operation placed ¥699.0 billion of bonds with one to five years remaining at a −0.004% average spread. These operations provided evidence of absorption, even as the expected BOJ path raised the return available to domestic investors.\n\nBritain's May GDP rose 0.1% after a revised 0.1% April decline, leaving three-month growth at 0.7%. Services expanded 0.3%, but production fell 0.5% and construction 0.8%. BOE Deputy Governor Sarah Breeden argued that slack and higher borrowing costs reduced the risk of the energy shock becoming embedded, while leaving room to tighten if second-round effects developed. Weak rate-sensitive sectors thus coexisted with services growth and continued energy uncertainty.\n\nFrance's constraint was more explicitly fiscal. A Finance Ministry-commissioned analysis estimated that the next president would need €126 billion of savings over five years merely to stabilize debt. Without action, the fiscal gap could approach 7% of output in 2030, largely because of debt-service costs. The estimate added detail to the fiscal concerns already weighing on French bonds: higher yields were increasing the adjustment future governments would need to make.\n\n## Conflict and debt treatment weigh on emerging-market borrowers\n\nEMB fell 0.15% to 95.59 as the dollar index rose 0.23% to 100.73. Higher US real yields and a firmer dollar were a common headwind, but the clearest cash-bond deterioration came from the Middle East. The region's average sovereign premium widened about 20 basis points over a week to 402 over Treasuries, the widest since October 2022 and 163 basis points above other emerging-market issuers.\n\nThe breakdown of the April ceasefire and renewed attacks around Hormuz had produced the region's worst performance in EM dollar bonds since the war began. For oil producers, higher prices did not necessarily offset disruption: interrupted exports could reduce fiscal receipts, while security, shipping and insurance costs rose. Thursday's small crude decline did little to resolve the uncertainty over continuing access to the strait or the viability of longer-dated investment plans.\n\nSenegal's debt debate acquired a more explicit valuation test. Citi estimated recoveries of 43–50 cents on the dollar under exit yields of 11% and 9%, below bonds trading at 51–54 cents. Debt was near 130% of GDP and the IMF program remained suspended. The bank saw fiscal and debt sustainability, rather than an immediate balance-of-payments shortage, as the central problem. Hiring Lazard and weaker demand for longer regional securities had already brought negotiations closer despite official opposition to restructuring; the new recovery estimates showed why regional borrowing alone was unlikely to settle the question of what existing bonds were worth.\n\nChina tightened a different refinancing channel. The interbank regulator told some bankers that LGFVs with bond balances above their March 31, 2023 levels should suspend ongoing sales and avoid new offerings. The sector had about CNY16 trillion of bonds outstanding, including roughly CNY5 trillion maturing by end-2027; 52.7% traded in the interbank market. Limiting supply could create scarcity for outstanding bonds while making refinancing harder for the issuers most constrained by existing debt.\n\nAfter the close, Mozambique reported progress on rescheduling roughly $1.45 billion owed to China, its largest bilateral creditor. It cited an April agreement with Brazil as a model: about $143 million was restructured into an initial payment followed by ten semiannual installments at 3.625%. Debt relief and a new IMF program were needed well before a prospective $30 billion LNG project could improve medium-term finances; the IMF still described the country as in debt distress.\n\n## Higher real yields expose the timing of AI returns\n\nThe S&P 500 fell 0.51% to 7,533.77, the Nasdaq 100 lost 1.62% to 29,025.77 and the semiconductor index dropped 4.29% to 11,867.50. VIX rose 6.76% to 16.73. Technology bore the largest losses, paralleling the financing concerns evident in AI-related debt rather than a uniform retreat across every risk asset.\n\nSemiconductors weakened despite TSMC's strong outlook as higher capital-spending guidance intensified questions about future returns. The four largest US operators were expected to spend more than $725 billion during the year; Alphabet also fell amid reports that a flagship model was behind schedule. Oracle's downgrade gave bondholders a balance-sheet version of the same concern: the spending arrives before the revenue, and higher real yields make that interval more expensive.\n\nOil paused after three advances. WTI fell 0.82% to $78.95 and Brent 0.85% to $84.23, though weekly gains remained 9.53% and 10.39%. Lower-48 natural-gas inventories rose 41 Bcf to 3,024 Bcf, led by the Midwest and East. The daily energy retreat accompanied lower Treasury breakevens, while the accumulated oil gain and renewed attacks kept later fuel and freight costs uncertain.\n\nGold futures fell 1.44% to $3,985.60 as the dollar strengthened and real yields rose. Worsening geopolitical risk did not produce a broad haven rally in that setting. Across bonds, currencies and technology shares, the more consistent feature of the session was the renewed weight of real financing costs, even though the scale of the Treasury move remained modest.\n\n## Friday tests whether resilient demand can coexist with softer prices\n\nJuly 17 brings import and export prices and housing starts at 08:30 ET, industrial production and capacity utilization at 09:15, and preliminary University of Michigan sentiment at 10:00. Together they will show whether the weakness in builder confidence and survey expectations is spreading, or whether current output remains firm. Household inflation expectations and trade prices will also help distinguish sustainable disinflation from a temporary favorable month.\n\nFinal June euro-area inflation is due at 05:00 ET that day, followed by the next US petroleum report at 10:30 on July 22 and the ECB decision at 08:15 on July 23. June's price readings will need to be considered alongside newer inventory and shipping developments. Middle Eastern sovereign spreads provide an additional measure of how much conflict risk persists even when crude prices dip.\n\nSupply includes $92 billion of 13-week and $79 billion of 26-week bills on July 20, then $95 billion of 6-week bills on July 21, ahead of July 23 settlements. July 22 pairs Japan's roughly ¥300 billion, 40-year sale with a $13 billion US 20-year reopening at 13:00 ET. Short bills have found demand; the longer sales will test whether elevated yields also attract investors willing to hold duration. Cotality's eventual terms offer the corporate counterpart, showing how much additional yield and creditor protection a highly leveraged borrower needs to complete its refinancing.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries edged lower on July 16 as resilient U.S. demand and a trio of inflation-focused Federal Reserve officials checked the rally generated by two softer June price reports. The move was small: the 2-year yield rose 0.6 basis point to 4.142%, the 5-year added 0.7 basis point to 4.27%, the 10-year increased 0.5 basis point to 4.554%, and the 30-year rose 0.4 basis point to 5.084%. The nearly parallel adjustment left 2s10s at 41.2 basis points and 2s30s at 94.2 basis points, both little changed on the day.\n\nThat restraint was the session’s defining feature. Initial jobless claims fell, retail sales increased, the Philadelphia Fed’s manufacturing index surged to its strongest level in nearly five years, and Dallas Fed President Lorie Logan explicitly favored modestly higher rates. Kansas City Fed President Jeff Schmid separately warned that price pressure remained too broad to dismiss after one favorable month. Yet the Treasury market gave back only a fraction of the previous two sessions’ rally, with rate-option traders continuing to unwind protection against an imminent increase.\n\nThe composition of the 10-year move reinforced that interpretation. The real yield rose 1 basis point to 2.314%, while the breakeven inflation rate fell 0.5 basis point to 2.24%. Investors required slightly more inflation-adjusted return as the activity data remained firm, but did not rebuild inflation compensation despite renewed fighting around Iran and the Strait of Hormuz. Oil declined on the day—WTI by 0.82% to $78.95 and Brent by 0.85% to $84.23—even though both remained roughly 10% higher over the week and shipping disruption continued.\n\nThe market was therefore distinguishing the July decision from the later policy path. Swaps priced about 3 basis points of tightening for the July 29 meeting, equivalent to roughly a 13% chance of a quarter-point increase, down from about 40% at the start of the week. December contracts still incorporated around 29 basis points of tightening. June inflation relief had made an immediate increase less likely, but Thursday’s growth data and Fed commentary argued against treating the tightening cycle as conclusively finished.\n\nRisk assets supplied a separate caution around the scale and financing of the artificial-intelligence buildout. The Philadelphia Semiconductor Index fell 4.29%, the Nasdaq 100 lost 1.62%, and the S&P 500 declined 0.51% even after Taiwan Semiconductor Manufacturing raised its sales and capital-spending outlook. TSMC’s strong results could not overcome concern that the four largest U.S. AI operators may spend more than $725 billion this year before the revenue payoff is clear. That issue is increasingly important for bonds as well as equities: technology borrowers are occupying more of the investment-grade market, Oracle is one notch above junk at S&P, and a large leveraged refinancing struggled to clear without substantially better terms.\n\n## Strong Data Check the Disinflation Rally\n\nThe day’s U.S. releases showed an economy with firm current momentum but uneven sector breadth. Advance retail and food-service sales rose 0.2% in June to $768.6 billion and were 6.7% higher than a year earlier. May’s monthly increase was revised to 1% from 0.9%, strengthening the comparison base and making June’s modest headline less suggestive of a broad consumer retreat.\n\nThe composition mattered. Sales excluding motor vehicles fell 0.2%, but sales excluding gasoline increased 0.7%, and the measure excluding both autos and gasoline rose 0.4%. Motor-vehicle dealers and nonstore retailers each recorded 1.9% gains, while gasoline-station receipts fell 5.3% and food-service sales increased only 0.1%. Lower gasoline receipts depressed the headline without showing that discretionary demand had weakened across the board.\n\nLabor data offered another near-term resilience signal. Initial unemployment claims declined by 8,000 to 208,000 in the week ended July 11, from a revised 216,000. Their four-week average fell by 4,750 to 214,250. Continuing claims dropped by 16,000 to 1.805 million in the week ended July 4, although their four-week average increased slightly to 1.811 million. The insured unemployment rate held at 1.2%. Falling new and continuing claims gave the Fed little evidence that restrictive rates had produced an abrupt deterioration in employment.\n\nThe Philadelphia Fed survey delivered the strongest current-growth result. Its general activity index jumped to 41.4 in July from 10.3, the highest in nearly five years. New orders rose to 37 from 27.3, shipments climbed to 33.7 from 14.9, and the employment and average-workweek indexes remained positive at 10 and 14, respectively.\n\nPrice measures did not share the improvement in June’s national inflation reports. The prices-paid index increased to 53.9 from 53.2, while prices received rose to 27.4 from 20.3. Forward indicators were less emphatic than the current readings: expected activity over the next 6 months fell to 34.4 from 50.2, and planned capital spending declined to 30.1 from 41.2. The survey therefore strengthened the current demand and pipeline-price case without showing that manufacturers expected the same acceleration to persist.\n\nMay business data also pointed to strong nominal throughput. Manufacturing and trade sales increased 2.1% from April and 11.9% from a year earlier to $2.135 trillion. Inventories rose only 0.3% on the month and 3.1% on the year to $2.736 trillion, lowering the inventory-to-sales ratio to 1.28 from 1.39 a year earlier. Faster sales than stock accumulation suggested that current activity was not being sustained by an involuntary inventory buildup.\n\nHousing remained the clearest counterweight. The NAHB/Wells Fargo Housing Market Index fell 2 points to 34 after June was revised to 36, extending its run below 40 to 15 months, the longest since 2012. Current sales declined to 37, expectations for the next 6 months fell to 43, and prospective-buyer traffic slipped to 23. Thirty-seven percent of builders cut prices, with an average reduction of 6%, while 63% used sales incentives. Financing costs and affordability were still constraining a rate-sensitive sector even as consumers, factories and the labor market held up.\n\nThe mix explains why Treasury yields rose only marginally rather than reversing the inflation-driven rally. Stronger activity increases the cost of keeping policy restrictive for less time than markets had begun to assume, but the releases did not overturn the softer CPI and PPI readings. Housing was weak, forward manufacturing expectations moderated, and the retail headline was held down partly by cheaper gasoline rather than a generalized collapse or acceleration in spending.\n\nRate-option positioning reflected that distinction. Selling of September and December options that benefit from higher policy rates continued during U.S. trading, with prior open-interest declines indicating that traders were closing earlier hedges rather than simply establishing new positions. The probability of a July increase remained low, while the amount of tightening priced by December fell to about 29 basis points from 43 basis points at the start of the week. The market was reducing the conviction and speed of the hiking path, not replacing it with an easing cycle.\n\nLogan challenged that benign interpretation most directly. The Dallas Fed president, who votes on the Federal Open Market Committee this year, said modestly higher rates would better balance the risks because inflation did not appear to be returning sustainably to 2%. She acknowledged that June inflation had improved and that further moderation in housing and non-housing services could produce a more favorable outcome. Her objection was that this path depended on avoiding renewed energy pressure in the near term and stronger demand later.\n\nThat qualification was material after the week’s rebound in crude and Thursday’s activity figures. Logan said one month of relief was insufficient and argued that the demand effects of artificial-intelligence investment were already present, while the size and timing of its productivity benefits remained uncertain. Her reasoning joined the AI capital-spending boom to the reaction function through current demand for equipment, construction, power and labor rather than assuming that future productivity would immediately offset those pressures.\n\nSchmid delivered a separate warning. The Kansas City Fed president described inflation as his primary concern and said price pressure extended beyond energy into a broad basket of goods and services, including food. He regarded the better June data as insufficient to establish a trend and argued that strong demand, not supply shocks alone, had to be considered when deciding whether inflation would persist. At the same time, he described the labor market as balanced and growth as resilient, reinforcing the case that the Fed could focus on prices without responding to an employment break.\n\nVice Chair Philip Jefferson added a more conditional signal in remarks released after the completed fixed-income close. He judged policy well positioned to support employment while inflation declined, but said the stance could be reconsidered if actual inflation did not begin to cool soon. Jefferson emphasized that AI could create opposing demand and supply shocks and that the timing of each mattered for policy. He also identified the possibility that the energy shock could feed longer-term expectations as a critical risk. His comments did not drive the completed Treasury close, but they broadened the group of officials preserving a route to higher rates if June’s improvement fails to continue.\n\nTreasury cash activity declined alongside the small yield move. FINRA recorded $905.3 billion of par transactions across 326,681 trades, 14.7% less par activity than on July 15. Nominal-coupon activity fell 19.1% to $682 billion. Turnover declined 29.9% in maturities longer than 3 years and no more than 5 years, and 15.9% in the sector longer than 7 years and no more than 10 years. Those are two-way activity measures, but they distinguish Thursday’s modest retracement from the heavier engagement surrounding the earlier inflation repricing.\n\nFront-end supply continued to find cash demand. Treasury’s $110 billion 4-week bill auction stopped at a 3.660% high rate with a 2.57 bid-to-cover ratio, while the $100 billion 8-week sale cleared at 3.650% with 2.84 times cover. Indirect bidders received $54.949 billion of accepted competitive tenders in the shorter auction and $65.470 billion in the longer one. Both issues settle July 21. Without a when-issued reference, the results do not establish rich or cheap pricing, but they showed no obvious funding strain as the coupon market debated the policy path.\n\n## Korea Tightens as Japan’s Inflation Expectations Rise\n\nSouth Korea began a new tightening cycle, raising its 7-day repurchase rate by 25 basis points to 2.75% in a unanimous decision. The increase was the first since January 2023 and matched every forecast in Bloomberg’s economist survey. It followed four reductions since late 2024, making the move a reversal in policy direction rather than a continuation of an established hiking campaign.\n\nGovernor Shin Hyun Song maintained a tightening bias but did not signal the timing of the next increase or an eventual peak. He said every coming meeting remained live and linked further action to incoming evidence on inflation, growth and financial stability. The swaps market priced at least two additional increases over the following 6 months, but Shin did not endorse an accelerated schedule.\n\nThe economic justification extended beyond headline inflation. Shin said the Bank of Korea’s May forecast of 2.6% growth for 2026 appeared too low and would be revised substantially higher in August because exports, investment and consumption were stronger than expected. The government had already lifted its forecast to 3%, while the International Monetary Fund raised its projection to 2.6%, the largest upward revision among 30 major economies.\n\nConsumer inflation reached 3.2% in June, the fastest in more than 2 years, and the government expected it to average 2.6% for the year. Shin said the weak won would continue to lift import prices and that stronger activity could produce additional demand-driven inflation. A semiconductor-led export boom had pushed the current-account surplus for the first 5 months of 2026 above the record total for all of 2025, while the economy expanded 1.8% in Q1.\n\nThe central bank views the chip cycle as more structural than previous export upswings because AI demand is turning semiconductors into infrastructure rather than a conventional finished product. Shin said chip prices were more informative for Korea’s terms of trade and growth than short-term changes in chip-company shares. That distinction was especially relevant on Thursday, when global semiconductor equities sold off even though TSMC reported a 77% increase in quarterly profit and raised its outlook.\n\nThe benefits remain uneven. Employment has stayed weak despite the export boom, and capital-intensive semiconductor production has generated fewer jobs than its output would normally imply. Financial-stability concerns have also strengthened the case for tighter policy: Seoul apartment prices have risen for 76 consecutive weeks, household borrowing is accelerating again, and officials have warned that leveraged investment could amplify imbalances.\n\nKorean bonds rallied after the decision and press conference. The 3-year yield fell 4 basis points to 3.83%, and the 10-year also declined 4 basis points to 4.29%. The reaction was consistent with a move that was expected and guidance that preserved quarterly or data-dependent tightening rather than promising a faster sequence. A hike can coexist with falling yields when investors had prepared for a more aggressive signal.\n\nJapan provided a related inflation-expectations warning. Households expected annual inflation to average 10.8% over the next 5 years, the highest reading in Bank of Japan data extending back to 2006, although the median remained 5%. BOJ Executive Director Koji Nakamura reiterated that upside risks were high and that delaying policy adjustment could ultimately weigh on the economy. The benchmark rate was 1% after reaching its highest level since 1995 in June, and traders assigned about a 66% chance to another increase by October.\n\nThe survey also showed the cost of normalization. Twenty-four percent of households regarded interest rates as already too high, the largest share on record. The BOJ must therefore weigh unusually elevated perceived inflation against growing sensitivity to borrowing costs. Its next decision is scheduled for July 31.\n\nJapan’s front-end auctions supplied realized demand measures without resolving that policy balance. The 1-year Treasury discount-bill auction accepted ¥2.136 trillion of competitive bids and ¥664.4 billion of noncompetitive bids. The lowest accepted price of 98.801 corresponded to a 1.2168% yield, while the weighted-average yield was 1.2066%; 73.8823% was allotted at the lowest price. The securities are issued July 21 and mature July 20, 2027.\n\nA separate liquidity-enhancement operation accepted ¥699 billion across outstanding JGBs with 1 to 5 years remaining. Competitive bids totaled ¥2.679 trillion. The highest accepted spread was minus 0.001%, with 70.1674% allotted there, and the average accepted spread was minus 0.004%. The result showed demand for seasoned securities across eligible 2-, 5-, 10-, 20- and 30-year issues rather than providing a new benchmark-yield signal.\n\nUK data presented a softer policy mix. Real gross domestic product rose 0.1% in May after a revised 0.1% decline in April. Output increased 0.7% over the 3 months through May and 1.1% from the same period a year earlier. Services grew 0.3% on the month, but production contracted 0.5% and construction fell 0.8%, leaving the recovery dependent on services rather than broadly distributed.\n\nBank of England Deputy Governor Sarah Breeden argued that weak activity and labor-market slack reduced the danger that renewed energy inflation would become embedded in wages and domestic prices. She had voted with the majority to keep the policy rate at 3.75% for the previous 3 meetings and had favored reductions before the war. Breeden said she would support higher rates if a price feedback loop developed, but did not regard the oil shock alone as sufficient when borrowing costs were already restraining households and companies. The May output composition supported her caution even as Brent’s weekly rise kept the second-round risk alive.\n\n## AI Borrowing Raises the Credit Bar\n\nOracle placed the financing strain from AI investment directly into the investment-grade market. S&P Global Ratings cut the company to BBB-, one notch above speculative grade, as a $250 billion data-center expansion consumed cash faster than revenue arrived. Moody’s maintained a negative outlook, leaving open the possibility of another downgrade over the medium term.\n\nThe timing mismatch is unusually large. Oracle burned more than $20 billion after capital expenditure over the latest 4 quarters, and S&P estimated that its free-cash-flow deficit could widen to $42 billion in the coming fiscal year. Capital spending is expected to keep rising through at least fiscal 2029. The company has accumulated a substantial contract backlog, but the revenue will be recognized over time while construction and equipment require cash upfront.\n\nOracle’s bonds already reflected more risk than the rating label alone suggested. Its 10-year debt yielded about 6.4%, close to the 6.7% yield on comparable BB paper and well above the 5.7% level of the 10-year BBB curve. A fall to junk at 2 rating agencies could make Oracle the largest issuer in the smaller U.S. high-yield market, potentially increasing its borrowing cost and forcing a new investor base to absorb the debt.\n\nThe company said maintaining investment grade remained its highest capital-allocation priority. It expects to raise about $40 billion through debt and equity this fiscal year, including a previously announced $20 billion at-the-market equity program. Oracle sold $25 billion of investment-grade bonds in February and has about $117 billion included in the Bloomberg U.S. Corporate Bond Index, making it the second-largest nonfinancial constituent after Amazon.\n\nConcentration compounds the funding issue. S&P estimated that roughly half of Oracle’s $638 billion of remaining performance obligations were tied to OpenAI. That backlog offers a future revenue path but exposes the financing plan to a single large customer and to the pace at which contracted AI demand becomes cash flow. Alphabet and Meta have greater capacity to fund investment internally, while Oracle may need to reduce capital spending, issue more equity or accept additional leverage.\n\nThe broader bond index is becoming more exposed to the same cycle. Hyperscaler debt represents about 4% to 5% of investment-grade market value, depending on whether privately placed securities are included. Because those companies often issue longer debt at wider spreads, Barclays calculated that they account for 8.3% of the index’s duration-times-spread risk. Including a wider group of AI-related issuers raises the share to 11.4%, more than the contribution of the six large banks that have traditionally dominated issuance.\n\nThat risk footprint makes the AI financing cycle difficult for benchmarked investors to ignore. Additional technology supply must compete with banks, industrial companies and governments for a finite pool of duration capacity. Strongly rated hyperscaler bonds can offer attractive carry, but continued surprise issuance may require larger concessions and can lift clearing spreads beyond technology borrowers themselves.\n\nCotality showed how quickly the financing bar rises when leverage and cash flow are weaker. The property-data company was considering increasing the yield on part of a $5.3 billion refinancing after demand fell short. The proposed first-lien bond yield could rise to as much as 9.5% from the mid-8% area, while a second-lien tranche could move to about 12% from 11% and be issued below par. Investors were also discussing stronger documentation protections, though no final changes had been made.\n\nThe company carries debt equal to about 8 times earnings and is rated 6 notches below investment grade by S&P. It held about $55 million of cash at March 31 and was expected to rely on a revolving facility as free cash flow remained very modest. The transaction, intended to refinance debt used for its $6 billion acquisition by Stone Point Capital and Insight Partners, had initially been expected to price Thursday. The delay and prospective concessions showed that large leveraged deals could not rely on the broadly tight credit environment to overcome weak liquidity and aggressive leverage.\n\nAston Martin creditors were preparing for a different form of financing risk. Funds led by Arini Capital Management, BlackRock and Sculptor Capital Management hired Jefferies as adviser amid concern that new borrowing could subordinate existing claims under relatively loose bond documents. The group holds a majority of the company’s $1.85 billion-equivalent of bonds due in 2029, signed a cooperation agreement, and offered to discuss fresh financing and the wider capital structure.\n\nAston Martin received £50 million of shareholder debt in April after relying previously on equity injections to support liquidity. Product delays, quality problems, weak Chinese demand and U.S. tariffs have increased creditor concern that further financing might use collateral or structural provisions to disadvantage current bondholders. The engagement is preparatory rather than an agreed restructuring, but it moves the issue from general balance-sheet concern toward organized creditor action.\n\nChicago’s effort to monetize overdue parking fines also stalled. Bank of America stopped working as placement agent on a proposed sale of about $1 billion of receivables after the parties could not agree on the scope of services. The plan was intended to raise at least $89 million and help close the city’s budget gap, but officials cited privacy, legal and reputational risks for potential buyers. Its lack of progress contributed to a projected $90 million midyear revenue shortfall, even as several tax collections were running ahead of plan.\n\nBroad listed credit prices were comparatively stable. LQD fell 0.07%, HYG declined 0.01%, JNK rose 0.01%, and EMB lost 0.15%. Those small moves did not indicate a generalized repricing comparable with the semiconductor selloff. The more consequential signal lay in issuer-level terms: a highly leveraged refinancing needed substantially more yield, Oracle’s AI expansion had consumed its rating cushion, and creditors at Aston Martin were organizing before any new transaction could weaken their position.\n\n## War Risk Widens the Sovereign Divide\n\nRenewed U.S.-Iran fighting had a more direct effect on Middle Eastern sovereign credit than on Treasury inflation compensation. The average regional sovereign spread widened about 20 basis points in the week after President Donald Trump warned that the ceasefire might be over, reaching 402 basis points over Treasuries. That was the widest since October 2022 and contributed to the fastest year-to-date spread increase since 2018.\n\nMiddle Eastern dollar bonds became the worst-performing regional group in emerging markets since the war began. Governments in the region offered 163 basis points of additional yield over other developing-country sovereigns. The repricing reversed part of the more than 50-basis-point narrowing that followed the tentative April ceasefire.\n\nThe security situation deteriorated again Thursday. The United States struck a sanctioned supertanker near Iran’s main oil terminal, its first attack on a vessel there since reinstating the blockade. Observable commercial traffic through the Strait of Hormuz was sparse and largely limited to Iran-linked vessels using a northern route approved by Tehran. India ordered shipowners to stop assigning its seafarers to voyages through the strait, and Asian spot liquefied-natural-gas prices rose to their highest since March.\n\nCrude nevertheless declined modestly at the New York close after a large three-day advance. Brent remained up 10.39% over a week and WTI 9.53%, so the daily fall did not restore the pre-escalation energy backdrop. The dollar index gained 0.23%, gold futures fell 1.44% to $3,985.60, and the VIX rose 6.76% to 16.73. Higher yields and a firmer dollar outweighed geopolitical demand for gold, while equity volatility was concentrated most visibly in technology.\n\nSenegal illustrated a sovereign problem driven less by external liquidity than by fiscal solvency. Citigroup estimated that dollar-bond holders could recover 43 cents to 50 cents on the dollar under a restructuring, assuming exit yields of 11% and 9%, respectively. Existing bonds traded between 51 and 54 cents, with the 2048 note quoted at 51.70 cents in London, placing market prices above the lower end of Citi’s scenarios.\n\nDebt stands near 130% of gross domestic product, and the International Monetary Fund program is suspended. Authorities remain broadly opposed to restructuring, but Lazard’s appointment as financial adviser and weakening demand for longer regional-market securities have intensified speculation that negotiations may become necessary. Senegal’s spread was almost 1,500 basis points over Treasuries, the highest distress level among African sovereign issuers in JPMorgan’s index.\n\nCiti distinguished Senegal from Zambia and Ghana because its immediate problem is fiscal and debt sustainability rather than a balance-of-payments shortage. That difference does not make a restructuring less costly for bondholders. The bank judged that a large nominal haircut would be required if Senegal remained committed to an IMF-supported adjustment, while domestic politics would influence whether talks begin this year.\n\nThe turn in long-duration sentiment also extended beyond distressed borrowers. Hoisington Investment Management, known for a bullish Treasury stance maintained over more than 3 decades, said larger fiscal deficits, heavier capital demand and a higher long-run inflation range now pointed toward rising long yields. The effective duration of its portfolio fell from 20.88 years at the end of September to 4.7 years at the end of March and to less than 1 year by June 30.\n\nHoisington placed long-run inflation equilibrium around 3.5% to 4.5%, with a meaningful risk of episodes above 5%, and argued that investors were demanding more term premium from Treasury debt. Its assessment is a portfolio manager’s structural view rather than a description of Thursday’s small move. It is nevertheless consistent with the market’s continuing reluctance to push the 30-year yield decisively below 5% even after favorable June inflation data. The long bond ended at 5.084%, while the modest daily rise left it 10.4 basis points higher over the month.\n\n## Forward Market Significance\n\nThe next U.S. data sequence arrives July 17. June import and export prices and housing starts are due at 08:30 ET, followed by industrial production and capacity utilization at 09:15 and preliminary University of Michigan consumer sentiment at 10:00. Trade prices will show whether energy, shipping and tariff costs are passing through before reaching consumer inflation. Housing starts will test whether weak builder confidence is appearing in construction activity, while industrial production will show whether the Philadelphia Fed’s surge is part of a broader factory acceleration.\n\nMichigan’s inflation-expectations measures are especially important after Fed officials emphasized the risk that the renewed energy shock becomes persistent. A stable expectations reading would support the market’s decision not to rebuild 10-year inflation compensation on Thursday. A rise alongside firm sentiment and production would strengthen Logan’s and Schmid’s concern that June’s favorable inflation results may not survive stronger demand and higher delivered energy costs.\n\nFinal June euro-area harmonized inflation is scheduled for July 17 at 11:00 CEST. The composition will matter for the European Central Bank’s July 23 decision because officials are assessing whether higher energy prices are broadening into goods, services or wage setting. The ECB’s bank lending survey on July 21 will add evidence on second-quarter lending standards, loan demand and banks’ expectations for Q3 before the rate announcement and press conference.\n\nChina sets its 1- and 5-year loan prime rates on July 20 at 09:00 CST. The fixings follow weak property and investment data and will show whether policymakers are willing to transmit easier financing conditions through bank lending rates. Japan’s 3-month bill auction on July 17 will test near-term yen cash demand, but the larger duration event is the approximately ¥300 billion reopening of a 40-year JGB on July 22. That sale comes as household inflation expectations reach a record, the BOJ retains a tightening bias and more households report that rates already feel too high.\n\nU.S. Treasury supply returns with $92 billion of 13-week bills and $79 billion of 26-week bills on July 20, both settling July 23, followed by a $95 billion 6-week bill sale on July 21. The long-duration test is the July 22 reopening of $13 billion of 20-year bonds at 13:00 ET. The 5% coupon security settles July 24 and matures May 15, 2046. The auction will test demand for term risk while the 30-year yield remains above 5% and private AI borrowing competes for duration capacity.\n\nCorporate execution will provide a parallel measure. Cotality’s proposed refinancing has already moved from the mid-8% area toward as much as 9.5% on first-lien debt, with potential document improvements and a still-higher second-lien yield. Whether the company can complete the $5.3 billion transaction—and on what final protections—will indicate how much concession highly leveraged borrowers need even when broad credit funds are little changed.\n\nThe U.S.-Iran conflict remains the most immediate threat to the market’s distinction between softer realized inflation and firmer prospective inflation. Sparse Hormuz traffic and the strike near Iran’s export terminal have not yet produced another daily surge in crude, but Brent and WTI remain roughly 10% higher over the week. Continued disruption would affect later inflation data, corporate margins and sovereign risk even if the Fed holds rates on July 29.\n\nFor Treasuries, the central test is no longer whether the June CPI and PPI reports removed most of the case for a July increase; market pricing already reflects that judgment. The question is whether resilient consumption, low claims and strong current factory activity allow officials to preserve or deliver tightening later in the year. Further broad disinflation and anchored expectations would validate the small July 16 yield retracement. Renewed price breadth, sustained energy pressure or another sequence of firm activity readings would make the current combination—low near-term hike probability but more than one quarter-point priced by December—harder to maintain.\n",
     "section_summaries": [
       {
+        "market_read": "Higher real yields, lower breakevens and a nearly parallel curve move pointed to growth resilience rather than renewed inflation fear.",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Inflation relief meets the cost of staying restrictive",
-        "summary": "Firm activity and higher real yields checked the inflation rally, with the greatest pressure on technology and demanding financing stories.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "Firm U.S. activity and inflation-focused Fed commentary nudged Treasury yields higher but reversed little of the rally generated by softer June inflation. Markets distinguished a low-probability July increase from continued tightening risk later in the year, while AI financing concerns weighed on technology shares and raised questions for corporate bond supply."
       },
       {
+        "market_read": "Markets reduced the speed and conviction of the hiking path without replacing it with an easing cycle.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Demand holds up, and Fed officials resist declaring victory",
-        "summary": "Claims fell to 208,000 and the Philadelphia Fed index reached 41.4. The Fed debate shifted back toward how long restriction may be needed.",
-        "market_read": "Ten-year real yield rose 3 basis points to 2.35%, while the breakeven fell to 2.22%.",
-        "next_check": "Friday's housing, output and inflation-expectations data will test the resilience of demand."
+        "section_title": "Strong Data Check the Disinflation Rally",
+        "summary": "June retail sales, falling jobless claims and a 41.4 Philadelphia Fed index showed firm current momentum, while housing remained weak and manufacturers’ forward expectations moderated. Logan and Schmid said broad price pressure and resilient demand kept higher rates possible, but the mixed evidence supported only a small Treasury retracement."
       },
       {
+        "market_read": "An expected hike can coexist with lower yields when guidance is less aggressive than investors had prepared for.",
+        "next_check": "The BOJ decides policy on July 31.",
         "section_id": "section-03",
-        "section_title": "AI funding and leveraged refinancings draw sharper distinctions",
-        "summary": "Oracle's BBB- downgrade, Cotality's difficult refinancing and Aston Martin creditor cooperation put cash flow and claim priority in focus.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Korea Tightens as Japan’s Inflation Expectations Rise",
+        "summary": "The Bank of Korea raised its policy rate 25 basis points to 2.75% as growth, inflation and financial-stability risks strengthened, yet Korean bonds rallied because the move was expected and guidance did not promise faster tightening. In Japan, record household inflation expectations supported the BOJ’s tightening bias even as more households said rates already felt too high."
       },
       {
+        "market_read": "Heavy technology issuance can raise clearing concessions beyond AI borrowers as it competes for finite duration capacity.",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "Korea hikes into a bond rally; Japan confronts high inflation expectations",
-        "summary": "Korea's expected hike did not prevent a bond rally; Japan's high household inflation expectations contrasted with resistance to higher rates.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "AI Borrowing Raises the Credit Bar",
+        "summary": "S&P cut Oracle to BBB- as its $250 billion data-center expansion widened cash-flow deficits and increased dependence on external funding. The broader AI buildout is also taking a larger share of investment-grade duration capacity, while Cotality’s delayed $5.3 billion refinancing showed that weak liquidity and high leverage still require substantial concessions."
       },
       {
+        "market_read": "Geopolitical stress was more visible in regional sovereign credit than in Treasury inflation compensation.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "Conflict and debt treatment weigh on emerging-market borrowers",
-        "summary": "Middle Eastern sovereign premiums reached 402 basis points, while Senegal recovery estimates and China's LGFV restrictions sharpened refinancing risks.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "War Risk Widens the Sovereign Divide",
+        "summary": "Renewed U.S.-Iran fighting and sparse Hormuz traffic widened Middle Eastern sovereign spreads even as crude declined at the New York close. Senegal faced a separate fiscal-solvency problem, while Hoisington’s retreat from long-duration Treasuries reflected concern that deficits, capital demand and a higher inflation range would sustain term premium."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Higher real yields expose the timing of AI returns",
-        "summary": "Semiconductors fell 4.29% as AI spending raised return questions. Oil paused, but weekly gains remained large; gold fell with a stronger dollar.",
-        "market_read": "",
-        "next_check": ""
-      },
-      {
-        "section_id": "section-07",
-        "section_title": "Friday tests whether resilient demand can coexist with softer prices",
-        "summary": "Friday's data will distinguish firm current activity from weakening expectations; next week's long-bond auctions test duration demand.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Forward Market Significance",
+        "summary": "The central Treasury test is whether anchored inflation expectations and further disinflation can coexist with resilient demand, or whether firm activity and sustained energy pressure preserve tightening later this year. U.S. data, long-duration auctions, leveraged refinancing terms and Hormuz disruption provide the next observable evidence."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [
+      {
+        "actual": "Retail sales +0.2% MoM; claims 208K; Philadelphia Fed activity 41.4",
+        "category": "Activity",
+        "date": "2026-07-16",
+        "event_key": "retail_sales",
+        "id": "macro-released-bb3fa82e0130",
+        "period": "June retail sales; week ending July 11 claims; July manufacturing survey",
+        "previous": "May retail sales +1.0%; revised prior claims 216K; prior Philadelphia Fed activity 10.3",
+        "time": "08:30 ET",
+        "title": "Retail Sales, Initial Claims and Philadelphia Fed Survey"
+      }
+    ],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Housing",
+        "consensus": "no independent point-in-time survey estimates retained",
+        "date": "2026-07-17",
+        "event_key": "housing_starts",
+        "id": "macro-upcoming-ad824068508a",
+        "period": "June",
+        "time": "08:30 ET",
+        "title": "Import and Export Prices and Housing Starts"
+      },
+      {
+        "category": "Activity",
+        "consensus": "no independent point-in-time survey estimate retained",
+        "date": "2026-07-17",
+        "event_key": "industrial_production",
+        "id": "macro-upcoming-1513da1b51c1",
+        "period": "June",
+        "time": "09:15 ET",
+        "title": "Industrial Production and Capacity Utilization"
+      },
+      {
+        "category": "Surveys",
+        "consensus": "no independent point-in-time survey estimate retained",
+        "date": "2026-07-17",
+        "event_key": "michigan_sentiment",
+        "id": "macro-upcoming-76db5672aa2f",
+        "period": "July",
+        "time": "10:00 ET",
+        "title": "University of Michigan Consumer Sentiment, Preliminary"
+      },
+      {
+        "category": "Labor",
+        "consensus": "no independent point-in-time survey estimate retained",
+        "date": "2026-07-23",
+        "event_key": "initial_claims",
+        "id": "macro-upcoming-03c56c771102",
+        "period": "Week ending July 18",
+        "time": "08:30 ET",
+        "title": "Initial Jobless Claims"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1891993,
+          "asset_manager_net_change": -68017,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1756528,
+          "leveraged_fund_net_change": -7653,
+          "open_interest": 4460937,
+          "open_interest_change": -29442,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2968222,
+          "asset_manager_net_change": 37352,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2174862,
+          "leveraged_fund_net_change": -28572,
+          "open_interest": 6215683,
+          "open_interest_change": -51329,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2425982,
+          "asset_manager_net_change": 47832,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2004023,
+          "leveraged_fund_net_change": -34172,
+          "open_interest": 5315630,
+          "open_interest_change": 67175,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 693272,
+          "asset_manager_net_change": 14109,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -351500,
+          "leveraged_fund_net_change": -40218,
+          "open_interest": 2456400,
+          "open_interest_change": -190,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 530302,
+          "asset_manager_net_change": 3416,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -365483,
+          "leveraged_fund_net_change": -23561,
+          "open_interest": 1880170,
+          "open_interest_change": -43706,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1139221,
+          "asset_manager_net_change": 12686,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -920648,
+          "leveraged_fund_net_change": -10746,
+          "open_interest": 2436549,
+          "open_interest_change": -20076,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-07-07",
+      "published_date": "2026-07-10"
+    },
+    "treasury": {
+      "comparison_date": "2026-07-15",
+      "observation_date": "2026-07-16",
+      "par_change_pct": -14.6507,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": -19.1272,
+          "par_usd_bn": 682.0,
+          "trade_count": 268152
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 10.6383,
+          "par_usd_bn": 20.8,
+          "trade_count": 4670
+        },
+        {
+          "key": "bills",
+          "par_change_pct": 1.6219,
+          "par_usd_bn": 200.5,
+          "trade_count": 53720
+        },
+        {
+          "key": "frns",
+          "par_change_pct": 42.8571,
+          "par_usd_bn": 2.0,
+          "trade_count": 139
+        }
+      ],
+      "total_par_usd_bn": 905.3,
+      "total_trade_count": 326681
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +838,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.16% (+3 bp) | UST 5Y 4.28% (+2 bp)",
-      "UST 10Y 4.57% (+2 bp) | UST 30Y 5.09% (+1 bp)",
-      "10Y TIPS real yield 2.35% (+3 bp) | 10Y breakeven inflation 2.22% (-1 bp)",
-      "UST 2s10s curve 41 bp (-1 bp) | UST 2s30s curve 93 bp (-2 bp)"
+      "UST 2Y 4.142% (+0.6 bp) | UST 5Y 4.27% (+0.7 bp)",
+      "UST 10Y 4.554% (+0.5 bp) | UST 30Y 5.084% (+0.4 bp)",
+      "10Y TIPS real yield 2.314% (+1 bp) | 10Y breakeven inflation 2.24% (-0.5 bp)",
+      "UST 2s10s curve 41.2 bp (-0.1 bp) | UST 2s30s curve 94.2 bp (-0.2 bp)"
     ],
-    "headline": "Firm US data check the bond rally as AI borrowers face a higher financing bar",
-    "session_narrative": "Oracle's downgrade to BBB- and Cotality's proposed yield and covenant concessions exposed the cost of heavy spending and leverage. CoreWeave still sought fresh financing and broad credit funds were nearly flat. Korea's anticipated hike accompanied a local bond rally, Middle Eastern sovereign spreads widened and semiconductor shares lost 4.29% as investors questioned AI returns.",
-    "summary": "Lower claims, rising retail sales and a strong Philadelphia Fed survey interrupted the two-day Treasury rally. The 2-year yield rose 3 basis points to 4.16%; the 10-year real yield rose to 2.35% even as inflation compensation fell. Near-term Fed hike odds remained far below the week's opening level, but Logan and Schmid resisted treating one soft inflation month as decisive."
+    "headline": "Treasuries give back little of the disinflation rally despite resilient U.S. demand",
+    "session_narrative": "Treasuries edged lower, but the nearly parallel move was restrained: the 2-year yield rose 0.6 basis point to 4.142%, the 10-year added 0.5 basis point to 4.554%, and the 30-year increased 0.4 basis point to 5.084%. Retail sales, jobless claims and the Philadelphia Fed survey showed resilient demand, while Lorie Logan and Jeff Schmid warned that one favorable inflation month was insufficient. Even so, swaps priced only about 3 basis points of tightening for July 29, versus around 29 basis points by December.\n\nThe 10-year real yield rose 1 basis point while its breakeven rate fell 0.5 basis point, showing that investors demanded more inflation-adjusted return without rebuilding inflation compensation. Oil declined at the close despite remaining roughly 10% higher over the week amid renewed U.S.-Iran fighting and disrupted Hormuz traffic.\n\nAI financing supplied a separate risk signal. Semiconductor shares fell sharply as concern grew over the scale and uncertain payoff of spending, while Oracle’s rating cushion narrowed and Cotality’s leveraged refinancing required substantially better proposed terms.",
+    "summary": "Treasury yields rose only marginally as strong retail, labor and factory data and inflation-focused Fed comments preserved the prospect of tightening later this year without restoring a compelling case for a July increase."
   },
   "report_date": "2026-07-16",
-  "run_id": "daily-fi-newsroom-edit-2026-07-16-b2cb3836bf9c",
+  "run_id": "daily-fi-simple-2026-07-16-10670156-efd1e09b",
   "watch_events": [
     {
-      "category": "Economic data",
-      "date": "2026-07-17",
+      "category": "U.S. data",
+      "date": "July 17",
       "id": "watch-01",
-      "market_implication": "The mix will shape how much of Thursday's real-yield increase survives.",
-      "market_trigger": "Whether current activity stays firm as inflation and future expectations moderate.",
-      "title": "US prices, housing and production",
-      "watch_line": "Trade prices and housing starts at 08:30 ET, production at 09:15 and Michigan sentiment at 10:00."
+      "market_implication": "Later Fed tightening would become more credible, challenging the restrained Treasury retracement.",
+      "market_trigger": "Firm activity paired with rising inflation expectations or broader trade-price pressure.",
+      "title": "U.S. activity and inflation expectations",
+      "watch_line": "Trade prices, housing, production and Michigan expectations test the balance between demand and disinflation."
     },
     {
-      "category": "Inflation and policy",
-      "date": "2026-07-17 to 2026-07-23",
+      "category": "Treasury supply",
+      "date": "July 22 at 13:00 ET",
       "id": "watch-02",
-      "market_implication": "Persistent disruption would leave central banks and Middle Eastern sovereign debt exposed even if crude briefly falls.",
-      "market_trigger": "Inventory and shipping developments relative to the earlier June price readings.",
-      "title": "European inflation and energy",
-      "watch_line": "Euro-area inflation July 17, US petroleum data July 22 and the ECB July 23."
+      "market_implication": "Long yields and term premium could face renewed upward pressure.",
+      "market_trigger": "Weak demand or a larger concession while the 30-year yield remains above 5%.",
+      "title": "Long-duration Treasury demand",
+      "watch_line": "The $13 billion 20-year reopening tests appetite for term risk as private AI borrowing competes for duration."
     },
     {
-      "category": "Supply and credit",
-      "date": "2026-07-20 to 2026-07-22",
+      "category": "Geopolitics",
+      "date": "Ongoing",
       "id": "watch-03",
-      "market_implication": "Auction demand and corporate concessions will show where higher yields are sufficient to attract buyers.",
-      "market_trigger": "Long-duration demand after orderly bill absorption, alongside Cotality's eventual pricing.",
-      "title": "Duration supply and refinancing terms",
-      "watch_line": "US bills July 20–21; about ¥300 billion of 40-year JGBs and a $13 billion US 20-year reopening July 22."
+      "market_implication": "Inflation expectations, corporate margins and regional sovereign spreads could come under pressure.",
+      "market_trigger": "Continued disruption that produces sustained crude pressure and broader delivered-cost increases.",
+      "title": "Hormuz disruption and energy pressure",
+      "watch_line": "Track whether sparse shipping traffic and fighting near Iran’s export infrastructure keep energy costs elevated."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "+3 bp",
-        "change_1m": "+9 bp",
-        "change_1w": "0 bp",
+        "change_1d": "+0.6 bp",
+        "change_1m": "+7.3 bp",
+        "change_1w": "-3.7 bp",
         "id": "ust2y_ny_close",
-        "last": "4.16%",
-        "reference_type": "ny_close",
+        "last": "4.142%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "+10 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "+0.7 bp",
+        "change_1m": "+7.8 bp",
+        "change_1w": "-1.4 bp",
         "id": "ust5y_ny_close",
-        "last": "4.28%",
-        "reference_type": "ny_close",
+        "last": "4.27%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "+10 bp",
-        "change_1w": "+3 bp",
+        "change_1d": "+0.5 bp",
+        "change_1m": "+7.9 bp",
+        "change_1w": "+0.1 bp",
         "id": "ust10y_ny_close",
-        "last": "4.57%",
-        "reference_type": "ny_close",
+        "last": "4.554%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+12 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "+0.4 bp",
+        "change_1m": "+10.4 bp",
+        "change_1w": "+1.8 bp",
         "id": "ust30y_ny_close",
-        "last": "5.09%",
-        "reference_type": "ny_close",
+        "last": "5.084%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+1 bp",
-        "change_1w": "+3 bp",
+        "change_1d": "-0.1 bp",
+        "change_1m": "+0.6 bp",
+        "change_1w": "+3.8 bp",
         "id": "ust_2s10s_curve",
-        "last": "41 bp",
-        "reference_type": "ny_close",
+        "last": "41.2 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "+3 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "-0.2 bp",
+        "change_1m": "+3.1 bp",
+        "change_1w": "+5.5 bp",
         "id": "ust_2s30s_curve",
-        "last": "93 bp",
-        "reference_type": "ny_close",
+        "last": "94.2 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+1 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "+0.3 bp",
+        "change_1m": "+0.4 bp",
+        "change_1w": "+0.8 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-17 bp",
-        "reference_type": "ny_close",
+        "last": "-15.6 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
         "change_1d": "0 bp",
-        "change_1m": "-1 bp",
-        "change_1w": "+2 bp",
+        "change_1m": "-1.9 bp",
+        "change_1w": "+2.1 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-11 bp",
-        "reference_type": "ny_close",
+        "last": "-11.8 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "+3 bp",
-        "change_1m": "+20 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "+1 bp",
+        "change_1m": "+17.7 bp",
+        "change_1w": "+1.6 bp",
         "id": "tips10y_ny_close",
-        "last": "2.35%",
-        "reference_type": "ny_close",
+        "last": "2.314%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "-10 bp",
-        "change_1w": "-1 bp",
+        "change_1d": "-0.5 bp",
+        "change_1m": "-9.8 bp",
+        "change_1w": "-1.5 bp",
         "id": "be10y_ny_close",
-        "last": "2.22%",
-        "reference_type": "ny_close",
+        "last": "2.24%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-07-16T17:00:00-04:00"
+        "timestamp": "2026-07-16"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

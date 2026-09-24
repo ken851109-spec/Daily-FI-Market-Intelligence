@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "Credit funds rose, but Caesars bonds and loans fell as its takeover raised leverage and creditor-protection concerns.",
+      "summary": "Demand favored long-call AT1s and protected AI financing, while software refinancing met resistance.",
       "title": "Credit",
       "value": "LQD 109.26 (+0.3029%) / HYG 80.23 (+0.1248%) / JNK 96.62 (+0.1036%) / EMB 96.23 (+0.2605%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "A softer dollar eased dollar-funding pressure. Oil remained elevated despite weekly declines, while gold gained.",
+      "summary": "The dollar eased and gold rose, while Brent fell despite a firmer WTI close, tempering the energy impulse.",
       "title": "Dollar and commodities",
       "value": "DXY 99.02 (-0.1915%) / WTI 88.9 (+0.2481%) / Brent 93.71 (-0.6151%) / Gold 4499.2998 (+1.1647%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Stocks rose and volatility fell as lower real yields supported growth shares. Markets were not pricing weaker activity as an earnings recession.",
+      "summary": "Equities advanced, led by technology and semiconductors, as volatility declined.",
       "title": "Equities and volatility",
       "value": "S&P 500 7563.6299 (+0.5754%) / Nasdaq 100 30223.8906 (+0.8351%) / SOX 12829.1396 (+0.9994%) / VIX 15.74 (-3.3763%)"
     }
@@ -538,138 +538,357 @@
   "header": {
     "as_of_note": "NY close · 2026-05-28",
     "latest_update_cutoff": "NY close",
-    "stance": "Softer US demand lifts Treasuries, while Fed hike risk holds back the front end",
+    "stance": "Treasuries bull-flatten as softer U.S. demand lowers real yields while inflation keeps the Fed debate unsettled",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "信用債基金上漲，但Caesars收購案引發槓桿與債權保障疑慮，債券及貸款價格下跌。",
-        "dollar_commodities": "美元走軟減輕美元融資壓力。油價單週雖回落，水準仍高，黃金則上漲。",
-        "equities_volatility": "實質殖利率下降支撐成長股，股市上漲、波動率下滑。市場尚未將經濟轉弱視為企業獲利衰退。"
+        "credit": "需求偏好贖回期較長的AT1與具保障結構的AI融資，軟體業再融資則遭遇阻力。",
+        "dollar_commodities": "美元走弱、黃金上漲；WTI收高之際，布蘭特原油反而下跌，緩和能源價格帶來的衝擊。",
+        "equities_volatility": "股市上漲，由科技與半導體類股領漲，波動率下降。"
       },
       "header": {
-        "stance": "美國需求轉弱帶動公債上漲，升息風險仍限制短端漲勢"
+        "stance": "美國需求轉弱壓低實質殖利率，帶動美債呈多頭趨平；通膨仍使聯準會政策辯論懸而未決"
       },
-      "long_thesis_markdown": "## 開篇固定收益論點\n\n核心通膨放緩，支出、投資與房市數據也轉弱，帶動美國公債在5月28日收高，中長天期漲勢較強。10年期殖利率下降3個基點至4.45%，2年期則僅下降1個基點；投資人仍認為，聯準會年底前升息的機率超過一半。\n\n這波漲勢來自實質殖利率下降，10年期通膨補償並未改變。4月核心PCE月增率降至0.2%，但通膨年增率仍高，聯準會官員對現行政策究竟有多大抑制力，也有不同看法。John Williams主張等待更多證據；Alberto Musalem則警告，若未來一至兩季通膨未能恢復降溫，可能有必要升息。\n\n7年期公債標售需求穩健，附買回市場現金充裕，協助市場消化供給，股票與信用債基金也同步上漲。不過，個別借款人的待遇差異明顯：槓桿收購前景使Caesars債務價格下跌，Sophos即使大幅提高再融資定價，仍被放款人要求更多保障。銀行資本債與結構化AI融資持續吸引資金，交易條款則決定了風險最終落在誰身上。\n\n## 需求放緩，聯準會仍對通膨保持警戒\n\n4月所得與支出報告顯示，通膨月增率降溫，家庭購買力卻也幾乎沒有增加。個人所得持平，低於市場預期的成長0.4%，前月增幅為0.5%；可支配所得下降0.1%。名目消費如預期增加0.5%，實質消費僅增0.1%，家庭儲蓄也下滑。\n\n整體PCE物價月增0.4%，低於預期的0.5%，也較前值0.7%放緩；核心PCE月增0.2%，同樣比預期低0.1個百分點。但拉長比較期間，整體與核心PCE年增率仍分別為3.8%與3.3%，通膨壓力尚未明顯解除。\n\n經濟成長也比初估疲弱。第一季GDP年化季增率由2.0%下修至1.6%，主要反映投資與消費支出下調。實質國內所得總額（GDI）成長0.9%，GDP與GDI的平均增幅為1.2%。初領失業救濟金人數由修正後的21萬人增至21.5萬人，高於市場預期的21.1萬人，四週平均升至20.9萬人。經濟仍在擴張，但需求壓力減輕，使進一步提高實質利率的理由減弱。\n\n耐久財訂單的強勁表現，則主要由飛機帶動。總訂單大增7.9%，高於預期的3.9%，其中運輸設備增加21.5%。扣除運輸設備後，訂單仍增1.1%，但更貼近企業設備投資的扣除飛機非國防資本財訂單反而下降1.1%。企業投資意願因此不像整體數字所呈現的那麼強。\n\n房市更直接反映高融資成本的壓力。新建單戶住宅銷售年化戶數由修正後的66.3萬戶降至62.2萬戶，不及預期的66萬戶，也較一年前減少11.3%。庫存升至48.9萬戶，供應月數由8.7個月增加至9.4個月，房價中位數為$42萬2,500。交易速度放慢，讓建商面臨更多待售房屋。\n\n這些數據帶動10年期抗通膨公債實質殖利率下降3個基點至2.06%，跌幅與名目10年期殖利率相同；對應的損益兩平通膨率維持2.39%。其他天期實質殖利率也下降，5年期與7年期各跌3個基點至1.61%與1.83%，20年期與30年期則各跌2個基點。經濟活動轉弱，降低投資人要求的實質報酬，但能源成本與通膨預期上升的風險，仍支撐通膨補償。\n\n附息公債漲勢以較長天期為主。2年期殖利率下降1個基點至3.99%，5年期下降2個基點至4.15%，30年期下降3個基點至4.98%。2s10s利差收窄2個基點至46個基點，2s30s也收窄2個基點至99個基點。2s5s10s蝶式利差維持負14個基點，5年期附近並未出現獨立的價格失衡。\n\nMusalem的談話說明了短端漲勢受限的原因。他認為通膨風險已高於就業風險，實質政策利率也低於他估計的中性水準；若未來一至兩季通膨未能恢復下降，便可能需要升息。他並提醒，不能因期待生產力提高，就忽略當前通膨、逐漸上移的通膨預期，以及仍然穩定的勞動市場。截至週四，期貨定價顯示年底前升息的機率超過50%。\n\nWilliams的立場較有耐心。他表示，目前3.5%至3.75%的目標區間已對經濟產生一定抑制，聯準會可以先觀察戰爭、關稅與後續數據，並預期相關價格漲幅將在未來數月達到高峰。對於生產力，他強調真正的轉變難以即時辨識，長期而言也可能推高均衡實質利率。這種立場容許央行等待通膨衝擊的後續發展，卻不意味著預期中的AI生產力成長已足以支持立即寬鬆。\n\n美國財政部$440億的7年期公債標售獲得廣泛的非交易商需求，得標利率為4.290%，投標倍數2.52倍。間接投標者取得獲接受競爭性投標的78.39%，直接投標者占11.19%，交易商占10.42%。交易商承接比例偏低，有助市場消化這批中期公債；新券將於6月1日發行及交割。\n\n最短天期國庫券的殖利率並未跟著下降，即使擔保融資市場現金充裕。4、6、8與13週券的附息等值殖利率各上升1個基點，落在3.68%至3.70%；17至52週券則持平。相較於附息公債的漲勢，國庫券仍反映市場對政策轉鬆缺乏把握。\n\n股市與債市同步收高。S&P 500上漲0.58%，Nasdaq 100上漲0.84%，半導體指數上漲1.00%，VIX下降3.38%至15.74。折現率降低有利成長股，市場尚未把較弱的經濟數據解讀為企業獲利將陷入衰退。美元指數下跌0.19%至99.02，也減輕了依賴美元融資者的短期壓力。\n\n能源仍是通膨展望中較難安心的一環。WTI上漲0.25%至$88.90，Brent下跌0.62%至$93.71；儘管兩者單週跌幅均超過7%，油價仍高，成本繼續轉嫁至其他價格的風險未退。黃金上漲1.16%至$4,499.30，即使股市走強、波動率下降，通膨、地緣政治與政策避險需求仍在。\n\n## 融資便宜，信用市場待遇卻大不相同\n\n信用債基金隨美國公債上漲，LQD升0.30%、HYG升0.12%、JNK升0.10%，EMB升0.26%。股市走強、融資條件寬鬆之際，高收益債基金漲幅仍溫和，幾筆大型交易更顯示放款人對個別借款人的判斷差距。\n\nCaesars同意由Fertitta Entertainment收購後，其2032年到期、票息6%的無擔保債券下跌逾1美分，至每$1面額報價89美分；$28億的定期貸款也下跌約0.5美分，成交價介於96至97美分。交易對Caesars股權的估值為$57億，並將承接約$119億債務。市場分析估計，可能增加約$60億淨負債，融資由10家銀行承諾提供。\n\n自2月傳出收購消息以來，Caesars無擔保債券已下跌逾8美分。合併後的公司雖能擴大規模，債權人卻面臨槓桿提高、融資條款未定，以及受償順位可能落後新債的風險。買方支付的股權溢價，對債權人的處境幫助有限。\n\n附買回市場則有大量現金。5月約$1,200億流入貨幣市場基金，美國財政部在稅期後削減逾$2,700億國庫券供給，現金管理買回也進一步減少擔保品。附買回利率低於聯準會目標區間下限，SOFR僅略高於3.50%，低於4月約3.65%的平均值。融資成本降低，有利交易商持有美國公債與信用債庫存。\n\n銀行承作這些部位的空間也變大。強化補充槓桿比率的規則調整，擴大大型銀行中介美國公債交易的能力；Wells Fargo解除資產上限後持續擴張，也增加附買回融資供給。美國八家全球系統重要性銀行第一季資產合計增加$1.3兆，其中包括$3,000億附賣回交易，以及約$1,000億美國公債交易部位。這項結構性擴張協助市場承接龐大庫存與新券，未出現明顯融資壓力。\n\n歐洲銀行利用投資人對次順位債收益的需求，延長資本融資期限。Santander發行$15億AT1債券，10年內不得贖回；NatWest發行£5億債券，票息7.5%，可於2036年贖回。這類較長不可贖回期的結構，占今年主要貨幣AT1發行量的25%，創歷來新高，相較慣常的五年贖回期，額外利差卻不大。\n\n發行人付出約300個基點的利差，即可取得長達10年的第一類資本融資。投資人沿五至10年期的平坦利差曲線，只取得有限的額外補償，卻要更長時間承受利率波動、展期與次級市場流動性不足的風險。銀行鎖定再融資條件之際，債券對這些風險重新定價的緩衝相對有限。\n\nAI基礎設施融資採用另一套保障安排。Apollo與Blackstone正為約$360億的延遲動用債務尋找投資人，資金與Anthropic購買Google TPU晶片有關。擬議架構包括約$60億A1票據、$250億A2票據，以及$45億次順位B票據，於本週徵集認購，預計下週完成。\n\n若租賃違約後出售晶片的收入不足以償還投資人，Broadcom提供的殘值保障將彌補優先A級分券的缺口。因此，優先票據的信用風險更貼近Broadcom的投資等級信用，而不是Anthropic本身的獲利。優先順位、延遲動用與可供租賃的實體資產，使新創公司的融資需求得以拆成風險不同的債權。\n\nPimco的觀察顯示，整個市場的差距已相當大。資料中心高收益債約有$400億，占美國高收益債市場2.7%，並屬於全球超大規模雲端業者逾$2,500億借款的一部分。其中約75%的利差接近6%，其餘則達10%以上。Pimco偏好投資等級承購方、不可取消的合約、能在合約到期前完成還款，以及期末仍有資產殘值的安排，以區分有合約現金流支撐的交易與投機性擴產。\n\n軟體業借款人的談判較為艱難。Thoma Bravo提出$25億Sophos再融資案，初步條件接近基準利率加600個基點，遠高於既有債務約加350個基點，多家放款機構仍拒絕參與。Sophos有一筆$21億貸款將於2027年3月到期，標普已將相關實體的展望調降為負向。面對AI衝擊與高槓桿，考慮同意展期約2.5年的既有放款人要求股東投入更多資本、先償還部分本金，並提高定價。\n\n另一宗爭議涉及Water Station Management債券的擔保資產。352 Capital的基金投資人指控，飲水機擔保品缺失或根本不存在，經理人也涉及個人利益衝突，基金仍投入數百萬美元購債。相關訴訟與刑事指控稱，宣稱用於購置販賣機的資金，主要被拿來支付或買斷加盟商。爭議集中在擔保品、利益衝突與資金用途，與整體信用市場是否有資金供給是不同問題。\n\n## 通膨壓力使各國央行維持戒心\n\n歐洲央行4月29日至30日會議紀要顯示，當時距離升息已相當接近，多位官員表示即使升息也不會反對。歐元區通膨率為3%，決策官員擔心能源成本進一步傳導至薪資與通膨預期。首席經濟學家Philip Lane警告，即使伊朗戰爭最初造成的衝擊消退，第二輪效應仍可能持續。海外緊縮預期也讓美國殖利率更難持續大幅下降。\n\n日本殖利率上升，愈來愈多反映通膨波動、財政疑慮、政府供給增加與央行支持減少。伊朗戰爭爆發以來，10年期日本公債期限溢價已上升近70個基點，市場通膨預期升至至少2004年以來最高。殖利率提高之際，日圓仍然走弱，較像是投資人要求補償通膨與財政風險，而不是日圓資產的收益吸引力改善。\n\n更高的殖利率也改變日本儲蓄者的選擇。10年期日本公債殖利率自2008年以來首次高於東證股價指數股息殖利率，公司債殖利率則升至指數2000年編製以來最高。國內債券成為股票及匯率避險後外國債券更具競爭力的替代選項，企業再融資成本卻也隨之增加。若資金轉向日本，其他主權債市場可能需要提供更高期限溢價才能留住需求。\n\n美國收盤後、週五公布的東京5月通膨報告顯示，不含生鮮食品的核心CPI年增率降至1.3%，連續第六個月放緩，增幅為四年來最低。不含生鮮食品與能源的指標上升1.6%。水費、汽油與育兒補貼壓低通膨，但食品價格轉嫁與弱勢日圓仍帶來上行風險。隔夜指數交換定價顯示，日本央行6月15日至16日升息的機率仍約為77%。\n\n南非已先行緊縮。南非央行將基準利率提高25個基點至7%，為2023年以來首次升息，理由是重疊的通膨衝擊可能引發第二輪效應。南非幣兌美元維持0.2%漲幅，10年期政府公債殖利率扭轉盤中升勢，收於8.62%，比當日高點低9個基點，股市則下跌。債市反應顯示通膨風險溢價有所緩解，但央行警告可能進一步緊縮，也意味經濟成長仍須承受代價。\n\n巴西考慮的則是暫停降息。央行貨幣政策主管Nilton David指出，2028年通膨預期惡化，央行不會容許外部價格衝擊使通膨在政策評估期間內偏離目標。5月上旬通膨年增率加速至4.64%，高於3%目標；Selic利率在4月由先前維持的15%高點調降後，目前為14.5%。\n\n4月新增就業低於所有分析師預測，削弱了官員先前視為通膨降溫阻力的勞動市場韌性。不過，能源成本上升與財政不確定性，仍壓縮繼續寬鬆的空間。若6月暫停降息，國內利率將維持限制性，讓央行有時間評估這些壓力。\n\n## 主權借款人的籌資考驗各不相同\n\n人口老化、退休金與醫療支出、戰略投資，以及各國融資成本上升，持續壓迫歐盟成員國預算，法國因此主張擴大聯合舉債。共同債務可利用歐盟較強的整體信用籌資，也有助銀行分散過度集中的本國主權債部位。同時，超國家債券供給增加，將在各國發債之外形成更大的基準債市場，與其他債券競逐全球儲蓄資金。\n\n阿根廷各省與布宜諾斯艾利斯市已在海外找到買家。2026年前五個月合計籌資$23億，速度為2017年以來同期最快，資金主要用於再融資與延長到期期限。布宜諾斯艾利斯市發行$5億10年期債券，殖利率7.4%，獲約$30億認購；科爾多瓦省發行$8億，殖利率8.95%，丘布特省發行$6.5億、殖利率9.45%，恩特雷里奧斯省發行$3億、殖利率9.6%。\n\n相較之下，聯邦政府仍仰賴短天期本地融資，未選擇以接近9%的殖利率到海外發債。在本地交易的主權美元債，2027年選舉前到期券殖利率約5.1%，選舉後到期券則約8.6%。丘布特省以石油權利金提供額外擔保，但各省仍需依賴央行的美元償付外幣債務，過去也曾在主權危機期間重整債務。部分省債認購強勁，與外匯存底及選舉風險仍然並存。\n\n塞內加爾近期的重點是履行債務與國際貨幣基金（IMF）談判。2037年到期歐元債券的€5,375萬利息將於6月8日支付，IMF同日將展開訪問；2031年到期美元債券另有$3,875萬款項，須於6月10日支付。投資人預期付款會如期進行，但政府與IMF仍在討論新方案是否必須以債務重整為前提，因此態度謹慎。\n\n隱藏公共債務曝光後，IMF已於2024年暫停一項$18億計畫，塞內加爾政治領導層則以威脅主權為由反對重整。債券價格偏低之際，投資人關注的不只是即將到期的利息，還包括恢復IMF融資的條件能否明朗。\n\n## 前瞻市場意涵\n\n接下來的經濟數據，將顯示支出、設備需求與房市的疲弱是否延續至第二季。貿易與庫存初值將於5月29日08:30美東時間公布，製造業ISM與服務業ISM則分別於6月1日、6月3日10:00公布。除了商品貿易逆差與庫存累積，新訂單、就業及支付價格分項尤其值得注意。若需求與投入價格同步降溫，將支持實質殖利率續降，五至10年期可能最為敏感；若經濟保持韌性、成本壓力再起，實質殖利率與通膨補償都可能上升。\n\n勞動數據有助釐清Williams主張等待與Musalem擔心通膨持續的差異。JOLTS將於6月2日10:00美東時間公布，ADP為6月3日08:15，初領失業救濟金則為6月4日08:30，均在6月17日至18日聯準會會議之前。職缺減少、聘僱轉弱且初領人數再次增加，將削弱年底前升息的理由；若職缺穩定、聘僱改善、初領人數回落，通膨支持緊縮的論點就更強，2年期公債最直接受到影響。\n\n美國財政部另有兩項買回操作。6月3日的流動性支持買回涵蓋20至30年期名目附息公債，上限$20億，6月4日交割；6月4日的現金管理買回涵蓋一個月至兩年期附息公債，上限$125億，6月5日交割。隨國庫券供給與附息債交割補充市場擔保品，報價品質、交割及附買回利率將反映交易商融通庫存的餘裕。若融資有序、附買回利率維持低於第一季常態，將有利長債與待發行信用債；若利率明顯回升至正常水準或出現交割壓力，近期現金充裕帶來的好處便會受到考驗。",
-      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。",
+      "long_thesis_markdown": "## 固定收益開篇主論\n\n5月28日公布的一系列美國數據顯示，家庭所得轉弱、基礎資本支出放緩、第1季經濟成長下修，新屋銷售也明顯不如預期，帶動美國公債全線上漲。10年期殖利率下跌3.6個基點至4.448%，30年期下跌3.9個基點至4.974%；相較之下，2年期僅下跌1.1個基點至4.023%。殖利率曲線因此呈多頭趨平，2年與10年期利差收窄2.5個基點至42.5個基點。\n\n這波漲勢並非明確的通膨降溫訊號。4月核心個人消費支出（PCE）物價較3月上漲0.2%，低於預期，但整體與核心通膨年增率仍分別達3.8%及3.3%。紐約聯準銀行總裁John Williams認為政策略具限制性，目前適合等待更多資訊；聖路易聯準銀行總裁Alberto Musalem則表示，實質政策利率低於中性水準，官員仍須保留升息可能。期貨定價顯示，年底前升息的機率超過50%。\n\n美債行情的組成正反映這項矛盾。10年期實質殖利率下跌3.5個基點至2.033%，幾乎與名目殖利率的跌幅相同，10年期損益兩平通膨率則僅下滑0.1個基點至2.415%。投資人調降了實質利率壓力，卻未大幅下修市場的通膨溢價。長端同時順利吸收$440億的7年期公債標售，得標最高殖利率為4.290%，間接投標人占獲配競爭性投標的78.39%。\n\n風險資產與政府債券同步上漲。標普500指數上漲約0.58%，那斯達克100指數上漲0.84%，半導體指數上漲1.00%，VIX則下跌3.38%。布蘭特原油下跌0.62%至$93.71，單週跌幅達8.65%，降低眼前的能源價格衝擊；不過，各國央行仍將戰爭引發的通膨及其第二輪效應視為實際存在的政策風險。\n\n## 需求數據轉弱，聯準會辯論轉鷹\n\n4月所得與支出報告的通膨及家庭所得細節均有利於存續期間部位。個人所得較3月持平，低於0.4%的市場共識，前值為成長0.5%；可支配個人所得則下滑0.1%。名目消費成長0.5%，符合預期，但低於先前的1.0%，實質支出僅增加0.1%。個人儲蓄率由2.9%降至2.6%，顯示家庭在所得未同步增加之際，仍維持名目支出。\n\n整體PCE物價月增0.4%，低於0.5%的市場共識，也較前值0.7%放緩；核心物價上漲0.2%，同樣低於預期0.1個百分點，並低於先前的0.3%。單月數據的威脅程度不如市場原先擔心，但整體與核心通膨年增率仍分別達3.8%及3.3%，遠高於聯準會目標。\n\n第1季GDP第2次估值也強化經濟成長轉弱的訊號。實質GDP年化成長率由初值2.0%下修至1.6%，原先市場共識亦為2.0%；下修主要來自投資與消費支出較弱。實質國內所得成長0.9%，低於第4季的1.6%，GDP與國內所得的平均成長率則為1.2%。\n\n製造業訂單的表面數字強勁，內部表現卻明顯分歧。受運輸設備訂單激增21.5%帶動，4月耐久財訂單大增7.9%，不但超過3.9%共識的兩倍，也高於3月經修正後的1.3%。扣除運輸項目的訂單仍成長1.1%，但扣除飛機的非國防資本財訂單下跌1.1%。換言之，由飛機訂單推高的整體數字，並未延伸至最能反映企業基礎設備需求的項目。\n\n利率敏感的房市則呈現較一致的疲弱。4月新建單戶住宅銷售下跌6.2%，年化為62.2萬戶，低於66萬戶的市場共識及3月經修正後的66.3萬戶；銷售量較一年前減少11.3%，可售庫存則由8.7個月增至9.4個月，銷售價格中位數為$42.25萬。成交減少而庫存增加，相較於耐久財整體數字，更清楚顯示高融資成本正在壓抑需求。\n\n首次申領失業救濟人數也傳達較溫和的轉弱訊號。截至5月23日當週，申領人數由經修正後的21萬增至21.5萬，高於21.1萬的市場共識；4週移動平均由經修正後的20.275萬升至20.9萬。數據顯示勞動市場邊際降溫，但惡化程度尚不足以單獨壓過通膨疑慮。\n\n當日聯準會官員的談話同樣反映宏觀情勢的多空交錯。身為紐約聯準銀行總裁及FOMC常任投票委員的Williams表示，3.5%至3.75%的政策利率區間略具限制性，也足以因應伊朗衝突的影響。他預期戰爭與關稅推升物價的速度將在未來數月觸頂，使決策者有時間評估數據，並認為基礎勞動市場表現良好。\n\nWilliams將這項短期判斷與生產力分析分開看待。結構性生產力改善可在薪資與物價調整期間暫時壓低通膨，但最終應會提高經通膨調整後的利率。他主要提醒，這類變化很難即時辨識，其持續時間與影響也過於不確定，不能據以判斷近期政策利率走向。\n\nMusalem從同一場生產力辯論得出更偏緊縮的政策結論。他表示，官員不應依賴未來可能出現的人工智慧生產力提升來化解當前通膨，尤其依其判斷，實質政策利率低於FOMC估計的長期中性水準。他並指出，通膨仍顯著高於目標，長期通膨預期逐步上升，而勞動市場保持穩定。\n\nMusalem也明確列出考慮升息的條件：若未來一至兩季未能恢復通膨降溫趨勢，或通膨預期持續處於高檔甚至進一步上升，他將感到憂慮。他贊同在4月政策聲明中移除寬鬆傾向的官員，並表示考慮升息的機率不能是零。他估計，近期美債殖利率上升約四分之三反映市場上調預期中性政策利率，僅四分之一來自期限溢價。\n\nWilliams與Musalem的分歧不在於通膨是否重要，而是現行政策容許決策者保持多少耐心。Williams認為政策略具限制性，且價格衝擊可能觸頂；Musalem則認為實質利率低於中性水準，也沒有充分證據顯示生產力能帶來不伴隨通膨的成長。6月17日至18日的會議將是主席Kevin Warsh上任後首次主持，屆時這場辯論將反映在政策聲明與新一輪經濟預測之中。\n\n## 標售需求與充裕資金支撐利率市場\n\n美國財政部標售$440億新發行7年期公債，得標最高殖利率為4.290%，投標倍數為2.52倍。間接投標人占獲配競爭性投標的78.39%，直接投標人占11.19%，一級交易商占10.42%；財政部在最高殖利率價位分配了該價位投標量的71.23%。這批公債預定於6月1日交割。\n\n中期券種周邊交易相當活躍。名目附息美債的申報面額交易量較前一交易日增加11.9%至$1.246兆；超過5年、最長7年的券種交易量增加66.0%至$1,285億，其中指標新券占81.9%。這些總量衡量的是周轉，而非需求方向，但足以顯示標售與整體漲勢伴隨的交易規模。\n\n本次供給是在資金異常充裕的融資環境中獲得吸收。5月約有$1,200億流入貨幣市場基金，附買回利率低於聯準會目標區間下限；有效聯邦資金利率當月兩度下移，擔保隔夜融資利率（SOFR）則略高於3.50%，4月平均約為3.65%。\n\n這種寬鬆情勢部分源自4月報稅季前後國庫券供給減少逾$2,700億，以及財政部的現金管理買回操作，使大量現金競逐擔保品。不過，多家銀行的策略師認為，寬鬆情勢延續太久，無法單以季節因素解釋。\n\n強化補充槓桿比率規則的調整，擴大了大型銀行中介美債與附買回部位的能力。部分銀行在4月1日截止日前便採用新規，使交易商即使持有的美債庫存在3月底升至創紀錄的$5,570億，仍有能力承接。自2025年6月資產上限解除後，富國銀行也成為附買回融資的重要邊際供應者。\n\n銀行資產負債表擴張幅度相當可觀。第1季，美國8家全球系統性重要銀行的總資產合計增加$1.3兆，其中附賣回交易增加$3,000億，證券部位增加約$4,000億，包括美債交易簿的$1,000億。額外的中介能力有助解釋，為何交易商持有大量庫存，卻未重現去年所見的融資壓力。\n\n融資利率若持續偏低，可能影響聯準會的準備金管理購買。官員已將每月國庫券購買規模由4月以前的$400億及5月的$250億，降至約$100億。紐約聯準銀行市場主管Roberto Perli表示，購買速度可依市場情況調整；策略師則提出，若隔夜融資持續異常寬鬆，聯準會可能暫停購買。\n\n目前的融資環境不只是美債漲勢的技術性背景。較低的附買回成本讓交易商更容易為大量庫存融資並吸收供給；銀行資產負債表容量若能持久擴大，也會降低例行發債突然造成擔保品或準備金緊縮的機率。6月的現金管理操作將是檢驗結構性與季節性力量如何交互作用的下一項測試。\n\n## 信用需求強勁，但選擇性日益提高\n\n歐洲銀行正利用偏緊的風險溢價，延長額外第一類資本債（AT1）首次可贖回前的期間。2026年主要幣別AT1發行中，首次可贖回日為10年的債券占四分之一，在傳統標準首次贖回期為5年的市場中，這一比重前所未見。\n\nBanco Santander發行$15億的10年不可贖回AT1；NatWest則發行£5億、可於2036年贖回且票息7.5%的證券。德意志銀行、法國巴黎銀行與瑞銀今年也發行了長贖回期結構。由於5年與10年期之間的利差曲線相對平坦，新增的大部分利率曝險又可透過交換交易處理，銀行得以約300個基點的利差取得約10年的第一類資本融資。\n\n對投資人而言，這類結構承擔的存續期間與流動性風險高於傳統5年可贖回債券。若市場利率上升，長贖回期AT1的跌幅可能更大；其次級市場規模較小，承壓時也可能更快失去流動性。偏緊的新券利差對重新定價提供的緩衝同樣較少。不過，銀行股權價值若改善，延長贖回期也可能帶來更大的上漲空間，因為債券價格較不會受到近期按面額贖回預期的緊密約束。\n\n能與主權政治風險隔離的新興市場借款人也獲得需求支持。2026年前5個月，阿根廷各省與布宜諾斯艾利斯市合計發債$23億，為2017年以來同期最高。布宜諾斯艾利斯市發行$5億10年期債券，殖利率7.4%，是該市歷來最低借款成本，認購金額約達$30億。\n\n科爾多瓦省以8.95%發行$8億，丘布特省則以9.45%籌得$6.5億，兩者都利用市場進行債務再融資及延長到期日；丘布特省並以石油權利金收入為債券提供擔保。恩特雷里奧斯省睽違近10年首度重返國際市場，以9.6%完成$3億交易。\n\n省級債市讓投資人得以把較強的地方信用或有擔保的收入來源，與聯邦政府面臨的選舉風險區隔開來。阿根廷主權政府並未在接近9%的殖利率下赴海外發債，而是繼續依賴短期本地債務及附買回融資。2027年大選前到期的本地主權美元債殖利率約為5.1%，大選後到期債券則約為8.6%。\n\n不過，這種區隔並不完整。各省通常需要取得央行提供的美元，才能償付外幣債務；過去的主權危機也曾迅速蔓延至地方發行人。省級債務在2001年崩盤及2020年危機期間均曾重整；2020年時，布宜諾斯艾利斯省幾乎重組了全部$71億的違約債券。\n\n私募市場的另一項趨勢是，大型擬議融資愈來愈依賴結構性信用保障，而非借款人自身的獲利能力。Apollo與Blackstone正為約$360億債務融資尋找更多投資人，資金將用於購買Anthropic租用的晶片，以在紐約、德州、路易斯安那州及印第安納州建置人工智慧基礎設施。\n\n一個特殊目的機構將購買Google設計的張量處理器，並收取Anthropic支付的租金。融資預計包括約$60億A1票據、$250億A2票據及$45億B票據，但金額仍可能調整。交易採延後動撥結構，可隨晶片到貨及租約生效逐步投入資金。\n\n協助Google開發晶片的Broadcom將為優先順位A1及A2票據提供殘值支持。若Anthropic在約定期間內停止支付租金，特殊目的機構將出售晶片；若所得不足以全額償付這些優先投資人，Broadcom將補足差額。這使優先票據的信用特性與Broadcom的投資等級信用相連，次順位B票據則在償付結構中排於其後。\n\n這項保障至關重要，因為Anthropic目前尚未產生足以獨力支撐如此龐大債務的獲利。該公司另行宣布以$9,650億估值進行$650億股權募資。Apollo與Blackstone計畫保留相當大部分的融資，再將其餘部位分銷給其他投資人；交易於當週徵求認購，預計下一週完成。\n\n相較之下，軟體業再融資面臨的情況截然不同。即使Thoma Bravo為資安公司Sophos提出的$25億再融資案，指示利差已提高至接近基準利率加600個基點，多家私募信貸公司仍拒絕參與。Sophos現有債務的利差約為350個基點，其中包括一筆2027年3月到期的$21億貸款。\n\n因此，Thoma Bravo正考慮與高盛同步推動修改條款並延長期限的方案。現有貸款人要求贊助方追加股本、償還部分債務並提高定價，作為將到期日延長約2.5年的交換條件。Thoma Bravo目前已在該公司投入逾$23億股本。\n\n標普全球評級最近將Sophos一家實體的展望調降至負向，並表示若未能在兩個月內為即將到期的債務完成再融資，評級可能遭到下調。Sophos貸款價格接近面額的97美分；公司在截至12月的季度產生自由現金流，年度經常性收入約為$13.4億。這些營運與市場指標提供一定支撐，但緊迫的再融資時程已形成流動性限制。\n\n貸款人的抗拒也反映市場正更廣泛地重新評估軟體業曝險，考量人工智慧是否會削弱既有訂閱制業務。部分企業發展公司已開始出售特定軟體貸款，另一些投資人則買進折價部位。Anthropic與Sophos兩案的差異顯示，當交易結構可將關鍵風險轉移至財務實力更強的主體時，市場對科技相關私募債務的需求仍然龐大；但若貸款人必須直接承擔借款人的再融資及產業顛覆風險，資金便不再理所當然地進場。\n\nJefferies另一起爭議則凸顯低流動性信用資產的法律與擔保品風險。Leucadia Asset Management旗下352 Capital基金的投資人提出擬議集體訴訟，指稱該基金明知擔保品並不存在，且前投資組合經理Jordan Chirico在Water Station Management擁有個人投資，仍持續買進該公司債券。\n\nJefferies指控Chirico就其投資及與Water Station的關係誤導公司。Chirico遭控詐欺後不認罪，並透過律師表示，自己是所指控騙局的受害者，而非組織者。投資人訴狀要求金額未定的賠償，並指稱債券文件中的保障條款遭到豁免，包括與擔保品陳述及財務報告相關的違約事件。這些內容目前仍屬指控，並非司法裁定的事實。\n\n## 央行正面迎戰能源衝擊\n\n歐洲央行4月29日至30日會議紀要顯示，多名官員認為當時的決策相當接近；如果有人正式提議升息，他們不會反對。此後，包括部分通常被視為管理委員會鴿派的官員在內，決策者均暗示6月可能升息。\n\n歐元區通膨率為3%，官員擔心能源成本上升可能傳導至薪資要求及長期通膨預期。歐洲央行首席經濟學家Philip Lane表示，即使最初的能源衝擊逆轉，其第二輪效應仍會持續一段時間。經濟學家與投資人預期2026年至少升息兩次。\n\n南非已立即採取行動。南非準備銀行將基準利率上調25個基點至7%，是2023年以來首次升息，也符合受訪19位經濟學家中18人的預測。由6人組成的委員會以4票對2票通過升息，兩名委員主張維持不變；會中也曾討論升息50個基點。\n\n總裁Lesetja Kganyago表示，通膨風險加劇及多重衝擊交疊，可能引發第二輪效應。央行設想的3種戰爭情境都顯示政策仍須進一步緊縮，其中最不利情境下，政策利率將在第3季升至7.83%。央行把2026年通膨預測由3.7%上調至4.4%，經濟成長預估由1.4%下修至1.2%，季度模型中的年底利率預測則由6.47%提高至6.7%。\n\n燃料價格升至近4年高點後，南非4月通膨率由3.1%加速至4.0%，創20個月新高。約翰尼斯堡尾盤，南非幣在回吐早先部分漲幅後，兌美元仍升值約0.2%至16.327；10年期政府債殖利率則扭轉稍早升勢，降至8.62%，較盤中高點低9個基點。\n\n巴西則在重新評估寬鬆循環能否持續。央行貨幣政策主管Nilton David指出，在央行連續兩次降息25個基點後，2028年通膨預期進一步惡化。5月上旬年通膨率加速至4.64%，部分經濟學家預期，央行最快可能在6月暫停降息，屆時Selic利率將維持在14.5%。\n\nDavid表示，貨幣政策對2026年通膨的影響有限，但仍有時間讓2028年通膨預期回到3%目標附近。他的談話清楚表明，降息不代表政策已不再具限制性；央行也不會允許外部能源衝擊延續至相關政策期間以外，目前該期間設定為2027年第4季。\n\n## 歐洲與日本重新定價主權債券利率風險\n\n隨著各國政府面對國防、基礎設施與能源轉型成本，歐洲共同舉債的討論正逐漸成為財政政策核心。16個成員國在5月下旬簽署文件，要求考慮透過新的共同舉債，為歐洲投資及公共財相關貸款提供資金；文件也主張放緩疫情復甦債務的償還進度，該債務預定自2028年起開始償付。\n\n法國、西班牙與希臘普遍支持擴大共同發債，德國與荷蘭仍對財政義務共同化抱持疑慮。歐盟執委會已提議推出以共同舉債融資的特定工具，包括最高€4,000億的危機機制。波蘭支持為國防共同舉債，德國央行總裁Joachim Nagel也表示，部分國家層級的舉債能力可移轉至歐盟層級。\n\n尚未清償的疫情復甦機制債務超過€8,000億，歐盟另已同意向烏克蘭提供由歐盟預算支持的€900億貸款。2025年通過的國防貸款計畫，已允許歐盟執委會先行借款，再貸給各國政府，償還義務仍由個別成員國承擔。\n\n共同發債規模若足夠大，可在德國公債之外建立更具深度的歐元區安全資產市場，擴大銀行的主權債曝險配置，並為民間借款提供流動性更高的定價基準。另一種選項是以主權債券為擔保的證券，將各國債務集中作為擔保品，切分成不同風險及殖利率的分層，而不增加共同承擔的義務。兩種方式都必須具備足夠發行量，才能形成實質流動性；永久性共同舉債則仍須取得目前尚不存在的政治共識。\n\n日本已經顯示，主權債殖利率結構性上升會如何重塑整個金融體系。10年期日本政府公債殖利率自2008年以來首次超過東證股價指數的股息殖利率；日本公司債殖利率也升至相關指數自2000年編製以來最高水準，使企業在舊債到期時面臨更高的再融資成本。\n\n市場已不再只把這波走勢解讀為日本央行2024年結束負利率後的良性正常化。大和證券估計，自伊朗戰爭爆發以來，10年期日本政府公債的期限溢價已上升近70個基點。殖利率上升之際，日圓反而走弱，顯示投資人更重視通膨、財政擴張與政府供給增加，而非單純認為日本資產報酬改善。\n\n美國收盤後、亞洲早晨公布的東京通膨數據，使日本央行6月決策更為複雜。5月扣除生鮮食品的消費者物價較一年前上漲1.3%，是4年來最慢增幅，並連續第6個月減速；扣除生鮮食品與能源的通膨率為1.6%，整體CPI則為1.4%。\n\n政府補貼及自來水服務費大幅下降壓低了物價指數。服務價格上漲1.1%，扣除生鮮食品的食物價格上漲4.1%；米價下跌1.0%，為2022年8月以來首次下降。4月工業生產意外增加，零售銷售較3月增強，失業率則降至2.5%。\n\n這些結果雖緩和當前通膨情勢，卻未消除日本央行面對的油價、匯率與財政風險。交易員認為，6月15日至16日會議升息25個基點的機率約為77%。日圓兌美元約報159.31，接近4月30日匯市干預以來最弱水準；已公布的8月食品漲價計畫則顯示，成本轉嫁壓力仍將延續。\n\n## 後市意義\n\n美國下一項經濟成長資訊將是5月29日公布的4月先期經濟指標。市場共識預估，商品貿易逆差為$865億，前值為$879億；零售庫存預計成長0.4%，批發庫存成長0.8%。第1季GDP下修後，這些數據將影響即時追蹤預測。\n\n6月1日公布的ISM製造業調查，將檢驗4月指數錄得52.7後，擴張是否延續。新訂單及就業分項有助判斷核心資本財訂單的疲弱是否擴大；支付價格則可顯示能源衝擊是否正傳導至工業投入成本。\n\n接下來的勞動市場資訊將更為詳細。6月2日公布的4月JOLTS報告，將更新職缺、聘僱及離職數據；先前初值顯示職缺為686.6萬個。6月3日美東時間08:15將公布5月ADP報告，前值為增加10.9萬人；在首次申領失業救濟人數升至21.5萬後，6月4日還將公布下一期數據。這些指標合併觀察，可判斷最新的申領人數上升只是雜訊，還是勞動市場流動開始轉弱。\n\nPCE公布後，6月3日ISM服務業調查將是更重要的成長與通膨交叉驗證。整體指數前值為53.6，但對正在考慮是否移除寬鬆傾向的聯準會而言，就業與支付價格分項最為重要。當日稍晚公布的褐皮書，則將在6月17日至18日FOMC會議前，提供各地區的需求、聘僱、信用狀況及物價壓力證據。\n\n財政部操作也將檢驗異常寬鬆的融資環境。6月3日美東時間13:40至14:00的流動性支持買回，最多可能接受$20億、期限20年至30年的名目附息公債，並於6月4日交割。6月4日的現金管理買回，則最多可能接受$125億、期限1個月至2年的名目附息公債，於6月5日交割。前者是既定的長天期流動性操作；後者對短期擔保品供給及資金充裕的附買回市場有更直接的影響。\n",
+      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。利率資料採用Bloomberg每日殖利率歷史序列，變動幅度與衍生殖利率曲線均使用相同日期的數列。每日歷史資料未註明觀察時點。",
       "overall_summary": {
-        "headline": "需求降溫帶動美債上漲，信用市場更重視個別風險",
-        "session_narrative": "10年期美國公債殖利率下跌3個基點至4.45%，降幅來自實質殖利率，而非通膨補償。4月所得停滯、實質消費僅微幅增加，投資與住宅數據也轉弱。核心PCE月增0.2%，低於預期，但通膨年增率仍高，聯準會官員對現行政策的抑制力看法不一。期貨市場認為年底前升息的機率仍超過50%。\n\n7年期公債標售需求穩健，附買回市場現金充裕，也有利供給消化。股市與信用債基金同步上漲，個別借款人的融資待遇卻明顯分化。Caesars收購案引發槓桿疑慮，債券下跌；Sophos即使大幅提高再融資價格，貸款人仍要求更多保障。歐洲銀行延長資本工具的融資期限，Anthropic規劃中的融資則藉Broadcom的殘值支持，保護優先順位投資人。\n\n海外方面，歐洲央行的升息討論及日本期限溢酬上升，使全球借款成本持續承壓。南非已升息，巴西則在就業轉弱與通膨壓力之間權衡。接下來的美國經濟活動與勞動數據，將有助判斷實質殖利率下降能否進一步帶動對政策敏感的前端；美國財政部買回操作則可觀察擔保品供給回升後，融資是否仍然寬裕。",
-        "summary": "核心通膨放緩、需求轉弱，實質殖利率隨之下降，中長期美國公債領漲。前端仍受聯準會可能升息牽制；融資成本雖低，槓桿收購與軟體業再融資的風險並未因此消失。"
+        "headline": "需求轉弱壓低實質殖利率，美債上漲、曲線趨平，但通膨疑慮未消",
+        "session_narrative": "美國公債全線上漲，長天期券種領漲。10年期殖利率下跌3.6個基點至4.448%，30年期下跌3.9個基點至4.974%，2年期則下跌1.1個基點至4.023%。2年與10年期利差收窄2.5個基點至42.5個基點。\n\n家庭所得轉弱、第1季經濟成長下修、核心資本財訂單疲弱及新屋銷售明顯不如預期，共同推動這波行情。核心PCE月增率也以0.2%低於預期，但整體及核心通膨年增率仍分別高達3.8%與3.3%。10年期名目殖利率的跌幅幾乎全由實質殖利率貢獻，損益兩平通膨率則大致持平，顯示市場主要反映實質利率壓力降低，而非大幅下修通膨溢價。$440億7年期公債標售需求強勁，進一步強化漲勢。\n\n聯準會官員對前景提出不同解讀。John Williams認為政策略具限制性，目前適合耐心等待；Alberto Musalem則主張實質政策利率低於中性水準，並保留升息選項。期貨顯示年底前升息的機率超過50%。股債齊揚、波動率下降，布蘭特原油的單週跌幅緩和了眼前的能源衝擊，但第二輪通膨疑慮仍未消除。",
+        "summary": "所得、基礎投資、房市及第1季成長同步轉弱，拉低10年期與30年期美債殖利率；但年通膨仍具黏性，聯準會內部看法分歧，使這波漲勢未能成為明確的通膨降溫訊號。"
       },
       "section_summaries": [
         {
-          "section_title": "開篇固定收益論點",
-          "summary": "實質殖利率下降帶動美國公債溫和上漲，但通膨仍高、聯準會可能升息，限制前端漲幅。信用債基金與股市同步走高，高槓桿借款人卻面臨更嚴格的貸款條件。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "這波漲勢幾乎全由實質殖利率下降帶動，10年期通膨溢價大致未變。",
+          "next_check": "",
+          "section_title": "固定收益開篇主論",
+          "summary": "需求數據轉弱、實質利率壓力下降，帶動長天期美債領漲，殖利率曲線呈多頭趨平。10年期實質殖利率下跌3.5個基點，損益兩平通膨率僅下滑0.1個基點，需求良好的$440億7年期公債標售也支撐行情。年通膨仍高，加上聯準會內部看法不一，使收盤走勢尚不足以顯示通膨已明確轉折。"
         },
         {
-          "section_title": "需求放緩，聯準會仍對通膨保持警戒",
-          "summary": "所得、投資與住宅數據轉弱，核心通膨月增率也放緩。Williams主張等待，Musalem則警告通膨若不再降溫，可能有必要升息；政策分歧使2年期公債漲幅落後長端。",
-          "market_read": "7年期標售獲得廣泛的非交易商需求，實質殖利率下降也帶動股債同漲。",
-          "next_check": ""
+          "market_read": "",
+          "next_check": "",
+          "section_title": "需求數據轉弱，聯準會辯論轉鷹",
+          "summary": "個人所得停滯、實質支出僅成長0.1%，第1季GDP成長率下修至1.6%，核心資本財訂單下跌1.1%，新屋銷售則降至年化62.2萬戶。PCE單月通膨放緩，年通膨卻仍遠高於目標。Williams主張保持耐心；Musalem認為政策利率低於中性水準，並把通膨降溫停滯或預期居高不下列為可能支持升息的條件。"
         },
         {
-          "section_title": "融資便宜，信用市場待遇卻大不相同",
-          "summary": "貨幣市場基金吸金、銀行中介能力擴大，壓低附買回融資成本。但Caesars與Sophos的債權人仍更謹慎；AT1及AI基礎建設融資則各憑不同保障與條件吸引買盤。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "低廉的附買回融資與更充裕的銀行資產負債表容量，使大量美債庫存更容易取得資金。",
+          "next_check": "",
+          "section_title": "標售需求與充裕資金支撐利率市場",
+          "summary": "$440億7年期公債標售的得標最高殖利率為4.290%，投標倍數2.52倍，間接投標人占78.39%。貨幣市場現金充裕、附買回利率異常偏低，銀行中介能力也已擴大，因而順利吸收供給。這些條件讓交易商即使持有創紀錄的美債庫存，仍未出現去年所見的融資壓力。"
         },
         {
-          "section_title": "通膨壓力使各國央行維持戒心",
-          "summary": "歐洲央行曾認真考慮升息，日本殖利率上升正改變本國投資人的選擇，南非則已採取緊縮行動。日本與巴西部分數據轉弱，使政策判斷更複雜，通膨疑慮仍未消退。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "當交易結構或擔保品能把關鍵風險轉移至財務實力更強的主體時，信用需求最為旺盛。",
+          "next_check": "",
+          "section_title": "信用需求強勁，但選擇性日益提高",
+          "summary": "投資人接受歐洲銀行長贖回期AT1及阿根廷省級債務，面對其他交易時卻要求更明確的保障。Broadcom提供的殘值支持為Anthropic租用晶片的優先融資奠定信用基礎；Sophos再融資即使提高定價，仍遭貸款人抵制，並被要求增加贊助方支持。涉及Jefferies旗下352 Capital基金的指控，則另行凸顯低流動性信用資產的擔保品與治理風險。"
         },
         {
-          "section_title": "主權借款人的籌資考驗各不相同",
-          "summary": "法國推動歐盟共同舉債，阿根廷各省在中央政府融資受限之際赴海外再融資，塞內加爾則即將付息並與IMF會談。各國的信用、擔保品及政策條件，決定取得資金的難易。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "即使國內成長仍弱，能源衝擊也正提高第二輪通膨風險。",
+          "next_check": "",
+          "section_title": "央行正面迎戰能源衝擊",
+          "summary": "歐洲央行官員考量能源成本對薪資與通膨預期的傳導，更接近在6月升息。南非將政策利率上調25個基點至7%，並提高通膨預測；巴西則示警2028年通膨預期惡化可能中斷寬鬆循環。三地關切的重點都不是最初的能源價格波動，而是持續存在的第二輪效應。"
         },
         {
-          "section_title": "前瞻市場意涵",
-          "summary": "美國貿易、ISM及勞動數據將進一步釐清，需求轉弱能否緩解聯準會的通膨顧慮。公債買回操作及交割情況，則可觀察充裕的附買回資金能否繼續支持債券庫存融資。",
+          "market_read": "要建立更具深度的歐盟安全資產市場，既需要足夠發行量，也需要目前尚不存在的政治共識。",
+          "next_check": "",
+          "section_title": "歐洲與日本重新定價主權債券利率風險",
+          "summary": "16個歐盟成員國要求考慮為投資與公共財進行新的共同舉債，但德國與荷蘭仍對共同承擔義務抱持疑慮。發行規模若足夠，共同債務可深化歐元區安全資產市場。日本方面，10年期政府公債殖利率已超過東證股價指數的股息殖利率，顯示投資人更重視通膨、財政擴張及供給增加。"
+        },
+        {
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "後市意義",
+          "summary": "ISM製造業與服務業、JOLTS、ADP及失業救濟申領數據，將檢驗投資疲弱及勞動市場邊際降溫是否正在擴大，同時觀察物價是否仍具壓力。財政部買回將測試寬鬆附買回環境能否持續；6月17日至18日的FOMC聲明與經濟預測，則會顯示政策辯論是否從寬鬆傾向轉為更對稱地考慮升息與降息。"
         }
       ],
       "watch_events": [
         {
-          "title": "美國貿易、存貨與ISM",
-          "date": "5月29日至6月3日",
-          "category": "美國經濟活動",
-          "watch_line": "貿易及存貨數據公布後，接續關注製造業與服務業ISM的訂單、就業及支付價格。",
-          "market_trigger": "需求轉弱，同時投入成本降溫。",
-          "market_implication": "將有利實質殖利率續降；需求與成本回升則帶來反向壓力。"
+          "category": "經濟成長與通膨",
+          "date": "6月1日至4日",
+          "market_implication": "經濟活動轉弱將支撐存續期間部位；物價走強則會強化聯準會採取更強硬立場的理由。",
+          "market_trigger": "訂單與聘僱更廣泛轉弱，或ISM支付價格再度承壓上升。",
+          "title": "美國經濟活動與勞動市場交叉驗證",
+          "watch_line": "ISM、JOLTS、ADP及失業救濟申領數據將檢驗需求、勞動市場流動與工業價格壓力。"
         },
         {
-          "title": "職缺、聘僱與初領失業救濟金",
-          "date": "6月2日至4日",
-          "category": "聯準會政策",
-          "watch_line": "JOLTS、ADP與初領失業救濟金將在聯準會會議前公布。",
-          "market_trigger": "職缺減少、聘僱轉弱、初領人數上升。",
-          "market_implication": "將削弱年底前升息的理由，2年期公債最直接受到影響。"
-        },
-        {
-          "title": "公債買回與附買回融資",
+          "category": "美債融資",
           "date": "6月3日至5日",
-          "category": "融資流動性",
-          "watch_line": "關注長天期附息債及現金管理買回操作的報價與交割。",
-          "market_trigger": "交割有序，附買回利率仍低於第一季常態。",
-          "market_implication": "將有利擔保品供給回升之際的債券庫存融資與新債發行。"
+          "market_implication": "現金持續充裕將降低交易商融資難度，並減少發債造成資金緊縮的風險。",
+          "market_trigger": "在既定財政部操作期間，附買回利率仍異常偏低。",
+          "title": "財政部買回與附買回市場流動性",
+          "watch_line": "長端及現金管理買回將檢驗寬鬆融資環境能否持續。"
+        },
+        {
+          "category": "聯準會",
+          "date": "6月17日至18日",
+          "market_implication": "更強硬的政策訊號將挑戰債券漲勢；若維持耐心立場，則可延續支撐。",
+          "market_trigger": "官員移除寬鬆傾向，或預測更高的政策利率路徑。",
+          "title": "6月FOMC決策與經濟預測",
+          "watch_line": "政策聲明與經濟預測將顯示，寬鬆傾向是否轉為更對稱的利率辯論。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries rose on May 28 as slower core inflation and weaker spending, investment and housing data brought some relief to the longer end of the market. The 10-year yield fell 3 basis points to 4.45%, while the 2-year declined just 1 basis point as investors continued to price a greater-than-even chance of a Federal Reserve increase by year-end.\n\nThe gains came through lower real yields, with 10-year inflation compensation unchanged. April's core PCE increase slowed to 0.2%, but annual inflation remained elevated and Fed officials differed over how much restraint current policy was providing. John Williams favored waiting for more evidence; Alberto Musalem warned that a failure to resume disinflation over the next quarter or two could warrant a hike.\n\nA well-supported 7-year Treasury auction and plentiful repo cash helped the market absorb supply. Stocks and credit funds also advanced. Behind those aggregate gains, creditors were drawing sharper distinctions: Caesars debt fell on the prospect of a leveraged takeover, and lenders sought more protection in a Sophos refinancing even at substantially higher pricing. Banks and structured AI financings continued to attract capital, with the terms determining who ultimately bore the risk.\n\n## Softer Demand Meets a Wary Fed\n\nApril's income and spending figures combined a softer monthly inflation reading with little growth in purchasing power. Personal income was unchanged, against expectations for a 0.4% increase and a 0.5% gain the previous month. Disposable income slipped 0.1%. Nominal consumption rose 0.5%, as forecast, but real consumption increased only 0.1%, while household saving fell.\n\nHeadline PCE prices rose 0.4% on the month, below the 0.5% consensus and down from 0.7%. Core prices increased 0.2%, also 0.1 percentage point less than expected. Annual headline and core inflation remained at 3.8% and 3.3%, respectively, leaving a much less reassuring picture over the longer comparison period.\n\nGrowth was also weaker than first estimated. Q1 GDP was revised to a 1.6% annualized pace from 2.0%, largely because of lower investment and consumer spending. Real gross domestic income grew 0.9%; the average of GDP and GDI increased 1.2%. Initial jobless claims rose to 215,000 from a revised 210,000, exceeding the 211,000 consensus, and the four-week average reached 209,000. The figures still showed expansion, but with less demand pressure to justify higher real rates.\n\nAn aircraft-driven surge in durable-goods orders masked a decline in underlying equipment demand. Total orders jumped 7.9%, against a 3.9% forecast, as transportation equipment increased 21.5%. Orders excluding transportation rose 1.1%, yet nondefense capital-goods orders excluding aircraft fell 1.1%. That last measure gave businesses' investment plans a weaker cast than the headline suggested.\n\nHousing showed the strain from high financing costs more directly. New single-family home sales fell to an annualized 622,000 from a revised 663,000, below the 660,000 consensus and 11.3% lower than a year earlier. Inventory rose to 489,000 homes, taking supply to 9.4 months from 8.7, with a median price of $422,500. Slower turnover left builders with more homes to clear.\n\nThe data helped pull the 10-year TIPS yield down 3 basis points to 2.06%, matching the decline in the nominal 10-year yield. The corresponding breakeven stayed at 2.39%. The real-yield decline extended across maturities: 5- and 7-year TIPS yields each fell 3 basis points to 1.61% and 1.83%, while 20- and 30-year yields fell 2. Investors required a lower real return as activity softened, while energy costs and the risk of higher inflation expectations continued to support inflation compensation.\n\nThe rally was stronger farther along the coupon curve. The 2-year yield closed at 3.99%, down 1 basis point; the 5-year fell 2 basis points to 4.15%; and the 30-year declined 3 basis points to 4.98%. The 2s10s curve flattened 2 basis points to 46, with 2s30s narrowing by the same amount to 99. An unchanged 2s5s10s butterfly at -14 basis points showed no separate dislocation around the 5-year sector.\n\nMusalem's comments underscored the obstacle to a larger front-end rally. He judged inflation risks to be greater than employment risks and put the real policy rate below his estimate of neutral. If disinflation failed to resume over the next one or two quarters, he said, an increase could be justified. He also cautioned against using prospective productivity gains to discount current inflation, drifting expectations or a stable labor market. As of Thursday, futures assigned more than a 50% chance to a hike by year-end.\n\nWilliams saw the current 3.5%-3.75% target range as exerting some restraint and said the Fed could wait to assess the war, tariffs and incoming data. He expected the associated pace of price increases to peak in coming months. On productivity, he stressed both the difficulty of identifying genuine shifts in real time and the possibility that they eventually raise equilibrium real rates. His more patient stance left room to observe the inflation shock, without treating a hoped-for AI productivity boom as a reason to ease immediately.\n\nTreasury's $44 billion 7-year auction drew broad nondealer demand. The sale stopped at 4.290%, with a 2.52 bid-to-cover ratio. Indirect bidders received 78.39% of accepted competitive bids, direct bidders 11.19%, and dealers 10.42%. The low dealer allocation helped the market take down the intermediate-maturity supply; issuance and settlement are scheduled for June 1.\n\nAt the shortest maturities, bills remained firmer in yield despite abundant secured-funding cash. Coupon-equivalent yields on 4-, 6-, 8- and 13-week bills rose 1 basis point to between 3.68% and 3.70%, while 17- through 52-week yields were unchanged. That contrast with coupons was consistent with a policy outlook still resistant to easing.\n\nStocks rose alongside bonds. The S&P 500 gained 0.58%, the Nasdaq 100 advanced 0.84%, and the semiconductor index added 1.00%; the VIX fell 3.38% to 15.74. Lower discount rates were helping growth stocks without softer activity being priced as an earnings recession. The dollar index slipped 0.19% to 99.02, easing the immediate pressure on dollar-funded borrowers.\n\nEnergy remained a less comfortable part of the inflation outlook. WTI rose 0.25% to $88.90, while Brent fell 0.62% to $93.71. Both were down more than 7% for the week, but their still-elevated levels left scope for costs to pass through to other prices. Gold gained 1.16% to $4,499.30, retaining inflation, geopolitical and policy-hedging demand even as equities strengthened and volatility receded.\n\n## Cheap Funding, Uneven Credit Demand\n\nCredit funds gained with Treasuries: LQD rose 0.30%, HYG 0.12%, JNK 0.10%, and EMB 0.26%. The modest high-yield gains accompanied better equities and easier funding, while several large transactions showed how differently lenders were assessing individual borrowers.\n\nCaesars' 6% unsecured bond due in 2032 fell more than 1 cent to 89 cents on the dollar after the company agreed to be bought by Fertitta Entertainment. Its $2.8 billion term loan lost about half a cent, trading between 96 and 97. The deal valued Caesars' equity at $5.7 billion and included the assumption of about $11.9 billion of debt. Market analysis pointed to roughly $6 billion of potential net new debt, with financing committed by 10 banks.\n\nCaesars' unsecured bonds had already fallen more than 8 cents since takeover reports emerged in February. The enlarged company would gain scale, but creditors faced higher leverage, uncertain financing terms and the possibility of a weaker position beneath newly raised debt. The premium paid for the equity offered them little immediate comfort.\n\nElsewhere, repo markets were awash with cash. About $120 billion had entered money-market funds during May, while Treasury's post-tax reduction in bill supply exceeded $270 billion. Cash-management buybacks further reduced collateral relative to available cash. Repo rates traded below the lower bound of the Fed's target range, and SOFR was just above 3.50%, compared with an April average of about 3.65%. The cheaper financing supported dealers carrying Treasury and credit inventories.\n\nBanks had more capacity to intermediate those positions as well. Changes to the enhanced supplementary leverage ratio expanded the room for large-bank Treasury intermediation, and Wells Fargo's growth after removal of its asset cap added repo financing. The eight U.S. global systemically important banks increased assets by a combined $1.3 trillion in Q1, including $300 billion of reverse repos and about $100 billion in Treasury trading books. That structural expansion helped accommodate large inventories and new issuance without visible funding stress.\n\nEuropean banks used strong demand for subordinated income to extend the life of their capital funding. Santander sold a $1.5 billion Additional Tier 1 bond with a 10-year non-call period. NatWest issued £500 million callable in 2036 with a 7.5% coupon. Long-call structures accounted for an unprecedented 25% of major-currency AT1 issuance this year, as the extra spread over the customary five-year call was relatively small.\n\nFor issuers, about 300 basis points of spread could secure a decade of Tier 1 financing. Investors received limited additional compensation along a flat five- to 10-year spread curve while taking longer exposure to rate volatility, extension risk and a less liquid secondary market. Banks were locking in refinancing certainty on terms that left less room for a repricing of those risks.\n\nAI infrastructure offered a different set of protections. Apollo and Blackstone were seeking investors for roughly $36 billion of delayed-draw debt tied to Anthropic's purchases of Google's TPU chips. The proposed financing included about $6 billion of A1 notes, $25 billion of A2 notes and $4.5 billion of junior B notes. Orders were requested during the week, with completion expected the following week.\n\nBroadcom's residual-value support would cover senior A-tranche shortfalls if, after a lease default, sales of the chips failed to repay investors. That backstop linked the senior notes more closely to Broadcom's investment-grade credit than to Anthropic's standalone earnings. Seniority, delayed draws and leased hard assets allowed the startup's financing needs to be divided into claims with different risk profiles.\n\nPimco's assessment of the wider market showed how large that dispersion had become. Data-center junk debt totaled roughly $40 billion, or 2.7% of U.S. high yield, within more than $250 billion of global hyperscaler borrowing. About 75% traded at spreads near 6%, with the remainder at 10% or wider. Pimco favored investment-grade offtakers, non-cancellable contracts, repayment before contract expiry and residual asset value—protections that distinguish contracted cash flow from speculative capacity.\n\nSoftware borrowers faced tougher negotiations. Several lenders passed on Thoma Bravo's proposed $2.5 billion Sophos refinancing even with early terms approaching 600 basis points over the benchmark, versus about 350 basis points on existing debt. Sophos has a $2.1 billion loan maturing in March 2027, and S&P had changed the relevant entity's outlook to negative. Existing lenders considering an extension of roughly 2.5 years sought more sponsor equity, partial repayment and higher pricing as AI disruption and leverage weighed on the refinancing case.\n\nA separate dispute concerned the assets backing Water Station Management bonds. Investors in 352 Capital alleged that the fund put millions of dollars into the bonds despite missing or nonexistent water-machine collateral and a personal conflict involving the manager. Lawsuits and criminal charges alleged that proceeds described as financing vending machines went mainly toward paying or buying out franchisees. The allegations centered on collateral, conflicts and use of proceeds, rather than the broader availability of credit.\n\n## Inflation Keeps Central Banks on Guard\n\nThe ECB's account of its April 29-30 meeting revealed how close officials had come to raising rates. A number would not have opposed an increase. With euro-area inflation at 3%, their concern was that energy costs would feed into wages and expectations. Chief Economist Philip Lane warned that second-round effects could persist after the initial Iran-war shock faded. Overseas tightening expectations remained an obstacle to a more sustained decline in U.S. yields.\n\nIn Japan, rising yields increasingly reflected inflation volatility, fiscal concerns, greater government supply and reduced central-bank support. The 10-year JGB term premium had climbed almost 70 basis points since the Iran war began, and market inflation expectations were at their highest since at least 2004. The yen weakened even as yields rose, pointing to compensation for inflation and fiscal uncertainty rather than an improvement in the currency's income appeal.\n\nHigher yields were changing the choices available to Japanese savers. The 10-year JGB yield exceeded the Topix dividend yield for the first time since 2008, while corporate bond yields reached their highest since the index began in 2000. Domestic bonds offered a more credible alternative to stocks and currency-hedged foreign bonds, even as refinancing became more expensive for companies. A shift in demand toward Japan could require other sovereign markets to offer a higher term premium.\n\nTokyo's May inflation report, released Friday after the U.S. close, showed the core measure excluding fresh food slowing to 1.3% year on year. It was the sixth consecutive deceleration and the weakest pace in four years. The measure excluding fresh food and energy rose 1.6%. Water, gasoline and childcare subsidies depressed inflation, while food-price pass-through and the weak yen sustained upside risk. Overnight-index swaps still put the probability of a June 15-16 BOJ hike at roughly 77%.\n\nSouth Africa had already tightened. Its Reserve Bank raised the benchmark 25 basis points to 7%, the first increase since 2023, citing the danger that overlapping inflation shocks would generate second-round effects. The rand retained a 0.2% gain against the dollar. The 10-year government yield reversed an intraday increase to finish at 8.62%, 9 basis points below its session high, although equities fell. The bond response suggested some relief in the inflation-risk premium; the bank's warning of further tightening also left a cost to growth.\n\nBrazil was weighing a pause in easing. Monetary Policy Director Nilton David highlighted worsening 2028 inflation expectations and said external price shocks would not be allowed to push inflation beyond the policy horizon. Annual inflation accelerated to 4.64% in early May, against a 3% target. The Selic stood at 14.5% following an April cut from the previously maintained 15% peak.\n\nApril job creation undershot every analyst forecast, softening the picture of labor resilience that policymakers had cited as an obstacle to disinflation. Even so, higher energy costs and fiscal uncertainty left less room for continued easing. A June pause would keep domestic interest rates restrictive while the bank assessed those pressures.\n\n## Sovereign Borrowers Face Different Funding Tests\n\nFrance was advocating more joint EU borrowing as aging populations, pension and health spending, strategic investment and higher national funding costs strained member budgets. Common debt would allow borrowing against the bloc's stronger collective credit and help banks diversify away from concentrated holdings of their home sovereigns. It would also add supranational bonds competing for global savings, broadening benchmark supply alongside national issuance.\n\nArgentina's provinces and Buenos Aires City were already finding buyers abroad. They raised a combined $2.3 billion in the first five months of 2026, the fastest pace for that period since 2017, largely to refinance debt and extend maturities. Buenos Aires City drew about $3 billion in orders for a $500 million 10-year issue yielding 7.4%. Cordoba sold $800 million at 8.95%, Chubut $650 million at 9.45%, and Entre Rios $300 million at 9.6%.\n\nThe federal government, by contrast, continued to rely on short-dated local financing rather than borrow externally near a 9% yield. Locally traded sovereign dollar bonds yielded about 5.1% when maturing before the 2027 election and 8.6% afterward. Chubut's oil-royalty collateral offered additional security, but provinces still depended on central-bank dollars to service foreign-currency debt and had restructured during previous sovereign crises. Strong demand for selected provincial issues coexisted with reserve and election risks.\n\nSenegal's immediate concern was debt service and negotiations with the IMF. A €53.75 million coupon on its 2037 euro bond falls due June 8, the day an IMF visit is scheduled to begin. Another $38.75 million payment, on its 2031 dollar bond, is due June 10. Investors expected the payments to be made but remained cautious while the government and Fund debated whether a new program would require restructuring.\n\nThe IMF suspended a $1.8 billion program in 2024 after hidden public debt came to light. Senegal's political leadership rejected restructuring as a threat to sovereignty. Low bond valuations therefore depended on more than the upcoming coupons: investors also needed clarity on the terms of renewed IMF financing.\n\n## Forward Market Significance\n\nThe next activity releases will show whether weakness in spending, equipment demand and housing is carrying into Q2. Advance trade and inventory figures are due May 29 at 08:30 ET, followed by manufacturing ISM on June 1 and services ISM on June 3, both at 10:00 ET. New orders, employment and prices paid will be particularly useful alongside the goods deficit and inventory accumulation. Softer demand coupled with cooling input prices would support further real-yield relief, especially in the five- to 10-year sector; resilient activity and renewed cost pressure could lift both real yields and inflation compensation.\n\nLabor reports will help resolve the difference between Williams's patient stance and Musalem's concern about persistent inflation. JOLTS is due June 2 at 10:00 ET, ADP June 3 at 08:15 ET, and jobless claims June 4 at 08:30 ET, ahead of the June 17-18 Fed meeting. Fewer openings, weaker hiring and another rise in claims would reduce the case for a year-end hike. Stable openings, better hiring and a reversal in claims would leave the inflation argument for tighter policy stronger, with the 2-year sector most directly exposed.\n\nTreasury also has two buybacks scheduled. The June 3 liquidity-support operation covers 20- to 30-year nominal coupons, with a $2 billion cap and June 4 settlement. The June 4 cash-management operation covers one-month to two-year coupons, capped at $12.5 billion and settling June 5. Offer quality, settlement and repo rates will show how comfortably dealers can finance inventories as bill supply and coupon settlements replenish collateral. Orderly funding below Q1 repo norms would support the long end and the credit pipeline; a marked normalization in repo or settlement strain would put the recent benefit from abundant cash under pressure.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries rallied across the curve on May 28 as a dense U.S. data slate showed softer household income, weaker underlying capital spending, slower first-quarter growth and a pronounced miss in new-home sales. The 10-year yield fell 3.6 basis points to 4.448% and the 30-year declined 3.9 basis points to 4.974%, compared with a 1.1-basis-point drop in the 2-year yield to 4.023%. That bull-flattening left the 2s10s curve at 42.5 basis points, 2.5 basis points narrower on the day.\n\nThe rally did not amount to a clean disinflation signal. April core personal consumption expenditures prices rose a softer-than-expected 0.2% from March, but headline inflation still ran at 3.8% from a year earlier and core inflation at 3.3%. New York Fed President John Williams judged policy slightly restrictive and well placed to wait for more information, while St. Louis Fed President Alberto Musalem said the real policy rate was below neutral and that officials needed to remain open to an increase. Futures pricing assigned more than a 50% probability to a rate increase by year-end.\n\nThe composition of the Treasury move reflected that tension. The 10-year real yield fell 3.5 basis points to 2.033%, almost matching the nominal-yield decline, while the 10-year breakeven slipped only 0.1 basis point to 2.415%. Investors marked down real-rate pressure without materially revising the market inflation premium. The long end also absorbed a $44 billion 7-year auction that stopped at 4.290%, with indirect bidders taking 78.39% of accepted competitive bids.\n\nRisk assets advanced alongside government bonds. The S&P 500 gained about 0.58%, the Nasdaq 100 rose 0.84% and the semiconductor index added 1.00%, while the VIX fell 3.38%. Brent declined 0.62% to $93.71 and was down 8.65% over the week, reducing the immediate energy impulse even as central banks continued to treat war-related inflation and second-round effects as live policy risks.\n\n## Softer Demand Data Meets a Harder Fed Debate\n\nThe April income and spending report offered support for duration through both its inflation and household-income details. Personal income was unchanged from March, missing the 0.4% consensus after a 0.5% increase previously, while disposable personal income fell 0.1%. Nominal consumption rose 0.5%, matching expectations but slowing from 1.0%, and real spending increased only 0.1%. The personal saving rate fell to 2.6% from 2.9%, showing that households maintained nominal expenditure without a corresponding rise in income.\n\nHeadline PCE prices increased 0.4% on the month, below the 0.5% consensus and down from 0.7%. Core prices rose 0.2%, also one-tenth below expectations and slower than the prior 0.3%. Those monthly readings were less threatening than feared, but the annual rates remained far above the Federal Reserve’s objective: 3.8% for headline inflation and 3.3% for core.\n\nThe second estimate of first-quarter GDP reinforced the softer growth side of the picture. Real GDP was revised to a 1.6% annualized increase from the 2.0% advance estimate, which had also been the consensus. Weaker investment and consumer spending accounted for most of the revision. Real gross domestic income rose 0.9%, down from 1.6% in the fourth quarter, while the average of GDP and GDI increased 1.2%.\n\nManufacturing orders delivered a superficially stronger but internally divided result. Durable-goods orders jumped 7.9% in April, more than double the 3.9% consensus and up from a revised 1.3% increase in March, as transportation-equipment orders surged 21.5%. Orders excluding transportation still rose 1.1%, but nondefense capital-goods orders excluding aircraft fell 1.1%. The aircraft-heavy headline therefore did not carry through to the component most closely associated with underlying business-equipment demand.\n\nRate-sensitive housing was weaker more uniformly. New single-family home sales fell 6.2% in April to a 622,000 annualized pace, below the 660,000 consensus and a revised 663,000 in March. Sales were 11.3% lower than a year earlier, while available inventory increased to 9.4 months of supply from 8.7 months. The median sales price was $422,500. The combination of lower turnover and more inventory gave the bond market a clearer sign of restraint from elevated financing costs than the durable-goods headline did.\n\nInitial jobless claims offered a milder version of the same message. Claims rose to 215,000 in the week ended May 23 from a revised 210,000, exceeding the 211,000 consensus. The four-week average increased to 209,000 from a revised 202,750. The figures showed some softening at the margin, but not the kind of deterioration that would by itself override the inflation concern.\n\nThat mixed macro picture was reflected in the day’s Federal Reserve communication. Williams, a permanent FOMC voter as New York Fed president, said the 3.5%-3.75% policy range was exerting a slightly restrictive effect and was well positioned to respond to the consequences of the Iran conflict. He expected the pace of war- and tariff-related price increases to peak over coming months, giving policymakers time to assess the data, and described the underlying labor market as doing well.\n\nWilliams separated that near-term judgment from his analysis of productivity. Structural productivity improvements can temporarily lower inflation as wages and prices adjust, but they should eventually raise inflation-adjusted interest rates. His central caution was that such shifts are unusually difficult to identify in real time, making their duration and implications too uncertain to support a near-term policy-rate call.\n\nMusalem drew a more restrictive policy conclusion from the same productivity debate. The St. Louis Fed president said officials should not rely on prospective artificial-intelligence gains to solve current inflation, particularly when the real policy rate was, in his assessment, below the FOMC’s estimate of long-run neutral. He also pointed to inflation meaningfully above target, longer-run expectations drifting upward and a stable labor market.\n\nHis conditions for considering a rate increase were explicit. Musalem said he would become concerned if disinflation did not resume over the next one or two quarters, or if inflation expectations remained elevated or continued to rise. He agreed with officials who wanted to remove the easing bias from the April policy statement and said the probability of considering an increase had to be greater than zero. He estimated that roughly three-quarters of the recent rise in Treasury yields reflected a higher expected neutral policy rate, with only one-quarter coming from term premium.\n\nThe distinction between Williams and Musalem was therefore not whether inflation mattered, but how much patience current policy afforded. Williams saw a slightly restrictive stance and the prospect that the price shock would peak; Musalem saw a real rate below neutral and insufficient evidence that productivity would deliver noninflationary growth. The June 17-18 meeting, the first led by Chairman Kevin Warsh, will force that debate into the statement and the new economic projections.\n\n## Auction Demand and Abundant Cash Support the Rates Market\n\nTreasury’s $44 billion new 7-year note stopped at a 4.290% high yield with a 2.52 bid-to-cover ratio. Indirect bidders received 78.39% of accepted competitive bids, direct bidders 11.19% and primary dealers 10.42%. Treasury allotted 71.23% of bids tendered at the high yield. The note is due to settle on June 1.\n\nTrading activity was elevated around the intermediate sector. Reported par activity in nominal Treasury coupons rose 11.9% from the previous session to $1.246 trillion. Activity in maturities longer than 5 years and up to 7 years increased 66.0% to $128.5 billion, with on-the-run securities accounting for 81.9%. Those aggregates measure turnover rather than the direction of demand, but they show how much activity accompanied the auction and the broader rally.\n\nThe supply was absorbed against an unusually cash-rich funding backdrop. About $120 billion flowed into money-market funds during May, while repo rates traded below the lower bound of the Fed’s target range. The effective federal funds rate moved lower twice during the month, and the Secured Overnight Financing Rate was just above 3.50% after averaging roughly 3.65% in April.\n\nPart of that softness came from the reduction of more than $270 billion in Treasury-bill supply around the April tax season and from Treasury cash-management buybacks, which left abundant cash competing for collateral. Strategists at several banks, however, judged the move too persistent to be explained by seasonal factors alone.\n\nChanges to the enhanced supplementary leverage ratio have expanded the capacity of large banks to intermediate Treasury and repo positions. Some banks adopted the change before its April 1 deadline, helping dealers accommodate inventories even as their Treasury holdings reached a record $557 billion at the end of March. Wells Fargo has also become a large marginal provider of repo financing since its asset cap was removed in June 2025.\n\nThe scale of the balance-sheet expansion is substantial. Total assets at the eight U.S.-based global systemically important banks rose by a combined $1.3 trillion in the first quarter. Reverse-repo transactions accounted for $300 billion of that increase, while securities holdings grew by about $400 billion, including $100 billion in Treasury trading books. That additional intermediation capacity helps explain why heavy dealer inventories have not produced the funding strains seen last year.\n\nPersistent softness could affect the Fed’s reserve-management purchases. Officials have already reduced monthly Treasury-bill buying to about $10 billion, from $40 billion through April and $25 billion in May. New York Fed markets chief Roberto Perli has said the pace can be adjusted to conditions, and strategists have raised the possibility of a pause if overnight funding remains unusually loose.\n\nThe funding environment is not merely a technical counterpoint to the Treasury rally. Lower repo costs make it easier for dealers to finance larger inventories and absorb supply, while a durable expansion of bank balance-sheet capacity reduces the likelihood that routine issuance produces a sudden collateral or reserve squeeze. The June cash-management operations will provide the next test of how those structural and seasonal influences interact.\n\n## Credit Demand Is Strong, but It Is Becoming More Discriminating\n\nEuropean banks are exploiting tight risk premiums by extending the period before they can call Additional Tier 1 securities. Bonds with 10-year call dates account for one-quarter of major-currency AT1 issuance in 2026, an unprecedented share in a market where the standard first-call period has traditionally been 5 years.\n\nBanco Santander sold $1.5 billion of non-call 10-year AT1 debt, while NatWest issued £500 million of securities callable in 2036 with a 7.5% coupon. Deutsche Bank, BNP Paribas and UBS have also issued long-call structures this year. Banks can secure roughly 10 years of Tier 1 funding at spreads of about 300 basis points because the spread curve between 5- and 10-year maturities is relatively flat and much of the incremental rates exposure can be swapped.\n\nFor investors, the structure carries more duration and liquidity risk than a conventional 5-year-call bond. Longer-call AT1s can fall more sharply if underlying rates rise, and the smaller secondary market may lose liquidity more quickly under stress. Tight new-issue spreads also leave less protection against repricing. The same extension can produce stronger upside when a bank’s equity improves, because the bond price is less tightly anchored to an expected redemption at par in the near term.\n\nDemand is also supporting emerging-market borrowers that can offer insulation from sovereign political risk. Argentine provinces and Buenos Aires City issued a combined $2.3 billion during the first 5 months of 2026, the most for that period since 2017. Buenos Aires City raised $500 million through a 10-year bond at 7.4%, the lowest borrowing cost in its history, after attracting about $3 billion in orders.\n\nCordoba sold $800 million at 8.95% and Chubut raised $650 million at 9.45%, with both using the market to refinance debt and extend maturities. Chubut backed its bond with oil-royalty revenue. Entre Rios returned to international markets for the first time in nearly a decade with a $300 million deal at 9.6%.\n\nThe provincial market is offering investors a way to separate stronger local credits or secured revenue streams from the federal government’s election exposure. Argentina’s sovereign has stayed with short-term local debt and repo financing rather than issuing externally at yields near 9%. Local sovereign dollar bonds maturing before the 2027 election yielded roughly 5.1%, compared with about 8.6% for debt maturing afterward.\n\nThat distinction is useful but incomplete. Provinces generally need access to central-bank dollars to service foreign-currency obligations, and past sovereign crises have spread rapidly to local issuers. Provincial debt was restructured during both the 2001 collapse and the 2020 crisis, when Buenos Aires province reorganized almost all of its $7.1 billion of defaulted bonds.\n\nElsewhere in private markets, the largest proposed financings are increasingly being built around structural credit protection rather than the borrower’s standalone earnings. Apollo and Blackstone are seeking additional investors for roughly $36 billion of debt to fund chips that Anthropic will lease for artificial-intelligence infrastructure in New York, Texas, Louisiana and Indiana.\n\nA special-purpose vehicle would buy Google-designed tensor processing units and receive Anthropic’s lease payments. The financing is expected to comprise about $6 billion of A1 notes, $25 billion of A2 notes and $4.5 billion of B notes, although the amounts remain subject to change. It uses a delayed-draw structure so capital can be advanced as chips become available and leases begin.\n\nBroadcom, which helps Google develop the chips, would provide residual-value support to the senior A1 and A2 notes. If Anthropic stopped making lease payments for a specified period, the vehicle would sell the chips. Broadcom would cover any shortfall required to repay those senior investors in full, aligning their credit profile with Broadcom’s investment-grade standing while leaving the junior B notes below them in the repayment structure.\n\nThe protection is central because Anthropic does not yet generate the earnings needed to support debt of this size on its own. The company separately announced a $65 billion equity round at a $965 billion valuation. Apollo and Blackstone intend to retain substantial portions of the financing while syndicating the rest, with orders sought during the week and completion expected the following week.\n\nThe contrast with software refinancing is stark. Several private-credit firms declined to participate in Thoma Bravo’s proposed $2.5 billion refinancing of cybersecurity company Sophos even after the indicated spread rose to nearly 600 basis points over the benchmark rate. Sophos’s existing debt pays about 350 basis points over and includes a $2.1 billion loan maturing in March 2027.\n\nThoma Bravo is consequently considering a parallel amendment-and-extension process with Goldman Sachs. Existing lenders are seeking additional sponsor equity, a partial repayment of debt and higher pricing in exchange for extending maturity by roughly 2.5 years. Thoma Bravo already has more than $2.3 billion of equity invested in the company.\n\nS&P Global Ratings recently lowered the outlook on a Sophos entity to negative and said the rating could be cut if the coming maturities were not refinanced within 2 months. Sophos’s loan traded near 97 cents, and the company generated free cash flow in its December quarter with annual recurring revenue of about $1.34 billion. Those operating and market indicators provide support, but the compressed refinancing timetable has become a liquidity constraint.\n\nThe resistance reflects a broader reassessment of software exposure as lenders consider whether artificial intelligence could weaken established subscription businesses. Some business-development companies have begun selling selected software loans, while other investors are buying discounted positions. The difference between the Anthropic and Sophos transactions shows that appetite for technology-related private debt remains large when the structure transfers key risk to a stronger balance sheet, but is far less automatic when lenders must underwrite the borrower’s refinancing and disruption risk directly.\n\nA separate dispute at Jefferies underscored the legal and collateral risks in less-liquid credit. Investors in Leucadia Asset Management’s 352 Capital fund filed a proposed class action alleging that the fund continued buying Water Station Management bonds despite knowledge that collateral did not exist and that former portfolio manager Jordan Chirico had a personal investment in the business.\n\nJefferies has alleged that Chirico misled it about his investments and relationship with Water Station. Chirico, who pleaded not guilty after being charged with fraud, has said through counsel that he was a victim rather than an organizer of the alleged scheme. The investor complaint seeks unspecified damages and alleges that bond-document protections, including events of default tied to collateral representations and financial reporting, were waived. Those remain allegations rather than adjudicated findings.\n\n## Central Banks Confront the Energy Shock\n\nThe European Central Bank’s account of its April 29-30 meeting showed that a number of officials regarded the decision as close and would not have opposed a rate increase had one been formally proposed. Policymakers have since indicated that an increase is likely in June, including some officials normally associated with the dovish side of the Governing Council.\n\nEuro-area inflation was running at 3%, and officials were concerned that higher energy costs could pass into wage demands and longer-term expectations. ECB Chief Economist Philip Lane said that even if the initial energy shock reversed, its second-round effects would persist for some time. Economists and investors expected at least two increases during 2026.\n\nSouth Africa acted immediately. The South African Reserve Bank raised its benchmark rate by 25 basis points to 7%, its first increase since 2023 and in line with the forecast of 18 of 19 surveyed economists. The six-member committee split 4-2, with two members preferring no change, after also discussing a 50-basis-point increase.\n\nGovernor Lesetja Kganyago said intensified inflation risks and overlapping shocks could generate second-round effects. All three of the central bank’s war scenarios implied some further tightening, with the most adverse path putting the policy rate at 7.83% by the third quarter. The bank raised its 2026 inflation forecast to 4.4% from 3.7%, lowered its growth estimate to 1.2% from 1.4%, and lifted the year-end rate projection in its quarterly model to 6.7% from 6.47%.\n\nSouth African inflation accelerated to 4.0% in April from 3.1%, its highest in 20 months, after fuel prices reached an almost 4-year high. The rand remained about 0.2% stronger at 16.327 per dollar late in Johannesburg after paring an earlier gain, while the 10-year government yield reversed a selloff and fell to 8.62%, 9 basis points below its session high.\n\nBrazil, by contrast, is reassessing whether an easing cycle can continue. Central-bank Monetary Policy Director Nilton David highlighted the worsening of 2028 inflation expectations after the bank delivered two consecutive 25-basis-point cuts. Annual inflation accelerated to 4.64% in early May, and some economists expected the bank to pause as soon as June with the Selic rate at 14.5%.\n\nDavid said policy could do little to change 2026 inflation but still had time to bring expectations for 2028 back toward the 3% target. The comments made clear that lower rates did not represent a shift away from restrictive policy and that an external energy shock would not be allowed to propagate beyond the relevant policy horizon, currently the fourth quarter of 2027.\n\n## Europe and Japan Reprice Sovereign Duration\n\nEurope’s debate over common borrowing is moving closer to the center of fiscal policy as governments confront defense, infrastructure and energy-transition costs. A paper signed by 16 member states in late May called for consideration of new joint borrowing to support loans for European investment and public goods. It also advocated a more gradual repayment schedule for pandemic-recovery debt, whose repayments are due to begin in 2028.\n\nFrance, Spain and Greece broadly support more common issuance, while Germany and the Netherlands remain wary of mutualizing fiscal obligations. The European Commission has proposed targeted instruments financed through common borrowing, including a crisis facility of as much as €400 billion. Poland has backed joint debt for defense, and Bundesbank President Joachim Nagel has said some national borrowing capacity could move to the EU level.\n\nThe outstanding pandemic recovery facility exceeds €800 billion, and the bloc has separately agreed to a €90 billion loan to Ukraine backed by the EU budget. A defense-loan program adopted in 2025 already allows the Commission to borrow and then lend to national governments, keeping repayment obligations with the individual member states.\n\nAt sufficient scale, common issuance could create a deeper euro-area safe asset alongside German Bunds, broaden banks’ sovereign exposures and provide a more liquid benchmark for private borrowing. Alternatives include sovereign bond-backed securities, which would pool national debt as collateral and create tranches with different risk and yield without adding mutual obligations. Both approaches depend on issuance volume to produce meaningful liquidity, while permanent joint borrowing would require political agreement that does not yet exist.\n\nJapan is already showing how a structural rise in sovereign yields can reshape an entire financial system. The 10-year Japanese government-bond yield has climbed above the Topix dividend yield for the first time since 2008. The yield on Japanese corporate bonds has reached the highest level since the relevant index began in 2000, raising refinancing costs as older liabilities mature.\n\nThe move is no longer being read solely as healthy normalization after the Bank of Japan ended negative rates in 2024. Daiwa Securities estimated that the term premium on 10-year JGBs had risen almost 70 basis points since the Iran war began. The yen weakened even as yields rose, suggesting that investors were attaching more weight to inflation, fiscal expansion and heavier government supply than to a straightforward improvement in returns on Japanese assets.\n\nTokyo inflation data released during the Asian morning after the U.S. close complicated the BOJ’s June decision. Consumer prices excluding fresh food rose 1.3% from a year earlier in May, the slowest pace in 4 years and a sixth consecutive deceleration. Inflation excluding fresh food and energy was 1.6%, while headline CPI was 1.4%.\n\nGovernment subsidies and a steep decline in water-service fees restrained the index. Service prices rose 1.1%, and food excluding fresh items increased 4.1%; rice prices fell 1.0%, their first decline since August 2022. Industrial production unexpectedly rose in April, retail sales strengthened from March and unemployment declined to 2.5%.\n\nThose results softened the current inflation picture without removing the oil, currency and fiscal risks facing the BOJ. Traders assigned roughly a 77% probability to a 25-basis-point increase at the June 15-16 meeting. The yen was near 159.31 per dollar, close to its weakest level since the April 30 currency intervention, while announced food-price increases for August pointed to continuing pass-through pressure.\n\n## Forward Market Significance\n\nThe next U.S. growth update arrives on May 29 with the April advance economic indicators. Consensus estimates put the goods-trade deficit at $86.5 billion, compared with $87.9 billion previously, with retail inventories expected to rise 0.4% and wholesale inventories 0.8%. Those inputs will affect tracking estimates after the downward revision to first-quarter GDP.\n\nThe June 1 ISM manufacturing survey will test whether the 52.7 reading in April was followed by continued expansion. New orders and employment will help determine whether the weakness in core capital-goods orders is broadening, while prices paid will show whether the energy shock is spreading through industrial inputs.\n\nLabor evidence then becomes more detailed. April JOLTS data on June 2 will update openings, hires and quits after an initially reported 6.866 million vacancies. The May ADP report follows at 08:15 ET on June 3, after a prior 109,000 increase, and another initial-claims reading arrives June 4 after the rise to 215,000. Together they will show whether the latest claims increase was noise or the beginning of a softer labor-flow trend.\n\nThe June 3 ISM services survey is the more consequential growth-inflation cross-check after PCE. The previous headline reading was 53.6, but the employment and prices-paid components will matter most for a Fed debating whether to remove its easing bias. The Beige Book later that day will add district-level evidence on demand, hiring, credit conditions and price pressure ahead of the June 17-18 FOMC meeting.\n\nTreasury operations will also test the unusually loose funding environment. A June 3 liquidity-support buyback may accept as much as $2.0 billion of 20- to 30-year nominal coupons between 13:40 and 14:00 ET, with settlement on June 4. A June 4 cash-management buyback may accept up to $12.5 billion of 1-month to 2-year nominal coupons, settling June 5. The former is a scheduled long-duration liquidity operation; the latter has more direct implications for the supply of short-maturity collateral and the cash-rich repo market.\n",
     "section_summaries": [
       {
+        "market_read": "The rally came almost entirely through lower real yields; the 10-year inflation premium was virtually unchanged.",
+        "next_check": "",
         "section_id": "section-01",
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Lower real yields drove a modest Treasury rally, but persistent inflation and the possibility of a Fed hike limited front-end gains. Credit funds advanced alongside equities, while leveraged borrowers faced more demanding lenders.",
-        "market_read": "",
-        "next_check": ""
+        "summary": "Longer-dated Treasuries led a bull-flattening rally as weaker demand data reduced real-rate pressure. The 10-year real yield fell 3.5 basis points while the breakeven slipped only 0.1 basis point, and a well-received $44 billion 7-year auction supported the move. Elevated annual inflation and disagreement within the Fed kept the close from signaling an unambiguous disinflation turn."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Softer Demand Meets a Wary Fed",
-        "summary": "Income, investment and housing data weakened as monthly core inflation slowed. Williams favored waiting, while Musalem warned that stalled disinflation could justify a hike; the divergence helped keep the 2-year rally smaller than the long end's.",
-        "market_read": "The 7-year auction drew broad nondealer demand, and stocks rose with bonds as real yields declined.",
-        "next_check": ""
+        "section_title": "Softer Demand Data Meets a Harder Fed Debate",
+        "summary": "Personal income stalled, real spending rose only 0.1%, Q1 GDP growth was revised to 1.6%, core capital-goods orders fell 1.1% and new-home sales dropped to a 622,000 pace. Monthly PCE inflation moderated, but annual inflation remained well above target. Williams favored patience, while Musalem saw policy below neutral and identified stalled disinflation or elevated expectations as conditions that could justify an increase."
       },
       {
+        "market_read": "Cheap repo funding and greater bank balance-sheet capacity are making heavy Treasury inventories easier to finance.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "Cheap Funding, Uneven Credit Demand",
-        "summary": "Money-market inflows and greater bank intermediation kept repo financing cheap. Caesars and Sophos nevertheless faced tougher creditor scrutiny, while AT1 and AI infrastructure financings attracted demand on very different protections and terms.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Auction Demand and Abundant Cash Support the Rates Market",
+        "summary": "The $44 billion 7-year note stopped at 4.290% with a 2.52 bid-to-cover ratio and 78.39% indirect participation. Its absorption came amid abundant money-market cash, unusually low repo rates and expanded bank intermediation capacity. Those conditions have allowed dealers to finance record Treasury inventories without the funding strains seen last year."
       },
       {
+        "market_read": "Credit appetite is strongest where structure or collateral shifts key risk to a stronger balance sheet.",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "Inflation Keeps Central Banks on Guard",
-        "summary": "ECB officials had seriously considered a hike, Japan's higher yields were reshaping domestic investment choices, and South Africa tightened. Softer Japanese and Brazilian data complicated the outlook without removing inflation concerns.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Credit Demand Is Strong, but It Is Becoming More Discriminating",
+        "summary": "Investors accepted longer-call European bank AT1s and Argentine provincial debt, but demanded clearer protection elsewhere. Broadcom’s residual-value support underpins senior financing for Anthropic’s leased chips, while lenders resisted Sophos refinancing despite wider pricing and sought more sponsor support. Allegations involving Jefferies’ 352 Capital fund separately highlighted collateral and governance risks in less-liquid credit."
       },
       {
+        "market_read": "The energy shock is raising second-round inflation risk even where domestic growth remains weak.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "Sovereign Borrowers Face Different Funding Tests",
-        "summary": "France pressed for joint EU borrowing, Argentine provinces refinanced abroad despite federal funding constraints, and Senegal approached coupon payments and IMF talks. Access depended on each borrower's credit, collateral and policy position.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Central Banks Confront the Energy Shock",
+        "summary": "ECB officials moved closer to a June increase as they weighed energy pass-through into wages and expectations. South Africa raised its policy rate 25 basis points to 7% and lifted its inflation forecast, while Brazil signaled that worsening 2028 expectations could interrupt its easing cycle. Across the three, the concern was less the initial energy move than persistent second-round effects."
       },
       {
+        "market_read": "A deeper EU safe asset requires both sufficient issuance and political agreement that does not yet exist.",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Forward Market Significance",
-        "summary": "US trade, ISM and labor releases will clarify whether weaker demand can ease the Fed's inflation concerns. Treasury buybacks and settlement conditions will show whether plentiful repo cash continues to support bond inventories.",
+        "section_title": "Europe and Japan Reprice Sovereign Duration",
+        "summary": "Sixteen EU states called for consideration of new common borrowing for investment and public goods, though Germany and the Netherlands remain wary of shared obligations. At sufficient scale, joint issuance could deepen the euro-area safe-asset market. In Japan, the 10-year government yield moved above the Topix dividend yield as investors attached greater weight to inflation, fiscal expansion and heavier supply."
+      },
+      {
         "market_read": "",
-        "next_check": ""
+        "next_check": "",
+        "section_id": "section-07",
+        "section_title": "Forward Market Significance",
+        "summary": "ISM manufacturing and services, JOLTS, ADP and claims will test whether weaker investment and marginal labor softening are broadening while prices remain firm. Treasury buybacks will probe the durability of loose repo conditions, and the June 17-18 FOMC statement and projections will show whether the easing bias gives way to a more symmetric policy debate."
       }
     ]
+  },
+  "macro_calendar": {
+    "released": [
+      {
+        "actual": "622K SAAR",
+        "category": "Housing",
+        "consensus": "660K",
+        "date": "2026-05-28",
+        "event_key": "new_home_sales",
+        "id": "macro-released-ca365e67d73b",
+        "period": "April",
+        "previous": "663K revised",
+        "time": "10:00 ET",
+        "title": "New Home Sales"
+      },
+      {
+        "actual": "1.6% SAAR",
+        "category": "Growth",
+        "consensus": "2.0%",
+        "date": "2026-05-28",
+        "event_key": "gdp",
+        "id": "macro-released-832c7a6622c0",
+        "period": "2026 Q1",
+        "previous": "2.0% advance estimate",
+        "time": "08:30 ET",
+        "title": "GDP Second Estimate"
+      },
+      {
+        "actual": "215K",
+        "category": "Labor",
+        "consensus": "211K",
+        "date": "2026-05-28",
+        "event_key": "initial_claims",
+        "id": "macro-released-19e970ca7fec",
+        "period": "Week ended May 23",
+        "previous": "210K revised",
+        "time": "08:30 ET",
+        "title": "Initial Jobless Claims"
+      },
+      {
+        "actual": "7.9% MoM; ex-transport 1.1%; core capital goods -1.1%",
+        "category": "Activity",
+        "consensus": "3.9%",
+        "date": "2026-05-28",
+        "event_key": "durable_goods",
+        "id": "macro-released-2ed578eb8b02",
+        "period": "April",
+        "previous": "1.3% revised",
+        "time": "08:30 ET",
+        "title": "Advance Durable Goods Orders"
+      }
+    ],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Surveys",
+        "date": "2026-06-01",
+        "event_key": "ism_manufacturing",
+        "id": "macro-upcoming-d6bc42e0aed5",
+        "period": "May",
+        "previous": "52.7",
+        "time": "10:00 ET",
+        "title": "ISM Manufacturing PMI"
+      },
+      {
+        "category": "Labor",
+        "date": "2026-06-02",
+        "event_key": "jolts",
+        "id": "macro-upcoming-d243d9b814ce",
+        "period": "April",
+        "previous": "6.866M as initially published",
+        "time": "10:00 ET",
+        "title": "JOLTS Job Openings"
+      },
+      {
+        "category": "Labor",
+        "date": "2026-06-03",
+        "event_key": "adp_employment",
+        "id": "macro-upcoming-b83aa884ea6d",
+        "period": "May",
+        "previous": "109K as available before release",
+        "time": "08:15 ET",
+        "title": "ADP National Employment Report"
+      },
+      {
+        "category": "Surveys",
+        "date": "2026-06-03",
+        "event_key": "ism_services",
+        "id": "macro-upcoming-90374a572485",
+        "period": "May",
+        "previous": "53.6",
+        "time": "10:00 ET",
+        "title": "ISM Services PMI"
+      },
+      {
+        "category": "Labor",
+        "date": "2026-06-04",
+        "event_key": "initial_claims",
+        "id": "macro-upcoming-22cafe2e1a70",
+        "period": "Week ended May 30",
+        "previous": "215K initial May 28 release",
+        "time": "08:30 ET",
+        "title": "Initial Jobless Claims"
+      }
+    ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 2140676,
+          "asset_manager_net_change": 24327,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1878632,
+          "leveraged_fund_net_change": 69197,
+          "open_interest": 4938650,
+          "open_interest_change": 142140,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2872452,
+          "asset_manager_net_change": 158070,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2306447,
+          "leveraged_fund_net_change": 42758,
+          "open_interest": 6977994,
+          "open_interest_change": 208679,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2267251,
+          "asset_manager_net_change": 147110,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -1952737,
+          "leveraged_fund_net_change": 4205,
+          "open_interest": 5833268,
+          "open_interest_change": -33089,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 602480,
+          "asset_manager_net_change": 26884,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -276150,
+          "leveraged_fund_net_change": -25695,
+          "open_interest": 2615042,
+          "open_interest_change": 127867,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 495098,
+          "asset_manager_net_change": 33356,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -326383,
+          "leveraged_fund_net_change": -30187,
+          "open_interest": 1879052,
+          "open_interest_change": 42031,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1079369,
+          "asset_manager_net_change": -65998,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -886063,
+          "leveraged_fund_net_change": -12834,
+          "open_interest": 2534806,
+          "open_interest_change": 179820,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-05-19",
+      "published_date": "2026-05-22"
+    },
+    "treasury": {
+      "comparison_date": "2026-05-27",
+      "observation_date": "2026-05-28",
+      "par_change_pct": 4.6265,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": 11.8825,
+          "par_usd_bn": 1245.7,
+          "trade_count": 365926
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 5.6769,
+          "par_usd_bn": 24.2,
+          "trade_count": 3714
+        },
+        {
+          "key": "bills",
+          "par_change_pct": -21.7044,
+          "par_usd_bn": 245.3,
+          "trade_count": 58636
+        },
+        {
+          "key": "frns",
+          "par_change_pct": 57.1429,
+          "par_usd_bn": 4.4,
+          "trade_count": 139
+        }
+      ],
+      "total_par_usd_bn": 1519.7,
+      "total_trade_count": 428415
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -679,152 +898,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 3.99% (-1 bp) | UST 5Y 4.15% (-2 bp)",
-      "UST 10Y 4.45% (-3 bp) | UST 30Y 4.98% (-3 bp)",
-      "10Y TIPS real yield 2.06% (-3 bp) | 10Y breakeven inflation 2.39% (-0 bp)",
-      "UST 2s10s curve 46 bp (-2 bp) | UST 2s30s curve 99 bp (-2 bp)"
+      "UST 2Y 4.023% (-1.1 bp) | UST 5Y 4.154% (-2.4 bp)",
+      "UST 10Y 4.448% (-3.6 bp) | UST 30Y 4.974% (-3.9 bp)",
+      "10Y TIPS real yield 2.033% (-3.5 bp) | 10Y breakeven inflation 2.415% (-0.1 bp)",
+      "UST 2s10s curve 42.5 bp (-2.5 bp) | UST 2s30s curve 95.1 bp (-2.8 bp)"
     ],
-    "headline": "Treasuries gain as demand softens; creditors become more selective",
-    "session_narrative": "The 10-year Treasury yield fell 3 basis points to 4.45%, with the decline coming through real yields rather than inflation compensation. April income stalled, real spending barely increased and investment and housing figures weakened. Core PCE rose 0.2% on the month, below expectations, but elevated annual inflation left Fed officials divided over how much restraint policy was providing. Futures still put the chance of a year-end hike above 50%.\n\nA well-supported 7-year auction and abundant repo cash helped absorb supply. Stocks and credit funds rose too, although individual borrowers faced sharply different terms. Caesars bonds fell after its proposed takeover raised leverage concerns; Sophos lenders sought more protection despite substantially higher refinancing pricing. European banks extended their capital funding, while a proposed Anthropic financing relied on Broadcom's residual-value support to protect senior investors.\n\nOverseas, the ECB's debate over a hike and rising Japanese term premiums kept pressure on global borrowing costs. South Africa raised rates, while Brazil weighed weaker employment against persistent inflation. Upcoming US activity and labor releases will help determine whether lower real yields can spread to the policy-sensitive front end; Treasury buybacks will test whether funding remains easy as collateral supply rebuilds.",
-    "summary": "Longer-dated Treasuries outperformed as slower core inflation and weaker demand lowered real yields. A possible Fed hike still weighed on the front end, while cheap funding did little to resolve the risks in leveraged takeovers and software refinancing."
+    "headline": "Treasuries rally and the curve flattens as softer demand lowers real yields without easing inflation concern",
+    "session_narrative": "Treasuries rallied across the curve, led by longer maturities. The 10-year yield fell 3.6 basis points to 4.448% and the 30-year declined 3.9 basis points to 4.974%, while the 2-year eased 1.1 basis points to 4.023%. The 2s10s curve narrowed 2.5 basis points to 42.5 basis points.\n\nThe move followed softer household income, a downward revision in Q1 growth, weaker core capital-goods orders and a sharp new-home-sales miss. Monthly core PCE inflation was also softer than expected at 0.2%, but annual headline and core inflation remained elevated at 3.8% and 3.3%. The 10-year real yield accounted for almost the entire nominal-yield decline, while the breakeven was nearly unchanged, indicating less real-rate pressure rather than a material reduction in the inflation premium. Strong demand at the $44 billion 7-year auction reinforced the rally.\n\nFed officials offered conflicting interpretations of the outlook. John Williams described policy as slightly restrictive and well placed to wait, while Alberto Musalem argued that the real policy rate was below neutral and kept a rate increase under consideration. Futures assigned more than a 50% probability to an increase by year-end. Equities advanced and volatility declined alongside bonds, while Brent’s weekly fall reduced the immediate energy impulse without removing concern about second-round inflation.",
+    "summary": "Softer income, underlying investment, housing and Q1 growth pulled 10-year and 30-year Treasury yields lower, while sticky annual inflation and a divided Fed debate prevented the rally from becoming a clean disinflation signal."
   },
   "report_date": "2026-05-28",
-  "run_id": "daily-fi-newsroom-edit-2026-05-28-7e0460f00a24",
+  "run_id": "daily-fi-simple-2026-05-28-e04a29ff-1f341d73",
   "watch_events": [
     {
-      "category": "US activity",
-      "date": "May 29-June 3",
+      "category": "Growth and inflation",
+      "date": "June 1-4",
       "id": "watch-01",
-      "market_implication": "Would support further real-yield declines; stronger demand and costs would work in the other direction.",
-      "market_trigger": "Softer demand alongside cooler input prices.",
-      "title": "US trade, inventories and ISM",
-      "watch_line": "Trade and inventories precede manufacturing and services ISM; focus on orders, employment and prices paid."
+      "market_implication": "Softer activity would support duration; firmer prices would strengthen the case for a harder Fed stance.",
+      "market_trigger": "Broader weakness in orders and hiring, or renewed pressure in ISM prices paid.",
+      "title": "U.S. activity and labor cross-check",
+      "watch_line": "ISM, JOLTS, ADP and claims will test demand, labor flows and industrial price pressure."
     },
     {
-      "category": "Fed policy",
-      "date": "June 2-4",
-      "id": "watch-02",
-      "market_implication": "Would weaken the case for a year-end hike, with the 2-year sector most directly affected.",
-      "market_trigger": "Fewer openings, weaker hiring and rising claims.",
-      "title": "Job openings, hiring and claims",
-      "watch_line": "JOLTS, ADP and claims arrive ahead of the Fed meeting."
-    },
-    {
-      "category": "Funding liquidity",
+      "category": "Treasury funding",
       "date": "June 3-5",
+      "id": "watch-02",
+      "market_implication": "Persistent cash abundance would ease dealer financing and reduce the risk of an issuance-driven squeeze.",
+      "market_trigger": "Repo rates remain unusually soft through the scheduled Treasury operations.",
+      "title": "Treasury buybacks and repo liquidity",
+      "watch_line": "Long-end and cash-management buybacks will test the persistence of loose funding conditions."
+    },
+    {
+      "category": "Federal Reserve",
+      "date": "June 17-18",
       "id": "watch-03",
-      "market_implication": "Would support bond inventories and new issuance as collateral supply rebuilds.",
-      "market_trigger": "Orderly settlement with repo rates remaining below Q1 norms.",
-      "title": "Treasury buybacks and repo funding",
-      "watch_line": "Monitor offers and settlement around the long-coupon and cash-management operations."
+      "market_implication": "A harder policy signal would challenge the duration rally; retained patience would support it.",
+      "market_trigger": "Officials remove the easing bias or project a higher policy path.",
+      "title": "June FOMC decision and projections",
+      "watch_line": "The statement and projections will show whether the easing bias gives way to a more symmetric rate debate."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+21 bp",
-        "change_1w": "-9 bp",
+        "change_1d": "-1.1 bp",
+        "change_1m": "+22.4 bp",
+        "change_1w": "-6.1 bp",
         "id": "ust2y_ny_close",
-        "last": "3.99%",
-        "reference_type": "ny_close",
+        "last": "4.023%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "+21 bp",
-        "change_1w": "-10 bp",
+        "change_1d": "-2.4 bp",
+        "change_1m": "+20.5 bp",
+        "change_1w": "-9.1 bp",
         "id": "ust5y_ny_close",
-        "last": "4.15%",
-        "reference_type": "ny_close",
+        "last": "4.154%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "+10 bp",
-        "change_1w": "-12 bp",
+        "change_1d": "-3.6 bp",
+        "change_1m": "+10.7 bp",
+        "change_1w": "-12.4 bp",
         "id": "ust10y_ny_close",
-        "last": "4.45%",
-        "reference_type": "ny_close",
+        "last": "4.448%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "+4 bp",
-        "change_1w": "-12 bp",
+        "change_1d": "-3.9 bp",
+        "change_1m": "+2.6 bp",
+        "change_1w": "-11.9 bp",
         "id": "ust30y_ny_close",
-        "last": "4.98%",
-        "reference_type": "ny_close",
+        "last": "4.974%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "-11 bp",
-        "change_1w": "-3 bp",
+        "change_1d": "-2.5 bp",
+        "change_1m": "-11.7 bp",
+        "change_1w": "-6.3 bp",
         "id": "ust_2s10s_curve",
-        "last": "46 bp",
-        "reference_type": "ny_close",
+        "last": "42.5 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "-17 bp",
-        "change_1w": "-3 bp",
+        "change_1d": "-2.8 bp",
+        "change_1m": "-19.8 bp",
+        "change_1w": "-5.8 bp",
         "id": "ust_2s30s_curve",
-        "last": "99 bp",
-        "reference_type": "ny_close",
+        "last": "95.1 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "0 bp",
-        "change_1m": "+11 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "-0.1 bp",
+        "change_1m": "+7.9 bp",
+        "change_1w": "+0.3 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-14 bp",
-        "reference_type": "ny_close",
+        "last": "-16.3 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-2 bp",
-        "change_1m": "-5 bp",
-        "change_1w": "-3 bp",
+        "change_1d": "-2.2 bp",
+        "change_1m": "-3.6 bp",
+        "change_1w": "-6.8 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-7 bp",
-        "reference_type": "ny_close",
+        "last": "-10.1 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "+15 bp",
-        "change_1w": "-12 bp",
+        "change_1d": "-3.5 bp",
+        "change_1m": "+14.1 bp",
+        "change_1w": "-10.6 bp",
         "id": "tips10y_ny_close",
-        "last": "2.06%",
-        "reference_type": "ny_close",
+        "last": "2.033%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       },
       {
-        "change_1d": "-0 bp",
-        "change_1m": "-5 bp",
-        "change_1w": "0 bp",
+        "change_1d": "-0.1 bp",
+        "change_1m": "-3.4 bp",
+        "change_1w": "-1.8 bp",
         "id": "be10y_ny_close",
-        "last": "2.39%",
-        "reference_type": "ny_close",
+        "last": "2.415%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-05-28T17:00:00-04:00"
+        "timestamp": "2026-05-28"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }

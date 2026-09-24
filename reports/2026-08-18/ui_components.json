@@ -516,21 +516,21 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "LQD gained while high-yield funds slipped slightly. QTS cleared at a substantial yield; Sammons remained issuer-specific stress.",
+      "summary": "Credit access stayed open, but QTS paid a high project-financing yield and Sammons widened on related-party concerns.",
       "title": "Credit",
       "value": "LQD 105.84 (+0.1324%) / HYG 79.53 (-0.1005%) / JNK 95.74 (-0.1148%) / EMB 94.64 (-0.0634%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "A steady dollar and nearly flat WTI contrasted with higher Brent; gold fell despite geopolitical uncertainty.",
+      "summary": "The dollar finished nearly unchanged, while elevated oil sustained inflation risk and gold declined.",
       "title": "Dollar and commodities",
       "value": "DXY 99.654 (+0.0141%) / WTI 84.52 (+0.0237%) / Brent 91.4 (+0.5832%) / Gold 4386.5 (-0.7085%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Semiconductors led steep technology losses, but VIX at 15.84 remained restrained.",
+      "summary": "Technology and semiconductor shares led the equity decline as financing concerns grew, while volatility rose.",
       "title": "Equities and volatility",
       "value": "S&P 500 7691.7598 (-0.6882%) / Nasdaq 100 29490.957 (-1.6817%) / SOX 11992.4629 (-4.9801%) / VIX 15.84 (+4.2791%)"
     }
@@ -538,151 +538,239 @@
   "header": {
     "as_of_note": "NY close · 2026-08-18",
     "latest_update_cutoff": "NY close",
-    "stance": "Late real-yield relief; technology remains under pressure",
+    "stance": "Late Treasury relief amid firmer inflation compensation and persistently expensive global duration",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "LQD上漲、高收益基金微跌；QTS以高殖利率成交，Sammons仍屬個別壓力。",
-        "dollar_commodities": "美元穩定、WTI近乎持平，布蘭特卻升；地緣不確定性仍在，黃金仍下跌。",
-        "equities_volatility": "半導體領跌科技股，但VIX的15.84水準仍低。"
+        "credit": "信用市場融資管道仍暢通，但QTS為專案融資支付了偏高殖利率，Sammons債券則因關係人疑慮而擴大利差。",
+        "dollar_commodities": "美元收盤近乎持平，油價居高不下使通膨風險延續，黃金則走低。",
+        "equities_volatility": "融資疑慮升高，科技與半導體股領跌，波動率同步上升。"
       },
       "header": {
-        "stance": "尾盤實質殖利率回落，科技股仍承壓"
+        "stance": "美債尾盤回穩，但通膨補償升高，全球長天期資金成本持續昂貴"
       },
-      "long_thesis_markdown": "# 美債自盤中高殖利率回穩，科技股卻明顯下挫\n\n## 長債買盤回流，通膨補償仍上升\n\n美債早盤隨全球債市續跌，隨後收復失土。10年期殖利率一度接近4.75%、創19個月高點，30年期約在5.32%至5.33%、為2007年以來最高。紐約收盤時，10年期反而下跌1個基點至4.71%，30年期跌3個基點至5.28%；5年期跌1個基點至4.37%，2年期維持4.19%。曲線小幅趨平，2年與10年期利差為52個基點，2年與30年期為109個基點。\n\n舒緩來自實質殖利率。10年期實質殖利率下降3個基點至2.41%，抵銷損益兩平通膨率上升2個基點至2.30%的影響。美伊僵局持續，布蘭特仍高於$91。買方願意在較高殖利率承接長債，卻未認定能源風險已結束；10年與30年期殖利率近一個月仍分別高16及22個基點。\n\n科技股並未跟著回穩。半導體下跌4.98%，Nasdaq 100跌1.68%，S&P 500跌0.69%。VIX上升4.28%至15.84，水準仍低，美元則大致持平。這更像集中在長期折現率與融資需求的敏感度，而非全面搶進美元資金。\n\n信用市場繼續滿足融資需求，但利率不低。QTS的5年期投資級專案債雖有最高$230億訂單，$39億發行仍以7.228%定價。德國€40億30年期債也獲大量需求，借款殖利率卻創15年高點。日本5年期標售找到買家，超長端殖利率仍上升。各市場的需求取決於年期、結構與價格，不只是手上有沒有現金。\n\n## 活動數據支持等待，尚非降息共識\n\n7月工業生產增加0.2%，低於預期0.3%，6月卻由0.1%上修至0.3%。當期較弱，前期比原先強；搭配近期就業、通膨及零售報告，這支持Fed等待而非立即升息，尚不足以證明產出大幅惡化。\n\n選擇權交易開始增加對未來政策轉向的保護。買方出現在押注9月維持利率的組合，以及受惠於預期利率下降的2027年3月、6月買權。部分投資人平倉原先押注高利率的9月及12月賣權。交換市場仍反映9月緊縮9個基點、至2027年6月約40個基點。對降息避險不等於降息已成主要預測，長債選擇權也仍為進一步下跌收取保護溢價。\n\n油價讓耐心仍有條件。川普稱美伊沒有正在進行或排定的談判，卻也形容荷莫茲已開放運作；6月備忘錄到期後，航運證據並未支持迅速正常化。阿聯表示，兩枚朝該國發射的伊朗彈道飛彈落海。戰前全球五分之一石油及LNG經過荷莫茲。\n\n布蘭特上漲0.58%至$91.40，WTI則近乎持平於$84.52。2年期不動、實質殖利率下降，顯示投資人未將每次油價上升都直接轉成下一場Fed會議的升息；通膨補償增加，仍保留供應問題未解的保障。\n\n科技股跌勢使整體氣氛沒有美債收盤看來那麼輕鬆。AI曝險已橫跨股票、公司債、資料中心債、租約支持載體與銀行融資。長期殖利率升高，同時影響遠期獲利價值，以及創造獲利所需的資金成本。黃金期貨下跌0.71%至$4,386.50，高利率提高持有無孳息資產的機會成本。尾盤債券買盤減輕了一項壓力，沒有抹去更廣泛的重新定價。\n\n## 德國借款更貴，法國與日本另有財政限制\n\n德國透過承銷團發行€40億、2056年8月到期債券，殖利率3.783%，為2011年以來最高30年期融資成本。訂單超過€380億，供給順利消化，但價格高於7月較小規模一般標售的3.64%。\n\n2027年預算草案顯示€2,040億淨融資需求。德國商業銀行Hauke Siemssen估計，明年Bund淨發行€1,630億，高於2026年的約€1,370億；到期€2,380億之下，總發行約€4,000億。國庫券、現金、資產出售及KfW款項，可降低須透過Bund籌措的金額，國防與基建計畫卻仍增加借款。承銷拓展買家，不會改變根本需求。\n\n法國則在全球走勢之外，多了政治風險。2027年預算攻防與4月總統選舉之前，空頭部位增加，主力10年期債期貨未平倉量升至6月初以來最高。總理Sebastien Lecornu在分裂國會中爭取赤字低於5%，並警告若無共識，計畫可能拖到明年、赤字達6.5%。30年期殖利率接近4.90%、創2008年以來最高，10年期對德國利差85個基點、為10月以來最寬。\n\nNatixis的Theophile Legrand估計，法國自身風險約貢獻25個基點，為2025年12月預算緊張以來最多。財長Roland Lescure將2026年成長預測由0.9%下修至0.7%，並稱赤字由2025年5.1%降至5%的目標有難度。火災、高溫及乾旱增加紓困需求，Lecornu卻抗拒增稅。去年秋季惠譽、標普及Morningstar DBRS降評、穆迪調低展望後，惠譽8月28日評估將展開新一輪檢視；這是未來評估，不是已經再次降評。\n\nECB首席經濟學家Philip Lane預期，通膨至年底約3%，取決於伊朗衝突，仍高於2%目標。7月通膨2.9%，第二季成長0.4%、優於預期。他未承諾6月升息25個基點後再升，但強調不能讓過高通膨持續，並指出明年夏季的天候食品風險。新增供給到來時，貨幣政策未提供明確抵銷。\n\n日本需求落在曲線中段，而非超長端。5年期標售投標倍數4.15，高於前次3.43及12個月平均3.34；尾差由0.03降至0.02，5年期殖利率跌1.5個基點至2.145%。不過，76%配售給未具名投標者，這部分需求會持有多久尚不清楚。\n\n20年期殖利率上升4個基點至3.85%，30年期升5個基點至4.125%。政府兩年食品稅減免的財源未明，BOJ卻在進口通膨與弱日圓之下減少購債。協助管理瑞穗JPY41兆證券部位的Kenya Koshimizu表示，銀行避開抗通膨債與一年內年期以外的日債。他認為9月升息機率高，也不排除年底前兩次升息、將利率由1%帶至1.5%。這是投資人判斷，不是BOJ指引，但說明5年期強勁結果背後仍有戒心。\n\n## QTS以7.228%完成發行，Alphabet提供新市場溢價\n\nQTS旗下QualityTech的兩家特殊目的子公司，為喬治亞州Project Odyssey發行$39億5年期票據。資金將用於微軟相關資料中心的施工、開發、營運、一般公司支出，以及對QualityTech的分配。交易比初始討論大約增加$10億，需求高峰最高$230億、約發行六倍，今年投資級平均約四倍。\n\n行銷過程中殖利率收窄40個基點，最終仍達7.228%。穆迪評等Baa3、惠譽BBB-，皆為最低投資級，且兩年內不可買回。微軟關係有助收入基礎，卻不會使專案債等同微軟自身負債；投資人仍承擔施工、集中及剩餘資產價值風險。\n\n舊券呈現這些風險如何交易。QTS子公司4月$46億10年期發行，原殖利率5.7%，週二已約7.16%，接近B級水準；上週另一筆Zenith Arc $22.5億發行也轉弱。重複供給及仰賴少數AI租戶，可能讓報酬與單看投資級標籤的想像大不相同。\n\nAlphabet首次澳幣債仍在行銷，四個年期目標約A$50億、或$36億。3年期初始指引約較本地基準高80個基點，相較類似美元債換成澳幣後約56個基點；其他年期最初較換匯後同類券高約20至25個基點。這些是可能隨訂單而收窄的初步讓利，不是已完成的借款成本。\n\n公司已在美元、瑞郎、英鎊、歐元、加幣及日圓市場借款，2026年資本支出預測提高至最高$2,050億。評等分析師警告，超大型雲端業者債務增速高於收入，使變現能力與投入資本報酬更重要。摩根資產管理Gabriela Santos估計，公私市場AI資本支出達$5.5兆，並強調債券與股票曝險重疊。同一套融資循環，可能透過多個工具同時存在於投資組合。\n\n私人交易也擴大。服務軍方及商業客戶的波音、洛克希德馬丁合資United Launch Alliance，將私人債券融資由$5億增至$15億，四個年期介於3年至10年。Ripple Prime發行$2.75億2031年到期優先無擔保票據，票息8.25%、KBRA評等BBB，隨美國主經紀商業務擴張，用於一般公司用途。私人發行可避開波動的公開簿冊，仍讓機構貸款人以不低票息承諾資金。\n\n8月投資級供給截至週一已超過$1,450億，當日12家發行人新增$91億。公司及主權風險不同，卻共同占用長期資金。QTS結果與美債回穩，都顯示買方會回應價格，只是專案信用需要更高補償與更明確結構保障。廣泛基金仍平穩：LQD上漲0.13%，HYG與JNK則分別跌約0.10%及0.11%。\n\n## 本地政策支持中國與印尼，印度調整融資組合\n\n中國30年期公債殖利率降至2.15%，為11月底以來最低；10年與30年期利差收至約50個基點，接近2月以來最窄，30年期債期貨未平倉量則在週五創紀錄。7月產出、消費與投資疲弱，增強寬鬆及持續低迷的預期，提供本地買進長債的理由。\n\nShanze Fund的Song Xiaofei將漲勢主要歸因於短期交易部位，而非持久機構配置。曲線轉平壓縮銀行利潤，與海外利差劣勢擴大也可能增加資金外流及人民幣壓力。地方政府發行在上半年落後後，第三季預計創紀錄。Song認為，利差若要低於40個基點，需要供給減慢與長線買家加入。這是本地成長及流動性的行情，不是全球通膨風險消失。\n\n印度外幣存款優惠已吸引逾$500億，提前結束卻降低未來盧比流動性。花旗將流入預測下修$100億至$700億，野村則由最高$900億降至約$720億。銀行將不少資金配置於4年至5年期公債，窗口縮短便限制熱門陡峭化交易的空間，也增加近期再融資壓力。\n\n另一境外借款方案仍開放至12月，對平均到期至少三年提供固定年率1.5%的換匯。ICICI週一$7.5億發行，讓印度金融機構今年美元發行達$88.5億，超過2019年$79.2億紀錄。Kotak Mahindra準備5年期債，Yes Bank已聘顧問。強勁簿冊支持收窄定價，普通避險成本恢復前可能先加速發行，之後再降溫。\n\n印尼財政承諾繼續支持資產。週二股市上漲0.8%，自6月低點回升約21%，5年期殖利率跌4個基點至6月18日以來最低，10年期兩週已跌16個基點。2027年赤字目標2.4%、低於3%法定上限，且未加另一大型支出方案，配合央行延續性信心，改善市場情緒。\n\n執行仍待觀察。美銀估計，明年總發行可能仍接近$440億，也可能包含未列入表面赤字的支出。Prabowo追求2026年及2027年各6%成長，政府過去曾一面調高保守赤字，一面將資源轉向免費餐食。較務實的匯率、通膨及融資假設降低即時不確定性，收入與支出約束仍須實現，才能支持債市改善。\n\n韓國的政策價格則有爭議。一年期隱含利率3.79%，遠高於政策利率2.75%，即使7月通膨降至2.8%、低於預期。M&G的Low Guan Yi只預期再升25個基點，而非市場約100個基點。晶片景氣使上半年公司稅收入增9.6%至KRW49.3兆，這位經理人認為追加支出可因此不增加債券供給。不過，外資7月賣出約$12億公債，10年期殖利率自6月升22個基點，判斷仍面對部位與油價風險。\n\n烏拉圭則連續第四次維持5.75%。7月通膨升至4.3%，仍低於4.5%目標，受訪機構預期10月才升息25個基點。主權長債整體環境困難，本地通膨及財政空間仍能區分政策路徑。\n\n## Sammons回應審視，Avison Young以債轉股降低負擔\n\nSammons Financial的2036年6月債利差進一步升至約240個基點，一週前147個基點。該筆$7.5億10年期發行後兩週，公司又發行$5億5年期債。與Mark Walter旗下Guggenheim業務的關係持續受到審視，利差也再度擴大。\n\nHunterbrook Media的投資關係企業已揭露空頭，報導引用文件仍將Sammons稱為關係人，並承認可能有偏向其利益的誘因。Sammons回應，母公司Sammons Enterprises在Guggenheim Capital僅有無投票權、非控制性持分，且多年來一直減少。公司稱母公司不持有投票權或普通股，無法控制Guggenheim Capital、TWG Global Holdings或關係企業，其主管、董事及員工也未受調查。\n\n否認控制權之外，經濟聯繫仍重要。Guggenheim替保險公司管理數百億美元，長期將Sammons視為最大股東；檢察官與監管單位正在調查Walter相關保險公司，向其商業版圖其他部分提供的貸款。Guggenheim 2031年11月第一順位貸款週一低於面額80%，7月20日約面額；惠譽對Sammons的A-評估則提及資本極強、風險資產略高。市場價格與具有利益關係的報導都不等於不當行為獲證實，投資人正提高對關係人經濟利益如何影響資產配置的重視。\n\nAvison Young則以債權人持股改善償債。資本重整將債務換股，年度現金利息降低逾70%，槓桿降至EBITDA三倍以下。執行長Mark Rose預期10月完成，並稱貸款人會加注股本，支持招聘及併購，包括資料中心與辦公室轉型。這家加拿大房地產顧問公司的合夥人，完成後約保留一半持股。方案透過讓貸款人成為股東取得營運彈性，回收更直接取決於商業地產與執行，而非另一次再融資。\n\n## Fed溝通與接下來的長期資金承諾\n\n8月19日7月FOMC會議紀錄與Warsh下週傑克森洞發言，將釐清對就業、通膨及零售轉弱的反應。耐心觀察的說法，符合週二2年期不動、通膨補償升而實質殖利率降的組合；若更擔心油價轉嫁或緊縮不足，短端可能重新加入通膨定價。\n\n日本8月20日20年期標售接在強勁5年期之後，但起點殖利率3.85%，超長端買方仍謹慎。它將顯示中段需求是否願意延伸到更長的財政與政策曝險，政府食品稅財源也仍未定。\n\n美國方面，華盛頓都會機場管理局8月19日將表決增加$155億資本預算，主要以$142億債券支應。五項工程總計$199億，其中$44億已授權。通過代表建立大型未來市政融資方案，不是立即出售全部債券。\n\n荷莫茲實際船流、運費與保險成本，仍比口頭宣布重啟重要。恢復通行及油價下降，可減輕使布蘭特維持$91.40的壓力，並擴大債券舒緩；僵局與攻擊持續，則增加能源進入實際通膨及政策的風險。2年期殖利率與通膨補償同步上升，將標誌這項改變；若再由長端實質殖利率主導轉陡，供給與AI融資仍較關鍵。",
-      "methodology_note": "除另有說明外，市場水準均以紐約收盤為準。",
+      "long_thesis_markdown": "## 固定收益開盤論點\n\n美國公債在8月18日盤中遭到拋售、指標殖利率升至2025年初以來高點後，收盤小幅上漲。這個交易日與其說是長債跌勢再下一城，不如說是自盤中低點收復部分失地：2年期殖利率下降0.5個基點至4.172%，10年期下降1.8個基點至4.705%，30年期則回落2.4個基點至5.284%。稍早10年期一度觸及約4.75%，30年期也升至2007年以來最高；投資人當時同時面對高油價、全球主權債供給，以及又一波密集的企業發債。\n\n名目殖利率當日下滑，但其通膨結構並不令人安心。10年期實質殖利率下降4.3個基點至2.395%，10年期損益兩平通膨率卻上升2.5個基點至2.31%。實質利率壓力減輕，讓美債得以反彈；然而美國與伊朗僵局使布蘭特原油維持在$91.40，加上總統川普表示雙方目前並未談判，也沒有安排談判，投資人因而要求更高的通膨補償。殖利率曲線當日略為趨平，2年與10年期利差收窄1.3個基點至53.3個基點，2年與30年期利差收窄1.9個基點至111.2個基點，但兩者相較1個月前仍明顯陡峭。\n\n這樣的組合，正是收盤表現與盤中頭條訊息的差異所在。美國就業、通膨與消費數據轉弱，先前已降低市場對聯準會9月升息的預期，選擇權交易員也開始避險2027年可能降息的情境。然而拉長觀察期間，長端依舊承壓：10年期殖利率1個月來上升15.6個基點，30年期上升21.3個基點，2年期同期反而下降0.8個基點。短期政策預期與長期融資成本，持續由不同的證據推動。\n\n風險資產更清楚反映這股壓力。那斯達克100指數下跌1.68%，費城半導體指數重挫4.98%，標普500指數下跌0.69%。科技股一方面受到遠期獲利折現率升高打擊，另一方面也受到市場疑慮拖累：人工智慧投資循環正愈來愈依賴昂貴的債務融資。殖利率稍早上升支撐美元，黃金期貨下跌0.71%至$4,386.50，但美元指數至收盤時幾乎沒有變動。\n\n信用市場顯示，偏高的借款成本尚未封閉融資管道，不同架構所需付出的補償卻相差懸殊。由Blackstone支持、與Microsoft相關的資料中心融資，最高吸引約$230億需求，使借款人得以按7.228%的殖利率發行$39億投資等級債券。這筆交易認購踴躍，最終殖利率卻仍接近投機等級借款人的水準。Alphabet也開始推銷首次澳幣債券，與換匯後的可比美元債相比提供發行讓利；印度銀行則透過央行的避險機制，加快境外籌資。\n\n因此，當日市場一方面出現美債尾盤回穩，另一方面仍不斷證明長期資金價格昂貴。投資人願意為主權國家、超大型雲端業者、資料中心及其他企業借款人提供資金，但德國30年期聯貸發債殖利率升至2011年以來最高，法國財政風險溢價擴大，日本超長期殖利率即使在5年期標售強勁後仍上升，而美國邊際信用專案也必須支付可觀殖利率。共同主題並非央行近期政策定價突然改變，而是在能源前景不明、公共部門借款與AI投資爭奪同一批資金之際，市場吸收長天期債券所要求的成本。\n\n## 實質殖利率下降帶動美債回升\n\n美國公債盤中走勢，呈現近期美國數據轉弱與全球長天期債券壓力持續之間的拉鋸。稍早拋售期間，各期限殖利率大致上升1至2個基點，10年期升至約4.75%，創19個月高點。8月市場流動性偏薄、海外債券疲弱，加上本月企業發債日程創紀錄，均放大了這波走勢，直到稍晚買盤進場。\n\n全日數據顯示，反彈主要集中在曲線較長端。5年期殖利率下降0.8個基點至4.367%，10年期下降1.8個基點，30年期下降2.4個基點。不過累計損失仍以長端較重：過去一週2年期殖利率下降4.4個基點，30年期卻上升4.2個基點；2年與30年期曲線同期陡峭8.6個基點，1個月來更陡峭22.1個基點。\n\n通膨補償的走勢與名目債券反彈相反。10年期損益兩平通膨率上升2.5個基點，抵銷了10年期實質殖利率下降4.3個基點的部分效果，使名目10年期殖利率僅下降1.8個基點。這種組合較像實質融資壓力舒緩，而不是市場轉而看好通膨前景。布蘭特原油上漲0.58%至$91.40，WTI先前走高後僅小幅變動，報$84.52，中東衝突使能源成本長期維持高檔的風險仍在。\n\n川普表示，美國與伊朗目前沒有進行或安排任何談判或對話，並堅稱荷莫茲海峽維持開放及正常運作；這項說法與當日報導引用的航運數據並不一致，油價也未因而回落。伊朗發動自5月以來首度獲得證實的阿拉伯聯合大公國攻擊，兩枚彈道飛彈落入海中，進一步顯示衝突可能持續，而非透過已在6月失效的備忘錄落幕。\n\n利率市場並未把這項通膨風險視為聯準會必須立即行動的決定性理由。利率交換定價顯示，9月升息機率約35%，10月接近五五波，完整升息25個基點則要到2027年1月才完全反映。另一項衡量顯示，9月會議已反映9個基點的緊縮幅度，至2027年6月約為40個基點。兩者採用的期限不同，但都顯示，近期數據轉弱後，市場已大幅撤回先前更積極的緊縮預期。\n\n選擇權資金流也延續這項變化。交易員買進可受惠於聯準會9月按兵不動的結構，同時利用2027年3月與6月買權，防範定價轉向降息。兩週前，9月升息機率一度高達68%；之後公布的7月數據顯示，經濟減少2.3萬個工作機會，零售銷售創逾一年最大跌幅，通膨也有所降溫。摩根大通截至8月17日當週的投資人調查顯示，空頭部位減少4個百分點，整體部位成為4月20日以來最中性。\n\n升息押注降低，並不代表市場已形成明確的寬鬆預期。交換市場仍反映未來數月會有緊縮，長債選擇權也繼續對防範再度拋售、而非防範上漲的部位給予溢價。這種下檔偏斜雖不及7月底極端，仍說明投資人即使解除押注9月立即升息的部位，依然認為長端面臨風險。\n\n最新實體活動數據只提供了有限的耐心理由。美國7月工業生產增加0.2%，低於預期的0.3%；6月增幅則由0.1%上修至0.3%。換言之，最新數據弱於預期，但前月表現比原先估計更強。這既未推翻就業與消費轉弱的證據，也不足以證明經濟已全面惡化，無法就此化解聯準會的政策爭論。\n\n不同期限異常分歧，本身已成為一項政策訊號。法國巴黎銀行策略師發現，自2008年以來，聯準會會議後出現30年期殖利率上升、2年期下降的情況僅有6次。近期走勢正符合這種組合：市場下修近期緊縮意願，同時對長期通膨、財政政策與結構性投資要求更多補償。週二的小幅多頭趨平暫時中斷這股趨勢，但1個月的曲線變化顯示，它仍是市場主導背景。\n\n交易活動相當熱絡，但數據無法辨識投資人的買賣方向。FINRA記錄的美國公債面額交易量為$1.07兆，較前一日增加2.4%，其中名目附息債券為$8,458億。2年期以下債券交易量增加28.1%，超過3年至5年期區段增加18.6%，超過7年至10年期區段則下降24.5%。這些總量顯示調整集中在哪些期限，卻不能說明客戶究竟是淨買方或淨賣方。\n\n## 歐洲與日本為長天期融資付出更高成本\n\n全球長天期債券的壓力在德國最為明顯。德國以3.783%的殖利率發行€40億、2056年8月到期債券，創2011年以來30年期發債的最高成本。訂單超過€380億，與近期聯貸交易大致相當。訂單簿證明在這個殖利率下需求充足，但融資利率也顯示，即使是歐元區指標主權借款人，市場定價都已大幅調整。\n\n隨著國防及基礎建設支出遇上大量債券贖回，德國的融資需求將進一步增加。預算草案顯示，2027年淨融資需求為€2,040億。德國商業銀行策略師Hauke Siemssen估計，德國公債淨發行額可能從2026年的約€1,370億升至創紀錄的€1,630億，總發行額接近€4,000億。德國可透過國庫券、現金儲備、資產出售及國營開發銀行繳款補充公債融資，但這些替代來源無法消除整體借款增加的事實。\n\n法國還承受額外的本國風險溢價。下月到期的10年期債券期貨未平倉空頭部位升至6月初以來最高，法國10年期殖利率較德國的利差擴大至85個基點，為10月以來最大。法國30年期殖利率在4.90%左右，創2008年以來最高。\n\n這項部位變化反映總理Sebastien Lecornu面臨的難題。國會將於9月復會，在4月與5月兩輪總統大選前審議2027年預算。政府目標是把赤字降至GDP的5%以下，但Lecornu警告，若無法就方案達成共識，預算可能延至明年才通過，赤字也可能高達6.5%。財政部長Roland Lescure先前已將2026年經濟成長預測由0.9%下修至0.7%，並表示要把赤字由2025年的5.1%降至5%並不容易。\n\n信評檢視構成更近程的事件風險。Fitch預定於8月28日檢視法國評等，其他機構將於今年稍晚跟進。去年秋季預算爭議期間，S&P、Morningstar DBRS與Fitch均曾調降法國主權評等，Moody's則下調展望。Natixis估計，目前法德利差約有25個基點來自法國自身的特有風險，是2025年12月預算緊張以來最高占比。\n\n歐洲通膨前景也未帶來多少寬慰。歐洲央行首席經濟學家Philip Lane表示，由於伊朗戰爭，消費者物價增幅到2026年底前可能維持在接近3%，明顯高於央行2%的目標。歐元區7月通膨加速至2.9%，第2季經濟成長0.4%，高於預期。歐洲央行6月升息25個基點後，Lane不願支持再度升息，但表示央行將優先防止通膨在過長時間內維持過高。\n\n不過，這條路徑高度取決於衝突能否解決，包括聖嬰現象在內的天候影響，也可能在明年夏季進一步推升食品通膨。投資人預期年底前至少再升息25個基點，歐洲央行將於9月更新預測。Lane發表看法後，總裁Christine Lagarde週三在日內瓦的活動將是下一場高層公開溝通。\n\n日本不同期限的表現形成鮮明對比。5年期公債標售需求為2025年6月以來最強，投標倍數達4.15倍，高於前次的3.43倍及過去12個月平均的3.34倍。標售尾差由0.03收窄至0.02，結果公布後5年期殖利率下降1.5個基點至2.145%。偏高殖利率，加上投資人偏好較低的利率敏感度，使標售順利完成。\n\n這場標售並未穩定超長期區段。20年期殖利率上升4個基點至3.85%，30年期上升5個基點至4.125%。財政不確定性仍集中在曲線中段以外，因首相高市早苗的政府尚未說明，為期2年的食品消費稅減免將如何籌措財源。下一場標售是週四的20年期債券，投資人將直接承擔這些長天期及財政風險。\n\n5年期標售的強勁需求仍有一項限制：76%的債券由身分未揭露的投標者買進，意味部分買方可能是較短線的持有者，而非能長期承接的資產負債表投資人。因此，結果證明目前殖利率足以吸引中期債券需求，卻不能證明同樣的偏好已延伸至超長債。\n\n瑞穗金融集團具體呈現日本銀行不願承接長天期債券的態度。共同管理該行¥41兆證券投資組合的部門主管Kenya Koshimizu表示，除抗通膨債券及1年內到期債券外，該行將繼續迴避JGB。截至6月底，其約¥20.6兆的JGB投資組合平均剩餘期限不到1年。\n\nKoshimizu認為日本央行很可能在9月升息，兩次行動的間隔也可能由約6個月縮短至約3個月。他不排除年底前升息兩次，屆時政策利率將升至1.5%。隔夜指數交換市場反映9月18日升息機率為78%，日圓疲弱與通膨仍是加快行動的主要理由。\n\n預期政策路徑並非日本殖利率上升的唯一原因。Koshimizu認為，相較約4%的名目成長，接近2.9%的10年期殖利率仍偏低；全球投資及結構變化也使通膨風險偏向上行。他預期，當殖利率與名目成長更為匹配時，國內銀行、海外投資人與家庭最終將提供需求。關鍵因此仍是價格：日本擁有龐大的潛在買方基礎，但殖利率僅僅升至數十年高點，尚不足以迫使主要機構延長債券期限。\n\n## AI融資順利完成，代價卻相當高昂\n\n當日信用市場最重要的進展，是QTS Realty Trust完成名為Project Odyssey的融資。由Blackstone支持的QTS旗下兩家特殊目的子公司發行$39億、5年期債券，資金將用於興建、開發及營運喬治亞州一座與Microsoft相關的資料中心，也將用於一般企業支出及向QTS旗下QualityTech單位分配資金。\n\n訂單高峰約達$230億，接近發行規模的6倍，也高於今年投資等級債券約4倍的平均認購水準。借款人較前一週與投資人討論的金額增發約$10億，並在推銷期間把殖利率調降0.4個百分點，最終定於7.228%。\n\n訂單簿與最終殖利率反映需求的兩個不同面向。投資人願意提供遠多於QTS所需的資本，但前提是這項架構提供通常與單B級投機債相當的報酬。Moody's給予Baa3評等，Fitch評為BBB-，兩者都位於投資等級最低一級。債券前2年不得贖回，也是較常見於高收益債的條款。\n\nQTS既有債務的次級市場交易，進一步印證定價已經調整。其子公司4月曾以5.7%的殖利率發行$46億、10年期投資等級債券，週二交易殖利率已在7.16%左右。資料中心發行人集中湧入市場之際，投資人對施工風險、租約集中度，以及AI專案能否產生足以支應融資的報酬，也變得更為挑剔。\n\n儘管如此，這筆交易仍顯示，足夠的價格可以克服市場疲態。最終融資規模高於原先構想，需求強勁，並保住投資等級評等。但它同時說明，若債務透過與單一資料中心專案綁定的特殊目的工具發行，只看表面評等並不足以判斷實際融資成本。\n\nAlphabet則以首度發行澳幣債券，尋找不同的資金來源。公司計畫分4個期限籌集約A$50億。3年期債券初步定價指引約為澳洲指標利率加80個基點；相較之下，類似Alphabet美元債換成澳幣後的利差約為56個基點。其他券次最初提供給當地投資人的利差，也比可比的換匯後美元債高約20至25個基點。\n\n部分讓利反映發行人首次進入新市場通常必須支付的溢價。Alphabet先前已把2026年資本支出預測提高至最高$2,050億，並以美元、瑞士法郎、英鎊、歐元、加幣及日圓發債。澳洲的海外借款人發行規模正以創紀錄速度成長，讓Alphabet可接觸日益壯大的當地投資人基礎；但初步利差也顯示，多元化融資幣別並不能消除反覆借款的成本。\n\n由Boeing與Lockheed Martin共同持有的火箭合資公司United Launch Alliance，也在需求允許時擴大私人交易。公司把私募債券規模由最初的$5億提高至$15億，分成4個券次，到期年限介於3年至10年。國防、基礎建設及科技相關企業正採用更多元的私募架構，這筆融資進一步擴充其範圍，也避免在已相當擁擠的市場再增加一筆公開發行。\n\n數位資產公司旗下經紀部門Ripple Prime，以2031年到期的優先無擔保債券私募籌得$2.75億。債券票息為8.25%，KBRA給予BBB評等，募集資金將在該經紀業務擴展美國版圖之際，用於一般企業用途。這項期限與票息符合更廣泛的市場轉變：發行人不願長期鎖定目前的借款成本，因而轉向期限較短的私募債務。\n\nAI投資循環也在擴大備用融資需求。銀行為爭取Anthropic潛在首次公開募股的業務角色，預計使其循環信用額度超過原訂約$100億的目標。最積極的貸款銀行被要求承諾約$12.5億，其他主要參與者則獲鼓勵提供約$10億。循環額度不同於已實際撥款的債券債務，但其潛在規模顯示，AI投資熱潮周邊擁有可觀的流動性支援。\n\n摩根大通資產管理的Gabriela Santos估計，公開與私人市場的AI資本支出達$5.5兆，並警告相關曝險現已同時滲入股票及固定收益投資組合。投資等級債券發行已連續第4個月創新高，資料中心工具所使用的擔保品及租約架構，也有別於一般超大型雲端業者的債務。她對不同借款人的區分，與當日定價一致：Alphabet可以分散發債幣別，與Microsoft相關的特殊目的工具卻必須提供超過7%的殖利率。\n\n市場影響在股票上尤其明顯。半導體指數重挫近5%，那斯達克100指數下跌1.68%；投資人同時重新評估預期獲利的折現率，以及支撐擴建計畫的融資負擔。這波賣壓並不證明AI投資正在收縮，而是顯示，支撐企業支出與信用債發行的同一輪資本循環，在長期利率上升時也可能壓低科技股估值。\n\n信用壓力仍集中於個別公司，尚未演變為市場全面拒絕提供融資。Sammons Financial Group於2036年6月到期的債券，對指標利率的利差由一週前的1.47個百分點擴大至約2.4個百分點，價格跌至發行以來最低。市場先前已因Sammons與Guggenheim Partners的歷史關係受到檢視而作出負面反應，此次則是進一步惡化。\n\nSammons回應，其母公司持有Guggenheim Capital不具投票權、也不具控制力的權益，而且多年來持續減持。公司表示，母公司並未持有Guggenheim Capital、TWG Global或其關係企業的投票權或普通股權益，也無力控制這些公司；Sammons的高階主管、董事及員工均未受到調查。引發債券波動的報告發布者則揭露，旗下投資部門持有Sammons債券空頭部位。\n\n這項澄清仍未消除Guggenheim自身債務引發的廣泛疑慮。其2031年11月到期的第一順位定期貸款，報價已跌至每1美元面額不到80美分，低於7月20日約為面額價的水準。檢察官與監管機關正調查Walter相關保險公司向其其他商業利益提供的貸款。因此，Sammons利差擴大，既反映報告提出的特定關係人問題，也反映市場早已開始重估整個相關網絡的債務。\n\nAvison Young則完成另一種形式的信用修復。債權人同意把債務轉換為這家加拿大房地產顧問公司的股權，使年度現金利息支出減少逾70%，債務降至息稅折舊攤銷前獲利的3倍以下。交易預計於10月完成，屆時合夥人將持有公司約一半股權。既有貸款人也計畫投入額外股本，但金額與投資人姓名並未公布。\n\n這項重整把原本用於償債的現金轉向營運與潛在收購。執行長Mark Rose表示，公司正在考慮招募人才、小型收購及若干較大型交易，包括擴充資料中心服務及辦公室改建業務。方案有賴商用不動產復甦，且10月資本重整必須如期完成；但其本質是經協商後把債務轉為股權，而非再次延後到期日。\n\n## 亞洲利率與全球拋售走勢分歧\n\n在全球長期殖利率普遍上升之際，中國是最明顯的主權債例外。30年期公債殖利率降至2.15%，為11月底以來最低，與10年期利差收窄至約50個基點，接近2月以來最小。30年期公債期貨未平倉量已創新高，顯示曲線趨平的同時，市場也大舉建立長端進一步上漲的部位。\n\n7月工業產出、零售銷售及投資數據疲弱，強化貨幣政策提供支援的預期，帶動這波走勢。歐洲、日本與美國正面對更高能源成本及更緊縮的長期融資條件，但交易員把中國數據解讀為國內疲弱將持續的證據。渣打銀行的Raymond Cheng表示，兩者差異反映中國缺乏明確的內需帶動復甦，市場也預期將會降息。\n\n這波漲勢本身仍有風險。與海外市場的利率差距擴大，可能加重人民幣與資本流動壓力；曲線變平也會壓縮銀行淨利差。Shanze Fund的Song Xiaofei認為，這波走勢很大一部分來自短期交易部位，而非長期機構配置，使債券漲勢更加依賴流動性持續充裕及寬鬆預期。\n\n供給可能暫時打斷行情。地方政府上半年發債進度落後，但第3季發行量預計將創新高。分析師仍預期這波供給過後，長期殖利率會恢復下行，第4季30年期殖利率預測約為2%至2.05%。若10年與30年期利差要持續降至40個基點以下，發債速度必須放緩，長期買方也須提高參與度。\n\n印度融資調整已超越市場對外幣存款機制提早關閉的最初反應。ICICI Bank週一籌得$7.5億後，印度金融機構2026年美元債發行額已達$88.5億，超過2019年創下的$79.2億全年紀錄。Kotak Mahindra Bank正推銷一筆5年期交易，Yes Bank也已聘請顧問籌備另一筆潛在發行。\n\n印度央行另一項海外借款機制仍開放至12月31日，合格借款若平均期限至少3年，可適用每年1.5%的固定避險成本。今年印度企業美元借款約三分之二來自金融機構。因此，存款計畫提早結束雖移除一項盧比流動性來源，卻仍保留銀行發行境外債券的誘因。\n\n野村預期，貸款機構為替代近期融資需求，未來幾週發債將加速；待初期動能消退後，由於一般避險成本依然偏高，發行速度將再放慢。這項區別也會影響殖利率曲線：存款窗口關閉，減少了對4年至5年期政府債券的支撐，但持續運作的借款換匯機制，可把調整引導至銀行美元債發行，而非單純讓流動性消失。\n\n印尼則朝相反方向發展。投資人持續肯定總統Prabowo Subianto克制的2027年預算提案，5年期政府債券殖利率下降4個基點，創6月18日以來最低；10年期殖利率兩週來已下降16個基點。油價上升使多數亞洲新興市場貨幣在週二走弱，印尼盾當日下跌0.2%，但本月仍上漲0.8%。\n\n預算提案的財政赤字為GDP的2.4%，仍低於3%的法定上限，也沒有新增重大支出承諾。分析師並認為，其營收、通膨、匯率與借款成本假設，比2026年預算採用的數字更為現實。市場的正面回應具有意義，因為高階經濟官員突然更換、支出修正，以及Prabowo試圖集中部分大宗商品產業權力，先前都曾使投資人感到不安。\n\n不過，這份預算並未消除落實風險。美國銀行估計，明年總發債額可能增至近$440億；政府今年也曾隨時間推進，上調原本同樣保守的2026年赤字目標。支出還可能轉至表外，或重新分配給旗艦計畫，而不會立即反映在表面赤字。債券上漲代表近期負面意外暫時消除，不等於全年融資計畫已確定不會改變。\n\n放眼整體新興市場，週二呈現避險走勢。MSCI新興市場股票指數下跌0.9%，幾乎所有主要貨幣兌美元均走弱，中東數國、阿根廷、菲律賓與秘魯的長期主權債券則下跌接近1美分。壓力來自美債殖利率稍早上升及油價突破$90，而非各國共同的國內衝擊。\n\n智利經濟第2季意外停滯後，披索下跌逾1%。哥倫比亞披索則上漲逾1%，受到市場對新政府信心改善，以及前政府最後一個完整季度GDP成長3.5%支持；該數字高於預測的3.3%，也高於前3個月的2.2%。這些例外顯示，本國數據仍有能力壓過美元及能源價格所形成的共同背景。\n\n烏拉圭央行連續第4次會議把政策利率維持在5.75%，符合受調查機構的預測。通膨年初曾降至70年低點，7月回升至4.3%，但仍低於4.5%的目標，並處於3%至6%的容許區間內。通膨預期與目標一致，經濟活動則低於潛在水準，勞動市場被形容為相對穩定。\n\n該央行在2025年7月至今年3月間共降息7次，累計3.5個百分點，部分目的是抑制本幣大幅升值。央行調查的機構預期，10月會議將升息25個基點。週二維持利率不變，保留了這項可能性，同時讓決策者評估地緣政治與氣候風險是否會擾動通膨預期。\n\n## 後續市場意義\n\n聯準會週三公布的7月會議紀要，將率先檢驗美債市場的分歧：近期升息預期降低，但長期殖利率仍維持高檔。選擇權交易員已從解除9月緊縮部位，轉向買進防範2027年降息的工具；交換市場則仍保留一定升息機率。紀要可顯示，在最新疲弱的就業、通膨與零售數據出爐前，支持耐心觀望的官員究竟有多少，以及對物價壓力持續的擔憂是否不限於3名異議者。\n\n市場如何反應，將取決於哪一段殖利率曲線吸收意外訊息。若等待的理由更充分，政策敏感型殖利率可能下降；但如果投資人認為耐心觀望會讓通膨補償持續偏高，長端不一定受益。更偏鷹派的討論則可能讓2年期重新承壓，逆轉週二小幅趨平的走勢。實質殖利率下降、損益兩平通膨率同時上升，意味兩種傳導管道都仍然存在。\n\n由於聯準會取消傳統前瞻指引，市場對反應函數的不確定性升高，主席Kevin Warsh下週在Jackson Hole的談話因此承擔更廣泛的溝通任務。投資人將觀察聯準會如何權衡7月需求與就業轉弱、油價高於$90、通膨仍高於目標，以及AI投資熱潮的融資效應。關鍵不只是9月是否仍可能行動，還包括哪些證據能區分暫停升息與較長期寬鬆循環的起點。\n\n美國20年期公債標售將在10年期殖利率一度觸及4.75%、30年期升至2007年以來最高後，檢驗市場承接長天期債券的意願。週二尾盤回升顯示，實質殖利率下降時買方會進場；但較長的月度紀錄仍顯示，投資人要求的補償已大幅提高。結果公布後，應以標售前殖利率及直接投標者、間接投標者與交易商的配售分布判讀，才最具資訊價值。\n\n油價仍是眼前最直接的通膨變數。川普表示並未安排與伊朗談判，未能壓低價格；涉及阿拉伯聯合大公國的攻擊則提高衝突持久化的風險。若荷莫茲海峽航運能持續恢復、運費與保險成本下降，且原油價格走低，損益兩平通膨率的升勢將會緩和。若攻擊持續，或出口受到更有效的干擾，能源壓力就更可能從市場通膨補償傳導至實際物價及央行決策。\n\n歐洲方面，Lagarde週三談話與歐洲央行9月預測，將檢驗Lane所稱通膨至年底前維持在接近3%的判斷。即使戰爭引發的能源壓力及潛在食品價格壓力並非源自國內需求，央行仍須判斷是否足以支持再度升息。法國面臨更近的事件風險：Fitch將於8月28日揭開秋季信評檢視序幕，9月起則是國會預算攻防。\n\n日本週四的20年期標售，將顯示5年期債券所見的強勁需求，能否延伸至承擔更大財政與政策風險的期限。5年期標售投標倍數達4.15倍，但20年期殖利率仍升至3.85%，投資人對臨時食品稅減免的財源也依然存疑。長期債券的需求狀況，有助區分投資人是全面重返JGB，還是偏好僅限於曲線中段。\n\n9月18日日本央行會議仍是更重要的政策考驗。交換市場反映升息機率為78%，瑞穗也認為年底前可能再有一次行動。單次升息可緩解日圓疲弱與輸入性通膨的部分壓力；若指引暗示兩次升息間隔可能縮短至3個月，則代表政策路徑更為顯著地改變，也可能提高長端波動。\n\n初級信用市場將繼續顯示投資人如何區分不同AI相關債務。Project Odyssey的$230億訂單簿證明，7.228%的殖利率足以為與Microsoft相關的投資等級工具帶來需求。Alphabet澳幣債券的最終定價，將顯示首次進入新市場的初步讓利能收窄多少；既有資料中心債券的次級市場交易，則可觀察新交易順利完成後，存量債務能否趨於穩定。\n\n大都會華盛頓機場管理局將於週三表決，是否為杜勒斯國際機場翻修計畫增加$155億資本預算。提案仰賴發行$142億新債券，其中約$11億的債務償付將由旅客服務費支應。若獲批准，代表建立一項大型多年期市政融資計畫，而非立即發行全部金額；但它仍會對未來長期資本形成另一筆可觀需求。\n\n中國長端債券漲勢面臨的考驗，與全球市場拋售不同。即使經濟活動疲弱持續支撐寬鬆預期，第3季創紀錄的地方政府發債仍可能中斷曲線趨平。若30年期殖利率要持續降向2%，預期中的供給潮必須在不動搖需求的情況下順利消化，最終也須吸引更多長期機構買方參與，而不能只依賴交易型投資組合。",
+      "methodology_note": "除非另有註明，市場水準均以紐約收盤為準。利率資料採用Bloomberg每日殖利率歷史序列，變動幅度與衍生殖利率曲線均使用相同日期的序列計算。每日歷史資料未註明觀察時點。",
       "overall_summary": {
-        "headline": "美債自盤中高殖利率回穩，科技股卻明顯下挫",
-        "session_narrative": "30年期殖利率一度約5.32%至5.33%，收盤反跌3個基點至5.28%。10年期實質殖利率下降3個基點，通膨補償升2個基點。工業生產略遜預期，但6月上修減輕疲弱訊號。\n\n半導體下跌4.98%，Nasdaq 100跌1.68%，美元穩定與低水準VIX未顯示全面搶資金。QTS以最高$230億訂單支持$39億發行，結構仍要求7.228%殖利率。\n\n德國長債承銷以高利率完成，法國面對預算風險，日本5年期強勁需求未延伸超長端。中國因成長弱而上漲；Sammons回應關係人審視，Avison Young則規劃債轉股減輕負擔。",
-        "summary": "10年期殖利率從約4.75%回落至收盤4.71%，實質殖利率下降抵銷通膨補償上升。科技股重挫，QTS則以7.228%完成專案融資。"
+        "headline": "實質殖利率下降帶動美債回升，通膨與長天期融資成本仍居高不下",
+        "session_narrative": "美國公債自盤中拋售中回升，2年期殖利率下降0.5個基點至4.172%，10年期下降1.8個基點至4.705%，30年期下降2.4個基點至5.284%。漲勢來自實質利率：10年期實質殖利率下降4.3個基點；美國與伊朗僵局未解，布蘭特原油維持在$91.40，損益兩平通膨率反而上升2.5個基點。\n\n就業、通膨與消費數據轉弱，降低市場對聯準會9月升息的預期；然而能源風險、主權債供給與密集企業借款，使投資人持續要求長天期補償，長端相較1個月前仍明顯走弱。德國30年期聯貸發債成本升至2011年以來最高，日本超長期殖利率在5年期標售強勁後仍上升，法國財政風險溢價也擴大。\n\n信用市場仍可取得融資，但代價不低。由Blackstone支持、與Microsoft相關的資料中心工具，為$39億投資等級債券吸引約$230億需求，最終殖利率卻達7.228%。投資人同時重新評估遠期獲利折現率，以及支撐AI投資循環的債務負擔，科技股因而大幅走弱。",
+        "summary": "指標殖利率觸及多年高點後，尾盤買盤帶動美債小幅上漲；但損益兩平通膨率上升、油價高於$90，加上主權與企業融資成本昂貴，都顯示美國數據轉弱雖減輕近期聯準會政策壓力，卻未化解市場對長期通膨及長天期債券風險的疑慮。"
       },
       "section_summaries": [
         {
-          "section_title": "長債買盤回流，通膨補償仍上升",
-          "summary": "實質殖利率回落，美債自盤中高點收復失土；通膨補償上升、科技股下跌與融資昂貴，使舒緩有限。",
           "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "固定收益開盤論點",
+          "summary": "美債收盤收復部分盤中長債跌幅，但名目殖利率反彈背後的結構較不令人安心：實質殖利率下降，通膨補償卻升高。美國數據轉弱，降低近期聯準會升息預期；油價風險、公共部門借款與AI相關融資則使主權債及信用市場的長期資金成本持續昂貴。"
         },
         {
-          "section_title": "活動數據支持等待，尚非降息共識",
-          "summary": "工業生產當期弱、前期上修。選擇權避險未來降息，交換仍反映緊縮，油價也保留通膨不確定性。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "近期政策預期轉弱，但通膨、財政及投資風險仍使長端承壓。",
+          "next_check": "",
+          "section_title": "實質殖利率下降帶動美債回升",
+          "summary": "10年期殖利率升至約4.75%後回落，反彈主要集中在殖利率曲線較長端。10年期實質殖利率下降4.3個基點，幅度超過損益兩平通膨率上升2.5個基點；美國數據轉弱雖削減9月升息押注，市場卻尚未形成明確的寬鬆預期。當日曲線趨平，只是暫時中斷過去1個月的陡峭化，並未逆轉趨勢。"
         },
         {
-          "section_title": "德國借款更貴，法國與日本另有財政限制",
-          "summary": "德國大量訂單仍換得較高借款利率，法國另有財政風險。日本中段有買家，超長端需求仍謹慎。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "強勁訂單簿證明需求仍在，但殖利率必須高到足以補償供給、財政及政策風險。",
+          "next_check": "",
+          "section_title": "歐洲與日本為長天期融資付出更高成本",
+          "summary": "德國發行€40億30年期債券，訂單超過€380億，但最終殖利率達3.783%，創2011年以來同類融資最高成本；預算與信評風險也使法國相對德國的利差擴大至85個基點。日本5年期標售強勁，20年及30年期殖利率卻上升，顯示投資人仍要求更多補償，以承擔財政不確定性及日本央行可能加快緊縮的風險。"
         },
         {
-          "section_title": "QTS以7.228%完成發行，Alphabet提供新市場溢價",
-          "summary": "QTS增額並以7.228%完成交易，舊專案債卻轉弱。Alphabet澳幣讓利仍屬初步，私人融資也增加供給。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "AI融資需求依舊深厚，但表面評等不足以保護專案型借款人免受高昂資金成本影響。",
+          "next_check": "",
+          "section_title": "AI融資順利完成，代價卻相當高昂",
+          "summary": "QTS的Project Odyssey吸引約$230億訂單並籌得$39億，但這批最低投資等級債券的殖利率達7.228%，接近投機等級水準。AI相關借款持續跨幣別與架構擴張，Alphabet首次發行澳幣債券也必須提供讓利。市場融資管道仍暢通，但專案風險及發行人架構愈來愈能左右定價。"
         },
         {
-          "section_title": "本地政策支持中國與印尼，印度調整融資組合",
-          "summary": "中國與印尼各因本地因素上漲，印度轉向銀行境外借款；韓國定價與烏拉圭暫停，則呈現不同通膨限制。",
-          "market_read": "",
-          "next_check": ""
+          "market_read": "儘管油價與全球殖利率形成共同壓力，各國成長、融資及財政訊號仍造成顯著的區域差異。",
+          "next_check": "",
+          "section_title": "亞洲利率與全球拋售走勢分歧",
+          "summary": "經濟活動疲弱強化寬鬆預期，中國30年期殖利率降至2.15%，但第3季地方政府發債量料創新高，可能暫時打斷漲勢。印度央行機制保留有利的避險條件，促使銀行加快境外融資；印尼克制的2027年預算提案則帶動公債上漲。其他新興市場普遍因美債殖利率及油價上升而轉向避險。"
         },
         {
-          "section_title": "Sammons回應審視，Avison Young以債轉股降低負擔",
-          "summary": "Sammons否認控制權並稱人員未受調查，利差仍擴大。Avison Young擬讓債權人持股，降低現金利息與槓桿。",
           "market_read": "",
-          "next_check": ""
-        },
-        {
-          "section_title": "Fed溝通與接下來的長期資金承諾",
-          "summary": "接著看Fed溝通、日本長債標售及美國機場資金方案表決；荷莫茲實際船流將檢驗能源是否傳入政策定價。",
-          "market_read": "",
-          "next_check": ""
+          "next_check": "",
+          "section_title": "後續市場意義",
+          "summary": "聯準會會議紀要將檢驗耐心觀望能否壓低政策敏感型殖利率，而不加劇長端的通膨疑慮；即將舉行的美國20年期公債標售，則會衡量近期拋售後的長天期需求。油價與荷莫茲海峽仍是眼前最直接的通膨傳導管道，日本20年期標售也將顯示5年期債券的強勁需求能否延伸至財政風險較高的超長期區段。"
         }
       ],
       "watch_events": [
         {
-          "title": "Fed會議紀錄與Warsh發言",
-          "date": "8月19日及下週",
-          "category": "Fed政策",
-          "watch_line": "同時看就業、物價及零售轉弱的解讀，以及油價轉嫁疑慮。",
-          "market_trigger": "耐心觀察，或認為緊縮仍不足。",
-          "market_implication": "耐心支持實質殖利率與通膨補償分化；鷹派細節可能壓抑短端。"
+          "category": "貨幣政策",
+          "date": "8月19日",
+          "market_implication": "耐心觀望可能壓低前端殖利率，但長端仍會承壓；偏鷹派的會議紀要則可能逆轉曲線趨平。",
+          "market_trigger": "支持等待的理由比市場預期更明確，或討論內容比目前定價更偏鷹派。",
+          "title": "聯準會會議紀要檢驗殖利率曲線分歧",
+          "watch_line": "觀察支持耐心觀望的官員範圍，以及對通膨持續的擔憂程度。"
         },
         {
-          "title": "日本標售與機場融資表決",
-          "date": "8月19日至20日",
-          "category": "長債供給",
-          "watch_line": "日本發行20年期債；華盛頓機場管理局表決主要以$142億債券支應的方案。",
-          "market_trigger": "超長債標售需求，以及新增資本計畫是否獲准。",
-          "market_implication": "標售檢驗當前需求；方案通過則建立未來市政供給，不是立即發債。"
+          "category": "美債供給",
+          "date": "即將舉行",
+          "market_implication": "需求疲弱將強化偏高的長天期補償；需求強勁則可能延續美債尾盤回升。",
+          "market_trigger": "長端拋售後出現偏弱的得標結果，或交易商獲配比例升高。",
+          "title": "美國20年期標售檢驗長天期需求",
+          "watch_line": "依標售前殖利率及各類投標者的配售分布評估結果。"
         },
         {
-          "title": "荷莫茲實際通行",
+          "category": "能源通膨",
           "date": "持續觀察",
-          "category": "能源",
-          "watch_line": "布蘭特仍為$91.40，船流、運費及保險成本須支持口頭重啟說法。",
-          "market_trigger": "通行恢復、原油降價，或僵局與攻擊延續。",
-          "market_implication": "2年期與通膨補償同升，意味能源更直接進入政策預期。"
+          "market_implication": "局勢降溫將緩解損益兩平通膨率；供應受阻則會提高能源壓力傳導至實際通膨與政策的風險。",
+          "market_trigger": "航運持續恢復且油價下降，或攻擊進一步增加並更有效地干擾出口。",
+          "title": "荷莫茲海峽與油價檢驗通膨能否緩解",
+          "watch_line": "在追蹤原油價格的同時，留意航運、運費及保險狀況。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "# Treasuries recover from intraday highs as technology shares fall\n\n## Long-bond buyers return, but inflation compensation rises\n\nTreasuries recovered after an early extension of the global bond selloff. Ten-year yields reached about 4.75%, a 19-month high, and the 30-year traded around 5.32%–5.33%, its highest since 2007. By the New York close, the ten-year was down 1 basis point at 4.71% and the 30-year down 3 at 5.28%. Five-year yields eased 1 to 4.37%, while the two-year stayed at 4.19%. The curve flattened slightly, with 2s10s at 52 basis points and 2s30s at 109.\n\nReal yields supplied the relief. The ten-year real yield fell 3 basis points to 2.41%, outweighing a 2-basis-point rise in breakevens to 2.30%. Brent remained above $91 as the US-Iran impasse continued. Buyers accepted long debt at the higher yields, but had not decided the energy risk was over: ten- and 30-year yields remained 16 and 22 basis points higher over a month.\n\nThe recovery did not extend to technology shares. Semiconductors fell 4.98%, Nasdaq 100 lost 1.68% and the S&P 500 declined 0.69%. VIX rose 4.28% to 15.84, still restrained, and the dollar was little changed. The selloff exposed concentrated sensitivity to long discount rates and financing needs rather than a broad rush for dollar funding.\n\nCredit markets continued to supply those needs at substantial yields. QTS priced $3.9 billion of five-year investment-grade project debt at 7.228%, despite peak orders of as much as $23 billion. Germany's €4 billion 30-year sale also drew strong demand at its highest borrowing yield in 15 years. Japan's five-year auction found buyers while superlong yields rose. Across markets, demand depended on maturity, structure and price, not simply the availability of cash.\n\n## Softer activity encourages patience, not a new consensus for cuts\n\nJuly industrial production rose 0.2%, below the 0.3% forecast, but June was revised to 0.3% from 0.1%. A softer current reading therefore followed stronger history. Alongside the recent labor, inflation and retail reports, it supported waiting at the Fed rather than an immediate increase; it did not establish a sharp deterioration in output.\n\nOptions trading began to reflect more protection against an eventual policy pivot. Buyers appeared in September structures aimed at a hold and in March and June 2027 calls benefiting from lower expected rates. Some traders unwound September and December puts used for higher-rate outcomes. Swaps nevertheless still priced 9 basis points of September tightening and about 40 by June 2027. Hedges against cuts are not the same as cuts becoming the central forecast, and long-bond options retained a premium for further downside protection.\n\nOil kept the case for patience conditional. Trump said no talks with Iran were occurring or scheduled, even while describing Hormuz as open and operating. Shipping evidence did not establish rapid normalization after the June memorandum expired. The UAE reported two Iranian ballistic missiles falling into the sea after being fired toward the country. Before the war, a fifth of global oil and LNG had passed through Hormuz.\n\nBrent gained 0.58% to $91.40, while WTI was almost unchanged at $84.52. The stable two-year yield and lower real yields showed that investors were not translating every oil increase directly into the next Fed decision. Higher breakevens still preserved compensation for unresolved supply risk.\n\nTechnology's losses made the session less comfortable than the Treasury close alone suggests. AI exposure now spans equities, corporate bonds, data-center debt, lease-backed vehicles and bank facilities. Higher long yields affect both the value of distant earnings and the financing used to produce them. Gold futures fell 0.71% to $4,386.50 as high yields increased the opportunity cost of holding a non-yielding asset. Late bond buying eased one pressure without undoing the broader repricing.\n\n## Germany pays more; France and Japan face separate fiscal constraints\n\nGermany sold €4 billion maturing in August 2056 through a syndicate at 3.783%, its highest 30-year borrowing yield since 2011. Orders exceeded €38 billion. The government placed the debt comfortably, but paid more than the 3.64% yield at July's smaller conventional auction.\n\nThe 2027 draft budget points to a €204 billion net financing requirement. Commerzbank's Hauke Siemssen estimates net Bund issuance of €163 billion next year, up from about €137 billion in 2026, with gross sales around €400 billion and €238 billion maturing. Bills, cash, asset sales and KfW payments could reduce the amount funded through Bunds, but defense and infrastructure plans still add borrowing. Syndication broadens the buyer base without changing that underlying requirement.\n\nFrench yields added political risk to the global move. Active ten-year futures open interest reached its highest since early June as bearish positions built ahead of the 2027 budget fight and April presidential election. Prime Minister Sebastien Lecornu seeks a deficit below 5% in a divided parliament; he warned that failure to agree could push a plan into next year and leave the deficit as high as 6.5%. The 30-year yield approached 4.90%, its highest since 2008, and the ten-year spread over Germany reached 85 basis points, widest since October.\n\nNatixis's Theophile Legrand attributes about 25 basis points to France-specific risk, the most since December 2025 budget tensions. Finance Minister Roland Lescure cut the 2026 growth forecast from 0.9% to 0.7% and called a 5% deficit target, versus 5.1% in 2025, difficult. Lecornu has resisted tax increases as fires, heat and drought add support demands. Fitch's August 28 review begins another rating sequence after last autumn's Fitch, S&P and Morningstar DBRS downgrades and Moody's outlook reduction. The review is upcoming, not a further downgrade already delivered.\n\nECB Chief Economist Philip Lane expects inflation around 3% through year-end, depending on the Iran conflict, against the 2% target. July inflation was 2.9% and second-quarter growth a stronger-than-expected 0.4%. He did not commit to another hike after June's quarter-point increase, but stressed the need to prevent prolonged excessive inflation and flagged weather-related food risks next summer. Higher issuance is arriving without a clear monetary-policy offset.\n\nJapan found demand in the belly rather than the superlong sector. The five-year auction's 4.15 bid-to-cover exceeded the previous 3.43 and 12-month average of 3.34. Its tail narrowed from 0.03 to 0.02, and the five-year yield fell 1.5 basis points to 2.145%. Unidentified bidders received 76% of the sale, however, leaving the holding horizon of much of that demand uncertain.\n\nThe 20-year yield rose 4 basis points to 3.85% and the 30-year 5 to 4.125%. Financing for the government's two-year food-tax reduction remains unexplained, while the BOJ is reducing purchases and facing imported inflation and yen weakness. Mizuho's Kenya Koshimizu, who helps oversee a JPY41 trillion securities portfolio, said the bank avoids JGBs outside inflation-linked debt and maturities within a year. He sees a high chance of a September hike and would not rule out two by year-end, taking the policy rate from 1% to 1.5%. That is an investor's assessment, not BOJ guidance, but it illustrates the caution behind the strong five-year result.\n\n## QTS completes its sale at 7.228%; Alphabet offers a new-market concession\n\nTwo special-purpose subsidiaries of QTS unit QualityTech issued $3.9 billion of five-year notes for Project Odyssey in Georgia. Proceeds fund construction, development and operation of the Microsoft-linked data center, general corporate expenses and distributions to QualityTech. The transaction grew by roughly $1 billion from initial discussions. Peak demand reached as much as $23 billion, about six times the issue compared with roughly four times on average in high grade this year.\n\nThe yield tightened 40 basis points during marketing but still finished at 7.228%. Moody's rated the notes Baa3 and Fitch BBB-, the lowest investment-grade tiers; they cannot be called for two years. The Microsoft relationship supports the revenue proposition without making project debt equivalent to Microsoft's own obligations. Investors still bear construction, concentration and residual-asset exposure.\n\nOlder bonds show how those risks can trade. QTS subsidiaries' $4.6 billion ten-year issue from April, originally yielding 5.7%, traded around 7.16% Tuesday, close to single-B levels. The separate $2.25 billion Zenith Arc issue from last week also weakened. Repeated issuance and reliance on a small set of AI tenants can produce materially different returns from what the investment-grade label alone might suggest.\n\nAlphabet's debut Australian-dollar deal remained in marketing, targeting about A$5 billion, or $3.6 billion, in four maturities. Initial three-year guidance was near 80 basis points over the local benchmark, versus about 56 on comparable dollar debt swapped into Australian dollars. Other tranches initially offered roughly 20–25 basis points over swapped equivalents. Those are preliminary concessions that may tighten with orders, not completed borrowing costs.\n\nThe company has already borrowed in dollars, Swiss francs, sterling, euros, Canadian dollars and yen, and raised its 2026 capex forecast to as much as $205 billion. Rating analysts warn that hyperscaler debt is rising faster than revenue, making monetization and returns on invested capital increasingly important. JPMorgan Asset Management's Gabriela Santos estimated AI capex across public and private markets at $5.5 trillion and stressed the overlap between bond and equity exposure. Portfolios can hold the same financing cycle through several instruments.\n\nPrivate deals also expanded. United Launch Alliance, the Boeing–Lockheed Martin venture serving military and commercial customers, increased a private-bond financing from $500 million to $1.5 billion across four tranches from three to ten years. Ripple Prime raised $275 million of senior unsecured notes due in 2031 at an 8.25% coupon, rated BBB by KBRA, for general corporate uses as its US prime-brokerage business expands. Private execution can avoid a volatile public book, but still commits institutional lenders at substantial coupons.\n\nAugust high-grade supply had already exceeded $145 billion by Monday, when 12 issuers added $9.1 billion. Corporate and sovereign risks differ, but both draw on duration capacity. QTS's result and the Treasury recovery each show buyers responding to price, with much greater compensation and explicit structural protection required in project credit. Broad funds remained orderly: LQD gained 0.13%, while HYG and JNK fell about 0.10% and 0.11%, respectively.\n\n## Local policy supports China and Indonesia, while India adjusts its funding mix\n\nChina's 30-year government yield fell to 2.15%, its lowest since late November. The 10s30s spread narrowed toward 50 basis points, near its smallest since February, after 30-year futures open interest reached a record Friday. Weak July output, consumption and investment strengthened expectations of easing and sustained softness, creating a domestic reason to buy duration.\n\nShanze Fund's Song Xiaofei attributed the rally mainly to short-term portfolios rather than durable institutional allocations. A flatter curve reduces bank margins, and a larger yield disadvantage overseas can add capital-outflow and yuan pressure. Local-government issuance is expected to reach a third-quarter record after lagging in the first half. Song said a spread below 40 basis points would require slower supply and longer-horizon buyers. The rally reflects local growth and liquidity, not a global disappearance of inflation risk.\n\nIndia's early end to its foreign-currency deposit incentive reduced expected rupee liquidity after attracting more than $50 billion. Citigroup lowered its inflow estimate by $10 billion to $70 billion; Nomura cut its estimate from as much as $90 billion to about $72 billion. Banks had deployed much of the liquidity in four- to five-year government bonds, so the shorter window curtailed a popular steepener and increased near-term refinancing pressure.\n\nA separate offshore-borrowing facility remains open through December, with a fixed annual swap rate of 1.5% for average maturity of at least three years. ICICI's $750 million Monday sale took Indian financial-institution dollar issuance to $8.85 billion this year, above 2019's $7.92 billion record. Kotak Mahindra was preparing five-year debt and Yes Bank had appointed advisers. Strong books have supported tighter pricing; the calendar may accelerate before ordinary hedging costs return and slow the activity.\n\nIndonesia's fiscal promise continued to help assets. Equities gained 0.8% Tuesday, bringing the recovery from June lows to about 21%, and five-year yields fell 4 basis points to their lowest since June 18. Ten-year yields had declined 16 basis points in two weeks. The 2027 deficit target of 2.4%, within the legal 3% ceiling and without another major spending program, worked alongside greater confidence in central-bank continuity.\n\nExecution remains unresolved. Bank of America estimates total issuance could still approach $44 billion next year, potentially including spending below the headline deficit. Prabowo seeks 6% growth in both 2026 and 2027, and his administration has previously raised a conservative deficit while reallocating resources to free meals. Realistic currency, inflation and funding assumptions reduced immediate uncertainty; revenue delivery and restraint must now substantiate the bond-market improvement.\n\nKorea presents a disputed policy price. Its one-year implied rate was 3.79%, well above the 2.75% policy rate, despite July inflation slowing more than expected to 2.8%. M&G's Low Guan Yi expects only another 25 basis points, not the roughly 100 priced. First-half corporate tax revenue rose 9.6% to KRW49.3 trillion with the chip boom, which the manager sees as room for supplementary spending without more bond supply. Foreigners sold about $1.2 billion of government debt in July and ten-year yields were up 22 basis points since June, leaving the view exposed to positioning and oil.\n\nUruguay instead held at 5.75% for a fourth meeting. July inflation rose to 4.3% but remained below the 4.5% target, and surveyed institutions expect a quarter-point increase only in October. Local inflation and fiscal capacity continue to distinguish policy paths even within a generally difficult market for sovereign duration.\n\n## Sammons responds to scrutiny; Avison Young exchanges debt for equity\n\nSammons Financial's June 2036 spread widened further to about 240 basis points, from 147 a week earlier. The $750 million ten-year issue was followed two weeks later by $500 million of five-year notes. The further widening came as scrutiny continued over ties to Mark Walter's Guggenheim businesses.\n\nHunterbrook Media, whose investment affiliate disclosed a short position, cited filings that continued to call Sammons a related party and acknowledged incentives to favor it. Sammons responded that parent Sammons Enterprises has only a non-voting, non-controlling interest in Guggenheim Capital, reduced over several years. It said the parent has no voting or common equity and no ability to control Guggenheim Capital, TWG Global Holdings or affiliates, and that its officers, directors and employees are not under investigation.\n\nEconomic links remain relevant alongside that denial of control. Guggenheim managed tens of billions for the insurer and had long regarded Sammons as its largest shareholder. Prosecutors and regulators are examining Walter-linked insurer loans directed to other parts of his business empire. The November 2031 Guggenheim first-lien loan was below 80 cents Monday, from around par July 20, while Fitch's A- assessment of Sammons cited very strong capital but somewhat elevated risky assets. Neither market prices nor an interested report establish wrongdoing; investors are assigning more weight to how related-party economics affect asset allocation.\n\nAvison Young is using creditor ownership to improve debt service. Its recapitalization swaps debt for equity, cuts annual cash interest by more than 70% and brings leverage below three times EBITDA. CEO Mark Rose expects an October closing and said lenders will add equity for hiring and acquisitions, including data centers and office conversions. Partners would retain roughly half the Canadian property adviser's ownership. The plan gives operating flexibility by making lenders owners, leaving recovery more directly dependent on commercial property and execution rather than another refinancing.\n\n## Fed communication and upcoming duration commitments\n\nJuly FOMC minutes on August 19 and Warsh's Jackson Hole remarks next week will clarify the response to softer employment, inflation and retail demand. A patient account would be consistent with Tuesday's unchanged two-year yield and lower real yields despite higher breakevens. Greater concern about oil pass-through or insufficient restraint could bring the front end back into inflation repricing.\n\nJapan's August 20 twenty-year auction follows the strong five-year result, but starts with a 3.85% yield and cautious superlong buyers. It will show whether belly demand extends to longer fiscal and policy exposure. The government's food-tax financing remains unsettled.\n\nIn the US, the Metropolitan Washington Airports Authority votes August 19 on adding $15.5 billion to its capital budget, mainly financed by $14.2 billion of bonds. Five construction packages cost $19.9 billion, with $4.4 billion already authorized. Approval would establish a large future municipal funding program, not an immediate sale of all the debt.\n\nActual Hormuz traffic, freight and insurance costs remain more important than descriptions of reopening. Restoration and lower crude would reduce the pressure keeping Brent at $91.40 and could broaden bond relief. Continued deadlock or attacks would increase the risk of energy entering realized inflation and policy. Joint increases in two-year yields and breakevens would mark that change; renewed steepening led by long real yields would leave supply and AI financing more central.",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nUS Treasuries finished Aug. 18 with modest gains after an intraday selloff pushed benchmark yields to their highest levels since early 2025. The completed session was less another leg of the long-bond rout than a partial recovery from it: the 2-year yield declined 0.5 basis point to 4.172%, the 10-year fell 1.8 basis points to 4.705% and the 30-year eased 2.4 basis points to 5.284%. Earlier in the day, the 10-year had touched about 4.75% and the 30-year reached its highest since 2007 as investors confronted elevated oil prices, global sovereign issuance and another heavy corporate calendar.\n\nThe daily decline in nominal yields concealed a less reassuring inflation composition. The 10-year real yield fell 4.3 basis points to 2.395%, while the 10-year breakeven rose 2.5 basis points to 2.31%. Real-rate relief allowed Treasuries to recover, but investors assigned more compensation to inflation as the US-Iran impasse kept Brent crude at $91.40 and President Donald Trump said no talks were taking place or scheduled. The curve flattened slightly during the session, with 2s10s narrowing 1.3 basis points to 53.3 basis points and 2s30s compressing 1.9 basis points to 111.2 basis points, yet both remained substantially steeper over the past month.\n\nThat combination distinguished the close from the intraday headlines. Softer US employment, inflation and consumer data had already reduced the perceived likelihood of a September Federal Reserve increase, and options traders began hedging the possibility of rate cuts during 2027. The long end nevertheless remained under pressure over longer horizons: the 10-year yield was 15.6 basis points higher over one month and the 30-year was up 21.3 basis points, compared with a 0.8-basis-point decline in the 2-year. Near-term policy expectations and long-term financing costs continued to move on different evidence.\n\nThe strain was clearer in risk assets. The Nasdaq 100 fell 1.68% and the Philadelphia Semiconductor Index lost 4.98%, while the S&P 500 declined 0.69%. Technology shares were hit by the higher discount rate attached to long-duration earnings and by concern that the artificial-intelligence investment cycle is becoming increasingly dependent on expensive debt. Gold futures fell 0.71% to $4,386.50 as the earlier rise in yields supported the dollar, although the US Dollar Index was nearly unchanged by the completed close.\n\nCredit markets showed that high borrowing costs had not closed access, but the required compensation varied sharply by structure. A Blackstone-backed data-center financing linked to Microsoft attracted roughly $23 billion of peak demand, allowing the borrower to sell $3.9 billion of investment-grade debt at a 7.228% yield. The transaction was heavily subscribed while still clearing near yields associated with speculative-grade borrowers. Alphabet also began marketing a debut Australian dollar issue with concessions over comparable swapped US debt, and Indian banks accelerated offshore funding through a central-bank hedging facility.\n\nThe session therefore combined late Treasury relief with continued evidence that long-term capital is expensive. Investors were willing to finance sovereigns, hyperscalers, data centers and other corporate borrowers, but Germany paid its highest 30-year syndication yield since 2011, France’s fiscal risk premium widened, Japanese superlong yields rose despite a strong 5-year auction, and marginal US credit projects needed substantial yield. The common feature was not an immediate central-bank repricing. It was the cost of absorbing duration while energy uncertainty, public borrowing and AI investment compete for the same capital.\n\n## Treasuries Recover as Real Yields Fall\n\nThe Treasury market’s intraday path captured the tension between the recent softening in US data and the continuing global pressure on duration. Yields rose by roughly 1 to 2 basis points across maturities during the earlier selloff, taking the 10-year to about 4.75%, its highest in 19 months. Thin August liquidity, overseas bond weakness and a record corporate calendar for the month amplified the move before buying emerged later in the session.\n\nThe completed daily observations showed the recovery concentrated farther out the curve. The 5-year yield declined 0.8 basis point to 4.367%, the 10-year fell 1.8 basis points and the 30-year dropped 2.4 basis points. The long end still carried the larger cumulative loss: over the previous week, the 2-year yield had fallen 4.4 basis points, while the 30-year had risen 4.2 basis points. The 2s30s curve was 8.6 basis points steeper over that period and 22.1 basis points steeper over one month.\n\nInflation compensation moved against the nominal rally. The 2.5-basis-point rise in the 10-year breakeven more than offset part of the 4.3-basis-point fall in the real yield, leaving the nominal 10-year down only 1.8 basis points. That pattern was consistent with relief in real financing pressure rather than a favorable reassessment of the inflation outlook. Brent rose 0.58% to $91.40 and WTI was little changed at $84.52 after earlier increases, preserving the risk that the Middle East conflict will prolong elevated energy costs.\n\nTrump said there were no talks or conversations taking place or scheduled with Iran and maintained that the Strait of Hormuz was open and operating, a description at odds with shipping data cited in the day’s reporting. Oil did not retreat on the statement. Iran’s first confirmed attack on the United Arab Emirates since May, involving two ballistic missiles that fell into the sea, added to the evidence that the conflict could remain prolonged rather than end through the expired June memorandum.\n\nThe rates market was not treating that inflation risk as a decisive reason for an immediate Fed move. Interest-rate swaps assigned roughly a 35% probability to a September increase, with October close to an even chance and a full quarter-point increase not priced until January 2027. Another measure showed 9 basis points of tightening priced for the September meeting and about 40 basis points by June 2027. The exact horizons differed, but both indicated a substantial retreat from the more aggressive tightening expectations that had prevailed before the recent weaker data.\n\nOptions flows extended that change. Traders bought September structures that would benefit from the Fed remaining on hold, while March and June 2027 call options provided protection against pricing shifting toward rate cuts. September hike odds had been as high as 68% two weeks earlier before July data showed the economy lost 23,000 jobs, retail sales fell by the most in more than a year and inflation moderated. In JPMorgan’s investor survey for the week through Aug. 17, short positions fell 4 percentage points and overall positioning became the most neutral since April 20.\n\nThe reduction in hike wagers did not amount to a settled expectation of easing. Swaps still priced tightening over the coming months, and long-bond options retained a premium for protection against another selloff rather than a rally. That downside skew was less extreme than at the end of July, but it showed that investors regarded the long end as exposed even while they dismantled positions based on an imminent September move.\n\nFresh activity data supplied only a modest reason for patience. US industrial production increased 0.2% in July, below the 0.3% expected increase, while June growth was revised to 0.3% from 0.1%. The softer-than-forecast latest reading was therefore paired with a stronger prior month. It neither reversed the evidence of weaker employment and consumption nor established the broad deterioration that would resolve the Fed debate.\n\nThe unusual separation between maturities has become a policy signal in its own right. BNP Paribas strategists found only six Fed meetings since 2008 after which the 30-year yield rose while the 2-year declined. The recent pattern fits that configuration: markets have marked down the near-term willingness to tighten while demanding more compensation for the longer-run combination of inflation, fiscal policy and structural investment. Tuesday’s small bull-flattening interrupted that movement for a day, but the one-month curve change showed that it remained the dominant background.\n\nTrading activity was substantial without identifying the direction of investors’ transactions. FINRA recorded $1.07 trillion of Treasury par activity, 2.4% more than the previous session, including $845.8 billion in nominal coupons. Activity in maturities of no more than 2 years rose 28.1%, and trading in the greater-than-3-year through 5-year sector increased 18.6%. Turnover in maturities above 7 years through 10 years fell 24.5%. Those totals show where adjustment occurred, but not whether customers were net buyers or sellers.\n\n## Europe and Japan Pay More for Duration\n\nThe global duration pressure was most visible in Germany, which sold €4 billion of debt maturing in August 2056 at a 3.783% yield, the highest cost for a 30-year German offering since 2011. Orders exceeded €38 billion, broadly matching recent syndicated transactions. The orderbook showed ample demand at the offered yield, but the financing rate demonstrated how far the market had repriced even the euro area’s benchmark sovereign borrower.\n\nGermany’s requirements are set to increase as defense and infrastructure spending combine with heavy redemptions. A draft budget points to a €204 billion net financing need in 2027. Commerzbank strategist Hauke Siemssen estimates net bund issuance could rise to a record €163 billion from about €137 billion in 2026, with gross issuance near €400 billion. Germany can supplement bunds with bills, cash reserves, asset sales and payments from its state-owned development bank, but those alternatives do not remove the increase in aggregate borrowing.\n\nFrance faced an additional domestic risk premium. Outstanding short positions in the 10-year bond-futures contract expiring next month rose to their highest since early June, while the French 10-year yield spread over Germany widened to 85 basis points, its largest since October. The 30-year French yield traded around 4.90%, its highest since 2008.\n\nThe positioning reflects the difficulty Prime Minister Sebastien Lecornu faces when Parliament returns in September to consider the 2027 budget ahead of the April and May presidential-election rounds. The government aims to bring the deficit below 5% of gross domestic product, but Lecornu has warned that failure to agree on a plan could delay adoption into next year and leave the deficit as high as 6.5%. Finance Minister Roland Lescure had already reduced the 2026 growth forecast to 0.7% from 0.9% and described a reduction in the deficit to 5% from 5.1% in 2025 as difficult.\n\nRating reviews create nearer-term event risk. Fitch is due to consider France on Aug. 28, followed by other agencies later in the year. S&P, Morningstar DBRS and Fitch downgraded the sovereign during the previous autumn’s budget disputes, while Moody’s lowered its outlook. Natixis estimated that approximately 25 basis points of the current French-German spread reflected idiosyncratic French risk, the highest contribution since the budget tensions of December 2025.\n\nThe European inflation outlook offered little relief. ECB Chief Economist Philip Lane said consumer-price growth was likely to remain near 3% through the end of 2026 because of the Iran war, materially above the central bank’s 2% objective. Euro-area inflation accelerated to 2.9% in July, while Q2 growth of 0.4% exceeded expectations. Lane would not endorse another increase after the ECB’s June quarter-point move, but said the central bank would prioritize preventing inflation from remaining excessive for too long.\n\nHis qualification was important: the path depends heavily on whether the conflict is resolved, and weather effects including El Niño could add to food inflation next summer. Investors expected at least one more quarter-point increase by year-end, with the ECB’s projections due to be updated in September. President Christine Lagarde’s Wednesday appearance in Geneva will be the next senior communication after Lane’s assessment.\n\nJapan produced a sharp maturity contrast. A 5-year government-bond auction drew the strongest demand since June 2025, with a bid-to-cover ratio of 4.15, up from 3.43 at the previous sale and above the 12-month average of 3.34. The auction tail narrowed to 0.02 from 0.03, and the 5-year yield fell 1.5 basis points to 2.145% after the result. Elevated yields and demand for less duration allowed the sale to clear without disruption.\n\nThe auction did not stabilize the superlong sector. The 20-year yield rose 4 basis points to 3.85% and the 30-year increased 5 basis points to 4.125%. Fiscal uncertainty remained concentrated beyond the belly because Prime Minister Sanae Takaichi’s government has yet to explain how it will finance a 2-year reduction in the sales tax on food. The next auction, a 20-year sale on Thursday, exposes investors directly to that duration and fiscal risk.\n\nDemand at the 5-year sale also carried a qualification: 76% of the bonds were purchased by unidentified bidders, raising the possibility that some buyers were shorter-term holders rather than durable balance-sheet investors. The strong result therefore established demand for medium maturities at current yields, not an extension of the same appetite into superlong debt.\n\nMizuho Financial Group provided a concrete example of the reluctance among Japanese banks to absorb duration. Kenya Koshimizu, co-head of the division managing its ¥41 trillion securities portfolio, said the bank would continue avoiding JGBs other than inflation-linked securities and maturities within one year. Its roughly ¥20.6 trillion JGB portfolio had an average remaining maturity of less than one year at the end of June.\n\nKoshimizu judged a September Bank of Japan increase quite likely and said the central bank could shorten the interval between moves to roughly 3 months from about 6 months. He did not rule out two increases by year-end, which would raise the policy rate to 1.5%. Overnight-indexed swaps assigned a 78% probability to a Sept. 18 increase, while the weak yen and inflation remained the main reasons for faster action.\n\nThat expected policy path is not the only reason Japanese yields are rising. Koshimizu argued that the 10-year yield near 2.9% remained low relative to nominal growth of about 4% and that global investment and structural changes kept inflation risks tilted upward. He also expected domestic banks, foreign investors and households eventually to provide demand when yields better matched nominal growth. The dividing line is therefore price: Japan has a large potential buyer base, but major institutions are not yet compelled to extend duration merely because yields have reached multi-decade highs.\n\n## AI Financing Clears at a High Price\n\nThe day’s largest credit development was the completion of the QTS Realty Trust financing known as Project Odyssey. Two special-purpose subsidiaries of Blackstone-backed QTS sold $3.9 billion of 5-year notes to fund construction, development and operation of a Microsoft-linked data center in Georgia, along with general corporate expenses and distributions to QTS’s QualityTech unit.\n\nPeak orders reached approximately $23 billion, close to 6 times the deal size and above the roughly 4-times average subscription for investment-grade bonds this year. The borrower increased the transaction by about $1 billion from the amount discussed with investors the previous week and reduced the yield by 0.4 percentage point during marketing to 7.228%.\n\nThe orderbook and final yield describe two different aspects of demand. Investors were willing to provide substantially more capital than QTS sought, but only after the structure offered a return more commonly associated with single-B speculative-grade debt. Moody’s rated the notes Baa3 and Fitch assigned BBB-, both at the lowest investment-grade tier. The debt cannot be called for 2 years, another term more typical of high-yield issuance.\n\nSecondary trading in earlier QTS obligations reinforced the repricing. Subsidiaries issued $4.6 billion of 10-year investment-grade debt in April at a 5.7% yield. Those bonds traded around 7.16% on Tuesday. The rise occurred as data-center issuers crowded the market and investors became more selective about construction risk, lease concentration and the ability of AI projects to generate returns sufficient to support their financing.\n\nThe transaction nevertheless showed that price could overcome fatigue. The financing was larger than initially contemplated, achieved strong demand and retained investment-grade ratings. It also demonstrated why headline ratings alone provide an incomplete guide to funding costs when debt is issued through special-purpose vehicles tied to an individual data-center project.\n\nAlphabet sought a different source of capital by opening its first Australian dollar bond sale. The company targeted about A$5 billion across 4 maturities. Initial guidance on 3-year notes was around 80 basis points over the Australian benchmark, compared with roughly 56 basis points on similar US dollar Alphabet debt swapped into Australian dollars. Other tranches initially offered local investors approximately 20 to 25 basis points more than comparable swapped US obligations.\n\nSome of that concession reflected the premium commonly paid by a debut issuer in a new market. It also came after Alphabet lifted its 2026 capital-spending forecast to as much as $205 billion and sold debt in US dollars, Swiss francs, sterling, euros, Canadian dollars and yen. Australia’s record pace of issuance by overseas borrowers gives Alphabet access to a growing local investor base, but the initial spread showed that diversification does not eliminate the price of repeated borrowing.\n\nUnited Launch Alliance, the rocket venture owned by Boeing and Lockheed Martin, provided another example of borrowers enlarging private transactions when demand permitted. The company increased a private-bond deal to $1.5 billion from an initial $500 million. It offered 4 portions maturing in 3 to 10 years. The financing added to the range of private placements being used by defense, infrastructure and technology-linked businesses without requiring another public deal in an already crowded market.\n\nRipple Prime, the digital-asset company’s brokerage arm, raised $275 million privately through senior unsecured notes due in 2031. The securities carried an 8.25% coupon and a BBB rating from KBRA, with proceeds allocated to general corporate purposes as the brokerage expands in the US. The maturity and coupon fit a broader shift toward shorter private-placement debt as issuers resist locking in today’s borrowing costs for very long periods.\n\nThe AI cycle is also expanding contingent funding needs. Anthropic’s revolving credit facility was set to exceed its roughly $10 billion target as banks sought roles ahead of a potential initial public offering. The most active lenders were asked for commitments around $1.25 billion, with other major participants encouraged to provide approximately $1 billion. A revolver is not the same as funded bond debt, but its prospective scale shows the liquidity support surrounding the AI investment boom.\n\nJPMorgan Asset Management’s Gabriela Santos estimated AI capital spending across public and private markets at $5.5 trillion and warned that exposure now extends through both equity and fixed-income portfolios. Investment-grade issuance had reached a fourth consecutive monthly record, while data-center vehicles added collateral and lease structures distinct from ordinary hyperscaler obligations. Her distinction between borrowers was consistent with the day’s pricing: Alphabet could diversify by currency, while a Microsoft-linked special-purpose vehicle required a yield above 7%.\n\nThe market impact was particularly visible in equities. The semiconductor index fell almost 5%, and the Nasdaq 100 lost 1.68%, as investors reassessed both the discount rate on expected earnings and the financing burden behind the buildout. The selloff did not establish that AI investment was contracting. It showed that the same capital cycle supporting corporate spending and credit issuance can weaken technology valuations when long-term rates rise.\n\nCredit stress remained concentrated in individual names rather than becoming a uniform denial of access. Sammons Financial Group’s bonds due in June 2036 widened to about 2.4 percentage points over their benchmark, from 1.47 percentage points a week earlier, reaching their lowest price since issuance. That represented a further deterioration from the initial reaction to scrutiny of Sammons’ historical connections with Guggenheim Partners.\n\nSammons responded that its parent held a non-voting, non-controlling interest in Guggenheim Capital that it had been reducing for several years. It said the parent had no voting or common equity in, or ability to control, Guggenheim Capital, TWG Global or their affiliates, and that its officers, directors and employees were not under investigation. The publisher of the report that prompted the move disclosed that its investment arm was short Sammons’ bonds.\n\nThe clarification did not remove the broader concern created by Guggenheim’s own debt. Its first-lien term loan due in November 2031 was quoted below 80 cents on the dollar, down from about par on July 20, as prosecutors and regulators investigated loans from Walter-linked insurers to other parts of his business interests. Sammons’ widening therefore reflected both the specific related-party questions raised in the report and a market already repricing obligations associated with the wider network.\n\nAvison Young completed a different form of credit repair. Creditors agreed to exchange debt for equity in the Canadian real-estate advisory company, reducing annual cash interest expense by more than 70% and bringing debt below 3 times earnings before interest, tax, depreciation and amortization. The deal is expected to close in October, after which partners would own approximately half the business. Existing lenders also planned to contribute additional equity, though the amounts and investor names were not disclosed.\n\nThe restructuring shifts cash from debt service toward operations and potential acquisitions. Chief Executive Officer Mark Rose said the company was considering recruitment, smaller purchases and some larger transactions, including expansion in data-center services and office conversions. The plan depends on a recovery in commercial real estate and the completion of the October recapitalization, but it represents a negotiated balance-sheet conversion rather than another maturity extension.\n\n## Asian Rates Diverge From the Global Selloff\n\nChina supplied the clearest sovereign exception to rising global long-term yields. The 30-year government-bond yield fell to 2.15%, its lowest since late November, and the spread over the 10-year narrowed to around 50 basis points, near its smallest since February. Open interest in 30-year futures had reached a record, showing that the flattening was accompanied by substantial positioning for further long-end gains.\n\nThe move followed weak July output, retail-sales and investment data that strengthened expectations of monetary support. Traders interpreted the figures as evidence of prolonged domestic softness even as Europe, Japan and the US confronted higher energy costs and tighter long-duration financing conditions. Standard Chartered’s Raymond Cheng said the contrast reflected China’s lack of a clear domestically led recovery and the market’s expectation of rate cuts.\n\nThe rally carried its own risks. A widening interest-rate gap with overseas markets can increase pressure on the yuan and capital flows, while a flatter curve reduces banks’ net interest margins. Shanze Fund’s Song Xiaofei also attributed much of the move to shorter-term trading portfolios rather than long-term institutional allocation, making the rally more dependent on continuing liquidity and easing expectations.\n\nSupply may interrupt the move. Local-government issuance lagged during the first half but was expected to reach a record in Q3. Analysts still expected long yields to resume declining after that wave passed, with forecasts around 2% to 2.05% for the 30-year during Q4. A sustained move in the 10s30s spread below 40 basis points would require both slower issuance and greater participation from long-term buyers.\n\nIndia’s funding adjustment advanced beyond the initial market reaction to the early closure of the foreign-currency deposit facility. Financial institutions had sold $8.85 billion of dollar bonds during 2026 after ICICI Bank raised $750 million on Monday, surpassing the previous full-year record of $7.92 billion set in 2019. Kotak Mahindra Bank was marketing a 5-year deal, and Yes Bank had appointed advisers for another potential offering.\n\nThe Reserve Bank of India’s separate overseas-borrowing facility remains open through Dec. 31 and offers eligible borrowing at a fixed annual hedging cost of 1.5% for an average maturity of at least 3 years. About two-thirds of Indian corporate dollar borrowing this year has come from financial institutions. The early closure of the deposit program therefore removed one source of rupee liquidity while preserving an incentive for banks to issue offshore debt.\n\nNomura expected issuance to accelerate over the coming weeks as lenders replaced near-term funding needs, then slow once the immediate impetus faded because ordinary hedging costs remain high. The distinction matters for the curve: ending the deposit window reduced support for 4- to 5-year government bonds, but the continuing borrowing swap can channel the adjustment into bank dollar issuance rather than simply eliminating liquidity.\n\nIndonesia moved in the opposite direction as investors continued to reward President Prabowo Subianto’s restrained 2027 budget proposal. The 5-year government yield fell 4 basis points to its lowest since June 18, while the 10-year had declined 16 basis points over 2 weeks. The rupiah was up 0.8% for the month despite a 0.2% decline on Tuesday as higher oil prices weakened most emerging Asian currencies.\n\nThe proposed fiscal deficit of 2.4% of GDP remained below the 3% statutory ceiling, and the budget introduced no new major spending commitments. Analysts also judged its assumptions for revenue, inflation, the currency and borrowing costs more realistic than those used for 2026. The favorable response was material because investors had previously been unsettled by abrupt changes in senior economic officials, revisions to spending and Prabowo’s efforts to centralize parts of the commodity sector.\n\nThe budget did not eliminate execution risk. Bank of America estimated that total debt issuance could rise to nearly $44 billion next year, and the administration had raised a similarly conservative 2026 deficit target as the year progressed. Spending can also move below the line or be reallocated toward flagship programs without immediately appearing in the headline deficit. The bond rally reflected removal of an immediate adverse surprise, not proof that the full-year financing plan will remain unchanged.\n\nAcross emerging markets more broadly, Tuesday was risk-off. The MSCI developing-market equity index fell 0.9%, almost every major currency weakened against the dollar and long-dated sovereign bonds from several Middle Eastern countries, Argentina, the Philippines and Peru lost close to 1 cent. The pressure came from the earlier rise in Treasury yields and oil above $90 rather than from a common domestic shock.\n\nThe Chilean peso declined more than 1% after the economy unexpectedly stalled in Q2. The Colombian peso gained more than 1%, supported by improved sentiment toward the new administration and GDP growth of 3.5% in the final full quarter of the previous government, above the 3.3% forecast and up from 2.2% in the prior 3 months. Those exceptions showed that domestic evidence could still overcome the common dollar and energy backdrop.\n\nUruguay’s central bank held its policy rate at 5.75% for a fourth consecutive meeting, matching the forecasts of institutions it surveyed. Inflation rose to 4.3% in July after reaching a 7-decade low earlier in the year, but remained below the 4.5% target and within the tolerance range of 3% to 6%. Expectations were aligned with the target, while activity remained below potential and the labor market was described as relatively stable.\n\nThe bank had cut rates 7 times by a cumulative 3.5 percentage points between July 2025 and March, partly to curb a sharp appreciation of the currency. Institutions surveyed by the central bank expected a quarter-point increase at the October meeting. Tuesday’s hold preserved that possibility while policymakers assessed whether geopolitical and climate risks would disturb inflation expectations.\n\n## Forward Market Significance\n\nMinutes from the Fed’s July meeting on Wednesday are the first test of the Treasury market’s split between reduced near-term hike expectations and still-elevated long yields. Options traders have moved from liquidating September tightening positions to buying protection against 2027 cuts, while swaps still retain some probability of an increase. The minutes can show how broadly officials supported patience before the latest weak employment, inflation and retail reports and whether concern about persistent price pressure extended beyond the 3 dissenters.\n\nThe market response will depend on which part of the curve absorbs any surprise. A stronger case for waiting would be consistent with lower policy-sensitive yields, but it would not necessarily relieve the long end if investors interpret patience as allowing inflation compensation to remain elevated. A more hawkish discussion could restore pressure to the 2-year and reverse Tuesday’s modest flattening. The simultaneous fall in real yields and rise in breakevens leaves both channels open.\n\nChairman Kevin Warsh’s Jackson Hole remarks next week carry a broader communication burden because the removal of conventional forward guidance has increased uncertainty over the reaction function. Investors will look for how the Fed weighs weaker July demand and employment against oil above $90, inflation still above target and the financing effects of the AI investment boom. The key question is not only whether September remains live, but what evidence would separate a pause from the beginning of a longer move toward easing.\n\nThe US 20-year Treasury auction will test demand for duration after the 10-year touched 4.75% and the 30-year reached its highest level since 2007. Tuesday’s late recovery showed buyers emerging as real yields fell, but the longer monthly record still reflects a substantial increase in required compensation. The result will be most informative relative to its pre-auction yield and through the distribution among direct, indirect and dealer bidders once those figures are released.\n\nOil remains the immediate inflation variable. Trump’s statement that no talks with Iran were scheduled failed to reduce prices, and the attack involving the UAE increased the risk of a prolonged conflict. A durable restoration of traffic through Hormuz, lower freight and insurance costs, and falling crude prices would reduce the rise in breakevens. Further attacks or a more effective disruption to exports would raise the probability that energy pressure migrates from market inflation compensation into realized prices and central-bank decisions.\n\nIn Europe, Lagarde’s Wednesday remarks and the September ECB projections will test Lane’s expectation that inflation remains near 3% through year-end. The central bank must judge whether war-related energy and prospective food pressure warrant another increase even as those forces originate outside domestic demand. France faces a nearer event on Aug. 28 when Fitch begins the autumn rating calendar, followed by the parliamentary budget confrontation from September.\n\nJapan’s 20-year auction on Thursday will show whether the strong demand recorded at the 5-year sale extends into the maturity range carrying greater fiscal and policy risk. The 5-year auction produced a 4.15 bid-to-cover ratio, but the 20-year yield still rose to 3.85% and investors remain uncertain about financing for the temporary food-tax reduction. Demand at the longer sale will help distinguish a general re-entry into JGBs from a preference confined to the belly.\n\nThe Sept. 18 BOJ meeting remains the larger policy test. Swaps assign a 78% probability to an increase, and Mizuho sees the possibility of another move before year-end. A single increase would address some of the pressure from the weak yen and imported inflation; guidance suggesting a 3-month interval between moves would represent a more substantial change in the policy path and could increase volatility at the long end.\n\nPrimary credit markets will continue to reveal how investors differentiate AI-related obligations. Project Odyssey’s $23 billion orderbook showed that a 7.228% yield can generate demand for a Microsoft-linked investment-grade vehicle. Alphabet’s Australian sale will show how much of its initial new-market concession survives final pricing, while secondary trading in earlier data-center bonds will indicate whether successful execution stabilizes existing obligations.\n\nThe Metropolitan Washington Airports Authority votes Wednesday on whether to add $15.5 billion to its capital budget for the Dulles International Airport overhaul. The proposal relies on $14.2 billion of new bonds, with passenger charges supporting debt service on about $1.1 billion. Approval would establish a large multi-year municipal financing program rather than an immediate sale of the entire amount, but it would add another substantial future claim on long-duration capital.\n\nChina’s long-end rally faces a different test from the global selloff. Record Q3 local-government issuance could interrupt the flattening even if weak activity continues to support easing expectations. A sustained decline in the 30-year yield toward 2% would require the anticipated supply wave to pass without dislodging demand and, ultimately, participation from longer-term institutional buyers rather than reliance on trading portfolios alone.\n",
     "section_summaries": [
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-01",
-        "section_title": "Long-bond buyers return, but inflation compensation rises",
-        "summary": "Treasuries recovered from intraday yield highs as real yields eased. Higher breakevens, technology losses and expensive financing kept the relief narrow.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "The Treasury close reversed part of an intraday long-bond selloff, but the composition was less reassuring than the nominal rally: real yields declined while inflation compensation rose. Weaker US data reduced imminent Fed-tightening expectations, yet oil risk, public borrowing and AI-related financing kept long-term capital expensive across sovereign and credit markets."
       },
       {
+        "market_read": "Near-term policy expectations softened, while inflation, fiscal and investment risks kept the long end exposed.",
+        "next_check": "",
         "section_id": "section-02",
-        "section_title": "Softer activity encourages patience, not a new consensus for cuts",
-        "summary": "A soft production reading met an upward revision. Options hedged later cuts, but swaps still priced tightening and oil kept inflation uncertainty active.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Treasuries Recover as Real Yields Fall",
+        "summary": "Treasury yields retreated after the 10-year reached about 4.75%, with the recovery concentrated farther out the curve. A 4.3-basis-point fall in the 10-year real yield outweighed a 2.5-basis-point rise in the breakeven, while softer US data cut September hike wagers without producing a settled easing outlook. The daily flattening interrupted, but did not reverse, the past month’s steepening."
       },
       {
+        "market_read": "Strong orderbooks showed demand exists, but only at yields high enough to compensate investors for supply, fiscal and policy risk.",
+        "next_check": "",
         "section_id": "section-03",
-        "section_title": "Germany pays more; France and Japan face separate fiscal constraints",
-        "summary": "Germany attracted large orders at a higher borrowing rate; France added fiscal risk. Japan's belly found buyers while superlong demand remained cautious.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Europe and Japan Pay More for Duration",
+        "summary": "Germany’s €4 billion 30-year syndication drew more than €38 billion of orders but cleared at 3.783%, its highest such funding cost since 2011, while France’s spread over Germany widened to 85 basis points amid budget and rating risk. Japan’s strong 5-year auction contrasted with rising 20- and 30-year yields as investors demanded more compensation for fiscal uncertainty and possible faster BOJ tightening."
       },
       {
+        "market_read": "AI financing demand remained deep, but ratings alone did not shield project-linked borrowers from elevated funding costs.",
+        "next_check": "",
         "section_id": "section-04",
-        "section_title": "QTS completes its sale at 7.228%; Alphabet offers a new-market concession",
-        "summary": "QTS finalized a larger deal at 7.228%; older project bonds weakened. Alphabet's Australian concession remained preliminary, and private financings added supply.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "AI Financing Clears at a High Price",
+        "summary": "QTS’s Project Odyssey raised $3.9 billion after attracting about $23 billion of orders, yet its lowest-tier investment-grade notes yielded 7.228%, near speculative-grade territory. Alphabet also offered concessions for its Australian-dollar debut as repeated AI borrowing broadened across currencies and structures. Access remained open, but project risk and issuer structure increasingly determined the price."
       },
       {
+        "market_read": "Domestic growth, funding and fiscal signals produced large regional differences despite the common pressure from oil and global yields.",
+        "next_check": "",
         "section_id": "section-05",
-        "section_title": "Local policy supports China and Indonesia, while India adjusts its funding mix",
-        "summary": "China and Indonesia rallied for local reasons. India shifted toward offshore bank borrowing, while Korean pricing and Uruguay's hold reflected different inflation constraints.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Asian Rates Diverge From the Global Selloff",
+        "summary": "China’s 30-year yield fell to 2.15% as weak activity strengthened easing expectations, although record Q3 local-government issuance could interrupt the rally. Indian banks accelerated offshore funding while a central-bank facility preserved favorable hedging terms, and Indonesian bonds gained after a restrained 2027 budget proposal. Elsewhere, higher US yields and oil drove a broader emerging-market risk-off move."
       },
       {
+        "market_read": "",
+        "next_check": "",
         "section_id": "section-06",
-        "section_title": "Sammons responds to scrutiny; Avison Young exchanges debt for equity",
-        "summary": "Sammons described its parent's non-controlling stake and said its personnel were not under investigation. Avison Young planned creditor equity to cut interest and leverage.",
-        "market_read": "",
-        "next_check": ""
-      },
-      {
-        "section_id": "section-07",
-        "section_title": "Fed communication and upcoming duration commitments",
-        "summary": "Fed communication, Japan's long auction and a US airport funding vote come next. Actual Hormuz traffic will test whether energy risk reaches policy pricing.",
-        "market_read": "",
-        "next_check": ""
+        "section_title": "Forward Market Significance",
+        "summary": "Fed minutes will test whether patience lowers policy-sensitive yields without worsening long-end inflation concerns, while the upcoming US 20-year auction will measure demand for duration after the recent selloff. Oil and Hormuz remain the immediate inflation channel, and Japan’s 20-year auction will show whether strong demand at the 5-year maturity extends into the fiscally exposed superlong sector."
       }
     ]
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1680389,
+          "asset_manager_net_change": -12900,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1359521,
+          "leveraged_fund_net_change": -25340,
+          "open_interest": 4377812,
+          "open_interest_change": -22503,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 2883977,
+          "asset_manager_net_change": -79277,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2147744,
+          "leveraged_fund_net_change": 63695,
+          "open_interest": 6442950,
+          "open_interest_change": 62522,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 2554411,
+          "asset_manager_net_change": -40268,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2163714,
+          "leveraged_fund_net_change": 67956,
+          "open_interest": 5458890,
+          "open_interest_change": 193443,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 671864,
+          "asset_manager_net_change": -40745,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -361727,
+          "leveraged_fund_net_change": 58134,
+          "open_interest": 2491020,
+          "open_interest_change": -27514,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 549650,
+          "asset_manager_net_change": -1956,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -364824,
+          "leveraged_fund_net_change": 11402,
+          "open_interest": 1862944,
+          "open_interest_change": -6930,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 1080409,
+          "asset_manager_net_change": 19575,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -853397,
+          "leveraged_fund_net_change": -3707,
+          "open_interest": 2416703,
+          "open_interest_change": -20188,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-08-11",
+      "published_date": "2026-08-14"
+    },
+    "treasury": {
+      "comparison_date": "2026-08-17",
+      "observation_date": "2026-08-18",
+      "par_change_pct": 2.3741,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": 2.6955,
+          "par_usd_bn": 845.8,
+          "trade_count": 371056
+        },
+        {
+          "key": "tips",
+          "par_change_pct": -10.2362,
+          "par_usd_bn": 22.8,
+          "trade_count": 6959
+        },
+        {
+          "key": "bills",
+          "par_change_pct": 2.5297,
+          "par_usd_bn": 198.6,
+          "trade_count": 54185
+        },
+        {
+          "key": "frns",
+          "par_change_pct": 15.7895,
+          "par_usd_bn": 2.2,
+          "trade_count": 96
+        }
+      ],
+      "total_par_usd_bn": 1069.4,
+      "total_trade_count": 432296
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
@@ -692,152 +780,153 @@
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted.",
+  "methodology_note": "Market levels are shown on an NY-close basis unless otherwise noted. Rates: Bloomberg daily yield histories; changes and derived curves use the same dated series. Daily histories do not specify an observation clock.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.19% (0 bp) | UST 5Y 4.37% (-1 bp)",
-      "UST 10Y 4.71% (-1 bp) | UST 30Y 5.28% (-3 bp)",
-      "10Y TIPS real yield 2.41% (-3 bp) | 10Y breakeven inflation 2.3% (+2 bp)",
-      "UST 2s10s curve 52 bp (-1 bp) | UST 2s30s curve 109 bp (-3 bp)"
+      "UST 2Y 4.172% (-0.5 bp) | UST 5Y 4.367% (-0.8 bp)",
+      "UST 10Y 4.705% (-1.8 bp) | UST 30Y 5.284% (-2.4 bp)",
+      "10Y TIPS real yield 2.395% (-4.3 bp) | 10Y breakeven inflation 2.31% (+2.5 bp)",
+      "UST 2s10s curve 53.3 bp (-1.3 bp) | UST 2s30s curve 111.2 bp (-1.9 bp)"
     ],
-    "headline": "Treasuries recover from intraday highs as technology shares fall",
-    "session_narrative": "The 30-year yield reached roughly 5.32%–5.33% before closing 3 basis points lower at 5.28%. Ten-year real yields fell 3 basis points, while breakevens rose 2. Industrial production missed forecasts slightly, but an upward June revision tempered the weak signal.\n\nSemiconductors lost 4.98% and Nasdaq 100 fell 1.68%. The stable dollar and restrained VIX did not suggest a general funding rush. QTS drew up to $23 billion of orders for $3.9 billion of debt, yet still paid 7.228% for the structure.\n\nGermany's long syndication cleared at a high yield; France faced budget risk, and Japan's strong five-year sale did not lift superlong debt. China rallied on weak growth. Sammons supplied its response to related-party scrutiny, while Avison Young planned debt-for-equity relief.",
-    "summary": "Ten-year yields retreated from about 4.75% to close at 4.71%, as lower real yields outweighed higher breakevens. Technology shares fell sharply, while QTS completed its project financing at 7.228%."
+    "headline": "Treasuries recovered as real yields fell, but inflation and duration costs stayed elevated",
+    "session_narrative": "US Treasuries recovered from an intraday selloff, with the 2-year yield down 0.5 basis point to 4.172%, the 10-year down 1.8 basis points to 4.705% and the 30-year down 2.4 basis points to 5.284%. The rally came through real rates: the 10-year real yield fell 4.3 basis points, while the breakeven rose 2.5 basis points as Brent held at $91.40 amid the unresolved US-Iran impasse.\n\nSofter employment, inflation and consumer data reduced expectations of a September Fed increase, yet the long end remained substantially cheaper over the past month as energy risk, sovereign supply and heavy corporate borrowing sustained the demand for duration compensation. Germany paid its highest 30-year syndication yield since 2011, Japanese superlong yields rose despite a strong 5-year auction, and France’s fiscal premium widened.\n\nCredit remained available at a price. A Blackstone-backed, Microsoft-linked data-center vehicle drew about $23 billion of demand for $3.9 billion of investment-grade notes, but the debt cleared at 7.228%. Technology shares weakened sharply as investors reassessed both long-duration earnings and the debt burden supporting the AI investment cycle.",
+    "summary": "Late buying produced modest Treasury gains after benchmark yields reached multi-year highs, but rising breakevens, oil above $90 and costly sovereign and corporate financing showed that weaker US data had eased near-term Fed pressure without resolving the market’s longer-term inflation and duration concerns."
   },
   "report_date": "2026-08-18",
-  "run_id": "daily-fi-newsroom-edit-2026-08-18-6e82a8628d18",
+  "run_id": "daily-fi-simple-2026-08-18-299f3979-88f47aa5",
   "watch_events": [
     {
-      "category": "Fed policy",
-      "date": "August 19 and next week",
+      "category": "Monetary policy",
+      "date": "Aug. 19",
       "id": "watch-01",
-      "market_implication": "Patience supports the separation between real yields and breakevens; hawkish detail could pressure the front end.",
-      "market_trigger": "Patience versus concern that restraint remains insufficient.",
-      "title": "Fed minutes and Warsh's remarks",
-      "watch_line": "Read the account of softer jobs, prices and retail demand alongside concern about oil pass-through."
+      "market_implication": "Patience could lower front-end yields but leave the long end exposed; hawkish minutes could reverse the flattening.",
+      "market_trigger": "A clearer case for waiting or a more hawkish discussion than current pricing anticipates.",
+      "title": "Fed minutes test the curve split",
+      "watch_line": "Look for the breadth of support for patience and concern about persistent inflation."
     },
     {
-      "category": "Duration supply",
-      "date": "August 19–20",
+      "category": "Treasury supply",
+      "date": "Upcoming",
       "id": "watch-02",
-      "market_implication": "The auction tests current demand; approval would create future municipal supply, not an immediate bond sale.",
-      "market_trigger": "Superlong auction demand and approval or rejection of the proposed capital addition.",
-      "title": "Japan's auction and airport funding vote",
-      "watch_line": "Japan sells 20-year debt; Washington's airport authority votes on a program mainly funded by $14.2 billion of bonds."
+      "market_implication": "Soft demand would reinforce elevated duration compensation; strong demand could extend the late Treasury recovery.",
+      "market_trigger": "A weak stop or heavier dealer allocation after the long-end selloff.",
+      "title": "US 20-year auction tests duration demand",
+      "watch_line": "Assess the result against the pre-auction yield and the bidder distribution."
     },
     {
-      "category": "Energy",
+      "category": "Energy inflation",
       "date": "Ongoing",
       "id": "watch-03",
-      "market_implication": "Joint two-year and breakeven gains would indicate energy feeding more directly into policy expectations.",
-      "market_trigger": "Restored passage and cheaper crude versus deadlock or further attacks.",
-      "title": "Physical Hormuz access",
-      "watch_line": "Traffic, freight and insurance costs must corroborate claims of reopening with Brent still at $91.40."
+      "market_implication": "De-escalation would ease breakevens; disruption would raise the risk of energy feeding realized inflation and policy.",
+      "market_trigger": "Durable traffic restoration and lower crude, or further attacks and more effective export disruption.",
+      "title": "Hormuz and oil test inflation relief",
+      "watch_line": "Track shipping, freight and insurance conditions alongside crude prices."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "0 bp",
-        "change_1m": "+1 bp",
-        "change_1w": "-3 bp",
+        "change_1d": "-0.5 bp",
+        "change_1m": "-0.8 bp",
+        "change_1w": "-4.4 bp",
         "id": "ust2y_ny_close",
-        "last": "4.19%",
-        "reference_type": "ny_close",
+        "last": "4.172%",
+        "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+9 bp",
-        "change_1w": "-2 bp",
+        "change_1d": "-0.8 bp",
+        "change_1m": "+8.8 bp",
+        "change_1w": "-2.3 bp",
         "id": "ust5y_ny_close",
-        "last": "4.37%",
-        "reference_type": "ny_close",
+        "last": "4.367%",
+        "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+16 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "-1.8 bp",
+        "change_1m": "+15.6 bp",
+        "change_1w": "+1.5 bp",
         "id": "ust10y_ny_close",
-        "last": "4.71%",
-        "reference_type": "ny_close",
+        "last": "4.705%",
+        "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "+22 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "-2.4 bp",
+        "change_1m": "+21.3 bp",
+        "change_1w": "+4.2 bp",
         "id": "ust30y_ny_close",
-        "last": "5.28%",
-        "reference_type": "ny_close",
+        "last": "5.284%",
+        "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+15 bp",
-        "change_1w": "+4 bp",
+        "change_1d": "-1.3 bp",
+        "change_1m": "+16.4 bp",
+        "change_1w": "+5.9 bp",
         "id": "ust_2s10s_curve",
-        "last": "52 bp",
-        "reference_type": "ny_close",
+        "last": "53.3 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-3 bp",
-        "change_1m": "+21 bp",
-        "change_1w": "+7 bp",
+        "change_1d": "-1.9 bp",
+        "change_1m": "+22.1 bp",
+        "change_1w": "+8.6 bp",
         "id": "ust_2s30s_curve",
-        "last": "109 bp",
-        "reference_type": "ny_close",
+        "last": "111.2 bp",
+        "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-1 bp",
-        "change_1m": "+1 bp",
-        "change_1w": "-2 bp",
+        "change_1d": "+0.7 bp",
+        "change_1m": "+2.8 bp",
+        "change_1w": "-1.7 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-16 bp",
-        "reference_type": "ny_close",
+        "last": "-14.3 bp",
+        "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "+1 bp",
-        "change_1m": "+9 bp",
-        "change_1w": "+1 bp",
+        "change_1d": "-0.7 bp",
+        "change_1m": "+10.7 bp",
+        "change_1w": "+3.2 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-5 bp",
-        "reference_type": "ny_close",
+        "last": "-4.6 bp",
+        "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "-3 bp",
+        "change_1d": "-4.3 bp",
         "change_1m": "+10 bp",
-        "change_1w": "-2 bp",
+        "change_1w": "-3.1 bp",
         "id": "tips10y_ny_close",
-        "last": "2.41%",
-        "reference_type": "ny_close",
+        "last": "2.395%",
+        "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       },
       {
-        "change_1d": "+2 bp",
-        "change_1m": "+6 bp",
-        "change_1w": "+3 bp",
+        "change_1d": "+2.5 bp",
+        "change_1m": "+5.6 bp",
+        "change_1w": "+4.6 bp",
         "id": "be10y_ny_close",
-        "last": "2.3%",
-        "reference_type": "ny_close",
+        "last": "2.31%",
+        "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-08-18T17:00:00-04:00"
+        "timestamp": "2026-08-18"
       }
-    ]
+    ],
+    "source_label": "Bloomberg"
   }
 }
