@@ -2,10 +2,16 @@
   "anchor": "ny_close",
   "archive_dates": [
     {
+      "date": "2026-11-03",
+      "label": "2026-11-03",
+      "href": "?date=2026-11-03",
+      "active": true
+    },
+    {
       "date": "2026-11-02",
       "label": "2026-11-02",
       "href": "?date=2026-11-02",
-      "active": true
+      "active": false
     },
     {
       "date": "2026-10-30",
@@ -684,291 +690,242 @@
     {
       "id": "cross-asset-credit",
       "reference_type": "ny_close",
-      "summary": "Oracle and Alphabet secured funding at substantial concessions as AI capital demands remained large. ETF percentages are one-day returns including November 2 cash distributions, not price changes; EMB was positive on this basis.",
+      "summary": "U.S. high-yield spreads tightened noticeably, while Meta paid generous premiums to secure substantial funding.",
       "title": "Credit",
-      "value": "LQD 103.71 (-0.1535%) / HYG 76.89 (-0.1790%) / JNK 92.26 (-0.1897%) / EMB 91.78 (+0.1452%)"
+      "value": "LQD 103.72 (+0.0096%) / HYG 76.98 (+0.1171%) / JNK 92.36 (+0.1084%) / EMB 91.52 (-0.2833%)"
     },
     {
       "id": "cross-asset-dollar-commodities",
       "reference_type": "ny_close",
-      "summary": "Crude plunged on the wider diplomatic opening with Iran, while the dollar edged lower and gold rose.",
+      "summary": "The dollar rose and gold fell; WTI recovered its early losses while Brent finished lower.",
       "title": "Dollar and commodities",
-      "value": "DXY 101.79 (-0.0883%) / WTI 96.26 (-7.549%) / Brent 104.23 (-8.1107%) / Gold 3956.6001 (+1.4799%)"
+      "value": "DXY 101.876 (+0.1238%) / WTI 96.76 (+0.311%) / Brent 104.42 (-0.3341%) / Gold 3940.2 (-0.7406%)"
     },
     {
       "id": "cross-asset-equities-volatility",
       "reference_type": "ny_close",
-      "summary": "Technology and semiconductor weakness outweighed oil relief for equities as volatility rose.",
+      "summary": "Semiconductors led the equity rebound and volatility eased, although most S&P 500 constituents declined.",
       "title": "Equities and volatility",
-      "value": "S&P 500 7541.3999 (-0.5102%) / Nasdaq 100 27989.8203 (-1.3917%) / SOX 10328.3291 (-3.3724%) / VIX 21.15 (+8.9083%)"
+      "value": "S&P 500 7568.9199 (+0.3649%) / Nasdaq 100 28180.2637 (+0.6804%) / SOX 10600.3965 (+2.6342%) / VIX 20.83 (-1.513%)"
     }
   ],
   "header": {
-    "as_of_note": "NY close · 2026-11-02",
+    "as_of_note": "NY close · 2026-11-03",
     "latest_update_cutoff": "NY close",
-    "stance": "Longer Treasuries rally on lower inflation compensation as corporate funding premiums remain demanding",
+    "stance": "Treasury yields rise on firmer demand; AI borrowers retain access at higher premiums.",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
       "cross_asset_summaries": {
-        "credit": "AI資本需求仍龐大，Oracle與Alphabet以可觀的發行讓利取得資金。 ETF百分比為加回11月2日現金配息的單日含息報酬，並非市價漲跌；EMB以此口徑為正報酬。",
-        "dollar_commodities": "與伊朗的外交協商空間擴大，原油重挫，美元微跌，黃金上漲。",
-        "equities_volatility": "科技與半導體股疲弱，蓋過油價回落對股市的利多，波動率上升。"
+        "credit": "美國高收益債利差明顯收窄；Meta則付出較高溢酬，取得大筆融資。",
+        "dollar_commodities": "美元走強、黃金下跌；WTI收復早盤跌幅，布蘭特原油則收低。",
+        "equities_volatility": "半導體股帶動股市反彈，波動率回落，但標普500多數成分股仍下跌。"
       },
       "header": {
-        "stance": "通膨補償下降帶動較長天期美債上漲，企業融資仍須提供高額溢價"
+        "stance": "需求數據轉強推升美債殖利率；AI借款人仍能取得融資，但須支付更高溢酬。"
       },
-      "long_thesis_markdown": "## 固定收益市場主線\n\n華府與德黑蘭釋出更多外交協商空間，油價大幅回落，帶動較長天期美國公債上漲；同時，科技公司重返債市，給予投資人可觀的發行讓利。10年期殖利率下降1.64個基點至4.9125%，30年期下降2.25個基點至5.2857%。不過，通膨補償的降幅大於名目殖利率，2年期殖利率反而微升。這次行情緩解的是能源衝擊，並非資金成本全面下降。\n\n伊朗總統表示，最高領袖已授權政府推進談判，川普總統也稱協商有所進展，布蘭特原油因而下跌8.11%，收在每桶$104.23。外交前景改善卻未能挽救科技股：半導體股下跌3.37%，那斯達克100指數下跌1.39%。即使Oracle完成$100億債券發行、Alphabet籌得€60億，市場對人工智慧投資報酬的疑慮仍然突出。\n\n借款人利用基準殖利率下降的機會融資，投資人則要求補償日益擴大的資金需求。Oracle本次最長天期債券的發行利差為美國公債加335個基點，Alphabet的歐元固定利率債券平均發行讓利接近24個基點。週一公布的美國數據互有強弱：ISM製造業表現優於預期，價格指數回落，營建支出卻大幅下降。收盤時，市場仍須區分能源降價、需求韌性與個別發行人的融資風險。\n\n## 油價回落壓低通膨補償\n\n油價跌勢逐步擴大。Axios稍早報導，川普希望在可能恢復攻擊伊朗前，給外交協商更多時間。隨後，伊朗總統Masoud Pezeshkian表示，最高領袖Mojtaba Khamenei已賦予政府額外談判權限。消息公布後，倫敦市場布蘭特原油跌幅擴大至約6%，來到每桶$106附近，至美國固定收益市場收盤又進一步下跌。\n\n川普其後在華府向記者表示，伊朗希望達成協議，雙方有可能談成。被問及週二美國期中選舉後是否恢復軍事打擊時，他以嘴形作出否定回應。德黑蘭仍保留實質條件：伊朗官員表示，要讓荷姆茲海峽的能源運輸恢復順暢並重返正式談判，華府必須解除經濟封鎖。當日外交空間雖然擴大，封鎖仍是爭議的一部分。\n\n西德州原油收跌7.55%，報每桶$96.26。兩大原油基準仍高於一個月前，西德州與布蘭特分別上漲7.64%與5.59%，但單日急跌已大幅削減近期漲幅。Bloomberg Markets Live策略師Michael Ball指出，在實體供應持續吃緊之外，地緣政治溢價的變動愈來愈主導油價最大幅度的波動。\n\n另一組油輪追蹤數據提供了新的供應比較。依Bloomberg及能源分析公司彙整資料，沙烏地阿拉伯、阿拉伯聯合大公國、伊拉克與科威特10月合計出口增加10%，至每日1,553萬桶，大致回到年初水準。伊朗則受美國海軍封鎖影響，出口連續第二個月為零。其他主要阿拉伯出口國恢復供應，與伊朗原油持續被排除在外，是供應情勢中不同的兩面。\n\n美國公債各天期走勢不一。2年期殖利率上升0.61個基點至4.5937%，5年期下降1.07個基點至4.7091%。2年與10年期利差收窄2.25個基點至31.88個基點，2年與30年期利差縮小2.86個基點至69.2個基點。當日能源壓力緩解，較長天期名目公債受惠程度高於短端。\n\n10年期損益兩平通膨率下降4.14個基點至2.303%，降幅超過同天期TIPS實質殖利率上升的2.5個基點；實質殖利率來到2.6095%。這顯示，當日名目公債上漲是通膨補償降低所致，而非實質殖利率下滑。若看一個月的變化，情況則不同：10年期名目殖利率下降36.05個基點，其中實質殖利率下降29.95個基點，損益兩平通膨率下降6.1個基點。\n\n30年期雖領漲週一行情，若與一週前相比，表現仍落後其他天期。其殖利率僅下降1.71個基點，2年與10年期則分別下降12.22與7.59個基點；30年期過去一個月共下降33.53個基點。週一殖利率曲線趨平，卻未抹去過去一週長期借款成本相對難以下降的格局。\n\n美國製造業數據顯示活動增強，價格壓力則有所放緩。10月ISM製造業PMI由54.5升至55.5，超過市場預期的54.6。新訂單由55.3升至55.5，就業則由52.7降至52.4。因此，整體指數改善伴隨的是訂單小幅增加、就業分項轉弱，而非各項活動同步加速。\n\nISM價格指數由77.9降至75.2，低於市場預期的77，顯示工廠投入價格壓力仍高，但已有緩和。另一份標普全球製造業PMI終值則呈現相反的活動變化，由55.9降至54.9，低於預期的56。兩份調查的整體指數均高於50，但變動方向不同，製造業動能並不像較強的ISM總指數單獨呈現的那麼一致。\n\n9月營建支出月減1.9%，遠遜於預期的增加0.4%；前月增幅修正為2%。這項衡量實際活動的獨立數據出現明顯逆轉。綜合來看，ISM擴張增強，同時伴隨營建轉弱、標普調查成長放慢，以及工廠價格壓力減輕，尚未顯示整體經濟需求朝單一方向變化。\n\n風險資產並未全面因壓力緩解而上漲。標普500指數下跌0.51%至7,541.40，VIX上升8.91%至21.15。美元指數微跌0.09%至101.79，黃金期貨上漲1.48%至每盎司$3,956.60。科技股疲弱蓋過油價下跌對股市的利多，半導體指數過去一個月已下跌21.38%。從10月30日至11月2日，LQD與HYG市價分別下跌0.54%與0.70%。兩檔均於11月2日除息；加回每股$0.399950與$0.401391配息後，單日含息報酬分別為負0.15%與負0.18%。JNK市價下跌0.77%，加回$0.543598配息後含息報酬為負0.19%；EMB市價下跌0.29%，加回$0.403699配息後含息報酬為正0.15%。除息造成的市價下跌本身，不能直接視為信用條件惡化。\n\n## AI借款人付出讓利重返融資市場\n\nOracle完成融資，讓募資計畫成為投資人需求的直接考驗。公司發行$100億債券，同時籌集等額股權資金；債券分為五券，期限介於3年至20年，最長券發行利差為美國公債加335個基點。債券訂單高峰約$380億，依Bloomberg計算，相對既有債券的發行讓利約30個基點。\n\n這筆交易以實質讓利吸引大量需求。美國銀行同時主導股票與債券發行，股票發行在週一稍早也已超額認購。投資人與分析師預期，這可能是Oracle未來數年最後一次為AI擴張而新增舉債，此後發債將主要用於既有債務再融資。CreditSights分析師仍預估，公司在2027至2029年間將發行約$200億債券，償還到期債務。因此，公司先前宣布限制總債務成長，並不排除持續的再融資需求。\n\n整體初級市場異常忙碌。週一共有17家公司進入美國投資等級債市，為9月8日以來最多，包括HCA Healthcare、L3Harris Technologies與GATX；Carrier Global則是2023年以來首次回歸。其他借款人還有Otis Worldwide、Cheniere Energy、AEP Transmission、Textron、Eastman Chemical及Hyatt。企業趕在期中選舉與週五就業報告前籌資，交易商原先預估本週發行量約$450億。\n\nColumbia Threadneedle投資組合經理Ed Al-Hussainy認為，融資窗口主要來自10月初以來殖利率下降，以及聯準會按兵不動後利率波動降低。他表示，9月與10月初的波動曾使殖利率敏感型買盤暫時退場，而第三季財報中企業槓桿狀況未出現重大意外惡化，也有助企業重返市場。不過，他也擔心，各評級信用市場都難以消化AI融資的規模與速度。\n\n基準殖利率下滑，壓低了整體融資成本，但投資人要求的信用溢價反而更高。美國高評級公司債平均殖利率週五約為5.79%，低於9月及10月初逾6%的水準；科技業投資等級債平均利差週五卻達108個基點，高於去年底的76個基點。Bloomberg統計，今年企業為AI投資在美國高評級債市借款已超過$3,300億。以較低殖利率再融資的吸引力，與承擔企業風險所要求的更高補償，同時存在。\n\nAlphabet的歐元交易尤其清楚呈現這項差異。公司發行€60億、共七券債券，期限介於2年至19年，訂單超過€171億，需求集中在最長天期券。加上5月的€90億發行，依Bloomberg比較，Alphabet的單一曆年歐元公司債發行量已超過Amazon在3月發行的€145億，成為最大發行人。\n\n各券在建簿期間利差至少收窄20個基點，但公司付出的成本仍高於5月交易。2年期固定利率券利差訂為交換利率中間價加40個基點，19年期則為加185個基點。固定利率各券平均新券發行讓利接近24個基點，約為今年歐元公司債平均發行溢酬的三倍。Alphabet既有歐元債自發行以來利差最多擴大60個基點，加上整體公債遭拋售，也推高了新券必須提供的殖利率。\n\nTwentyFour Asset Management投資組合經理Jack Daley強調Alphabet的資產負債表與既有歐元債Aa2評級，將公司的償債能力與令股市失望的業績表現區分開來。Rathbones的Bryn Jones則較審慎，希望先看到投資報酬的證據，或發債速度放慢，再加碼參與。雙方分歧在於持續資本需求應獲得多少補償，而不只是高評級發行人能否湊足訂單。\n\nMeta正準備另一場大規模融資考驗。知情人士表示，公司考慮跨境發行至少$200億投資等級債券，尚未作出最終決定，規模也可能隨需求增加。花旗與摩根士丹利安排週一、週二舉行投資人電話會議。擬議美元券期限為5年至30年，歐元券則從略逾4年至略逾38年。若發行歐元券，將是Meta首次進入該市場；整筆交易也將是六個月來首次大型發債。\n\n這項擬議債券融資之外，Meta也已進行或規劃股權籌資。公司上週完成$250億普通股定價，並以特別股籌得$125億，另規劃可再出售最多$600億股票的隨市價發行計畫。特別股資金已到位，隨市價發行計畫則提供未來售股管道；不同融資管道與進度共同顯示，資本需求不只落在債券投資人身上。\n\n新加坡STT GDC正洽談S$31億、折合$24億聯貸，為旗下資產融資。知情人士表示，擬議貸款期限為3年，利率為新加坡隔夜平均利率加165個基點，並有最長延展2年的選擇權。渣打、大華銀行、華僑銀行與星展擔任全球統籌行、受委任主辦行及簿記行。165個基點是契約約定加在基準利率之上的利差，而非這筆擬議借款的完整利息成本。\n\n最新營運揭露同時呈現融資需求背後的成長與支出。Anthropic第三季營收接近$170億，約為去年同期的十二倍，淨損則達$233億。營業費用增加292%至$175億；在準備首次公開發行之際，公司揭露未來數年擬投入超過$8,950億。營收快速擴張，伴隨的卻是更大虧損及龐大未來資金需求。\n\n企業整併也有進展。Marvell同意以$1,150億企業價值收購Lumentum，從先前洽談推進至公布交易條件。這筆全股票交易將使Marvell股東持有合併後公司67%股權，並擴充連接AI晶片、伺服器與設施的光學技術。由於以股票支付，收購價值不能等同於新增現金借款需求。另外，Apple在盤後公布的9月季度營收年增12%至$1,145億，但成長放慢，中國銷售也低於預期。\n\n## 資產出售入帳、債權保障與債券反彈\n\nBP完成向Stonepeak出售Castrol的65%股權，取得$60億用於減債，讓已議定的資產處分轉為可供調整資產負債表的現金。BP第三季末淨債務為$138.7億，正在削減的其他負擔還包括混合資本工具、租賃及深水地平線事故和解款。執行長Meg O’Neill表示，交易帶來即時現金收入，同時保留參與Castrol未來成長的股權。\n\nCloud Software Group則以不同條件向債權人籌資，推出$20億優先擔保債券，為部分2029年到期債務再融資。這家獲Vista與Elliott支持、擁有Citrix及Tibco的公司，據知情人士透露，在條款中納入防範負債管理操作的保障。花旗與高盛、Vista主導交易，週一召開貸款人電話會議，預計週二定價。\n\n投資人愈來愈懷疑軟體借款人抵禦AI競爭的能力，這些保障是吸引參與的重要條件。整體槓桿融資市場仍清淡：10月垃圾債發行量年減18%至$146億，槓桿貸款銷售量也較去年10月少逾10%。Cloud Software的擬議再融資一方面處理到期債務，一方面明訂債權保障，而非僅靠較低借款利率招徠投資人。\n\nAcrisure新公布的營運數據緩解了市場對經紀業務留存率的疑慮，帶動次級市場債價強勁反彈。據知悉投資人更新內容的人士表示，北美零售業務留存率由第二季82.3%改善至第三季84.2%。2030年11月到期債券成交價約為面額87%，高於上週底約81%，以及三週前約73%。Trace數據顯示，週一美國高收益債漲幅最大的七檔證券中，有六檔來自Acrisure。\n\n留存率改善，有助抵銷單季$1.31億現金淨流出的疑慮。調整後EBITDA為$3.36億，年減0.3%；營收$12.4億，有機成長率為負0.4%。先前，一份誤植於簡報的內部試算表曾引發留存率疑慮，公司在9月移除該表，要求投資人不要據此交易，並保留法律權利。這次數據讓債權人對營運表現有了更清楚的比較。\n\n在資訊不明期間，市場曾出現放空，之後才迎來這波債券反彈。標普全球市場財智資料顯示，Acrisure規模$5.5億、2032年到期債券的放空部位上月激增。新留存率數據回應了公司業務重整期間的一項具體疑慮，但同時仍有現金流出、調整後獲利略降。因此，即使營運結果仍互有強弱，債價仍可能大幅回升。\n\n## 央行重新評估持續的物價壓力\n\n歐洲公債也隨債市上漲。Bloomberg市場報導顯示，德國10年期殖利率下降3個基點至3.29%，英國同天期下降9個基點至5.19%。不過，政策官員的評估未如當日能源行情所暗示的那麼寬鬆。斯洛伐克央行總裁Peter Kazimir週一警告，投資人可能低估了ECB為讓通膨重返目標並維持在該處，還需要進一步緊縮的幅度。\n\nKazimir著重壓力傳導的先後關係：能源價格較一年前高出近五分之一，企業成本上升，貨幣疲弱推升進口價格，食品價格也逐步走高。企業可能先累積成本，再轉嫁給消費者；而在更廣泛通膨出現之前，預期就可能改變。因此，單靠成長放慢未必足以壓低通膨。他談的是不只一場會議的政策路徑。\n\n愛爾蘭央行總裁Gabriel Makhlouf的立場更具條件性，表示後續行動取決於下次會議前的數據，每次會議都可能採取行動。他另反對ECB立即介入支持法國債券，認為法國面臨的是財政問題，應由該國政治人物解決。這項最新表態把調整責任放在政府，而非以貨幣政策為財政難題提供後盾。\n\n英國的政策辯論不只涉及昂貴能源能持續多久，也愈來愈關注需要多高利率才能抑制需求。Bloomberg在10月29至30日調查的35名經濟學家，全數預期英國央行將於11月5日升息0.25個百分點至4%。近60%預期票數為7比2，另有24%預期6比3；9月則只有三名委員支持升息。經濟學家也預期，央行將上修今年與明年的通膨預測、上修2026年成長預測，並下修失業率預測。\n\n支持較高中性利率的理由，部分來自投資需求。截至8月的三個月，英國產出成長0.7%，失業率降至4.7%，雇主在9月增加1.3萬個職位。前英國央行決策官員Jan Vlieghe估計，中性利率約3.5%，並主張能源仍昂貴時，政策利率需達4.5%。央行上月市場參與者調查的中性利率平均估值為3.25%；Pantheon Macroeconomics的Rob Wood則引述里奇蒙聯準銀行模型，認為可能為3.75%，甚至更高。這些是對無法直接觀察之利率的不同估計，並非政策承諾。\n\n新研究也挑戰英國借款成本上升純粹來自暫時性能源衝擊的解釋。英國國家經濟社會研究院（NIESR）將今年基準殖利率漲幅逾半歸因於AI投資熱潮及投資人要求更高溢價，僅40%直接來自中東能源成本。院長David Aikman表示，這意味利率可能持續偏高。油價回落可以降低眼前通膨壓力，卻未必逆轉支撐借款成本的資本需求。\n\n日本央行完整季度展望則提出另一個衡量需求的角度。央行指出，人口減少加速，使整體消費愈來愈難出現強勁成長，即使個別家庭需求未惡化也是如此。今年初人均消費約比2015年高4%，整體消費卻幾乎持平。截至2025年的五年間，日本人口減少2.5%，是可追溯至1920年的紀錄中最大降幅。消費約占經濟一半，在央行考慮市場普遍預期的12月再度升息之際，這項分析影響對消費的判斷。\n\n印度對油價下跌的反應更為直接。基準10年期殖利率盤中最多下降10個基點至7.32%，為5月初以來最大跌幅；5年期隔夜指數交換利率最多下降8個基點。Karur Vysya Bank財資主管VRC Reddy表示，若原油持續下跌，市場對印度央行12月升息幅度的預期可能由50個基點降至25個基點。他也指出，10月債市遭拋售後，較高殖利率吸引買盤；若油價繼續跌，未來幾天10年期殖利率可能來到7.25%。\n\n巴基斯坦最新CPI顯示通膨放緩，但仍高於目標。10月物價年增9.6%，低於9月的10.26%，卻高於經濟學家預估中位數9.5%，也超過央行5%至7%的目標區間。食品通膨由8.2%降至7.74%，住宅與能源通膨由12.39%降至11.03%。Bloomberg Economics的Ankur Shukla預期，通膨將維持在10%附近至3月，於截至6月的季度回到目標區間，並認為12%的政策利率已具足夠限制性，可讓央行維持利率不變。\n\n智利投資人調查顯示，通膨保障需求仍強。上週受訪的18名分析師與交易員中，近90%偏好UF通膨連結債，勝過披索債，是2025年3月恢復調查以來最高比例。約78%偏好1至5年期，近45%預期通膨連結債殖利率將在未來一個月下降。豐業銀行經濟學家預測11月通膨升至5%；巴克萊則假設2027年上半年油價約$110，預期通膨至3月仍接近5%。這些預測取決於能源與國內復甦情況，並未將週一油價下跌視為永久轉變。\n\n## 主權融資與能源資金配置分歧\n\n羅馬尼亞歷經逾五個月政治動盪後，重返國際債市，完成€45億、三券歐元債定價，訂單高峰超過€85億。這是5月聯合政府垮台、新政府獲批准後的首次發行。上週預算檢討維持赤字占GDP 6.2%的目標，同時騰出更多醫療資金。\n\n財政部長Alexandru Nazare承諾維持財政紀律，以免評級遭降至投機等級。央行理事Cristian Popa週一警告，不應採取無法持續的支出擴張，並表示必須繼續削減赤字，才能避免融資困難。此次完成發行顯示新政府已能取得融資，而維持這項能力仍仰賴財政承諾。\n\n波蘭面臨更迫近的制度期限。央行理事Adam Lipinski任期於11月4日屆滿，若未補上空缺，扣除總裁後的理事人數將低於法定最低六人。四名提名人正等待總理Donald Tusk批准，但Tusk與總裁Adam Glapinski及總統Karol Nawrocki之間存在爭議。法律專家對後果看法不一：Maciej Gutowski認為，理論上人數不足的理事會仍可履行職務，但其決議日後可能遭政治動機驅使的挑戰。\n\n國會另推動將Glapinski送交國家法庭審理，也仍有爭議。Glapinski否認不當行為；憲法法庭已將所需表決門檻提高至國會席次的60%，超出執政聯盟單獨可達成的票數，並裁定不得依現行規則將其停職。波蘭基準公債相對德債的利差約300個基點，較8月擴大近三分之一，財政赤字則約占GDP 7%。迫近的理事空缺，為原已困難的財政環境增添具體運作不確定性。\n\n日本完成¥2,500億氣候轉型債標售，最高得標殖利率為2.2%。投標倍數3.84倍，低於5月的4.62倍，但略高於2024年2月開始發行以來平均3.79倍。這是今年第五次、累計第十一次標售，屬於延續至2033年的¥150兆計畫。日本已以此名義發行超過$300億債券，主要由日本央行與國內機構買進。\n\n資金用途仍有爭議。依日本信用評等機構資料，本會計年度合格項目涵蓋AI、半導體、機器人與核能技術，只有4%指定用於使再生能源成為主要電力來源。政府一面釋出戰略石油儲備、一面尋求更多元供應，環保團體則批評日本再度依賴化石燃料進口。日本目標是在2035會計年度，將排放較2013年減少60%；去年化石燃料仍占能源供應逾80%。\n\n更廣泛的融資研究也呈現不均衡的轉型。Bloomberg估計，銀行今年來自氣候相關債券與貸款的收入約$30億，略高於石油、天然氣與煤炭債務的$29億，綠色債務手續費收入連續第五年居前。BloombergNEF另計算的能源供應銀行融資比率，2025年由2024年的0.95升至0.97，但其估計要達成氣候目標，2030年需達4比1。歐洲為2.5比1，中國為1.6比1，北美則降至0.5比1。綠色融資收入增加的同時，實際資本配置仍存在重大區域差異。\n\n## 後續市場焦點\n\n11月3日美國期中選舉到來前，企業已加快發債，股市波動也在升高。民主黨需在參議院淨增四席、眾議院淨增三席，才能分別取得多數；接近的選戰可能需數天甚至數週才能確定結果。政策焦點包括資料中心開發環境，以及下屆國會面臨的財政決策。總統否決權與可能的分裂政府，意味最終立法走向不只取決於最初席次結果。\n\n在長端公債當日表現領先之後，美國財政部11月4日的季度再融資公告將交代發債期限配置。交易商對於是否立即縮減長債標售規模，或僅修改指引以容許日後調整，仍有分歧。若規模不變，下次再融資總額將為$1,250億：11月9日標售$580億3年期債、11月10日標售$420億10年期債，以及11月12日標售$250億30年期債。政府持續需要借款，未定之處在於如何分配至各期限。\n\n製造業數據互有強弱之後，勞動與訂單數據將檢驗需求的廣度。9月JOLTS職缺將於11月3日UTC時間15:00公布，市場預期713萬個，前值707.9萬個；自願離職數據則提供另一個勞工流動性指標。同時公布的工廠訂單預期增加1.2%，前值增加0.1%。11月4日UTC時間13:15公布的ADP就業預期增加6.5萬人，前值9萬人。週五官方非農就業預測同樣增加6.5萬人，失業率預期維持4.2%，但民間與官方數據涵蓋的就業群體不同。\n\n經濟學家一致預期英國央行升息，11月5日決議的焦點將是表決票數、修正預測與後續升息指引。ING的James Smith預期，英國央行仍會明確表示，後續行動取決於經濟。在日本，11月16日GDP將公布消費數據，法國巴黎銀行與第一生命經濟研究所預期消費下滑，之後才是日本央行12月18日決議。央行最新人口分析，使整體與人均需求的差異格外值得留意。\n\n南非週三地方選舉是另一項主權風險考驗。William Blair的Yvette Babb認為，市場已預期民族團結政府維持穩定，因此維持現狀的結果可帶來的上行空間有限；若結果提高聯合政府失穩的可能性，反應可能更大。民主聯盟（DA）若增加支持，可強化偏向改革的聯盟；若經濟自由鬥士黨（EFF）與民族之矛黨（MK）侵蝕非洲民族議會（ANC）的支持，而DA未增強，則可能削弱聯盟。這些情境關乎財政政策能否延續，而非單一地方政府的選舉結果。\n\n信用投資人也即將面對交易決策。Meta的電話會議週二繼續，Cloud Software的擔保再融資預計同日定價。兩者條件將顯示，債權人如何區分龐大的投資等級融資需求，與槓桿軟體企業的再融資及法律保障。在歐洲，美國證管會週一截止的諮詢，若最終採納擬議豁免，可能擴大美國投資人參與歐盟債券期貨的管道。Eurex過去20個交易日平均成交量僅略逾40口，改善避險管道對歐盟深化債市的努力因而相當重要。\n\n英國首相Andy Burnham預定在週二於安地卡及巴布達舉行的高峰會，向較貧窮的英聯邦成員提出債務改革方案，尋求延長還款期限、提供更優惠利率，並爭取非G7援助國與私人債權人支持。他的辦公室表示，陷入債務困境的開發中國家約有一半屬於英聯邦。這仍是擬議架構，適用範圍取決於債權人參與。\n\n能源仍是串連上述決策、眼前尚未解決的條件。德黑蘭取得新談判授權的同時，仍要求解除封鎖；其他波斯灣產油國出口恢復，則已增加可用供應。外交能否維持週一油價跌勢，將影響能源降價多快反映在通膨指標，以及央行判斷還需進一步緊縮多少。\n",
-      "methodology_note": "利率採Bloomberg各日期的每日殖利率參考值；變動及曲線均以同一組每日觀察值計算，未指定確切觀察時間。 ETF市價採11月2日未調整收盤價、以前一交易日10月30日收盤價比較；信用卡片百分比加回發行商公告的11月2日現金配息。純市價漲跌為LQD -0.5371%、HYG -0.6974%、JNK -0.7744%、EMB -0.2933%。",
+      "long_thesis_markdown": "## 債市主線\n\n美國職缺與工廠訂單優於預期，扭轉油價下跌帶動的早盤漲勢，也打斷債市近期的回升。10年期美債殖利率上升4.96個基點至4.9621%，主要由實質殖利率推動。半導體股反彈，也使當天市場不再那麼偏向防禦，但投資人對支應人工智慧投資熱潮的融資，仍要求相當高的報酬補償。\n\nMeta完成當天美國唯一一筆投資級債券發行，募得$150億，訂單最高達$580億。其10年期債券殖利率為6.55%，比同為AA評級的債券高近1個百分點。這筆交易同時呈現需求強勁與融資昂貴兩個面向：投資人願意提供資金，但融資條件反映出他們對產業支出需求日益升高的疑慮。\n\n相較於單靠股市反彈，經濟數據為利率上行提供了更扎實的依據。9月職缺超過市場預期，8月數字也獲上修；工廠訂單同樣優於預期，而且強勢不只來自飛機。這兩項數據都未顯示各類雇主或產業全面加速，但其細項使市場更難直接假設美國需求即將惡化。另一方面，澳洲意見分歧的升息決定，以及歐洲官員最新談話，顯示央行仍在持續通膨與愈來愈明顯的經濟活動制約之間權衡。\n\n## 勞動需求扭轉美債漲勢\n\n油價原先為公債買盤再添一項理由。WTI一度跌破每桶$94，創三週低點，10年期美債殖利率也曾下降約2個基點。但9月職缺與勞動力流動調查（JOLTS）公布後，走勢隨即逆轉。依Bloomberg盤中報導，數據出爐數分鐘內，10年期殖利率便觸及當天高點4.97%，日內升幅超過5個基點。ING的Padhraic Garvey認為數據強勁，殖利率上升是合理反應。\n\n收盤時各期限殖利率普遍上升，以中期券升幅最明顯。5年期上升5.32個基點至4.7623%，2年期上升3.72個基點至4.6309%，30年期上升4.08個基點至5.3265%。2年與10年期利差擴大1.24個基點至33.12個基點，屬於債券下跌過程中的溫和曲線陡峭化，而非最短天期附息券出現格外劇烈的重新定價。\n\n10年期抗通膨債券（TIPS）實質殖利率上升4.47個基點至2.6542%，10年期損益兩平通膨率則僅上升0.49個基點至2.3079%。名目殖利率升幅多數來自實質殖利率，顯示當天市場更關注需求韌性的證據，而非長期通膨補償再度急升。布蘭特原油收跌0.33%，報$104.42；WTI則回升至$96.76，收漲0.31%。\n\n儘管當天反轉，美債此前的回升仍保留了大半。10年期殖利率較一週前低3.46個基點，較一個月前低31.09個基點。2年期殖利率一週下降10.6個基點，30年期卻上升1.62個基點。長端在這波週線漲勢中表現相對落後，使曲線同時對經濟展望及政府舉債的期限配置保持敏感。\n\nJOLTS數值明顯優於預期，但官方對整體勞動市場的評估較為保守。9月職缺達752.3萬個，高於路透調查預期的710萬個；8月由707.9萬個上修11.1萬個至719萬個。職缺率從4.3%升至4.5%；路透估計，每名失業者對應約1.06個職缺，高於8月的1.02個。\n\n實際聘僱沒有職缺總數顯示得那麼熱絡。聘僱人數由8月的527.1萬增至540.2萬，聘僱率由3.3%升至3.4%。美國勞工統計局（BLS）仍將整體職缺、聘僱與裁員描述為變動不大。這與數據優於市場預期並不衝突：超出經濟學家預測，加上前期上修，足以改變利率預期，但未必代表全體經濟的勞動需求出現統計上顯著的加速。\n\n產業細項並不一致。專業與商業服務職缺增加10.6萬個，不含教育的州與地方政府增加10.4萬個，製造業增加5.4萬個，營建業增加3.6萬個。住宿餐飲聘僱增加15.8萬人，但製造業、專業與商業服務、金融活動及若干政府類別均減少。因此，在部分推升職缺的產業，雇主表達的需求與實際完成的聘僱走向不同。\n\n勞工流動有所改善，解僱則仍低。自願離職由約304.4萬人增至336.5萬人，離職率由1.9%升至2.1%；約32.1萬人的增幅中，住宿餐飲占19.7萬人。裁員與解僱減少約12.7萬人至164.1萬人，為2025年3月以來最低，其中醫療保健與社會援助減少7萬人。總離職人數為531.9萬人，高於前期517.5萬人。8月修正值另將聘僱上修7.9萬人、總離職上修10.5萬人，自願離職下修2.2萬人，裁員則上修12.7萬人。\n\n工廠訂單提供另一項需求訊號。9月月增1.8%，高於預期1.2%；8月增幅也由0.1%上修至0.3%，9月訂單較去年同期增加7.2%。民用飛機與零件訂單大增28.3%，對整體成長貢獻可觀，但排除運輸後，訂單仍月增1.3%，高於預期0.5%，也高於前期修正後的0.4%。\n\n設備需求的強勢涵蓋多個類別。機械訂單月增1.5%，電腦與電子產品月增0.8%、年增14.9%。排除國防與飛機的核心資本財訂單，月增率由0.5%上修至0.6%；出貨則維持月增1.2%。汽車車體、零件與拖車僅增0.1%，電氣設備、家電與零組件則減少0.3%。不含國防的耐久財訂單終值增加2.3%，高於預期2.2%；不含運輸的指標增加0.5%，符合預期。\n\n路透將製造業獲得的支撐歸因於AI基礎設施支出與消費需求，也指出關稅、價格上漲、交貨時間拉長及伊朗衝突仍造成困難。訂單數據強化設備投資持續的理由，卻沒有消除產業間的差異。其他數據也較強：10月物流經理人指數從70.2升至70.7；11月RCM/TIPP經濟樂觀指數由46.8升至48.5，高於預期46.2；截至10月31日當週，Redbook零售銷售年增率由9.3%加速至10.4%。\n\n科技股在投資回報仍不明朗下反彈。半導體指數上漲2.63%，那斯達克100上漲0.68%，標普500上漲0.36%至7,568.92點，儘管多數成分股下跌。VIX回落至20.83。美元指數上升0.12%至101.876，黃金期貨下跌0.74%至每盎司$3,940.20。美國高收益債利差明顯收窄，與股市反彈相呼應。\n\n美債這次回落之前，市場部位已不再那麼偏空。截至10月27日當週，資產管理業者的10年期公債期貨淨多單約達300萬口，依Bloomberg報導為歷史新高。其後，上週未平倉量增加約20萬口，相當於約$160億當期10年期現券。花旗的David Bieber形容，戰術部位已轉向偏擁擠的多頭。這些部位在週二數據公布前便已累積；近期持有久期曝險帶來回報，也有助於解釋為何市場在接近下一批催化事件時，部位較為均衡，而非壓倒性偏空。\n\n## Meta付出更高信用溢酬取得資金\n\nMeta先前討論的跨境融資，已透過$150億美元債發行完成第一步。最高訂單約為發行規模的3.9倍，大致符合今年美國大型科技債發行的平均水準。知情人士指出，早期灰色市場報價利差低於發行定價，顯示投資人雖要求較優厚條件，新債初期反應仍穩健。\n\n五個券別中，最長的2056年到期債券以美債加220個基點定價，較初步討論收窄30個基點，但仍比Meta在4月發行的可比債券寬近90個基點。全案殖利率介於5.85%至7.53%。10年期的6.55%不僅高於AA債平均近1個百分點，也比評級較低的BBB債平均高約0.5個百分點。\n\n這些比較顯示，產業特有的融資疑慮已大幅改變通常的評級與殖利率關係。Bloomberg報導，科技債相對其他投資級債的殖利率溢酬達2003年以來最高，逆轉以往殖利率較低的慣例。Bel Air Investment Advisors的Craig Brothers表示，利差擴大帶來一些紀律，但超大規模雲端業者為取得資金，仍願意支付這些成本。Meta本次交易由花旗與摩根士丹利主辦。\n\n這筆美元債是跨幣別募資計畫的最大部分，總規模預期至少$200億。知情人士表示，首次歐元債發行最快可能於週三接續進行。整體資金需求依然龐大：Bloomberg Intelligence預估，其追蹤的超大規模雲端與新型雲端公司未來三年投資將接近$4.5兆，其中Meta超過$7,400億。這些支出預估的範圍，遠超過此次完成的美元債募資。\n\n近期股價疲弱，使融資來源多元化更為困難。甲骨文目前披露的$99億股票出售以折價11%定價，在週一已完成的債券交易之外，進一步呈現其股權融資成本。Meta規模更大的股權計畫，則結合上週進行的普通股與特別股融資，以及未來在市場出售股票的授權。股價下跌提高了現有股東承擔的融資代價，而債權人同時也要求更高溢酬。\n\nAlphabet正尋求另一種融資架構。初步文件將其列為一筆擬議$15億預付能源市政債的資金收受方，由California Community Choice Financing Authority發債，高盛安排交易。Central Coast Community Energy將取得折價電力，供應加州沿岸從聖塔克魯茲至聖塔芭芭拉的客戶。\n\n預付架構讓資金收受方先取得債券募集款，再隨時間定期付款，以促成公用事業公司的能源交付。若本次參與成行，將是Alphabet繼6月交易後，今年第二次採用此安排；它仍是首家公開參與這類角色的科技公司，過去主要由銀行擔任。今年該類債券已發行約$365億，超過去年$310億的紀錄。這項安排一方面拓展大型科技借款人的融資管道，另一方面也服務於獨立的公用事業採購需求。\n\n資產管理與銀行高層在香港對這輪投資週期提出截然不同的看法。Pimco的Emmanuel Roman估計，AI未來五年的融資需求約$10兆，並警告最終規模可能過度龐大。摩根士丹利的Ted Pick認為，$10兆至$15兆的建設規模是合理可能的，而且產業仍在發展初期。高盛的David Solomon預期融資活動將持續，但也承認過程難免受挫。\n\nApollo對投資經濟效益的評估提出更具體的警訊。總裁Jim Zelter表示，公司計畫以較防禦的方式進行AI相關投資；運算需求上升與能力改善較為明確，但未來定價與回報的走向尚不清楚。這項區分也呼應當天初級市場的結果：Meta拿到大筆訂單，但融資價格反映的是未來現金創造能力仍有疑問，而非缺乏買家。\n\n## 再融資與重整反映信用需求分化\n\n歐洲槓桿融資市場的條件較不寬鬆。高盛與桑坦德因認購不足，撤回能源基礎設施與服務公司Iqony的€5.5億再融資貸款。這筆BB評級交易原擬取代一組銀行持有的債務，既有債務將繼續保留。\n\n本案屬於把握市場機會的融資，以盡力銷售方式推介，沒有包銷或銀行自有資金承諾。知情人士表示，投資人對其私募股權股東Asterion Industrial Partners較不熟悉，也可能限制需求。因此，撤案中斷的是擬議再融資，並未撤走Iqony現有資金。這是一週內第二筆撤回的歐洲槓桿貸款，前一筆是Partners Group收購Aroma-Zone的融資。\n\n銀行仍在籌組新的收購融資。Cinven同意向凱雷與PAI Partners收購女性健康藥廠Theramex，據報估值約€26億。約€15億融資正在準備中，可能採槓桿貸款與循環額度，高盛、摩根士丹利及Jefferies預計扮演主要角色。對機構投資人的聯貸銷售預計於年底或明年初進行。目前市場對融資案仍有選擇，這項協議則增添了潛在供給。\n\n美國方面，摩根士丹利推出$23億貸款，支應Michael Dell家族辦公室與Sequence Holdings收購Baldwin Insurance Group。融資包括$20億定期貸款及$3億延後動用定期貸款，兩者均為7年期；初步討論的利差為基準利率加350個基點，發行價格為面額的99%。另有$7.5億第二順位擔保債務已完成私募。這筆$77億全現金收購預計於2027年第1季完成，貸款承諾截止日為11月12日。\n\n紙漿生產商Mercer International則朝更根本的資產負債表重整邁進。公司計畫依據一份獲逾87%優先票據持有人及多數股東支持的協議，在德州提出預先協議式美國破產法第11章聲請。方案擬將約$11億優先票據轉為股權，使$13億優先票據債務減少約88%；另透過認股權發行籌措$4億，由臨時票據持有人小組的部分成員全額保證承購。\n\n現有股東將取得重整後公司新普通股的8.5%，以及新可轉換特別股的3.5%；重整生效時，原有股票將註銷。公司於10月1日未支付2028年到期票據利息，其寬限期由30天延長至90天，之後才達成這項框架。一筆加拿大循環融資也將於2027年1月到期。Mercer警告，若無替代資金或再融資，營運現金創造能力可能不足以償付。纖維與能源成本上升、關稅及持續現金流出，已壓縮其選項。\n\nVirgin Media O2宣布以營運調整回應債務壓力。這家Liberty Global與西班牙電信合資的公司，計畫停止投資光纖網路，並在2029年前將每年支出削減£8億，其中2027年節省£4億。未來兩年也將尋求削減約30%的人事成本。在多年擴張寬頻網路後，競爭與約£220億債務迫使公司轉向保留現金。職位削減預計多集中於資訊科技與總部職能，但公司未說明人數。\n\n阿根廷能源公司則呈現債務與股權融資的另一種分化。當地資產價格下跌壓抑估值，Genneia將紐約上市延至至少2027年，但仍以本週發行綠色債券為目標。YPF Luz的IPO則因控股股東YPF同意以$4.3億，收購一家由奇異分拆企業所控制的公司持有的約25%股權而擱置；這筆私下退出交易，消除了原先上市的一項主要理由。兩起延後各有不同的直接原因，但更廣泛的市場回落，也使股權融資的吸引力下降。\n\n## 央行對下一次升息看法分歧\n\n澳洲今年第五次升息，將現金利率提高25個基點至4.85%，為18年高點，但6比3的表決顯示，有相當比例委員支持維持不變。澳洲央行總裁Michele Bullock強調，最近幾次升息尚未開始傳導至經濟。聲明也刪除6月以來明確表示必要時願再升息的文字；Bullock則強調，繼續行動或暫停都仍有可能。\n\n市場最初關注的是這份彈性。Bloomberg報導，交易員將明年現金利率達到5.1%的機率下調至約30%；公告前，市場認為5月前達到該水準的機率接近50%。澳幣下跌。澳洲聯邦銀行的Belinda Allen預期，消費減弱與失業率上升將緩和通膨，利率會維持不變至2027年；澳洲國民銀行的Sally Auld則警告，預測幾乎沒有容納通膨高於預期的空間。\n\n官方通膨展望依然惡化。澳洲央行預期，通膨在2027年大部分時間仍將偏高，直到2027年末才回到2%至3%目標區間的上緣，較先前預測晚約三季。另一項基礎通膨預測，則顯示回到區間內的時間比8月預測晚約六個月。官員列出的因素包括燃料與大宗商品成本、國內產能壓力加重、AI投資帶來的科技產品通膨，以及企業轉嫁更高投入成本。\n\n需求端的反向壓力也愈來愈明顯。央行認為金融條件具限制性，預測成長放緩、失業率升幅擴大，住宅市場與消費也將進一步走弱。資料中心活動支撐近期企業投資，但生產力疲弱，已降低估計中不致引發通膨的經濟成長能力。分歧表決反映的是這些相互拉扯的發展，而非對通膨已受控制的信心。\n\n南韓10月CPI整體漲幅略降，但基礎壓力持續。年增率由2.9%降至2.8%，符合Bloomberg調查中位數，仍高於2%目標。核心通膨維持2.8%，高於預測中位數2.7%。Bloomberg Economics的Hyosung Kwon認為，整體通膨放緩部分與中秋節時間變動有關：今年落在9月，去年則在10月。\n\n南韓生產與家庭需求的分化仍明顯。第3季產出季增1%，高於預期0.8%；設備投資增加4.1%，民間消費卻減少0.2%。10月經工作日調整的出口年增約76%，半導體出貨大增259%至$564億。道富的Jiuk Choi預期，南韓央行將把2027年整體與核心通膨預測各上修10至20個基點，並在11月會議升息。目前基準利率為3%，新預測將於11月26日公布。\n\n紐西蘭第3季勞動數據於美國午後較晚公布，更明確指向需求轉弱。失業率達5.7%，為2015年以來最高，高於經濟學家與紐西蘭央行均預估的5.5%。就業未如預期增加0.4%，反而減少0.1%；勞參率為70.4%，低於預期70.7%。不含加班的民間部門勞動成本季增0.4%，年增率由2.1%降至2%。Kiwibank經濟學家表示，情勢惡化愈來愈支持央行近期暫停於2.75%的決定，儘管央行仍暗示可能進一步緊縮。\n\n歐洲方面，德國央行總裁Joachim Nagel強化了12月升息的理由。他表示，通膨展望較9月預測進一步惡化，而當時預測就已納入再升息一次；除非展望顯著改善，否則幾乎別無選擇。他也保留10月暫停升息的理由：目前第二輪效應仍不多，但反覆的能源衝擊可能愈來愈容易推升薪資要求。\n\n荷蘭央行總裁Olaf Sleijpen表示，僅見些微間接效應；即使短期通膨預期上升，長期預期仍有利。保加利亞的Dimitar Radev另強調，暫停並不代表緊縮週期結束。Bloomberg市場報導顯示，德國10年期殖利率上升4個基點至3.33%，英國則上升7個基點至5.26%。\n\nBloomberg Economics一項新分析，對較後期的通膨路徑得出不同結論。Andrej Sokol以AI分析歐洲央行官員演說與訪談的新聞標題，結合非線性預測工具，結果顯示通膨第4季接近4%，之後於2027年中降至2.4%、年底降至1.7%。這是由官員談話推導的模型解讀，並非新的官方預測；其結果低於歐洲央行最新預估的2027年平均2.5%。這凸顯近期再升息的理由，與日後通膨可能低於目標之間的落差。\n\n加拿大央行總裁Tiff Macklem不認同現行聯邦財政計畫已妨礙抑制通膨。他指出經濟仍有閒置產能，支出重點也在投資而非經常性開支；無論是財政不可持續性外溢至市場，或財政與貨幣政策衝突，目前都未達到令他憂慮的標準。BMO的Doug Porter持不同意見，認為聯邦與省政府廣泛的支持措施，正與上週升息相牴觸。他表示，若貿易協議能降低關稅與不確定性，可能改變看法。川普另表示，與加拿大的協議已接近達成；總理Mark Carney則說，團隊未來幾週仍將持續談判。\n\n## 財政可信度與國家關聯信用面臨新考驗\n\n巴西最新經濟學家調查顯示，選舉衝擊持續改變的不只是下一次會議，而是更長期的政策預期。央行每週調查將12月Selic利率預測由13.25%提高至13.5%，2027年底由11.75%提高至12.5%，2028年由10%提高至11%，2029年則升至10.25%。截至2029年的通膨預估，也進一步高於3%目標。公布後，雷亞爾一度下跌1.4%，較長天期利率期貨在早盤上升。\n\n財政部長Dario Durigan反駁悲觀預期，表示政府有意改善公共帳目，尋求平衡財政的方法。不過，調查變化仍意味著本已承壓的借款人，未來融資負擔可能更重。巴西7月農村信用餘額為8,850億雷亞爾，其中央行列為有問題的貸款高達創紀錄的2,080億雷亞爾，涵蓋逾期、拖欠及重新協商貸款。\n\n政府暫行措施撥出260億雷亞爾支持補貼貸款，但農業代表希望取得更廣泛的紓困。若未獲國會批准，措施將於11月失效；一個區域農業遊說團體表示，方案將主要貸款機構排除在重新協商之外。IMEA預期，馬托格羅索州本季與下一季的種植面積擴張有限。Mapa Capital的Manoel Pereira de Queiroz指出，即使基準利率下降，銀行風險溢酬上升仍使信用昂貴。依Serasa Experian資料，第2季破產保護聲請季減5.5%，可能部分受重新協商幫助；但儘管有此改善，債務存量與融資成本仍構成困難。\n\n中國最新的華發相關市場數字，反映的是更廣泛的外溢影響，而非又一次新的支付違約。截至週一的兩個交易日，境內3年期AAA公司債基準殖利率上升10.3個基點，為2024年10月以來最大兩日升幅，週二上午則大致持平。華發地產子公司履行週一到期付款後，華發2027年到期離岸人民幣債回升至面額約63%。公開債務償付改善之後，投資人仍在評估，資產變現與持續付款能否控制流動性壓力，抑或展期會引發對國有借款人更廣泛的重新評估。\n\n中國當局也針對另一項市場失衡採取行動。中國人民銀行宣布，自11月15日起，銀行外匯存款準備金率由4%提高至6%，以吸收外幣流動性。在岸人民幣一度貶值0.4%至每美元6.6728元，結束連續13天升值。澳盛銀行的Zhaopeng Xing估計，此舉將回收約$240億，相較今年每月約$300億的淨售匯規模仍屬溫和。重啟股市支持工具也未立即帶來反彈：滬深300下跌0.2%，科創50下跌3.8%。\n\n比利時再獲警告，即使政府得以延續，所需財政調整仍相當龐大。經濟合作暨發展組織（OECD）指出，政府規劃2029年前節省相當於GDP的1.5%仍不足夠，須在2035年前再削減相當於GDP的3.5%，才能將債務穩定在GDP約110%。初步預測顯示，2027年赤字為GDP的5.1%，僅略低於2025年的5.2%。總理Bart De Wever週一已提出辭呈，國王則暫緩決定，先與聯合政府各黨磋商。面對利息、人口老化、國防與氣候轉型成本增加，OECD主張及早落實支出節制，並擴大稅基。\n\n智利退休基金數據則呈現10月殖利率下降的新影響。保守型E基金在9月虧損4.9%後，10月上漲3.2%，使2026年虧損縮小至7.6%；C與D基金分別上漲1%與1.8%。退休金監理機關先前估計，截至10月20日，收取固定利率交換部位的市值評價損失約$70億，低於9月底的$101億。經理人辯稱，這些部位是為保障長期退休收入，但損失已引發監管檢視。單月回升減輕了損害，仍未消除保守型儲蓄者今年的負報酬。\n\n## 後續市場焦點\n\n選舉開票在本次固定收益交易時段結束後展開，首批投票所於美東時間下午6時關閉。國會控制權將左右支出與債務上限談判，但分立政府未必代表借款下降。花旗與高盛經濟學家認為，共和黨優勢微弱，加上財政保守派反對，權力交接前達成債務上限協議的可能性有限。債務上限可能在2027年前幾個月觸及，經濟學家估計最終融資期限落在下半年。高盛認為，兩黨協議可能同時增加國防與非國防支出。較近的財政期限，則是臨時政府撥款於12月11日到期。\n\n美國財政部將於11月4日美東時間上午8時30分公布再融資安排，焦點在於官員是否改變舉債期限組合。摩根資產管理的Bob Michele主張取消20年期公債，將更多融資轉向國庫券，理由是貨幣市場資產規模深厚。Bloomberg調查中沒有任何交易商將直接取消20年期公債列為基本情境。在長端一週表現落後短天期之後，投資人的提議與財政部最終指引之間的差別尤其重要。\n\n週三美國數據將在9月職缺與訂單轉強之後，補上10月證據。美東時間上午8時15分的ADP就業預期增加6.9萬人，前值9萬人。上午9時45分公布標普全球服務業PMI終值，預期57.9，前值58.8；上午10時的ISM服務業PMI預期54.8，前值54.9。9月貿易逆差預期為$1,080億，前值$1,056億。服務業活動與就業將特別有助於判斷，近期製造業與職缺的強勢是否擴及更廣範圍。\n\n週四初領失業救濟金人數預期19.6萬人，前值19.4萬人。第3季生產力預期增加2.5%，單位勞動成本增加0.7%，將提供產出效率與就業成本的另一組比較。週五10月非農就業預期增加6.5萬人，前值2.9萬人；U-3整體失業率預期維持4.2%，平均時薪預期月增0.3%、年增2.9%。這些指標將讓市場區分實際就業創造與薪資壓力，以及帶動週二行情的職缺與自願離職訊號。\n\n市場預期英國央行週四升息至4%，但對之後的路徑分歧更大。貨幣市場反映明年夏末前利率至少達4.75%，經濟學家共識則認為，2027年第1季再升息的機率僅五成。央行預測及其對能源成本傳導的處理，將決定哪條路徑獲得較多支持。週三歐元區通膨預期整體為4%、核心為2.5%。加拿大週四預算案則緊接在Macklem為投資導向財政支持辯護之後，其中包括擬以五年C$360億擴大企業支出可立即認列沖銷的範圍。\n\n巴西週三決策將顯示，官員是否如目前多數分析師預期，在13.75%暫停降息。Meta可能首發歐元債，以及Baldwin貸款11月12日的承諾截止日，將分別檢驗初級信用市場需求。歐洲央行總裁提名截止日為11月6日，為領導層交接增添一個明確的程序時點。另據週二報導，卡達調停者預期，最新美國與伊朗提案的回覆將於兩天內到來。伊朗否認談判已取得報導所稱進展，美國又在夜間空襲格什姆島，使外交斡旋仍活躍但不確定；能源成本是否持續偏高，對即將開會的央行依然重要。",
+      "methodology_note": "利率採Bloomberg按日期列示的每日殖利率資料；變動與曲線計算使用同一組每日觀測值，未指定確切觀測時刻。",
       "overall_summary": {
-        "headline": "油價回落壓低通膨補償，帶動較長天期美債上漲",
-        "session_narrative": "美國與伊朗重啟談判的空間擴大，布蘭特原油下跌8.11%至每桶$104.23，帶動較長天期美國公債上漲。10年期殖利率下降1.64個基點至4.9125%，30年期下降2.25個基點至5.2857%，2年期則上升0.61個基點至4.5937%。這波上漲反映通膨補償下降：10年期損益兩平通膨率下降4.14個基點至2.303%，抵銷同天期實質殖利率上升2.5個基點至2.6095%的影響。\n\n科技借款人付出代價後，重新取得市場融資。Oracle完成$100億債券發行，最長券利差為美國公債加335個基點；Alphabet籌得€60億，固定利率各券平均發行讓利接近24個基點。Meta則考慮至少$200億跨境債券，尚未定案。科技股下跌、股市波動升高之際，AI融資需求仍然龐大。\n\n美國活動數據互有強弱：ISM製造業指數升至55.5，價格指數降至75.2，營建支出卻下降1.9%。伊朗要求美國解除封鎖的爭議仍未解決，能源價格能否持續降低，依然是通膨前景的關鍵。",
-        "summary": "華府與德黑蘭的外交協商空間擴大，壓低能源溢價；但實質殖利率上升，AI相關債券也須給予可觀的發行讓利，這次壓力緩解並不等同融資成本全面下降。"
+        "headline": "美國需求轉強、實質殖利率上升，美債漲勢逆轉",
+        "session_narrative": "9月職缺達752.3萬個，高於預期710萬個；工廠訂單增加1.8%，也超過預期1.2%，使美債吐回油價下跌帶動的早盤漲幅。8月數據上修進一步強化這兩項意外強勢，但聘僱與產業細項仍不一致。10年期殖利率上升4.96個基點至4.9621%，其中實質殖利率貢獻4.47個基點，通膨補償僅貢獻0.49個基點。中期券領跌，但10年期殖利率仍低於一週前與一個月前。\n\nMeta完成當天美國唯一一筆投資級債發行，募得$150億，吸引最高$580億訂單。10年期債券殖利率為6.55%，高於同評級AA債近1個百分點。認購踴躍顯示公司仍能取得資金，但未消除市場對AI支出現金回報的疑慮。半導體股反彈、美國高收益債利差明顯收窄，也使當天市場不再那麼偏向防禦。\n\n澳洲在分歧表決下升息，同時保留暫停空間；歐洲官員則仍考慮再度升息。接下來，美國服務業與非農就業數據將檢驗需求韌性是否擴及職缺與製造業之外，財政部即將公布的指引則將釐清舉債期限組合。",
+        "summary": "職缺與工廠訂單優於預期，打斷近期債市回升；Meta的$150億發債獲踴躍認購，顯示AI投資仍能取得融資，但條件愈來愈昂貴。"
       },
       "section_summaries": [
         {
-          "market_read": "基準殖利率下降，減輕企業整體融資成本，但投資人仍要求補償擴大的資金需求。",
+          "market_read": "",
           "next_check": "",
-          "section_title": "固定收益市場主線",
-          "summary": "油價下跌緩解能源衝擊，卻未讓借款成本全面下降：較長天期美債殖利率下滑，2年期美債殖利率及10年期實質殖利率反而上升。Oracle與Alphabet以發行讓利取得大量資金，AI報酬疑慮則拖累科技股。ISM製造業增強、營建轉弱、工廠價格壓力放緩，需求訊號互有強弱。"
+          "section_title": "債市主線",
+          "summary": "職缺與工廠訂單轉強，使市場更難假設美國需求即將惡化，也壓過油價下跌帶來的早盤支撐。美債調整主要由實質殖利率上升推動。Meta成功但昂貴的融資，加上半導體股反彈，顯示風險承擔意願回升，卻未消除對AI支出需求的疑慮。"
         },
         {
-          "market_read": "當日債市上漲由通膨補償下降帶動；若看一個月變化，實質殖利率下降才是10年期名目殖利率下滑的主要來源。",
+          "market_read": "10年期殖利率仍較一週前低3.46個基點，較一個月前低31.09個基點。",
           "next_check": "",
-          "section_title": "油價回落壓低通膨補償",
-          "summary": "伊朗賦予政府更多談判權限，川普也釋出進展訊號，油價跌勢因而加深，但德黑蘭仍要求解除封鎖。10年期損益兩平通膨率降幅大於名目殖利率，實質殖利率則上升，美債曲線趨平。工廠價格壓力放緩，但較強的ISM活動數據，與轉弱的標普製造業調查及營建支出形成對比。"
+          "section_title": "勞動需求扭轉美債漲勢",
+          "summary": "9月職缺優於預期，8月也獲上修；工廠訂單同樣意外強勁，包括不含運輸的訂單。不過聘僱仍不一致，BLS將整體勞動流動描述為變動不大。5年期殖利率領升，上漲5.32個基點；10年期實質殖利率上升4.47個基點，通膨補償則僅增加0.49個基點。"
         },
         {
-          "market_read": "基準殖利率下降，重新打開發債窗口，卻未扭轉投資人對企業風險要求更高溢價的趨勢。",
+          "market_read": "科技債相對其他投資級債的殖利率溢酬達2003年以來最高，逆轉過去殖利率較低的慣例。",
           "next_check": "",
-          "section_title": "AI借款人付出讓利重返融資市場",
-          "summary": "Oracle發行$100億債券，訂單高峰約$380億，但須提供較既有債券高約30個基點的補償。Alphabet籌得€60億，固定利率券平均發行讓利接近24個基點。Meta考慮至少$200億債券，STT GDC則洽談S$31億貸款。強勁需求與投資人對AI投資規模及報酬的疑慮並存。"
+          "section_title": "Meta付出更高信用溢酬取得資金",
+          "summary": "Meta的$150億美元債吸引最高$580億訂單，但2056年券的定價利差，仍比4月可比發行寬近90個基點。可能接續的首次歐元債將擴大募資。甲骨文折價出售股票，以及Alphabet規劃的預付能源市政債，呈現其他融資管道；投資人則持續質疑AI投資最終回報。"
         },
         {
           "market_read": "",
           "next_check": "",
-          "section_title": "資產出售入帳、債權保障與債券反彈",
-          "summary": "BP完成出售Castrol的65%股權，取得$60億用於減債。Cloud Software推出$20億擔保再融資，納入防範負債管理操作的保障。Acrisure零售業務留存率改善至84.2%，帶動2030年11月到期債券反彈至面額約87%，但現金仍持續流出，調整後獲利也略降。"
-        },
-        {
-          "market_read": "能源降價可減輕眼前通膨壓力，卻未必逆轉支撐較高利率的資本需求，或成本延後轉嫁的影響。",
-          "next_check": "",
-          "section_title": "央行重新評估持續的物價壓力",
-          "summary": "歐洲公債上漲，但ECB官員仍將進一步緊縮列入考量。受訪35名經濟學家全數預期英國央行11月5日升息至4%，英國討論也延伸至較高中性利率與投資需求。日本央行區分有韌性的人均消費與疲弱的整體成長；油價回落緩和印度升息前景，巴基斯坦與智利卻仍面臨持續通膨。"
+          "section_title": "再融資與重整反映信用需求分化",
+          "summary": "Iqony因需求不足撤回€5.5億再融資，既有銀行債務繼續保留；Baldwin則推出$23億收購貸款。Mercer提出將約$11億優先票據轉為股權，另籌$4億新資金。Virgin Media O2計畫停止光纖投資，2029年前削減每年£8億支出；Genneia延後IPO，但仍以本週發行綠色債券為目標。"
         },
         {
           "market_read": "",
           "next_check": "",
-          "section_title": "主權融資與能源資金配置分歧",
-          "summary": "羅馬尼亞久未發債後，完成€45億債券發行，維持融資能力仍以財政紀律為關鍵。波蘭央行11月4日將出現理事空缺，法律後果仍有爭議。日本¥2,500億轉型債標售需求低於5月；更廣泛的綠色融資手續費收入成長，則掩蓋了各區域資本配置不均。"
+          "section_title": "央行對下一次升息看法分歧",
+          "summary": "澳洲以6比3表決將現金利率提高至4.85%；雖然通膨展望惡化，政策效果尚未完全傳導，仍保留暫停可能。Nagel強化歐洲央行12月升息理由；紐西蘭勞動數據轉弱則支持近期暫停。南韓核心通膨仍強。加拿大方面，Macklem為投資導向財政支持辯護，BMO則認為這與貨幣緊縮相牴觸。"
+        },
+        {
+          "market_read": "",
+          "next_check": "華發持續付款與資產變現的進展，將顯示流動性壓力能否受控，或展期是否引發更廣泛的信用重新評估。",
+          "section_title": "財政可信度與國家關聯信用面臨新考驗",
+          "summary": "巴西調查上修截至2029年的利率預期，農業借款人則尋求更廣泛紓困。華發償付改善後，投資人仍在評估流動性壓力及對其他國家關聯企業信用的外溢影響。中國將銀行外匯存款準備金率提高至6%，11月15日生效。OECD要求比利時加大財政調整；智利保守型退休基金10月回升，但全年仍虧損。"
         },
         {
           "market_read": "",
           "next_check": "",
           "section_title": "後續市場焦點",
-          "summary": "期中選舉與美國財政部季度再融資公告，將釐清財政前景及借款期限配置。勞動數據與英國央行決議將檢驗需求及持續的物價壓力，Meta與Cloud Software也即將面對融資決策。外交能否維持較低油價，仍是連結通膨前景與央行進一步緊縮需求的眼前關鍵。"
+          "summary": "美國服務業與非農就業將檢驗，職缺與訂單轉強是否反映更廣泛的需求韌性。財政部再融資指引將釐清期限組合，選舉結果則影響財政談判。英國央行預測將面對市場與經濟學家對後續緊縮的分歧；Meta可能發行歐元債與Baldwin貸款承諾，則分別檢驗初級信用市場需求。"
         }
       ],
       "watch_events": [
         {
-          "category": "能源與通膨",
-          "date": "持續關注",
-          "market_implication": "能源若持續降價，將減輕通膨壓力，並影響央行進一步緊縮的必要性。",
-          "market_trigger": "其他波斯灣產油國出口恢復之際，外交進展使週一原油跌勢得以延續。",
-          "title": "伊朗外交協商與油價跌勢",
-          "watch_line": "關注在德黑蘭要求美國解除封鎖的同時，談判能否取得進展。"
+          "category": "美國經濟活動",
+          "date": "11月4日至6日",
+          "market_implication": "若強勢擴及更廣範圍，將強化需求支撐殖利率上行的理由；若聘僱偏弱，則會限制職缺訊號的意義。",
+          "market_trigger": "ISM服務業指數預期54.8；非農就業預期增加6.5萬人，失業率4.2%，時薪月增0.3%。",
+          "title": "美國需求韌性能否擴大？",
+          "watch_line": "職缺與訂單轉強之後，接續觀察服務業活動、實際就業創造與薪資。"
         },
         {
-          "category": "美國公債供給",
-          "date": "11月4日",
-          "market_implication": "期限配置將決定持續借款需求中，有多少落在利率敏感度較高的長天期債券。",
-          "market_trigger": "美國財政部立即縮減長債標售規模，或調整指引以容許日後更動。",
-          "title": "美國財政部季度再融資的期限配置",
-          "watch_line": "長端公債當日表現領先後，關注各期限的融資分配。"
+          "category": "美債供給",
+          "date": "11月4日美東時間上午8時30分",
+          "market_implication": "期限配置將與經濟需求預期變化一同考驗長端對供給的敏感度。",
+          "market_trigger": "財政部指引將顯示舉債是否轉向國庫券；受訪交易商均未將取消20年期公債列為基本情境。",
+          "title": "財政部釐清舉債組合",
+          "watch_line": "再融資公告之前的一週，長端表現落後較短天期。"
         },
         {
-          "category": "信用債發行",
-          "date": "11月3日",
-          "market_implication": "交易條件將顯示，債權人如何為大型投資等級融資需求與槓桿軟體企業再融資風險定價。",
-          "market_trigger": "Meta考慮中的發債，以及Cloud Software附債權保障的再融資，陸續出現融資條件。",
-          "title": "Meta與Cloud Software融資條件",
-          "watch_line": "Meta繼續舉行投資人電話會議，Cloud Software的擔保再融資則預計定價。"
+          "category": "貨幣政策",
+          "date": "11月5日",
+          "market_implication": "央行若支持其中任一路徑，將改變市場對後續緊縮幅度與利率前景的預期。",
+          "market_trigger": "指引將回應兩種預期：市場反映明年夏末前至少4.75%，經濟學家則認為2027年第1季再升息機率僅五成。",
+          "title": "英國央行界定升息後的路徑",
+          "watch_line": "在預期升息至4%的同時，關注央行預測及對能源成本傳導的處理。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Opening Fixed-Income Thesis\n\nA sharp retreat in oil prices helped longer Treasuries advance as Washington and Tehran signaled more room for diplomacy, while technology companies returned to debt markets with substantial concessions to investors. The 10-year yield fell 1.64 basis points to 4.9125% and the 30-year declined 2.25 basis points to 5.2857%. Inflation compensation fell more than nominal yields, however, and the two-year yield edged higher: the session offered relief from the energy shock rather than a broad reduction in the cost of money.\n\nBrent dropped 8.11% to $104.23 a barrel after Iran's president said the supreme leader had authorized the government to pursue negotiations and President Donald Trump indicated progress. The improvement in the diplomatic outlook did not rescue technology shares. Semiconductor stocks fell 3.37%, the Nasdaq 100 lost 1.39%, and doubts about the returns on artificial-intelligence spending remained prominent even as Oracle completed a $10 billion bond sale and Alphabet raised €6 billion.\n\nBorrowers were taking advantage of lower underlying yields, but investors demanded compensation for the growing financing requirement. Oracle's longest new bonds priced 335 basis points over Treasuries, and Alphabet offered an average concession of nearly 24 basis points on its fixed-rate euro debt. Across the economy, Monday's releases were mixed: ISM manufacturing strengthened beyond expectations, its prices index moderated, and construction spending fell sharply. That combination left the distinction between cheaper energy, resilient demand and issuer-specific financing risk central to the close.\n\n## Oil Relief Lowers Inflation Compensation\n\nThe oil decline developed in stages. Early reporting from Axios said Trump wanted to allow more time for diplomacy before potentially resuming strikes on Iran. Later, Iranian President Masoud Pezeshkian said Supreme Leader Mojtaba Khamenei had granted the government additional powers to negotiate. Brent's losses deepened to about 6% near $106 a barrel in London after that announcement, before extending further by the U.S. fixed-income close.\n\nTrump subsequently told reporters in Washington that Iran wanted an agreement and one could happen. Asked whether he would resume military strikes after Tuesday's U.S. midterms, he mouthed a negative response. Tehran nevertheless retained a substantive condition: Iranian officials said easing energy transport through the Strait of Hormuz and returning to formal negotiations required Washington to lift its economic blockade. The day's change was a wider diplomatic opening, with the blockade still part of the dispute.\n\nWTI finished down 7.55% at $96.26 a barrel. Both crude benchmarks remained above their month-earlier levels, with WTI up 7.64% and Brent 5.59%, but the daily fall substantially reduced their recent gains. Bloomberg Markets Live strategist Michael Ball attributed the largest crude swings increasingly to changes in the geopolitical premium, alongside continuing physical tightness.\n\nSeparate tanker-tracking figures added a new supply comparison. Combined exports from Saudi Arabia, the United Arab Emirates, Iraq and Kuwait rose 10% in October to 15.53 million barrels a day, roughly matching volumes at the start of the year, according to data compiled by Bloomberg and energy-analytics firms. Iran's exports remained at zero for a second month under the U.S. naval blockade. The recovery among other major Arab exporters and the continuing exclusion of Iranian barrels described different parts of the supply picture.\n\nTreasuries responded unevenly across maturities. The two-year yield rose 0.61 basis point to 4.5937%, while the five-year fell 1.07 basis points to 4.7091%. The two- to 10-year curve flattened 2.25 basis points to 31.88 basis points, and the two- to 30-year gap narrowed 2.86 basis points to 69.2 basis points. Longer nominal debt benefited more than the short end from the day's relief.\n\nAt 10 years, the breakeven inflation rate fell 4.14 basis points to 2.303%, more than offsetting a 2.5-basis-point rise in the TIPS real yield to 2.6095%. That decomposition gives the nominal rally a specific character: lower inflation compensation, rather than lower real yields, accounted for the decline. Over the month, the balance remained different. The nominal 10-year yield was down 36.05 basis points, with the real yield 29.95 basis points lower and the breakeven down 6.1 basis points.\n\nThe longest maturity also continued to lag over the broader weekly comparison despite leading Monday's advance. The 30-year yield was only 1.71 basis points below its week-earlier level, against declines of 12.22 basis points at two years and 7.59 basis points at 10 years. Over the month, 30-year yields had fallen 33.53 basis points. Monday compressed the curve without erasing the greater resilience of long borrowing costs over the week.\n\nU.S. manufacturing data supplied a firmer activity signal alongside some price moderation. October ISM Manufacturing PMI rose to 55.5 from 54.5, exceeding the 54.6 consensus. New orders increased to 55.5 from 55.3, while employment eased to 52.4 from 52.7. The headline improvement therefore came with a small increase in orders and a weaker employment component, rather than acceleration in every part of the survey.\n\nThe ISM prices index fell to 75.2 from 77.9, below the consensus expectation of 77. Factory input-price pressure moderated while remaining pronounced. The separate final S&P Global Manufacturing PMI moved the other way on activity, falling to 54.9 from 55.9 and undershooting expectations of 56. Both headline surveys remained above 50, but their changes differed, leaving a less uniform account of manufacturing momentum than the stronger ISM headline alone suggested.\n\nSeptember construction spending fell 1.9% on the month, against an expected 0.4% increase, following a revised 2% gain. That was a substantial reversal in a separate measure of realized activity. Together, the releases paired stronger ISM expansion with softer construction, slower S&P survey growth and reduced factory price pressure, rather than establishing a single direction for demand across the economy.\n\nRisk assets did not deliver a broad relief rally. The S&P 500 declined 0.51% to 7,541.40 and the VIX rose 8.91% to 21.15. The Dollar Index slipped 0.09% to 101.79, while gold futures gained 1.48% to $3,956.60 an ounce. Technology weakness outweighed the benefit of cheaper oil for the equity benchmarks, with the semiconductor index down 21.38% over the month. In fixed-income funds, LQD and HYG prices fell 0.54% and 0.70%, respectively, from October 30 to November 2. Both went ex-distribution on November 2: adding the declared cash distributions of $0.399950 and $0.401391 gives one-day total returns of minus 0.15% and minus 0.18%, respectively. JNK fell 0.77% on price but returned minus 0.19% including its $0.543598 distribution; EMB fell 0.29% on price but returned plus 0.15% including its $0.403699 distribution. Ex-distribution price declines alone therefore do not measure a deterioration in credit conditions.\n\n## AI Borrowers Pay for Renewed Market Access\n\nOracle's completed financing turned its fundraising plans into a direct test of investor demand. The company sold $10 billion of bonds alongside an equal amount of equity, with the debt divided into five tranches maturing in three to 20 years. The longest notes priced 335 basis points over Treasuries. Peak bond orders reached about $38 billion, and the company offered roughly 30 basis points above its existing debt, according to Bloomberg's calculation.\n\nThe transaction attracted substantial demand at a meaningful concession. Bank of America led both the stock and bond offerings, and demand for the equity sale had also exceeded the amount sought earlier Monday. Investors and analysts expected this could be Oracle's last new-debt offering for AI expansion for several years, with subsequent bond sales largely refinancing existing obligations. CreditSights analysts still anticipated around $20 billion of issuance in 2027-2029 to refinance maturities. That distinction leaves refinancing needs alongside the company's previously announced limit on gross debt growth.\n\nThe broader primary market was unusually busy. Seventeen companies entered the U.S. investment-grade market Monday, the longest lineup since September 8, including HCA Healthcare, L3Harris Technologies and GATX. Carrier Global returned for the first time since 2023. Other borrowers included Otis Worldwide, Cheniere Energy, AEP Transmission, Textron, Eastman Chemical and Hyatt. Dealers had expected roughly $45 billion of issuance for the week as companies sought funding before the midterms and Friday's employment report.\n\nColumbia Threadneedle portfolio manager Ed Al-Hussainy attributed the window chiefly to lower yields since early October and reduced rate volatility after the Fed's hold. Yield-sensitive demand had temporarily stepped back during the September and early-October volatility, he said, while the absence of major negative leverage surprises in Q3 results helped companies return. His assessment of issuance conditions was accompanied by a broader concern that credit markets across ratings were struggling to absorb the scale and speed of AI financing.\n\nLower underlying yields have softened all-in costs even as investors demand larger credit premiums. The average U.S. high-grade corporate yield stood around 5.79% Friday after exceeding 6% in September and early October. Technology-sector investment-grade spreads, by contrast, averaged 108 basis points Friday, against 76 basis points at the end of last year. Companies had borrowed more than $330 billion in U.S. high-grade bonds for AI investments this year, according to Bloomberg. The attraction of refinancing at a lower yield coexisted with a higher price for corporate risk.\n\nAlphabet's euro transaction made that separation especially clear. Its €6 billion sale comprised seven parts spanning two to 19 years, with orders above €17.1 billion and demand concentrated in the longest tranche. Together with May's €9 billion offering, the deal put Alphabet ahead of Amazon's €14.5 billion March sale as the largest corporate euro issuer in a calendar year in Bloomberg's comparison.\n\nSpreads tightened at least 20 basis points across the tranches during book-building, but the company still paid more than at its May transaction. The two-year fixed-rate portion was set at 40 basis points over mid-swaps and the 19-year at 185 basis points. Across the fixed-rate bonds, the average new-issue concession was nearly 24 basis points, about three times the average euro corporate premium this year. Its existing euro bonds had widened as much as 60 basis points since issuance, while the wider government-bond selloff also increased the yields required on the new securities.\n\nTwentyFour Asset Management portfolio manager Jack Daley emphasized Alphabet's balance sheet and the Aa2 rating on its existing euro bonds, distinguishing the company's credit capacity from the disappointment in its equity results. Rathbones' Bryn Jones was more cautious, wanting evidence of returns on investment or a slower issuance pace before becoming more involved. The disagreement concerned the compensation for continuing capital demands, not simply whether orders could be assembled for a highly rated issuer.\n\nMeta was preparing another large test. People familiar with the discussions said it was considering at least $20 billion of cross-border investment-grade debt, with no final decision and the amount capable of increasing with demand. Citi and Morgan Stanley were arranging investor calls Monday and Tuesday. Proposed dollar maturities ranged from five to 30 years, while euro maturities ran from just over four to just over 38 years. A euro sale would be Meta's first, and the transaction its first major debt offering in six months.\n\nThe contemplated bonds sit beside equity financing already undertaken or planned. Meta priced $25 billion of common stock and raised $12.5 billion of preferred equity last week, and plans an at-the-market program allowing up to $60 billion of additional share sales. These are different funding channels and stages: the preferred financing had raised money, while the market-sale program provides a route to future issuance. Together they show how the capital requirement extends beyond bond investors.\n\nIn Singapore, STT GDC was discussing a S$3.1 billion, or $2.4 billion, syndicated loan to finance its assets. The proposed three-year facility carried a margin of 165 basis points over the Singapore Overnight Rate Average and an extension option of up to two years, according to people familiar with it. Standard Chartered, UOB, OCBC and DBS were working as global coordinators, mandated lead arrangers and bookrunners. The margin is the contractual addition to the benchmark, not the full interest cost of the prospective borrowing.\n\nFresh operating disclosures illustrated both the growth and expense behind the financing demand. Anthropic reported almost $17 billion of Q3 revenue, nearly twelve times the year-earlier amount, and a $23.3 billion net loss. Operating expenses rose 292% to $17.5 billion, and the company disclosed intended spending above $895 billion in the years ahead as it prepared for an IPO. Rapid revenue expansion therefore accompanied a larger loss and a substantial prospective funding requirement.\n\nCorporate consolidation advanced as well. Marvell agreed to acquire Lumentum at a $115 billion enterprise value, moving beyond the earlier negotiations to announced terms. The all-stock transaction would leave Marvell shareholders owning 67% of the combined business and expand its optical technology for connecting AI chips, servers and facilities. The form of consideration distinguishes the takeover value from an equivalent new cash-borrowing requirement. Meanwhile, Apple's September-quarter revenue rose 12% to $114.5 billion, but growth slowed and China sales missed estimates in its late-hours release.\n\n## Cash Proceeds, Creditor Protections and a Borrower Rebound\n\nBP completed the sale of a 65% interest in Castrol to Stonepeak, delivering $6 billion for debt reduction. The closing converts an agreed disposal into cash available for the company's balance-sheet reset. BP reported net debt of $13.87 billion at the end of Q3; the obligations it is working to reduce also include hybrids, leases and Deepwater Horizon settlement payments. Chief Executive Meg O'Neill said the transaction brought immediate proceeds while preserving a stake in Castrol's future growth.\n\nCloud Software Group approached lenders from a different position, launching $2 billion of senior secured notes to refinance part of its debt due in 2029. The Vista- and Elliott-backed owner of Citrix and Tibco included protections against liability-management exercises, according to a person familiar with the offering. Citi led the transaction with Goldman Sachs and Vista, with a Monday lender call and pricing expected Tuesday.\n\nThe safeguards were part of the terms being offered to attract investors increasingly skeptical about software borrowers' resilience to AI competition. The wider leveraged-finance market remained quiet: October junk-bond issuance fell 18% from a year earlier to $14.6 billion, while leveraged-loan sales were more than 10% below the previous October. Cloud Software's proposed refinancing addresses maturities while specifying creditor protections, rather than relying only on a lower borrowing rate to secure participation.\n\nAcrisure supplied a striking secondary-market reversal after new operating figures eased concern about broker retention. North American retail retention improved to 84.2% in Q3 from 82.3% in Q2, according to people familiar with its investor update. Its November 2030 bonds traded around 87 cents on the dollar, up from about 81 cents at the end of last week and roughly 73 cents three weeks earlier. Acrisure securities accounted for six of the seven largest gains across U.S. high yield Monday, according to Trace data.\n\nThe retention improvement helped offset $131 million of quarterly cash burn. Adjusted EBITDA was $336 million, down 0.3% from a year earlier, while revenue totaled $1.24 billion and organic growth was minus 0.4%. Those results gave creditors a clearer operating comparison after an internal spreadsheet mistakenly embedded in a presentation had raised doubts about retention. The company removed it in September and asked investors not to trade on the information, reserving its legal rights.\n\nThe bond rally followed short selling during the period of uncertainty. Short interest in Acrisure's $550 million of 2032 bonds surged last month, S&P Global Market Intelligence data showed. The new retention figures addressed a specific concern during a business overhaul; they arrived with continuing cash outflow and slightly lower adjusted earnings. That combination explains why a sharp price recovery could accompany operating results that were still mixed.\n\n## Central Banks Reassess Persistent Price Pressure\n\nEuropean government bonds joined the advance in duration, with Bloomberg's market account showing Germany's 10-year yield down 3 basis points to 3.29% and Britain's down 9 basis points to 5.19%. Policymakers' assessments remained less accommodating than the day's energy move might suggest. Slovakia's Peter Kazimir warned Monday that investors could underestimate how much further ECB tightening would be needed to restore inflation to target and keep it there.\n\nKazimir focused on the sequence through which pressure can spread: energy was almost a fifth more expensive than a year earlier, companies faced higher costs, currency weakness increased import prices and food prices were edging up. Businesses could accumulate costs before passing them on, and expectations could change before broader inflation appeared. Slower growth alone might therefore be insufficient to bring inflation down. His argument concerned the path of policy beyond a single meeting.\n\nIrish central-bank Governor Gabriel Makhlouf was more conditional, saying subsequent action would depend on the data before the next meeting and that every meeting remained live. He separately rejected immediate ECB intervention to support French debt, describing France's difficulties as a fiscal problem for its politicians to resolve. That fresh statement placed responsibility for adjustment with the government rather than offering a monetary backstop for the fiscal challenge.\n\nBritain's policy debate increasingly concerns the interest rate required to restrain demand as well as the persistence of expensive energy. A Bloomberg survey conducted October 29-30 found all 35 economists expecting a quarter-point increase to 4% on November 5. Nearly 60% anticipated a 7-2 vote and another 24% a 6-3 split, compared with only three members favoring an increase in September. Economists also expected higher inflation forecasts for this year and next, stronger projected 2026 growth and lower unemployment.\n\nThe case for a higher neutral interest rate rests partly on investment. UK output rose 0.7% in the three months through August, unemployment fell to 4.7%, and employers added 13,000 jobs in September. Former BOE policymaker Jan Vlieghe estimated neutral around 3.5% and argued rates needed to be 4.5% while energy remained expensive. The BOE's market-participant survey last month put the average neutral estimate at 3.25%; Pantheon Macroeconomics' Rob Wood cited a Richmond Fed model suggesting 3.75%, possibly higher. These are different estimates of an unobserved rate, not policy commitments.\n\nNew research also challenged a purely temporary-energy explanation for UK borrowing costs. NIESR attributed more than half of this year's increase in benchmark yields to the AI investment boom and higher investor premiums, and only 40% directly to Middle East energy costs. Director David Aikman said that raised the possibility of persistently higher rates. The comparison leaves room for oil relief to lower immediate inflation pressure without reversing the demand for capital supporting borrowing costs.\n\nThe BOJ's full quarterly outlook supplied a distinct argument about demand measurement. It said the accelerating population decline made robust aggregate consumption growth increasingly difficult even without deterioration in individual household demand. Consumption per person early this year was roughly 4% above 2015, while aggregate consumption was almost flat. Japan's population fell 2.5% over the five years to 2025, its fastest recorded decline in figures going back to 1920. The analysis matters to the assessment of consumption, which accounts for about half the economy, as the bank considers another increase widely expected in December.\n\nIndia showed a more immediate response to falling oil. Its benchmark 10-year yield declined as much as 10 basis points to 7.32%, the largest fall since early May, and five-year overnight-indexed swaps fell as much as 8 basis points. Karur Vysya Bank treasury head VRC Reddy said a sustained crude decline could reduce expectations for a December RBI increase from 50 to 25 basis points. He also reported buying interest at higher yields after October's selloff and envisaged 7.25% on the 10-year in coming days if oil kept falling.\n\nPakistan's new CPI reading showed moderation but continuing above-target inflation. October prices rose 9.6% from a year earlier, down from 10.26% in September but above the 9.5% economist median and the central bank's 5%-7% target band. Food inflation eased to 7.74% from 8.2%, and housing and energy inflation to 11.03% from 12.39%. Bloomberg Economics' Ankur Shukla expected inflation near 10% through March before returning to the target range in the quarter through June, and judged the 12% policy rate restrictive enough to allow a hold.\n\nChile's investor survey highlighted continuing demand for inflation protection. Almost 90% of 18 analysts and traders surveyed last week preferred UF inflation-linked bonds over peso debt, the strongest preference since the survey resumed in March 2025. Around 78% favored maturities of one to five years and almost 45% expected inflation-linked yields to fall over the next month. Scotiabank economists forecast inflation reaching 5% in November, while Barclays expected it near that rate through March under an assumption of oil around $110 in the first half of 2027. Those forecasts remained conditional on energy and domestic recovery rather than incorporating Monday's oil decline as a permanent change.\n\n## Sovereign Access and Energy Financing Diverge\n\nRomania returned to international bond markets after more than five months of political turmoil, pricing €4.5 billion across three euro tranches with peak orders above €8.5 billion. The sale was the first since approval of a new government, following the coalition collapse in May. Its budget review last week retained a 6.2%-of-GDP deficit target while freeing more money for healthcare.\n\nFinance Minister Alexandru Nazare pledged fiscal discipline to avoid a downgrade to speculative grade. Central-bank board member Cristian Popa warned Monday against unsustainable spending increases and called further deficit reduction essential to avoiding funding complications. The completed issuance demonstrated access under the new administration; the fiscal commitments remain central to maintaining that access.\n\nPoland faced a nearer institutional deadline. Central-bank board member Adam Lipinski's term expires November 4, and failure to fill the vacancy would leave membership excluding the governor below the legal minimum of six. Four nominees awaited Prime Minister Donald Tusk's approval amid his dispute with Governor Adam Glapinski and President Karol Nawrocki. Legal experts differed over the consequences: Maciej Gutowski said an incomplete board could in theory continue its duties, but decisions might later face politically motivated challenges.\n\nThe separate parliamentary effort to put Glapinski before a State Tribunal also remained disputed. He denied wrongdoing; the Constitutional Tribunal had raised the required voting threshold to 60% of seats, beyond the governing coalition alone, and had ruled against suspension under existing rules. Poland's benchmark premium over German debt was around 300 basis points, nearly a third wider since August, against a deficit around 7% of GDP. The impending board vacancy added a concrete operational uncertainty to an already difficult fiscal setting.\n\nJapan completed a ¥250 billion climate-transition bond auction at a highest accepted yield of 2.2%. Bid-to-cover was 3.84, below May's 4.62 but slightly above the 3.79 average since issuance began in February 2024. It was the fifth sale this year and the eleventh overall, within a ¥150 trillion program through 2033. Japan has issued more than $30 billion under the designation, largely purchased by the BOJ and domestic institutions.\n\nThe allocation of proceeds remained contested. This fiscal year's eligible projects include AI, semiconductors, robotics and nuclear technologies, while only 4% is earmarked for making renewable energy a major power source, according to Japan Credit Rating Agency. Environmental groups criticized renewed reliance on fossil imports as the government released strategic oil reserves and sought more diverse sources of supply. The country's emissions target is a 60% reduction by fiscal 2035 from 2013 levels, while fossil fuels accounted for more than 80% of energy supply last year.\n\nBroader financing research showed a similarly uneven transition. Bloomberg put bank revenue from climate-related bonds and loans at roughly $3 billion this year, slightly ahead of $2.9 billion from oil, gas and coal debt, marking a fifth consecutive year of higher green-debt fees. BloombergNEF's separate energy-supply banking ratio rose to 0.97 in 2025 from 0.95 in 2024, compared with the 4-to-1 ratio it estimates is needed by 2030 to meet climate goals. Europe reached 2.5 to 1 and China 1.6 to 1, while North America fell to 0.5 to 1. Higher green-financing revenue thus accompanied substantial regional differences in the underlying allocation of capital.\n\n## Forward Market Significance\n\nThe November 3 U.S. midterms arrive with companies having accelerated issuance and equity volatility rising. Democrats need net gains of four Senate seats and three House seats for majorities, while close contests could take days or weeks to resolve. The relevant policy questions include the environment for data-center development and the fiscal decisions facing the next Congress. Presidential veto power and potentially divided government leave the eventual legislative response dependent on more than the initial seat count.\n\nTreasury's November 4 refunding announcement will address the maturity mix after the long end's daily outperformance. Dealers remain divided over an immediate reduction in long-bond auctions versus a guidance change allowing later adjustments. If sizes remain unchanged, the next refunding would total $125 billion: $58 billion of three-year notes November 9, $42 billion of 10-year notes November 10 and $25 billion of 30-year bonds November 12. The outstanding question is how funding will be allocated across maturities, alongside the government's continuing borrowing requirement.\n\nLabor and orders data will test the breadth of demand after the mixed manufacturing releases. September JOLTS openings are due November 3 at 15:00 UTC, with consensus at 7.13 million after 7.079 million; quits will add a separate measure of worker mobility. Factory orders at the same time are expected to rise 1.2% after 0.1%. November 4 ADP employment, due at 13:15 UTC, is expected to increase 65,000 after 90,000. Friday's official payroll forecast is also 65,000, with unemployment expected to remain 4.2%, but the private and government releases measure different employment populations.\n\nBritain's November 5 rate decision will turn the unanimous economist expectation for a hike into a test of the vote, revised forecasts and guidance on further increases. ING's James Smith expects the BOE to keep subsequent action explicitly dependent on the economy. In Japan, November 16 GDP will bring the consumption figures that BNP Paribas and Daiichi Life Research Institute expect to show a decline, before the BOJ's December 18 decision. The bank's new demographic analysis makes the distinction between aggregate and per-person demand especially relevant.\n\nSouth Africa's Wednesday municipal elections present a separate sovereign-risk test. William Blair's Yvette Babb sees limited upside from a status-quo result because stability of the Government of National Unity is already expected, but a larger potential response if the outcome raises the perceived likelihood of coalition instability. Gains for the Democratic Alliance could strengthen the reform-oriented coalition; gains for the EFF and MK at the ANC's expense, without a stronger DA, could undermine it. Those alternatives concern the durability of fiscal policy rather than the result in any one municipality.\n\nCredit investors face imminent transaction decisions as well. Meta's calls continue Tuesday, and Cloud Software's secured refinancing is expected to price that day. Their terms will show how lenders distinguish very large investment-grade funding needs from leveraged-software refinancing and legal protections. In Europe, the SEC consultation that closed Monday could eventually broaden U.S. access to EU bond futures if the proposed exemption is adopted. Eurex turnover has averaged barely more than 40 contracts over 20 sessions, leaving improved hedging access important to the bloc's effort to deepen its debt market.\n\nUK Prime Minister Andy Burnham is due to propose debt reform for poorer Commonwealth members at Tuesday's summit in Antigua and Barbuda, seeking longer repayment periods and more favorable rates with support from non-G7 donor countries and private creditors. His office says about half the developing countries struggling with debt belong to the Commonwealth. The initiative remains a proposed framework whose reach depends on creditor participation.\n\nEnergy remains the immediate unresolved condition across these decisions. Tehran's demand for an end to the blockade stands alongside the new negotiating authority, while restored exports from other Gulf producers have increased available supply. Whether diplomacy sustains Monday's fall in crude will influence how quickly lower energy costs reach inflation measures and how much further central banks judge they must tighten.\n",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries fell as stronger-than-expected U.S. job openings and factory orders interrupted the bond market's recent recovery, overcoming an early rally driven by falling oil prices. The 10-year yield rose 4.96 basis points to 4.9621%, with higher real yields accounting for most of the increase. A rebound in semiconductor shares also reduced the session's defensive character, although investors continued to demand substantial compensation to finance the artificial-intelligence investment boom.\n\nMeta raised $15 billion in the day's only U.S. investment-grade bond offering, attracting as much as $58 billion of orders. Its 10-year debt yielded 6.55%, almost a percentage point above similarly rated AA bonds. Strong demand and expensive funding were both features of the transaction: investors were willing to supply capital, but on terms reflecting their growing concern about the industry's spending requirements.\n\nThe economic releases gave the rates selloff a firmer foundation than an equity rebound alone. September vacancies exceeded consensus and August was revised higher; factory orders also beat expectations, with strength extending beyond aircraft. Neither release established uniform acceleration across employers or industries. Their detail nevertheless made an imminent deterioration in U.S. demand harder to assume, even as Australia's divided rate increase and fresh European policy comments showed central banks weighing persistent inflation against increasingly visible restraints on activity.\n\n## Labor Demand Reverses the Treasury Rally\n\nOil initially supplied another reason to buy government bonds. WTI briefly fell below $94 a barrel, a three-week low, and the 10-year Treasury yield declined about 2 basis points. The direction changed after the September Job Openings and Labor Turnover Survey: Bloomberg's intraday account put the 10-year yield at a session high of 4.97% within minutes of the release, more than 5 basis points higher on the day. ING's Padhraic Garvey described the figures as firm and the upward yield response as appropriate.\n\nThe closing adjustment was broad but concentrated in intermediate maturities. The five-year yield rose 5.32 basis points to 4.7623%, the two-year increased 3.72 basis points to 4.6309%, and the 30-year added 4.08 basis points to 5.3265%. The two- to 10-year gap widened 1.24 basis points to 33.12 basis points. That was a modest steepening through a selloff, rather than a disproportionate repricing of the shortest coupon maturity.\n\nThe 10-year TIPS real yield increased 4.47 basis points to 2.6542%, while 10-year inflation compensation rose only 0.49 basis point to 2.3079%. Most of the nominal-yield increase therefore came from real yields, consistent with a session in which evidence of resilient demand mattered more than a renewed surge in longer-term inflation compensation. Brent finished down 0.33% at $104.42, while WTI recovered to $96.76, up 0.31%.\n\nThe daily reversal left much of the preceding recovery intact. The 10-year yield remained 3.46 basis points below its week-earlier level and 31.09 basis points below its month-earlier level. Two-year yields were down 10.6 basis points over the week, whereas the 30-year was 1.62 basis points higher. The longer end had participated less fully in the weekly rally, leaving the curve sensitive to both the economic outlook and the allocation of government borrowing across maturities.\n\nJOLTS supplied a numerical upside surprise alongside a more restrained official assessment of the overall labor market. Vacancies reached 7.523 million in September, above the 7.100 million Reuters consensus. August openings were revised up by 111,000 to 7.190 million from 7.079 million. The vacancy rate rose to 4.5% from 4.3%, and Reuters put openings per unemployed worker at approximately 1.06, compared with 1.02 in August.\n\nActual hiring remained less buoyant than the headline vacancies might suggest. Hires totaled 5.402 million, against 5.271 million in August, with the hiring rate moving to 3.4% from 3.3%. The Bureau of Labor Statistics described overall openings, hiring and layoffs as little changed. Its characterization matters alongside the market surprise: a result above economists' forecasts and an upward revision can alter rate expectations without establishing a statistically significant, economy-wide acceleration in labor demand.\n\nThe industry detail was uneven. Openings increased by 106,000 in professional and business services, 104,000 in state and local government excluding education, 54,000 in manufacturing and 36,000 in construction. Hiring rose 158,000 in accommodation and food services but declined in manufacturing, professional and business services, financial activities and several government categories. Employers' stated demand and their completed hiring were consequently moving differently in some of the sectors contributing to the vacancy gain.\n\nWorker mobility improved while dismissals remained subdued. Quits rose to 3.365 million from approximately 3.044 million, taking the quits rate to 2.1% from 1.9%. Accommodation and food services accounted for 197,000 of the approximately 321,000 increase. Layoffs and discharges fell by approximately 127,000 to 1.641 million, their lowest level since March 2025; healthcare and social assistance contributed a 70,000 decline. Total separations were 5.319 million, compared with 5.175 million. August revisions also raised hires by 79,000 and separations by 105,000, while reducing quits by 22,000 and increasing layoffs by 127,000.\n\nFactory orders added a separate demand signal. September orders increased 1.8% on the month, exceeding the 1.2% consensus, and August's gain was revised to 0.3% from 0.1%. Orders were 7.2% higher than a year earlier. Civilian aircraft and parts bookings jumped 28.3%, making an important contribution to the headline, but orders excluding transportation rose 1.3%, against expectations of 0.5% and a revised 0.4% increase previously.\n\nEquipment demand extended across several categories. Machinery orders rose 1.5%, while computers and electronic products increased 0.8% on the month and 14.9% on the year. Core capital goods orders, excluding defense and aircraft, were revised to a 0.6% monthly gain from 0.5%; shipments rose an unrevised 1.2%. Motor vehicle bodies, parts and trailers increased just 0.1%, and electrical equipment, appliances and components fell 0.3%. Final durable-goods orders excluding defense rose 2.3%, above the 2.2% consensus, while the excluding-transportation measure increased 0.5%, as expected.\n\nReuters attributed support for manufacturing to AI infrastructure spending and consumer demand, while noting continued difficulties from tariffs, higher prices, longer delivery times and the Iran conflict. The orders figures strengthened the case for continuing equipment investment without erasing those sector differences. Other releases were also firmer: the October Logistics Managers Index rose to 70.7 from 70.2, November's RCM/TIPP Economic Optimism Index increased to 48.5 from 46.8 against a 46.2 consensus, and Redbook sales growth accelerated to 10.4% year on year from 9.3% for the week ended October 31.\n\nTechnology shares recovered despite continuing uncertainty over the returns on investment. The semiconductor index gained 2.63%, the Nasdaq 100 rose 0.68% and the S&P 500 advanced 0.36% to 7,568.92, even as most constituents declined. The VIX eased to 20.83. The Dollar Index rose 0.12% to 101.876 and gold futures fell 0.74% to $3,940.20 an ounce. U.S. high-yield spreads tightened noticeably, providing a credit-market counterpart to the equity rebound.\n\nThe retreat in Treasuries came after positioning had become less bearish. In the week through October 27, asset managers' net long position in 10-year futures reached about 3 million contracts, a record in Bloomberg's account. Open interest subsequently rose around 200,000 contracts last week, equivalent to roughly $16 billion of the current 10-year cash note. Citigroup's David Bieber described tactical positioning as having moved into extended longs. That accumulation preceded Tuesday's data and helps explain why a market that had recently rewarded duration was approaching the next catalysts with more balanced, rather than overwhelmingly short, exposure.\n\n## Meta Secures Capital at Higher Credit Premiums\n\nMeta's dollar sale converted its previously discussed cross-border financing into a completed $15 billion transaction. Peak orders reached about 3.9 times the issue size, roughly in line with the average for major U.S. technology bond offerings this year. Early gray-market quotations were tighter than the pricing spreads, according to people familiar with the transaction, giving the new bonds a firmer initial reception after investors had required generous terms.\n\nThe longest of the five tranches, due in 2056, priced at 220 basis points over Treasuries, 30 basis points inside initial discussions. That remained almost 90 basis points wider than a comparable Meta issue in April. Across the offering, yields ranged from 5.85% to 7.53%. The 10-year's 6.55% yield was not only almost a percentage point above the AA average but roughly half a percentage point above the average for lower-rated BBB debt.\n\nThose comparisons show how substantially sector-specific financing concerns have altered the usual ratings hierarchy. Bloomberg reported technology bonds trading at their largest yield premium to other investment-grade debt since 2003, reversing their customary discount. Bel Air Investment Advisors' Craig Brothers said wider spreads were imposing some discipline, but hyperscalers remained willing to pay them to access capital. Citi and Morgan Stanley ran Meta's transaction.\n\nThe offering forms the largest portion of fundraising expected to reach at least $20 billion across currencies. A debut euro transaction could follow as soon as Wednesday, according to people familiar with the plans. The financing requirement remains substantial: Bloomberg Intelligence expects its group of hyperscalers and neocloud companies to invest almost $4.5 trillion over the next three years, including more than $740 billion at Meta. Those are spending expectations, extending well beyond the capital raised in the completed dollar sale.\n\nThe equity market's recent weakness complicates the effort to diversify that funding. Oracle's now-reported $9.9 billion share sale was priced at an 11% discount, a new measure of the cost of its equity funding alongside Monday's already completed bond transaction. Meta's much larger equity program combines common and preferred financing undertaken last week with permission for future market sales. Lower share prices make that additional channel more expensive for existing shareholders just as creditors seek higher premiums.\n\nAlphabet is pursuing another financing structure, with preliminary documents identifying it as funding recipient for a planned $1.5 billion prepaid-energy municipal bond offering. The California Community Choice Financing Authority will issue the bonds, Goldman Sachs is arranging the transaction, and Central Coast Community Energy will receive discounted electricity to sell to customers along California's coast from Santa Cruz to Santa Barbara.\n\nUnder the prepaid structure, the funding recipient receives bond proceeds upfront and makes periodic payments over time to facilitate energy delivery to the utility. Alphabet's proposed participation would be its second this year following a June transaction, and it remains the first technology company publicly participating in a role historically occupied mainly by banks. The sector has issued about $36.5 billion this year, already exceeding last year's $31 billion record. The arrangement expands the range of funding channels available to a large technology borrower while serving a distinct utility procurement purpose.\n\nAsset managers and bank executives offered sharply different assessments of the investment cycle in Hong Kong. Pimco's Emmanuel Roman estimated AI financing needs at about $10 trillion over five years and warned that the eventual amount could become excessive. Morgan Stanley's Ted Pick described a $10 trillion-$15 trillion buildout as plausible and the industry as still early in its development. Goldman Sachs' David Solomon expected continued financing activity while acknowledging setbacks along the way.\n\nApollo added a more specific caution about underwriting the economics. President Jim Zelter said the manager planned a more defensive approach to AI-related investments: rising computing needs and improving capabilities were clearer than the future path of pricing and returns. That distinction fits the day's primary-market result. Meta found a large order book, but the price of that access reflected unresolved questions about future cash generation rather than an absence of buyers.\n\n## Refinancings and Restructurings Test Uneven Credit Appetite\n\nEurope's leveraged-finance market provided a less accommodating result. Goldman Sachs and Santander withdrew a €550 million refinancing loan for energy infrastructure and services company Iqony after failing to attract enough interest. The BB-rated transaction had been intended to replace debt held by a club of banks; that existing debt will remain in place.\n\nThe financing was opportunistic and marketed on a best-efforts basis, without underwriting or bank balance-sheet commitments. People familiar with the process said demand may also have been constrained by investors' lesser familiarity with sponsor Asterion Industrial Partners. The withdrawal thus interrupted a proposed refinancing rather than removing Iqony's existing funding. It was the second European leveraged-loan deal pulled in a week, following financing for Partners Group's purchase of Aroma-Zone.\n\nBanks continued assembling new acquisition packages. Cinven agreed to buy women's-health pharmaceutical company Theramex from Carlyle and PAI Partners at a reported valuation of about €2.6 billion. Around €1.5 billion of financing is being prepared, likely through leveraged loans and a revolving facility, with Goldman Sachs, Morgan Stanley and Jefferies expected to take leading roles. Institutional syndication is expected toward year-end or early next year. The agreement adds prospective supply even while current distribution conditions remain selective.\n\nIn the U.S., Morgan Stanley launched $2.3 billion of loans for Michael Dell's family office and Sequence Holdings' acquisition of Baldwin Insurance Group. The package comprises a $2 billion term loan and a $300 million delayed-draw term loan, both maturing in seven years. Initial discussions put the margin at 350 basis points over the benchmark and the issue price at 99 cents on the dollar. A further $750 million of second-lien secured debt has already been privately placed. The $7.7 billion all-cash acquisition is expected to close in Q1 2027, with loan commitments due November 12.\n\nMercer International moved toward a more fundamental balance-sheet restructuring. The pulp producer plans a prepackaged Chapter 11 filing in Texas under an agreement supported by holders of more than 87% of its senior notes and a majority of shareholders. The proposal would exchange approximately $1.1 billion of senior notes for equity, reducing the $1.3 billion senior-note debt by about 88%, and provide $400 million through a rights offering fully backstopped by certain members of an ad hoc noteholder group.\n\nExisting shareholders would receive 8.5% of the reorganized company's new common stock and 3.5% of its new convertible preferred stock; their existing shares would be canceled when the restructuring becomes effective. The agreed framework follows an October 1 missed interest payment on notes due in 2028, for which the grace period was extended to 90 days from 30. A Canadian revolving facility also matures in January 2027, and Mercer warned that cash generation was unlikely to cover it without alternative funding or refinancing. Rising fiber and energy costs, tariffs and persistent cash burn had narrowed its options.\n\nVirgin Media O2 announced an operating response to debt pressure. The Liberty Global and Telefonica joint venture plans to stop investing in its fiber network and reduce annual expenditures by £800 million by 2029, including £400 million of savings in 2027. It will seek to cut labor costs by approximately 30% over the next two years. Competition and roughly £22 billion of debt are pushing the operator toward cash conservation after years of broadband expansion; most job reductions are expected in IT and head-office functions, although the company did not specify a headcount.\n\nArgentina's energy companies displayed a different division between debt and equity access. Genneia has deferred a New York listing until at least 2027 as falling local asset prices weigh on valuation, but is targeting a green bond sale this week. YPF Luz's IPO was shelved after controlling shareholder YPF agreed to buy the roughly 25% stake held by a company controlled by a General Electric spin-off for $430 million. That private exit removed a principal reason for the planned listing. The two postponements therefore reflect different immediate causes, even as a broader market retreat makes equity financing less attractive.\n\n## Central Banks Diverge on the Next Increase\n\nAustralia delivered its fifth rate increase of the year, lifting the cash rate 25 basis points to 4.85%, its highest in 18 years, but the six-to-three vote revealed a substantial minority favoring a hold. Governor Michele Bullock emphasized that the most recent increases had not yet begun flowing through the economy. The statement also dropped language, used since June, explicitly declaring a willingness to raise rates further if needed, while Bullock stressed that both further action and a pause remained possible.\n\nThe immediate market response focused on that flexibility. Bloomberg reported traders reducing the probability of a 5.1% cash rate next year to about 30%, from an almost 50% chance of reaching that level by May before the announcement. The Australian dollar fell. Commonwealth Bank's Belinda Allen expects rates to remain unchanged into 2027 as weaker consumption and higher unemployment moderate inflation, while National Australia Bank's Sally Auld warned that the forecast left little room for an upside inflation surprise.\n\nThe official inflation outlook nonetheless deteriorated. The RBA expects inflation to remain elevated through much of 2027 and return to the upper edge of its 2%-3% target only in late 2027, approximately three quarters later than previously forecast. Its separate underlying-inflation forecast put the return inside the band about six months later than in August. Officials cited fuel and commodity costs, greater domestic capacity pressure, technology-goods inflation associated with AI investment, and firms passing through higher input costs.\n\nThe opposing pressure is increasingly visible in demand. The RBA judges financial conditions restrictive, forecasts slower growth and a larger increase in unemployment, and expects housing and consumption to weaken further. Data-center activity supports near-term business investment, but weak productivity has reduced the economy's estimated noninflationary growth capacity. The split vote reflects those competing developments rather than confidence that inflation has already been contained.\n\nSouth Korea's October CPI also showed persistent underlying pressure despite a slightly lower headline. Annual inflation eased to 2.8% from 2.9%, matching Bloomberg's survey median and remaining above the 2% target. Core inflation held at 2.8%, exceeding the 2.7% median forecast. Bloomberg Economics' Hyosung Kwon attributed part of the headline slowdown to the changing timing of Chuseok, which fell in September this year and October last year.\n\nThe production and household-demand split remained pronounced. Q3 output rose 1% quarterly against expectations of 0.8%, with facility investment up 4.1% but private consumption down 0.2%. Working-day-adjusted exports increased about 76% annually in October, and semiconductor shipments rose 259% to $56.4 billion. State Street's Jiuk Choi expects the Bank of Korea to raise its 2027 headline and core inflation forecasts by 10-20 basis points and increase rates at its November meeting. The bank currently holds its benchmark at 3%, with new forecasts due November 26.\n\nNew Zealand's Q3 labor figures, published late in the U.S. afternoon, pointed more clearly toward weakening demand. Unemployment reached 5.7%, its highest since 2015, against both economists' and the RBNZ's 5.5% expectation. Employment contracted 0.1% rather than rising the expected 0.4%, and participation was 70.4%, below the 70.7% forecast. Private-sector labor costs excluding overtime rose 0.4% quarterly, with annual growth slowing to 2% from 2.1%. Kiwibank economists said the deterioration increasingly justified the central bank's recent pause at 2.75%, despite its signal that further tightening remained likely.\n\nIn Europe, Joachim Nagel sharpened the December case. The Bundesbank president said the inflation outlook had worsened since September's projections, which already incorporated another increase. Unless that outlook improved significantly, he saw little alternative to raising rates. He also preserved the reason for October's pause: few second-round effects had appeared so far, although repeated energy shocks could increasingly feed into wage demands.\n\nDutch Governor Olaf Sleijpen described only a hint of indirect effects and said long-term inflation expectations remained favorable, even as short-term expectations rose. Bulgaria's Dimitar Radev separately emphasized that the pause did not end the tightening cycle. Germany's 10-year yield rose 4 basis points to 3.33% in Bloomberg's market account; Britain's increased 7 basis points to 5.26%.\n\nA new Bloomberg Economics exercise reached a different conclusion about the later inflation path. Andrej Sokol used AI analysis of headlines from ECB speeches and interviews together with a nonlinear forecasting tool. The results implied inflation approaching 4% in Q4, then easing to 2.4% by mid-2027 and 1.7% by year-end. That is a model-derived interpretation of officials' communications, below the ECB's latest projected 2027 average of 2.5%, rather than a new official forecast. It highlights the distance between the near-term case for another increase and the prospect of eventual undershooting.\n\nCanada's Tiff Macklem rejected the view that existing federal fiscal plans were already obstructing inflation control. He pointed to spare capacity and an emphasis on investment rather than operating spending, and said neither fiscal unsustainability spilling into markets nor fiscal-monetary conflict currently met his criteria for concern. BMO's Doug Porter disagreed, arguing that broad federal and provincial support was working against last week's rate increase. Porter said a trade agreement reducing tariffs and uncertainty could change his view. Trump separately said an agreement with Canada was close, while Prime Minister Mark Carney said teams would continue negotiating over the coming weeks.\n\n## Fiscal Credibility and State-Linked Credit Face New Tests\n\nBrazil's latest economist survey showed the election shock continuing to alter expected policy well beyond the next meeting. The central bank's weekly survey raised the December Selic forecast to 13.5% from 13.25%, the end-2027 estimate to 12.5% from 11.75%, and the 2028 projection to 11% from 10%. The 2029 forecast increased to 10.25%. Inflation estimates also moved further above the 3% target through 2029. The real fell as much as 1.4% after publication and longer-dated rate futures rose in morning trading.\n\nFinance Minister Dario Durigan pushed back, saying the government intended to improve the public accounts and find ways to balance its fiscal position. The survey shift nonetheless raises the prospective financing burden for borrowers already under pressure. Brazil had 885 billion reais of rural credit outstanding in July, including an unprecedented 208 billion reais classified by the central bank as problematic, encompassing overdue, delinquent or renegotiated loans.\n\nGrowers' representatives are seeking broader relief than a provisional measure allocating 26 billion reais to support subsidized lending. That measure expires in November without congressional approval, and a regional farm lobby said it excluded major lenders from renegotiation. IMEA expects limited crop-area expansion this season and next in Mato Grosso, while Mapa Capital's Manoel Pereira de Queiroz said rising bank risk premiums were keeping credit expensive even when benchmark rates declined. Bankruptcy-protection filings did fall 5.5% quarterly in Q2, according to Serasa Experian, potentially helped by renegotiations; the credit stock and financing cost remained difficult despite that improvement.\n\nChina's newest Huafa-related market figures measured broader spillover rather than another fresh payment failure. Over the two sessions through Monday, benchmark three-year local AAA corporate yields rose 10.3 basis points, their largest two-day increase since October 2024, before remaining little changed Tuesday morning. Huafa's offshore yuan bonds due in 2027 recovered to about 63% of face value after its property arm met payments due Monday. That improvement in public-debt servicing left investors assessing whether asset monetization and continued payments could contain the liquidity strain or whether extensions would prompt wider reassessment of state-owned borrowers.\n\nChinese authorities also acted on a different market imbalance. The PBOC announced an increase in banks' foreign-exchange reserve requirement to 6% from 4%, effective November 15, to absorb foreign-currency liquidity. The onshore yuan weakened as much as 0.4% to 6.6728 per dollar, ending a 13-day winning streak. ANZ's Zhaopeng Xing estimated the measure would withdraw about $24 billion, modest relative to monthly net foreign-exchange sales of approximately $30 billion this year. Revived equity-support facilities did not produce an immediate stock recovery: the CSI 300 fell 0.2% and the Star 50 dropped 3.8%.\n\nBelgium received a new warning about the scale of fiscal adjustment needed even if its government survives. The OECD said planned savings of 1.5% of GDP by 2029 were insufficient and additional cuts equal to 3.5% of GDP by 2035 were necessary to stabilize debt around 110% of GDP. Its preliminary forecast put the deficit at 5.1% in 2027, barely below 2025's 5.2%. Prime Minister Bart De Wever had offered his resignation Monday; the king deferred a decision while consulting coalition parties. The OECD favors front-loaded spending restraint alongside a broader tax base, citing rising interest, ageing, defense and climate-transition costs.\n\nChilean pension figures supplied a fresh measure of the effect of October's lower yields. The conservative E fund gained 3.2% during the month after losing 4.9% in September, narrowing its 2026 loss to 7.6%; C and D funds rose 1% and 1.8%. The pension regulator had put receiver-swap mark-to-market losses at about $7 billion on October 20, down from $10.1 billion at September's end. Managers defend the positions as protection for long-term retirement income, while the losses have prompted regulatory scrutiny. The monthly recovery reduced the damage without eliminating the year's negative return for conservative savers.\n\n## Forward Market Significance\n\nElection counting begins after the completed fixed-income session, with the first polls closing at 6 p.m. Eastern. Congressional control will shape negotiations over spending and the debt limit, but a divided government need not mean lower borrowing. Citi and Goldman Sachs economists see limited prospects for a pre-handover debt-limit agreement, given thin Republican margins and opposition among fiscal conservatives. The limit could be reached in the first months of 2027, with economists placing the eventual financing deadline in the second half. Goldman argues that a bipartisan bargain could raise both defense and nondefense spending. December 11's expiry of temporary government funding is the nearer fiscal deadline.\n\nTreasury's November 4 refunding announcement, scheduled for 8:30 a.m. Eastern, will test whether officials change the maturity mix. JPMorgan Asset Management's Bob Michele urged eliminating the 20-year bond and directing more financing toward bills, citing the depth of money-market assets. No dealer in Bloomberg's survey treats outright abolition as its base case. The distinction between an investor proposal and Treasury's eventual guidance matters after a week in which the long end has lagged shorter maturities.\n\nWednesday's U.S. releases will add October evidence to September's stronger vacancies and orders. ADP employment at 8:15 a.m. Eastern is expected to rise 69,000 after 90,000. Final S&P Global Services PMI follows at 9:45 a.m., with consensus at 57.9 after 58.8, before the headline ISM Services PMI at 10 a.m., expected at 54.8 after 54.9. The trade balance is expected to show a $108 billion September deficit, compared with $105.6 billion. Services activity and employment will be especially relevant to whether the latest manufacturing and vacancy strength extends more broadly.\n\nThursday's initial jobless claims consensus is 196,000 after 194,000. Q3 productivity is expected to rise 2.5%, with unit labor costs up 0.7%, providing a separate comparison between output efficiency and employment costs. Friday's October payroll consensus is 65,000 after 29,000, with the headline U-3 unemployment rate expected to remain 4.2%. Average hourly earnings are expected to rise 0.3% monthly and 2.9% annually. Those measures will distinguish actual job creation and wage pressure from the openings and quits that moved Tuesday's market.\n\nThe Bank of England's Thursday decision carries a larger disagreement about what follows an expected increase to 4%. Money markets price at least 4.75% by the end of next summer, whereas the economist consensus sees only an even chance of another increase in Q1 2027. The bank's forecasts and treatment of energy pass-through will determine how much support it gives either path. Euro-area inflation is expected Wednesday at 4% headline and 2.5% core. Canada's Thursday budget follows Macklem's defense of investment-led fiscal support, including a proposed C$36 billion, five-year expansion of immediate business write-offs.\n\nBrazil's Wednesday decision will show whether policymakers pause easing at 13.75%, as most analysts now expect. Meta's prospective euro debut and the Baldwin loan's November 12 commitment deadline offer distinct tests of primary credit demand. ECB presidential nominations are due November 6, adding a dated procedural step to the leadership transition. Separately, Qatar's mediators expect responses to the latest U.S.-Iran proposals within two days of Tuesday's account. Iran's denial of reported progress and overnight U.S. strikes on Qeshm leave diplomacy active but uncertain, with the persistence of energy costs still consequential for the central banks approaching their next decisions.\n",
     "section_summaries": [
       {
-        "market_read": "Lower underlying yields eased corporate all-in costs, while investors continued to demand compensation for expanding financing needs.",
+        "market_read": "",
         "next_check": "",
         "section_id": "section-01",
         "section_title": "Opening Fixed-Income Thesis",
-        "summary": "Cheaper oil relieved the energy shock without lowering borrowing costs across the board: longer Treasury yields fell, but the two-year and 10-year real yields rose. Oracle and Alphabet secured substantial funding with investor concessions as doubts about AI returns weighed on technology shares. Stronger ISM manufacturing, softer construction and moderating factory prices left demand signals mixed."
+        "summary": "Stronger vacancies and factory orders made an imminent deterioration in U.S. demand harder to assume, outweighing the early support from falling oil. Higher real yields drove most of the Treasury adjustment. Meta's successful but expensive financing and a semiconductor rebound showed renewed willingness to take risk without removing concern over AI spending requirements."
       },
       {
-        "market_read": "The daily rally was driven by lower inflation compensation; over the month, falling real yields accounted for most of the nominal 10-year decline.",
+        "market_read": "The 10-year yield remained 3.46 basis points below its week-earlier level and 31.09 basis points below its month-earlier level.",
         "next_check": "",
         "section_id": "section-02",
-        "section_title": "Oil Relief Lowers Inflation Compensation",
-        "summary": "Iran granted its government more negotiating authority and Trump signaled progress, deepening the crude decline while Tehran retained its demand for an end to the blockade. The 10-year breakeven fell more than nominal yields as real yields rose, flattening the Treasury curve. Factory price pressure moderated, but stronger ISM activity contrasted with weaker S&P manufacturing and construction spending."
+        "section_title": "Labor Demand Reverses the Treasury Rally",
+        "summary": "September vacancies beat forecasts and August was revised higher; factory orders also surprised positively, including orders excluding transportation. Hiring remained uneven and the BLS described overall labor flows as little changed. The 5-year yield led the rise, up 5.32 basis points, while 10-year real yields rose 4.47 basis points against a 0.49-basis-point increase in inflation compensation."
       },
       {
-        "market_read": "Lower underlying yields reopened issuance windows without reversing the higher premiums investors required for corporate risk.",
+        "market_read": "Technology bonds traded at their largest yield premium to other investment-grade debt since 2003, reversing their customary discount.",
         "next_check": "",
         "section_id": "section-03",
-        "section_title": "AI Borrowers Pay for Renewed Market Access",
-        "summary": "Oracle's $10 billion bond sale drew about $38 billion of peak orders but paid roughly 30 basis points above existing debt. Alphabet raised €6 billion with a nearly 24-basis-point average fixed-rate concession. Meta was considering at least $20 billion of debt, while STT GDC discussed a S$3.1 billion loan. Strong demand coexisted with investors' concerns about the scale and returns of AI investment."
+        "section_title": "Meta Secures Capital at Higher Credit Premiums",
+        "summary": "Meta's $15 billion dollar sale attracted up to $58 billion of orders, but its 2056 tranche still priced almost 90 basis points wider than a comparable April issue. A possible euro debut could extend the fundraising. Oracle's discounted share sale and Alphabet's planned prepaid-energy municipal financing illustrated other funding channels as investors questioned the eventual returns on AI investment."
       },
       {
         "market_read": "",
         "next_check": "",
         "section_id": "section-04",
-        "section_title": "Cash Proceeds, Creditor Protections and a Borrower Rebound",
-        "summary": "BP completed its 65% Castrol stake sale, delivering $6 billion for debt reduction. Cloud Software launched $2 billion of secured refinancing with protections against liability-management exercises. Acrisure's November 2030 bonds rebounded to about 87 cents as retail retention improved to 84.2%, alongside continued cash burn and slightly lower adjusted earnings."
-      },
-      {
-        "market_read": "Cheaper energy can ease immediate inflation pressure without reversing capital demand or delayed cost pass-through supporting higher rates.",
-        "next_check": "",
-        "section_id": "section-05",
-        "section_title": "Central Banks Reassess Persistent Price Pressure",
-        "summary": "European bonds rallied, but ECB officials kept further tightening in view. All 35 economists surveyed expected a BOE increase to 4% on November 5 as the UK debate extended to higher neutral rates and investment demand. The BOJ distinguished resilient per-person consumption from weak aggregate growth; oil relief eased India's rate outlook, while Pakistan and Chile still faced persistent inflation."
+        "section_title": "Refinancings and Restructurings Test Uneven Credit Appetite",
+        "summary": "Iqony's EUR550 million refinancing was withdrawn for insufficient demand, leaving existing bank debt in place, while Baldwin launched $2.3 billion of acquisition loans. Mercer proposed exchanging about $1.1 billion of senior notes for equity with $400 million of new funding. Virgin Media O2 plans to halt fiber investment and cut annual spending by GBP800 million by 2029; Genneia deferred its IPO but still targets a green bond sale this week."
       },
       {
         "market_read": "",
         "next_check": "",
+        "section_id": "section-05",
+        "section_title": "Central Banks Diverge on the Next Increase",
+        "summary": "Australia raised its cash rate to 4.85% on a six-to-three vote, with delayed policy effects leaving a pause possible despite a worse inflation outlook. Nagel strengthened the case for a December ECB increase, while New Zealand's weaker labor data supported its recent pause. Korean core inflation remained firm. In Canada, Macklem defended investment-led fiscal support against BMO's view that it was working against monetary tightening."
+      },
+      {
+        "market_read": "",
+        "next_check": "Huafa's continued payments and asset monetization will test whether liquidity strain can be contained or extensions broaden credit reassessment.",
         "section_id": "section-06",
-        "section_title": "Sovereign Access and Energy Financing Diverge",
-        "summary": "Romania sold €4.5 billion of bonds after a prolonged absence, with fiscal discipline central to preserving access. Poland faced a November 4 central-bank board vacancy amid disputed legal consequences. Japan's ¥250 billion transition-bond auction drew lower demand than May's sale, while broader green-financing fee growth masked uneven regional capital allocation."
+        "section_title": "Fiscal Credibility and State-Linked Credit Face New Tests",
+        "summary": "Brazil's survey raised expected rates through 2029 as farm borrowers sought wider relief. Huafa's payment improvement left investors assessing liquidity strain and broader state-linked credit spillovers. China raised banks' FX reserve requirement to 6%, effective November 15. The OECD called for more Belgian fiscal adjustment, while Chile's conservative pension funds recovered in October but retained losses for the year."
       },
       {
         "market_read": "",
         "next_check": "",
         "section_id": "section-07",
         "section_title": "Forward Market Significance",
-        "summary": "The midterms and Treasury refunding will clarify fiscal prospects and the maturity mix of borrowing. Labor releases and the BOE decision will test demand and persistent price pressure, while Meta and Cloud Software face financing decisions. Whether diplomacy sustains cheaper oil remains the immediate condition linking the inflation outlook to central banks' need for further tightening."
+        "summary": "U.S. services data and payrolls will test whether stronger vacancies and orders reflect broader demand resilience. Treasury's refunding guidance will clarify the maturity mix as election results shape fiscal negotiations. The Bank of England's forecasts will confront divergent expectations for further tightening; Meta's prospective euro sale and Baldwin's loan commitments offer separate tests of primary credit demand."
       }
     ]
   },
   "macro_calendar": {
     "released": [
       {
-        "actual": "54.9",
-        "category": "Surveys",
-        "consensus": "56",
-        "date": "2026-11-02",
-        "event_key": "manufacturing_pmi",
-        "forecast": "56",
-        "id": "macro-released-f08e3d5a3f7b",
-        "period": "OCT",
-        "previous": "55.9",
-        "time": "09:45 ET",
-        "title": "S&P Global Manufacturing PMI Final"
-      },
-      {
-        "actual": "-1.9%",
-        "category": "Activity",
-        "consensus": "0.4%",
-        "date": "2026-11-02",
-        "event_key": "construction_spending_mom",
-        "forecast": "0.2%",
-        "id": "macro-released-655c00783d1c",
-        "period": "SEP",
-        "previous": "2% revised",
-        "time": "10:00 ET",
-        "title": "Construction Spending MoM"
-      },
-      {
-        "actual": "55.5",
-        "category": "Surveys",
-        "consensus": "54.6",
-        "date": "2026-11-02",
-        "event_key": "ism_manufacturing",
-        "forecast": "54.7",
-        "id": "macro-released-0268f2e9f6e0",
-        "period": "OCT",
-        "previous": "54.5",
-        "time": "10:00 ET",
-        "title": "ISM Manufacturing PMI"
-      },
-      {
-        "actual": "75.2",
-        "category": "Surveys",
-        "consensus": "77",
-        "date": "2026-11-02",
-        "event_key": "ism_manufacturing_prices",
-        "forecast": "78",
-        "id": "macro-released-f2b6c1bb2a4a",
-        "period": "OCT",
-        "previous": "77.9",
-        "time": "10:00 ET",
-        "title": "ISM Manufacturing Prices"
-      }
-    ],
-    "timezone": "America/New_York",
-    "upcoming": [
-      {
-        "category": "Surveys",
-        "date": "2026-11-03",
-        "event_key": "lmi",
-        "id": "macro-upcoming-e1a35d1dc1ca",
-        "period": "OCT",
-        "previous": "70.2",
-        "time": "06:00 ET",
-        "title": "LMI Logistics Managers Index"
-      },
-      {
+        "actual": "0.5%",
         "category": "Activity",
         "consensus": "0.5%",
         "date": "2026-11-03",
         "event_key": "durable_goods_mom",
         "forecast": "0.5%",
-        "id": "macro-upcoming-bd75f0bf75c8",
+        "id": "macro-released-246b5d858c4e",
         "period": "SEP",
         "previous": "0.3%",
         "time": "10:00 ET",
         "title": "Durable Goods Orders Ex Transp MoM Final"
       },
       {
+        "actual": "1.3%",
         "category": "Activity",
+        "consensus": "0.5%",
         "date": "2026-11-03",
         "event_key": "factory_orders",
         "forecast": "0.4%",
-        "id": "macro-upcoming-9862ee2c6842",
+        "id": "macro-released-6978cfe08316",
         "period": "SEP",
-        "previous": "0.3%",
+        "previous": "0.4% revised",
         "time": "10:00 ET",
         "title": "Factory Orders ex Transportation"
       },
       {
+        "actual": "1.8%",
         "category": "Activity",
         "consensus": "1.2%",
         "date": "2026-11-03",
         "event_key": "factory_orders_mom",
         "forecast": "1.3%",
-        "id": "macro-upcoming-3f80f91fb802",
+        "id": "macro-released-788a288d8b5c",
         "period": "SEP",
-        "previous": "0.1%",
+        "previous": "0.3% revised",
         "time": "10:00 ET",
         "title": "Factory Orders MoM"
       },
       {
+        "actual": "7.523M",
         "category": "Labor",
-        "consensus": "7.13M",
+        "consensus": "7.10M",
         "date": "2026-11-03",
         "event_key": "jolts",
         "forecast": "7.06M",
-        "id": "macro-upcoming-c90a28ec1417",
+        "id": "macro-released-e2b19fe2db8f",
         "period": "SEP",
-        "previous": "7.079M",
+        "previous": "7.19M revised",
         "time": "10:00 ET",
         "title": "JOLTs Job Openings"
+      }
+    ],
+    "timezone": "America/New_York",
+    "upcoming": [
+      {
+        "category": "Growth",
+        "date": "2026-11-04",
+        "event_key": "gdpnow",
+        "id": "macro-upcoming-9e36fc07dade",
+        "period": "Q4",
+        "title": "Atlanta Fed GDPNow"
       },
       {
         "category": "Labor",
-        "consensus": "65K",
+        "consensus": "69K",
         "date": "2026-11-04",
         "event_key": "adp_employment",
         "forecast": "80.0K",
@@ -977,6 +934,52 @@
         "previous": "90K",
         "time": "08:15 ET",
         "title": "ADP Employment Change"
+      },
+      {
+        "category": "Trade",
+        "consensus": "$-108B",
+        "date": "2026-11-04",
+        "event_key": "trade_balance",
+        "forecast": "$-108.8B",
+        "id": "macro-upcoming-20b1a4f2cf07",
+        "period": "SEP",
+        "previous": "$-105.6B",
+        "time": "08:30 ET",
+        "title": "Balance of Trade"
+      },
+      {
+        "category": "Surveys",
+        "consensus": "57.9",
+        "date": "2026-11-04",
+        "event_key": "services_pmi",
+        "forecast": "57.9",
+        "id": "macro-upcoming-bf8daf916d60",
+        "period": "OCT",
+        "previous": "58.8",
+        "time": "09:45 ET",
+        "title": "S&P Global Services PMI Final"
+      },
+      {
+        "category": "Surveys",
+        "consensus": "54.8",
+        "date": "2026-11-04",
+        "event_key": "ism_services",
+        "forecast": "54.5",
+        "id": "macro-upcoming-f43b7731d81c",
+        "period": "OCT",
+        "previous": "54.9",
+        "time": "10:00 ET",
+        "title": "ISM Services PMI"
+      },
+      {
+        "category": "Energy",
+        "date": "2026-11-04",
+        "event_key": "eia_crude_stocks",
+        "id": "macro-upcoming-2d1a32ec5ce6",
+        "period": "OCT/30",
+        "previous": "-1.892M",
+        "time": "10:30 ET",
+        "title": "EIA Crude Oil Stocks Change"
       }
     ]
   },
@@ -1048,192 +1051,192 @@
       "published_date": "2026-10-30"
     },
     "treasury": {
-      "comparison_date": "2026-10-29",
-      "observation_date": "2026-10-30",
-      "par_change_pct": 33.6863,
+      "comparison_date": "2026-10-30",
+      "observation_date": "2026-11-02",
+      "par_change_pct": -35.7474,
       "segments": [
         {
           "key": "nominal_coupons",
-          "par_change_pct": 35.6593,
-          "par_usd_bn": 1586.4,
-          "trade_count": 601653
+          "par_change_pct": -35.9997,
+          "par_usd_bn": 1015.3,
+          "trade_count": 447089
         },
         {
           "key": "tips",
-          "par_change_pct": 296.4286,
-          "par_usd_bn": 88.8,
-          "trade_count": 8495
+          "par_change_pct": -75.4505,
+          "par_usd_bn": 21.8,
+          "trade_count": 6355
         },
         {
           "key": "bills",
-          "par_change_pct": 2.4257,
-          "par_usd_bn": 261.8,
-          "trade_count": 70247
+          "par_change_pct": -20.2445,
+          "par_usd_bn": 208.8,
+          "trade_count": 56927
         },
         {
           "key": "frns",
-          "par_change_pct": 5.7971,
-          "par_usd_bn": 7.3,
-          "trade_count": 402
+          "par_change_pct": -56.1644,
+          "par_usd_bn": 3.2,
+          "trade_count": 441
         }
       ],
-      "total_par_usd_bn": 1944.2,
-      "total_trade_count": 680797
+      "total_par_usd_bn": 1249.2,
+      "total_trade_count": 510812
     }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
     "causal_cutoff_et": "17:00",
     "reason": null,
-    "report_date": "2026-11-02",
+    "report_date": "2026-11-03",
     "schedule_version": "2026-2027 issued 2025-12-17",
     "status": "regular"
   },
-  "methodology_note": "Rates: Bloomberg dated daily yield references. Changes and curves use the same daily observations; exact observation times are not specified. ETF prices are unadjusted November 2 exchange closes compared with October 30 closes; credit-card percentages add issuer-declared November 2 cash distributions. Price-only changes: LQD -0.5371%, HYG -0.6974%, JNK -0.7744%, EMB -0.2933%.",
+  "methodology_note": "Rates: Bloomberg dated daily yield references. Changes and curves use the same daily observations; exact observation times are not specified.",
   "mode": "full",
   "overall_summary": {
     "bullets": [
-      "UST 2Y 4.5937% (+0.61 bp) | UST 5Y 4.7091% (-1.07 bp)",
-      "UST 10Y 4.9125% (-1.64 bp) | UST 30Y 5.2857% (-2.25 bp)",
-      "10Y TIPS real yield 2.6095% (+2.5 bp) | 10Y breakeven inflation 2.303% (-4.14 bp)",
-      "UST 2s10s curve 31.88 bp (-2.25 bp) | UST 2s30s curve 69.2 bp (-2.86 bp)"
+      "UST 2Y 4.6309% (+3.72 bp) | UST 5Y 4.7623% (+5.32 bp)",
+      "UST 10Y 4.9621% (+4.96 bp) | UST 30Y 5.3265% (+4.08 bp)",
+      "10Y TIPS real yield 2.6542% (+4.47 bp) | 10Y breakeven inflation 2.3079% (+0.49 bp)",
+      "UST 2s10s curve 33.12 bp (+1.24 bp) | UST 2s30s curve 69.56 bp (+0.36 bp)"
     ],
-    "headline": "Oil relief lifts longer Treasuries through lower inflation compensation",
-    "session_narrative": "Longer Treasuries advanced as renewed scope for U.S.-Iran negotiations sent Brent down 8.11% to $104.23 a barrel. The 10-year yield fell 1.64 basis points to 4.9125% and the 30-year declined 2.25 basis points to 5.2857%, while the two-year rose 0.61 basis point to 4.5937%. The rally reflected lower inflation compensation: the 10-year breakeven fell 4.14 basis points to 2.303%, outweighing a 2.5-basis-point rise in the real yield to 2.6095%.\n\nTechnology borrowers regained market access at a price. Oracle completed a $10 billion bond sale with its longest notes at 335 basis points over Treasuries; Alphabet raised €6 billion with an average concession of nearly 24 basis points on its fixed-rate bonds. Meta was considering at least $20 billion of cross-border debt, with no final decision. AI financing needs remained substantial even as technology shares fell and equity volatility rose.\n\nU.S. activity releases were mixed: ISM manufacturing strengthened to 55.5 and its prices index eased to 75.2, but construction spending fell 1.9%. Iran's demand for an end to the U.S. blockade remained unresolved, leaving the persistence of cheaper energy central to the inflation outlook.",
-    "summary": "A wider diplomatic opening between Washington and Tehran reduced the energy premium, while rising real yields and substantial concessions on AI-related debt kept the relief distinct from a broad decline in financing costs."
+    "headline": "Stronger U.S. demand reverses the Treasury rally as real yields rise",
+    "session_narrative": "Treasuries surrendered an early oil-led rally after September job openings reached 7.523 million against a 7.100 million consensus and factory orders rose 1.8%, exceeding the 1.2% forecast. August revisions reinforced both surprises, although hiring and industry detail remained uneven. The 10-year yield rose 4.96 basis points to 4.9621%; real yields contributed 4.47 basis points and inflation compensation just 0.49 basis point. Intermediate maturities led the selloff, while the 10-year yield remained below its week- and month-earlier levels.\n\nMeta raised $15 billion in the day's only U.S. investment-grade offering, drawing as much as $58 billion of orders. Its 10-year debt yielded 6.55%, almost a percentage point above similarly rated AA bonds. The strong reception preserved access to capital without resolving concerns about the cash returns on AI spending. Semiconductor shares rebounded and U.S. high-yield spreads tightened noticeably, giving the session a less defensive character.\n\nAustralia raised rates on a divided vote while leaving room for a pause, and European officials kept another increase in view. U.S. services and payroll figures now test whether the demand resilience extends beyond vacancies and manufacturing, alongside Treasury's forthcoming guidance on the maturity mix of borrowing.",
+    "summary": "Job openings and factory orders beat expectations, interrupting the recent bond recovery, while Meta's heavily subscribed $15 billion sale showed that financing remains available for AI investment at increasingly expensive terms."
   },
-  "report_date": "2026-11-02",
-  "run_id": "daily-fi-correction-2026-11-02-d89e8012586f",
+  "report_date": "2026-11-03",
+  "run_id": "daily-fi-simple-2026-11-03-ff3172f0-364116fc",
   "watch_events": [
     {
-      "category": "Energy and inflation",
-      "date": "Ongoing",
+      "category": "U.S. activity",
+      "date": "November 4-6",
       "id": "watch-01",
-      "market_implication": "Sustained cheaper energy would ease inflation pressure and influence the need for further central-bank tightening.",
-      "market_trigger": "Diplomatic progress sustains Monday's crude decline as exports from other Gulf producers recover.",
-      "title": "Iran diplomacy and the oil decline",
-      "watch_line": "Track whether negotiations can progress alongside Tehran's demand for an end to the U.S. blockade."
+      "market_implication": "Broader strength would reinforce the demand-based case for higher yields; weaker hiring would qualify the vacancy signal.",
+      "market_trigger": "ISM Services is expected at 54.8; payrolls at 65,000, unemployment at 4.2% and monthly earnings growth at 0.3%.",
+      "title": "Does U.S. demand resilience extend?",
+      "watch_line": "Services activity, actual job creation and wages follow the stronger vacancies and orders."
     },
     {
       "category": "Treasury supply",
-      "date": "November 4",
+      "date": "November 4, 8:30 a.m. ET",
       "id": "watch-02",
-      "market_implication": "The maturity mix will determine how much of the continuing borrowing requirement falls on longer-duration debt.",
-      "market_trigger": "Treasury cuts long-bond auction sizes immediately or changes guidance to allow later adjustments.",
-      "title": "Treasury refunding maturity mix",
-      "watch_line": "Watch the allocation of funding across maturities after the long end's daily outperformance."
+      "market_implication": "The maturity allocation will test the long end's sensitivity to supply alongside changing expectations for economic demand.",
+      "market_trigger": "Treasury guidance shows whether borrowing shifts toward bills; no surveyed dealer has 20-year abolition as its base case.",
+      "title": "Treasury clarifies its borrowing mix",
+      "watch_line": "The refunding announcement follows a week in which the long end lagged shorter maturities."
     },
     {
-      "category": "Credit issuance",
-      "date": "November 3",
+      "category": "Monetary policy",
+      "date": "November 5",
       "id": "watch-03",
-      "market_implication": "Terms will show how lenders price large investment-grade funding needs against leveraged-software refinancing risk.",
-      "market_trigger": "Financing terms emerge for Meta's contemplated debt and Cloud Software's refinancing with creditor protections.",
-      "title": "Meta and Cloud Software financing terms",
-      "watch_line": "Meta's investor calls continue, while Cloud Software's secured refinancing is expected to price."
+      "market_implication": "Support for either path would reshape the expected extent of further tightening and the rates outlook.",
+      "market_trigger": "Guidance addresses markets pricing at least 4.75% by next summer versus economists' even chance of another rise in Q1 2027.",
+      "title": "Bank of England defines the path after an increase",
+      "watch_line": "Forecasts and the treatment of energy pass-through accompany an expected increase to 4%."
     }
   ],
   "yield_heat_map": {
     "rows": [
       {
-        "change_1d": "+0.61 bp",
-        "change_1m": "-23.33 bp",
-        "change_1w": "-12.22 bp",
+        "change_1d": "+3.72 bp",
+        "change_1m": "-19.61 bp",
+        "change_1w": "-10.6 bp",
         "id": "ust2y_ny_close",
-        "last": "4.5937%",
+        "last": "4.6309%",
         "reference_type": "source_specific",
         "tenor": "2Y",
-        "timestamp": "2026-11-02T22:00:00.000Z"
+        "timestamp": "2026-11-03T21:59:59.000Z"
       },
       {
-        "change_1d": "-1.07 bp",
-        "change_1m": "-34.49 bp",
-        "change_1w": "-11.71 bp",
+        "change_1d": "+5.32 bp",
+        "change_1m": "-29.17 bp",
+        "change_1w": "-8.18 bp",
         "id": "ust5y_ny_close",
-        "last": "4.7091%",
+        "last": "4.7623%",
         "reference_type": "source_specific",
         "tenor": "5Y",
-        "timestamp": "2026-11-02T21:59:59.000Z"
+        "timestamp": "2026-11-03T22:00:00.000Z"
       },
       {
-        "change_1d": "-1.64 bp",
-        "change_1m": "-36.05 bp",
-        "change_1w": "-7.59 bp",
+        "change_1d": "+4.96 bp",
+        "change_1m": "-31.09 bp",
+        "change_1w": "-3.46 bp",
         "id": "ust10y_ny_close",
-        "last": "4.9125%",
+        "last": "4.9621%",
         "reference_type": "source_specific",
         "tenor": "10Y",
-        "timestamp": "2026-11-02T21:59:58.000Z"
+        "timestamp": "2026-11-03T21:59:58.000Z"
       },
       {
-        "change_1d": "-2.25 bp",
-        "change_1m": "-33.53 bp",
-        "change_1w": "-1.71 bp",
+        "change_1d": "+4.08 bp",
+        "change_1m": "-29.45 bp",
+        "change_1w": "+1.62 bp",
         "id": "ust30y_ny_close",
-        "last": "5.2857%",
+        "last": "5.3265%",
         "reference_type": "source_specific",
         "tenor": "30Y",
-        "timestamp": "2026-11-02T21:59:58.000Z"
+        "timestamp": "2026-11-03T21:59:58.000Z"
       },
       {
-        "change_1d": "-2.25 bp",
-        "change_1m": "-12.72 bp",
-        "change_1w": "+4.63 bp",
+        "change_1d": "+1.24 bp",
+        "change_1m": "-11.48 bp",
+        "change_1w": "+7.14 bp",
         "id": "ust_2s10s_curve",
-        "last": "31.88 bp",
+        "last": "33.12 bp",
         "reference_type": "source_specific",
         "tenor": "2S10S",
-        "timestamp": "2026-11-02"
+        "timestamp": "2026-11-03"
       },
       {
-        "change_1d": "-2.86 bp",
-        "change_1m": "-10.2 bp",
-        "change_1w": "+10.51 bp",
+        "change_1d": "+0.36 bp",
+        "change_1m": "-9.84 bp",
+        "change_1w": "+12.22 bp",
         "id": "ust_2s30s_curve",
-        "last": "69.2 bp",
+        "last": "69.56 bp",
         "reference_type": "source_specific",
         "tenor": "2S30S",
-        "timestamp": "2026-11-02"
+        "timestamp": "2026-11-03"
       },
       {
-        "change_1d": "-1.11 bp",
-        "change_1m": "-9.6 bp",
-        "change_1w": "-3.61 bp",
+        "change_1d": "+1.96 bp",
+        "change_1m": "-7.64 bp",
+        "change_1w": "-2.3 bp",
         "id": "ust_2s5s10s_bfly",
-        "last": "-8.8 bp",
+        "last": "-6.84 bp",
         "reference_type": "source_specific",
         "tenor": "2S5S10S",
-        "timestamp": "2026-11-02"
+        "timestamp": "2026-11-03"
       },
       {
-        "change_1d": "-1.64 bp",
-        "change_1m": "-15.24 bp",
-        "change_1w": "-1.25 bp",
+        "change_1d": "+2.12 bp",
+        "change_1m": "-13.12 bp",
+        "change_1w": "+2.06 bp",
         "id": "ust_2s10s30s_bfly",
-        "last": "-5.44 bp",
+        "last": "-3.32 bp",
         "reference_type": "source_specific",
         "tenor": "2S10S30S",
-        "timestamp": "2026-11-02"
+        "timestamp": "2026-11-03"
       },
       {
-        "change_1d": "+2.5 bp",
-        "change_1m": "-29.95 bp",
-        "change_1w": "-2.84 bp",
+        "change_1d": "+4.47 bp",
+        "change_1m": "-25.48 bp",
+        "change_1w": "+1.26 bp",
         "id": "tips10y_ny_close",
-        "last": "2.6095%",
+        "last": "2.6542%",
         "reference_type": "source_specific",
         "tenor": "10TIPS",
-        "timestamp": "2026-11-02T21:59:58.000Z"
+        "timestamp": "2026-11-03T21:59:58.000Z"
       },
       {
-        "change_1d": "-4.14 bp",
-        "change_1m": "-6.1 bp",
-        "change_1w": "-4.75 bp",
+        "change_1d": "+0.49 bp",
+        "change_1m": "-5.61 bp",
+        "change_1w": "-4.72 bp",
         "id": "be10y_ny_close",
-        "last": "2.303%",
+        "last": "2.3079%",
         "reference_type": "source_specific",
         "tenor": "10BE",
-        "timestamp": "2026-11-02"
+        "timestamp": "2026-11-03"
       }
     ],
     "source_label": "Bloomberg"
