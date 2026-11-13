@@ -1,11 +1,17 @@
 {
-  "anchor": "information_window",
+  "anchor": "ny_close",
   "archive_dates": [
+    {
+      "date": "2026-11-12",
+      "label": "2026-11-12",
+      "href": "?date=2026-11-12",
+      "active": true
+    },
     {
       "date": "2026-11-11",
       "label": "2026-11-11",
       "href": "?date=2026-11-11",
-      "active": true
+      "active": false
     },
     {
       "date": "2026-11-10",
@@ -722,222 +728,486 @@
       "active": false
     }
   ],
-  "cross_asset_cards": [],
+  "cross_asset_cards": [
+    {
+      "id": "cross-asset-credit",
+      "reference_type": "ny_close",
+      "summary": "Nvidia's protection costs fell after an initial rise, while CoreWeave's bonds improved on secured-financing details.",
+      "title": "Credit",
+      "value": "LQD 103.05 (-0.8753%) / HYG 76.98 (-0.4783%) / JNK 92.42 (-0.4417%) / EMB 91.34 (-0.7929%)"
+    },
+    {
+      "id": "cross-asset-dollar-commodities",
+      "reference_type": "ny_close",
+      "summary": "The dollar strengthened and gold fell as oil rebounded on reduced optimism over an Iran agreement.",
+      "title": "Dollar and commodities",
+      "value": "DXY 103.172 (+0.2546%) / WTI 88.7 (+2.5078%) / Brent 95.77 (+3.2449%) / Gold 3881.7 (-2.9696%)"
+    },
+    {
+      "id": "cross-asset-equities-volatility",
+      "reference_type": "ny_close",
+      "summary": "Broad equities declined modestly and volatility rose as Nvidia's leadership crisis disrupted technology shares.",
+      "title": "Equities and volatility",
+      "value": "S&P 500 7592.3999 (-0.3541%) / Nasdaq 100 28289.1875 (-0.2998%) / SOX 10506.6738 (-0.5437%) / VIX 18.7 (+6.9182%)"
+    }
+  ],
   "header": {
-    "as_of_note": "U.S. fixed-income market closed · Veterans Day · 2026-11-11",
-    "latest_update_cutoff": "No U.S. fixed-income price discovery",
-    "stance": "U.S. fixed-income markets were closed; sovereign policy and secured financing shape the next session.",
+    "as_of_note": "NY close · 2026-11-12",
+    "latest_update_cutoff": "NY close",
+    "stance": "Treasury yields rise as oil rebounds and Fed tightening calls outweigh early haven demand",
     "title": "Daily FI Market Intelligence"
   },
   "localizations": {
     "zh-TW": {
-      "cross_asset_summaries": {},
-      "header": {
-        "stance": "美國固定收益市場休市，主權政策與有擔保融資將影響下一交易日。"
+      "cross_asset_summaries": {
+        "credit": "Nvidia信用違約保護成本先升後降；CoreWeave擔保融資細節則帶動其債券走強。",
+        "dollar_commodities": "伊朗協議樂觀情緒降溫，油價反彈，美元走強、黃金下跌。",
+        "equities_volatility": "Nvidia領導層危機擾動科技股，整體股市小跌，波動率上升。"
       },
-      "long_thesis_markdown": "## 假日固定收益市場簡報\n\n美國固定收益市場因退伍軍人節休市，符合SIFMA建議的全日休市安排。假日期間，中國研議對政府債券利息課稅，巴西則提交收緊財政規則的法案，為主權債市帶來重要消息。企業融資方面，CoreWeave正籌備一筆至少$40億、可能取得投資級評等的貸款，延續其有擔保融資策略。\n\n中國的徵詢直接涉及持有政府債券的收益。據知情人士透露，中國人民銀行向銀行調查，若對中央與地方政府債券利息課徵25%稅負，將如何影響需求。銀行在這兩個市場的持有比重各超過60%，其利息所得的稅務待遇，因而同時牽動投資需求與政府舉債成本。目前尚未確定是否實施，也未決定涵蓋既有持債或僅適用新發行債券。\n\n巴西將財政撙節承諾推進至立法提案，包括在特定條件下降低實質支出成長上限，讓市場有更具體的依據評估財政整頓。不過，社會支出的保障措施，以及柴油補貼不計入財政目標的安排，仍限制了撙節範圍。企業端則持續透過客戶合約、設備與加盟收入籌資，CoreWeave規劃中的貸款與新證券化方案都是例子。美國債市恢復交易後，這些交易的條件與能否完成，將進一步檢驗借款人取得融資的能力。\n\n## 全球利率、信用與主權動態\n\n中國央行上月進行債券課稅調查，請參與銀行評估，在25%稅率下，需求將減少不到10%、20%、30%，或超過30%。據Bloomberg報導，這項調查並未確定是否開徵或實施時間；中國人民銀行與財政部未回應置評請求。目前，企業與個人持有這些證券的利息收入均免徵所得稅。\n\n中央與地方政府債券合計規模約人民幣100兆元，潛在影響廣泛。華泰證券估計，若對所有流通政府債券利息課稅，機構投資人每年稅負將增加約人民幣4,590億元；若僅適用新發行債券，首年金額約為前者的十分之一。中央政府債券的稅制調整須修法，地方政府債券則可透過行政規則變更。\n\n華泰的試算區分了維持稅後報酬所需的調整幅度與預期市場反應。若25%稅負全數反映於殖利率、使稅後報酬保持不變，10年期公債殖利率須提高52個基點；但華泰預期，新發行10年期債券實際升幅較小，約10至20個基點。國海證券也認為，地方政府債券的調整幅度，可能遠低於完整維持原稅後報酬所需的升幅。在稅收疲弱之際，取消免稅可增加稅收，但投資人要求較高殖利率，也可能推升政府融資成本。\n\n中國另宣布，計劃在11月16日當週於香港發行至多$20億美元主權債。財政部擬議的發行延續跨幣別境外籌資安排，時間在預期於深圳舉行的美中元首會面之前。這為發債日程增添一筆美元交易，最終定價與需求仍待揭曉。\n\n巴西政府週三提交法案，擬自2027年起，在財政目標有無法達成之虞時，將實質支出成長上限由2.5%降至2%。當初級收支落在目標容許區間的下緣範圍內，也可凍結支出，並削減租稅豁免、補貼及稅額抵減。規劃部長Bruno Moretti表示，整體調整應可使2027年初級財政收支改善500億至600億雷亞爾，往後年度的效果將更大。\n\n投資人擔憂巴西債務占GDP比率超過80%、名目赤字超過GDP的9%，這項提案是政府進一步回應疑慮的措施。政府目標是明年達成相當於GDP 0.5%的初級盈餘，亦即不含利息的財政盈餘，並於2030年提高至1.5%。當局擬保障必要社會福利，同時檢討無效租稅優惠與異常偏高的公部門薪資。不過，法案也容許將至多105億雷亞爾的柴油補貼排除於2026年財政目標之外。\n\n這樣的組合，可能仍無法滿足期待停止最低工資實質調升、並採取更深度撙節的投資人。Bradesco Asset Management的Ana Rodela與BB Asset的Guilherme Novaes均懷疑，政府能否提出足以在選前恢復信心的措施。方案仍須透過立法變更落實；魯拉未來的經濟團隊人選，以及明年底前應完成的四名央行理事任命，也將影響政策前景。\n\n智利財政部長Jorge Quiroz首次承認經濟陷入衰退，同時將經濟成長約4%的預測達成時間，由2030年總統任期結束時提前至2028年。季度原始數據顯示，第1季與第2季分別萎縮0.25%及0.02%；央行四捨五入後公布的數字則為先下滑0.3%、其後持平。Quiroz將疲弱主要歸因於銅產量受到衝擊，並以非礦業活動轉強與投資計畫，作為預期復甦的依據。\n\n他雖認為燃料價格上漲只是暫時現象、通膨預期仍穩定，也表示不反對央行以更強力措施因應通膨。談到國營銅業公司Codelco的長期融資，他認為未來可能需要在母公司層級引入民間資本，但須維持國家控制權，並經過廣泛政治討論；政府近期計畫並不包括這項變更。他也建議出售非核心資產。Quiroz預測，全國銅產量可在五年內由今年不到500萬公噸回升至550萬至600萬公噸，新計畫則還需兩至三年才會影響產量。\n\nCoreWeave籌備中的借款，是企業融資最明確的新進展。知情人士向Bloomberg表示，摩根士丹利與三菱日聯金融集團正牽頭安排一筆至少$40億的潛在貸款，最快下週向投資人推介，並可能分階段聯貸。預期將以晶片及相關客戶合約作為擔保，計畫仍可能變動。\n\n儘管CoreWeave本身為非投資級，公司預期這筆融資可取得投資級評等。管理層初步討論的可能殖利率為7%至7.5%。今年3月以Meta客戶合約擔保的$85億投資級融資，可作為結構上的比較：其中一部分浮動利率為SOFR加2.25個百分點，另一部分則以約5.9%的固定利率融資；浮動利差只是其利息成本的一部分。公司調高銷售展望後，這筆新貸款將拓展融資管道，但執行長Michael Intrator仍排除以目前利率進行無擔保借款。\n\nIntrator表示，營業利益成長快於利息費用，並預測2028年淨利可轉正；他也提出增加客戶預付款，作為替代資金來源。D.A. Davidson的Gil Luria仍質疑公司降低債務的能力，理由是利息費用高於調整後營業利益。Bloomberg的Odd Lots另指出，約13萬枚GPU的合約將於2027年到期，管理層認為這可在不增加資本支出的情況下帶來額外收入。由Steph Choe領軍的花旗分析師則認為，潛在施工延誤可能提高既有設施與開發中計畫的價值，並區分已存在的產能與尚待完工的項目。\n\nCoreWeave客戶的需求也有新消息。據知情人士透露，OpenAI第3季營收達$100億，較前季增加近50%，接近去年同期的三倍。Anthropic首次公開發行的認購訂單達可供配售股數的數倍，《金融時報》報導，銀行家正考慮將估值提高至$1.5兆或以上，高於初步條件。不過，投資人Jack Selby仍持懷疑態度，警告若上市首日表現不佳，可能引發更廣泛的AI修正。Theory Ventures的Tomasz Tunguz表示，過去兩週AI融資洽談採用的營收倍數更保守；B Capital的Howard Morgan也表示，正建議新創公司尋求較低估值。已報導的營收增長、這筆發行的強勁需求，與民間資金在洽談時更審慎挑選投資標的的情況並存。\n\n據知情人士透露，Newton Commercial Finance正與投資人初步討論一筆可能達$1.8億的設備貸款與租賃證券化，其中AI晶片貸款約占擔保資產15%。這家由Apple Bank與Eagle Point Credit Management合資的公司，預期Morningstar DBRS給予的評等將介於AAA至BB級。此前，Stonebriar上月發行$8.69億、GPU曝險約15%的證券化商品；Wingspire於9月完成的交易超過$4.07億，GPU曝險約20%。Newton的條件尚未定案。\n\nCrunch Fitness正探索由Guggenheim Securities安排、以加盟收入支持的約$8億融資。擬議結構包括向機構投資人銷售、平均年限五年的$6.5億債券，$1億私募延遲撥款票據，以及$5,000萬可變動融資額度。初步討論的五年期利差為基準利率加230至250個基點；相較之下，Planet Fitness去年證券化交易中約五年期債券的利差為160個基點。Crunch最快下週啟動發行，條件仍可能變動。Neighborly本週另完成$2.75億發行，為全企業證券化市場增添交易。\n\n新發行之外，個別借款人的協商仍在進行。據知情人士透露，JetBlue的多數債權人群體簽署合作協議，禁止與加入該協議的貸款人另訂私下交易。IHeartMedia正探索出售部分或全部Podcast業務以籌措現金。黑石則正推介一檔預計至少募集$30億的基金，擬以低於淨資產價值的價格，買進其他管理人旗下核心型不動產基金權益，回應該領域持續存在的流動性需求。\n\n企業債需求的新分析顯示，家庭追求利息收入是重要支撐。由Dominique Toublan領軍的巴克萊策略師上月撰文指出，截至9月，個人投資人已向追蹤綜合指數的高評級債券基金投入$2,680億，幾乎為2025年同期的兩倍；這些基金約四分之一持倉為企業債。散戶目前持有高評級與高收益企業債市場約17%，為2022年初以來最高。Janus Henderson的Bradford Smith將部分需求歸因於退休族尋求長期收入；道明證券的Hans Mikkelsen則提醒，即使殖利率具吸引力，價格進一步下跌仍可能削弱買進意願。\n\n貨幣政策方面，費城聯準銀行總裁Anna Paulson提出支持逐步緊縮的不同論點。這位有投票權的決策官員週二晚間表示，薪資壓力仍有限，通膨預期也與2%目標一致。若預期上升、薪資加速成長，或基礎通膨走高，她會支持加快行動，但目前未見這些情況。她形容基礎通膨停留在2.5%至3%之間，認為漸進步調可讓家庭、企業與金融機構有時間調整。芝加哥聯準銀行總裁Austan Goolsbee在週二另一場訪談中表示，服務業通膨持續尤其令人憂慮，並拒絕限制下次會議可採取的選項。緊縮速度與何種情況下應加快步調，仍是官員意見分歧之處。\n\n英國則出現更強硬的獨立評估。英國國家經濟及社會研究院（NIESR）週三發布研究指出，即使英國央行再升息一次，通膨直到2030年底仍將高於2%；該院主張明年將利率升至5%，以提前約18個月控制通膨。其擔憂集中在通膨超過4%時進行的薪資談判，以及每季調整的能源價格上限，後者可能使家庭天然氣與電費在1月提高約四分之一。住宅建商Taylor Wimpey同時預測，全年營業利益將落在£2.62億至£2.99億區間的下緣，排除合資事業的完工交屋數為10,500戶。截至11月8日，訂單由去年同期的7,253戶降至6,839戶，反映較高房貸利率與生活成本限制買方需求。澳洲第3季住宅貸款創紀錄下滑15.5%，也呈現另一市場在高利率下借款需求減弱的情況。\n\n美國房貸申請則略有改善。截至11月6日當週，美國房貸銀行協會（MBA）的30年期合約利率下降9個基點至7.21%，連續第四週下滑。購屋貸款申請增加7.5%，為4月中以來最大升幅，但僅是8月底以來第二次單週增加。再融資申請增加4.5%，連續第三週成長，水準仍接近2025年1月以來低點。整體申請量在前週下降1.2%後回升6.2%；市場指數由192.6升至204.6，購屋指數由131.4升至141.2，再融資指數由517.5升至540.7。這些週資料反映假日前的住宅融資狀況。\n\n南韓對十多家銀行與券商開出創紀錄的1.63兆韓元、約合$12億的聯合壟斷罰款。南韓公平交易委員會表示，初級交易商於2020年1月至2023年6月間，在150場政府債券標售中交換投標殖利率資訊，或協調殖利率及投標量，其中145場查獲具體協議。KB證券遭罰3,322億韓元，金額最高。遭刑事告發的七家公司為KB、NH Investment & Securities、Mirae Asset、韓國中小企業銀行、Kiwoom、韓國產業銀行及Korea Investment & Securities。委員會認為，這些行為破壞標售競爭並造成政府損失，形成針對主權債分銷體系的重大執法行動。\n\n兩項央行領導人事問題也有進展。Bloomberg報導，聯準會內部正討論紐約聯準銀行總裁John Williams是否須在2027年6月滿65歲時退休，或可留任至2028年6月、在該職位任滿十年；關鍵在於如何計算他先前擔任舊金山聯準銀行總裁的年資。Williams預期任職至2028年，目前尚未宣布正式遴選程序，也不清楚主席Kevin Warsh或聯準會理事會是否支持提早離任。加拿大方面，經濟學家列出Jean Boivin、Jean-François Perrault、Nicolas Vincent、Carolyn Wilkins、Paul Beaudry與Carolyn Rogers，作為Tiff Macklem的可能接班人；Macklem任期於6月屆滿。加拿大央行總裁由該行董事會任命，須經政府批准，上述人選目前仍屬初期可能名單。\n\n德國獨立經濟顧問將2026年成長預測由5月的0.5%上修至1.3%，2027年預測由0.8%調至1%，理由是政府支出與出口韌性，同時警告赤字擴大。能源供給方面，沙烏地阿拉伯向OPEC通報，10月產量增加26%至每日1,056萬桶；伊拉克通報每日產量接近490萬桶，高於協議上限。伊朗一名高層官員拒絕交出濃縮鈾，使和平進程的一項核心障礙仍未解決。另據牛津經濟研究院的聖嬰現象脆弱度研究，厄瓜多、秘魯與印尼的曝險排名最高，其農業、礦業與發電結構，是天候衝擊影響經濟活動與成本的傳導管道。\n\n## 下一交易日觀察\n\n美國市場恢復交易時，將迎來11月12日的勞動與住宅數據。截至11月7日當週初領失業救濟金人數預估為19.5萬人，前值18.9萬人；截至10月31日當週續領人數預估171萬人，前值171.8萬人，兩者均於UTC 13:30公布。10月成屋銷售於UTC 15:00公布，共識預估385萬戶，前值399萬戶。成屋銷售數據將顯示，近期房貸申請改善之際，實際完成的住宅銷售是否也已轉強。\n\n週四聯準會官員談話包括Beth Hammack於UTC 14:00、Michael Barr於15:00、Goolsbee於16:30、Mary Daly於18:10，以及Williams於23:30發言。Paulson對漸進緊縮提出的條件，以及Goolsbee對服務價格的憂慮，使市場更關注12月9日決策前，是否有更多官員支持加快步調。\n\n假日休市後，美國財政部預定於UTC 18:00標售30年期公債，4週、8週與17週國庫券則安排在16:30。長債標售將提供觀察市場對長天期利率曝險需求的新依據。UTC 19:00公布的10月聯邦預算收支，預估赤字為$2,986億；聯準會資產負債表與準備金餘額數據隨後於21:30公布。\n\nUTC 17:00公布的能源庫存，將在波斯灣產量回升、外交問題未解之際，提供實體供給面的進一步資訊。共識預估截至11月6日當週，原油庫存減少110萬桶、汽油減少10萬桶、餾分油減少100萬桶。即使生產國恢復供給，庫存結構仍有助判斷燃料成本壓力能持續多久。\n\n融資日程也延伸至恢復交易之後。CoreWeave潛在貸款將檢驗以晶片及客戶合約擔保可取得的借款條件；Newton設備資產擔保證券（ABS）與Crunch加盟收入證券化，則涉及不同擔保資產與投資人群體。Anthropic預定11月18日定價、11月19日開始交易，將使強勁訂單面對民間投資人對估值的疑慮。中國擬議美元主權債發行安排在11月16日當週。中國債券利息課稅的立法進展與適用範圍，以及巴西國會對財政方案的處理，仍各自影響政府融資成本。\n",
-      "methodology_note": "SIFMA建議美國固定收益市場於退伍軍人節全日休市。本文未將前一交易日的市場水準列為當日行情變動。",
+      "header": {
+        "stance": "油價反彈與聯準會緊縮主張壓過早盤避險需求，美債殖利率走高"
+      },
+      "long_thesis_markdown": "## 固定收益市場主線\n\n油價反彈，加上聯準會官員再度呼籲收緊政策，壓過Nvidia領導層危機引發的早盤避險買盤，美國公債轉為下跌。2年期殖利率上升14.37個基點至4.8814%，10年期上升13.75個基點至5.1271%。退伍軍人節休市後恢復交易，通膨與預期升息步調對債市的影響，大於科技股下跌。\n\n美國總統川普表示，美國可以不與伊朗達成協議，令外交進展帶來的樂觀情緒部分逆轉。即使美國原油與成品油庫存大增，布蘭特原油期貨仍上漲3.24%至每桶$95.77。克里夫蘭聯準銀行總裁Beth Hammack主張更頻繁、小幅度升息；舊金山聯準銀行總裁Mary Daly則表示，企業正考慮轉嫁成本，可能仍須進一步緊縮。兩人的談話鞏固政策收緊方向，但12月升息幅度仍有分歧。\n\n信用市場對股市震盪與借款人融資前景作出不同評價。Nvidia撤換黃仁勳，由財務長Colette Kress暫代執行長，但其信用違約保護成本先升後降。Alphabet完成近$40億等值的亞洲本幣借款；CoreWeave更具體的擔保融資計畫也帶動債券走強。與此同時，市場再度出現警訊，質疑債券投資人能否持續承接AI產業龐大的資金需求。\n\n## 油價與升息主張扭轉美債早盤漲勢\n\nNvidia前景的不確定性，最初支撐長天期美國公債。恢復交易的早盤，30年期殖利率一度下降3個基點至5.32%，10年期則在4.99%左右持穩。澳洲聯邦銀行的Carol Kong認為，這股溫和避險需求，來自市場對這家AI投資熱潮核心企業的疑慮。短端當時已受到通膨與聯準會進一步升息預期壓抑。\n\n隨著能源價格上漲、決策官員強化緊縮理由，早盤支撐消退。收盤時，5年期殖利率上升15.11個基點至4.9704%，為主要付息年期中升幅最大者；30年期上升9.97個基點至5.4521%。2年與10年期利差收窄0.62個基點至24.57個基點，2年與30年期利差縮小4.4個基點至57.07個基點。投資人持有比政策敏感年期更長的公債，所能取得的額外殖利率持續受到壓縮。\n\n這波調整集中在短端，從一週變化尤其明顯：2年期殖利率上升41.91個基點，10年與30年期分別上升29.24與19.82個基點。若與一個月前相比，2年期上升9.45個基點，10年與30年期仍分別低11.07與14.35個基點。近期政策路徑雖急遽重估，較長期間累積的長天期公債漲幅仍保留一部分。\n\n週四10年期殖利率升幅主要來自實質借款成本提高，通膨補償也同步上升。10年期抗通膨公債實質殖利率上升9.59個基點至2.8662%，損益兩平通膨率上升4.16個基點至2.2609%。過去一週，實質殖利率上升26.85個基點，損益兩平通膨率則上升2.39個基點。油價回升增添通膨因素，但這波美債賣壓仍以實質殖利率上升為主。\n\n川普稱華府不需要伊朗協議，並指示副總統范斯將重心轉向國內事務。此前，中東供應恢復跡象與外交解決的希望曾壓低油價；他的談話削弱了這些抑制油價的因素。西德州原油期貨上漲2.51%，收在每桶$88.70，但西德州與布蘭特油價仍均低於一週前。\n\n庫存數據一度抑制油價漲勢。截至11月6日當週，美國原油庫存增加465.7萬桶，市場原估減少148.3萬桶，前值則減少86.5萬桶。蒸餾油庫存增加407.1萬桶，原估減少87萬桶；汽油庫存增加179.9萬桶，原估減少35萬桶。Bloomberg指出，美國原油累庫的部分原因，是高昂運費與中東出口恢復，使美國煉油商得以買進較便宜的原油。實體庫存增加與外交風險再起，在盤中對油價形成相反作用。\n\nHammack這次不僅說明為何要升息，也談到升息方式。她在10月會議曾投下異議票，主張升息0.25個百分點；如今認為通膨朝2%目標下降的進展已停滯，最新數據更朝錯誤方向移動。她偏好穩定、小幅升息，讓家庭與企業較容易調整。若聯準會落後形勢，她願考慮更強力行動，但認為目前尚未如此，對12月會議仍保持開放態度。\n\n今年沒有投票權的Daly則表示，價格壓力已超出直接受到關稅或油價影響最大的產業。她在史丹佛大學表示，聽到更多企業考慮把投入成本轉嫁給客戶。她仍支持9月升息與10月暫停，但傾向進一步緊縮。至於AI，她認為相關建設確實推高部分價格，但漲幅有限、擴散範圍也不廣，目前對整體通膨的影響仍小。她看好最終的生產力效益，但無法確定何時顯現。\n\n聯準會理事Michael Barr在耶魯大學提出另一角度：AI投資已支撐需求，推升半導體、運算設備與營建勞工價格，整體生產力的提升可能較晚才出現。他警告，短期就業可能遭受嚴重衝擊，尤其是年輕、經驗較少的勞工，但這項技術也可能創造新工作，並與既有工作相輔相成。他認為，不同結果取決於技術取得機會與市場集中程度，未表明利率立場。路透將他強調短期成本的觀點，與主席Kevin Warsh著重生產力可能降低通膨的看法作比較。\n\n週四公布的勞動與房市數據，呈現既有緊縮政策不均衡的影響。截至11月7日當週，初領失業救濟人數增加9,000人至20萬人，高於市場預估的19.5萬人。截至10月31日當週，續領人數減少2萬人至169.7萬人，低於預估的171萬人。裁員仍少，但路透報導指出，企業留住員工不等於積極招聘。Pantheon Macroeconomics的Olivia Cross預期第4季裁員仍有限，同時認為金融條件收緊與AI採用增加，可能在2027年帶來壓力。花旗的Veronica Clark則指出，退休與移民限制也可能縮小潛在申領人口。\n\n房市疲弱更為明顯。10月成屋銷售下降5.5%，年率降至375萬戶，低於預估的385萬戶，前值為397萬戶。全美不動產經紀人協會（NAR）公布的數據顯示，交易活動降至16年低點。西部銷售創1999年有紀錄以來最低，南部與中西部也降至十多年來最弱；公寓銷售同樣創1999年開始統計以來新低。\n\n需求轉弱伴隨供給增加與房價漲幅放緩。待售成屋庫存年增4.6%至159萬戶，相當於5.1個月銷售量，為2015年底以來最高。房價中位數年增僅0.4%至$416,700，是2月以來最小漲幅。NAR經濟學家Lawrence Yun認為，房貸利率若下降，可能釋放遞延需求。目前逾7%的房貸利率，以及降至2025年中以來最弱的購屋負擔能力指標，仍壓抑成交。\n\n美國財政部$250億30年期公債標售，得標殖利率為5.441%，前次為5.618%；投標倍數由2.54降至2.36，21.29%的配售量落在最高得標殖利率。市場正適應更高的預期政策利率路徑，這次標售也增加了長天期公債供給。其他資產方面，美元指數上漲0.25%至103.172，黃金期貨下跌2.97%至每盎司$3,881.70。標普500下跌0.35%，那斯達克100下跌0.30%，當日債市走弱之際，整體股市跌幅相對有限。\n\n## Nvidia換帥考驗AI融資模式\n\n美國交易時段，Nvidia領導層危機從董事會商議發展到黃仁勳遭撤換。此前有報導揭露其婚外情，其中一名女性被美國官員懷疑為中國從事間諜活動。財務長Colette Kress接任代理執行長，公司開始尋找正式接班人。Nvidia股價一度下跌14%，終場跌4.3%；競爭對手Broadcom與超微則因可能取得更多業務的預期，雙雙上漲逾5%。\n\n信用違約保護成本走勢不同。根據ICE Data Services，Nvidia的5年期CDS先升後降，截至紐約時間下午1時30分，下跌2.25個基點至139個基點。交易員認為，黃仁勳離任可能使公司減少借款，以及對其他AI企業的財務支持。其他晶片商與超大規模雲端業者的保護成本也下降，反映市場預期它們可能取得更多業務，或未來借款放慢。不過，Nvidia的CDS仍超過6月初的三倍，顯示換帥之前，市場已大幅重估其信用風險。\n\nNvidia融資平台的新報導，具體呈現新管理團隊面臨的問題。知情人士向Bloomberg表示，公司宣布與六家資產管理機構合作建立$5,000億平台至今已數月，尚未促成任何交易。過去一個月，客戶與合作夥伴持續要求提高晶片殘值支持，超過原擬每筆交易25%的上限。最快可能到1月才有公告，且須視這次領導層動盪後，個別交易與整體計畫能否維持。\n\n融資工具仰賴約定的運算容量付款，以及晶片剩餘價值，因此供應商提供多少保障相當重要。保障提高可改善評等、降低客戶借款成本，但也將更多風險轉由供應商承擔。Nvidia的合作夥伴為Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs與KKR。這項已宣布、規模達$5,000億的融資構想，落實過程困難，如今由代理管理團隊領導的公司接手協商。\n\nBroadcom是最直接的競爭對照。5月一筆涉及Anthropic租用晶片、總額$350億的交易中，Broadcom提供$300億保障，協助獲支持的部分取得投資級評等。第二筆Anthropic融資規模$630億，Broadcom保障比例達72.5%，約$430億。美國銀行、花旗與摩根士丹利安排第一順位擔保融資；Blackstone則是已承諾第二順位擔保融資的唯一提供者，部分融資預計第1季分銷予更廣泛的貸款機構。這些較高的保障比例，有助解釋為何Nvidia擬提供的25%支持成為協商焦點。\n\n富國銀行全球高評級債券承銷主管Maureen O'Connor指出，傳統投資級發債也面臨投資人承接能力限制。規模超過約$250億的交易，已在次級市場遭遇阻力，投資人也開始抗拒過密的發行頻率。今年五大超大規模雲端業者發債已超過$2,000億；若納入Nvidia、SpaceX等企業相關資料中心交易，總額約$4,000億。她預期明年會出現更多資產負債表外晶片融資，加權平均年限通常約3年，相較之下，今年AI債券的平均到期年限約15年。\n\nAlphabet則顯示，其他投資人群體仍可提供資金。公司首次發行港幣與新加坡幣債券，合計完成近$40億等值融資。港幣160億元發行涵蓋2年、5年與10年期；新加坡幣22.8億元交易除上述年期外，另有30年期。港幣債定價較初步討論收緊25至30個基點，最終指引時訂單超過港幣325億元；新加坡幣債定價改善20至25個基點，需求超過新加坡幣40億元。資金供一般企業用途，也可能償還債務。\n\nNatixis經濟學家Gary Ng認為，亞洲本幣市場較不擁擠，而且投資人難得能以本國貨幣買進高評級全球科技公司的債券，因此具有吸引力。這些已完成的發行，將Alphabet先前的洽談轉為實際資金；同時，AI相關波動也使市場更仔細檢視產業借款。\n\n假期後，CoreWeave週二公布財報後的首波現券反應浮現。其2031年到期、票息9.75%的債券，週四上午每1美元面額上漲約0.3美分至82.25美分，信用違約保護成本降幅也位居CDX高收益指數成分企業前列。公司股價則在週三上漲約25%後，下跌約7.6%。債權人與股東對同一份財報的反應，反映各自在企業中的權利不同。\n\n公司擬籌措至少$40億貸款，如今結構細節更清楚：透過獨立實體發行，以Meta合約為支持，相關GPU及其他資產提供擔保，期限六年並有部分攤還。CoreWeave本身仍屬投機級，但Meta的信用狀況預期可協助貸款取得投資級評等。摩根士丹利與三菱日聯正考慮最快本週開始分階段聯貸，早於先前預期。管理層初步討論的殖利率為7%至7.5%；相較之下，CoreWeave另一筆2032年到期非投資級債券，週四上午10時08分價格為81美分，殖利率達14.5%。\n\n其他企業的再融資成本依然高昂。Internet Brands恢復與投資人洽談約$35億融資，包括最多$20億槓桿貸款，以及約$15億首次發行的高收益債。初步債券殖利率討論由至少10.5%提高至約11%。加拿大皇家銀行主導前期行銷，可能下週正式推出。這家KKR支持、持有WebMD的企業，曾因利率上升與發行擁擠而延後9月交易；公司約$30億第一順位擔保貸款將於2028年5月到期，另有$28億貸款，包括循環額度，於2029至2031年到期。\n\n電力需求使融資機會從晶片擴大至其他領域。花旗永續長Valerie Smith表示，電氣化正協助銀行朝2030年$1兆永續金融目標推進，目前已完成約$6,470億，合資格範圍如今也納入核能與以自然為本的解決方案。淡馬錫的Kyung-Ah Park則指出，電網與變壓器供應是主要瓶頸。這些觀察顯示，AI建設所需資本，除運算設備外也涵蓋發電與電網。\n\n## 日本通膨與匯率壓力交織，全球成長冷熱不均\n\n日本10月企業物價指數年增7.1%，高於預估的6.5%，也較前值6.8%加速；月增0.7%，為5月以來最快。上游壓力擴大的細項包括，石油與煤製品年增率由11.5%升至15.9%，化學品由13.4%升至15.5%，運輸設備由2.9%升至3.2%；日圓計價進口物價年增24.8%。\n\n日本央行物價統計官員Sayaka Yamazaki表示，企業正轉嫁勞工與原料成本，會計年度下半年開始也影響調價。路透指出，運輸設備漲價的部分原因，是AI需求帶動半導體成本。這份數據強化緊縮理由之際，日圓也正逼近已引起官方關注的價位。\n\n9月反對升息的央行審議委員Toichiro Asada週四表示，對漸進升息持開放態度，但希望步調謹慎。他接受基礎通膨已符合央行目標，也未主張降息；疑慮在於，近期漲價未必由需求帶動，民間消費疲弱，經濟容易受到過度緊縮傷害。他的立場容許再次升息，但對速度與需求條件仍有實質保留。\n\n其後日圓自9月以來首次跌破每美元160日圓，隨後回升至159.88，當日貶幅不到0.1%。日本財務官三村淳表示，近期匯率變動過快，並提及先前干預。官員持續強調變動速度與失序程度，未設定固定觸發價位。道明證券Howard Du認為，近期干預風險偏低，理由是市場對官方先前行動仍記憶猶新，而美國實質利率上升也支撐美元兌日圓。\n\n最新報導量化了為何日本殖利率上升，未直接帶來日圓回升。1至10月，外資買進日本債券與股票合計創紀錄達日圓34.5兆元；日本投資人今年則淨賣出日圓6,890億元海外證券，去年為買進日圓12.5兆元。然而，日本企業對外直接投資扣除盈餘再投資後仍達日圓11.9兆元。花旗策略師也指出，外資股票買家會賣出日圓避險。日本持有的海外證券資產達日圓811兆元，持續對外直接投資，使跨境資金流仍然龐大，即使部分證券投資資金回流亦然。\n\n紐西蘭則呈現強勁的公債需求。週四2037年4月到期公債標售，投標倍數達7.46，為2013年2月以來所有年期最高。10年期殖利率延續跌勢，下降4個基點至4.64%。ITC Markets的Kit Lowe認為，初步選舉結果減輕財政疑慮、每週發行量由紐幣4.5億元降至3.5億元，以及大筆票息發放後的再投資需求，共同提供支撐。\n\n英國成長轉強，但動能集中。第3季GDP季增0.7%，符合預期，高於第2季的0.5%。9月月增0.2%，優於原估持平；8月則由增長0.1%下修為零。服務業第3季成長0.9%，由電腦程式設計與相關活動領軍；生產部門增長0.1%，營建業則萎縮0.7%。企業投資僅增0.4%，約為預期增幅的一半。科技活動拉高整體成長，但更廣泛的投資表現較欠說服力。\n\nRICS房市調查則反映融資成本偏高的另一面。10月對未來一年銷售的預期指標降至負17，為2023年7月以來最低，受訪者預期房價將下跌1%。房貸利率約6%，高於伊朗衝突前的4.83%，壓抑需求。成長與房市數據，讓英國央行對不同產業韌性收到明顯不同的訊號。Bloomberg當日市場報導顯示，英國10年期公債殖利率上升8個基點至5.30%。\n\n路透最新歐洲央行調查中，71名經濟學家一致預期12月升息0.25個百分點至2.75%。分歧在於緊縮終點：46人認為2.75%就是終點利率，25人預期至少再升息一次，最可能在2027年第1季。市場定價則顯示，至2027年底還會升息約兩至三次，比預測中位數更緊。經濟學家將2027年通膨預測由2.6%調高至2.8%，成長預測由1.2%調高至1.3%。\n\nWellington的Fabio Balboni認為，3月是否再升息取決於基礎通膨是否持續，並指出勞工要求調薪彌補購買力損失的風險。Nordea的Jan von Gerich警告，天然氣儲量偏低之際，油期貨下跌可能掩蓋冬季能源風險。歐洲央行接班協商也未定案：德國明確否認《觀點》雜誌所稱，梅爾茨與馬克宏已同意支持Pablo Hernandez de Cos接替拉加德的報導。\n\n## 財政選擇拉開主權融資差異\n\n美國2027會計年度首月，10月赤字創紀錄達$4,040億，較去年同期增加42%。收入下降9%至$3,690億，支出增加12%至$7,730億。即使調整福利給付時點，赤字仍達$2,850億，增加$940億或49%，顯示財政惡化超出日曆因素。\n\n關稅收入下降39%至$192億，個人非扣繳所得稅下降36%至$510億。後者部分受到比較基期扭曲：加州野火相關報稅展延，曾推高2025年10月收入。農業支出增加$140億，包含農業紓困；軍事支出增加$280億，部分因前一年政府停擺，使軍方信託基金付款延後。利息支出總額增加11%至$1,150億。財政部預估全年赤字約$2.2兆，高於前一會計年度的$1.99兆，在當日殖利率走高之際，融資需求仍然龐大。\n\n巴西的新進展，是可能將2027年財政調整擴大至約800億雷亞爾，約合$142億。討論中的追加措施，將限制強制性支出與目前不計入財政目標的支出，補充已提交的500億至600億雷亞爾方案。政府希望年底前向國會提交修憲案。消息傳出後，雷亞爾一度縮小跌幅，交換利率也收斂升幅。不過，魯拉所屬政黨內部有反彈，政府也持續迴避停止基本工資實質調升，因此追加措施的範圍與能否通過仍不確定。\n\n波蘭公債正反映更明顯的財政溢價。Bloomberg最新分析指出，10年期殖利率達6.2%，今年上升約100個基點，與利率交換的差距擴至至少16年來最大。為支應約GDP 7%的赤字，債務發行量自2023年以來幾乎倍增，最高每月達$100億。PGIM的Magdalena Polan認為，償債成本正轉向更高水準，並質疑在政治兩極化下，能否實現有意義的財政整頓。\n\n投資人對此看法不一。Aviva的Kurt Knowlson認為，制度、經濟韌性與歐盟資金仍提供支撐；William Blair的Daniel Wood則認為，債券市場可能高估政治風險。波蘭主權評等仍屬投資級，市場疑慮集中在財政走向及政治體系改變走向的能力；投資組合轉向匈牙利，也呈現區域內的差異。\n\n哥倫比亞銀行業者指出，主權殖利率直接推升民間借款成本。Grupo Aval的Maria Lorena Gutierrez表示，TES公債殖利率為銀行存款成本設定下限，壓縮利差並提高放款利率。Davivienda的Javier Suarez指出，房貸利率達14%至15%，18個月前業界平均僅11.9%。政府預算顯示，若不調整，赤字可能超過GDP 9%，因此正爭取通過可在明年削減逾GDP 2個百分點赤字的法案。銀行高層支持方案的迫切性，包括延長銀行業5%附加稅的提議，但對長期負擔仍有異議。\n\n迦納預算一方面擬提前還款，一方面降低初級盈餘目標。財長Cassiel Ato Forson計畫在12月31日前，支付1月2日到期的$5.9億歐洲債券款項，以及2月的國內債務。為支應四年$100億成長計畫，政府擬自2027年將初級盈餘目標由GDP 1.5%降至0.5%，並將收入與補助由今年預估的GDP 17.2%提高至18.1%。整體赤字預估由2%擴至明年的2.9%。政府以2030年成長8%為目標，2027年則預估5.2%。\n\n斯里蘭卡2027年預算同樣希望在維持財政整頓之餘擴大投資。總統Anura Kumara Dissanayake提議減少經常支出、增加資本投資，並在中期將赤字降至GDP 5%以下。政府正研擬投資保護法，也在現行$30億IMF安排即將結束之際，評估是否需要另一項計畫。若達成工作人員層級協議，可望取得約$3.45億資金。這些財政與融資規畫，發生在復甦仍脆弱之際。\n\n印尼匯債市場呈現殖利率吸引力與信心之間的拉扯。印尼盾一度貶值0.5%，創每美元18,241印尼盾新低，促使印尼央行干預即期與遠期市場，並在次級市場買進公債。10年期殖利率上升4個基點至7.66%。然而，外資11月仍流入債市$1.74億，週二標售的外資參與比例也由前次8.5%升至22.6%。這些流入，與MSCI重新分類疑慮及副總統Gibran Rakabuming Raka辭職後的政治不確定性並存。\n\n越南官員認為借款成本過高，因而延後國際發債。財長Ngo Van Tuan表示，將持續準備並與投資人接觸，等待更好條件；先前討論的主權美元債規模最高$10億。塞爾維亞則立即採取政策行動，意外升息0.25個百分點至6%，打破市場一致預期的按兵不動。央行指出能源成本轉嫁與匯率壓力，10月通膨也由4.1%加速至4.4%。土耳其則把2027年底通膨預測與目標由15%上調至21%；總裁Fatih Karahan表示，這項調整不改變政策，10月利率已降至36%。\n\n## 債權回收價值與永續資本面臨新考驗\n\nCitgo最新獲利與現金展望，讓市場更加揣測Elliott支持的Amber Energy原擬$59億收購案可能重新檢討。煉油商Citgo預期年底現金最高達$70億，全年EBITDA最高$75億，高於先前預估的$58億。油價上漲帶來的額外收益，大幅提高這筆原本用來清償$88億債權的出售交易所涉及資產價值。\n\n部分Citgo相關債券每1美元面額最高成交至120美分，比收購協議所對應價值高約6%。這批2020年到期債券以母公司50.1%股權擔保。巴克萊先前估計，若交易6月完成，簽署協議者每單位本金可獲支付$128，其他持有人為$108；每延後一個月，付款增加0.75%。兩組債券市價差距縮小，反映市場預期條件可能重新考量。\n\n法律效力與最終回收額仍是不同問題。上訴法院10月確認債券有效，但委內瑞拉等方面仍就選擇Amber出價提出上訴。Caledonia交易員Francesco Marani表示，若出售失敗，持有人可能爭取原始請求權，估計相當於每1美元面額170至180美分，但也強調和解金額未必等同該數字。營運價值上升提高債權人協商期待，最終分配仍未確定。\n\n一份新公開的KPMG查核報告，釐清委內瑞拉另一部分財務狀況。2026年前九個月，超過$121億石油與天然氣收入流經美國財政部管理的帳戶；存入資金近99%、即$121.1億已撥付。多數款項透過委內瑞拉外匯拍賣支付，另約$1.33億直接付給政府供應商。報告認定資金屬委內瑞拉主權財產，允許用途受國務卿Marco Rubio行使的權限約束。\n\nSAS則面臨債權是否存續的爭議。持有瑞士法郎1.272億元次順位永續債逾半數的持有人主張，航空公司的美國《破產法》第11章重整未在瑞士獲承認。這批債券自2023年1月以來未付年度利息；持有人在11月5日函件中要求執行債權，並主張發行人SAS Consortium未納入同步進行的瑞典重整。SAS確認收到函件並正審視；其重整原本將這批債券視為已註銷、回收為零。爭議可能使法航荷航擬提高持股至60.5%、取得控制權的計畫更複雜。\n\n針對美國銀行$220億永久固定票息特別股的新研究，凸顯另一種期限延長風險。今年這類證券總報酬下跌8.5%，平均價格約為每1美元面額61美分。由於以新融資取代票息低於5%的特別股將增加成本，發行人未行使可用的贖回權。摩根士丹利一筆$13億、1月可贖回的發行，參考價為61.4美分；U.S. Bancorp票息3.75%的系列則約55美分。票息依契約永久固定，發行人贖回是否划算，成為價格回升前景的關鍵；今年新發行的永久固定票息特別股平均票息為6.69%。\n\n德國央行另警告，若利率上升，或基金因贖回被迫出售，商用不動產價格可能再跌。該行指出，2024年以來的復甦僅涉及相對少量交易，且集中在較優質建物，辦公與零售物業價格最近已略降。8月不動產基金占德國共同基金資產13%，低於2023年底的21%。多檔基金限制提款，顯示流動性更緊；貸款機構Deutsche Pfandbriefbank也預期，近期環境不會改善。\n\n## 後續市場焦點\n\n美債下跌與油價反彈後，週五美國生產者物價數據將提供下一個上游通膨觀察點。能源成本、科技相關投入與更廣泛價格壓力之間的差別，對12月政策辯論仍重要。Hammack主張更頻繁的常規幅度升息，只有在聯準會落後形勢時才考慮更強行動；Daly的企業訪談則顯示，更廣泛的成本轉嫁正被考慮。下一份物價數據公布前，期貨已反映12月、1月與3月各升息0.25個百分點。\n\n日本週一GDP將在12月17至18日央行會議前，檢驗Asada所擔憂的需求面。經濟學家預期消費支出將近兩年來首次下降。這項數據、10月生產者物價加速，以及日圓接近每美元160的組合，將影響進口成本壓力與國內支出之間的政策權衡。再度干預仍是獨立的匯率風險，官方關注的是走勢性質，未宣布固定匯價觸發點。\n\nNvidia的11月17日財報，是代理領導團隊上任後首個重大財務考驗，也將面對未來供應商支持與延宕融資平台的問題。Anthropic發行案及CoreWeave擬議的擔保聯貸，則將各自檢驗機構需求能否轉為條件可接受的實際融資。Nvidia先前承諾買進約$100億Anthropic股份；黃仁勳離任後，這項具體承諾仍受到關注。\n\n財政決策也有各自期限。巴西計畫年底前提出修憲案；哥倫比亞須在今年通過救援法案，才能使措施於2027年初生效。迦納計畫12月31日付款，將檢驗提前還款承諾能否落實。歐盟執委會擬在11月26至27日歐洲理事會會議前，提出烏克蘭2027年融資提案與新一輪俄羅斯制裁；融資工具與負擔分攤仍在討論。\n\n石油外交與航運安全，仍可能在既定數據之外改變通膨展望。美國庫存大增改善了當下國內庫存狀況，川普更強硬的立場則降低市場對談判解決的信心。進入下一個亞洲交易時段，區域供應恢復能否持續、外交若有進展將採取何種條件，仍未明朗。\n",
+      "methodology_note": "利率採Bloomberg各日期的每日殖利率參考值；變動與曲線均以同一組每日觀察值計算，未標示確切觀察時刻。",
       "overall_summary": {
-        "headline": "美國假日期間，中國債券課稅徵詢與巴西財政法案使主權融資成本成為焦點",
-        "session_narrative": "美國固定收益市場因退伍軍人節休市。中國央行向銀行調查，研議對中央與地方政府債券利息課徵25%稅負；兩個市場合計約人民幣100兆元，銀行在各市場的持有比重均超過60%。目前尚未確定是否開徵，以及涵蓋既有持債或僅適用新發行債券。華泰預期，新發行10年期債券殖利率將上升10至20個基點，低於其試算中完整維持原稅後報酬所需的52個基點。\n\n巴西提交法案，擬自2027年起，在財政目標有無法達成之虞時，將實質支出成長上限由2.5%降至2%。政府估計可使2027年初級財政收支改善500億至600億雷亞爾，但社會支出保障、柴油補貼排除條款與立法不確定性，限制了擬議撙節的範圍。\n\nCoreWeave籌備中的至少$40億貸款將以晶片與客戶合約擔保，預期可取得投資級評等，儘管公司本身仍屬非投資級。管理層初步討論的殖利率為7%至7.5%，計畫仍可能變動。Newton設備證券化與Crunch Fitness加盟融資，則分別檢驗不同擔保資產支持的籌資管道。\n\n恢復交易時，11月12日勞動與住宅數據、聯準會對緊縮速度的談話，以及30年期美國公債標售，將為政策預期與長天期債券需求提供新依據。",
-        "summary": "美國固定收益市場因退伍軍人節休市，中國研議對政府債券利息課徵25%稅負，巴西則提出有條件的支出撙節，使主權政策受到關注；CoreWeave同時籌備一筆至少$40億的潛在有擔保貸款。"
+        "headline": "油價與升息主張扭轉早盤避險買盤，美債下跌",
+        "session_narrative": "油價反彈，聯準會官員強化進一步緊縮的理由，美國公債扭轉Nvidia領導層危機帶來的早盤避險漲勢。2年期殖利率上升14.37個基點至4.8814%，10年期上升13.75個基點至5.1271%；2年與10年期利差收窄0.62個基點至24.57個基點。10年期升幅主要來自實質借款成本提高：抗通膨公債殖利率上升9.59個基點，通膨補償上升4.16個基點。\n\n川普表示美國可以不與伊朗達成協議，削弱外交樂觀情緒，即使美國庫存大增，仍推升油價。克里夫蘭聯準銀行總裁Beth Hammack主張更頻繁、小幅升息；舊金山聯準銀行總裁Mary Daly認為，企業正考慮轉嫁成本，可能仍須進一步緊縮。裁員偏低、成屋銷售大幅轉弱，呈現既有緊縮政策不均衡的影響，12月升息幅度仍有分歧。\n\nNvidia撤換黃仁勳，由Colette Kress暫代執行長。交易員評估這次交接是否會使公司減少借款及對其他AI企業的支持，信用違約保護成本先升後降。公司宣布的$5,000億融資平台仍未促成交易，合作夥伴要求將殘值支持提高至原擬25%上限以上。Alphabet仍完成近$40億等值的亞洲本幣借款，CoreWeave也因擔保融資條款更明確而帶動債券走強。投資人的承接能力，以及供應商支持的融資能否落實，仍是主要不確定性。",
+        "summary": "美債重估主要由實質殖利率上升帶動，通膨補償也增加。Nvidia換帥使供應商支持的AI融資浮現疑問，同時Alphabet完成亞洲借款，CoreWeave債券也走強。"
       },
       "section_summaries": [
         {
           "market_read": "",
           "next_check": "",
-          "section_title": "假日固定收益市場簡報",
-          "summary": "退伍軍人節休市期間，中國探索對政府債券利息課稅，巴西則提交收緊財政規則的法案。中國稅負的適用範圍與巴西擬議撙節的限制，均牽動主權舉債成本。CoreWeave潛在的至少$40億貸款延續其有擔保融資策略，條件與能否完成仍待確定。"
+          "section_title": "固定收益市場主線",
+          "summary": "退伍軍人節後恢復交易，通膨與預期升息對美債的影響，大於科技股跌勢。Nvidia換帥引發對融資承諾的疑問；Alphabet完成亞洲發債、CoreWeave債券走強，則顯示債權人正區別看待不同AI借款人。"
         },
         {
-          "market_read": "CoreWeave預期這筆融資可取得的評等，反映晶片與客戶合約提供的擔保；公司本身仍屬非投資級。",
+          "market_read": "本週重估集中在較短年期，10年與30年期殖利率仍低於一個月前。",
           "next_check": "",
-          "section_title": "全球利率、信用與主權動態",
-          "summary": "中國可能對債券利息課徵25%稅負，使銀行稅後報酬面臨變數；巴西有條件將支出成長上限降至2%的提案，則須接受立法與投資人檢視。CoreWeave尋求投資級有擔保借款，Newton與Crunch Fitness探索證券化。家庭追求利息收入的需求支撐企業債。Paulson支持聯準會逐步緊縮，Goolsbee仍擔心服務業通膨；NIESR則呼籲英國央行明年將利率升至5%。"
+          "section_title": "油價與升息主張扭轉美債早盤漲勢",
+          "summary": "川普對伊朗立場轉強硬，推升油價，Hammack與Daly也強化進一步緊縮的理由。主要年期美債殖利率全面上升、曲線趨平，10年期升幅以實質殖利率為主，通膨補償亦上升。石油庫存大增一度抑制油價漲勢；裁員仍少、成屋銷售下降5.5%，顯示限制性融資成本帶來的壓力並不均衡。"
+        },
+        {
+          "market_read": "供應商保證可改善客戶融資條件，同時把風險轉由供應商承擔；投資人承接能力也限制傳統發債。",
+          "next_check": "",
+          "section_title": "Nvidia換帥考驗AI融資模式",
+          "summary": "Nvidia撤換黃仁勳後，由Colette Kress暫時接掌。其$5,000億融資平台尚未促成交易，合作夥伴要求支持超過原擬25%上限，Broadcom更高的保障比例凸顯協商焦點。Alphabet完成近$40億等值亞洲借款；CoreWeave至少$40億、由Meta合約支持的擔保貸款條款浮現，帶動債券走強。富國銀行警告，發行規模與頻率正遭投資人抗拒。"
+        },
+        {
+          "market_read": "日本對外直接投資與匯率避險，有助解釋為何證券投資淨流入轉強，仍未直接帶動日圓回升。",
+          "next_check": "",
+          "section_title": "日本通膨與匯率壓力交織，全球成長冷熱不均",
+          "summary": "日本生產者物價年增加速至7.1%，日圓跌破每美元160；央行審議委員Asada則因消費疲弱，呼籲謹慎掌握緊縮步調。紐西蘭發債量下降、財政疑慮減輕，標售需求格外強勁。英國科技服務帶動成長轉強，房市則轉弱。受訪經濟學家一致預期歐洲央行12月升息至2.75%，但市場反映的後續緊縮幅度高於預測中位數。"
         },
         {
           "market_read": "",
           "next_check": "",
-          "section_title": "下一交易日觀察",
-          "summary": "11月12日將公布美國失業救濟申請與成屋銷售數據，並有聯準會官員談話及30年期美國公債標售。能源庫存有助判斷燃料成本壓力。恢復交易之後，擔保融資提案與Anthropic於11月18日的定價，將檢驗投資人提供資金的意願；中國課稅範圍與巴西財政立法，仍是各自影響主權融資成本的議題。"
+          "section_title": "財政選擇拉開主權融資差異",
+          "summary": "美國2027會計年度以10月創紀錄的$4,040億赤字開局。巴西考慮把財政調整擴至約800億雷亞爾；波蘭面臨更高財政溢價，哥倫比亞銀行則指出，主權殖利率推高民間借款成本。迦納擬提前還款，同時調降初級盈餘目標；斯里蘭卡力求兼顧投資與財政整頓。印尼盾創新低，央行進場干預；越南則因成本延後海外發債。"
+        },
+        {
+          "market_read": "",
+          "next_check": "",
+          "section_title": "債權回收價值與永續資本面臨新考驗",
+          "summary": "Citgo現金與獲利展望轉強，提高市場對Amber Energy的$59億收購案可能重新檢討的預期，債權人最終分配仍未定。SAS永續債持有人反對重整註銷其債權。美國銀行永久固定票息特別股仍大幅折價，發行人略過不划算的贖回；德國央行則警告，升息或基金被迫出售，可能使德國不動產再度蒙受損失。"
+        },
+        {
+          "market_read": "",
+          "next_check": "",
+          "section_title": "後續市場焦點",
+          "summary": "美國生產者物價將為12月緊縮辯論提供依據，日本GDP則將在央行會議前檢驗國內需求。Nvidia財報與潛在AI融資案，將考驗承諾能否轉成實際資金。巴西、哥倫比亞與迦納的財政期限，各有待落實；伊朗外交與航運安全仍未定，也可能獨立改變能源展望。"
         }
       ],
       "watch_events": [
         {
-          "category": "數據與政策",
-          "date": "11月12日",
-          "market_implication": "若更多官員支持加快步調，政策展望將隨之調整；長債需求則將影響恢復交易時的長天期債券定價。",
-          "market_trigger": "12月9日前是否有更多官員支持加速緊縮；UTC 18:00的30年期公債標售將檢驗長天期債券需求。",
-          "title": "美國恢復交易與聯準會緊縮步調",
-          "watch_line": "失業救濟申請、住宅銷售與聯準會官員談話，將為經濟活動及緊縮前景提供新資訊。"
+          "category": "美國通膨",
+          "date": "週五",
+          "market_implication": "若通膨擴散，將強化緊縮理由，目前期貨已反映12月、1月與3月升息。",
+          "market_trigger": "若價格壓力擴大，將支持官員對企業轉嫁成本的疑慮。",
+          "title": "美國生產者物價與聯準會緊縮步調",
+          "watch_line": "觀察生產者物價壓力是否超出能源與科技相關投入。"
         },
         {
-          "category": "主權政策",
-          "date": "持續觀察",
-          "market_implication": "中國課稅可能提高投資人要求的殖利率；巴西最終立法落實的撙節幅度，將影響市場對財政整頓的信心。",
-          "market_trigger": "中國釐清是否開徵，以及是否涵蓋既有債券；巴西國會決定財政方案條文。",
-          "title": "主權債課稅與財政提案",
-          "watch_line": "中國債券利息稅的適用範圍，以及巴西國會如何處理財政方案，仍未確定。"
+          "category": "日本政策",
+          "date": "週一；日本央行會議12月17至18日",
+          "market_implication": "進口通膨壓力仍在，若支出疲弱，將強化對日本央行緊縮速度保持謹慎的理由。",
+          "market_trigger": "經濟學家預期消費支出將近兩年來首次下降。",
+          "title": "日本央行會議前的需求展望",
+          "watch_line": "生產者物價加速、日圓接近每美元160之際，GDP將檢驗消費表現。"
         },
         {
-          "category": "融資需求",
-          "date": "下週；11月18日至19日",
-          "market_implication": "借款條件將顯示不同擔保資產可取得的融資；Anthropic上市將檢驗更廣泛的AI風險偏好。",
-          "market_trigger": "融資條件陸續揭曉；Anthropic於11月18日定價、11月19日開始交易，將面對市場對估值的疑慮。",
-          "title": "擔保融資與AI估值",
-          "watch_line": "CoreWeave潛在貸款、Newton資產擔保證券與Crunch證券化，將分別檢驗不同融資管道。"
+          "category": "AI信用",
+          "date": "11月17日及其後持續觀察",
+          "market_implication": "融資若落實，將釐清借款人取得資金的能力，以及供應商與債權人之間的融資風險分配。",
+          "market_trigger": "關注供應商支持條款，以及擬議發行與擔保貸款能否以可接受條件落實。",
+          "title": "Nvidia代理領導團隊下的AI融資",
+          "watch_line": "Nvidia財報、Anthropic發行案與CoreWeave聯貸，將檢驗融資承諾及需求。"
         }
       ]
     }
   },
   "long_thesis": {
-    "english_markdown": "## Holiday Fixed-Income Brief\n\nU.S. fixed-income markets were closed for Veterans Day, in line with SIFMA's full-close recommendation. China's exploration of a tax on government-bond interest and Brazil's submission of tighter fiscal rules supplied consequential sovereign news during the holiday, while CoreWeave prepared a potential investment-grade loan of at least $4 billion that would extend its use of secured financing.\n\nThe Chinese consultation reaches directly into the economics of holding sovereign debt. The People's Bank of China asked lenders how a 25% tax on interest from central and local government bonds would affect demand, according to people familiar with the survey. Banks hold more than 60% of each market, making the treatment of their interest income important to both investor demand and public borrowing costs. Whether authorities proceed, and whether existing holdings or only new issuance would be affected, remain unresolved.\n\nBrazil moved from promises of fiscal restraint to proposed legislation, including a conditional reduction in the ceiling on real spending growth. The package offers a more concrete basis for assessing consolidation, although its protections for social spending and an exclusion for diesel subsidies leave important limits. Across corporate financing, CoreWeave's planned loan and new securitization proposals showed borrowers continuing to seek capital through customer contracts, equipment and franchise revenue. Their terms and completion will provide fresh tests of funding access when U.S. bond trading resumes.\n\n## Global Rates, Credit, And Sovereign Developments\n\nChina's central bank conducted its bond-tax survey last month, asking participating lenders to indicate whether demand would fall by less than 10%, 20%, 30% or more than 30% under a 25% levy. Bloomberg's account said the survey did not establish whether a tax would be introduced or its timing. The PBOC and Ministry of Finance did not respond to requests for comment. Interest on the securities is currently exempt from income tax for enterprises and individuals.\n\nThe potential scope is substantial: central and local government bonds together total roughly 100 trillion yuan. Huatai Securities estimated that taxing interest on all outstanding government bonds would add about 459 billion yuan to institutional investors' annual taxes. Applying a levy only to new issuance would make the first-year amount roughly one-tenth as large. Tax changes for central government bonds would require a legal amendment; changes for local government debt could be made through administrative rules.\n\nHuatai's calculations illustrate the difference between a full tax adjustment and its expected market response. Preserving the same after-tax return under a fully reflected 25% levy would imply a 52-basis-point increase in 10-year government yields, the brokerage estimated. It expects the actual increase on newly issued 10-year bonds to be smaller, around 10-20 basis points. Guohai Securities similarly judged that the adjustment on local government bonds would probably be considerably smaller than the increase required to preserve the entire after-tax return. Ending the exemption could strengthen tax collection amid weak revenue, while higher required yields could raise the government's financing costs.\n\nChina also announced plans to sell up to $2 billion of dollar sovereign bonds in Hong Kong during the week of November 16. The Ministry of Finance's proposed offering extends offshore fundraising across currencies and comes ahead of an expected meeting between the U.S. and Chinese presidents in Shenzhen. It adds a new dollar transaction to the issuance calendar without establishing its eventual pricing or demand.\n\nBrazil's government submitted legislation Wednesday that would cap real spending growth at 2% from 2027, down from 2.5%, when compliance with the fiscal target is at risk. It would also permit spending freezes when the primary balance is within the target's lower tolerance band and reduce tax exemptions, subsidies and credits. Planning Minister Bruno Moretti said the overall adjustment should improve the primary fiscal result by 50 billion-60 billion reais in 2027, with a larger effect in later years.\n\nThe proposed rules advance the government's response to investor concern about a debt ratio above 80% of GDP and nominal deficits exceeding 9% of GDP. The administration targets a primary surplus, excluding interest, of 0.5% of GDP next year and 1.5% in 2030. It intends to protect essential social benefits and review ineffective tax breaks and unusually high public-sector salaries. At the same time, the bill would allow up to 10.5 billion reais of diesel subsidies to be excluded from the 2026 fiscal target.\n\nThat combination is likely to fall short of investors seeking an end to real minimum-wage increases and deeper restraint. Bradesco Asset Management's Ana Rodela and BB Asset's Guilherme Novaes expressed skepticism about the prospect of measures strong enough to restore pre-election confidence. The package still needs legislative changes, while Lula's future economic-team choices and four central-bank board appointments due by the end of next year remain consequential for the policy outlook.\n\nChile's finance minister, Jorge Quiroz, acknowledged recession for the first time while bringing forward his forecast for growth of about 4% to 2028 from the end of the presidential term in 2030. The underlying quarterly figures show contractions of 0.25% in Q1 and 0.02% in Q2; rounded central-bank figures show a 0.3% decline followed by no change. Quiroz attributed the weakness chiefly to copper-production shocks and pointed to stronger non-mining activity and investment projects as reasons to expect recovery.\n\nHe also said he would see no problem with a stronger central-bank response to inflation, even while describing the fuel-price increase as temporary and expectations as anchored. His longer-term financing comments concerned state-owned Codelco: he said private capital at the parent-company level might eventually be needed, with state control preserved and broad political discussion required. Such a change is outside the government's immediate plans. He also suggested selling non-core assets. National copper output could recover to 5.5 million-6 million metric tons within five years from less than 5 million this year, he forecast, with new projects taking another two to three years to affect production.\n\nCoreWeave's prospective borrowing supplied the clearest new corporate-funding development. Morgan Stanley and Mitsubishi UFJ Financial Group are leading a potential loan of at least $4 billion that could reach investors as soon as next week and be syndicated in phases, people familiar with the matter told Bloomberg. The financing is expected to use chips and related customer contracts as backing. Plans remain subject to change.\n\nThe company expects investment-grade treatment for the facility even though CoreWeave itself is junk-rated. Management's early discussions put a possible yield at 7%-7.5%. Its March $8.5 billion investment-grade facility, backed by Meta customer contracts, provides a structural comparison: one portion carries a floating margin of 2.25 percentage points over SOFR, while another was financed at a fixed rate of about 5.9%. The floating margin is only one component of its interest cost. The new loan would broaden financing access after the company's stronger sales outlook, while Chief Executive Michael Intrator continues to rule out unsecured borrowing at current rates.\n\nIntrator also said operating income was growing faster than interest expense, forecast positive net income in 2028 and described greater use of customer prepayments as an alternative source of funding. Those are management's expectations and financing choices. D.A. Davidson's Gil Luria continued to question the business's ability to reduce debt because interest expense exceeds adjusted operating income. Separately, Bloomberg's Odd Lots account highlighted about 130,000 GPUs coming off contract in 2027 that management sees as potential additional revenue without further capital expenditure. Citi analysts led by Steph Choe argued that possible construction delays could increase the value of established facilities and development pipelines, distinguishing existing capacity from projects still awaiting completion.\n\nDemand news from CoreWeave's customers also developed. OpenAI's Q3 revenue reached $10 billion, almost 50% above the preceding quarter and nearly three times the year-earlier level, according to people familiar with the figures. Anthropic's IPO attracted multiple times the orders for the available shares, and the Financial Times reported that bankers were considering a valuation of $1.5 trillion or more, above the initial terms. Investor Jack Selby remained skeptical, warning that an underperforming debut could catalyze a broader AI correction. Theory Ventures' Tomasz Tunguz reported more conservative revenue multiples in AI financing discussions over the past two weeks, while B Capital's Howard Morgan said he was advising startups to seek lower valuations. Stronger reported revenue and demand for one offering coexist with more selective private-capital negotiations.\n\nNewton Commercial Finance is holding early investor discussions for a potential $180 million equipment-loan and lease securitization, with AI-chip loans making up about 15% of the collateral, according to people familiar with the plans. The Apple Bank and Eagle Point Credit Management venture expects Morningstar DBRS ratings ranging from AAA to the BB tier. The proposal follows Stonebriar's $869 million offering last month, with roughly 15% GPU exposure, and Wingspire's September transaction of more than $407 million, with about 20%. Newton's terms are not final.\n\nCrunch Fitness is exploring about $800 million of franchise-revenue-backed financing arranged by Guggenheim Securities. The proposed structure comprises $650 million of institutionally marketed bonds with a five-year average life, a $100 million privately placed delayed-draw note and a $50 million variable funding facility. Early discussions put the five-year spread at 230-250 basis points over benchmarks, compared with 160 basis points on Planet Fitness's roughly five-year bonds in last year's securitization. Crunch's offering could begin as soon as next week, with terms still subject to change. Neighborly separately sold a $275 million offering this week, adding to activity in whole-business securitization.\n\nBorrower-specific negotiations continued outside new issuance. A majority group of JetBlue creditors executed a cooperation agreement preventing side deals with lenders that joined the pact, according to people familiar with it. IHeartMedia is exploring the sale of some or all of its podcast business to raise cash. Blackstone is pitching a fund expected to raise at least $3 billion to buy interests in other managers' core real-estate funds at discounts to net asset value, addressing a continuing need for liquidity in that sector.\n\nFresh analysis of corporate-bond demand identified household income-seeking as a significant source of support. Barclays strategists led by Dominique Toublan wrote last month that individuals had put $268 billion into aggregate-index high-grade bond funds through September, almost twice the comparable 2025 amount. Corporate debt accounts for roughly a quarter of those funds' holdings. Retail investors now own about 17% of the high-grade and high-yield corporate market, the highest share since early 2022. Janus Henderson's Bradford Smith attributed part of the demand to retirees seeking long-lived income; TD Securities' Hans Mikkelsen cautioned that further price declines could undermine that appetite even when yields are attractive.\n\nIn monetary policy, Philadelphia Fed President Anna Paulson supplied a distinct argument for gradual tightening. Speaking Tuesday evening, the voting policymaker said wage pressures remained limited and inflation expectations consistent with the 2% target. She would favor faster action if expectations rose, wages accelerated or underlying inflation moved higher, conditions she said she was not currently observing. She described underlying inflation as stuck between 2.5% and 3% and argued that a gradual pace gives households, businesses and financial institutions time to adjust. Chicago's Austan Goolsbee, in a separate Tuesday interview, said persistent services inflation was particularly troubling and declined to constrain the choices available at the next meeting. The remarks leave pace and the conditions for acceleration as live areas of disagreement.\n\nBritain received a more forceful independent assessment. In research published Wednesday, the National Institute of Economic and Social Research said another BOE increase would still leave inflation above 2% until the end of 2030. It called for rates to reach 5% next year to achieve control about 18 months sooner. Its concern centers on pay negotiations occurring while inflation exceeds 4% and a quarterly energy-price-cap reset that could lift household gas and electricity bills by about a quarter in January. Taylor Wimpey meanwhile forecast annual operating profit at the bottom of its £262 million-£299 million range and 10,500 completions excluding joint ventures. Its November 8 order book fell to 6,839 homes from 7,253 a year earlier as higher mortgage rates and living costs constrained buyers. Australian home lending fell a record 15.5% in Q3, adding a separate observation of weaker borrowing demand under higher rates.\n\nU.S. mortgage applications offered a modest improvement. MBA's 30-year contract rate fell 9 basis points to 7.21% in the week ended November 6, its fourth consecutive decline. Purchase applications increased 7.5%, the strongest gain since mid-April but only the second weekly increase since late August. Refinancing rose 4.5%, its third successive gain, while remaining near the lowest level since January 2025. Total applications increased 6.2% after a 1.2% decline. The market index rose to 204.6 from 192.6, the purchase index to 141.2 from 131.4 and the refinance index to 540.7 from 517.5. These weekly observations describe housing finance before the holiday.\n\nSouth Korea imposed a record 1.63 trillion won, or about $1.2 billion, cartel fine on more than a dozen banks and brokerages. The Korea Fair Trade Commission said primary dealers exchanged bid-yield information or coordinated yields and volumes in 150 government-bond auctions from January 2020 through June 2023, finding specific agreements in 145. KB Securities received the largest fine, 332.2 billion won. Criminal complaints cover seven firms: KB, NH Investment & Securities, Mirae Asset, Industrial Bank of Korea, Kiwoom, Korea Development Bank and Korea Investment & Securities. The commission said the conduct undermined competitive auctions and caused government losses, bringing a significant enforcement action to the sovereign distribution system.\n\nTwo central-bank leadership questions also advanced. Bloomberg reported internal debate over whether New York Fed President John Williams must retire in June 2027 at 65 or can remain until June 2028, completing 10 years in that role. The issue turns on the treatment of his earlier San Francisco presidency. Williams expects to serve through 2028; no formal search has been announced, and it is unclear whether Chair Kevin Warsh or the Fed board would support an earlier departure. In Canada, economists identified Jean Boivin, Jean-François Perrault, Nicolas Vincent, Carolyn Wilkins, Paul Beaudry and Carolyn Rogers as possible successors to Tiff Macklem, whose term ends in June. The bank's board appoints the governor subject to government approval; the reported candidates are early contenders.\n\nGermany's independent economic advisers raised their 2026 growth forecast to 1.3% from May's 0.5% and their 2027 forecast to 1% from 0.8%, citing government spending and resilient exports while warning about a widening deficit. Energy supply brought another fresh observation: Saudi Arabia told OPEC that October production rose 26% to 10.56 million barrels a day, while Iraq reported almost 4.9 million barrels a day, above its agreed limits. A senior Iranian official's rejection of surrendering enriched uranium left a central obstacle to peace unresolved. Separately, Oxford Economics' El Niño vulnerability study placed Ecuador, Peru and Indonesia at the top of its exposure ranking, citing agriculture, mining and electricity-generation structures as channels through which weather shocks could affect activity and costs.\n\n## Next Open-Session Watch\n\nU.S. trading reopens alongside November 12 labor and housing releases. Initial claims for the week ended November 7 are expected at 195,000 after 189,000, with continuing claims for October 31 expected at 1.710 million after 1.718 million. Both arrive at 13:30 UTC. October existing-home sales follow at 15:00 UTC, with consensus at 3.85 million after 3.99 million. The closings data will show whether the recent improvement in mortgage applications is accompanied by a firmer completed-sales market.\n\nThursday's Fed speakers include Beth Hammack at 14:00 UTC, Michael Barr at 15:00, Goolsbee at 16:30, Mary Daly at 18:10 and Williams at 23:30. Paulson's conditions for gradual tightening and Goolsbee's concern about services prices sharpen the question of whether more officials favor accelerating the pace before the December 9 decision.\n\nTreasury's 30-year auction is scheduled for 18:00 UTC, following the holiday interruption; four-, eight- and 17-week bills are scheduled at 16:30. The long-bond sale will provide a new observation of demand for duration. October's federal budget statement at 19:00 UTC is expected to show a $298.6 billion deficit. Fed balance-sheet and reserve-balance figures follow at 21:30 UTC.\n\nEnergy inventories at 17:00 UTC will add physical-supply evidence alongside Gulf production and unresolved diplomacy. Consensus expects a 1.1 million-barrel decline in crude stocks, a 0.1 million-barrel gasoline draw and a 1 million-barrel distillate draw for the week ended November 6. The composition matters for the persistence of fuel-cost pressure even as producers restore output.\n\nThe financing calendar extends beyond reopening. CoreWeave's potential loan will test the borrowing terms available against chips and customer contracts; Newton's equipment ABS and Crunch's franchise securitization bring different collateral and investor bases. Anthropic is due to price November 18 and begin trading November 19, putting the strength of its order book against the valuation skepticism expressed by private investors. China's planned dollar sovereign sale falls in the week of November 16. Legislative progress and the scope of any bond-interest tax in China, together with congressional treatment of Brazil's fiscal package, remain independent determinants of government funding costs.\n",
+    "english_markdown": "## Opening Fixed-Income Thesis\n\nTreasuries sold off as a rebound in oil and renewed Federal Reserve calls for tighter policy overwhelmed an early haven bid linked to Nvidia's leadership crisis. The two-year yield rose 14.37 basis points to 4.8814%, while the 10-year climbed 13.75 basis points to 5.1271%. Trading resumed after the Veterans Day closure with inflation and the expected pace of rate increases exerting more influence on bonds than the decline in technology shares.\n\nPresident Donald Trump's assertion that the U.S. could forgo an agreement with Iran reversed some of the optimism surrounding diplomacy. Brent futures rose 3.24% to $95.77 a barrel, even as U.S. inventories showed substantial increases in crude and refined products. Cleveland Fed President Beth Hammack favored more frequent, smaller increases, while San Francisco's Mary Daly said further tightening would probably be necessary as businesses considered passing on higher costs. Their remarks reinforced the direction of policy while leaving the size of December's move contested.\n\nCredit markets distinguished between equity disruption and borrowers' financing prospects. Nvidia removed Jensen Huang and installed Chief Financial Officer Colette Kress as interim CEO, but its default-protection costs declined after an initial rise. Alphabet completed almost $4 billion-equivalent of Asian local-currency borrowing, and CoreWeave's bonds improved as investors assessed more detailed plans for secured financing. Those transactions and price responses unfolded alongside fresh warnings about the capacity of bond investors to absorb the AI industry's continuing demand for capital.\n\n## Oil and Fed Tightening Overturn the Early Treasury Bid\n\nLong-duration Treasuries initially benefited from uncertainty surrounding Nvidia. During the early reopening, the 30-year yield fell as much as 3 basis points to 5.32%, and the 10-year steadied around 4.99%. Commonwealth Bank of Australia's Carol Kong attributed the modest haven demand to concern about the company at the center of the AI investment boom. The shorter end was already under pressure from inflation and expectations for additional Fed increases.\n\nThat early support gave way as energy prices rose and policymakers reinforced the case for restraint. By the close, the five-year yield was 15.11 basis points higher at 4.9704%, the largest increase among the principal coupon maturities, while the 30-year rose 9.97 basis points to 5.4521%. The two- to 10-year spread narrowed 0.62 basis point to 24.57 basis points; the two- to 30-year gap contracted 4.4 basis points to 57.07 basis points. The market continued to compress the extra yield available for extending beyond policy-sensitive maturities.\n\nThe weekly comparison shows the concentration of that adjustment. Two-year yields were up 41.91 basis points, against 29.24 basis points at 10 years and 19.82 basis points at 30 years. Over a month, the two-year was 9.45 basis points higher, while the 10- and 30-year yields remained 11.07 and 14.35 basis points lower. The sharp recent repricing of the policy path has therefore coexisted with some remaining gains in longer bonds over the broader period.\n\nHigher real borrowing costs accounted for most of Thursday's 10-year increase, with inflation compensation also rising. The 10-year TIPS yield climbed 9.59 basis points to 2.8662%, and the breakeven rose 4.16 basis points to 2.2609%. Over the week, real yields increased 26.85 basis points, compared with a 2.39-basis-point rise in the breakeven. The oil rebound added an inflation component to a selloff still dominated by higher real yields.\n\nTrump said Washington did not need an Iran agreement and directed Vice President JD Vance toward domestic issues. Crude had previously weakened on signs of recovering Middle East supply and hopes for a diplomatic resolution. His remarks reduced that support. WTI futures finished at $88.70 a barrel, up 2.51%, although both WTI and Brent remained below their week-earlier levels.\n\nThe inventory release briefly checked the rally. For the week ended November 6, U.S. crude stocks increased 4.657 million barrels against an expected 1.483 million-barrel decline and a previous 0.865 million-barrel draw. Distillate inventories rose 4.071 million barrels, compared with an expected 0.87 million-barrel decline, while gasoline stocks increased 1.799 million against a forecast 0.35 million-barrel draw. Bloomberg attributed the accumulation of U.S. crude partly to high shipping costs and recovering Middle East exports, which left domestic refiners able to purchase cheaper barrels. The physical-stock increase and the renewed diplomatic risk pulled oil in different directions during the session.\n\nHammack's fresh remarks concerned how to tighten as well as why. The Cleveland president, who dissented in favor of a quarter-point increase at October's meeting, said progress toward 2% inflation had stalled and the latest data were moving the wrong way. She preferred steady, smaller increases because households and businesses could adjust more easily than to sharper moves. She would consider stronger action if the Fed fell behind, but did not judge that to be the current position and would approach December with an open mind.\n\nDaly, a nonvoter this year, separately said pressure extended beyond sectors most directly affected by tariffs or oil. At Stanford, she reported hearing more businesses contemplate passing input costs to customers. She continued to support September's increase and October's pause, but her bias was toward further tightening. She also differentiated the AI contribution: the buildout was raising some prices, yet its present effect on overall inflation remained modest because those increases were not large or spreading widely. She remained optimistic about eventual productivity benefits while uncertain about their timing.\n\nGovernor Michael Barr supplied a distinct assessment at Yale. AI investment was already supporting demand and increasing prices for semiconductors, computing equipment and construction labor, he said, while aggregate productivity gains could take longer to emerge. He warned of potentially serious short-term employment disruption, particularly for younger and less-experienced workers, alongside the possibility of new jobs and complementary uses of the technology. His speech offered competing outcomes depending on access and market concentration, without specifying a rate preference. Reuters contrasted his emphasis on near-term costs with Chair Kevin Warsh's emphasis on potential disinflation from productivity.\n\nThursday's labor and housing releases showed the uneven effects of existing restraint. Initial unemployment claims increased 9,000 to 200,000 for the week ended November 7, above the 195,000 consensus. Continuing claims fell 20,000 to 1.697 million for the week ended October 31, below the expected 1.710 million. Layoffs remained low, but Reuters' reporting distinguished employee retention from strong hiring. Pantheon Macroeconomics' Olivia Cross expected limited layoffs through Q4 while identifying tighter financial conditions and greater AI adoption as possible pressures in 2027. Citi's Veronica Clark said retirement and immigration restrictions could also be reducing the pool of potential claimants.\n\nHousing showed much greater weakness. October existing-home sales fell 5.5% to a 3.75 million annual rate, below the 3.85 million consensus and down from 3.97 million. The National Association of Realtors' release put activity at a 16-year low. Sales in the West reached their lowest level in records beginning in 1999; the South and Midwest recorded their weakest results in more than a decade. Condominium sales also fell to a record low in the series beginning in 1999.\n\nMore supply and slower price growth were accompanying the loss of demand. Resale inventory increased 4.6% annually to 1.59 million homes, equivalent to 5.1 months of sales, the highest ratio since late 2015. The median price rose only 0.4% to $416,700, its smallest annual gain since February. NAR economist Lawrence Yun saw potential pent-up demand if mortgage rates declined. For now, rates above 7% and an affordability measure at its weakest since mid-2025 were restraining completed transactions.\n\nTreasury's $25 billion 30-year auction cleared at 5.441%, compared with 5.618% at the previous sale. Bid-to-cover declined to 2.36 from 2.54, and 21.29% was allotted at the high yield. The auction added duration as the market adjusted to a higher expected policy path. Across other assets, the Dollar Index gained 0.25% to 103.172 and gold futures fell 2.97% to $3,881.70 an ounce. The S&P 500 lost 0.35% and the Nasdaq 100 0.30%, leaving the day's bond losses alongside a relatively contained decline in broad equities.\n\n## Nvidia's Transition Tests the AI Financing Model\n\nNvidia's leadership crisis moved from board deliberations to Huang's removal during the U.S. session. Kress became interim CEO as the company began searching for a permanent replacement following reports of affairs, including one with a woman suspected by U.S. officials of spying for China. Nvidia shares fell as much as 14% before finishing 4.3% lower, while rivals Broadcom and Advanced Micro Devices gained more than 5% on expectations they could capture business.\n\nDebt protection moved differently. Nvidia's five-year CDS initially rose, then declined 2.25 basis points to 139 basis points by 1:30 p.m. New York time, according to ICE Data Services. Traders cited the possibility that Huang's departure would curb borrowing and financial support for other AI companies. Protection costs on other chipmakers and hyperscalers also fell on expectations of business gains or slower future borrowing. Nvidia's CDS remained more than three times its early-June level, reflecting the substantial reassessment that preceded the leadership change.\n\nNew reporting on Nvidia's financing platform gave substance to the questions facing its next management team. Months after the company announced a $500 billion partnership with six asset managers, no deals had resulted, people familiar with negotiations told Bloomberg. Customers and partners had been pressing it during the past month to increase residual-value support beyond the proposed ceiling of 25% of a deal. The earliest likely announcement was January, conditional on the leadership upheaval leaving transactions and the broader project intact.\n\nThe support matters because financing vehicles rely on both contracted payments for computing capacity and the residual value of the chips. A larger supplier backstop can improve ratings and reduce borrowing costs for customers, while transferring more risk to the supplier. Nvidia's partners are Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR. The $500 billion platform is an announced financing ambition whose execution has proved difficult, with negotiations now passing to a company under interim leadership.\n\nBroadcom provides the immediate competitive comparison. It backed $30 billion of a $35 billion May transaction involving chips leased by Anthropic, helping supported portions secure investment-grade ratings. A second, $63 billion financing for Anthropic includes a Broadcom backstop covering 72.5%, or about $43 billion. Bank of America, Citi and Morgan Stanley are arranging the first-lien portion; Blackstone is the sole provider of the committed second-lien financing. Portions are expected to be distributed to a wider lender group in Q1. Those support levels help explain why Nvidia's prospective 25% protection has been a point of negotiation.\n\nWells Fargo's Maureen O'Connor described another constraint: investor capacity for conventional investment-grade issuance. The bank's global head of high-grade syndicate said deals exceeding about $25 billion were meeting secondary-market resistance and that investors were pushing back on issuance frequency. The five largest hyperscalers had already sold more than $200 billion of bonds this year; including data-center deals associated with companies such as Nvidia and SpaceX took volume to about $400 billion. She expected more off-balance-sheet chip financing next year, often with weighted-average lives near three years, against roughly 15-year average maturities on this year's AI bonds.\n\nAlphabet demonstrated continuing access to alternative investor pools. It completed inaugural Hong Kong- and Singapore-dollar offerings totaling almost $4 billion-equivalent. The HK$16 billion issue comprised two-, five- and 10-year maturities; the S$2.28 billion transaction added a 30-year tranche to those maturities. Hong Kong-dollar pricing tightened 25-30 basis points from initial discussions, with orders above HK$32.5 billion at final guidance. Singapore-dollar pricing improved 20-25 basis points, with demand above S$4 billion. Proceeds are for general corporate purposes, potentially including debt repayment.\n\nNatixis economist Gary Ng attributed the attraction to less-crowded Asian local-currency markets and the unusual opportunity to buy a highly rated global technology borrower in investors' home currencies. The completed sales convert Alphabet's earlier discussions into funding, even while AI-related volatility has increased scrutiny of the sector's borrowing.\n\nCoreWeave's first cash-bond response after Tuesday's earnings also became visible following the holiday. Its 9.75% notes due 2031 gained about 0.3 cent to 82.25 cents Thursday morning, and default-protection costs were among the largest decliners in the CDX high-yield index. The company's shares fell about 7.6% after Wednesday's roughly 25% gain. Creditors and shareholders were absorbing the same earnings news through different claims on the business.\n\nThe proposed loan of at least $4 billion now has more specific structural terms. It would be backed by a Meta contract, issued through a separate entity, secured by the relevant GPUs and other assets, and mature in six years with some amortization. Meta's credit profile is expected to support an investment-grade rating for the facility even though CoreWeave remains speculative grade. Morgan Stanley and MUFG were considering starting phased syndication as soon as this week, earlier than previously expected. Management's preliminary 7%-7.5% yield discussion contrasts with the 14.5% yield on CoreWeave's separate 2032 junk bonds at 10:08 a.m. Thursday, when those notes traded at 81 cents.\n\nElsewhere, the cost of refinancing remained demanding. Internet Brands resumed investor discussions for roughly $3.5 billion, comprising a leveraged loan of up to $2 billion and about $1.5 billion of first-time high-yield notes. Early bond-yield discussions increased to around 11% from at least 10.5%. RBC is leading premarketing for a possible launch next week. The KKR-backed owner of WebMD had deferred a September transaction amid higher rates and crowded issuance; it has about $3 billion of first-lien loans due in May 2028 and another $2.8 billion of loans, including a revolver, maturing in 2029-2031.\n\nPower demand is widening the financing opportunity beyond chips. Citi sustainability chief Valerie Smith said electrification was helping drive progress toward the bank's $1 trillion sustainable-finance goal for 2030, with about $647 billion achieved. Its eligibility criteria now include nuclear energy and nature-based solutions. Temasek's Kyung-Ah Park identified electricity grids and transformer supply as major bottlenecks. Those comments place generation and networks alongside computing equipment in the capital requirements created by the buildout.\n\n## Japan's Inflation and Currency Pressure Meet Uneven Global Growth\n\nJapan's October Corporate Goods Price Index rose 7.1% annually, exceeding the 6.5% forecast and accelerating from 6.8%. Monthly prices increased 0.7%, the fastest since May. The details showed wider upstream pressure: petroleum and coal products rose 15.9% annually from 11.5%, chemicals increased 15.5% from 13.4%, and transportation equipment rose 3.2% from 2.9%. Yen-denominated import prices increased 24.8%.\n\nBOJ price-statistics official Sayaka Yamazaki said companies were passing on labor and raw-material costs, with the start of the fiscal year's second half also influencing price revisions. Reuters linked part of the transportation-equipment increase to semiconductor costs associated with AI demand. The release strengthened the tightening argument while the currency was approaching a level already attracting official attention.\n\nBoard member Toichiro Asada, who opposed September's increase, said Thursday that he was open to gradual hikes but wanted caution over their pace. He accepted that underlying inflation was consistent with the BOJ's target and did not seek a rate cut. His concern was that recent price increases were not necessarily demand-driven and that weak private consumption made the economy vulnerable to excessive restraint. His position leaves room for another increase while preserving a substantive disagreement about speed and demand conditions.\n\nThe yen subsequently crossed 160 per dollar for the first time since September before recovering to 159.88, down less than 0.1% on the session. Currency chief Atsushi Mimura said recent moves had been too fast and recalled earlier intervention. Officials continued to emphasize speed and disorderliness over a fixed trigger. TD Securities' Howard Du considered near-term intervention risk low, citing the fresh memory of official action and the rise in U.S. real rates supporting dollar-yen.\n\nFresh reporting quantified why higher Japanese yields have not produced a straightforward currency recovery. Foreign investors bought a record combined ¥34.5 trillion of Japanese bonds and equities from January through October, while Japanese investors sold a net ¥689 billion of foreign securities this year after ¥12.5 trillion of purchases last year. Yet Japanese companies invested ¥11.9 trillion abroad through direct investment excluding reinvested earnings. Citi strategists also pointed to foreign equity buyers hedging by selling yen. Japan's ¥811 trillion stock of overseas portfolio assets and continuing direct investment sustain cross-border flows even as some portfolio money returns home.\n\nNew Zealand supplied a different demand result. Thursday's April 2037 bond auction attracted bids for 7.46 times the amount offered, the strongest ratio for any tenor since February 2013. The 10-year yield extended its decline to 4.64%, down 4 basis points. ITC Markets' Kit Lowe cited preliminary election results easing fiscal concerns, a reduction in weekly issuance to NZ$350 million from NZ$450 million, and reinvestment demand from large coupon payments.\n\nBritain's growth release was stronger, though concentrated. Q3 GDP rose 0.7%, matching consensus and accelerating from 0.5% in Q2. September's 0.2% monthly expansion beat expectations for no growth, while August was revised down to zero from 0.1%. Services grew 0.9% in the quarter, led by computer programming and related activities; production increased 0.1%, but construction contracted 0.7%. Business investment rose just 0.4%, roughly half the expected increase. Strong technology activity lifted the aggregate while leaving broader investment less convincing.\n\nThe RICS housing survey showed a separate consequence of high financing costs. Its October measure of expected sales over the next year fell to minus 17, the weakest since July 2023, and respondents expected prices to decline 1%. Mortgage rates around 6%, against 4.83% before the Iran conflict, were weighing on demand. The growth and housing observations give the BOE materially different signals about resilience across sectors. Britain's 10-year yield rose 8 basis points to 5.30% in Bloomberg's session account.\n\nA new Reuters ECB survey found unanimous expectations among 71 economists for a December quarter-point increase to 2.75%. The disagreement concerned where tightening would end: 46 expected that to be the terminal rate, while 25 expected at least one more increase, most likely in Q1 2027. Market pricing implied roughly two to three further increases through end-2027, a more restrictive path than the median forecast. Economists raised their 2027 inflation forecast to 2.8% from 2.6% and growth to 1.3% from 1.2%.\n\nWellington's Fabio Balboni made a March increase conditional on persistent underlying inflation and identified wage demands compensating for lost purchasing power as a risk. Nordea's Jan von Gerich warned that lower oil futures could obscure winter energy exposure with gas storage low. ECB leadership negotiations remained unsettled: Germany explicitly denied a Le Point report that Friedrich Merz and Emmanuel Macron had agreed to support Pablo Hernandez de Cos as Christine Lagarde's successor.\n\n## Fiscal Choices Differentiate Sovereign Funding\n\nThe U.S. began fiscal 2027 with a record $404 billion October deficit, 42% above the year-earlier shortfall. Receipts fell 9% to $369 billion while outlays increased 12% to $773 billion. Adjusting for benefit-payment shifts still left a $285 billion deficit, up $94 billion, or 49%, demonstrating deterioration beyond the calendar effect.\n\nCustoms collections fell 39% to $19.2 billion, while individual non-withheld income taxes dropped 36% to $51 billion. The latter comparison was distorted partly by elevated October 2025 receipts after California wildfire-related filing extensions. Agriculture spending rose $14 billion, including farm relief; military outlays increased $28 billion, partly because payments to military trust funds had been delayed by the previous year's shutdown. Gross interest expense rose 11% to $115 billion. Treasury projected a roughly $2.2 trillion annual deficit, against the previous fiscal year's $1.99 trillion, leaving substantial financing needs alongside the day's higher yields.\n\nBrazil's new development was a prospective expansion of its fiscal adjustment to around 80 billion reais, or $14.2 billion, in 2027. Additional measures under discussion would curb mandatory expenditure and spending currently excluded from fiscal targets, complementing the 50 billion-60 billion reais plan already submitted. The administration aims to send a constitutional amendment to Congress before year-end. The real briefly reduced losses and swap rates pared increases on the news. Resistance within Lula's party and the government's continued avoidance of an end to real minimum-wage increases leave the scope and passage of the additional measures uncertain.\n\nPolish debt is attracting a more explicit fiscal premium. Bloomberg's new assessment put 10-year yields at 6.2%, about 100 basis points higher this year, with the gap over interest-rate swaps at its widest in at least 16 years. Debt issuance has nearly doubled since 2023 to as much as $10 billion a month, financing a deficit around 7% of GDP. PGIM's Magdalena Polan described a shift toward higher servicing costs and questioned the prospects for meaningful consolidation amid political polarization.\n\nThe assessment was contested. Aviva's Kurt Knowlson cited institutions, economic resilience and EU funding as anchors, while William Blair's Daniel Wood thought bonds might be overstating political risk. The sovereign remains investment grade. Investors' concern centers on the fiscal trajectory and political capacity to change it, with portfolio shifts toward Hungary illustrating the regional differentiation.\n\nColombian bankers described a direct channel from sovereign yields to private borrowing. Grupo Aval's Maria Lorena Gutierrez said TES yields set a floor under banks' deposit costs, compressing margins and raising lending rates. Davivienda's Javier Suarez put mortgage rates at 14%-15%, against a sector average of 11.9% 18 months earlier. The government is seeking legislation worth more than 2 percentage points of GDP in deficit reduction next year after a budget showing the deficit could exceed 9% without adjustment. Bank executives supported the package's urgency, including a proposed extension of their industry's 5% surcharge, while disputing its longer-run burden.\n\nGhana's budget combined proposed early payments with less ambitious primary surpluses. Finance Minister Cassiel Ato Forson plans to settle the $590 million January 2 eurobond payment and February domestic obligation by December 31. A $10 billion four-year growth program would be financed partly by reducing the primary-surplus objective to 0.5% of GDP from 1.5% starting in 2027 and raising revenue and grants to 18.1% from 17.2% projected this year. The overall deficit is forecast to widen to 2.9% next year from 2%. The government targets 8% growth in 2030, compared with 5.2% in 2027.\n\nSri Lanka's 2027 budget similarly sought more investment while preserving consolidation. President Anura Kumara Dissanayake proposed reducing current expenditure, increasing capital investment and bringing the deficit below 5% of GDP over the medium term. An investment-protection law is being prepared, and the government is assessing whether another IMF program is needed as its $3 billion arrangement approaches its end. A staff-level agreement could unlock about $345 million. These are planned fiscal and financing steps during a still-fragile recovery.\n\nIndonesia's currency and bonds showed the tension between yield appeal and confidence. The rupiah fell as much as 0.5% to a record 18,241 per dollar, prompting Bank Indonesia intervention in spot and forward markets and secondary-market government-bond purchases. The 10-year yield rose 4 basis points to 7.66%. Foreign funds had nevertheless put $174 million into bonds in November, and foreign participation at Tuesday's auction increased to 22.6% from 8.5% at the previous sale. Those inflows coexist with MSCI reclassification concerns and political uncertainty following Vice President Gibran Rakabuming Raka's resignation.\n\nVietnam postponed international issuance because officials considered borrowing costs too high. Finance Minister Ngo Van Tuan said preparations and investor engagement would continue for better conditions; discussions had concerned a possible sovereign dollar sale of as much as $1 billion. Serbia took a more immediate policy step, unexpectedly raising its benchmark a quarter-point to 6% against unanimous forecasts for no change. It cited energy pass-through and currency pressure as October inflation accelerated to 4.4% from 4.1%. Turkey instead raised its end-2027 inflation forecast and target to 21% from 15%, while Governor Fatih Karahan said the revision did not change policy following October's rate cut to 36%.\n\n## Recovery Values and Perpetual Capital Face New Tests\n\nCitgo's new earnings and cash outlook intensified speculation that Elliott-backed Amber Energy's planned $5.9 billion acquisition would be revisited. The refiner expects as much as $7 billion of cash at year-end and full-year EBITDA of up to $7.5 billion, against its previous $5.8 billion forecast. The oil-price windfall has substantially increased the value underlying a sale intended to settle $8.8 billion of creditor claims.\n\nSome Citgo-linked debt traded as high as 120 cents on the dollar, about 6% above its value under the takeover agreement. The bonds due in 2020 are secured by 50.1% of the parent company. Barclays' estimates had put payments at $128 per unit of principal for holders signing the agreement and $108 for others if the transaction closed in June; payments have increased 0.75% for each month of delay. A narrowing market-price gap between the groups reflected expectations of reconsideration.\n\nThe legal and recovery questions remain separate. An appeals court upheld the bonds' validity in October, while Venezuela and others continue appealing the selection of Amber's bid. Caledonia trader Francesco Marani said holders could seek an original claim estimated at 170-180 cents if the sale failed, while stressing that settlement need not equal that amount. The higher operating value strengthens creditors' negotiating expectations without fixing the final distribution.\n\nA newly public KPMG audit clarified another part of Venezuela's financial position. More than $12.1 billion of petroleum and gas proceeds passed through a Treasury-administered account during the first nine months of 2026; nearly 99% of deposited funds, or $12.11 billion, had been disbursed. Most payments went through Venezuelan foreign-exchange auctions, with about $133 million paid directly to government vendors. The audit described the funds as Venezuela's sovereign property, with permitted use subject to authority exercised by Secretary of State Marco Rubio.\n\nSAS faces a different dispute over the survival of creditor claims. Holders representing more than half of a 127.2 million Swiss franc subordinated perpetual bond argue that the airline's U.S. Chapter 11 restructuring was not recognized in Switzerland. Their November 5 letter seeks enforcement after unpaid annual interest since January 2023. They also argue the issuing SAS Consortium was excluded from the parallel Swedish restructuring. SAS confirmed receipt and said it was reviewing the letter; its restructuring had treated the bonds as extinguished with no recovery. The dispute could complicate Air France-KLM's planned increase to a 60.5% controlling stake.\n\nNew research on $22 billion of fixed-for-life U.S. bank preferred shares highlighted a different form of extension exposure. The group has lost 8.5% in total-return terms this year and trades around 61 cents on the dollar on average. Issuers have skipped available calls as replacing sub-5% coupons would cost more. Morgan Stanley's $1.3 billion issue, callable in January, was indicated at 61.4 cents; U.S. Bancorp's 3.75% series stood around 55 cents. The contractual permanence of coupons makes the economics of calling central to recovery prospects, while newly issued fixed-for-life preferreds have carried average coupons of 6.69% this year.\n\nGermany's Bundesbank separately warned that commercial-property prices could fall again if rates rose or redemptions forced funds to sell. It said the recovery since 2024 had involved relatively few transactions concentrated in better-quality buildings, with office and retail prices recently edging lower. Property funds accounted for 13% of German mutual-fund assets in August, against 21% at end-2023. Withdrawal restrictions at several funds pointed to tighter liquidity, while lender Deutsche Pfandbriefbank expected no near-term improvement in conditions.\n\n## Forward Market Significance\n\nFriday's U.S. producer-price release will provide the next observation of upstream inflation after the Treasury selloff and oil rebound. The distinction between energy costs, technology-related inputs and broader pricing pressure remains important to the December debate. Hammack has argued for more frequent conventional increases while leaving stronger action conditional on falling behind; Daly's business contacts suggest broader pass-through is under consideration. The next price evidence will arrive with futures already pricing quarter-point increases in December, January and March.\n\nJapan's Monday GDP release will test the demand side of Asada's caution before the December 17-18 BOJ meeting. Economists expect consumer spending to decline for the first time in nearly two years. The combination of that observation, October's producer-price acceleration and a yen near 160 will shape the balance between imported cost pressure and domestic spending. Renewed intervention remains an independent currency risk, with authorities focused on the character of moves rather than announcing a fixed exchange-rate trigger.\n\nNvidia's November 17 earnings will be its first major financial test under interim leadership, alongside questions about future supplier support and the delayed financing platform. Anthropic's offering and CoreWeave's proposed secured syndication will separately test whether institutional demand becomes executable funding on acceptable terms. Nvidia's pledged purchase of about $10 billion of Anthropic shares remains a specific commitment under scrutiny following Huang's departure.\n\nFiscal decisions have their own deadlines. Brazil plans a constitutional amendment before year-end, while Colombia needs its rescue legislation approved this year for measures to operate in early 2027. Ghana's planned December 31 payments will test the implementation of its early-repayment pledge. The European Commission intends to present Ukraine's 2027 financing proposal and a new Russia-sanctions package before the November 26-27 European Council meeting; the funding instrument and burden-sharing remain under discussion.\n\nOil diplomacy and shipping security remain capable of changing the inflation outlook independently of scheduled data. The large U.S. inventory increases have improved the immediate domestic stock position, while Trump's tougher stance has reduced confidence in a negotiated resolution. The durability of restored regional supply and the terms of any diplomatic progress remain unresolved as markets enter the next Asian session.\n",
     "section_summaries": [
       {
         "market_read": "",
         "next_check": "",
         "section_id": "section-01",
-        "section_title": "Holiday Fixed-Income Brief",
-        "summary": "During the Veterans Day closure, China explored taxing government-bond interest and Brazil submitted tighter fiscal rules. The scope of China's levy and the limits of Brazil's proposed restraint matter for sovereign borrowing costs. CoreWeave's potential loan of at least $4 billion extends its use of secured financing, with terms and completion still pending."
+        "section_title": "Opening Fixed-Income Thesis",
+        "summary": "Trading resumed after Veterans Day with inflation and expected rate increases exerting more influence on Treasuries than technology-share losses. Nvidia's leadership change raised questions about its financing commitments, while Alphabet's completed Asian issuance and CoreWeave's improving bonds showed creditors differentiating among AI borrowers."
       },
       {
-        "market_read": "CoreWeave's expected facility rating reflects chips and customer-contract backing; the company itself remains junk-rated.",
+        "market_read": "The week's repricing was concentrated at shorter maturities, while 10- and 30-year yields remained below their month-earlier levels.",
         "next_check": "",
         "section_id": "section-02",
-        "section_title": "Global Rates, Credit, And Sovereign Developments",
-        "summary": "China's possible 25% bond-interest tax puts banks' after-tax returns in question; Brazil's conditional 2% spending-growth cap faces legislative and investor scrutiny. CoreWeave seeks investment-grade secured borrowing, while Newton and Crunch Fitness explore securitizations. Household income demand supports corporate bonds. Paulson favors gradual Fed tightening; Goolsbee remains concerned about services inflation, and NIESR calls for BOE rates to reach 5% next year."
+        "section_title": "Oil and Fed Tightening Overturn the Early Treasury Bid",
+        "summary": "Trump's tougher Iran stance lifted oil, while Hammack and Daly reinforced the case for further tightening. Treasury yields rose across principal maturities and the curve flattened, with higher real yields driving most of the 10-year increase and inflation compensation also rising. Large petroleum inventory builds briefly checked oil's rally; low layoffs and a 5.5% fall in existing-home sales showed uneven pressure from restrictive financing costs."
+      },
+      {
+        "market_read": "Supplier guarantees can improve customer financing terms while transferring risk to the supplier; investor capacity also constrains conventional issuance.",
+        "next_check": "",
+        "section_id": "section-03",
+        "section_title": "Nvidia's Transition Tests the AI Financing Model",
+        "summary": "Colette Kress took interim charge after Nvidia removed Jensen Huang. Its $500 billion financing platform had produced no deals as partners sought support above the proposed 25% ceiling; Broadcom's larger backstops highlighted the negotiation. Alphabet completed almost $4 billion-equivalent of Asian borrowing, and CoreWeave's bonds improved as terms emerged for a Meta-backed secured loan of at least $4 billion. Wells Fargo warned of resistance to issuance size and frequency."
+      },
+      {
+        "market_read": "Japanese outward direct investment and currency hedging help explain why stronger inward portfolio flows have not produced a straightforward yen recovery.",
+        "next_check": "",
+        "section_id": "section-04",
+        "section_title": "Japan's Inflation and Currency Pressure Meet Uneven Global Growth",
+        "summary": "Japan's producer inflation accelerated to 7.1% as the yen crossed 160 per dollar, while BOJ member Asada urged caution over tightening amid weak consumption. New Zealand's auction drew exceptional demand as issuance fell and fiscal concerns eased. UK growth strengthened through technology services while housing weakened. ECB economists unanimously expected a December increase to 2.75%, but market pricing implied more subsequent tightening than the median forecast."
       },
       {
         "market_read": "",
         "next_check": "",
-        "section_id": "section-03",
-        "section_title": "Next Open-Session Watch",
-        "summary": "November 12 brings U.S. claims and existing-home sales, Fed speakers and the 30-year Treasury auction. Energy inventories will inform fuel-cost pressure. Beyond reopening, collateral-backed financing proposals and Anthropic's November 18 pricing test funding appetite, while China's tax scope and Brazil's fiscal legislation remain separate sovereign-cost questions."
+        "section_id": "section-05",
+        "section_title": "Fiscal Choices Differentiate Sovereign Funding",
+        "summary": "The U.S. opened fiscal 2027 with a record $404 billion October deficit. Brazil considered expanding its adjustment to around 80 billion reais, while Poland faced a larger fiscal premium and Colombian banks linked sovereign yields to higher private borrowing costs. Ghana paired planned early repayments with lower primary-surplus targets; Sri Lanka sought investment alongside consolidation. Indonesia intervened as the rupiah hit a record low, and Vietnam deferred external issuance over costs."
+      },
+      {
+        "market_read": "",
+        "next_check": "",
+        "section_id": "section-06",
+        "section_title": "Recovery Values and Perpetual Capital Face New Tests",
+        "summary": "Citgo's stronger cash and earnings outlook increased expectations that Amber Energy's $5.9 billion acquisition could be revisited, with final creditor distributions unresolved. SAS perpetual holders disputed the extinguishment of their claims under restructuring. U.S. fixed-for-life bank preferreds remained deeply discounted as issuers skipped uneconomic calls, while the Bundesbank warned that higher rates or forced fund sales could renew German property losses."
+      },
+      {
+        "market_read": "",
+        "next_check": "",
+        "section_id": "section-07",
+        "section_title": "Forward Market Significance",
+        "summary": "U.S. producer prices will inform the December tightening debate, and Japan's GDP will test domestic demand before the BOJ meeting. Nvidia's earnings and prospective AI financings will test whether commitments become executable funding. Fiscal deadlines in Brazil, Colombia and Ghana remain separate implementation tests, while unresolved Iran diplomacy and shipping security can independently change the energy outlook."
       }
     ]
   },
   "macro_calendar": {
-    "released": [],
-    "timezone": "America/New_York",
-    "upcoming": [
+    "released": [
       {
+        "actual": "200K",
         "category": "Labor",
         "consensus": "195K",
         "date": "2026-11-12",
         "event_key": "initial_claims",
-        "forecast": "191.0K",
-        "id": "macro-upcoming-b596903f7626",
+        "id": "macro-released-c81d8c770a76",
         "period": "NOV/07",
-        "previous": "189K",
+        "previous": "191K",
         "time": "08:30 ET",
         "title": "Initial Jobless Claims"
       },
       {
+        "actual": "1697K",
         "category": "Labor",
         "consensus": "1710K",
         "date": "2026-11-12",
         "event_key": "continuing_claims",
-        "forecast": "1722.0K",
-        "id": "macro-upcoming-b52b4dac7270",
+        "id": "macro-released-6298d83c5604",
         "period": "OCT/31",
-        "previous": "1718K",
+        "previous": "1717K",
         "time": "08:30 ET",
         "title": "Continuing Jobless Claims"
       },
       {
-        "category": "Housing",
-        "consensus": "3.85M",
-        "date": "2026-11-12",
-        "event_key": "existing_home_sales",
-        "forecast": "4.0M",
-        "id": "macro-upcoming-6a32e1aa1826",
-        "period": "OCT",
-        "previous": "3.99M",
-        "time": "10:00 ET",
-        "title": "Existing Home Sales"
-      },
-      {
-        "category": "Housing",
-        "date": "2026-11-12",
-        "event_key": "existing_home_sales_mom",
-        "forecast": "0.3%",
-        "id": "macro-upcoming-7745cafc460f",
-        "period": "OCT",
-        "previous": "1.5%",
-        "time": "10:00 ET",
-        "title": "Existing Home Sales MoM"
-      },
-      {
+        "actual": "4.657M",
         "category": "Energy",
-        "consensus": "-1.1M",
+        "consensus": "-1.483M",
         "date": "2026-11-12",
         "event_key": "eia_crude_stocks",
-        "id": "macro-upcoming-56a656cf4fd4",
+        "id": "macro-released-f176864f5f9c",
         "period": "NOV/06",
         "previous": "-0.865M",
         "time": "12:00 ET",
         "title": "EIA Crude Oil Stocks Change"
       },
       {
+        "actual": "5.441%",
         "category": "Supply",
         "date": "2026-11-12",
         "event_key": "ust_auction_30y",
-        "id": "macro-upcoming-774a80ec8076",
+        "id": "macro-released-eb69ad5be35b",
         "previous": "5.618%",
         "time": "13:00 ET",
         "title": "30-Year Bond Auction"
       }
-    ]
+    ],
+    "timezone": "America/New_York",
+    "upcoming": []
+  },
+  "market_activity": {
+    "futures_positioning": {
+      "contracts": [
+        {
+          "asset_manager_net": 1876612,
+          "asset_manager_net_change": 39121,
+          "label": "2Y Treasury",
+          "leveraged_fund_net": -1450892,
+          "leveraged_fund_net_change": -93234,
+          "open_interest": 4464182,
+          "open_interest_change": -60265,
+          "symbol": "ZT"
+        },
+        {
+          "asset_manager_net": 3177655,
+          "asset_manager_net_change": 238754,
+          "label": "5Y Treasury",
+          "leveraged_fund_net": -2315516,
+          "leveraged_fund_net_change": -237656,
+          "open_interest": 6719878,
+          "open_interest_change": 134167,
+          "symbol": "ZF"
+        },
+        {
+          "asset_manager_net": 3030236,
+          "asset_manager_net_change": 30072,
+          "label": "10Y Treasury",
+          "leveraged_fund_net": -2262310,
+          "leveraged_fund_net_change": -35035,
+          "open_interest": 5947433,
+          "open_interest_change": 65845,
+          "symbol": "ZN"
+        },
+        {
+          "asset_manager_net": 715229,
+          "asset_manager_net_change": 13274,
+          "label": "Ultra 10Y Treasury",
+          "leveraged_fund_net": -258101,
+          "leveraged_fund_net_change": 156,
+          "open_interest": 2571983,
+          "open_interest_change": -35852,
+          "symbol": "TN"
+        },
+        {
+          "asset_manager_net": 415379,
+          "asset_manager_net_change": 31398,
+          "label": "Treasury bond",
+          "leveraged_fund_net": -166257,
+          "leveraged_fund_net_change": -15864,
+          "open_interest": 1930138,
+          "open_interest_change": 39570,
+          "symbol": "ZB"
+        },
+        {
+          "asset_manager_net": 875516,
+          "asset_manager_net_change": 17348,
+          "label": "Ultra Treasury bond",
+          "leveraged_fund_net": -796229,
+          "leveraged_fund_net_change": 9599,
+          "open_interest": 2394358,
+          "open_interest_change": 46929,
+          "symbol": "UB"
+        }
+      ],
+      "observation_date": "2026-11-03",
+      "published_date": "2026-11-06"
+    },
+    "treasury": {
+      "comparison_date": "2026-11-09",
+      "observation_date": "2026-11-10",
+      "par_change_pct": 55.2876,
+      "segments": [
+        {
+          "key": "nominal_coupons",
+          "par_change_pct": 63.9021,
+          "par_usd_bn": 1312.2,
+          "trade_count": 536082
+        },
+        {
+          "key": "tips",
+          "par_change_pct": 34.3023,
+          "par_usd_bn": 23.1,
+          "trade_count": 6020
+        },
+        {
+          "key": "bills",
+          "par_change_pct": 7.1875,
+          "par_usd_bn": 137.2,
+          "trade_count": 34097
+        },
+        {
+          "key": "frns",
+          "par_change_pct": -52.7778,
+          "par_usd_bn": 1.7,
+          "trade_count": 195
+        }
+      ],
+      "total_par_usd_bn": 1474.3,
+      "total_trade_count": 576394
+    }
   },
   "market_session": {
     "calendar": "sifma_us_fixed_income",
-    "causal_cutoff_et": null,
-    "reason": "Veterans Day",
-    "report_date": "2026-11-11",
+    "causal_cutoff_et": "17:00",
+    "reason": null,
+    "report_date": "2026-11-12",
     "schedule_version": "2026-2027 issued 2025-12-17",
-    "status": "full_close"
+    "status": "regular"
   },
-  "methodology_note": "SIFMA recommends a full U.S. fixed-income market close for Veterans Day. No prior-session market levels are presented as current-day moves.",
-  "mode": "reduced",
+  "methodology_note": "Rates: Bloomberg dated daily yield references. Changes and curves use the same daily observations; exact observation times are not specified.",
+  "mode": "full",
   "overall_summary": {
-    "bullets": [],
-    "headline": "China's bond-tax consultation and Brazil's fiscal bill put sovereign funding costs in focus during the U.S. holiday",
-    "session_narrative": "U.S. fixed-income markets were closed for Veterans Day. China's central bank surveyed lenders about a possible 25% tax on central and local government-bond interest, reaching markets totaling roughly 100 trillion yuan in which banks hold more than 60% of each. Whether a levy proceeds and covers existing holdings or only new issuance remains unresolved. Huatai expects a 10-20 basis-point yield increase on newly issued 10-year bonds, smaller than the 52 basis points its full after-tax-return adjustment would imply.\n\nBrazil submitted legislation to lower the ceiling on real spending growth from 2.5% to 2% from 2027 when fiscal-target compliance is at risk. The government estimates a 50 billion-60 billion reais improvement in the 2027 primary result, but protections for social spending, a diesel-subsidy exclusion and legislative uncertainty limit the proposed restraint.\n\nCoreWeave's potential loan of at least $4 billion would use chips and customer contracts as backing and is expected to receive investment-grade treatment despite the company's junk rating. Early management discussions suggested a 7%-7.5% yield; plans remain subject to change. Newton's equipment securitization and Crunch Fitness's franchise financing add distinct tests of collateral-backed funding access.\n\nAt reopening, November 12 labor and housing releases, Fed commentary on the pace of tightening and the 30-year Treasury auction will provide fresh evidence on policy expectations and demand for duration.",
-    "summary": "With U.S. fixed-income markets closed for Veterans Day, China's potential 25% tax on government-bond interest and Brazil's conditional spending restraint brought sovereign policy into focus, while CoreWeave prepared a potential secured loan of at least $4 billion."
+    "bullets": [
+      "UST 2Y 4.8814% (+14.37 bp) | UST 5Y 4.9704% (+15.11 bp)",
+      "UST 10Y 5.1271% (+13.75 bp) | UST 30Y 5.4521% (+9.97 bp)",
+      "10Y TIPS real yield 2.8662% (+9.59 bp) | 10Y breakeven inflation 2.2609% (+4.16 bp)",
+      "UST 2s10s curve 24.57 bp (-0.62 bp) | UST 2s30s curve 57.07 bp (-4.4 bp)"
+    ],
+    "headline": "Treasuries sell off as oil and Fed tightening calls overturn the early haven bid",
+    "session_narrative": "Treasuries reversed an early haven bid tied to Nvidia's leadership crisis as oil rebounded and Fed officials reinforced the case for further tightening. The 2-year yield rose 14.37 basis points to 4.8814%, and the 10-year increased 13.75 basis points to 5.1271%. The 2- to 10-year spread narrowed 0.62 basis point to 24.57 basis points. Higher real borrowing costs accounted for most of the 10-year move: the TIPS yield rose 9.59 basis points, while inflation compensation increased 4.16 basis points.\n\nTrump's assertion that the U.S. could forgo an Iran agreement weakened diplomatic optimism and lifted oil, even with large U.S. inventory increases. Cleveland Fed President Beth Hammack favored more frequent, smaller rate increases; San Francisco's Mary Daly expected further tightening would probably be necessary as businesses considered passing on costs. Low layoffs and sharply weaker home sales showed uneven effects of existing restraint, leaving December's increase size contested.\n\nNvidia removed Jensen Huang and named Colette Kress interim CEO. Its default-protection costs fell after an initial rise as traders considered whether the transition would curb borrowing and support for other AI companies. Its announced $500 billion financing platform had produced no deals, with partners seeking residual-value support beyond the proposed 25% ceiling. Alphabet nevertheless completed almost $4 billion-equivalent of Asian local-currency borrowing, and CoreWeave's bonds improved as more detailed secured-financing terms emerged. Investor capacity and the execution of supplier-backed funding remain central uncertainties.",
+    "summary": "Higher real yields drove most of the Treasury repricing, with inflation compensation also rising, while Nvidia's leadership change exposed questions about supplier-backed AI funding even as Alphabet completed Asian borrowing and CoreWeave's bonds improved."
   },
-  "report_date": "2026-11-11",
-  "run_id": "daily-fi-simple-2026-11-11-69376826-c690fc28",
+  "report_date": "2026-11-12",
+  "run_id": "daily-fi-simple-2026-11-12-41a2893b-e3185f54",
   "watch_events": [
     {
-      "category": "Data and policy",
-      "date": "November 12",
+      "category": "U.S. inflation",
+      "date": "Friday",
       "id": "watch-01",
-      "market_implication": "Support for a faster pace would shift the policy outlook; long-bond demand will inform duration pricing at reopening.",
-      "market_trigger": "Whether more officials favor faster tightening before December 9; the 18:00 UTC 30-year auction tests duration demand.",
-      "title": "U.S. reopening and the pace of Fed tightening",
-      "watch_line": "Claims, home sales and Fed speakers bring fresh evidence on activity and the tightening outlook."
+      "market_implication": "Broader inflation would reinforce the tightening case with futures already pricing December, January and March increases.",
+      "market_trigger": "Evidence of broader pricing pressure would support officials' concerns about businesses passing on costs.",
+      "title": "U.S. producer prices and the Fed's tightening pace",
+      "watch_line": "Watch whether producer-price pressure extends beyond energy and technology-related inputs."
     },
     {
-      "category": "Sovereign policy",
-      "date": "Ongoing",
+      "category": "Japan policy",
+      "date": "Monday; BOJ December 17-18",
       "id": "watch-02",
-      "market_implication": "A Chinese levy could raise required yields; Brazil's enacted restraint will shape confidence in fiscal consolidation.",
-      "market_trigger": "China clarifies whether a levy proceeds and covers existing bonds; Brazil's legislature determines the fiscal package's terms.",
-      "title": "Sovereign tax and fiscal proposals",
-      "watch_line": "China's bond-interest tax scope and Brazil's congressional treatment remain unresolved."
+      "market_implication": "Weak spending would reinforce caution over the pace of BOJ tightening alongside imported inflation pressure.",
+      "market_trigger": "Economists expect consumer spending to decline for the first time in nearly two years.",
+      "title": "Japan's demand outlook before the BOJ meeting",
+      "watch_line": "GDP will test consumption as producer inflation accelerates and the yen trades near 160 per dollar."
     },
     {
-      "category": "Financing demand",
-      "date": "Next week; November 18-19",
+      "category": "AI credit",
+      "date": "November 17 and ongoing",
       "id": "watch-03",
-      "market_implication": "Borrowing terms will reveal funding access against different collateral; Anthropic's debut tests broader AI risk appetite.",
-      "market_trigger": "Financing terms emerge; Anthropic prices November 18 and starts trading November 19 against valuation skepticism.",
-      "title": "Collateral-backed funding and AI valuations",
-      "watch_line": "CoreWeave's potential loan, Newton's ABS and Crunch's securitization test distinct funding channels."
+      "market_implication": "Execution would clarify borrower access to capital and the allocation of financing risk between suppliers and creditors.",
+      "market_trigger": "Watch supplier-support terms and whether proposed offerings and secured loans become executable funding on acceptable terms.",
+      "title": "AI financing under Nvidia's interim leadership",
+      "watch_line": "Nvidia earnings, Anthropic's offering and CoreWeave syndication will test financing commitments and demand."
     }
   ],
   "yield_heat_map": {
-    "rows": [],
-    "source_label": "U.S. Treasury"
+    "rows": [
+      {
+        "change_1d": "+14.37 bp",
+        "change_1m": "+9.45 bp",
+        "change_1w": "+41.91 bp",
+        "id": "ust2y_ny_close",
+        "last": "4.8814%",
+        "reference_type": "source_specific",
+        "tenor": "2Y",
+        "timestamp": "2026-11-12T21:59:58.000Z"
+      },
+      {
+        "change_1d": "+15.11 bp",
+        "change_1m": "-4.53 bp",
+        "change_1w": "+36.59 bp",
+        "id": "ust5y_ny_close",
+        "last": "4.9704%",
+        "reference_type": "source_specific",
+        "tenor": "5Y",
+        "timestamp": "2026-11-12T21:59:58.000Z"
+      },
+      {
+        "change_1d": "+13.75 bp",
+        "change_1m": "-11.07 bp",
+        "change_1w": "+29.24 bp",
+        "id": "ust10y_ny_close",
+        "last": "5.1271%",
+        "reference_type": "source_specific",
+        "tenor": "10Y",
+        "timestamp": "2026-11-12T21:59:58.000Z"
+      },
+      {
+        "change_1d": "+9.97 bp",
+        "change_1m": "-14.35 bp",
+        "change_1w": "+19.82 bp",
+        "id": "ust30y_ny_close",
+        "last": "5.4521%",
+        "reference_type": "source_specific",
+        "tenor": "30Y",
+        "timestamp": "2026-11-12T21:59:59.000Z"
+      },
+      {
+        "change_1d": "-0.62 bp",
+        "change_1m": "-20.52 bp",
+        "change_1w": "-12.67 bp",
+        "id": "ust_2s10s_curve",
+        "last": "24.57 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S10S",
+        "timestamp": "2026-11-12"
+      },
+      {
+        "change_1d": "-4.4 bp",
+        "change_1m": "-23.8 bp",
+        "change_1w": "-22.09 bp",
+        "id": "ust_2s30s_curve",
+        "last": "57.07 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S30S",
+        "timestamp": "2026-11-12"
+      },
+      {
+        "change_1d": "+2.1 bp",
+        "change_1m": "-7.44 bp",
+        "change_1w": "+2.03 bp",
+        "id": "ust_2s5s10s_bfly",
+        "last": "-6.77 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S5S10S",
+        "timestamp": "2026-11-12"
+      },
+      {
+        "change_1d": "+3.16 bp",
+        "change_1m": "-17.24 bp",
+        "change_1w": "-3.25 bp",
+        "id": "ust_2s10s30s_bfly",
+        "last": "-7.93 bp",
+        "reference_type": "source_specific",
+        "tenor": "2S10S30S",
+        "timestamp": "2026-11-12"
+      },
+      {
+        "change_1d": "+9.59 bp",
+        "change_1m": "-1.89 bp",
+        "change_1w": "+26.85 bp",
+        "id": "tips10y_ny_close",
+        "last": "2.8662%",
+        "reference_type": "source_specific",
+        "tenor": "10TIPS",
+        "timestamp": "2026-11-12T21:59:59.000Z"
+      },
+      {
+        "change_1d": "+4.16 bp",
+        "change_1m": "-9.18 bp",
+        "change_1w": "+2.39 bp",
+        "id": "be10y_ny_close",
+        "last": "2.2609%",
+        "reference_type": "source_specific",
+        "tenor": "10BE",
+        "timestamp": "2026-11-12"
+      }
+    ],
+    "source_label": "Bloomberg"
   }
 }
